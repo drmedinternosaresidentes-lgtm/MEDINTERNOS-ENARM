@@ -73,19 +73,41 @@ function renderInicio() {
       <div><h2>Especialidades</h2><p>Acceso rápido a simuladores por área.</p></div>
     </div>
     <div class="cards">
-      ${ESPECIALIDADES.slice(0,6).map(([name,icon,desc]) => specialtyCard(name,icon,desc)).join("")}
-    </div>
+      <div class="cards">
+  ${ESPECIALIDADES.map(([name,icon,desc]) => specialtyCard(name,icon,desc)).join("")}
+</div>
   `;
 }
 
 function specialtyCard(name, icon, desc) {
-  const count = BANCO_PREGUNTAS.filter(q => q.especialidad === name).length;
+  const count = BANCO_PREGUNTAS.filter(
+    q => q.especialidad === name
+  ).length;
+
+  const disponible = count > 0;
+
   return `
-    <article class="card specialty-card" onclick="iniciarEspecialidad('${name.replace(/'/g,"\\'")}')">
+    <article class="card specialty-card ${disponible ? "" : "disabled-card"}"
+      ${disponible ? `onclick="iniciarEspecialidad('${name.replace(/'/g,"\\'")}')"` : ""}>
+
       <div class="specialty-icon">${icon}</div>
+
       <h3>${name}</h3>
+
       <p>${desc}</p>
-      <div class="card-footer"><span>${count} preguntas cargadas</span><span class="tag">Iniciar →</span></div>
+
+      <div class="card-footer">
+        <span>
+          ${count} ${count === 1 ? "pregunta" : "preguntas"} cargadas
+        </span>
+
+        ${
+          disponible
+            ? `<span class="tag">Iniciar →</span>`
+            : `<span class="tag">Próximamente</span>`
+        }
+      </div>
+
     </article>
   `;
 }
@@ -109,9 +131,19 @@ function renderTemario() {
         <div class="list-item">
           <div><strong>${icon} ${name}</strong><small>${desc}</small></div>
           <div style="display:flex;align-items:center;gap:8px">
-            <span class="badge">${BANCO_PREGUNTAS.filter(q=>q.especialidad===name).length} preguntas</span>
-            <button class="btn btn-primary" onclick="iniciarEspecialidad('${name.replace(/'/g,"\\'")}')">Abrir</button>
-          </div>
+  <span class="badge">
+    ${BANCO_PREGUNTAS.filter(q => q.especialidad === name).length} preguntas
+  </span>
+
+  ${
+    BANCO_PREGUNTAS.some(q => q.especialidad === name)
+      ? `<button class="btn btn-primary"
+          onclick="iniciarEspecialidad('${name.replace(/'/g,"\\'")}')">
+          Abrir
+        </button>`
+      : `<span class="badge">Próximamente</span>`
+  }
+</div>
         </div>
       `).join("")}
     </div>
