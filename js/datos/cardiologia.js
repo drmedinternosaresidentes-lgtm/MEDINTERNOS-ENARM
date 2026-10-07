@@ -2862,7 +2862,7 @@ const BANCO_CARDIOLOGIA = [
         internacional: "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for Acute Coronary Syndromes; 2024 ESC Guidelines for Chronic Coronary Syndromes."
     },
     bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
-}
+},
 {
     id: "CARD-101",
     especialidad: "Cardiología",
