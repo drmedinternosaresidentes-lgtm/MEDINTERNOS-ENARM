@@ -156,26 +156,89 @@ function renderResultados() {
 
 function renderRevision() {
   const revision = document.getElementById("revision");
+
   revision.innerHTML = `
     <div class="section-title">
-      <div><h2>Retroalimentación</h2><p>Revisión de las preguntas contestadas.</p></div>
+      <div>
+        <h2>Retroalimentación</h2>
+        <p>Revisión de las preguntas contestadas.</p>
+      </div>
     </div>
+
     ${Simulador.preguntas.map((q, i) => {
       const ok = Simulador.respuestas[i] === q.respuestaCorrecta;
       const seleccion = Simulador.respuestas[i];
+
       return `
         <div class="review-item ${ok ? "correct" : "incorrect"}">
-          <h4>${i+1}. ${escapeHtml(q.pregunta)}</h4>
-          <p><strong>Tu respuesta:</strong> ${seleccion === null ? "Sin respuesta" : escapeHtml(q.opciones[seleccion])}</p>
-          <p><strong>Respuesta correcta:</strong> ${escapeHtml(q.opciones[q.respuestaCorrecta])}</p>
-          <p>${escapeHtml(q.explicacion)}</p>
-          <p class="source">GPC: ${escapeHtml(q.gpc)}</p>
-          <p><strong>Bibliografía:</strong> ${escapeHtml(q.bibliografia)}</p>
+
+          <h4>
+            ${i + 1}. ${escapeHtml(q.pregunta)}
+          </h4>
+
+          <p>
+            <strong>Tu respuesta:</strong>
+            ${
+              seleccion === null
+                ? "Sin respuesta"
+                : escapeHtml(q.opciones[seleccion])
+            }
+          </p>
+
+          <p>
+            <strong>Respuesta correcta:</strong>
+            ${escapeHtml(q.opciones[q.respuestaCorrecta])}
+          </p>
+
+          <p>
+            <strong>Explicación:</strong>
+            ${escapeHtml(q.explicacion)}
+          </p>
+
+          ${
+            q.perlaENARM
+              ? `
+                <div class="review-pearl">
+                  <strong>Perla ENARM</strong>
+                  <p>${escapeHtml(q.perlaENARM)}</p>
+                </div>
+              `
+              : ""
+          }
+
+          ${
+            typeof q.gpc === "object"
+              ? `
+                <p class="source">
+                  <strong>GPC México:</strong>
+                  ${escapeHtml(q.gpc.mexico || "No especificada")}
+                </p>
+
+                <p class="source">
+                  <strong>Guía internacional:</strong>
+                  ${escapeHtml(q.gpc.internacional || "No especificada")}
+                </p>
+              `
+              : `
+                <p class="source">
+                  <strong>GPC:</strong>
+                  ${escapeHtml(q.gpc || "No especificada")}
+                </p>
+              `
+          }
+
+          <p>
+            <strong>Bibliografía:</strong>
+            ${escapeHtml(q.bibliografia || "No especificada")}
+          </p>
+
         </div>
       `;
     }).join("")}
   `;
+
   revision.scrollIntoView({ behavior: "smooth" });
+}
 }
 
 function salirSimulador() {
