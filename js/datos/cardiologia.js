@@ -671,8 +671,7 @@ const BANCO_CARDIOLOGIA = [
         },
 
         bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
-        }
-    },
+        },
 
     // AQUÍ VAN CARD-021 A CARD-050
     {
