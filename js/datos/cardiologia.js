@@ -1662,7 +1662,7 @@ const BANCO_CARDIOLOGIA = [
         },
 
         bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
-    }
+    },
     {
     id: "CARD-051",
     especialidad: "Cardiología",
