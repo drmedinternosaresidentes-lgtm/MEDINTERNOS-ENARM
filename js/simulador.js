@@ -239,7 +239,6 @@ function renderRevision() {
 
   revision.scrollIntoView({ behavior: "smooth" });
 }
-}
 
 function salirSimulador() {
   if (confirm("¿Salir del simulador? El progreso actual se perderá.")) showView("inicio");
