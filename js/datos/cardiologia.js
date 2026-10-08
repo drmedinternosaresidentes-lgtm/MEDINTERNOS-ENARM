@@ -7056,6 +7056,2247 @@ const BANCO_CARDIOLOGIA = [
             internacional: "ESC 2024 Chronic Coronary Syndromes."
         },
         bibliografia: "ESC 2024 Chronic Coronary Syndromes; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+    },
+        {
+        id: "CARD-271",
+        especialidad: "Cardiología",
+        tema: "Imagen cardiovascular",
+        subtema: "Estenosis aórtica de bajo flujo y bajo gradiente",
+        dificultad: "Extrema",
+        caso: "Varón de 78 años con antecedente de hipertensión arterial, enfermedad coronaria estable y disnea progresiva de 8 meses. Refiere dos episodios recientes de presíncope al caminar. En la exploración presenta pulso carotídeo de ascenso lento, segundo ruido disminuido y soplo mesosistólico áspero en foco aórtico con irradiación a carótidas. TA 108/64 mmHg, FC 72 lpm. El ecocardiograma muestra FEVI de 32%, volumen sistólico indexado de 28 mL/m², área valvular aórtica de 0.72 cm², velocidad máxima transvalvular de 3.1 m/s y gradiente medio de 24 mmHg. La insuficiencia aórtica es trivial. La duda clínica es si realmente existe una estenosis aórtica severa o si la reducción del flujo está produciendo una aparente disminución del gradiente.",
+        pregunta: "¿Cuál es el siguiente estudio ecocardiográfico más apropiado para resolver la discordancia entre el área valvular y el gradiente?",
+        opciones: [
+            "Ecocardiograma transesofágico exclusivamente para medir la presión pulmonar",
+            "Ecocardiograma con dobutamina a dosis bajas para evaluar reserva contráctil y respuesta del gradiente/área",
+            "Ecocardiograma con solución salina para aumentar artificialmente el gradiente",
+            "Ecocardiograma 3D exclusivamente de la aurícula izquierda",
+            "Ecocardiograma de estrés con ejercicio máximo independientemente de la FEVI"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El paciente presenta una discordancia clásica: área valvular ≤1 cm², gradiente medio <40 mmHg, FEVI reducida y flujo sistólico bajo. En este contexto debe diferenciarse una estenosis aórtica verdaderamente severa de una pseudoestenosis relacionada con bajo flujo. El ecocardiograma con dobutamina a dosis bajas permite aumentar el flujo y observar la respuesta del gradiente y del área valvular. Si el gradiente aumenta de manera marcada manteniéndose un área muy reducida, se favorece estenosis verdaderamente severa. Si el área aumenta sustancialmente con el incremento del flujo sin una elevación proporcional del gradiente, puede tratarse de pseudoestenosis.",
+        perlaENARM: "Área ≤1 cm² + gradiente <40 mmHg NO equivale automáticamente a estenosis aórtica moderada. Primero hay que definir flujo, FEVI y contexto hemodinámico.",
+        gpc: {
+            mexico: "GPC mexicanas de valvulopatías aplicables al diagnóstico ecocardiográfico de estenosis aórtica.",
+            internacional: "ESC/EACTS 2025 Guidelines for the management of valvular heart disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-272",
+        especialidad: "Cardiología",
+        tema: "Imagen cardiovascular",
+        subtema: "Estenosis aórtica paradójica de bajo flujo",
+        dificultad: "Extrema",
+        caso: "Mujer de 82 años con hipertensión, fibrilación auricular permanente y disnea de esfuerzo. Ecocardiograma: FEVI 61%, área valvular aórtica 0.78 cm², gradiente medio 29 mmHg, velocidad máxima 3.4 m/s y volumen sistólico indexado 27 mL/m². El ventrículo izquierdo presenta hipertrofia concéntrica importante, cavidad pequeña y alteración del llenado. La presión arterial durante el estudio es 150/82 mmHg.",
+        pregunta: "¿Cuál es la interpretación más adecuada de estos hallazgos?",
+        opciones: [
+            "Estenosis aórtica moderada inequívoca porque la FEVI es normal",
+            "Estenosis aórtica severa de alto gradiente",
+            "Posible estenosis aórtica severa paradójica de bajo flujo y bajo gradiente con FEVI preservada, que requiere confirmación multimodal",
+            "Pseudoestenosis aórtica secundaria exclusivamente a fibrilación auricular",
+            "Insuficiencia aórtica severa"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "La paciente tiene FEVI preservada, pero bajo volumen sistólico indexado, área valvular ≤1 cm² y gradiente medio <40 mmHg. Esto corresponde al fenotipo de bajo flujo y bajo gradiente con FEVI preservada, denominado paradójico. La hipertrofia concéntrica, cavidad ventricular pequeña y alteraciones del llenado favorecen este escenario. Antes de intervenir debe confirmarse la severidad mediante integración multiparamétrica, incluyendo revisión de mediciones, condiciones de carga y, cuando corresponda, cuantificación anatómica mediante CT.",
+        perlaENARM: "Una FEVI normal no garantiza flujo normal. En la estenosis aórtica paradójica el problema es el volumen sistólico reducido pese a FEVI preservada.",
+        gpc: {
+            mexico: "GPC mexicanas de valvulopatía aórtica aplicables.",
+            internacional: "ESC/EACTS 2025 Guidelines for the management of valvular heart disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-273",
+        especialidad: "Cardiología",
+        tema: "Ecocardiografía",
+        subtema: "Función diastólica y HFpEF",
+        dificultad: "Extrema",
+        caso: "Mujer de 69 años con obesidad, hipertensión y diabetes presenta disnea progresiva. La FEVI es 63%. El ecocardiograma muestra hipertrofia ventricular izquierda leve, volumen auricular izquierdo indexado de 44 mL/m² y velocidad e' septal de 5 cm/s. La velocidad E mitral es 105 cm/s. La velocidad máxima de insuficiencia tricuspídea es 3.1 m/s. La paciente está en ritmo sinusal. BNP discretamente elevado. No existe enfermedad pulmonar significativa.",
+        pregunta: "¿Cuál es la interpretación fisiopatológica más adecuada?",
+        opciones: [
+            "La FEVI normal excluye insuficiencia cardiaca",
+            "Los hallazgos son compatibles con aumento de las presiones de llenado del VI y apoyan un fenotipo de HFpEF",
+            "La única explicación posible es insuficiencia tricuspídea primaria",
+            "La hipertrofia ventricular demuestra cardiomiopatía hipertrófica obstructiva",
+            "El BNP normalizaría completamente el diagnóstico"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La paciente presenta un fenotipo típico de HFpEF: factores de riesgo cardiometabólicos, FEVI preservada, hipertrofia, dilatación auricular izquierda y alteraciones de relajación con datos indirectos de elevación de las presiones de llenado. La evaluación de función diastólica moderna es multiparamétrica y debe integrar e', E/e', velocidad de regurgitación tricuspídea, volumen auricular y contexto clínico, evitando interpretar una sola variable de forma aislada.",
+        perlaENARM: "HFpEF no significa 'corazón normal con FEVI normal'. La FEVI es un descriptor de función sistólica, no una medición directa de las presiones de llenado.",
+        gpc: {
+            mexico: "GPC mexicanas de insuficiencia cardiaca aplicables al diagnóstico ecocardiográfico.",
+            internacional: "ASE 2025 Recommendations for LV Diastolic Function and HFpEF Diagnosis; ESC guidelines for heart failure."
+        },
+        bibliografia: "ASE 2025 Diastolic Function Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-274",
+        especialidad: "Cardiología",
+        tema: "Ecocardiografía",
+        subtema: "Strain longitudinal global",
+        dificultad: "Muy alta",
+        caso: "Varón de 63 años con hipertensión y antecedente de quimioterapia por linfoma hace 18 meses. FEVI actual 56%, previamente 62%. Se realiza ecocardiografía con strain longitudinal global (GLS), que muestra -14.8%. No presenta síntomas de insuficiencia cardiaca. El estudio convencional no muestra alteraciones segmentarias importantes.",
+        pregunta: "¿Cuál es la interpretación más apropiada del hallazgo?",
+        opciones: [
+            "La FEVI normal descarta cualquier alteración de función ventricular",
+            "El GLS puede detectar disfunción miocárdica subclínica antes de una reducción franca de la FEVI",
+            "El GLS solamente tiene utilidad en estenosis aórtica",
+            "El GLS sustituye por completo a la FEVI",
+            "El resultado confirma miocarditis"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El strain longitudinal global puede identificar alteraciones subclínicas de la función ventricular antes de que la FEVI disminuya de forma significativa. En pacientes expuestos a cardiotoxicidad, la evaluación longitudinal del cambio respecto al valor basal es particularmente importante. Un valor aislado debe interpretarse considerando técnica, equipo, software, carga hemodinámica y valores previos.",
+        perlaENARM: "La FEVI puede permanecer preservada mientras ya existe daño miocárdico detectable mediante deformación miocárdica.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables al seguimiento cardiovascular del paciente oncológico.",
+            internacional: "ASE/EACVI 2025 Clinical Applications of Strain Echocardiography."
+        },
+        bibliografia: "ASE/EACVI 2025 Clinical Applications of Strain Echocardiography; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-275",
+        especialidad: "Cardiología",
+        tema: "Ecocardiografía",
+        subtema: "Insuficiencia mitral primaria",
+        dificultad: "Extrema",
+        caso: "Mujer de 67 años presenta disnea de esfuerzo progresiva. El ecocardiograma transtorácico muestra prolapso importante del segmento P2 con jet excéntrico de insuficiencia mitral. La vena contracta es difícil de medir por la dirección del jet. La FEVI es 58%, diámetro telesistólico del VI 41 mm y volumen auricular izquierdo indexado 56 mL/m². Existe fibrilación auricular. El médico solicita cuantificación precisa antes de discutir intervención.",
+        pregunta: "¿Cuál es la mejor estrategia para definir la anatomía y severidad cuando el estudio transtorácico presenta limitaciones?",
+        opciones: [
+            "Descartar insuficiencia mitral severa porque el jet es excéntrico",
+            "Realizar únicamente una radiografía de tórax",
+            "Realizar ecocardiografía transesofágica, idealmente con evaluación 3D cuando sea pertinente",
+            "Utilizar exclusivamente BNP",
+            "Repetir el mismo estudio transtorácico sin modificar la estrategia de imagen"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "Los jets excéntricos pueden producir subestimación mediante algunas técnicas Doppler. La ecocardiografía transesofágica proporciona una mejor caracterización anatómica de la válvula y el mecanismo de la lesión, y la modalidad 3D puede ser particularmente útil para definir segmentos y anatomía quirúrgica o intervencionista. La cuantificación de la insuficiencia debe ser multiparamétrica y correlacionarse con remodelado ventricular y auricular.",
+        perlaENARM: "En insuficiencia mitral no existe una sola medición que deba interpretarse de manera aislada; los jets excéntricos son una fuente clásica de error.",
+        gpc: {
+            mexico: "GPC IMSS de diagnóstico y tratamiento de patología de la válvula mitral.",
+            internacional: "ESC/EACTS 2025 Valvular Heart Disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; GPC IMSS de patología mitral; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-276",
+        especialidad: "Cardiología",
+        tema: "Ecocardiografía",
+        subtema: "Insuficiencia tricuspídea",
+        dificultad: "Extrema",
+        caso: "Mujer de 74 años con fibrilación auricular permanente presenta edema periférico, hepatomegalia pulsátil y ascitis. Ecocardiograma: insuficiencia tricuspídea masiva, dilatación importante del anillo tricuspídeo, aurícula derecha severamente dilatada y ventrículo derecho dilatado. La FEVI es 61%. La presión sistólica pulmonar estimada no es marcadamente elevada.",
+        pregunta: "¿Cuál es el mecanismo más probable de la insuficiencia tricuspídea en este caso?",
+        opciones: [
+            "Endocarditis tricuspídea como explicación obligatoria",
+            "Insuficiencia tricuspídea funcional asociada a remodelado auricular y anular en el contexto de fibrilación auricular",
+            "Rotura aguda de músculo papilar del VI",
+            "Estenosis aórtica crítica",
+            "Miocarditis fulminante"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La fibrilación auricular crónica puede producir remodelado de la aurícula derecha y dilatación del anillo tricuspídeo, generando insuficiencia tricuspídea funcional aun sin hipertensión pulmonar severa. El fenotipo debe diferenciarse de la insuficiencia secundaria predominantemente ventricular, en la cual predomina el remodelado del VD.",
+        perlaENARM: "No toda insuficiencia tricuspídea funcional es consecuencia de hipertensión pulmonar. Existe un fenotipo asociado a fibrilación auricular y dilatación auricular/anular.",
+        gpc: {
+            mexico: "GPC mexicanas de valvulopatía tricuspídea aplicables.",
+            internacional: "ESC/EACTS 2025 Valvular Heart Disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-277",
+        especialidad: "Cardiología",
+        tema: "Ecocardiografía",
+        subtema: "Endocarditis infecciosa",
+        dificultad: "Extrema",
+        caso: "Varón de 58 años con fiebre persistente y bacteriemia por Staphylococcus aureus. Tiene prótesis valvular aórtica. El ecocardiograma transtorácico no demuestra vegetaciones y la función ventricular es normal. Continúa con fiebre y hemocultivos positivos. Existe un nuevo soplo diastólico.",
+        pregunta: "¿Cuál es el estudio de imagen más apropiado en este momento?",
+        opciones: [
+            "Repetir exclusivamente la radiografía de tórax",
+            "Ecocardiograma transesofágico",
+            "Prueba de esfuerzo",
+            "Gammagrafía ósea",
+            "Holter de 24 horas"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La prótesis valvular y la alta sospecha clínica aumentan la probabilidad de endocarditis protésica y complicaciones perivalvulares. El ecocardiograma transtorácico puede ser limitado por artefactos de la prótesis. El ecocardiograma transesofágico ofrece mejor resolución para identificar vegetaciones, dehiscencia, abscesos y otras complicaciones. En casos seleccionados puede requerirse imagen multimodal adicional.",
+        perlaENARM: "TTE negativo NO excluye endocarditis protésica cuando la sospecha clínica es alta.",
+        gpc: {
+            mexico: "GPC mexicanas de endocarditis infecciosa aplicables.",
+            internacional: "ESC 2023 Endocarditis Guidelines."
+        },
+        bibliografia: "ESC 2023 Endocarditis; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-278",
+        especialidad: "Cardiología",
+        tema: "Ecocardiografía",
+        subtema: "Shock cardiogénico",
+        dificultad: "Extrema",
+        caso: "Varón de 69 años ingresa por IAMCEST anterior. Después de la reperfusión persiste hipotensión de 76/48 mmHg, piel fría, oliguria y alteración del estado mental. Presenta ingurgitación yugular y estertores. Se realiza ecocardiograma a pie de cama: FEVI 20%, ventrículo derecho de tamaño normal, ausencia de derrame pericárdico y ausencia de insuficiencia mitral aguda evidente.",
+        pregunta: "¿Cuál de los siguientes hallazgos ecocardiográficos sería más útil para identificar un componente mecánico potencialmente reversible que explicara el deterioro hemodinámico?",
+        opciones: [
+            "Buscar comunicación interventricular postinfarto o insuficiencia mitral aguda mediante Doppler",
+            "Medir exclusivamente el diámetro de la aurícula izquierda",
+            "Buscar únicamente hipertrofia ventricular derecha",
+            "Realizar únicamente strain de la aurícula izquierda",
+            "Medir el grosor del septum interauricular como prueba definitiva"
+        ],
+        respuestaCorrecta: 0,
+        explicacion: "En el shock posterior al infarto es fundamental descartar complicaciones mecánicas, especialmente comunicación interventricular y ruptura del músculo papilar con insuficiencia mitral aguda. Estas entidades pueden producir deterioro hemodinámico abrupto y requieren tratamiento urgente. El ecocardiograma transtorácico es una herramienta inicial esencial y, si la calidad es insuficiente o persiste la sospecha, el transesofágico puede ser necesario.",
+        perlaENARM: "Shock + IAM + deterioro desproporcionado = buscar complicación mecánica antes de asumir simplemente 'fallo ventricular severo'.",
+        gpc: {
+            mexico: "GPC IMSS de síndrome coronario agudo; GPC mexicanas aplicables a complicaciones mecánicas.",
+            internacional: "ACC/AHA 2025 ACS Guideline."
+        },
+        bibliografia: "ACC/AHA 2025 ACS; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-279",
+        especialidad: "Cardiología",
+        tema: "Resonancia magnética cardiaca",
+        subtema: "Miocarditis",
+        dificultad: "Extrema",
+        caso: "Mujer de 31 años presenta dolor torácico, troponina elevada y alteraciones inespecíficas de repolarización. La angiografía coronaria no muestra enfermedad obstructiva. La resonancia magnética cardiaca demuestra edema miocárdico y realce tardío predominantemente subepicárdico en la pared inferolateral, sin distribución correspondiente a un territorio coronario único.",
+        pregunta: "¿Cuál es la interpretación más probable?",
+        opciones: [
+            "Infarto transmural por oclusión de la coronaria derecha",
+            "Miocarditis con patrón de lesión no isquémica",
+            "Isquemia por enfermedad de tres vasos",
+            "Estenosis mitral",
+            "Hipertensión pulmonar primaria"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El edema acompañado de realce tardío subepicárdico y distribución no territorial favorece lesión inflamatoria miocárdica. El patrón típico de infarto sigue un territorio vascular y afecta inicialmente el subendocardio, pudiendo extenderse de manera transmural. La CMR es particularmente útil para diferenciar miocarditis de infarto y otras causas de lesión miocárdica.",
+        perlaENARM: "CMR: realce subendocárdico/transmural siguiendo un territorio vascular = patrón isquémico; realce subepicárdico/mesomiocárdico no territorial = patrón no isquémico.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a lesión miocárdica/SCA.",
+            internacional: "ESC 2025 Guidelines for Myocarditis and Pericarditis."
+        },
+        bibliografia: "ESC 2025 Myocarditis and Pericarditis; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-280",
+        especialidad: "Cardiología",
+        tema: "Imagen cardiovascular",
+        subtema: "Integración multimodal",
+        dificultad: "Extrema",
+        caso: "Varón de 76 años con disnea progresiva y síncope de esfuerzo. El ecocardiograma muestra FEVI 48%, área valvular aórtica 0.68 cm² y gradiente medio 31 mmHg. El volumen sistólico indexado es 30 mL/m². La velocidad máxima es 3.5 m/s. Existe calcificación importante de la válvula. La calidad del tracto de salida del VI es limitada y existe incertidumbre respecto al diámetro utilizado para calcular el área. El paciente tiene enfermedad renal crónica moderada y no puede realizar una prueba de esfuerzo por los síntomas.",
+        pregunta: "¿Cuál es la estrategia más apropiada para resolver la incertidumbre diagnóstica antes de tomar una decisión definitiva sobre intervención?",
+        opciones: [
+            "Considerar automáticamente que se trata de estenosis aórtica moderada y dar de alta",
+            "Repetir la evaluación ecocardiográfica de forma rigurosa e integrar imagen multimodal, incluyendo cuantificación anatómica mediante CT cuando sea apropiada",
+            "Indicar fibrinólisis",
+            "Realizar exclusivamente Holter de 24 horas",
+            "Determinar únicamente BNP y basar la indicación de intervención en su resultado"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El caso presenta discordancia entre área, gradiente y flujo. Antes de una intervención debe verificarse la calidad de las mediciones ecocardiográficas, especialmente el diámetro del tracto de salida del VI, Doppler y condiciones de carga. Cuando persiste incertidumbre, la evaluación multimodal puede aportar información anatómica y cuantitativa adicional. En la estenosis aórtica de bajo flujo/bajo gradiente, la decisión no debe basarse en un único parámetro.",
+        perlaENARM: "En valvulopatías complejas, el error más peligroso es tratar un número aislado. Primero verifica la medición; después integra fisiología, anatomía, síntomas y daño ventricular.",
+        gpc: {
+            mexico: "GPC mexicanas de valvulopatía aórtica aplicables.",
+            internacional: "ESC/EACTS 2025 Guidelines for the management of valvular heart disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; Braunwald's Heart Disease."
+    },
+        {
+        id: "CARD-281",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Miocardiopatía hipertrófica vs fenocopias",
+        dificultad: "Extrema",
+        caso: "Varón de 29 años, futbolista amateur, consulta por disnea y dos episodios de presíncope durante ejercicio intenso. Su padre falleció súbitamente a los 47 años. El ECG muestra voltajes elevados, ondas T negativas profundas en derivaciones laterales y ondas Q estrechas en cara inferior. El ecocardiograma demuestra hipertrofia ventricular izquierda máxima de 22 mm, predominante en el septum, con movimiento sistólico anterior de la válvula mitral y gradiente dinámico del tracto de salida de 55 mmHg durante Valsalva. La presión arterial es normal. La resonancia cardiaca muestra hipertrofia asimétrica y realce tardío parcheado en segmentos hipertrofiados. No presenta enfermedad renal ni hipertensión.",
+        pregunta: "¿Cuál es la interpretación diagnóstica más adecuada?",
+        opciones: [
+            "Corazón de atleta porque realiza ejercicio regularmente",
+            "Hipertensión arterial como causa primaria de la hipertrofia",
+            "Miocardiopatía hipertrófica obstructiva con fenotipo de riesgo que requiere evaluación especializada",
+            "Estenosis aórtica subclínica",
+            "Miocardiopatía dilatada incipiente"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "La combinación de hipertrofia ventricular izquierda inexplicada, distribución septal asimétrica, obstrucción dinámica del tracto de salida, antecedentes familiares de muerte súbita, alteraciones electrocardiográficas y realce tardío no isquémico es altamente compatible con miocardiopatía hipertrófica. El antecedente de ejercicio no convierte automáticamente la hipertrofia en corazón de atleta. En este paciente deben integrarse historia familiar de tres generaciones, CMR, evaluación de arritmias, riesgo de muerte súbita y valoración genética. La presencia de obstrucción provocable también tiene implicaciones terapéuticas.",
+        perlaENARM: "Hipertrofia inexplicada + historia familiar de muerte súbita + realce tardío + gradiente dinámico = HCM hasta demostrar lo contrario.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a miocardiopatía hipertrófica y prevención de muerte súbita.",
+            internacional: "AHA/ACC/AMSSM/HRS/PACES/SCMR 2024 HCM Guideline; ESC 2023 Cardiomyopathies."
+        },
+        bibliografia: "AHA/ACC 2024 HCM Guideline; ESC 2023 Cardiomyopathies; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-282",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Miocardiopatía hipertrófica obstructiva",
+        dificultad: "Extrema",
+        caso: "Mujer de 58 años con miocardiopatía hipertrófica obstructiva presenta disnea NYHA III pese a tratamiento con beta-bloqueador. El ecocardiograma muestra hipertrofia septal, movimiento sistólico anterior de la válvula mitral y gradiente del tracto de salida de 85 mmHg durante ejercicio. FEVI 72%. No presenta hipotensión. Tiene fibrilación auricular paroxística y no existe enfermedad coronaria obstructiva. Refiere síntomas importantes que limitan sus actividades cotidianas.",
+        pregunta: "¿Cuál es la estrategia terapéutica que debe considerarse después de optimizar el tratamiento médico?",
+        opciones: [
+            "Reducir deliberadamente la precarga con dosis altas de diuréticos independientemente de la congestión",
+            "Añadir un fármaco inotrópico positivo para aumentar la contractilidad",
+            "Valoración en un centro especializado para terapia dirigida a la obstrucción, incluyendo inhibidor de miosina o reducción septal según características",
+            "Suspender el beta-bloqueador y comenzar digoxina como primera estrategia",
+            "Realizar fibrinólisis sistémica"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "La paciente tiene HCM obstructiva sintomática con gradiente importante pese a tratamiento médico. La estrategia debe individualizarse en un centro con experiencia. Las opciones actuales incluyen tratamiento farmacológico dirigido, particularmente inhibidores de miosina en pacientes adultos seleccionados, y terapias de reducción septal cuando persisten síntomas significativos y existe obstrucción relevante. No debe utilizarse de manera indiscriminada una estrategia que reduzca excesivamente la precarga o aumente la contractilidad, porque puede empeorar la obstrucción dinámica.",
+        perlaENARM: "En HCM obstructiva, el objetivo no es 'aumentar la fuerza de contracción'; es reducir la obstrucción y mejorar el llenado sin agravar la fisiología dinámica.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a miocardiopatía hipertrófica.",
+            internacional: "AHA/ACC/AMSSM/HRS/PACES/SCMR 2024 HCM Guideline; ESC 2023 Cardiomyopathies."
+        },
+        bibliografia: "AHA/ACC 2024 HCM Guideline; ESC 2023 Cardiomyopathies; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-283",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Miocardiopatía dilatada y genética",
+        dificultad: "Extrema",
+        caso: "Varón de 41 años consulta por insuficiencia cardiaca de reciente diagnóstico. Ecocardiograma: VI dilatado, FEVI 28%, hipocinesia global y ausencia de alteraciones segmentarias predominantes. Coronariografía sin enfermedad obstructiva. No consume alcohol y no utiliza cardiotóxicos. Su madre presentó insuficiencia cardiaca a los 52 años y un hermano tiene un desfibrilador implantable por taquicardia ventricular. La CMR muestra realce tardío mesomiocárdico septal. El paciente presenta extrasístoles ventriculares frecuentes y episodios de taquicardia ventricular no sostenida.",
+        pregunta: "¿Qué característica del caso aumenta especialmente la sospecha de una miocardiopatía dilatada de origen genético con implicaciones arrítmicas?",
+        opciones: [
+            "Ausencia de enfermedad coronaria por sí sola",
+            "Historia familiar de cardiomiopatía y arritmias ventriculares junto con fibrosis miocárdica no isquémica",
+            "La presencia aislada de FEVI de 28%",
+            "La edad mayor de 40 años como único dato",
+            "La ausencia de hipertensión arterial"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La combinación de historia familiar de insuficiencia cardiaca, un familiar con arritmias ventriculares, patrón de fibrosis no isquémica en CMR y arritmias ventriculares propias del paciente aumenta fuertemente la sospecha de una cardiomiopatía genética. Algunas variantes, como las relacionadas con LMNA, FLNC y otras proteínas estructurales, pueden asociarse con una carga arrítmica desproporcionada respecto a la magnitud de la disfunción ventricular. Esto puede modificar la valoración del riesgo y las decisiones sobre dispositivos y seguimiento familiar.",
+        perlaENARM: "En DCM genética, la arritmia puede ser una manifestación central de la enfermedad y no simplemente una consecuencia tardía de la FEVI baja.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a insuficiencia cardiaca y miocardiopatías.",
+            internacional: "ESC 2023 Cardiomyopathies; ESC Council on Cardiovascular Genomics consensus."
+        },
+        bibliografia: "ESC 2023 Cardiomyopathies; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-284",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Miocardiopatía no dilatada del ventrículo izquierdo",
+        dificultad: "Extrema",
+        caso: "Mujer de 34 años con síncope inexplicado presenta ECG con extrasístoles ventriculares frecuentes y ondas T negativas en derivaciones inferolaterales. Ecocardiograma: FEVI 58%, dimensiones ventriculares normales y ausencia de hipertrofia significativa. La CMR muestra una zona extensa de fibrosis mesomiocárdica en el septum y pared inferolateral. Su hermana presentó muerte súbita a los 39 años. No existen lesiones coronarias.",
+        pregunta: "¿Cuál es el concepto que mejor integra el fenotipo?",
+        opciones: [
+            "El estudio es normal porque la FEVI está preservada",
+            "Miocardiopatía no dilatada del VI con evidencia de enfermedad miocárdica estructural y eléctrica",
+            "Cardiopatía isquémica estable",
+            "Corazón de atleta fisiológico",
+            "Pericarditis crónica"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La clasificación contemporánea reconoce la miocardiopatía no dilatada del VI como un fenotipo en el que existe enfermedad miocárdica estructural o eléctrica —por ejemplo fibrosis, alteraciones regionales o arritmias— sin cumplir necesariamente los criterios clásicos de dilatación ventricular y disfunción sistólica. En este caso, la fibrosis extensa, arritmias, síncope y antecedente familiar son datos de enfermedad miocárdica con potencial riesgo arrítmico pese a una FEVI conservada.",
+        perlaENARM: "FEVI preservada ≠ ausencia de cardiomiopatía. La fibrosis miocárdica puede preceder a la dilatación y a la disfunción sistólica.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables según presentación clínica.",
+            internacional: "ESC 2023 Cardiomyopathies."
+        },
+        bibliografia: "ESC 2023 Cardiomyopathies; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-285",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Miocardiopatía arritmogénica",
+        dificultad: "Extrema",
+        caso: "Varón de 27 años, ciclista de alto rendimiento, presenta síncope durante ejercicio. ECG: ondas T negativas en V1-V4 y ondas épsilon sospechosas. Holter: múltiples extrasístoles ventriculares con morfología de bloqueo de rama izquierda y eje superior, además de episodios de taquicardia ventricular no sostenida. Ecocardiograma: ventrículo derecho discretamente dilatado con reducción regional de la contractilidad. CMR: alteraciones regionales del VD y fibrosis con patrón compatible con enfermedad arritmogénica. Un tío materno murió súbitamente a los 35 años.",
+        pregunta: "¿Cuál es el diagnóstico que mejor integra el cuadro?",
+        opciones: [
+            "Corazón de atleta sin enfermedad estructural",
+            "Miocardiopatía arritmogénica",
+            "Síndrome de Wolff-Parkinson-White aislado",
+            "Miocardiopatía hipertrófica obstructiva",
+            "Pericarditis aguda"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La combinación de síncope relacionado con ejercicio, carga ventricular elevada, TV con morfología compatible con origen ventricular derecho, alteraciones electrocardiográficas, anomalías estructurales regionales del VD, fibrosis en CMR y antecedente familiar es altamente sugestiva de miocardiopatía arritmogénica. El ejercicio intenso puede favorecer penetrancia y progresión fenotípica en individuos susceptibles. El diagnóstico debe realizarse mediante integración de criterios clínicos, electrocardiográficos, de imagen, arrítmicos y genéticos cuando corresponda.",
+        perlaENARM: "En la miocardiopatía arritmogénica, la arritmia puede preceder a una disfunción ventricular evidente.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a arritmias y cardiomiopatías.",
+            internacional: "ESC 2023 Cardiomyopathies."
+        },
+        bibliografia: "ESC 2023 Cardiomyopathies; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-286",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Miocardiopatía restrictiva",
+        dificultad: "Extrema",
+        caso: "Mujer de 63 años presenta disnea, edema periférico y ascitis progresiva. Ecocardiograma: ambos ventrículos de tamaño relativamente pequeño, FEVI 58%, marcada dilatación auricular bilateral y patrón de llenado restrictivo. La presión pulmonar está elevada. En el ECG existe bajo voltaje generalizado. CMR muestra engrosamiento aparente de las paredes ventriculares con alteración difusa del realce miocárdico. No existe antecedente de hipertensión significativa.",
+        pregunta: "¿Cuál es el diagnóstico etiológico que debe investigarse prioritariamente?",
+        opciones: [
+            "Hipertensión arterial sistémica crónica como causa suficiente",
+            "Enfermedad infiltrativa, particularmente amiloidosis cardiaca",
+            "Miocardiopatía hipertrófica sarcomérica obligatoriamente",
+            "Cardiopatía isquémica de un solo vaso",
+            "Pericarditis viral aguda"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La fisiología restrictiva con dilatación auricular marcada, paredes aparentemente engrosadas, bajo voltaje en ECG y ausencia de hipertensión significativa debe hacer sospechar una cardiomiopatía infiltrativa. La amiloidosis cardiaca es una causa particularmente importante. La evaluación debe incluir estudios dirigidos a descartar cadenas ligeras monoclonales y, cuando corresponda, gammagrafía con trazadores óseos para evaluar ATTR, además de CMR y valoración sistémica.",
+        perlaENARM: "Pared ventricular gruesa + ECG de bajo voltaje + fisiología restrictiva = pensar en infiltración antes que asumir HCM.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a insuficiencia cardiaca y cardiomiopatías infiltrativas.",
+            internacional: "ESC 2023 Cardiomyopathies."
+        },
+        bibliografia: "ESC 2023 Cardiomyopathies; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-287",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Amiloidosis cardiaca ATTR",
+        dificultad: "Extrema",
+        caso: "Varón de 76 años con insuficiencia cardiaca con FEVI 52%, síndrome del túnel del carpo bilateral y estenosis lumbar previa. Ecocardiograma: hipertrofia ventricular concéntrica, dilatación auricular y strain longitudinal global reducido con preservación relativa del ápex. CMR muestra expansión del volumen extracelular y patrón difuso de realce. Las cadenas ligeras séricas y urinarias, así como inmunofijación, no muestran evidencia de discrasia monoclonal. La gammagrafía con trazador óseo muestra captación miocárdica intensa grado 3.",
+        pregunta: "¿Cuál es el diagnóstico más probable y cuál es el siguiente principio diagnóstico correcto?",
+        opciones: [
+            "Amiloidosis AL confirmada; iniciar quimioterapia sin estudios adicionales",
+            "Amiloidosis ATTR cardiaca; en ausencia de evidencia de proteína monoclonal, la gammagrafía ósea altamente positiva puede establecer el diagnóstico no invasivo",
+            "HCM sarcomérica; la gammagrafía carece de utilidad",
+            "Pericarditis constrictiva",
+            "Miocarditis crónica"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El fenotipo clínico y de imagen es altamente sugestivo de amiloidosis ATTR. La ausencia de evidencia de una proteína monoclonal es fundamental porque una gammagrafía positiva en presencia de una discrasia monoclonal no permite asumir ATTR sin una evaluación adicional. En pacientes con sospecha de ATTR cardiaca, gammagrafía ósea fuertemente positiva junto con evaluación negativa para componente monoclonal puede permitir diagnóstico no invasivo.",
+        perlaENARM: "Antes de interpretar una gammagrafía positiva como ATTR, siempre hay que excluir proteína monoclonal para evitar pasar por alto amiloidosis AL.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a insuficiencia cardiaca y enfermedades infiltrativas.",
+            internacional: "ESC 2023 Cardiomyopathies."
+        },
+        bibliografia: "ESC 2023 Cardiomyopathies; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-288",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Enfermedad de Anderson-Fabry",
+        dificultad: "Extrema",
+        caso: "Varón de 39 años presenta hipertrofia ventricular izquierda progresiva, proteinuria leve y episodios recurrentes de dolor urente en manos y pies desde la adolescencia. Refiere hipohidrosis y varios familiares maternos con enfermedad renal. ECG con PR relativamente corto y signos de hipertrofia. CMR muestra hipertrofia concéntrica y fibrosis localizada predominantemente en la pared inferolateral basal. No tiene hipertensión significativa.",
+        pregunta: "¿Qué diagnóstico debe considerarse especialmente?",
+        opciones: [
+            "Miocardiopatía hipertrófica sarcomérica exclusivamente",
+            "Enfermedad de Anderson-Fabry",
+            "Cardiopatía hipertensiva",
+            "Pericarditis constrictiva",
+            "Estenosis aórtica crítica"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La combinación de hipertrofia ventricular, síntomas extracardiacos desde edad temprana, proteinuria, hipohidrosis, dolor neuropático distal y agregación familiar materna sugiere enfermedad de Anderson-Fabry. En varones, la actividad de alfa-galactosidasa A y posteriormente el estudio genético son componentes fundamentales del diagnóstico. Reconocer una fenocopia es importante porque existe tratamiento específico y porque el abordaje familiar cambia.",
+        perlaENARM: "HVI + manifestaciones extracardiacas + patrón familiar ligado al X = buscar una fenocopia como Fabry antes de etiquetar HCM sarcomérica.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a cardiomiopatías y enfermedad renal hereditaria.",
+            internacional: "ESC 2023 Cardiomyopathies."
+        },
+        bibliografia: "ESC 2023 Cardiomyopathies; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-289",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Genética y familiares",
+        dificultad: "Extrema",
+        caso: "Una mujer de 45 años con miocardiopatía dilatada presenta una variante genética patogénica claramente establecida asociada a su enfermedad. Tiene dos hijos adultos asintomáticos. Uno de ellos solicita directamente una prueba genética comercial y recibe un resultado negativo para la variante familiar. No se ha realizado evaluación cardiológica formal.",
+        pregunta: "¿Cuál es la estrategia más apropiada para el hijo con resultado negativo conocido para la variante familiar patogénica?",
+        opciones: [
+            "Declararlo definitivamente libre de riesgo sin valoración clínica",
+            "Repetir indefinidamente pruebas comerciales de panel amplio",
+            "Interpretar el resultado dentro del contexto del estudio familiar y establecer el seguimiento cardiológico/genético apropiado",
+            "Indicar un desfibrilador profiláctico independientemente del fenotipo",
+            "Indicar tratamiento de insuficiencia cardiaca a dosis máximas aunque sea asintomático"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "En cardiomiopatías hereditarias, la prueba genética debe realizarse dentro de un proceso de asesoramiento y con una variante familiar bien caracterizada. Un resultado negativo para la variante patogénica familiar puede modificar sustancialmente el riesgo genético respecto al familiar afectado, pero no debe interpretarse de forma aislada ni a partir de pruebas comerciales no validadas. La evaluación debe considerar la calidad del estudio, el fenotipo familiar y las recomendaciones del equipo especializado. Las variantes de significado incierto tampoco deben utilizarse de forma automática para diagnosticar o excluir enfermedad.",
+        perlaENARM: "La genética clínica no es simplemente 'pedir un panel': primero se define el fenotipo y la variante familiar, después se realiza estudio dirigido y asesoramiento.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a cardiomiopatías hereditarias y valoración familiar.",
+            internacional: "ESC 2023 Cardiomyopathies; ESC Council on Cardiovascular Genomics consensus 2024."
+        },
+        bibliografia: "ESC 2023 Cardiomyopathies; ESC Cardiovascular Genomics Consensus 2024."
+    },
+
+    {
+        id: "CARD-290",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Integración de riesgo de muerte súbita",
+        dificultad: "Extrema",
+        caso: "Varón de 36 años con miocardiopatía dilatada no isquémica recibe tratamiento médico óptimo durante más de 6 meses. La FEVI permanece en 31%. Presenta fibrosis extensa en CMR con patrón no isquémico, episodios repetidos de taquicardia ventricular no sostenida y antecedente familiar de muerte súbita. Un estudio genético identifica una variante patogénica en un gen asociado con cardiomiopatía y arritmias ventriculares. Se encuentra en ritmo sinusal y tiene síntomas NYHA II.",
+        pregunta: "¿Cuál es el principio más importante al valorar la prevención de muerte súbita en este paciente?",
+        opciones: [
+            "La FEVI es el único factor que determina el riesgo arrítmico",
+            "La presencia de fibrosis, arritmias ventriculares, historia familiar y etiología genética debe integrarse con la FEVI para estratificación individualizada",
+            "Una FEVI >30% excluye indicación de cualquier estrategia preventiva",
+            "El resultado genético no tiene utilidad clínica en cardiomiopatías",
+            "Debe realizarse ablación de todas las extrasístoles antes de considerar cualquier dispositivo"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La evaluación contemporánea del riesgo arrítmico en cardiomiopatías no debe depender exclusivamente de la FEVI. La etiología genética, el patrón y extensión de fibrosis en CMR, la presencia de TV no sostenida, antecedentes familiares y el fenotipo clínico pueden aportar información pronóstica relevante. En determinadas formas genéticas, el riesgo arrítmico puede ser desproporcionado respecto a la magnitud de la disfunción ventricular. La decisión sobre ICD debe individualizarse mediante una evaluación especializada y considerando las recomendaciones específicas del fenotipo y genotipo.",
+        perlaENARM: "En cardiomiopatías, la FEVI es importante, pero no es sinónimo de riesgo arrítmico. Genotipo + fibrosis + arritmias + familia pueden cambiar la estratificación.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a insuficiencia cardiaca, arritmias y prevención de muerte súbita.",
+            internacional: "ESC 2023 Cardiomyopathies; ESC 2022 Ventricular Arrhythmias/SCD."
+        },
+        bibliografia: "ESC 2023 Cardiomyopathies; ESC 2022 Ventricular Arrhythmias; Braunwald's Heart Disease."
+    },
+        {
+        id: "CARD-291",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "LMNA y riesgo arrítmico",
+        dificultad: "Extrema",
+        caso: "Varón de 39 años consulta por palpitaciones, presíncope y deterioro progresivo de la tolerancia al ejercicio. ECG: PR de 240 ms, bloqueo de rama derecha y hemibloqueo anterior izquierdo. Holter de 48 horas: múltiples extrasístoles ventriculares y dos episodios de taquicardia ventricular no sostenida. Ecocardiograma: FEVI 44%, dilatación ventricular izquierda leve. No existe enfermedad coronaria. Su madre falleció súbitamente a los 48 años y un hermano recibió un marcapasos a los 42 años por trastorno progresivo de conducción. El estudio genético identifica una variante patogénica en LMNA.",
+        pregunta: "¿Cuál es la implicación clínica más importante de este hallazgo?",
+        opciones: [
+            "El genotipo LMNA prácticamente descarta el riesgo de muerte súbita",
+            "El trastorno de conducción es incidental y debe manejarse de manera independiente",
+            "La combinación de enfermedad por LMNA, trastornos de conducción y arritmias ventriculares identifica un fenotipo con riesgo arrítmico elevado y puede justificar una estrategia temprana de dispositivo",
+            "El paciente debe recibir únicamente anticoagulación",
+            "El diagnóstico definitivo es síndrome de Wolff-Parkinson-White"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "Las cardiomiopatías asociadas a LMNA tienen una característica particularmente importante: pueden desarrollar trastornos de conducción, bradiarritmias y arritmias ventriculares antes de que exista una disfunción ventricular severa. En este paciente coinciden enfermedad de conducción progresiva, TV no sostenida, antecedente familiar de muerte súbita, FEVI reducida y variante patogénica. Por ello, el riesgo arrítmico no debe valorarse utilizando exclusivamente el umbral convencional de FEVI. La estrategia de dispositivo debe discutirse tempranamente en un centro especializado, considerando que un ICD puede ofrecer protección frente a muerte súbita además de permitir estimulación cuando existe enfermedad de conducción.",
+        perlaENARM: "LMNA + trastorno de conducción + TV no sostenida + historia familiar de muerte súbita = riesgo arrítmico desproporcionado respecto a la FEVI.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a miocardiopatía dilatada, trastornos de conducción y prevención de muerte súbita.",
+            internacional: "ESC 2023 Cardiomyopathies; ESC 2022 Ventricular Arrhythmias and Sudden Cardiac Death."
+        },
+        bibliografia: "ESC 2023 Cardiomyopathies; ESC 2022 Ventricular Arrhythmias; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-292",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "FLNC y fibrosis miocárdica",
+        dificultad: "Extrema",
+        caso: "Mujer de 45 años con insuficiencia cardiaca no isquémica presenta FEVI de 38%. La CMR muestra fibrosis miocárdica extensa con patrón subepicárdico y mesomiocárdico. El Holter documenta múltiples episodios de TV no sostenida. Su padre murió súbitamente a los 51 años. Una hermana tiene FEVI de 40%. El estudio genético identifica una variante truncante patogénica en FLNC.",
+        pregunta: "¿Qué aspecto debe modificar de manera importante la valoración pronóstica?",
+        opciones: [
+            "La ausencia de enfermedad coronaria hace que el riesgo sea bajo",
+            "La presencia de una variante FLNC asociada a fenotipo arrítmico, fibrosis extensa y TV no sostenida incrementa la preocupación por muerte súbita",
+            "La FEVI superior a 35% elimina el riesgo de muerte súbita",
+            "La fibrosis no isquémica carece de valor pronóstico",
+            "La historia familiar solo es relevante si existe HCM"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "Algunas variantes patogénicas de FLNC se asocian con fenotipos de miocardiopatía dilatada/no dilatada caracterizados por fibrosis miocárdica y una carga arrítmica importante. En este caso convergen genotipo de riesgo, fibrosis extensa, TV no sostenida y antecedente familiar de muerte súbita. La FEVI no debe utilizarse como único marcador de riesgo. La decisión sobre ICD requiere valoración especializada e integración del fenotipo completo.",
+        perlaENARM: "En ciertas cardiomiopatías genéticas, la fibrosis y el fenotipo arrítmico pueden adquirir importancia incluso con FEVI >35%.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a cardiomiopatía dilatada y prevención de muerte súbita.",
+            internacional: "ESC 2023 Cardiomyopathies."
+        },
+        bibliografia: "ESC 2023 Cardiomyopathies; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-293",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "DSP y cardiomiopatía arritmogénica",
+        dificultad: "Extrema",
+        caso: "Varón de 32 años presenta episodios recurrentes de dolor torácico, troponina elevada y cambios transitorios del ST. La coronariografía es normal. La CMR muestra múltiples áreas de fibrosis subepicárdica inferolateral. Posteriormente desarrolla extrasístoles ventriculares frecuentes y TV no sostenida. Ecocardiograma inicial con FEVI 54%, pero en el seguimiento aparece disminución progresiva de la función ventricular izquierda. Su hermana presenta un fenotipo similar. El estudio genético identifica una variante patogénica en DSP.",
+        pregunta: "¿Cuál es la interpretación más apropiada?",
+        opciones: [
+            "Los episodios de troponina elevada excluyen una cardiomiopatía genética",
+            "El cuadro es compatible con un fenotipo de cardiomiopatía arritmogénica asociado a DSP, que puede presentar predominantemente afectación del VI",
+            "El diagnóstico debe ser enfermedad coronaria microvascular obligatoriamente",
+            "La FEVI inicialmente preservada descarta cardiomiopatía",
+            "La única explicación es pericarditis recurrente"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "Las cardiomiopatías relacionadas con DSP pueden presentar un fenotipo predominantemente izquierdo, fibrosis subepicárdica, episodios semejantes a miocarditis con elevación de troponina y posteriormente disfunción ventricular y arritmias. Este patrón es particularmente importante porque puede no cumplir inicialmente con el fenotipo clásico de enfermedad arritmogénica predominantemente del VD. El genotipo y la CMR ayudan a reconocer el proceso.",
+        perlaENARM: "Troponina recurrentemente elevada + fibrosis subepicárdica + arritmias + historia familiar = considerar cardiomiopatía genética, especialmente cuando las coronarias son normales.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a miocarditis, arritmias y cardiomiopatías.",
+            internacional: "ESC 2023 Cardiomyopathies."
+        },
+        bibliografia: "ESC 2023 Cardiomyopathies; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-294",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Fibrosis en CMR y muerte súbita",
+        dificultad: "Extrema",
+        caso: "Varón de 51 años con HCM presenta disnea NYHA II. FEVI 64%. No ha presentado síncope y no tiene antecedente familiar conocido de muerte súbita. Holter de 48 horas sin TV no sostenida. El ecocardiograma muestra hipertrofia máxima de 19 mm. Sin embargo, la CMR demuestra una carga extensa de realce tardío, cercana al 18% de la masa ventricular izquierda.",
+        pregunta: "¿Cuál es la interpretación más adecuada del resultado de CMR?",
+        opciones: [
+            "La fibrosis carece de utilidad porque la FEVI está preservada",
+            "El realce tardío extenso constituye un marcador adicional relevante para estratificación de riesgo, pero no debe utilizarse de manera aislada para indicar ICD",
+            "La presencia de fibrosis confirma amiloidosis AL",
+            "El resultado indica enfermedad coronaria obstructiva",
+            "La fibrosis excluye el diagnóstico de HCM"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La fibrosis miocárdica cuantificada mediante LGE en CMR se asocia con mayor riesgo de arritmias ventriculares y muerte súbita en HCM. Sin embargo, el riesgo debe interpretarse en conjunto con antecedentes de síncope, historia familiar, grosor máximo, presencia de aneurisma apical, TV no sostenida, función ventricular y otros modificadores. No debe utilizarse un porcentaje de fibrosis como sustituto de la valoración clínica integral.",
+        perlaENARM: "LGE extensa aumenta el riesgo, pero la indicación de ICD en HCM no debe reducirse a 'LGE alto = ICD'.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a HCM y prevención de muerte súbita.",
+            internacional: "AHA/ACC 2024 HCM Guideline; ESC 2023 Cardiomyopathies."
+        },
+        bibliografia: "AHA/ACC 2024 HCM Guideline; ESC 2023 Cardiomyopathies."
+    },
+
+    {
+        id: "CARD-295",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "HCM y aneurisma apical",
+        dificultad: "Extrema",
+        caso: "Mujer de 61 años con HCM apical consulta por palpitaciones. Ecocardiograma: hipertrofia apical importante y FEVI 51%. La CMR demuestra un aneurisma apical verdadero con adelgazamiento regional, acinesia y fibrosis extensa. Holter: TV no sostenida de 8 latidos a 180 lpm. No ha presentado paro cardiaco previo.",
+        pregunta: "¿Qué elemento del caso es particularmente relevante para la estratificación de muerte súbita?",
+        opciones: [
+            "La presencia del aneurisma apical y la carga arrítmica deben incorporarse a la evaluación del riesgo",
+            "El aneurisma apical reduce el riesgo porque limita la contractilidad",
+            "La FEVI >50% elimina cualquier riesgo arrítmico",
+            "La TV no sostenida carece de importancia en HCM",
+            "La HCM apical nunca se asocia a muerte súbita"
+        ],
+        respuestaCorrecta: 0,
+        explicacion: "El aneurisma apical es un marcador fenotípico relevante en HCM y puede asociarse con fibrosis, arritmias ventriculares y riesgo tromboembólico. En este paciente además existe TV no sostenida y reducción de la FEVI, por lo que se requiere una valoración especializada del riesgo de muerte súbita y de las complicaciones del aneurisma. La CMR es especialmente útil para definir su anatomía y carga de fibrosis.",
+        perlaENARM: "HCM apical no significa automáticamente bajo riesgo. El aneurisma apical cambia la evaluación pronóstica.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a HCM y arritmias ventriculares.",
+            internacional: "AHA/ACC 2024 HCM Guideline; ESC 2023 Cardiomyopathies."
+        },
+        bibliografia: "AHA/ACC 2024 HCM Guideline; ESC 2023 Cardiomyopathies."
+    },
+
+    {
+        id: "CARD-296",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Genotipo positivo fenotipo negativo",
+        dificultad: "Extrema",
+        caso: "Una mujer de 24 años es hija de un paciente con HCM sarcomérica y variante patogénica en MYBPC3. Ella presenta ECG normal, ecocardiograma sin hipertrofia y FEVI 65%. La prueba genética dirigida demuestra que es portadora de la misma variante familiar. No tiene síncope ni arritmias.",
+        pregunta: "¿Cuál es la conducta más apropiada?",
+        opciones: [
+            "Implantar un ICD como prevención primaria exclusivamente por ser genotipo positivo",
+            "Declararla definitivamente libre de enfermedad",
+            "Mantener vigilancia clínica e imagenológica periódica; el genotipo positivo no equivale por sí solo a HCM fenotípica ni constituye indicación de ICD",
+            "Iniciar beta-bloqueador a dosis máxima de forma obligatoria",
+            "Restringir toda actividad física independientemente del contexto"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "La paciente es genotipo positiva pero fenotipo negativa. Debe recibir seguimiento periódico porque la penetrancia es dependiente de edad y otros factores. Sin embargo, la presencia aislada de una variante patogénica no constituye por sí misma diagnóstico fenotípico de HCM ni indicación de ICD para prevención primaria. La guía AHA/ACC 2024 contempla seguimiento de familiares y enfatiza la toma de decisiones compartida respecto a actividad física.",
+        perlaENARM: "Genotipo positivo ≠ fenotipo positivo. No se implanta un ICD solamente por portar una variante patogénica de HCM.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables al seguimiento familiar de cardiomiopatías.",
+            internacional: "AHA/ACC 2024 HCM Guideline; ESC 2023 Cardiomyopathies."
+        },
+        bibliografia: "AHA/ACC 2024 HCM Guideline; ESC 2023 Cardiomyopathies."
+    },
+
+    {
+        id: "CARD-297",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Ejercicio y cardiomiopatía arritmogénica",
+        dificultad: "Extrema",
+        caso: "Varón de 25 años, portador de una variante patogénica desmosomal asociada a cardiomiopatía arritmogénica, permanece actualmente sin disfunción ventricular. Realiza entrenamiento de resistencia de alta intensidad 6 días por semana. Su padre desarrolló insuficiencia ventricular derecha y múltiples arritmias a los 40 años. El paciente pregunta si puede continuar con entrenamiento competitivo mientras permanezca asintomático.",
+        pregunta: "¿Cuál es la consideración más importante?",
+        opciones: [
+            "El ejercicio intenso es protector porque aumenta la capacidad funcional",
+            "El genotipo no tiene relevancia mientras la FEVI sea normal",
+            "El ejercicio de alta intensidad puede favorecer penetrancia/progresión y carga arrítmica en cardiomiopatías arritmogénicas, por lo que requiere modificación individualizada",
+            "Debe implantarse un ICD únicamente para permitir que continúe entrenando",
+            "El entrenamiento competitivo está contraindicado únicamente cuando aparece insuficiencia cardiaca"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "En las cardiomiopatías arritmogénicas, particularmente las relacionadas con variantes desmosomales, existe evidencia observacional de que el ejercicio intenso puede favorecer penetrancia de la enfermedad, progresión estructural y arritmias ventriculares. La recomendación debe individualizarse en un centro especializado, pero no debe considerarse que la ausencia actual de disfunción ventricular elimina el riesgo asociado al ejercicio de alta intensidad.",
+        perlaENARM: "En cardiomiopatía arritmogénica, 'asintomático y FEVI normal' no equivale a 'sin riesgo por ejercicio intenso'.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a cardiomiopatías y actividad física.",
+            internacional: "ESC 2023 Cardiomyopathies; recomendaciones internacionales sobre ejercicio en cardiomiopatías."
+        },
+        bibliografia: "ESC 2023 Cardiomyopathies; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-298",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Genética y familia",
+        dificultad: "Extrema",
+        caso: "Una familia presenta múltiples casos de insuficiencia cardiaca y muerte súbita. El probando tiene una variante genética clasificada actualmente como variante de significado incierto (VUS). Dos familiares de primer grado presentan alteraciones electrocardiográficas leves pero ningún fenotipo estructural claro. Los familiares solicitan que se utilice la VUS para decidir quién requiere ICD.",
+        pregunta: "¿Cuál es la conducta genética más adecuada?",
+        opciones: [
+            "Tratar la VUS como una variante patogénica y realizar ICD a todos los portadores",
+            "Descartar completamente la enfermedad porque la variante no es patogénica demostrada",
+            "No utilizar una VUS aislada para decisiones clínicas mayores; debe integrarse el fenotipo y reevaluarse periódicamente la clasificación genética",
+            "Realizar ICD a todos los familiares de primer grado",
+            "Utilizar la VUS como prueba diagnóstica definitiva de HCM"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "Una VUS no debe utilizarse como si fuera una variante patogénica para tomar decisiones clínicas de alto impacto. La interpretación genética depende de evidencia clínica, poblacional, funcional y de segregación, y puede cambiar con el tiempo. En paralelo, los familiares deben recibir una evaluación clínica apropiada basada en el fenotipo y antecedentes familiares. La reevaluación periódica de la clasificación de la variante puede ser necesaria.",
+        perlaENARM: "VUS ≠ mutación patogénica. Una VUS no debe ser la base única para implantar un ICD o realizar decisiones familiares irreversibles.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a cardiomiopatías hereditarias y valoración familiar.",
+            internacional: "ESC 2023 Cardiomyopathies; recomendaciones contemporáneas de genética cardiovascular."
+        },
+        bibliografia: "ESC 2023 Cardiomyopathies; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-299",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "HCM y muerte súbita",
+        dificultad: "Extrema",
+        caso: "Varón de 22 años con HCM presenta síncope abrupto sin pródromos mientras estaba sentado. Su padre murió súbitamente a los 38 años. Ecocardiograma: hipertrofia máxima de 31 mm. Holter: varios episodios de TV no sostenida, el más largo de 12 segundos. CMR: fibrosis extensa. FEVI 67%. No existe obstrucción significativa del tracto de salida. El paciente pregunta si la ausencia de obstrucción lo hace de bajo riesgo.",
+        pregunta: "¿Cuál es la respuesta más adecuada?",
+        opciones: [
+            "Sí, la ausencia de obstrucción elimina prácticamente el riesgo de muerte súbita",
+            "La FEVI normal hace que el riesgo sea bajo",
+            "La presencia de síncope probablemente arrítmico, antecedente familiar de muerte súbita, hipertrofia masiva y TV no sostenida obliga a una estratificación formal de alto riesgo independientemente del grado de obstrucción",
+            "La única indicación sería realizar ablación de la vía de salida",
+            "Debe realizarse únicamente una prueba de esfuerzo"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "La obstrucción del tracto de salida no es requisito para que exista riesgo de muerte súbita en HCM. Este paciente presenta múltiples marcadores relevantes: síncope potencialmente arrítmico, antecedente familiar de muerte súbita, hipertrofia masiva, TV no sostenida y fibrosis extensa. Debe realizarse valoración especializada y discusión de ICD mediante un proceso de decisión compartida basado en las recomendaciones contemporáneas.",
+        perlaENARM: "HCM obstructiva y riesgo de muerte súbita son conceptos relacionados pero no equivalentes.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a HCM y prevención de muerte súbita.",
+            internacional: "AHA/ACC 2024 HCM Guideline; ESC 2023 Cardiomyopathies."
+        },
+        bibliografia: "AHA/ACC 2024 HCM Guideline; ESC 2023 Cardiomyopathies."
+    },
+
+    {
+        id: "CARD-300",
+        especialidad: "Cardiología",
+        tema: "Cardiomiopatías",
+        subtema: "Caso integrativo genético y muerte súbita",
+        dificultad: "Extrema",
+        caso: "Varón de 43 años consulta por palpitaciones, síncope y deterioro de la capacidad funcional. Tiene FEVI 42%. El ECG muestra PR prolongado, bloqueo de rama y extrasístoles ventriculares frecuentes. Holter: TV no sostenida. CMR: fibrosis extensa de distribución mesomiocárdica. Su padre murió súbitamente a los 49 años y una hermana presenta insuficiencia cardiaca con FEVI 38%. El estudio genético identifica una variante patogénica asociada con cardiomiopatía de alto riesgo arrítmico. No existe enfermedad coronaria, valvular ni hipertensión suficiente para explicar el fenotipo.",
+        pregunta: "¿Cuál es el principio de manejo que mejor integra el caso?",
+        opciones: [
+            "Esperar a que la FEVI sea ≤35% antes de considerar cualquier estrategia de prevención de muerte súbita",
+            "Considerar que la fibrosis es un hallazgo inespecífico sin utilidad clínica",
+            "Reconocer una cardiomiopatía genética con fenotipo eléctrico y estructural de alto riesgo, valorar tempranamente terapia con dispositivo y realizar estudio en cascada de familiares",
+            "Tratar exclusivamente la insuficiencia cardiaca y evitar estudiar a la familia",
+            "Realizar exclusivamente ablación de las extrasístoles y dar por terminado el seguimiento"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "Este es un fenotipo de cardiomiopatía genética con varios modificadores de alto riesgo: trastorno de conducción, TV no sostenida, síncope, fibrosis extensa, disfunción ventricular y antecedente familiar de muerte súbita. En determinadas cardiomiopatías genéticas, especialmente aquellas asociadas a genes de alto riesgo arrítmico, la prevención de muerte súbita puede requerir consideración de ICD antes de alcanzar los umbrales convencionales utilizados en cardiomiopatía dilatada no genética. Además, la identificación de una variante patogénica permite un programa estructurado de asesoramiento y estudio en cascada de familiares de primer grado. La estrategia debe realizarse en un equipo especializado.",
+        perlaENARM: "En cardiomiopatía genética de alto riesgo, no esperes necesariamente a que la FEVI cruce 35%: el genotipo y el fenotipo arrítmico pueden modificar el umbral de intervención.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a insuficiencia cardiaca, arritmias y prevención de muerte súbita.",
+            internacional: "ESC 2023 Cardiomyopathies; ESC 2022 Ventricular Arrhythmias and Sudden Cardiac Death."
+        },
+        bibliografia: "ESC 2023 Cardiomyopathies; ESC 2022 Ventricular Arrhythmias; Braunwald's Heart Disease."
+    },
+        {
+        id: "CARD-301",
+        especialidad: "Cardiología",
+        tema: "Valvulopatías",
+        subtema: "Estenosis aórtica y TAVI",
+        dificultad: "Extrema",
+        caso: "Mujer de 78 años con hipertensión, ERC estadio 3 y fragilidad moderada consulta por disnea NYHA III y síncope de esfuerzo. Ecocardiograma: válvula aórtica tricúspide intensamente calcificada, Vmax 4.5 m/s, gradiente medio 52 mmHg, área valvular 0.65 cm² y FEVI 55%. La angio-TC demuestra anatomía favorable para acceso transfemoral y no identifica enfermedad coronaria que requiera cirugía. El Heart Team estima riesgo quirúrgico bajo-intermedio. La paciente desea una recuperación rápida y rechaza esternotomía después de discutir las alternativas.",
+        pregunta: "¿Cuál es la estrategia de tratamiento más apropiada?",
+        opciones: [
+            "Manejo conservador porque la FEVI está preservada",
+            "Fibrinólisis de la válvula aórtica",
+            "Evaluación para TAVI dentro de un Heart Team considerando edad, anatomía, expectativa de vida, acceso y trayectoria de intervenciones futuras",
+            "Reemplazo quirúrgico obligatorio independientemente de edad y anatomía",
+            "Valvuloplastia con balón como tratamiento definitivo"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "La paciente tiene estenosis aórtica severa sintomática de alto gradiente y, por tanto, existe indicación de intervención. La decisión entre cirugía y TAVI no debe basarse exclusivamente en el riesgo quirúrgico. La guía ESC/EACTS 2025 incorpora edad, expectativa de vida, anatomía valvular, acceso vascular, comorbilidades, preferencias y la trayectoria de posibles intervenciones futuras. En pacientes de 70 años o más con válvula aórtica tricúspide y anatomía adecuada, TAVI tiene un papel ampliado independientemente del riesgo quirúrgico estimado.",
+        perlaENARM: "En 2025, la pregunta ya no es simplemente '¿riesgo quirúrgico alto o bajo?'. La selección TAVI vs cirugía es una decisión del Heart Team basada en anatomía, edad, expectativa de vida y estrategia de por vida.",
+        gpc: {
+            mexico: "GPC mexicanas de estenosis aórtica aplicables al diagnóstico y tratamiento.",
+            internacional: "ESC/EACTS 2025 Guidelines for the management of valvular heart disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-302",
+        especialidad: "Cardiología",
+        tema: "Valvulopatías",
+        subtema: "Estenosis aórtica asintomática",
+        dificultad: "Extrema",
+        caso: "Varón de 67 años con estenosis aórtica severa permanece aparentemente asintomático. Ecocardiograma: Vmax 4.3 m/s, gradiente medio 47 mmHg, área 0.72 cm² y FEVI 64%. La prueba de ejercicio demuestra disminución anormal de la presión arterial y aparición de disnea que el paciente inicialmente no había reconocido. No existen otras causas de limitación funcional.",
+        pregunta: "¿Cuál es la interpretación más adecuada?",
+        opciones: [
+            "La enfermedad debe observarse indefinidamente porque la FEVI es normal",
+            "El paciente debe considerarse realmente asintomático porque niega síntomas en reposo",
+            "La prueba de ejercicio desenmascara síntomas y modifica la valoración de la indicación de intervención",
+            "La estenosis es moderada porque la FEVI está preservada",
+            "Debe realizarse únicamente Holter"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "La evaluación de síntomas es fundamental en la estenosis aórtica. Los pacientes sedentarios pueden subestimar o adaptar sus actividades y considerarse asintomáticos. La prueba de ejercicio puede desenmascarar síntomas o una respuesta tensional anormal. En la guía ESC/EACTS 2025 se ha reforzado además la posibilidad de intervención temprana en determinados pacientes con estenosis aórtica severa de alto gradiente aun cuando inicialmente sean considerados asintomáticos.",
+        perlaENARM: "En estenosis aórtica, 'asintomático' debe comprobarse cuando la historia clínica no concuerda con la gravedad ecocardiográfica.",
+        gpc: {
+            mexico: "GPC mexicanas de estenosis aórtica.",
+            internacional: "ESC/EACTS 2025 Valvular Heart Disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-303",
+        especialidad: "Cardiología",
+        tema: "Valvulopatías",
+        subtema: "Insuficiencia mitral primaria",
+        dificultad: "Extrema",
+        caso: "Mujer de 64 años con prolapso degenerativo de P2 presenta disnea leve durante actividades habituales. Ecocardiograma: insuficiencia mitral severa, FEVI 64%, diámetro telesistólico del VI 39 mm, volumen auricular izquierdo elevado y presión pulmonar normal. No presenta fibrilación auricular. En un centro con experiencia existe alta probabilidad de reparación mitral duradera con baja mortalidad quirúrgica.",
+        pregunta: "¿Cuál es el enfoque contemporáneo más apropiado?",
+        opciones: [
+            "Esperar obligatoriamente hasta que la FEVI sea <50%",
+            "Realizar reemplazo valvular sin considerar reparación",
+            "Discutir reparación quirúrgica temprana en un Heart Valve Centre considerando síntomas, probabilidad de reparación duradera y riesgo de progresión",
+            "Indicar TAVI",
+            "No intervenir hasta que aparezca hipertensión pulmonar severa"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "La insuficiencia mitral primaria degenerativa severa debe evaluarse tempranamente en centros con experiencia. La guía ESC/EACTS 2025 reforzó la estrategia de reparación temprana, incluyendo una recomendación de clase I para reparación quirúrgica temprana en pacientes asintomáticos seleccionados con alta probabilidad de reparación duradera. En esta paciente además ya existen síntomas, lo que fortalece la indicación de intervención.",
+        perlaENARM: "En MR primaria degenerativa, esperar a que aparezca disfunción ventricular irreversible puede significar intervenir demasiado tarde.",
+        gpc: {
+            mexico: "GPC IMSS de patología de la válvula mitral.",
+            internacional: "ESC/EACTS 2025 Valvular Heart Disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-304",
+        especialidad: "Cardiología",
+        tema: "Valvulopatías",
+        subtema: "Insuficiencia mitral secundaria",
+        dificultad: "Extrema",
+        caso: "Varón de 68 años con HFrEF de etiología isquémica presenta FEVI 32%, QRS 158 ms con BRI y tratamiento médico dirigido a guías a dosis máximamente toleradas. Se realizó CRT hace 8 meses con adecuada respuesta eléctrica, pero continúa con disnea NYHA III. Ecocardiograma: insuficiencia mitral secundaria severa, VI dilatado y ausencia de enfermedad mitral primaria. No presenta hipotensión ni disfunción grave del VD. La anatomía es favorable para TEER.",
+        pregunta: "¿Cuál es la estrategia más apropiada?",
+        opciones: [
+            "Realizar cirugía mitral obligatoria independientemente del riesgo",
+            "Suspender el tratamiento de insuficiencia cardiaca porque la MR es secundaria",
+            "Considerar TEER en un Heart Team después de confirmar tratamiento médico optimizado y criterios anatómicos y clínicos apropiados",
+            "Realizar TAVI",
+            "No tratar porque toda MR secundaria es irreversible"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "En la MR secundaria ventricular, el primer paso es optimizar la terapia de insuficiencia cardiaca y, cuando está indicada, la resincronización. Si persiste MR severa sintomática pese a tratamiento óptimo y el paciente cumple criterios anatómicos y clínicos, TEER puede reducir hospitalizaciones por insuficiencia cardiaca y mejorar calidad de vida. La guía ESC/EACTS 2025 elevó a clase I la recomendación de TEER en pacientes seleccionados con insuficiencia cardiaca y MR ventricular secundaria severa sintomática con FEVI <50%.",
+        perlaENARM: "MR secundaria: primero tratar el ventrículo; después valorar la válvula.",
+        gpc: {
+            mexico: "GPC mexicanas de insuficiencia cardiaca y valvulopatía mitral aplicables.",
+            internacional: "ESC/EACTS 2025 Valvular Heart Disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-305",
+        especialidad: "Cardiología",
+        tema: "Valvulopatías",
+        subtema: "Insuficiencia tricuspídea severa",
+        dificultad: "Extrema",
+        caso: "Mujer de 71 años con fibrilación auricular permanente presenta edema, ascitis y congestión hepática. Ecocardiograma: insuficiencia tricuspídea severa, dilatación del anillo, VD moderadamente dilatado con función aún conservada y ausencia de hipertensión pulmonar precapilar. Tiene síntomas NYHA III pese a tratamiento diurético. El riesgo quirúrgico se considera alto debido a edad, fragilidad y comorbilidades.",
+        pregunta: "¿Cuál es la estrategia más adecuada?",
+        opciones: [
+            "No intervenir porque la insuficiencia tricuspídea tiene siempre pronóstico benigno",
+            "Realizar cirugía abierta obligatoria",
+            "Valoración en Heart Valve Centre para tratamiento transcatéter de la tricúspide, si la anatomía es adecuada",
+            "Indicar fibrinólisis",
+            "Implantar un TAVI"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "La TR severa sintomática puede producir remodelado progresivo del VD y daño de órganos abdominales. En pacientes con alto riesgo quirúrgico y sin disfunción grave del VD o hipertensión pulmonar precapilar, la guía ESC/EACTS 2025 contempla intervención transcatéter, incluyendo TEER o reemplazo transcatéter en anatomías seleccionadas, principalmente para mejorar calidad de vida y favorecer remodelado del VD.",
+        perlaENARM: "En TR severa no debe esperarse hasta que aparezca disfunción irreversible del VD o daño orgánico avanzado.",
+        gpc: {
+            mexico: "GPC IMSS de enfermedad de la válvula tricúspide.",
+            internacional: "ESC/EACTS 2025 Valvular Heart Disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-306",
+        especialidad: "Cardiología",
+        tema: "Valvulopatías",
+        subtema: "Enfermedad multivalvular",
+        dificultad: "Extrema",
+        caso: "Varón de 74 años presenta disnea progresiva. Ecocardiograma: estenosis aórtica severa, insuficiencia mitral moderada-severa y TR moderada. La FEVI es 48%. Existe hipertensión pulmonar. La cuantificación de cada lesión por separado presenta incertidumbre debido a la interacción hemodinámica entre las válvulas. La angiografía coronaria muestra enfermedad de dos vasos que podría requerir revascularización.",
+        pregunta: "¿Cuál es el principio fundamental para decidir la estrategia terapéutica?",
+        opciones: [
+            "Tratar únicamente la lesión con el gradiente más alto",
+            "Sumar mecánicamente los grados de cada valvulopatía",
+            "Realizar evaluación multimodal integrada y discutir la secuencia de intervención en un Heart Team considerando las interacciones hemodinámicas",
+            "Ignorar las lesiones secundarias",
+            "Decidir exclusivamente mediante el diámetro auricular izquierdo"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "La enfermedad multivalvular no puede resolverse sumando grados de severidad obtenidos de forma independiente. Una lesión puede modificar el flujo transvalvular y alterar la estimación de la gravedad de otra. La guía 2025 incorpora un enfoque específico para enfermedad multivalvular y enfatiza imagen multimodal y decisión por Heart Team. También deben integrarse anatomía coronaria, función ventricular, presión pulmonar y secuencia de intervenciones.",
+        perlaENARM: "Dos valvulopatías simultáneas pueden distorsionar la cuantificación de ambas. En enfermedad multivalvular, la fisiología importa tanto como el número.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a valvulopatías y cardiopatía isquémica.",
+            internacional: "ESC/EACTS 2025 Valvular Heart Disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-307",
+        especialidad: "Cardiología",
+        tema: "Prótesis valvulares",
+        subtema: "Prótesis mecánica y anticoagulación",
+        dificultad: "Extrema",
+        caso: "Mujer de 54 años con prótesis mecánica mitral implantada hace 4 años consulta porque desea suspender warfarina para evitar controles frecuentes. Se encuentra asintomática, sin sangrado y con INR terapéutico estable. Tiene fibrilación auricular. Pregunta si puede cambiar a apixabán.",
+        pregunta: "¿Cuál es la recomendación más apropiada?",
+        opciones: [
+            "Cambiar inmediatamente a apixabán",
+            "Cambiar a rivaroxabán",
+            "Mantener anticoagulación con antagonista de vitamina K porque las prótesis mecánicas requieren anticoagulación con VKA",
+            "Suspender anticoagulación porque la prótesis tiene más de tres años",
+            "Usar únicamente aspirina"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "Los pacientes con prótesis mecánicas requieren anticoagulación con antagonistas de vitamina K para prevenir trombosis protésica y eventos tromboembólicos. Los DOAC no son una alternativa equivalente para prótesis mecánicas. La presencia concomitante de FA aumenta aún más la necesidad de anticoagulación, pero no cambia el principio fundamental: la prótesis mecánica requiere VKA.",
+        perlaENARM: "Prótesis mecánica = VKA. No sustituir rutinariamente por DOAC.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a prótesis valvulares y anticoagulación.",
+            internacional: "ESC/EACTS 2025 Valvular Heart Disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-308",
+        especialidad: "Cardiología",
+        tema: "Prótesis valvulares",
+        subtema: "Trombosis protésica",
+        dificultad: "Extrema",
+        caso: "Varón de 63 años con prótesis mecánica mitral presenta disnea súbita y edema pulmonar. INR actual 1.4. Ecocardiograma transtorácico muestra aumento marcado del gradiente transmitral respecto a estudios previos y movilidad reducida de uno de los discos. El ecocardiograma transesofágico demuestra una masa compatible con trombo obstructivo.",
+        pregunta: "¿Cuál es la interpretación más probable?",
+        opciones: [
+            "Degeneración estructural de una prótesis biológica",
+            "Trombosis obstructiva de prótesis mecánica",
+            "Endocarditis descartada por el INR bajo",
+            "Insuficiencia mitral funcional aislada",
+            "Miocardiopatía restrictiva"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La combinación de anticoagulación subterapéutica, deterioro hemodinámico agudo, aumento del gradiente, reducción de movilidad y trombo visualizado es altamente sugestiva de trombosis obstructiva de prótesis mecánica. La ecocardiografía transesofágica es fundamental para caracterizar la prótesis y diferenciar trombo de pannus, vegetación u otras causas de obstrucción. La conducta terapéutica depende de tamaño y localización del trombo, síntomas, riesgo embólico/hemorrágico y disponibilidad de cirugía o tratamiento fibrinolítico.",
+        perlaENARM: "Prótesis mecánica + INR bajo + aumento súbito del gradiente + masa = pensar primero en trombosis protésica.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a prótesis valvulares.",
+            internacional: "ESC/EACTS 2025 Valvular Heart Disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-309",
+        especialidad: "Cardiología",
+        tema: "Prótesis valvulares",
+        subtema: "Degeneración de bioprótesis",
+        dificultad: "Extrema",
+        caso: "Mujer de 76 años con bioprótesis aórtica implantada quirúrgicamente hace 11 años presenta disnea progresiva. Ecocardiograma: aumento progresivo del gradiente transvalvular respecto a estudios anteriores, engrosamiento y calcificación de los velos protésicos y regurgitación central moderada. No presenta fiebre ni bacteriemia. El riesgo de una nueva cirugía se considera elevado.",
+        pregunta: "¿Cuál es la estrategia que debe evaluarse en un centro especializado?",
+        opciones: [
+            "Ignorar el deterioro porque toda bioprótesis tiene una vida útil indefinida",
+            "Valorar una estrategia valve-in-valve transcatéter si la anatomía es adecuada",
+            "Cambiar obligatoriamente a una prótesis mecánica mediante cirugía",
+            "Administrar antibióticos durante seis meses",
+            "Realizar fibrinólisis sistémica"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La paciente presenta probable deterioro estructural de una bioprótesis. En pacientes con disfunción significativa de una bioprótesis y riesgo quirúrgico intermedio o alto, la estrategia transcatéter valve-in-valve puede ser considerada cuando la anatomía es adecuada. La guía ESC/EACTS 2025 amplió esta recomendación a una clase IIa en pacientes seleccionados, incluyendo posiciones mitral y tricuspídea en escenarios apropiados.",
+        perlaENARM: "Bioprótesis fallida no significa automáticamente reoperación: primero hay que valorar anatomía y posibilidad de valve-in-valve.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a prótesis valvulares.",
+            internacional: "ESC/EACTS 2025 Valvular Heart Disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-310",
+        especialidad: "Cardiología",
+        tema: "Valvulopatías",
+        subtema: "Caso integrativo de prótesis y Heart Team",
+        dificultad: "Extrema",
+        caso: "Varón de 72 años con antecedente de reemplazo mitral biológico hace 9 años consulta por disnea NYHA III. Ecocardiograma transesofágico: deterioro estructural severo de la bioprótesis, insuficiencia mitral severa y gradiente medio elevado. FEVI 47%. Presenta ERC, EPOC y fragilidad. El riesgo quirúrgico es elevado. La angio-TC demuestra anatomía potencialmente favorable para valve-in-valve transcatéter. No hay endocarditis activa ni trombo intracardiaco.",
+        pregunta: "¿Cuál es el enfoque que mejor refleja la toma de decisiones contemporánea?",
+        opciones: [
+            "Realizar cirugía de reemplazo obligatoriamente porque la prótesis ya tiene nueve años",
+            "Decidir exclusivamente según el gradiente transvalvular",
+            "Discutir una estrategia transcatéter valve-in-valve en Heart Valve Centre, integrando anatomía, riesgo quirúrgico, expectativa de vida, comorbilidades y objetivos del paciente",
+            "Administrar anticoagulación y reevaluar en cinco años",
+            "Realizar TAVI porque cualquier procedimiento transcatéter es equivalente"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "El paciente tiene una bioprótesis mitral con deterioro estructural severo, síntomas importantes y elevado riesgo quirúrgico. La anatomía potencialmente favorable para valve-in-valve hace razonable discutir una estrategia transcatéter en un Heart Valve Centre. Sin embargo, la decisión no debe reducirse a la edad de la prótesis ni al gradiente: debe integrar mecanismo de disfunción, anatomía, riesgo de obstrucción del tracto de salida, acceso, función ventricular, comorbilidades, expectativa de vida y preferencias. La guía ESC/EACTS 2025 otorga mayor protagonismo a estrategias transcatéter en pacientes seleccionados con disfunción de prótesis biológicas.",
+        perlaENARM: "La decisión valvular moderna es una estrategia de por vida: no solo importa qué procedimiento puede hacerse hoy, sino qué opciones quedarán disponibles después.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a prótesis valvulares y valvulopatía mitral.",
+            internacional: "ESC/EACTS 2025 Valvular Heart Disease."
+        },
+        bibliografia: "ESC/EACTS 2025 Valvular Heart Disease; Braunwald's Heart Disease."
+    },
+        {
+        id: "CARD-311",
+        especialidad: "Cardiología",
+        tema: "Hipertensión pulmonar",
+        subtema: "Hipertensión pulmonar precapilar",
+        dificultad: "Extrema",
+        caso: "Mujer de 42 años con esclerodermia limitada presenta disnea progresiva de 10 meses y disminución de su capacidad funcional. No fuma y las pruebas de función pulmonar muestran una alteración restrictiva leve que no explica la intensidad de los síntomas. Ecocardiograma: dilatación del ventrículo derecho, aplanamiento septal y velocidad máxima de insuficiencia tricuspídea de 3.5 m/s. No existe enfermedad valvular izquierda significativa. El cateterismo derecho demuestra presión arterial pulmonar 82/31 mmHg, presión arterial pulmonar media de 49 mmHg, presión de enclavamiento pulmonar de 9 mmHg, gasto cardiaco de 4.1 L/min y resistencia vascular pulmonar de 9.8 WU.",
+        pregunta: "¿Cuál es la interpretación hemodinámica más apropiada?",
+        opciones: [
+            "Hipertensión pulmonar aislada poscapilar por cardiopatía izquierda",
+            "Hipertensión pulmonar combinada poscapilar y precapilar",
+            "Hipertensión pulmonar precapilar compatible con hipertensión arterial pulmonar asociada a enfermedad del tejido conectivo",
+            "Hipertensión pulmonar secundaria exclusivamente a insuficiencia mitral",
+            "Hemodinámica pulmonar normal"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "La paciente cumple criterios hemodinámicos de hipertensión pulmonar precapilar: mPAP >20 mmHg, PAWP ≤15 mmHg y PVR >2 WU. En el contexto de esclerodermia, ausencia de una causa alternativa predominante y datos compatibles con enfermedad vascular pulmonar, el fenotipo es compatible con hipertensión arterial pulmonar asociada a enfermedad del tejido conectivo. La clasificación etiológica no debe basarse únicamente en la presión pulmonar, sino en la integración del contexto clínico, función pulmonar, imagen y cateterismo.",
+        perlaENARM: "mPAP >20 + PAWP ≤15 + PVR >2 = patrón precapilar. Después hay que determinar la causa; no toda HP precapilar es HAP idiopática.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a hipertensión arterial pulmonar y enfermedades del tejido conectivo.",
+            internacional: "ESC/ERS 2022 Guidelines for Pulmonary Hypertension."
+        },
+        bibliografia: "ESC/ERS 2022 Pulmonary Hypertension; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-312",
+        especialidad: "Cardiología",
+        tema: "Hipertensión pulmonar",
+        subtema: "Hipertensión pulmonar por cardiopatía izquierda",
+        dificultad: "Extrema",
+        caso: "Varón de 77 años con obesidad, hipertensión, fibrilación auricular permanente y HFpEF presenta disnea progresiva. Ecocardiograma: FEVI 61%, hipertrofia ventricular izquierda, dilatación auricular izquierda y presión pulmonar elevada. El cateterismo derecho demuestra mPAP 39 mmHg, PAWP 24 mmHg, gasto cardiaco 4.8 L/min y PVR 1.9 WU. No existen datos de enfermedad pulmonar significativa ni antecedentes de tromboembolia.",
+        pregunta: "¿Cuál es la clasificación hemodinámica más adecuada?",
+        opciones: [
+            "Hipertensión arterial pulmonar idiopática",
+            "Hipertensión pulmonar precapilar",
+            "Hipertensión pulmonar aislada poscapilar asociada a cardiopatía izquierda",
+            "Hipertensión pulmonar combinada poscapilar y precapilar",
+            "CTEPH"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "El paciente presenta mPAP >20 mmHg y PAWP >15 mmHg, demostrando un componente poscapilar. La PVR es ≤2 WU, por lo que no existe un componente precapilar hemodinámicamente significativo bajo la definición actual. El contexto clínico —HFpEF, hipertensión, obesidad, FA y dilatación auricular izquierda— favorece enfermedad cardiaca izquierda como mecanismo predominante.",
+        perlaENARM: "En HP poscapilar, la PAWP es la clave: PAWP >15 mmHg. PVR ≤2 WU = aislada poscapilar; PVR >2 WU = combinada.",
+        gpc: {
+            mexico: "GPC mexicanas de insuficiencia cardiaca e hipertensión pulmonar aplicables.",
+            internacional: "ESC/ERS 2022 Pulmonary Hypertension."
+        },
+        bibliografia: "ESC/ERS 2022 Pulmonary Hypertension; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-313",
+        especialidad: "Cardiología",
+        tema: "Hipertensión pulmonar",
+        subtema: "Hipertensión pulmonar combinada",
+        dificultad: "Extrema",
+        caso: "Mujer de 70 años con HFpEF presenta disnea progresiva desproporcionada a su congestión izquierda. Ecocardiograma: dilatación importante del VD y disfunción sistólica moderada. Cateterismo derecho: mPAP 45 mmHg, PAWP 20 mmHg, gasto cardiaco 3.5 L/min y PVR 7.1 WU. La tomografía no demuestra tromboembolia crónica y las pruebas pulmonares no muestran enfermedad parenquimatosa suficiente para explicar el cuadro.",
+        pregunta: "¿Cuál es el diagnóstico hemodinámico?",
+        opciones: [
+            "Hipertensión pulmonar aislada poscapilar",
+            "Hipertensión pulmonar combinada poscapilar y precapilar",
+            "Hipertensión arterial pulmonar idiopática pura",
+            "Hipertensión pulmonar exclusivamente por hipoxia",
+            "Hemodinámica normal"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "Existe hipertensión pulmonar poscapilar porque la PAWP es >15 mmHg, pero la PVR de 7.1 WU demuestra un componente precapilar significativo. Por tanto, se trata de hipertensión pulmonar combinada poscapilar y precapilar. Este fenotipo puede aparecer en pacientes con cardiopatía izquierda avanzada y remodelado vascular pulmonar.",
+        perlaENARM: "PAWP elevada + PVR >2 WU = CpcPH. No etiquetes automáticamente como HAP a un paciente con enfermedad izquierda.",
+        gpc: {
+            mexico: "GPC mexicanas de insuficiencia cardiaca/hipertensión pulmonar.",
+            internacional: "ESC/ERS 2022 Pulmonary Hypertension."
+        },
+        bibliografia: "ESC/ERS 2022 Pulmonary Hypertension; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-314",
+        especialidad: "Cardiología",
+        tema: "Hipertensión pulmonar",
+        subtema: "Diagnóstico de CTEPH",
+        dificultad: "Extrema",
+        caso: "Varón de 56 años presentó TEP hace 11 meses y recibió anticoagulación adecuada. Actualmente persiste con disnea al subir un piso de escaleras. Ecocardiograma: dilatación moderada del VD y presión pulmonar elevada. La angio-TC actual muestra defectos vasculares periféricos poco concluyentes. El paciente no tiene enfermedad pulmonar significativa. La saturación en reposo es 94%.",
+        pregunta: "¿Cuál es el estudio de imagen más apropiado para buscar enfermedad tromboembólica crónica cuando existe sospecha de CTEPH?",
+        opciones: [
+            "Radiografía de tórax como único estudio",
+            "Gammagrafía pulmonar de ventilación/perfusión",
+            "Resonancia cerebral",
+            "Prueba de esfuerzo sin imagen",
+            "Ecocardiograma transesofágico"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La gammagrafía V/Q tiene un papel central en el cribado de CTEPH y es particularmente sensible para identificar defectos de perfusión segmentarios o mayores. Una gammagrafía normal prácticamente excluye CTEPH en ausencia de circunstancias excepcionales. Cuando existen defectos de perfusión mismatched, el paciente debe continuar el estudio en un centro especializado con imagen anatómica y evaluación hemodinámica.",
+        perlaENARM: "TEP previo + disnea persistente + HP = pensar en CTEPH. La V/Q es una prueba clave de cribado.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a tromboembolia pulmonar e hipertensión pulmonar.",
+            internacional: "ESC/ERS 2022 Pulmonary Hypertension."
+        },
+        bibliografia: "ESC/ERS 2022 Pulmonary Hypertension; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-315",
+        especialidad: "Cardiología",
+        tema: "CTEPH",
+        subtema: "Endarterectomía pulmonar",
+        dificultad: "Extrema",
+        caso: "Mujer de 52 años con disnea progresiva presenta gammagrafía V/Q con múltiples defectos de perfusión segmentarios mismatched. La angio-TC demuestra membranas, webs y oclusiones crónicas organizadas en arterias pulmonares lobares y segmentarias proximales. Cateterismo derecho: mPAP 43 mmHg, PAWP 9 mmHg y PVR 6.2 WU. No presenta enfermedad pulmonar significativa. El equipo especializado considera que las lesiones son técnicamente accesibles.",
+        pregunta: "¿Cuál es el tratamiento potencialmente definitivo que debe evaluarse?",
+        opciones: [
+            "Anticoagulación aislada de por vida sin valoración adicional",
+            "Endarterectomía pulmonar en un centro especializado",
+            "TAVI",
+            "Ablación del nodo AV",
+            "Fibrinólisis sistémica crónica"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El cuadro es compatible con CTEPH y las lesiones son anatómicamente accesibles para cirugía. La endarterectomía pulmonar es el tratamiento de elección potencialmente curativo en pacientes operables con enfermedad tromboembólica crónica organizada accesible quirúrgicamente. La evaluación debe realizarse en centros expertos porque la operabilidad depende de distribución anatómica, correlación hemodinámica y experiencia del equipo.",
+        perlaENARM: "CTEPH operable = pensar primero en endarterectomía pulmonar, no simplemente en aumentar fármacos para HAP.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a tromboembolia pulmonar crónica/hipertensión pulmonar.",
+            internacional: "ESC/ERS 2022 Pulmonary Hypertension."
+        },
+        bibliografia: "ESC/ERS 2022 Pulmonary Hypertension; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-316",
+        especialidad: "Cardiología",
+        tema: "CTEPH",
+        subtema: "Angioplastia pulmonar con balón",
+        dificultad: "Extrema",
+        caso: "Varón de 68 años con CTEPH presenta disnea NYHA III. La evaluación multidisciplinaria concluye que la enfermedad es inoperable debido a distribución predominantemente distal de las lesiones y comorbilidades importantes. Permanece sintomático pese a anticoagulación y tratamiento médico dirigido. La anatomía vascular es susceptible de intervención percutánea.",
+        pregunta: "¿Cuál es una estrategia intervencionista apropiada en un centro experto?",
+        opciones: [
+            "Angioplastia pulmonar con balón",
+            "Angioplastia coronaria",
+            "TAVI",
+            "Fibrinólisis repetida mensual",
+            "Ablación pulmonar por radiofrecuencia"
+        ],
+        respuestaCorrecta: 0,
+        explicacion: "La angioplastia pulmonar con balón (BPA) es una alternativa establecida para pacientes seleccionados con CTEPH técnicamente inoperable o con enfermedad residual/persistente en escenarios determinados. Requiere centros con experiencia debido al riesgo de lesión vascular y edema pulmonar de reperfusión. La estrategia se integra con anticoagulación y tratamiento médico específico cuando corresponde.",
+        perlaENARM: "CTEPH no operable no significa 'sin opciones': BPA es una intervención especializada con papel establecido.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a tromboembolia pulmonar crónica.",
+            internacional: "ESC/ERS 2022 Pulmonary Hypertension."
+        },
+        bibliografia: "ESC/ERS 2022 Pulmonary Hypertension; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-317",
+        especialidad: "Cardiología",
+        tema: "Tromboembolia pulmonar",
+        subtema: "TEP de alto riesgo",
+        dificultad: "Extrema",
+        caso: "Varón de 63 años consulta por disnea súbita y síncope. TA 74/46 mmHg, FC 128 lpm, SatO2 84% y piel fría. ECG: taquicardia sinusal con patrón de sobrecarga de VD. Ecocardiograma: dilatación aguda del VD con desplazamiento septal. La angio-TC demuestra tromboembolismo pulmonar bilateral extenso. No existe hemorragia activa ni antecedente reciente de cirugía. El deterioro hemodinámico persiste pese a soporte inicial.",
+        pregunta: "¿Cuál es la estrategia de reperfusión que debe considerarse prioritariamente si no existen contraindicaciones?",
+        opciones: [
+            "Solo anticoagulación y observación",
+            "Terapia de reperfusión urgente, típicamente fibrinólisis sistémica en el contexto apropiado",
+            "TAVI urgente",
+            "Diuréticos como tratamiento definitivo",
+            "Aspirina como monoterapia"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El paciente presenta TEP de alto riesgo definido por inestabilidad hemodinámica. En ausencia de contraindicaciones mayores, la reperfusión urgente mediante fibrinólisis sistémica es una estrategia establecida. Si la fibrinólisis está contraindicada o fracasa, pueden considerarse alternativas de reperfusión quirúrgica o mediante catéter en centros apropiados.",
+        perlaENARM: "TEP + shock/hipotensión persistente = alto riesgo. La pregunta deja de ser '¿anticoagular?' y pasa a ser '¿cómo reperfundir?'.",
+        gpc: {
+            mexico: "GPC mexicanas de diagnóstico y tratamiento de tromboembolia pulmonar.",
+            internacional: "ESC Guidelines for acute pulmonary embolism; ESC/ERS framework for PH."
+        },
+        bibliografia: "ESC Acute Pulmonary Embolism Guidelines; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-318",
+        especialidad: "Cardiología",
+        tema: "Tromboembolia pulmonar",
+        subtema: "TEP intermedio-alto",
+        dificultad: "Extrema",
+        caso: "Mujer de 71 años con cáncer activo presenta disnea y dolor torácico. TA 118/72 mmHg, FC 112 lpm y SatO2 89%. La angio-TC muestra TEP bilateral. Ecocardiograma: VD dilatado con TAPSE reducida. Troponina elevada y BNP significativamente aumentado. Permanece normotensa y sin datos de shock.",
+        pregunta: "¿Cuál es la clasificación clínica más apropiada y cuál es el principio de tratamiento?",
+        opciones: [
+            "TEP de alto riesgo con fibrinólisis inmediata obligatoria",
+            "TEP de riesgo intermedio-alto; anticoagulación y vigilancia estrecha, reservando reperfusión de rescate para deterioro hemodinámico",
+            "TEP de bajo riesgo; manejo ambulatorio obligatorio",
+            "TEP crónico confirmado",
+            "TEP descartado porque la presión arterial es normal"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La paciente está normotensa, por lo que no pertenece al grupo de alto riesgo por inestabilidad hemodinámica. Sin embargo, presenta disfunción del VD y biomarcadores positivos, características de un grupo de mayor riesgo dentro de los pacientes normotensos. El principio es anticoagulación y vigilancia estrecha, sin fibrinólisis sistémica rutinaria en pacientes estables, reservando reperfusión de rescate para deterioro hemodinámico.",
+        perlaENARM: "TEP normotenso + disfunción VD + troponina positiva = no es automáticamente 'fibrinólisis'; requiere estratificación y vigilancia.",
+        gpc: {
+            mexico: "GPC mexicanas de tromboembolia pulmonar.",
+            internacional: "ESC Guidelines for acute pulmonary embolism."
+        },
+        bibliografia: "ESC Acute Pulmonary Embolism Guidelines; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-319",
+        especialidad: "Cardiología",
+        tema: "Cor pulmonale",
+        subtema: "Insuficiencia ventricular derecha por enfermedad pulmonar",
+        dificultad: "Extrema",
+        caso: "Varón de 66 años con EPOC grave y antecedente de tabaquismo de 45 paquetes-año presenta edema periférico progresivo y distensión abdominal. Ecocardiograma: VD dilatado, hipertrofia del VD, insuficiencia tricuspídea funcional y presión pulmonar elevada. FEVI 62%. No existe enfermedad valvular izquierda significativa. Gasometría: hipoxemia crónica con hipercapnia compensada. Presenta signos de congestión sistémica sin datos de choque.",
+        pregunta: "¿Cuál es la fisiopatología que mejor explica el cuadro?",
+        opciones: [
+            "Fallo primario del VI que produce edema periférico",
+            "Cor pulmonale secundario a enfermedad pulmonar crónica e hipertensión pulmonar",
+            "Taponamiento cardiaco",
+            "Miocardiopatía hipertrófica obstructiva",
+            "Estenosis mitral crítica"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El cor pulmonale corresponde a alteración estructural y/o funcional del VD secundaria a enfermedad pulmonar y/o hipoxia que genera aumento de la resistencia vascular pulmonar. En EPOC avanzado, hipoxia alveolar, vasoconstricción pulmonar, remodelado vascular y destrucción del lecho capilar pueden aumentar la poscarga del VD y producir hipertrofia, dilatación e insuficiencia derecha.",
+        perlaENARM: "Cor pulmonale = problema del VD secundario a enfermedad pulmonar/hipoxia y aumento de la poscarga pulmonar; no es simplemente 'insuficiencia cardiaca derecha'.",
+        gpc: {
+            mexico: "GPC mexicanas de EPOC e hipertensión pulmonar aplicables.",
+            internacional: "ESC/ERS 2022 Pulmonary Hypertension."
+        },
+        bibliografia: "ESC/ERS 2022 Pulmonary Hypertension; Braunwald's Heart Disease; GOLD."
+    },
+
+    {
+        id: "CARD-320",
+        especialidad: "Cardiología",
+        tema: "Hipertensión pulmonar",
+        subtema: "Caso integrativo ENARM",
+        dificultad: "Extrema",
+        caso: "Mujer de 59 años con disnea progresiva, síncope de esfuerzo y edema periférico. Tiene antecedente de TEP tratado hace 18 meses. Ecocardiograma: VD severamente dilatado, TAPSE reducida y presión pulmonar elevada. La FEVI es 62%. La gammagrafía V/Q muestra múltiples defectos segmentarios mismatched. La angio-TC demuestra webs, bandas y estenosis organizadas en ramas pulmonares bilaterales. Cateterismo: mPAP 48 mmHg, PAWP 8 mmHg, gasto cardiaco 3.7 L/min y PVR 10.8 WU. La evaluación anatómica demuestra enfermedad proximal técnicamente accesible para cirugía.",
+        pregunta: "¿Cuál es la estrategia terapéutica que mejor integra todos los datos?",
+        opciones: [
+            "Tratar como HAP idiopática con monoterapia vasodilatadora y no intervenir sobre las arterias pulmonares",
+            "Diagnosticar CTEPH y referir a un centro especializado para valorar endarterectomía pulmonar como tratamiento potencialmente definitivo",
+            "Suspender anticoagulación porque el evento tromboembólico ocurrió hace más de un año",
+            "Realizar TAVI por la presencia de hipertensión pulmonar",
+            "Realizar fibrinólisis sistémica crónica"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El caso integra antecedente de TEP, síntomas persistentes, defectos mismatched en V/Q, lesiones organizadas crónicas en angio-TC y hemodinámica de hipertensión pulmonar precapilar. La distribución proximal técnicamente accesible hace que la endarterectomía pulmonar sea la estrategia que debe evaluarse prioritariamente en un centro experto. La CTEPH tiene un tratamiento multimodal que puede incluir cirugía, BPA y tratamiento médico según operabilidad, anatomía y persistencia de enfermedad.",
+        perlaENARM: "CTEPH se sospecha clínicamente, se demuestra con imagen de defectos crónicos y se confirma hemodinámicamente; la operabilidad determina la estrategia definitiva.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a tromboembolia pulmonar e hipertensión pulmonar.",
+            internacional: "ESC/ERS 2022 Pulmonary Hypertension."
+        },
+        bibliografia: "ESC/ERS 2022 Pulmonary Hypertension; Braunwald's Heart Disease."
+    },
+        {
+        id: "CARD-321",
+        especialidad: "Cardiología",
+        tema: "Cardiopatías congénitas del adulto",
+        subtema: "Tetralogía de Fallot reparada",
+        dificultad: "Extrema",
+        caso: "Mujer de 31 años con antecedente de Tetralogía de Fallot reparada mediante corrección completa a los 18 meses de edad. Durante los últimos dos años presenta disminución progresiva de su tolerancia al ejercicio y episodios de palpitaciones. Exploración: soplo diastólico II/VI en foco pulmonar y segundo ruido desdoblado. ECG: bloqueo completo de rama derecha con QRS de 178 ms. Resonancia cardiaca: volumen telediastólico del VD 178 mL/m², volumen telesistólico 102 mL/m², FEVD 43%, insuficiencia pulmonar moderada-severa y cicatriz en el tracto de salida del VD. Holter: episodios de taquicardia ventricular no sostenida.",
+        pregunta: "¿Cuál es la alteración que más probablemente explica el deterioro progresivo y que debe dirigir la estrategia de seguimiento/intervención?",
+        opciones: [
+            "Únicamente la presencia de bloqueo de rama derecha, sin necesidad de evaluar el VD",
+            "Insuficiencia pulmonar significativa con dilatación/disfunción del VD y sustrato arrítmico posquirúrgico",
+            "Estenosis mitral adquirida",
+            "Miocardiopatía hipertrófica familiar",
+            "Hipertensión arterial pulmonar idiopática"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La Tetralogía de Fallot reparada requiere vigilancia durante toda la vida. La insuficiencia pulmonar crónica puede producir sobrecarga de volumen, dilatación progresiva del VD, deterioro de la función ventricular y favorecer arritmias ventriculares. El QRS muy prolongado, la dilatación del VD, la disfunción ventricular y la TV no sostenida indican un fenotipo de mayor riesgo. La resonancia cardiaca es particularmente importante para cuantificar volúmenes ventriculares y regurgitación pulmonar. La decisión sobre intervención de la válvula pulmonar debe integrar síntomas, tamaño y función del VD, anatomía del tracto de salida, arritmias y características individuales.",
+        perlaENARM: "En Fallot reparado, no basta con preguntar si existe insuficiencia pulmonar: hay que valorar su repercusión sobre volumen/función del VD y el riesgo arrítmico.",
+        gpc: {
+            mexico: "GPC mexicanas de cardiopatías congénitas y seguimiento de cardiopatía congénita; considerar las recomendaciones específicas disponibles para cardiopatía congénita.",
+            internacional: "2025 ACC/AHA/HRS/ISACHD/SCAI Guideline for Adults With Congenital Heart Disease; 2020 ESC Guidelines for Adult Congenital Heart Disease."
+        },
+        bibliografia: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-322",
+        especialidad: "Cardiología",
+        tema: "Cardiopatías congénitas del adulto",
+        subtema: "Coartación de la aorta",
+        dificultad: "Extrema",
+        caso: "Varón de 29 años, operado de coartación de la aorta durante la infancia, consulta por cefalea y disminución de tolerancia al ejercicio. TA en brazo derecho 168/94 mmHg y en pierna 118/72 mmHg. Pulsos femorales disminuidos y retrasados. La angio-RM demuestra estrechamiento residual de la aorta descendente con circulación colateral prominente. El paciente refiere que su presión arterial en consulta primaria suele ser normal.",
+        pregunta: "¿Cuál es la interpretación más adecuada?",
+        opciones: [
+            "La presión arterial es normal porque la medición aislada en consulta no supera 180 mmHg",
+            "La diferencia brazo-pierna y la anatomía son compatibles con recoartación o lesión residual clínicamente relevante y requieren evaluación especializada",
+            "El hallazgo corresponde a insuficiencia aórtica aislada",
+            "La ausencia de síntomas graves excluye complicaciones tardías",
+            "El tratamiento debe limitarse a observar la presión arterial braquial"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "Los adultos con coartación reparada permanecen en riesgo de hipertensión residual/recurrente, recoartación, enfermedad aórtica y complicaciones cardiovasculares. Una diferencia significativa de presión entre extremidades, pulsos femorales retrasados y evidencia anatómica de estrechamiento apoyan enfermedad residual. La evaluación debe integrar presión arterial en extremidades superiores e inferiores, monitorización ambulatoria cuando corresponda y evaluación anatómica mediante RM o TC. El manejo debe realizarse con experiencia en cardiopatía congénita del adulto.",
+        perlaENARM: "Coartación reparada no significa curación definitiva. La hipertensión puede persistir incluso con gradientes aparentemente modestos.",
+        gpc: {
+            mexico: "GPC mexicana IMSS para coartación de aorta en adulto, aplicable al seguimiento de esta cardiopatía.",
+            internacional: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline."
+        },
+        bibliografia: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-323",
+        especialidad: "Cardiología",
+        tema: "Cardiopatías congénitas del adulto",
+        subtema: "Comunicación interauricular",
+        dificultad: "Extrema",
+        caso: "Mujer de 42 años con disnea de esfuerzo y palpitaciones. Ecocardiograma: CIA tipo ostium secundum de 19 mm, cortocircuito izquierda-derecha, dilatación marcada de aurícula y VD, insuficiencia tricuspídea moderada y presión pulmonar discretamente elevada. La saturación arterial es 97%. Cateterismo: Qp/Qs 2.3, PAWP 10 mmHg, PVR 1.6 WU. No existe fibrilación auricular permanente ni enfermedad pulmonar significativa.",
+        pregunta: "¿Cuál es la conducta que mejor corresponde a este perfil?",
+        opciones: [
+            "No cerrar la CIA porque todo cortocircuito congénito debe permanecer abierto en el adulto",
+            "Considerar cierre del defecto porque existe cortocircuito significativo con sobrecarga de cavidades derechas y resistencia vascular pulmonar favorable",
+            "Realizar cierre únicamente si aparece cianosis",
+            "Iniciar tratamiento específico para hipertensión arterial pulmonar antes de cualquier evaluación anatómica",
+            "Indicar anticoagulación de por vida como sustituto del cierre"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La paciente tiene un cortocircuito izquierda-derecha significativo, dilatación de las cavidades derechas y PVR baja. El objetivo del cierre es eliminar la sobrecarga crónica de volumen. Antes del cierre deben descartarse hipertensión pulmonar avanzada, enfermedad vascular pulmonar irreversible, drenaje venoso pulmonar anómalo y otras alteraciones anatómicas relevantes. La modalidad de cierre —percutánea o quirúrgica— depende de anatomía, bordes, tamaño y lesiones asociadas.",
+        perlaENARM: "En CIA del adulto, la pregunta no es solo '¿hay CIA?', sino '¿existe repercusión hemodinámica y es seguro cerrar el cortocircuito?'",
+        gpc: {
+            mexico: "GPC mexicana de cardiopatías congénitas aplicable a defectos septales.",
+            internacional: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline."
+        },
+        bibliografia: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-324",
+        especialidad: "Cardiología",
+        tema: "Cardiopatías congénitas del adulto",
+        subtema: "Eisenmenger y cierre de cortocircuitos",
+        dificultad: "Extrema",
+        caso: "Varón de 36 años con antecedente de comunicación interventricular no corregida presenta cianosis progresiva, disnea y síncope de esfuerzo. Saturación basal 82%. Exploración: acropaquia, segundo ruido pulmonar intenso y soplo holosistólico previamente documentado que actualmente es menos intenso. Cateterismo: mPAP 67 mmHg, PAWP 8 mmHg y PVR 11 WU. Existe inversión bidireccional del cortocircuito con flujo derecha-izquierda.",
+        pregunta: "¿Cuál es la conducta más importante respecto al defecto congénito?",
+        opciones: [
+            "Cerrar inmediatamente la comunicación interventricular para eliminar la hipoxemia",
+            "Cerrar el defecto después de administrar diuréticos",
+            "No realizar cierre convencional del defecto debido a enfermedad vascular pulmonar avanzada con fisiología de Eisenmenger",
+            "Realizar cierre percutáneo independientemente de la PVR",
+            "Realizar cierre únicamente durante un episodio de descompensación"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "El paciente presenta fisiología de Eisenmenger: cortocircuito congénito de larga evolución, hipertensión pulmonar severa, resistencia vascular pulmonar marcadamente elevada e inversión del flujo. En este contexto, cerrar el defecto puede eliminar una vía de descarga del VD y precipitar deterioro hemodinámico catastrófico. El manejo debe realizarse en un centro especializado en cardiopatías congénitas e hipertensión pulmonar, con tratamiento dirigido a la fisiología y prevención de complicaciones.",
+        perlaENARM: "Eisenmenger cambia completamente la lógica del cierre: una comunicación que inicialmente era patológica puede convertirse en una vía de descarga indispensable.",
+        gpc: {
+            mexico: "GPC mexicana aplicable a síndrome de Eisenmenger/cardiopatía congénita.",
+            internacional: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline; ESC/ERS 2022 Pulmonary Hypertension."
+        },
+        bibliografia: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline; ESC/ERS 2022 Pulmonary Hypertension."
+    },
+
+    {
+        id: "CARD-325",
+        especialidad: "Cardiología",
+        tema: "Cardiopatías congénitas del adulto",
+        subtema: "Anomalía de Ebstein",
+        dificultad: "Extrema",
+        caso: "Mujer de 28 años con anomalía de Ebstein diagnosticada desde la infancia presenta palpitaciones, intolerancia al ejercicio y episodios de taquicardia regular de inicio súbito. Ecocardiograma: desplazamiento apical marcado de las valvas tricuspídeas, aurícula derecha gigante, VD funcional reducido y regurgitación tricuspídea severa. ECG en ritmo sinusal: onda delta y PR corto. Durante la hospitalización presenta taquicardia regular de QRS estrecho a 220 lpm.",
+        pregunta: "¿Cuál es la asociación electrofisiológica más relevante en esta paciente?",
+        opciones: [
+            "Bloqueo AV completo congénito",
+            "Vía accesoria con síndrome de preexcitación, particularmente asociada a Ebstein",
+            "Síndrome de Brugada",
+            "Taquicardia ventricular catecolaminérgica",
+            "Bloqueo sinoauricular aislado"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La anomalía de Ebstein se asocia con una mayor prevalencia de vías accesorias y síndrome de Wolff-Parkinson-White. La combinación de PR corto, onda delta y taquicardia regular de QRS estrecho es altamente sugestiva de una taquicardia por reentrada auriculoventricular. El manejo debe integrar la anatomía de Ebstein, la severidad de la insuficiencia tricuspídea, función ventricular y evaluación electrofisiológica.",
+        perlaENARM: "Ebstein + WPW es una asociación clásica de cardiopatía congénita del adulto. No olvides buscar vías accesorias ante palpitaciones.",
+        gpc: {
+            mexico: "GPC mexicana de cardiopatías congénitas aplicable a anomalías congénitas complejas.",
+            internacional: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline."
+        },
+        bibliografia: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-326",
+        especialidad: "Cardiología",
+        tema: "Cardiopatías congénitas del adulto",
+        subtema: "Fontan",
+        dificultad: "Extrema",
+        caso: "Varón de 34 años con circulación de Fontan por ventrículo único presenta fatiga progresiva, edema periférico y disminución de la tolerancia al ejercicio. Ecocardiograma: función sistólica ventricular relativamente conservada. Saturación 91%. Laboratorio: albúmina 2.8 g/dL. Presenta diarrea crónica y pérdida de peso. No hay infección activa. La evaluación hemodinámica muestra presión venosa central elevada y flujo pulmonar limitado.",
+        pregunta: "¿Cuál es una complicación característica que debe sospecharse?",
+        opciones: [
+            "Síndrome de pérdida de proteínas asociado a Fontan",
+            "Síndrome nefrótico primario obligatorio",
+            "Miocardiopatía hipertrófica obstructiva",
+            "Endocarditis como diagnóstico más probable",
+            "Estenosis aórtica degenerativa"
+        ],
+        respuestaCorrecta: 0,
+        explicacion: "La enteropatía perdedora de proteínas es una complicación reconocida de la circulación de Fontan y se manifiesta con hipoalbuminemia, edema, diarrea y pérdida de proteínas. Su fisiopatología es compleja e incluye elevación crónica de la presión venosa sistémica, alteración linfática y disfunción intestinal. El paciente Fontan requiere vigilancia multidisciplinaria por insuficiencia cardiaca, arritmias, enfermedad hepática asociada a Fontan, trombosis, alteraciones linfáticas y otras complicaciones multisistémicas.",
+        perlaENARM: "Fontan no es simplemente 'un corazón con una cirugía previa': es una circulación hemodinámicamente particular con complicaciones cardíacas y extracardíacas.",
+        gpc: {
+            mexico: "GPC mexicana de cardiopatías congénitas aplicable a cardiopatías complejas.",
+            internacional: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline."
+        },
+        bibliografia: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-327",
+        especialidad: "Cardiología",
+        tema: "Cardiopatías congénitas del adulto",
+        subtema: "Transposición de grandes arterias corregida y ventrículo derecho sistémico",
+        dificultad: "Extrema",
+        caso: "Varón de 40 años con antecedente de transposición de grandes arterias corregida mediante switch auricular en la infancia consulta por disnea y palpitaciones. Ecocardiograma: VD sistémico dilatado, FEVD 35%, insuficiencia tricuspídea moderada-severa y aurícula derecha dilatada. ECG: bloqueo AV de primer grado. Holter: episodios de taquicardia auricular.",
+        pregunta: "¿Cuál es el principal mecanismo de deterioro ventricular que debe reconocerse?",
+        opciones: [
+            "El VD fue diseñado para manejar la circulación pulmonar y puede fallar cuando funciona crónicamente como ventrículo sistémico",
+            "La presencia de cualquier taquicardia auricular implica exclusivamente enfermedad del nodo AV",
+            "El VD sistémico nunca desarrolla insuficiencia ventricular",
+            "La insuficiencia tricuspídea no tiene relevancia pronóstica",
+            "El problema es necesariamente una cardiomiopatía infiltrativa"
+        ],
+        respuestaCorrecta: 0,
+        explicacion: "Después del switch auricular, el VD continúa funcionando como ventrículo sistémico. A largo plazo puede aparecer remodelado, disfunción sistólica, insuficiencia tricuspídea sistémica y arritmias auriculares o trastornos de conducción. El manejo requiere seguimiento especializado de ACHD y evaluación integral del VD sistémico, válvula tricúspide, ritmo, capacidad funcional y eventual insuficiencia cardiaca.",
+        perlaENARM: "En cardiopatías con VD sistémico, la anatomía ventricular importa: el VD sometido a poscarga sistémica durante décadas puede desarrollar insuficiencia.",
+        gpc: {
+            mexico: "GPC mexicana de cardiopatías congénitas aplicable a cardiopatía congénita compleja.",
+            internacional: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline."
+        },
+        bibliografia: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-328",
+        especialidad: "Cardiología",
+        tema: "Cardiopatías congénitas del adulto",
+        subtema: "Embarazo y cardiopatía congénita",
+        dificultad: "Extrema",
+        caso: "Mujer de 27 años con antecedente de Tetralogía de Fallot reparada desea embarazo. Está asintomática en reposo. RM cardiaca: FEVD 48%, insuficiencia pulmonar moderada, dilatación moderada del VD y capacidad funcional reducida en prueba cardiopulmonar. No presenta arritmias documentadas. Consulta para decidir si puede embarazarse.",
+        pregunta: "¿Cuál es el abordaje más apropiado?",
+        opciones: [
+            "Prohibir el embarazo automáticamente por cualquier antecedente de cardiopatía congénita",
+            "Permitir embarazo sin evaluación adicional porque la paciente está asintomática",
+            "Realizar asesoramiento preconcepcional multidisciplinario con estratificación materna, evaluación ventricular, riesgo arrítmico, anatomía residual y planificación obstétrica",
+            "Indicar anticoagulación durante todo el embarazo antes de valorar el riesgo",
+            "Realizar cesárea electiva independientemente de la situación hemodinámica"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "La cardiopatía congénita no constituye por sí misma una contraindicación universal para el embarazo. El riesgo depende de la anatomía, función ventricular, presencia de hipertensión pulmonar, arritmias, obstrucciones, cianosis y otros factores. La guía 2025 enfatiza el asesoramiento preconcepcional con participación del equipo especializado en ACHD y planificación individualizada del embarazo y parto.",
+        perlaENARM: "Antes del embarazo en ACHD: definir anatomía residual, función ventricular, arritmias, hipertensión pulmonar y riesgo materno-fetal; no basta con preguntar si la paciente 'se siente bien'.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables a embarazo y cardiopatía congénita cuando corresponda.",
+            internacional: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline."
+        },
+        bibliografia: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline."
+    },
+
+    {
+        id: "CARD-329",
+        especialidad: "Cardiología",
+        tema: "Cardiopatías congénitas del adulto",
+        subtema: "Arritmias y Tetralogía de Fallot",
+        dificultad: "Extrema",
+        caso: "Varón de 37 años con Tetralogía de Fallot reparada presenta síncope durante ejercicio. ECG basal: QRS de 192 ms con bloqueo completo de rama derecha. RM cardiaca: dilatación importante del VD, insuficiencia pulmonar severa y fibrosis extensa en el tracto de salida. Holter documenta TV monomórfica sostenida de 230 lpm con morfología compatible con circuito de reentrada alrededor de cicatrices quirúrgicas. La TV termina espontáneamente antes de llegar al hospital.",
+        pregunta: "¿Cuál es la interpretación más importante respecto al riesgo?",
+        opciones: [
+            "El episodio no tiene importancia porque terminó espontáneamente",
+            "La presencia de TV sostenida en Fallot reparado identifica un sustrato de alto riesgo y requiere evaluación especializada para estrategia de prevención de muerte súbita",
+            "El QRS ancho excluye TV porque existe bloqueo de rama derecha",
+            "La única intervención indicada es aumentar la dosis de diurético",
+            "El paciente debe recibir únicamente anticoagulación"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La TV sostenida en un paciente con Fallot reparado, especialmente acompañada de dilatación/disfunción del VD, fibrosis y QRS muy prolongado, es un marcador mayor de riesgo arrítmico. La fisiopatología frecuentemente involucra circuitos de reentrada alrededor de cicatrices quirúrgicas. La evaluación debe realizarse en un centro especializado, integrando reparación de lesiones residuales, estudio electrofisiológico/ablación cuando corresponda y valoración de indicación de desfibrilador implantable según el riesgo global.",
+        perlaENARM: "Fallot reparado + TV sostenida = no es una 'arritmia incidental'. Busca cicatriz, dilatación/disfunción del VD, lesión pulmonar residual y riesgo de muerte súbita.",
+        gpc: {
+            mexico: "GPC mexicana aplicable a cardiopatías congénitas y arritmias.",
+            internacional: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline; guías contemporáneas de arritmias ventriculares."
+        },
+        bibliografia: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-330",
+        especialidad: "Cardiología",
+        tema: "Cardiopatías congénitas del adulto",
+        subtema: "Caso integrativo: cardiopatía congénita, hipertensión pulmonar y cierre de shunt",
+        dificultad: "Extrema",
+        caso: "Mujer de 45 años con disnea progresiva presenta una comunicación interauricular tipo ostium secundum de 25 mm. Ecocardiograma: VD muy dilatado, insuficiencia tricuspídea moderada y presión pulmonar elevada. Saturación basal 93%. Cateterismo derecho: mPAP 42 mmHg, PAWP 9 mmHg, gasto cardiaco 4.5 L/min y PVR 5.8 WU. Qp/Qs es 1.3. La paciente fue enviada para cierre percutáneo inmediato del defecto, pero antes del procedimiento un especialista en ACHD solicita reevaluación multidisciplinaria.",
+        pregunta: "¿Cuál es la razón principal para NO realizar un cierre automático de la CIA?",
+        opciones: [
+            "El tamaño de la CIA es menor de 30 mm y por eso nunca debe cerrarse",
+            "La PVR está elevada y el Qp/Qs es solo modestamente aumentado, por lo que debe determinarse si existe enfermedad vascular pulmonar avanzada antes de eliminar el cortocircuito",
+            "Todo adulto con CIA debe recibir anticoagulación antes del cierre",
+            "La presencia de insuficiencia tricuspídea contraindica cualquier estudio hemodinámico",
+            "La saturación de 93% demuestra necesariamente Eisenmenger"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "Este es un escenario deliberadamente difícil: existe un defecto anatómico cerrable, pero la fisiología puede haber evolucionado hacia enfermedad vascular pulmonar significativa. La PVR de 5.8 WU y el Qp/Qs relativamente modesto obligan a evaluar cuidadosamente la relación entre el defecto y la hipertensión pulmonar antes de cerrar. En pacientes con hipertensión pulmonar asociada a cortocircuitos, el cierre indiscriminado puede ser perjudicial. La decisión requiere un equipo especializado en ACHD y hipertensión pulmonar, con evaluación hemodinámica completa y, cuando corresponda, estrategia individualizada respecto al tratamiento dirigido y posibilidad de cierre.",
+        perlaENARM: "En una CIA con HP, el número decisivo no es solamente el tamaño del defecto: PVR, Qp/Qs, dirección del flujo, función ventricular y contexto clínico determinan si cerrar es seguro.",
+        gpc: {
+            mexico: "GPC mexicanas de cardiopatías congénitas e hipertensión pulmonar aplicables al caso.",
+            internacional: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline; ESC/ERS 2022 Pulmonary Hypertension."
+        },
+        bibliografia: "2025 ACC/AHA/HRS/ISACHD/SCAI ACHD Guideline; 2020 ESC ACHD Guideline; ESC/ERS 2022 Pulmonary Hypertension; Braunwald's Heart Disease."
+    },
+        {
+        id: "CARD-331",
+        especialidad: "Cardiología",
+        tema: "Cardio-oncología",
+        subtema: "Cardiotoxicidad por antraciclinas",
+        dificultad: "Extrema",
+        caso: "Mujer de 54 años con linfoma difuso de células B grandes recibe tratamiento con doxorrubicina. Antes de iniciar quimioterapia presenta FEVI 63%, GLS -21%, troponina ultrasensible normal y NT-proBNP normal. Tiene hipertensión arterial bien controlada y diabetes mellitus tipo 2. Después de completar cuatro ciclos, la FEVI permanece en 57%, pero el GLS disminuye a -16.8%. La paciente se encuentra asintomática y los biomarcadores muestran elevación discreta de troponina respecto al basal.",
+        pregunta: "¿Cuál es la interpretación más apropiada de estos hallazgos?",
+        opciones: [
+            "No existe ninguna alteración porque la FEVI continúa por encima de 50%",
+            "El cambio del GLS y la elevación de biomarcadores pueden representar disfunción cardiaca relacionada con el tratamiento antes de una caída franca de la FEVI",
+            "Debe suspenderse definitivamente toda quimioterapia independientemente del riesgo oncológico",
+            "La disminución del GLS es diagnóstica de miocarditis por inmunoterapia",
+            "La FEVI debe disminuir por debajo de 35% antes de iniciar cualquier tratamiento cardiovascular"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La cardiotoxicidad puede manifestarse inicialmente mediante alteraciones subclínicas de la función miocárdica. Una reducción relativa del GLS superior al 15% respecto al basal es un hallazgo relevante en la vigilancia de cardiotoxicidad, especialmente cuando se acompaña de cambios en biomarcadores. La FEVI puede permanecer preservada durante las primeras fases. El objetivo del seguimiento es identificar la lesión antes de que aparezca una disfunción ventricular clínicamente manifiesta. La decisión de continuar o modificar la terapia oncológica debe realizarse mediante coordinación cardio-oncológica, valorando el riesgo cardiovascular y la importancia del tratamiento antineoplásico.",
+        perlaENARM: "En cardio-oncología, una FEVI normal no excluye cardiotoxicidad. El GLS puede detectar deterioro subclínico antes que la FEVI.",
+        gpc: {
+            mexico: "No se identificó una GPC mexicana específica de cardio-oncología en el catálogo cardiológico del IMSS; pueden existir GPC oncológicas específicas del tumor y del esquema utilizado.",
+            internacional: "2022 ESC Guidelines on Cardio-Oncology; IC-OS consensus definitions."
+        },
+        bibliografia: "2022 ESC Guidelines on Cardio-Oncology; Braunwald's Heart Disease; International Cardio-Oncology Society consensus."
+    },
+
+    {
+        id: "CARD-332",
+        especialidad: "Cardiología",
+        tema: "Cardio-oncología",
+        subtema: "Trastuzumab y disfunción ventricular",
+        dificultad: "Extrema",
+        caso: "Mujer de 48 años con cáncer de mama HER2 positivo recibe trastuzumab después de tratamiento previo con antraciclina. Su FEVI basal era 62%. Después de tres meses presenta disnea de medianos esfuerzos. FEVI actual 43%, GLS disminuido y NT-proBNP elevado. No tiene dolor torácico ni datos de infección. Ecocardiograma: hipocinesia global sin alteraciones segmentarias.",
+        pregunta: "¿Cuál es el mecanismo y la conducta que mejor corresponden al caso?",
+        opciones: [
+            "Es una cardiomiopatía isquémica obligatoria y debe realizarse angioplastia coronaria inmediatamente",
+            "Es compatible con disfunción cardiaca relacionada con terapia anti-HER2; requiere valoración cardio-oncológica e inicio de tratamiento cardiovascular mientras se decide la estrategia oncológica",
+            "Debe continuarse trastuzumab sin ninguna modificación porque la toxicidad es irreversible",
+            "Es una pericarditis aguda por trastuzumab",
+            "La caída de FEVI no tiene importancia mientras la paciente permanezca sin edema"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "Trastuzumab puede producir disfunción ventricular izquierda, particularmente después de exposición a antraciclinas. A diferencia de la cardiotoxicidad clásica dependiente de dosis acumulada de antraciclinas, la disfunción asociada a HER2 puede aparecer durante el tratamiento y puede ser reversible si se identifica y maneja oportunamente. La paciente tiene una caída significativa de FEVI, síntomas y biomarcadores elevados, por lo que requiere evaluación especializada e inicio de tratamiento basado en guías para insuficiencia cardiaca con FEVI reducida o ligeramente reducida según el fenotipo. La decisión de interrupción temporal o continuación del tratamiento oncológico debe individualizarse con oncología.",
+        perlaENARM: "Antraciclina previa + trastuzumab = riesgo aumentado de disfunción ventricular. La toxicidad anti-HER2 puede ser potencialmente reversible.",
+        gpc: {
+            mexico: "No se identificó GPC mexicana específica de cardiotoxicidad por trastuzumab en el catálogo IMSS consultado.",
+            internacional: "2022 ESC Guidelines on Cardio-Oncology."
+        },
+        bibliografia: "2022 ESC Guidelines on Cardio-Oncology; 2026 ACC Expert Consensus on HFpEF/HF management where applicable; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-333",
+        especialidad: "Cardiología",
+        tema: "Cardio-oncología",
+        subtema: "Inhibidores de puntos de control inmunitario y miocarditis",
+        dificultad: "Extrema",
+        caso: "Varón de 67 años con melanoma metastásico inició nivolumab más ipilimumab hace cuatro semanas. Consulta por fatiga, disnea y episodios de mareo. Troponina I marcadamente elevada. ECG: PR de 280 ms y bloqueo de rama derecha nuevo. FEVI 52%. CPK elevada y refiere debilidad muscular proximal. No presenta fiebre ni dolor torácico. La coronariografía no muestra lesiones obstructivas significativas.",
+        pregunta: "¿Cuál es el diagnóstico que debe considerarse prioritariamente?",
+        opciones: [
+            "Miocarditis asociada a inhibidores de puntos de control inmunitario con posible afectación del sistema de conducción y síndrome de solapamiento neuromuscular",
+            "Infarto tipo 1 por ruptura de placa coronaria",
+            "Pericarditis viral aislada",
+            "Cardiomiopatía de Takotsubo como diagnóstico definitivo",
+            "Endocarditis infecciosa"
+        ],
+        respuestaCorrecta: 0,
+        explicacion: "La combinación de exposición reciente a inhibidores de puntos de control inmunitario, troponina marcadamente elevada, trastorno nuevo de conducción y síntomas musculares debe hacer sospechar miocarditis relacionada con ICI. Esta entidad es infrecuente pero potencialmente fulminante. La presencia de bloqueo AV, arritmias, disfunción ventricular o elevación importante de biomarcadores aumenta la gravedad. Puede coexistir miositis y miastenia gravis, por lo que debe buscarse debilidad, disfagia, ptosis, diplopía y alteraciones de enzimas musculares. El manejo requiere suspensión temporal del ICI y evaluación urgente; los casos sospechosos de miocarditis clínicamente significativa requieren tratamiento inmunosupresor precoz según protocolos especializados.",
+        perlaENARM: "ICI + troponina elevada + nuevo trastorno de conducción = pensar en miocarditis por ICI aunque la FEVI sea casi normal.",
+        gpc: {
+            mexico: "No se identificó GPC mexicana específica para miocarditis por inhibidores de puntos de control inmunitario.",
+            internacional: "2022 ESC Guidelines on Cardio-Oncology; IC-OS consensus."
+        },
+        bibliografia: "2022 ESC Guidelines on Cardio-Oncology; IC-OS consensus on immune checkpoint inhibitor myocarditis; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-334",
+        especialidad: "Cardiología",
+        tema: "Cardio-oncología",
+        subtema: "Hipertensión inducida por VEGF-TKI",
+        dificultad: "Muy alta",
+        caso: "Mujer de 63 años con carcinoma renal metastásico inicia un inhibidor de tirosina cinasa dirigido contra VEGF. Antes del tratamiento su TA era 128/76 mmHg. Tres semanas después presenta TA persistente de 188/108 mmHg en domicilio y cefalea. No tiene déficit neurológico, dolor torácico ni edema pulmonar. Creatinina permanece estable y no hay datos de disección aórtica.",
+        pregunta: "¿Cuál es el principio de manejo cardiovascular más apropiado?",
+        opciones: [
+            "La hipertensión es esperable y nunca debe tratarse durante un VEGF-TKI",
+            "Debe confirmarse y tratarse activamente la hipertensión, con coordinación estrecha con oncología debido al riesgo cardiovascular del tratamiento",
+            "Debe suspenderse definitivamente el tratamiento oncológico en todos los casos",
+            "La hipertensión demuestra feocromocitoma hasta demostrar lo contrario",
+            "Debe administrarse fibrinólisis por el riesgo trombótico"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "Los inhibidores de VEGF pueden provocar hipertensión de novo o empeorar una hipertensión preexistente. La monitorización de presión arterial desde el inicio y durante el tratamiento es fundamental. Una elevación marcada y persistente requiere tratamiento antihipertensivo y evaluación de daño de órgano blanco. El manejo oncológico debe individualizarse: no toda hipertensión obliga a suspender el tratamiento, pero una hipertensión severa no controlada puede requerir modificación temporal de la terapia según el fármaco, gravedad y contexto clínico.",
+        perlaENARM: "VEGF-TKI → hipertensión es una toxicidad cardiovascular clásica. La presión arterial debe vigilarse desde el inicio del tratamiento.",
+        gpc: {
+            mexico: "No se identificó GPC mexicana específica de hipertensión inducida por VEGF-TKI; utilizar GPC mexicana de hipertensión y protocolos oncológicos correspondientes.",
+            internacional: "2022 ESC Guidelines on Cardio-Oncology."
+        },
+        bibliografia: "2022 ESC Guidelines on Cardio-Oncology; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-335",
+        especialidad: "Cardiología",
+        tema: "Cardio-oncología",
+        subtema: "Radioterapia y enfermedad cardiovascular",
+        dificultad: "Extrema",
+        caso: "Varón de 58 años recibió radioterapia mediastínica por linfoma de Hodgkin a los 25 años. Tres décadas después presenta disnea de esfuerzo, síncope al ejercicio y un soplo sistólico que aumenta progresivamente. Ecocardiograma: válvula aórtica engrosada con estenosis severa y calcificación de la raíz aórtica. Las arterias coronarias muestran enfermedad aterosclerótica moderada. También presenta calcificación pericárdica focal.",
+        pregunta: "¿Cuál es la explicación más completa del fenotipo cardiovascular?",
+        opciones: [
+            "La radioterapia mediastínica solo puede causar pericarditis aguda y no produce enfermedad tardía",
+            "El paciente puede presentar enfermedad cardiovascular tardía relacionada con radiación, incluyendo valvulopatía, enfermedad coronaria y enfermedad pericárdica",
+            "La estenosis aórtica solo puede ser degenerativa por edad",
+            "La enfermedad coronaria descarta cualquier relación con radioterapia",
+            "La radioterapia protege contra la aterosclerosis"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La radioterapia torácica puede producir enfermedad cardiovascular tardía años o décadas después de la exposición. El espectro incluye enfermedad coronaria acelerada, valvulopatía, enfermedad pericárdica, disfunción miocárdica, enfermedad de grandes vasos y alteraciones estructurales. La combinación de múltiples lesiones cardiovasculares en un sobreviviente de radioterapia mediastínica debe hacer sospechar toxicidad tardía relacionada con radiación.",
+        perlaENARM: "Radioterapia mediastínica puede producir enfermedad cardiovascular décadas después. En un sobreviviente joven con valvulopatía y enfermedad coronaria, piensa en radiación.",
+        gpc: {
+            mexico: "No se identificó una GPC mexicana específica de enfermedad cardiovascular tardía por radioterapia.",
+            internacional: "2022 ESC Guidelines on Cardio-Oncology."
+        },
+        bibliografia: "2022 ESC Guidelines on Cardio-Oncology; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-336",
+        especialidad: "Cardiología",
+        tema: "Cardio-oncología",
+        subtema: "Antraciclinas y prevención de cardiotoxicidad",
+        dificultad: "Extrema",
+        caso: "Mujer de 39 años con sarcoma de partes blandas requiere tratamiento con dosis acumuladas elevadas de doxorrubicina. Tiene antecedentes de hipertensión y FEVI basal de 55%, GLS limítrofe y NT-proBNP discretamente elevado. El oncólogo pregunta cuál debe ser la estrategia cardiovascular antes de iniciar tratamiento.",
+        pregunta: "¿Cuál es el enfoque más apropiado?",
+        opciones: [
+            "No realizar ninguna evaluación cardiovascular porque el cáncer tiene prioridad",
+            "Estratificar el riesgo cardiovascular basal, optimizar factores modificables y establecer vigilancia con biomarcadores e imagen durante el tratamiento",
+            "Esperar a que aparezca insuficiencia cardiaca para iniciar tratamiento",
+            "Realizar cateterismo cardiaco invasivo de rutina",
+            "Indicar desfibrilador implantable profiláctico"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La prevención comienza antes de la exposición al tratamiento cardiotóxico. La paciente presenta múltiples factores que incrementan el riesgo de toxicidad: dosis potencialmente elevada de antraciclina, hipertensión, FEVI no óptima y biomarcadores/GLS preocupantes. La estrategia incluye evaluación cardiovascular basal, control estricto de factores de riesgo y planificación de vigilancia con ecocardiografía y biomarcadores. En pacientes seleccionados de alto riesgo pueden considerarse estrategias cardioprotectoras farmacológicas y medidas relacionadas con el esquema oncológico.",
+        perlaENARM: "La cardio-oncología empieza antes de la primera dosis de quimioterapia: riesgo basal → prevención → vigilancia → intervención temprana.",
+        gpc: {
+            mexico: "No se identificó GPC mexicana específica de prevención de cardiotoxicidad por antraciclinas; pueden utilizarse GPC de la neoplasia y GPC mexicanas cardiovasculares para control de factores de riesgo.",
+            internacional: "2022 ESC Guidelines on Cardio-Oncology."
+        },
+        bibliografia: "2022 ESC Guidelines on Cardio-Oncology; HFA-ICOS baseline cardiovascular toxicity risk stratification; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-337",
+        especialidad: "Cardiología",
+        tema: "Cardio-oncología",
+        subtema: "Disfunción ventricular relacionada con cáncer: continuidad del tratamiento",
+        dificultad: "Extrema",
+        caso: "Varón de 61 años con leucemia inicia tratamiento antineoplásico potencialmente cardiotóxico. Después de varios ciclos desarrolla FEVI de 38% y disnea NYHA II. No presenta hipotensión, congestión grave ni arritmias inestables. El tratamiento oncológico es considerado esencial para controlar una enfermedad potencialmente mortal. El equipo de oncología solicita valoración cardiológica.",
+        pregunta: "¿Cuál es el principio terapéutico más apropiado?",
+        opciones: [
+            "Suspender definitivamente cualquier terapia oncológica cardiotóxica independientemente de la gravedad del cáncer",
+            "Iniciar tratamiento de insuficiencia cardiaca basado en guías y realizar una decisión multidisciplinaria sobre continuar, pausar o modificar el tratamiento oncológico",
+            "No tratar la insuficiencia cardiaca hasta terminar la quimioterapia",
+            "Colocar un desfibrilador inmediatamente antes de cualquier tratamiento farmacológico",
+            "Administrar únicamente diurético y evitar inhibidores neurohormonales"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La decisión en cardio-oncología no consiste simplemente en suspender el tratamiento oncológico. Debe equilibrarse el riesgo cardiovascular con el beneficio oncológico. En pacientes con disfunción ventricular se recomienda iniciar tratamiento cardiovascular apropiado según el fenotipo y gravedad, mientras el equipo cardio-oncológico y oncología determina si la terapia antineoplásica puede continuarse, pausarse o modificarse. La estrategia debe individualizarse y considerar la reversibilidad potencial de la toxicidad.",
+        perlaENARM: "Cardiotoxicidad no equivale automáticamente a abandonar el tratamiento contra el cáncer. La decisión es riesgo cardiovascular vs beneficio oncológico.",
+        gpc: {
+            mexico: "No se identificó GPC mexicana específica para la decisión cardio-oncológica de continuidad de tratamiento.",
+            internacional: "2022 ESC Guidelines on Cardio-Oncology."
+        },
+        bibliografia: "2022 ESC Guidelines on Cardio-Oncology; Braunwald's Heart Disease; contemporary heart failure guidelines."
+    },
+
+    {
+        id: "CARD-338",
+        especialidad: "Cardiología",
+        tema: "Cardio-oncología",
+        subtema: "Trombosis y cáncer",
+        dificultad: "Extrema",
+        caso: "Mujer de 69 años con adenocarcinoma pancreático metastásico presenta disnea súbita. Angio-TC: TEP segmentario bilateral. No tiene sangrado activo, pero presenta trombocitopenia moderada relacionada con quimioterapia y metástasis hepáticas. Plaquetas: 68,000/µL. Creatinina normal. Se requiere seleccionar tratamiento anticoagulante.",
+        pregunta: "¿Cuál es el principio que debe guiar la decisión?",
+        opciones: [
+            "Todo paciente con cáncer debe recibir warfarina independientemente del riesgo hemorrágico",
+            "Debe individualizarse el anticoagulante considerando cáncer activo, localización tumoral, plaquetas, riesgo de sangrado, interacciones y función renal",
+            "La trombocitopenia contraindica siempre cualquier anticoagulación",
+            "La aspirina es equivalente a anticoagulación para tratar TEP",
+            "La anticoagulación nunca debe utilizarse en pacientes con metástasis hepáticas"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El cáncer activo aumenta significativamente el riesgo trombótico, pero también puede aumentar el riesgo hemorrágico. La selección del anticoagulante debe considerar tipo y localización del cáncer, trombocitopenia, función renal, interacciones con tratamiento oncológico y riesgo de sangrado. En trombocitopenia significativa la estrategia debe individualizarse y puede requerir ajustes según el recuento plaquetario y gravedad del evento trombótico. Los anticoagulantes orales directos tienen ventajas en determinados escenarios, pero no son universalmente preferibles en todos los tumores o situaciones de sangrado.",
+        perlaENARM: "En cáncer + TEP, no basta con identificar el trombo: hay que balancear trombosis vs hemorragia y revisar interacciones farmacológicas.",
+        gpc: {
+            mexico: "GPC mexicanas oncológicas y de tromboembolia aplicables según neoplasia y contexto clínico.",
+            internacional: "2022 ESC Cardio-Oncology Guideline y recomendaciones contemporáneas de tromboembolia asociada a cáncer."
+        },
+        bibliografia: "2022 ESC Guidelines on Cardio-Oncology; Braunwald's Heart Disease; contemporary cancer-associated thrombosis guidance."
+    },
+
+    {
+        id: "CARD-339",
+        especialidad: "Cardiología",
+        tema: "Cardio-oncología",
+        subtema: "Sobreviviente de cáncer y seguimiento cardiovascular",
+        dificultad: "Extrema",
+        caso: "Mujer de 46 años fue tratada por cáncer de mama a los 31 años con antraciclina y trastuzumab. Recibió además radioterapia torácica. Actualmente está asintomática, realiza ejercicio y presenta FEVI 60%. Consulta porque nunca ha tenido seguimiento cardiológico desde que terminó el tratamiento hace 14 años. Tiene hipertensión recientemente diagnosticada y LDL de 156 mg/dL.",
+        pregunta: "¿Cuál es el enfoque más apropiado?",
+        opciones: [
+            "No requiere seguimiento porque han pasado más de 10 años y la FEVI es normal",
+            "Debe realizarse una evaluación cardiovascular tardía basada en su exposición previa y factores de riesgo, con estrategia de seguimiento individualizada",
+            "Solo necesita una radiografía de tórax",
+            "La hipertensión no tiene importancia porque es posterior a la quimioterapia",
+            "La ausencia de síntomas excluye toxicidad tardía"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "Los sobrevivientes de cáncer pueden desarrollar toxicidad cardiovascular tardía años después de completar el tratamiento. El riesgo depende de la exposición acumulada, radioterapia, factores cardiovasculares y alteraciones encontradas durante o después del tratamiento. En esta paciente existen múltiples exposiciones relevantes y factores de riesgo actuales. La evaluación debe incluir historia terapéutica, examen cardiovascular, factores de riesgo y estudios dirigidos según el riesgo, incluyendo imagen cardiaca y biomarcadores cuando estén indicados.",
+        perlaENARM: "El riesgo cardio-oncológico no termina cuando termina la quimioterapia. Puede persistir durante décadas.",
+        gpc: {
+            mexico: "No se identificó GPC mexicana específica para vigilancia cardiovascular de sobrevivientes de cáncer.",
+            internacional: "2022 ESC Guidelines on Cardio-Oncology."
+        },
+        bibliografia: "2022 ESC Guidelines on Cardio-Oncology; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-340",
+        especialidad: "Cardiología",
+        tema: "Cardio-oncología",
+        subtema: "Caso integrativo de toxicidad cardiovascular",
+        dificultad: "Extrema",
+        caso: "Varón de 72 años con carcinoma renal metastásico presenta hipertensión arterial severa y posteriormente disnea. Inició terapia combinada con un inhibidor de VEGF y un inhibidor de punto de control inmunitario. Antes del tratamiento tenía FEVI 64%, GLS -20%, NT-proBNP normal y TA 132/78 mmHg. Después de ocho semanas presenta TA 194/112 mmHg, troponina elevada y FEVI 45% con GLS -14%. ECG muestra extrasístoles ventriculares frecuentes. No hay lesiones coronarias obstructivas. CPK está elevada y presenta debilidad muscular proximal.",
+        pregunta: "¿Cuál es la interpretación más completa?",
+        opciones: [
+            "Una única cardiomiopatía isquémica explica obligatoriamente todos los hallazgos",
+            "Puede existir toxicidad cardiovascular multifactorial relacionada con el tratamiento, incluyendo hipertensión por VEGF, disfunción ventricular y posible miocarditis/miositis relacionada con ICI",
+            "Los hallazgos son normales durante inmunoterapia",
+            "La elevación de troponina demuestra exclusivamente síndrome coronario agudo tipo 1",
+            "La FEVI de 45% descarta miocarditis"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "Este es un escenario de alta complejidad cardio-oncológica. El VEGF-TKI explica de forma plausible la hipertensión severa, mientras que la combinación de ICI, elevación de troponina, caída de FEVI/GLS, extrasístoles y debilidad muscular obliga a considerar miocarditis asociada a ICI con posible síndrome de solapamiento miocarditis-miositis. La ausencia de enfermedad coronaria obstructiva no elimina el diagnóstico. Se requiere evaluación urgente y multidisciplinaria, incluyendo ECG seriados, troponina, biomarcadores, ecocardiografía, consideración de CMR y evaluación de afectación muscular; la sospecha de miocarditis por ICI no debe retrasar el tratamiento especializado cuando la probabilidad clínica es alta.",
+        perlaENARM: "En pacientes oncológicos pueden coexistir varias toxicidades simultáneamente. Identifica el fármaco responsable de cada fenotipo en lugar de buscar una única explicación.",
+        gpc: {
+            mexico: "No se identificó GPC mexicana específica de cardio-oncología; utilizar GPC mexicanas correspondientes a hipertensión, insuficiencia cardiaca y la neoplasia tratada.",
+            internacional: "2022 ESC Guidelines on Cardio-Oncology; IC-OS consensus statements."
+        },
+        bibliografia: "2022 ESC Guidelines on Cardio-Oncology; IC-OS consensus; Braunwald's Heart Disease."
+    },
+        {
+        id: "CARD-341",
+        especialidad: "Cardiología",
+        tema: "Miocarditis",
+        subtema: "Miocarditis aguda y resonancia cardiaca",
+        dificultad: "Extrema",
+        caso: "Varón de 27 años, previamente sano, consulta por dolor torácico de 36 horas de evolución. Cinco días antes presentó un cuadro viral con fiebre de hasta 38.5 °C, mialgias y odinofagia que cedió espontáneamente. El dolor comenzó posteriormente, es retroesternal, aumenta con la inspiración profunda y disminuye parcialmente al sentarse e inclinarse hacia adelante. En urgencias presenta TA 118/72 mmHg, FC 104 lpm, SatO2 98% y temperatura 37.4 °C. ECG: elevación difusa del ST de concavidad superior con depresión del PR en múltiples derivaciones. Troponina I ultrasensible 1,850 ng/L, previamente desconocida. Ecocardiograma: FEVI 53%, sin alteraciones regionales importantes y pequeño derrame pericárdico. Coronariografía sin enfermedad coronaria obstructiva. La resonancia cardiaca demuestra edema miocárdico y realce tardío subepicárdico/mesomiocárdico predominante en segmentos inferolaterales, sin distribución territorial coronaria.",
+        pregunta: "¿Cuál es el diagnóstico que mejor integra la presentación clínica, ECG, biomarcadores, ecocardiograma y resonancia?",
+        opciones: [
+            "Síndrome coronario agudo por ruptura de placa ateroesclerótica",
+            "Pericarditis aguda aislada sin afectación miocárdica",
+            "Síndrome inflamatorio miopericárdico compatible con miopericarditis aguda",
+            "Miocardiopatía dilatada idiopática",
+            "Takotsubo clásico"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "El cuadro integra inflamación pericárdica —dolor pleurítico y posicional, elevación difusa del ST y depresión del PR— con lesión miocárdica demostrada por elevación de troponina y hallazgos de CMR compatibles con inflamación miocárdica. La distribución no isquémica del realce tardío y el edema apoyan fuertemente un proceso inflamatorio. La nueva ESC 2025 utiliza el concepto paraguas de síndrome inflamatorio miopericárdico (IMPS) para reconocer el espectro clínico antes de establecer el fenotipo específico. En este paciente, al existir elevación de biomarcadores de lesión miocárdica sin una disfunción ventricular importante, el término clínico de miopericarditis es especialmente apropiado. La coronariografía negativa no diagnostica por sí sola miocarditis, pero excluye una causa coronaria importante en este contexto.",
+        perlaENARM: "Dolor pericárdico + cambios difusos de ST/PR + troponina elevada + CMR con patrón no isquémico = piensa en miopericarditis, no en IAM automáticamente.",
+        gpc: {
+            mexico: "IMSS-367-11, Diagnóstico y tratamiento de miocarditis aguda; IMSS-463-11, Diagnóstico y tratamiento de pericarditis en el adulto.",
+            internacional: "2025 ESC Guidelines for the Management of Myocarditis and Pericarditis."
+        },
+        bibliografia: "2025 ESC Guidelines for Myocarditis and Pericarditis; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+    },
+
+    {
+        id: "CARD-342",
+        especialidad: "Cardiología",
+        tema: "Miocarditis",
+        subtema: "Miocarditis fulminante",
+        dificultad: "Extrema",
+        caso: "Mujer de 34 años, previamente sana, presenta fiebre, mialgias y diarrea durante cuatro días. Al sexto día desarrolla disnea rápidamente progresiva, ortopnea y palpitaciones. Ingresa con TA 82/54 mmHg, FC 128 lpm, extremidades frías, oliguria y alteración del estado mental. ECG: taquicardia sinusal, bloqueo AV de segundo grado avanzado y extrasístoles ventriculares frecuentes. Troponina I 18,000 ng/L, NT-proBNP marcadamente elevado y lactato 5.4 mmol/L. Ecocardiograma: FEVI 20%, hipocinesia global y VD con función deprimida. Coronariografía sin enfermedad obstructiva. La resonancia cardiaca no puede realizarse inicialmente por inestabilidad. A pesar de vasopresor e inotrópico persiste hipoperfusión.",
+        pregunta: "¿Cuál es la clasificación y estrategia inicial que mejor corresponden al cuadro?",
+        opciones: [
+            "Miocarditis leve ambulatoria porque la etiología probablemente es viral",
+            "Miocarditis fulminante con insuficiencia cardiaca y choque, que requiere manejo intensivo y consideración temprana de soporte circulatorio avanzado",
+            "Pericarditis aguda aislada tratable únicamente con AINE",
+            "Takotsubo estable sin necesidad de vigilancia intensiva",
+            "Síndrome coronario crónico"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La paciente presenta una forma fulminante de miocarditis: deterioro hemodinámico grave, disfunción ventricular marcada, hipoperfusión, arritmias y trastorno avanzado de conducción. El tratamiento inicial es el soporte de la insuficiencia cardiaca y del choque en una unidad especializada, con evaluación temprana para soporte circulatorio mecánico si no responde al tratamiento convencional. En casos de alto riesgo, la biopsia endomiocárdica puede ser considerada cuando el resultado tenga implicaciones terapéuticas, particularmente ante sospecha de etiologías específicas susceptibles de tratamiento dirigido. La ausencia de CMR inicial por inestabilidad no debe retrasar el soporte vital.",
+        perlaENARM: "En miocarditis fulminante, primero estabiliza al paciente. La CMR es importante, pero no debe retrasar soporte circulatorio ni las decisiones de una situación crítica.",
+        gpc: {
+            mexico: "IMSS-367-11, Diagnóstico y tratamiento de miocarditis aguda.",
+            internacional: "2025 ESC Guidelines for the Management of Myocarditis and Pericarditis."
+        },
+        bibliografia: "2025 ESC Guidelines for Myocarditis and Pericarditis; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+    },
+
+    {
+        id: "CARD-343",
+        especialidad: "Cardiología",
+        tema: "Miocarditis",
+        subtema: "Miocarditis de células gigantes",
+        dificultad: "Extrema",
+        caso: "Varón de 47 años, previamente sano, presenta seis semanas de insuficiencia cardiaca progresiva. Inicialmente tenía FEVI 45%, pero dos semanas después disminuye a 25%. Presenta episodios recurrentes de taquicardia ventricular y posteriormente bloqueo AV avanzado. Troponina persistentemente elevada. Coronariografía sin enfermedad obstructiva. La CMR demuestra edema difuso y realce no isquémico, pero el deterioro continúa a pesar del tratamiento convencional de insuficiencia cardiaca. No existe antecedente claro de infección viral reciente. Por la progresión rápida y la combinación de arritmias ventriculares y trastornos de conducción, se decide realizar biopsia endomiocárdica.",
+        pregunta: "¿Cuál de las siguientes etiologías debe considerarse especialmente ante este patrón y por qué la biopsia puede ser decisiva?",
+        opciones: [
+            "Miocarditis de células gigantes, porque es una etiología grave en la que el diagnóstico histológico puede modificar de forma inmediata el tratamiento inmunosupresor",
+            "Pericarditis viral aislada, porque explica el bloqueo AV avanzado",
+            "Cardiopatía isquémica estable, aunque las coronarias sean normales",
+            "Estenosis aórtica crítica",
+            "Miocardiopatía alcohólica como única explicación"
+        ],
+        respuestaCorrecta: 0,
+        explicacion: "La combinación de deterioro rápidamente progresivo, insuficiencia cardiaca severa, taquicardia ventricular y bloqueo AV avanzado constituye un fenotipo de alto riesgo. La miocarditis de células gigantes es una etiología rara pero particularmente grave y potencialmente tratable con inmunosupresión. En escenarios de alto riesgo donde el diagnóstico etiológico puede modificar de manera importante el tratamiento, la biopsia endomiocárdica puede estar indicada. La CMR demuestra inflamación, pero no siempre determina la etiología histológica específica.",
+        perlaENARM: "Miocarditis + TV + bloqueo AV avanzado + deterioro rápidamente progresivo = busca etiologías específicas graves; la biopsia puede cambiar el tratamiento.",
+        gpc: {
+            mexico: "IMSS-367-11, Miocarditis aguda.",
+            internacional: "2025 ESC Guidelines for Myocarditis and Pericarditis."
+        },
+        bibliografia: "2025 ESC Guidelines for Myocarditis and Pericarditis; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-344",
+        especialidad: "Cardiología",
+        tema: "Miocarditis",
+        subtema: "Miocarditis asociada a inhibidores de checkpoint",
+        dificultad: "Extrema",
+        caso: "Mujer de 69 años con carcinoma pulmonar metastásico inició pembrolizumab seis semanas antes. Consulta por fatiga intensa, disnea, diplopía y debilidad proximal de cuatro días de evolución. TA 110/68 mmHg, FC 92 lpm. ECG: nuevo bloqueo AV de primer grado que progresa durante la observación a bloqueo AV de segundo grado. Troponina T ultrasensible 1,600 ng/L y CPK 3,800 U/L. Ecocardiograma: FEVI 51%. Coronariografía sin enfermedad obstructiva. Presenta además ptosis bilateral y dificultad para elevar los brazos. No hay fiebre ni hipotensión.",
+        pregunta: "¿Cuál es la interpretación clínica más importante?",
+        opciones: [
+            "La FEVI casi normal descarta una complicación cardiaca grave",
+            "El cuadro sugiere miocarditis asociada a ICI con probable miositis y posible miastenia gravis concomitante, situación de alto riesgo",
+            "Se trata exclusivamente de una miopatía por estatinas",
+            "El bloqueo AV es incidental y no requiere vigilancia",
+            "El cuadro es compatible únicamente con progresión metastásica"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La combinación de inhibidor de checkpoint, elevación importante de troponina, trastorno nuevo de conducción y manifestaciones musculares/neuromusculares es altamente sugestiva de toxicidad inmunomediada con afectación miocárdica y muscular. La miocarditis por ICI puede presentarse con FEVI preservada o discretamente reducida y aun así ser potencialmente mortal. La coexistencia de miositis y miastenia gravis es particularmente relevante porque puede producir compromiso respiratorio y neuromuscular grave. El paciente requiere evaluación urgente multidisciplinaria, suspensión temporal de la inmunoterapia y tratamiento inmunosupresor cuando la sospecha clínica sea alta.",
+        perlaENARM: "En miocarditis por ICI, la gravedad no se determina solamente por la FEVI. Troponina + trastorno de conducción + miositis/miastenia es una combinación de alto riesgo.",
+        gpc: {
+            mexico: "No existe una GPC mexicana específica identificada para miocarditis por ICI; aplicar GPC mexicana de miocarditis y protocolos oncológicos.",
+            internacional: "2025 ESC Guidelines for Myocarditis and Pericarditis; 2022 ESC Cardio-Oncology Guideline; consensos IC-OS."
+        },
+        bibliografia: "2025 ESC Guidelines for Myocarditis and Pericarditis; 2022 ESC Cardio-Oncology; IC-OS consensus statements."
+    },
+
+    {
+        id: "CARD-345",
+        especialidad: "Cardiología",
+        tema: "Pericarditis",
+        subtema: "Pericarditis aguda y estratificación de riesgo",
+        dificultad: "Extrema",
+        caso: "Varón de 38 años presenta dolor torácico intenso de 48 horas. El dolor empeora al acostarse y respirar profundamente y mejora al inclinarse hacia adelante. TA 124/78 mmHg, FC 104 lpm y temperatura 37.8 °C. ECG: elevación difusa del ST con depresión del PR. PCR elevada y troponina normal. Ecocardiograma: derrame pericárdico circumferencial de 12 mm sin colapso de cavidades derechas. No tiene inmunosupresión, trauma, anticoagulación ni antecedente de tuberculosis. No existe insuficiencia renal ni enfermedad autoinmune conocida.",
+        pregunta: "¿Cuál es la estrategia inicial más apropiada?",
+        opciones: [
+            "Pericardiocentesis urgente independientemente del tamaño del derrame",
+            "Tratamiento antiinflamatorio con AINE/aspirina más colchicina y seguimiento clínico, al no existir datos de alto riesgo o taponamiento",
+            "Anticoagulación terapéutica inmediata",
+            "Cirugía pericárdica urgente",
+            "Antibiótico de amplio espectro sin evaluación adicional"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El cuadro es compatible con pericarditis aguda no complicada. Existen criterios clínicos clásicos de inflamación pericárdica y no hay datos de taponamiento. Un derrame moderado sin compromiso hemodinámico no constituye por sí mismo una indicación automática de pericardiocentesis. En la pericarditis aguda no complicada, el tratamiento antiinflamatorio combinado con colchicina reduce síntomas y recurrencias. La búsqueda etiológica debe intensificarse cuando existen características de alto riesgo o sospecha de una etiología específica.",
+        perlaENARM: "Derrame pericárdico ≠ taponamiento. La conducta depende de tamaño, repercusión hemodinámica y sospecha etiológica.",
+        gpc: {
+            mexico: "IMSS-463-11, Diagnóstico y tratamiento de pericarditis en el adulto.",
+            internacional: "2025 ESC Guidelines for the Management of Myocarditis and Pericarditis."
+        },
+        bibliografia: "2025 ESC Guidelines for Myocarditis and Pericarditis; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-346",
+        especialidad: "Cardiología",
+        tema: "Pericarditis",
+        subtema: "Pericarditis recurrente",
+        dificultad: "Extrema",
+        caso: "Mujer de 32 años tuvo un primer episodio de pericarditis hace ocho meses, tratado con ibuprofeno y colchicina. Mejoró completamente y normalizó la PCR. Cuatro meses después presentó una nueva crisis y recibió nuevamente antiinflamatorio. Ahora consulta por un tercer episodio: dolor pleurítico y posicional, febrícula y PCR 56 mg/L. ECG muestra nuevamente cambios difusos compatibles con inflamación pericárdica. No presenta derrame significativo ni datos de infección bacteriana. Ha presentado dificultades para mantener tratamientos antiinflamatorios prolongados por efectos gastrointestinales.",
+        pregunta: "¿Cuál es la estrategia farmacológica que debe considerarse en una paciente con pericarditis recurrente?",
+        opciones: [
+            "Suspender todos los antiinflamatorios porque las recurrencias son inevitables",
+            "Colchicina como componente fundamental del tratamiento y, en recurrencias seleccionadas, considerar estrategias de segunda línea dirigidas a la inflamación cuando existe dependencia o resistencia al tratamiento convencional",
+            "Anticoagulación como tratamiento antiinflamatorio",
+            "Antibióticos de amplio espectro durante seis meses",
+            "Digoxina como tratamiento principal"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La pericarditis recurrente requiere controlar el episodio inflamatorio y reducir la probabilidad de nuevos episodios. La colchicina tiene un papel central en la prevención de recurrencias y suele utilizarse junto con tratamiento antiinflamatorio convencional. Cuando existe enfermedad recurrente refractaria, corticodependiente o resistente a las estrategias convencionales, las terapias dirigidas contra vías inflamatorias específicas pueden considerarse en pacientes seleccionados, particularmente después de confirmar actividad inflamatoria. La nueva ESC 2025 actualiza el abordaje de la pericarditis recurrente y enfatiza estrategias personalizadas según fenotipo inflamatorio.",
+        perlaENARM: "Pericarditis recurrente no significa simplemente repetir AINE indefinidamente. Determina si existe inflamación activa y considera terapia dirigida en enfermedad refractaria.",
+        gpc: {
+            mexico: "IMSS-463-11, Diagnóstico y tratamiento de pericarditis en el adulto.",
+            internacional: "2025 ESC Guidelines for the Management of Myocarditis and Pericarditis."
+        },
+        bibliografia: "2025 ESC Guidelines for Myocarditis and Pericarditis; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-347",
+        especialidad: "Cardiología",
+        tema: "Pericarditis",
+        subtema: "Taponamiento cardiaco",
+        dificultad: "Extrema",
+        caso: "Varón de 64 años con antecedente de cáncer pulmonar presenta disnea, debilidad y sensación de opresión torácica. TA 86/58 mmHg, FC 122 lpm, yugulares ingurgitadas y ruidos cardiacos hipofonéticos. Pulsus paradoxus de 18 mmHg. Ecocardiograma: derrame pericárdico circumferencial de 28 mm, colapso diastólico de aurícula derecha y VD, vena cava inferior dilatada sin colapso respiratorio y variación respiratoria marcada de los flujos transmitral y transtricuspídeo. El paciente desarrolla deterioro progresivo del estado mental.",
+        pregunta: "¿Cuál es la intervención prioritaria?",
+        opciones: [
+            "Administrar únicamente diuréticos y reevaluar en 24 horas",
+            "Pericardiocentesis urgente o drenaje quirúrgico según anatomía y disponibilidad, debido a taponamiento cardiaco con compromiso hemodinámico",
+            "Anticoagulación plena",
+            "Betabloqueador intravenoso",
+            "Prueba de esfuerzo"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El paciente presenta taponamiento cardiaco con compromiso hemodinámico: hipotensión, taquicardia, ingurgitación yugular, pulsus paradoxus y signos ecocardiográficos de compromiso de cavidades derechas y variación respiratoria significativa. En este escenario el tratamiento es el drenaje urgente del espacio pericárdico. Los diuréticos pueden empeorar el llenado ventricular y no corrigen la causa mecánica. En un paciente oncológico debe considerarse la posibilidad de derrame maligno y planificar el drenaje y estudio etiológico.",
+        perlaENARM: "Taponamiento = diagnóstico clínico-hemodinámico apoyado por ecocardiografía. La prioridad es liberar la presión pericárdica, no diuresis.",
+        gpc: {
+            mexico: "IMSS-463-11, Diagnóstico y tratamiento de pericarditis en el adulto.",
+            internacional: "2025 ESC Guidelines for the Management of Myocarditis and Pericarditis."
+        },
+        bibliografia: "2025 ESC Guidelines for Myocarditis and Pericarditis; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-348",
+        especialidad: "Cardiología",
+        tema: "Pericarditis",
+        subtema: "Pericarditis constrictiva",
+        dificultad: "Extrema",
+        caso: "Mujer de 58 años con antecedente de tuberculosis tratada hace 20 años presenta cinco años de edema progresivo, ascitis y fatiga. Ha recibido dosis crecientes de diuréticos con respuesta incompleta. FEVI 60%. Ecocardiograma: engrosamiento pericárdico, movimiento septal paradójico y variación respiratoria marcada de los flujos ventriculares. Doppler tisular muestra e' medial relativamente preservada y e' lateral reducida. TC: calcificación pericárdica extensa. Cateterismo: igualación de las presiones diastólicas y patrón de dip-and-plateau.",
+        pregunta: "¿Cuál es el diagnóstico que mejor integra los hallazgos?",
+        opciones: [
+            "Insuficiencia cardiaca exclusivamente por HFpEF",
+            "Pericarditis constrictiva crónica",
+            "Miocardiopatía dilatada",
+            "Taponamiento cardiaco agudo",
+            "Estenosis mitral crítica"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El cuadro es característico de fisiología constrictiva: insuficiencia cardiaca predominantemente derecha, ascitis, engrosamiento/calcificación pericárdica, interdependencia ventricular y variación respiratoria de los flujos. La preservación relativa de e' medial respecto a e' lateral puede apoyar constricción frente a HFpEF. El cateterismo con igualación de presiones diastólicas y patrón dip-and-plateau aporta evidencia hemodinámica adicional. La TC demuestra anatomía pericárdica, pero la ausencia de calcificación tampoco excluiría constricción. En pacientes con constricción crónica sintomática y anatomía apropiada debe valorarse tratamiento quirúrgico en centros expertos.",
+        perlaENARM: "Constrictiva: piensa en interdependencia ventricular y discordancia respiratoria de presiones/flujo; no confundas automáticamente ascitis + FEVI normal con HFpEF.",
+        gpc: {
+            mexico: "IMSS-463-11, Diagnóstico y tratamiento de pericarditis en el adulto.",
+            internacional: "2025 ESC Guidelines for the Management of Myocarditis and Pericarditis."
+        },
+        bibliografia: "2025 ESC Guidelines for Myocarditis and Pericarditis; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-349",
+        especialidad: "Cardiología",
+        tema: "Miocarditis",
+        subtema: "Arritmias ventriculares y riesgo de muerte súbita",
+        dificultad: "Extrema",
+        caso: "Varón de 29 años, atleta recreativo, presentó miocarditis confirmada por CMR seis meses antes. La FEVI actual es 58% y se encuentra asintomático. Sin embargo, Holter de 72 horas demuestra 2,400 extrasístoles ventriculares, varios episodios de TV no sostenida y una racha de TV de 14 latidos a 190 lpm. La CMR de control muestra persistencia de realce tardío subepicárdico inferolateral, aunque el edema ha disminuido. Prueba de esfuerzo reproduce ectopia ventricular compleja. No existen antecedentes familiares conocidos de muerte súbita.",
+        pregunta: "¿Cuál es el aspecto que más modifica su estratificación de riesgo y manejo?",
+        opciones: [
+            "La FEVI normal elimina prácticamente cualquier riesgo arrítmico",
+            "La presencia de arritmias ventriculares y fibrosis residual por CMR después de miocarditis requiere reevaluación especializada del riesgo arrítmico antes de asumir que el paciente está completamente recuperado",
+            "El paciente puede regresar inmediatamente a ejercicio competitivo porque ya pasaron seis meses",
+            "El realce tardío carece de importancia cuando la FEVI es normal",
+            "La ausencia de síncope hace imposible una arritmia ventricular relevante"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La recuperación de la FEVI no equivale necesariamente a recuperación completa del sustrato arrítmico. La fibrosis residual identificada por CMR y la presencia de TV no sostenida/ectopia compleja son marcadores relevantes de riesgo. El nuevo consenso internacional de 2026 sobre trastornos del ritmo en miocarditis enfatiza la evaluación específica de arritmias, incluyendo ECG, monitorización, imagen y estratificación individualizada. La reincorporación al ejercicio debe realizarse después de demostrar resolución de la inflamación activa y una evaluación apropiada del riesgo arrítmico.",
+        perlaENARM: "Después de miocarditis: FEVI normal ≠ riesgo arrítmico cero. Fibrosis residual + TV/ectopia compleja obliga a reevaluación.",
+        gpc: {
+            mexico: "IMSS-367-11, Miocarditis aguda.",
+            internacional: "2025 ESC Guidelines for Myocarditis and Pericarditis; 2026 EHRA/HFA/HRS/AP-HRS/LAHRS consensus on arrhythmias in myocarditis."
+        },
+        bibliografia: "2025 ESC Guidelines for Myocarditis and Pericarditis; 2026 international rhythm consensus; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-350",
+        especialidad: "Cardiología",
+        tema: "Miocarditis y pericarditis",
+        subtema: "Caso integrativo de síndrome inflamatorio miopericárdico",
+        dificultad: "Extrema",
+        caso: "Mujer de 45 años, previamente sana, consulta por cuatro días de fiebre, dolor torácico y disnea progresiva. El dolor inicialmente era posicional y pleurítico, pero en las últimas 24 horas se volvió constante. TA 96/62 mmHg, FC 118 lpm, SatO2 94%. ECG: elevación difusa del ST con depresión del PR, además de extrasístoles ventriculares frecuentes. Troponina I ultrasensible 7,400 ng/L, NT-proBNP 8,600 pg/mL y PCR 14 mg/dL. Ecocardiograma: FEVI 35%, hipocinesia global, VD discretamente deprimido y derrame pericárdico moderado sin colapso franco. Coronariografía sin enfermedad obstructiva. La CMR muestra edema miocárdico difuso y realce tardío subepicárdico/mesomiocárdico, pero la paciente comienza a desarrollar hipotensión progresiva, oliguria y taquicardia ventricular no sostenida.",
+        pregunta: "¿Cuál es la interpretación y prioridad terapéutica más apropiada?",
+        opciones: [
+            "Pericarditis aguda no complicada; manejo ambulatorio con AINE",
+            "Miopericarditis leve; la FEVI reducida no modifica la conducta",
+            "Miocarditis inflamatoria de alto riesgo con compromiso ventricular, eléctrico y hemodinámico, que requiere hospitalización especializada, tratamiento de insuficiencia cardiaca/choque y vigilancia intensiva de arritmias",
+            "Infarto con elevación del ST por enfermedad coronaria obstructiva pese a coronarias normales",
+            "Pericarditis constrictiva crónica"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "Este caso representa un síndrome inflamatorio miopericárdico con afectación miocárdica significativa. La paciente presenta troponina muy elevada, disfunción ventricular, edema y realce no isquémico en CMR, arritmias ventriculares y evolución hacia inestabilidad hemodinámica. La prioridad deja de ser el tratamiento de una pericarditis no complicada y pasa a ser la prevención de progresión a choque cardiogénico y muerte súbita. Requiere ingreso en un entorno especializado, monitorización continua, tratamiento de insuficiencia cardiaca y del choque según el perfil hemodinámico y evaluación temprana de soporte circulatorio si existe deterioro refractario. La nueva ESC 2025 enfatiza una estrategia basada en el fenotipo de presentación, multimodalidad de imagen y escalamiento diagnóstico/terapéutico según gravedad. La presencia de arritmias y trastornos de conducción es especialmente relevante para la estratificación de riesgo.",
+        perlaENARM: "El caso cambia de categoría cuando aparecen FEVI reducida, arritmias e inestabilidad hemodinámica. No trates una miopericarditis de alto riesgo como una pericarditis ambulatoria.",
+        gpc: {
+            mexico: "IMSS-367-11, Miocarditis aguda; IMSS-463-11, Pericarditis del adulto.",
+            internacional: "2025 ESC Guidelines for the Management of Myocarditis and Pericarditis; 2026 EHRA/HFA/HRS/AP-HRS/LAHRS consensus on arrhythmias in myocarditis."
+        },
+        bibliografia: "2025 ESC Guidelines for Myocarditis and Pericarditis; 2026 international rhythm consensus; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+    },
+        {
+        id: "CARD-351",
+        especialidad: "Cardiología",
+        tema: "Insuficiencia cardiaca",
+        subtema: "HFrEF y tratamiento farmacológico integral",
+        dificultad: "Extrema",
+        caso: "Varón de 59 años con antecedente de infarto anterior hace 14 meses, hipertensión arterial, diabetes mellitus tipo 2 y enfermedad renal crónica G3a consulta por disnea progresiva, ortopnea y edema de miembros inferiores. Después del infarto presentó FEVI de 32%, pero abandonó el seguimiento por sentirse mejor. Actualmente toma carvedilol 6.25 mg cada 12 horas, losartán 50 mg cada 12 horas, furosemida 40 mg/día y dapagliflozina 10 mg/día. No recibe antagonista mineralocorticoide ni ARNI. TA 108/68 mmHg, FC 72 lpm, SatO2 95% y peso 86 kg, con incremento de 4 kg respecto a su peso habitual. Presenta presión venosa yugular elevada, tercer ruido, estertores bibasales y edema hasta ambas rodillas. Creatinina 1.5 mg/dL, TFGe 53 mL/min/1.73 m², K 4.4 mEq/L, Na 137 mEq/L. NT-proBNP 4,900 pg/mL. Ecocardiograma: FEVI 29%, volumen telesistólico elevado, insuficiencia mitral funcional moderada y VD con función ligeramente reducida. No existe hipotensión sintomática ni hiperpotasemia.",
+        pregunta: "Una vez controlada la congestión y considerando que permanece hemodinámicamente estable, ¿cuál es la estrategia que ofrece la mejor oportunidad de modificar el pronóstico a largo plazo?",
+        opciones: [
+            "Aumentar exclusivamente la dosis de furosemida hasta normalizar el NT-proBNP",
+            "Mantener losartán y carvedilol sin modificaciones porque ya recibe tratamiento basado en evidencia",
+            "Optimizar de forma temprana el tratamiento modificador de enfermedad con ARNI, betabloqueador basado en evidencia, antagonista mineralocorticoide y SGLT2i, titulando según tolerancia",
+            "Suspender dapagliflozina porque la insuficiencia cardiaca es predominantemente sistólica",
+            "Iniciar digoxina como sustituto del ARNI y del antagonista mineralocorticoide"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "El paciente presenta HFrEF con FEVI 29%, congestión clínica y múltiples oportunidades de optimización terapéutica. Los diuréticos son fundamentales para controlar la congestión, pero no constituyen por sí solos el tratamiento modificador del pronóstico. El tratamiento contemporáneo de HFrEF se basa en cuatro pilares: inhibición del sistema renina-angiotensina mediante ARNI cuando sea posible, betabloqueador con evidencia, antagonista mineralocorticoide y SGLT2i. La estrategia moderna favorece iniciar y titular precozmente los tratamientos, en lugar de esperar meses entre cada fármaco. La presión arterial es relativamente baja pero no existe hipotensión sintomática, por lo que debe utilizarse una estrategia de dosis toleradas y monitorizar función renal, potasio y volumen. El paciente también debe ser reevaluado posteriormente para determinar persistencia de FEVI reducida, indicación de dispositivos y necesidad de tratamiento de la insuficiencia mitral funcional.",
+        perlaENARM: "En HFrEF, el objetivo no es solamente quitar edema: hay que instaurar rápidamente los cuatro pilares modificadores de pronóstico.",
+        gpc: {
+            mexico: "GPC-SS-219-24, Diagnóstico y tratamiento de la insuficiencia cardiaca crónica en el adulto, como referencia mexicana aplicable.",
+            internacional: "2026 ESC Guidelines for the Management of Heart Failure; 2024 ACC Expert Consensus Decision Pathway for HFrEF."
+        },
+        bibliografia: "2026 ESC Guidelines for Heart Failure; 2024 ACC Expert Consensus for HFrEF; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+    },
+
+    {
+        id: "CARD-352",
+        especialidad: "Cardiología",
+        tema: "Insuficiencia cardiaca",
+        subtema: "HFpEF y diagnóstico en obesidad",
+        dificultad: "Extrema",
+        caso: "Mujer de 67 años con IMC de 39 kg/m², hipertensión de larga evolución, diabetes mellitus tipo 2, fibrilación auricular paroxística y enfermedad renal crónica G2 consulta por disnea de esfuerzo que ha progresado durante 18 meses. Refiere que puede caminar solamente 150 metros antes de detenerse por falta de aire, pero niega dolor torácico. TA 142/78 mmHg, FC 84 lpm en ritmo sinusal. No presenta edema actualmente. NT-proBNP es de 240 pg/mL. Ecocardiograma: FEVI 63%, hipertrofia ventricular izquierda concéntrica, volumen auricular izquierdo indexado 44 mL/m², E/e' promedio 15, velocidad de regurgitación tricuspídea 3.0 m/s y e' septal reducida. Prueba de esfuerzo convencional reproduce disnea importante sin cambios isquémicos. Debido a la discordancia entre la intensidad de los síntomas y los biomarcadores, se realiza prueba hemodinámica durante ejercicio: PAWP en reposo 13 mmHg y durante ejercicio 28 mmHg.",
+        pregunta: "¿Cuál es la interpretación más apropiada?",
+        opciones: [
+            "La NT-proBNP baja excluye HFpEF",
+            "La FEVI preservada demuestra que la disnea no puede ser de origen cardiaco",
+            "El conjunto clínico, ecocardiográfico y hemodinámico es compatible con HFpEF, y la obesidad puede reducir la concentración de péptidos natriuréticos",
+            "La paciente tiene obligatoriamente HFrEF oculta",
+            "El aumento de PAWP durante ejercicio demuestra exclusivamente enfermedad pulmonar"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "La paciente presenta un fenotipo clásico de HFpEF: edad avanzada, obesidad, hipertensión, diabetes, FA, remodelado ventricular concéntrico, dilatación auricular izquierda y evidencia de aumento de las presiones de llenado durante ejercicio. El punto crítico es que los péptidos natriuréticos pueden ser relativamente bajos en pacientes con obesidad, por lo que una concentración no muy elevada no excluye HFpEF. La evaluación estructurada puede utilizar H2FPEF y HFA-PEFF, pero en casos indeterminados la evaluación hemodinámica durante ejercicio puede demostrar la elevación anormal de PAWP que no está presente en reposo. La actualización ACC 2026 enfatiza precisamente la necesidad de reconocer estas limitaciones diagnósticas y utilizar un enfoque multimodal.",
+        perlaENARM: "En obesidad, un BNP/NT-proBNP relativamente bajo NO descarta HFpEF. Si la sospecha es alta, busca evidencia objetiva de aumento de presiones de llenado.",
+        gpc: {
+            mexico: "GPC-SS-219-24, insuficiencia cardiaca, como referencia mexicana aplicable.",
+            internacional: "2026 ESC Guidelines for Heart Failure; 2026 ACC Expert Consensus Decision Pathway for HFpEF."
+        },
+        bibliografia: "2026 ESC Heart Failure Guideline; 2026 ACC HFpEF ECDP; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-353",
+        especialidad: "Cardiología",
+        tema: "Insuficiencia cardiaca",
+        subtema: "HFpEF y tratamiento cardiometabólico",
+        dificultad: "Extrema",
+        caso: "Varón de 71 años con obesidad central, diabetes mellitus tipo 2, hipertensión, fibrilación auricular permanente y enfermedad renal crónica G3b presenta tres hospitalizaciones por insuficiencia cardiaca durante los últimos 12 meses. FEVI 58%. Actualmente está euvolémico después de una hospitalización reciente. Toma furosemida, losartán, espironolactona a dosis bajas y anticoagulación por FA. HbA1c 8.2%, IMC 36 kg/m², TFGe 42 mL/min/1.73 m² y K 4.6 mEq/L. NT-proBNP permanece elevado. No presenta hipotensión ni hipovolemia. El paciente pregunta qué tratamiento podría disminuir de forma más consistente el riesgo de nuevas hospitalizaciones por insuficiencia cardiaca independientemente de que tenga diabetes.",
+        pregunta: "¿Cuál es la intervención farmacológica que debe incorporarse prioritariamente si no existe contraindicación?",
+        opciones: [
+            "Suspender el diurético y utilizar nitratos de acción prolongada",
+            "Iniciar un inhibidor SGLT2",
+            "Iniciar digoxina como tratamiento pronóstico de HFpEF",
+            "Sustituir el tratamiento por un calcioantagonista no dihidropiridínico",
+            "Iniciar únicamente ivabradina"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "Los SGLT2i tienen un papel fundamental en el tratamiento contemporáneo de HFpEF y reducen el riesgo de eventos relacionados con insuficiencia cardiaca, con beneficio que no depende exclusivamente de la presencia de diabetes. La actualización ACC 2026 incorpora evidencia adicional y mantiene a los SGLT2i como una intervención central. En este paciente deben tratarse simultáneamente la hipertensión, obesidad, diabetes, FA, enfermedad renal y congestión. Los MRA pueden beneficiar a subgrupos seleccionados con monitorización de potasio y función renal. Las terapias dirigidas al peso también tienen creciente importancia en determinados fenotipos cardiometabólicos.",
+        perlaENARM: "HFpEF no significa 'sin tratamiento modificador'. SGLT2i son un pilar contemporáneo, además del control agresivo de comorbilidades y congestión.",
+        gpc: {
+            mexico: "GPC-SS-219-24, insuficiencia cardiaca.",
+            internacional: "2026 ESC Guidelines for Heart Failure; 2026 ACC HFpEF Expert Consensus Decision Pathway."
+        },
+        bibliografia: "2026 ESC Heart Failure Guideline; 2026 ACC HFpEF ECDP; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-354",
+        especialidad: "Cardiología",
+        tema: "Insuficiencia cardiaca",
+        subtema: "Insuficiencia cardiaca con FEVI recuperada",
+        dificultad: "Extrema",
+        caso: "Mujer de 52 años tuvo miocardiopatía dilatada no isquémica hace cuatro años con FEVI de 25%, dilatación ventricular y múltiples hospitalizaciones por insuficiencia cardiaca. Después de iniciar sacubitrilo/valsartán, carvedilol, espironolactona y dapagliflozina presentó recuperación progresiva de la función ventricular. Actualmente está asintomática, realiza actividad física normal y su ecocardiograma muestra FEVI 57%, volumen ventricular casi normal y NT-proBNP dentro de límites normales. La paciente pregunta si puede suspender el tratamiento porque "su corazón ya se curó".",
+        pregunta: "¿Cuál es la recomendación más apropiada?",
+        opciones: [
+            "Suspender todos los medicamentos porque la FEVI ya es normal",
+            "Suspender solamente el ARNI y mantener el betabloqueador",
+            "Mantener el tratamiento modificador de enfermedad debido al riesgo de recaída de la disfunción ventricular tras la retirada",
+            "Mantener exclusivamente el diurético",
+            "Cambiar todo el tratamiento por calcioantagonistas"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "La recuperación de la FEVI representa una respuesta terapéutica favorable, pero no necesariamente la desaparición del sustrato de la enfermedad. Los pacientes con recuperación de la función ventricular pueden presentar recaída si se retira el tratamiento. La conducta contemporánea es mantener la terapia modificadora de enfermedad, salvo situaciones particulares en las que exista una razón clínica para modificarla. El concepto de remisión funcional debe distinguirse de curación definitiva. El seguimiento debe incluir evaluación clínica, biomarcadores e imagen según el contexto etiológico.",
+        perlaENARM: "FEVI normalizada después de HFrEF no equivale a curación. La retirada de GDMT puede precipitar recaída.",
+        gpc: {
+            mexico: "GPC-SS-219-24, insuficiencia cardiaca.",
+            internacional: "2026 ESC Guidelines for Heart Failure; contemporary universal HF definition and HFrEF consensus."
+        },
+        bibliografia: "2026 ESC Guidelines for Heart Failure; TRED-HF evidence; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-355",
+        especialidad: "Cardiología",
+        tema: "Insuficiencia cardiaca aguda",
+        subtema: "Descongestión y resistencia diurética",
+        dificultad: "Extrema",
+        caso: "Varón de 74 años con HFrEF de etiología isquémica y FEVI 25% ingresa por ortopnea intensa. TA 128/76 mmHg, FC 106 lpm, SatO2 89% y presión venosa yugular elevada hasta el ángulo mandibular. Presenta estertores y edema con fóvea hasta ambos muslos. Creatinina basal 1.4 mg/dL y actual 1.8 mg/dL. Después de administrar furosemida intravenosa a una dosis equivalente a aproximadamente 2.5 veces su dosis oral diaria, la diuresis durante las primeras seis horas es mínima y persiste congestión clínica. Na urinario a las dos horas es bajo. No hay hipotensión ni datos de choque. Se descarta obstrucción urinaria.",
+        pregunta: "¿Cuál es la conducta más apropiada?",
+        opciones: [
+            "Suspender diuréticos inmediatamente porque la creatinina aumentó",
+            "Continuar una estrategia activa de descongestión y escalar la terapia diurética, considerando bloqueo secuencial del nefrón según respuesta y monitorización",
+            "Administrar solución salina intravenosa en grandes cantidades",
+            "Iniciar betabloqueador a dosis máxima inmediatamente para aumentar la diuresis",
+            "Realizar diálisis obligatoria por cualquier incremento de creatinina"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El paciente presenta congestión marcada y respuesta diurética insuficiente, compatible con resistencia diurética. En insuficiencia cardiaca aguda, la congestión residual es un determinante pronóstico importante. Un incremento moderado de creatinina durante una descongestión efectiva no debe interpretarse automáticamente como lesión renal que obliga a suspender el tratamiento. Debe valorarse la respuesta objetiva mediante diuresis, sodio urinario, peso, balance, exploración clínica y parámetros hemodinámicos. Si la respuesta a diurético de asa es insuficiente, puede intensificarse la dosis y añadirse bloqueo secuencial del nefrón con monitorización estrecha de electrolitos y función renal.",
+        perlaENARM: "En IC aguda congestionada, una creatinina que sube ligeramente no necesariamente significa fracaso renal por diurético. La pregunta clave es: ¿el paciente está realmente descongestionándose?",
+        gpc: {
+            mexico: "GPC-SS-219-24, insuficiencia cardiaca.",
+            internacional: "2026 ESC Guidelines for Heart Failure."
+        },
+        bibliografia: "2026 ESC Heart Failure Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-356",
+        especialidad: "Cardiología",
+        tema: "Insuficiencia cardiaca aguda",
+        subtema: "Inicio de tratamiento durante hospitalización",
+        dificultad: "Extrema",
+        caso: "Mujer de 63 años con HFrEF de reciente diagnóstico, FEVI 28%, ingresa por congestión pulmonar. TA inicial 96/60 mmHg, pero después de tratamiento diurético intravenoso presenta TA 112/68 mmHg, extremidades calientes, diuresis adecuada y desaparición de los estertores. Creatinina 1.3 mg/dL, K 4.2 mEq/L. No requiere vasopresores ni inotrópicos. Antes del ingreso no recibía tratamiento modificador de enfermedad. El equipo plantea iniciar los cuatro pilares solamente después de cuatro semanas para evitar hipotensión.",
+        pregunta: "¿Cuál es el enfoque contemporáneo más apropiado?",
+        opciones: [
+            "Esperar obligatoriamente cuatro semanas antes de iniciar cualquier tratamiento modificador",
+            "Aprovechar la estabilidad clínica antes del alta para iniciar de manera temprana tratamientos modificadores de enfermedad a dosis toleradas y establecer un plan de titulación y seguimiento estrecho",
+            "Iniciar únicamente digoxina durante la hospitalización",
+            "Evitar SGLT2i hasta que la FEVI sea reevaluada a los seis meses",
+            "Iniciar solamente diurético y suspenderlo al alta"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La evidencia contemporánea favorece el inicio temprano de tratamiento modificador de enfermedad durante o poco después de la hospitalización, una vez alcanzada estabilidad hemodinámica. Esperar semanas sin una razón clínica expone al paciente a un periodo de alto riesgo sin tratamiento protector. La implementación debe ser individualizada según presión arterial, función renal, potasio, frecuencia cardiaca y estado de volumen. El objetivo es que el paciente salga del hospital con una estrategia terapéutica activa y un plan de titulación cercano.",
+        perlaENARM: "En HFrEF hospitalizada, la estabilización clínica abre una ventana terapéutica; no existe una regla de 'esperar cuatro semanas' para iniciar GDMT.",
+        gpc: {
+            mexico: "GPC-SS-219-24, insuficiencia cardiaca.",
+            internacional: "2026 ESC Guidelines for Heart Failure; 2024 ACC Expert Consensus for HFrEF."
+        },
+        bibliografia: "2026 ESC Heart Failure Guideline; 2024 ACC HFrEF ECDP; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-357",
+        especialidad: "Cardiología",
+        tema: "Insuficiencia cardiaca",
+        subtema: "Deficiencia de hierro en insuficiencia cardiaca",
+        dificultad: "Extrema",
+        caso: "Varón de 68 años con HFrEF de origen isquémico, FEVI 31%, presenta disnea NYHA III pese a tratamiento médico optimizado. No está congestionado y no ha tenido una hospitalización reciente. Hemoglobina 12.4 g/dL, ferritina 82 ng/mL y saturación de transferrina 16%. No existe evidencia de sangrado activo. Creatinina 1.6 mg/dL y TFGe 47 mL/min/1.73 m². La dieta es adecuada y no hay datos clínicos de infección. Pregunta si la ausencia de anemia significa que el metabolismo del hierro no tiene importancia.",
+        pregunta: "¿Cuál es la interpretación correcta?",
+        opciones: [
+            "No existe deficiencia de hierro porque la hemoglobina está dentro de un rango casi normal",
+            "Los valores son compatibles con deficiencia de hierro relevante en insuficiencia cardiaca, aun sin anemia franca, y debe considerarse reposición de hierro según el contexto clínico y la evidencia disponible",
+            "Debe administrarse transfusión de concentrados eritrocitarios",
+            "El único tratamiento es hierro oral en todos los pacientes",
+            "La ferritina debe ser cero para considerar deficiencia de hierro"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "En insuficiencia cardiaca, la deficiencia de hierro puede existir con o sin anemia y se asocia con peor capacidad funcional y pronóstico. El fenotipo clásico utilizado en ensayos y guías se identifica mediante ferritina baja o ferritina intermedia con saturación de transferrina reducida. La corrección del déficit puede mejorar síntomas y capacidad funcional y, en determinados pacientes, reducir eventos relacionados con insuficiencia cardiaca. La estrategia de reposición y la vía de administración dependen del fenotipo, gravedad, contexto hospitalario y evidencia vigente.",
+        perlaENARM: "En IC busca deficiencia de hierro aunque la Hb sea normal. Anemia y deficiencia de hierro no son sinónimos.",
+        gpc: {
+            mexico: "GPC-SS-219-24, insuficiencia cardiaca.",
+            internacional: "2026 ESC Guidelines for Heart Failure."
+        },
+        bibliografia: "2026 ESC Heart Failure Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-358",
+        especialidad: "Cardiología",
+        tema: "Insuficiencia cardiaca avanzada",
+        subtema: "Referencia a unidad de insuficiencia cardiaca avanzada",
+        dificultad: "Extrema",
+        caso: "Mujer de 56 años con miocardiopatía dilatada no isquémica presenta FEVI 20% a pesar de tratamiento farmacológico en dosis máximamente toleradas. Durante los últimos ocho meses ha requerido tres hospitalizaciones por insuficiencia cardiaca. Actualmente tiene TA 92/60 mmHg, FC 96 lpm, Na 132 mEq/L, creatinina 2.0 mg/dL y NT-proBNP 8,700 pg/mL. Presenta intolerancia a dosis mayores de GDMT por hipotensión. Camina menos de 150 metros y refiere episodios de mareo. En la prueba cardiopulmonar, VO2 pico es 10.8 mL/kg/min. No existe una causa reversible identificada. No tiene contraindicaciones mayores para trasplante.",
+        pregunta: "¿Cuál es la decisión que no debe retrasarse?",
+        opciones: [
+            "Continuar aumentando los medicamentos indefinidamente sin valoración especializada",
+            "Referir a un centro de insuficiencia cardiaca avanzada para evaluación de trasplante, asistencia ventricular y otras estrategias avanzadas",
+            "Suspender todos los medicamentos cardiovasculares",
+            "Realizar únicamente una nueva prueba de esfuerzo dentro de un año",
+            "Indicar TAVI como tratamiento de la miocardiopatía"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La paciente presenta múltiples marcadores de insuficiencia cardiaca avanzada: FEVI severamente reducida, hospitalizaciones recurrentes, hipotensión que limita GDMT, disfunción renal, hiponatremia, elevación marcada de NT-proBNP, deterioro funcional importante y VO2 pico muy reducido. En este contexto no debe esperarse hasta el deterioro terminal para referirla. La evaluación en una unidad especializada permite determinar candidaturía para trasplante, soporte circulatorio mecánico y estrategias paliativas cuando corresponda. La referencia temprana es fundamental porque las opciones avanzadas requieren evaluación integral y planificación.",
+        perlaENARM: "Tres hospitalizaciones, hipotensión limitante de GDMT, disfunción orgánica y VO2 pico bajo = piensa en IC avanzada y referencia temprana.",
+        gpc: {
+            mexico: "GPC-SS-219-24, insuficiencia cardiaca.",
+            internacional: "2026 ESC Guidelines for Heart Failure."
+        },
+        bibliografia: "2026 ESC Heart Failure Guideline; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+    },
+
+    {
+        id: "CARD-359",
+        especialidad: "Cardiología",
+        tema: "Insuficiencia cardiaca",
+        subtema: "Insuficiencia cardiaca derecha y disfunción del VD",
+        dificultad: "Extrema",
+        caso: "Varón de 61 años con antecedente de infarto inferior hace cinco años presenta edema masivo, ascitis y deterioro de la tolerancia al ejercicio. FEVI 52%. Ecocardiograma: VD severamente dilatado, TAPSE 12 mm, FAC 25%, insuficiencia tricuspídea severa y presión pulmonar elevada. La aurícula derecha está marcadamente dilatada. Cateterismo: presión auricular derecha 18 mmHg, mPAP 36 mmHg, PAWP 14 mmHg y gasto cardiaco 3.1 L/min. No existe estenosis pulmonar ni evidencia de TEP crónico en V/Q. La paciente recibe diuréticos pero persiste con congestión sistémica y bajo gasto.",
+        pregunta: "¿Cuál es la interpretación fisiopatológica más apropiada?",
+        opciones: [
+            "La FEVI preservada excluye insuficiencia cardiaca clínicamente significativa",
+            "Existe insuficiencia cardiaca predominantemente derecha con disfunción significativa del VD y aumento de la poscarga, que requiere identificar y tratar simultáneamente la causa de la hipertensión pulmonar y la congestión",
+            "La ascitis demuestra cirrosis como diagnóstico primario",
+            "La insuficiencia tricuspídea es un hallazgo incidental sin repercusión hemodinámica",
+            "La presión auricular derecha elevada demuestra exclusivamente taponamiento cardiaco"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La FEVI preservada no excluye una insuficiencia cardiaca dominada por el VD. La paciente presenta disfunción sistólica importante del VD, insuficiencia tricuspídea severa, presión auricular derecha elevada y bajo gasto. La poscarga pulmonar aumentada puede perpetuar el círculo de dilatación del VD, mayor insuficiencia tricuspídea y congestión sistémica. El manejo requiere identificar la etiología de la hipertensión pulmonar, optimizar volumen, tratar la causa subyacente y valorar la insuficiencia tricuspídea y las opciones intervencionistas cuando corresponda.",
+        perlaENARM: "Una FEVI de 52% no descarta IC. En pacientes con predominio derecho, el VD, presión auricular derecha, gasto y congestión sistémica pueden determinar el pronóstico.",
+        gpc: {
+            mexico: "GPC-SS-219-24, insuficiencia cardiaca; GPC mexicanas aplicables a hipertensión pulmonar cuando corresponda.",
+            internacional: "2026 ESC Guidelines for Heart Failure; ESC/ERS 2022 Pulmonary Hypertension; ESC/EACTS 2025 Valvular Heart Disease."
+        },
+        bibliografia: "2026 ESC Heart Failure Guideline; ESC/ERS 2022 PH Guideline; ESC/EACTS 2025 VHD Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-360",
+        especialidad: "Cardiología",
+        tema: "Insuficiencia cardiaca",
+        subtema: "Caso integrativo: fenotipo y nueva clasificación de insuficiencia cardiaca",
+        dificultad: "Extrema",
+        caso: "Mujer de 74 años con hipertensión de 25 años de evolución, diabetes mellitus tipo 2, obesidad, fibrilación auricular y enfermedad renal crónica consulta por disnea progresiva, ortopnea y dos hospitalizaciones por congestión durante el último año. TA 138/76 mmHg, FC 78 lpm con FA, SatO2 95%. Presenta ingurgitación yugular, tercer ruido, edema bilateral y hepatomegalia congestiva. NT-proBNP 3,800 pg/mL. Ecocardiograma: FEVI 47%, hipertrofia ventricular izquierda, volumen auricular izquierdo 51 mL/m², E/e' 19, insuficiencia tricuspídea moderada y presión pulmonar elevada. Después de optimizar la volemia, la FEVI vuelve a medirse y es de 48%. CMR no demuestra infarto ni fibrosis extensa. No existe valvulopatía primaria severa. La paciente recibe únicamente diurético y losartán. El equipo discute si debe considerarse un fenotipo 'intermedio' que permita esperar antes de iniciar tratamiento específico.",
+        pregunta: "A la luz de la clasificación contemporánea de insuficiencia cardiaca, ¿cuál es la interpretación y estrategia más apropiada?",
+        opciones: [
+            "La FEVI de 47% constituye una categoría independiente que no comparte tratamiento con HFrEF",
+            "La paciente debe considerarse sin insuficiencia cardiaca porque la FEVI es mayor de 40%",
+            "La paciente tiene un síndrome de insuficiencia cardiaca con FEVI <50% y debe recibir una estrategia terapéutica basada en evidencia para HFrEF, individualizada según tolerancia y fenotipo clínico",
+            "La presencia de FA explica todos los síntomas y excluye insuficiencia cardiaca",
+            "Debe evitarse SGLT2i porque la FEVI no es menor de 40%"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "Este caso incorpora una modificación conceptual importante de la ESC 2026. La guía abandona HFmrEF como fenotipo independiente y utiliza un punto de corte de 50%: HFrEF con FEVI <50% y HFpEF con FEVI ≥50%. Por tanto, una FEVI de 47% se integra dentro del espectro de HFrEF bajo la nueva clasificación ESC. Esto no significa que todos los pacientes con FEVI 47% sean idénticos a los de FEVI 20%, sino que comparten suficiente fisiopatología y evidencia terapéutica para justificar una estrategia basada en tratamientos modificadores de enfermedad, adaptada al fenotipo y tolerancia. La paciente además presenta evidencia estructural y clínica contundente de insuficiencia cardiaca: hipertrofia, dilatación auricular, presiones de llenado elevadas, congestión y hospitalizaciones. La FA y la obesidad son comorbilidades importantes, pero no explican por sí solas todo el síndrome.",
+        perlaENARM: "Cambio clave 2026: la ESC elimina HFmrEF como categoría independiente y utiliza FEVI <50% para HFrEF y ≥50% para HFpEF. Memoriza el cambio para ENARM futuro.",
+        gpc: {
+            mexico: "GPC-SS-219-24, insuficiencia cardiaca.",
+            internacional: "2026 ESC Guidelines for Heart Failure; 2026 Second Universal Definition of Heart Failure; 2026 ACC HFpEF ECDP cuando el fenotipo sea HFpEF."
+        },
+        bibliografia: "2026 ESC Guidelines for Heart Failure; 2026 Second Universal Definition of Heart Failure; 2026 ACC HFpEF ECDP; Braunwald's Heart Disease."
     }
 ];
 
