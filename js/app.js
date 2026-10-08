@@ -604,16 +604,35 @@ function renderGpc() {
   `;
 }
 
-function iniciarGeneral(modo="estudio") {
-  if (Simulador.iniciar({especialidad:"General", cantidad:30, modo})) {
-    showView("simulador");
-    renderPregunta();
-  }
+async function iniciarGeneral(modo = "estudio") {
+
+    const iniciado = await Simulador.iniciar({
+        especialidad: "General",
+        cantidad: 30,
+        modo
+    });
+
+    if (iniciado) {
+
+        showView("simulador");
+
+        renderPregunta();
+    }
 }
 
-function iniciarEspecialidad(especialidad) {
-  if (Simulador.iniciar({especialidad, cantidad:30, modo:"estudio"})) {
-    showView("simulador");
-    renderPregunta();
-  }
+
+async function iniciarEspecialidad(especialidad) {
+
+    const iniciado = await Simulador.iniciar({
+        especialidad,
+        cantidad: 30,
+        modo: "estudio"
+    });
+
+    if (iniciado) {
+
+        showView("simulador");
+
+        renderPregunta();
+    }
 }
