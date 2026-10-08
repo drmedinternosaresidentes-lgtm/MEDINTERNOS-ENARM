@@ -5559,7 +5559,1504 @@ const BANCO_CARDIOLOGIA = [
       internacional: "2024 AHA/ACC/ACS/ASNC/HRS/SCA/SCCT/SCMR/SVM Guideline for Perioperative Cardiovascular Management for Noncardiac Surgery; reaffirmed 2026."
     },
     bibliografia: "2024 AHA/ACC Perioperative Cardiovascular Management Guideline; reaffirmed 2026; Braunwald's Heart Disease, 12th ed."
-  } 
+  },
+      {
+    id: "CARD-211",
+    especialidad: "Cardiología",
+    tema: "Valvulopatías",
+    subtema: "Estenosis aórtica de bajo flujo y bajo gradiente",
+    dificultad: "Muy alta",
+    caso: "Varón de 78 años con disnea progresiva presenta FEVI de 30%. El ecocardiograma muestra área valvular aórtica de 0.7 cm², velocidad máxima de 3.1 m/s y gradiente medio de 28 mmHg. El volumen sistólico indexado está reducido.",
+    pregunta: "¿Cuál es el siguiente estudio más útil para diferenciar estenosis aórtica verdaderamente grave de una pseudoestenosis?",
+    opciones: [
+      "Holter de 24 horas",
+      "Ecocardiograma con dobutamina a dosis bajas",
+      "Prueba de esfuerzo convencional",
+      "Coronariografía como único estudio",
+      "Ecocardiograma transesofágico exclusivamente"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "En la estenosis aórtica de bajo flujo y bajo gradiente con FEVI reducida, el ecocardiograma con dobutamina a dosis bajas permite evaluar la reserva contráctil y determinar si el aumento del flujo produce incremento del gradiente con persistencia de un área valvular pequeña, lo que favorece estenosis verdaderamente grave.",
+    perlaENARM: "AVA pequeña + gradiente bajo + FEVI reducida = pensar en bajo flujo/bajo gradiente y utilizar dobutamina para aclarar la gravedad.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con enfermedad de la válvula aórtica.",
+      internacional: "ESC/EACTS 2025 Guidelines for the Management of Valvular Heart Disease."
+    },
+    bibliografia: "ESC/EACTS 2025 Valvular Heart Disease Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-212",
+    especialidad: "Cardiología",
+    tema: "Valvulopatías",
+    subtema: "Estenosis aórtica paradójica",
+    dificultad: "Muy alta",
+    caso: "Mujer de 82 años presenta disnea y síncope de esfuerzo. Tiene FEVI de 58%, área valvular aórtica de 0.75 cm², gradiente medio de 31 mmHg y volumen sistólico indexado de 28 mL/m². La presión arterial durante el estudio está controlada.",
+    pregunta: "¿Qué fenómeno debe sospecharse?",
+    opciones: [
+      "Estenosis aórtica de alto flujo",
+      "Estenosis aórtica paradójica de bajo flujo y bajo gradiente con FEVI preservada",
+      "Insuficiencia aórtica aislada",
+      "Miocardiopatía dilatada",
+      "Estenosis mitral grave"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "La estenosis aórtica paradójica de bajo flujo y bajo gradiente puede presentarse con FEVI preservada. La clave es identificar bajo volumen sistólico indexado pese a una FEVI aparentemente normal, acompañado de un área valvular compatible con estenosis grave y gradiente relativamente bajo.",
+    perlaENARM: "FEVI preservada no excluye bajo flujo. El volumen sistólico indexado es fundamental.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con enfermedad valvular aórtica.",
+      internacional: "ESC/EACTS 2025 Guidelines for Valvular Heart Disease."
+    },
+    bibliografia: "ESC/EACTS 2025 Valvular Heart Disease Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-213",
+    especialidad: "Cardiología",
+    tema: "Valvulopatías",
+    subtema: "TAVI versus cirugía",
+    dificultad: "Muy alta",
+    caso: "Varón de 76 años con estenosis aórtica grave sintomática tiene anatomía favorable para reemplazo transcatéter. Presenta alto riesgo de complicaciones relacionadas con esternotomía y recuperación quirúrgica prolongada, pero no tiene una indicación anatómica obligatoria para cirugía abierta.",
+    pregunta: "¿Qué debe realizarse antes de seleccionar la modalidad de reemplazo?",
+    opciones: [
+      "Elegir siempre cirugía porque es menor de 80 años",
+      "Elegir siempre TAVI independientemente de la anatomía",
+      "Evaluación por Heart Team integrando edad, expectativa de vida, anatomía, riesgo quirúrgico y preferencias",
+      "Decidir exclusivamente por el gradiente transvalvular",
+      "Utilizar únicamente la puntuación de riesgo quirúrgico"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: "La elección entre TAVI y cirugía debe individualizarse mediante un Heart Team. La edad, expectativa de vida, anatomía valvular y vascular, riesgo quirúrgico, posibilidad de futuras intervenciones, durabilidad y preferencias del paciente forman parte de la decisión.",
+    perlaENARM: "TAVI vs cirugía no es una decisión basada únicamente en edad o STS: es una decisión del Heart Team.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con enfermedad de la válvula aórtica.",
+      internacional: "ESC/EACTS 2025 Guidelines for the Management of Valvular Heart Disease."
+    },
+    bibliografia: "ESC/EACTS 2025 Valvular Heart Disease Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-214",
+    especialidad: "Cardiología",
+    tema: "Valvulopatías",
+    subtema: "Insuficiencia aórtica crónica",
+    dificultad: "Muy alta",
+    caso: "Varón de 59 años con insuficiencia aórtica primaria grave permanece asintomático. El ecocardiograma muestra FEVI de 52% y dilatación progresiva del ventrículo izquierdo en estudios seriados.",
+    pregunta: "¿Cuál es el principio que debe guiar la decisión de intervención?",
+    opciones: [
+      "Esperar obligatoriamente a que aparezcan síntomas graves",
+      "Ignorar el tamaño ventricular mientras la FEVI sea mayor de 40%",
+      "Considerar intervención antes de que ocurra disfunción ventricular irreversible",
+      "Indicar únicamente diurético",
+      "Realizar reemplazo valvular solo si aparece fibrilación auricular"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: "En la insuficiencia aórtica grave crónica, la sobrecarga de volumen puede producir remodelado y disfunción ventricular progresiva. La decisión de intervención no debe esperar necesariamente a la aparición de síntomas avanzados o deterioro irreversible del ventrículo izquierdo.",
+    perlaENARM: "En insuficiencia aórtica grave, el objetivo es intervenir antes del daño ventricular irreversible.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con enfermedad de la válvula aórtica.",
+      internacional: "ESC/EACTS 2025 Guidelines for Valvular Heart Disease."
+    },
+    bibliografia: "ESC/EACTS 2025 Valvular Heart Disease Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-215",
+    especialidad: "Cardiología",
+    tema: "Valvulopatías",
+    subtema: "Insuficiencia mitral secundaria",
+    dificultad: "Muy alta",
+    caso: "Mujer de 67 años con insuficiencia cardiaca con FEVI de 32% presenta insuficiencia mitral secundaria grave a pesar de tratamiento médico optimizado, incluyendo terapia dirigida a las cuatro vías fundamentales de HFrEF y terapia de resincronización cuando estaba indicada. Continúa sintomática.",
+    pregunta: "¿Cuál es el siguiente paso apropiado?",
+    opciones: [
+      "Ignorar la insuficiencia mitral porque es secundaria",
+      "Evaluación por Heart Team para determinar si es candidata a intervención transcatéter o quirúrgica",
+      "Suspender el tratamiento de insuficiencia cardiaca",
+      "Indicar exclusivamente digoxina",
+      "Realizar reemplazo mitral sin evaluación anatómica"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "La insuficiencia mitral secundaria grave debe evaluarse después de optimizar el tratamiento de la enfermedad ventricular subyacente. En pacientes seleccionados que permanecen sintomáticos, la intervención transcatéter borde a borde u otras estrategias pueden mejorar resultados dependiendo de anatomía, función ventricular y contexto.",
+    perlaENARM: "MR secundaria: primero optimizar el ventrículo; después valorar intervención en pacientes seleccionados.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con patología de la válvula mitral e insuficiencia cardiaca.",
+      internacional: "ESC/EACTS 2025 Guidelines for Valvular Heart Disease."
+    },
+    bibliografia: "ESC/EACTS 2025 Valvular Heart Disease Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-216",
+    especialidad: "Cardiología",
+    tema: "Valvulopatías",
+    subtema: "Insuficiencia tricuspídea secundaria",
+    dificultad: "Muy alta",
+    caso: "Mujer de 74 años con fibrilación auricular permanente presenta insuficiencia tricuspídea grave, dilatación del anillo tricuspídeo y dilatación de la aurícula derecha. Tiene edema periférico y deterioro progresivo de la capacidad funcional.",
+    pregunta: "¿Cuál es el mecanismo más probable?",
+    opciones: [
+      "Ruptura traumática de la válvula tricúspide",
+      "Remodelado auricular y dilatación anular asociado a FA, produciendo insuficiencia tricuspídea funcional",
+      "Endocarditis obligatoria",
+      "Estenosis aórtica como causa directa",
+      "Comunicación interventricular"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "La fibrilación auricular persistente puede producir remodelado auricular derecho y dilatación del anillo tricuspídeo, dando lugar a insuficiencia tricuspídea funcional de mecanismo auricular. El tratamiento debe abordar la causa y valorar la gravedad y repercusión de la insuficiencia tricuspídea.",
+    perlaENARM: "FA persistente + AD dilatada + anillo tricuspídeo dilatado = fenotipo de insuficiencia tricuspídea funcional auricular.",
+    gpc: {
+      mexico: "GPC IMSS-242-09 relacionada con enfermedad de la válvula tricúspide.",
+      internacional: "ESC/EACTS 2025 Guidelines for Valvular Heart Disease."
+    },
+    bibliografia: "ESC/EACTS 2025 Valvular Heart Disease Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-217",
+    especialidad: "Cardiología",
+    tema: "Endocarditis infecciosa",
+    subtema: "Hemocultivos y antibióticos",
+    dificultad: "Alta",
+    caso: "Varón de 58 años con fiebre persistente, soplo nuevo y lesiones embólicas periféricas se encuentra hemodinámicamente estable y no ha recibido antibióticos. Existe alta sospecha de endocarditis infecciosa.",
+    pregunta: "¿Qué debe realizarse antes de iniciar antibióticos, siempre que la situación clínica lo permita?",
+    opciones: [
+      "Un único hemocultivo",
+      "Tres juegos de hemocultivos de sitios distintos",
+      "Solo urocultivo",
+      "Solo cultivo de esputo",
+      "Esperar al resultado de la ecocardiografía antes de tomar hemocultivos"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "En un paciente estable con sospecha de endocarditis infecciosa, deben obtenerse múltiples juegos de hemocultivos antes de iniciar antibióticos para maximizar el rendimiento microbiológico y permitir una terapia dirigida.",
+    perlaENARM: "IE estable = hemocultivos primero, antibióticos después.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con endocarditis infecciosa.",
+      internacional: "ESC 2023 Guidelines for the Management of Endocarditis."
+    },
+    bibliografia: "ESC 2023 Endocarditis Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-218",
+    especialidad: "Cardiología",
+    tema: "Endocarditis infecciosa",
+    subtema: "Ecocardiografía transesofágica",
+    dificultad: "Muy alta",
+    caso: "Mujer de 63 años presenta bacteriemia por Staphylococcus aureus. El ecocardiograma transtorácico no muestra vegetaciones, pero existe una prótesis valvular mitral y persiste bacteriemia.",
+    pregunta: "¿Cuál es el siguiente estudio de imagen más apropiado?",
+    opciones: [
+      "Radiografía de tórax",
+      "Ecocardiograma transesofágico",
+      "Prueba de esfuerzo",
+      "Holter",
+      "PET cerebral como primer estudio"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "En presencia de prótesis valvular y bacteriemia por S. aureus con alta sospecha de endocarditis, el ecocardiograma transesofágico tiene mayor sensibilidad que el transtorácico para detectar vegetaciones, abscesos y complicaciones periprotésicas.",
+    perlaENARM: "Prótesis valvular + bacteriemia por S. aureus + TTE negativo ≠ descartar IE; hacer TEE.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con endocarditis infecciosa.",
+      internacional: "ESC 2023 Guidelines for the Management of Endocarditis."
+    },
+    bibliografia: "ESC 2023 Endocarditis Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-219",
+    especialidad: "Cardiología",
+    tema: "Endocarditis infecciosa",
+    subtema: "Indicaciones de cirugía",
+    dificultad: "Muy alta",
+    caso: "Varón de 61 años con endocarditis infecciosa de la válvula mitral presenta vegetación móvil de 18 mm y ha sufrido dos episodios embólicos cerebrales pese a tratamiento antibiótico adecuado. Permanece con insuficiencia mitral grave.",
+    pregunta: "¿Cuál es la conducta más apropiada?",
+    opciones: [
+      "Continuar antibióticos exclusivamente durante un año",
+      "Evaluación urgente por Endocarditis Team para cirugía precoz",
+      "Esperar obligatoriamente a completar seis semanas de antibióticos",
+      "Anticoagular a dosis terapéuticas como tratamiento de la vegetación",
+      "Realizar trombólisis intravenosa"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "Vegetación grande y móvil, embolización recurrente pese a tratamiento adecuado y disfunción valvular grave constituyen criterios de alto riesgo que pueden justificar cirugía precoz. La decisión debe realizarse por un equipo multidisciplinario especializado.",
+    perlaENARM: "IE + embolización recurrente + vegetación grande + disfunción valvular = pensar en cirugía precoz.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con endocarditis infecciosa.",
+      internacional: "ESC 2023 Guidelines for the Management of Endocarditis."
+    },
+    bibliografia: "ESC 2023 Endocarditis Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-220",
+    especialidad: "Cardiología",
+    tema: "Endocarditis infecciosa",
+    subtema: "Profilaxis antibiótica",
+    dificultad: "Alta",
+    caso: "Mujer de 46 años con antecedente de endocarditis infecciosa requiere extracción dental con manipulación del tejido gingival. No presenta alergia conocida a penicilina.",
+    pregunta: "¿Cuál es el principio correcto respecto a profilaxis?",
+    opciones: [
+      "Toda persona sometida a procedimiento dental requiere profilaxis",
+      "La profilaxis está indicada en pacientes de alto riesgo de endocarditis sometidos a determinados procedimientos dentales",
+      "La profilaxis se indica únicamente si existe fiebre",
+      "La profilaxis sustituye la higiene oral",
+      "La profilaxis debe mantenerse durante un mes después del procedimiento"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "La profilaxis antibiótica no se recomienda de manera universal para todos los pacientes. Se reserva para pacientes con condiciones cardiacas de alto riesgo, como antecedente de endocarditis, cuando se realizan determinados procedimientos dentales con manipulación gingival o de la región periapical.",
+    perlaENARM: "Antecedente de endocarditis = grupo de alto riesgo para profilaxis dental en procedimientos seleccionados.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con endocarditis infecciosa.",
+      internacional: "ESC 2023 Guidelines for the Management of Endocarditis."
+    },
+    bibliografia: "ESC 2023 Endocarditis Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-221",
+    especialidad: "Cardiología",
+    tema: "Imagen cardiovascular",
+    subtema: "Resonancia cardiaca en miocarditis",
+    dificultad: "Muy alta",
+    caso: "Varón de 37 años presenta dolor torácico, elevación de troponina y cambios inespecíficos del ST. La coronariografía no muestra enfermedad coronaria obstructiva. La resonancia cardiaca demuestra edema miocárdico y realce tardío subepicárdico inferolateral.",
+    pregunta: "¿Cuál es la interpretación más probable?",
+    opciones: [
+      "Infarto transmural por oclusión coronaria",
+      "Miocarditis aguda",
+      "Pericarditis aislada sin compromiso miocárdico",
+      "Estenosis aórtica",
+      "Miocardiopatía hipertrófica obstructiva"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "La combinación de lesión miocárdica, coronarias no obstructivas y un patrón de edema y realce tardío no isquémico, especialmente subepicárdico inferolateral, es característica de miocarditis. La CMR permite caracterizar edema, necrosis/fibrosis y distribución del daño.",
+    perlaENARM: "CMR: patrón subepicárdico o mesomiocárdico favorece etiología no isquémica; patrón subendocárdico/transmural sigue un territorio coronario.",
+    gpc: {
+      mexico: "No se identifica una GPC mexicana específica vigente dedicada al uso de CMR en miocarditis.",
+      internacional: "ESC 2025 Guidelines for Myocarditis and Pericarditis."
+    },
+    bibliografia: "ESC 2025 Myocarditis and Pericarditis Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-222",
+    especialidad: "Cardiología",
+    tema: "Imagen cardiovascular",
+    subtema: "Realce tardío y etiología isquémica",
+    dificultad: "Muy alta",
+    caso: "Mujer de 64 años con FEVI de 35% presenta CMR. Se observa realce tardío subendocárdico que se extiende hacia todo el espesor de la pared en distribución correspondiente a la arteria descendente anterior.",
+    pregunta: "¿Qué etiología es más probable?",
+    opciones: [
+      "Miocarditis viral",
+      "Sarcoidosis",
+      "Enfermedad cardiaca isquémica con fibrosis por infarto previo",
+      "Amiloidosis exclusivamente",
+      "Pericarditis constrictiva"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: "El patrón isquémico clásico de realce tardío comienza en el subendocardio y puede extenderse transmuralmente siguiendo un territorio coronario. Esto contrasta con los patrones no isquémicos, que suelen presentar distribución mesomiocárdica, subepicárdica o parcheada no correspondiente a un territorio vascular.",
+    perlaENARM: "LGE subendocárdico/transmural + distribución coronaria = cicatriz isquémica.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con cardiopatía isquémica.",
+      internacional: "ESC 2024 Guidelines for Chronic Coronary Syndromes; ESC 2023 Cardiomyopathies Guidelines."
+    },
+    bibliografia: "Braunwald's Heart Disease, 12th ed.; ESC 2024 Chronic Coronary Syndromes Guidelines."
+  },
+
+  {
+    id: "CARD-223",
+    especialidad: "Cardiología",
+    tema: "Imagen cardiovascular",
+    subtema: "Ecocardiografía de estrés",
+    dificultad: "Alta",
+    caso: "Varón de 58 años con dolor torácico de esfuerzo tiene ECG basal con bloqueo completo de rama izquierda. La prueba de esfuerzo convencional resulta difícil de interpretar para detectar isquemia.",
+    pregunta: "¿Cuál es una alternativa diagnóstica razonable?",
+    opciones: [
+      "Prueba de esfuerzo únicamente con ECG como estudio definitivo",
+      "Imagen funcional de estrés o angiotomografía coronaria según el contexto clínico",
+      "Holter como prueba de isquemia",
+      "Radiografía de tórax",
+      "Electromiografía"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "Cuando el ECG basal limita la interpretación de cambios isquémicos, debe utilizarse una modalidad anatómica o funcional con imagen. La selección entre CCTA, ecocardiografía de estrés, resonancia de estrés o imagen nuclear depende de probabilidad clínica, características del paciente y disponibilidad.",
+    perlaENARM: "ECG basal no interpretable para isquemia → utilizar imagen anatómica o funcional.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con cardiopatía isquémica.",
+      internacional: "ESC 2024 Guidelines for Chronic Coronary Syndromes."
+    },
+    bibliografia: "ESC 2024 Chronic Coronary Syndromes Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-224",
+    especialidad: "Cardiología",
+    tema: "Imagen cardiovascular",
+    subtema: "Angiotomografía coronaria",
+    dificultad: "Muy alta",
+    caso: "Mujer de 51 años con sospecha de síndrome coronario crónico presenta probabilidad clínica baja-intermedia. Tiene ECG interpretable y no existen contraindicaciones para contraste yodado. Se desea descartar enfermedad coronaria obstructiva.",
+    pregunta: "¿Cuál es una ventaja importante de la CCTA?",
+    opciones: [
+      "Permite visualizar directamente la anatomía coronaria y tiene alto valor para descartar enfermedad obstructiva",
+      "Mide directamente las presiones intracardiacas",
+      "Sustituye siempre al cateterismo",
+      "No requiere exposición a radiación en ninguna circunstancia",
+      "Permite medir directamente la reserva fraccional de flujo sin ninguna técnica adicional"
+    ],
+    respuestaCorrecta: 0,
+    explicacion: "La angiotomografía coronaria ofrece evaluación anatómica no invasiva de las arterias coronarias y posee un elevado valor para descartar enfermedad coronaria obstructiva en pacientes apropiadamente seleccionados. No sustituye al cateterismo en todos los escenarios y puede complementarse con técnicas funcionales cuando existen lesiones de significado incierto.",
+    perlaENARM: "CCTA es especialmente potente para excluir enfermedad coronaria obstructiva en pacientes seleccionados.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con cardiopatía isquémica.",
+      internacional: "ESC 2024 Guidelines for Chronic Coronary Syndromes."
+    },
+    bibliografia: "ESC 2024 Chronic Coronary Syndromes Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-225",
+    especialidad: "Cardiología",
+    tema: "Farmacología cardiovascular",
+    subtema: "ARNI e insuficiencia cardiaca",
+    dificultad: "Alta",
+    caso: "Varón de 64 años con HFrEF sintomática recibe enalapril y continúa con síntomas pese a tratamiento adecuado. Tiene presión arterial tolerable y función renal estable. No ha presentado angioedema.",
+    pregunta: "¿Cuál es una estrategia farmacológica apropiada?",
+    opciones: [
+      "Cambiar de forma apropiada de IECA a sacubitril/valsartán",
+      "Agregar otro IECA al tratamiento",
+      "Suspender todo tratamiento neurohormonal",
+      "Sustituir el IECA por un AINE",
+      "Utilizar únicamente digoxina"
+    ],
+    respuestaCorrecta: 0,
+    explicacion: "En pacientes seleccionados con HFrEF, sacubitril/valsartán puede sustituir al IECA como parte del tratamiento dirigido a mejorar resultados cardiovasculares. Debe respetarse el intervalo de lavado necesario entre IECA y ARNI para reducir el riesgo de angioedema.",
+    perlaENARM: "IECA → ARNI requiere periodo de lavado; no deben administrarse simultáneamente.",
+    gpc: {
+      mexico: "GPC-SS-219-24 relacionada con insuficiencia cardiaca.",
+      internacional: "ESC Guidelines for Heart Failure; ACC/AHA/HFSA heart failure guidance."
+    },
+    bibliografia: "GPC-SS-219-24; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-226",
+    especialidad: "Cardiología",
+    tema: "Farmacología cardiovascular",
+    subtema: "Antagonistas de mineralocorticoides",
+    dificultad: "Muy alta",
+    caso: "Mujer de 66 años con HFrEF y FEVI de 30% está recibiendo IECA, betabloqueador y diurético. Tiene creatinina de 1.2 mg/dL y potasio de 4.4 mEq/L. No existen antecedentes de hiperpotasemia.",
+    pregunta: "¿Cuál es el siguiente tratamiento dirigido a mejorar el pronóstico que debe considerarse?",
+    opciones: [
+      "Espironolactona",
+      "Verapamilo",
+      "Diltiazem",
+      "AINE",
+      "Nifedipino de liberación inmediata"
+    ],
+    respuestaCorrecta: 0,
+    explicacion: "Los antagonistas del receptor mineralocorticoide forman parte de la terapia fundamental de HFrEF en pacientes apropiadamente seleccionados. Antes y durante el tratamiento deben vigilarse función renal y potasio debido al riesgo de hiperpotasemia y deterioro renal.",
+    perlaENARM: "HFrEF + función renal y K adecuados = pensar en MRA como uno de los pilares terapéuticos.",
+    gpc: {
+      mexico: "GPC-SS-219-24 relacionada con insuficiencia cardiaca.",
+      internacional: "ACC/AHA/HFSA and ESC heart failure guidance."
+    },
+    bibliografia: "GPC-SS-219-24; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-227",
+    especialidad: "Cardiología",
+    tema: "Farmacología cardiovascular",
+    subtema: "Ivabradina",
+    dificultad: "Muy alta",
+    caso: "Varón de 58 años con HFrEF crónica presenta FEVI de 28%, ritmo sinusal, frecuencia cardiaca de 82 lpm pese a betabloqueador a dosis máxima tolerada y continúa sintomático. La presión arterial limita mayor intensificación del betabloqueador.",
+    pregunta: "¿Cuál es el escenario en el que ivabradina puede ser considerada?",
+    opciones: [
+      "Cualquier paciente con FA y frecuencia de 60 lpm",
+      "Paciente seleccionado con HFrEF, ritmo sinusal y frecuencia cardiaca elevada pese a tratamiento betabloqueador apropiado",
+      "Paciente con bradicardia sintomática",
+      "Paciente con insuficiencia aórtica grave como tratamiento valvular",
+      "Paciente con taquicardia ventricular sostenida"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "Ivabradina reduce la frecuencia cardiaca mediante inhibición de la corriente If del nodo sinusal y puede considerarse en pacientes seleccionados con HFrEF que permanecen en ritmo sinusal con frecuencia elevada pese a tratamiento médico apropiado. No es útil para controlar la frecuencia en fibrilación auricular.",
+    perlaENARM: "Ivabradina actúa sobre el nodo sinusal: no es fármaco para control de frecuencia en FA.",
+    gpc: {
+      mexico: "GPC-SS-219-24 relacionada con insuficiencia cardiaca.",
+      internacional: "ACC/AHA/HFSA and ESC heart failure guidance."
+    },
+    bibliografia: "GPC-SS-219-24; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-228",
+    especialidad: "Cardiología",
+    tema: "Farmacología cardiovascular",
+    subtema: "Digoxina e insuficiencia cardiaca",
+    dificultad: "Muy alta",
+    caso: "Mujer de 78 años con HFrEF y fibrilación auricular persiste con síntomas a pesar de tratamiento dirigido por guías. Tiene enfermedad renal crónica y se decide utilizar digoxina como tratamiento complementario. Después de algunas semanas presenta náusea, confusión y alteraciones visuales.",
+    pregunta: "¿Cuál es la sospecha más importante?",
+    opciones: [
+      "Toxicidad por digoxina",
+      "Síndrome serotoninérgico",
+      "Toxicidad por nitratos",
+      "Reacción alérgica a betabloqueador",
+      "Pericarditis aguda"
+    ],
+    respuestaCorrecta: 0,
+    explicacion: "La digoxina tiene margen terapéutico estrecho y su eliminación depende en gran medida de la función renal. Náusea, síntomas neurológicos y alteraciones visuales pueden aparecer en toxicidad. Las arritmias, incluyendo bloqueos y taquiarritmias, pueden ser manifestaciones graves.",
+    perlaENARM: "Digoxina + ERC + síntomas gastrointestinales/visuales = sospechar toxicidad.",
+    gpc: {
+      mexico: "GPC-SS-219-24 relacionada con insuficiencia cardiaca.",
+      internacional: "Contemporary heart failure guidance."
+    },
+    bibliografia: "GPC-SS-219-24; Braunwald's Heart Disease, 12th ed.; Harrison's 21st ed."
+  },
+
+  {
+    id: "CARD-229",
+    especialidad: "Cardiología",
+    tema: "Farmacología cardiovascular",
+    subtema: "Vericiguat",
+    dificultad: "Muy alta",
+    caso: "Varón de 69 años con HFrEF crónica presenta una hospitalización reciente por descompensación pese a tratamiento médico basado en guías. Se encuentra actualmente estable y euvolémico. Continúa con alto riesgo de nuevos eventos.",
+    pregunta: "¿En qué contexto puede considerarse vericiguat?",
+    opciones: [
+      "Como sustituto inmediato de todos los pilares de HFrEF",
+      "En pacientes seleccionados de alto riesgo con HFrEF recientemente descompensada pese a tratamiento basado en guías",
+      "Como tratamiento agudo de edema pulmonar",
+      "Como anticoagulante en FA",
+      "Como tratamiento de primera línea para hipertensión arterial"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "Vericiguat es un estimulador soluble de la guanilato ciclasa y puede considerarse en pacientes seleccionados con HFrEF de alto riesgo y reciente empeoramiento clínico pese a tratamiento médico basado en guías. No sustituye los pilares fundamentales del tratamiento.",
+    perlaENARM: "Vericiguat es terapia adicional seleccionada en HFrEF de alto riesgo, no sustituto de los cuatro pilares.",
+    gpc: {
+      mexico: "GPC-SS-219-24 relacionada con insuficiencia cardiaca.",
+      internacional: "Contemporary ACC/AHA/HFSA and ESC heart failure guidance."
+    },
+    bibliografia: "GPC-SS-219-24; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-230",
+    especialidad: "Cardiología",
+    tema: "Farmacología cardiovascular",
+    subtema: "Hidralazina y dinitrato de isosorbida",
+    dificultad: "Muy alta",
+    caso: "Varón de 65 años con HFrEF continúa sintomático. Tiene intolerancia documentada a IECA/ARNI por angioedema y no es candidato a estos fármacos. La función renal es estable y no existe hipotensión significativa.",
+    pregunta: "¿Qué combinación puede considerarse como alternativa terapéutica?",
+    opciones: [
+      "Hidralazina más dinitrato de isosorbida",
+      "Verapamilo más diltiazem",
+      "AINE más digoxina",
+      "Nifedipino sublingual más clonidina",
+      "Flecainida más propafenona"
+    ],
+    respuestaCorrecta: 0,
+    explicacion: "La combinación hidralazina-dinitrato de isosorbida puede considerarse en determinados pacientes con HFrEF que no pueden recibir inhibición del sistema renina-angiotensina por intolerancia o contraindicación. No debe confundirse con una estrategia equivalente en todos los pacientes a ARNI/IECA/ARA-II.",
+    perlaENARM: "Angioedema con IECA/ARNI y HFrEF: hidralazina + nitrato puede ser una alternativa seleccionada.",
+    gpc: {
+      mexico: "GPC-SS-219-24 relacionada con insuficiencia cardiaca.",
+      internacional: "ACC/AHA/HFSA and ESC heart failure guidance."
+    },
+    bibliografia: "GPC-SS-219-24; Braunwald's Heart Disease, 12th ed."
+  },
+      {
+    id: "CARD-231",
+    especialidad: "Cardiología",
+    tema: "Electrocardiografía",
+    subtema: "Bloqueo bifascicular",
+    dificultad: "Muy alta",
+    caso: "Varón de 72 años con hipertensión y enfermedad coronaria presenta síncope súbito sin pródromos. El ECG muestra bloqueo completo de rama derecha y hemibloqueo anterior izquierdo. No se documenta bloqueo AV de segundo o tercer grado durante la valoración inicial.",
+    pregunta: "¿Cuál es el siguiente paso diagnóstico más apropiado si el síncope permanece inexplicado?",
+    opciones: [
+      "Dar de alta sin seguimiento porque el ECG no muestra bloqueo AV completo",
+      "Realizar estudio electrofisiológico para valorar enfermedad del sistema His-Purkinje",
+      "Indicar exclusivamente prueba de esfuerzo",
+      "Administrar atropina de forma crónica",
+      "Implantar automáticamente un desfibrilador"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "El bloqueo bifascicular en un paciente con síncope inexplicado aumenta la sospecha de enfermedad avanzada del sistema His-Purkinje. Cuando la evaluación no identifica otra causa, el estudio electrofisiológico puede demostrar enfermedad infranodal y ayudar a decidir la necesidad de estimulación.",
+    perlaENARM: "Síncope inexplicado + bloqueo bifascicular = pensar en bloqueo AV paroxístico y valorar estudio electrofisiológico.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con trastornos de conducción y bloqueo AV.",
+      internacional: "ESC 2021 Guidelines on Cardiac Pacing and Cardiac Resynchronization Therapy."
+    },
+    bibliografia: "ESC 2021 Pacing and CRT Guidelines; ACC/AHA/HRS 2018 Bradycardia and Conduction Delay Guideline."
+  },
+
+  {
+    id: "CARD-232",
+    especialidad: "Cardiología",
+    tema: "Trastornos de conducción",
+    subtema: "Bloqueo AV de segundo grado Mobitz II",
+    dificultad: "Muy alta",
+    caso: "Mujer de 70 años presenta episodios de presíncope. El ECG muestra ritmo sinusal con intervalos PR constantes y, de forma súbita, algunas ondas P no son seguidas por complejos QRS. El QRS es ancho.",
+    pregunta: "¿Cuál es la interpretación más apropiada?",
+    opciones: [
+      "Bloqueo AV Mobitz I benigno",
+      "Bloqueo AV Mobitz II con riesgo elevado de progresión a bloqueo completo",
+      "Bloqueo sinoauricular",
+      "Fibrilación auricular lenta",
+      "Taquicardia auricular con bloqueo variable"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "En Mobitz II existe conducción AV constante antes de la onda P bloqueada, sin prolongación progresiva del PR. Suele reflejar enfermedad infranodal, especialmente cuando existe QRS ancho, y tiene riesgo significativo de progresión a bloqueo AV completo.",
+    perlaENARM: "PR constante + P no conducida súbitamente = Mobitz II; no esperar a que aparezca bloqueo completo para valorar estimulación.",
+    gpc: {
+      mexico: "GPC IMSS-352-09, diagnóstico y tratamiento del bloqueo auriculoventricular.",
+      internacional: "ESC 2021 Pacing and CRT Guidelines; ACC/AHA/HRS 2018 Bradycardia Guideline."
+    },
+    bibliografia: "GPC IMSS-352-09; ESC 2021 Pacing and CRT Guidelines; ACC/AHA/HRS 2018."
+  },
+
+  {
+    id: "CARD-233",
+    especialidad: "Cardiología",
+    tema: "Trastornos de conducción",
+    subtema: "Bloqueo AV completo",
+    dificultad: "Muy alta",
+    caso: "Varón de 76 años presenta síncope. El ECG muestra ondas P regulares a 90 lpm y complejos QRS regulares a 34 lpm sin relación fija entre ambas actividades. El QRS es ancho.",
+    pregunta: "¿Cuál es el diagnóstico?",
+    opciones: [
+      "Bloqueo AV de primer grado",
+      "Mobitz I",
+      "Mobitz II",
+      "Bloqueo AV completo",
+      "Bloqueo sinoauricular"
+    ],
+    respuestaCorrecta: 3,
+    explicacion: "La ausencia de relación entre la actividad auricular y ventricular, con frecuencias auricular y ventricular independientes, demuestra disociación AV completa. El QRS ancho y la frecuencia ventricular lenta sugieren un ritmo de escape infranodal.",
+    perlaENARM: "Ondas P y QRS independientes = bloqueo AV completo.",
+    gpc: {
+      mexico: "GPC IMSS-352-09, diagnóstico y tratamiento del bloqueo auriculoventricular.",
+      internacional: "ESC 2021 Pacing and CRT Guidelines; ACC/AHA/HRS 2018 Bradycardia Guideline."
+    },
+    bibliografia: "GPC IMSS-352-09; ESC 2021 Pacing and CRT Guidelines."
+  },
+
+  {
+    id: "CARD-234",
+    especialidad: "Cardiología",
+    tema: "Trastornos de conducción",
+    subtema: "Disfunción del nodo sinusal",
+    dificultad: "Muy alta",
+    caso: "Mujer de 69 años presenta episodios recurrentes de síncope. El monitor ambulatorio demuestra pausas sinusales de 5 segundos que coinciden temporalmente con los episodios. No recibe medicamentos cronotrópicos negativos y no existe causa metabólica reversible.",
+    pregunta: "¿Cuál es el tratamiento definitivo más apropiado?",
+    opciones: [
+      "No realizar tratamiento porque no existe una frecuencia cardiaca mínima específica para indicar marcapasos",
+      "Implantar marcapasos permanente",
+      "Administrar adenosina",
+      "Administrar verapamilo",
+      "Realizar desfibrilación preventiva"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "En disfunción del nodo sinusal, la decisión de estimulación depende fundamentalmente de la correlación entre síntomas y bradiarritmia. En esta paciente existe una correlación temporal clara entre pausas sinusales y síncope, sin causa reversible identificable.",
+    perlaENARM: "En disfunción sinusal no existe una cifra universal de FC o duración de pausa que por sí sola indique marcapasos: importa la correlación clínica.",
+    gpc: {
+      mexico: "GPC IMSS-569-12, síndrome de seno enfermo.",
+      internacional: "ESC 2021 Pacing and CRT Guidelines; ACC/AHA/HRS 2018 Bradycardia Guideline."
+    },
+    bibliografia: "GPC IMSS-569-12; ESC 2021 Pacing and CRT Guidelines; ACC/AHA/HRS 2018."
+  },
+
+  {
+    id: "CARD-235",
+    especialidad: "Cardiología",
+    tema: "Trastornos de conducción",
+    subtema: "Bradicardia nocturna y apnea obstructiva",
+    dificultad: "Alta",
+    caso: "Varón de 52 años presenta bradicardia nocturna y pausas sinusales durante el sueño. Su esposa refiere ronquidos intensos y episodios de apnea. Durante el día mantiene frecuencia cardiaca normal y no presenta síncope.",
+    pregunta: "¿Cuál es el siguiente paso más apropiado?",
+    opciones: [
+      "Implantar inmediatamente un marcapasos permanente",
+      "Evaluar apnea obstructiva del sueño y tratarla si está presente",
+      "Administrar atropina nocturna",
+      "Implantar un desfibrilador",
+      "Realizar ablación del nodo AV"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "Las bradiarritmias nocturnas pueden estar asociadas con apnea obstructiva del sueño. En ausencia de síntomas atribuibles a bradicardia durante la vigilia o enfermedad de conducción avanzada, debe investigarse y tratarse la apnea antes de indicar un dispositivo.",
+    perlaENARM: "Bradicardia nocturna + ronquidos/apneas = buscar apnea obstructiva antes de implantar marcapasos.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con trastornos de conducción.",
+      internacional: "ESC 2021 Pacing and CRT Guidelines."
+    },
+    bibliografia: "ESC 2021 Pacing and CRT Guidelines; ACC/AHA/HRS 2018 Bradycardia Guideline."
+  },
+
+  {
+    id: "CARD-236",
+    especialidad: "Cardiología",
+    tema: "Síncope",
+    subtema: "Síncope reflejo",
+    dificultad: "Alta",
+    caso: "Mujer de 24 años presenta síncope mientras permanece de pie durante 40 minutos en un lugar caluroso. Antes de perder la conciencia presenta náusea, diaforesis y sensación de calor. Recupera completamente la conciencia al colocarse en decúbito.",
+    pregunta: "¿Cuál es el diagnóstico más probable?",
+    opciones: [
+      "Síncope reflejo vasovagal",
+      "Taquicardia ventricular",
+      "Bloqueo AV completo",
+      "Estenosis aórtica grave",
+      "Embolia pulmonar masiva"
+    ],
+    respuestaCorrecta: 0,
+    explicacion: "La situación desencadenante, el pródromo autonómico y la recuperación rápida son característicos de síncope vasovagal. El diagnóstico es fundamentalmente clínico cuando la historia es típica.",
+    perlaENARM: "Pródromo autonómico + bipedestación prolongada + calor = síncope vasovagal.",
+    gpc: {
+      mexico: "No se identifica una GPC mexicana específica vigente dedicada exclusivamente a síncope reflejo.",
+      internacional: "ESC 2018 Guidelines for the Diagnosis and Management of Syncope; ESC 2021 Pacing and CRT Guidelines."
+    },
+    bibliografia: "ESC Syncope Guidelines; ESC 2021 Pacing and CRT Guidelines."
+  },
+
+  {
+    id: "CARD-237",
+    especialidad: "Cardiología",
+    tema: "Síncope",
+    subtema: "Síncope cardiogénico",
+    dificultad: "Muy alta",
+    caso: "Varón de 68 años con antecedente de infarto presenta síncope súbito durante el ejercicio, sin pródromo. El ECG basal muestra cicatriz de infarto y extrasístoles ventriculares frecuentes.",
+    pregunta: "¿Cuál de las siguientes características aumenta más la sospecha de origen cardiaco?",
+    opciones: [
+      "Síncope después de estar mucho tiempo de pie",
+      "Pródromo prolongado de náusea y calor",
+      "Síncope durante el ejercicio sin pródromo",
+      "Síncope inmediatamente después de una extracción sanguínea",
+      "Historia de miedo intenso antes del episodio"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: "El síncope durante el ejercicio, particularmente sin pródromo y en presencia de cardiopatía estructural, es una bandera roja para una causa cardiaca potencialmente arrítmica. Requiere evaluación cardiovascular dirigida.",
+    perlaENARM: "Síncope de esfuerzo sin pródromo = pensar primero en causa cardiaca.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con síncope y trastornos de conducción.",
+      internacional: "ESC Guidelines for Syncope; ESC 2022 Ventricular Arrhythmias Guidelines."
+    },
+    bibliografia: "ESC Syncope Guidelines; ESC 2022 Ventricular Arrhythmias Guidelines."
+  },
+
+  {
+    id: "CARD-238",
+    especialidad: "Cardiología",
+    tema: "Síncope",
+    subtema: "Monitorización prolongada",
+    dificultad: "Muy alta",
+    caso: "Mujer de 58 años presenta episodios de síncope impredecibles aproximadamente cada cuatro meses. ECG, ecocardiograma, prueba ortostática y monitorización Holter de 24 horas no identifican la causa. La sospecha de origen arrítmico permanece elevada.",
+    pregunta: "¿Cuál es el método de monitorización más apropiado?",
+    opciones: [
+      "Repetir Holter de 24 horas cada semana",
+      "Implantar un registrador de eventos implantable de larga duración",
+      "Realizar únicamente ECG anual",
+      "Realizar prueba de esfuerzo diariamente",
+      "Solicitar radiografía de tórax"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "Cuando los episodios son infrecuentes y permanece una sospecha arrítmica después de una evaluación convencional negativa, la monitorización prolongada mediante un implantable loop recorder puede aumentar considerablemente la probabilidad de correlacionar el episodio con el ritmo cardiaco.",
+    perlaENARM: "Síncope infrecuente + estudio inicial negativo + sospecha arrítmica = ILR.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con síncope y trastornos de conducción.",
+      internacional: "ESC 2021 Pacing and CRT Guidelines; ESC Syncope Guidelines."
+    },
+    bibliografia: "ESC 2021 Pacing and CRT Guidelines; ESC Syncope Guidelines."
+  },
+
+  {
+    id: "CARD-239",
+    especialidad: "Cardiología",
+    tema: "Electrocardiografía",
+    subtema: "Alternancia de bloqueo de rama",
+    dificultad: "Muy alta",
+    caso: "Varón de 75 años presenta episodios de presíncope. En diferentes ECG realizados durante la hospitalización se observa bloqueo completo de rama derecha en algunos trazos y bloqueo completo de rama izquierda en otros, sin un patrón estable.",
+    pregunta: "¿Qué implica este hallazgo?",
+    opciones: [
+      "Variante normal del ECG",
+      "Enfermedad significativa de ambos fascículos y alto riesgo de bloqueo AV completo",
+      "Bloqueo AV de primer grado aislado",
+      "Síndrome de Wolff-Parkinson-White",
+      "Pericarditis aguda"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "El bloqueo alternante de rama demuestra enfermedad significativa de ambos sistemas de conducción intraventricular. Se considera un marcador de enfermedad infranodal avanzada y existe alto riesgo de progresión a bloqueo AV completo, por lo que requiere valoración para estimulación.",
+    perlaENARM: "Alternancia BRD ↔ BRI = enfermedad grave del sistema His-Purkinje.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con trastornos de conducción.",
+      internacional: "ACC/AHA/HRS 2018 Bradycardia and Conduction Delay Guideline."
+    },
+    bibliografia: "ACC/AHA/HRS 2018 Bradycardia and Conduction Delay Guideline; ESC 2021 Pacing and CRT Guidelines."
+  },
+
+  {
+    id: "CARD-240",
+    especialidad: "Cardiología",
+    tema: "Marcapasos",
+    subtema: "Bloqueo AV y estimulación permanente",
+    dificultad: "Muy alta",
+    caso: "Mujer de 73 años presenta bloqueo AV completo no relacionado con fármacos, alteraciones electrolíticas ni isquemia aguda. Permanece hemodinámicamente estable gracias a un ritmo de escape ventricular.",
+    pregunta: "¿Cuál es la conducta definitiva?",
+    opciones: [
+      "Observación indefinida mientras permanezca estable",
+      "Marcapasos permanente",
+      "Ablación del nodo AV",
+      "Desfibrilador implantable obligatorio en todos los casos",
+      "Solo tratamiento con atropina oral"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "El bloqueo AV completo adquirido no atribuible a una causa reversible constituye una indicación de estimulación permanente, incluso cuando el paciente se encuentra temporalmente estable debido a un ritmo de escape.",
+    perlaENARM: "Bloqueo AV completo no reversible = marcapasos permanente, aunque el paciente esté temporalmente estable.",
+    gpc: {
+      mexico: "GPC IMSS-352-09, bloqueo auriculoventricular.",
+      internacional: "ESC 2021 Pacing and CRT Guidelines; ACC/AHA/HRS 2018 Bradycardia Guideline."
+    },
+    bibliografia: "GPC IMSS-352-09; ESC 2021 Pacing and CRT Guidelines."
+  },
+
+  {
+    id: "CARD-241",
+    especialidad: "Cardiología",
+    tema: "Marcapasos",
+    subtema: "Síndrome taquicardia-bradicardia",
+    dificultad: "Muy alta",
+    caso: "Mujer de 71 años con fibrilación auricular paroxística presenta pausas sinusales de 6 segundos después de terminación espontánea de la FA, acompañadas de síncope. Requiere tratamiento farmacológico para prevenir recurrencias de FA.",
+    pregunta: "¿Cuál es una estrategia apropiada?",
+    opciones: [
+      "Evitar todo tratamiento de FA por las pausas",
+      "Considerar marcapasos permanente para tratar la bradiarritmia y permitir el manejo de la taquiarritmia",
+      "Implantar únicamente un desfibrilador por la presencia de FA",
+      "Administrar adenosina de manera preventiva",
+      "Realizar trombólisis"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "El síndrome taquicardia-bradicardia es una forma de disfunción del nodo sinusal. Cuando las pausas son sintomáticas y se requiere tratamiento de la taquiarritmia que puede empeorar la bradicardia, la estimulación permanente puede permitir un manejo seguro.",
+    perlaENARM: "Taquiarritmia + pausas sintomáticas = síndrome taquicardia-bradicardia; el marcapasos puede permitir tratar la taquiarritmia.",
+    gpc: {
+      mexico: "GPC IMSS-569-12, síndrome de seno enfermo; GPC IMSS-014-08, fibrilación auricular.",
+      internacional: "ESC 2021 Pacing and CRT Guidelines; ESC 2024 AF Guidelines."
+    },
+    bibliografia: "GPC IMSS-569-12; ESC 2021 Pacing and CRT Guidelines; ESC 2024 AF Guidelines."
+  },
+
+  {
+    id: "CARD-242",
+    especialidad: "Cardiología",
+    tema: "Desfibrilador automático implantable",
+    subtema: "Prevención secundaria de muerte súbita",
+    dificultad: "Muy alta",
+    caso: "Varón de 61 años con cardiopatía isquémica y FEVI de 38% presenta taquicardia ventricular sostenida documentada que causa síncope. No existe alteración reversible como hipopotasemia o isquemia aguda en el momento del evento.",
+    pregunta: "¿Cuál es la estrategia de prevención de muerte súbita más apropiada?",
+    opciones: [
+      "Solo betabloqueador",
+      "Desfibrilador automático implantable para prevención secundaria, tras excluir causas reversibles",
+      "Marcapasos simple sin capacidad de desfibrilación",
+      "Aspirina como tratamiento antiarrítmico",
+      "Ningún tratamiento porque la FEVI es mayor de 35%"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "Una TV sostenida hemodinámicamente significativa en un paciente con cardiopatía estructural, sin causa reversible, constituye un escenario clásico de prevención secundaria con ICD. La FEVI aislada no debe utilizarse para negar esta indicación.",
+    perlaENARM: "TV sostenida no reversible + cardiopatía estructural = pensar en ICD de prevención secundaria.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con arritmias ventriculares y cardiopatía isquémica.",
+      internacional: "ESC 2022 Guidelines for Ventricular Arrhythmias and Prevention of Sudden Cardiac Death."
+    },
+    bibliografia: "ESC 2022 Ventricular Arrhythmias Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-243",
+    especialidad: "Cardiología",
+    tema: "Desfibrilador automático implantable",
+    subtema: "Prevención primaria en cardiopatía isquémica",
+    dificultad: "Muy alta",
+    caso: "Varón de 66 años sufrió un IAM hace ocho meses. Tras revascularización y tratamiento médico óptimo mantiene FEVI de 28%. Permanece en ritmo sinusal y presenta clase funcional NYHA II.",
+    pregunta: "¿Qué estrategia debe considerarse para prevención primaria de muerte súbita?",
+    opciones: [
+      "No realizar ninguna valoración porque el IAM ocurrió hace meses",
+      "Considerar ICD si cumple criterios de prevención primaria después de tratamiento médico óptimo y periodo apropiado posterior al IAM/revascularización",
+      "Implantar únicamente marcapasos",
+      "Realizar ablación del nodo AV",
+      "Administrar verapamilo como prevención de muerte súbita"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "Los pacientes con cardiopatía isquémica y FEVI persistentemente reducida pese a tratamiento médico óptimo pueden ser candidatos a ICD para prevención primaria. La decisión debe realizarse después del periodo apropiado posterior al IAM y revascularización, evitando implantarlo demasiado pronto cuando aún existe posibilidad de recuperación ventricular.",
+    perlaENARM: "ICD primario post-IAM no se decide inmediatamente: esperar el periodo apropiado y optimizar tratamiento/revascularización.",
+    gpc: {
+      mexico: "GPC mexicana relacionada con insuficiencia cardiaca y cardiopatía isquémica.",
+      internacional: "ESC 2022 Ventricular Arrhythmias and SCD Guidelines."
+    },
+    bibliografia: "ESC 2022 Ventricular Arrhythmias Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-244",
+    especialidad: "Cardiología",
+    tema: "Resincronización cardiaca",
+    subtema: "CRT en bloqueo de rama izquierda",
+    dificultad: "Muy alta",
+    caso: "Mujer de 67 años con HFrEF sintomática pese a tratamiento médico óptimo presenta FEVI de 28%, ritmo sinusal, bloqueo completo de rama izquierda y QRS de 168 ms.",
+    pregunta: "¿Cuál es la terapia con dispositivos que ofrece mayor beneficio potencial?",
+    opciones: [
+      "Marcapasos ventricular derecho convencional",
+      "CRT",
+      "Holter implantable exclusivamente",
+      "Desfibrilador subcutáneo sin resincronización",
+      "Ablación del nodo AV como primera opción"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "La combinación de HFrEF, FEVI ≤35%, ritmo sinusal, BRI y QRS ≥150 ms representa uno de los escenarios con mayor evidencia de beneficio de resincronización cardiaca. La CRT puede mejorar síntomas, remodelado ventricular y resultados cardiovasculares en pacientes adecuadamente seleccionados.",
+    perlaENARM: "HFrEF + BRI + QRS ≥150 ms + ritmo sinusal = escenario clásico de alto beneficio para CRT.",
+    gpc: {
+      mexico: "GPC-SS-219-24 relacionada con insuficiencia cardiaca.",
+      internacional: "ESC 2021 Guidelines on Cardiac Pacing and CRT."
+    },
+    bibliografia: "ESC 2021 Pacing and CRT Guidelines; GPC-SS-219-24; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-245",
+    especialidad: "Cardiología",
+    tema: "Resincronización cardiaca",
+    subtema: "FA y captura biventricular",
+    dificultad: "Muy alta",
+    caso: "Varón de 74 años con HFrEF, FEVI de 25% y fibrilación auricular permanente recibe CRT. La interrogación del dispositivo demuestra solo 82% de estimulación biventricular efectiva debido a conducción AV intrínseca rápida.",
+    pregunta: "¿Cuál es una estrategia apropiada para mejorar la eficacia de la CRT?",
+    opciones: [
+      "Aceptar 82% de captura porque cualquier porcentaje es suficiente",
+      "Considerar control más estricto de la frecuencia y, en casos seleccionados, ablación de la unión AV para asegurar alta captura biventricular",
+      "Suspender CRT",
+      "Cambiar automáticamente a marcapasos ventricular derecho",
+      "Administrar adenosina crónicamente"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "La CRT en pacientes con FA requiere una proporción muy alta de estimulación biventricular efectiva. Cuando la conducción AV impide alcanzar una captura adecuada pese al control farmacológico, puede considerarse ablación de la unión AV para asegurar la estimulación biventricular.",
+    perlaENARM: "CRT + FA: si no se consigue captura biventricular suficiente, considerar ablación AV en pacientes seleccionados.",
+    gpc: {
+      mexico: "GPC-SS-219-24 relacionada con insuficiencia cardiaca.",
+      internacional: "ESC 2021 Guidelines on Cardiac Pacing and CRT."
+    },
+    bibliografia: "ESC 2021 Pacing and CRT Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-246",
+    especialidad: "Cardiología",
+    tema: "Dispositivos cardiacos",
+    subtema: "Desfibrilador subcutáneo",
+    dificultad: "Muy alta",
+    caso: "Varón de 29 años con miocardiopatía arritmogénica presenta indicación de ICD para prevención de muerte súbita. No tiene indicación de estimulación permanente ni necesidad de resincronización y presenta acceso venoso difícil.",
+    pregunta: "¿Qué tipo de dispositivo puede ser particularmente atractivo?",
+    opciones: [
+      "Marcapasos unicameral transvenoso",
+      "ICD subcutáneo",
+      "CRT-P",
+      "Holter implantable",
+      "Marcapasos temporal"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "El ICD subcutáneo puede ser una alternativa cuando se requiere desfibrilación pero no existe necesidad de estimulación antibradicardia, resincronización o estimulación antitaquicardia ventricular. Además evita la colocación de electrodos intravasculares.",
+    perlaENARM: "ICD necesario + sin necesidad de pacing/CRT = considerar sistema subcutáneo en pacientes seleccionados.",
+    gpc: {
+      mexico: "No se identifica una GPC mexicana específica vigente sobre selección de ICD subcutáneo.",
+      internacional: "ESC 2022 Guidelines for Ventricular Arrhythmias and Prevention of Sudden Cardiac Death."
+    },
+    bibliografia: "ESC 2022 Ventricular Arrhythmias Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-247",
+    especialidad: "Cardiología",
+    tema: "Muerte súbita",
+    subtema: "Tormenta eléctrica",
+    dificultad: "Muy alta",
+    caso: "Varón de 65 años con cardiopatía isquémica y ICD implantado presenta cuatro episodios de TV monomórfica sostenida en seis horas, todos tratados mediante terapias del dispositivo. Está ansioso, con hiperactividad simpática y permanece hemodinámicamente estable entre episodios.",
+    pregunta: "¿Cuál es el concepto que describe mejor el cuadro?",
+    opciones: [
+      "Síndrome de QT largo congénito",
+      "Tormenta eléctrica",
+      "FA permanente",
+      "Bloqueo AV completo",
+      "Síndrome vasovagal"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "La tormenta eléctrica se caracteriza por múltiples episodios de arritmia ventricular sostenida en un periodo corto, clásicamente tres o más episodios en 24 horas que requieren intervención. Es una emergencia arrítmica que requiere identificar precipitantes, optimizar tratamiento, controlar el tono simpático y considerar ablación en casos apropiados.",
+    perlaENARM: "≥3 episodios de TV/FV sostenida en 24 h = tormenta eléctrica.",
+    gpc: {
+      mexico: "No se identifica una GPC mexicana específica vigente para tormenta eléctrica.",
+      internacional: "ESC 2022 Guidelines for Ventricular Arrhythmias and Prevention of Sudden Cardiac Death."
+    },
+    bibliografia: "ESC 2022 Ventricular Arrhythmias Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-248",
+    especialidad: "Cardiología",
+    tema: "Muerte súbita",
+    subtema: "Síndrome de Wolff-Parkinson-White y muerte súbita",
+    dificultad: "Muy alta",
+    caso: "Varón de 25 años presenta síncope durante el ejercicio. El ECG muestra PR corto, onda delta y QRS ensanchado. Tiene antecedente familiar de muerte súbita inexplicada.",
+    pregunta: "¿Cuál es la conducta más apropiada?",
+    opciones: [
+      "Considerar el hallazgo benigno y no realizar seguimiento",
+      "Evaluación especializada para estratificación de riesgo de la vía accesoria y considerar ablación",
+      "Administrar digoxina de manera preventiva",
+      "Administrar verapamilo crónicamente como prevención de muerte súbita",
+      "Indicar anticoagulación como tratamiento definitivo"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "El patrón de preexcitación asociado con síncope y antecedente familiar de muerte súbita requiere evaluación especializada. La estratificación de la vía accesoria y la ablación pueden ser apropiadas dependiendo del riesgo y las características de la vía.",
+    perlaENARM: "WPW + síncope + antecedente familiar de muerte súbita = no asumir que la preexcitación es incidental.",
+    gpc: {
+      mexico: "GPC IMSS-406-10, síndrome de Wolff-Parkinson-White.",
+      internacional: "ESC guidance on supraventricular tachycardia and contemporary ventricular arrhythmia guidance."
+    },
+    bibliografia: "GPC IMSS-406-10; Braunwald's Heart Disease, 12th ed.; ESC arrhythmia guidance."
+  },
+
+  {
+    id: "CARD-249",
+    especialidad: "Cardiología",
+    tema: "Muerte súbita",
+    subtema: "Miocardiopatía hipertrófica y muerte súbita",
+    dificultad: "Muy alta",
+    caso: "Varón de 36 años con miocardiopatía hipertrófica presenta síncope inexplicado. La resonancia cardiaca demuestra fibrosis miocárdica extensa y el Holter registra episodios de taquicardia ventricular no sostenida.",
+    pregunta: "¿Cuál es la prioridad clínica?",
+    opciones: [
+      "Considerar que el síncope es probablemente vasovagal",
+      "Realizar estratificación integral del riesgo de muerte súbita y valorar indicación de ICD",
+      "Indicar únicamente diurético",
+      "Suspender toda actividad cardiológica",
+      "Realizar anticoagulación independientemente del ritmo"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "En la miocardiopatía hipertrófica, síncope inexplicado, taquicardia ventricular no sostenida y fibrosis extensa son elementos relevantes para la estratificación de riesgo de muerte súbita. La decisión de ICD requiere integrar múltiples factores y debe realizarse en un centro con experiencia.",
+    perlaENARM: "HCM + síncope inexplicado + NSVT + fibrosis extensa = alto interés para estratificación de muerte súbita.",
+    gpc: {
+      mexico: "No se identifica una GPC mexicana específica y vigente dedicada a estratificación avanzada de muerte súbita en HCM.",
+      internacional: "ESC 2023 Cardiomyopathies Guidelines; ESC 2022 Ventricular Arrhythmias Guidelines."
+    },
+    bibliografia: "ESC 2023 Cardiomyopathies Guidelines; ESC 2022 Ventricular Arrhythmias Guidelines; Braunwald's Heart Disease, 12th ed."
+  },
+
+  {
+    id: "CARD-250",
+    especialidad: "Cardiología",
+    tema: "Electrocardiografía avanzada",
+    subtema: "Síncope y bloqueo AV paroxístico",
+    dificultad: "Muy alta",
+    caso: "Mujer de 67 años presenta episodios de síncope impredecibles. Tiene bloqueo de rama derecha y hemibloqueo anterior izquierdo. El estudio inicial no demuestra arritmia. Un registrador implantable posteriormente documenta una pausa ventricular de 8 segundos debido a bloqueo AV paroxístico durante uno de los episodios.",
+    pregunta: "¿Cuál es la conducta definitiva más apropiada?",
+    opciones: [
+      "No realizar intervención porque el episodio fue espontáneo",
+      "Implantar marcapasos permanente",
+      "Implantar únicamente un ICD subcutáneo",
+      "Administrar betabloqueador",
+      "Indicar únicamente hidratación"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "El registro directo de un bloqueo AV paroxístico prolongado coincidente con síncope establece una relación causal entre la alteración de conducción y el episodio. En este contexto está indicada la estimulación permanente.",
+    perlaENARM: "Cuando el monitor captura bloqueo AV durante el síncope, se establece el mecanismo y la indicación de pacing deja de ser especulativa.",
+    gpc: {
+      mexico: "GPC IMSS-352-09, bloqueo auriculoventricular.",
+      internacional: "ESC 2021 Pacing and CRT Guidelines; ACC/AHA/HRS 2018 Bradycardia and Conduction Delay Guideline."
+    },
+    bibliografia: "GPC IMSS-352-09; ESC 2021 Pacing and CRT Guidelines; ACC/AHA/HRS 2018."
+  },
+        {
+        id: "CARD-251",
+        especialidad: "Cardiología",
+        tema: "Fisiología coronaria",
+        subtema: "FFR e iFR",
+        dificultad: "Muy alta",
+        caso: "Varón de 64 años con angina de esfuerzo. La angiografía muestra una estenosis de 60% en la arteria descendente anterior media. No existe lesión crítica adicional. Se realiza evaluación fisiológica invasiva.",
+        pregunta: "¿Cuál de los siguientes resultados apoyaría que la lesión es hemodinámicamente significativa y podría justificar revascularización en el contexto clínico adecuado?",
+        opciones: [
+            "FFR de 0.92",
+            "FFR de 0.86",
+            "FFR de 0.81",
+            "FFR de 0.74",
+            "iFR de 0.94"
+        ],
+        respuestaCorrecta: 3,
+        explicacion: "Un FFR ≤0.80 indica una lesión con relevancia fisiológica en el contexto apropiado. Un valor de 0.74 apoya isquemia inducible relacionada con la estenosis.",
+        perlaENARM: "Una estenosis angiográficamente intermedia no debe juzgarse exclusivamente por porcentaje de estrechamiento cuando puede realizarse evaluación fisiológica.",
+        gpc: {
+            mexico: "GPC mexicanas de cardiopatía isquémica/SCA aplicables según contexto clínico.",
+            internacional: "ESC 2024 Chronic Coronary Syndromes; ACC/AHA 2025 ACS cuando corresponda."
+        },
+        bibliografia: "ESC 2024 Chronic Coronary Syndromes; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-252",
+        especialidad: "Cardiología",
+        tema: "Fisiología coronaria",
+        subtema: "iFR",
+        dificultad: "Muy alta",
+        caso: "Mujer de 59 años con angina estable. La angiografía identifica una lesión intermedia de la coronaria derecha. Se realiza iFR, obteniéndose un valor de 0.84.",
+        pregunta: "¿Cuál es la interpretación más adecuada?",
+        opciones: [
+            "La lesión es claramente no significativa",
+            "El resultado demuestra enfermedad microvascular aislada",
+            "El resultado apoya relevancia fisiológica de la lesión",
+            "El resultado confirma vasoespasmo coronario",
+            "El resultado es diagnóstico de MINOCA"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "Un iFR ≤0.89 se considera compatible con una lesión fisiológicamente significativa en el contexto de la evaluación de una estenosis intermedia.",
+        perlaENARM: "FFR e iFR evalúan la repercusión fisiológica de una estenosis; no sustituyen la valoración clínica integral.",
+        gpc: {
+            mexico: "GPC mexicanas de cardiopatía isquémica aplicables al contexto.",
+            internacional: "ESC 2024 Chronic Coronary Syndromes."
+        },
+        bibliografia: "ESC 2024 Chronic Coronary Syndromes; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-253",
+        especialidad: "Cardiología",
+        tema: "Fisiología coronaria",
+        subtema: "Discordancia anatómica-fisiológica",
+        dificultad: "Muy alta",
+        caso: "Varón de 67 años con angina. Se observa una lesión angiográfica de 70% en una arteria coronaria. La evaluación fisiológica muestra FFR de 0.84. No hay datos de síndrome coronario agudo.",
+        pregunta: "¿Cuál es la conducta más apropiada respecto a esa lesión aislada?",
+        opciones: [
+            "Realizar PCI obligatoriamente por ser una estenosis ≥70%",
+            "Realizar CABG independientemente de la anatomía restante",
+            "Considerar que la lesión no demuestra relevancia fisiológica y correlacionar con el contexto clínico",
+            "Administrar fibrinolítico",
+            "Diagnosticar MINOCA"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "Una estenosis anatómicamente importante puede no producir una caída fisiológica significativa. Un FFR de 0.84 está por encima del umbral de 0.80.",
+        perlaENARM: "En lesiones intermedias o discordantes, la fisiología puede evitar revascularización innecesaria.",
+        gpc: {
+            mexico: "GPC mexicanas de cardiopatía isquémica aplicables.",
+            internacional: "ESC 2024 Chronic Coronary Syndromes."
+        },
+        bibliografia: "ESC 2024 Chronic Coronary Syndromes; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-254",
+        especialidad: "Cardiología",
+        tema: "Imagen intravascular",
+        subtema: "IVUS/OCT",
+        dificultad: "Muy alta",
+        caso: "Paciente de 61 años con SCA sometido a PCI. Después de implantar un stent persiste una duda acerca de expansión y aposición adecuada. La angiografía no permite determinar con precisión la causa.",
+        pregunta: "¿Qué estrategia ofrece mayor información para evaluar directamente la expansión y aposición del stent?",
+        opciones: [
+            "Radiografía de tórax",
+            "IVUS u OCT intracoronaria",
+            "Gammagrafía miocárdica",
+            "Prueba de esfuerzo",
+            "Ecocardiograma transtorácico únicamente"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "IVUS y OCT permiten valorar la anatomía intracoronaria y el resultado del implante del stent, incluyendo expansión, aposición y complicaciones relacionadas.",
+        perlaENARM: "La imagen intravascular es especialmente útil cuando la angiografía no explica adecuadamente un resultado subóptimo.",
+        gpc: {
+            mexico: "GPC mexicanas de cardiopatía isquémica aplicables.",
+            internacional: "ACC/AHA/ACEP/NAEMSP/SCAI 2025 ACS Guideline."
+        },
+        bibliografia: "ACC/AHA 2025 ACS Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-255",
+        especialidad: "Cardiología",
+        tema: "Intervencionismo coronario",
+        subtema: "Complicaciones de PCI",
+        dificultad: "Muy alta",
+        caso: "Durante una PCI de la descendente anterior aparece dolor torácico súbito, hipotensión y deterioro inmediato del flujo coronario. La angiografía muestra extravasación de contraste desde la arteria tratada.",
+        pregunta: "¿Cuál es la complicación más probable?",
+        opciones: [
+            "No-reflow por microembolización exclusivamente",
+            "Perforación coronaria",
+            "Espasmo esofágico",
+            "Disección aórtica crónica",
+            "Pericarditis viral"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La extravasación de contraste durante PCI es característica de perforación coronaria. Puede producir hemopericardio y taponamiento cardiaco.",
+        perlaENARM: "Tras PCI, hipotensión súbita + extravasación coronaria = pensar inmediatamente en perforación y buscar taponamiento.",
+        gpc: {
+            mexico: "GPC mexicanas de cardiopatía isquémica aplicables.",
+            internacional: "ACC/AHA 2025 ACS Guideline."
+        },
+        bibliografia: "ACC/AHA 2025 ACS Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-256",
+        especialidad: "Cardiología",
+        tema: "Intervencionismo coronario",
+        subtema: "No-reflow",
+        dificultad: "Muy alta",
+        caso: "Paciente con IAMCEST es sometido a PCI primaria. Después de abrir la arteria epicárdica responsable, el flujo distal permanece marcadamente reducido pese a que no existe una obstrucción mecánica evidente del vaso epicárdico.",
+        pregunta: "¿Cuál es el fenómeno más probable?",
+        opciones: [
+            "No-reflow",
+            "Síndrome de Brugada",
+            "Disección tipo A",
+            "Pericarditis constrictiva",
+            "Trombosis venosa profunda"
+        ],
+        respuestaCorrecta: 0,
+        explicacion: "El fenómeno de no-reflow corresponde a alteración de la perfusión microvascular pese a restauración del flujo epicárdico, frecuente en el contexto de reperfusión de un IAM.",
+        perlaENARM: "Abrir la arteria epicárdica no garantiza la reperfusión microvascular efectiva.",
+        gpc: {
+            mexico: "GPC mexicanas de IAM aplicables.",
+            internacional: "ACC/AHA 2025 ACS Guideline."
+        },
+        bibliografia: "ACC/AHA 2025 ACS Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-257",
+        especialidad: "Cardiología",
+        tema: "MINOCA",
+        subtema: "Diagnóstico diferencial",
+        dificultad: "Muy alta",
+        caso: "Mujer de 48 años presenta dolor torácico, elevación dinámica de troponina y cambios isquémicos en el ECG. La angiografía no muestra una estenosis coronaria obstructiva. El ecocardiograma demuestra alteración segmentaria de la movilidad.",
+        pregunta: "¿Cuál es el siguiente estudio con mayor utilidad para esclarecer la etiología del cuadro cuando persiste la sospecha de MINOCA?",
+        opciones: [
+            "Colonoscopia",
+            "Resonancia magnética cardiaca",
+            "Radiografía de manos",
+            "Espirometría",
+            "Holter de 24 horas como único estudio"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La resonancia magnética cardiaca permite diferenciar infarto, miocarditis, Takotsubo y otras causas de lesión miocárdica en pacientes con sospecha de MINOCA.",
+        perlaENARM: "MINOCA es un diagnóstico de trabajo, no una etiología final: hay que identificar el mecanismo.",
+        gpc: {
+            mexico: "GPC mexicanas de SCA aplicables.",
+            internacional: "ESC 2023 ACS Guideline; ACC/AHA 2025 ACS Guideline."
+        },
+        bibliografia: "ESC 2023 ACS; ACC/AHA 2025 ACS; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-258",
+        especialidad: "Cardiología",
+        tema: "MINOCA",
+        subtema: "Miocarditis vs infarto",
+        dificultad: "Muy alta",
+        caso: "Paciente con troponina elevada y angiografía sin lesiones obstructivas. La resonancia cardiaca muestra realce tardío subepicárdico e inferolateral, asociado a edema miocárdico.",
+        pregunta: "¿Qué diagnóstico explica mejor este patrón?",
+        opciones: [
+            "Infarto subendocárdico por aterotrombosis",
+            "Miocarditis",
+            "Amiloidosis cardiaca exclusivamente",
+            "Estenosis aórtica",
+            "Pericarditis constrictiva"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "El realce subepicárdico o mesomiocárdico con edema favorece un patrón inflamatorio no isquémico, típico de miocarditis.",
+        perlaENARM: "Patrón isquémico: subendocárdico/transmural siguiendo un territorio vascular. Patrón no isquémico: subepicárdico o mesomiocárdico.",
+        gpc: {
+            mexico: "GPC mexicanas aplicables según etiología.",
+            internacional: "ESC 2025 Myocarditis and Pericarditis."
+        },
+        bibliografia: "ESC 2025 Myocarditis and Pericarditis; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-259",
+        especialidad: "Cardiología",
+        tema: "MINOCA",
+        subtema: "Takotsubo",
+        dificultad: "Muy alta",
+        caso: "Mujer de 67 años desarrolla dolor torácico después de un evento emocional intenso. Presenta elevación moderada de troponina y cambios electrocardiográficos. La angiografía no muestra obstrucción coronaria significativa. El ecocardiograma demuestra acinesia apical con hipercontractilidad basal.",
+        pregunta: "¿Cuál es el diagnóstico más probable?",
+        opciones: [
+            "Takotsubo",
+            "IAM inferior por oclusión de coronaria derecha",
+            "Miocarditis bacteriana",
+            "Pericarditis constrictiva",
+            "Estenosis mitral crítica"
+        ],
+        respuestaCorrecta: 0,
+        explicacion: "La disfunción ventricular apical característica, ausencia de enfermedad coronaria obstructiva y desencadenante emocional favorecen síndrome de Takotsubo.",
+        perlaENARM: "Takotsubo puede simular un SCA y formar parte del diagnóstico diferencial de MINOCA.",
+        gpc: {
+            mexico: "GPC mexicanas de SCA aplicables al abordaje inicial.",
+            internacional: "ESC 2023 ACS; literatura contemporánea sobre Takotsubo."
+        },
+        bibliografia: "ESC 2023 ACS; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-260",
+        especialidad: "Cardiología",
+        tema: "Disección coronaria espontánea",
+        subtema: "SCAD",
+        dificultad: "Muy alta",
+        caso: "Mujer de 36 años, sin factores de riesgo cardiovascular importantes, presenta SCA. La angiografía muestra una lesión larga y estrechamiento difuso de una arteria coronaria, sin una placa aterosclerótica típica.",
+        pregunta: "¿Qué diagnóstico debe considerarse especialmente?",
+        opciones: [
+            "Disección coronaria espontánea",
+            "Estenosis aórtica",
+            "Endocarditis tricuspídea",
+            "Miocardiopatía hipertrófica obstructiva",
+            "Taponamiento cardiaco"
+        ],
+        respuestaCorrecta: 0,
+        explicacion: "SCAD debe considerarse en mujeres jóvenes con SCA, especialmente cuando la angiografía muestra estrechamientos largos, difusos o patrones angiográficos atípicos para aterosclerosis.",
+        perlaENARM: "En SCAD, la intervención coronaria no debe realizarse automáticamente; la estrategia depende de estabilidad, flujo coronario y anatomía.",
+        gpc: {
+            mexico: "GPC mexicanas de SCA aplicables al diagnóstico inicial.",
+            internacional: "ACC/AHA 2025 ACS Guideline y literatura especializada sobre SCAD."
+        },
+        bibliografia: "ACC/AHA 2025 ACS Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-261",
+        especialidad: "Cardiología",
+        tema: "Disección coronaria espontánea",
+        subtema: "SCAD y tratamiento",
+        dificultad: "Muy alta",
+        caso: "Mujer de 42 años con SCAD confirmado presenta flujo coronario conservado, estabilidad hemodinámica, dolor en resolución y ausencia de isquemia persistente. No existe una lesión proximal de alto riesgo.",
+        pregunta: "¿Cuál es la estrategia generalmente preferida?",
+        opciones: [
+            "PCI inmediata de toda la disección",
+            "CABG urgente en todos los casos",
+            "Manejo conservador con vigilancia estrecha",
+            "Fibrinólisis obligatoria",
+            "Ablación por radiofrecuencia"
+        ],
+        respuestaCorrecta: 2,
+        explicacion: "En pacientes estables con SCAD y flujo coronario conservado, el manejo conservador suele preferirse debido a la posibilidad de cicatrización espontánea y a las dificultades técnicas de la PCI.",
+        perlaENARM: "SCAD estable no equivale automáticamente a indicación de PCI.",
+        gpc: {
+            mexico: "GPC mexicanas de SCA aplicables al contexto.",
+            internacional: "Literatura contemporánea sobre SCAD; ACC/AHA 2025 ACS Guideline."
+        },
+        bibliografia: "ACC/AHA 2025 ACS; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-262",
+        especialidad: "Cardiología",
+        tema: "Cateterismo cardiaco",
+        subtema: "Hemodinámica",
+        dificultad: "Muy alta",
+        caso: "Paciente con disnea progresiva presenta cateterismo derecho con presión arterial pulmonar media de 32 mmHg, presión de enclavamiento pulmonar de 10 mmHg y resistencia vascular pulmonar de 4.5 UW.",
+        pregunta: "¿Cómo se clasifica hemodinámicamente este patrón?",
+        opciones: [
+            "Hipertensión pulmonar exclusivamente poscapilar",
+            "Hipertensión pulmonar precapilar",
+            "Hipertensión pulmonar aislada por volumen",
+            "Hipertensión venosa pulmonar sin aumento de RVP",
+            "Hemodinámica normal"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La hipertensión pulmonar precapilar se caracteriza por mPAP >20 mmHg, PAWP ≤15 mmHg y PVR >2 UW.",
+        perlaENARM: "PAWP separa, de forma fundamental, los fenotipos precapilar y poscapilar.",
+        gpc: {
+            mexico: "GPC mexicanas de hipertensión pulmonar aplicables.",
+            internacional: "ESC/ERS 2022 Pulmonary Hypertension."
+        },
+        bibliografia: "ESC/ERS 2022 Pulmonary Hypertension; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-263",
+        especialidad: "Cardiología",
+        tema: "Cateterismo cardiaco",
+        subtema: "Hipertensión pulmonar poscapilar",
+        dificultad: "Muy alta",
+        caso: "Mujer de 74 años con HFpEF presenta disnea. Cateterismo derecho: mPAP 34 mmHg, PAWP 22 mmHg y PVR 1.7 UW.",
+        pregunta: "¿Cuál es la interpretación más adecuada?",
+        opciones: [
+            "Hipertensión pulmonar precapilar",
+            "Hipertensión pulmonar aislada poscapilar",
+            "Hipertensión arterial pulmonar idiopática",
+            "Hipertensión pulmonar tromboembólica crónica confirmada",
+            "Hemodinámica normal"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La PAWP elevada indica transmisión retrógrada de las presiones izquierdas. Con PVR ≤2 UW, el patrón corresponde a hipertensión pulmonar aislada poscapilar.",
+        perlaENARM: "HFpEF es una causa frecuente de hipertensión pulmonar poscapilar.",
+        gpc: {
+            mexico: "GPC mexicanas de insuficiencia cardiaca/hipertensión pulmonar aplicables.",
+            internacional: "ESC/ERS 2022 Pulmonary Hypertension."
+        },
+        bibliografia: "ESC/ERS 2022 Pulmonary Hypertension; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-264",
+        especialidad: "Cardiología",
+        tema: "Cateterismo cardiaco",
+        subtema: "Shunts intracardiacos",
+        dificultad: "Muy alta",
+        caso: "Paciente adulto con disnea y sospecha de comunicación interauricular es sometido a cateterismo. Se detecta un aumento significativo de la saturación de oxígeno al pasar de vena cava a aurícula derecha.",
+        pregunta: "¿Qué hallazgo representa principalmente?",
+        opciones: [
+            "Shunt de derecha a izquierda",
+            "Shunt de izquierda a derecha a nivel auricular",
+            "Hipoxemia por enfermedad pulmonar exclusivamente",
+            "Cortocircuito intrapulmonar",
+            "Regurgitación aórtica"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "Un salto de saturación de oxígeno entre las venas cavas y la aurícula derecha sugiere paso de sangre oxigenada hacia las cavidades derechas, compatible con un shunt de izquierda a derecha a nivel auricular.",
+        perlaENARM: "Los 'oxygen saturation step-ups' ayudan a localizar cortocircuitos intracardiacos.",
+        gpc: {
+            mexico: "GPC mexicanas de cardiopatías congénitas.",
+            internacional: "Guías internacionales de cardiopatía congénita del adulto."
+        },
+        bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+    },
+
+    {
+        id: "CARD-265",
+        especialidad: "Cardiología",
+        tema: "Síndrome coronario agudo",
+        subtema: "Trombosis de stent",
+        dificultad: "Muy alta",
+        caso: "Varón de 58 años con antecedente de PCI con stent hace 10 días presenta dolor torácico intenso, elevación del ST y colapso hemodinámico. La angiografía demuestra oclusión trombótica del stent previamente implantado.",
+        pregunta: "¿Cuál es el diagnóstico?",
+        opciones: [
+            "Trombosis aguda del stent",
+            "Reestenosis intrastent tardía",
+            "Miocarditis",
+            "Pericarditis",
+            "Takotsubo"
+        ],
+        respuestaCorrecta: 0,
+        explicacion: "La trombosis de stent puede presentarse como SCA, incluso con IAMCEST. La proximidad temporal al implante y la demostración angiográfica confirman el diagnóstico.",
+        perlaENARM: "La suspensión prematura de antiagregantes es un factor de riesgo importante para trombosis del stent.",
+        gpc: {
+            mexico: "GPC mexicanas de SCA/PCI aplicables.",
+            internacional: "ACC/AHA 2025 ACS Guideline."
+        },
+        bibliografia: "ACC/AHA 2025 ACS Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-266",
+        especialidad: "Cardiología",
+        tema: "Intervencionismo coronario",
+        subtema: "Disección coronaria iatrogénica",
+        dificultad: "Muy alta",
+        caso: "Durante un cateterismo coronario se observa una nueva imagen lineal radiolúcida que se extiende desde el sitio de manipulación del catéter hacia el tronco coronario izquierdo, acompañada de deterioro del flujo.",
+        pregunta: "¿Cuál es la complicación más probable?",
+        opciones: [
+            "Disección coronaria iatrogénica",
+            "Miocarditis",
+            "Endocarditis",
+            "Embolia pulmonar",
+            "Takotsubo"
+        ],
+        respuestaCorrecta: 0,
+        explicacion: "La instrumentación coronaria puede producir disección iatrogénica, especialmente en ostios y segmentos proximales, con riesgo de compromiso del flujo y extensión.",
+        perlaENARM: "Una nueva alteración angiográfica inmediatamente después de la manipulación del catéter debe hacer pensar en complicación iatrogénica.",
+        gpc: {
+            mexico: "GPC mexicanas de cardiopatía isquémica aplicables.",
+            internacional: "ACC/AHA 2025 ACS Guideline."
+        },
+        bibliografia: "ACC/AHA 2025 ACS Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-267",
+        especialidad: "Cardiología",
+        tema: "Síndrome coronario agudo",
+        subtema: "Acceso radial",
+        dificultad: "Alta",
+        caso: "Paciente con IAMCEST requiere PCI primaria. No existen contraindicaciones para el acceso radial.",
+        pregunta: "¿Cuál es el acceso vascular preferido actualmente para PCI en SCA cuando es técnicamente factible?",
+        opciones: [
+            "Radial",
+            "Femoral siempre",
+            "Carótida",
+            "Subclavio exclusivamente",
+            "Yugular interna"
+        ],
+        respuestaCorrecta: 0,
+        explicacion: "La vía radial es preferida frente a la femoral en PCI por SCA cuando es factible, debido a menor sangrado y menor incidencia de complicaciones vasculares.",
+        perlaENARM: "En SCA sometido a PCI, radial es la estrategia de acceso preferida si no existe contraindicación.",
+        gpc: {
+            mexico: "GPC mexicanas de SCA aplicables.",
+            internacional: "ACC/AHA/ACEP/NAEMSP/SCAI 2025 ACS Guideline."
+        },
+        bibliografia: "ACC/AHA 2025 ACS Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-268",
+        especialidad: "Cardiología",
+        tema: "Síndrome coronario agudo",
+        subtema: "Revascularización completa",
+        dificultad: "Muy alta",
+        caso: "Paciente con IAMCEST es sometido a PCI primaria de la arteria responsable. Se identifican posteriormente otras lesiones coronarias significativas. El paciente está hemodinámicamente estable y sin choque cardiogénico.",
+        pregunta: "¿Cuál es el principio contemporáneo respecto a la enfermedad multivaso?",
+        opciones: [
+            "Nunca debe tratarse una lesión no culpable",
+            "La revascularización completa puede estar indicada según anatomía y contexto clínico",
+            "Siempre debe realizarse CABG inmediatamente",
+            "Debe administrarse fibrinólisis adicional",
+            "Las lesiones no culpables no tienen relevancia pronóstica"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La estrategia contemporánea favorece la revascularización completa en pacientes seleccionados con SCA y enfermedad multivaso, individualizando el momento y la modalidad según anatomía y estabilidad.",
+        perlaENARM: "En choque cardiogénico asociado a IAM, la estrategia inicial sobre lesiones no culpables es diferente y suele favorecer tratar inicialmente la arteria culpable.",
+        gpc: {
+            mexico: "GPC mexicanas de IAM aplicables.",
+            internacional: "ACC/AHA 2025 ACS Guideline."
+        },
+        bibliografia: "ACC/AHA 2025 ACS Guideline; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-269",
+        especialidad: "Cardiología",
+        tema: "Cardiopatía isquémica",
+        subtema: "ANOCA/INOCA",
+        dificultad: "Muy alta",
+        caso: "Mujer de 55 años presenta angina recurrente. La angiografía muestra arterias coronarias sin obstrucciones significativas. Persiste una fuerte sospecha de enfermedad coronaria funcional.",
+        pregunta: "¿Qué estrategia diagnóstica puede establecer el mecanismo de ANOCA/INOCA cuando los síntomas persisten?",
+        opciones: [
+            "No realizar ninguna evaluación adicional",
+            "Pruebas de función coronaria invasiva",
+            "Biopsia hepática",
+            "Electroencefalograma",
+            "Colonoscopia"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "La evaluación funcional coronaria invasiva puede identificar vasoespasmo epicárdico o disfunción microvascular en pacientes seleccionados con ANOCA/INOCA.",
+        perlaENARM: "Una coronariografía no obstructiva no significa ausencia de enfermedad coronaria funcional.",
+        gpc: {
+            mexico: "GPC mexicanas de cardiopatía isquémica aplicables.",
+            internacional: "ESC 2024 Chronic Coronary Syndromes."
+        },
+        bibliografia: "ESC 2024 Chronic Coronary Syndromes; Braunwald's Heart Disease."
+    },
+
+    {
+        id: "CARD-270",
+        especialidad: "Cardiología",
+        tema: "Cardiología integrativa",
+        subtema: "Caso ENARM de alta dificultad",
+        dificultad: "Extrema",
+        caso: "Varón de 63 años con diabetes y dislipidemia presenta angina de esfuerzo progresiva. La CCTA muestra una lesión de 60% en la descendente anterior. Se realiza angiografía invasiva por persistencia de síntomas. La lesión continúa estimándose en 60%. El FFR es 0.78. No existen otras lesiones relevantes y el paciente tiene tratamiento médico óptimo.",
+        pregunta: "¿Cuál es la interpretación y conducta más adecuada?",
+        opciones: [
+            "La lesión debe ignorarse porque angiográficamente es menor de 70%",
+            "El FFR demuestra relevancia fisiológica; debe discutirse revascularización junto con tratamiento médico óptimo",
+            "El FFR de 0.78 demuestra exclusivamente enfermedad microvascular",
+            "Debe realizarse fibrinólisis",
+            "Debe diagnosticarse MINOCA"
+        ],
+        respuestaCorrecta: 1,
+        explicacion: "Una lesión angiográficamente intermedia con FFR de 0.78 presenta evidencia de relevancia fisiológica. En un paciente sintomático pese a tratamiento médico óptimo, la decisión de revascularización debe discutirse integrando anatomía, síntomas, isquemia, preferencias y Heart Team cuando corresponda.",
+        perlaENARM: "El porcentaje angiográfico y la repercusión fisiológica no siempre coinciden. En lesiones intermedias, FFR/iFR puede cambiar la decisión de revascularización.",
+        gpc: {
+            mexico: "GPC mexicanas de cardiopatía isquémica aplicables.",
+            internacional: "ESC 2024 Chronic Coronary Syndromes."
+        },
+        bibliografia: "ESC 2024 Chronic Coronary Syndromes; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+    }
 ];
 
 window.BANCO_CARDIOLOGIA = BANCO_CARDIOLOGIA;
