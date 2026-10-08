@@ -9297,7 +9297,2341 @@ const BANCO_CARDIOLOGIA = [
             internacional: "2026 ESC Guidelines for Heart Failure; 2026 Second Universal Definition of Heart Failure; 2026 ACC HFpEF ECDP cuando el fenotipo sea HFpEF."
         },
         bibliografia: "2026 ESC Guidelines for Heart Failure; 2026 Second Universal Definition of Heart Failure; 2026 ACC HFpEF ECDP; Braunwald's Heart Disease."
-    }
+    },
+    {
+    id: "CARD-361",
+    especialidad: "Cardiología",
+    tema: "Hipertensión arterial",
+    subtema: "Hipertensión resistente versus pseudorresistencia",
+    dificultad: "Extrema",
+    caso: `Varón de 58 años con antecedente de hipertensión arterial de 12 años de evolución, obesidad grado I y apnea obstructiva del sueño tratada de forma irregular con CPAP, es enviado a consulta de cardiología por cifras persistentemente elevadas. Durante los últimos 8 meses ha recibido losartán 100 mg cada 24 horas, amlodipino 10 mg cada 24 horas y clortalidona 25 mg cada 24 horas. Su médico considera que presenta hipertensión resistente porque en las últimas cuatro consultas las cifras fueron 168/94, 172/96, 164/92 y 170/90 mmHg.
+
+El paciente asegura tomar sus medicamentos diariamente, aunque reconoce que algunos días omite el antihipertensivo cuando trabaja en turno nocturno. Su esposa refiere que ronca intensamente y que en ocasiones deja de respirar durante el sueño. Consume aproximadamente 3 a 4 g de sodio al día, además de alimentos ultraprocesados. Niega consumo de cocaína o anfetaminas. Utiliza ibuprofeno 600 mg dos o tres veces por semana por dolor lumbar.
+
+En la consulta especializada se utiliza un manguito apropiado para su circunferencia braquial. Después de permanecer sentado 5 minutos, se realizan tres mediciones separadas por un minuto. Las cifras son 166/94, 162/92 y 160/90 mmHg. Sin embargo, una monitorización ambulatoria de presión arterial de 24 horas demuestra promedio diurno de 128/76 mmHg, promedio nocturno de 116/65 mmHg y promedio de 24 horas de 124/72 mmHg. No existen elevaciones significativas durante el trabajo.
+
+Creatinina 0.9 mg/dL, potasio 4.2 mmol/L, sodio 140 mmol/L, bicarbonato 26 mmol/L, glucosa 104 mg/dL y EGO sin proteinuria. ECG: hipertrofia ventricular izquierda por criterios de voltaje, sin cambios isquémicos agudos.
+
+El paciente pregunta si debe recibir un cuarto antihipertensivo de inmediato.`,
+    pregunta: "¿Cuál es la interpretación y conducta más apropiada?",
+    opciones: [
+        "Confirmar hipertensión resistente verdadera y agregar espironolactona 25 mg al día",
+        "Diagnosticar hipertensión resistente verdadera y solicitar cateterismo de arterias renales",
+        "Considerar pseudorresistencia por efecto de bata blanca y no intensificar automáticamente el tratamiento antihipertensivo",
+        "Suspender el amlodipino porque la hipertensión nocturna se encuentra controlada",
+        "Iniciar clonidina porque la discrepancia entre presión de consultorio y MAPA indica hiperactividad simpática"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. Antes de etiquetar a un paciente como portador de hipertensión resistente es indispensable excluir pseudorresistencia. En este caso existe una discrepancia marcada entre las cifras de consultorio y la monitorización ambulatoria de 24 horas, que muestra presión arterial promedio claramente por debajo del objetivo terapéutico.
+
+El caso además contiene varios factores que pueden producir una aparente resistencia: adherencia imperfecta, uso de AINE, obesidad, consumo elevado de sodio y apnea obstructiva del sueño. La presencia de tres antihipertensivos a dosis adecuadas no convierte automáticamente al paciente en portador de hipertensión resistente verdadera si no se ha demostrado presión arterial no controlada fuera del consultorio.
+
+La hipertensión resistente verdadera requiere presión arterial por encima del objetivo pese a un régimen apropiado que incluya tres fármacos con mecanismos complementarios, uno de ellos diurético, a dosis máximamente toleradas, o presión controlada pero con necesidad de cuatro o más fármacos. La confirmación mediante medición fuera del consultorio es fundamental para distinguir resistencia verdadera de efecto de bata blanca.
+
+Agregar espironolactona sin resolver primero la discrepancia podría producir hipotensión innecesaria y no aborda las causas de la pseudorresistencia. Tampoco existe indicación para iniciar estudios invasivos de hipertensión renovascular con los datos disponibles.`,
+    perlaENARM: `Antes de llamar resistente a una hipertensión, demuestra que la presión realmente está elevada fuera del consultorio. MAPA o AMPA son fundamentales para excluir efecto de bata blanca, y siempre deben revisarse técnica de medición, adherencia, sustancias que elevan la presión y causas secundarias.`,
+    gpc: {
+        mexico: "GPC-IMSS-076-21, Promoción, Prevención, Diagnóstico y Tratamiento de la Hipertensión Arterial en el Primer Nivel de Atención; GPC-SS-155-20 para el abordaje de crisis hipertensivas cuando exista daño agudo de órgano blanco.",
+        internacional: "2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for High Blood Pressure; 2026 ACC Expert Consensus Decision Pathway on Optimizing Blood Pressure Care in Resistant Hypertension; 2024 ESC Guidelines for Elevated Blood Pressure and Hypertension."
+    },
+    bibliografia: "2025 AHA/ACC High Blood Pressure Guideline; 2026 ACC Expert Consensus Decision Pathway on Resistant Hypertension; 2024 ESC Hypertension Guideline; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-362",
+    especialidad: "Cardiología",
+    tema: "Hipertensión arterial",
+    subtema: "Tratamiento farmacológico de hipertensión resistente",
+    dificultad: "Extrema",
+    caso: `Mujer de 67 años con hipertensión arterial de 18 años de evolución, diabetes mellitus tipo 2 y enfermedad renal crónica G3a consulta por persistencia de cifras de presión arterial elevadas. La paciente utiliza actualmente enalapril 20 mg cada 12 horas, amlodipino 10 mg cada 24 horas y clortalidona 25 mg cada 24 horas. Refiere adherencia completa y la farmacia confirma dispensación regular de los medicamentos.
+
+Se obtiene una monitorización ambulatoria de presión arterial con promedio de 24 horas de 148/86 mmHg, promedio diurno de 152/88 mmHg y nocturno de 140/80 mmHg. Las mediciones domiciliarias durante 2 semanas muestran cifras similares.
+
+IMC 32 kg/m². PA en consulta 154/88 mmHg. FC 72 lpm. No hay soplos abdominales. No presenta edema significativo. Creatinina 1.35 mg/dL, TFGe 48 mL/min/1.73 m², sodio 139 mmol/L, potasio 4.1 mmol/L, bicarbonato 26 mmol/L, ácido úrico 6.9 mg/dL. No utiliza AINE ni descongestionantes.
+
+Se revisa la técnica de medición, se confirma adherencia y se descarta hipertensión de bata blanca. Se decide realizar estudio de hipertensión secundaria, incluyendo aldosterona y renina, y mientras tanto se requiere intensificar el tratamiento.
+
+¿Cuál es la intervención farmacológica más apropiada como siguiente paso para controlar la presión arterial?`,
+    pregunta: "¿Cuál es la mejor estrategia farmacológica?",
+    opciones: [
+        "Agregar clonidina como cuarto fármaco de elección",
+        "Agregar espironolactona como antagonista del receptor mineralocorticoide, con vigilancia estrecha de potasio y función renal",
+        "Suspender clortalidona e iniciar furosemida independientemente de la función renal",
+        "Agregar propranolol como cuarto fármaco independientemente de la frecuencia cardiaca",
+        "Agregar hidralazina como primera estrategia para hipertensión resistente"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. Una vez confirmada la hipertensión resistente verdadera, después de optimizar un inhibidor del sistema renina-angiotensina, un calcioantagonista dihidropiridínico de acción prolongada y un diurético apropiado, un antagonista del receptor mineralocorticoide constituye una estrategia farmacológica de gran importancia, particularmente cuando existe sospecha de hiperaldosteronismo primario.
+
+La espironolactona suele iniciarse a dosis bajas, por ejemplo 12.5 a 25 mg al día, con posterior titulación según respuesta y tolerabilidad. En pacientes con enfermedad renal crónica debe vigilarse especialmente el potasio y la función renal. Eplerenona constituye una alternativa cuando existen efectos adversos endocrinos relacionados con espironolactona.
+
+La clonidina, hidralazina y otros fármacos de acción central o vasodilatadores directos pueden utilizarse en situaciones seleccionadas, pero no constituyen la opción farmacológica preferida inmediatamente después de la triple terapia estándar.
+
+El caso también obliga a investigar hipertensión secundaria. La guía AHA/ACC 2025 recomienda realizar cribado para hiperaldosteronismo primario en pacientes con hipertensión resistente incluso en ausencia de hipopotasemia. Por ello, el hecho de que el potasio sea normal no descarta el diagnóstico.`,
+    perlaENARM: `Hipertensión resistente confirmada = piensa en hiperaldosteronismo primario y en antagonista mineralocorticoide. La hipopotasemia NO es requisito para sospechar hiperaldosteronismo.`,
+    gpc: {
+        mexico: "GPC-IMSS-076-21, Promoción, Prevención, Diagnóstico y Tratamiento de la Hipertensión Arterial en el Primer Nivel de Atención.",
+        internacional: "2025 AHA/ACC High Blood Pressure Guideline; 2026 ACC Expert Consensus Decision Pathway on Resistant Hypertension; 2024 ESC Guidelines for Elevated Blood Pressure and Hypertension."
+    },
+    bibliografia: "2025 AHA/ACC High Blood Pressure Guideline; 2026 ACC Resistant Hypertension Expert Consensus; 2024 ESC Hypertension Guideline; PATHWAY-2 trial; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-363",
+    especialidad: "Cardiología",
+    tema: "Hipertensión secundaria",
+    subtema: "Hiperaldosteronismo primario",
+    dificultad: "Extrema",
+    caso: `Varón de 46 años es enviado a cardiología por hipertensión difícil de controlar. Desde los 38 años ha requerido tratamiento antihipertensivo. Actualmente utiliza valsartán 320 mg al día, amlodipino 10 mg al día y clortalidona 25 mg al día. A pesar de ello, la presión arterial domiciliaria se mantiene entre 155 y 165 mmHg de sistólica.
+
+Ha presentado dos episodios de fibrilación auricular paroxística durante los últimos 18 meses. No tiene enfermedad renal establecida. Niega consumo de cocaína, anfetaminas y AINE. Refiere debilidad muscular ocasional y poliuria, pero no ha tenido parálisis.
+
+Laboratorio: sodio 143 mmol/L, potasio 3.1 mmol/L, bicarbonato 31 mmol/L, creatinina 0.8 mg/dL, TFGe >90 mL/min/1.73 m². ECG con ondas U discretas y signos de hipertrofia ventricular izquierda.
+
+Después de corregir el potasio, se obtiene aldosterona plasmática de 24 ng/dL y actividad de renina plasmática de 0.4 ng/mL/h. La relación aldosterona/renina es marcadamente elevada. El paciente pregunta si la hipopotasemia es suficiente para establecer el diagnóstico o si requiere otra estrategia diagnóstica.
+
+¿Cuál es el siguiente paso más apropiado?`,
+    pregunta: "¿Cuál es la estrategia diagnóstica y terapéutica más apropiada?",
+    opciones: [
+        "Descartar hiperaldosteronismo porque la hipopotasemia puede explicarse por la clortalidona",
+        "Solicitar exclusivamente una resonancia magnética suprarrenal y decidir cirugía según el tamaño de la lesión",
+        "Considerar positivo el cribado, confirmar hiperaldosteronismo cuando sea necesario y posteriormente realizar imagen suprarrenal y evaluación de lateralización con muestreo venoso suprarrenal si se plantea tratamiento quirúrgico",
+        "Suspender definitivamente todos los antihipertensivos durante 4 semanas antes de repetir el estudio",
+        "Realizar únicamente una prueba de supresión con dexametasona"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. Este paciente presenta un fenotipo altamente sugestivo de hiperaldosteronismo primario: hipertensión resistente, hipopotasemia, alcalosis metabólica, renina suprimida y aldosterona inapropiadamente elevada. La fibrilación auricular y la hipertrofia ventricular izquierda también son compatibles con el daño cardiovascular asociado al exceso de aldosterona.
+
+La relación aldosterona/renina es una prueba de cribado y no debe interpretarse de forma aislada. La concentración absoluta de aldosterona y el grado de supresión de renina son importantes. De acuerdo con la guía AHA/ACC 2025, el cribado debe realizarse especialmente en hipertensión resistente, hipopotasemia, apnea obstructiva del sueño, masa suprarrenal incidental y determinados antecedentes familiares.
+
+Una vez establecido el diagnóstico bioquímico, la tomografía suprarrenal ayuda a identificar anatomía y excluir una lesión sospechosa de malignidad, pero la presencia de un adenoma en la tomografía no demuestra por sí misma lateralización funcional. Cuando el paciente es candidato a cirugía, el muestreo venoso suprarrenal suele ser necesario para distinguir secreción unilateral de enfermedad bilateral, con excepciones clínicas muy seleccionadas.
+
+No es necesario suspender todos los antihipertensivos de manera indiscriminada antes del cribado. La guía 2025 señala que, para el cribado inicial, la mayoría de los antihipertensivos puede continuarse; los antagonistas del receptor mineralocorticoide son particularmente relevantes como medicamentos que interfieren con la interpretación.`,
+    perlaENARM: `ARR elevada = cribado, no diagnóstico anatómico. En hiperaldosteronismo primario, la imagen suprarrenal localiza anatomía; el muestreo venoso suprarrenal determina lateralización funcional cuando se considera cirugía.`,
+    gpc: {
+        mexico: "GPC-IMSS-076-21 para hipertensión arterial; la GPC mexicana específica de crisis hipertensivas no sustituye el abordaje endocrinológico de hiperaldosteronismo.",
+        internacional: "2025 AHA/ACC High Blood Pressure Guideline; 2024 ESC Guidelines for Elevated Blood Pressure and Hypertension."
+    },
+    bibliografia: "2025 AHA/ACC High Blood Pressure Guideline; Endocrine Society guidance on Primary Aldosteronism; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-364",
+    especialidad: "Cardiología",
+    tema: "Hipertensión secundaria",
+    subtema: "Interpretación de aldosterona/renina y efecto de medicamentos",
+    dificultad: "Extrema",
+    caso: `Mujer de 55 años con hipertensión arterial de difícil control es enviada por sospecha de hiperaldosteronismo. Recibe telmisartán 80 mg cada 24 horas, amlodipino 10 mg cada 24 horas y carvedilol 25 mg cada 12 horas por antecedente de taquicardia supraventricular. No utiliza antagonistas del receptor mineralocorticoide.
+
+La presión arterial domiciliaria promedio durante 14 días es 151/88 mmHg. Potasio 4.3 mmol/L, sodio 140 mmol/L, bicarbonato 25 mmol/L, creatinina 0.9 mg/dL. No tiene hipopotasemia.
+
+El médico obtiene aldosterona plasmática de 18 ng/dL y actividad de renina plasmática de 0.2 ng/mL/h, con una relación aldosterona/renina de 90. La muestra fue obtenida por la mañana después de que la paciente permaneció sentada durante más de 30 minutos. La paciente había mantenido una ingesta habitual de sal.
+
+El médico considera que el resultado demuestra de manera definitiva un adenoma productor de aldosterona y solicita directamente adrenalectomía.`,
+    pregunta: "¿Cuál es la interpretación más apropiada de este resultado?",
+    opciones: [
+        "El resultado demuestra definitivamente un adenoma unilateral productor de aldosterona",
+        "El resultado excluye hiperaldosteronismo porque el potasio es normal",
+        "El resultado es compatible con cribado positivo, pero debe interpretarse considerando el efecto del carvedilol sobre la renina y, si es necesario, confirmarse con estudios posteriores antes de determinar lateralización",
+        "Debe suspenderse inmediatamente telmisartán y repetir la prueba después de 24 horas",
+        "Debe realizarse una prueba de supresión con dexametasona como siguiente estudio obligatorio"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. La relación aldosterona/renina está elevada y existe aldosterona plasmática de 18 ng/dL con renina marcadamente suprimida, por lo que el resultado es compatible con un cribado positivo. Sin embargo, la interpretación no debe convertirse directamente en un diagnóstico anatómico de adenoma unilateral.
+
+El carvedilol puede suprimir la actividad de renina y, por tanto, elevar artificialmente la relación aldosterona/renina. La guía AHA/ACC 2025 reconoce que los betabloqueadores pueden interferir con la interpretación del cribado, aunque también señala que no es necesario suspender de forma indiscriminada la mayoría de los antihipertensivos antes de realizar el cribado inicial.
+
+La ausencia de hipopotasemia no descarta hiperaldosteronismo. De hecho, la mayoría de los pacientes con hiperaldosteronismo primario no necesariamente presentan hipopotasemia.
+
+Si el resultado es borderline o existe duda por medicamentos, puede repetirse el estudio bajo condiciones optimizadas o utilizar una prueba de supresión apropiada. Una vez confirmado el diagnóstico, la imagen suprarrenal y, cuando corresponda, el muestreo venoso suprarrenal permiten establecer si existe secreción unilateral susceptible de cirugía.`,
+    perlaENARM: `Una ARR muy elevada con renina suprimida orienta fuertemente a hiperaldosteronismo, pero una ARR aislada nunca equivale a demostrar unilateralidad. Recuerda además que los betabloqueadores pueden suprimir renina y generar falsos positivos.`,
+    gpc: {
+        mexico: "GPC-IMSS-076-21 para hipertensión arterial.",
+        internacional: "2025 AHA/ACC High Blood Pressure Guideline; 2024 ESC Guidelines for Elevated Blood Pressure and Hypertension."
+    },
+    bibliografia: "2025 AHA/ACC High Blood Pressure Guideline; Endocrine Society Primary Aldosteronism guidance; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-365",
+    especialidad: "Cardiología",
+    tema: "Hipertensión secundaria",
+    subtema: "Hipertensión renovascular por displasia fibromuscular",
+    dificultad: "Extrema",
+    caso: `Mujer de 34 años consulta por hipertensión arterial de aparición relativamente reciente. Hasta los 30 años tenía cifras normales. Durante los últimos 3 años la presión arterial ha aumentado progresivamente y actualmente requiere amlodipino 10 mg, losartán 100 mg y clortalidona 25 mg al día.
+
+En los últimos seis meses la presión se ha vuelto más difícil de controlar. En consulta presenta 168/96 mmHg. En domicilio presenta cifras entre 155 y 165 mmHg de sistólica. No tiene diabetes, dislipidemia ni tabaquismo. Refiere cefaleas ocasionales pero no síntomas paroxísticos de palpitaciones, diaforesis o temblor.
+
+A la exploración se ausculta un soplo abdominal lateralizado. La creatinina es 1.0 mg/dL y la TFGe es 76 mL/min/1.73 m². Potasio 4.0 mmol/L. No hay proteinuria significativa.
+
+Una ecografía Doppler renal reporta velocidades elevadas y patrón sugestivo de estenosis de la arteria renal derecha, aunque la exploración es técnicamente limitada por el hábito corporal. Una angiotomografía muestra una lesión multifocal en la arteria renal derecha con aspecto de cuentas de rosario y sin evidencia de ateromatosis significativa.
+
+El médico considera que debe suspenderse inmediatamente el bloqueo del sistema renina-angiotensina porque toda estenosis de arteria renal constituye una contraindicación absoluta.`,
+    pregunta: "¿Cuál es la interpretación y conducta más apropiada?",
+    opciones: [
+        "Diagnosticar hipertensión esencial y descartar la lesión porque la paciente es demasiado joven para enfermedad renovascular",
+        "Considerar hipertensión renovascular por displasia fibromuscular y referir para valoración especializada, manteniendo tratamiento médico apropiado mientras se determina si existe indicación de intervención",
+        "Suspender definitivamente losartán porque cualquier estenosis renal contraindica los bloqueadores del sistema renina-angiotensina",
+        "Iniciar espironolactona como único tratamiento porque la ausencia de hipopotasemia descarta hiperaldosteronismo",
+        "Realizar adrenalectomía unilateral por sospecha de hiperaldosteronismo"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. La paciente presenta un patrón clásico de hipertensión renovascular por displasia fibromuscular: mujer joven, hipertensión de inicio relativamente temprano, progresión de la dificultad para controlar la presión y lesión multifocal con patrón de cuentas de rosario.
+
+La displasia fibromuscular afecta principalmente a mujeres y puede comprometer las arterias renales y otros territorios vasculares. La angiotomografía o la angiorresonancia pueden establecer el diagnóstico anatómico; la angiografía convencional queda reservada para situaciones en las que se plantea intervención o cuando las pruebas no invasivas son insuficientes.
+
+Los inhibidores del sistema renina-angiotensina no están absolutamente contraindicados en toda estenosis de arteria renal. Pueden ser útiles para el control de la presión arterial, aunque deben vigilarse creatinina y potasio, especialmente ante enfermedad bilateral, riñón único funcional o deterioro renal significativo.
+
+En displasia fibromuscular con hipertensión resistente, deterioro renal atribuible a la lesión o circunstancias seleccionadas, puede considerarse angioplastia renal. La decisión debe realizarse en un contexto especializado y no únicamente por la presencia anatómica de una estenosis.`,
+    perlaENARM: `Mujer joven + HTA difícil de controlar + soplo abdominal + lesión renal tipo cuentas de rosario = displasia fibromuscular hasta demostrar lo contrario.`,
+    gpc: {
+        mexico: "GPC-IMSS-076-21 para hipertensión arterial; no se identificó una GPC mexicana reciente específica para displasia fibromuscular renal en la búsqueda actual.",
+        internacional: "2025 AHA/ACC High Blood Pressure Guideline; 2024 ESC Guidelines for Elevated Blood Pressure and Hypertension."
+    },
+    bibliografia: "2025 AHA/ACC High Blood Pressure Guideline; 2024 ESC Hypertension Guideline; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-366",
+    especialidad: "Cardiología",
+    tema: "Hipertensión secundaria",
+    subtema: "Apnea obstructiva del sueño e hipertensión resistente",
+    dificultad: "Extrema",
+    caso: `Varón de 49 años con hipertensión arterial resistente consulta por cifras persistentemente elevadas a pesar de recibir telmisartán 80 mg, amlodipino 10 mg y clortalidona 25 mg al día. La monitorización ambulatoria muestra presión arterial promedio de 24 horas de 151/87 mmHg, con patrón nocturno no dipper.
+
+Tiene IMC de 36 kg/m², perímetro cervical aumentado y somnolencia diurna. Su esposa refiere ronquidos intensos y pausas respiratorias frecuentes. Refiere cefalea matutina y episodios de sueño involuntario mientras conduce.
+
+Laboratorio: creatinina 1.0 mg/dL, potasio 4.0 mmol/L, bicarbonato 31 mmol/L. Aldosterona 14 ng/dL y renina 0.5 ng/mL/h. No consume AINE, descongestionantes ni estimulantes.
+
+La polisomnografía muestra índice de apnea-hipopnea de 42 eventos por hora, con desaturaciones nocturnas importantes.
+
+El paciente pregunta si el hallazgo de apnea obstructiva del sueño hace innecesario investigar hiperaldosteronismo o si el tratamiento de la apnea por sí solo será suficiente para normalizar la presión.`,
+    pregunta: "¿Cuál es la conducta más apropiada?",
+    opciones: [
+        "Descartar hiperaldosteronismo porque la apnea obstructiva explica completamente la hipertensión",
+        "Tratar la apnea obstructiva y optimizar peso, sodio y tratamiento antihipertensivo, pero mantener la evaluación de causas secundarias, incluida la posibilidad de hiperaldosteronismo",
+        "Suspender todos los antihipertensivos porque CPAP normalizará obligatoriamente la presión",
+        "Indicar exclusivamente oxígeno nocturno porque CPAP no modifica el riesgo cardiovascular",
+        "Realizar denervación renal inmediatamente antes de iniciar CPAP"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. La apnea obstructiva del sueño es una causa importante y frecuente de hipertensión difícil de controlar, especialmente en pacientes con obesidad, hipertensión resistente y patrón nocturno no dipper. El tratamiento con CPAP puede mejorar la presión arterial y reducir la actividad simpática, aunque el efecto antihipertensivo promedio no suele ser suficiente para sustituir el tratamiento farmacológico.
+
+Además, la presencia de apnea obstructiva del sueño no excluye hiperaldosteronismo primario. La guía AHA/ACC 2025 considera la apnea obstructiva del sueño una situación en la que el cribado de hiperaldosteronismo puede estar indicado.
+
+Este paciente tiene además hipertensión resistente verdadera documentada mediante MAPA. Por lo tanto, deben abordarse simultáneamente la apnea, obesidad, consumo de sodio, adherencia, posibles sustancias interferentes y causas secundarias.
+
+El bicarbonato elevado puede sugerir hipoventilación relacionada con obesidad en el contexto apropiado, pero no establece por sí mismo una causa específica de hipertensión.`,
+    perlaENARM: `OSA y aldosteronismo no son diagnósticos excluyentes. En hipertensión resistente, OSA debe hacerte pensar en hiperaldosteronismo, no dejar de buscarlo.`,
+    gpc: {
+        mexico: "GPC-IMSS-076-21 para hipertensión arterial.",
+        internacional: "2025 AHA/ACC High Blood Pressure Guideline; 2026 ACC Resistant Hypertension Expert Consensus; 2024 ESC Hypertension Guideline."
+    },
+    bibliografia: "2025 AHA/ACC High Blood Pressure Guideline; 2026 ACC Resistant Hypertension Expert Consensus; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-367",
+    especialidad: "Cardiología",
+    tema: "Hipertensión secundaria",
+    subtema: "Feocromocitoma y crisis catecolaminérgica",
+    dificultad: "Extrema",
+    caso: `Mujer de 42 años con hipertensión previamente controlada presenta episodios recurrentes durante los últimos cuatro meses caracterizados por cefalea intensa, palpitaciones, diaforesis profusa, temblor y sensación de muerte inminente. Los episodios duran entre 15 y 30 minutos y aparecen sin relación clara con el ejercicio.
+
+Durante una crisis llega al servicio de urgencias con PA 238/132 mmHg, FC 142 lpm, piel fría y diaforética y dolor torácico opresivo. ECG muestra taquicardia sinusal con cambios inespecíficos de repolarización. Troponina ligeramente elevada. Ecocardiograma con disfunción ventricular izquierda global moderada.
+
+La tomografía abdominal identifica una masa suprarrenal derecha de 4.8 cm. Las metanefrinas plasmáticas están marcadamente elevadas.
+
+Un médico propone iniciar propranolol inmediatamente para controlar la taquicardia antes de cualquier otra intervención. Otro propone administrar un betabloqueador intravenoso como tratamiento inicial de la crisis.`,
+    pregunta: "¿Cuál es la estrategia terapéutica más segura y fisiopatológicamente correcta?",
+    opciones: [
+        "Iniciar propranolol como tratamiento inicial porque la taquicardia es la manifestación dominante",
+        "Iniciar betabloqueo antes del bloqueo alfa para prevenir una crisis hipertensiva",
+        "Establecer bloqueo alfa adecuado antes de agregar betabloqueo para controlar la respuesta beta, junto con manejo de la crisis y posterior tratamiento definitivo del tumor",
+        "Administrar solamente diuréticos para reducir el volumen circulante",
+        "Realizar adrenalectomía inmediata sin preparación farmacológica"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. El cuadro es altamente compatible con feocromocitoma con crisis catecolaminérgica y probable miocardiopatía inducida por catecolaminas.
+
+El principio clásico y fundamental es que el bloqueo alfa debe preceder al bloqueo beta. Si se administra un betabloqueador antes de establecer bloqueo alfa adecuado, se puede eliminar la vasodilatación beta2 sin controlar la vasoconstricción alfa1, provocando un aumento brusco de la resistencia vascular sistémica y una crisis hipertensiva potencialmente catastrófica.
+
+La preparación para cirugía incluye bloqueo alfa y expansión adecuada de volumen. Posteriormente puede añadirse un betabloqueador si persiste taquicardia después de un bloqueo alfa adecuado.
+
+Durante una crisis grave pueden requerirse agentes intravenosos titulables y vigilancia intensiva. La cirugía definitiva debe realizarse después de una preparación adecuada, salvo circunstancias excepcionales que obliguen a una intervención emergente.
+
+La disfunción ventricular puede representar una miocardiopatía por catecolaminas y puede mejorar después del control de la enfermedad subyacente.`,
+    perlaENARM: `FEOCROMOCITOMA: primero ALFA, después BETA. Betabloquear primero puede precipitar vasoconstricción alfa no antagonizada y crisis hipertensiva.`,
+    gpc: {
+        mexico: "No se identificó una GPC mexicana reciente específica para feocromocitoma en la búsqueda actual; GPC-IMSS-076-21 corresponde al manejo general de hipertensión.",
+        internacional: "2025 AHA/ACC High Blood Pressure Guideline; recomendaciones endocrinológicas internacionales para feocromocitoma y paraganglioma."
+    },
+    bibliografia: "2025 AHA/ACC High Blood Pressure Guideline; Harrison's Principles of Internal Medicine; Braunwald's Heart Disease; Endocrine Society guidance on Pheochromocytoma and Paraganglioma."
+},
+
+{
+    id: "CARD-368",
+    especialidad: "Cardiología",
+    tema: "Hipertensión secundaria",
+    subtema: "Síndrome de Cushing",
+    dificultad: "Extrema",
+    caso: `Mujer de 44 años es enviada por hipertensión de reciente aparición y difícil control. En los últimos dos años ha aumentado 14 kg de peso, principalmente en tronco. Presenta debilidad muscular proximal, equimosis espontáneas, estrías violáceas abdominales y facialización.
+
+Actualmente utiliza amlodipino 10 mg, losartán 100 mg y clortalidona 25 mg al día. PA domiciliaria promedio 158/92 mmHg. Potasio 3.4 mmol/L, sodio 141 mmol/L, bicarbonato 29 mmol/L, glucosa en ayuno 132 mg/dL y HbA1c 6.7%.
+
+No utiliza glucocorticoides orales, inhalados ni tópicos. No tiene apnea obstructiva diagnosticada. Se sospecha una causa endocrina de hipertensión.
+
+El médico solicita una concentración aislada de cortisol sérico a las 8:00 de la mañana y, al encontrarla dentro del rango de referencia, descarta síndrome de Cushing.`,
+    pregunta: "¿Cuál es la estrategia diagnóstica inicial más apropiada?",
+    opciones: [
+        "Descartar Cushing porque el cortisol sérico matutino es normal",
+        "Solicitar cortisol libre urinario de 24 horas, cortisol salival nocturno o prueba de supresión con 1 mg de dexametasona como pruebas de cribado apropiadas",
+        "Solicitar únicamente TSH",
+        "Solicitar aldosterona sin considerar otras causas porque toda hipopotasemia implica hiperaldosteronismo",
+        "Realizar directamente cateterismo de senos petrosos"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. La paciente tiene múltiples datos clínicos de hipercortisolismo: obesidad central, debilidad muscular proximal, equimosis, estrías violáceas, hipertensión, alteración de la glucosa e hipopotasemia.
+
+Una concentración aislada de cortisol sérico matutino no es una prueba de cribado adecuada para descartar síndrome de Cushing. El cortisol fisiológicamente alcanza su máximo alrededor de esa hora y existe gran variabilidad individual.
+
+Entre las pruebas iniciales apropiadas se encuentran el cortisol libre urinario de 24 horas, el cortisol salival nocturno y la prueba de supresión con 1 mg de dexametasona. La selección depende del contexto y disponibilidad.
+
+El cateterismo de senos petrosos es un estudio de localización que se utiliza posteriormente en pacientes seleccionados con hipercortisolismo ACTH-dependiente, no como prueba inicial.
+
+En un paciente con hipertensión resistente e hipopotasemia también puede investigarse hiperaldosteronismo, pero el fenotipo clínico obliga simultáneamente a considerar hipercortisolismo.`,
+    perlaENARM: `Un cortisol sérico de las 8:00 h normal NO descarta Cushing. Para cribado piensa en cortisol libre urinario, cortisol salival nocturno o supresión con 1 mg de dexametasona.`,
+    gpc: {
+        mexico: "GPC-IMSS-076-21 para hipertensión arterial; no se identificó una GPC mexicana reciente específica de síndrome de Cushing en la búsqueda actual.",
+        internacional: "2025 AHA/ACC High Blood Pressure Guideline y recomendaciones endocrinológicas internacionales para diagnóstico de síndrome de Cushing."
+    },
+    bibliografia: "2025 AHA/ACC High Blood Pressure Guideline; Harrison's Principles of Internal Medicine; Williams Textbook of Endocrinology; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-369",
+    especialidad: "Cardiología",
+    tema: "Hipertensión arterial",
+    subtema: "Hipertensión resistente en enfermedad renal crónica",
+    dificultad: "Extrema",
+    caso: `Varón de 72 años con hipertensión arterial, diabetes mellitus tipo 2 y enfermedad renal crónica G4 consulta por persistencia de hipertensión. Recibe lisinopril 20 mg al día, amlodipino 10 mg al día y clortalidona 25 mg al día. La presión arterial domiciliaria promedio es de 154/84 mmHg y el MAPA confirma promedio de 24 horas de 149/82 mmHg.
+
+Creatinina 2.35 mg/dL, TFGe 27 mL/min/1.73 m², potasio 4.5 mmol/L, sodio 139 mmol/L, bicarbonato 23 mmol/L. Albuminuria 850 mg/g. No utiliza AINE. Su adherencia es confirmada mediante entrevista estructurada y revisión de dispensación.
+
+Presenta edema maleolar leve y refiere incremento de peso de 2 kg durante las últimas semanas. La exploración pulmonar no muestra congestión.
+
+El médico considera que la clortalidona ya no puede tener ningún efecto por la TFGe inferior a 30 mL/min/1.73 m² y decide sustituirla automáticamente por furosemida. Otro médico propone añadir espironolactona sin realizar ninguna vigilancia adicional del potasio.`,
+    pregunta: "¿Cuál es la conducta más apropiada?",
+    opciones: [
+        "Suspender obligatoriamente la clortalidona porque los diuréticos tipo tiazida son ineficaces por debajo de una TFGe de 30",
+        "Mantener o considerar optimización del diurético tipo tiazida de acción prolongada según respuesta clínica, evaluar volumen y causas secundarias, y utilizar antagonistas mineralocorticoides solamente con vigilancia estrecha de potasio y función renal",
+        "Agregar espironolactona 100 mg al día sin monitorización porque el potasio normal descarta hiperpotasemia futura",
+        "Suspender el inhibidor de la ECA porque toda TFGe menor de 30 contraindica bloqueo del sistema renina-angiotensina",
+        "Utilizar clonidina como primera opción porque los diuréticos no funcionan en enfermedad renal avanzada"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. El concepto de que los diuréticos tipo tiazida son completamente ineficaces cuando la TFGe cae por debajo de 30 mL/min/1.73 m² es demasiado simplista y no refleja la evidencia contemporánea.
+
+La clortalidona puede conservar actividad antihipertensiva incluso en enfermedad renal crónica avanzada, aunque la respuesta, el riesgo de alteraciones electrolíticas y la situación de volumen deben individualizarse. Si existe sobrecarga de volumen significativa, un diurético de asa puede ser necesario, pero la sustitución automática de un diurético tipo tiazida no es obligatoria únicamente por la cifra de TFGe.
+
+Los antagonistas mineralocorticoides pueden ser muy eficaces en hipertensión resistente, pero el riesgo de hiperpotasemia aumenta considerablemente con enfermedad renal crónica. Por ello, si se utiliza espironolactona, debe realizarse selección cuidadosa y monitorización estrecha de potasio y función renal.
+
+El bloqueo del sistema renina-angiotensina puede seguir siendo beneficioso en enfermedad renal albuminúrica y no está automáticamente contraindicado por una TFGe inferior a 30.`,
+    perlaENARM: `TFGe <30 no significa automáticamente que la clortalidona sea inútil. En ERC avanzada, el manejo de hipertensión resistente exige integrar presión, volumen, electrolitos y albuminuria.`,
+    gpc: {
+        mexico: "GPC-IMSS-076-21 para hipertensión arterial; el caso integra además principios contemporáneos de manejo cardiorrenal.",
+        internacional: "2025 AHA/ACC High Blood Pressure Guideline; 2026 ESC Guideline for Cardiovascular Disease and Chronic Kidney Disease; 2026 ACC Resistant Hypertension Expert Consensus."
+    },
+    bibliografia: "2025 AHA/ACC High Blood Pressure Guideline; 2026 ESC Cardiovascular Disease and Chronic Kidney Disease Guideline; CLICK Trial; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-370",
+    especialidad: "Cardiología",
+    tema: "Hipertensión arterial",
+    subtema: "Denervación renal en hipertensión resistente",
+    dificultad: "Extrema",
+    caso: `Varón de 61 años con hipertensión arterial de larga evolución presenta cifras persistentemente elevadas a pesar de múltiples intervenciones. Durante 8 meses ha recibido una combinación en una sola tableta de valsartán 320 mg, amlodipino 10 mg y clortalidona 25 mg al día. Posteriormente se añadió espironolactona 25 mg al día, titulada a 50 mg al día. Se verificó adherencia mediante entrevista estructurada, dispensación farmacéutica y recuento de comprimidos.
+
+La técnica de medición de presión arterial fue estandarizada. Se descartó efecto de bata blanca mediante MAPA. El promedio de presión arterial de 24 horas es 151/87 mmHg, con cifras diurnas de 154/89 y nocturnas de 143/82 mmHg.
+
+Se investigaron causas secundarias. Aldosterona y renina no son sugestivas de hiperaldosteronismo. La polisomnografía muestra apnea obstructiva moderada y el paciente utiliza CPAP adecuadamente. Se redujo el consumo de sodio y perdió 8 kg de peso.
+
+Creatinina 1.0 mg/dL, TFGe 78 mL/min/1.73 m², potasio 4.4 mmol/L. No existen datos de estenosis significativa de arterias renales. El paciente no tolera incrementos adicionales de varios fármacos por hipotensión sintomática durante algunas horas del día.
+
+El paciente pregunta si la persistencia de hipertensión significa que debe someterse directamente a una denervación renal.`,
+    pregunta: "¿Cuál es la conducta más apropiada respecto a la denervación renal?",
+    opciones: [
+        "Realizar denervación renal inmediatamente porque cualquier hipertensión resistente es indicación automática",
+        "Descartar definitivamente la denervación porque nunca ha demostrado reducción de presión arterial",
+        "Considerarla como una opción seleccionada después de confirmar hipertensión resistente verdadera, optimizar tratamiento y adherencia, evaluar anatomía renal y realizar decisión compartida sobre sus beneficios y limitaciones",
+        "Suspender todos los medicamentos antes de realizar denervación para determinar la presión arterial basal",
+        "Realizar denervación exclusivamente si existe hiperaldosteronismo primario"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. La denervación renal ya no debe considerarse una intervención experimental sin evidencia, pero tampoco debe convertirse en una respuesta automática para todo paciente con presión arterial elevada.
+
+Este paciente tiene hipertensión resistente verdadera: presión arterial elevada confirmada por MAPA pese a tratamiento con múltiples clases complementarias, incluyendo diurético y antagonista mineralocorticoide, después de haber revisado adherencia, técnica de medición, factores de estilo de vida y causas secundarias.
+
+La evidencia contemporánea con ensayos aleatorizados y procedimientos simulados demuestra una reducción modesta pero sostenida de la presión arterial con denervación renal en pacientes seleccionados. El efecto promedio es comparable al de aproximadamente un medicamento antihipertensivo, aunque existe variabilidad individual.
+
+La selección requiere evaluación anatómica de las arterias renales, exclusión de causas secundarias tratables, confirmación de hipertensión no controlada fuera del consultorio y discusión individualizada de beneficios, incertidumbres, alternativas farmacológicas y preferencias del paciente.
+
+El consenso ACC 2026 enfatiza precisamente la estandarización de la medición, la diferenciación entre resistencia verdadera y pseudorresistencia, la optimización farmacológica y el papel de tecnologías y procedimientos como la denervación renal dentro de una estrategia escalonada.`,
+    perlaENARM: `Denervación renal = opción para pacientes seleccionados con HTA resistente verdadera, no sustituto de confirmar MAPA, adherencia, triple terapia optimizada, causas secundarias y medidas de estilo de vida.`,
+    gpc: {
+        mexico: "GPC-IMSS-076-21 para hipertensión arterial; no se identificó una GPC mexicana reciente específica sobre denervación renal.",
+        internacional: "2026 ACC Expert Consensus Decision Pathway on Optimizing Blood Pressure Care in Resistant Hypertension; 2025 AHA/ACC High Blood Pressure Guideline; 2024 ESC Guidelines for Elevated Blood Pressure and Hypertension."
+    },
+    bibliografia: "2026 ACC Expert Consensus Decision Pathway on Resistant Hypertension; 2025 AHA/ACC High Blood Pressure Guideline; 2024 ESC Hypertension Guideline; SYMPLICITY HTN-3; SPYRAL ON MED; RADIANCE-HTN; Braunwald's Heart Disease."
+},
+ {
+    id: "CARD-371",
+    especialidad: "Cardiología",
+    tema: "Crisis hipertensiva",
+    subtema: "Emergencia hipertensiva y encefalopatía hipertensiva/PRES",
+    dificultad: "Extrema",
+    caso: `Mujer de 58 años con hipertensión arterial de 15 años de evolución, con adherencia irregular al tratamiento, es llevada al servicio de urgencias por cefalea intensa de inicio progresivo, náusea, vómito, visión borrosa y confusión de aproximadamente 8 horas de evolución. Su familia refiere que durante las últimas semanas dejó de tomar su tratamiento porque "se sentía bien".
+
+A su llegada presenta PA 238/136 mmHg en ambos brazos, FC 96 lpm, FR 20 rpm, temperatura 36.7 °C y saturación de oxígeno de 96% al aire ambiente. Está desorientada en tiempo, pero obedece órdenes simples. No presenta focalización neurológica evidente, no hay rigidez de nuca y las pupilas son isocóricas y reactivas.
+
+Fondo de ojo: hemorragias retinianas, exudados algodonosos y papiledema bilateral. ECG muestra hipertrofia ventricular izquierda con alteraciones secundarias de la repolarización. Creatinina 2.1 mg/dL, previamente 0.9 mg/dL; urea 78 mg/dL. Sodio 139 mmol/L, potasio 4.0 mmol/L. EGO con proteinuria y hematuria microscópica.
+
+La tomografía simple de cráneo no muestra hemorragia intracraneal ni lesión ocupante de espacio. Debido a la persistencia de alteración neurológica se realiza resonancia magnética, que muestra hiperintensidades bilaterales predominantemente parieto-occipitales en T2/FLAIR, sin restricción franca de la difusión.
+
+El equipo considera que se trata de una emergencia hipertensiva y discute cuál debe ser la velocidad de reducción de la presión arterial.`,
+    pregunta: "¿Cuál es la estrategia inicial más apropiada?",
+    opciones: [
+        "Normalizar la presión arterial hasta 120/80 mmHg durante los primeros 30 minutos",
+        "Reducir la presión arterial en aproximadamente 25% durante la primera hora utilizando un fármaco intravenoso titulable y posteriormente continuar el descenso de forma gradual",
+        "Administrar nifedipino sublingual para conseguir una reducción rápida",
+        "No reducir la presión arterial hasta disponer de una punción lumbar",
+        "Administrar únicamente un antihipertensivo oral y reevaluar en 24 horas"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. La paciente presenta una emergencia hipertensiva con daño agudo de órgano blanco neurológico y renal. El cuadro clínico y la resonancia son altamente compatibles con encefalopatía hipertensiva asociada a síndrome de encefalopatía posterior reversible, conocido como PRES.
+
+El error más peligroso es intentar normalizar inmediatamente la presión arterial. En pacientes con hipertensión crónica, la autorregulación cerebral se adapta a presiones más elevadas. Una reducción brusca puede producir hipoperfusión cerebral, renal o coronaria.
+
+En una emergencia hipertensiva sin una condición especial que requiera una meta diferente, la AHA/ACC 2025 recomienda reducir la presión sistólica no más de aproximadamente 25% durante la primera hora; si el paciente permanece estable, llevarla posteriormente a menos de 160/100 mmHg durante las siguientes 2 a 6 horas y continuar el descenso de forma cautelosa durante las siguientes 24 a 48 horas.
+
+En este escenario se requiere un fármaco intravenoso titulable, como nicardipino o clevidipino, según el contexto clínico y disponibilidad. El objetivo no es alcanzar inmediatamente una presión "normal", sino detener el daño progresivo sin provocar hipoperfusión.
+
+El nifedipino de acción inmediata por vía sublingual u oral no debe utilizarse para lograr descensos impredecibles y rápidos de presión arterial. La ausencia de hemorragia en la tomografía no excluye encefalopatía hipertensiva ni PRES.`,
+    perlaENARM: `Emergencia hipertensiva = PA muy elevada + daño agudo de órgano blanco. En la mayoría: ↓ ≤25% en la primera hora → <160/100 mmHg en 2–6 h → descenso gradual posterior. PRES es un diagnóstico clínico-radiológico asociado a disfunción de autorregulación cerebral.`,
+    gpc: {
+        mexico: "GPC-SS-155-20, Diagnóstico y tratamiento de las crisis hipertensivas en adultos en los tres niveles de atención.",
+        internacional: "2025 AHA/ACC Guideline for High Blood Pressure in Adults; 2024 ESC Guidelines for Elevated Blood Pressure and Hypertension."
+    },
+    bibliografia: "GPC-SS-155-20; 2025 AHA/ACC High Blood Pressure Guideline; 2024 ESC Hypertension Guideline; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-372",
+    especialidad: "Cardiología",
+    tema: "Crisis hipertensiva",
+    subtema: "Disección aórtica aguda y control hemodinámico",
+    dificultad: "Extrema",
+    caso: `Varón de 64 años con hipertensión arterial de larga evolución y tabaquismo activo presenta dolor torácico súbito, máximo desde el inicio, de carácter desgarrador y con irradiación hacia la región interescapular. El dolor comenzó mientras se encontraba en reposo.
+
+A su llegada presenta PA 224/128 mmHg en brazo derecho y 198/116 mmHg en brazo izquierdo, FC 118 lpm, FR 22 rpm y saturación 95%. Está ansioso y diaforético. Se ausculta un nuevo soplo diastólico en foco aórtico. El pulso radial derecho es más intenso que el izquierdo.
+
+ECG muestra hipertrofia ventricular izquierda sin elevación del segmento ST. Troponina inicialmente discretamente elevada. La radiografía de tórax muestra mediastino ensanchado.
+
+La angiotomografía confirma disección de aorta ascendente compatible con síndrome aórtico agudo tipo A. El paciente presenta dolor persistente y taquicardia. El cirujano cardiovascular solicita estabilización hemodinámica inmediata mientras prepara la intervención.
+
+Se plantean diferentes estrategias farmacológicas.`,
+    pregunta: "¿Cuál es la estrategia inicial de control hemodinámico más apropiada?",
+    opciones: [
+        "Administrar nicardipino como único fármaco y reducir la presión sistólica por debajo de 140 mmHg durante varias horas",
+        "Administrar nitroprusiato como único tratamiento para reducir rápidamente la presión arterial",
+        "Iniciar un betabloqueador intravenoso titulable para controlar frecuencia y dP/dt, y posteriormente añadir un vasodilatador si persiste hipertensión",
+        "Administrar hidralazina intravenosa porque produce vasodilatación arterial intensa",
+        "Administrar exclusivamente morfina y esperar la intervención quirúrgica"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. En la disección aórtica aguda el objetivo no es únicamente disminuir la presión arterial, sino reducir la fuerza de eyección ventricular y el estrés de pared aórtica. Por ello, el control de la frecuencia cardiaca y de la contractilidad debe preceder al vasodilatador.
+
+Esmolol o labetalol intravenosos son opciones apropiadas. Una vez conseguido un adecuado bloqueo beta, si la presión continúa elevada puede añadirse nicardipino, clevidipino o nitroprusiato según el escenario.
+
+Administrar un vasodilatador sin controlar previamente la respuesta simpática puede provocar taquicardia refleja y aumento de la contractilidad, incrementando el estrés sobre la pared aórtica.
+
+La AHA/ACC 2025 establece una meta de presión sistólica inferior a 120 mmHg durante la primera hora en la disección aórtica, con control estrecho de la perfusión de órganos. La intervención quirúrgica urgente es el tratamiento definitivo de la disección tipo A; el tratamiento farmacológico es una medida de estabilización y puente hacia la cirugía.
+
+El diagnóstico de síndrome aórtico agudo debe permanecer en el diferencial incluso cuando existe elevación de troponina, ya que una disección puede comprometer las coronarias y producir un fenotipo similar a síndrome coronario agudo.`,
+    perlaENARM: `Disección aórtica: primero controla la fuerza de eyección con beta-bloqueador IV; después vasodilata si es necesario. Meta aguda de PAS <120 mmHg. El tratamiento definitivo de una disección tipo A es cirugía urgente.`,
+    gpc: {
+        mexico: "GPC-SS-155-20, Diagnóstico y tratamiento de las crisis hipertensivas en adultos en los tres niveles de atención.",
+        internacional: "2025 AHA/ACC Guideline for High Blood Pressure in Adults; 2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease; 2024 ESC Guidelines for Elevated Blood Pressure and Hypertension."
+    },
+    bibliografia: "GPC-SS-155-20; 2025 AHA/ACC High Blood Pressure Guideline; 2022 ACC/AHA Aortic Disease Guideline; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-373",
+    especialidad: "Cardiología",
+    tema: "Crisis hipertensiva",
+    subtema: "Emergencia hipertensiva con edema agudo pulmonar",
+    dificultad: "Extrema",
+    caso: `Mujer de 71 años con hipertensión arterial, hipertrofia ventricular izquierda y antecedente de insuficiencia cardiaca con fracción de eyección preservada llega a urgencias por disnea súbita de 90 minutos de evolución. Refiere ortopnea intensa y sensación de asfixia.
+
+Presenta PA 226/124 mmHg, FC 124 lpm, FR 34 rpm y saturación 78% al aire ambiente. Está sentada, diaforética y con dificultad para hablar por disnea. A la auscultación se escuchan estertores crepitantes hasta ambos campos medios. No presenta fiebre. No hay datos clínicos de neumonía.
+
+ECG muestra hipertrofia ventricular izquierda con cambios secundarios de repolarización, sin elevación del ST. Radiografía de tórax demuestra edema pulmonar bilateral. Ecocardiograma muestra FEVI 58%, hipertrofia ventricular izquierda y presión de llenado elevada.
+
+Troponina presenta elevación mínima compatible con lesión miocárdica por demanda. Creatinina 1.1 mg/dL. El equipo discute si debe administrarse un betabloqueador intravenoso para disminuir la presión y la frecuencia cardiaca.`,
+    pregunta: "¿Cuál es la estrategia farmacológica inicial más apropiada?",
+    opciones: [
+        "Metoprolol intravenoso como primera intervención para reducir la frecuencia cardiaca",
+        "Nitroglicerina intravenosa titulada y manejo de la congestión, junto con soporte ventilatorio según necesidad",
+        "Esmolol intravenoso seguido de nitroprusiato en todos los casos",
+        "Nifedipino sublingual para disminuir rápidamente la presión",
+        "Hidralazina intravenosa como primera elección"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. La paciente presenta una emergencia hipertensiva complicada por edema agudo pulmonar hipertensivo. En este contexto existe una elevación marcada de la poscarga y de las presiones de llenado, por lo que una reducción controlada y relativamente rápida de la presión puede mejorar de forma importante la congestión pulmonar.
+
+Los nitratos intravenosos, particularmente nitroglicerina a dosis tituladas, son útiles cuando existe hipertensión grave con edema pulmonar, ya que producen venodilatación y, a dosis mayores, vasodilatación arterial, disminuyendo las presiones de llenado y la poscarga.
+
+El soporte ventilatorio, incluyendo CPAP o ventilación no invasiva cuando está indicado, es parte fundamental del tratamiento.
+
+Los betabloqueadores intravenosos no constituyen el tratamiento inicial del edema pulmonar hipertensivo y pueden empeorar la situación hemodinámica al reducir la contractilidad. La tabla de la AHA/ACC 2025 señala específicamente que en edema pulmonar agudo las opciones preferidas incluyen clevidipino, nitroglicerina o nitroprusiato y que los betabloqueadores están contraindicados en este escenario.
+
+El hallazgo de FEVI preservada no excluye una emergencia de insuficiencia cardiaca aguda: el edema pulmonar puede aparecer por aumento brusco de la presión de llenado aun con función sistólica preservada.`,
+    perlaENARM: `Edema agudo pulmonar hipertensivo = nitratos IV + soporte ventilatorio + control de poscarga. Evita betabloqueo agudo si existe descompensación con edema pulmonar.`,
+    gpc: {
+        mexico: "GPC-SS-155-20, Diagnóstico y tratamiento de las crisis hipertensivas en adultos.",
+        internacional: "2025 AHA/ACC High Blood Pressure Guideline; 2024 ESC Guidelines for Elevated Blood Pressure and Hypertension."
+    },
+    bibliografia: "GPC-SS-155-20; 2025 AHA/ACC High Blood Pressure Guideline; 2024 ESC Hypertension Guideline; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-374",
+    especialidad: "Cardiología",
+    tema: "Crisis hipertensiva",
+    subtema: "Emergencia hipertensiva y síndrome coronario agudo",
+    dificultad: "Extrema",
+    caso: `Varón de 63 años con hipertensión arterial, diabetes mellitus tipo 2 y enfermedad coronaria conocida presenta dolor torácico opresivo de 50 minutos de duración. A su llegada presenta PA 214/118 mmHg, FC 104 lpm, FR 20 rpm y saturación 94%.
+
+ECG muestra descenso horizontal del ST de 2 mm en V4-V6 y DI-aVL. Troponina de alta sensibilidad está elevada y aumenta en una segunda determinación. El diagnóstico es síndrome coronario agudo sin elevación del ST de muy alto riesgo.
+
+No presenta datos de edema pulmonar. Está consciente, sin focalización neurológica. Creatinina 1.2 mg/dL. No ha utilizado inhibidores de fosfodiesterasa tipo 5.
+
+El equipo debe controlar simultáneamente la hipertensión y el síndrome coronario agudo. Un residente propone reducir inmediatamente la presión sistólica a 110 mmHg para normalizarla. Otro propone administrar nitroglicerina intravenosa y utilizar un betabloqueador si no existe contraindicación, mientras se continúa la estrategia invasiva del síndrome coronario agudo.`,
+    pregunta: "¿Cuál es la conducta hemodinámica más apropiada?",
+    opciones: [
+        "Reducir la presión arterial a 110/70 mmHg durante los primeros 30 minutos",
+        "Ignorar completamente la hipertensión hasta realizar la coronariografía",
+        "Utilizar tratamiento IV titulable apropiado al síndrome coronario agudo, evitando un descenso excesivamente rápido y manteniendo una adecuada perfusión coronaria",
+        "Administrar nifedipino sublingual para reducir rápidamente la poscarga",
+        "Administrar hidralazina en bolo cada 10 minutos hasta alcanzar una presión normal"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. El paciente presenta una emergencia hipertensiva en el contexto de síndrome coronario agudo. La hipertensión severa aumenta el estrés de pared, la poscarga y la demanda miocárdica de oxígeno, por lo que requiere tratamiento, pero la reducción excesiva y abrupta puede disminuir la presión de perfusión coronaria y empeorar la isquemia.
+
+La selección del fármaco depende del perfil hemodinámico. Nitroglicerina puede ser útil en pacientes con síndrome coronario agudo e hipertensión, particularmente si existe dolor o congestión, mientras que un betabloqueador puede ser apropiado en pacientes seleccionados si no existen contraindicaciones como shock, insuficiencia cardiaca aguda descompensada, bradicardia o bloqueo AV avanzado.
+
+El tratamiento antihipertensivo no sustituye la estrategia de reperfusión o manejo invasivo del síndrome coronario agudo.
+
+Los bolos de fármacos de acción impredecible o el nifedipino de liberación inmediata deben evitarse. En las emergencias hipertensivas la presión debe reducirse de manera titulada y fisiológicamente razonada, no simplemente llevarla a una cifra "normal".`,
+    perlaENARM: `En SCA + hipertensión grave, controla demanda miocárdica y presión sin provocar hipotensión. La presión "normal" no es el objetivo inmediato si compromete la perfusión coronaria.`,
+    gpc: {
+        mexico: "GPC-SS-155-20 para crisis hipertensivas; el manejo integral del SCA debe seguir la GPC mexicana específica correspondiente.",
+        internacional: "2025 AHA/ACC High Blood Pressure Guideline; guías contemporáneas de síndrome coronario agudo."
+    },
+    bibliografia: "GPC-SS-155-20; 2025 AHA/ACC High Blood Pressure Guideline; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-375",
+    especialidad: "Cardiología",
+    tema: "Crisis hipertensiva",
+    subtema: "Hemorragia intracerebral asociada a hipertensión",
+    dificultad: "Extrema",
+    caso: `Varón de 59 años con hipertensión arterial no controlada es llevado a urgencias por inicio súbito de hemiparesia derecha, vómito y disminución del estado de alerta. A su llegada presenta PA 218/124 mmHg, FC 82 lpm, FR 18 rpm y Glasgow de 12 puntos.
+
+La tomografía de cráneo demuestra hemorragia intracerebral profunda en ganglios basales izquierdos de aproximadamente 18 mL, sin herniación y sin extensión intraventricular significativa. No utiliza anticoagulantes ni antiagregantes.
+
+El equipo discute la velocidad con la que debe disminuirse la presión arterial. Un residente propone bajar la presión sistólica por debajo de 100 mmHg para detener inmediatamente el sangrado. Otro propone reducirla gradualmente a menos de 160 mmHg.`,
+    pregunta: "¿Cuál es el principio terapéutico más apropiado?",
+    opciones: [
+        "Reducir inmediatamente la presión sistólica por debajo de 100 mmHg",
+        "No modificar la presión arterial porque la hipertensión es una respuesta fisiológica al sangrado cerebral",
+        "Realizar reducción controlada y temprana de la presión arterial siguiendo objetivos específicos para hemorragia intracerebral, evitando hipotensión y variaciones excesivas",
+        "Administrar nifedipino sublingual para alcanzar una reducción inmediata",
+        "Utilizar solamente diuréticos para disminuir la presión intracraneal"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. La hemorragia intracerebral hipertensiva requiere control temprano y cuidadosamente titulado de la presión arterial. Sin embargo, este escenario no debe manejarse simplemente aplicando la regla general de reducir 25% en la primera hora sin considerar las recomendaciones específicas para hemorragia intracerebral.
+
+En hemorragia intracerebral de gravedad leve a moderada con PAS entre aproximadamente 150 y 220 mmHg, las guías neurológicas contemporáneas favorecen un descenso temprano y sostenido hacia cifras cercanas a 140 mmHg, evitando descensos excesivos. En pacientes con PAS muy elevada, la reducción debe individualizarse.
+
+El objetivo es disminuir la expansión del hematoma y las complicaciones asociadas sin comprometer la perfusión cerebral perihematoma.
+
+El tratamiento debe realizarse con agentes intravenosos titulables como nicardipino o clevidipino, con monitorización estrecha. La disminución abrupta a hipotensión puede producir hipoperfusión cerebral.
+
+La hipertensión en este contexto no debe simplemente observarse, porque puede contribuir a expansión del hematoma y daño secundario.`,
+    perlaENARM: `Hemorragia intracerebral ≠ aplicar automáticamente la meta general de cualquier emergencia hipertensiva. Utiliza objetivos específicos para ICH y descenso suave, sostenido y monitorizado.`,
+    gpc: {
+        mexico: "GPC-SS-155-20, Diagnóstico y tratamiento de las crisis hipertensivas en adultos.",
+        internacional: "2025 AHA/ACC High Blood Pressure Guideline; guías AHA/ASA contemporáneas para hemorragia intracerebral."
+    },
+    bibliografia: "GPC-SS-155-20; 2025 AHA/ACC High Blood Pressure Guideline; AHA/ASA Guideline for Spontaneous Intracerebral Hemorrhage; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-376",
+    especialidad: "Cardiología",
+    tema: "Crisis hipertensiva",
+    subtema: "Accidente cerebrovascular isquémico y presión arterial",
+    dificultad: "Extrema",
+    caso: `Mujer de 68 años con hipertensión arterial y fibrilación auricular no anticoagulada presenta súbitamente afasia y hemiparesia derecha mientras desayunaba. La última vez que fue vista asintomática fue hace 70 minutos.
+
+A su llegada presenta PA 196/108 mmHg, FC 92 lpm con ritmo irregular, glucosa capilar 118 mg/dL y Glasgow de 14. La tomografía simple de cráneo no muestra hemorragia. La angiotomografía identifica una oclusión de la arteria cerebral media izquierda proximal. La perfusión cerebral demuestra tejido potencialmente recuperable.
+
+El equipo de neurología considera candidata para terapia de reperfusión intravenosa y posteriormente trombectomía mecánica.
+
+Un residente propone disminuir la presión inmediatamente por debajo de 140/90 mmHg antes de iniciar cualquier reperfusión.`,
+    pregunta: "¿Cuál es la conducta más apropiada respecto a la presión arterial?",
+    opciones: [
+        "Reducir obligatoriamente la presión por debajo de 140/90 mmHg antes de cualquier reperfusión",
+        "No modificar nunca la presión arterial en un accidente cerebrovascular isquémico",
+        "Si se utilizará trombólisis intravenosa, reducir la presión por debajo de 185/110 mmHg antes del tratamiento y mantenerla por debajo de 180/105 mmHg posteriormente; para trombectomía sin trombólisis, individualizar según el contexto y protocolo de reperfusión",
+        "Reducir inmediatamente la presión sistólica por debajo de 100 mmHg",
+        "Administrar nifedipino sublingual para disminuir rápidamente la presión"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. El manejo de la presión arterial en el accidente cerebrovascular isquémico depende de si el paciente recibirá terapia de reperfusión.
+
+Si la paciente es candidata para trombólisis intravenosa, la presión debe reducirse a menos de 185/110 mmHg antes de administrar el trombolítico y mantenerse posteriormente por debajo de 180/105 mmHg durante el periodo recomendado de vigilancia.
+
+Si no se administrará trombólisis ni otra intervención que requiera un umbral específico, la hipertensión moderada puede no requerir descenso inmediato, ya que una reducción excesiva podría disminuir la perfusión de la penumbra isquémica.
+
+En pacientes sometidos a trombectomía mecánica, los objetivos deben individualizarse de acuerdo con el estado de reperfusión, tamaño del infarto, presión basal y protocolos contemporáneos.
+
+La clave ENARM es no aplicar automáticamente el algoritmo de emergencia hipertensiva general a todo paciente con accidente cerebrovascular isquémico. El cerebro isquémico depende de una presión de perfusión adecuada en la penumbra.`,
+    perlaENARM: `EVC isquémico + trombólisis: <185/110 antes y <180/105 después. Sin reperfusión, no bajes la PA indiscriminadamente: puedes comprometer la penumbra.`,
+    gpc: {
+        mexico: "GPC-SS-155-20 para crisis hipertensivas; debe complementarse con la GPC específica mexicana vigente para enfermedad vascular cerebral cuando corresponda.",
+        internacional: "2025 AHA/ACC High Blood Pressure Guideline; recomendaciones AHA/ASA para accidente cerebrovascular isquémico agudo."
+    },
+    bibliografia: "GPC-SS-155-20; 2025 AHA/ACC High Blood Pressure Guideline; AHA/ASA acute ischemic stroke guidance; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-377",
+    especialidad: "Cardiología",
+    tema: "Hipertensión y embarazo",
+    subtema: "Preeclampsia con características graves y emergencia hipertensiva",
+    dificultad: "Extrema",
+    caso: `Mujer de 31 años, embarazo de 35 semanas, previamente normotensa, consulta por cefalea intensa, fosfenos y dolor epigástrico. En dos mediciones separadas por 15 minutos presenta PA 178/116 y posteriormente 184/118 mmHg. FC 92 lpm.
+
+Presenta hiperreflexia y edema periférico. No tiene convulsiones. Laboratorio: plaquetas 92,000/µL, AST 112 U/L, ALT 98 U/L, creatinina 1.3 mg/dL, DHL elevada y proteinuria significativa. El feto presenta frecuencia cardiaca basal de 150 lpm, con desaceleraciones variables intermitentes.
+
+La paciente es diagnosticada con preeclampsia con características graves. El equipo obstétrico discute el manejo inmediato de la hipertensión y la prevención de convulsiones mientras se prepara la resolución del embarazo.
+
+Un médico propone esperar hasta completar 24 horas de recolección de proteína urinaria antes de tratar la presión arterial.`,
+    pregunta: "¿Cuál es la conducta inmediata más apropiada?",
+    opciones: [
+        "Esperar la cuantificación definitiva de proteinuria antes de administrar antihipertensivos",
+        "Administrar tratamiento antihipertensivo urgente para hipertensión grave persistente y sulfato de magnesio para prevención de eclampsia, además de planificar la resolución obstétrica",
+        "Administrar exclusivamente diurético de asa",
+        "Reducir la presión sistólica por debajo de 100 mmHg inmediatamente",
+        "Esperar hasta las 37 semanas porque el embarazo todavía es pretérmino"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. Esta paciente tiene preeclampsia con características graves y cifras de hipertensión en rango severo persistente, además de trombocitopenia, alteración hepática, síntomas neurológicos y deterioro renal.
+
+No es necesario esperar una recolección de 24 horas de proteinuria para iniciar tratamiento. Una vez identificadas características graves, el objetivo inmediato es estabilizar a la madre, prevenir eclampsia con sulfato de magnesio y controlar la hipertensión grave para disminuir el riesgo de accidente cerebrovascular, insuficiencia cardiaca y otras complicaciones.
+
+En hipertensión grave aguda durante el embarazo pueden utilizarse labetalol IV, hidralazina IV o nifedipino oral de liberación inmediata, dependiendo de la disponibilidad y del escenario clínico. El tratamiento debe administrarse con rapidez cuando la hipertensión severa es persistente.
+
+La resolución del embarazo depende de edad gestacional, estabilidad materna, estado fetal y gravedad de las complicaciones. A las 35 semanas, con características graves y deterioro materno significativo, la resolución suele estar indicada después de la estabilización inicial.
+
+El error conceptual central es confundir la necesidad de cuantificar proteinuria con la necesidad de tratar una emergencia hipertensiva. La presencia de características graves establece el riesgo clínico independientemente de una cuantificación adicional de proteína urinaria.`,
+    perlaENARM: `Preeclampsia con características graves + PA ≥160/110 persistente = tratamiento antihipertensivo urgente. No esperes una colección de 24 h de proteinuria para tratar una emergencia.`,
+    gpc: {
+        mexico: "GPC mexicana vigente para diagnóstico y tratamiento de trastornos hipertensivos del embarazo; GPC-SS-155-20 para principios generales de crisis hipertensiva.",
+        internacional: "ACOG guidance on Gestational Hypertension and Preeclampsia; 2025 AHA/ACC High Blood Pressure Guideline."
+    },
+    bibliografia: "GPC mexicana de trastornos hipertensivos del embarazo; ACOG Practice Bulletin No. 222 y actualizaciones; 2025 AHA/ACC High Blood Pressure Guideline; Williams Obstetrics."
+},
+
+{
+    id: "CARD-378",
+    especialidad: "Cardiología",
+    tema: "Crisis hipertensiva",
+    subtema: "Emergencia hipertensiva con lesión renal aguda",
+    dificultad: "Extrema",
+    caso: `Varón de 52 años con hipertensión arterial de larga evolución y abandono reciente del tratamiento consulta por cefalea, visión borrosa, astenia y disminución del volumen urinario. Presenta PA 242/132 mmHg, FC 88 lpm y saturación 97%.
+
+No tiene dolor torácico, disnea ni focalización neurológica. Fondo de ojo muestra papiledema y hemorragias retinianas. Creatinina 4.2 mg/dL, previamente 1.0 mg/dL. Urea 118 mg/dL. Potasio 5.1 mmol/L. EGO muestra proteinuria, hematuria y cilindros hemáticos. DHL está elevada y la hemoglobina es de 9.8 g/dL con esquistocitos en frotis.
+
+La tomografía de cráneo no muestra hemorragia. Ecocardiograma muestra hipertrofia ventricular izquierda sin edema pulmonar.
+
+Se considera una emergencia hipertensiva con lesión renal aguda y posible microangiopatía trombótica asociada a hipertensión severa.`,
+    pregunta: "¿Cuál es el principio terapéutico más apropiado?",
+    opciones: [
+        "Reducir la presión arterial a valores normales durante los primeros 30 minutos",
+        "No tratar la presión hasta conocer el resultado de ADAMTS13",
+        "Iniciar reducción controlada de la presión arterial con un antihipertensivo IV titulable y evaluar simultáneamente la lesión renal y la posibilidad de microangiopatía trombótica",
+        "Administrar grandes cantidades de solución salina para corregir la lesión renal",
+        "Administrar nifedipino sublingual para conseguir descenso inmediato"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. El paciente presenta una emergencia hipertensiva con lesión renal aguda y datos de microangiopatía. El tratamiento de la presión arterial no debe retrasarse mientras se completa toda la investigación etiológica.
+
+La hipertensión maligna puede producir daño endotelial severo, necrosis fibrinoide de las arteriolas y microangiopatía trombótica. Sin embargo, el hallazgo de trombocitopenia o esquistocitos no permite asumir automáticamente púrpura trombótica trombocitopénica. Es necesario integrar plaquetas, hemólisis, función renal, estado neurológico, fiebre y otros datos, y solicitar estudios específicos cuando estén indicados.
+
+La presión debe reducirse de manera controlada con un agente IV titulable, evitando una caída brusca que comprometa perfusión renal y cerebral.
+
+El resultado de ADAMTS13 puede ser importante para el diagnóstico de PTT, pero no debe utilizarse como requisito para iniciar tratamiento de una emergencia hipertensiva manifiesta.
+
+La lesión renal aguda es un órgano blanco y, por sí misma, transforma una elevación grave de presión en una emergencia hipertensiva cuando existe relación causal y daño agudo.`,
+    perlaENARM: `HTA grave + AKI + hemólisis microangiopática = emergencia hipertensiva con posible TMA. No confundas automáticamente TMA hipertensiva con PTT; integra todo el cuadro.`,
+    gpc: {
+        mexico: "GPC-SS-155-20, Diagnóstico y tratamiento de las crisis hipertensivas.",
+        internacional: "2025 AHA/ACC High Blood Pressure Guideline; 2024 ESC Guidelines for Elevated Blood Pressure and Hypertension."
+    },
+    bibliografia: "GPC-SS-155-20; 2025 AHA/ACC High Blood Pressure Guideline; 2024 ESC Hypertension Guideline; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-379",
+    especialidad: "Cardiología",
+    tema: "Crisis hipertensiva",
+    subtema: "Crisis catecolaminérgica por cocaína",
+    dificultad: "Extrema",
+    caso: `Varón de 39 años es llevado a urgencias por dolor torácico intenso, agitación y palpitaciones. Su acompañante refiere consumo de cocaína aproximadamente 45 minutos antes del inicio de los síntomas.
+
+Presenta PA 232/126 mmHg, FC 136 lpm, FR 26 rpm, temperatura 38.1 °C y saturación 97%. Está extremadamente ansioso, diaforético y presenta midriasis bilateral. ECG muestra taquicardia sinusal con depresión del ST de 1.5 mm en V4-V6. Troponina de alta sensibilidad está elevada y aumenta en una segunda determinación.
+
+No tiene edema pulmonar. La angiotomografía no muestra disección aórtica. El paciente niega antecedentes cardiovasculares.
+
+Un residente propone administrar metoprolol IV para controlar inmediatamente la taquicardia y la presión arterial.`,
+    pregunta: "¿Cuál es la estrategia inicial más apropiada?",
+    opciones: [
+        "Administrar metoprolol intravenoso como primera intervención",
+        "Utilizar benzodiacepinas para disminuir la descarga simpática, además de vasodilatadores/nitratos según el perfil hemodinámico y tratar el síndrome coronario agudo conforme corresponda",
+        "Administrar propranolol oral y esperar respuesta",
+        "Administrar hidralazina como único tratamiento",
+        "No tratar la hipertensión porque desaparecerá espontáneamente después de eliminarse la cocaína"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. La cocaína bloquea la recaptación de catecolaminas y produce intensa activación simpática, vasoconstricción coronaria, taquicardia, hipertensión y aumento de la demanda miocárdica de oxígeno. También puede favorecer trombosis y disección coronaria.
+
+Las benzodiacepinas reducen la descarga simpática central y son una intervención importante en la intoxicación por estimulantes con agitación, hipertensión y taquicardia. Los nitratos pueden ser particularmente útiles cuando existe vasoespasmo coronario o hipertensión asociada.
+
+El uso de betabloqueadores en intoxicación aguda por cocaína es un tema controvertido y no debe plantearse como primera maniobra aislada para una crisis catecolaminérgica aguda. En el contexto agudo se prioriza el control de la hiperactividad simpática y la vasoconstricción.
+
+El paciente además presenta lesión miocárdica y cambios isquémicos, por lo que debe evaluarse como síndrome coronario agudo, incluyendo la posibilidad de vasoespasmo coronario, trombosis o disección coronaria.
+
+La hipertensión grave en este contexto no debe simplemente observarse: existe daño cardiovascular agudo.`,
+    perlaENARM: `Cocaína + HTA + taquicardia + SCA: piensa primero en descarga simpática. Benzodiacepinas y nitratos son pilares del control agudo; no conviertas el betabloqueador IV en la primera maniobra automática.`,
+    gpc: {
+        mexico: "GPC-SS-155-20, Diagnóstico y tratamiento de las crisis hipertensivas.",
+        internacional: "2025 AHA/ACC High Blood Pressure Guideline; recomendaciones contemporáneas para intoxicación por estimulantes y síndrome coronario agudo."
+    },
+    bibliografia: "GPC-SS-155-20; 2025 AHA/ACC High Blood Pressure Guideline; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-380",
+    especialidad: "Cardiología",
+    tema: "Crisis hipertensiva",
+    subtema: "Hipertensión grave sin daño agudo de órgano blanco",
+    dificultad: "Extrema",
+    caso: `Mujer de 56 años con hipertensión arterial conocida acude a urgencias porque en una farmacia le midieron una presión de 214/116 mmHg. Está asintomática y refiere que acudió únicamente porque se preocupó por la cifra.
+
+En urgencias se repite la medición después de permanecer sentada durante 10 minutos, con manguito apropiado y sin hablar. Las cifras son 208/112, 202/110 y 198/108 mmHg. FC 78 lpm.
+
+Niega cefalea intensa, alteraciones visuales, dolor torácico, disnea, déficit neurológico, confusión, oliguria o convulsiones. La exploración neurológica es normal. Fondo de ojo sin papiledema. ECG muestra hipertrofia ventricular izquierda conocida sin cambios agudos. Creatinina 0.9 mg/dL, troponina normal, EGO sin hematuria ni proteinuria significativa. Radiografía de tórax sin edema pulmonar.
+
+Refiere que suspendió amlodipino hace tres semanas porque se le terminó el medicamento. Su tratamiento previo era losartán 100 mg al día y amlodipino 10 mg al día.
+
+El residente considera que por presentar una presión mayor de 200/110 mmHg debe recibir inmediatamente un antihipertensivo IV y permanecer hospitalizada para normalizar la presión.`,
+    pregunta: "¿Cuál es la conducta más apropiada?",
+    opciones: [
+        "Administrar nitroprusiato IV y reducir la presión a 120/80 mmHg en una hora",
+        "Administrar nifedipino sublingual y dar de alta cuando la presión sea menor de 140/90 mmHg",
+        "Reconocer hipertensión grave sin daño agudo de órgano blanco, reinstituir/intensificar tratamiento oral, abordar adherencia y factores precipitantes y organizar seguimiento estrecho",
+        "Hospitalizar obligatoriamente a todos los pacientes con presión sistólica mayor de 200 mmHg",
+        "Administrar labetalol IV hasta normalizar completamente la presión"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. Este caso está diseñado para diferenciar hipertensión grave de emergencia hipertensiva.
+
+La paciente tiene cifras mayores de 180/120 mmHg, pero no existe evidencia de daño agudo de órgano blanco. Por lo tanto, no cumple criterios de emergencia hipertensiva. La AHA/ACC 2025 recomienda no utilizar de forma rutinaria antihipertensivos IV ni intentar reducir rápidamente la presión en este contexto.
+
+El manejo debe centrarse en reinstituir o intensificar el tratamiento antihipertensivo oral, identificar la causa de la elevación, revisar adherencia, técnica de medición y medicamentos o sustancias que puedan aumentar la presión, y asegurar seguimiento cercano.
+
+La ausencia de daño agudo no significa que la presión sea benigna. Una presión persistentemente elevada implica riesgo cardiovascular y requiere tratamiento, pero la corrección debe ser gradual.
+
+Este concepto es especialmente importante porque el tratamiento agresivo de una hipertensión grave sin daño agudo puede provocar hipotensión, hipoperfusión cerebral, lesión renal y otros eventos adversos sin demostrar beneficio inmediato.
+
+Por ello, el término clásico "urgencia hipertensiva" debe utilizarse con cautela. La clasificación moderna enfatiza si existe o no daño agudo de órgano blanco y evita convertir una cifra aislada en una emergencia.`,
+    perlaENARM: `PA >180/120 NO equivale automáticamente a emergencia hipertensiva. La pregunta clave es: ¿existe daño agudo de órgano blanco? Si no, no hay indicación rutinaria de antihipertensivo IV ni descenso brusco.`,
+    gpc: {
+        mexico: "GPC-SS-155-20, Diagnóstico y tratamiento de las crisis hipertensivas en adultos en los tres niveles de atención.",
+        internacional: "2025 AHA/ACC Guideline for High Blood Pressure in Adults; 2024 ESC Guidelines for Elevated Blood Pressure and Hypertension."
+    },
+    bibliografia: "GPC-SS-155-20; 2025 AHA/ACC High Blood Pressure Guideline; 2024 ESC Hypertension Guideline; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+    {
+    id: "CARD-381",
+    especialidad: "Cardiología",
+    tema: "Prevención cardiovascular",
+    subtema: "Objetivos de LDL-C en prevención secundaria y riesgo cardiovascular muy alto",
+    dificultad: "Extrema",
+    caso: `Varón de 59 años con antecedente de infarto agudo de miocardio con elevación del ST hace 18 meses, tratado mediante intervención coronaria percutánea con colocación de stent en la descendente anterior. Posteriormente presentó enfermedad arterial periférica sintomática con claudicación intermitente y fue sometido a revascularización femoropoplítea.
+
+Actualmente se encuentra asintomático desde el punto de vista coronario. Recibe rosuvastatina 40 mg al día, ezetimiba 10 mg al día, ácido acetilsalicílico, tratamiento antihipertensivo y manejo intensivo de diabetes mellitus tipo 2.
+
+Su perfil lipídico actual muestra colesterol total 128 mg/dL, LDL-C 61 mg/dL, HDL-C 38 mg/dL y triglicéridos 145 mg/dL. La función hepática es normal. No refiere mialgias ni otros efectos adversos.
+
+El paciente pregunta si debe continuar con la combinación de estatina y ezetimiba porque su LDL-C ya se encuentra por debajo de 70 mg/dL y considera que una cifra de 61 mg/dL es suficientemente baja para suspender la terapia adicional.
+
+Se revisan sus antecedentes y se confirma que tiene enfermedad aterosclerótica establecida en más de un territorio vascular.`,
+    pregunta: "¿Cuál es el objetivo y estrategia de reducción de LDL-C más apropiada?",
+    opciones: [
+        "Mantener LDL-C por debajo de 100 mg/dL porque ya presentó un evento cardiovascular",
+        "Mantener LDL-C por debajo de 70 mg/dL y suspender ezetimiba porque ya alcanzó el objetivo",
+        "Considerarlo de muy alto riesgo y mantener una estrategia intensiva orientada a LDL-C menor de 55 mg/dL, utilizando tratamiento combinado cuando sea necesario",
+        "Elevar deliberadamente el LDL-C hasta aproximadamente 80 mg/dL para evitar alteraciones hormonales",
+        "Suspender la estatina y mantener únicamente ezetimiba debido al LDL-C actual"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. El paciente tiene enfermedad aterosclerótica clínica establecida y, por la combinación de enfermedad coronaria y arterial periférica, pertenece a un grupo de riesgo cardiovascular muy alto.
+
+La guía ACC/AHA 2026 establece un objetivo de LDL-C menor de 55 mg/dL en pacientes con enfermedad cardiovascular aterosclerótica de muy alto riesgo para prevención secundaria. La guía ESC/EAS mantiene también objetivos intensivos de LDL-C en pacientes de muy alto riesgo.
+
+Un LDL-C de 61 mg/dL representa un excelente descenso respecto al basal, pero todavía está por encima del objetivo de <55 mg/dL para el escenario planteado. Por ello, no existe fundamento para suspender ezetimiba. La combinación de estatina de alta intensidad y ezetimiba permite alcanzar reducciones adicionales sin necesidad de aumentar indefinidamente la dosis de estatina.
+
+Si a pesar de estatina máxima tolerada y ezetimiba permanece por encima del objetivo, debe considerarse una terapia no estatínica adicional, particularmente un inhibidor de PCSK9 en el contexto de prevención secundaria de muy alto riesgo.
+
+El concepto fundamental es que alcanzar LDL-C <70 mg/dL ya no debe considerarse automáticamente suficiente en todos los pacientes con ASCVD establecida.`,
+    perlaENARM: `En prevención secundaria de muy alto riesgo, piensa LDL-C <55 mg/dL. Si la estatina no alcanza el objetivo, combina: estatina → ezetimiba → terapia adicional según riesgo y magnitud del descenso requerido.`,
+    gpc: {
+        mexico: "IMSS-233-09, Diagnóstico y Tratamiento de las Dislipidemias; la GPC mexicana institucional es antigua y debe complementarse con las recomendaciones internacionales actuales.",
+        internacional: "2026 ACC/AHA/AACVPR/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Dyslipidemia; 2025 ESC/EAS Focused Update of the Dyslipidaemia Guidelines."
+    },
+    bibliografia: "2026 ACC/AHA Dyslipidemia Guideline; 2025 ESC/EAS Dyslipidaemia Focused Update; IMPROVE-IT; FOURIER; ODYSSEY OUTCOMES; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-382",
+    especialidad: "Cardiología",
+    tema: "Prevención cardiovascular",
+    subtema: "Calcio coronario y decisión de tratamiento con estatinas",
+    dificultad: "Extrema",
+    caso: `Mujer de 52 años sin enfermedad cardiovascular conocida consulta para decidir si debe iniciar tratamiento farmacológico para prevención primaria. Tiene hipertensión arterial controlada, no fuma, no tiene diabetes y presenta IMC de 29 kg/m².
+
+Perfil lipídico: colesterol total 218 mg/dL, LDL-C 143 mg/dL, HDL-C 58 mg/dL y triglicéridos 94 mg/dL. La función renal es normal. Su padre presentó un infarto a los 54 años.
+
+La estimación de riesgo cardiovascular a 10 años se encuentra en una categoría en la que existe incertidumbre sobre el inicio de estatina. La paciente desea evitar medicamentos si el beneficio absoluto es pequeño.
+
+Se realiza una tomografía coronaria sin contraste para cuantificar calcio coronario. El CAC es de 0 Agatston. No presenta enfermedad inflamatoria crónica, diabetes, tabaquismo ni hipercolesterolemia severa. La Lp(a) es normal.
+
+La paciente pregunta si un CAC de cero significa que nunca tendrá enfermedad cardiovascular y si debe olvidarse del colesterol.`,
+    pregunta: "¿Cuál es la interpretación más apropiada?",
+    opciones: [
+        "CAC de 0 significa ausencia definitiva de aterosclerosis y elimina cualquier indicación futura de tratamiento",
+        "CAC de 0 puede reclasificar hacia menor riesgo y apoyar una decisión de diferir estatina en pacientes seleccionados, pero no elimina el riesgo de por vida ni sustituye el seguimiento de factores de riesgo",
+        "CAC de 0 obliga a iniciar inmediatamente un inhibidor de PCSK9",
+        "CAC de 0 demuestra enfermedad coronaria no calcificada avanzada",
+        "El CAC no tiene ningún papel en prevención primaria"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. El calcio coronario es una herramienta de reclasificación del riesgo, no una prueba que determine que una persona nunca desarrollará aterosclerosis.
+
+En adultos seleccionados con riesgo limítrofe o intermedio cuando existe incertidumbre sobre el tratamiento, la medición de CAC puede ayudar a personalizar la decisión. Un CAC de 0 se asocia con un riesgo relativamente bajo a corto plazo y puede apoyar la decisión de diferir tratamiento farmacológico en pacientes seleccionados, siempre que no existan condiciones que modifiquen sustancialmente esta interpretación.
+
+El resultado no significa que no exista placa no calcificada y tampoco elimina el riesgo futuro. La edad, antecedentes familiares, Lp(a), diabetes, tabaquismo, LDL-C y otros factores continúan siendo relevantes.
+
+La guía ACC/AHA 2026 utiliza CAC de manera selectiva, particularmente en hombres de 40 años o más y mujeres de 45 años o más con riesgo limítrofe o intermedio cuando el resultado puede cambiar la decisión terapéutica.
+
+En este caso, el CAC de 0 permite una conversación individualizada sobre diferir estatina, pero requiere continuar intervenciones sobre presión arterial, alimentación, peso, actividad física y vigilancia del perfil de riesgo.`,
+    perlaENARM: `CAC = herramienta de reclasificación. CAC 0 reduce riesgo estimado, pero no equivale a ausencia absoluta de aterosclerosis ni elimina el seguimiento.`,
+    gpc: {
+        mexico: "IMSS-233-09, Diagnóstico y Tratamiento de las Dislipidemias; la GPC institucional no incorpora las recomendaciones modernas de CAC con el mismo nivel de detalle.",
+        internacional: "2026 ACC/AHA Dyslipidemia Guideline; 2025 ESC/EAS Focused Update."
+    },
+    bibliografia: "2026 ACC/AHA Dyslipidemia Guideline; MESA studies; 2025 ESC/EAS Dyslipidaemia Focused Update; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-383",
+    especialidad: "Cardiología",
+    tema: "Prevención cardiovascular",
+    subtema: "Lipoproteína(a) como modificador de riesgo",
+    dificultad: "Extrema",
+    caso: `Varón de 48 años sin enfermedad cardiovascular conocida consulta para prevención primaria. No fuma, tiene presión arterial de 128/76 mmHg, IMC 25 kg/m² y no tiene diabetes.
+
+Perfil lipídico: colesterol total 184 mg/dL, LDL-C 101 mg/dL, HDL-C 52 mg/dL y triglicéridos 112 mg/dL. Su riesgo cardiovascular calculado no parece elevado.
+
+Su madre presentó un infarto a los 49 años y un hermano fue sometido a revascularización coronaria a los 51 años. Debido a la historia familiar se solicita Lp(a), que resulta de 210 nmol/L.
+
+El paciente pregunta si debe repetirse la Lp(a) cada seis meses para verificar si está bajando con dieta y ejercicio. También pregunta si existe actualmente un fármaco cuyo objetivo principal sea disminuir Lp(a) y que haya demostrado reducción de eventos cardiovasculares en prevención primaria.
+
+El LDL-C permanece alrededor de 100 mg/dL después de intervenciones de estilo de vida.`,
+    pregunta: "¿Cuál es la interpretación y conducta más apropiada?",
+    opciones: [
+        "La Lp(a) es irrelevante si el LDL-C es menor de 130 mg/dL",
+        "La Lp(a) elevada es principalmente adquirida por dieta y debe repetirse cada tres meses",
+        "La Lp(a) elevada constituye un modificador importante del riesgo; debe intensificarse el control de factores modificables, especialmente LDL-C, aunque actualmente la reducción específica de Lp(a) no constituye una estrategia con beneficio cardiovascular demostrado para prevención rutinaria",
+        "Debe iniciar fibrato porque la Lp(a) elevada representa una hipertrigliceridemia genética",
+        "Debe recibir niacina como tratamiento estándar para reducir eventos asociados a Lp(a)"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. La Lp(a) está determinada en gran medida genéticamente y permanece relativamente estable durante la vida adulta. Por ello, las guías actuales recomiendan medirla al menos una vez en la adultez para identificar individuos con riesgo incrementado.
+
+La guía ACC/AHA 2026 considera ≥125 nmol/L o ≥50 mg/dL como un nivel asociado con incremento relevante del riesgo. En este paciente, 210 nmol/L es claramente elevado.
+
+La Lp(a) no debe interpretarse como un sustituto del LDL-C. Su presencia debe llevar a una estrategia preventiva más intensiva sobre los factores modificables, particularmente LDL-C, presión arterial, tabaquismo, diabetes y estilo de vida.
+
+Actualmente existen terapias dirigidas específicamente contra Lp(a) en desarrollo, pero la reducción farmacológica de Lp(a) todavía no constituye una estrategia rutinaria con beneficio clínico demostrado para prevenir eventos en la práctica habitual. Por ello, no se recomienda niacina únicamente con este objetivo.
+
+La medición repetida cada pocos meses tampoco suele ser útil porque la concentración es relativamente estable y los cambios por estilo de vida suelen ser pequeños.`,
+    perlaENARM: `Lp(a) elevada = riesgo genético residual. Mídela al menos una vez en la vida adulta. Hoy la estrategia clínica principal es intensificar la prevención global, especialmente LDL-C.`,
+    gpc: {
+        mexico: "IMSS-233-09, Diagnóstico y Tratamiento de las Dislipidemias; no contiene la actualización contemporánea sobre Lp(a).",
+        internacional: "2026 ACC/AHA Dyslipidemia Guideline; 2025 ESC/EAS Focused Update of Dyslipidaemia Guidelines."
+    },
+    bibliografia: "2026 ACC/AHA Dyslipidemia Guideline; 2025 ESC/EAS Dyslipidaemia Focused Update; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-384",
+    especialidad: "Cardiología",
+    tema: "Prevención cardiovascular",
+    subtema: "Apolipoproteína B y riesgo residual",
+    dificultad: "Extrema",
+    caso: `Mujer de 57 años con diabetes mellitus tipo 2, obesidad y síndrome cardiometabólico consulta para valorar riesgo cardiovascular residual. No tiene enfermedad cardiovascular clínica conocida.
+
+Recibe atorvastatina 40 mg al día. Su perfil lipídico muestra LDL-C 68 mg/dL, colesterol no HDL 103 mg/dL, triglicéridos 176 mg/dL y HDL-C 35 mg/dL. HbA1c 7.2%.
+
+A pesar de haber alcanzado un LDL-C aparentemente favorable, persisten hipertrigliceridemia moderada, obesidad abdominal y diabetes. El médico solicita ApoB, que resulta de 104 mg/dL.
+
+La paciente pregunta cómo puede existir riesgo residual si su LDL-C ya se encuentra por debajo de 70 mg/dL.`,
+    pregunta: "¿Cuál es la interpretación más apropiada del ApoB en este contexto?",
+    opciones: [
+        "El ApoB no aporta información adicional cuando el LDL-C es menor de 70 mg/dL",
+        "El ApoB puede ayudar a identificar una carga aterogénica residual subestimada por LDL-C, especialmente con diabetes y triglicéridos elevados",
+        "El ApoB debe utilizarse exclusivamente para diagnosticar hipercolesterolemia familiar",
+        "Un ApoB elevado demuestra obligatoriamente una mutación del receptor LDL",
+        "El ApoB reemplaza completamente al LDL-C en todos los pacientes"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. LDL-C cuantifica la masa de colesterol contenida en las partículas LDL y otras lipoproteínas que pueden contribuir al transporte aterogénico, mientras que ApoB refleja el número de partículas aterogénicas que contienen una molécula de ApoB por partícula.
+
+Cuando existe diabetes, hipertrigliceridemia, obesidad o síndrome cardiometabólico, puede existir discordancia entre LDL-C y número de partículas aterogénicas. En esas circunstancias, el LDL-C puede parecer relativamente bajo mientras el número de partículas aterogénicas permanece elevado.
+
+La guía ACC/AHA 2026 señala que ApoB puede ser útil para valorar riesgo residual y orientar intensificación terapéutica particularmente en pacientes con triglicéridos elevados, diabetes, síndrome cardiovascular-renal-metabólico o enfermedad cardiovascular establecida después de alcanzar objetivos de LDL-C/no-HDL-C.
+
+ApoB no sustituye universalmente al LDL-C y tampoco demuestra por sí solo una enfermedad genética específica. Su utilidad depende del contexto clínico.
+
+En este caso, la discordancia entre LDL-C de 68 mg/dL y ApoB de 104 mg/dL es clínicamente relevante y obliga a una evaluación global del riesgo residual y de la intensidad de tratamiento.`,
+    perlaENARM: `LDL-C bajo + TG elevados + diabetes/metabolismo alterado = piensa en discordancia LDL-C/ApoB. ApoB representa número de partículas aterogénicas y puede revelar riesgo residual.`,
+    gpc: {
+        mexico: "IMSS-233-09, Diagnóstico y Tratamiento de las Dislipidemias.",
+        internacional: "2026 ACC/AHA Dyslipidemia Guideline; 2025 ESC/EAS Focused Update."
+    },
+    bibliografia: "2026 ACC/AHA Dyslipidemia Guideline; 2025 ESC/EAS Dyslipidaemia Focused Update; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-385",
+    especialidad: "Cardiología",
+    tema: "Dislipidemia genética",
+    subtema: "Hipercolesterolemia familiar heterocigota",
+    dificultad: "Extrema",
+    caso: `Varón de 37 años consulta por hipercolesterolemia persistente desde la adolescencia. Su padre falleció por infarto agudo de miocardio a los 48 años. Una hermana de 34 años tiene LDL-C de 248 mg/dL.
+
+El paciente nunca ha recibido tratamiento farmacológico. Su perfil actual muestra colesterol total 328 mg/dL, LDL-C 252 mg/dL, HDL-C 47 mg/dL y triglicéridos 143 mg/dL. TSH, transaminasas y creatinina son normales. No presenta síndrome nefrótico ni datos de hipotiroidismo.
+
+En la exploración se observan xantomas tendinosos en ambos tendones de Aquiles y engrosamiento del tendón extensor de las manos. Presenta arco corneal precoz.
+
+Una prueba genética identifica una variante patogénica heterocigota en el gen del receptor LDL.
+
+El paciente pregunta si basta con recomendar dieta durante seis meses antes de iniciar tratamiento farmacológico.`,
+    pregunta: "¿Cuál es la estrategia terapéutica más apropiada?",
+    opciones: [
+        "Recomendar únicamente dieta y repetir LDL-C en un año",
+        "Iniciar estatina de alta intensidad de inmediato y evaluar respuesta para añadir tratamiento no estatínico si no alcanza el objetivo",
+        "Iniciar exclusivamente fibrato porque el trastorno es genético",
+        "Utilizar únicamente ezetimiba porque las estatinas no tienen efecto en hipercolesterolemia familiar",
+        "Esperar a que aparezca enfermedad cardiovascular clínica antes de tratar"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. El paciente tiene hipercolesterolemia familiar heterocigota con LDL-C sin tratamiento mayor de 190 mg/dL, xantomas tendinosos y fuerte historia familiar de enfermedad coronaria prematura. La identificación de una variante patogénica del receptor LDL confirma el trastorno genético.
+
+La hipercolesterolemia familiar es una condición de alto riesgo de aterosclerosis prematura y requiere tratamiento farmacológico temprano. Las modificaciones del estilo de vida son indispensables, pero no sustituyen la terapia farmacológica cuando el LDL-C basal es tan elevado.
+
+La estrategia comienza con una estatina de alta intensidad a la dosis máxima tolerada. Posteriormente se agrega ezetimiba si el objetivo no se alcanza. En pacientes con riesgo elevado y persistencia de LDL-C por encima del objetivo pueden utilizarse inhibidores de PCSK9 u otras terapias no estatínicas.
+
+Además, el diagnóstico obliga a realizar evaluación de familiares de primer grado mediante cribado en cascada. El objetivo no es solamente tratar al caso índice sino identificar familiares afectados antes de que desarrollen aterosclerosis clínica.
+
+El fibrato no es el tratamiento principal de la hipercolesterolemia familiar porque su efecto sobre LDL-C es insuficiente.`,
+    perlaENARM: `LDL-C ≥190 mg/dL sin causa secundaria = sospecha hipercolesterolemia familiar. Xantomas tendinosos + enfermedad coronaria prematura familiar = pista mayor. Trata temprano y realiza cribado en cascada.`,
+    gpc: {
+        mexico: "IMSS-233-09, Diagnóstico y Tratamiento de las Dislipidemias; establece sospecha de hipercolesterolemia familiar ante LDL-C >190 mg/dL y antecedentes familiares compatibles.",
+        internacional: "2026 ACC/AHA Dyslipidemia Guideline; 2025 ESC/EAS Focused Update."
+    },
+    bibliografia: "2026 ACC/AHA Dyslipidemia Guideline; 2025 ESC/EAS Dyslipidaemia Focused Update; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-386",
+    especialidad: "Cardiología",
+    tema: "Dislipidemia",
+    subtema: "PCSK9 en prevención secundaria",
+    dificultad: "Extrema",
+    caso: `Mujer de 63 años con antecedente de dos infartos agudos de miocardio, el último hace 8 meses, y enfermedad arterial periférica consulta por persistencia de LDL-C elevado a pesar de tratamiento intensivo.
+
+Recibe rosuvastatina 40 mg al día y ezetimiba 10 mg al día. La adherencia ha sido confirmada. Su LDL-C actual es 93 mg/dL. No presenta intolerancia muscular, transaminasas normales y función renal conservada.
+
+Debido a su enfermedad cardiovascular aterosclerótica multiterritorial se considera de muy alto riesgo. El objetivo terapéutico establecido es LDL-C menor de 55 mg/dL.
+
+Se discute agregar bempedoico, inclisiran o un anticuerpo monoclonal contra PCSK9. La paciente necesita una reducción adicional importante del LDL-C y pregunta cuál de las alternativas tiene evidencia más consolidada de reducción de eventos cardiovasculares en prevención secundaria.`,
+    pregunta: "¿Cuál es la mejor opción entre las siguientes para el escenario descrito?",
+    opciones: [
+        "Continuar exclusivamente con rosuvastatina porque ya recibe una estatina de alta intensidad",
+        "Agregar un inhibidor monoclonal de PCSK9 por la necesidad de una reducción importante del LDL-C y la evidencia de reducción de eventos cardiovasculares",
+        "Suspender la estatina y utilizar únicamente inclisiran",
+        "Cambiar a fibrato como estrategia principal para alcanzar LDL-C <55 mg/dL",
+        "Utilizar únicamente suplementos de omega-3 no farmacológicos"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. Esta paciente tiene enfermedad cardiovascular aterosclerótica muy establecida y persiste muy por encima del objetivo de LDL-C a pesar de estatina de alta intensidad y ezetimiba.
+
+Los anticuerpos monoclonales contra PCSK9, como evolocumab y alirocumab, producen una reducción marcada del LDL-C y cuentan con evidencia de reducción de eventos cardiovasculares en prevención secundaria. Por ello son una opción especialmente apropiada cuando se necesita un descenso adicional considerable.
+
+La guía ACC/AHA 2026 mantiene a las estatinas como base del tratamiento y recomienda añadir terapias no estatínicas cuando el LDL-C permanece por encima del objetivo. Ezetimiba, bempedoico y anticuerpos PCSK9 son opciones con evidencia clínica para distintos escenarios.
+
+Inclisiran reduce LDL-C mediante silenciamiento de PCSK9 y tiene la ventaja de administración poco frecuente, pero la guía ACC/AHA 2026 señala que todavía se estudia si la reducción de LDL-C con inclisiran se traduce en reducción de eventos cardiovasculares. Por eso, cuando la pregunta enfatiza evidencia de desenlaces cardiovasculares en prevención secundaria, los anticuerpos monoclonales PCSK9 tienen una posición más sólida.
+
+La elección final también puede depender de acceso, costo, adherencia y preferencia del paciente.`,
+    perlaENARM: `PCSK9 monoclonal = gran reducción de LDL-C + evidencia de reducción de eventos. Inclisiran baja LDL-C, pero en 2026 la evidencia de desenlaces cardiovasculares todavía está en evolución.`,
+    gpc: {
+        mexico: "IMSS-233-09, Diagnóstico y Tratamiento de las Dislipidemias; la disponibilidad de terapias PCSK9 debe individualizarse según contexto institucional.",
+        internacional: "2026 ACC/AHA Dyslipidemia Guideline; 2025 ESC/EAS Focused Update."
+    },
+    bibliografia: "2026 ACC/AHA Dyslipidemia Guideline; 2025 ESC/EAS Dyslipidaemia Focused Update; FOURIER; ODYSSEY OUTCOMES; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-387",
+    especialidad: "Cardiología",
+    tema: "Dislipidemia",
+    subtema: "Intolerancia a estatinas y ácido bempedoico",
+    dificultad: "Extrema",
+    caso: `Varón de 66 años con enfermedad arterial coronaria establecida ha presentado mialgias con diferentes estatinas. Con atorvastatina 80 mg desarrolló dolor muscular difuso, con CK tres veces el límite superior de normalidad, que desapareció después de suspender el fármaco. Posteriormente se intentó rosuvastatina 10 mg en días alternos y presentó nuevamente síntomas musculares, aunque con CK normal.
+
+Actualmente LDL-C es 126 mg/dL. Ha recibido ezetimiba 10 mg al día y la tolera adecuadamente. Se han descartado hipotiroidismo, déficit de vitamina D clínicamente relevante, interacciones farmacológicas y enfermedad muscular primaria.
+
+El paciente no acepta un nuevo intento con estatina porque los síntomas afectaron considerablemente su calidad de vida. Tiene antecedente de infarto de miocardio y, por tanto, requiere reducción intensa del LDL-C.
+
+Se plantea iniciar ácido bempedoico.`,
+    pregunta: "¿Cuál es la interpretación más apropiada?",
+    opciones: [
+        "La ausencia de estatina implica que no existe ninguna terapia efectiva para reducir el riesgo",
+        "El ácido bempedoico es una opción basada en evidencia para pacientes que no pueden tolerar estatinas, especialmente cuando necesitan reducción adicional de LDL-C",
+        "El ácido bempedoico debe utilizarse únicamente cuando los triglicéridos superan 500 mg/dL",
+        "Debe utilizarse niacina como sustituto obligatorio de la estatina",
+        "Los suplementos dietéticos tienen la misma evidencia de reducción de eventos que el ácido bempedoico"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. El paciente presenta intolerancia clínicamente relevante a estatinas después de varios intentos y mantiene un LDL-C muy por encima del objetivo para prevención secundaria.
+
+La guía ACC/AHA 2026 incluye bempedoico entre las terapias no estatínicas basadas en evidencia que pueden utilizarse cuando el LDL-C no se controla adecuadamente con estatinas o cuando existe incapacidad para tolerarlas.
+
+El ácido bempedoico inhibe ATP-citrato liasa, una enzima situada por encima de HMG-CoA reductasa en la síntesis hepática de colesterol. Su activación ocurre predominantemente en el hígado, lo que explica su perfil muscular favorable relativo respecto a estatinas.
+
+En prevención secundaria, si el paciente no puede utilizar estatinas, deben considerarse terapias no estatínicas con evidencia de beneficio clínico. Ezetimiba y bempedoico pueden utilizarse solos o combinados, y los inhibidores PCSK9 son otra alternativa potente.
+
+Debe vigilarse ácido úrico y riesgo de hiperuricemia/gota, así como otras posibles reacciones adversas e interacciones.
+
+Los suplementos dietéticos no sustituyen las terapias farmacológicas con evidencia de reducción de eventos cardiovasculares.`,
+    perlaENARM: `Bempedoico: opción oral útil en intolerancia a estatinas. Actúa inhibiendo ATP-citrato liasa y tiene menor exposición muscular directa. Vigila hiperuricemia/gota.`,
+    gpc: {
+        mexico: "IMSS-233-09, Diagnóstico y Tratamiento de las Dislipidemias; el bempedoico no forma parte de esa GPC institucional antigua.",
+        internacional: "2026 ACC/AHA Dyslipidemia Guideline; 2025 ESC/EAS Focused Update."
+    },
+    bibliografia: "2026 ACC/AHA Dyslipidemia Guideline; 2025 ESC/EAS Dyslipidaemia Focused Update; CLEAR Outcomes; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-388",
+    especialidad: "Cardiología",
+    tema: "Hipertrigliceridemia",
+    subtema: "Icosapento etilo y riesgo cardiovascular residual",
+    dificultad: "Extrema",
+    caso: `Mujer de 68 años con antecedente de infarto agudo de miocardio hace dos años, diabetes mellitus tipo 2 e hipertensión arterial se encuentra en tratamiento con atorvastatina 40 mg al día.
+
+LDL-C actual 63 mg/dL, HDL-C 41 mg/dL y triglicéridos en ayuno 238 mg/dL. HbA1c 7.0%. No consume alcohol de manera significativa. La función renal y hepática son adecuadas.
+
+Se confirma adherencia a la estatina, dieta razonable y ausencia de hipotiroidismo o fármacos causantes de hipertrigliceridemia secundaria.
+
+La paciente pregunta si debe recibir un fibrato para disminuir los triglicéridos o si existe otra estrategia farmacológica que haya demostrado reducir eventos cardiovasculares en pacientes de alto riesgo con triglicéridos persistentemente elevados a pesar de estatina.`,
+    pregunta: "¿Cuál es la estrategia más apropiada para reducción del riesgo cardiovascular residual?",
+    opciones: [
+        "Cambiar la estatina por un fibrato",
+        "Agregar niacina porque disminuye HDL-C y triglicéridos",
+        "Considerar icosapento etilo a dosis de 2 g cada 12 horas en el contexto apropiado, además de mantener la estatina y el control integral del riesgo",
+        "Suspender la estatina porque el principal objetivo son los triglicéridos",
+        "Utilizar exclusivamente aceite de pescado de venta libre"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. Esta paciente tiene enfermedad cardiovascular establecida, diabetes y triglicéridos persistentemente elevados a pesar de estatina, con LDL-C adecuadamente controlado.
+
+La actualización ESC/EAS 2025 considera el uso de icosapento etilo a dosis de 2 g dos veces al día en pacientes seleccionados de alto o muy alto riesgo con triglicéridos persistentemente elevados pese a tratamiento con estatina para reducir riesgo cardiovascular.
+
+El punto fundamental es que el objetivo principal en prevención cardiovascular sigue siendo el control del LDL-C. El tratamiento de triglicéridos moderadamente elevados se considera una estrategia complementaria, no un sustituto de la estatina.
+
+Los resultados de REDUCE-IT demostraron reducción de eventos cardiovasculares con icosapento etilo en pacientes seleccionados tratados con estatina y triglicéridos elevados. Estos resultados no deben extrapolarse automáticamente a suplementos genéricos de aceite de pescado.
+
+Los fibratos tienen un papel diferente y pueden ser particularmente relevantes cuando los triglicéridos son muy elevados y existe preocupación por pancreatitis, pero no deben sustituir automáticamente el tratamiento basado en estatina para prevención de ASCVD.`,
+    perlaENARM: `TG 135–499 mg/dL + ASCVD o alto riesgo + estatina + LDL controlado = considera icosapento etilo en el paciente apropiado. No confundas aceite de pescado OTC con icosapento etilo farmacológico.`,
+    gpc: {
+        mexico: "IMSS-233-09, Diagnóstico y Tratamiento de las Dislipidemias.",
+        internacional: "2025 ESC/EAS Focused Update of the Dyslipidaemia Guidelines; 2026 ACC/AHA Dyslipidemia Guideline."
+    },
+    bibliografia: "2025 ESC/EAS Dyslipidaemia Focused Update; REDUCE-IT; 2026 ACC/AHA Dyslipidemia Guideline; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-389",
+    especialidad: "Cardiología",
+    tema: "Síndrome coronario agudo",
+    subtema: "Intensificación inmediata de tratamiento hipolipemiante después de SCA",
+    dificultad: "Extrema",
+    caso: `Varón de 57 años ingresa por un infarto agudo de miocardio con elevación del ST y es sometido a intervención coronaria percutánea primaria. Antes del evento no recibía tratamiento hipolipemiante.
+
+Al ingreso presenta colesterol total 214 mg/dL, LDL-C 137 mg/dL, HDL-C 39 mg/dL y triglicéridos 184 mg/dL. No tiene enfermedad renal avanzada ni alteración hepática.
+
+Después de la reperfusión permanece estable. El residente propone esperar seis semanas para repetir el perfil lipídico y posteriormente decidir si necesita algo más que una estatina.
+
+El cardiólogo propone iniciar desde la hospitalización una estatina de alta intensidad y añadir ezetimiba debido a la magnitud de reducción de LDL-C requerida y al riesgo extremadamente elevado durante el periodo posterior al evento.`,
+    pregunta: "¿Cuál es la estrategia más acorde con las recomendaciones contemporáneas?",
+    opciones: [
+        "Esperar seis semanas sin iniciar tratamiento hipolipemiante",
+        "Iniciar estatina de alta intensidad durante la hospitalización y considerar intensificación temprana con ezetimiba y otras terapias no estatínicas según LDL-C basal y objetivo esperado",
+        "Iniciar únicamente fibrato porque los triglicéridos son mayores de 150 mg/dL",
+        "Esperar a que el LDL-C se eleve nuevamente después del alta",
+        "Utilizar únicamente un suplemento de omega-3 durante el primer mes"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. La actualización ESC/EAS 2025 modifica de forma importante el enfoque posterior al síndrome coronario agudo al favorecer una intensificación temprana del tratamiento hipolipemiante durante la hospitalización índice.
+
+El riesgo de eventos recurrentes es particularmente elevado durante las primeras semanas y meses después del SCA. Por ello, esperar varias semanas para decidir la intensidad del tratamiento retrasa la obtención del objetivo de LDL-C.
+
+En pacientes sin tratamiento previo en quienes es improbable alcanzar el objetivo de LDL-C con estatina de alta intensidad sola, la ESC/EAS 2025 considera razonable iniciar durante la hospitalización una combinación de estatina de alta intensidad más ezetimiba.
+
+La selección de una terapia adicional depende del LDL-C basal, objetivo individual, magnitud de reducción requerida, tratamientos previos y disponibilidad.
+
+El tratamiento no debe esperar a una segunda determinación ambulatoria. Sin embargo, el perfil lipídico debe repetirse posteriormente para evaluar la respuesta y ajustar la estrategia.
+
+El caso también evalúa el principio de que LDL-C debe reducirse precozmente después de un evento aterotrombótico mayor.`,
+    perlaENARM: `Después de un SCA, no esperes semanas para decidir si el paciente llegará a objetivo. ESC 2025 favorece intensificación durante la hospitalización índice cuando la estatina sola probablemente no será suficiente.`,
+    gpc: {
+        mexico: "IMSS-233-09, Diagnóstico y Tratamiento de las Dislipidemias; debe complementarse con la GPC mexicana específica de SCA cuando corresponda.",
+        internacional: "2025 ESC/EAS Focused Update of Dyslipidaemia Guidelines; 2026 ACC/AHA Dyslipidemia Guideline."
+    },
+    bibliografia: "2025 ESC/EAS Dyslipidaemia Focused Update; 2023 ESC ACS Guideline; IMPROVE-IT; FOURIER; ODYSSEY OUTCOMES; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-390",
+    especialidad: "Cardiología",
+    tema: "Prevención cardiovascular",
+    subtema: "Diabetes, enfermedad renal crónica y tratamiento hipolipemiante independientemente del LDL-C",
+    dificultad: "Extrema",
+    caso: `Mujer de 64 años con diabetes mellitus tipo 2 de 12 años de evolución y enfermedad renal crónica G3b consulta para valoración cardiovascular preventiva. Nunca ha presentado infarto, EVC ni enfermedad arterial periférica.
+
+Recibe metformina y un inhibidor SGLT2. No fuma. PA 128/72 mmHg. HbA1c 6.9%. TFGe 42 mL/min/1.73 m² y albuminuria de 220 mg/g.
+
+Perfil lipídico: colesterol total 146 mg/dL, LDL-C 74 mg/dL, HDL-C 49 mg/dL y triglicéridos 116 mg/dL. Nunca ha utilizado estatinas porque su médico anterior consideraba que un LDL-C menor de 100 mg/dL no justificaba tratamiento en ausencia de enfermedad cardiovascular clínica.
+
+La paciente pregunta si realmente necesita una estatina debido a que su LDL-C ya es relativamente bajo.`,
+    pregunta: "¿Cuál es la conducta preventiva más apropiada?",
+    opciones: [
+        "No iniciar tratamiento porque el LDL-C es menor de 100 mg/dL",
+        "Iniciar tratamiento hipolipemiante porque la diabetes y la enfermedad renal crónica G3b la colocan en un grupo en el que se recomienda tratamiento reductor de LDL-C independientemente del LDL-C basal",
+        "Esperar hasta que aparezca enfermedad cardiovascular clínica",
+        "Utilizar fibrato porque la enfermedad renal contraindica las estatinas",
+        "Solicitar CAC obligatoriamente antes de considerar cualquier estatina"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. La guía ACC/AHA 2026 recomienda tratamiento reductor de LDL-C para prevención primaria en adultos de 40 a 75 años con diabetes mellitus o enfermedad renal crónica estadio 3 o 4, independientemente del LDL-C basal.
+
+Por tanto, el LDL-C de 74 mg/dL no elimina la indicación de tratamiento en esta paciente. El riesgo cardiovascular se determina por el conjunto de factores y no únicamente por una cifra aislada de LDL-C.
+
+La enfermedad renal crónica es un potente marcador de riesgo cardiovascular y esta paciente además tiene diabetes y albuminuria. La estrategia debe incluir estatina como base, junto con control de presión arterial, diabetes, tabaquismo, peso, actividad física y tratamiento cardiorrenal integral.
+
+El CAC no es obligatorio antes de tratar a una paciente que ya presenta condiciones que por sí mismas justifican tratamiento. La medición de CAC puede ser útil cuando existe incertidumbre sobre decisiones terapéuticas, pero no debe convertirse en requisito universal.
+
+Los fibratos no sustituyen a las estatinas para prevención de ASCVD cuando el problema principal es riesgo aterosclerótico con LDL-C y triglicéridos moderadamente controlados.`,
+    perlaENARM: `En adultos de 40–75 años con diabetes o ERC G3–G4, la indicación de tratamiento hipolipemiante puede existir independientemente del LDL-C basal. No esperes a que aparezca ASCVD clínica.`,
+    gpc: {
+        mexico: "IMSS-233-09, Diagnóstico y Tratamiento de las Dislipidemias; complementada por las GPC mexicanas correspondientes a diabetes y enfermedad renal crónica.",
+        internacional: "2026 ACC/AHA Dyslipidemia Guideline; 2025 ESC/EAS Focused Update; 2026 ESC Guideline for Cardiovascular Disease and Chronic Kidney Disease."
+    },
+    bibliografia: "2026 ACC/AHA Dyslipidemia Guideline; 2025 ESC/EAS Dyslipidaemia Focused Update; 2026 ESC CVD and CKD Guideline; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+    {
+    id: "CARD-391",
+    especialidad: "Cardiología",
+    tema: "Enfermedad cardiovascular y enfermedad renal crónica",
+    subtema: "Tamizaje cardiorrenal: TFGe y albuminuria",
+    dificultad: "Extrema",
+    caso: `Varón de 62 años con hipertensión arterial, diabetes mellitus tipo 2 y fibrilación auricular permanente acude a consulta de cardiología. Se encuentra clínicamente estable y niega disnea, edema, angina o disminución del volumen urinario.
+
+Actualmente recibe losartán 100 mg al día, amlodipino 10 mg al día, metformina, empagliflozina y apixabán. No tiene antecedente conocido de enfermedad renal crónica.
+
+Creatinina sérica actual 1.32 mg/dL, TFGe estimada 58 mL/min/1.73 m². El examen general de orina no muestra hematuria. Se solicita cociente albúmina/creatinina urinario, que resulta de 185 mg/g.
+
+El paciente refiere que hace aproximadamente ocho meses su creatinina era 1.0 mg/dL, pero no existen mediciones intermedias. No presenta infección urinaria, fiebre, insuficiencia cardiaca descompensada ni exposición reciente a contraste.
+
+El médico considera que la disminución de TFGe y la albuminuria son suficientes para establecer inmediatamente el diagnóstico de enfermedad renal crónica y modificar todos los medicamentos. Otro médico considera que, por tratarse de un hallazgo aislado, no debe hacerse nada hasta que aparezca creatinina mayor de 2 mg/dL.`,
+    pregunta: "¿Cuál es la conducta más apropiada para establecer y manejar el riesgo cardiorrenal?",
+    opciones: [
+        "Descartar enfermedad renal porque la TFGe es mayor de 30 mL/min/1.73 m²",
+        "Establecer ERC únicamente por una medición aislada y suspender inmediatamente el ARA-II y el SGLT2",
+        "Repetir TFGe y albuminuria para demostrar cronicidad, estratificar el riesgo cardiorrenal y mantener/optimizar terapias protectoras mientras se evalúa la evolución",
+        "Esperar hasta que la TFGe sea menor de 30 mL/min/1.73 m² para iniciar intervención",
+        "Utilizar únicamente creatinina sérica y no solicitar albuminuria"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. La enfermedad renal crónica se define por alteraciones de estructura o función renal presentes durante al menos tres meses. Por ello, una sola medición de TFGe reducida o albuminuria no necesariamente demuestra cronicidad.
+
+Sin embargo, el hallazgo es clínicamente importante y no debe ignorarse. La nueva guía ESC 2026 CVD-CKD propone evaluar sistemáticamente TFGe y albuminuria en pacientes con enfermedad cardiovascular y factores de riesgo. La combinación de ambas variables permite estratificar mejor el riesgo cardiovascular y renal.
+
+El cociente albúmina/creatinina de 185 mg/g corresponde a albuminuria moderadamente aumentada y, si persiste, sería un marcador importante de riesgo.
+
+La paciente no debe suspender automáticamente losartán ni empagliflozina. Los inhibidores del sistema renina-angiotensina y los inhibidores SGLT2 forman parte de las estrategias cardiorrenales fundamentales cuando están indicados.
+
+El error ENARM consiste en considerar que la creatinina aislada es suficiente para valorar riesgo renal. La TFGe y la albuminuria deben interpretarse conjuntamente y la cronicidad debe documentarse.`,
+    perlaENARM: `En cardiorrenal piensa siempre en dos ejes: TFGe + albuminuria. Para llamar ERC debes demostrar persistencia ≥3 meses, pero un hallazgo inicial de riesgo no debe ignorarse.`,
+    gpc: {
+        mexico: "IMSS-335-19, Prevención, diagnóstico y tratamiento de la enfermedad renal crónica.",
+        internacional: "2026 ESC Guidelines for the management of cardiovascular disease and chronic kidney disease; 2026 AHA/ACC/ADA/ASN Guideline for Cardiovascular-Kidney-Metabolic Syndrome."
+    },
+    bibliografia: "2026 ESC CVD and CKD Guideline; 2026 AHA/ACC/ADA/ASN CKM Guideline; IMSS-335-19; Harrison's Principles of Internal Medicine; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-392",
+    especialidad: "Cardiología",
+    tema: "Enfermedad cardiovascular y enfermedad renal crónica",
+    subtema: "SGLT2 en diabetes mellitus tipo 2 y enfermedad renal crónica",
+    dificultad: "Extrema",
+    caso: `Mujer de 67 años con diabetes mellitus tipo 2, hipertensión y enfermedad renal crónica consulta para evaluación cardiovascular preventiva. Tiene TFGe de 48 mL/min/1.73 m² y cociente albúmina/creatinina de 420 mg/g.
+
+Recibe metformina, losartán, amlodipino y atorvastatina. HbA1c 7.1%. PA 132/76 mmHg. No presenta síntomas de insuficiencia cardiaca. No tiene antecedente de infarto ni EVC.
+
+Su médico considera que un inhibidor SGLT2 solamente está indicado cuando existe insuficiencia cardiaca o cuando la HbA1c permanece elevada pese a tratamiento convencional. Por ello propone esperar a que empeore el control glucémico.
+
+La paciente pregunta si existe una razón cardiovascular o renal para iniciar un SGLT2 independientemente de la HbA1c.`,
+    pregunta: "¿Cuál es la conducta más apropiada?",
+    opciones: [
+        "No utilizar SGLT2 porque la HbA1c está cerca de 7%",
+        "Iniciar un inhibidor SGLT2 porque la diabetes tipo 2 con ERC y albuminuria constituye un escenario de beneficio cardiorrenal independientemente de que la HbA1c esté controlada",
+        "Esperar a que la TFGe sea menor de 20 mL/min/1.73 m²",
+        "Suspender el ARA-II antes de iniciar SGLT2",
+        "Utilizar exclusivamente un fibrato para reducir el riesgo renal"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. En diabetes mellitus tipo 2 con enfermedad renal crónica, los inhibidores SGLT2 tienen un papel cardiorrenal que va más allá del descenso de glucosa.
+
+La paciente tiene TFGe de 48 mL/min/1.73 m² y albuminuria significativa, por lo que presenta un riesgo elevado de progresión renal y eventos cardiovasculares. Las recomendaciones contemporáneas favorecen el uso de SGLT2 en este contexto incluso cuando la HbA1c se encuentra aparentemente controlada.
+
+El mecanismo protector incluye reducción de la presión intraglomerular y de la hiperfiltración, natriuresis, cambios en la hemodinámica glomerular y efectos cardiovasculares independientes del descenso de glucosa.
+
+Puede observarse una disminución inicial de la TFGe después del inicio, conocida como dip hemodinámico, que no necesariamente representa lesión renal. Debe vigilarse el estado de volumen y el riesgo de efectos adversos como infecciones genitales, cetoacidosis euglucémica en situaciones predisponentes.
+
+El nuevo enfoque ESC 2026 considera IECA/ARA-II y SGLT2 como terapias fundamentales para gran parte de los pacientes con ERC, con modificaciones según etiología y fenotipo.`,
+    perlaENARM: `SGLT2 en DM2 + ERC no es simplemente un medicamento para bajar HbA1c. Es una terapia cardiorrenal. Un dip inicial de TFGe no equivale automáticamente a nefrotoxicidad.`,
+    gpc: {
+        mexico: "IMSS-335-19 para ERC; debe complementarse con las GPC mexicanas de diabetes mellitus tipo 2.",
+        internacional: "2026 ESC CVD and CKD Guideline; 2026 AHA/ACC/ADA/ASN CKM Guideline; ADA Standards of Care 2026."
+    },
+    bibliografia: "2026 ESC CVD and CKD Guideline; 2026 CKM Guideline; EMPA-REG OUTCOME; CREDENCE; DAPA-CKD; EMPA-KIDNEY; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-393",
+    especialidad: "Cardiología",
+    tema: "Enfermedad cardiovascular y enfermedad renal crónica",
+    subtema: "Finerenona en diabetes tipo 2 y ERC albuminúrica",
+    dificultad: "Extrema",
+    caso: `Varón de 61 años con diabetes mellitus tipo 2, hipertensión y enfermedad renal crónica G3b presenta albuminuria persistente a pesar de tratamiento optimizado.
+
+Recibe losartán 100 mg al día, empagliflozina 10 mg al día, metformina y atorvastatina. Su TFGe es de 42 mL/min/1.73 m² y el cociente albúmina/creatinina es de 560 mg/g, confirmado en varias determinaciones durante más de seis meses.
+
+PA 128/74 mmHg. Potasio 4.4 mmol/L. HbA1c 7.0%. No presenta edema ni insuficiencia cardiaca clínica.
+
+El médico propone añadir finerenona debido a la persistencia de albuminuria. El paciente pregunta por qué utilizar otro antagonista mineralocorticoide si ya recibe bloqueo del sistema renina-angiotensina y un SGLT2.`,
+    pregunta: "¿Cuál es la mejor interpretación de esta estrategia?",
+    opciones: [
+        "Finerenona está contraindicada porque ya recibe un ARA-II",
+        "Finerenona puede añadirse en DM2 con ERC albuminúrica seleccionada pese a bloqueo del sistema renina-angiotensina, vigilando estrechamente el potasio",
+        "Finerenona debe sustituir al ARA-II",
+        "Finerenona solo está indicada cuando existe hiperpotasemia",
+        "La albuminuria persistente no tiene valor pronóstico si la HbA1c está controlada"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. Finerenona es un antagonista no esteroideo del receptor mineralocorticoide con evidencia en pacientes con diabetes tipo 2 y enfermedad renal crónica albuminúrica tratados con bloqueo del sistema renina-angiotensina.
+
+El objetivo no es sustituir el ARA-II ni el SGLT2, sino añadir una vía terapéutica complementaria en pacientes seleccionados con riesgo residual renal y cardiovascular.
+
+Los ensayos FIDELIO-DKD y FIGARO-DKD, así como el análisis agrupado FIDELITY, demostraron reducción de desenlaces cardiorrenales en pacientes con DM2 y ERC. La nueva guía ESC 2026 incluye finerenona entre las terapias recomendadas para determinados pacientes con DM2, ERC y albuminuria.
+
+El principal problema de seguridad es la hiperpotasemia. Por ello, antes de iniciar debe comprobarse potasio y TFGe y realizar controles posteriores.
+
+La evidencia de 2025–2026 también muestra que finerenona puede combinarse con SGLT2 en pacientes seleccionados. CONFIDENCE demostró reducción adicional de albuminuria con combinación de finerenona y empagliflozina frente a monoterapia, aunque la selección del paciente y vigilancia siguen siendo esenciales.`,
+    perlaENARM: `DM2 + ERC + albuminuria persistente pese a RASi = piensa finerenona. Antes de prescribirla: revisa K+ y TFGe; el gran enemigo es hiperpotasemia.`,
+    gpc: {
+        mexico: "IMSS-335-19 para ERC; no incorpora las recomendaciones modernas específicas de finerenona.",
+        internacional: "2026 ESC CVD and CKD Guideline; 2026 AHA/ACC/ADA/ASN CKM Guideline; ADA Standards of Care 2026."
+    },
+    bibliografia: "2026 ESC CVD and CKD Guideline; FIDELIO-DKD; FIGARO-DKD; FIDELITY; CONFIDENCE; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-394",
+    especialidad: "Cardiología",
+    tema: "Enfermedad cardiovascular y enfermedad renal crónica",
+    subtema: "Hiperpotasemia durante bloqueo del sistema renina-angiotensina",
+    dificultad: "Extrema",
+    caso: `Mujer de 69 años con insuficiencia cardiaca con fracción de eyección reducida de 32%, diabetes mellitus tipo 2 y enfermedad renal crónica G3b se encuentra en tratamiento con sacubitrilo/valsartán, carvedilol, dapagliflozina y espironolactona.
+
+Después de varios meses presenta potasio de 6.1 mmol/L. Creatinina 1.8 mg/dL, TFGe 34 mL/min/1.73 m². Está clínicamente estable, sin alteraciones electrocardiográficas. Refiere que durante la última semana tomó un suplemento de potasio por recomendación de un familiar.
+
+El residente propone suspender permanentemente sacubitrilo/valsartán y espironolactona porque considera que cualquier hiperpotasemia significa contraindicación definitiva para el bloqueo neurohormonal.`,
+    pregunta: "¿Cuál es la estrategia más apropiada?",
+    opciones: [
+        "Suspender permanentemente todos los fármacos cardiorrenales",
+        "Ignorar la hiperpotasemia porque los beneficios cardiovasculares superan cualquier riesgo",
+        "Tratar la hiperpotasemia, retirar precipitantes como suplementos de potasio, revisar dieta y medicamentos y reevaluar la posibilidad de mantener u optimizar terapias cardiorrenales con monitorización estrecha",
+        "Administrar potasio adicional para evitar oscilaciones",
+        "Suspender exclusivamente dapagliflozina"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. La hiperpotasemia es una complicación importante del bloqueo del sistema renina-angiotensina y de los antagonistas mineralocorticoides, especialmente en enfermedad renal crónica. Sin embargo, la hiperpotasemia no siempre obliga a abandonar definitivamente terapias que reducen mortalidad y progresión de insuficiencia cardiaca.
+
+En esta paciente existe además un precipitante identificable: consumo reciente de suplemento de potasio.
+
+La conducta debe incluir confirmar el resultado, evaluar gravedad y ECG, retirar fuentes exógenas de potasio, revisar otros fármacos que favorezcan hiperpotasemia, valorar estado ácido-base y función renal y tratar la hiperpotasemia de acuerdo con su gravedad.
+
+En pacientes seleccionados pueden utilizarse quelantes intestinales de potasio para facilitar la continuidad de terapias cardiorrenales, además de ajustes temporales de dosis.
+
+La decisión de suspender o reducir temporalmente RAASi/MRA depende de la magnitud y persistencia de la hiperpotasemia y del contexto clínico. El objetivo contemporáneo es evitar la inercia terapéutica y conservar los medicamentos beneficiosos cuando sea seguro hacerlo.`,
+    perlaENARM: `Hiperpotasemia no significa automáticamente "suspender para siempre" IECA/ARA-II/ARNI/MRA. Primero identifica precipitantes y trata el K+, después decide sobre continuidad.`,
+    gpc: {
+        mexico: "IMSS-335-19 para ERC; complementada con guías mexicanas de insuficiencia cardiaca cuando corresponda.",
+        internacional: "2026 ESC CVD and CKD Guideline; 2022 AHA/ACC/HFSA Heart Failure Guideline; 2026 ACC HFpEF guidance cuando aplique al fenotipo."
+    },
+    bibliografia: "2026 ESC CVD and CKD Guideline; 2022 AHA/ACC/HFSA HF Guideline; FIDELITY; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-395",
+    especialidad: "Cardiología",
+    tema: "Insuficiencia cardiaca y enfermedad renal crónica",
+    subtema: "Síndrome cardiorrenal durante insuficiencia cardiaca aguda",
+    dificultad: "Extrema",
+    caso: `Varón de 74 años con insuficiencia cardiaca con FEVI de 30%, hipertensión y ERC G3b ingresa por disnea progresiva, ortopnea y edema de miembros inferiores. A su llegada presenta PA 146/82 mmHg, FC 104 lpm, FR 26 rpm y saturación 89%.
+
+Tiene presión venosa yugular elevada, edema hasta las rodillas y estertores bibasales. Peso 5 kg por encima de su peso seco.
+
+Creatinina inicial 1.7 mg/dL, TFGe 40 mL/min/1.73 m². Después de 48 horas de diuresis intensiva, el paciente pierde 4.5 kg, mejora notablemente la disnea y disminuye la presión venosa yugular. Sin embargo, la creatinina aumenta a 2.1 mg/dL y la TFGe disminuye a aproximadamente 31 mL/min/1.73 m².
+
+El equipo considera suspender inmediatamente los diuréticos porque interpreta el aumento de creatinina como lesión renal causada por el tratamiento.`,
+    pregunta: "¿Cuál es la interpretación más apropiada?",
+    opciones: [
+        "El aumento de creatinina demuestra nefrotoxicidad por diuréticos y obliga a suspenderlos",
+        "La mejoría de la congestión y la pérdida de peso indican respuesta favorable; un aumento moderado de creatinina durante descongestión efectiva puede ser tolerable si no existe hipoperfusión u otra lesión renal",
+        "Debe administrar grandes cantidades de solución salina para proteger el riñón",
+        "Debe suspender todo tratamiento de insuficiencia cardiaca hasta normalizar creatinina",
+        "La creatinina debe ser el único objetivo terapéutico durante la hospitalización"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. En insuficiencia cardiaca aguda, la congestión venosa renal es un determinante importante de deterioro renal. Por ello, una elevación moderada de creatinina durante una descongestión eficaz no significa automáticamente lesión renal irreversible ni debe conducir a abandonar la estrategia de descongestión.
+
+En este caso, el paciente ha perdido 4.5 kg, mejoró la disnea y disminuyó claramente la congestión. Si mantiene adecuada presión arterial y perfusión, el aumento moderado de creatinina puede representar un cambio funcional asociado a la descongestión.
+
+La decisión debe integrar presión arterial, perfusión, diuresis, peso, congestión residual, sodio, función renal y respuesta clínica.
+
+El error frecuente es tratar la creatinina como el único marcador de éxito. En insuficiencia cardiaca aguda, la persistencia de congestión puede ser más peligrosa que una elevación transitoria y moderada de creatinina.
+
+La guía ESC 2026 CVD-CKD enfatiza que el manejo de insuficiencia cardiaca debe modificarse según función renal, pero no debe retrasarse innecesariamente el tratamiento cardiovascular por miedo a cambios modestos en creatinina.`,
+    perlaENARM: `En IC aguda: "creatinina sube" no siempre significa "riñón empeora". Si la congestión disminuye y la perfusión se mantiene, el cambio renal funcional puede ser aceptable.`,
+    gpc: {
+        mexico: "IMSS-335-19 para ERC; debe complementarse con la GPC mexicana vigente de insuficiencia cardiaca.",
+        internacional: "2026 ESC CVD and CKD Guideline; 2026 ACC Expert Consensus on HFpEF; guías contemporáneas de insuficiencia cardiaca."
+    },
+    bibliografia: "2026 ESC CVD and CKD Guideline; DOSE; CARRESS-HF; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-396",
+    especialidad: "Cardiología",
+    tema: "Enfermedad cardiovascular y enfermedad renal crónica",
+    subtema: "Enfermedad renal crónica y síndrome coronario agudo",
+    dificultad: "Extrema",
+    caso: `Mujer de 72 años con diabetes mellitus tipo 2 y enfermedad renal crónica G4 consulta por dolor torácico de 90 minutos de evolución. Presenta PA 142/78 mmHg, FC 88 lpm y saturación 96%.
+
+ECG muestra elevación del ST de 2 mm en V2-V5. Troponina de alta sensibilidad está elevada. La creatinina es de 2.7 mg/dL y TFGe de 23 mL/min/1.73 m². Se sabe que su troponina basal ha sido ligeramente elevada en determinaciones previas.
+
+El residente considera que la troponina no puede utilizarse en ERC porque suele estar crónicamente elevada. Otro propone evitar coronariografía porque el riesgo de lesión renal por contraste supera el beneficio de reperfusión.
+
+La paciente continúa con dolor torácico y cambios electrocardiográficos.`,
+    pregunta: "¿Cuál es la conducta más apropiada?",
+    opciones: [
+        "No realizar reperfusión porque la troponina puede estar elevada por ERC",
+        "Evitar coronariografía en todos los pacientes con TFGe menor de 30 mL/min/1.73 m²",
+        "Reconocer el diagnóstico de IAMCEST por el cuadro y ECG, proceder a estrategia de reperfusión indicada y utilizar medidas de prevención de lesión renal asociada al procedimiento",
+        "Esperar una segunda troponina durante 24 horas antes de reperfundir",
+        "Administrar únicamente tratamiento médico porque la ERC contraindica PCI"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. La enfermedad renal crónica aumenta la complejidad diagnóstica, pero no debe convertirse en una razón para negar una terapia de reperfusión indicada.
+
+En este caso existe un cuadro clínico compatible con síndrome coronario agudo y elevación persistente del ST en territorio anterior. El diagnóstico de IAMCEST se basa en el conjunto clínico y electrocardiográfico; una troponina basal elevada por ERC no invalida el diagnóstico.
+
+La ERC aumenta el riesgo de complicaciones cardiovasculares y renales, pero el beneficio de reperfundir una arteria coronaria ocluida en IAMCEST puede superar claramente el riesgo de lesión renal asociada al contraste.
+
+La guía ESC 2026 CVD-CKD específicamente enfatiza que la presencia de ERC no debe producir retrasos en tratamientos cardiológicos indicados y recomienda adaptar estrategias diagnósticas y terapéuticas al grado de deterioro renal.
+
+Durante la coronariografía deben minimizarse los factores de lesión renal: evitar volumen excesivo de contraste, utilizar la menor cantidad razonable, evitar nefrotóxicos y optimizar el estado hemodinámico.
+
+El error ENARM es utilizar la ERC como una contraindicación absoluta para reperfusión.`,
+    perlaENARM: `ERC ≠ contraindicación para PCI en IAMCEST. En enfermedad renal, interpreta troponina con contexto y dinámica, pero nunca retrases reperfusión por miedo aislado al contraste.`,
+    gpc: {
+        mexico: "GPC mexicana correspondiente a IAMCEST; IMSS-335-19 para ERC.",
+        internacional: "2026 ESC CVD and CKD Guideline; 2025 ACC/AHA ACS Guideline; 2023 ESC ACS Guideline."
+    },
+    bibliografia: "2026 ESC CVD and CKD Guideline; 2025 ACC/AHA ACS Guideline; 2023 ESC ACS Guideline; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-397",
+    especialidad: "Cardiología",
+    tema: "Fibrilación auricular y enfermedad renal crónica",
+    subtema: "Anticoagulación y función renal",
+    dificultad: "Extrema",
+    caso: `Varón de 76 años con fibrilación auricular permanente, hipertensión, insuficiencia cardiaca y enfermedad renal crónica consulta para reevaluar anticoagulación. Tiene antecedente de EVC isquémico hace tres años.
+
+Actualmente recibe apixabán 5 mg cada 12 horas. Peso 61 kg, creatinina sérica 1.6 mg/dL y edad 76 años. TFGe calculada por CKD-EPI es de 44 mL/min/1.73 m².
+
+El paciente no tiene sangrado activo ni antecedente de hemorragia intracraneal. Su presión arterial está controlada. La familia pregunta si debe suspenderse el anticoagulante porque tiene enfermedad renal.
+
+Un médico propone sustituirlo automáticamente por warfarina debido a la ERC.`,
+    pregunta: "¿Cuál es la estrategia más apropiada?",
+    opciones: [
+        "Suspender toda anticoagulación porque la ERC contraindica los anticoagulantes orales directos",
+        "Cambiar automáticamente a warfarina sin revisar indicación, función renal ni criterios de dosis",
+        "Mantener una estrategia de anticoagulación apropiada para el riesgo tromboembólico y ajustar el anticoagulante según función renal y criterios específicos de dosificación, sin asumir que ERC G3 constituye contraindicación absoluta para DOAC",
+        "Reducir apixabán a 2.5 mg cada 12 horas exclusivamente por edad mayor de 75 años",
+        "Utilizar aspirina como sustituto de anticoagulación"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. La ERC aumenta tanto el riesgo tromboembólico como el hemorrágico en fibrilación auricular, pero no constituye por sí misma una contraindicación absoluta para anticoagulantes orales directos.
+
+Para apixabán, la reducción a 2.5 mg cada 12 horas se realiza cuando se cumplen al menos dos de los criterios establecidos: edad ≥80 años, peso ≤60 kg o creatinina sérica ≥1.5 mg/dL. En este paciente tiene creatinina ≥1.5, pero no tiene edad ≥80 ni peso ≤60 kg, por lo que no cumple dos criterios.
+
+La TFGe también debe vigilarse longitudinalmente porque el deterioro renal puede modificar posteriormente la elección o dosis del anticoagulante.
+
+Aspirina no sustituye adecuadamente la anticoagulación para prevención de EVC en fibrilación auricular.
+
+La guía ESC 2026 CVD-CKD incluye un apartado específico de fibrilación auricular y anticoagulación en ERC, enfatizando que el deterioro renal requiere ajustes individualizados, no abandono automático de la prevención tromboembólica.`,
+    perlaENARM: `En FA + ERC no preguntes "¿anticoagular sí/no?" solamente. Pregunta: riesgo tromboembólico + riesgo hemorrágico + función renal + dosis específica del DOAC.`,
+    gpc: {
+        mexico: "IMSS-335-19 para ERC; complementar con la GPC mexicana correspondiente a fibrilación auricular.",
+        internacional: "2026 ESC CVD and CKD Guideline; 2023 ACC/AHA/ACCP/HRS Atrial Fibrillation Guideline."
+    },
+    bibliografia: "2026 ESC CVD and CKD Guideline; 2023 ACC/AHA/ACCP/HRS AF Guideline; ARISTOTLE; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-398",
+    especialidad: "Cardiología",
+    tema: "Enfermedad cardiovascular y enfermedad renal crónica",
+    subtema: "Anemia cardiorrenal",
+    dificultad: "Extrema",
+    caso: `Mujer de 70 años con insuficiencia cardiaca con FEVI 35% y enfermedad renal crónica G4 consulta por fatiga progresiva y menor tolerancia al ejercicio.
+
+No presenta edema importante ni congestión pulmonar. PA 118/70 mmHg. FC 78 lpm.
+
+Laboratorio: hemoglobina 9.4 g/dL, VCM 89 fL, ferritina 68 ng/mL, saturación de transferrina 17%, creatinina 2.3 mg/dL, TFGe 25 mL/min/1.73 m². No hay sangrado evidente. La prueba de sangre oculta en heces es negativa.
+
+El médico considera que la anemia se debe exclusivamente a ERC y propone iniciar inmediatamente un agente estimulante de eritropoyesis sin investigar el estado de hierro.`,
+    pregunta: "¿Cuál es la conducta más apropiada?",
+    opciones: [
+        "Iniciar eritropoyetina inmediatamente sin evaluar hierro",
+        "Considerar deficiencia de hierro como contribuyente, evaluar y corregir el déficit de hierro según el fenotipo y posteriormente valorar la necesidad de terapia adicional",
+        "Transfundir inmediatamente por Hb de 9.4 g/dL",
+        "Administrar hierro exclusivamente si la ferritina es menor de 10 ng/mL",
+        "No tratar porque la anemia es inevitable en ERC"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: `La respuesta correcta es la opción B. La anemia en enfermedad renal crónica suele ser multifactorial y la deficiencia de hierro es una causa frecuente y tratable. La paciente presenta ferritina de 68 ng/mL y saturación de transferrina de 17%, datos compatibles con disponibilidad insuficiente de hierro en el contexto de insuficiencia cardiaca y ERC.
+
+Antes de utilizar agentes estimulantes de eritropoyesis debe evaluarse y tratarse la deficiencia de hierro cuando esté presente y descartar otras causas de anemia.
+
+En pacientes con insuficiencia cardiaca, la deficiencia de hierro tiene relevancia pronóstica y funcional incluso cuando la anemia no es muy severa. Las estrategias contemporáneas de insuficiencia cardiaca recomiendan identificar y tratar la deficiencia de hierro en pacientes apropiados.
+
+La transfusión no está indicada simplemente por una Hb de 9.4 g/dL en una paciente estable sin sangrado ni isquemia activa.
+
+La ERC contribuye a la anemia mediante disminución de producción de eritropoyetina, inflamación y alteraciones del metabolismo del hierro, pero no debe utilizarse como diagnóstico de exclusión para dejar de investigar causas tratables.`,
+    perlaENARM: `ERC + IC + anemia = revisa hierro. Ferritina y TSAT deben interpretarse conjuntamente; no asumas que toda anemia de ERC requiere eritropoyetina.`,
+    gpc: {
+        mexico: "IMSS-335-19 para ERC; IMSS-403-10 para anemia secundaria a enfermedad renal crónica.",
+        internacional: "2026 ESC CVD and CKD Guideline; guías contemporáneas de insuficiencia cardiaca y enfermedad renal."
+    },
+    bibliografia: "2026 ESC CVD and CKD Guideline; IMSS-403-10; FAIR-HF; AFFIRM-AHF; IRONMAN; Braunwald's Heart Disease."
+},
+
+{
+    id: "CARD-399",
+    especialidad: "Cardiología",
+    tema: "Enfermedad cardiovascular y enfermedad renal crónica",
+    subtema: "Prevención de lesión renal asociada a procedimiento cardiovascular",
+    dificultad: "Extrema",
+    caso: `Varón de 78 años con síndrome coronario agudo sin elevación del ST de alto riesgo requiere coronariografía urgente. Tiene diabetes mellitus, insuficiencia cardiaca con FEVI 38% y enfermedad renal crónica G4.
+
+Creatinina 2.4 mg/dL, TFGe 27 mL/min/1.73 m². Está euvolémico, PA 132/74 mmHg y no presenta edema. Se prevé que la anatomía coronaria pueda requerir intervención compleja.
+
+El residente propone administrar una carga de solución salina de 3 litros antes del procedimiento para "proteger los riñones". Otro propone retrasar la coronariografía hasta que la creatinina disminuya.
+
+El cardiólogo decide realizar el procedimiento sin retrasarlo y plantea minimizar el volumen de contraste y utilizar medidas individualizadas de prevención de lesión renal.`,
+    pregunta: "¿Cuál es la estrategia más apropiada?",
+    opciones: [
+        "Retrasar obligatoriamente la coronariografía hasta normalizar la creatinina",
+        "Administrar una carga fija de 3 litros de solución salina a todos los pacientes con ERC",
+        "Realizar el procedimiento cuando esté indicado, minimizar contraste y nefrotóxicos, optimizar estado hemodinámico y utilizar hidratación individualizada cuando corresponda",
+        "Administrar dopamina a dosis renal durante la coronariografía",
+        "Administrar furosemida profiláctica en dosis altas a todos los pacientes con ERC"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. La ERC aumenta el riesgo de lesión renal asociada a procedimientos, pero no debe retrasar una intervención cardiovascular urgente cuando existe una indicación clara.
+
+La prevención debe ser individualizada. Incluye identificar factores de riesgo, evitar nefrotóxicos, utilizar el menor volumen de contraste razonablemente posible, elegir técnicas de bajo riesgo y mantener una adecuada perfusión.
+
+La hidratación puede ser útil en pacientes seleccionados, pero una carga fija de varios litros puede provocar sobrecarga de volumen, especialmente en pacientes con insuficiencia cardiaca. El volumen y velocidad deben individualizarse.
+
+No existe beneficio establecido para dopamina a "dosis renal" como estrategia de prevención de lesión renal aguda.
+
+La guía ESC 2026 CVD-CKD insiste en modificar la estrategia cardiovascular según el grado de función renal, pero también en evitar retrasos injustificados en tratamientos cardiológicos indicados.
+
+En un SCA de alto riesgo, el riesgo de lesión renal debe equilibrarse frente al riesgo de isquemia recurrente, infarto y muerte.`,
+    perlaENARM: `ERC no significa "no contraste". En procedimientos cardiovasculares: mínimo contraste + evitar nefrotóxicos + perfusión adecuada + hidratación individualizada. No retrases una indicación urgente sin razón.`,
+    gpc: {
+        mexico: "IMSS-335-19 para ERC; complementar con GPC mexicana de SCA.",
+        internacional: "2026 ESC CVD and CKD Guideline; 2025 ACC/AHA ACS Guideline."
+    },
+    bibliografia: "2026 ESC CVD and CKD Guideline; 2025 ACC/AHA ACS Guideline; Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+
+{
+    id: "CARD-400",
+    especialidad: "Cardiología",
+    tema: "Síndrome cardiovascular-kidney-metabolic",
+    subtema: "Caso integrador cardiorrenal-metabólico y estratificación de riesgo",
+    dificultad: "Extrema",
+    caso: `Mujer de 58 años con obesidad grado II, diabetes mellitus tipo 2, hipertensión arterial y enfermedad renal crónica consulta para evaluación cardiovascular integral. No ha presentado infarto, EVC ni enfermedad arterial periférica.
+
+IMC 35 kg/m², perímetro abdominal elevado. PA 146/84 mmHg. HbA1c 7.4%. LDL-C 92 mg/dL, triglicéridos 212 mg/dL, HDL-C 38 mg/dL. TFGe 52 mL/min/1.73 m² y cociente albúmina/creatinina 340 mg/g, persistente durante más de seis meses.
+
+No presenta síntomas de insuficiencia cardiaca, pero NT-proBNP está discretamente elevado. Ecocardiograma: FEVI 62%, hipertrofia ventricular izquierda y aumento del volumen auricular izquierdo. No hay valvulopatía significativa.
+
+Actualmente recibe metformina, amlodipino y losartán. No utiliza SGLT2, finerenona ni terapia específica para obesidad.
+
+Su médico propone tratar cada enfermedad por separado: bajar la presión con otro antihipertensivo, intensificar exclusivamente la terapia de diabetes y esperar a que aparezca enfermedad cardiovascular clínica antes de modificar la estrategia.
+
+El cardiólogo plantea que el fenotipo corresponde a una interacción cardiovascular, renal y metabólica que requiere una estrategia integrada.`,
+    pregunta: "¿Cuál de las siguientes representa mejor el enfoque contemporáneo para esta paciente?",
+    opciones: [
+        "Tratar exclusivamente la hipertensión porque la ausencia de ASCVD clínica indica bajo riesgo",
+        "Esperar a desarrollar insuficiencia cardiaca antes de utilizar terapias cardiorrenales",
+        "Reconocer un fenotipo cardiovascular-kidney-metabolic de alto riesgo y utilizar una estrategia integrada con control de presión, estatina, bloqueo RAS, SGLT2 y consideración de finerenona/terapias metabólicas según indicación, además de intervención intensiva sobre peso y estilo de vida",
+        "Suspender losartán porque la albuminuria demuestra que el fármaco está fallando",
+        "Utilizar únicamente un diurético para reducir la albuminuria"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: `La respuesta correcta es la opción C. Este caso representa el paradigma contemporáneo del síndrome cardiovascular-kidney-metabolic. La paciente presenta obesidad, diabetes, hipertensión, ERC albuminúrica y evidencia de remodelado cardiaco, aunque todavía no tenga ASCVD clínica ni insuficiencia cardiaca manifiesta.
+
+La nueva guía AHA/ACC/ADA/ASN 2026 introduce un marco específico para CKM, con estratificación por etapas y evaluación conjunta de factores metabólicos, función renal y enfermedad cardiovascular. Recomienda utilizar herramientas de riesgo que incorporan variables renales y metabólicas y priorizar intervenciones capaces de modificar varios órganos simultáneamente.
+
+En esta paciente deben abordarse simultáneamente presión arterial, LDL-C, albuminuria, diabetes, obesidad y riesgo de insuficiencia cardiaca.
+
+El bloqueo del sistema renina-angiotensina sigue siendo fundamental en presencia de albuminuria. Un SGLT2 está indicado por el fenotipo de diabetes y ERC, independientemente de que la HbA1c no sea extremadamente elevada. Finerenona puede considerarse debido a DM2, ERC y albuminuria persistente, siempre evaluando potasio y función renal.
+
+Además, la obesidad es un componente causal del riesgo CKM y debe tratarse activamente con nutrición, actividad física y, cuando esté indicado, farmacoterapia antiobesidad o cirugía metabólica.
+
+El nuevo enfoque no espera a que aparezca el infarto o la insuficiencia cardiaca: busca prevenirlos actuando simultáneamente sobre los determinantes metabólicos, renales y cardiovasculares.`,
+    perlaENARM: `CKM 2026: no trates órganos aislados. Obesidad + DM2 + HTA + ERC + albuminuria = riesgo cardiovascular sistémico. Piensa en terapias que protegen simultáneamente corazón y riñón.`,
+    gpc: {
+        mexico: "IMSS-335-19, Prevención, diagnóstico y tratamiento de la enfermedad renal crónica; complementar con GPC mexicanas de diabetes, hipertensión y dislipidemias.",
+        internacional: "2026 AHA/ACC/ADA/ASN Guideline for Cardiovascular-Kidney-Metabolic Syndrome; 2026 ESC Guidelines for CVD and CKD."
+    },
+    bibliografia: "2026 AHA/ACC/ADA/ASN CKM Guideline; 2026 ESC CVD and CKD Guideline; CREDENCE; DAPA-CKD; EMPA-KIDNEY; FIDELIO-DKD; FIGARO-DKD; CONFIDENCE; Braunwald's Heart Disease."
+},
+    {
+  id: "CARD-401",
+  especialidad: "Cardiología",
+  tema: "Shock cardiogénico",
+  subtema: "Clasificación SCAI y trayectoria del shock",
+  dificultad: "Extrema",
+  caso: `Varón de 67 años con antecedente de hipertensión arterial, diabetes mellitus tipo 2 y tabaquismo de 40 paquetes/año presenta dolor retroesternal opresivo de 90 minutos de evolución, acompañado de diaforesis, náusea y disnea. A su llegada a urgencias se documenta un electrocardiograma con elevación del ST de 4 mm en V1-V4 y cambios recíprocos inferiores.
+
+Se activa código infarto. El paciente presenta presión arterial de 82/54 mmHg, frecuencia cardiaca de 112 lpm, frecuencia respiratoria de 28 rpm, saturación de oxígeno de 89% al aire ambiente y temperatura de 36.4 °C. Está ansioso, confuso parcialmente y responde lentamente a las preguntas. Tiene extremidades frías, llenado capilar de 5 segundos, pulsos periféricos débiles y diuresis de 10 mL durante la primera hora.
+
+La exploración pulmonar revela crépitos bibasales hasta campos medios. Se observa ingurgitación yugular a 10 cm por encima del ángulo esternal. No hay soplo holosistólico nuevo evidente.
+
+Laboratorio inicial: lactato 4.8 mmol/L, pH 7.24, creatinina 1.7 mg/dL (basal 0.9), AST 184 U/L, ALT 102 U/L, troponina I marcadamente elevada y BNP 1,200 pg/mL.
+
+El ecocardiograma muestra FEVI de 25%, acinesia extensa de segmentos anteriores, septales y apicales, insuficiencia mitral leve y ventrículo derecho con función discretamente reducida.
+
+Se inicia norepinefrina y se realiza angiografía coronaria urgente, identificándose una oclusión proximal de la descendente anterior, que es tratada mediante intervención coronaria percutánea.
+
+Después de la reperfusión persiste hipotensión y se incrementa el soporte vasoactivo. Dos horas después presenta lactato de 6.1 mmol/L, oliguria persistente, extremidades más frías y deterioro del estado mental. Se requiere dosis creciente de vasopresor para mantener la presión arterial.
+
+El equipo de shock debe establecer la gravedad y trayectoria del cuadro para decidir si requiere escalamiento inmediato del soporte circulatorio.`,
+  pregunta: "¿Cuál es la clasificación SCAI más apropiada para el estado actual del paciente?",
+  opciones: [
+    "SCAI B, porque existe hipotensión pero todavía conserva una presión arterial suficiente con vasopresor",
+    "SCAI C, porque presenta hipotensión, hipoperfusión y disfunción orgánica atribuible al shock",
+    "SCAI D, porque presenta deterioro progresivo con hipoperfusión persistente y necesidad creciente de soporte para mantener la perfusión",
+    "SCAI E, porque todo paciente con lactato >4 mmol/L y necesidad de norepinefrina debe clasificarse como extremis",
+    "SCAI A, porque el diagnóstico etiológico ya fue corregido mediante PCI"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La respuesta correcta es SCAI D: deteriorating shock.
+
+El paciente inicialmente cumplía criterios de SCAI C, es decir, shock cardiogénico clásico: hipotensión asociada con hipoperfusión clínica y bioquímica, incluyendo extremidades frías, alteración neurológica, oliguria, elevación del lactato y lesión renal aguda.
+
+Sin embargo, después de la reperfusión continúa deteriorándose. El lactato aumenta de 4.8 a 6.1 mmol/L, persiste la oliguria y empeora el estado mental, mientras se requiere escalamiento de los vasopresores para mantener la presión arterial.
+
+Esto representa una trayectoria de deterioro compatible con SCAI D.
+
+SCAI E corresponde al estadio extremis, caracterizado por colapso circulatorio refractario, paro cardiaco, actividad eléctrica sin pulso, hipotensión que solamente puede mantenerse mediante reanimación extrema o hipoperfusión refractaria extrema.
+
+La clasificación SCAI no debe interpretarse como una etiqueta estática. El paciente puede progresar de A → B → C → D → E y esta trayectoria es clínicamente relevante para decidir el momento de escalamiento terapéutico.
+
+En este caso, haber realizado la PCI no significa que el shock esté resuelto. La reperfusión de la arteria culpable corrige una causa, pero el miocardio puede permanecer gravemente deprimido y el paciente puede continuar evolucionando hacia fracaso multiorgánico.
+
+El consenso ACC 2025 enfatiza precisamente la reevaluación seriada de la trayectoria del shock, con valoración de perfusión, lactato, función orgánica, necesidad de vasoactivos y parámetros hemodinámicos para determinar si debe escalarse el soporte.`,
+  perlaENARM: "ENARM: diferencia shock C de shock D por la TRAJECTORIA. C = shock establecido; D = deterioro pese al tratamiento inicial y necesidad creciente de soporte. No esperes al paro cardiaco para reconocer la progresión.",
+  gpc: {
+    mexico: "No se identificó una GPC mexicana vigente específica y dedicada a la clasificación SCAI del shock cardiogénico. Para el contexto de IAM con shock debe utilizarse la GPC mexicana institucional correspondiente al síndrome coronario agudo cuando aplique.",
+    internacional: "2025 ACC Expert Consensus Statement on the Evaluation and Management of Cardiogenic Shock; SCAI Shock Classification."
+  },
+  bibliografia: [
+    "Sinha SS, et al. 2025 ACC Expert Consensus Statement on the Evaluation and Management of Cardiogenic Shock. JACC. 2025.",
+    "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes.",
+    "Braunwald's Heart Disease. 12th ed.",
+    "Harrison's Principles of Internal Medicine. 21st ed."
+  ]
+},
+
+{
+  id: "CARD-402",
+  especialidad: "Cardiología",
+  tema: "Shock cardiogénico",
+  subtema: "Fenotipo de ventrículo derecho y PAPi",
+  dificultad: "Extrema",
+  caso: `Mujer de 59 años con antecedente de hipertensión y tabaquismo presenta infarto agudo de miocardio inferior de 3 horas de evolución. El ECG muestra elevación del ST en II, III y aVF, con mayor elevación en III, además de elevación del ST en V4R.
+
+A su llegada presenta presión arterial de 76/48 mmHg, frecuencia cardiaca de 105 lpm y saturación de oxígeno de 94%. Está consciente, pero refiere intensa debilidad. Tiene piel fría, yugulares marcadamente distendidas y pulmones prácticamente limpios. No presenta crépitos ni edema pulmonar.
+
+Se administra oxígeno y se realiza coronariografía. Existe una oclusión proximal de la coronaria derecha, que se reperfunde exitosamente.
+
+A pesar de la reperfusión persiste hipotensión.
+
+Se coloca un catéter de arteria pulmonar:
+
+PVC: 19 mmHg
+PAP: 34/20 mmHg
+Presión capilar pulmonar: 10 mmHg
+GC: 2.1 L/min
+Índice cardiaco: 1.3 L/min/m²
+SvO2: 48%
+Lactato: 4.2 mmol/L
+
+El ecocardiograma muestra FEVI de 55%, hipocinesia inferior y ventrículo derecho severamente dilatado con TAPSE de 9 mm y marcada reducción de la función sistólica del VD.
+
+Se plantea la posibilidad de que el mecanismo dominante del shock no sea la insuficiencia ventricular izquierda.`,
+  pregunta: "¿Cuál de los siguientes parámetros hemodinámicos apoya con mayor fuerza que el componente dominante del shock es la insuficiencia ventricular derecha?",
+  opciones: [
+    "Presión capilar pulmonar de 10 mmHg",
+    "Índice cardiaco de 1.3 L/min/m²",
+    "PAPi de aproximadamente 0.74",
+    "Presión arterial sistólica de 76 mmHg",
+    "SvO2 de 48%"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La respuesta correcta es un PAPi de aproximadamente 0.74.
+
+El Pulmonary Artery Pulsatility Index (PAPi) se calcula:
+
+PAPi = (PAP sistólica - PAP diastólica) / PVC
+
+En este paciente:
+
+PAPi = (34 - 20) / 19
+PAPi = 14/19
+PAPi ≈ 0.74.
+
+Un PAPi muy bajo apoya disfunción significativa del ventrículo derecho.
+
+El contexto clínico es característico de infarto del VD: hipotensión, ingurgitación yugular, pulmones relativamente limpios, presión capilar pulmonar normal-baja y disfunción marcada del VD.
+
+El índice cardiaco reducido demuestra bajo gasto, pero no determina por sí mismo si el mecanismo dominante es ventricular izquierdo, derecho o biventricular.
+
+La PVC elevada representa congestión sistémica y apoya compromiso del VD, aunque una PVC elevada aislada tampoco cuantifica adecuadamente la función del VD.
+
+La presión capilar pulmonar de 10 mmHg es especialmente importante porque diferencia este cuadro del shock predominantemente izquierdo con congestión pulmonar.
+
+En pacientes con shock, el PAPi debe interpretarse en conjunto con PVC, PCWP, gasto cardiaco, ecocardiografía y evolución clínica. Un PAPi bajo no debe utilizarse como diagnóstico aislado.
+
+El ACC 2025 destaca la utilidad de la hemodinámica invasiva para definir el fenotipo del shock y seleccionar/escalar el soporte mecánico.`,
+  perlaENARM: "ENARM: shock + yugulares distendidas + pulmones limpios + PCWP normal/baja = piensa en VD. PAPi = (PASP − PADP)/PVC. Cuanto menor, peor función del VD.",
+  gpc: {
+    mexico: "No se identificó una GPC mexicana vigente específica sobre PAPi en shock cardiogénico.",
+    internacional: "2025 ACC Expert Consensus Statement on the Evaluation and Management of Cardiogenic Shock."
+  },
+  bibliografia: [
+    "Sinha SS, et al. 2025 ACC Expert Consensus Statement on the Evaluation and Management of Cardiogenic Shock. JACC. 2025.",
+    "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure.",
+    "Braunwald's Heart Disease. 12th ed."
+  ]
+},
+
+{
+  id: "CARD-403",
+  especialidad: "Cardiología",
+  tema: "Shock cardiogénico",
+  subtema: "Shock biventricular y selección de soporte mecánico",
+  dificultad: "Extrema",
+  caso: `Varón de 64 años con infarto anterior extenso es llevado a PCI primaria por oclusión proximal de la descendente anterior. Después de la reperfusión persiste shock.
+
+Presenta presión arterial de 78/52 mmHg con norepinefrina, lactato 5.8 mmol/L y oliguria.
+
+Ecocardiograma:
+FEVI 15%.
+VD severamente dilatado.
+TAPSE 8 mm.
+Septo interventricular desplazado hacia la izquierda.
+Insuficiencia tricuspídea moderada.
+No hay comunicación interventricular.
+
+Catéter de arteria pulmonar:
+PVC 22 mmHg
+PAP 30/18 mmHg
+PCWP 23 mmHg
+GC 2.0 L/min
+Índice cardiaco 1.1 L/min/m²
+SvO2 42%
+
+El equipo considera colocar una bomba microaxial de flujo destinada principalmente a descargar el ventrículo izquierdo. Sin embargo, existe preocupación porque el ventrículo derecho es incapaz de proporcionar flujo adecuado hacia el ventrículo izquierdo.
+
+El paciente continúa deteriorándose pese a norepinefrina y dobutamina.`,
+  pregunta: "¿Cuál es la principal limitación fisiopatológica de utilizar una bomba microaxial exclusivamente para soporte del ventrículo izquierdo en este paciente?",
+  opciones: [
+    "La bomba aumenta directamente la poscarga del ventrículo izquierdo y empeora la congestión pulmonar",
+    "El funcionamiento de la bomba depende de un llenado adecuado del ventrículo izquierdo, por lo que la insuficiencia grave del VD puede limitar su flujo efectivo",
+    "La bomba produce obligatoriamente vasodilatación sistémica profunda",
+    "La bomba está contraindicada siempre que la PVC sea mayor de 15 mmHg",
+    "La bomba no puede utilizarse después de una intervención coronaria"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La respuesta correcta es que una bomba microaxial izquierda depende de un llenado adecuado del ventrículo izquierdo.
+
+Las bombas microaxiales izquierdas extraen sangre desde el ventrículo izquierdo y la impulsan hacia la aorta. Por tanto, necesitan que exista suficiente flujo entrando al VI.
+
+En un paciente con insuficiencia ventricular derecha grave, el VD no consigue impulsar sangre adecuadamente hacia la circulación pulmonar y posteriormente hacia la aurícula izquierda y el VI. El resultado puede ser un VI insuficientemente lleno, limitando el flujo de la bomba.
+
+Este caso representa un fenotipo biventricular grave:
+
+- FEVI 15%.
+- VD severamente deprimido.
+- PVC 22 mmHg.
+- PCWP 23 mmHg.
+- IC 1.1 L/min/m².
+- SvO2 42%.
+- Hipoperfusión sistémica.
+
+El problema no es simplemente "bajo gasto". Es necesario determinar qué ventrículos están fallando y si el soporte elegido corrige realmente el fenotipo fisiopatológico.
+
+La VA-ECMO puede proporcionar soporte circulatorio y oxigenación, pero incrementa la poscarga del VI, por lo que en determinados escenarios puede requerirse una estrategia de descarga ventricular izquierda.
+
+El consenso ACC 2025 enfatiza que la selección del dispositivo debe basarse en el fenotipo, el grado de soporte requerido, la capacidad de descarga y la presencia de fracaso ventricular derecho o izquierdo.`,
+  perlaENARM: "ENARM: antes de colocar Impella izquierda pregunta: ¿hay VD suficiente para llenar el VI? Si el VD está gravemente deprimido, el soporte aislado del VI puede quedarse corto.",
+  gpc: {
+    mexico: "No se identificó una GPC mexicana vigente específica para selección de soporte mecánico según fenotipo biventricular.",
+    internacional: "2025 ACC Expert Consensus Statement on Cardiogenic Shock."
+  },
+  bibliografia: [
+    "Sinha SS, et al. 2025 ACC Expert Consensus Statement on the Evaluation and Management of Cardiogenic Shock. JACC. 2025.",
+    "AHA Scientific Statement: Escalating and De-escalating Temporary Mechanical Circulatory Support in Cardiogenic Shock.",
+    "Braunwald's Heart Disease. 12th ed."
+  ]
+},
+
+{
+  id: "CARD-404",
+  especialidad: "Cardiología",
+  tema: "Shock cardiogénico",
+  subtema: "Cardiac Power Output",
+  dificultad: "Extrema",
+  caso: `Varón de 71 años con insuficiencia cardiaca con FEVI reducida ingresa por descompensación aguda. A pesar de diuréticos intravenosos continúa con hipotensión, oliguria y deterioro del estado mental.
+
+Signos vitales:
+PA 84/56 mmHg
+FC 118 lpm
+SatO2 93%
+Lactato 4.6 mmol/L.
+
+Catéter de arteria pulmonar:
+PVC 16 mmHg
+PCWP 28 mmHg
+GC 2.2 L/min
+Índice cardiaco 1.15 L/min/m².
+
+El paciente presenta extremidades frías, piel moteada y oliguria.
+
+Se calcula la presión arterial media en aproximadamente 65 mmHg.
+
+El equipo desea cuantificar la capacidad global del corazón para generar flujo y presión arterial, más allá del gasto cardiaco aislado.`,
+  pregunta: "¿Cuál es el valor aproximado del cardiac power output (CPO) y qué interpretación tiene?",
+  opciones: [
+    "0.32 W; indica shock cardiogénico grave",
+    "0.47 W; indica shock cardiogénico grave",
+    "0.73 W; indica función circulatoria conservada",
+    "1.15 W; corresponde directamente al índice cardiaco",
+    "2.20 W; corresponde directamente al gasto cardiaco"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La respuesta correcta es 0.47 W.
+
+El cardiac power output se calcula como:
+
+CPO = (GC × MAP) / 451
+
+Por tanto:
+
+CPO = (2.2 × 65) / 451
+CPO = 143 / 451
+CPO ≈ 0.32 W.
+
+Por lo tanto, la opción correcta realmente debe ser la de 0.32 W.
+
+El CPO integra dos variables fundamentales:
+
+1. Flujo: gasto cardiaco.
+2. Presión: presión arterial media.
+
+Por eso puede aportar una estimación más completa de la capacidad hidráulica global del sistema cardiovascular que el gasto cardiaco aislado.
+
+Un CPO marcadamente reducido se asocia con mayor gravedad del shock cardiogénico.
+
+Este paciente presenta además:
+- IC 1.15 L/min/m².
+- PCWP elevada.
+- PVC elevada.
+- Lactato elevado.
+- Hipotensión.
+- Hipoperfusión clínica.
+
+El conjunto es compatible con shock cardiogénico con congestión biventricular.
+
+La pregunta pretende diferenciar el CPO del índice cardiaco. El IC normaliza el gasto cardiaco por superficie corporal; el CPO integra gasto y presión arterial.
+
+Corrección importante para el banco: la opción correcta es la correspondiente a 0.32 W.`,
+  perlaENARM: "ENARM: CPO = GC × MAP / 451. Un CPO bajo integra simultáneamente bajo flujo y baja presión y es un marcador de gravedad del shock.",
+  gpc: {
+    mexico: "No se identificó una GPC mexicana vigente específica que establezca el CPO como criterio principal de escalamiento.",
+    internacional: "2025 ACC Expert Consensus Statement on the Evaluation and Management of Cardiogenic Shock; 2022 AHA/ACC/HFSA HF Guideline."
+  },
+  bibliografia: [
+    "Sinha SS, et al. 2025 ACC Expert Consensus Statement on the Evaluation and Management of Cardiogenic Shock.",
+    "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure.",
+    "Braunwald's Heart Disease. 12th ed."
+  ]
+},
+
+{
+  id: "CARD-405",
+  especialidad: "Cardiología",
+  tema: "Shock cardiogénico",
+  subtema: "Norepinefrina versus inotrópicos",
+  dificultad: "Extrema",
+  caso: `Mujer de 76 años con miocardiopatía dilatada y FEVI de 20% ingresa por shock cardiogénico. Está fría, confusa y oligúrica.
+
+PA 68/42 mmHg
+FC 118 lpm
+Lactato 5.1 mmol/L
+PCWP 24 mmHg
+IC 1.4 L/min/m².
+
+Se inicia norepinefrina con respuesta parcial, alcanzando una PAM de 66 mmHg.
+
+A pesar de la recuperación de la presión arterial persisten signos de hipoperfusión y el índice cardiaco permanece en 1.4 L/min/m².
+
+El equipo considera añadir soporte inotrópico.
+
+No existe una bradicardia significativa, y no hay datos de obstrucción dinámica del tracto de salida.`,
+  pregunta: "¿Cuál es la estrategia farmacológica más apropiada en este escenario?",
+  opciones: [
+    "Suspender norepinefrina e iniciar fenilefrina como único tratamiento",
+    "Mantener norepinefrina para sostener la perfusión y considerar dobutamina como inotrópico para mejorar el gasto cardiaco",
+    "Iniciar únicamente nitroprusiato porque todos los pacientes con shock tienen poscarga elevada",
+    "Utilizar dopamina a dosis altas como tratamiento preferido por su menor riesgo de arritmia",
+    "Administrar vasopresina como sustituto universal del inotrópico"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La respuesta correcta es mantener norepinefrina y añadir dobutamina cuando persiste bajo gasto a pesar de haber recuperado una presión de perfusión adecuada.
+
+La norepinefrina produce principalmente vasoconstricción alfa-1 con cierto efecto beta-1 y actualmente es considerada por el consenso ACC 2025 como una opción razonable de primera línea en la mayoría de los pacientes hipotensos con shock cardiogénico.
+
+Sin embargo, una presión arterial aparentemente adecuada no significa necesariamente que el gasto cardiaco sea suficiente.
+
+Este paciente tiene:
+- PAM recuperada.
+- IC persistentemente bajo.
+- Lactato elevado.
+- Hipoperfusión.
+- Disfunción ventricular severa.
+
+En este contexto puede agregarse un inotrópico como dobutamina para aumentar la contractilidad y el gasto cardiaco.
+
+La dobutamina es un inodilatador predominantemente beta-1/beta-2, por lo que puede aumentar el gasto cardiaco, aunque puede producir taquicardia e hipotensión por vasodilatación.
+
+Milrinona es otra alternativa inotrópica, pero su vida media prolongada y eliminación renal obligan a utilizarla con precaución en pacientes con insuficiencia renal.
+
+Fenilefrina como agente único no es una estrategia preferida porque la vasoconstricción alfa pura puede aumentar la poscarga y reducir el gasto cardiaco.
+
+La recomendación moderna es utilizar la menor dosis efectiva de vasoactivos durante el menor tiempo posible y reevaluar frecuentemente la perfusión.`,
+  perlaENARM: "ENARM: primero asegura presión de perfusión; si la PAM ya está adecuada pero persiste bajo gasto/hipoperfusión, piensa en INOTRÓPICO. Norepinefrina ≠ inotrópico puro.",
+  gpc: {
+    mexico: "No se identificó una GPC mexicana vigente específica sobre selección de vasoactivo en shock cardiogénico.",
+    internacional: "2025 ACC Expert Consensus Statement on the Evaluation and Management of Cardiogenic Shock."
+  },
+  bibliografia: [
+    "Sinha SS, et al. 2025 ACC Expert Consensus Statement on the Evaluation and Management of Cardiogenic Shock. JACC. 2025.",
+    "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure.",
+    "Braunwald's Heart Disease. 12th ed."
+  ]
+},
+
+{
+  id: "CARD-406",
+  especialidad: "Cardiología",
+  tema: "Shock cardiogénico",
+  subtema: "STEMI con shock y bomba microaxial",
+  dificultad: "Extrema",
+  caso: `Varón de 62 años, previamente independiente, presenta STEMI anterior de 3 horas de evolución. Ingresa con dolor persistente, diaforesis y disnea.
+
+PA 88/54 mmHg
+FC 108 lpm
+Lactato 3.7 mmol/L.
+
+Ecocardiograma:
+FEVI 30%.
+No hay ruptura septal.
+No existe insuficiencia mitral aguda grave.
+VD conservado.
+
+La coronariografía demuestra oclusión proximal de la descendente anterior y enfermedad significativa de una coronaria derecha y una circunfleja.
+
+Se realiza PCI de la lesión culpable con restauración del flujo TIMI 3.
+
+Después de la reperfusión persiste shock con hipoperfusión y requerimiento de norepinefrina.
+
+El equipo discute la utilización de una bomba microaxial de flujo.`,
+  pregunta: "De acuerdo con la evidencia contemporánea, ¿cuál es la afirmación más correcta respecto al soporte mecánico en este paciente?",
+  opciones: [
+    "Debe colocarse IABP de manera rutinaria porque ha demostrado reducir la mortalidad",
+    "La VA-ECMO debe utilizarse rutinariamente en todo STEMI con shock inmediatamente después de la PCI",
+    "Una bomba microaxial puede considerarse en pacientes seleccionados con STEMI y shock grave o refractario, considerando el balance entre beneficio y complicaciones",
+    "La presencia de enfermedad multivaso obliga a realizar PCI completa durante el mismo procedimiento",
+    "El soporte mecánico está contraindicado después de una PCI exitosa"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La respuesta correcta es que una bomba microaxial puede considerarse en pacientes seleccionados con STEMI y shock grave o refractario.
+
+La guía ACC/AHA/ACEP/NAEMSP/SCAI 2025 modificó de manera importante el panorama del soporte mecánico en shock asociado con STEMI.
+
+El ensayo DanGer-SHOCK mostró una reducción de mortalidad con bomba microaxial en una población seleccionada de pacientes con STEMI y shock cardiogénico, aunque a costa de mayor riesgo de complicaciones como sangrado, isquemia de extremidad y terapia de reemplazo renal.
+
+Por ello, no significa que toda persona con STEMI y shock deba recibir una bomba.
+
+El beneficio debe individualizarse considerando:
+- gravedad del shock;
+- fenotipo hemodinámico;
+- función del VD;
+- anatomía vascular;
+- riesgo hemorrágico;
+- posibilidad de recuperación;
+- experiencia del centro.
+
+En contraste, el uso rutinario de IABP no ha demostrado beneficio en mortalidad en AMI-CS.
+
+La VA-ECMO tampoco debe utilizarse rutinariamente en todos los pacientes con shock por IAM. ECLS-SHOCK no demostró reducción de mortalidad con VA-ECMO temprana no seleccionada y sí mostró mayor riesgo de complicaciones vasculares y hemorrágicas.
+
+Otro punto fundamental: en shock por SCA, la estrategia rutinaria durante la PCI es tratar la arteria culpable y evitar PCI multivaso rutinaria en el mismo procedimiento, debido a peores resultados en pacientes seleccionados por CULPRIT-SHOCK.`,
+  perlaENARM: "ENARM 2026: STEMI + shock = revascularización urgente de la arteria culpable. Microaxial pump puede ser razonable en seleccionados; IABP y VA-ECMO NO son de uso rutinario.",
+  gpc: {
+    mexico: "Debe complementarse con la GPC mexicana vigente aplicable a IAM con elevación del ST cuando corresponda.",
+    internacional: "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for Acute Coronary Syndromes."
+  },
+  bibliografia: [
+    "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes.",
+    "DanGer-SHOCK Trial.",
+    "ECLS-SHOCK Trial.",
+    "Braunwald's Heart Disease. 12th ed."
+  ]
+},
+
+{
+  id: "CARD-407",
+  especialidad: "Cardiología",
+  tema: "Shock cardiogénico",
+  subtema: "VA-ECMO y aumento de poscarga ventricular izquierda",
+  dificultad: "Extrema",
+  caso: `Varón de 58 años con STEMI anterior complicado con shock cardiogénico refractario desarrolla paro cardiaco recuperado después de fibrilación ventricular.
+
+Se coloca VA-ECMO periférica por deterioro hemodinámico extremo.
+
+Horas después:
+PAM 72 mmHg con soporte.
+Lactato inicialmente desciende de 9 a 5 mmol/L.
+
+Sin embargo, el ecocardiograma muestra:
+FEVI 10%.
+Válvula aórtica con apertura mínima.
+VI progresivamente dilatado.
+Presión capilar pulmonar 31 mmHg.
+Edema pulmonar creciente.
+Se observa "smoke" espontáneo dentro del VI.
+
+La oxigenación sistémica ha mejorado significativamente con ECMO.`,
+  pregunta: "¿Cuál es el mecanismo fisiopatológico más importante que explica el deterioro de la congestión pulmonar pese a la mejoría de la perfusión sistémica?",
+  opciones: [
+    "La VA-ECMO disminuye la poscarga del ventrículo izquierdo",
+    "La VA-ECMO puede aumentar la poscarga del VI al devolver flujo retrógrado a la aorta, favoreciendo distensión ventricular izquierda",
+    "La VA-ECMO produce exclusivamente insuficiencia ventricular derecha",
+    "La mejoría del lactato demuestra que no existe congestión ventricular",
+    "La VA-ECMO disminuye directamente la presión capilar pulmonar"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La respuesta correcta es que la VA-ECMO puede aumentar significativamente la poscarga del VI.
+
+La VA-ECMO periférica devuelve sangre oxigenada de manera retrógrada hacia la circulación arterial. Esto puede incrementar la presión aórtica y, por tanto, la poscarga contra la cual debe eyectar el ventrículo izquierdo.
+
+En un VI gravemente deprimido, el corazón puede ser incapaz de abrir adecuadamente la válvula aórtica.
+
+Se produce entonces:
+- disminución de eyección ventricular;
+- acumulación de sangre dentro del VI;
+- incremento de la presión telediastólica;
+- elevación de PCWP;
+- edema pulmonar;
+- dilatación progresiva del VI;
+- estasis sanguínea y riesgo de trombosis.
+
+Por eso, mejorar la presión arterial y reducir el lactato no necesariamente significa que el VI esté adecuadamente descargado.
+
+La estrategia puede requerir evaluación de descarga ventricular izquierda y, dependiendo del fenotipo y recursos disponibles, combinación de VA-ECMO con un dispositivo de descarga.
+
+El consenso ACC 2025 señala específicamente que cuando existe soporte insuficiente o falta de descarga ventricular, pueden considerarse aumento del flujo del dispositivo, escalamiento, medidas para reducir poscarga y estrategias de venting/unloading.`,
+  perlaENARM: "ECMO mejora flujo sistémico pero puede empeorar la carga del VI. ECMO = soporte + posible aumento de poscarga. Si el VI no abre la válvula aórtica y se dilata, piensa en UNLOADING.",
+  gpc: {
+    mexico: "No se identificó una GPC mexicana vigente específica sobre descarga del VI durante VA-ECMO.",
+    internacional: "2025 ACC Expert Consensus Statement on Cardiogenic Shock."
+  },
+  bibliografia: [
+    "Sinha SS, et al. 2025 ACC Expert Consensus Statement on Cardiogenic Shock.",
+    "AHA Scientific Statement: Escalating and De-escalating Temporary Mechanical Circulatory Support in Cardiogenic Shock.",
+    "Braunwald's Heart Disease. 12th ed."
+  ]
+},
+
+{
+  id: "CARD-408",
+  especialidad: "Cardiología",
+  tema: "Shock cardiogénico",
+  subtema: "Shock por complicación mecánica del IAM",
+  dificultad: "Extrema",
+  caso: `Mujer de 73 años con diabetes mellitus presenta IAM inferior extenso y llega 14 horas después del inicio de los síntomas.
+
+Presenta hipotensión de 78/46 mmHg, taquicardia de 118 lpm, lactato 6.2 mmol/L y oliguria.
+
+Después de la PCI de la coronaria derecha continúa con shock.
+
+En la exploración aparece un nuevo soplo holosistólico intenso en el borde esternal inferior izquierdo, acompañado de frémito.
+
+El ecocardiograma transtorácico demuestra un defecto de aproximadamente 12 mm en el septum interventricular basal con flujo izquierda-derecha de alta velocidad.
+
+La presión pulmonar aumenta rápidamente y el paciente desarrolla edema pulmonar.
+
+El equipo considera soporte mecánico temporal mientras se prepara para tratamiento quirúrgico.`,
+  pregunta: "¿Cuál es el objetivo principal del soporte circulatorio temporal en este escenario?",
+  opciones: [
+    "Sustituir definitivamente la reparación quirúrgica",
+    "Reducir la necesidad de revascularización coronaria",
+    "Proporcionar estabilización hemodinámica como puente hacia la reparación definitiva",
+    "Evitar completamente la cirugía porque los defectos postinfarto cierran espontáneamente",
+    "Utilizar IABP obligatoriamente como única estrategia independientemente de la anatomía"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La respuesta correcta es proporcionar estabilización hemodinámica como puente hacia la reparación definitiva.
+
+Este paciente presenta una complicación mecánica del IAM: ruptura del septum interventricular postinfarto.
+
+El nuevo soplo holosistólico con frémito, deterioro hemodinámico y defecto septal adquirido son altamente sugestivos.
+
+El defecto genera un cortocircuito izquierda-derecha que:
+- aumenta el flujo pulmonar;
+- incrementa la precarga del VD;
+- aumenta el retorno pulmonar;
+- sobrecarga el VI;
+- puede precipitar edema pulmonar;
+- produce deterioro progresivo del gasto sistémico.
+
+La mortalidad es elevada y el tratamiento definitivo requiere reparación quirúrgica o, en pacientes seleccionados, estrategia transcatéter.
+
+El soporte circulatorio temporal puede utilizarse para estabilizar al paciente y permitir una intervención definitiva.
+
+La guía ACC/AHA 2025 reconoce que en las complicaciones mecánicas del SCA el soporte mecánico de corto plazo puede ser razonable como puente a cirugía.
+
+La decisión sobre el dispositivo debe individualizarse según anatomía, tamaño del defecto, función ventricular, presencia de insuficiencia mitral, función del VD y experiencia del centro.`,
+  perlaENARM: "IAM + nuevo soplo + shock = busca complicación mecánica con ecocardiograma urgente. El soporte mecánico puede ser PUENTE, no sustituto de la reparación.",
+  gpc: {
+    mexico: "Debe integrarse con la GPC mexicana vigente para IAM cuando corresponda; no se identificó una GPC mexicana específica dedicada a soporte mecánico en ruptura septal postinfarto.",
+    internacional: "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for Acute Coronary Syndromes."
+  },
+  bibliografia: [
+    "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for Acute Coronary Syndromes.",
+    "Sinha SS, et al. 2025 ACC Expert Consensus Statement on Cardiogenic Shock.",
+    "Braunwald's Heart Disease. 12th ed."
+  ]
+},
+
+{
+  id: "CARD-409",
+  especialidad: "Cardiología",
+  tema: "Shock cardiogénico",
+  subtema: "Escalamiento a centro de shock y monitorización invasiva",
+  dificultad: "Extrema",
+  caso: `Varón de 55 años con miocardiopatía dilatada no isquémica y FEVI de 15% ingresa por shock cardiogénico. No existe evidencia de síndrome coronario agudo.
+
+A pesar de norepinefrina y dobutamina:
+PA 86/58 mmHg
+FC 124 lpm
+Lactato 5.4 mmol/L
+Creatinina 2.4 mg/dL
+Diuresis <0.3 mL/kg/h
+IC estimado por ecocardiografía: 1.3 L/min/m².
+
+Se realiza ecocardiograma que confirma disfunción grave del VI y VD.
+
+El hospital no cuenta con programa de soporte circulatorio mecánico, trasplante ni asistencia ventricular duradera.
+
+El paciente mantiene deterioro progresivo y requiere dosis crecientes de vasoactivos.
+
+La familia pregunta por qué no debe simplemente continuarse aumentando los vasopresores.`,
+  pregunta: "¿Cuál es la conducta más apropiada en este momento?",
+  opciones: [
+    "Continuar aumentando indefinidamente norepinefrina porque la presión arterial es el único objetivo relevante",
+    "Administrar fenilefrina a dosis altas y evitar el traslado",
+    "Activar un equipo especializado de shock y gestionar transferencia temprana a un centro con capacidad avanzada de soporte circulatorio y terapias de insuficiencia cardiaca avanzada",
+    "Suspender todos los tratamientos porque el paciente ya tiene indicación absoluta de cuidados paliativos",
+    "Administrar exclusivamente diurético intravenoso y esperar recuperación espontánea"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La respuesta correcta es activar un equipo especializado de shock y transferir tempranamente a un centro con capacidad avanzada.
+
+Este paciente presenta shock refractario o en trayectoria de deterioro:
+
+- hipotensión;
+- lactato persistentemente elevado;
+- lesión renal aguda;
+- oliguria;
+- bajo índice cardiaco;
+- disfunción biventricular;
+- necesidad creciente de vasoactivos.
+
+Aumentar indefinidamente los vasopresores no corrige necesariamente el problema fisiopatológico. Una vasoconstricción excesiva puede incrementar la poscarga, aumentar el consumo miocárdico de oxígeno y producir vasoconstricción periférica.
+
+El consenso ACC 2025 propone un modelo de atención escalonado y enfatiza que los centros sin capacidad avanzada deben identificar tempranamente a los pacientes que requieren transferencia.
+
+Los centros de mayor capacidad pueden ofrecer:
+- catéter de arteria pulmonar;
+- soporte circulatorio temporal;
+- VA-ECMO;
+- dispositivos de asistencia ventricular;
+- valoración para LVAD;
+- trasplante cardiaco;
+- estrategias de recuperación o puente.
+
+La decisión no debe retrasarse hasta que el paciente llegue a SCAI E o paro cardiaco.
+
+La oportunidad de intervención es una parte fundamental del tratamiento del shock.`,
+  perlaENARM: "ENARM: shock que progresa pese a farmacoterapia = no sigas escalando catecolaminas indefinidamente. ACTIVA shock team y considera transferencia temprana a centro avanzado.",
+  gpc: {
+    mexico: "No se identificó una GPC mexicana específica sobre sistemas regionales de atención del shock cardiogénico.",
+    internacional: "2025 ACC Expert Consensus Statement on the Evaluation and Management of Cardiogenic Shock."
+  },
+  bibliografia: [
+    "Sinha SS, et al. 2025 ACC Expert Consensus Statement on Cardiogenic Shock.",
+    "AHA Scientific Statement on Temporary Mechanical Circulatory Support.",
+    "Braunwald's Heart Disease. 12th ed."
+  ]
+},
+
+{
+  id: "CARD-410",
+  especialidad: "Cardiología",
+  tema: "Shock cardiogénico",
+  subtema: "Caso integrador: SCAI, hemodinámica, vasoactivos y soporte mecánico",
+  dificultad: "Extrema",
+  caso: `Varón de 61 años con diabetes mellitus tipo 2, hipertensión y enfermedad renal crónica G3a consulta por dolor torácico intenso de 2 horas de evolución.
+
+ECG:
+Elevación del ST de 5 mm en V1-V4.
+Depresión recíproca en II, III y aVF.
+
+Signos vitales:
+PA 74/48 mmHg
+FC 119 lpm
+FR 30 rpm
+SatO2 88%.
+
+Está confuso, diaforético y con extremidades frías. Presenta crépitos pulmonares hasta campos medios.
+
+Laboratorio:
+Lactato 5.7 mmol/L
+pH 7.20
+Creatinina 1.9 mg/dL
+Troponina marcadamente elevada.
+
+Ecocardiograma:
+FEVI 20%.
+VD moderadamente deprimido.
+No existe ruptura septal.
+No hay insuficiencia mitral aguda grave.
+
+Se realiza PCI urgente de la descendente anterior proximal, con resultado angiográfico exitoso.
+
+Después de la reperfusión continúa con:
+PA 82/54 mmHg pese a norepinefrina.
+Lactato 6.4 mmol/L.
+Diuresis 0.2 mL/kg/h.
+Alteración progresiva del estado mental.
+
+Se coloca catéter de arteria pulmonar:
+
+PVC 18 mmHg
+PAP 42/25 mmHg
+PCWP 26 mmHg
+GC 2.0 L/min
+IC 1.0 L/min/m²
+SvO2 39%.
+
+PAPi = (42 − 25)/18 = 0.94.
+
+CPO utilizando una PAM aproximada de 62 mmHg = (2.0 × 62)/451 ≈ 0.27 W.
+
+El paciente se encuentra cada vez más acidótico y requiere dosis crecientes de vasopresores.
+
+El hospital dispone de una unidad de shock avanzada y soporte circulatorio mecánico.`,
+  pregunta: "¿Cuál de las siguientes estrategias representa la mejor conducta global para este paciente?",
+  opciones: [
+    "Continuar únicamente con norepinefrina hasta alcanzar una PAS >120 mmHg, sin considerar soporte mecánico",
+    "Administrar PCI de las lesiones no culpables de forma rutinaria y evitar dispositivos por el riesgo de complicaciones",
+    "Reconocer shock SCAI D/E en progresión, mantener perfusión con norepinefrina, valorar inotropía según el perfil hemodinámico y realizar escalamiento temprano a soporte mecánico apropiado en un centro especializado",
+    "Suspender norepinefrina e iniciar exclusivamente nitroprusiato debido a la elevada presión capilar pulmonar",
+    "Colocar IABP de forma rutinaria porque es el dispositivo con mayor evidencia de reducción de mortalidad en shock por IAM"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La respuesta correcta es reconocer un shock cardiogénico avanzado en progresión y realizar escalamiento temprano y dirigido por fenotipo.
+
+Este caso integra múltiples conceptos.
+
+1. El paciente tiene shock cardiogénico establecido.
+
+Existe:
+- hipotensión;
+- hipoperfusión periférica;
+- lactato 6.4 mmol/L;
+- oliguria;
+- alteración neurológica;
+- IC 1.0 L/min/m²;
+- SvO2 39%;
+- CPO aproximadamente 0.27 W.
+
+2. Existe congestión importante.
+
+PVC 18 mmHg y PCWP 26 mmHg indican congestión tanto sistémica como pulmonar.
+
+3. Existe compromiso biventricular.
+
+La FEVI es de 20% y el VD está moderadamente deprimido. El PAPi de 0.94 sugiere un componente importante de disfunción del VD.
+
+4. La trayectoria es crítica.
+
+El lactato aumenta pese a la reperfusión y al soporte farmacológico. Por tanto, no se trata de un paciente estable en SCAI C; presenta una trayectoria de deterioro compatible con SCAI D y potencial progresión a E.
+
+5. El tratamiento de la causa ya se realizó.
+
+En shock asociado con ACS, la revascularización urgente de la arteria culpable continúa siendo fundamental.
+
+6. No debe realizarse PCI multivaso rutinaria.
+
+La evidencia contemporánea favorece tratar inicialmente la arteria culpable en el paciente con shock.
+
+7. Norepinefrina continúa siendo razonable para sostener la presión de perfusión.
+
+Pero el incremento progresivo de catecolaminas no debe convertirse en el único tratamiento.
+
+8. El paciente requiere valoración inmediata para soporte circulatorio temporal.
+
+La selección del dispositivo debe considerar que existe:
+- insuficiencia grave del VI;
+- componente de VD;
+- congestión;
+- bajo CPO;
+- bajo PAPi;
+- hipoperfusión persistente.
+
+Una bomba microaxial izquierda puede ser útil en pacientes seleccionados con STEMI y shock, pero su capacidad puede verse limitada por una disfunción significativa del VD.
+
+VA-ECMO puede aportar soporte circulatorio y oxigenación en escenarios seleccionados, pero aumenta la poscarga del VI y puede requerir descarga ventricular.
+
+Por tanto, el concepto clave no es memorizar "un dispositivo para todo shock", sino identificar el fenotipo y seleccionar el soporte adecuado.
+
+La guía ACC/AHA 2025 considera razonable el uso de una bomba microaxial en pacientes seleccionados con STEMI y shock grave o refractario, mientras que no recomienda el uso rutinario de IABP o VA-ECMO en AMI-CS por ausencia de beneficio demostrado en mortalidad.
+
+El consenso ACC 2025 enfatiza además la reevaluación seriada, la hemodinámica invasiva y la escalada temprana cuando la terapia farmacológica resulta insuficiente.`,
+  perlaENARM: "Caso maestro: shock cardiogénico = NO es simplemente hipotensión. Integra perfusión + congestión + SCAI + IC + CPO + PAPi + etiología + trayectoria. Si el paciente empeora pese a revascularización y vasoactivos, el siguiente paso es caracterización avanzada y soporte dirigido por fenotipo.",
+  gpc: {
+    mexico: "Para el componente de síndrome coronario agudo debe integrarse la GPC mexicana vigente aplicable a IAM; no se identificó una GPC mexicana específica y vigente dedicada al algoritmo moderno de soporte mecánico en shock cardiogénico.",
+    internacional: "2025 ACC Expert Consensus Statement on the Evaluation and Management of Cardiogenic Shock; 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for Acute Coronary Syndromes."
+  },
+  bibliografia: [
+    "Sinha SS, Morrow DA, Kapur NK, et al. 2025 ACC Expert Consensus Statement on the Evaluation and Management of Cardiogenic Shock. JACC. 2025.",
+    "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes.",
+    "DanGer-SHOCK Trial.",
+    "ECLS-SHOCK Trial.",
+    "CULPRIT-SHOCK Trial.",
+    "AHA Scientific Statement: Escalating and De-escalating Temporary Mechanical Circulatory Support in Cardiogenic Shock.",
+    "Braunwald's Heart Disease. 12th ed.",
+    "Harrison's Principles of Internal Medicine. 21st ed."
+  ]
+}
 ];
 
 window.BANCO_CARDIOLOGIA = BANCO_CARDIOLOGIA;
