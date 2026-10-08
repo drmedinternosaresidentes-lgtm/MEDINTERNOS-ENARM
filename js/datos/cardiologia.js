@@ -9130,7 +9130,7 @@ const BANCO_CARDIOLOGIA = [
         tema: "Insuficiencia cardiaca",
         subtema: "Insuficiencia cardiaca con FEVI recuperada",
         dificultad: "Extrema",
-        caso: "Mujer de 52 años tuvo miocardiopatía dilatada no isquémica hace cuatro años con FEVI de 25%, dilatación ventricular y múltiples hospitalizaciones por insuficiencia cardiaca. Después de iniciar sacubitrilo/valsartán, carvedilol, espironolactona y dapagliflozina presentó recuperación progresiva de la función ventricular. Actualmente está asintomática, realiza actividad física normal y su ecocardiograma muestra FEVI 57%, volumen ventricular casi normal y NT-proBNP dentro de límites normales. La paciente pregunta si puede suspender el tratamiento porque "su corazón ya se curó".",
+        caso: `Mujer de 52 años tuvo miocardiopatía dilatada no isquémica hace cuatro años con FEVI de 25%, dilatación ventricular y múltiples hospitalizaciones por insuficiencia cardiaca. Después de iniciar sacubitrilo/valsartán, carvedilol, espironolactona y dapagliflozina presentó recuperación progresiva de la función ventricular. Actualmente está asintomática, realiza actividad física normal y su ecocardiograma muestra FEVI 57%, volumen ventricular casi normal y NT-proBNP dentro de límites normales. La paciente pregunta si puede suspender el tratamiento porque "su corazón ya se curó".`,
         pregunta: "¿Cuál es la recomendación más apropiada?",
         opciones: [
             "Suspender todos los medicamentos porque la FEVI ya es normal",
