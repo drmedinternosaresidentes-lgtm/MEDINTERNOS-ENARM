@@ -150,28 +150,447 @@ function renderTemario() {
   `;
 }
 
-function renderProgreso() {
-  const historial = JSON.parse(localStorage.getItem("enarm_historial") || "[]");
-  const promedio = historial.length ? Math.round(historial.reduce((a,b)=>a+b.porcentaje,0)/historial.length) : 0;
+async function renderProgreso() {
 
-  document.getElementById("view-progreso").innerHTML = `
-    <div class="section-title"><div><h2>Progreso</h2><p>Datos almacenados localmente en este navegador.</p></div></div>
-    <div class="stats">
-      <div class="stat"><span class="stat-label">Simuladores realizados</span><div class="stat-value">${historial.length}</div></div>
-      <div class="stat"><span class="stat-label">Promedio</span><div class="stat-value">${promedio}%</div></div>
-      <div class="stat"><span class="stat-label">Mejor resultado</span><div class="stat-value">${historial.length ? Math.max(...historial.map(x=>x.porcentaje)) : 0}%</div></div>
-      <div class="stat"><span class="stat-label">Preguntas respondidas</span><div class="stat-value">${historial.reduce((a,b)=>a+b.total,0)}</div></div>
+  const cont = document.getElementById("view-progreso");
+
+  // Estado inicial mientras consultamos Supabase
+  cont.innerHTML = `
+    <div class="section-title">
+      <div>
+        <h2>Mi progreso</h2>
+        <p>Consultando tus resultados...</p>
+      </div>
     </div>
-    <div class="section-title"><div><h2>Historial</h2></div></div>
-    <div class="list">
-      ${historial.length ? historial.slice().reverse().map(x => `
-        <div class="list-item">
-          <div><strong>${x.especialidad}</strong><small>${new Date(x.fecha).toLocaleString("es-MX")}</small></div>
-          <span class="badge">${x.correctas}/${x.total} · ${x.porcentaje}%</span>
-        </div>
-      `).join("") : `<div class="card empty">Todavía no hay simuladores registrados.</div>`}
+
+    <div class="card empty">
+      Cargando información de tu cuenta...
     </div>
   `;
+
+  try {
+
+    // Verificar sesión
+    if (!window.supabaseClient) {
+      throw new Error("Supabase no está disponible.");
+    }
+
+    const { data: { session }, error: sessionError } =
+      await window.supabaseClient.auth.getSession();
+
+    if (sessionError) {
+      throw sessionError;
+    }
+
+    // Si no hay sesión, mostrar mensaje
+    if (!session?.user) {
+
+      cont.innerHTML = `
+        <div class="section-title">
+          <div>
+            <h2>Mi progreso</h2>
+            <p>Tu progreso se sincroniza con tu cuenta.</p>
+          </div>
+        </div>
+
+        <div class="card empty">
+          <h3>Inicia sesión para ver tu progreso</h3>
+          <p>
+            Tus resultados se guardan de forma segura en tu cuenta
+            y pueden consultarse desde diferentes dispositivos.
+          </p>
+        </div>
+      `;
+
+      return;
+    }
+
+    // Obtener únicamente las respuestas del usuario actual
+    const { data, error } = await window.supabaseClient
+      .from("user_responses")
+      .select(`
+        id,
+        attempt_id,
+        question_id,
+        especialidad,
+        tema,
+        subtema,
+        selected_option,
+        correct_option,
+        is_correct,
+        mode,
+        answered_at
+      `)
+      .eq("user_id", session.user.id)
+      .order("answered_at", { ascending: false });
+
+    if (error) {
+      throw error;
+    }
+
+    const respuestas = data || [];
+
+    // Sin respuestas todavía
+    if (!respuestas.length) {
+
+      cont.innerHTML = `
+        <div class="section-title">
+          <div>
+            <h2>Mi progreso</h2>
+            <p>Resultados sincronizados con tu cuenta.</p>
+          </div>
+        </div>
+
+        <div class="card empty">
+          <h3>Aún no tienes respuestas registradas</h3>
+          <p>Realiza un simulador para comenzar a generar estadísticas.</p>
+        </div>
+      `;
+
+      return;
+    }
+
+    // ============================
+    // ESTADÍSTICAS GENERALES
+    // ============================
+
+    const totalPreguntas = respuestas.length;
+
+    const correctas = respuestas.filter(
+      r => r.is_correct === true
+    ).length;
+
+    const incorrectas = totalPreguntas - correctas;
+
+    const precision = totalPreguntas
+      ? Math.round((correctas / totalPreguntas) * 100)
+      : 0;
+
+    // Intentos únicos
+    const attempts = [...new Set(
+      respuestas.map(r => r.attempt_id)
+    )];
+
+    // Mejor rendimiento por simulador
+    const resultadosIntentos = attempts.map(attemptId => {
+
+      const bloque = respuestas.filter(
+        r => r.attempt_id === attemptId
+      );
+
+      const aciertos = bloque.filter(
+        r => r.is_correct === true
+      ).length;
+
+      return {
+        attemptId,
+        especialidad: bloque[0]?.especialidad || "General",
+        fecha: bloque.reduce((latest, r) =>
+          new Date(r.answered_at) > new Date(latest)
+            ? r.answered_at
+            : latest,
+          bloque[0]?.answered_at
+        ),
+        total: bloque.length,
+        correctas: aciertos,
+        porcentaje: Math.round(
+          (aciertos / bloque.length) * 100
+        )
+      };
+    });
+
+    const mejorResultado = resultadosIntentos.length
+      ? Math.max(
+          ...resultadosIntentos.map(x => x.porcentaje)
+        )
+      : 0;
+
+
+    // ============================
+    // RENDIMIENTO POR ESPECIALIDAD
+    // ============================
+
+    const porEspecialidad = {};
+
+    respuestas.forEach(r => {
+
+      const nombre = r.especialidad || "General";
+
+      if (!porEspecialidad[nombre]) {
+        porEspecialidad[nombre] = {
+          total: 0,
+          correctas: 0
+        };
+      }
+
+      porEspecialidad[nombre].total++;
+
+      if (r.is_correct === true) {
+        porEspecialidad[nombre].correctas++;
+      }
+    });
+
+
+    // ============================
+    // RENDIMIENTO POR TEMA
+    // ============================
+
+    const porTema = {};
+
+    respuestas.forEach(r => {
+
+      const nombre = r.tema || "Sin tema";
+
+      if (!porTema[nombre]) {
+        porTema[nombre] = {
+          total: 0,
+          correctas: 0
+        };
+      }
+
+      porTema[nombre].total++;
+
+      if (r.is_correct === true) {
+        porTema[nombre].correctas++;
+      }
+    });
+
+
+    // ============================
+    // HTML ESPECIALIDADES
+    // ============================
+
+    const especialidadesHTML =
+      Object.entries(porEspecialidad)
+        .sort((a, b) =>
+          b[1].total - a[1].total
+        )
+        .map(([nombre, datos]) => {
+
+          const porcentaje = Math.round(
+            (datos.correctas / datos.total) * 100
+          );
+
+          return `
+            <div class="list-item">
+              <div>
+                <strong>${escapeHtml(nombre)}</strong>
+                <small>
+                  ${datos.correctas}/${datos.total} correctas
+                </small>
+              </div>
+
+              <span class="badge">
+                ${porcentaje}%
+              </span>
+            </div>
+          `;
+
+        }).join("");
+
+
+    // ============================
+    // HTML TEMAS
+    // ============================
+
+    const temasHTML =
+      Object.entries(porTema)
+        .sort((a, b) =>
+          b[1].total - a[1].total
+        )
+        .map(([nombre, datos]) => {
+
+          const porcentaje = Math.round(
+            (datos.correctas / datos.total) * 100
+          );
+
+          return `
+            <div class="list-item">
+              <div>
+                <strong>${escapeHtml(nombre)}</strong>
+                <small>
+                  ${datos.correctas}/${datos.total} correctas
+                </small>
+              </div>
+
+              <span class="badge">
+                ${porcentaje}%
+              </span>
+            </div>
+          `;
+
+        }).join("");
+
+
+    // ============================
+    // HISTORIAL
+    // ============================
+
+    const historialHTML =
+      resultadosIntentos
+        .sort(
+          (a, b) =>
+            new Date(b.fecha) - new Date(a.fecha)
+        )
+        .map(x => `
+          <div class="list-item">
+
+            <div>
+              <strong>
+                ${escapeHtml(x.especialidad)}
+              </strong>
+
+              <small>
+                ${new Date(x.fecha).toLocaleString("es-MX")}
+              </small>
+            </div>
+
+            <span class="badge">
+              ${x.correctas}/${x.total} · ${x.porcentaje}%
+            </span>
+
+          </div>
+        `)
+        .join("");
+
+
+    // ============================
+    // RENDER FINAL
+    // ============================
+
+    cont.innerHTML = `
+
+      <div class="section-title">
+        <div>
+          <h2>Mi progreso</h2>
+          <p>
+            Estadísticas sincronizadas con tu cuenta.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="stats">
+
+        <div class="stat">
+          <span class="stat-label">
+            Preguntas respondidas
+          </span>
+
+          <div class="stat-value">
+            ${totalPreguntas}
+          </div>
+        </div>
+
+
+        <div class="stat">
+          <span class="stat-label">
+            Aciertos
+          </span>
+
+          <div class="stat-value">
+            ${correctas}
+          </div>
+        </div>
+
+
+        <div class="stat">
+          <span class="stat-label">
+            Precisión
+          </span>
+
+          <div class="stat-value">
+            ${precision}%
+          </div>
+        </div>
+
+
+        <div class="stat">
+          <span class="stat-label">
+            Mejor resultado
+          </span>
+
+          <div class="stat-value">
+            ${mejorResultado}%
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="section-title">
+        <div>
+          <h2>Rendimiento por especialidad</h2>
+          <p>
+            Aciertos acumulados según las respuestas registradas.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="list">
+        ${especialidadesHTML}
+      </div>
+
+
+      <div class="section-title">
+        <div>
+          <h2>Rendimiento por tema</h2>
+          <p>
+            Identifica tus áreas de mayor y menor rendimiento.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="list">
+        ${temasHTML}
+      </div>
+
+
+      <div class="section-title">
+        <div>
+          <h2>Historial de simuladores</h2>
+          <p>
+            Sesiones registradas en tu cuenta.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="list">
+        ${historialHTML}
+      </div>
+
+    `;
+    
+  } catch (error) {
+
+    console.error(
+      "Error al cargar el progreso:",
+      error
+    );
+
+    cont.innerHTML = `
+      <div class="section-title">
+        <div>
+          <h2>Mi progreso</h2>
+          <p>No fue posible cargar tus estadísticas.</p>
+        </div>
+      </div>
+
+      <div class="card empty">
+
+        <h3>Error al consultar Supabase</h3>
+
+        <p>
+          Tus respuestas pueden seguir guardándose
+          localmente. Intenta actualizar la página.
+        </p>
+
+      </div>
+    `;
+  }
 }
 
 function renderGpc() {
