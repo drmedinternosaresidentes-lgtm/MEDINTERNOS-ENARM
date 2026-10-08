@@ -5,12 +5,14 @@ const Simulador = {
   modo: "estudio",
   especialidad: "General",
   attemptId: null,
+  startedAt: null,
 
   iniciar({ especialidad = "General", cantidad = 30, modo = "estudio" } = {}) {
     this.especialidad = especialidad;
     this.modo = modo;
 
     this.attemptId = crypto.randomUUID();
+    this.startedAt = new Date().toISOString();
 
     let pool = especialidad === "General"
       ? [...BANCO_PREGUNTAS]
@@ -128,9 +130,18 @@ function renderPregunta() {
   `;
 }
 
-function finalizarSimulador() {
+async function finalizarSimulador() {
+
   const r = Simulador.resultado();
-  const historial = JSON.parse(localStorage.getItem("enarm_historial") || "[]");
+
+  // ==========================================
+  // HISTORIAL LOCAL
+  // ==========================================
+
+  const historial = JSON.parse(
+    localStorage.getItem("enarm_historial") || "[]"
+  );
+
   historial.push({
     fecha: new Date().toISOString(),
     especialidad: Simulador.especialidad,
@@ -138,7 +149,91 @@ function finalizarSimulador() {
     correctas: r.correctas,
     porcentaje: r.porcentaje
   });
-  localStorage.setItem("enarm_historial", JSON.stringify(historial));
+
+  localStorage.setItem(
+    "enarm_historial",
+    JSON.stringify(historial)
+  );
+
+
+  // ==========================================
+  // GUARDAR INTENTO EN SUPABASE
+  // ==========================================
+
+  try {
+
+    if (window.supabaseClient && Simulador.attemptId) {
+
+      const {
+        data: { session },
+        error: sessionError
+      } = await window.supabaseClient.auth.getSession();
+
+      if (sessionError) {
+        throw sessionError;
+      }
+
+      if (session?.user) {
+
+        const { error } =
+          await window.supabaseClient
+            .from("simulator_attempts")
+            .upsert(
+              {
+                id: Simulador.attemptId,
+
+                user_id: session.user.id,
+
+                especialidad:
+                  Simulador.especialidad,
+
+                mode:
+                  Simulador.modo,
+
+                question_count:
+                  r.total,
+
+                correct_count:
+                  r.correctas,
+
+                score:
+                  r.porcentaje,
+
+                started_at:
+                  Simulador.startedAt || new Date().toISOString(),
+
+                completed_at:
+                  new Date().toISOString()
+              },
+              {
+                onConflict: "id"
+              }
+            );
+
+        if (error) {
+          console.warn(
+            "No se pudo guardar el simulador en Supabase:",
+            error
+          );
+        }
+      }
+    }
+
+  } catch (error) {
+
+    // Supabase nunca debe impedir que
+    // el alumno vea su resultado.
+    console.warn(
+      "Error al guardar el simulador en Supabase:",
+      error
+    );
+  }
+
+
+  // ==========================================
+  // MOSTRAR RESULTADO
+  // ==========================================
+
   renderResultados();
   showView("resultados");
 }
