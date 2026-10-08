@@ -472,11 +472,13 @@
 
         function abrirLogin() {
 
-            authModal.classList.add("active");
-            accountMenu.classList.remove("active");
+    authModal.classList.add("active");
+    accountMenu.classList.remove("active");
 
-        }
+}
 
+    window.abrirLogin = abrirLogin;
+        
         function cerrarLogin() {
 
             authModal.classList.remove("active");
@@ -628,15 +630,28 @@
                     }
 
                     mensaje(
-                        "Inicio de sesión correcto.",
-                        "success"
-                    );
+    "Inicio de sesión correcto.",
+    "success"
+);
 
-                    actualizarUsuario(data.user);
+actualizarUsuario(data.user);
 
-                    setTimeout(() => {
-                        cerrarLogin();
-                    }, 700);
+setTimeout(() => {
+
+    cerrarLogin();
+
+    // Continuar automáticamente con la acción
+    // que el usuario intentó realizar antes de iniciar sesión.
+    if (typeof window.accionPendienteAuth === "function") {
+
+        const accion = window.accionPendienteAuth;
+
+        window.accionPendienteAuth = null;
+
+        accion();
+    }
+
+}, 700);
 
                 }
 
