@@ -7,7 +7,87 @@ const Simulador = {
   attemptId: null,
   startedAt: null,
 
-  iniciar({ especialidad = "General", cantidad = 30, modo = "estudio" } = {}) {
+  async iniciar({ especialidad = "General", cantidad = 30, modo = "estudio" } = {}) {
+
+    // ============================================================
+    // VERIFICAR AUTENTICACIÓN ANTES DE INICIAR
+    // ============================================================
+
+    if (!window.supabaseClient) {
+
+        alert(
+            "No fue posible conectar con el sistema de autenticación."
+        );
+
+        return false;
+    }
+
+    try {
+
+        const {
+            data: { session },
+            error
+        } = await window.supabaseClient.auth.getSession();
+
+        if (error) {
+            throw error;
+        }
+
+        // --------------------------------------------------------
+        // USUARIO NO AUTENTICADO
+        // --------------------------------------------------------
+
+        if (!session?.user) {
+
+            // Guardamos la acción que el usuario intentó realizar.
+            window.accionPendienteAuth = () => {
+
+                if (especialidad === "General") {
+
+                    iniciarGeneral(modo);
+
+                } else {
+
+                    iniciarEspecialidad(especialidad);
+
+                }
+
+            };
+
+            // Abrir el modal de autenticación existente.
+            if (typeof window.abrirLogin === "function") {
+
+                window.abrirLogin();
+
+            } else {
+
+                alert(
+                    "Debes iniciar sesión para comenzar un simulador."
+                );
+            }
+
+            return false;
+        }
+
+    } catch (error) {
+
+        console.error(
+            "Error verificando la sesión:",
+            error
+        );
+
+        alert(
+            "No fue posible verificar tu sesión. Intenta nuevamente."
+        );
+
+        return false;
+    }
+
+
+    // ============================================================
+    // SESIÓN VALIDADA → INICIAR SIMULADOR
+    // ============================================================
+
     this.especialidad = especialidad;
     this.modo = modo;
 
@@ -15,20 +95,34 @@ const Simulador = {
     this.startedAt = new Date().toISOString();
 
     let pool = especialidad === "General"
-      ? [...BANCO_PREGUNTAS]
-      : BANCO_PREGUNTAS.filter(q => q.especialidad === especialidad);
+        ? [...BANCO_PREGUNTAS]
+        : BANCO_PREGUNTAS.filter(
+            q => q.especialidad === especialidad
+        );
 
     if (!pool.length) {
-      alert("No hay preguntas disponibles para esta especialidad.");
-      return false;
+
+        alert(
+            "No hay preguntas disponibles para esta especialidad."
+        );
+
+        return false;
     }
 
     pool = this.shuffle(pool);
-    this.preguntas = pool.slice(0, Math.min(cantidad, pool.length));
+
+    this.preguntas = pool.slice(
+        0,
+        Math.min(cantidad, pool.length)
+    );
+
     this.indice = 0;
-    this.respuestas = Array(this.preguntas.length).fill(null);
+
+    this.respuestas =
+        Array(this.preguntas.length).fill(null);
+
     return true;
-  },
+},
 
   shuffle(arr) {
     const a = [...arr];
