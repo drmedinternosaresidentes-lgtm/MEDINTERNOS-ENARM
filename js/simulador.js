@@ -4,10 +4,13 @@ const Simulador = {
   respuestas: [],
   modo: "estudio",
   especialidad: "General",
+  attemptId: null,
 
   iniciar({ especialidad = "General", cantidad = 30, modo = "estudio" } = {}) {
     this.especialidad = especialidad;
     this.modo = modo;
+
+    this.attemptId = crypto.randomUUID();
 
     let pool = especialidad === "General"
       ? [...BANCO_PREGUNTAS]
@@ -36,8 +39,17 @@ const Simulador = {
 
   responder(opcion) {
     this.respuestas[this.indice] = opcion;
+
+    const pregunta = this.preguntas[this.indice];
+
+    guardarRespuestaSupabase({
+        pregunta,
+        opcion,
+        indice: this.indice
+    });
+
     renderPregunta();
-  },
+},
 
   siguiente() {
     if (this.respuestas[this.indice] === null) {
@@ -248,4 +260,63 @@ function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, c => ({
     "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
   }[c]));
+}
+async function guardarRespuestaSupabase({ pregunta, opcion }) {
+    try {
+        // Si Supabase no está disponible, el simulador continúa normalmente.
+        if (!window.supabaseClient) {
+            return;
+        }
+
+        const { data: { session } } =
+            await window.supabaseClient.auth.getSession();
+
+        // Si el alumno no ha iniciado sesión,
+        // solamente se conserva la respuesta local.
+        if (!session?.user) {
+            return;
+        }
+
+        const userId = session.user.id;
+
+        const registro = {
+            user_id: userId,
+            attempt_id: Simulador.attemptId,
+            question_id: String(pregunta.id),
+
+            especialidad: pregunta.especialidad || Simulador.especialidad,
+            tema: pregunta.tema || null,
+            subtema: pregunta.subtema || null,
+
+            selected_option: opcion,
+            correct_option: pregunta.respuestaCorrecta,
+
+            is_correct: opcion === pregunta.respuestaCorrecta,
+
+            mode: Simulador.modo
+        };
+
+        const { error } = await window.supabaseClient
+            .from("user_responses")
+            .upsert(
+                registro,
+                {
+                    onConflict: "user_id,attempt_id,question_id"
+                }
+            );
+
+        if (error) {
+            console.warn(
+                "No se pudo guardar la respuesta en Supabase:",
+                error
+            );
+        }
+
+    } catch (error) {
+        // Un problema con Supabase nunca debe detener el simulador.
+        console.warn(
+            "Error de conexión con Supabase. El simulador continúa:",
+            error
+        );
+    }
 }
