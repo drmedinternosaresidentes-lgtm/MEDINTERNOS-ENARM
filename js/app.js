@@ -115,16 +115,280 @@ function specialtyCard(name, icon, desc) {
   `;
 }
 
+
 function renderSimuladores() {
+  const especialidades = ESPECIALIDADES.map(([nombre]) => nombre);
+
   document.getElementById("view-simuladores").innerHTML = `
-    <div class="section-title"><div><h2>Simuladores</h2><p>Elige el tipo de entrenamiento.</p></div></div>
-    <div class="cards">
-      <div class="card sim-card"><div class="specialty-icon">🎯</div><h3>Simulador general</h3><p>Preguntas aleatorias de todas las especialidades disponibles.</p><button class="btn btn-primary" onclick="iniciarGeneral()">30 preguntas</button></div>
-      <div class="card sim-card"><div class="specialty-icon">📚</div><h3>Por especialidad</h3><p>Concentra el bloque en una sola especialidad.</p><button class="btn btn-outline" onclick="showView('temario')">Elegir especialidad</button></div>
-      <div class="card sim-card"><div class="specialty-icon">🧠</div><h3>Modo estudio</h3><p>Resuelve y posteriormente revisa explicación, GPC y bibliografía.</p><button class="btn btn-outline" onclick="iniciarGeneral('estudio')">Iniciar</button></div>
+    <div class="section-title">
+      <div>
+        <h2>Configurar simulador ENARM</h2>
+        <p>Personaliza tu bloque antes de comenzar.</p>
+      </div>
     </div>
+
+    <section class="config-panel">
+      <div class="config-section">
+        <label class="config-label">Tipo de simulador</label>
+        <div class="config-choice-grid">
+          <label class="config-choice">
+            <input type="radio" name="tipoSimulador"
+                   value="general" checked>
+            <span class="config-choice-content">
+              <strong>General</strong>
+              <small>Todas las especialidades</small>
+            </span>
+          </label>
+
+          <label class="config-choice">
+            <input type="radio" name="tipoSimulador"
+                   value="especialidad">
+            <span class="config-choice-content">
+              <strong>Por especialidad</strong>
+              <small>Un área específica</small>
+            </span>
+          </label>
+        </div>
+      </div>
+
+      <div class="config-section">
+        <label class="config-label" for="especialidadSimulador">
+          Especialidad
+        </label>
+        <select id="especialidadSimulador" class="config-select" disabled>
+          ${especialidades.map(nombre =>
+            `<option value="${escapeHtml(nombre)}"
+              ${nombre === "Gastroenterología" ? "selected" : ""}>
+              ${escapeHtml(nombre)}
+            </option>`
+          ).join("")}
+        </select>
+        <small class="config-help" id="ayudaEspecialidad">
+          En modo general se incluyen todas las especialidades.
+        </small>
+      </div>
+
+      <div class="config-section">
+        <label class="config-label" for="cantidadSimulador">
+          Número de preguntas
+        </label>
+        <div class="config-count-grid">
+          ${[10, 20, 30, 50, 100].map(n => `
+            <label class="config-count">
+              <input type="radio" name="cantidadSimulador"
+                     value="${n}" ${n === 30 ? "checked" : ""}>
+              <span>${n}</span>
+            </label>
+          `).join("")}
+        </div>
+      </div>
+
+      <div class="config-section">
+        <span class="config-label">Modalidad</span>
+        <div class="config-mode-list">
+          <label class="config-mode">
+            <input type="radio" name="modoSimulador"
+                   value="examen" checked>
+            <span>
+              <strong>Examen</strong>
+              <small>Retroalimentación al finalizar.</small>
+            </span>
+          </label>
+
+          <label class="config-mode">
+            <input type="radio" name="modoSimulador"
+                   value="estudio">
+            <span>
+              <strong>Estudio</strong>
+              <small>Explicación disponible durante la resolución.</small>
+            </span>
+          </label>
+        </div>
+      </div>
+
+      <div class="config-section">
+        <span class="config-label">Orden de preguntas</span>
+        <div class="config-choice-grid">
+          <label class="config-choice">
+            <input type="radio" name="ordenSimulador"
+                   value="aleatorio" checked>
+            <span class="config-choice-content">
+              <strong>⇄ Aleatorio</strong>
+            </span>
+          </label>
+
+          <label class="config-choice">
+            <input type="radio" name="ordenSimulador"
+                   value="secuencial">
+            <span class="config-choice-content">
+              <strong>☷ Secuencial</strong>
+            </span>
+          </label>
+        </div>
+      </div>
+
+      <div class="config-summary" aria-live="polite">
+        <span class="config-summary-label">Resumen de configuración</span>
+        <strong id="resumenSimulador">
+          Todas las especialidades · 30 preguntas · Modo examen · Orden aleatorio
+        </strong>
+      </div>
+
+      <button type="button" class="btn btn-primary config-submit"
+              id="iniciarConfigurado">
+        ▶ Usar esta configuración
+      </button>
+
+      <p class="config-error" id="errorConfiguracion" role="alert"></p>
+    </section>
   `;
+
+  const view = document.getElementById("view-simuladores");
+  const radiosTipo = view.querySelectorAll('input[name="tipoSimulador"]');
+  const selector = document.getElementById("especialidadSimulador");
+
+  function actualizarTipo() {
+    const tipo = view.querySelector(
+      'input[name="tipoSimulador"]:checked'
+    ).value;
+
+    selector.disabled = tipo === "general";
+
+    document.getElementById("ayudaEspecialidad").textContent =
+      tipo === "general"
+        ? "En modo general se incluyen todas las especialidades."
+        : "El bloque utilizará preguntas de esta especialidad.";
+
+    actualizarResumenSimulador();
+  }
+
+  radiosTipo.forEach(radio =>
+    radio.addEventListener("change", actualizarTipo)
+  );
+
+  view.querySelectorAll(
+    'input[name="cantidadSimulador"], input[name="modoSimulador"], input[name="ordenSimulador"]'
+  ).forEach(radio =>
+    radio.addEventListener("change", actualizarResumenSimulador)
+  );
+
+  selector.addEventListener("change", actualizarResumenSimulador);
+
+  document.getElementById("iniciarConfigurado").addEventListener(
+    "click",
+    iniciarConfigurado
+  );
+
+  actualizarTipo();
 }
+
+function actualizarResumenSimulador() {
+  const view = document.getElementById("view-simuladores");
+  if (!view) return;
+
+  const tipo = view.querySelector(
+    'input[name="tipoSimulador"]:checked'
+  )?.value || "general";
+
+  const especialidad = document.getElementById(
+    "especialidadSimulador"
+  )?.value || "Gastroenterología";
+
+  const cantidad = Number(view.querySelector(
+    'input[name="cantidadSimulador"]:checked'
+  )?.value || 30);
+
+  const modo = view.querySelector(
+    'input[name="modoSimulador"]:checked'
+  )?.value || "examen";
+
+  const orden = view.querySelector(
+    'input[name="ordenSimulador"]:checked'
+  )?.value || "aleatorio";
+
+  const alcance = tipo === "general"
+    ? "Todas las especialidades"
+    : especialidad;
+
+  document.getElementById("resumenSimulador").textContent =
+    `${alcance} · ${cantidad} preguntas · ` +
+    `${modo === "examen" ? "Modo examen" : "Modo estudio"} · ` +
+    `Orden ${orden}`;
+
+  const boton = document.getElementById("iniciarConfigurado");
+  if (boton) {
+    boton.disabled = false;
+    boton.textContent = "▶ Usar esta configuración";
+  }
+}
+
+async function iniciarConfigurado() {
+  const view = document.getElementById("view-simuladores");
+  const error = document.getElementById("errorConfiguracion");
+  const boton = document.getElementById("iniciarConfigurado");
+
+  const tipo = view.querySelector(
+    'input[name="tipoSimulador"]:checked'
+  ).value;
+
+  const especialidad = tipo === "general"
+    ? "General"
+    : document.getElementById("especialidadSimulador").value;
+
+  const cantidad = Number(view.querySelector(
+    'input[name="cantidadSimulador"]:checked'
+  ).value);
+
+  const modo = view.querySelector(
+    'input[name="modoSimulador"]:checked'
+  ).value;
+
+  const orden = view.querySelector(
+    'input[name="ordenSimulador"]:checked'
+  ).value;
+
+  error.textContent = "";
+
+  const disponibles = especialidad === "General"
+    ? BANCO_PREGUNTAS.length
+    : BANCO_PREGUNTAS.filter(q =>
+        q.especialidad === especialidad
+      ).length;
+
+  if (!disponibles) {
+    error.textContent =
+      "No hay preguntas disponibles para la selección elegida.";
+    return;
+  }
+
+  if (disponibles < cantidad) {
+    error.textContent =
+      `Solo hay ${disponibles} preguntas disponibles para esta selección. ` +
+      `Elige una cantidad menor o carga más preguntas.`;
+    return;
+  }
+
+  boton.disabled = true;
+  boton.textContent = "Preparando simulador…";
+
+  try {
+    const iniciado = await Simulador.iniciar({
+      especialidad,
+      cantidad,
+      modo,
+      orden
+    });
+
+    if (iniciado) {
+      showView("simulador");
+      renderPregunta();
+    }
+  } finally {
+    boton.disabled = false;
+    boton.textContent = "▶ Usar esta configuración";
+  }
+}
+
 
 function renderTemario() {
   document.getElementById("view-temario").innerHTML = `
