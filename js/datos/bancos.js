@@ -1,6 +1,6 @@
 const BANCO_PREGUNTAS = [
   ...window.BANCO_CARDIOLOGIA,
-  ...window.BANCO_NEUMOLOGIA
+  ...window.BANCO_NEUMOLOGIA,
   ...window.BANCO_GASTROENTEROLOGIA
 ];
 
