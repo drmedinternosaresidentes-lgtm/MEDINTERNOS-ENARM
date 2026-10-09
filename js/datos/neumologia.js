@@ -2778,7 +2778,7 @@ Por ello, en este caso la zona con respiración bronquial y mayor transmisión v
     internacional: "Guía multisocietaria AHA/ACC 2026: categorías de gravedad y terapias avanzadas para TEP."
   },
   bibliografia: "IMSS-425-18; AHA/ACC y sociedades colaboradoras, guía de TEP aguda, 2026."
-}
+},
  
 {
   id: "NEUMO-101",
@@ -6281,7 +6281,7 @@ Por ello, en este caso la zona con respiración bronquial y mayor transmisión v
   opciones: [
     "10 mEq/L",
     "14 mEq/L",
-    "19 mEq/L",
+    "21 mEq/L",
     "24 mEq/L",
     "30 mEq/L"
   ],
@@ -6397,16 +6397,27 @@ Por ello, en este caso la zona con respiración bronquial y mayor transmisión v
   subtema: "Alcalosis respiratoria y metabólica simultáneas",
   dificultad: "Muy alta",
   caso: `Hombre de 47 años con cirrosis presenta vómitos, taquipnea y desorientación leve. Gasometría: pH 7.56, PaCO2 22 mmHg y HCO3− 19 mEq/L. Na+ 136 mEq/L, Cl− 96 mEq/L y lactato normal. No presenta diarrea ni insuficiencia renal aguda.`,
-  pregunta: "¿Cuál es la interpretación más probable?",
+  pregunta: "¿Cuál es la interpretación más probable?", 
   opciones: [
-    "Acidosis respiratoria aguda",
-    "Alcalosis respiratoria y acidosis metabólica como trastorno mixto",
-    "Alcalosis respiratoria más alcalosis metabólica no puede existir con HCO3− de 19",
-    "Acidosis metabólica aislada",
-    "Alcalosis metabólica aislada con compensación apropiada"
-  ],
-  respuestaCorrecta: 2,
-  explicacion: `El pH elevado indica alcalemia y la PaCO2 baja señala un componente de alcalosis respiratoria. En una alcalosis respiratoria aguda, el bicarbonato suele disminuir aproximadamente 2 mEq/L por cada reducción de 10 mmHg de PaCO2; con una PaCO2 de 22 mmHg, un HCO3− cercano a 20–21 mEq/L puede ser compatible con compensación aguda. El HCO3− de 19 no demuestra por sí solo una acidosis metabólica concomitante. El caso requiere evaluación adicional para confirmar si existe un trastorno mixto; con los datos proporcionados, la respuesta más probable es alcalosis respiratoria aguda, por lo que las opciones necesitan corrección para una pregunta de respuesta única.`,
+  "Acidosis respiratoria aguda",
+  "Alcalosis respiratoria y acidosis metabólica como trastorno mixto",
+  "Alcalosis respiratoria aguda con compensación apropiada",
+  "Acidosis metabólica aislada",
+  "Alcalosis metabólica aislada con compensación apropiada"
+],
+respuestaCorrecta: 2,
+
+  
+explicacion: `La respuesta correcta es la opción 3.
+
+El pH de 7.56 indica alcalemia y la PaCO2 de 22 mmHg identifica una alcalosis respiratoria como trastorno primario.
+
+En una alcalosis respiratoria aguda, el bicarbonato suele disminuir aproximadamente 2 mEq/L por cada descenso de 10 mmHg de PaCO2 respecto a 40 mmHg.
+
+La PaCO2 disminuyó 18 mmHg. Por tanto, el HCO3 esperado es aproximadamente 20.4 mEq/L. El valor observado de 19 mEq/L es compatible con una respuesta compensadora aguda, aunque la interpretación definitiva depende del contexto clínico y de la precisión de los datos.
+
+No debe diagnosticarse un trastorno metabólico mixto únicamente porque el bicarbonato esté disminuido: hay que compararlo con la compensación esperada.`,
+
   perlaENARM: "No diagnostiques un trastorno mixto solo porque el bicarbonato esté ligeramente fuera del valor normal; calcula la compensación esperada.",
   gpc: {
     mexico: "Consultar protocolos institucionales de evaluación ácido-base y cirrosis.",
@@ -6781,7 +6792,7 @@ Por ello, en este caso la zona con respiración bronquial y mayor transmisión v
   tema: "Fibrosis pulmonar y enfermedades intersticiales",
   subtema: "Sarcoidosis pulmonar",
   dificultad: "Alta",
-  caso: `Hombre de 39 años presenta tos seca, fatiga y adenopatías hiliares bilaterales simétricas. La TC muestra adenopatías mediastínicas y pequeños nódulos perilin-fáticos. El calcio sérico está ligeramente elevado. No hay hipoxemia ni deterioro funcional significativo. No presenta síntomas cardiacos, neurológicos ni oculares.`,
+  caso: `Hombre de 39 años presenta tos seca, fatiga y adenopatías hiliares bilaterales simétricas. La TC muestra adenopatías mediastínicas y pequeños nódulos perilinfáticos. El calcio sérico está ligeramente elevado. No hay hipoxemia ni deterioro funcional significativo. No presenta síntomas cardiacos, neurológicos ni oculares.`,
   pregunta: "¿Cuál es el enfoque diagnóstico más apropiado?",
   opciones: [
     "Confirmar sarcoidosis exclusivamente por elevación de calcio",
