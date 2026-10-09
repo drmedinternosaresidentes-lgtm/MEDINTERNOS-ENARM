@@ -7,7 +7,12 @@ const Simulador = {
   attemptId: null,
   startedAt: null,
 
-  async iniciar({ especialidad = "General", cantidad = 30, modo = "estudio" } = {}) {
+ async iniciar({
+  especialidad = "General",
+  cantidad = 30,
+  modo = "estudio",
+  orden = "aleatorio"
+} = {}) {
 
     // ============================================================
     // VERIFICAR AUTENTICACIÓN ANTES DE INICIAR
@@ -40,19 +45,19 @@ const Simulador = {
         if (!session?.user) {
 
             // Guardamos la acción que el usuario intentó realizar.
-            window.accionPendienteAuth = () => {
-
-                if (especialidad === "General") {
-
-                    iniciarGeneral(modo);
-
-                } else {
-
-                    iniciarEspecialidad(especialidad);
-
-                }
-
-            };
+           window.accionPendienteAuth = () => {
+  Simulador.iniciar({
+    especialidad,
+    cantidad,
+    modo,
+    orden
+  }).then(iniciado => {
+    if (iniciado) {
+      showView("simulador");
+      renderPregunta();
+    }
+  });
+};
 
             // Abrir el modal de autenticación existente.
             if (typeof window.abrirLogin === "function") {
@@ -89,7 +94,8 @@ const Simulador = {
     // ============================================================
 
     this.especialidad = especialidad;
-    this.modo = modo;
+this.modo = modo;
+this.orden = orden;
 
     this.attemptId = crypto.randomUUID();
     this.startedAt = new Date().toISOString();
@@ -109,12 +115,11 @@ const Simulador = {
         return false;
     }
 
-    pool = this.shuffle(pool);
+    if (orden === "aleatorio") {
+  pool = this.shuffle(pool);
+}
 
-    this.preguntas = pool.slice(
-        0,
-        Math.min(cantidad, pool.length)
-    );
+this.preguntas = pool.slice(0, cantidad);
 
     this.indice = 0;
 
@@ -187,6 +192,34 @@ function renderPregunta() {
 
   const seleccion = Simulador.respuestas[Simulador.indice];
   const porcentaje = ((Simulador.indice + 1) / Simulador.preguntas.length) * 100;
+  const mostrarFeedback =
+  Simulador.modo === "estudio" && seleccion !== null;
+
+const feedbackHTML = mostrarFeedback ? `
+  <div class="study-feedback ${
+    seleccion === q.respuestaCorrecta ? "correct" : "incorrect"
+  }">
+    <strong>
+      ${seleccion === q.respuestaCorrecta
+        ? "Respuesta correcta"
+        : "Respuesta incorrecta"}
+    </strong>
+
+    <p>
+      <b>Respuesta correcta:</b>
+      ${escapeHtml(q.opciones[q.respuestaCorrecta])}
+    </p>
+
+    <p>
+      <b>Explicación:</b>
+      ${escapeHtml(q.explicacion || "Sin explicación disponible.")}
+    </p>
+
+    ${q.perlaENARM ? `
+      <p><b>Perla ENARM:</b> ${escapeHtml(q.perlaENARM)}</p>
+    ` : ""}
+  </div>
+` : "";
 
   cont.innerHTML = `
     <div class="exam-header">
@@ -213,7 +246,7 @@ function renderPregunta() {
           </button>
         `).join("")}
       </div>
-
+      ${feedbackHTML}
       <div class="exam-actions">
         <button class="btn btn-outline" onclick="Simulador.anterior()" ${Simulador.indice === 0 ? "disabled" : ""}>← Anterior</button>
         <button class="btn btn-primary" onclick="Simulador.siguiente()">
