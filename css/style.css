@@ -693,3 +693,162 @@ button:focus-visible { outline: 3px solid rgba(18,167,160,.35); outline-offset: 
     font-size: 10px;
   }
 }
+
+/* =====================================
+   MEDINTERNOS ENARM - SECCIÓN PREMIUM
+   ===================================== */
+
+.premium-page {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+
+.premium-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 42px 28px;
+  border-radius: 22px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(135deg, #083b70 0%, #0b5fa5 55%, #1685bd 100%);
+  box-shadow: 0 14px 36px rgba(11, 95, 165, 0.18);
+}
+
+.premium-badge {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.4px;
+}
+
+.premium-hero h2 {
+  max-width: 650px;
+  margin: 24px auto 14px;
+  font-size: clamp(25px, 4vw, 39px);
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.premium-hero > p {
+  max-width: 590px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.7;
+}
+
+.premium-price {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 28px;
+  color: #ffffff;
+}
+
+.premium-currency {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.premium-price strong {
+  font-size: clamp(54px, 9vw, 76px);
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -3px;
+}
+
+.premium-mxn {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.premium-hero .premium-duration {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.premium-benefits {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 13px;
+  margin: 28px auto;
+  padding: 0;
+  text-align: left;
+  list-style: none;
+}
+
+.premium-benefits li {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.btn-premium {
+  display: block;
+  width: min(100%, 330px);
+  min-height: 54px;
+  margin: 0 auto;
+  padding: 15px 22px;
+  border: none;
+  border-radius: 12px;
+  background: #f2c14e;
+  color: #18334d;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.btn-premium:hover:not(:disabled) {
+  background: #ffd56b;
+  transform: translateY(-2px);
+}
+
+.btn-premium:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.premium-hero .premium-legal {
+  margin-top: 17px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.premium-message {
+  min-height: 20px;
+  margin-top: 12px !important;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+  .premium-page {
+    padding: 12px 0;
+  }
+
+  .premium-hero {
+    padding: 30px 18px;
+    border-radius: 16px;
+  }
+
+  .premium-hero h2 {
+    margin-top: 20px;
+  }
+
+  .premium-benefits {
+    width: 100%;
+    max-width: 290px;
+  }
+
+  .premium-benefits li {
+    font-size: 14px;
+  }
+}
