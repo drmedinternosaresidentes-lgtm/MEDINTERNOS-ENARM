@@ -622,6 +622,52 @@ async function renderProgreso() {
       }
     });
 
+    // ============================
+    // TEMAS PRIORITARIOS DE REPASO
+    // ============================
+
+    const temasPrioritarios = Object.entries(porTema)
+      .map(([tema, datos]) => ({
+        tema,
+        total: datos.total,
+        correctas: datos.correctas,
+        porcentaje: Math.round(
+          (datos.correctas / datos.total) * 100
+        )
+      }))
+      .filter(t => t.total >= 3)
+      .sort((a, b) =>
+        a.porcentaje - b.porcentaje ||
+        b.total - a.total
+      )
+      .slice(0, 5);
+
+    const temasPrioritariosHTML = temasPrioritarios.length
+      ? temasPrioritarios.map(t => `
+          <div class="analytics-item">
+            <div class="analytics-item-top">
+              <div>
+                <strong>${escapeHtml(t.tema)}</strong>
+                <small>${t.correctas}/${t.total} respuestas correctas</small>
+              </div>
+              <span class="analytics-percent ${
+                t.porcentaje < 60 ? "weak" :
+                t.porcentaje < 80 ? "medium" : "good"
+              }">${t.porcentaje}%</span>
+            </div>
+            <div class="analytics-track">
+              <div class="analytics-fill ${
+                t.porcentaje < 60 ? "weak" :
+                t.porcentaje < 80 ? "medium" : "good"
+              }" style="width:${t.porcentaje}%"></div>
+            </div>
+          </div>
+        `).join("")
+      : `<div class="card empty">
+          Necesitas responder al menos 3 preguntas de un mismo tema
+          para identificar prioridades de repaso.
+        </div>`;
+
 
     // ============================
     // HTML ESPECIALIDADES
@@ -719,6 +765,40 @@ async function renderProgreso() {
           </div>
         `)
         .join("");
+    
+    // ============================
+    // EVOLUCIÓN DEL RENDIMIENTO
+    // ============================
+
+    const ultimosIntentos = [...resultadosIntentos]
+      .sort((a, b) =>
+        new Date(a.fecha) - new Date(b.fecha)
+      )
+      .slice(-8);
+
+    const evolucionHTML = ultimosIntentos.length
+      ? `
+        <div class="analytics-chart">
+          ${ultimosIntentos.map((x, i) => `
+            <div class="analytics-chart-column"
+                 title="${escapeHtml(x.especialidad)}: ${x.porcentaje}%">
+              <strong>${x.porcentaje}%</strong>
+              <div class="analytics-chart-track">
+                <div class="analytics-chart-bar"
+                     style="height:${Math.max(x.porcentaje, 2)}%"></div>
+              </div>
+              <small>${i + 1}</small>
+            </div>
+          `).join("")}
+        </div>
+        <p class="analytics-note">
+          Últimos ${ultimosIntentos.length} simuladores completados,
+          en orden cronológico.
+        </p>
+      `
+      : `<div class="card empty">
+          Tu evolución aparecerá cuando completes un simulador.
+        </div>`;
 
 
     // ============================
@@ -785,6 +865,29 @@ async function renderProgreso() {
       </div>
 
 
+      <div class="section-title">
+        <div>
+          <h2>Evolución del rendimiento</h2>
+          <p>Porcentaje de aciertos en tus últimos simuladores.</p>
+        </div>
+      </div>
+
+      <div class="card analytics-card">
+        ${evolucionHTML}
+      </div>
+
+      <div class="section-title">
+        <div>
+          <h2>Temas prioritarios de repaso</h2>
+          <p>Temas con menor precisión y al menos tres respuestas registradas.</p>
+        </div>
+      </div>
+
+      <div class="card analytics-card">
+        ${temasPrioritariosHTML}
+      </div>
+
+      
       <div class="section-title">
         <div>
           <h2>Rendimiento por especialidad</h2>
