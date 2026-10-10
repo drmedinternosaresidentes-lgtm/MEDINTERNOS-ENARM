@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderTemario();
   renderProgreso();
   renderGpc();
+  renderPremium();
 
   document.querySelectorAll(".nav-item").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -40,6 +41,131 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("menuBtn").addEventListener("click", openMobileMenu);
   document.getElementById("overlay").addEventListener("click", closeMobileMenu);
 });
+
+function renderPremium() {
+  const contenedor = document.getElementById("view-premium");
+
+  if (!contenedor) {
+    console.error("No se encontró la vista Premium en index.html");
+    return;
+  }
+
+  contenedor.innerHTML = `
+    <section class="premium-page">
+      <div class="premium-hero">
+        <span class="premium-badge">MEDINTERNOS · PREMIUM</span>
+
+        <h2>Prepárate para el ENARM con acceso completo</h2>
+
+        <p>
+          Practica con simuladores clínicos y lleva tu preparación
+          al siguiente nivel.
+        </p>
+
+        <div class="premium-price">
+          <span class="premium-currency">$</span>
+          <strong>250</strong>
+          <span class="premium-mxn">MXN</span>
+        </div>
+
+        <p class="premium-duration">Acceso durante 30 días</p>
+
+        <ul class="premium-benefits">
+          <li>✓ Acceso Premium durante 30 días</li>
+          <li>✓ Sin cobros recurrentes</li>
+          <li>✓ Pago único</li>
+          <li>✓ Acceso vinculado a tu cuenta</li>
+        </ul>
+
+        <button id="btnComprarPremium" class="btn-premium">
+          Obtener Premium
+        </button>
+
+        <p class="premium-legal">
+          El acceso se habilita después de confirmar el pago.
+        </p>
+        <p id="premiumMensaje" class="premium-message" aria-live="polite"></p>
+      </div>
+    </section>
+  `;
+
+  const boton = document.getElementById("btnComprarPremium");
+
+  boton.addEventListener("click", async () => {
+    const mensaje = document.getElementById("premiumMensaje");
+
+    if (!window.supabaseClient) {
+      mensaje.textContent = "No se pudo conectar con el servicio. Recarga la página e inténtalo de nuevo.";
+      return;
+    }
+
+    boton.disabled = true;
+    boton.textContent = "Verificando cuenta...";
+    mensaje.textContent = "";
+
+    try {
+      const { data: sessionData, error: sessionError } =
+        await window.supabaseClient.auth.getSession();
+
+      if (sessionError) throw sessionError;
+
+      const session = sessionData?.session;
+
+      if (!session) {
+        window.accionPendienteAuth = () => {
+          showView("premium");
+        };
+
+        mensaje.textContent = "Inicia sesión para continuar con la compra.";
+        boton.disabled = false;
+        boton.textContent = "Iniciar sesión para comprar";
+
+        if (typeof window.abrirLogin === "function") {
+          window.abrirLogin();
+        } else {
+          mensaje.textContent = "Inicia sesión desde el menú de tu cuenta y vuelve a Premium.";
+          boton.textContent = "Obtener Premium";
+        }
+
+        return;
+      }
+
+      boton.textContent = "Preparando pago...";
+
+      const { data, error } = await window.supabaseClient.functions.invoke(
+        "create-checkout"
+      );
+
+      if (error) {
+        let detalle = error.message || "No fue posible iniciar el pago.";
+
+        try {
+          const respuesta = error.context;
+          if (respuesta && typeof respuesta.json === "function") {
+            const cuerpo = await respuesta.json();
+            if (cuerpo?.error) detalle = cuerpo.error;
+          }
+        } catch (_) {}
+
+        throw new Error(detalle);
+      }
+
+      if (!data?.checkout_url) {
+        throw new Error(data?.error || "No se recibió el enlace de pago.");
+      }
+
+      window.location.href = data.checkout_url;
+    } catch (error) {
+      console.error("Error al iniciar Checkout Premium:", error);
+
+      mensaje.textContent =
+        error.message || "No se pudo iniciar el pago. Inténtalo nuevamente.";
+
+      boton.disabled = false;
+      boton.textContent = "Intentar de nuevo";
+    }
+  });
+}
 
 function showView(view) {
   document.querySelectorAll(".view").forEach(v => v.classList.remove("active-view"));
