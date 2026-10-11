@@ -1569,8 +1569,7 @@ window.BANCO_GASTROENTEROLOGIA = [
     "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974.",
     "Biggins SW, et al. Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome. Hepatology. 2021."
   ]
-},
-  
+},  
 {
   id: "GASTRO-061",
   especialidad: "Gastroenterología",
@@ -1833,10 +1832,6 @@ window.BANCO_GASTROENTEROLOGIA = [
     "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974."
   ]
 },
-];
-window.BANCO_GASTROENTEROLOGIA = window.BANCO_GASTROENTEROLOGIA || [];
-
-window.BANCO_GASTROENTEROLOGIA.push(
 {
   id: "GASTRO-071",
   especialidad: "Gastroenterología",
@@ -2097,8 +2092,6 @@ window.BANCO_GASTROENTEROLOGIA.push(
     "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
   ]
 },
-);
-window.BANCO_GASTROENTEROLOGIA.push(
 {
   id: "GASTRO-081",
   especialidad: "Gastroenterología",
@@ -2359,9 +2352,7 @@ window.BANCO_GASTROENTEROLOGIA.push(
   bibliografia: [
     "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
   ]
-}
-); 
-window.BANCO_GASTROENTEROLOGIA.push(
+},
 {
   id: "GASTRO-091",
   especialidad: "Gastroenterología",
@@ -2625,9 +2616,7 @@ window.BANCO_GASTROENTEROLOGIA.push(
   bibliografia: [
     "Vilstrup H, et al. Hepatology. 2014;60:715-735."
   ]
-}
-);
-window.BANCO_GASTROENTEROLOGIA.push(
+},
 {
   id: "GASTRO-101",
   especialidad: "Gastroenterología",
