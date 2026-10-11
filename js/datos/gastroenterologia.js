@@ -2876,5 +2876,547 @@ window.BANCO_GASTROENTEROLOGIA = [
     bibliografia: [
     "Nadim MK, et al. J Hepatol. 2024;81:163-183."
   ]
-} 
+},
+  
+{
+  id: "GASTRO-111",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis aguda",
+  subtema: "Diagnóstico mediante criterios de Atlanta revisados",
+  dificultad: "Media",
+  caso: `Masculino de 46 años, sin antecedentes relevantes, acude por dolor epigástrico intenso de 10 horas de evolución, irradiado en cinturón hacia la espalda, acompañado de náuseas y vómitos. A la exploración presenta dolor a la palpación profunda en epigastrio, sin rigidez ni rebote. La lipasa sérica es de 1,260 U/L, con límite superior normal de 60 U/L. La amilasa es de 430 U/L. La ecografía abdominal no identifica cálculos en la vesícula ni dilatación de la vía biliar. Está hemodinámicamente estable y no presenta datos de falla orgánica.`,
+  pregunta: "¿Cuál es la interpretación diagnóstica más apropiada?",
+  opciones: [
+    "No puede diagnosticarse pancreatitis aguda sin una tomografía contrastada que demuestre inflamación pancreática.",
+    "Pancreatitis aguda, porque cumple dos criterios diagnósticos: dolor característico y lipasa superior a tres veces el límite normal.",
+    "Pancreatitis crónica reagudizada, porque toda elevación de lipasa indica enfermedad crónica.",
+    "Únicamente hiperamilasemia, ya que la lipasa no es específica para enfermedad pancreática.",
+    "Obstrucción intestinal, porque el vómito y el dolor epigástrico son suficientes para establecer ese diagnóstico."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El diagnóstico de pancreatitis aguda requiere al menos dos de tres criterios: dolor abdominal característico; amilasa o lipasa al menos tres veces por encima del límite superior normal; y hallazgos característicos en imagen. Este paciente cumple los dos primeros, por lo que la tomografía no es necesaria para confirmar el diagnóstico en este momento. La ecografía se utiliza principalmente para investigar una etiología biliar. Deben evaluarse gravedad, estado hemodinámico, función renal, oxigenación, electrolitos y posibles causas metabólicas o tóxicas.`,
+  perlaENARM: `Pancreatitis aguda: necesitas dos de tres criterios de Atlanta revisados. Si el dolor es típico y la lipasa supera tres veces el límite normal, no solicites tomografía rutinaria solo para confirmar el diagnóstico.`,
+  gpc: {
+    mexico: "Verificar el catálogo CENETEC/IMSS para identificar una GPC mexicana vigente y específica aplicable al escenario.",
+    internacional: "American College of Gastroenterology Clinical Guideline: Management of Acute Pancreatitis, 2024."
+  },
+  bibliografia: [
+    "Tenner S, et al. American College of Gastroenterology Guidelines: Management of Acute Pancreatitis. Am J Gastroenterol. 2024.",
+    "Banks PA, et al. Classification of acute pancreatitis—2012: revision of the Atlanta classification and definitions by international consensus. Gut. 2013;62:102-111."
+  ]
+},
+{
+  id: "GASTRO-112",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis aguda",
+  subtema: "Etiología biliar y evaluación inicial",
+  dificultad: "Alta",
+  caso: `Femenina de 52 años con obesidad y episodios previos de cólico biliar acude por dolor epigástrico intenso irradiado a la espalda, vómitos y lipasa de 1,800 U/L. La alanina aminotransferasa es de 286 U/L, AST de 210 U/L, bilirrubina total de 2.1 mg/dL y fosfatasa alcalina discretamente elevada. La ecografía muestra múltiples cálculos vesiculares y colédoco de 5 mm, sin cálculo visible en la vía biliar. No presenta fiebre, ictericia progresiva ni hipotensión. ¿Cuál es la etiología más probable?`,
+  pregunta: "¿Cuál es la causa más probable de la pancreatitis en esta paciente?",
+  opciones: [
+    "Pancreatitis autoinmunitaria tipo 1.",
+    "Pancreatitis inducida por hipertrigliceridemia grave, aunque no se dispone de triglicéridos.",
+    "Pancreatitis aguda de origen biliar por migración transitoria de un cálculo.",
+    "Pancreatitis medicamentosa por un fármaco no documentado.",
+    "Pancreatitis secundaria a hipercalcemia confirmada."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La presencia de colelitiasis, junto con una elevación importante de ALT y aminotransferasas, favorece una etiología biliar. Un cálculo puede atravesar transitoriamente la ampolla y dejar de ser visible cuando se realiza la ecografía. Una ALT superior a 150 U/L durante las primeras 48 horas aumenta la probabilidad de origen biliar, aunque no constituye por sí sola una prueba definitiva. Debe revisarse la evolución de bilirrubina y enzimas hepáticas. Si persiste la sospecha de coledocolitiasis sin evidencia concluyente, pueden utilizarse colangiorresonancia o ultrasonido endoscópico, según disponibilidad y contexto clínico.`,
+  perlaENARM: `Pancreatitis más colelitiasis y elevación marcada de ALT: sospecha origen biliar, incluso si el colédoco no está dilatado y no se visualiza un cálculo.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre pancreatitis aguda y enfermedad litiásica biliar.",
+    internacional: "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024."
+  },
+  bibliografia: [
+    "Tenner S, et al. ACG Clinical Guideline: Management of Acute Pancreatitis. Am J Gastroenterol. 2024.",
+    "Banks PA, et al. Revised Atlanta classification. Gut. 2013;62:102-111."
+  ]
+},
+{
+  id: "GASTRO-113",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis aguda",
+  subtema: "Reanimación con líquidos y solución cristaloide",
+  dificultad: "Alta",
+  caso: `Masculino de 59 años con pancreatitis aguda de probable origen biliar. Presenta mucosas secas, frecuencia cardiaca de 112 lpm, TA de 104/68 mmHg, urea de 42 mg/dL y creatinina de 1.4 mg/dL, sin antecedentes de insuficiencia cardiaca ni enfermedad renal crónica. No tiene hipoxemia ni datos de choque establecido. Después de la valoración inicial se decide iniciar reposición intravenosa de líquidos. ¿Cuál es la estrategia más apropiada?`,
+  pregunta: "¿Cuál es el enfoque recomendado para la fluidoterapia inicial?",
+  opciones: [
+    "Administrar solución salina hipertónica al 3% como líquido de elección.",
+    "Evitar líquidos intravenosos para reducir el edema pancreático.",
+    "Administrar solución cristaloide, preferentemente lactato de Ringer, con intensidad moderada y reevaluaciones frecuentes para ajustar la respuesta.",
+    "Administrar automáticamente un bolo de 30 mL/kg cada hora durante las primeras 12 horas, independientemente de la respuesta.",
+    "Utilizar coloides sintéticos como primera línea en todos los pacientes."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La reposición temprana de volumen es importante, pero debe individualizarse y reevaluarse con frecuencia. El lactato de Ringer suele preferirse sobre solución salina al 0.9% en pancreatitis aguda. Se consideran estado hemodinámico, diuresis, urea, creatinina, hematocrito, signos de sobrecarga y respuesta clínica. La estrategia moderada evita tanto la hipovolemia persistente como la administración excesiva, que puede contribuir a edema pulmonar y otras complicaciones. Los bolos se reservan para hipovolemia o compromiso hemodinámico que los justifique, con reevaluación inmediata.`,
+  perlaENARM: `Pancreatitis aguda: lactato de Ringer y fluidoterapia moderada, individualizada y guiada por objetivos. Evita la reanimación agresiva sistemática sin reevaluación.`,
+  gpc: {
+    mexico: "Consultar el catálogo CENETEC/IMSS y el protocolo institucional vigente de manejo de pancreatitis aguda.",
+    internacional: "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; WATERFALL trial."
+  },
+  bibliografia: [
+    "Tenner S, et al. ACG Clinical Guideline: Management of Acute Pancreatitis. Am J Gastroenterol. 2024.",
+    "de-Madaria E, et al. Aggressive or Moderate Fluid Resuscitation in Acute Pancreatitis. N Engl J Med. 2022;387:989-1000."
+  ]
+},
+{
+  id: "GASTRO-114",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis aguda",
+  subtema: "Indicación de tomografía contrastada",
+  dificultad: "Media",
+  caso: `Femenina de 43 años presenta dolor epigástrico típico irradiado a la espalda y vómitos. La lipasa es ocho veces el límite superior normal. La ecografía identifica colelitiasis sin dilatación del colédoco. La paciente permanece estable, sin hipoxemia, oliguria ni signos de irritación peritoneal. Han transcurrido seis horas desde el inicio de los síntomas y se plantea solicitar tomografía contrastada de inmediato para cuantificar la inflamación pancreática.`,
+  pregunta: "¿Cuál es la conducta más apropiada respecto a la tomografía?",
+  opciones: [
+    "Realizar tomografía contrastada de forma obligatoria a todos los pacientes durante las primeras seis horas.",
+    "Evitar cualquier estudio de imagen durante toda la hospitalización.",
+    "No realizar tomografía rutinaria en este momento, porque el diagnóstico está establecido; reservarla para incertidumbre diagnóstica, deterioro o falta de mejoría clínica.",
+    "Solicitar tomografía sin contraste como prueba obligatoria para confirmar la pancreatitis.",
+    "Sustituir la evaluación clínica por una tomografía diaria durante la primera semana."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `Cuando se cumplen los criterios clínicos y bioquímicos, la tomografía contrastada temprana no es necesaria de rutina para confirmar pancreatitis ni para determinar la gravedad inicial. La imagen se considera si el diagnóstico es incierto, existe sospecha de otro proceso abdominal o el paciente no mejora tras 48–72 horas de manejo, o presenta deterioro que obliga a investigar complicaciones. La necrosis pancreática puede no delimitarse adecuadamente en estudios demasiado tempranos. La ecografía conserva un papel importante para identificar colelitiasis y evaluar la vía biliar.`,
+  perlaENARM: `No solicites tomografía temprana de rutina si el diagnóstico está claro y el paciente evoluciona favorablemente. Considera imagen ante incertidumbre, deterioro o falta de mejoría.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente aplicable a pancreatitis aguda.",
+    internacional: "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024."
+  },
+  bibliografia: [
+    "Tenner S, et al. ACG Clinical Guideline: Management of Acute Pancreatitis. Am J Gastroenterol. 2024.",
+    "Banks PA, et al. Revised Atlanta classification. Gut. 2013;62:102-111."
+  ]
+},
+{
+  id: "GASTRO-115",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis aguda",
+  subtema: "Clasificación de gravedad de Atlanta revisada",
+  dificultad: "Extrema",
+  caso: `Masculino de 67 años con pancreatitis aguda necrosante desarrolla lesión renal aguda y requiere ventilación mecánica por insuficiencia respiratoria. A pesar del tratamiento intensivo, la disfunción respiratoria y renal persiste durante cuatro días. La tomografía muestra necrosis pancreática y colecciones peripancreáticas. ¿Cómo debe clasificarse la gravedad según Atlanta revisada?`,
+  pregunta: "¿Cuál es la clasificación correcta de la pancreatitis?",
+  opciones: [
+    "Leve, porque las alteraciones de laboratorio pueden normalizarse posteriormente.",
+    "Moderadamente grave, porque la necrosis pancreática siempre pertenece a esta categoría.",
+    "Grave, porque existe falla orgánica persistente durante más de 48 horas.",
+    "Leve, siempre que no exista infección documentada de la necrosis.",
+    "Moderadamente grave, porque la clasificación depende exclusivamente de la presencia de colecciones."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La clasificación de Atlanta revisada distingue pancreatitis leve, moderadamente grave y grave. La leve no presenta falla orgánica ni complicaciones locales o sistémicas. La moderadamente grave se caracteriza por falla orgánica transitoria, que se resuelve en 48 horas o menos, y/o complicaciones locales o sistémicas sin falla orgánica persistente. La pancreatitis grave se define por falla orgánica persistente durante más de 48 horas, única o múltiple. En este caso, la insuficiencia respiratoria y la lesión renal con persistencia superior a 48 horas establecen la categoría grave. La necrosis aislada no basta por sí sola para clasificarla como grave.`,
+  perlaENARM: `Atlanta revisada: falla orgánica persistente >48 horas = pancreatitis grave. La necrosis local no determina por sí sola la categoría de gravedad.`,
+  gpc: {
+    mexico: "Consultar protocolos institucionales vigentes para pancreatitis grave y manejo en cuidados intensivos.",
+    internacional: "Revised Atlanta Classification, 2012; ACG Clinical Guideline, 2024."
+  },
+  bibliografia: [
+    "Banks PA, et al. Classification of acute pancreatitis—2012: revision of the Atlanta classification. Gut. 2013;62:102-111.",
+    "Tenner S, et al. ACG Clinical Guideline: Management of Acute Pancreatitis. Am J Gastroenterol. 2024."
+  ]
+},
+{
+  id: "GASTRO-116",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis aguda",
+  subtema: "Colangitis concomitante y CPRE",
+  dificultad: "Extrema",
+  caso: `Femenina de 70 años con dolor epigástrico irradiado a la espalda presenta lipasa de 1,400 U/L, fiebre de 39 °C, ictericia, dolor en hipocondrio derecho e hipotensión. La bilirrubina total es de 6.2 mg/dL y la ecografía muestra dilatación del colédoco con un probable cálculo distal. Tiene leucocitosis y lactato elevado. Se sospecha pancreatitis aguda biliar complicada con colangitis y se inicia reanimación, antibióticos y soporte hemodinámico.`,
+  pregunta: "¿Cuál es la estrategia definitiva más apropiada para controlar el foco biliar?",
+  opciones: [
+    "Esperar cuatro semanas para realizar CPRE, aunque persista la sepsis biliar.",
+    "Indicar colecistectomía aislada y omitir la descompresión de la vía biliar.",
+    "Realizar CPRE urgente para drenaje y descompresión biliar, una vez iniciada la estabilización y con coordinación del equipo endoscópico.",
+    "Administrar únicamente antibióticos hasta que se normalice la lipasa.",
+    "Realizar pancreatografía diagnóstica sin intentar drenar la vía biliar."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La pancreatitis biliar acompañada de colangitis requiere antibióticos, reanimación y descompresión biliar urgente, habitualmente mediante CPRE terapéutica. La prioridad es controlar la infección y la obstrucción persistente; no debe esperarse a que se normalice la lipasa. En cambio, la CPRE temprana no se recomienda de rutina en pancreatitis biliar sin colangitis ni evidencia de obstrucción persistente, porque puede añadir riesgos sin beneficio suficiente. En pacientes inestables, la coordinación para drenaje debe realizarse en paralelo con la reanimación y el soporte de órganos.`,
+  perlaENARM: `Pancreatitis biliar + colangitis = antibióticos y descompresión biliar urgente mediante CPRE, si está disponible. Sin colangitis ni obstrucción persistente, la CPRE urgente no es rutinaria.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de pancreatitis aguda, colangitis y coledocolitiasis.",
+    internacional: "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; Tokyo Guidelines para colangitis."
+  },
+  bibliografia: [
+    "Tenner S, et al. ACG Clinical Guideline: Management of Acute Pancreatitis. Am J Gastroenterol. 2024.",
+    "Kiriyama S, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-117",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis aguda",
+  subtema: "Colecistectomía en pancreatitis biliar leve",
+  dificultad: "Alta",
+  caso: `Femenina de 38 años ingresa por pancreatitis aguda biliar. Presentó dolor epigástrico y elevación de lipasa, pero no desarrolla falla orgánica ni complicaciones locales. A las 48 horas tolera alimentación oral, el dolor ha disminuido y las pruebas de función renal son normales. La ecografía confirma colelitiasis y no hay evidencia de coledocolitiasis residual. Se plantea el alta hospitalaria sin cirugía y programar colecistectomía dentro de tres meses.`,
+  pregunta: "¿Cuál es la estrategia más apropiada para prevenir recurrencias?",
+  opciones: [
+    "Realizar colecistectomía durante el mismo ingreso, una vez que la paciente se encuentre clínicamente apta.",
+    "Indicar colecistectomía únicamente si presenta un segundo episodio.",
+    "Realizar necrosectomía pancreática profiláctica antes del alta.",
+    "Indicar CPRE con esfinterotomía en todas las pacientes y omitir la colecistectomía.",
+    "Mantener ayuno durante dos semanas para evitar recurrencia y después dar de alta sin cirugía."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En pancreatitis aguda biliar leve se recomienda realizar colecistectomía durante el mismo ingreso, una vez que la paciente se ha estabilizado y está clínicamente apta. Diferirla expone a nuevos episodios de pancreatitis y otros eventos biliares durante el intervalo. Esta recomendación no debe extrapolarse de forma automática a pancreatitis grave con necrosis o colecciones peripancreáticas significativas, en las que el momento de la cirugía requiere individualización. Si existe contraindicación quirúrgica, deben valorarse alternativas específicas de acuerdo con el riesgo y la anatomía biliar.`,
+  perlaENARM: `Pancreatitis biliar leve: colecistectomía durante el mismo ingreso. En enfermedad grave con colecciones, el momento quirúrgico se individualiza.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente para pancreatitis biliar y colecistectomía.",
+    internacional: "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; evidencia sobre colecistectomía durante el ingreso."
+  },
+  bibliografia: [
+    "Tenner S, et al. ACG Clinical Guideline: Management of Acute Pancreatitis. Am J Gastroenterol. 2024.",
+    "da Costa DW, et al. Same-admission versus interval cholecystectomy for mild gallstone pancreatitis. Evidencia clínica sobre prevención de recurrencias."
+  ]
+},
+{
+  id: "GASTRO-118",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis aguda",
+  subtema: "Antibióticos y necrosis pancreática estéril",
+  dificultad: "Extrema",
+  caso: `Masculino de 55 años con pancreatitis aguda grave permanece hospitalizado en cuidados intensivos. La tomografía realizada por deterioro clínico muestra áreas de necrosis pancreática, sin gas dentro de las colecciones. Tiene fiebre intermitente y leucocitosis, pero los hemocultivos son negativos y no se ha identificado otro foco infeccioso. No presenta colangitis ni neumonía. Se propone iniciar meropenem durante 14 días exclusivamente porque la tomografía demuestra necrosis.`,
+  pregunta: "¿Cuál es la conducta más apropiada respecto al uso de antibióticos?",
+  opciones: [
+    "Iniciar carbapenémico de amplio espectro de manera obligatoria en toda necrosis pancreática.",
+    "Administrar profilaxis antibiótica durante cuatro semanas aunque no exista infección sospechada.",
+    "No indicar antibióticos profilácticos por necrosis estéril; investigar causas de fiebre y administrar tratamiento antimicrobiano si surge evidencia o sospecha clínica fundada de infección.",
+    "Utilizar antifúngicos de rutina para prevenir infección por Candida.",
+    "Indicar antibióticos orales de baja absorción como tratamiento definitivo de la necrosis."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La necrosis pancreática estéril no constituye por sí misma una indicación de antibióticos profilácticos. La fiebre y la leucocitosis pueden reflejar inflamación sistémica estéril, aunque deben investigarse otras fuentes y reevaluarse la evolución. La sospecha de necrosis infectada aumenta con deterioro clínico, bacteriemia, gas dentro de la colección u otros hallazgos compatibles. Cuando se sospecha o confirma infección, se seleccionan antibióticos con penetración adecuada en tejido necrótico según el contexto y los patrones microbiológicos. La profilaxis rutinaria no ha demostrado un beneficio suficiente y favorece efectos adversos y resistencia antimicrobiana.`,
+  perlaENARM: `Necrosis pancreática no equivale a necrosis infectada. No uses antibióticos profilácticos de rutina; reserva el tratamiento para infección sospechada o documentada.`,
+  gpc: {
+    mexico: "Consultar protocolos institucionales vigentes para pancreatitis necrosante e infección intraabdominal.",
+    internacional: "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024."
+  },
+  bibliografia: [
+    "Tenner S, et al. ACG Clinical Guideline: Management of Acute Pancreatitis. Am J Gastroenterol. 2024.",
+    "Leppäniemi A, et al. WSES guidelines for the management of severe acute pancreatitis. World J Emerg Surg. 2019."
+  ]
+},
+{
+  id: "GASTRO-119",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis aguda",
+  subtema: "Nutrición enteral y realimentación temprana",
+  dificultad: "Alta",
+  caso: `Femenina de 49 años ingresa por pancreatitis aguda intersticial edematosa sin falla orgánica. Después de 24 horas de analgesia y fluidoterapia, el dolor disminuye, no presenta vómitos y manifiesta apetito. La paciente pregunta si debe permanecer en ayuno absoluto durante cinco a siete días para evitar estimular la secreción pancreática. No existen signos de íleo, obstrucción intestinal ni intolerancia alimentaria.`,
+  pregunta: "¿Cuál es la recomendación nutricional más apropiada?",
+  opciones: [
+    "Mantener ayuno absoluto durante al menos siete días en todos los pacientes.",
+    "Iniciar nutrición parenteral total inmediatamente, aunque tolere la vía oral.",
+    "Reiniciar alimentación oral temprana según tolerancia, preferentemente con dieta sólida baja en grasa cuando sea apropiado.",
+    "Indicar exclusivamente agua y líquidos claros durante dos semanas antes de avanzar la dieta.",
+    "Evitar toda nutrición hasta que la lipasa se normalice."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `En pancreatitis aguda leve se recomienda iniciar alimentación oral temprana según tolerancia, sin esperar a la normalización de enzimas pancreáticas. Puede utilizarse una dieta sólida baja en grasa desde el inicio si el estado clínico lo permite. El ayuno prolongado no ofrece un beneficio sistemático y puede contribuir a desnutrición y pérdida de masa muscular. Si el paciente no tolera la vía oral o presenta enfermedad moderadamente grave o grave con imposibilidad de alimentación adecuada, se prefiere la nutrición enteral sobre la parenteral cuando sea factible.`,
+  perlaENARM: `Pancreatitis leve: alimentación oral temprana según tolerancia; no esperes a normalizar la lipasa. Si no es posible la vía oral, prioriza nutrición enteral cuando esté indicada.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente y el protocolo nutricional institucional aplicable.",
+    internacional: "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024."
+  },
+  bibliografia: [
+    "Tenner S, et al. ACG Clinical Guideline: Management of Acute Pancreatitis. Am J Gastroenterol. 2024.",
+    "ESPEN guideline on clinical nutrition in acute and chronic pancreatitis."
+  ]
+},
+{
+  id: "GASTRO-120",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis aguda",
+  subtema: "Necrosis pancreática infectada y estrategia escalonada",
+  dificultad: "Extrema",
+  caso: `Masculino de 61 años con pancreatitis aguda necrosante grave desarrolla deterioro clínico durante la tercera semana de hospitalización, con fiebre persistente, bacteriemia por bacilos gramnegativos y gas dentro de una colección necrótica encapsulada en la tomografía. Se inicia tratamiento antimicrobiano dirigido y soporte de órganos. El paciente se encuentra actualmente estable con vasopresores en descenso, pero la colección aún no está completamente organizada. Se solicita valoración para control definitivo del foco.`,
+  pregunta: "En ausencia de una indicación inmediata de cirugía abierta, ¿cuál es el enfoque preferido para el manejo de la necrosis infectada?",
+  opciones: [
+    "Realizar necrosectomía abierta inmediata en todos los pacientes, sin importar la maduración de la colección.",
+    "Mantener antibióticos indefinidamente y nunca intervenir la colección.",
+    "Aplicar una estrategia escalonada: antibióticos, drenaje endoscópico o percutáneo según anatomía y experiencia, y necrosectomía mínimamente invasiva si persiste la necesidad; diferir la intervención cuando sea posible hasta que la colección esté organizada.",
+    "Realizar CPRE de manera rutinaria para extraer tejido necrótico pancreático.",
+    "Indicar resección total del páncreas como primera intervención."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La necrosis pancreática infectada requiere antibióticos y valoración multidisciplinaria. En pacientes estables, retrasar la intervención hasta que la colección esté mejor delimitada y encapsulada, con frecuencia alrededor de cuatro semanas desde el inicio, puede facilitar el procedimiento y reducir complicaciones. Cuando se requiere control del foco, se prefiere una estrategia escalonada: drenaje endoscópico o percutáneo según la localización, seguido de necrosectomía mínimamente invasiva si no hay respuesta suficiente. La cirugía abierta se reserva para escenarios seleccionados, como fracaso de alternativas menos invasivas o complicaciones que exijan intervención urgente. La urgencia y la técnica deben adaptarse a la evolución clínica y a la anatomía.`,
+  perlaENARM: `Necrosis pancreática infectada: antibióticos y estrategia escalonada. Si el paciente lo permite, difiere el desbridamiento hasta que la colección esté organizada; no todos requieren cirugía abierta.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente y el protocolo institucional para pancreatitis necrosante infectada.",
+    internacional: "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; WSES guidelines for severe acute pancreatitis."
+  },
+  bibliografia: [
+    "Tenner S, et al. ACG Clinical Guideline: Management of Acute Pancreatitis. Am J Gastroenterol. 2024.",
+    "Leppäniemi A, et al. WSES guidelines for the management of severe acute pancreatitis. World J Emerg Surg. 2019.",
+    "van Santvoort HC, et al. A step-up approach or open necrosectomy for necrotizing pancreatitis. N Engl J Med. 2010;362:1491-1502."
+  ]
+},
+
+{
+  id: "GASTRO-121",
+  especialidad: "Gastroenterología",
+  tema: "Colecistitis aguda",
+  subtema: "Diagnóstico clínico y ultrasonográfico",
+  dificultad: "Media",
+  caso: `Femenina de 42 años con obesidad acude por dolor continuo en hipocondrio derecho de 18 horas de evolución, náuseas y fiebre de 38.2 °C. A la exploración presenta dolor localizado en hipocondrio derecho y signo de Murphy positivo. La biometría hemática muestra leucocitosis de 14,800/µL. El ultrasonido abdominal identifica cálculos vesiculares, engrosamiento de la pared de 5 mm y líquido perivesicular. No existe dilatación de la vía biliar.`,
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Cólico biliar no complicado.",
+    "Colecistitis aguda calculosa.",
+    "Colangitis aguda.",
+    "Pancreatitis aguda de origen biliar.",
+    "Hepatitis aguda viral."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El dolor persistente en hipocondrio derecho, fiebre, signo de Murphy positivo y leucocitosis, junto con cálculos, engrosamiento de la pared vesicular y líquido perivesicular, sustentan el diagnóstico de colecistitis aguda calculosa. El cólico biliar suele producir dolor transitorio sin inflamación sistémica ni hallazgos inflamatorios persistentes en la pared vesicular. La ausencia de dilatación del colédoco y de datos de obstrucción biliar reduce la sospecha de coledocolitiasis, aunque no la excluye por completo.`,
+  perlaENARM: `Colecistitis aguda: integrar signos locales de inflamación, respuesta inflamatoria sistémica e imagen compatible. El ultrasonido es el estudio inicial de elección en la mayoría de los pacientes.`,
+  gpc: {
+    mexico: "Verificar el catálogo CENETEC/IMSS para la GPC mexicana vigente sobre colecistitis y colelitiasis.",
+    internacional: "Tokyo Guidelines 2018; guía WSES 2020 sobre colecistitis aguda calculosa."
+  },
+  bibliografia: [
+    "Yokoe M, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis. J Hepatobiliary Pancreat Sci. 2018.",
+    "Pisano M, et al. 2020 World Society of Emergency Surgery updated guidelines for the diagnosis and treatment of acute calculus cholecystitis. World J Emerg Surg. 2020;15:61."
+  ]
+},
+{
+  id: "GASTRO-122",
+  especialidad: "Gastroenterología",
+  tema: "Colecistitis aguda",
+  subtema: "Diagnóstico diferencial: cólico biliar",
+  dificultad: "Fácil",
+  caso: `Masculino de 35 años presenta dolor en hipocondrio derecho después de una comida abundante, con irradiación a la región escapular derecha. El episodio dura 90 minutos y desaparece espontáneamente. Está afebril, sin ictericia y con signo de Murphy negativo. La biometría hemática y las pruebas hepáticas son normales. El ultrasonido muestra cálculos vesiculares, sin engrosamiento de la pared, líquido perivesicular ni dilatación de la vía biliar.`,
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Colecistitis aguda calculosa.",
+    "Colangitis aguda.",
+    "Cólico biliar no complicado.",
+    "Absceso hepático.",
+    "Pancreatitis aguda."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `El dolor relacionado con comidas, de duración limitada y con resolución espontánea, en presencia de cálculos sin datos clínicos, analíticos o ultrasonográficos de inflamación, es compatible con cólico biliar. La persistencia del dolor, fiebre, Murphy positivo y cambios inflamatorios en el ultrasonido apoyarían colecistitis aguda. Debe indicarse valoración para tratamiento definitivo de la colelitiasis sintomática y explicar los signos de alarma que requieren atención urgente.`,
+  perlaENARM: `Cólico biliar: dolor transitorio por obstrucción pasajera del conducto cístico, sin inflamación sistémica ni hallazgos de colecistitis.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre colelitiasis sintomática.",
+    internacional: "WSES 2020; Tokyo Guidelines 2018."
+  },
+  bibliografia: [
+    "Pisano M, et al. WSES guidelines for acute calculous cholecystitis. World J Emerg Surg. 2020;15:61.",
+    "Yokoe M, et al. Tokyo Guidelines 2018. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-123",
+  especialidad: "Gastroenterología",
+  tema: "Colecistitis aguda",
+  subtema: "Tratamiento definitivo y momento de la cirugía",
+  dificultad: "Alta",
+  caso: `Femenina de 47 años con colecistitis aguda calculosa confirmada por ultrasonido. Tiene dolor persistente en hipocondrio derecho, fiebre de 38 °C y leucocitosis de 13,200/µL. Está hemodinámicamente estable, sin disfunción orgánica ni contraindicación anestésica. Se inicia analgesia, hidratación intravenosa y tratamiento antimicrobiano según la evaluación clínica.`,
+  pregunta: "¿Cuál es el tratamiento definitivo preferido?",
+  opciones: [
+    "Antibióticos durante seis semanas sin considerar cirugía.",
+    "Colecistectomía laparoscópica temprana durante el mismo ingreso, si existe experiencia quirúrgica y las condiciones clínicas lo permiten.",
+    "Colecistostomía percutánea obligatoria en toda colecistitis aguda.",
+    "CPRE urgente como tratamiento definitivo de la inflamación vesicular aislada.",
+    "Colecistectomía electiva después de un año, independientemente de la evolución."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La colecistectomía laparoscópica temprana durante el mismo ingreso es el tratamiento definitivo preferido en pacientes aptos con colecistitis aguda calculosa. El tratamiento conservador puede mejorar temporalmente el cuadro, pero no elimina la vesícula ni el riesgo de recurrencia. La colecistostomía percutánea se reserva para pacientes seleccionados con riesgo quirúrgico elevado o que no pueden someterse a cirugía en ese momento. La CPRE está indicada ante determinadas situaciones de coledocolitiasis o colangitis, no como tratamiento rutinario de una colecistitis aislada.`,
+  perlaENARM: `Colecistitis aguda calculosa en paciente operable: colecistectomía laparoscópica temprana. No confundir con la indicación de CPRE, que depende de enfermedad de la vía biliar.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre colecistitis aguda calculosa.",
+    internacional: "WSES 2020 guidelines for acute calculous cholecystitis."
+  },
+  bibliografia: [
+    "Pisano M, et al. 2020 WSES updated guidelines for acute calculous cholecystitis. World J Emerg Surg. 2020;15:61."
+  ]
+},
+{
+  id: "GASTRO-124",
+  especialidad: "Gastroenterología",
+  tema: "Colecistitis aguda",
+  subtema: "Criterios de gravedad de Tokyo Guidelines",
+  dificultad: "Extrema",
+  caso: `Masculino de 76 años ingresa por colecistitis aguda calculosa. Presenta fiebre, dolor en hipocondrio derecho y leucocitosis. Durante la valoración se documenta creatinina de 2.4 mg/dL, con deterioro renal agudo respecto a su función basal. No existe antecedente conocido de enfermedad renal avanzada que explique el hallazgo. Se encuentra somnoliento, pero responde a estímulos y no presenta datos de encefalopatía hepática.`,
+  pregunta: "Según los criterios de gravedad de Tokyo Guidelines, ¿qué categoría debe sospecharse por la disfunción renal?",
+  opciones: [
+    "Grado I, porque toda colecistitis sin perforación es leve.",
+    "Grado II, porque la edad mayor de 70 años determina por sí sola esta categoría.",
+    "Grado III, por disfunción orgánica renal.",
+    "No puede clasificarse hasta disponer de histopatología.",
+    "Grado I, porque la creatinina no se utiliza en la clasificación."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `Tokyo Guidelines clasifica como grado III la colecistitis aguda que presenta disfunción de al menos un sistema orgánico. La disfunción renal incluye oliguria o creatinina sérica superior a 2.0 mg/dL. Deben evaluarse otras disfunciones, la estabilidad hemodinámica y el estado neurológico, además de buscar factores que contribuyan al deterioro renal. La clasificación de gravedad orienta la necesidad de soporte orgánico, la selección del momento y tipo de intervención y la valoración multidisciplinaria.`,
+  perlaENARM: `Tokyo Guidelines: grado III implica disfunción orgánica. En la clasificación renal, creatinina >2.0 mg/dL u oliguria son criterios relevantes.`,
+  gpc: {
+    mexico: "Consultar el protocolo institucional vigente para colecistitis grave y manejo perioperatorio.",
+    internacional: "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis."
+  },
+  bibliografia: [
+    "Yokoe M, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-125",
+  especialidad: "Gastroenterología",
+  tema: "Colecistitis aguda",
+  subtema: "Paciente con riesgo quirúrgico elevado",
+  dificultad: "Alta",
+  caso: `Masculino de 82 años con insuficiencia cardiaca descompensada y enfermedad pulmonar avanzada presenta colecistitis aguda calculosa. Persiste con fiebre y dolor a pesar del tratamiento inicial. El equipo considera que la cirugía inmediata tiene un riesgo prohibitivo debido a su estado cardiopulmonar actual. El ultrasonido confirma una vesícula distendida con cálculos y cambios inflamatorios.`,
+  pregunta: "¿Cuál es una opción razonable para el control inicial del foco cuando el paciente no puede someterse a cirugía?",
+  opciones: [
+    "Mantener antibióticos indefinidamente sin reevaluar la respuesta.",
+    "Considerar drenaje vesicular, por ejemplo colecistostomía percutánea, junto con tratamiento médico y reevaluación multidisciplinaria.",
+    "Realizar colecistectomía laparoscópica inmediata sin valoración anestésica.",
+    "Indicar CPRE aunque no exista evidencia de obstrucción del colédoco.",
+    "Administrar únicamente analgésicos y dar de alta al paciente."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En pacientes seleccionados que no toleran cirugía debido a inestabilidad o riesgo elevado, el drenaje vesicular puede proporcionar control del foco. La colecistostomía percutánea es una opción habitual, aunque la decisión debe individualizarse de acuerdo con la anatomía, disponibilidad de experiencia, estado clínico y alternativas endoscópicas. No sustituye automáticamente a la colecistectomía definitiva en todos los pacientes: una vez que mejore el estado general, debe reevaluarse el riesgo quirúrgico y el plan a largo plazo.`,
+  perlaENARM: `Paciente no operable con colecistitis persistente: valorar drenaje vesicular y manejo multidisciplinario. La colecistostomía no es obligatoria en todos los pacientes de edad avanzada; importa el riesgo real y el estado clínico.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente y el protocolo local para drenaje vesicular en pacientes de alto riesgo.",
+    internacional: "WSES 2020; Tokyo Guidelines 2018."
+  },
+  bibliografia: [
+    "Pisano M, et al. WSES updated guidelines for acute calculous cholecystitis. World J Emerg Surg. 2020;15:61.",
+    "Yokoe M, et al. Tokyo Guidelines 2018. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-126",
+  especialidad: "Gastroenterología",
+  tema: "Colecistitis aguda",
+  subtema: "Diagnóstico por imagen cuando el ultrasonido es equívoco",
+  dificultad: "Alta",
+  caso: `Femenina de 58 años con dolor persistente en hipocondrio derecho, fiebre y leucocitosis. El ultrasonido abdominal no es concluyente debido a obesidad y gas intestinal; muestra cálculos, pero no permite valorar adecuadamente la pared vesicular ni el líquido perivesicular. La sospecha clínica de colecistitis aguda continúa siendo alta y no se identifica dilatación de la vía biliar.`,
+  pregunta: "Si persiste la incertidumbre diagnóstica y está disponible, ¿qué estudio puede ser especialmente útil para confirmar colecistitis aguda?",
+  opciones: [
+    "Radiografía simple de abdomen como prueba confirmatoria.",
+    "Gammagrafía hepatobiliar con ácido iminodiacético (HIDA), según disponibilidad y contexto clínico.",
+    "Colonoscopia urgente.",
+    "Electroencefalograma.",
+    "Densitometría ósea."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Cuando la sospecha de colecistitis aguda es alta y el ultrasonido resulta equívoco, la gammagrafía hepatobiliar puede ayudar a demostrar obstrucción del conducto cístico mediante la falta de visualización de la vesícula bajo condiciones técnicas adecuadas. La elección del estudio alternativo depende de la disponibilidad, el estado del paciente y los diagnósticos diferenciales. La tomografía puede ser útil para identificar complicaciones o diagnósticos alternativos, mientras que la colangiorresonancia se orienta especialmente a la evaluación de la vía biliar.`,
+  perlaENARM: `Ultrasonido no concluyente con sospecha persistente de colecistitis: considera HIDA cuando esté disponible; TC o RM pueden aportar información según la pregunta clínica.`,
+  gpc: {
+    mexico: "Verificar el protocolo institucional vigente para imagen en sospecha de colecistitis aguda.",
+    internacional: "Tokyo Guidelines 2018; criterios de imagen del American College of Radiology."
+  },
+  bibliografia: [
+    "Yokoe M, et al. Tokyo Guidelines 2018. J Hepatobiliary Pancreat Sci. 2018.",
+    "American College of Radiology. ACR Appropriateness Criteria: Right Upper Quadrant Pain."
+  ]
+},
+{
+  id: "GASTRO-127",
+  especialidad: "Gastroenterología",
+  tema: "Colecistitis aguda",
+  subtema: "Antibióticos y control del foco",
+  dificultad: "Alta",
+  caso: `Femenina de 63 años con colecistitis aguda calculosa presenta fiebre, leucocitosis y dolor persistente en hipocondrio derecho. Se decide ingreso hospitalario y tratamiento antimicrobiano empírico mientras se organiza el control del foco. No presenta choque, alergias medicamentosas conocidas ni antecedentes de colonización por microorganismos multirresistentes. La selección del esquema debe considerar gravedad, función renal, exposición previa a antibióticos y epidemiología local.`,
+  pregunta: "¿Cuál es el principio más apropiado para seleccionar el tratamiento antimicrobiano?",
+  opciones: [
+    "Utilizar carbapenémico en todos los casos, independientemente de gravedad y factores de resistencia.",
+    "Seleccionar un esquema empírico acorde con gravedad, riesgo microbiológico y patrones locales, y ajustarlo según cultivos y evolución.",
+    "Evitar antibióticos incluso si existe infección sistémica.",
+    "Prolongar antibióticos durante meses en todos los pacientes después de una colecistectomía con control adecuado del foco.",
+    "Elegir tratamiento exclusivamente por el resultado de la lipasa."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La selección antimicrobiana debe adaptarse a la gravedad clínica, el riesgo de microorganismos resistentes, la exposición antibiótica previa, la función renal, las alergias y la epidemiología local. El control oportuno del foco es esencial y no debe sustituirse por prolongación indiscriminada de antibióticos. Tras una colecistectomía por infección no complicada con control adecuado del foco, la continuación posoperatoria prolongada no suele aportar beneficio. En enfermedad complicada, bacteriemia o control incompleto, la duración se individualiza de acuerdo con la respuesta clínica y los cultivos.`,
+  perlaENARM: `Colecistitis: antibiótico según gravedad y riesgo microbiológico, más control del foco. Evita esquemas de amplio espectro y duraciones prolongadas sin indicación.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre infección biliar y el antibiograma institucional.",
+    internacional: "WSES 2020; Tokyo Guidelines para tratamiento antimicrobiano de infecciones biliares."
+  },
+  bibliografia: [
+    "Pisano M, et al. WSES updated guidelines for acute calculous cholecystitis. World J Emerg Surg. 2020;15:61.",
+    "Gomi H, et al. Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-128",
+  especialidad: "Gastroenterología",
+  tema: "Colecistitis aguda",
+  subtema: "Colecistitis enfisematosa",
+  dificultad: "Extrema",
+  caso: `Masculino de 69 años con diabetes mellitus tipo 2 mal controlada presenta dolor intenso en hipocondrio derecho, fiebre y deterioro general. La tomografía abdominal muestra gas en la pared de la vesícula biliar y en la luz, con cambios inflamatorios perivesiculares. No existe antecedente de instrumentación biliar reciente que explique el gas. El paciente presenta taquicardia y datos de respuesta inflamatoria sistémica.`,
+  pregunta: "¿Cuál es la interpretación más apropiada y la conducta general?",
+  opciones: [
+    "Es un hallazgo normal en pacientes diabéticos y no requiere intervención.",
+    "Sugiere colecistitis enfisematosa, una forma grave que requiere reanimación, antibióticos y control urgente del foco.",
+    "Confirma colecistitis crónica sin riesgo de complicaciones.",
+    "Indica exclusivamente pancreatitis aguda intersticial.",
+    "Debe tratarse únicamente con analgésicos orales y seguimiento ambulatorio."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La presencia de gas en la pared vesicular, especialmente sin instrumentación previa, sugiere colecistitis enfisematosa, una infección grave asociada con mayor riesgo de necrosis y perforación. Se requiere evaluación urgente, reanimación, antibióticos intravenosos con cobertura apropiada y valoración quirúrgica inmediata. La elección entre colecistectomía y drenaje depende de estabilidad, riesgo operatorio, extensión de la enfermedad y recursos disponibles. No debe manejarse como cólico biliar simple.`,
+  perlaENARM: `Gas en la pared vesicular + diabetes + síndrome infeccioso = sospecha de colecistitis enfisematosa. Es una urgencia con necesidad de control oportuno del foco.`,
+  gpc: {
+    mexico: "Consultar protocolo institucional de urgencias quirúrgicas e infección biliar grave.",
+    internacional: "Tokyo Guidelines 2018; WSES 2020."
+  },
+  bibliografia: [
+    "Yokoe M, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis. J Hepatobiliary Pancreat Sci. 2018.",
+    "Pisano M, et al. WSES guidelines for acute calculous cholecystitis. World J Emerg Surg. 2020;15:61."
+  ]
+},
+{
+  id: "GASTRO-129",
+  especialidad: "Gastroenterología",
+  tema: "Colecistitis aguda",
+  subtema: "Colecistitis y sospecha de coledocolitiasis",
+  dificultad: "Extrema",
+  caso: `Femenina de 56 años con colecistitis aguda calculosa presenta bilirrubina total de 4.8 mg/dL, ictericia y elevación de fosfatasa alcalina. El ultrasonido identifica cálculos vesiculares y colédoco dilatado de 9 mm, pero no visualiza directamente un cálculo en la vía biliar. Está afebril y hemodinámicamente estable, sin datos clínicos de colangitis. Se debe definir si requiere intervención endoscópica antes de la cirugía.`,
+  pregunta: "¿Cuál es el enfoque más apropiado ante la sospecha de coledocolitiasis?",
+  opciones: [
+    "Descartar coledocolitiasis porque no se observa directamente un cálculo en el ultrasonido.",
+    "Realizar evaluación de probabilidad de coledocolitiasis; según criterios y contexto, utilizar CPRE terapéutica si el riesgo es alto o colangiorresonancia/ultrasonido endoscópico si persiste incertidumbre.",
+    "Indicar CPRE diagnóstica en todos los pacientes con colecistitis, independientemente del riesgo.",
+    "Administrar antibióticos y omitir toda evaluación de la vía biliar.",
+    "Realizar colonoscopia antes de cualquier decisión quirúrgica."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La ictericia, la hiperbilirrubinemia y la dilatación del colédoco elevan la sospecha de coledocolitiasis. La estrategia depende de la probabilidad preprueba y de criterios de alto riesgo. Cuando la probabilidad es alta y existe indicación terapéutica, la CPRE puede permitir extracción del cálculo o drenaje. En pacientes con probabilidad intermedia, la colangiorresonancia o el ultrasonido endoscópico pueden confirmar o excluir cálculos y evitar una CPRE innecesaria, que conlleva riesgos como pancreatitis, hemorragia y perforación. La ausencia de fiebre no excluye coledocolitiasis.`,
+  perlaENARM: `No uses CPRE solo como prueba diagnóstica si puedes aclarar una probabilidad intermedia con colangiorresonancia o ultrasonido endoscópico. La CPRE es principalmente terapéutica.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre coledocolitiasis y colecistitis aguda.",
+    internacional: "ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis; WSES 2020."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis. Gastrointest Endosc. 2019.",
+    "Pisano M, et al. WSES guidelines for acute calculous cholecystitis. World J Emerg Surg. 2020;15:61."
+  ]
+},
+{
+  id: "GASTRO-130",
+  especialidad: "Gastroenterología",
+  tema: "Colecistitis aguda",
+  subtema: "Complicación: perforación vesicular",
+  dificultad: "Extrema",
+  caso: `Masculino de 72 años con diabetes mellitus tipo 2 presenta cuatro días de dolor progresivo en hipocondrio derecho, fiebre persistente y deterioro clínico. A la exploración existe defensa localizada y dolor intenso. La tomografía contrastada identifica discontinuidad de la pared vesicular, líquido perivesicular complejo y una colección adyacente compatible con absceso. El paciente está taquicárdico y requiere valoración urgente por cirugía.`,
+  pregunta: "¿Cuál es la complicación más probable y el principio prioritario de manejo?",
+  opciones: [
+    "Cólico biliar simple; alta con analgésicos.",
+    "Perforación vesicular con absceso perivesicular; reanimación, antibióticos y control urgente del foco según estabilidad y hallazgos.",
+    "Hepatitis viral aguda; aislamiento y observación.",
+    "Síndrome de intestino irritable; tratamiento sintomático.",
+    "Colelitiasis incidental sin relación con el cuadro."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La discontinuidad de la pared vesicular y la colección adyacente en un paciente con inflamación prolongada sugieren perforación vesicular y absceso perivesicular. Se requiere estabilización hemodinámica, antibióticos y valoración urgente para control del foco. La estrategia puede incluir colecistectomía, drenaje de colecciones o procedimientos alternativos según estabilidad, extensión de la infección, anatomía y experiencia disponible. La demora en controlar el foco puede aumentar el riesgo de sepsis y otras complicaciones.`,
+  perlaENARM: `Colecistitis con discontinuidad de la pared y colección perivesicular: sospecha perforación. Prioriza estabilización, antibióticos y control urgente del foco.`,
+  gpc: {
+    mexico: "Consultar protocolo institucional vigente para colecistitis complicada, absceso y sepsis abdominal.",
+    internacional: "Tokyo Guidelines 2018; WSES 2020."
+  },
+  bibliografia: [
+    "Yokoe M, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis. J Hepatobiliary Pancreat Sci. 2018.",
+    "Pisano M, et al. WSES updated guidelines for acute calculous cholecystitis. World J Emerg Surg. 2020;15:61."
+  ]
+}
+
 ];
