@@ -121,8 +121,41 @@ function specialtyCard(name, icon, desc) {
 }
 
 
-function renderSimuladores() {
+async function renderSimuladores() {
   const especialidades = ESPECIALIDADES.map(([nombre]) => nombre);
+  window.planUsuario = "free";
+
+try {
+  const { data: sesionData, error: sesionError } =
+    await window.supabaseClient.auth.getSession();
+
+  if (sesionError) throw sesionError;
+
+  const usuarioId = sesionData.session?.user?.id;
+
+  if (usuarioId) {
+    const { data: membresia, error: errorMembresia } =
+      await window.supabaseClient
+        .from("memberships")
+        .select("status, expires_at")
+        .eq("user_id", usuarioId)
+        .maybeSingle();
+
+    if (errorMembresia) throw errorMembresia;
+
+    const vigente =
+      membresia?.status === "active" &&
+      (!membresia.expires_at ||
+        new Date(membresia.expires_at).getTime() > Date.now());
+
+    window.planUsuario = vigente ? "premium" : "free";
+  } else {
+    window.planUsuario = "free";
+  }
+} catch (error) {
+  console.error("Error consultando la membresía:", error);
+  window.planUsuario = "free";
+}
 
   document.getElementById("view-simuladores").innerHTML = `
     <div class="section-title">
@@ -177,15 +210,21 @@ function renderSimuladores() {
         <label class="config-label" for="cantidadSimulador">
           Número de preguntas
         </label>
-        <div class="config-count-grid">
-          ${[10, 20, 30, 50, 100].map(n => `
-            <label class="config-count">
-              <input type="radio" name="cantidadSimulador"
-                     value="${n}" ${n === 30 ? "checked" : ""}>
-              <span>${n}</span>
-            </label>
-          `).join("")}
-        </div>
+        
+<div class="config-count-grid">
+  ${(window.planUsuario === "premium" ? [10, 20, 30, 50, 100] : [10]).map(n => `
+    <label class="config-count">
+      <input
+        type="radio"
+        name="cantidadSimulador"
+        value="${n}"
+        ${n === 10 ? "checked" : ""}
+      >
+      <span>${n}</span>
+    </label>
+  `).join("")}
+</div>
+
       </div>
 
       <div class="config-section">
