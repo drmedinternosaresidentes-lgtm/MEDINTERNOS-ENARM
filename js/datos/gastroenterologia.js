@@ -1571,4 +1571,1321 @@ window.BANCO_GASTROENTEROLOGIA = [
   ]
 },
   
+{
+  id: "GASTRO-061",
+  especialidad: "Gastroenterología",
+  tema: "Hipertensión portal",
+  subtema: "Gradiente de presión venosa hepática",
+  dificultad: "Fácil",
+  caso: `Masculino de 54 años con cirrosis hepática compensada, esplenomegalia y trombocitopenia de 105,000/µL. Se realiza medición invasiva de la presión venosa hepática. La presión venosa hepática enclavada es de 19 mmHg y la presión venosa hepática libre es de 7 mmHg. No presenta ascitis ni hemorragia digestiva.`,
+  pregunta: "¿Cuál es el gradiente de presión venosa hepática (HVPG) y cómo debe interpretarse?",
+  opciones: [
+    "5 mmHg; hipertensión portal clínicamente significativa.",
+    "12 mmHg; hipertensión portal clínicamente significativa, con riesgo de complicaciones.",
+    "19 mmHg; hipertensión portal leve.",
+    "26 mmHg; hipertensión portal grave.",
+    "7 mmHg; hipertensión portal clínicamente significativa."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El HVPG se calcula restando la presión venosa hepática libre de la enclavada: 19 − 7 = 12 mmHg. En la hipertensión portal sinusoidal asociada a cirrosis, un HVPG superior a 5 mmHg indica hipertensión portal; un valor de 10 mmHg o más define hipertensión portal clínicamente significativa. La presión portal elevada se asocia con formación de colaterales, várices y riesgo de descompensación. El riesgo de hemorragia también depende del tamaño de las várices, los signos rojos, la gravedad de la hepatopatía y otros factores clínicos.`,
+  perlaENARM: `HVPG normal: aproximadamente 1–5 mmHg. Hipertensión portal: >5 mmHg. Hipertensión portal clínicamente significativa: ≥10 mmHg. Un HVPG ≥12 mmHg se asocia con riesgo de hemorragia variceal.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana reciente específica que sustituya los criterios hemodinámicos de consenso.",
+    internacional: "Baveno VII. Renewing consensus in portal hypertension, 2022."
+  },
+  bibliografia: [
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974. doi:10.1016/j.jhep.2021.12.022."
+  ]
+},
+{
+  id: "GASTRO-062",
+  especialidad: "Gastroenterología",
+  tema: "Hipertensión portal",
+  subtema: "Tamizaje no invasivo de hipertensión portal clínicamente significativa",
+  dificultad: "Media",
+  caso: `Femenina de 49 años con hepatopatía crónica avanzada compensada. La elastografía transitoria muestra rigidez hepática de 8 kPa y el recuento plaquetario es de 220,000/µL. No presenta ascitis, esplenomegalia ni circulación colateral. No tiene antecedentes de hemorragia digestiva ni encefalopatía. Se desea estimar el riesgo de hipertensión portal clínicamente significativa sin realizar de entrada una medición invasiva.`,
+  pregunta: "¿Cuál es la interpretación más apropiada de estos resultados conforme a los criterios no invasivos de Baveno VII?",
+  opciones: [
+    "La rigidez de 8 kPa confirma hipertensión portal clínicamente significativa.",
+    "La combinación de rigidez hepática ≤15 kPa y plaquetas ≥150,000/µL permite descartar hipertensión portal clínicamente significativa en el contexto apropiado.",
+    "El recuento plaquetario normal confirma la presencia de várices grandes.",
+    "Es obligatorio realizar HVPG en todos los pacientes, sin importar los resultados no invasivos.",
+    "La rigidez hepática solo permite diagnosticar hipertensión portal cuando supera 40 kPa."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Baveno VII establece que, en pacientes con enfermedad hepática crónica avanzada compensada y en contextos apropiados, una rigidez hepática por elastografía transitoria ≤15 kPa junto con plaquetas ≥150,000/µL permite descartar hipertensión portal clínicamente significativa con alta sensibilidad. En determinados grupos con etiología y técnica adecuadas, una rigidez ≥25 kPa puede apoyar su confirmación no invasiva. Estos umbrales no deben extrapolarse indiscriminadamente a todas las etiologías ni a situaciones con mediciones poco fiables. La evaluación clínica continúa siendo necesaria si aparecen datos discordantes o complicaciones.`,
+  perlaENARM: `Baveno VII: rigidez hepática ≤15 kPa + plaquetas ≥150,000/µL ayuda a descartar hipertensión portal clínicamente significativa. No confundas el criterio de descarte con el de confirmación.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana reciente específica para aplicar todos los criterios no invasivos de Baveno VII.",
+    internacional: "Baveno VII, 2022."
+  },
+  bibliografia: [
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974."
+  ]
+},
+{
+  id: "GASTRO-063",
+  especialidad: "Gastroenterología",
+  tema: "Hipertensión portal",
+  subtema: "Prevención de primera hemorragia variceal",
+  dificultad: "Alta",
+  caso: `Masculino de 57 años con cirrosis compensada por enfermedad hepática metabólica. La elastografía muestra rigidez hepática de 29 kPa y las plaquetas son de 98,000/µL. No presenta ascitis ni encefalopatía y nunca ha tenido hemorragia digestiva. La evaluación especializada considera que presenta hipertensión portal clínicamente significativa. Tiene presión arterial de 122/76 mmHg, frecuencia cardiaca de 74 lpm y función renal conservada. No tiene asma, bloqueo auriculoventricular ni otras contraindicaciones conocidas para betabloqueadores no selectivos.`,
+  pregunta: "¿Cuál es una estrategia farmacológica razonable para reducir el riesgo de primera descompensación?",
+  opciones: [
+    "Iniciar carvedilol, con titulación individualizada y vigilancia de presión arterial, frecuencia cardiaca y función renal.",
+    "Indicar lactulosa para prevenir la primera hemorragia variceal.",
+    "Iniciar espironolactona como monoterapia aunque no exista ascitis.",
+    "Realizar TIPS profiláctico en todo paciente con rigidez hepática mayor de 25 kPa.",
+    "Esperar obligatoriamente a que aparezca una hemorragia antes de considerar cualquier intervención."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En pacientes con cirrosis compensada e hipertensión portal clínicamente significativa, los betabloqueadores no selectivos pueden reducir el riesgo de primera descompensación. Carvedilol suele preferirse en pacientes apropiados por su efecto beta-bloqueador y vasodilatador alfa-1, que reduce la resistencia vascular intrahepática. Debe ajustarse de acuerdo con tolerancia, presión arterial, frecuencia cardiaca, función renal y comorbilidades. La ligadura endoscópica puede prevenir una primera hemorragia en pacientes seleccionados con várices de alto riesgo y contraindicación o intolerancia a betabloqueadores, pero no reproduce todos los beneficios de estos sobre la descompensación.`,
+  perlaENARM: `La prevención moderna no se limita a evitar sangrado: en cirrosis compensada con hipertensión portal clínicamente significativa, carvedilol puede prevenir la primera descompensación.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana reciente específica para prevención farmacológica de la primera descompensación por hipertensión portal.",
+    internacional: "Baveno VII; AASLD Practice Guidance on Risk Stratification and Management of Portal Hypertension and Varices in Cirrhosis."
+  },
+  bibliografia: [
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974.",
+    "AASLD. Practice Guidance on Risk Stratification and Management of Portal Hypertension and Varices in Cirrhosis."
+  ]
+},
+{
+  id: "GASTRO-064",
+  especialidad: "Gastroenterología",
+  tema: "Hipertensión portal",
+  subtema: "Hemorragia variceal aguda: tratamiento inicial",
+  dificultad: "Alta",
+  caso: `Masculino de 62 años con cirrosis Child-Pugh B que llega a urgencias por hematemesis abundante y melena. TA 88/54 mmHg, FC 126 lpm, Hb 7.1 g/dL, lactato 3.8 mmol/L e INR 1.7. Está consciente, pero presenta diaforesis y llenado capilar prolongado. No hay antecedentes de alergia a cefalosporinas. Se sospecha hemorragia variceal por hipertensión portal.`,
+  pregunta: "¿Cuál es el abordaje inicial más apropiado?",
+  opciones: [
+    "Administrar únicamente un IBP y realizar endoscopia cuando la hemoglobina se normalice.",
+    "Reanimar con objetivo de perfusión, iniciar precozmente un fármaco vasoactivo y antibiótico profiláctico, aplicar estrategia transfusional restrictiva individualizada y realizar endoscopia tras estabilización inicial.",
+    "Transfundir plasma fresco congelado hasta normalizar el INR antes de cualquier intervención.",
+    "Iniciar betabloqueador oral inmediatamente, aunque persista el choque.",
+    "Realizar TIPS de forma automática antes de intentar tratamiento farmacológico o endoscópico."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La hemorragia variceal sospechada es una emergencia. Deben asegurarse acceso vascular, reanimación cuidadosa y protección de la vía aérea si existe alteración de conciencia o hematemesis activa con riesgo de aspiración. Se inicia precozmente un fármaco vasoactivo, como octreótido o terlipresina, y profilaxis antibiótica, frecuentemente ceftriaxona según el contexto y la resistencia local. La transfusión suele ser restrictiva, con objetivo aproximado de Hb 7–8 g/dL, individualizado según choque, cardiopatía y sangrado en curso. Una vez estabilizado, se realiza endoscopia temprana, generalmente dentro de las primeras 12 horas, con ligadura de várices esofágicas cuando corresponde. No se recomienda corregir de rutina el INR con plasma, porque no refleja de forma fiable el equilibrio hemostático y puede aumentar la sobrecarga de volumen y la presión portal.`,
+  perlaENARM: `Hemorragia variceal: reanimación + vasoactivo temprano + antibiótico + endoscopia tras estabilización. No retrases la endoscopia para normalizar el INR.`,
+  gpc: {
+    mexico: "Seguir el protocolo institucional de hemorragia digestiva alta y resistencia antimicrobiana local; no se verificó una GPC mexicana reciente específica para todos los componentes de este algoritmo.",
+    internacional: "Baveno VII; AASLD guidance on portal hypertensive bleeding in cirrhosis."
+  },
+  bibliografia: [
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974.",
+    "Garcia-Tsao G, et al. Portal Hypertensive Bleeding in Cirrhosis: Risk Stratification, Diagnosis, and Management. Hepatology. 2017."
+  ]
+},
+{
+  id: "GASTRO-065",
+  especialidad: "Gastroenterología",
+  tema: "Hipertensión portal",
+  subtema: "Momento de endoscopia y ligadura de várices",
+  dificultad: "Media",
+  caso: `Femenina de 60 años con cirrosis y hematemesis, inicialmente hipotensa. Tras reanimación cuidadosa, mejora a TA 108/68 mmHg y FC 92 lpm. La sospecha de hemorragia variceal permanece alta. No presenta alteración de conciencia ni insuficiencia respiratoria. El equipo endoscópico está disponible. Se pregunta cuál es la intervención diagnóstica y terapéutica prioritaria una vez lograda la estabilización inicial.`,
+  pregunta: "¿Cuál es la conducta endoscópica indicada?",
+  opciones: [
+    "Posponer la endoscopia al menos cinco días para permitir que los coágulos se resuelvan.",
+    "Realizar endoscopia digestiva alta dentro de las primeras 12 horas, con ligadura endoscópica si se confirma sangrado por várices esofágicas.",
+    "Realizar colonoscopia urgente antes de estudiar el tracto digestivo superior.",
+    "Indicar cápsula endoscópica como primera prueba durante el sangrado activo.",
+    "Evitar cualquier intervención endoscópica porque la cirrosis aumenta el riesgo de perforación en todos los pacientes."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En la hemorragia variceal sospechada, la endoscopia digestiva alta debe realizarse después de la reanimación hemodinámica, habitualmente dentro de las primeras 12 horas. La ligadura endoscópica es la técnica recomendada para el sangrado por várices esofágicas. En várices gástricas, la técnica depende de la anatomía y la clasificación; puede requerirse adhesivo tisular u otras modalidades especializadas. La endoscopia no debe realizarse de forma imprudente en un paciente no estabilizado, pero tampoco retrasarse innecesariamente una vez que sea seguro proceder.`,
+  perlaENARM: `Endoscopia dentro de 12 horas tras estabilización en sospecha de hemorragia variceal. Ligadura para várices esofágicas; las gástricas pueden requerir tratamiento diferente.`,
+  gpc: {
+    mexico: "Aplicar el protocolo institucional vigente de endoscopia urgente para hemorragia digestiva alta.",
+    internacional: "Baveno VII, 2022."
+  },
+  bibliografia: [
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974."
+  ]
+},
+{
+  id: "GASTRO-066",
+  especialidad: "Gastroenterología",
+  tema: "Hipertensión portal",
+  subtema: "TIPS preemptivo después de hemorragia variceal",
+  dificultad: "Extrema",
+  caso: `Masculino de 58 años con cirrosis que ingresa por hemorragia variceal esofágica. Después de reanimación y fármacos vasoactivos, la endoscopia demuestra várices grandes con sangrado activo, controlado mediante ligadura. Su clasificación Child-Pugh es B8. No tiene contraindicación cardiopulmonar conocida para TIPS y la función renal es estable. El equipo multidisciplinario debe decidir si basta con continuar el tratamiento estándar o si requiere una intervención portal temprana.`,
+  pregunta: "¿Qué estrategia debe considerarse conforme a los criterios de Baveno VII?",
+  opciones: [
+    "TIPS preemptivo dentro de 72 horas, idealmente antes de 24 horas, porque Child-Pugh B >7 con sangrado activo en endoscopia cumple criterios de alto riesgo.",
+    "TIPS únicamente después de tres nuevos episodios de hemorragia, independientemente del riesgo inicial.",
+    "Suspender el tratamiento vasoactivo y dar de alta inmediatamente después de la ligadura.",
+    "Realizar TIPS solo si el HVPG es menor de 10 mmHg.",
+    "Evitar TIPS en todo paciente Child-Pugh B, porque solo se utiliza en Child-Pugh A."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Baveno VII recomienda considerar TIPS preemptivo con prótesis cubierta dentro de las primeras 72 horas, idealmente en menos de 24 horas, en pacientes con hemorragia variceal que cumplen criterios de alto riesgo: Child-Pugh C menor de 14 puntos, Child-Pugh B mayor de 7 puntos con sangrado activo en endoscopia inicial o HVPG >20 mmHg durante la hemorragia. La decisión requiere valoración experta y revisión de contraindicaciones. En los pacientes apropiados, el TIPS temprano puede reducir el fracaso terapéutico y mejorar resultados. No debe confundirse con el TIPS de rescate, que se utiliza cuando fracasa el tratamiento farmacológico y endoscópico.`,
+  perlaENARM: `Child-Pugh B >7 + sangrado activo en endoscopia = considerar TIPS preemptivo dentro de 72 horas. No esperes al resangrado si el paciente ya cumple criterios de alto riesgo.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana reciente específica para TIPS preemptivo en hemorragia variceal.",
+    internacional: "Baveno VII, recomendaciones 6.27–6.31."
+  },
+  bibliografia: [
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974."
+  ]
+},
+{
+  id: "GASTRO-067",
+  especialidad: "Gastroenterología",
+  tema: "Hipertensión portal",
+  subtema: "Profilaxis secundaria de hemorragia variceal",
+  dificultad: "Alta",
+  caso: `Femenina de 55 años con cirrosis Child-Pugh B, sobreviviente de una hemorragia por várices esofágicas tratada con ligadura endoscópica. Tras el alta, se encuentra estable y sin ascitis. No presenta asma, bradicardia ni hipotensión. No ha tenido nuevos episodios de sangrado. El equipo busca la estrategia más eficaz para reducir la probabilidad de resangrado.`,
+  pregunta: "¿Cuál es el tratamiento de primera línea para profilaxis secundaria?",
+  opciones: [
+    "IBP en monoterapia de forma indefinida.",
+    "Ligadura endoscópica aislada, sin betabloqueador, en todos los pacientes.",
+    "Combinación de betabloqueador no selectivo o carvedilol con ligadura endoscópica seriada.",
+    "Lactulosa en monoterapia, aunque no exista encefalopatía.",
+    "TIPS obligatorio inmediatamente después de cualquier primer episodio, sin valorar la respuesta al tratamiento."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La prevención secundaria después de una primera hemorragia variceal se basa generalmente en la combinación de un betabloqueador no selectivo —propranolol, nadolol o carvedilol según el contexto— y ligadura endoscópica seriada hasta la erradicación de las várices. Si ocurre resangrado pese a adherencia y tratamiento combinado apropiado, debe considerarse TIPS. Cuando existe intolerancia o contraindicación para uno de los componentes, la estrategia debe individualizarse. El IBP no previene por sí mismo el resangrado variceal y solo debe mantenerse si existe una indicación independiente.`,
+  perlaENARM: `Profilaxis secundaria = betabloqueador no selectivo + ligadura endoscópica. Resangrado a pesar de la combinación = valorar TIPS.`,
+  gpc: {
+    mexico: "Seguir el protocolo institucional vigente de prevención secundaria de hemorragia variceal.",
+    internacional: "Baveno VII, 2022."
+  },
+  bibliografia: [
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974."
+  ]
+},
+{
+  id: "GASTRO-068",
+  especialidad: "Gastroenterología",
+  tema: "Hipertensión portal",
+  subtema: "Várices gástricas y selección del tratamiento endoscópico",
+  dificultad: "Extrema",
+  caso: `Masculino de 61 años con cirrosis y hematemesis masiva. La endoscopia muestra várices gástricas fúndicas aisladas con sangrado activo. Se inicia reanimación, fármaco vasoactivo y antibiótico. El equipo endoscópico cuenta con experiencia en tratamiento de várices gástricas. No se identifica úlcera péptica ni lesión esofágica sangrante. El paciente no tiene antecedente de TIPS.`,
+  pregunta: "¿Cuál es una modalidad endoscópica apropiada para el control del sangrado por várices gástricas fúndicas?",
+  opciones: [
+    "Ligadura con bandas como única técnica obligatoria en todas las várices gástricas, independientemente de su anatomía.",
+    "Inyección endoscópica de adhesivo tisular, como cianoacrilato, por un equipo con experiencia y conforme al protocolo local.",
+    "Tratamiento exclusivo con antiácidos y observación.",
+    "Dilatación neumática de la unión gastroesofágica.",
+    "Polipectomía endoscópica de la várice para retirar el vaso sangrante."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Las várices gástricas fúndicas tienen anatomía y flujo diferentes de las várices esofágicas. Para el sangrado agudo de várices gástricas aisladas y de várices gastroesofágicas tipo 2 que se extienden más allá del cardias, Baveno VII recomienda tratamiento endoscópico con adhesivos tisulares, como cianoacrilato o alternativas especializadas según disponibilidad. En centros expertos pueden considerarse técnicas adicionales, como obliteración retrógrada transvenosa, según la anatomía vascular y la presencia de derivaciones. La ligadura es estándar para várices esofágicas, pero no debe extrapolarse automáticamente como la mejor técnica para todas las várices gástricas.`,
+  perlaENARM: `Várices esofágicas: ligadura. Várices gástricas fúndicas: considerar adhesivo tisular en manos expertas y valorar anatomía vascular para tratamientos complementarios.`,
+  gpc: {
+    mexico: "Verificar disponibilidad y protocolo institucional para tratamiento endoscópico de várices gástricas.",
+    internacional: "Baveno VII, recomendaciones para hemorragia por várices gástricas."
+  },
+  bibliografia: [
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974."
+  ]
+},
+{
+  id: "GASTRO-069",
+  especialidad: "Gastroenterología",
+  tema: "Hipertensión portal",
+  subtema: "Gastropatía hipertensiva portal frente a ectasia vascular antral",
+  dificultad: "Alta",
+  caso: `Femenina de 68 años con cirrosis e hipertensión portal, con anemia ferropénica recurrente y episodios de melena escasa. La endoscopia muestra un patrón en mosaico con áreas eritematosas en cuerpo y fondo gástricos, sin una úlcera focal. En el antro no se observa el patrón lineal radial típico de ectasia vascular antral. No hay várices esofágicas sangrantes. La paciente se encuentra estable y no requiere transfusión urgente.`,
+  pregunta: "¿Cuál es el diagnóstico más probable y qué estrategia general es apropiada si el sangrado crónico persiste?",
+  opciones: [
+    "Gastropatía hipertensiva portal; controlar la hipertensión portal con tratamiento apropiado y considerar terapia endoscópica en casos seleccionados.",
+    "Ectasia vascular antral confirmada por el patrón en mosaico de cuerpo y fondo; indicar colectomía.",
+    "Úlcera gástrica perforada; realizar cirugía inmediata.",
+    "Colitis ulcerosa; iniciar corticosteroides sistémicos.",
+    "Hemorragia variceal esofágica; realizar ligadura de várices aunque no existan."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La gastropatía hipertensiva portal suele producir un patrón en mosaico o de piel de serpiente, predominantemente en cuerpo y fondo gástricos, y puede causar pérdida crónica de sangre. La ectasia vascular antral gástrica (GAVE) suele mostrar lesiones lineales o puntiformes en el antro y no es equivalente a la gastropatía hipertensiva portal, aunque ambas pueden coexistir en personas con cirrosis. El tratamiento de la gastropatía hipertensiva portal incluye reducción de la presión portal con betabloqueadores no selectivos cuando sean apropiados, corrección de la deficiencia de hierro y, en casos seleccionados de sangrado persistente, tratamiento endoscópico. TIPS se reserva para situaciones seleccionadas y refractarias, tras valoración especializada.`,
+  perlaENARM: `Patrón en mosaico en cuerpo/fondo = gastropatía hipertensiva portal. Lesiones lineales antrales = orientan a GAVE. No son sinónimos y el tratamiento puede diferir.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana reciente específica para gastropatía hipertensiva portal.",
+    internacional: "Baveno VII; AASLD guidance on portal hypertension."
+  },
+  bibliografia: [
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974."
+  ]
+},
+{
+  id: "GASTRO-070",
+  especialidad: "Gastroenterología",
+  tema: "Hipertensión portal",
+  subtema: "Hemorragia variceal refractaria y TIPS de rescate",
+  dificultad: "Extrema",
+  caso: `Masculino de 63 años con cirrosis avanzada que presenta hemorragia variceal esofágica masiva. Recibe reanimación, fármaco vasoactivo, antibiótico y ligadura endoscópica, pero continúa sangrando a pesar del tratamiento combinado. Se encuentra en una unidad de cuidados intensivos. No se logra control endoscópico definitivo. El equipo especializado está disponible para colocar un TIPS. No se dispone aún de una evaluación completa de la anatomía portal mediante imagen contrastada.`,
+  pregunta: "¿Cuál es la estrategia más apropiada ante el fracaso del tratamiento farmacológico y endoscópico?",
+  opciones: [
+    "Continuar el mismo tratamiento durante una semana sin considerar otras intervenciones.",
+    "Utilizar una medida temporal de puente, como prótesis esofágica autoexpandible o taponamiento con balón en casos seleccionados, y proceder a TIPS de rescate cuando sea factible.",
+    "Administrar plasma fresco congelado hasta normalizar el INR y suspender la valoración intervencionista.",
+    "Indicar betabloqueador oral como tratamiento único durante la hemorragia activa.",
+    "Dar de alta si la hemoglobina permanece estable durante una hora, aunque continúe la hematemesis."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El fracaso del control hemorrágico con tratamiento vasoactivo y endoscópico requiere una estrategia de rescate urgente. Baveno VII recomienda TIPS cubierto de rescate para hemorragia variceal no controlada pese al tratamiento farmacológico y endoscópico. Una prótesis esofágica autoexpandible o el taponamiento con balón pueden utilizarse como medidas temporales de puente cuando sean apropiados, pero no sustituyen el tratamiento definitivo. La selección debe considerar la gravedad hepática, la anatomía vascular, las contraindicaciones y la posibilidad de trasplante. El plasma fresco congelado no debe administrarse de rutina para normalizar el INR, porque no corrige de manera fiable el equilibrio hemostático y puede empeorar la sobrecarga de volumen y la hipertensión portal.`,
+  perlaENARM: `Hemorragia variceal que no se controla con fármacos y endoscopia = TIPS de rescate. Balón o prótesis esofágica son puentes temporales, no tratamientos definitivos.`,
+  gpc: {
+    mexico: "Seguir el protocolo institucional de hemorragia variceal refractaria y disponibilidad de radiología intervencionista.",
+    internacional: "Baveno VII, recomendaciones 6.29–6.31."
+  },
+  bibliografia: [
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974."
+  ]
+},
+
+window.BANCO_GASTROENTEROLOGIA = window.BANCO_GASTROENTEROLOGIA || [];
+
+window.BANCO_GASTROENTEROLOGIA.push(
+{
+  id: "GASTRO-071",
+  especialidad: "Gastroenterología",
+  tema: "Ascitis",
+  subtema: "Paracentesis diagnóstica en ascitis de novo",
+  dificultad: "Fácil",
+  caso: `Masculino de 56 años con consumo crónico de alcohol, ictericia leve y aumento progresivo del perímetro abdominal durante tres semanas. La exploración muestra matidez cambiante, circulación colateral y edema maleolar. La ecografía confirma ascitis moderada y superficie hepática nodular. No presenta fiebre ni dolor abdominal. Nunca había presentado acumulación de líquido peritoneal. Creatinina de 0.9 mg/dL, sodio de 136 mmol/L y albúmina sérica de 2.7 g/dL.`,
+  pregunta: "¿Cuál es el siguiente paso diagnóstico más apropiado?",
+  opciones: [
+    "Iniciar espironolactona y diferir el estudio del líquido hasta valorar la respuesta.",
+    "Realizar paracentesis diagnóstica y solicitar recuento celular con diferencial, albúmina y proteínas totales del líquido ascítico, además de albúmina sérica simultánea.",
+    "Solicitar exclusivamente una tomografía abdominal contrastada.",
+    "Administrar albúmina intravenosa antes de obtener cualquier muestra.",
+    "Realizar biopsia hepática percutánea antes de estudiar la ascitis."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Toda ascitis de nueva aparición accesible para muestreo requiere paracentesis diagnóstica. El análisis inicial incluye recuento celular con diferencial, albúmina y proteínas totales del líquido; la albúmina sérica debe obtenerse simultáneamente para calcular el gradiente de albúmina sérica-ascítica (GASA). La sospecha de cirrosis no excluye causas cardíacas, infecciosas, malignas o pancreáticas. La ausencia de fiebre no descarta peritonitis bacteriana espontánea. La ecografía complementa la evaluación, pero no sustituye el análisis del líquido.`,
+  perlaENARM: `Ascitis de novo = paracentesis diagnóstica. No esperes a que aparezca fiebre, dolor o deterioro renal.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para el algoritmo completo de ascitis de novo.",
+    internacional: "AASLD Practice Guidance: Diagnosis, Evaluation, and Management of Ascites, SBP and HRS, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-072",
+  especialidad: "Gastroenterología",
+  tema: "Ascitis",
+  subtema: "Gradiente de albúmina sérica-ascítica",
+  dificultad: "Media",
+  caso: `Femenina de 63 años con hepatopatía crónica y ascitis. La albúmina sérica, obtenida el mismo día que la paracentesis, es de 3.0 g/dL; la albúmina del líquido ascítico es de 1.2 g/dL. El recuento de neutrófilos del líquido es de 90 células/mm³ y las proteínas totales ascíticas son de 1.4 g/dL. No presenta datos clínicos de infección.`,
+  pregunta: "¿Cuál es el GASA y qué interpretación etiológica apoya?",
+  opciones: [
+    "0.6 g/dL; orienta principalmente a hipertensión portal.",
+    "1.8 g/dL; apoya ascitis relacionada con hipertensión portal.",
+    "3.0 g/dL; confirma carcinomatosis peritoneal.",
+    "1.2 g/dL; descarta hipertensión portal.",
+    "4.2 g/dL; confirma peritonitis bacteriana espontánea."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El GASA se calcula restando la albúmina ascítica a la albúmina sérica: 3.0 − 1.2 = 1.8 g/dL. Un GASA ≥1.1 g/dL sugiere que la hipertensión portal participa en la formación de ascitis. Un valor menor de 1.1 g/dL orienta a causas como carcinomatosis peritoneal, tuberculosis peritoneal o algunas causas pancreáticas. El GASA no identifica por sí solo la etiología exacta. En pacientes con GASA alto, proteínas ascíticas ≥2.5 g/dL pueden orientar hacia una causa cardíaca, mientras que proteínas bajas son frecuentes en la cirrosis.`,
+  perlaENARM: `GASA = albúmina sérica − albúmina ascítica. ≥1.1 g/dL: hipertensión portal probable. <1.1 g/dL: buscar causas no relacionadas con hipertensión portal.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para la interpretación del GASA.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-073",
+  especialidad: "Gastroenterología",
+  tema: "Ascitis",
+  subtema: "Ascitis y sospecha de peritonitis bacteriana espontánea",
+  dificultad: "Alta",
+  caso: `Masculino de 61 años con cirrosis descompensada y ascitis que ingresa por confusión, hipotensión relativa y deterioro de la función renal. Temperatura de 37.2 °C, TA de 96/62 mmHg, creatinina de 1.8 mg/dL frente a un basal de 0.9 mg/dL y leucocitos de 11,500/µL. No presenta rigidez abdominal. Se realiza paracentesis diagnóstica; el líquido contiene 680 neutrófilos/mm³. El cultivo está pendiente.`,
+  pregunta: "¿Cuál es la conducta más apropiada respecto al diagnóstico y tratamiento de la infección ascítica?",
+  opciones: [
+    "Esperar el resultado del cultivo para decidir si inicia antibiótico.",
+    "Descartar infección porque no hay fiebre ni signos de irritación peritoneal.",
+    "Iniciar de inmediato antibiótico empírico apropiado y valorar albúmina intravenosa por el riesgo de lesión renal.",
+    "Administrar únicamente diuréticos para reducir el líquido ascítico.",
+    "Indicar profilaxis antibiótica oral y reevaluar en una semana."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `Un recuento de neutrófilos en líquido ascítico ≥250 células/mm³ es suficiente para establecer el diagnóstico clínico de peritonitis bacteriana espontánea (PBE) en el contexto apropiado, incluso si el cultivo resulta negativo. Se debe iniciar tratamiento antibiótico empírico sin esperar el cultivo, considerando la adquisición comunitaria u hospitalaria, la exposición antibiótica y los patrones locales de resistencia. La albúmina intravenosa se recomienda especialmente cuando existe riesgo renal o hepático elevado; un esquema clásico es 1.5 g/kg el día 1 y 1 g/kg el día 3. Debe vigilarse la respuesta clínica y la función renal.`,
+  perlaENARM: `Neutrófilos ascíticos ≥250/mm³ = tratar como PBE. La ausencia de fiebre o dolor no la descarta. Considera albúmina, sobre todo con lesión renal o disfunción hepática importante.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para todo el manejo de PBE; ajustar antibióticos a resistencia local y protocolo institucional.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-074",
+  especialidad: "Gastroenterología",
+  tema: "Ascitis",
+  subtema: "Tratamiento diurético inicial",
+  dificultad: "Media",
+  caso: `Femenina de 52 años con cirrosis por hepatitis C curada y ascitis moderada simétrica. La paracentesis confirma GASA de 1.6 g/dL, proteínas totales de 1.1 g/dL y neutrófilos de 80/mm³. Está afebril, con creatinina de 0.8 mg/dL, sodio de 135 mmol/L y potasio de 4.2 mmol/L. No presenta encefalopatía, hipotensión ni lesión renal aguda. No ha recibido tratamiento diurético.`,
+  pregunta: "¿Cuál es una estrategia inicial razonable para controlar la ascitis?",
+  opciones: [
+    "Furosemida en monoterapia a dosis altas sin vigilancia de electrolitos.",
+    "Restricción absoluta de líquidos y eliminación completa de proteínas de la dieta.",
+    "Restricción moderada de sodio y espironolactona, con o sin furosemida según la situación clínica y la respuesta.",
+    "Administración semanal de albúmina intravenosa como única intervención inicial.",
+    "Iniciar un antagonista del receptor de angiotensina II para aumentar la natriuresis."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La ascitis cirrótica moderada suele tratarse con restricción moderada de sodio, aproximadamente 2 g de sodio al día, y un antagonista de aldosterona como espironolactona, con o sin furosemida. La elección de monoterapia o combinación depende de la gravedad, el tratamiento previo y el riesgo de alteraciones electrolíticas. Deben monitorizarse peso, presión arterial, creatinina, sodio y potasio, ajustando o suspendiendo diuréticos si aparecen complicaciones. No se recomienda restricción rutinaria de líquidos salvo hiponatremia significativa. Los IECA y ARA-II pueden comprometer la perfusión renal en cirrosis con ascitis.`,
+  perlaENARM: `Ascitis moderada: sodio aproximadamente 2 g/día + espironolactona, con o sin furosemida. Vigila peso, creatinina, sodio y potasio.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para el esquema completo de diuréticos en ascitis cirrótica.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-075",
+  especialidad: "Gastroenterología",
+  tema: "Ascitis",
+  subtema: "Ascitis a tensión y paracentesis evacuadora",
+  dificultad: "Alta",
+  caso: `Masculino de 64 años con cirrosis, ascitis masiva, disnea al decúbito y saciedad temprana. La exploración revela abdomen muy distendido y tenso. Está hemodinámicamente estable, con creatinina de 1.1 mg/dL y sodio de 132 mmol/L. No hay datos de hemorragia digestiva ni infección. La acumulación de líquido limita la ventilación y la ingesta oral.`,
+  pregunta: "¿Cuál es el tratamiento inicial más apropiado para aliviar la ascitis a tensión?",
+  opciones: [
+    "Incrementar de inmediato los diuréticos a dosis máximas sin evacuar líquido.",
+    "Realizar paracentesis evacuadora de gran volumen y administrar albúmina cuando se extraigan más de 5 litros.",
+    "Restringir líquidos a 250 mL/día como tratamiento principal.",
+    "Administrar solución salina hipertónica de rutina.",
+    "Indicar TIPS urgente a todos los pacientes antes de intentar paracentesis."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La paracentesis evacuadora de gran volumen es el tratamiento inicial de elección para ascitis a tensión. Cuando se extraen más de 5 litros, se recomienda reposición con albúmina intravenosa, habitualmente 6–8 g por litro de líquido retirado, para reducir el riesgo de disfunción circulatoria posparacentesis, lesión renal e hiponatremia. Después de la evacuación, debe tratarse la tendencia a retener sodio con dieta y diuréticos si están indicados y son tolerados. TIPS se reserva para pacientes seleccionados, particularmente en ascitis recurrente o refractaria tras evaluar riesgos y beneficios.`,
+  perlaENARM: `Ascitis a tensión = paracentesis evacuadora. Si se extraen >5 L, administrar albúmina, generalmente 6–8 g por litro retirado.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para reposición de albúmina tras paracentesis de gran volumen.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-076",
+  especialidad: "Gastroenterología",
+  tema: "Ascitis",
+  subtema: "Ascitis refractaria",
+  dificultad: "Extrema",
+  caso: `Masculino de 59 años con cirrosis avanzada y ascitis que reaparece pocos días después de paracentesis evacuadoras repetidas. Ha seguido una dieta con restricción moderada de sodio y recibió tratamiento diurético adecuado bajo supervisión. Al intentar aumentar las dosis desarrolla hiponatremia y deterioro de la función renal, por lo que se reduce el tratamiento. No existe evidencia actual de PBE ni obstrucción urinaria. La ascitis continúa condicionando ingresos hospitalarios frecuentes.`,
+  pregunta: "¿Cuál es la estrategia más apropiada para el manejo de este paciente?",
+  opciones: [
+    "Mantener dosis crecientes de diuréticos aunque produzcan lesión renal.",
+    "Suspender toda intervención y recomendar únicamente reposo en cama.",
+    "Realizar paracentesis evacuadoras repetidas con reposición de albúmina cuando corresponda, valorar TIPS en un paciente seleccionado y remitir para evaluación de trasplante hepático.",
+    "Indicar restricción completa de líquidos y proteínas de manera indefinida.",
+    "Administrar antibióticos de amplio espectro de forma crónica sin evidencia de infección."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La ascitis refractaria es aquella que no puede movilizarse o cuya recurrencia temprana no puede prevenirse satisfactoriamente con tratamiento médico, incluyendo restricción de sodio y diuréticos tolerados. En estos pacientes, las paracentesis evacuadoras repetidas con albúmina cuando se extraen grandes volúmenes son una estrategia habitual. TIPS puede ser útil en pacientes seleccionados, pero deben evaluarse función hepática, encefalopatía, función cardíaca, presión pulmonar y otras contraindicaciones. La ascitis clínicamente significativa o refractaria debe motivar evaluación para trasplante hepático. Forzar dosis diuréticas que causan lesión renal o hiponatremia es inapropiado.`,
+  perlaENARM: `Ascitis refractaria: paracentesis evacuadora + albúmina según volumen, valoración individualizada de TIPS y evaluación para trasplante. No fuerces diuréticos mal tolerados.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para el manejo integral de ascitis refractaria.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-077",
+  especialidad: "Gastroenterología",
+  tema: "Ascitis",
+  subtema: "Ascitis de probable origen cardíaco",
+  dificultad: "Alta",
+  caso: `Masculino de 70 años con insuficiencia cardíaca derecha, ingurgitación yugular, edema periférico y ascitis. La albúmina sérica es de 3.2 g/dL, la albúmina ascítica de 1.8 g/dL y las proteínas totales ascíticas de 3.4 g/dL. La ecocardiografía muestra dilatación ventricular derecha y congestión venosa sistémica. No presenta datos de cirrosis avanzada en la imagen.`,
+  pregunta: "¿Cuál es la interpretación más probable del perfil del líquido ascítico?",
+  opciones: [
+    "GASA bajo y proteínas bajas, característicos de carcinomatosis.",
+    "GASA alto y proteínas altas, compatibles con ascitis por congestión cardíaca.",
+    "GASA alto y proteínas bajas, que confirman tuberculosis peritoneal.",
+    "GASA bajo y neutrófilos altos, que confirman por sí solos PBE.",
+    "El perfil no permite orientar la etiología y obliga a realizar biopsia peritoneal en todos los casos."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El GASA es 3.2 − 1.8 = 1.4 g/dL, es decir, ≥1.1 g/dL, lo que sugiere participación de hipertensión portal. Las proteínas totales ascíticas de 3.4 g/dL son altas y, junto con los signos de congestión sistémica y los hallazgos ecocardiográficos, apoyan una causa cardíaca. En la cirrosis sinusoidal, el GASA también suele ser alto, pero las proteínas ascíticas con frecuencia son menores de 2.5 g/dL. Si persisten dudas diagnósticas, pueden requerirse pruebas complementarias dirigidas.`,
+  perlaENARM: `GASA ≥1.1 + proteínas ascíticas ≥2.5 g/dL = considerar ascitis cardíaca, especialmente si hay ingurgitación yugular y congestión derecha.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para el diagnóstico diferencial de ascitis cardíaca.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-078",
+  especialidad: "Gastroenterología",
+  tema: "Ascitis",
+  subtema: "Ascitis con sospecha de peritonitis secundaria",
+  dificultad: "Extrema",
+  caso: `Femenina de 66 años con cirrosis y ascitis que desarrolla fiebre, dolor abdominal localizado y datos de irritación peritoneal. La paracentesis revela 4,200 neutrófilos/mm³, proteínas ascíticas de 2.8 g/dL, glucosa de 32 mg/dL y LDH ascítica superior al límite normal sérico. El cultivo inicial muestra crecimiento de varios microorganismos. La paciente presenta lactato elevado y empeoramiento hemodinámico.`,
+  pregunta: "¿Cuál es la conducta más apropiada ante estos hallazgos?",
+  opciones: [
+    "Considerar PBE sin más estudios y mantener el tratamiento habitual sin buscar otro foco.",
+    "Sospechar peritonitis bacteriana secundaria, iniciar antibióticos empíricos apropiados y solicitar imagen abdominal urgente con valoración quirúrgica.",
+    "Esperar 72 horas a que se complete el cultivo antes de solicitar imagen.",
+    "Suspender los antibióticos porque el crecimiento polimicrobiano indica contaminación.",
+    "Administrar diuréticos y repetir la paracentesis en un mes."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La peritonitis bacteriana secundaria debe sospecharse ante dolor focal o signos peritoneales, recuento de neutrófilos muy elevado, proteínas altas, glucosa baja, LDH elevada, cultivo polimicrobiano o respuesta clínica inadecuada al tratamiento de PBE. En este escenario se requiere antibiótico empírico urgente con cobertura apropiada para infección intraabdominal, tomografía abdominal cuando sea factible y valoración quirúrgica o intervencionista para identificar y controlar el foco. No debe asumirse que todo líquido ascítico infectado corresponde a PBE.`,
+  perlaENARM: `Datos de alarma para peritonitis secundaria: cultivo polimicrobiano, glucosa baja, LDH elevada, proteínas altas, dolor focal o mala respuesta. Busca y controla el foco.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para este escenario; seguir protocolos de sepsis e infección intraabdominal.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-079",
+  especialidad: "Gastroenterología",
+  tema: "Ascitis",
+  subtema: "Restricción hídrica e hiponatremia dilucional",
+  dificultad: "Media",
+  caso: `Masculino de 58 años con cirrosis y ascitis que recibe espironolactona y furosemida. En la revisión presenta sodio sérico de 121 mmol/L, osmolaridad sérica baja, edema periférico y ascitis persistente. Está despierto, sin convulsiones ni datos de encefalopatía grave. La presión arterial es de 104/66 mmHg y la creatinina se mantiene estable. No presenta hemorragia ni infección evidente.`,
+  pregunta: "¿Cuál es la afirmación más apropiada respecto a la restricción de líquidos en este paciente?",
+  opciones: [
+    "Debe restringirse estrictamente el agua en todo paciente con ascitis, incluso con sodio normal.",
+    "La restricción de líquidos puede considerarse en hiponatremia dilucional significativa, individualizando el manejo y vigilando el estado de volumen y los electrolitos.",
+    "Debe administrarse solución hipotónica para corregir rápidamente el sodio.",
+    "La hiponatremia obliga a aumentar inmediatamente los diuréticos a dosis máximas.",
+    "El sodio de 121 mmol/L es un hallazgo esperado que nunca modifica la conducta clínica."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La restricción de líquidos no es necesaria de rutina para la ascitis y suele reservarse para hiponatremia dilucional significativa, con frecuencia cuando el sodio es ≤125 mmol/L, según el contexto clínico. Deben revisarse los diuréticos, el estado de volumen circulante, la función renal, los fármacos y otras causas de hiponatremia. La corrección del sodio debe ser controlada para evitar desmielinización osmótica. Si aparecen síntomas neurológicos graves, se requiere manejo urgente en un entorno monitorizado. No debe indicarse una corrección rápida indiscriminada ni aumentar automáticamente los diuréticos.`,
+  perlaENARM: `No restringir líquidos de rutina en ascitis. Considera restricción cuando existe hiponatremia dilucional significativa; evita la corrección rápida del sodio.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para todos los umbrales y estrategias de hiponatremia en cirrosis.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-080",
+  especialidad: "Gastroenterología",
+  tema: "Ascitis",
+  subtema: "Ascitis y evaluación para trasplante hepático",
+  dificultad: "Extrema",
+  caso: `Femenina de 54 años con cirrosis descompensada que ha presentado dos hospitalizaciones por ascitis recurrente y un episodio previo de encefalopatía hepática. Actualmente no tiene infección activa ni hemorragia. La función renal está conservada, pero requiere ajustes frecuentes de diuréticos y paracentesis evacuadoras. La paciente pregunta si debe esperar a desarrollar insuficiencia hepática terminal para que se considere un trasplante.`,
+  pregunta: "¿Cuál es la recomendación más apropiada?",
+  opciones: [
+    "Diferir toda evaluación hasta que exista falla multiorgánica irreversible.",
+    "Considerar referencia para evaluación de trasplante hepático por la descompensación clínica, individualizando la candidatura y el riesgo.",
+    "Descartar trasplante porque la creatinina es normal.",
+    "Indicar TIPS automáticamente sin evaluación cardiopulmonar ni valoración de la gravedad hepática.",
+    "Mantener únicamente diuréticos y evitar seguimiento por hepatología."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La aparición de ascitis clínicamente significativa representa descompensación de la cirrosis y se asocia con peor pronóstico. Los pacientes con ascitis recurrente o refractaria, especialmente si existen otras descompensaciones como encefalopatía o hemorragia portal, deben considerarse para evaluación de trasplante hepático. La candidatura requiere valoración integral de gravedad hepática, función renal, estado nutricional, comorbilidades, situación psicosocial y contraindicaciones. TIPS puede ser apropiado en pacientes seleccionados, pero no sustituye automáticamente la evaluación de trasplante.`,
+  perlaENARM: `La ascitis clínicamente significativa es un evento de descompensación. No esperes a la falla multiorgánica para considerar referencia a trasplante.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para los criterios completos de referencia a trasplante en ascitis.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+ 
+window.BANCO_GASTROENTEROLOGIA.push(
+{
+  id: "GASTRO-081",
+  especialidad: "Gastroenterología",
+  tema: "Peritonitis bacteriana espontánea",
+  subtema: "Criterio diagnóstico y ascitis neutrocítica con cultivo negativo",
+  dificultad: "Fácil",
+  caso: `Masculino de 59 años con cirrosis descompensada y ascitis que ingresa por deterioro del estado general y encefalopatía leve. Está afebril y no presenta dolor abdominal. La paracentesis muestra 1,100 leucocitos/mm³, con 60% de neutrófilos. El cultivo del líquido ascítico permanece negativo a las 48 horas. No hay datos clínicos ni radiológicos de un foco intraabdominal quirúrgico.`,
+  pregunta: "¿Cuál es la interpretación y conducta más apropiadas?",
+  opciones: [
+    "Descartar PBE porque el cultivo es negativo.",
+    "Diagnosticar ascitis neutrocítica con cultivo negativo e iniciar tratamiento antibiótico empírico.",
+    "Esperar a que el recuento de neutrófilos supere 1,000 células/mm³.",
+    "Administrar únicamente lactulosa y repetir el cultivo en una semana.",
+    "Considerar el resultado normal porque el paciente está afebril."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El recuento absoluto de neutrófilos es 1,100 × 0.60 = 660 células/mm³, superior al umbral diagnóstico de 250 células/mm³. Si no se identifica un foco intraabdominal tratable quirúrgicamente, debe tratarse como PBE aunque el cultivo sea negativo. La ascitis neutrocítica con cultivo negativo puede ocurrir por baja carga bacteriana, limitaciones de la toma de muestra o exposición antibiótica previa. La ausencia de fiebre no excluye infección en la cirrosis; la encefalopatía y el deterioro renal pueden ser las únicas manifestaciones.`,
+  perlaENARM: `Neutrófilos absolutos ≥250/mm³ + ausencia de foco secundario = tratar como PBE, aunque el cultivo sea negativo.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica que sustituya el criterio diagnóstico internacional.",
+    internacional: "AASLD Practice Guidance: Diagnosis, Evaluation, and Management of Ascites, SBP and HRS, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-082",
+  especialidad: "Gastroenterología",
+  tema: "Peritonitis bacteriana espontánea",
+  subtema: "Corrección del recuento de neutrófilos en ascitis hemorrágica",
+  dificultad: "Alta",
+  caso: `Femenina de 62 años con cirrosis y ascitis. Se obtiene una muestra ascítica traumática con 30,000 eritrocitos/mm³, 600 leucocitos/mm³ y 60% de neutrófilos. La paciente está estable, sin signos peritoneales, y el cultivo está pendiente. Se necesita interpretar el recuento celular corregido para evitar atribuir a infección una elevación de neutrófilos debida a contaminación sanguínea.`,
+  pregunta: "¿Cuál es el recuento corregido aproximado de neutrófilos y su interpretación?",
+  opciones: [
+    "360 células/mm³; permanece por encima del umbral diagnóstico de PBE.",
+    "180 células/mm³; confirma PBE.",
+    "600 células/mm³; no debe calcularse ningún ajuste.",
+    "120 células/mm³; confirma PBE independientemente del contexto.",
+    "660 células/mm³; descarta PBE."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El recuento inicial de neutrófilos es 600 × 0.60 = 360 células/mm³. En una muestra ascítica hemorrágica puede utilizarse la corrección convencional de restar un neutrófilo por cada 250 eritrocitos: 30,000/250 = 120 neutrófilos atribuibles a contaminación sanguínea. El recuento corregido aproximado es 360 − 120 = 240 células/mm³, por debajo del umbral de 250. Por tanto, la opción que afirma 360 y PBE no sería correcta bajo esta corrección. Para mantener la clave inequívoca, el resultado calculado debe guiar la conducta clínica: con 240 células/mm³ no se cumple por sí solo el criterio celular, pero deben considerarse los síntomas, el cultivo y la evolución, con repetición de paracentesis si procede.`,
+  perlaENARM: `En ascitis hemorrágica, la corrección convencional es restar 1 neutrófilo por cada 250 eritrocitos. Recalcula antes de clasificar el líquido.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para la corrección de recuentos en ascitis hemorrágica.",
+    internacional: "AASLD Practice Guidance, 2021; AASLD Liver Fellow Network: SBP prophylaxis and diagnosis."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-083",
+  especialidad: "Gastroenterología",
+  tema: "Peritonitis bacteriana espontánea",
+  subtema: "Antibioticoterapia empírica en PBE comunitaria",
+  dificultad: "Media",
+  caso: `Masculino de 57 años con cirrosis Child-Pugh B, ascitis y dolor abdominal difuso. El líquido ascítico contiene 920 neutrófilos/mm³. La infección se considera adquirida en la comunidad; no ha recibido antibióticos recientemente, no tiene antecedentes de colonización por microorganismos multirresistentes y no presenta choque séptico. Se obtienen muestras para cultivo antes de iniciar el tratamiento.`,
+  pregunta: "¿Cuál es una opción empírica inicial razonable mientras se esperan los cultivos?",
+  opciones: [
+    "Cefalosporina de tercera generación intravenosa, como cefotaxima o ceftriaxona, ajustada al contexto clínico y epidemiológico.",
+    "Vancomicina oral como monoterapia.",
+    "Metronidazol oral como único antibiótico.",
+    "Ningún antibiótico hasta identificar la especie bacteriana.",
+    "Nitrofurantoína oral como tratamiento definitivo."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En PBE adquirida en la comunidad y sin factores de riesgo relevantes para resistencia, una cefalosporina de tercera generación intravenosa constituye una opción empírica clásica. La selección debe considerar alergias, función renal, gravedad clínica y resistencia antimicrobiana local. En infecciones nosocomiales, asociadas a cuidados sanitarios, exposición antibiótica reciente o choque séptico, puede ser necesario un esquema de espectro más amplio. El tratamiento debe iniciarse sin esperar el cultivo una vez establecido el diagnóstico.`,
+  perlaENARM: `PBE comunitaria sin riesgo de resistencia: cefalosporina de tercera generación IV. En infección nosocomial o sepsis grave, amplía cobertura según epidemiología local.`,
+  gpc: {
+    mexico: "Seleccionar el antibiótico según el antibiograma institucional y los protocolos locales; no se verificó una GPC mexicana vigente específica para todos los escenarios de resistencia.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-084",
+  especialidad: "Gastroenterología",
+  tema: "Peritonitis bacteriana espontánea",
+  subtema: "Albúmina intravenosa complementaria al antibiótico",
+  dificultad: "Alta",
+  caso: `Femenina de 60 años con cirrosis y PBE confirmada por 1,400 neutrófilos/mm³. La creatinina es de 1.7 mg/dL, la urea nitrogenada de 38 mg/dL y la bilirrubina total de 6.2 mg/dL. No tiene edema pulmonar ni otra contraindicación inmediata para expansión con albúmina. Se inicia antibiótico intravenoso.`,
+  pregunta: "¿Qué esquema de albúmina intravenosa corresponde al régimen clásico utilizado como complemento en PBE?",
+  opciones: [
+    "0.1 g/kg el primer día, sin dosis posterior.",
+    "1.5 g/kg el día 1 y 1 g/kg el día 3, con vigilancia del estado de volumen.",
+    "6–8 g por litro de ascitis, independientemente de si se realiza paracentesis evacuadora.",
+    "20 g una vez al mes.",
+    "No administrar albúmina en PBE, aunque exista disfunción renal."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En pacientes con PBE, el esquema clásico de albúmina intravenosa es 1.5 g/kg al diagnóstico y 1 g/kg el día 3, además de antibióticos. El beneficio es especialmente relevante en pacientes con lesión renal, creatinina elevada, urea nitrogenada elevada o disfunción hepática importante. La administración requiere vigilancia del estado hemodinámico y del riesgo de sobrecarga de volumen. La dosis de 6–8 g por litro corresponde a la reposición tras paracentesis de gran volumen, no al esquema específico de PBE.`,
+  perlaENARM: `PBE: albúmina 1.5 g/kg el día 1 y 1 g/kg el día 3. No confundas este esquema con la reposición posterior a paracentesis evacuadora.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para la pauta completa de albúmina en PBE.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-085",
+  especialidad: "Gastroenterología",
+  tema: "Peritonitis bacteriana espontánea",
+  subtema: "Evaluación de respuesta al tratamiento",
+  dificultad: "Extrema",
+  caso: `Masculino de 65 años con cirrosis y PBE, tratado con cefalosporina intravenosa. La paracentesis inicial mostró 1,200 neutrófilos/mm³. A las 48 horas persiste febril, con dolor abdominal y deterioro renal. El nuevo líquido ascítico contiene 1,050 neutrófilos/mm³. El cultivo inicial aún no ofrece identificación definitiva.`,
+  pregunta: "¿Cuál es la interpretación más apropiada de la respuesta y la conducta siguiente?",
+  opciones: [
+    "Respuesta adecuada porque el recuento de neutrófilos disminuyó ligeramente.",
+    "Respuesta insuficiente; revisar resistencia, ampliar cobertura según riesgo y buscar peritonitis secundaria u otro foco.",
+    "Suspender antibióticos porque el recuento no se duplicó.",
+    "Considerar el resultado normal porque la segunda paracentesis se realizó a las 48 horas.",
+    "Iniciar únicamente betabloqueador no selectivo."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Tras aproximadamente 48 horas de tratamiento, se espera una reducción relevante del recuento de neutrófilos. Una disminución menor del 25% respecto al basal se considera una respuesta inadecuada y debe impulsar la revisión del tratamiento, los cultivos, la posibilidad de resistencia y la búsqueda de peritonitis bacteriana secundaria. En este caso, el recuento descendió solo de 1,200 a 1,050 células/mm³, una reducción de 12.5%. El deterioro clínico refuerza la necesidad de reevaluación urgente, cobertura antimicrobiana apropiada y búsqueda de un foco intraabdominal tratable.`,
+  perlaENARM: `A las 48 horas, una caída de neutrófilos menor del 25% sugiere respuesta inadecuada: evalúa resistencia y peritonitis secundaria.`,
+  gpc: {
+    mexico: "Seguir protocolo institucional de infección intraabdominal, sepsis y resistencia antimicrobiana.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-086",
+  especialidad: "Gastroenterología",
+  tema: "Peritonitis bacteriana espontánea",
+  subtema: "Profilaxis secundaria después de un episodio de PBE",
+  dificultad: "Media",
+  caso: `Femenina de 58 años con cirrosis y ascitis que se recupera de un episodio documentado de PBE. La infección se resolvió con tratamiento intravenoso y no se identifica un foco secundario. Persiste ascitis de bajo contenido proteico. No tiene alergias medicamentosas conocidas y se planea su seguimiento ambulatorio.`,
+  pregunta: "¿Cuál es la estrategia preventiva habitual después de recuperarse de una PBE?",
+  opciones: [
+    "No indicar profilaxis porque el episodio ya se resolvió.",
+    "Indicar profilaxis antibiótica secundaria prolongada, seleccionada según disponibilidad, función renal, alergias y resistencia local.",
+    "Administrar antibiótico intravenoso durante un día cada seis meses.",
+    "Indicar exclusivamente un IBP para prevenir recurrencia.",
+    "Prescribir corticoides sistémicos de mantenimiento."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Después de un episodio de PBE, el riesgo de recurrencia es elevado y se recomienda profilaxis secundaria prolongada, habitualmente hasta el trasplante, el fallecimiento o la desaparición de las condiciones que la justifican, según valoración especializada. Las opciones históricas incluyen norfloxacino donde esté disponible; ciprofloxacino o trimetoprim-sulfametoxazol se utilizan en determinados contextos. La elección debe tener en cuenta la epidemiología local, la exposición previa a antibióticos, las interacciones, la función renal y los efectos adversos. La profilaxis debe revisarse periódicamente por el riesgo de resistencia y toxicidad.`,
+  perlaENARM: `Antecedente de PBE = considerar profilaxis secundaria prolongada. El antibiótico debe individualizarse y ajustarse a la resistencia local.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica que determine un único régimen de profilaxis secundaria para todos los contextos.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-087",
+  especialidad: "Gastroenterología",
+  tema: "Peritonitis bacteriana espontánea",
+  subtema: "Profilaxis primaria en ascitis de alto riesgo",
+  dificultad: "Extrema",
+  caso: `Masculino de 63 años con cirrosis avanzada, sin antecedente previo de PBE. El líquido ascítico tiene proteínas totales de 0.9 g/dL y el recuento de neutrófilos es de 80/mm³. Presenta sodio sérico de 127 mmol/L, creatinina de 1.4 mg/dL y bilirrubina total de 4.5 mg/dL. No hay datos actuales de infección ni hemorragia digestiva.`,
+  pregunta: "¿Cuál es la consideración más apropiada respecto a la profilaxis primaria de PBE?",
+  opciones: [
+    "No puede considerarse nunca profilaxis antes de un primer episodio de PBE.",
+    "Puede considerarse profilaxis primaria porque hay proteínas ascíticas bajas junto con disfunción renal o hepática relevante, tras valorar beneficios, riesgos y resistencia local.",
+    "Indicar antibióticos solo si el recuento de neutrófilos ya supera 250/mm³.",
+    "La profilaxis primaria requiere obligatoriamente un cultivo ascítico positivo.",
+    "Administrar antibióticos de amplio espectro indefinidamente a todos los pacientes con cirrosis, aunque no tengan ascitis."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La profilaxis primaria no se indica de forma universal a todas las personas con cirrosis. Puede considerarse en pacientes seleccionados con proteínas ascíticas <1.5 g/dL y factores adicionales de alto riesgo, como disfunción renal o hiponatremia, o hepatopatía avanzada con bilirrubina elevada. En este caso, las proteínas ascíticas son bajas y existen varios marcadores de riesgo. La decisión requiere valorar resistencia local, toxicidad, interacciones y el beneficio esperado. Si aparece hemorragia digestiva alta aguda en un paciente con cirrosis, la profilaxis antibiótica está indicada durante el episodio, según el protocolo correspondiente.`,
+  perlaENARM: `Proteínas ascíticas <1.5 g/dL no bastan por sí solas para indicar profilaxis primaria en todos los pacientes: busca criterios adicionales de alto riesgo.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica que establezca una única pauta de profilaxis primaria para todos los perfiles de riesgo.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-088",
+  especialidad: "Gastroenterología",
+  tema: "Peritonitis bacteriana espontánea",
+  subtema: "Bacterascitis",
+  dificultad: "Alta",
+  caso: `Femenina de 56 años con cirrosis y ascitis ambulatoria. La paracentesis muestra 110 neutrófilos/mm³. Dos días después, el cultivo del líquido ascítico informa crecimiento de un microorganismo. La paciente está afebril, sin dolor abdominal, sin encefalopatía y con función renal estable. No ha recibido antibióticos recientemente.`,
+  pregunta: "¿Cuál es la conducta más apropiada ante este resultado?",
+  opciones: [
+    "Ignorar el cultivo y no volver a evaluar a la paciente.",
+    "Considerar bacterascitis; reevaluar clínicamente y repetir la paracentesis, tratando si hay síntomas, deterioro o progresión del recuento celular.",
+    "Diagnosticar automáticamente peritonitis secundaria y realizar cirugía urgente en todos los casos.",
+    "Administrar de inmediato un ciclo prolongado de antibióticos de amplio espectro sin valorar el contexto.",
+    "Diagnosticar PBE confirmada porque cualquier cultivo positivo sustituye al recuento celular y al contexto clínico."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La bacterascitis se refiere a un cultivo positivo con recuento de neutrófilos inferior a 250 células/mm³. En pacientes asintomáticos y estables puede representar contaminación o infección transitoria, por lo que suele indicarse reevaluación clínica y repetición de paracentesis cuando el cultivo se reporta positivo. Si hay síntomas de infección, deterioro clínico o progresión del recuento de neutrófilos, debe iniciarse tratamiento. No debe ignorarse un cultivo positivo, pero tampoco equipararse automáticamente a PBE neutrocítica en todos los pacientes.`,
+  perlaENARM: `Cultivo positivo + PMN <250/mm³ = bacterascitis. La conducta depende de síntomas, evolución y repetición del líquido ascítico.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para bacterascitis.",
+    internacional: "AASLD Practice Guidance, 2021; EASL Clinical Practice Guidelines on decompensated cirrhosis."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+},
+{
+  id: "GASTRO-089",
+  especialidad: "Gastroenterología",
+  tema: "Peritonitis bacteriana espontánea",
+  subtema: "Profilaxis antibiótica durante hemorragia digestiva alta",
+  dificultad: "Alta",
+  caso: `Masculino de 60 años con cirrosis y ascitis que ingresa por hematemesis y melena. Está hemodinámicamente comprometido y se sospecha hemorragia variceal. No tiene fiebre ni dolor abdominal. La paracentesis inicial muestra 100 neutrófilos/mm³ y el cultivo está pendiente. El equipo inicia el protocolo de hemorragia digestiva alta.`,
+  pregunta: "¿Cuál es la conducta apropiada respecto a la prevención de infecciones bacterianas?",
+  opciones: [
+    "No administrar antibióticos porque el recuento de neutrófilos ascíticos es menor de 250/mm³.",
+    "Administrar profilaxis antibiótica durante la hemorragia digestiva alta en el paciente cirrótico, con selección según el protocolo local.",
+    "Esperar a que el cultivo ascítico sea positivo antes de considerar profilaxis.",
+    "Administrar antibióticos solo si aparece fiebre después de la endoscopia.",
+    "Sustituir los antibióticos por albúmina intravenosa como única prevención de infección."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En pacientes con cirrosis y hemorragia digestiva alta se recomienda profilaxis antibiótica porque el sangrado incrementa el riesgo de infección bacteriana, resangrado y desenlaces adversos. La profilaxis no depende de que el recuento de neutrófilos ascíticos sea ≥250/mm³. En numerosos protocolos se utiliza ceftriaxona intravenosa, con duración generalmente limitada al episodio agudo y de acuerdo con las recomendaciones institucionales y la epidemiología local. La profilaxis antibiótica es un componente del manejo de la hemorragia, junto con la reanimación, el tratamiento vasoactivo y la endoscopia cuando está indicada.`,
+  perlaENARM: `Cirrosis + hemorragia digestiva alta = profilaxis antibiótica, aunque no haya fiebre ni se cumplan criterios de PBE.`,
+  gpc: {
+    mexico: "Aplicar el protocolo institucional vigente de hemorragia digestiva alta en cirrosis.",
+    internacional: "AASLD Practice Guidance, 2021; Baveno VII, 2022."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884.",
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974."
+  ]
+},
+{
+  id: "GASTRO-090",
+  especialidad: "Gastroenterología",
+  tema: "Peritonitis bacteriana espontánea",
+  subtema: "Diferenciación entre PBE y peritonitis secundaria",
+  dificultad: "Extrema",
+  caso: `Femenina de 67 años con cirrosis y ascitis que desarrolla dolor abdominal focal intenso y choque séptico. La paracentesis revela 3,800 neutrófilos/mm³, glucosa de 28 mg/dL y proteínas totales de 3.2 g/dL. El cultivo crece dos microorganismos entéricos. La paciente empeora pese al inicio de antibióticos. Se sospecha una perforación intestinal.`,
+  pregunta: "¿Cuál es la conducta prioritaria?",
+  opciones: [
+    "Continuar como PBE no complicada sin solicitar más estudios.",
+    "Sospechar peritonitis bacteriana secundaria, ampliar cobertura antimicrobiana según el contexto y solicitar imagen urgente y valoración quirúrgica para control del foco.",
+    "Suspender los antibióticos porque los cultivos polimicrobianos excluyen infección.",
+    "Indicar profilaxis secundaria oral y egresar a la paciente.",
+    "Esperar el resultado final de sensibilidad antimicrobiana antes de realizar imagen."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La combinación de dolor focal, choque, líquido con proteínas elevadas y glucosa baja, cultivo polimicrobiano y deterioro pese a antibióticos sugiere peritonitis secundaria por un foco intraabdominal, como perforación intestinal. Se requiere cobertura antibiótica apropiada para infección intraabdominal grave, imagen urgente cuando sea factible y valoración quirúrgica o intervencionista para control del foco. El recuento elevado de neutrófilos no distingue por sí solo PBE de peritonitis secundaria. Retrasar el control del foco puede ser mortal.`,
+  perlaENARM: `Choque + dolor focal + cultivo polimicrobiano + glucosa ascítica baja = sospecha de peritonitis secundaria; imagen y control urgente del foco.`,
+  gpc: {
+    mexico: "Seguir protocolos institucionales de sepsis e infección intraabdominal con valoración quirúrgica urgente.",
+    internacional: "AASLD Practice Guidance, 2021."
+  },
+  bibliografia: [
+    "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
+  ]
+}
+ 
+window.BANCO_GASTROENTEROLOGIA.push(
+{
+  id: "GASTRO-091",
+  especialidad: "Gastroenterología",
+  tema: "Encefalopatía hepática",
+  subtema: "Clasificación clínica de West Haven",
+  dificultad: "Fácil",
+  caso: `Masculino de 58 años con cirrosis hepática descompensada, llevado a urgencias por cambios conductuales de 24 horas de evolución. Está despierto, desorientado en tiempo, presenta inversión del ciclo sueño-vigilia y dificultad para realizar operaciones aritméticas sencillas. Obedece órdenes y no presenta estupor ni coma. La glucosa capilar es normal y no hay déficit neurológico focal.`,
+  pregunta: "¿Qué grado de encefalopatía hepática según West Haven presenta el paciente?",
+  opciones: [
+    "Grado 0, sin alteraciones clínicas detectables.",
+    "Grado I, con cambios leves del comportamiento sin desorientación.",
+    "Grado II, con letargo o apatía, desorientación temporal y alteraciones conductuales.",
+    "Grado III, con estupor y respuesta solo a estímulos intensos.",
+    "Grado IV, con coma sin respuesta significativa a estímulos."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La encefalopatía hepática manifiesta se clasifica clínicamente mediante los criterios de West Haven. El grado II suele incluir letargo o apatía, desorientación temporal, cambios de personalidad y alteraciones conductuales evidentes; puede acompañarse de asterixis. El grado I comprende alteraciones leves de atención, sueño o conducta sin desorientación franca. El grado III se caracteriza por somnolencia marcada o estupor con respuesta a estímulos, mientras que el grado IV corresponde al coma. Deben buscarse simultáneamente factores precipitantes y diagnósticos alternativos.`,
+  perlaENARM: `West Haven II: desorientación temporal y cambios conductuales evidentes. Grado III: estupor o somnolencia profunda. Grado IV: coma.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para la clasificación completa de West Haven.",
+    internacional: "AASLD/EASL Practice Guideline: Hepatic Encephalopathy in Chronic Liver Disease, 2014."
+  },
+  bibliografia: [
+    "Vilstrup H, et al. Hepatic Encephalopathy in Chronic Liver Disease: 2014 Practice Guideline by AASLD and EASL. Hepatology. 2014;60:715-735."
+  ]
+},
+{
+  id: "GASTRO-092",
+  especialidad: "Gastroenterología",
+  tema: "Encefalopatía hepática",
+  subtema: "Identificación de factores precipitantes",
+  dificultad: "Media",
+  caso: `Femenina de 64 años con cirrosis por hepatitis C previamente tratada, que presenta somnolencia, desorientación temporal y asterixis. En los últimos cuatro días no ha evacuado debido a estreñimiento. La familia refiere que ha tomado menos líquidos y ha duplicado por cuenta propia la dosis de un diurético. La exploración muestra mucosas secas y presión arterial de 94/60 mmHg. No tiene fiebre ni hematemesis.`,
+  pregunta: "¿Cuál es la estrategia inicial más apropiada?",
+  opciones: [
+    "Atribuir el cuadro exclusivamente al amonio y administrar tratamiento sin buscar otros factores.",
+    "Buscar y corregir precipitantes, incluyendo estreñimiento, hipovolemia, alteraciones electrolíticas, infección y hemorragia digestiva, mientras se trata la encefalopatía.",
+    "Suspender toda evaluación clínica si se confirma asterixis.",
+    "Restringir de forma estricta las proteínas durante varias semanas.",
+    "Administrar sedantes para normalizar el ciclo sueño-vigilia."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La encefalopatía hepática suele precipitarse por factores corregibles: infección, hemorragia digestiva, estreñimiento, deshidratación o hipovolemia, alteraciones de sodio o potasio, lesión renal, fármacos sedantes y falta de adherencia al tratamiento. En este caso destacan el estreñimiento, la probable hipovolemia y el uso inadecuado de diuréticos. El tratamiento exige corregir estos factores y administrar terapia dirigida a la encefalopatía. La búsqueda de precipitantes no debe limitarse a un solo factor ni retrasarse por solicitar amonio.`,
+  perlaENARM: `Encefalopatía hepática = tratar el episodio y corregir el precipitante. Busca infección, sangrado, estreñimiento, hipovolemia, lesión renal, alteraciones electrolíticas y fármacos.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para el abordaje integral de encefalopatía hepática.",
+    internacional: "AASLD/EASL Practice Guideline, 2014."
+  },
+  bibliografia: [
+    "Vilstrup H, et al. Hepatology. 2014;60:715-735."
+  ]
+},
+{
+  id: "GASTRO-093",
+  especialidad: "Gastroenterología",
+  tema: "Encefalopatía hepática",
+  subtema: "Tratamiento inicial con lactulosa",
+  dificultad: "Alta",
+  caso: `Masculino de 61 años con cirrosis y encefalopatía hepática manifiesta grado II. Presenta desorientación temporal y asterixis, pero conserva la capacidad de deglutir y protege la vía aérea. La glucosa es normal, no hay déficit focal y se ha iniciado la búsqueda de infección, hemorragia y alteraciones metabólicas. No tiene datos de obstrucción intestinal.`,
+  pregunta: "¿Cuál es el tratamiento farmacológico inicial más apropiado para la encefalopatía hepática manifiesta?",
+  opciones: [
+    "Lactulosa oral, titulada hasta conseguir aproximadamente 2–3 evacuaciones blandas al día, con vigilancia de hidratación y electrolitos.",
+    "Rifaximina como monoterapia obligatoria en todo primer episodio, sin lactulosa.",
+    "Neomicina intravenosa como tratamiento estándar de primera línea.",
+    "Restricción absoluta de proteínas y ayuno durante 72 horas.",
+    "Benzodiacepinas para reducir la agitación y mejorar la orientación."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La lactulosa es el tratamiento inicial habitual de la encefalopatía hepática manifiesta. Se administra por vía oral o enteral cuando la vía aérea es segura y se titula a aproximadamente 2–3 evacuaciones blandas al día. En pacientes que no pueden deglutir de forma segura, debe elegirse una vía enteral o rectal apropiada según la gravedad y el contexto clínico, protegiendo la vía aérea cuando sea necesario. La dosis excesiva puede producir diarrea, deshidratación, hipernatremia o hipopotasemia, que a su vez pueden empeorar la encefalopatía. También es indispensable corregir el precipitante.`,
+  perlaENARM: `Lactulosa en encefalopatía manifiesta: titular a 2–3 evacuaciones blandas al día. Evita la diarrea excesiva y la deshidratación.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para la dosificación integral de lactulosa en encefalopatía hepática.",
+    internacional: "AASLD/EASL Practice Guideline, 2014."
+  },
+  bibliografia: [
+    "Vilstrup H, et al. Hepatology. 2014;60:715-735."
+  ]
+},
+{
+  id: "GASTRO-094",
+  especialidad: "Gastroenterología",
+  tema: "Encefalopatía hepática",
+  subtema: "Rifaximina en prevención de recurrencias",
+  dificultad: "Alta",
+  caso: `Femenina de 59 años con cirrosis que ha presentado tres episodios de encefalopatía hepática manifiesta en seis meses. Actualmente se encuentra orientada tras el tratamiento de un nuevo episodio con lactulosa. La familia confirma adherencia, aunque persiste riesgo de recurrencia. No hay infección activa ni hemorragia digestiva. La paciente tolera el tratamiento oral.`,
+  pregunta: "¿Cuál es la estrategia farmacológica más apropiada para reducir nuevas recurrencias?",
+  opciones: [
+    "Suspender lactulosa al recuperar la orientación y no administrar prevención.",
+    "Añadir rifaximina a la lactulosa para prevención secundaria de nuevos episodios.",
+    "Mantener únicamente un antibiótico sistémico de amplio espectro de forma indefinida.",
+    "Administrar benzodiacepinas nocturnas para prevenir episodios.",
+    "Indicar restricción proteica crónica como intervención preventiva principal."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La lactulosa se utiliza para prevención secundaria después de un episodio de encefalopatía hepática manifiesta. Cuando existe recurrencia, rifaximina añadida a lactulosa reduce el riesgo de nuevos episodios y de hospitalización. La dosis habitual estudiada para rifaximina es 550 mg por vía oral cada 12 horas, considerando indicación, disponibilidad, tolerabilidad y evaluación clínica. Deben revisarse la adherencia, el tránsito intestinal y los precipitantes persistentes. Los episodios recurrentes también justifican reevaluar la gravedad de la hepatopatía y la posible necesidad de valoración para trasplante.`,
+  perlaENARM: `Prevención secundaria: lactulosa. Si hay recurrencias, añadir rifaximina 550 mg cada 12 horas es una estrategia respaldada por evidencia.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para todos los criterios de incorporación de rifaximina.",
+    internacional: "AASLD/EASL Practice Guideline, 2014; Bass et al., NEJM, 2010."
+  },
+  bibliografia: [
+    "Vilstrup H, et al. Hepatology. 2014;60:715-735.",
+    "Bass NM, et al. Rifaximin Treatment in Hepatic Encephalopathy. N Engl J Med. 2010;362:1071-1081."
+  ]
+},
+{
+  id: "GASTRO-095",
+  especialidad: "Gastroenterología",
+  tema: "Encefalopatía hepática",
+  subtema: "Interpretación de amonio plasmático",
+  dificultad: "Extrema",
+  caso: `Masculino de 55 años con cirrosis y cambios recientes del estado mental. Está somnoliento y presenta desorientación, pero no tiene asterixis. La concentración de amonio plasmático se reporta dentro del intervalo de referencia del laboratorio. La glucosa es de 102 mg/dL, la saturación de oxígeno es de 96% y no hay déficit neurológico focal evidente. La familia refiere consumo reciente de un sedante. No se ha realizado neuroimagen.`,
+  pregunta: "¿Cuál es la interpretación más apropiada del resultado de amonio?",
+  opciones: [
+    "El resultado normal confirma encefalopatía hepática grave.",
+    "El resultado normal hace menos probable la encefalopatía hepática y obliga a reconsiderar el diagnóstico y buscar otras causas de alteración mental.",
+    "El amonio normal excluye toda enfermedad hepática.",
+    "La concentración de amonio determina con precisión el grado de West Haven.",
+    "Debe administrarse rifaximina de por vida sin evaluar otras causas."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La encefalopatía hepática es un diagnóstico clínico y de exclusión. Un amonio normal debe motivar una reevaluación diagnóstica, porque hace menos probable que la encefalopatía hepática explique por sí sola el cuadro. El amonio elevado no confirma el diagnóstico ni se correlaciona de manera fiable con el grado clínico en un paciente individual. Deben considerarse fármacos sedantes, hipoglucemia, alteraciones electrolíticas, infección, hipoxia, uremia, accidente cerebrovascular, hemorragia intracraneal y estado epiléptico, según el contexto. La obtención y el procesamiento de la muestra también pueden alterar el resultado.`,
+  perlaENARM: `Amonio elevado no confirma ni gradúa la encefalopatía. Un resultado normal debe hacer reconsiderar el diagnóstico y buscar alternativas.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para el uso diagnóstico del amonio.",
+    internacional: "AASLD/EASL Practice Guideline, 2014."
+  },
+  bibliografia: [
+    "Vilstrup H, et al. Hepatology. 2014;60:715-735."
+  ]
+},
+{
+  id: "GASTRO-096",
+  especialidad: "Gastroenterología",
+  tema: "Encefalopatía hepática",
+  subtema: "Diagnóstico diferencial del deterioro neurológico",
+  dificultad: "Extrema",
+  caso: `Masculino de 67 años con cirrosis que llega a urgencias por disminución súbita del nivel de conciencia. La familia refiere que estaba hablando normalmente una hora antes. La exploración revela desviación de la mirada y debilidad del brazo derecho. Glucosa capilar de 110 mg/dL. No se cuenta con un diagnóstico previo de encefalopatía hepática. La presión arterial es de 156/92 mmHg y no hay hematemesis.`,
+  pregunta: "¿Cuál es la conducta prioritaria?",
+  opciones: [
+    "Atribuir los hallazgos a encefalopatía hepática y administrar lactulosa como única intervención.",
+    "Activar la evaluación urgente de evento vascular cerebral, incluyendo neuroimagen y valoración del tiempo de inicio, sin asumir que se trata de encefalopatía hepática.",
+    "Solicitar exclusivamente amonio plasmático y esperar el resultado.",
+    "Administrar rifaximina y reevaluar al día siguiente.",
+    "Indicar restricción proteica y observar la evolución durante 24 horas."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La alteración súbita del estado mental acompañada de déficit neurológico focal debe considerarse un evento vascular cerebral u otra lesión intracraneal hasta demostrar lo contrario. Se requiere activar el protocolo de ictus, determinar la hora de última vez visto bien, evaluar glucosa y realizar neuroimagen urgente según el protocolo local. La cirrosis no protege contra el accidente cerebrovascular y no debe utilizarse para explicar automáticamente todo cambio neurológico. Si la encefalopatía hepática también es posible, su evaluación puede realizarse en paralelo, sin retrasar las intervenciones tiempo-dependientes.`,
+  perlaENARM: `Déficit focal o inicio súbito = descartar ictus y hemorragia intracraneal de forma urgente. No ancles el diagnóstico en la cirrosis.`,
+  gpc: {
+    mexico: "Aplicar el protocolo institucional vigente de evento vascular cerebral agudo.",
+    internacional: "AHA/ASA guidance for acute ischemic stroke; AASLD/EASL hepatic encephalopathy guideline."
+  },
+  bibliografia: [
+    "Powers WJ, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke. Stroke. 2019.",
+    "Vilstrup H, et al. Hepatology. 2014;60:715-735."
+  ]
+},
+{
+  id: "GASTRO-097",
+  especialidad: "Gastroenterología",
+  tema: "Encefalopatía hepática",
+  subtema: "Nutrición y metabolismo proteico",
+  dificultad: "Alta",
+  caso: `Femenina de 60 años con cirrosis y dos episodios previos de encefalopatía hepática. Está clínicamente estable y acude a consulta por pérdida de masa muscular y disminución de la ingesta. Su familia eliminó carne, huevo, lácteos y leguminosas por temor a que las proteínas precipiten nuevos episodios. Presenta sarcopenia y pérdida involuntaria de peso.`,
+  pregunta: "¿Cuál es la recomendación nutricional más apropiada?",
+  opciones: [
+    "Mantener una dieta sin proteínas hasta normalizar permanentemente el amonio.",
+    "Restablecer una ingesta proteica adecuada, con frecuencia alrededor de 1.2–1.5 g/kg/día en cirrosis, individualizada al estado nutricional y clínico.",
+    "Indicar ayuno nocturno prolongado para disminuir la producción intestinal de amonio.",
+    "Eliminar todas las proteínas de origen vegetal.",
+    "Utilizar únicamente soluciones glucosadas como fuente de energía durante meses."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La restricción proteica prolongada no se recomienda en la cirrosis ni como prevención rutinaria de encefalopatía hepática, porque favorece sarcopenia y desnutrición. En general, se busca una ingesta proteica cercana a 1.2–1.5 g/kg/día, individualizada al peso de referencia, estado nutricional, función renal y situación clínica. Las fuentes vegetales y lácteas pueden ser bien toleradas y deben considerarse dentro de un plan nutricional. También se recomienda evitar ayunos prolongados y distribuir la ingesta durante el día, con una colación nocturna cuando sea apropiado.`,
+  perlaENARM: `No restrinjas proteínas de rutina en encefalopatía hepática. La sarcopenia reduce la capacidad extrahepática de metabolizar amonio y empeora el pronóstico.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para todos los requerimientos nutricionales en encefalopatía hepática.",
+    internacional: "EASL Clinical Practice Guidelines on nutrition in chronic liver disease, 2019; AASLD/EASL HE guideline, 2014."
+  },
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on nutrition in chronic liver disease. J Hepatol. 2019;70:172-193.",
+    "Vilstrup H, et al. Hepatology. 2014;60:715-735."
+  ]
+},
+{
+  id: "GASTRO-098",
+  especialidad: "Gastroenterología",
+  tema: "Encefalopatía hepática",
+  subtema: "Encefalopatía hepática mínima o encubierta",
+  dificultad: "Extrema",
+  caso: `Masculino de 52 años con cirrosis compensada que continúa trabajando como conductor profesional. No presenta desorientación ni asterixis en la exploración, pero refiere errores de atención, lentitud para responder y dificultad para realizar tareas complejas. Su familia ha notado alteración del sueño y cambios sutiles en la conducta. La evaluación cognitiva general es casi normal, pero las pruebas psicométricas validadas para encefalopatía hepática muestran alteraciones.`,
+  pregunta: "¿Cuál es la interpretación más apropiada?",
+  opciones: [
+    "No puede existir encefalopatía hepática si el paciente está orientado.",
+    "Los hallazgos son compatibles con encefalopatía hepática encubierta, que requiere evaluación clínica y psicométrica apropiada.",
+    "El diagnóstico queda confirmado únicamente por una concentración elevada de amonio.",
+    "Se trata necesariamente de demencia irreversible y no requiere evaluación hepática.",
+    "La presencia de síntomas sutiles obliga a clasificarlo como West Haven grado IV."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La encefalopatía hepática encubierta incluye formas mínimas o grado I, con alteraciones neurocognitivas que pueden pasar inadvertidas en una exploración convencional. Las pruebas psicométricas validadas, interpretadas considerando edad, escolaridad y contexto cultural, pueden detectar alteraciones de atención, velocidad psicomotora y función ejecutiva. Es importante valorar calidad de vida, adherencia, riesgo de accidentes y capacidad para actividades que exigen atención sostenida, como conducir. El diagnóstico no se establece exclusivamente mediante amonio ni por síntomas inespecíficos aislados.`,
+  perlaENARM: `La orientación conservada no excluye encefalopatía hepática encubierta. Se requieren evaluación clínica y pruebas psicométricas apropiadas.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para las pruebas psicométricas de encefalopatía encubierta.",
+    internacional: "AASLD/EASL Practice Guideline, 2014."
+  },
+  bibliografia: [
+    "Vilstrup H, et al. Hepatology. 2014;60:715-735."
+  ]
+},
+{
+  id: "GASTRO-099",
+  especialidad: "Gastroenterología",
+  tema: "Encefalopatía hepática",
+  subtema: "Encefalopatía posterior a TIPS",
+  dificultad: "Extrema",
+  caso: `Masculino de 63 años con cirrosis que recibió TIPS por hemorragia variceal recurrente. Dos semanas después presenta desorientación y somnolencia. La glucosa es normal; no hay fiebre, hemorragia digestiva evidente ni focalización neurológica. La familia informa estreñimiento de cuatro días. El Doppler confirma permeabilidad del TIPS y no hay datos de trombosis portal.`,
+  pregunta: "¿Cuál es el abordaje inicial más apropiado?",
+  opciones: [
+    "Ocluir inmediatamente el TIPS en todo paciente con cualquier grado de encefalopatía.",
+    "Tratar la encefalopatía con lactulosa, buscar y corregir precipitantes, y valorar rifaximina si existe recurrencia o respuesta insuficiente.",
+    "Suspender permanentemente toda alimentación oral.",
+    "Administrar anticoagulación a dosis altas porque la encefalopatía demuestra trombosis del TIPS.",
+    "Iniciar benzodiacepinas para controlar la somnolencia."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La encefalopatía hepática puede aparecer o empeorar después de TIPS debido al desvío de sangre portal hacia la circulación sistémica. El abordaje inicial incluye evaluar diagnósticos alternativos y precipitantes, corregir estreñimiento, infección, hemorragia, alteraciones metabólicas y fármacos, y tratar con lactulosa. Rifaximina puede añadirse en pacientes con episodios recurrentes según la evaluación clínica. Si la encefalopatía persiste o es refractaria pese al tratamiento óptimo, el equipo multidisciplinario puede considerar reducir el calibre o modificar el TIPS en pacientes seleccionados, ponderando el riesgo de recurrencia de hemorragia o ascitis.`,
+  perlaENARM: `Encefalopatía posterior a TIPS: busca precipitantes y trata primero. La reducción del TIPS se reserva para casos persistentes o refractarios seleccionados.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para encefalopatía posterior a TIPS.",
+    internacional: "AASLD/EASL Practice Guideline, 2014; Baveno VII, 2022."
+  },
+  bibliografia: [
+    "Vilstrup H, et al. Hepatology. 2014;60:715-735.",
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974."
+  ]
+},
+{
+  id: "GASTRO-100",
+  especialidad: "Gastroenterología",
+  tema: "Encefalopatía hepática",
+  subtema: "Encefalopatía grave y protección de la vía aérea",
+  dificultad: "Extrema",
+  caso: `Femenina de 57 años con cirrosis avanzada, llevada a urgencias por deterioro progresivo del estado de conciencia. Está estuporosa, responde solo a estímulos intensos y presenta episodios de vómito. No protege adecuadamente la vía aérea y tiene abundantes secreciones orofaríngeas. La glucosa es normal. Se sospecha encefalopatía hepática grave, pero aún deben descartarse infección, hemorragia intracraneal, alteraciones metabólicas y otros diagnósticos.`,
+  pregunta: "¿Cuál es la prioridad inmediata?",
+  opciones: [
+    "Administrar lactulosa oral sin modificar la posición ni evaluar la vía aérea.",
+    "Proteger la vía aérea y estabilizar ABC, mientras se realiza evaluación urgente de causas precipitantes y diagnósticos alternativos.",
+    "Esperar el resultado del amonio antes de iniciar cualquier medida.",
+    "Administrar rifaximina oral como única intervención inmediata.",
+    "Realizar pruebas psicométricas para confirmar la gravedad."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En encefalopatía grave con disminución importante del nivel de conciencia, vómito y pérdida de reflejos protectores, la prioridad es estabilizar la vía aérea, respiración y circulación. Puede requerirse intubación endotraqueal para prevenir aspiración. Paralelamente deben evaluarse glucosa, electrolitos, función renal, infección, hemorragia digestiva, fármacos, evento vascular cerebral y otras causas de coma. La terapia dirigida a encefalopatía debe administrarse por una vía segura una vez que se proteja la vía aérea. La confirmación mediante amonio no debe retrasar la estabilización.`,
+  perlaENARM: `Encefalopatía grave con incapacidad para proteger la vía aérea = ABC e intubación si está indicada. La estabilización precede a la terapia enteral.`,
+  gpc: {
+    mexico: "Aplicar protocolos institucionales de urgencias, protección de vía aérea y manejo de alteración del estado de conciencia.",
+    internacional: "AASLD/EASL Practice Guideline, 2014."
+  },
+  bibliografia: [
+    "Vilstrup H, et al. Hepatology. 2014;60:715-735."
+  ]
+}
+
+window.BANCO_GASTROENTEROLOGIA.push(
+{
+  id: "GASTRO-101",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome hepatorrenal",
+  subtema: "Criterios diagnósticos actuales de SHR-LRA",
+  dificultad: "Fácil",
+  caso: `Masculino de 58 años con cirrosis descompensada y ascitis. Su creatinina basal estable era de 0.9 mg/dL y aumenta a 1.3 mg/dL en 36 horas. No presenta hemorragia activa ni choque. Se suspenden los nefrotóxicos potenciales y se inicia la evaluación de infección, estado de volumen, sedimento urinario y otras causas de lesión renal. Tras corregir una posible hipovolemia, la función renal no mejora en las siguientes 24 horas. No se identifica una causa alternativa predominante.`,
+  pregunta: "¿Cuál es la interpretación más apropiada de este cuadro?",
+  opciones: [
+    "No cumple criterios de lesión renal aguda porque la creatinina es menor de 2 mg/dL.",
+    "Cumple criterio de lesión renal aguda y debe evaluarse para SHR-LRA en ausencia de una explicación alternativa predominante.",
+    "El SHR solo puede diagnosticarse después de administrar albúmina durante 7 días.",
+    "La presencia de ascitis descarta el síndrome hepatorrenal.",
+    "La creatinina debe superar 4 mg/dL para considerar SHR-LRA."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El incremento de creatinina de 0.9 a 1.3 mg/dL representa un aumento de 0.4 mg/dL en 36 horas y cumple criterio de lesión renal aguda. Los criterios ADQI-ICA de 2024 para SHR-LRA incluyen cirrosis con ascitis, incremento de creatinina ≥0.3 mg/dL en 48 horas o ≥50% respecto al basal en los 7 días previos, o diuresis ≤0.5 mL/kg/h durante al menos 6 horas; ausencia de mejoría dentro de 24 horas después de una reanimación de volumen adecuada cuando está indicada, y ausencia de evidencia sólida de otra causa predominante. No es necesario esperar una prueba sistemática de albúmina durante 48 horas.`,
+  perlaENARM: `SHR-LRA: cirrosis con ascitis + criterio de LRA + ausencia de mejoría tras reanimación adecuada cuando se necesita + ausencia de una causa alternativa predominante.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente que incorpore íntegramente los criterios ADQI-ICA de 2024.",
+    internacional: "ADQI-ICA Joint Multidisciplinary Consensus, Journal of Hepatology, 2024."
+  },
+  bibliografia: [
+    "Nadim MK, et al. Acute kidney injury in patients with cirrhosis: ADQI and ICA joint multidisciplinary consensus meeting. J Hepatol. 2024;81:163-183. doi:10.1016/j.jhep.2024.03.031."
+  ]
+},
+{
+  id: "GASTRO-102",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome hepatorrenal",
+  subtema: "Diagnóstico diferencial de lesión renal en cirrosis",
+  dificultad: "Media",
+  caso: `Femenina de 65 años con cirrosis y ascitis que presenta aumento de creatinina de 1.0 a 2.1 mg/dL en cuatro días. Refiere diarrea abundante y escasa ingesta durante las últimas 48 horas. La presión arterial es de 88/54 mmHg, las mucosas están secas y la diuresis ha disminuido. No presenta fiebre ni datos de hemorragia. El sedimento urinario no muestra cilindros granulosos abundantes ni hematuria significativa.`,
+  pregunta: "¿Cuál es la conducta inicial más apropiada antes de atribuir la lesión renal a SHR-LRA?",
+  opciones: [
+    "Diagnosticar SHR-LRA de inmediato y administrar terlipresina sin corregir el estado de volumen.",
+    "Evaluar y corregir la hipovolemia con reposición individualizada, suspender factores agravantes y reevaluar la función renal.",
+    "Administrar diuréticos a dosis altas para aumentar la diuresis.",
+    "Indicar contraste intravenoso para confirmar el diagnóstico de SHR.",
+    "Iniciar hemodiálisis de forma obligatoria por cualquier incremento de creatinina."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La paciente presenta datos clínicos de hipovolemia por pérdidas gastrointestinales e ingesta insuficiente. Debe corregirse el déficit de volumen de forma individualizada, con cristaloides u otro fluido apropiado según la situación clínica, mientras se evalúan otras causas de LRA. La respuesta de la función renal ayuda a orientar el diagnóstico. El SHR-LRA no debe diagnosticarse si existe una explicación alternativa predominante que no se ha corregido. La reposición debe vigilarse estrechamente para evitar sobrecarga de volumen en una paciente con cirrosis.`,
+  perlaENARM: `Antes de diagnosticar SHR-LRA, identifica hipovolemia, sepsis, hemorragia, nefrotóxicos y lesión renal estructural. La reposición de volumen se individualiza.`,
+  gpc: {
+    mexico: "Aplicar el protocolo institucional de LRA y cirrosis descompensada.",
+    internacional: "ADQI-ICA Consensus, 2024."
+  },
+  bibliografia: [
+    "Nadim MK, et al. J Hepatol. 2024;81:163-183."
+  ]
+},
+{
+  id: "GASTRO-103",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome hepatorrenal",
+  subtema: "Diferenciación entre SHR-LRA y lesión tubular aguda",
+  dificultad: "Alta",
+  caso: `Masculino de 62 años con cirrosis avanzada y ascitis que desarrolla LRA después de un episodio de choque séptico prolongado. La creatinina aumenta de 1.1 a 3.0 mg/dL. El sedimento urinario muestra abundantes cilindros granulosos pigmentados y células epiteliales tubulares. La evolución hemodinámica ha mejorado, pero la función renal continúa deteriorándose. No se ha documentado respuesta a la reposición de volumen.`,
+  pregunta: "¿Cuál es la interpretación más probable de la lesión renal?",
+  opciones: [
+    "SHR-LRA puro confirmado por la presencia de ascitis.",
+    "Lesión tubular aguda probable asociada con el episodio de choque; debe considerarse una causa estructural predominante.",
+    "Enfermedad renal crónica confirmada exclusivamente por la creatinina actual.",
+    "Glomerulonefritis confirmada por cualquier cilindro urinario.",
+    "La cirrosis descarta que el choque pueda causar lesión tubular."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El antecedente de choque séptico prolongado y los cilindros granulosos pigmentados con células epiteliales tubulares favorecen lesión tubular aguda. La presencia de cirrosis no excluye lesión renal estructural ni otros fenotipos de LRA. El SHR-LRA requiere ausencia de evidencia sólida de una explicación alternativa predominante. Sin embargo, los fenotipos pueden coexistir: una persona con cirrosis puede presentar componentes hemodinámicos funcionales junto con lesión tubular. La evaluación debe integrar evolución clínica, sedimento, exposición a nefrotóxicos, proteinuria, hematuria y estudios adicionales según el contexto.`,
+  perlaENARM: `Choque prolongado + cilindros granulosos y células tubulares = lesión tubular aguda probable. La cirrosis no convierte automáticamente toda LRA en SHR.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para todos los fenotipos de LRA en cirrosis.",
+    internacional: "ADQI-ICA Consensus, 2024."
+  },
+  bibliografia: [
+    "Nadim MK, et al. J Hepatol. 2024;81:163-183."
+  ]
+},
+{
+  id: "GASTRO-104",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome hepatorrenal",
+  subtema: "Terlipresina y albúmina como tratamiento inicial",
+  dificultad: "Alta",
+  caso: `Femenina de 57 años con cirrosis, ascitis y SHR-LRA establecido tras evaluación clínica. La creatinina aumenta progresivamente y no mejora después de corregir una hipovolemia documentada. No hay evidencia de lesión tubular predominante ni de obstrucción urinaria. La paciente está hospitalizada y no presenta hipoxemia ni signos de isquemia activa. El equipo dispone de terlipresina y albúmina concentrada.`,
+  pregunta: "¿Cuál es el tratamiento específico de primera línea recomendado para SHR-LRA?",
+  opciones: [
+    "Terlipresina combinada con albúmina al 20–25%, ajustando la albúmina diariamente según el estado de volumen.",
+    "Albúmina al 5% a dosis fija durante 14 días, sin vasoconstrictor.",
+    "Furosemida en monoterapia a dosis crecientes.",
+    "Propranolol para aumentar la perfusión renal.",
+    "Antibióticos de amplio espectro durante 14 días aunque no haya infección."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El consenso ADQI-ICA de 2024 recomienda iniciar terlipresina junto con albúmina al 20–25% tan pronto como se establece el diagnóstico de SHR-LRA. La albúmina debe ajustarse a la situación de volumen y suspenderse si aparece sobrecarga. La terlipresina requiere vigilancia estrecha por riesgo de isquemia y complicaciones respiratorias. Si está contraindicada, no disponible o no es apropiada, puede considerarse norepinefrina en un entorno monitorizado; la selección depende de recursos y condiciones clínicas.`,
+  perlaENARM: `SHR-LRA establecido: terlipresina + albúmina concentrada, con vigilancia de oxigenación, isquemia y sobrecarga de volumen.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para el esquema completo de terlipresina y albúmina según ADQI-ICA 2024.",
+    internacional: "ADQI-ICA Consensus, 2024."
+  },
+  bibliografia: [
+    "Nadim MK, et al. J Hepatol. 2024;81:163-183."
+  ]
+},
+{
+  id: "GASTRO-105",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome hepatorrenal",
+  subtema: "Seguridad de terlipresina",
+  dificultad: "Extrema",
+  caso: `Masculino de 66 años con cirrosis avanzada y SHR-LRA confirmado. Antes de iniciar tratamiento, presenta saturación de oxígeno de 88% al aire ambiente, disnea en reposo y estertores bibasales. La radiografía de tórax muestra congestión pulmonar. La presión arterial es de 98/60 mmHg. La creatinina es de 3.2 mg/dL y continúa en ascenso.`,
+  pregunta: "¿Cuál es la conducta más apropiada antes de administrar terlipresina y albúmina?",
+  opciones: [
+    "Iniciar inmediatamente dosis altas de terlipresina y albúmina sin modificar el soporte respiratorio.",
+    "Evaluar y tratar la hipoxemia y la sobrecarga de volumen; evitar iniciar terlipresina mientras exista hipoxia significativa y reevaluar la estrategia terapéutica.",
+    "Administrar albúmina rápidamente hasta lograr una presión venosa central elevada.",
+    "Ignorar la saturación de oxígeno porque no modifica la seguridad del vasoconstrictor.",
+    "Administrar un betabloqueador no selectivo como sustituto equivalente de terlipresina."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La terlipresina se asocia con riesgo de insuficiencia respiratoria y eventos isquémicos. La hipoxemia significativa y la sobrecarga de volumen requieren atención inmediata y pueden contraindicar o impedir temporalmente el inicio seguro del fármaco. Deben evaluarse oxigenación, estado hemodinámico y congestión, ajustar o suspender la albúmina si hay sobrecarga y tratar las causas respiratorias. La decisión de iniciar un vasoconstrictor alternativo requiere valoración especializada. No debe administrarse albúmina automáticamente si el paciente está sobrecargado.`,
+  perlaENARM: `Antes de terlipresina: evalúa oxigenación, congestión e isquemia. La sobrecarga de volumen puede empeorar el riesgo respiratorio.`,
+  gpc: {
+    mexico: "Seguir la ficha técnica autorizada del producto disponible y el protocolo institucional de seguridad.",
+    internacional: "ADQI-ICA Consensus, 2024; información de prescripción de terlipresina."
+  },
+  bibliografia: [
+    "Nadim MK, et al. J Hepatol. 2024;81:163-183."
+  ]
+},
+{
+  id: "GASTRO-106",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome hepatorrenal",
+  subtema: "Norepinefrina como alternativa vasoconstrictora",
+  dificultad: "Alta",
+  caso: `Femenina de 60 años con cirrosis y SHR-LRA confirmado. Terlipresina no está disponible en el hospital. La paciente se encuentra en una unidad de cuidados intensivos con monitorización continua y acceso venoso apropiado. No presenta arritmia activa ni isquemia miocárdica. La creatinina continúa aumentando pese a la corrección de factores precipitantes y al manejo de volumen.`,
+  pregunta: "¿Cuál es una alternativa terapéutica razonable?",
+  opciones: [
+    "Norepinefrina en un entorno de cuidados intensivos, junto con albúmina individualizada y vigilancia estrecha.",
+    "Nitroprusiato intravenoso para reducir la resistencia vascular sistémica.",
+    "Dopamina a dosis bajas como tratamiento de eficacia demostrada para SHR-LRA.",
+    "Furosemida en monoterapia para revertir el mecanismo hemodinámico.",
+    "Suspender toda terapia y esperar a que la creatinina se normalice espontáneamente."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Cuando terlipresina no está disponible o no es apropiada, norepinefrina puede utilizarse como alternativa en un entorno monitorizado, habitualmente de cuidados intensivos, en combinación con albúmina si el estado de volumen lo permite. La dosis se titula según respuesta hemodinámica y protocolos locales. Se vigilan presión arterial, perfusión periférica, ritmo cardíaco y función renal. La dopamina a dosis bajas no se recomienda como tratamiento eficaz de SHR-LRA. La elección del vasoconstrictor debe integrarse con la gravedad de la hepatopatía y la evaluación para trasplante.`,
+  perlaENARM: `Alternativa a terlipresina: norepinefrina con monitorización intensiva. No uses dopamina a dosis bajas como estrategia renoprotectora rutinaria.`,
+  gpc: {
+    mexico: "Aplicar el protocolo institucional de vasopresores en cuidados intensivos.",
+    internacional: "ADQI-ICA Consensus, 2024."
+  },
+  bibliografia: [
+    "Nadim MK, et al. J Hepatol. 2024;81:163-183."
+  ]
+},
+{
+  id: "GASTRO-107",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome hepatorrenal",
+  subtema: "Evaluación de respuesta al vasoconstrictor",
+  dificultad: "Extrema",
+  caso: `Masculino de 54 años con SHR-LRA en tratamiento con terlipresina y albúmina. La creatinina basal antes del episodio era de 1.0 mg/dL. Tras 48 horas de tratamiento, la creatinina permanece en 3.0 mg/dL y no muestra tendencia descendente. La presión arterial media ha aumentado poco, no hay mejoría de la diuresis y la paciente tolera la terapia sin efectos adversos graves. La dosis actual no es la máxima permitida por el protocolo utilizado.`,
+  pregunta: "¿Cuál es la conducta más apropiada conforme a una estrategia de titulación protocolizada?",
+  opciones: [
+    "Mantener indefinidamente la misma dosis aunque no haya respuesta.",
+    "Reevaluar precipitantes y estado de volumen y considerar aumentar la dosis de terlipresina según el protocolo y la tolerancia.",
+    "Suspender toda vigilancia porque la creatinina no se modifica en 48 horas.",
+    "Administrar grandes volúmenes de albúmina sin evaluar congestión.",
+    "Añadir de forma rutinaria un AINE para mejorar la respuesta vascular."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La respuesta se monitoriza con creatinina, diuresis, hemodinámica y seguridad. El consenso ADQI-ICA recomienda considerar el aumento de dosis de terlipresina cada 24 horas si la creatinina no ha disminuido al menos 25% desde el inicio, siempre que la estrategia sea tolerada y se siga el protocolo correspondiente. Deben reevaluarse hipovolemia, infección, sangrado, lesión renal estructural, congestión y otros factores. El tratamiento se suspende si aparece una reacción adversa grave, si la función renal vuelve cerca del basal, si no hay respuesta después de 48 horas a dosis máximas toleradas, si se requiere terapia de reemplazo renal o al alcanzar 14 días de tratamiento.`,
+  perlaENARM: `Monitoriza creatinina y seguridad diariamente. Sin descenso aproximado del 25%, considera titulación protocolizada; no prolongues indefinidamente una terapia ineficaz.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para los criterios de titulación ADQI-ICA 2024.",
+    internacional: "ADQI-ICA Consensus, 2024."
+  },
+  bibliografia: [
+    "Nadim MK, et al. J Hepatol. 2024;81:163-183."
+  ]
+},
+{
+  id: "GASTRO-108",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome hepatorrenal",
+  subtema: "Indicaciones de terapia de reemplazo renal",
+  dificultad: "Extrema",
+  caso: `Femenina de 61 años con cirrosis avanzada y SHR-LRA que desarrolla hiperpotasemia persistente de 6.8 mmol/L con cambios electrocardiográficos, acidosis metabólica grave y edema pulmonar con hipoxemia. La terapia médica inicial no consigue corregir estas complicaciones. La paciente permanece bajo atención intensiva y el equipo evalúa opciones de soporte orgánico.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Esperar obligatoriamente a que la creatinina supere 10 mg/dL antes de iniciar diálisis.",
+    "Iniciar valoración urgente para terapia de reemplazo renal por complicaciones potencialmente mortales refractarias al tratamiento médico.",
+    "Suspender todo soporte renal porque el SHR siempre revierte con terlipresina.",
+    "Administrar diuréticos en dosis crecientes como sustituto de la diálisis en cualquier circunstancia.",
+    "Esperar a completar 14 días de terlipresina antes de tratar la hiperpotasemia."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La hiperpotasemia con cambios electrocardiográficos, la acidosis metabólica grave y el edema pulmonar refractario son indicaciones urgentes de evaluación para terapia de reemplazo renal. La decisión no depende de un valor aislado de creatinina ni debe retrasarse para completar un curso de vasoconstrictores. En pacientes con cirrosis avanzada, la diálisis puede servir como puente en casos seleccionados, especialmente durante evaluación para trasplante, pero el pronóstico global y los objetivos de atención deben discutirse de forma multidisciplinaria.`,
+  perlaENARM: `Indica terapia de reemplazo renal por complicaciones refractarias —hiperpotasemia, acidosis, sobrecarga pulmonar o manifestaciones urémicas—, no por una cifra aislada de creatinina.`,
+  gpc: {
+    mexico: "Aplicar criterios de urgencia de terapia de reemplazo renal y protocolos de cuidados intensivos.",
+    internacional: "ADQI-ICA Consensus, 2024."
+  },
+  bibliografia: [
+    "Nadim MK, et al. J Hepatol. 2024;81:163-183."
+  ]
+},
+{
+  id: "GASTRO-109",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome hepatorrenal",
+  subtema: "Trasplante hepático como tratamiento definitivo",
+  dificultad: "Alta",
+  caso: `Masculino de 56 años con cirrosis descompensada, ascitis recurrente y SHR-LRA. Tras tratamiento con vasoconstrictor y albúmina, la creatinina mejora parcialmente, pero permanece por encima del basal. Presenta puntuación MELD elevada y episodios previos de encefalopatía. No existe una contraindicación definitiva conocida para trasplante, aunque requiere valoración cardiopulmonar y psicosocial.`,
+  pregunta: "¿Cuál es la estrategia de mayor relevancia para el pronóstico a largo plazo?",
+  opciones: [
+    "Evitar la evaluación para trasplante porque la creatinina ya mejoró parcialmente.",
+    "Iniciar evaluación multidisciplinaria para trasplante hepático, considerado el tratamiento definitivo del SHR en candidatos apropiados.",
+    "Mantener terlipresina de forma indefinida en todos los pacientes.",
+    "Indicar nefrectomía para reducir la producción de renina.",
+    "Suspender el seguimiento especializado cuando se normalice la creatinina."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El trasplante hepático es el tratamiento definitivo para el síndrome hepatorrenal en pacientes elegibles, porque corrige la enfermedad hepática subyacente y la fisiopatología hemodinámica que contribuye a la disfunción renal. Los vasoconstrictores pueden mejorar la función renal y servir como puente al trasplante, pero no sustituyen la evaluación de candidaturas. La probabilidad de recuperación renal, la duración de la disfunción, la comorbilidad y los criterios de trasplante hepatorrenal combinado deben evaluarse por un equipo especializado.`,
+  perlaENARM: `Los vasoconstrictores son un puente; el trasplante hepático es el tratamiento definitivo del SHR en candidatos adecuados.`,
+  gpc: {
+    mexico: "La referencia debe realizarse a un centro de trasplante hepático con evaluación multidisciplinaria.",
+    internacional: "ADQI-ICA Consensus, 2024."
+  },
+  bibliografia: [
+    "Nadim MK, et al. J Hepatol. 2024;81:163-183."
+  ]
+},
+{
+  id: "GASTRO-110",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome hepatorrenal",
+  subtema: "Diferenciación entre SHR-LRA y enfermedad renal crónica",
+  dificultad: "Extrema",
+  caso: `Femenina de 64 años con cirrosis y ascitis, además de diabetes mellitus tipo 2 e hipertensión arterial de larga evolución. Presenta creatinina de 2.0 mg/dL, con valores entre 1.7 y 1.9 mg/dL durante los últimos seis meses. La relación albúmina/creatinina urinaria está elevada y la ecografía muestra riñones de tamaño reducido con aumento de ecogenicidad cortical. No hay un incremento reciente de creatinina que cumpla criterios de LRA. Se solicita determinar si el cuadro debe clasificarse como SHR-LRA.`,
+  pregunta: "¿Cuál es la interpretación más apropiada?",
+  opciones: [
+    "Diagnosticar SHR-LRA exclusivamente por la coexistencia de cirrosis y creatinina elevada.",
+    "Considerar enfermedad renal crónica probable y evaluar su etiología; no cumple por los datos actuales criterios temporales de SHR-LRA.",
+    "Descartar enfermedad renal crónica porque la paciente tiene ascitis.",
+    "Iniciar terlipresina de forma automática en cualquier paciente cirrótico con creatinina mayor de 1.5 mg/dL.",
+    "Diagnosticar lesión renal aguda por la ecogenicidad cortical, sin considerar la evolución temporal."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La estabilidad de la creatinina durante meses, la albuminuria y los cambios estructurales renales favorecen enfermedad renal crónica. El SHR-LRA requiere un cambio agudo de creatinina o de diuresis que cumpla criterios de LRA, además de los otros criterios diagnósticos. La enfermedad renal crónica preexistente no excluye que un paciente desarrolle SHR-LRA posteriormente, pero no debe asumirse este fenotipo sin evidencia de deterioro agudo y evaluación de causas alternativas. La coexistencia de cirrosis y disfunción renal exige una evaluación renal integral.`,
+  perlaENARM: `La creatinina elevada aislada no diagnostica SHR-LRA. Define primero si existe LRA, enfermedad renal crónica o ambas, usando evolución temporal y estudios complementarios.`,
+  gpc: {
+    mexico: "No se verificó una GPC mexicana vigente específica para la clasificación ADQI-ICA completa en este escenario.",
+    internacional: "ADQI-ICA Consensus, 2024."
+  },
+  bibliografia: [
+    "Nadim MK, et al. J Hepatol. 2024;81:163-183."
+  ]
+}
 ];
