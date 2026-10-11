@@ -2884,9 +2884,8 @@ window.BANCO_GASTROENTEROLOGIA.push(
     mexico: "No se verificó una GPC mexicana vigente específica para la clasificación ADQI-ICA completa en este escenario.",
     internacional: "ADQI-ICA Consensus, 2024."
   },
-  bibliografia: [
+    bibliografia: [
     "Nadim MK, et al. J Hepatol. 2024;81:163-183."
   ]
 }
-];
 );
