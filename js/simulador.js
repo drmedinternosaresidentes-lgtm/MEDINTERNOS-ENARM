@@ -121,18 +121,19 @@ try {
       if (errorMembresia) {
         throw errorMembresia;
       }
+   
+const vence = membresia?.expires_at
+  ? new Date(membresia.expires_at).getTime()
+  : Infinity;
 
-      const vence = membresia?.expires_at
-        ? new Date(membresia.expires_at).getTime()
-        : 0;
+if (
+  membresia?.status === "active" &&
+  vence > Date.now()
+) {
+  plan = "premium";
+  window.planUsuario = "premium";
+}
 
-      if (
-        membresia?.status === "active" &&
-        vence > Date.now()
-      ) {
-        plan = "premium";
-        window.planUsuario = "premium";
-      }
   console.log("DEBUG membresía:", { usuarioId, membresia, errorMembresia });
   console.log("DEBUG plan antes del límite:", plan, "cantidad:", cantidad);
   
