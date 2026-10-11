@@ -2876,5 +2876,5 @@ window.BANCO_GASTROENTEROLOGIA = [
     bibliografia: [
     "Nadim MK, et al. J Hepatol. 2024;81:163-183."
   ]
-}
-);
+} 
+];
