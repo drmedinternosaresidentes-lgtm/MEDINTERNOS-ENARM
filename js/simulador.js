@@ -33,6 +33,7 @@ const Simulador = {
             data: { session },
             error
         } = await window.supabaseClient.auth.getSession();
+      const usuarioId = session?.user?.id;
 
         if (error) {
             throw error;
@@ -93,7 +94,61 @@ const Simulador = {
     // SESIÓN VALIDADA → INICIAR SIMULADOR
     // ============================================================
 
-    this.especialidad = especialidad;
+
+    // ==========================================
+    // VALIDAR PLAN FREE / PREMIUM
+    // ==========================================
+    let plan = "free";
+
+try {
+  const {
+    data: { session: sesionPlan },
+    error: errorSesionPlan
+  } = await window.supabaseClient.auth.getSession();
+
+  if (errorSesionPlan || !sesionPlan?.user?.id) {
+    throw errorSesionPlan || new Error("Sesión no válida.");
+  }
+
+  const usuarioId = sesionPlan.user.id;
+      const { data: membresia, error: errorMembresia } =
+        await window.supabaseClient
+          .from("memberships")
+          .select("status, expires_at")
+          .eq("user_id", usuarioId)
+          .maybeSingle();
+
+      if (errorMembresia) {
+        throw errorMembresia;
+      }
+
+      const vence = membresia?.expires_at
+        ? new Date(membresia.expires_at).getTime()
+        : 0;
+
+      if (
+        membresia?.status === "active" &&
+        vence > Date.now()
+      ) {
+        plan = "premium";
+      }
+    } catch (error) {
+      console.error("No se pudo verificar la membresía:", error);
+      alert("No se pudo verificar tu plan. Intenta nuevamente.");
+      return false;
+    }
+
+    if (plan === "free" && cantidad > 10) {
+      alert("El plan Free permite un máximo de 10 preguntas por simulador.");
+      return false;
+    }
+
+    if (cantidad > 100) {
+      alert("El máximo permitido por simulador es de 100 preguntas.");
+      return false;
+    }
+
+   this.especialidad = especialidad;
 this.modo = modo;
 this.orden = orden;
 
