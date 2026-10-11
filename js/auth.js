@@ -904,6 +904,10 @@ window.tokenDispositivoAutorizado = token;
                     );
 
                 if (error) throw error;
+                console.log(
+    "Verificación de dispositivo:",
+    { data, token }
+);
 
                 if (data !== true) {
                     window.tokenDispositivoAutorizado = null;
