@@ -628,6 +628,22 @@
                     if (error) {
                         throw error;
                     }
+                    const { data: dispositivoToken, error: dispositivoError } =
+    await window.supabaseClient.rpc("authorize_current_device");
+
+if (dispositivoError || !dispositivoToken) {
+    await window.supabaseClient.auth.signOut();
+
+    throw new Error(
+        "No se pudo autorizar este dispositivo. Intenta iniciar sesión nuevamente."
+    );
+}
+
+window.tokenDispositivoAutorizado = dispositivoToken;
+sessionStorage.setItem(
+    "tokenDispositivoAutorizado",
+    dispositivoToken
+);
 
                     mensaje(
     "Inicio de sesión correcto.",
@@ -857,6 +873,65 @@ setTimeout(() => {
         // ----------------------------------------------------
         // SESIÓN EXISTENTE
         // ----------------------------------------------------
+
+        
+        // ----------------------------------------------------
+        // CONTROL DE DISPOSITIVO AUTORIZADO
+        // ----------------------------------------------------
+
+        let comprobacionDispositivoEnCurso = false;
+
+        async function verificarDispositivoAutorizado() {
+            if (comprobacionDispositivoEnCurso) return;
+
+
+const token =
+    window.tokenDispositivoAutorizado ||
+    sessionStorage.getItem("tokenDispositivoAutorizado");
+
+if (!token) return;
+
+window.tokenDispositivoAutorizado = token;
+
+
+            comprobacionDispositivoEnCurso = true;
+
+            try {
+                const { data, error } =
+                    await window.supabaseClient.rpc(
+                        "is_current_device_authorized",
+                        { p_token: token }
+                    );
+
+                if (error) throw error;
+
+                if (data !== true) {
+                    window.tokenDispositivoAutorizado = null;
+
+                    await window.supabaseClient.auth.signOut();
+
+                    actualizarUsuario(null);
+
+                    mensaje(
+                        "Esta cuenta inició sesión en otro dispositivo. Vuelve a iniciar sesión para continuar.",
+                        "error"
+                    );
+
+                    abrirLogin();
+                }
+            } catch (error) {
+                console.error(
+                    "Error verificando el dispositivo autorizado:",
+                    error
+                );
+            } finally {
+                comprobacionDispositivoEnCurso = false;
+            }
+        }
+
+        setInterval(verificarDispositivoAutorizado, 10000);
+        verificarDispositivoAutorizado();
+
 
         async function comprobarSesion() {
 
