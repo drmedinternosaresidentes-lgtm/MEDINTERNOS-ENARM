@@ -207,9 +207,9 @@ try {
       </div>
 
       <div class="config-section">
-        <label class="config-label" for="cantidadSimulador">
-          Número de preguntas
-        </label>
+        <span class="config-label">
+  Número de preguntas
+</span>
         
 <div class="config-count-grid">
   ${(window.planUsuario === "premium" ? [10, 20, 30, 50, 100] : [10]).map(n => `
