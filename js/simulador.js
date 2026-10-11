@@ -99,7 +99,7 @@ const Simulador = {
     // VALIDAR PLAN FREE / PREMIUM
     // ==========================================
     let plan = "free";
-
+    window.planUsuario = "free";
 try {
   const {
     data: { session: sesionPlan },
@@ -131,6 +131,7 @@ try {
         vence > Date.now()
       ) {
         plan = "premium";
+        window.planUsuario = "premium";
       }
     } catch (error) {
       console.error("No se pudo verificar la membresía:", error);
