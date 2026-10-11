@@ -133,6 +133,9 @@ try {
         plan = "premium";
         window.planUsuario = "premium";
       }
+  console.log("DEBUG membresía:", { usuarioId, membresia, errorMembresia });
+  console.log("DEBUG plan antes del límite:", plan, "cantidad:", cantidad);
+  
     } catch (error) {
       console.error("No se pudo verificar la membresía:", error);
       alert("No se pudo verificar tu plan. Intenta nuevamente.");
