@@ -2097,7 +2097,7 @@ window.BANCO_GASTROENTEROLOGIA.push(
     "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
   ]
 },
- 
+);
 window.BANCO_GASTROENTEROLOGIA.push(
 {
   id: "GASTRO-081",
@@ -2360,7 +2360,7 @@ window.BANCO_GASTROENTEROLOGIA.push(
     "Biggins SW, et al. Hepatology. 2021;74:1014-1048. doi:10.1002/hep.31884."
   ]
 }
- 
+); 
 window.BANCO_GASTROENTEROLOGIA.push(
 {
   id: "GASTRO-091",
@@ -2626,7 +2626,7 @@ window.BANCO_GASTROENTEROLOGIA.push(
     "Vilstrup H, et al. Hepatology. 2014;60:715-735."
   ]
 }
-
+);
 window.BANCO_GASTROENTEROLOGIA.push(
 {
   id: "GASTRO-101",
@@ -2889,3 +2889,4 @@ window.BANCO_GASTROENTEROLOGIA.push(
   ]
 }
 ];
+);
