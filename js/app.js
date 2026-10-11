@@ -15,7 +15,6 @@ const ESPECIALIDADES = [
 const TITULOS = {
   inicio: "Inicio",
   simuladores: "Simuladores",
-  premium: "Premium",
   temario: "Temario",
   progreso: "Progreso",
   gpc: "GPC y bibliografía",
