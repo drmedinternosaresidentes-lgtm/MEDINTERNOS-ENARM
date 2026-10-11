@@ -1833,7 +1833,7 @@ window.BANCO_GASTROENTEROLOGIA = [
     "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974."
   ]
 },
-
+];
 window.BANCO_GASTROENTEROLOGIA = window.BANCO_GASTROENTEROLOGIA || [];
 
 window.BANCO_GASTROENTEROLOGIA.push(
