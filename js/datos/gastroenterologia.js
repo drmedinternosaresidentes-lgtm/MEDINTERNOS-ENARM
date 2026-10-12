@@ -3419,4 +3419,1874 @@ window.BANCO_GASTROENTEROLOGIA = [
   ]
 }
 
+{
+  id: "GASTRO-131",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Diagnóstico clínico y tríada de Charcot",
+  dificultad: "Media",
+  caso: `Masculino de 67 años acude a urgencias por fiebre de 39 °C con escalofríos, dolor intenso en hipocondrio derecho e ictericia de 24 horas de evolución. Presenta leucocitos de 17,200/µL, bilirrubina total de 5.6 mg/dL y fosfatasa alcalina elevada. El ultrasonido abdominal muestra dilatación del colédoco de 11 mm y un cálculo distal probable. La presión arterial es de 118/72 mmHg y se encuentra consciente.`,
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Colecistitis aguda aislada.",
+    "Hepatitis viral aguda.",
+    "Colangitis aguda secundaria a obstrucción biliar.",
+    "Pancreatitis aguda sin compromiso biliar.",
+    "Cólico biliar no complicado."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La combinación de fiebre, dolor en hipocondrio derecho e ictericia corresponde a la tríada de Charcot, clásica de colangitis aguda. La inflamación sistémica, la colestasis bioquímica y la dilatación de la vía biliar con probable cálculo sustentan el diagnóstico. Se deben obtener cultivos cuando sea posible sin retrasar el tratamiento, iniciar antibióticos y valorar el drenaje biliar temprano. La tríada de Charcot es útil, pero su ausencia no excluye colangitis.`,
+  perlaENARM: `Tríada de Charcot: fiebre, dolor en hipocondrio derecho e ictericia. En presencia de obstrucción biliar, sospecha colangitis y evalúa la necesidad de drenaje.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre colangitis y coledocolitiasis en el catálogo CENETEC/IMSS.",
+    internacional: "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis."
+  },
+  bibliografia: [
+    "Kiriyama S, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci. 2018.",
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021."
+  ]
+},
+{
+  id: "GASTRO-132",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Criterios diagnósticos de Tokyo Guidelines",
+  dificultad: "Alta",
+  caso: `Femenina de 73 años con antecedente de colelitiasis presenta fiebre de 38.5 °C, escalofríos y malestar general, sin dolor abdominal intenso ni ictericia evidente. Los estudios muestran leucocitos de 15,000/µL, proteína C reactiva elevada, bilirrubina total de 3.1 mg/dL y fosfatasa alcalina elevada. El ultrasonido revela dilatación del colédoco de 10 mm y sospecha de coledocolitiasis. La paciente permanece hemodinámicamente estable.`,
+  pregunta: "Según los criterios diagnósticos de Tokyo Guidelines, ¿cuál es la interpretación más apropiada?",
+  opciones: [
+    "No puede diagnosticarse colangitis porque falta la tríada completa de Charcot.",
+    "Existe sospecha clínica de colangitis, sustentada por inflamación sistémica y colestasis; la imagen compatible permite establecer un diagnóstico definitivo.",
+    "La dilatación del colédoco descarta colangitis.",
+    "El diagnóstico exige hemocultivos positivos en todos los casos.",
+    "La bilirrubina debe ser superior a 10 mg/dL para considerar colangitis."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Tokyo Guidelines integra tres dominios: inflamación sistémica, colestasis y hallazgos de imagen compatibles con dilatación biliar o una causa identificable de obstrucción. La sospecha diagnóstica se establece con inflamación sistémica más colestasis o imagen compatible; el diagnóstico definitivo requiere elementos de los tres dominios. No es obligatorio presentar la tríada de Charcot ni tener hemocultivos positivos. La identificación temprana es importante porque la infección puede progresar a sepsis.`,
+  perlaENARM: `Tokyo Guidelines: inflamación sistémica + colestasis + imagen compatible sustentan el diagnóstico definitivo de colangitis. No esperes la tríada de Charcot completa.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre colangitis aguda.",
+    internacional: "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis."
+  },
+  bibliografia: [
+    "Kiriyama S, et al. Tokyo Guidelines 2018. J Hepatobiliary Pancreat Sci. 2018.",
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021."
+  ]
+},
+{
+  id: "GASTRO-133",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Gravedad y disfunción orgánica",
+  dificultad: "Extrema",
+  caso: `Masculino de 78 años con colangitis aguda por coledocolitiasis presenta fiebre, ictericia e hipotensión persistente pese a la reanimación inicial. La presión arterial media permanece en 58 mmHg y requiere noradrenalina. Está confuso y presenta oliguria. La creatinina es de 2.6 mg/dL. El ultrasonido confirma dilatación de la vía biliar con un cálculo distal.`,
+  pregunta: "¿Cómo debe clasificarse la colangitis según Tokyo Guidelines 2018?",
+  opciones: [
+    "Grado I, porque la fiebre es el único parámetro relevante.",
+    "Grado II, porque la edad avanzada excluye la categoría grave.",
+    "Grado III, por disfunción cardiovascular, neurológica y renal.",
+    "No puede clasificarse hasta recibir los resultados de los hemocultivos.",
+    "Grado I, porque todavía no se ha realizado CPRE."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `Tokyo Guidelines 2018 define colangitis grado III por disfunción de al menos un sistema orgánico. La necesidad de vasopresores, la alteración del estado de conciencia y la lesión renal aguda indican enfermedad grave. Se requiere soporte hemodinámico y de órganos, antibióticos intravenosos y descompresión biliar urgente, habitualmente mediante CPRE si es factible. El tratamiento de la obstrucción no debe retrasarse hasta disponer de cultivos definitivos.`,
+  perlaENARM: `Colangitis grado III = disfunción orgánica. Hipotensión que requiere vasopresores, alteración de conciencia o deterioro renal son datos de gravedad.`,
+  gpc: {
+    mexico: "Consultar protocolos institucionales vigentes para colangitis grave, sepsis y drenaje biliar urgente.",
+    internacional: "Tokyo Guidelines 2018; ASGE guideline on the management of cholangitis, 2021."
+  },
+  bibliografia: [
+    "Kiriyama S, et al. Tokyo Guidelines 2018. J Hepatobiliary Pancreat Sci. 2018.",
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021."
+  ]
+},
+{
+  id: "GASTRO-134",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Tratamiento antimicrobiano inicial",
+  dificultad: "Alta",
+  caso: `Femenina de 64 años con fiebre, dolor en hipocondrio derecho, ictericia, leucocitosis y dilatación del colédoco por probable cálculo. Se encuentra estable, sin choque ni disfunción orgánica. Se establece el diagnóstico de colangitis aguda y se decide hospitalización. No tiene alergias conocidas ni antecedentes de colonización por microorganismos multirresistentes. Se dispone de cultivos y antibiograma institucional.`,
+  pregunta: "¿Cuál es el principio más apropiado para iniciar el tratamiento antimicrobiano?",
+  opciones: [
+    "Esperar el resultado de los hemocultivos antes de administrar cualquier antibiótico.",
+    "Iniciar antibióticos empíricos con cobertura apropiada para infección biliar, considerando gravedad, exposición previa, función renal y epidemiología local, y ajustar posteriormente.",
+    "Administrar antifúngicos de amplio espectro a todos los pacientes.",
+    "Utilizar siempre el mismo carbapenémico, independientemente del riesgo microbiológico.",
+    "Indicar exclusivamente antibióticos orales y dar de alta de inmediato."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El tratamiento inicial incluye antimicrobianos oportunos y evaluación del control de la obstrucción. La selección debe considerar gravedad, microorganismos probables, riesgo de resistencia, exposición previa a antibióticos, función renal y patrones locales. Se obtienen hemocultivos y, cuando se realiza drenaje, cultivos biliares si están indicados, pero la toma de muestras no debe retrasar el tratamiento en pacientes graves. El esquema se ajusta a los resultados microbiológicos y a la evolución clínica.`,
+  perlaENARM: `En colangitis, inicia antibióticos oportunos y planifica el control del foco. El espectro y la duración dependen de la gravedad, resistencia local, cultivos y respuesta clínica.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente y el antibiograma institucional para infecciones biliares.",
+    internacional: "Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis."
+  },
+  bibliografia: [
+    "Gomi H, et al. Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis. J Hepatobiliary Pancreat Sci. 2018.",
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021."
+  ]
+},
+{
+  id: "GASTRO-135",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Drenaje biliar mediante CPRE",
+  dificultad: "Extrema",
+  caso: `Masculino de 69 años con colangitis aguda por coledocolitiasis presenta fiebre persistente, ictericia progresiva y leucocitosis. Se inicia reanimación y antibióticos intravenosos. El ultrasonido demuestra un cálculo obstructivo en el colédoco distal. No existe contraindicación para tratamiento endoscópico y el servicio de endoscopia terapéutica está disponible.`,
+  pregunta: "¿Cuál es la intervención preferida para lograr el control de la obstrucción biliar?",
+  opciones: [
+    "Repetir ultrasonidos diariamente y esperar la resolución espontánea sin reevaluación.",
+    "Realizar CPRE terapéutica para descomprimir la vía biliar y tratar la obstrucción según las condiciones clínicas.",
+    "Indicar colecistectomía aislada como única intervención, aunque persista la obstrucción del colédoco.",
+    "Administrar ácido ursodesoxicólico como única medida urgente.",
+    "Realizar colonoscopia para identificar el origen de la infección."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La CPRE permite drenaje biliar y, cuando es factible y seguro, extracción del cálculo obstructivo. La prioridad es la descompresión oportuna, especialmente en enfermedad grave o con respuesta insuficiente al tratamiento inicial. Si el paciente está inestable o la extracción completa no es segura, puede realizarse drenaje temporal mediante prótesis o stent y completar el tratamiento en otro momento. La cirugía vesicular no sustituye el drenaje de una vía biliar infectada y obstruida.`,
+  perlaENARM: `Colangitis obstructiva: antibióticos y drenaje biliar. La CPRE suele ser la vía preferida cuando está disponible; adapta la intervención a la estabilidad del paciente.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre coledocolitiasis y colangitis aguda.",
+    internacional: "ASGE guideline on the management of cholangitis, 2021; Tokyo Guidelines 2018."
+  },
+  bibliografia: [
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021.",
+    "Kiriyama S, et al. Tokyo Guidelines 2018. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-136",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Momento del drenaje en enfermedad grave",
+  dificultad: "Extrema",
+  caso: `Femenina de 74 años con colangitis aguda presenta hipotensión, lactato elevado y deterioro renal. Se administran líquidos con reevaluación, antibióticos intravenosos y vasopresores por choque séptico. El ultrasonido muestra dilatación importante del colédoco y un cálculo distal. La paciente permanece en cuidados intensivos mientras se coordina la intervención endoscópica.`,
+  pregunta: "¿Cuál es la prioridad respecto al control de la obstrucción biliar?",
+  opciones: [
+    "Esperar hasta que todas las pruebas hepáticas se normalicen antes de intervenir.",
+    "Diferir el drenaje por una semana para observar si los antibióticos resuelven la obstrucción.",
+    "Organizar drenaje biliar urgente tras iniciar la estabilización, sin retrasarlo innecesariamente por esperar una normalización completa.",
+    "Realizar únicamente colecistectomía electiva después del alta.",
+    "Suspender los antibióticos antes del procedimiento para mejorar el rendimiento de los cultivos."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La colangitis grave con choque séptico requiere soporte hemodinámico, antimicrobianos y control urgente del foco obstructivo. La estabilización inicial debe realizarse en paralelo con la organización del drenaje. No es necesario esperar a la normalización de la bilirrubina, creatinina o marcadores inflamatorios. La técnica y el momento exactos dependen de la estabilidad, los recursos y la posibilidad de acceso endoscópico; si la CPRE no es posible, deben valorarse alternativas de drenaje percutáneo o quirúrgico.`,
+  perlaENARM: `En colangitis con choque, el drenaje biliar es parte del control urgente del foco. Reanimación y preparación para drenaje deben avanzar en paralelo.`,
+  gpc: {
+    mexico: "Consultar protocolos institucionales de sepsis y drenaje biliar urgente.",
+    internacional: "ASGE guideline on the management of cholangitis, 2021; Tokyo Guidelines 2018."
+  },
+  bibliografia: [
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021.",
+    "Kiriyama S, et al. Tokyo Guidelines 2018. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-137",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Colangitis por obstrucción maligna",
+  dificultad: "Alta",
+  caso: `Masculino de 71 años presenta ictericia progresiva, prurito, pérdida de peso de 8 kg en tres meses y fiebre de 38.7 °C. La bilirrubina directa está elevada y la fosfatasa alcalina es cuatro veces el límite superior normal. La tomografía muestra dilatación de la vía biliar intrahepática y extrahepática, con estrechamiento distal del colédoco y una lesión sospechosa en la cabeza pancreática. Se diagnostica colangitis en el contexto de obstrucción posiblemente maligna.`,
+  pregunta: "¿Cuál es el principio prioritario de manejo?",
+  opciones: [
+    "Esperar la confirmación histológica del cáncer antes de tratar la infección biliar.",
+    "Administrar únicamente tratamiento antipruriginoso y observar.",
+    "Iniciar antibióticos y valorar drenaje biliar para controlar la infección y la obstrucción, seguido de estudio etiológico y planificación oncológica.",
+    "Realizar resección pancreática inmediata sin completar la estabilización ni evaluar la extensión tumoral.",
+    "Evitar el drenaje porque las obstrucciones malignas no producen infección."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La obstrucción maligna puede causar colangitis, que requiere tratamiento de la infección y control de la obstrucción de acuerdo con la gravedad. El drenaje puede realizarse mediante prótesis endoscópica u otra técnica según la anatomía, la resecabilidad, los objetivos terapéuticos y los recursos disponibles. Una vez controlada la urgencia, se completa el estudio de la lesión y se coordina el manejo con gastroenterología, endoscopia, cirugía y oncología. La confirmación histológica y la planificación oncológica no deben retrasar el control urgente de una infección obstructiva.`,
+  perlaENARM: `La colangitis puede deberse a cálculos o a obstrucción maligna. Controla primero la infección y la obstrucción; después completa la estadificación y el plan oncológico.`,
+  gpc: {
+    mexico: "Verificar protocolos mexicanos vigentes para colangitis y obstrucción biliar maligna.",
+    internacional: "ASGE guideline on the management of cholangitis, 2021; guías vigentes sobre obstrucción biliar maligna."
+  },
+  bibliografia: [
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021.",
+    "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-138",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Cultivos y ajuste del tratamiento",
+  dificultad: "Alta",
+  caso: `Femenina de 66 años con colangitis aguda recibe antibióticos intravenosos y drenaje biliar endoscópico con extracción de un cálculo. Antes del tratamiento se obtienen hemocultivos; durante la CPRE se envía una muestra de bilis. A las 48 horas se identifica un bacilo gramnegativo sensible a un antibiótico de espectro más estrecho que el esquema inicial. La paciente está afebril, hemodinámicamente estable y con mejoría de las pruebas de función hepática.`,
+  pregunta: "¿Cuál es la conducta antimicrobiana más apropiada?",
+  opciones: [
+    "Mantener siempre el esquema más amplio disponible, aunque el cultivo permita reducir el espectro.",
+    "Suspender de inmediato todo antibiótico al desaparecer la fiebre, sin considerar el control del foco ni los cultivos.",
+    "Ajustar el tratamiento a los resultados microbiológicos, la respuesta clínica y la suficiencia del drenaje, utilizando un esquema dirigido cuando sea apropiado.",
+    "Cambiar a un antifúngico sin evidencia de infección fúngica.",
+    "Prolongar el tratamiento durante seis semanas en todos los casos, independientemente de la evolución."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `Después del drenaje y de recibir resultados microbiológicos, debe reevaluarse el tratamiento y reducir el espectro cuando sea seguro y apropiado. La duración depende de la gravedad inicial, la bacteriemia, el microorganismo, la respuesta clínica y el control del foco. En colangitis con drenaje adecuado y evolución favorable, suelen emplearse cursos relativamente cortos, individualizados según las guías aplicables y los hallazgos microbiológicos. No se justifica prolongar antibióticos de amplio espectro sin una indicación específica.`,
+  perlaENARM: `Tras el drenaje biliar, reevalúa antibióticos con los cultivos: tratamiento dirigido y duración individualizada según gravedad, microorganismo y control del foco.`,
+  gpc: {
+    mexico: "Consultar protocolo institucional de optimización de antimicrobianos y antibiograma local.",
+    internacional: "Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis."
+  },
+  bibliografia: [
+    "Gomi H, et al. Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis. J Hepatobiliary Pancreat Sci. 2018.",
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021."
+  ]
+},
+{
+  id: "GASTRO-139",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Colangitis asociada a pancreatitis biliar",
+  dificultad: "Extrema",
+  caso: `Masculino de 58 años presenta dolor epigástrico irradiado a la espalda, lipasa ocho veces el límite superior normal, fiebre de 39 °C e ictericia. La bilirrubina total es de 6.8 mg/dL y la ecografía muestra colédoco dilatado con cálculo distal. Tiene leucocitosis y elevación de marcadores inflamatorios. Se diagnostica pancreatitis aguda biliar con colangitis concomitante.`,
+  pregunta: "¿Cuál es la conducta prioritaria respecto a la obstrucción biliar?",
+  opciones: [
+    "Evitar toda intervención biliar porque la pancreatitis contraindica la CPRE en cualquier circunstancia.",
+    "Indicar CPRE terapéutica urgente para drenaje de la vía biliar por la colangitis concomitante, junto con tratamiento de la pancreatitis.",
+    "Esperar cuatro semanas para valorar el drenaje después de que se resuelva la pancreatitis.",
+    "Realizar colecistectomía aislada como único tratamiento de la colangitis activa.",
+    "Administrar únicamente enzimas pancreáticas por vía oral."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La pancreatitis biliar sin colangitis ni obstrucción persistente no requiere CPRE urgente de rutina. Sin embargo, la presencia concomitante de colangitis y obstrucción biliar cambia la conducta: se requieren antibióticos, soporte clínico y drenaje biliar urgente, habitualmente mediante CPRE. Después de controlar la infección y estabilizar al paciente, se planifica la prevención de recurrencias biliares, incluido el momento de la colecistectomía según la gravedad de la pancreatitis y la presencia de colecciones.`,
+  perlaENARM: `Pancreatitis biliar aislada no equivale a indicación de CPRE urgente. Pancreatitis biliar + colangitis sí requiere drenaje biliar oportuno.`,
+  gpc: {
+    mexico: "Verificar las GPC mexicanas vigentes para pancreatitis aguda biliar y colangitis.",
+    internacional: "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; ASGE guideline on cholangitis, 2021."
+  },
+  bibliografia: [
+    "Tenner S, et al. ACG Clinical Guideline: Management of Acute Pancreatitis. Am J Gastroenterol. 2024.",
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021."
+  ]
+},
+{
+  id: "GASTRO-140",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Grado II y factores de gravedad",
+  dificultad: "Extrema",
+  caso: `Femenina de 79 años ingresa por colangitis aguda con fiebre de 39.2 °C, leucocitos de 18,500/µL, bilirrubina total de 6.1 mg/dL y dilatación del colédoco por probable coledocolitiasis. La presión arterial es de 126/74 mmHg, está orientada, mantiene diuresis adecuada y la creatinina es de 0.9 mg/dL. No presenta disfunción orgánica, pero reúne varios factores asociados con mayor gravedad.`,
+  pregunta: "Según Tokyo Guidelines 2018, ¿cuál es la clasificación de gravedad más probable?",
+  opciones: [
+    "Grado I, porque no existe disfunción orgánica.",
+    "Grado II, porque reúne múltiples criterios de gravedad moderada sin disfunción orgánica grado III.",
+    "Grado III, porque cualquier paciente mayor de 75 años presenta disfunción orgánica.",
+    "No puede clasificarse sin un hemocultivo positivo.",
+    "Grado I, porque la presión arterial es normal."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Tokyo Guidelines 2018 clasifica como grado II la colangitis que presenta al menos dos criterios específicos, entre ellos leucocitos mayores de 12,000/µL o menores de 4,000/µL, temperatura de 39 °C o más, edad de 75 años o más, bilirrubina total de 5 mg/dL o más, o hipoalbuminemia definida según el criterio correspondiente. Esta paciente cumple varios criterios. La ausencia de disfunción orgánica impide clasificarla como grado III por los datos proporcionados. La enfermedad grado II requiere tratamiento oportuno y consideración de drenaje biliar temprano según la evolución clínica.`,
+  perlaENARM: `Tokyo Guidelines: grado II requiere al menos dos criterios de gravedad moderada. La edad ≥75 años, fiebre ≥39 °C, leucocitos anormales y bilirrubina ≥5 mg/dL son criterios relevantes.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre colangitis aguda y coledocolitiasis.",
+    internacional: "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis."
+  },
+  bibliografia: [
+    "Kiriyama S, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci. 2018.",
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021."
+  ]
+}
+
+{
+  id: "GASTRO-151",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Rendimiento diagnóstico del ultrasonido abdominal",
+  dificultad: "Media",
+  caso: `Femenina de 48 años con episodios de dolor en hipocondrio derecho, ictericia transitoria y coluria. La bilirrubina total es de 3.2 mg/dL, con predominio directo; la fosfatasa alcalina y la GGT están elevadas. El ultrasonido muestra colelitiasis y colédoco de 8 mm, pero no identifica cálculos intraductales. Está afebril y hemodinámicamente estable.`,
+  pregunta: "¿Cuál es la interpretación más apropiada del ultrasonido?",
+  opciones: [
+    "Descarta definitivamente la coledocolitiasis.",
+    "Confirma hepatitis viral aguda.",
+    "No excluye coledocolitiasis; debe integrarse con la probabilidad clínica y considerarse colangiorresonancia o ultrasonido endoscópico.",
+    "Demuestra que la paciente necesita CPRE inmediata sin evaluación adicional.",
+    "Descarta toda obstrucción biliar porque no hay fiebre."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `El ultrasonido es útil para identificar dilatación biliar y colelitiasis, pero puede no visualizar cálculos pequeños o situados en el colédoco distal. Ante un patrón colestásico y sospecha persistente, se estratifica la probabilidad de coledocolitiasis. En riesgo intermedio, la colangiorresonancia o el ultrasonido endoscópico permiten confirmar el diagnóstico y evitar una CPRE innecesaria. La decisión depende de la evolución clínica y de los hallazgos disponibles.`,
+  perlaENARM: `Un ultrasonido sin cálculo visible no excluye coledocolitiasis. La dilatación del colédoco y el patrón colestásico deben interpretarse en conjunto.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre coledocolitiasis en el catálogo CENETEC/IMSS.",
+    internacional: "ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. ASGE guideline on choledocholithiasis. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+{
+  id: "GASTRO-152",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Interpretación de bilirrubina y obstrucción transitoria",
+  dificultad: "Alta",
+  caso: `Masculino de 56 años presenta dolor en hipocondrio derecho e ictericia de inicio súbito. La bilirrubina total inicial es de 4.1 mg/dL y la fosfatasa alcalina está elevada. Veinticuatro horas después, el dolor desaparece y la bilirrubina desciende a 1.8 mg/dL. El ultrasonido muestra colelitiasis, sin cálculo visible en el colédoco ni dilatación importante de la vía biliar. No presenta fiebre ni datos de pancreatitis.`,
+  pregunta: "¿Cuál es la explicación más probable de la evolución bioquímica?",
+  opciones: [
+    "La caída de bilirrubina demuestra necesariamente insuficiencia hepática aguda.",
+    "Es compatible con resolución de una obstrucción biliar transitoria, aunque debe reevaluarse la posibilidad de cálculo residual según el riesgo clínico.",
+    "Descarta que el dolor haya tenido origen biliar.",
+    "Confirma colangitis grave.",
+    "Demuestra que existe una neoplasia pancreática."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Un cálculo puede obstruir transitoriamente el colédoco y migrar espontáneamente al duodeno, con mejoría del dolor y descenso de bilirrubina. Sin embargo, la mejoría bioquímica no garantiza por sí sola que no exista un cálculo residual. La necesidad de estudios adicionales depende de la evolución, el patrón hepático, el diámetro del colédoco y la probabilidad clínica. Si persiste una probabilidad intermedia, puede utilizarse colangiorresonancia o ultrasonido endoscópico.`,
+  perlaENARM: `La mejoría de la bilirrubina sugiere resolución de la obstrucción, pero no excluye completamente coledocolitiasis residual.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre coledocolitiasis.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+{
+  id: "GASTRO-153",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Ultrasonido endoscópico frente a colangiorresonancia",
+  dificultad: "Alta",
+  caso: `Femenina de 62 años presenta colestasis bioquímica persistente y dolor biliar. El ultrasonido transabdominal no identifica cálculos en el colédoco, pero la sospecha clínica permanece en rango intermedio. No tiene contraindicación para resonancia magnética y se dispone de ultrasonido endoscópico en el hospital.`,
+  pregunta: "¿Cuál afirmación compara correctamente la colangiorresonancia con el ultrasonido endoscópico?",
+  opciones: [
+    "Ambos estudios tienen utilidad limitada y siempre deben sustituirse por CPRE diagnóstica.",
+    "La colangiorresonancia es un estudio invasivo que requiere canulación papilar.",
+    "Ambos pueden evaluar la vía biliar sin los riesgos terapéuticos de una CPRE; el ultrasonido endoscópico puede ser especialmente útil para cálculos pequeños.",
+    "El ultrasonido endoscópico no permite detectar cálculos del colédoco.",
+    "La colangiorresonancia permite extraer cálculos durante el mismo procedimiento."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La colangiorresonancia es una técnica no invasiva que representa la anatomía de la vía biliar. El ultrasonido endoscópico ofrece alta resolución y puede ser especialmente útil para cálculos pequeños o distales. Ninguno permite la extracción directa del cálculo; si se confirma una obstrucción que requiere tratamiento, se planifica CPRE u otra estrategia terapéutica. La selección depende de disponibilidad, contraindicaciones, experiencia y probabilidad clínica.`,
+  perlaENARM: `Colangiorresonancia y ultrasonido endoscópico son alternativas diagnósticas en riesgo intermedio; la CPRE se reserva principalmente para tratamiento.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre diagnóstico de coledocolitiasis.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+{
+  id: "GASTRO-154",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "CPRE y pancreatitis posprocedimiento",
+  dificultad: "Extrema",
+  caso: `Femenina de 43 años es sometida a CPRE por coledocolitiasis confirmada. El procedimiento requiere canulación difícil y múltiples intentos en la papila. Después de la intervención presenta dolor epigástrico persistente irradiado a la espalda y elevación de lipasa a más de tres veces el límite superior normal. No se documenta perforación ni hemorragia.`,
+  pregunta: "¿Cuál es la complicación más probable?",
+  opciones: [
+    "Pancreatitis aguda pos-CPRE.",
+    "Hepatitis viral adquirida durante el procedimiento.",
+    "Colecistitis crónica no complicada.",
+    "Síndrome de intestino irritable.",
+    "Hemólisis intravascular como explicación principal."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El dolor abdominal compatible y la elevación significativa de enzimas pancreáticas después de una CPRE sugieren pancreatitis posprocedimiento. Los intentos repetidos de canulación y la instrumentación pancreática son factores de riesgo. El diagnóstico requiere integrar síntomas, enzimas y evolución clínica, ya que una elevación aislada de lipasa después de la CPRE no siempre equivale a pancreatitis clínica. La prevención incluye selección adecuada de pacientes, técnica endoscópica cuidadosa y medidas profilácticas recomendadas según el riesgo y las contraindicaciones.`,
+  perlaENARM: `Dolor epigástrico después de CPRE + elevación de lipasa: sospecha pancreatitis pos-CPRE. La canulación difícil aumenta el riesgo.`,
+  gpc: {
+    mexico: "Consultar protocolos institucionales vigentes para prevención y manejo de pancreatitis pos-CPRE.",
+    internacional: "ASGE guideline on post-ERCP pancreatitis prevention strategies."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. ASGE guideline on post-ERCP pancreatitis prevention strategies. Gastrointest Endosc. Consultar versión vigente."
+  ]
+},
+{
+  id: "GASTRO-155",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Prevención de pancreatitis pos-CPRE",
+  dificultad: "Extrema",
+  caso: `Masculino de 39 años requiere CPRE terapéutica por coledocolitiasis. Durante la evaluación preprocedimiento se identifica riesgo elevado de pancreatitis pos-CPRE por antecedente de pancreatitis asociada a un procedimiento previo. La función renal es normal y no presenta úlcera péptica activa ni alergia conocida a antiinflamatorios no esteroideos.`,
+  pregunta: "¿Qué medida farmacológica preventiva está recomendada en pacientes apropiados?",
+  opciones: [
+    "Indometacina o diclofenaco por vía rectal, salvo contraindicación.",
+    "Antibióticos profilácticos durante un mes en todos los pacientes.",
+    "Corticoides intravenosos de rutina como única profilaxis.",
+    "Loperamida antes del procedimiento.",
+    "Inhibidores de la bomba de protones como única medida específica."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Los antiinflamatorios no esteroideos por vía rectal, como indometacina o diclofenaco, se recomiendan para prevenir pancreatitis pos-CPRE en pacientes apropiados, especialmente en aquellos con riesgo elevado. Deben revisarse las contraindicaciones y las medidas técnicas adicionales, como el uso selectivo de stent pancreático en pacientes de alto riesgo cuando corresponda. La prevención debe seguir las recomendaciones actualizadas y el protocolo institucional.`,
+  perlaENARM: `Profilaxis de pancreatitis pos-CPRE: AINE rectal en pacientes apropiados; considera otras medidas técnicas según el riesgo y la experiencia endoscópica.`,
+  gpc: {
+    mexico: "Verificar el protocolo institucional de prevención de pancreatitis pos-CPRE.",
+    internacional: "ASGE guideline on post-ERCP pancreatitis prevention strategies."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. ASGE guideline on post-ERCP pancreatitis prevention strategies. Gastrointest Endosc. Consultar versión vigente."
+  ]
+},
+{
+  id: "GASTRO-156",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Colangitis y cálculo obstructivo",
+  dificultad: "Extrema",
+  caso: `Femenina de 72 años con coledocolitiasis confirmada desarrolla fiebre, escalofríos, ictericia progresiva y presión arterial de 88/54 mmHg. Presenta leucocitosis, bilirrubina total de 6.9 mg/dL y lactato elevado. El ultrasonido muestra dilatación del colédoco con cálculo distal. Se inicia tratamiento de sepsis y se solicita intervención urgente.`,
+  pregunta: "¿Cuál es el objetivo prioritario del procedimiento endoscópico?",
+  opciones: [
+    "Obtener una biopsia gástrica.",
+    "Drenar la vía biliar infectada y aliviar la obstrucción, con extracción del cálculo si resulta segura y factible.",
+    "Realizar exclusivamente una colangiografía diagnóstica y finalizar el procedimiento sin drenaje.",
+    "Esperar a que se normalice la bilirrubina antes de intervenir.",
+    "Realizar una colonoscopia terapéutica."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La obstrucción biliar acompañada de infección sistémica requiere control del foco. La CPRE permite descomprimir la vía biliar mediante extracción del cálculo o drenaje con prótesis si no es seguro completar la extracción. El soporte hemodinámico y los antibióticos deben iniciarse de inmediato y coordinarse con el drenaje. La elección técnica depende de la estabilidad del paciente, la anatomía y la experiencia disponible.`,
+  perlaENARM: `Coledocolitiasis con colangitis y choque: no basta con antibióticos; se necesita control urgente de la obstrucción biliar.`,
+  gpc: {
+    mexico: "Consultar protocolos institucionales de colangitis grave y sepsis.",
+    internacional: "ASGE guideline on the management of cholangitis, 2021; Tokyo Guidelines 2018."
+  },
+  bibliografia: [
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021.",
+    "Kiriyama S, et al. Tokyo Guidelines 2018. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-157",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Cálculos grandes y técnicas de extracción",
+  dificultad: "Alta",
+  caso: `Masculino de 65 años presenta coledocolitiasis con un cálculo de 17 mm en el colédoco distal. Durante la CPRE se identifica una vía biliar dilatada y no hay estenosis distal. El cálculo no puede extraerse con balón convencional tras la esfinterotomía inicial. El paciente está estable y se dispone de experiencia en técnicas endoscópicas avanzadas.`,
+  pregunta: "¿Cuál es una opción apropiada para completar el tratamiento?",
+  opciones: [
+    "Abandonar la extracción de forma definitiva y retirar todo drenaje.",
+    "Considerar dilatación papilar con balón grande y/o técnicas de litotricia, según anatomía y experiencia.",
+    "Administrar únicamente ácido ursodesoxicólico y asumir que el cálculo desaparecerá de inmediato.",
+    "Realizar gastrectomía total.",
+    "Indicar antibióticos como método de disolución del cálculo."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los cálculos grandes o difíciles pueden requerir técnicas avanzadas, como dilatación papilar con balón de gran diámetro después de una esfinterotomía apropiada, litotricia mecánica o litotricia guiada por colangioscopia. La elección depende del tamaño, la forma del cálculo, el diámetro y la anatomía del colédoco, así como de la experiencia del equipo. Si no se logra extracción completa, puede colocarse una prótesis temporal para asegurar drenaje y planificar una intervención posterior.`,
+  perlaENARM: `Cálculo grande que no sale con balón convencional: considera técnicas endoscópicas avanzadas y asegura drenaje adecuado si la extracción queda incompleta.`,
+  gpc: {
+    mexico: "Verificar protocolos institucionales para coledocolitiasis difícil y endoscopia terapéutica avanzada.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis. Gastrointest Endosc. 2019."
+  ]
+},
+{
+  id: "GASTRO-158",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Prótesis biliar temporal",
+  dificultad: "Alta",
+  caso: `Femenina de 68 años con coledocolitiasis difícil es sometida a CPRE. No se consigue extraer completamente el cálculo, pero se coloca una prótesis biliar plástica que permite buen drenaje. La paciente mejora y es dada de alta con seguimiento programado. Durante la consulta posterior pregunta si la prótesis puede permanecer indefinidamente sin controles.`,
+  pregunta: "¿Cuál es la recomendación más apropiada?",
+  opciones: [
+    "Dejar la prótesis plástica permanentemente sin vigilancia.",
+    "Planificar el retiro o recambio de la prótesis y la resolución definitiva de la coledocolitiasis.",
+    "Retirar la prótesis de inmediato sin valorar la obstrucción residual.",
+    "Suspender el seguimiento porque el drenaje inicial fue adecuado.",
+    "Indicar antibióticos de por vida para evitar la obstrucción de la prótesis."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Una prótesis plástica temporal puede mantener el drenaje cuando no se logra extracción completa, pero tiene riesgo de obstrucción, migración e infección si no se retira o recambia oportunamente. Debe existir un plan explícito de seguimiento y tratamiento definitivo, con una fecha de reevaluación adecuada al procedimiento y al contexto clínico. La ausencia de síntomas no garantiza que la prótesis continúe permeable.`,
+  perlaENARM: `Toda prótesis biliar temporal necesita seguimiento para retiro o recambio. No des por resuelta una coledocolitiasis solo porque el drenaje inicial fue exitoso.`,
+  gpc: {
+    mexico: "Consultar el protocolo local de seguimiento de prótesis biliares.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+{
+  id: "GASTRO-159",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Diagnóstico diferencial de dilatación biliar posoperatoria",
+  dificultad: "Extrema",
+  caso: `Masculino de 61 años con antecedente de colecistectomía hace dos años presenta ictericia progresiva y prurito. La bilirrubina directa y la fosfatasa alcalina están elevadas. El ultrasonido muestra dilatación del colédoco, sin cálculo visible. La colangiorresonancia identifica un estrechamiento focal del conducto biliar extrahepático sin defecto de llenado compatible con cálculo.`,
+  pregunta: "¿Cuál es el diagnóstico diferencial que debe considerarse especialmente?",
+  opciones: [
+    "Estenosis biliar benigna posquirúrgica, sin excluir otras causas de obstrucción.",
+    "Síndrome de intestino irritable.",
+    "Gastroenteritis aguda.",
+    "Colelitiasis vesicular, aunque la vesícula ya fue extirpada.",
+    "Apendicitis aguda."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Una estenosis biliar puede presentarse después de una intervención quirúrgica y ocasionar colestasis e ictericia. La ausencia de un defecto de llenado típico de cálculo hace necesario evaluar estrechez benigna, lesión biliar posoperatoria y causas malignas. El estudio adicional y el tratamiento dependen de la localización, longitud, sospecha etiológica y repercusión clínica. La CPRE puede permitir toma de muestras y tratamiento en casos seleccionados, mientras que otros escenarios requieren imagen adicional o valoración hepatobiliar especializada.`,
+  perlaENARM: `Ictericia obstructiva después de colecistectomía: considera cálculo residual, estenosis biliar y lesión maligna. No atribuyas toda dilatación a coledocolitiasis.`,
+  gpc: {
+    mexico: "Consultar protocolos institucionales vigentes para estenosis y lesiones de la vía biliar.",
+    internacional: "Guías vigentes sobre diagnóstico y manejo de estenosis biliares."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. ASGE guideline on choledocholithiasis. Gastrointest Endosc. 2019."
+  ]
+},
+{
+  id: "GASTRO-160",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Integración diagnóstica y elección del procedimiento",
+  dificultad: "Extrema",
+  caso: `Femenina de 58 años presenta ictericia, coluria y elevación de bilirrubina directa. El ultrasonido muestra colelitiasis y un colédoco de 8 mm, sin cálculo visible. No tiene fiebre, hipotensión ni dolor persistente. La bilirrubina total es de 2.6 mg/dL y las aminotransferasas están discretamente elevadas. La paciente está estable y no existen datos de pancreatitis.`,
+  pregunta: "¿Cuál es el enfoque más apropiado si la evaluación inicial la sitúa en probabilidad intermedia de coledocolitiasis?",
+  opciones: [
+    "Realizar CPRE de rutina como primera prueba en todo paciente con ictericia.",
+    "Utilizar colangiorresonancia o ultrasonido endoscópico para confirmar el cálculo antes de una intervención terapéutica.",
+    "Descartar coledocolitiasis por la ausencia de fiebre.",
+    "Indicar antibióticos de amplio espectro sin investigar la obstrucción.",
+    "Realizar colecistectomía sin considerar la posibilidad de un cálculo en el colédoco."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La probabilidad intermedia requiere una estrategia que confirme la coledocolitiasis antes de exponer al paciente a una CPRE innecesaria. La colangiorresonancia o el ultrasonido endoscópico son opciones adecuadas. La ausencia de fiebre reduce la sospecha de colangitis, pero no excluye obstrucción biliar. Si se confirma el cálculo, se planifica la extracción o el drenaje; si no se confirma, deben buscarse otras causas de colestasis y reevaluarse la evolución clínica.`,
+  perlaENARM: `La estratificación de riesgo determina el siguiente paso: alto riesgo suele conducir a CPRE terapéutica; riesgo intermedio, a colangiorresonancia o ultrasonido endoscópico.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre diagnóstico de coledocolitiasis.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+
+{
+  id: "GASTRO-161",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Criterios de alto riesgo ASGE",
+  dificultad: "Extrema",
+  caso: `Masculino de 64 años con dolor biliar e ictericia presenta bilirrubina total de 4.8 mg/dL. El ultrasonido demuestra colédoco de 11 mm, pero no visualiza un cálculo. Está afebril, sin hipotensión y sin alteración del estado mental. No hay evidencia clínica de pancreatitis.`,
+  pregunta: "Según los criterios ASGE 2019, ¿cómo debe interpretarse la combinación de bilirrubina superior a 4 mg/dL y colédoco dilatado?",
+  opciones: [
+    "Corresponde a bajo riesgo y no requiere más evaluación.",
+    "Constituye un criterio de alto riesgo que puede justificar CPRE terapéutica en el contexto clínico apropiado.",
+    "Confirma hepatitis autoinmunitaria.",
+    "Excluye coledocolitiasis porque el cálculo no se visualizó.",
+    "Obliga a realizar colecistectomía sin valorar la vía biliar."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los criterios ASGE 2019 incluyen como alto riesgo la combinación de bilirrubina total superior a 4 mg/dL y dilatación del colédoco, así como la visualización de un cálculo o la presencia de colangitis ascendente. Esta estratificación permite seleccionar pacientes para CPRE terapéutica. Debe considerarse el contexto clínico y la posibilidad de diagnósticos alternativos, así como los riesgos del procedimiento.`,
+  perlaENARM: `ASGE 2019: bilirrubina >4 mg/dL más colédoco dilatado constituye un criterio de alto riesgo de coledocolitiasis.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre coledocolitiasis.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+{
+  id: "GASTRO-162",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Falsos positivos y probabilidad preprueba",
+  dificultad: "Alta",
+  caso: `Femenina de 74 años presenta elevación aislada y leve de fosfatasa alcalina en un control de rutina. No tiene dolor biliar, ictericia ni coluria. La bilirrubina es normal y el ultrasonido muestra colédoco de 7 mm, sin cálculo ni dilatación intrahepática. No se dispone de estudios previos para comparar el diámetro de la vía biliar.`,
+  pregunta: "¿Cuál es el enfoque más apropiado?",
+  opciones: [
+    "Realizar CPRE inmediata únicamente por el diámetro del colédoco.",
+    "Integrar edad, antecedentes quirúrgicos, pruebas hepáticas y síntomas antes de atribuir el hallazgo a coledocolitiasis.",
+    "Diagnosticar colangitis grave.",
+    "Indicar antibióticos intravenosos.",
+    "Asumir obstrucción maligna confirmada."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El diámetro del colédoco debe interpretarse según edad, antecedentes de colecistectomía, técnica de imagen y contexto clínico. Una dilatación discreta aislada, sin síntomas ni hiperbilirrubinemia, no demuestra coledocolitiasis y no justifica por sí sola una CPRE. Debe confirmarse si la fosfatasa alcalina tiene origen hepatobiliar y repetirse o ampliar la evaluación según la evolución y el resto de las pruebas hepáticas.`,
+  perlaENARM: `No interpretes el diámetro del colédoco de forma aislada. Integra síntomas, bilirrubina, antecedentes y otros hallazgos de imagen.`,
+  gpc: {
+    mexico: "Verificar protocolos vigentes para evaluación de pruebas hepáticas anormales.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+{
+  id: "GASTRO-163",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Coledocolitiasis y anticoagulación",
+  dificultad: "Extrema",
+  caso: `Masculino de 71 años con fibrilación auricular toma anticoagulante oral. Presenta coledocolitiasis confirmada por imagen y requiere intervención endoscópica. Está hemodinámicamente estable y no tiene colangitis ni choque. Se anticipa que la extracción podría requerir esfinterotomía, procedimiento con riesgo hemorrágico significativo.`,
+  pregunta: "¿Cuál es el principio más apropiado para planificar el procedimiento?",
+  opciones: [
+    "Ignorar la anticoagulación porque la CPRE nunca produce hemorragia.",
+    "Suspender el anticoagulante por tiempo indefinido sin valorar riesgo tromboembólico.",
+    "Planificar la intervención con valoración del riesgo hemorrágico y tromboembólico, ajustando el anticoagulante según fármaco, función renal y urgencia.",
+    "Administrar vitamina K a todos los pacientes, independientemente del anticoagulante utilizado.",
+    "Realizar esfinterotomía inmediata en todos los casos sin modificar ni valorar el tratamiento antitrombótico."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La esfinterotomía endoscópica implica riesgo de hemorragia, mientras que interrumpir anticoagulación puede aumentar el riesgo tromboembólico. La conducta debe individualizarse según el anticoagulante, la función renal, el riesgo de sangrado, el riesgo de embolia y la urgencia del drenaje. Si se necesita drenaje urgente, puede ser posible realizar una estrategia de descompresión temporal sin esfinterotomía y completar la extracción después, según el escenario y la experiencia disponible. La reversión o interrupción farmacológica debe seguir protocolos específicos.`,
+  perlaENARM: `Antes de CPRE con esfinterotomía, evalúa riesgo hemorrágico y tromboembólico. En urgencias puede requerirse una estrategia de drenaje adaptada al tratamiento antitrombótico.`,
+  gpc: {
+    mexico: "Consultar protocolo institucional vigente de endoscopia y manejo perioperatorio de anticoagulantes.",
+    internacional: "Guías vigentes de endoscopia gastrointestinal en pacientes que reciben antitrombóticos."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. ASGE guideline on choledocholithiasis. Gastrointest Endosc. 2019.",
+    "Guías de sociedades de endoscopia gastrointestinal sobre manejo de antitrombóticos en procedimientos endoscópicos."
+  ]
+},
+{
+  id: "GASTRO-164",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Coledocolitiasis durante el embarazo",
+  dificultad: "Extrema",
+  caso: `Femenina de 29 años con embarazo de 24 semanas presenta dolor en hipocondrio derecho, ictericia y patrón bioquímico colestásico. El ultrasonido sugiere un cálculo en el colédoco. Está afebril y hemodinámicamente estable, sin pancreatitis ni datos de colangitis. Se requiere confirmar la obstrucción y planificar el tratamiento evitando exposición innecesaria.`,
+  pregunta: "¿Cuál es el enfoque más apropiado?",
+  opciones: [
+    "Evitar toda evaluación de la vía biliar hasta después del parto, independientemente de la evolución.",
+    "Utilizar ultrasonido y, si se necesita mayor confirmación, considerar colangiorresonancia sin gadolinio; reservar CPRE terapéutica para indicaciones clínicas apropiadas con medidas para minimizar riesgos.",
+    "Realizar tomografía contrastada en todos los casos como primera elección.",
+    "Indicar CPRE diagnóstica rutinaria sin confirmar la sospecha.",
+    "Administrar antibióticos profilácticos durante todo el embarazo."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Durante el embarazo se priorizan modalidades de imagen que no utilizan radiación ionizante cuando son suficientes. El ultrasonido es el estudio inicial y la colangiorresonancia sin gadolinio puede ayudar a evaluar la vía biliar. La CPRE puede realizarse cuando existe una indicación terapéutica clara, con participación multidisciplinaria y técnicas que reduzcan la exposición fetal a radiación. La urgencia depende de la presencia de obstrucción persistente, colangitis o pancreatitis; no debe retrasarse un tratamiento necesario solo por el embarazo.`,
+  perlaENARM: `Embarazo con sospecha de coledocolitiasis: ultrasonido primero; considera colangiorresonancia sin gadolinio. CPRE si hay indicación terapéutica clara y medidas de protección apropiadas.`,
+  gpc: {
+    mexico: "Consultar protocolos obstétricos y hepatobiliares institucionales vigentes.",
+    internacional: "Guías vigentes de manejo endoscópico de enfermedad biliar durante el embarazo."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. ASGE guideline on choledocholithiasis. Gastrointest Endosc. 2019.",
+    "Guías vigentes sobre endoscopia gastrointestinal durante el embarazo."
+  ]
+},
+{
+  id: "GASTRO-165",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Coledocolitiasis y enfermedad hepática crónica",
+  dificultad: "Alta",
+  caso: `Masculino de 63 años con cirrosis compensada presenta dolor biliar e ictericia. La bilirrubina directa está elevada y la colangiorresonancia identifica un cálculo en el colédoco distal. No hay ascitis significativa, encefalopatía ni hemorragia digestiva activa. Se considera tratamiento endoscópico.`,
+  pregunta: "¿Cuál es el principio más apropiado para planificar el manejo?",
+  opciones: [
+    "La cirrosis contraindica absolutamente cualquier intervención endoscópica.",
+    "Evaluar gravedad de la cirrosis, coagulación, plaquetas, función renal y riesgo anestésico, y planificar el tratamiento con un equipo experimentado.",
+    "Administrar antibióticos durante seis meses antes de cualquier procedimiento.",
+    "Realizar cirugía abierta urgente en todos los pacientes cirróticos.",
+    "Ignorar el riesgo de sangrado porque la CPRE no tiene complicaciones."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La cirrosis puede aumentar los riesgos de sangrado, infección, descompensación y complicaciones anestésicas, pero no constituye una contraindicación absoluta para tratar una obstrucción biliar. Debe evaluarse la reserva hepática, la presencia de hipertensión portal, la función renal, las plaquetas y la coagulación, además de la urgencia del tratamiento. La estrategia se individualiza y puede favorecer tratamiento endoscópico cuando la extracción o el drenaje sean necesarios.`,
+  perlaENARM: `En cirrosis, individualiza el riesgo antes de una intervención biliar. Una obstrucción significativa debe tratarse, pero el procedimiento requiere planificación cuidadosa.`,
+  gpc: {
+    mexico: "Consultar protocolos institucionales de endoscopia en pacientes con hepatopatía crónica.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+{
+  id: "GASTRO-166",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Litiasis recurrente del colédoco",
+  dificultad: "Alta",
+  caso: `Masculino de 70 años presenta un segundo episodio de coledocolitiasis dos años después de una CPRE con extracción completa. La vesícula fue retirada previamente. El ultrasonido muestra colédoco dilatado y la colangiorresonancia confirma un nuevo cálculo. No tiene fiebre ni datos de colangitis.`,
+  pregunta: "¿Cuál es el enfoque más apropiado?",
+  opciones: [
+    "Asumir que es imposible que haya recurrencia después de una CPRE.",
+    "Tratar el cálculo actual y evaluar factores predisponentes, como dilatación biliar, estenosis o alteraciones anatómicas.",
+    "Indicar colecistectomía, aunque ya no tenga vesícula.",
+    "Administrar únicamente analgésicos y omitir la evaluación de la vía biliar.",
+    "Realizar hepatectomía como tratamiento rutinario."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La recurrencia de coledocolitiasis puede ocurrir incluso después de una extracción completa y una colecistectomía. Debe tratarse la obstrucción actual y valorar factores predisponentes, como dilatación del colédoco, estenosis, divertículo periampular, alteraciones anatómicas o litiasis intrahepática. La selección de la intervención depende de la anatomía, el tamaño del cálculo y los hallazgos clínicos. La recurrencia no implica por sí sola que el procedimiento previo haya sido incorrecto.`,
+  perlaENARM: `La coledocolitiasis puede recurrir tras CPRE y colecistectomía. Trata el episodio y busca factores anatómicos predisponentes.`,
+  gpc: {
+    mexico: "Consultar protocolos institucionales para coledocolitiasis recurrente.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+{
+  id: "GASTRO-167",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Colestasis persistente sin cálculo demostrado",
+  dificultad: "Extrema",
+  caso: `Femenina de 66 años presenta prurito e ictericia persistentes. La bilirrubina directa y la fosfatasa alcalina están elevadas. El ultrasonido y la colangiorresonancia no muestran cálculos, pero identifican un estrechamiento distal del colédoco. No tiene fiebre ni hipotensión. Se requiere diferenciar estenosis benigna de una causa maligna.`,
+  pregunta: "¿Cuál es el siguiente paso más apropiado?",
+  opciones: [
+    "Asumir coledocolitiasis oculta y repetir CPRE de manera indefinida.",
+    "Completar la evaluación de la estenosis con imagen y, según el contexto, muestreo endoscópico y valoración especializada.",
+    "Descartar toda obstrucción porque no hay cálculo.",
+    "Indicar antibióticos de amplio espectro durante seis semanas sin más estudios.",
+    "Diagnosticar síndrome de intestino irritable."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La colestasis persistente con estrechamiento biliar y ausencia de cálculos requiere estudiar una estenosis. Las causas incluyen lesiones posquirúrgicas, inflamación crónica y neoplasias. La evaluación puede incluir imagen complementaria, CPRE con toma de muestras y/o ultrasonido endoscópico, de acuerdo con la localización y la sospecha clínica. La ausencia de cálculo no excluye una obstrucción mecánica que requiera tratamiento.`,
+  perlaENARM: `Colestasis persistente + estenosis biliar sin cálculo: investiga estenosis benigna y malignidad antes de atribuir el cuadro a litiasis.`,
+  gpc: {
+    mexico: "Consultar protocolos institucionales vigentes para estenosis biliar y sospecha de malignidad.",
+    internacional: "Guías vigentes sobre diagnóstico de estenosis biliares."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. ASGE guideline on choledocholithiasis. Gastrointest Endosc. 2019."
+  ]
+},
+{
+  id: "GASTRO-168",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Hemorragia posterior a esfinterotomía",
+  dificultad: "Extrema",
+  caso: `Masculino de 59 años se somete a CPRE con esfinterotomía para extracción de un cálculo del colédoco. Horas después presenta hematemesis y melena, taquicardia y descenso de hemoglobina. Se sospecha hemorragia posterior a esfinterotomía. No existe evidencia de perforación.`,
+  pregunta: "¿Cuál es la conducta inicial más apropiada?",
+  opciones: [
+    "Dar de alta si el paciente está consciente.",
+    "Estabilizar hemodinámicamente, evaluar gravedad y coordinar manejo endoscópico hemostático según el estado clínico.",
+    "Administrar únicamente antiácidos orales.",
+    "Indicar colonoscopia electiva dentro de seis meses.",
+    "Reiniciar de inmediato toda anticoagulación sin evaluar el sangrado."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La hemorragia posterior a esfinterotomía es una complicación relevante de la CPRE. El manejo inicial incluye valoración hemodinámica, acceso venoso, estudios de laboratorio y reanimación según necesidad. Si el sangrado es significativo o persistente, puede requerir hemostasia endoscópica mediante técnicas apropiadas. La corrección de coagulopatías y la decisión sobre antitrombóticos deben individualizarse. El seguimiento depende de la estabilidad y de la respuesta al tratamiento.`,
+  perlaENARM: `Hematemesis o melena después de esfinterotomía: sospecha hemorragia pos-CPRE. Prioriza estabilización y control hemostático cuando esté indicado.`,
+  gpc: {
+    mexico: "Consultar protocolo institucional para hemorragia digestiva y complicaciones de CPRE.",
+    internacional: "Guías vigentes de manejo de eventos adversos relacionados con CPRE."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Guías de manejo de complicaciones de CPRE; consultar versión vigente."
+  ]
+},
+{
+  id: "GASTRO-169",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Perforación relacionada con CPRE",
+  dificultad: "Extrema",
+  caso: `Femenina de 62 años presenta dolor abdominal intenso y persistente después de una CPRE terapéutica. Tiene taquicardia, fiebre y dolor a la palpación abdominal. La radiografía y la tomografía sugieren aire extraluminal y líquido retroperitoneal. Se sospecha perforación relacionada con el procedimiento.`,
+  pregunta: "¿Cuál es el principio de manejo más apropiado?",
+  opciones: [
+    "Dar de alta porque el dolor después de CPRE siempre es benigno.",
+    "Realizar valoración urgente, estabilización, imagen y manejo multidisciplinario; definir tratamiento conservador, endoscópico o quirúrgico según tipo de perforación y estabilidad.",
+    "Administrar únicamente antiespasmódicos.",
+    "Esperar varios días sin monitorización.",
+    "Indicar alimentación libre y seguimiento telefónico."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La sospecha de perforación después de CPRE requiere evaluación urgente. El manejo depende de la localización, el tamaño, el grado de contaminación, el estado hemodinámico y la presencia de sepsis. Algunos casos seleccionados pueden tratarse de manera conservadora con ayuno, antibióticos, soporte y vigilancia estrecha; otros requieren cierre endoscópico, drenaje o cirugía. El deterioro clínico, la peritonitis o el fracaso del tratamiento conservador obligan a escalar el manejo.`,
+  perlaENARM: `Dolor intenso persistente, fiebre o signos peritoneales después de CPRE: descarta perforación y solicita evaluación urgente.`,
+  gpc: {
+    mexico: "Consultar protocolo institucional de complicaciones de CPRE y urgencias quirúrgicas.",
+    internacional: "Guías vigentes de manejo de perforación relacionada con endoscopia gastrointestinal."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Guías de eventos adversos relacionados con CPRE; consultar versión vigente."
+  ]
+},
+{
+  id: "GASTRO-170",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Integración de riesgo y selección terapéutica",
+  dificultad: "Extrema",
+  caso: `Masculino de 57 años presenta dolor biliar, bilirrubina total de 2.1 mg/dL y fosfatasa alcalina elevada. El ultrasonido muestra colédoco de 8 mm, sin cálculo visible. Está afebril, sin hipotensión y sin datos de pancreatitis. Se considera una probabilidad intermedia de coledocolitiasis.`,
+  pregunta: "¿Cuál es la estrategia diagnóstica más apropiada?",
+  opciones: [
+    "CPRE inmediata en todos los casos de riesgo intermedio.",
+    "Colangiorresonancia o ultrasonido endoscópico, reservando CPRE para confirmación o una indicación terapéutica clara.",
+    "No realizar más estudios porque no existe fiebre.",
+    "Administrar antibióticos durante un mes.",
+    "Indicar cirugía pancreática."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La probabilidad intermedia requiere confirmación con una prueba de imagen adecuada, como colangiorresonancia o ultrasonido endoscópico. La CPRE conlleva riesgos y debe reservarse principalmente para el tratamiento de una obstrucción confirmada o para escenarios en los que la indicación terapéutica sea clara. La estratificación de riesgo evita procedimientos invasivos innecesarios y permite organizar el tratamiento definitivo.`,
+  perlaENARM: `Riesgo intermedio de coledocolitiasis: confirma con colangiorresonancia o ultrasonido endoscópico antes de CPRE, salvo que el contexto cambie la urgencia.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre coledocolitiasis.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+
+{
+  id: "GASTRO-171",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Cálculo pequeño y obstrucción transitoria",
+  dificultad: "Alta",
+  caso: `Femenina de 50 años presenta dolor en hipocondrio derecho e ictericia transitoria. La bilirrubina total desciende de 3.6 a 1.4 mg/dL en 36 horas. La ecografía no identifica cálculos en el colédoco, pero muestra colelitiasis. No presenta fiebre ni datos de pancreatitis. El equipo considera que un cálculo pequeño pudo haber migrado espontáneamente.`,
+  pregunta: "¿Qué dato debe guiar la decisión de continuar estudiando la vía biliar?",
+  opciones: [
+    "Únicamente la edad de la paciente.",
+    "La evolución clínica y bioquímica integrada con la probabilidad de cálculo residual y los hallazgos de imagen.",
+    "La normalización de la bilirrubina excluye absolutamente todo cálculo residual.",
+    "La presencia de colelitiasis obliga a CPRE urgente en todos los casos.",
+    "La ausencia de fiebre confirma que no hubo obstrucción."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La mejoría espontánea puede corresponder a migración de un cálculo, pero la decisión de realizar más estudios depende de la probabilidad residual de obstrucción. Si la evolución clínica y bioquímica es favorable y el riesgo es bajo, puede ser razonable evitar procedimientos invasivos. Si persiste un patrón colestásico, existe dilatación biliar o la sospecha continúa siendo intermedia, se considera colangiorresonancia o ultrasonido endoscópico. La normalización de un parámetro aislado no sustituye la valoración integral.`,
+  perlaENARM: `La migración espontánea es posible, pero el seguimiento debe basarse en síntomas, pruebas hepáticas y riesgo residual de obstrucción.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre coledocolitiasis.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+{
+  id: "GASTRO-172",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Diferenciación entre coledocolitiasis y colangitis",
+  dificultad: "Alta",
+  caso: `Masculino de 59 años presenta ictericia, coluria y dolor biliar. Tiene bilirrubina directa elevada y dilatación del colédoco con cálculo distal en el ultrasonido. Está afebril, sin escalofríos, con leucocitos normales y hemodinámicamente estable.`,
+  pregunta: "¿Cuál es la interpretación más apropiada?",
+  opciones: [
+    "Coledocolitiasis probable sin evidencia clínica actual suficiente de colangitis.",
+    "Colangitis grave confirmada por la ictericia aislada.",
+    "Pancreatitis aguda confirmada.",
+    "Hepatitis viral confirmada.",
+    "Cólico biliar no complicado, porque nunca existe obstrucción con ictericia."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El cálculo visualizado en el colédoco establece coledocolitiasis. Sin embargo, la ausencia de inflamación sistémica y de otros datos infecciosos no sustenta por sí sola colangitis. Debe tratarse la obstrucción según la indicación clínica, habitualmente mediante CPRE terapéutica si es apropiada, y vigilar la aparición de fiebre, escalofríos, hipotensión o deterioro. Coledocolitiasis y colangitis están relacionadas, pero no son sinónimos.`,
+  perlaENARM: `Coledocolitiasis es la presencia de cálculo en el colédoco; colangitis implica infección/inflamación asociada a obstrucción y requiere valorar urgencia del drenaje.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre coledocolitiasis y colangitis.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019; Tokyo Guidelines 2018."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15.",
+    "Kiriyama S, et al. Tokyo Guidelines 2018. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-173",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Colangitis con drenaje incompleto",
+  dificultad: "Extrema",
+  caso: `Femenina de 70 años con colangitis por coledocolitiasis es sometida a CPRE. Debido a un cálculo impactado de gran tamaño, no se logra extracción completa. Se coloca una prótesis para descompresión y la paciente mejora clínicamente. Se encuentra afebril y con descenso de bilirrubina, pero persiste un defecto de llenado en el colédoco.`,
+  pregunta: "¿Cuál es la estrategia de seguimiento más apropiada?",
+  opciones: [
+    "Considerar resuelta definitivamente la coledocolitiasis y omitir seguimiento.",
+    "Planificar nueva intervención para extracción definitiva y establecer seguimiento de la prótesis temporal.",
+    "Dejar la prótesis indefinidamente sin control.",
+    "Retirar la prótesis de inmediato sin valorar la permeabilidad de la vía biliar.",
+    "Indicar antibióticos permanentes como sustituto de la extracción."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La mejoría clínica después del drenaje no significa que se haya eliminado el cálculo. Es necesario planificar el tratamiento definitivo, que puede incluir técnicas avanzadas de extracción, y programar el retiro o recambio de la prótesis temporal. La vigilancia debe contemplar recurrencia de fiebre, ictericia, dolor u otros datos de obstrucción. La estrategia depende del tamaño del cálculo, la anatomía y la experiencia disponible.`,
+  perlaENARM: `Drenaje exitoso no equivale a extracción completa. Todo cálculo residual y prótesis temporal necesitan un plan de resolución y seguimiento.`,
+  gpc: {
+    mexico: "Consultar protocolo institucional para coledocolitiasis difícil y seguimiento de prótesis biliares.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+{
+  id: "GASTRO-174",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Evaluación de la vía biliar antes de colecistectomía",
+  dificultad: "Alta",
+  caso: `Masculino de 45 años programado para colecistectomía por colelitiasis sintomática presenta bilirrubina total de 2.0 mg/dL y elevación leve de fosfatasa alcalina. El ultrasonido muestra colédoco de 7 mm, sin cálculo visible. No presenta fiebre, ictericia clínica ni pancreatitis. Se sospecha riesgo intermedio de coledocolitiasis.`,
+  pregunta: "¿Qué estrategia puede ayudar a evitar una CPRE innecesaria antes de la cirugía?",
+  opciones: [
+    "Ignorar la alteración de pruebas hepáticas.",
+    "Realizar colangiorresonancia, ultrasonido endoscópico o una estrategia intraoperatoria apropiada, según disponibilidad y experiencia.",
+    "Realizar CPRE diagnóstica obligatoria en todos los pacientes.",
+    "Administrar antibióticos durante dos semanas y repetir el ultrasonido sin reevaluar.",
+    "Cancelar de forma definitiva la colecistectomía."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En probabilidad intermedia, la vía biliar puede evaluarse mediante colangiorresonancia, ultrasonido endoscópico o estrategias intraoperatorias, como colangiografía, según la experiencia local. La selección depende de recursos, anatomía y planificación quirúrgica. Esta estrategia evita someter a todos los pacientes a CPRE, que es invasiva y puede causar complicaciones. Si se confirma un cálculo, se define el momento y la técnica de extracción.`,
+  perlaENARM: `Antes de colecistectomía, la probabilidad intermedia de coledocolitiasis puede resolverse con imagen adicional o evaluación intraoperatoria; no exige CPRE diagnóstica automática.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre colelitiasis y coledocolitiasis.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+{
+  id: "GASTRO-175",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Coledocolitiasis y lesión renal aguda",
+  dificultad: "Extrema",
+  caso: `Masculino de 77 años con coledocolitiasis presenta vómitos, deshidratación y creatinina de 2.2 mg/dL. Está afebril, sin hipotensión ni datos de colangitis. La bilirrubina total es de 5.2 mg/dL y el ultrasonido muestra cálculo distal en el colédoco con dilatación proximal. Se planea tratamiento endoscópico.`,
+  pregunta: "¿Qué aspecto adicional debe considerarse en la preparación para la intervención?",
+  opciones: [
+    "La lesión renal no modifica ninguna decisión clínica.",
+    "Evaluar estado de volumen, función renal, electrolitos y ajuste de medicamentos, además de coordinar el tratamiento de la obstrucción.",
+    "Administrar contraste intravenoso repetido sin evaluar función renal.",
+    "Evitar toda intervención biliar hasta que la creatinina se normalice por completo, aunque la obstrucción persista.",
+    "Indicar antibióticos nefrotóxicos sin ajuste."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La lesión renal aguda requiere evaluación de volumen, diuresis, electrolitos, medicamentos y causas precipitantes. La obstrucción biliar debe tratarse según su gravedad y no necesariamente esperar a la normalización completa de la función renal. La planificación de CPRE debe considerar el estado hemodinámico y los riesgos del procedimiento, así como ajustar fármacos cuando corresponda. Si hay infección o deterioro, el control de la obstrucción puede ser urgente.`,
+  perlaENARM: `En coledocolitiasis con lesión renal aguda, optimiza volumen y función renal sin retrasar injustificadamente el control de una obstrucción que requiere intervención.`,
+  gpc: {
+    mexico: "Consultar protocolos institucionales para lesión renal aguda y procedimientos endoscópicos.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+{
+  id: "GASTRO-176",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Coledocolitiasis con anatomía alterada",
+  dificultad: "Extrema",
+  caso: `Femenina de 60 años con antecedente de gastrectomía y reconstrucción en Y de Roux presenta ictericia y coledocolitiasis confirmada por colangiorresonancia. No tiene colangitis ni inestabilidad hemodinámica. La anatomía quirúrgica dificulta el acceso endoscópico convencional a la papila.`,
+  pregunta: "¿Cuál es el principio más apropiado para elegir el tratamiento?",
+  opciones: [
+    "La coledocolitiasis es intratable en pacientes con anatomía alterada.",
+    "Planificar una estrategia individualizada con un equipo experimentado, considerando técnicas endoscópicas avanzadas, acceso asistido, abordaje percutáneo o cirugía según recursos.",
+    "Realizar siempre CPRE convencional sin considerar la reconstrucción.",
+    "Administrar únicamente analgésicos y omitir el tratamiento.",
+    "Indicar antibióticos como método de extracción del cálculo."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La anatomía alterada puede impedir la CPRE convencional, pero existen estrategias especializadas: enteroscopia asistida, técnicas endoscópicas guiadas por ultrasonido en escenarios seleccionados, acceso percutáneo o exploración quirúrgica. La elección depende de la reconstrucción, el tamaño y la localización del cálculo, la urgencia, la experiencia y los recursos. La ausencia de colangitis permite planificar con cuidado, pero no elimina la necesidad de resolver la obstrucción sintomática.`,
+  perlaENARM: `Coledocolitiasis con anatomía alterada: requiere estrategia individualizada y experiencia avanzada; la CPRE convencional puede no ser factible.`,
+  gpc: {
+    mexico: "Consultar protocolo de endoscopia avanzada y cirugía hepatobiliar institucional.",
+    internacional: "Guías y consensos vigentes de tratamiento de coledocolitiasis en anatomía gastrointestinal alterada."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. ASGE guideline on choledocholithiasis. Gastrointest Endosc. 2019."
+  ]
+},
+{
+  id: "GASTRO-177",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Cálculo impactado en la papila",
+  dificultad: "Extrema",
+  caso: `Masculino de 58 años presenta dolor epigástrico intenso, ictericia y vómitos. La bilirrubina total es de 6.1 mg/dL, la lipasa está elevada y el ultrasonido muestra dilatación del colédoco. La colangiorresonancia identifica un cálculo distal impactado en la región ampular. El paciente tiene fiebre y leucocitosis, por lo que se sospecha obstrucción con infección concomitante.`,
+  pregunta: "¿Cuál es el enfoque prioritario?",
+  opciones: [
+    "Esperar a que el cálculo se disuelva espontáneamente sin monitorización.",
+    "Iniciar tratamiento de la infección y organizar descompresión biliar urgente; la técnica definitiva dependerá de la anatomía y estabilidad.",
+    "Realizar colonoscopia como tratamiento inicial.",
+    "Administrar enzimas pancreáticas como único tratamiento.",
+    "Posponer toda intervención durante varias semanas aunque exista colangitis."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Un cálculo impactado con infección biliar constituye una urgencia de control del foco. Se requieren antibióticos y drenaje biliar oportuno, habitualmente mediante CPRE cuando es posible. La extracción puede realizarse durante el mismo procedimiento si es segura; si no, se prioriza el drenaje y se planifica tratamiento definitivo posterior. La presencia de pancreatitis concomitante no elimina la indicación de drenaje cuando existe colangitis.`,
+  perlaENARM: `Cálculo impactado + colangitis: controla la infección y descomprime la vía biliar. Si la extracción completa no es segura, prioriza drenaje.`,
+  gpc: {
+    mexico: "Consultar protocolos institucionales de colangitis, pancreatitis biliar y coledocolitiasis.",
+    internacional: "ASGE guideline on cholangitis, 2021; ACG guideline on acute pancreatitis, 2024."
+  },
+  bibliografia: [
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021.",
+    "Tenner S, et al. ACG Clinical Guideline: Management of Acute Pancreatitis. Am J Gastroenterol. 2024."
+  ]
+},
+{
+  id: "GASTRO-178",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Cálculos múltiples y limpieza de la vía biliar",
+  dificultad: "Alta",
+  caso: `Femenina de 57 años se somete a CPRE por coledocolitiasis. Durante el procedimiento se extraen tres cálculos con balón. La colangiografía final muestra ausencia de defectos de llenado y drenaje adecuado. La paciente evoluciona estable y no presenta dolor significativo ni fiebre.`,
+  pregunta: "¿Qué dato apoya que la extracción fue satisfactoria?",
+  opciones: [
+    "La persistencia de defectos de llenado en la colangiografía final.",
+    "La ausencia de defectos de llenado residuales y el drenaje adecuado de la vía biliar, integrados con la evolución clínica.",
+    "La elevación progresiva de bilirrubina después del procedimiento.",
+    "La aparición de fiebre y escalofríos.",
+    "La imposibilidad de visualizar la vía biliar durante el procedimiento."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La ausencia de defectos de llenado residuales y el drenaje adecuado en la colangiografía final apoyan una extracción completa. No obstante, la evaluación debe integrarse con la evolución clínica y bioquímica. La persistencia de ictericia, dolor, fiebre o alteraciones colestásicas puede sugerir cálculo residual, edema papilar u otra complicación. Después de resolver la coledocolitiasis, debe evaluarse el tratamiento de la fuente de cálculos cuando la vesícula permanece presente.`,
+  perlaENARM: `Después de CPRE, confirma limpieza de la vía biliar y drenaje adecuado; vigila síntomas y pruebas hepáticas si persiste sospecha de obstrucción.`,
+  gpc: {
+    mexico: "Consultar protocolo institucional de seguimiento después de CPRE.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+{
+  id: "GASTRO-179",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Persistencia de ictericia después de CPRE",
+  dificultad: "Extrema",
+  caso: `Masculino de 64 años es sometido a CPRE con extracción de un cálculo del colédoco. Cuarenta y ocho horas después persiste ictérico y la bilirrubina no disminuye como se esperaba. Presenta dolor leve, sin fiebre ni hipotensión. La nota del procedimiento describe extracción aparentemente completa, pero no documenta claramente una colangiografía final sin defectos de llenado.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Considerar siempre la ictericia persistente como un hallazgo normal y no investigar.",
+    "Reevaluar obstrucción residual, edema papilar, complicaciones del procedimiento y otras causas; elegir estudios adicionales según evolución y hallazgos.",
+    "Administrar antibióticos de por vida sin reevaluación.",
+    "Realizar hepatectomía inmediata.",
+    "Dar de alta sin seguimiento porque ya se realizó CPRE."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La bilirrubina puede tardar en disminuir después de resolver una obstrucción, pero la persistencia o progresión de ictericia obliga a reevaluar el caso. Deben considerarse cálculo residual, drenaje insuficiente, edema papilar, lesión biliar y otras causas de colestasis. La evaluación depende de la tendencia bioquímica, síntomas, hallazgos del procedimiento y estudios de imagen. Si hay fiebre, hipotensión o deterioro, se requiere valoración urgente por posible infección u obstrucción persistente.`,
+  perlaENARM: `La ictericia no siempre desaparece inmediatamente tras CPRE, pero si persiste o empeora debe descartarse obstrucción residual o complicación.`,
+  gpc: {
+    mexico: "Consultar protocolo institucional para evaluación de ictericia persistente después de CPRE.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15."
+  ]
+},
+{
+  id: "GASTRO-180",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Integración de tratamiento endoscópico y quirúrgico",
+  dificultad: "Extrema",
+  caso: `Femenina de 52 años con colelitiasis sintomática y coledocolitiasis confirmada está estable, sin colangitis ni pancreatitis. El hospital dispone de CPRE terapéutica y de cirugía laparoscópica con experiencia en exploración de la vía biliar. El equipo debe elegir una estrategia que resuelva los cálculos y reduzca procedimientos innecesarios.`,
+  pregunta: "¿Cuál es la afirmación más apropiada sobre las opciones de tratamiento?",
+  opciones: [
+    "La CPRE es siempre superior a cualquier estrategia quirúrgica, independientemente de la experiencia local.",
+    "La exploración laparoscópica de la vía biliar nunca es una opción válida.",
+    "La estrategia puede ser secuencial o quirúrgica en un solo tiempo, según experiencia, recursos, anatomía y situación clínica.",
+    "La coledocolitiasis debe tratarse exclusivamente con antibióticos.",
+    "La presencia de cálculos vesiculares contraindica resolver el cálculo del colédoco."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La coledocolitiasis puede manejarse con CPRE antes o después de la colecistectomía, o mediante exploración laparoscópica de la vía biliar durante la cirugía en centros con experiencia. La elección depende de la anatomía, la disponibilidad de endoscopia terapéutica, la experiencia quirúrgica, el riesgo del paciente y la logística. Cuando la vesícula permanece presente y hay colelitiasis sintomática, debe planificarse también su tratamiento para reducir recurrencias. No existe una estrategia universalmente superior en todos los entornos.`,
+  perlaENARM: `El tratamiento de coledocolitiasis puede ser endoscópico o quirúrgico. La mejor estrategia depende del paciente, la anatomía y la experiencia del centro.`,
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre coledocolitiasis y colelitiasis.",
+    internacional: "ASGE guideline on choledocholithiasis, 2019; WSES guidelines for acute calculous cholecystitis, 2020."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;89:1075-1105.e15.",
+    "Pisano M, et al. WSES updated guidelines for acute calculous cholecystitis. World J Emerg Surg. 2020;15:61."
+  ]
+},
+{
+  id: "GASTRO-181",
+  especialidad: "Gastroenterología",
+  tema: "Abdomen agudo",
+  subtema: "Evaluación inicial y datos de alarma",
+  dificultad: "media",
+  caso: `Masculino de 67 años, con antecedente de fibrilación auricular sin anticoagulación, que acude por dolor abdominal de inicio súbito, intenso y difuso, de 90 minutos de evolución. Refiere náuseas y una evacuación diarreica. A la exploración presenta abdomen blando, dolor difuso de intensidad moderada y ausencia de rigidez involuntaria. Frecuencia cardiaca de 112 lpm y presión arterial de 105/68 mmHg. El dolor referido por el paciente es mucho mayor que los hallazgos encontrados durante la exploración física.`,
+  pregunta: "¿Cuál es el diagnóstico que debe sospecharse prioritariamente?",
+  opciones: [
+    "Pancreatitis aguda",
+    "Isquemia mesentérica aguda",
+    "Diverticulitis aguda",
+    "Colecistitis aguda",
+    "Gastroenteritis infecciosa"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La isquemia mesentérica aguda debe sospecharse ante dolor abdominal intenso desproporcionado respecto de los hallazgos iniciales de la exploración, especialmente en pacientes con fibrilación auricular, por el riesgo de embolia arterial. La ausencia inicial de irritación peritoneal no excluye una lesión intestinal grave. Se requiere valoración quirúrgica y vascular urgente, reanimación y angiotomografía abdominal con contraste si el estado clínico permite realizarla sin retrasos peligrosos.",
+  perlaENARM: "Dolor abdominal desproporcionado a la exploración física más fibrilación auricular: sospecha isquemia mesentérica aguda.",
+  gpc: {
+    mexico: "Consultar las recomendaciones mexicanas vigentes sobre abdomen agudo e isquemia mesentérica; verificar disponibilidad en el catálogo institucional de GPC.",
+    internacional: "World Society of Emergency Surgery (WSES). Acute mesenteric ischemia: updated guidelines."
+  },
+  bibliografia: [
+    "Bala M, et al. Acute mesenteric ischemia: updated guidelines of the World Society of Emergency Surgery. World Journal of Emergency Surgery. 2022.",
+    "Tintinalli's Emergency Medicine: A Comprehensive Study Guide. Abdominal pain and mesenteric ischemia."
+  ]
+},
+{
+  id: "GASTRO-182",
+  especialidad: "Gastroenterología",
+  tema: "Abdomen agudo",
+  subtema: "Irritación peritoneal",
+  dificultad: "media",
+  caso: `Femenina de 54 años que consulta por dolor abdominal de 18 horas de evolución, inicialmente epigástrico y posteriormente generalizado. Presenta fiebre de 38.7 °C, taquicardia y vómitos. A la exploración, el abdomen está rígido, con defensa involuntaria y dolor intenso a la descompresión. La paciente permanece inmóvil porque los movimientos incrementan el dolor.`,
+  pregunta: "¿Cuál es la conducta inicial más apropiada?",
+  opciones: [
+    "Administrar un laxante y reevaluar en seis horas",
+    "Solicitar endoscopia digestiva alta antes de iniciar tratamiento",
+    "Iniciar reanimación, analgesia, antibióticos cuando estén indicados y valoración quirúrgica urgente",
+    "Indicar tratamiento ambulatorio con antiespasmódicos",
+    "Esperar el resultado de todos los estudios de laboratorio antes de intervenir"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La rigidez abdominal, la defensa involuntaria y el dolor a la descompresión sugieren irritación peritoneal. Se requiere estabilización hemodinámica, acceso intravenoso, evaluación de laboratorio e imagen cuando no retrase una intervención necesaria, analgesia y valoración quirúrgica urgente. Si se sospecha perforación o infección intraabdominal complicada, deben iniciarse antibióticos empíricos apropiados de manera oportuna.",
+  perlaENARM: "La presencia de peritonismo obliga a descartar una causa quirúrgica urgente; la analgesia no debe retrasarse por temor a enmascarar el diagnóstico.",
+  gpc: {
+    mexico: "Consultar GPC mexicanas vigentes sobre abdomen agudo, peritonitis y sepsis de origen abdominal.",
+    internacional: "World Society of Emergency Surgery. Guidelines on intra-abdominal infections."
+  },
+  bibliografia: [
+    "Sartelli M, et al. WSES guidelines for management of intra-abdominal infections.",
+    "Schwartz's Principles of Surgery. Acute abdomen and peritonitis."
+  ]
+},
+{
+  id: "GASTRO-183",
+  especialidad: "Gastroenterología",
+  tema: "Abdomen agudo",
+  subtema: "Perforación de víscera hueca",
+  dificultad: "alta",
+  caso: `Masculino de 61 años con antecedente de consumo frecuente de antiinflamatorios no esteroideos. Presenta dolor epigástrico súbito, descrito como una puñalada, que posteriormente se generaliza. Tiene taquicardia, abdomen rígido y ausencia de ruidos intestinales. La radiografía de tórax en bipedestación muestra aire libre debajo de ambos hemidiafragmas.`,
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Pancreatitis aguda edematosa",
+    "Obstrucción intestinal por adherencias",
+    "Colecistitis aguda alitiásica",
+    "Perforación de úlcera péptica",
+    "Gastritis erosiva sin complicaciones"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "El dolor súbito con signos de peritonitis y neumoperitoneo sugiere perforación de una víscera hueca. En este contexto, el antecedente de AINE aumenta la probabilidad de úlcera péptica perforada. Se requiere reanimación, ayuno, antibióticos intravenosos, inhibición de la secreción ácida y valoración quirúrgica inmediata. La estrategia definitiva depende de la estabilidad del paciente, la extensión de la contaminación y los hallazgos clínicos e imagenológicos.",
+  perlaENARM: "Dolor epigástrico súbito, abdomen rígido y aire subdiafragmático: piensa en úlcera péptica perforada.",
+  gpc: {
+    mexico: "Consultar recomendaciones mexicanas vigentes para úlcera péptica complicada y perforación de víscera hueca.",
+    internacional: "World Society of Emergency Surgery. Perforated and bleeding peptic ulcer: WSES guidelines."
+  },
+  bibliografia: [
+    "Tarasconi A, et al. Perforated and bleeding peptic ulcer: WSES guidelines. World Journal of Emergency Surgery. 2020.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Peptic ulcer disease."
+  ]
+},
+{
+  id: "GASTRO-184",
+  especialidad: "Gastroenterología",
+  tema: "Abdomen agudo",
+  subtema: "Obstrucción intestinal",
+  dificultad: "media",
+  caso: `Femenina de 48 años con antecedente de histerectomía hace ocho años. Presenta dolor abdominal tipo cólico, distensión progresiva, vómitos biliosos y ausencia de evacuaciones y flatos durante 24 horas. A la exploración tiene distensión abdominal y ruidos intestinales aumentados de tono. La tomografía muestra dilatación de asas de intestino delgado con un punto de transición y sin datos iniciales de isquemia.`,
+  pregunta: "Si permanece hemodinámicamente estable y no presenta datos de peritonitis, ¿cuál es el manejo inicial habitual?",
+  opciones: [
+    "Administrar antidiarreicos y continuar la alimentación",
+    "Realizar colonoscopia urgente en todos los casos",
+    "Iniciar reanimación con líquidos intravenosos, reposo intestinal, descompresión nasogástrica si está indicada y vigilancia estrecha",
+    "Administrar laxantes estimulantes para resolver la obstrucción",
+    "Indicar cirugía inmediata independientemente de la etiología y de los hallazgos"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "El cuadro es compatible con obstrucción del intestino delgado, posiblemente por adherencias posquirúrgicas. En pacientes seleccionados sin peritonitis, estrangulación, isquemia ni perforación, puede intentarse tratamiento conservador con ayuno, líquidos intravenosos, corrección de alteraciones hidroelectrolíticas, descompresión nasogástrica según el caso y exploraciones seriadas. La aparición de deterioro clínico o datos de complicación obliga a intervención urgente.",
+  perlaENARM: "La obstrucción intestinal con peritonitis, estrangulación, isquemia o perforación requiere valoración quirúrgica urgente.",
+  gpc: {
+    mexico: "Consultar GPC mexicanas vigentes sobre obstrucción intestinal y abdomen agudo.",
+    internacional: "World Society of Emergency Surgery. Bologna guidelines for adhesive small bowel obstruction."
+  },
+  bibliografia: [
+    "ten Broek RPG, et al. Bologna guidelines for diagnosis and management of adhesive small bowel obstruction: 2017 update. World Journal of Emergency Surgery. 2018.",
+    "Schwartz's Principles of Surgery. Small bowel obstruction."
+  ]
+},
+{
+  id: "GASTRO-185",
+  especialidad: "Gastroenterología",
+  tema: "Abdomen agudo",
+  subtema: "Aneurisma de aorta abdominal roto",
+  dificultad: "extrema",
+  caso: `Masculino de 76 años, fumador y con hipertensión arterial, presenta dolor abdominal y lumbar súbito, diaforesis y síncope. A su llegada tiene presión arterial de 78/46 mmHg, frecuencia cardiaca de 128 lpm y palidez. Se palpa una masa abdominal pulsátil. El equipo médico sospecha una emergencia vascular con hemorragia retroperitoneal.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Solicitar tomografía contrastada antes de contactar al equipo quirúrgico, sin importar la inestabilidad",
+    "Administrar grandes volúmenes de cristaloides hasta normalizar la presión arterial y después estudiar",
+    "Realizar colonoscopia urgente para descartar hemorragia digestiva",
+    "Iniciar manejo ambulatorio con analgésicos y seguimiento vascular",
+    "Activar inmediatamente al equipo vascular y quirúrgico, iniciar reanimación hemostática y proceder al control urgente de la hemorragia"
+  ],
+  respuestaCorrecta: 4,
+  explicacion: "El cuadro sugiere aneurisma de aorta abdominal roto, una emergencia con elevada mortalidad. La prioridad es activar al equipo vascular y quirúrgico, obtener acceso vascular, administrar hemoderivados según necesidad y aplicar una estrategia de reanimación que evite retrasar el control de la hemorragia. En pacientes inestables, la imagen no debe retrasar una intervención que ya esté indicada; la ecografía a pie de cama puede apoyar rápidamente el diagnóstico si está disponible.",
+  perlaENARM: "Adulto mayor con dolor abdominal o lumbar súbito, choque y masa pulsátil: sospecha aneurisma de aorta abdominal roto.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para aneurisma aórtico abdominal roto y choque hemorrágico.",
+    internacional: "European Society for Vascular Surgery. Clinical practice guidelines on the management of abdominal aorto-iliac aneurysms."
+  },
+  bibliografia: [
+    "Wanhainen A, et al. European Society for Vascular Surgery clinical practice guidelines on the management of abdominal aorto-iliac artery aneurysms. European Journal of Vascular and Endovascular Surgery. 2024.",
+    "Tintinalli's Emergency Medicine: A Comprehensive Study Guide. Abdominal aortic aneurysm."
+  ]
+},
+{
+  id: "GASTRO-186",
+  especialidad: "Gastroenterología",
+  tema: "Abdomen agudo",
+  subtema: "Embarazo ectópico roto",
+  dificultad: "alta",
+  caso: `Femenina de 29 años con retraso menstrual de siete semanas, dolor pélvico intenso de predominio derecho y sangrado transvaginal escaso. Presenta mareo, palidez, taquicardia e hipotensión. La prueba de embarazo es positiva. La ecografía transvaginal muestra líquido libre abundante en la pelvis y no identifica un embarazo intrauterino.`,
+  pregunta: "¿Cuál es la conducta inmediata más adecuada?",
+  opciones: [
+    "Administrar metotrexato y dar seguimiento ambulatorio",
+    "Solicitar una nueva prueba de embarazo en 48 horas antes de actuar",
+    "Iniciar reanimación y solicitar valoración ginecoquirúrgica urgente por probable embarazo ectópico roto",
+    "Realizar legrado uterino como primera medida en todos los casos",
+    "Indicar reposo domiciliario y repetir ultrasonido en una semana"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La combinación de embarazo positivo, dolor pélvico, ausencia de embarazo intrauterino, líquido libre abundante e inestabilidad hemodinámica sugiere embarazo ectópico roto con hemorragia interna. Se requiere estabilización inmediata y valoración ginecoquirúrgica urgente. El metotrexato se reserva para pacientes cuidadosamente seleccionadas que estén estables y cumplan criterios de tratamiento médico; no es apropiado ante sospecha de ruptura e inestabilidad.",
+  perlaENARM: "Embarazo positivo más dolor pélvico y choque debe hacer sospechar embarazo ectópico roto hasta demostrar lo contrario.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para diagnóstico y tratamiento del embarazo ectópico.",
+    internacional: "American College of Obstetricians and Gynecologists. Practice Bulletin: Tubal Ectopic Pregnancy."
+  },
+  bibliografia: [
+    "ACOG Practice Bulletin No. 193. Tubal Ectopic Pregnancy. Obstetrics & Gynecology. 2018.",
+    "Williams Obstetrics. Ectopic pregnancy."
+  ]
+},
+{
+  id: "GASTRO-187",
+  especialidad: "Gastroenterología",
+  tema: "Abdomen agudo",
+  subtema: "Isquemia intestinal y estrangulación",
+  dificultad: "extrema",
+  caso: `Masculino de 63 años con antecedente de hernia inguinal conocida, que presenta dolor abdominal intenso, vómitos y distensión. A la exploración se identifica una masa inguinal dolorosa, irreductible y con cambios de coloración de la piel. Tiene fiebre, taquicardia y defensa abdominal. Los estudios muestran leucocitosis y elevación del lactato.`,
+  pregunta: "¿Cuál es la conducta más adecuada?",
+  opciones: [
+    "Intentar reducción manual repetida enérgica y enviar a domicilio si disminuye el dolor",
+    "Administrar laxantes y observar la evolución",
+    "Solicitar colonoscopia para descartar obstrucción tumoral",
+    "Realizar valoración quirúrgica urgente por probable hernia estrangulada, con reanimación y preparación para intervención",
+    "Indicar una faja abdominal y programar cirugía electiva en un mes"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "La hernia dolorosa e irreductible, con cambios cutáneos, datos sistémicos y signos de irritación peritoneal, sugiere estrangulación con compromiso vascular intestinal. Se requiere valoración quirúrgica inmediata, reanimación, corrección de alteraciones metabólicas y antibióticos si se sospecha isquemia intestinal complicada o perforación. No debe retrasarse la intervención intentando reducciones forzadas.",
+  perlaENARM: "Hernia irreductible dolorosa con datos sistémicos o peritonismo: sospecha estrangulación y requiere cirugía urgente.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de hernia complicada y abdomen agudo quirúrgico.",
+    internacional: "World Society of Emergency Surgery. Guidelines for emergency repair of complicated abdominal wall hernias."
+  },
+  bibliografia: [
+    "Birindelli A, et al. 2017 update of the WSES guidelines for emergency repair of complicated abdominal wall hernias. World Journal of Emergency Surgery. 2017.",
+    "Sabiston Textbook of Surgery. Hernias and intestinal obstruction."
+  ]
+},
+{
+  id: "GASTRO-188",
+  especialidad: "Gastroenterología",
+  tema: "Abdomen agudo",
+  subtema: "Diverticulitis complicada",
+  dificultad: "alta",
+  caso: `Masculino de 59 años con dolor en fosa iliaca izquierda, fiebre y cambios recientes en el hábito intestinal. Presenta leucocitosis y elevación de proteína C reactiva. La tomografía abdominal con contraste muestra divertículos sigmoideos, engrosamiento de la pared colónica, inflamación de la grasa pericólica y una colección de 5.5 cm adyacente al colon, sin neumoperitoneo difuso.`,
+  pregunta: "¿Cuál es el manejo más apropiado en este paciente estable?",
+  opciones: [
+    "Indicar únicamente fibra dietética y egreso inmediato",
+    "Iniciar antibióticos y valorar drenaje percutáneo de la colección, con vigilancia clínica y valoración quirúrgica",
+    "Realizar colonoscopia durante la fase aguda para drenar el absceso",
+    "Administrar antidiarreicos y evitar los antibióticos en todos los casos",
+    "Realizar colectomía urgente obligatoria en todos los pacientes con cualquier absceso"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Los hallazgos son compatibles con diverticulitis aguda complicada por absceso. En una colección de este tamaño, si es técnicamente accesible, suele considerarse drenaje percutáneo acompañado de antibióticos y vigilancia. La conducta depende de la estabilidad clínica, la accesibilidad de la colección y la respuesta al tratamiento. El deterioro, la peritonitis generalizada o el fracaso del manejo inicial pueden requerir cirugía.",
+  perlaENARM: "En diverticulitis con absceso, el tamaño, la accesibilidad, la estabilidad y la respuesta clínica orientan la decisión de drenaje y cirugía.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre diagnóstico y tratamiento de diverticulitis aguda.",
+    internacional: "American Society of Colon and Rectal Surgeons. Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis."
+  },
+  bibliografia: [
+    "Hall J, et al. The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis. Diseases of the Colon & Rectum. 2020.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Diverticular disease."
+  ]
+},
+{
+  id: "GASTRO-189",
+  especialidad: "Gastroenterología",
+  tema: "Abdomen agudo",
+  subtema: "Pancreatitis aguda y gravedad",
+  dificultad: "media",
+  caso: `Masculino de 45 años con dolor epigástrico intenso irradiado a la espalda, acompañado de vómitos. La lipasa sérica es seis veces superior al límite normal. Se encuentra hemodinámicamente estable, sin hipoxemia ni alteración del estado mental. No presenta signos de irritación peritoneal. La sospecha clínica de pancreatitis aguda es elevada.`,
+  pregunta: "¿Cuál de las siguientes conductas es más apropiada durante la evaluación inicial?",
+  opciones: [
+    "Solicitar tomografía contrastada inmediatamente en todos los casos, antes de iniciar tratamiento",
+    "Indicar ayuno absoluto prolongado durante varios días independientemente de la evolución",
+    "Iniciar hidratación intravenosa individualizada, analgesia, vigilancia clínica y alimentación oral temprana según tolerancia",
+    "Administrar antibióticos profilácticos a todos los pacientes",
+    "Realizar colecistectomía inmediata en todos los pacientes, independientemente de la etiología"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "El dolor característico y la elevación de lipasa mayor de tres veces el límite superior normal permiten establecer el diagnóstico de pancreatitis aguda cuando el cuadro clínico es compatible. El manejo inicial incluye hidratación intravenosa individualizada, analgesia, evaluación de la etiología y vigilancia de disfunción orgánica. En pacientes con enfermedad leve que toleran la vía oral, se recomienda alimentación temprana; no se indican antibióticos profilácticos de rutina. La tomografía no es obligatoria de inmediato si el diagnóstico es claro y la evolución inicial es favorable.",
+  perlaENARM: "Para diagnosticar pancreatitis aguda se requieren dos de tres criterios: dolor típico, enzimas pancreáticas mayores de tres veces el límite normal e imagen compatible.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre diagnóstico y tratamiento de pancreatitis aguda.",
+    internacional: "American College of Gastroenterology. Management of Acute Pancreatitis."
+  },
+  bibliografia: [
+    "Tenner S, et al. American College of Gastroenterology Guidelines: Management of Acute Pancreatitis. American Journal of Gastroenterology. 2024.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Acute pancreatitis."
+  ]
+},
+{
+  id: "GASTRO-190",
+  especialidad: "Gastroenterología",
+  tema: "Abdomen agudo",
+  subtema: "Elección de imagen diagnóstica",
+  dificultad: "alta",
+  caso: `Femenina de 52 años, no embarazada, consulta por dolor abdominal de 24 horas de evolución, inicialmente difuso y ahora localizado en el cuadrante inferior derecho. Presenta fiebre de 38.2 °C, náuseas, leucocitosis y dolor focal con defensa localizada. Está hemodinámicamente estable, sin peritonitis generalizada. La exploración clínica sugiere una causa inflamatoria intraabdominal, pero el diagnóstico no es completamente claro.`,
+  pregunta: "¿Cuál es el estudio de imagen que generalmente ofrece mayor rendimiento diagnóstico en una adulta no embarazada con dolor abdominal agudo no diferenciado y sospecha de patología intraabdominal?",
+  opciones: [
+    "Radiografía simple de abdomen como único estudio en todos los casos",
+    "Tomografía computarizada de abdomen y pelvis con contraste intravenoso, si no existe contraindicación y está clínicamente indicada",
+    "Resonancia magnética cerebral",
+    "Colonoscopia urgente antes de realizar estudios de imagen",
+    "Gammagrafía tiroidea"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "En adultos no embarazados con dolor abdominal agudo no diferenciado y sospecha de patología intraabdominal, la tomografía de abdomen y pelvis con contraste intravenoso suele tener un alto rendimiento diagnóstico. La selección debe individualizarse según la localización del dolor, el diagnóstico sospechado, la función renal, las alergias, la disponibilidad y el estado clínico. La ecografía es preferible como estudio inicial en diversas situaciones, como sospecha biliar o ginecológica, y durante el embarazo se priorizan métodos sin radiación ionizante cuando son apropiados.",
+  perlaENARM: "La imagen se elige según el diagnóstico sospechado y el contexto clínico; la tomografía con contraste es muy útil en el dolor abdominal agudo no diferenciado del adulto no embarazado.",
+  gpc: {
+    mexico: "Consultar las GPC mexicanas vigentes específicas según la sospecha diagnóstica y los protocolos institucionales de imagen en urgencias.",
+    internacional: "American College of Radiology. ACR Appropriateness Criteria: Acute Nonlocalized Abdominal Pain."
+  },
+  bibliografia: [
+    "American College of Radiology. ACR Appropriateness Criteria: Acute Nonlocalized Abdominal Pain.",
+    "Tintinalli's Emergency Medicine: A Comprehensive Study Guide. Evaluation of acute abdominal pain."
+  ]
+},
+  {
+  id: "GASTRO-191",
+  especialidad: "Gastroenterología",
+  tema: "Apendicitis",
+  subtema: "Presentación clínica clásica",
+  dificultad: "fácil",
+  caso: `Masculino de 21 años, previamente sano, presenta dolor abdominal de 12 horas de evolución que inició en región periumbilical y posteriormente migró a la fosa iliaca derecha. Se acompaña de anorexia, náuseas y febrícula. A la exploración presenta dolor localizado en el punto de McBurney y leucocitosis con neutrofilia.`,
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Gastroenteritis aguda",
+    "Apendicitis aguda",
+    "Colecistitis aguda",
+    "Diverticulitis sigmoidea",
+    "Pancreatitis aguda"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La migración del dolor periumbilical hacia la fosa iliaca derecha, acompañada de anorexia, náuseas, dolor localizado y leucocitosis, es característica de apendicitis aguda. La presentación puede variar según la posición anatómica del apéndice y la etapa evolutiva.",
+  perlaENARM: "La migración del dolor hacia la fosa iliaca derecha es un dato clásico de apendicitis aguda.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para diagnóstico y tratamiento de apendicitis aguda.",
+    internacional: "World Society of Emergency Surgery (WSES). Jerusalem guidelines for acute appendicitis."
+  },
+  bibliografia: [
+    "Di Saverio S, et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World Journal of Emergency Surgery. 2020.",
+    "Schwartz's Principles of Surgery. Acute appendicitis."
+  ]
+},
+{
+  id: "GASTRO-192",
+  especialidad: "Gastroenterología",
+  tema: "Apendicitis",
+  subtema: "Evaluación clínica y escalas diagnósticas",
+  dificultad: "media",
+  caso: `Femenina de 24 años con dolor abdominal de 10 horas de evolución, actualmente localizado en fosa iliaca derecha. Presenta anorexia, náuseas, temperatura de 38 °C, dolor en el cuadrante inferior derecho y leucocitosis. No tiene datos de choque ni irritación peritoneal generalizada.`,
+  pregunta: "¿Cuál es la utilidad principal de una escala clínica como la de Alvarado en esta paciente?",
+  opciones: [
+    "Confirmar por sí sola el diagnóstico y sustituir cualquier valoración adicional",
+    "Determinar con certeza si existe perforación apendicular",
+    "Estimar la probabilidad clínica de apendicitis y orientar la necesidad de observación o estudios de imagen",
+    "Identificar directamente el microorganismo responsable",
+    "Determinar la duración exacta del tratamiento antibiótico"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La escala de Alvarado integra síntomas, signos y hallazgos de laboratorio para estratificar la probabilidad de apendicitis. Una puntuación baja puede ayudar a identificar pacientes de menor riesgo, mientras que las puntuaciones intermedias suelen requerir reevaluación y, según el contexto, imagen. Una puntuación elevada aumenta la sospecha, pero no confirma por sí sola el diagnóstico ni reemplaza el juicio clínico.",
+  perlaENARM: "Las escalas clínicas apoyan la estratificación del riesgo; no sustituyen la evaluación clínica ni la imagen cuando esta se encuentra indicada.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre diagnóstico de apendicitis aguda.",
+    internacional: "WSES Jerusalem guidelines for acute appendicitis, 2020."
+  },
+  bibliografia: [
+    "Di Saverio S, et al. WSES Jerusalem guidelines. World Journal of Emergency Surgery. 2020.",
+    "Alvarado A. A practical score for the early diagnosis of acute appendicitis. Annals of Emergency Medicine. 1986."
+  ]
+},
+{
+  id: "GASTRO-193",
+  especialidad: "Gastroenterología",
+  tema: "Apendicitis",
+  subtema: "Diagnóstico por imagen en adultos",
+  dificultad: "media",
+  caso: `Masculino de 35 años con dolor persistente en fosa iliaca derecha, fiebre de 38.1 °C y leucocitosis. La exploración sugiere apendicitis, pero el diagnóstico no es concluyente. No tiene antecedente de alergia al contraste ni contraindicación conocida para su administración.`,
+  pregunta: "¿Qué estudio de imagen suele ser de mayor utilidad para confirmar el diagnóstico en este adulto cuando persiste la incertidumbre clínica?",
+  opciones: [
+    "Radiografía simple de tórax",
+    "Tomografía computarizada de abdomen y pelvis, habitualmente con contraste intravenoso si está indicada",
+    "Endoscopia digestiva alta",
+    "Gammagrafía tiroidea",
+    "Colonoscopia como estudio inicial rutinario"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La tomografía computarizada tiene alta precisión diagnóstica para apendicitis en adultos y permite identificar diagnósticos alternativos y complicaciones. La ecografía puede utilizarse como estudio inicial, especialmente cuando se busca evitar radiación, y la selección de imagen debe considerar disponibilidad, características del paciente y protocolos locales.",
+  perlaENARM: "En adultos con sospecha de apendicitis y diagnóstico incierto, la tomografía es una herramienta diagnóstica de alto rendimiento.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para diagnóstico por imagen de apendicitis aguda.",
+    internacional: "American College of Radiology. ACR Appropriateness Criteria: Right Lower Quadrant Pain."
+  },
+  bibliografia: [
+    "American College of Radiology. ACR Appropriateness Criteria: Right Lower Quadrant Pain.",
+    "Di Saverio S, et al. WSES Jerusalem guidelines. World Journal of Emergency Surgery. 2020."
+  ]
+},
+{
+  id: "GASTRO-194",
+  especialidad: "Gastroenterología",
+  tema: "Apendicitis",
+  subtema: "Apendicitis en el embarazo",
+  dificultad: "alta",
+  caso: `Femenina de 27 años, con embarazo de 18 semanas, presenta dolor abdominal progresivo, náuseas y fiebre de 38 °C. La exploración revela dolor en el hemiabdomen derecho. El ultrasonido no logra visualizar el apéndice y no identifica una causa alternativa del dolor. La sospecha clínica de apendicitis persiste.`,
+  pregunta: "¿Cuál es el siguiente estudio de imagen más apropiado si está disponible y no existe contraindicación?",
+  opciones: [
+    "Tomografía con contraste como primera opción obligatoria en todas las embarazadas",
+    "Radiografía abdominal seriada",
+    "Resonancia magnética abdominal sin gadolinio",
+    "Colonoscopia urgente",
+    "Gammagrafía con radionúclidos como estudio rutinario"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "Cuando la ecografía no es diagnóstica y persiste la sospecha de apendicitis durante el embarazo, la resonancia magnética sin gadolinio es una opción preferida por su rendimiento diagnóstico y ausencia de radiación ionizante. Si no está disponible y la situación clínica lo requiere, la selección de otros estudios debe individualizarse para evitar retrasos diagnósticos peligrosos.",
+  perlaENARM: "Embarazo con sospecha de apendicitis y ultrasonido no concluyente: considera resonancia magnética sin gadolinio.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre apendicitis en el embarazo y evaluación de dolor abdominal durante la gestación.",
+    internacional: "American College of Radiology. ACR Appropriateness Criteria: Right Lower Quadrant Pain."
+  },
+  bibliografia: [
+    "American College of Radiology. ACR Appropriateness Criteria: Right Lower Quadrant Pain.",
+    "ACOG. Guidelines for Diagnostic Imaging During Pregnancy and Lactation."
+  ]
+},
+{
+  id: "GASTRO-195",
+  especialidad: "Gastroenterología",
+  tema: "Apendicitis",
+  subtema: "Tratamiento quirúrgico",
+  dificultad: "media",
+  caso: `Masculino de 29 años con dolor migratorio hacia fosa iliaca derecha, fiebre de 38 °C y leucocitosis. La tomografía confirma apendicitis aguda sin absceso, perforación ni plastrón. Se encuentra hemodinámicamente estable y no presenta contraindicaciones para cirugía.`,
+  pregunta: "¿Cuál es el tratamiento definitivo habitual?",
+  opciones: [
+    "Apendicectomía laparoscópica, cuando se dispone de experiencia y recursos",
+    "Colectomía total de urgencia",
+    "Tratamiento exclusivo con inhibidores de la bomba de protones",
+    "Drenaje percutáneo de rutina sin colección",
+    "Observación ambulatoria sin seguimiento ni tratamiento"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La apendicectomía laparoscópica es el tratamiento quirúrgico habitual de la apendicitis aguda y ofrece ventajas como menor dolor posoperatorio y recuperación más rápida en muchos pacientes. En casos seleccionados de apendicitis no complicada puede discutirse tratamiento antibiótico inicial, explicando el riesgo de fracaso o recurrencia y tomando una decisión compartida.",
+  perlaENARM: "La apendicectomía laparoscópica es una opción estándar para la apendicitis aguda cuando hay recursos y experiencia disponibles.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para tratamiento quirúrgico de apendicitis aguda.",
+    internacional: "WSES Jerusalem guidelines for acute appendicitis, 2020."
+  },
+  bibliografia: [
+    "Di Saverio S, et al. WSES Jerusalem guidelines. World Journal of Emergency Surgery. 2020.",
+    "Schwartz's Principles of Surgery. Acute appendicitis."
+  ]
+},
+{
+  id: "GASTRO-196",
+  especialidad: "Gastroenterología",
+  tema: "Apendicitis",
+  subtema: "Tratamiento antibiótico en casos seleccionados",
+  dificultad: "alta",
+  caso: `Masculino de 32 años con dolor localizado en fosa iliaca derecha. La tomografía muestra inflamación apendicular sin perforación, absceso, apendicolito ni datos de obstrucción intestinal. Está estable, tolera líquidos y no presenta peritonitis. El paciente pregunta si puede evitar la cirugía y comprende que podría presentar recurrencia.`,
+  pregunta: "¿Cuál es la respuesta más adecuada respecto al tratamiento?",
+  opciones: [
+    "Los antibióticos están absolutamente contraindicados en la apendicitis",
+    "El tratamiento antibiótico puede considerarse en pacientes seleccionados con apendicitis no complicada, mediante decisión compartida y seguimiento",
+    "Los antibióticos garantizan la curación definitiva sin riesgo de recurrencia",
+    "La única alternativa a la cirugía es la colectomía",
+    "Debe recibir antibióticos exclusivamente tópicos"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El tratamiento antibiótico sin apendicectomía puede ser una alternativa en pacientes seleccionados con apendicitis no complicada, particularmente si no hay apendicolito y existe posibilidad de seguimiento. Deben explicarse el fracaso terapéutico, la necesidad eventual de cirugía y la recurrencia. La apendicectomía sigue siendo una opción definitiva ampliamente utilizada.",
+  perlaENARM: "La estrategia no operatoria es posible en casos seleccionados de apendicitis no complicada, pero no elimina el riesgo de fracaso o recurrencia.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre alternativas terapéuticas para apendicitis no complicada.",
+    internacional: "WSES Jerusalem guidelines for acute appendicitis, 2020."
+  },
+  bibliografia: [
+    "Di Saverio S, et al. WSES Jerusalem guidelines. World Journal of Emergency Surgery. 2020.",
+    "CODA Collaborative. A Randomized Trial Comparing Antibiotics with Appendectomy for Appendicitis. New England Journal of Medicine. 2020."
+  ]
+},
+{
+  id: "GASTRO-197",
+  especialidad: "Gastroenterología",
+  tema: "Apendicitis",
+  subtema: "Apendicitis perforada con absceso",
+  dificultad: "alta",
+  caso: `Femenina de 42 años con seis días de dolor en fosa iliaca derecha, fiebre y anorexia. La tomografía muestra apéndice perforado con una colección periapendicular de 4.5 cm. La paciente está hemodinámicamente estable, sin peritonitis generalizada, y la colección es accesible por vía percutánea.`,
+  pregunta: "¿Cuál es una estrategia terapéutica razonable?",
+  opciones: [
+    "Dar de alta sin tratamiento porque el dolor lleva varios días",
+    "Realizar colonoscopia inmediata para extraer el apéndice",
+    "Administrar únicamente analgésicos",
+    "Iniciar antibióticos y valorar drenaje percutáneo, con vigilancia y evaluación quirúrgica",
+    "Indicar laxantes y dieta rica en fibra como tratamiento del absceso"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "En pacientes estables con absceso periapendicular bien delimitado y accesible, puede considerarse manejo inicial con antibióticos y drenaje percutáneo. La cirugía temprana también puede ser apropiada en determinados escenarios según experiencia, anatomía y evolución. La peritonitis generalizada, el deterioro hemodinámico o el fracaso del manejo inicial requieren reevaluación urgente.",
+  perlaENARM: "Un absceso apendicular localizado en un paciente estable puede manejarse con antibióticos y drenaje percutáneo cuando es factible.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para apendicitis complicada y absceso intraabdominal.",
+    internacional: "WSES Jerusalem guidelines for acute appendicitis, 2020."
+  },
+  bibliografia: [
+    "Di Saverio S, et al. WSES Jerusalem guidelines. World Journal of Emergency Surgery. 2020.",
+    "Schwartz's Principles of Surgery. Complicated appendicitis."
+  ]
+},
+{
+  id: "GASTRO-198",
+  especialidad: "Gastroenterología",
+  tema: "Apendicitis",
+  subtema: "Apendicitis en el adulto mayor",
+  dificultad: "alta",
+  caso: `Masculino de 78 años con diabetes mellitus tipo 2 que consulta por dolor abdominal poco intenso, anorexia y malestar general de 36 horas de evolución. Tiene temperatura de 37.7 °C, leucocitosis discreta y dolor en fosa iliaca derecha sin rigidez evidente. La familia refiere que ha disminuido su movilidad y su ingesta de alimentos.`,
+  pregunta: "¿Cuál es la consideración clínica más importante?",
+  opciones: [
+    "La ausencia de fiebre alta excluye apendicitis",
+    "En adultos mayores, la apendicitis puede tener manifestaciones atípicas y mayor riesgo de diagnóstico tardío y complicaciones",
+    "La diabetes descarta la posibilidad de apendicitis",
+    "El dolor leve permite descartar una urgencia quirúrgica",
+    "La observación domiciliaria es obligatoria en todos los adultos mayores"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Los adultos mayores pueden presentar dolor menos intenso, fiebre discreta y respuesta inflamatoria menos evidente, lo que aumenta el riesgo de retraso diagnóstico y perforación. Se necesita una evaluación cuidadosa, estudios de laboratorio e imagen según la sospecha clínica y valoración quirúrgica oportuna.",
+  perlaENARM: "En adultos mayores, la ausencia de signos clásicos no excluye apendicitis ni otras urgencias abdominales.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para diagnóstico de apendicitis y evaluación de abdomen agudo en adultos mayores.",
+    internacional: "WSES Jerusalem guidelines for acute appendicitis, 2020."
+  },
+  bibliografia: [
+    "Di Saverio S, et al. WSES Jerusalem guidelines. World Journal of Emergency Surgery. 2020.",
+    "Tintinalli's Emergency Medicine: A Comprehensive Study Guide. Acute abdominal pain in older adults."
+  ]
+},
+{
+  id: "GASTRO-199",
+  especialidad: "Gastroenterología",
+  tema: "Apendicitis",
+  subtema: "Complicaciones posoperatorias",
+  dificultad: "alta",
+  caso: `Masculino de 36 años operado de apendicitis perforada hace cinco días. Consulta por fiebre persistente, dolor abdominal que ha aumentado y malestar general. Presenta taquicardia y dolor a la palpación profunda en pelvis. Los leucocitos están elevados y la tomografía identifica una colección pélvica organizada.`,
+  pregunta: "¿Cuál es la complicación más probable y qué conducta debe considerarse?",
+  opciones: [
+    "Síndrome de intestino irritable; iniciar antiespasmódicos",
+    "Reflujo gastroesofágico; iniciar inhibidor de la bomba de protones",
+    "Absceso intraabdominal posoperatorio; iniciar antibióticos y valorar control del foco mediante drenaje",
+    "Hemorroides; indicar tratamiento tópico",
+    "Estreñimiento funcional; administrar laxantes sin más evaluación"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La fiebre persistente, la taquicardia y una colección organizada después de apendicitis perforada sugieren absceso intraabdominal. El manejo incluye evaluación de la gravedad, antibióticos dirigidos a la infección intraabdominal y valoración del control del foco, por ejemplo mediante drenaje percutáneo cuando sea técnicamente viable. Si existe deterioro, peritonitis o falla del tratamiento, puede requerirse intervención quirúrgica.",
+  perlaENARM: "Fiebre persistente y dolor focal tras apendicitis perforada obligan a descartar absceso intraabdominal.",
+  gpc: {
+    mexico: "Consultar protocolos institucionales y GPC mexicanas vigentes sobre infección intraabdominal posoperatoria.",
+    internacional: "World Society of Emergency Surgery. Guidelines for intra-abdominal infections."
+  },
+  bibliografia: [
+    "Sartelli M, et al. WSES guidelines for management of intra-abdominal infections.",
+    "Schwartz's Principles of Surgery. Surgical infections and intra-abdominal abscess."
+  ]
+},
+{
+  id: "GASTRO-200",
+  especialidad: "Gastroenterología",
+  tema: "Apendicitis",
+  subtema: "Diagnóstico diferencial en mujeres en edad reproductiva",
+  dificultad: "extrema",
+  caso: `Femenina de 26 años con dolor en fosa iliaca derecha, náuseas y febrícula. La prueba de embarazo es positiva. La ecografía transvaginal muestra un embarazo intrauterino de localización confirmada; sin embargo, el dolor focal persiste y la exploración abdominal es compatible con irritación localizada. La ecografía abdominal no logra visualizar el apéndice.`,
+  pregunta: "¿Cuál es el siguiente paso más apropiado ante la persistencia de sospecha de apendicitis?",
+  opciones: [
+    "Descartar apendicitis porque se confirmó un embarazo intrauterino",
+    "Indicar alta inmediata sin vigilancia",
+    "Realizar colonoscopia urgente",
+    "Administrar metotrexato para tratar una apendicitis",
+    "Continuar la evaluación con resonancia magnética sin gadolinio si está disponible y solicitar valoración quirúrgica según los hallazgos"
+  ],
+  respuestaCorrecta: 4,
+  explicacion: "La confirmación de un embarazo intrauterino no excluye apendicitis ni otras causas de dolor abdominal. Cuando el ultrasonido no identifica el apéndice y persiste la sospecha, la resonancia magnética sin gadolinio es una opción apropiada durante el embarazo. Se requiere seguimiento clínico y valoración quirúrgica oportuna; no debe retrasarse la atención si aparecen signos de complicación.",
+  perlaENARM: "Un embarazo intrauterino confirmado no descarta una causa quirúrgica extrauterina del dolor abdominal.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre apendicitis durante el embarazo y diagnóstico diferencial de dolor abdominal gestacional.",
+    internacional: "American College of Radiology. ACR Appropriateness Criteria: Right Lower Quadrant Pain."
+  },
+  bibliografia: [
+    "American College of Radiology. ACR Appropriateness Criteria: Right Lower Quadrant Pain.",
+    "ACOG. Guidelines for Diagnostic Imaging During Pregnancy and Lactation.",
+    "Di Saverio S, et al. WSES Jerusalem guidelines. World Journal of Emergency Surgery. 2020."
+  ]
+},
+  {
+  id: "GASTRO-201",
+  especialidad: "Gastroenterología",
+  tema: "Diverticulitis",
+  subtema: "Presentación clínica y diagnóstico",
+  dificultad: "fácil",
+  caso: `Masculino de 58 años acude por dolor abdominal de 36 horas de evolución, localizado en fosa iliaca izquierda, acompañado de fiebre de 38 °C, náuseas y cambios recientes en el hábito intestinal. A la exploración presenta dolor localizado en el cuadrante inferior izquierdo, sin rigidez ni datos de irritación peritoneal generalizada. La biometría hemática muestra leucocitosis.`,
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Apendicitis aguda",
+    "Diverticulitis aguda",
+    "Colecistitis aguda",
+    "Pancreatitis aguda",
+    "Úlcera péptica perforada"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El dolor en fosa iliaca izquierda acompañado de fiebre y respuesta inflamatoria es una presentación frecuente de diverticulitis sigmoidea. Sin embargo, los síntomas no son específicos; la tomografía computarizada permite confirmar el diagnóstico y valorar complicaciones cuando está indicada.",
+  perlaENARM: "Dolor en fosa iliaca izquierda, fiebre y leucocitosis sugieren diverticulitis, pero debe considerarse la confirmación por imagen según el contexto clínico.",
+  gpc: {
+    mexico: "Consultar el catálogo vigente de GPC mexicanas para recomendaciones específicas sobre diverticulitis aguda.",
+    internacional: "American Society of Colon and Rectal Surgeons (ASCRS). Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis."
+  },
+  bibliografia: [
+    "Hall J, et al. The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis. Diseases of the Colon & Rectum. 2020.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Diverticular disease."
+  ]
+},
+{
+  id: "GASTRO-202",
+  especialidad: "Gastroenterología",
+  tema: "Diverticulitis",
+  subtema: "Estudio de imagen",
+  dificultad: "media",
+  caso: `Femenina de 63 años, sin episodios previos documentados, presenta dolor en fosa iliaca izquierda, fiebre y leucocitosis. La exploración muestra dolor localizado sin inestabilidad hemodinámica. Se sospecha diverticulitis aguda, pero es necesario distinguir enfermedad no complicada de una posible colección o perforación contenida.`,
+  pregunta: "¿Cuál es el estudio de imagen más útil en esta paciente cuando no existen contraindicaciones?",
+  opciones: [
+    "Radiografía simple de cráneo",
+    "Colonoscopia durante la fase inflamatoria aguda",
+    "Tomografía computarizada de abdomen y pelvis con contraste intravenoso, si está indicada",
+    "Gammagrafía tiroidea",
+    "Endoscopia digestiva alta"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La tomografía computarizada permite identificar divertículos inflamados, engrosamiento de la pared, inflamación pericólica y complicaciones como absceso, perforación u obstrucción. La elección del contraste y el protocolo deben individualizarse. La colonoscopia generalmente se evita durante el episodio agudo por el riesgo de perforación y se considera posteriormente según la evolución y los antecedentes.",
+  perlaENARM: "La tomografía abdominal es el estudio de elección habitual para confirmar diverticulitis y determinar si está complicada.",
+  gpc: {
+    mexico: "Consultar recomendaciones mexicanas vigentes sobre diagnóstico por imagen de diverticulitis aguda.",
+    internacional: "American College of Radiology. ACR Appropriateness Criteria: Left Lower Quadrant Pain."
+  },
+  bibliografia: [
+    "American College of Radiology. ACR Appropriateness Criteria: Left Lower Quadrant Pain.",
+    "Hall J, et al. ASCRS Clinical Practice Guidelines for Left-Sided Colonic Diverticulitis. 2020."
+  ]
+},
+{
+  id: "GASTRO-203",
+  especialidad: "Gastroenterología",
+  tema: "Diverticulitis",
+  subtema: "Tratamiento ambulatorio",
+  dificultad: "media",
+  caso: `Masculino de 47 años con dolor en fosa iliaca izquierda de intensidad leve a moderada y febrícula. La tomografía confirma diverticulitis sigmoidea no complicada. Se encuentra hemodinámicamente estable, tolera líquidos, no presenta vómitos persistentes, inmunosupresión ni comorbilidades descompensadas, y dispone de seguimiento médico confiable.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Hospitalización obligatoria durante dos semanas",
+    "Colectomía urgente en todos los casos",
+    "Colonoscopia inmediata",
+    "Manejo ambulatorio con analgesia, hidratación, indicaciones de alarma y seguimiento; individualizar la necesidad de antibióticos",
+    "Administración rutinaria de antibióticos intravenosos durante 14 días"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "Los pacientes seleccionados con diverticulitis no complicada, clínicamente estables y capaces de tolerar la vía oral pueden tratarse de forma ambulatoria. En pacientes inmunocompetentes con enfermedad leve, los antibióticos pueden omitirse de manera selectiva bajo supervisión clínica; se indican cuando existen factores de riesgo, enfermedad sistémica o características clínicas que aumentan el riesgo de complicaciones. Es esencial proporcionar instrucciones claras para regresar ante deterioro.",
+  perlaENARM: "La diverticulitis no complicada no siempre requiere antibióticos; la selección depende del riesgo clínico y de las características del paciente.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre tratamiento de diverticulitis aguda no complicada.",
+    internacional: "ASCRS Clinical Practice Guidelines for Left-Sided Colonic Diverticulitis. 2020."
+  },
+  bibliografia: [
+    "Hall J, et al. Diseases of the Colon & Rectum. 2020.",
+    "American Gastroenterological Association. Clinical Practice Update on Medical Management of Colonic Diverticulitis. Gastroenterology. 2021."
+  ]
+},
+{
+  id: "GASTRO-204",
+  especialidad: "Gastroenterología",
+  tema: "Diverticulitis",
+  subtema: "Absceso pericólico",
+  dificultad: "alta",
+  caso: `Masculino de 60 años con fiebre, dolor persistente en fosa iliaca izquierda y leucocitosis. La tomografía muestra diverticulitis sigmoidea con una colección pericólica de 4.8 cm, sin aire libre difuso. El paciente está estable y la colección es accesible para drenaje percutáneo.`,
+  pregunta: "¿Cuál es la estrategia terapéutica más razonable?",
+  opciones: [
+    "Indicar únicamente fibra dietética",
+    "Iniciar antibióticos y valorar drenaje percutáneo, con vigilancia y evaluación quirúrgica",
+    "Realizar colonoscopia inmediata para drenar la colección",
+    "Dar de alta sin tratamiento porque no hay perforación libre",
+    "Administrar antidiarreicos como tratamiento definitivo"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Un absceso diverticular de este tamaño suele justificar antibióticos y valoración para drenaje percutáneo si es técnicamente accesible. El tamaño de corte utilizado para considerar drenaje varía entre guías y centros, por lo que la decisión debe integrar anatomía, estado clínico y respuesta al tratamiento. El deterioro o la falta de control del foco puede requerir cirugía.",
+  perlaENARM: "La diverticulitis con absceso requiere antibióticos; en colecciones grandes y accesibles debe valorarse drenaje percutáneo.",
+  gpc: {
+    mexico: "Consultar las recomendaciones mexicanas vigentes para diverticulitis complicada y absceso intraabdominal.",
+    internacional: "ASCRS Clinical Practice Guidelines for Left-Sided Colonic Diverticulitis. 2020."
+  },
+  bibliografia: [
+    "Hall J, et al. Diseases of the Colon & Rectum. 2020.",
+    "Sartelli M, et al. WSES guidelines for management of intra-abdominal infections."
+  ]
+},
+{
+  id: "GASTRO-205",
+  especialidad: "Gastroenterología",
+  tema: "Diverticulitis",
+  subtema: "Peritonitis generalizada",
+  dificultad: "extrema",
+  caso: `Femenina de 69 años con antecedente de diverticulitis sigmoidea. Acude por dolor abdominal súbito que se generalizó en pocas horas, fiebre, taquicardia e hipotensión. La exploración muestra rigidez abdominal y defensa involuntaria difusa. La tomografía evidencia perforación colónica con neumoperitoneo abundante y líquido libre.`,
+  pregunta: "¿Cuál es la conducta prioritaria?",
+  opciones: [
+    "Manejo ambulatorio con dieta líquida",
+    "Colonoscopia urgente para localizar el divertículo",
+    "Administrar laxantes y reevaluar al día siguiente",
+    "Iniciar reanimación, antibióticos intravenosos y control quirúrgico urgente del foco",
+    "Tratar únicamente con analgésicos"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "El cuadro es compatible con perforación intestinal y peritonitis generalizada, con probable sepsis y choque. Requiere reanimación inmediata, antibióticos intravenosos de amplio espectro ajustados al contexto y control urgente del foco. La técnica quirúrgica depende de la estabilidad, contaminación, comorbilidades y experiencia del equipo. La colonoscopia está contraindicada durante esta emergencia.",
+  perlaENARM: "Peritonitis generalizada por perforación diverticular: reanimación, antibióticos y control urgente del foco.",
+  gpc: {
+    mexico: "Consultar protocolos institucionales mexicanos vigentes para sepsis abdominal y diverticulitis perforada.",
+    internacional: "WSES guidelines for acute left-sided colonic diverticulitis and intra-abdominal infection management."
+  },
+  bibliografia: [
+    "Sartelli M, et al. WSES guidelines for management of intra-abdominal infections.",
+    "Hall J, et al. ASCRS Clinical Practice Guidelines for Left-Sided Colonic Diverticulitis. 2020."
+  ]
+},
+{
+  id: "GASTRO-206",
+  especialidad: "Gastroenterología",
+  tema: "Diverticulitis",
+  subtema: "Colonoscopia posterior al episodio agudo",
+  dificultad: "alta",
+  caso: `Masculino de 57 años presentó su primer episodio de diverticulitis complicada con absceso, tratado con antibióticos y drenaje percutáneo. Actualmente se encuentra asintomático y la inflamación ha remitido. No cuenta con colonoscopia reciente ni con un estudio colorrectal equivalente de calidad adecuada.`,
+  pregunta: "¿Cuál es la conducta más apropiada respecto a la evaluación del colon?",
+  opciones: [
+    "Realizar colonoscopia durante la inflamación aguda sin importar los hallazgos",
+    "No realizar nunca estudios posteriores porque la tomografía confirmó diverticulitis",
+    "Considerar colonoscopia después de la resolución del episodio, habitualmente tras unas 6–8 semanas o cuando los síntomas hayan desaparecido, según evolución y riesgo",
+    "Indicar colectomía total preventiva en todos los pacientes",
+    "Repetir una tomografía cada semana de forma indefinida"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "Después de diverticulitis complicada suele recomendarse evaluación endoscópica del colon si no existe una colonoscopia reciente y adecuada, para excluir neoplasia u otras enfermedades que pueden simular diverticulitis. Habitualmente se espera alrededor de 6–8 semanas o hasta la resolución completa de los síntomas, individualizando según evolución y riesgo. No debe realizarse rutinariamente durante la fase aguda.",
+  perlaENARM: "Tras diverticulitis complicada, considera colonoscopia diferida si no existe un estudio reciente adecuado.",
+  gpc: {
+    mexico: "Consultar las recomendaciones mexicanas vigentes para seguimiento y evaluación colorrectal después de diverticulitis.",
+    internacional: "American Gastroenterological Association. Clinical Practice Update on Medical Management of Colonic Diverticulitis. 2021."
+  },
+  bibliografia: [
+    "Peery AF, et al. AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis. Gastroenterology. 2021.",
+    "Hall J, et al. ASCRS Clinical Practice Guidelines for Left-Sided Colonic Diverticulitis. 2020."
+  ]
+},
+{
+  id: "GASTRO-207",
+  especialidad: "Gastroenterología",
+  tema: "Diverticulitis",
+  subtema: "Fístula colovesical",
+  dificultad: "extrema",
+  caso: `Masculino de 66 años con episodios recurrentes de diverticulitis. Consulta por disuria y cuadros repetidos de infección urinaria por enterobacterias. Refiere salida ocasional de gas durante la micción. La tomografía muestra engrosamiento del sigmoides adherido a la vejiga y aire intravesical, sin instrumentación urinaria reciente.`,
+  pregunta: "¿Cuál es la complicación más probable?",
+  opciones: [
+    "Fístula colovesical secundaria a enfermedad diverticular",
+    "Apendicitis aguda no complicada",
+    "Colecistitis enfisematosa",
+    "Pancreatitis crónica",
+    "Hernia hiatal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La neumaturia, las infecciones urinarias recurrentes y el contacto inflamatorio entre sigmoides y vejiga son sugestivos de fístula colovesical, una complicación de la enfermedad diverticular. La evaluación incluye estudios de imagen y valoración especializada. En pacientes aptos, el tratamiento definitivo suele ser quirúrgico, una vez controlada la infección y optimizado el estado general.",
+  perlaENARM: "Neumaturia e infecciones urinarias recurrentes en un paciente con diverticulitis sugieren fístula colovesical.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para fístulas colónicas y complicaciones de enfermedad diverticular.",
+    internacional: "ASCRS Clinical Practice Guidelines for Left-Sided Colonic Diverticulitis. 2020."
+  },
+  bibliografia: [
+    "Hall J, et al. Diseases of the Colon & Rectum. 2020.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Diverticular disease."
+  ]
+},
+{
+  id: "GASTRO-208",
+  especialidad: "Gastroenterología",
+  tema: "Diverticulitis",
+  subtema: "Obstrucción asociada a enfermedad diverticular",
+  dificultad: "alta",
+  caso: `Femenina de 71 años con varios episodios previos de diverticulitis. Presenta distensión abdominal progresiva, dolor tipo cólico, vómitos y ausencia de evacuaciones. La tomografía identifica estenosis del sigmoides con dilatación proximal del colon. No se observa perforación libre, pero no puede excluirse por completo una neoplasia.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Indicar laxantes estimulantes en dosis altas",
+    "Realizar colonoscopia con preparación intestinal inmediata pese a la obstrucción",
+    "Dar de alta con dieta rica en fibra",
+    "Tratar únicamente con antiácidos",
+    "Hospitalizar, estabilizar, evaluar la obstrucción y solicitar valoración quirúrgica, considerando también descartar neoplasia"
+  ],
+  respuestaCorrecta: 4,
+  explicacion: "La estenosis diverticular puede causar obstrucción colónica, pero es necesario descartar cáncer colorrectal. El manejo inicial incluye hospitalización, reposo intestinal, líquidos intravenosos, corrección de alteraciones hidroelectrolíticas y evaluación quirúrgica. La urgencia y la estrategia definitiva dependen del grado de obstrucción, la estabilidad, la presencia de isquemia o perforación y la posibilidad de una etiología maligna.",
+  perlaENARM: "Una estenosis colónica en el contexto de diverticulitis puede ser inflamatoria, pero debe descartarse neoplasia.",
+  gpc: {
+    mexico: "Consultar GPC mexicanas vigentes sobre obstrucción intestinal y cáncer colorrectal.",
+    internacional: "ASCRS Clinical Practice Guidelines for Left-Sided Colonic Diverticulitis. 2020."
+  },
+  bibliografia: [
+    "Hall J, et al. ASCRS Clinical Practice Guidelines for Left-Sided Colonic Diverticulitis. 2020.",
+    "Schwartz's Principles of Surgery. Colonic obstruction."
+  ]
+},
+{
+  id: "GASTRO-209",
+  especialidad: "Gastroenterología",
+  tema: "Diverticulitis",
+  subtema: "Recurrencia y decisión quirúrgica",
+  dificultad: "extrema",
+  caso: `Masculino de 54 años con tres episodios de diverticulitis no complicada en los últimos dos años, todos resueltos con tratamiento médico. Actualmente está asintomático, sin estenosis, fístula, absceso ni inmunosupresión. Pregunta si debe someterse obligatoriamente a colectomía por haber presentado varios episodios.`,
+  pregunta: "¿Cuál es la recomendación más apropiada?",
+  opciones: [
+    "La colectomía es obligatoria después del segundo episodio en todos los pacientes",
+    "La decisión quirúrgica debe individualizarse considerando gravedad, calidad de vida, riesgos, preferencias y complicaciones, no solo el número de episodios",
+    "Toda recurrencia requiere colectomía total",
+    "La cirugía está absolutamente contraindicada en pacientes con recurrencias",
+    "Debe recibir antibióticos de por vida independientemente de los síntomas"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La cirugía electiva después de diverticulitis recurrente no se indica únicamente por alcanzar un número fijo de episodios. La decisión debe individualizarse según síntomas persistentes, impacto en la calidad de vida, gravedad y complicaciones, estado inmunológico, riesgos quirúrgicos y preferencias del paciente. La recurrencia por sí sola no obliga a una colectomía.",
+  perlaENARM: "La indicación de cirugía electiva en diverticulitis recurrente debe individualizarse; no existe un número universal de episodios que la haga obligatoria.",
+  gpc: {
+    mexico: "Consultar recomendaciones mexicanas vigentes para manejo quirúrgico electivo de enfermedad diverticular.",
+    internacional: "ASCRS Clinical Practice Guidelines for Left-Sided Colonic Diverticulitis. 2020."
+  },
+  bibliografia: [
+    "Hall J, et al. Diseases of the Colon & Rectum. 2020.",
+    "Peery AF, et al. AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis. Gastroenterology. 2021."
+  ]
+},
+{
+  id: "GASTRO-210",
+  especialidad: "Gastroenterología",
+  tema: "Diverticulitis",
+  subtema: "Diagnóstico diferencial con cáncer colorrectal",
+  dificultad: "extrema",
+  caso: `Masculino de 64 años con dolor intermitente en fosa iliaca izquierda y cambios progresivos en el hábito intestinal durante cuatro meses. Ha perdido 7 kg sin proponérselo y presenta anemia ferropénica. Una tomografía muestra engrosamiento segmentario del sigmoides con cambios inflamatorios y divertículos en el segmento afectado. No presenta fiebre ni signos de infección sistémica.`,
+  pregunta: "¿Cuál es la conducta diagnóstica más apropiada después de estabilizar y evaluar al paciente?",
+  opciones: [
+    "Atribuir todos los hallazgos a diverticulitis y no realizar más estudios",
+    "Indicar antibióticos indefinidamente sin confirmar la etiología",
+    "Realizar colonoscopia tras descartar una fase inflamatoria aguda activa, con biopsia de lesiones sospechosas",
+    "Realizar únicamente una prueba de sangre oculta en heces y descartar cáncer si es negativa",
+    "Indicar laxantes y reevaluar dentro de un año"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La pérdida ponderal involuntaria, la anemia ferropénica y el cambio persistente del hábito intestinal son datos de alarma para cáncer colorrectal. La enfermedad diverticular puede coexistir con neoplasia y los hallazgos tomográficos pueden superponerse. Una vez evaluada la posibilidad de inflamación aguda activa y la seguridad del procedimiento, debe realizarse colonoscopia con biopsia cuando corresponda. Si existe obstrucción significativa, la estrategia diagnóstica debe coordinarse con el equipo especializado.",
+  perlaENARM: "Anemia ferropénica, pérdida de peso y cambio persistente del hábito intestinal son señales de alarma para neoplasia colorrectal.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para diagnóstico de cáncer colorrectal y evaluación de signos de alarma.",
+    internacional: "American Gastroenterological Association. Clinical Practice Update on Medical Management of Colonic Diverticulitis. 2021."
+  },
+  bibliografia: [
+    "Peery AF, et al. AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis. Gastroenterology. 2021.",
+    "American Society of Colon and Rectal Surgeons. Clinical Practice Guidelines for the Management of Colon Cancer."
+  ]
+}
 ];
