@@ -61,14 +61,29 @@ function closeMobileMenu() {
 
 function renderInicio() {
   document.getElementById("view-inicio").innerHTML = `
-    <section class="hero">
-      <h1>Preparación ENARM de alto rendimiento</h1>
-      <p>Plataforma modular para estudiar por especialidad, resolver simuladores clínicos y revisar retroalimentación basada en guías y bibliografía médica.</p>
-      <div class="hero-actions">
-        <button class="btn btn-primary" onclick="iniciarGeneral()">Iniciar simulador</button>
-        <button class="btn btn-light" onclick="showView('temario')">Explorar temario</button>
+    
+    <section class="medi-welcome">
+      <span class="medi-eyebrow">BIENVENIDA</span>
+      <h1>ENARM - MEDI</h1>
+      <h2>Tu preparación médica, en un solo lugar</h2>
+      <p>
+        Estudia por especialidad, resuelve simuladores clínicos
+        y revisa retroalimentación basada en guías y bibliografía médica.
+      </p>
+      <div class="medi-actions">
+        <button type="button"
+          class="medi-button medi-button-primary"
+          onclick="iniciarGeneral()">
+          Iniciar simulador
+        </button>
+        <button type="button"
+          class="medi-button medi-button-secondary"
+          onclick="showView('temario')">
+          Explorar temario
+        </button>
       </div>
     </section>
+
 
     <div class="stats">
       <div class="stat"><span class="stat-label">Preguntas cargadas</span><div class="stat-value">${BANCO_PREGUNTAS.length}</div><div class="stat-note">Banco actual</div></div>
