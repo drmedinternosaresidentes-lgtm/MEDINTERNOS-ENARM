@@ -7511,4 +7511,244 @@ window.BANCO_GASTROENTEROLOGIA = [
     "ASCO Guidelines. Treatment of Metastatic Colorectal Cancer."
   ]
 }, 
+  {
+  id: "GASTRO-301",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer hepatocelular",
+  subtema: "Factores de riesgo y epidemiología",
+  dificultad: "Baja",
+  caso: "Hombre de 59 años con cirrosis hepática secundaria a hepatitis C crónica acude a seguimiento. Durante la consulta pregunta cuál es su principal riesgo oncológico asociado con la enfermedad hepática avanzada.",
+  pregunta: "¿Cuál es la neoplasia primaria del hígado más frecuentemente asociada con cirrosis?",
+  opciones: [
+    "Colangiocarcinoma intrahepático",
+    "Hepatocarcinoma",
+    "Angiosarcoma hepático",
+    "Hepatoblastoma",
+    "Linfoma hepático primario"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El carcinoma hepatocelular o hepatocarcinoma es la neoplasia primaria maligna más frecuente del hígado. La cirrosis de cualquier etiología constituye uno de sus principales factores de riesgo, especialmente cuando se asocia con hepatitis B o C, consumo perjudicial de alcohol o enfermedad hepática esteatósica metabólica. La infección crónica por hepatitis B también puede ocasionar hepatocarcinoma sin cirrosis establecida.",
+  perlaENARM: "Cirrosis de cualquier etiología = principal población de riesgo para hepatocarcinoma. La hepatitis B puede producirlo incluso sin cirrosis.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencias internacionales: AASLD Practice Guidance on Prevention, Diagnosis, and Treatment of Hepatocellular Carcinoma; EASL Clinical Practice Guidelines.",
+  bibliografia: [
+    "Singal AG, et al. AASLD Practice Guidance on Prevention, Diagnosis, and Treatment of Hepatocellular Carcinoma. Hepatology. 2023;78(6):1922-1965.",
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of hepatocellular carcinoma. J Hepatol. 2018;69:182-236."
+  ]
+},
+{
+  id: "GASTRO-302",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer hepatocelular",
+  subtema: "Vigilancia en pacientes de alto riesgo",
+  dificultad: "Media",
+  caso: "Hombre de 63 años con cirrosis compensada por alcohol, sin lesiones focales conocidas y con función hepática estable. Acude para seguimiento y no presenta pérdida de peso, dolor abdominal ni ictericia.",
+  pregunta: "¿Cuál es la estrategia habitual de vigilancia para detectar hepatocarcinoma en pacientes con cirrosis que son candidatos a tratamiento?",
+  opciones: [
+    "Tomografía contrastada anual en todos los pacientes",
+    "Ultrasonido hepático cada 6 meses, con o sin alfafetoproteína según la guía aplicada",
+    "Alfafetoproteína aislada cada 3 años",
+    "Biopsia hepática anual",
+    "Ultrasonido únicamente cuando aparezca ictericia"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La vigilancia semestral mediante ultrasonido hepático es una estrategia estándar en pacientes con cirrosis que podrían beneficiarse de un tratamiento si se detecta un tumor. La AASLD recomienda realizar ultrasonido junto con alfafetoproteína cada 6 meses. La vigilancia debe individualizarse en pacientes que no serían candidatos a tratamiento por enfermedad hepática terminal u otras comorbilidades importantes.",
+  perlaENARM: "Cirrosis con posibilidad de tratamiento curativo: ultrasonido hepático cada 6 meses. La alfafetoproteína es complementaria y no sustituye por sí sola la imagen.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Hepatocellular Carcinoma.",
+  bibliografia: [
+    "Singal AG, et al. Hepatology. 2023;78(6):1922-1965.",
+    "Marrero JA, et al. Diagnosis, Staging, and Management of Hepatocellular Carcinoma: 2018 Practice Guidance by the AASLD. Hepatology. 2018;68:723-750."
+  ]
+},
+{
+  id: "GASTRO-303",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer hepatocelular",
+  subtema: "Diagnóstico por imagen en pacientes con cirrosis",
+  dificultad: "Alta",
+  caso: "Mujer de 66 años con cirrosis por hepatitis C presenta una lesión hepática de 2.4 cm identificada durante vigilancia. La resonancia magnética contrastada muestra hiperrealce arterial no periférico y lavado en fases portal o tardía, con cápsula compatible con hepatocarcinoma.",
+  pregunta: "¿Cuál es la interpretación diagnóstica más apropiada?",
+  opciones: [
+    "La lesión requiere biopsia obligatoria en todos los casos antes de establecer el diagnóstico",
+    "Los hallazgos son compatibles con hepatocarcinoma y pueden establecer el diagnóstico no invasivo si cumplen criterios radiológicos validados",
+    "El hiperrealce arterial excluye hepatocarcinoma",
+    "La lesión debe considerarse metástasis hasta demostrar lo contrario, independientemente del contexto",
+    "La resonancia contrastada no tiene utilidad para caracterizar lesiones hepáticas"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "En pacientes de alto riesgo, especialmente con cirrosis, una lesión focal puede diagnosticarse como hepatocarcinoma mediante criterios radiológicos validados en tomografía o resonancia multifásica. El hiperrealce arterial no periférico y el lavado no periférico son hallazgos característicos, interpretados según el tamaño y otros criterios del sistema utilizado. Si la imagen es indeterminada o el paciente no pertenece a una población en la que los criterios no invasivos están validados, puede requerirse evaluación adicional o biopsia.",
+  perlaENARM: "En pacientes con cirrosis, el diagnóstico de hepatocarcinoma puede ser no invasivo mediante imagen multifásica característica. No extrapolar estos criterios a cualquier paciente sin factores de riesgo.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Hepatocellular Carcinoma; sistema LI-RADS.",
+  bibliografia: [
+    "Singal AG, et al. Hepatology. 2023;78(6):1922-1965.",
+    "American College of Radiology. Liver Imaging Reporting and Data System (LI-RADS)."
+  ]
+},
+{
+  id: "GASTRO-304",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer hepatocelular",
+  subtema: "Alfafetoproteína y limitaciones diagnósticas",
+  dificultad: "Media",
+  caso: "Hombre de 57 años con cirrosis por hepatitis B presenta alfafetoproteína de 18 ng/mL. El ultrasonido de vigilancia no identifica una lesión focal y el paciente permanece asintomático.",
+  pregunta: "¿Cuál es la afirmación más correcta respecto a la alfafetoproteína?",
+  opciones: [
+    "Una alfafetoproteína normal excluye de manera definitiva el hepatocarcinoma",
+    "Una elevación aislada confirma hepatocarcinoma y elimina la necesidad de imagen",
+    "La alfafetoproteína puede contribuir a la vigilancia, pero no confirma ni excluye por sí sola el diagnóstico",
+    "La alfafetoproteína solo aumenta en tumores benignos",
+    "La alfafetoproteína sustituye al ultrasonido en todas las guías"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La alfafetoproteína tiene sensibilidad y especificidad limitadas. Puede elevarse en hepatocarcinoma, pero también en otras condiciones hepáticas y durante la regeneración hepatocelular; además, algunos tumores no producen elevaciones significativas. Por ello debe interpretarse junto con la imagen y el riesgo clínico. En vigilancia, una elevación relevante o progresiva puede motivar evaluación diagnóstica adicional según el protocolo aplicado.",
+  perlaENARM: "AFP normal no descarta hepatocarcinoma y AFP elevada no lo confirma de forma aislada. La imagen multifásica es fundamental.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Hepatocellular Carcinoma.",
+  bibliografia: [
+    "Singal AG, et al. Hepatology. 2023;78(6):1922-1965.",
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of hepatocellular carcinoma. J Hepatol. 2018;69:182-236."
+  ]
+},
+{
+  id: "GASTRO-305",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer hepatocelular",
+  subtema: "Estadificación y sistema BCLC",
+  dificultad: "Alta",
+  caso: "Hombre de 64 años con hepatocarcinoma confirmado presenta una lesión única de 3 cm, sin invasión vascular ni metástasis. Tiene cirrosis compensada, ECOG 0 y función hepática conservada.",
+  pregunta: "¿Qué sistema de estadificación integra carga tumoral, función hepática y estado funcional para orientar el tratamiento del hepatocarcinoma?",
+  opciones: [
+    "Child-Pugh exclusivamente",
+    "MELD-Na exclusivamente",
+    "TNM exclusivamente",
+    "Barcelona Clinic Liver Cancer (BCLC)",
+    "Clasificación de Hinchey"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "El sistema BCLC integra extensión tumoral, estado funcional y reserva hepática para orientar el pronóstico y las opciones terapéuticas. Child-Pugh y MELD aportan información sobre función hepática, mientras que TNM describe principalmente extensión anatómica del tumor. La decisión definitiva requiere considerar hipertensión portal, comorbilidades, anatomía tumoral, elegibilidad para trasplante y recursos disponibles.",
+  perlaENARM: "BCLC es el sistema que integra tumor, función hepática y estado funcional para guiar el tratamiento del hepatocarcinoma.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencias internacionales: AASLD y EASL para hepatocarcinoma.",
+  bibliografia: [
+    "Singal AG, et al. Hepatology. 2023;78(6):1922-1965.",
+    "Reig M, et al. BCLC strategy for prognosis prediction and treatment recommendation: The 2022 update. J Hepatol. 2022;76:681-693."
+  ]
+},
+{
+  id: "GASTRO-306",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer hepatocelular",
+  subtema: "Tratamiento curativo: resección hepática",
+  dificultad: "Muy alta",
+  caso: "Hombre de 58 años con hepatocarcinoma solitario de 2.8 cm, sin invasión vascular ni metástasis. Presenta función hepática conservada, ausencia de hipertensión portal clínicamente significativa y volumen hepático residual adecuado según la evaluación preoperatoria.",
+  pregunta: "¿Cuál de las siguientes opciones puede ofrecer intención curativa en este escenario?",
+  opciones: [
+    "Quimioterapia citotóxica sistémica como única intervención",
+    "Resección hepática en un paciente seleccionado tras evaluación multidisciplinaria",
+    "Antibióticos durante 6 semanas",
+    "Observación indefinida sin vigilancia",
+    "Drenaje biliar como tratamiento oncológico definitivo"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La resección hepática puede ser curativa en pacientes seleccionados con tumor localizado, reserva hepática adecuada, volumen residual suficiente y ausencia de hipertensión portal clínicamente significativa relevante. En cirrosis, la selección debe ser cuidadosa debido al riesgo de insuficiencia hepática posoperatoria y recurrencia. La ablación y el trasplante también pueden ser opciones curativas según las características tumorales y del paciente.",
+  perlaENARM: "La resección se considera en hepatocarcinoma localizado cuando la reserva hepática y la anatomía permiten una cirugía segura; no todos los pacientes con cirrosis son candidatos.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Hepatocellular Carcinoma.",
+  bibliografia: [
+    "Singal AG, et al. Hepatology. 2023;78(6):1922-1965.",
+    "Reig M, et al. J Hepatol. 2022;76:681-693."
+  ]
+},
+{
+  id: "GASTRO-307",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer hepatocelular",
+  subtema: "Criterios de Milán y trasplante hepático",
+  dificultad: "Muy alta",
+  caso: "Mujer de 55 años con cirrosis descompensada y hepatocarcinoma presenta tres nódulos de 2.0, 2.5 y 2.8 cm, sin invasión vascular macroscópica ni metástasis extrahepáticas. La evaluación multidisciplinaria considera trasplante hepático.",
+  pregunta: "¿Cuál de las siguientes descripciones corresponde a los criterios de Milán clásicos para selección de pacientes con hepatocarcinoma para trasplante?",
+  opciones: [
+    "Cualquier número de tumores si la alfafetoproteína es normal",
+    "Una lesión de hasta 10 cm sin invasión vascular",
+    "Una lesión única de hasta 5 cm o hasta tres lesiones, cada una de hasta 3 cm, sin invasión vascular macroscópica ni metástasis extrahepáticas",
+    "Tres lesiones de hasta 5 cm cada una, independientemente de la invasión vascular",
+    "Una lesión única de hasta 8 cm, incluso con metástasis extrahepáticas"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "Los criterios de Milán clásicos incluyen una lesión única de hasta 5 cm o hasta tres lesiones, ninguna mayor de 3 cm, sin invasión vascular macroscópica ni metástasis extrahepáticas. Estos criterios ayudan a seleccionar pacientes con resultados aceptables después del trasplante. Algunos programas utilizan criterios expandidos o estrategias de downstaging, pero su aplicación depende de protocolos específicos y de la evaluación del equipo de trasplante.",
+  perlaENARM: "Milán: tumor único ≤5 cm o hasta 3 tumores, cada uno ≤3 cm, sin invasión vascular macroscópica ni metástasis extrahepáticas.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencias internacionales: AASLD Practice Guidance on Hepatocellular Carcinoma y protocolos de trasplante hepático.",
+  bibliografia: [
+    "Mazzaferro V, et al. Liver transplantation for the treatment of small hepatocellular carcinomas in patients with cirrhosis. N Engl J Med. 1996;334:693-699.",
+    "Singal AG, et al. Hepatology. 2023;78(6):1922-1965."
+  ]
+},
+{
+  id: "GASTRO-308",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer hepatocelular",
+  subtema: "Ablación locorregional",
+  dificultad: "Alta",
+  caso: "Hombre de 69 años con cirrosis compensada presenta hepatocarcinoma único de 2 cm. No es candidato a resección por comorbilidades cardiopulmonares, pero conserva función hepática adecuada y no tiene enfermedad extrahepática.",
+  pregunta: "¿Qué opción puede ofrecer intención curativa en pacientes seleccionados con tumores pequeños cuando la cirugía no es adecuada?",
+  opciones: [
+    "Ablación térmica percutánea, como radiofrecuencia o microondas",
+    "Antibióticos como monoterapia",
+    "Corticoides sistémicos",
+    "Quimioterapia citotóxica convencional como única opción curativa",
+    "Colectomía subtotal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La ablación térmica, mediante radiofrecuencia o microondas, puede ofrecer intención curativa en pacientes seleccionados con hepatocarcinoma pequeño, especialmente cuando la resección no es apropiada. Su eficacia depende del tamaño, localización, proximidad a estructuras críticas y posibilidad de obtener un margen de ablación adecuado. En determinados casos pueden considerarse otras técnicas locorregionales o trasplante.",
+  perlaENARM: "Hepatocarcinoma pequeño y paciente no candidato a resección: valorar ablación térmica si la localización y las condiciones clínicas lo permiten.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Hepatocellular Carcinoma.",
+  bibliografia: [
+    "Singal AG, et al. Hepatology. 2023;78(6):1922-1965.",
+    "Reig M, et al. J Hepatol. 2022;76:681-693."
+  ]
+},
+{
+  id: "GASTRO-309",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer hepatocelular",
+  subtema: "Tratamiento sistémico de enfermedad avanzada",
+  dificultad: "Extrema",
+  caso: "Hombre de 62 años con hepatocarcinoma avanzado, invasión vascular, ausencia de contraindicaciones mayores para tratamiento sistémico y función hepática Child-Pugh A. Mantiene buen estado funcional y no es candidato a tratamiento curativo ni a terapia locorregional eficaz.",
+  pregunta: "¿Cuál es una opción de primera línea respaldada por evidencia para pacientes seleccionados con hepatocarcinoma irresecable avanzado?",
+  opciones: [
+    "Atezolizumab más bevacizumab, tras evaluar contraindicaciones y riesgo hemorrágico",
+    "Prednisona en monoterapia",
+    "Amoxicilina más ácido clavulánico durante 14 días",
+    "Ácido ursodesoxicólico como tratamiento antitumoral",
+    "Lactulosa como monoterapia antineoplásica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Atezolizumab más bevacizumab es una opción de primera línea para pacientes seleccionados con hepatocarcinoma irresecable avanzado y función hepática y estado funcional adecuados. Antes de bevacizumab es importante evaluar el riesgo de hemorragia, especialmente en pacientes con cirrosis e hipertensión portal, y tratar o valorar várices gastroesofágicas según el contexto. Otras combinaciones inmunoterapéuticas o terapias dirigidas pueden ser alternativas de acuerdo con guías vigentes, comorbilidades, disponibilidad y contraindicaciones.",
+  perlaENARM: "Hepatocarcinoma avanzado con función hepática conservada: considerar inmunoterapia combinada. Antes de bevacizumab, valorar cuidadosamente el riesgo de sangrado por hipertensión portal y várices.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencias internacionales: AASLD Practice Guidance on Hepatocellular Carcinoma y guías de tratamiento sistémico.",
+  bibliografia: [
+    "Finn RS, et al. Atezolizumab plus Bevacizumab in Unresectable Hepatocellular Carcinoma. N Engl J Med. 2020;382:1894-1905.",
+    "Singal AG, et al. Hepatology. 2023;78(6):1922-1965."
+  ]
+},
+{
+  id: "GASTRO-310",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer hepatocelular",
+  subtema: "Prevención y reducción del riesgo",
+  dificultad: "Alta",
+  caso: "Hombre de 52 años con hepatitis B crónica, carga viral detectable y fibrosis avanzada. Pregunta qué medida puede reducir el riesgo de progresión hepática y contribuir a disminuir el riesgo de hepatocarcinoma.",
+  pregunta: "¿Cuál de las siguientes intervenciones forma parte de una estrategia preventiva basada en evidencia?",
+  opciones: [
+    "Suspender el seguimiento una vez que las aminotransferasas se normalicen",
+    "Indicar antivirales apropiados cuando estén indicados, controlar factores metabólicos y alcohol, y mantener vigilancia según el riesgo",
+    "Utilizar alfafetoproteína como única prueba de vigilancia en todos los pacientes",
+    "Administrar quimioterapia preventiva a todos los pacientes con hepatitis B",
+    "Indicar corticoides sistémicos de manera crónica para prevenir el cáncer"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El control de la hepatitis B con tratamiento antiviral cuando está indicado reduce la progresión de la enfermedad hepática y el riesgo de hepatocarcinoma, aunque no lo elimina por completo. También son relevantes el tratamiento de hepatitis C, la abstinencia de alcohol cuando corresponde, el control de factores metabólicos y la vigilancia de los pacientes que cumplen criterios de riesgo. Los pacientes con riesgo persistente pueden requerir vigilancia incluso después del control virológico.",
+  perlaENARM: "El tratamiento antiviral reduce el riesgo de hepatocarcinoma, pero no lo elimina en pacientes con riesgo residual. La vigilancia debe mantenerse cuando está indicada.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencias internacionales: AASLD Practice Guidance on Hepatocellular Carcinoma y guías de hepatitis B.",
+  bibliografia: [
+    "Singal AG, et al. Hepatology. 2023;78(6):1922-1965.",
+    "Terrault NA, et al. Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD guidance."
+  ]
+}
 ];
