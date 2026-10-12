@@ -930,3 +930,81 @@ button.primary:hover {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+/* ===== ENARM - MEDI: panel de bienvenida ===== */
+.medi-welcome {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: clamp(24px, 4vw, 42px);
+  border-radius: 20px;
+  color: #fff;
+  background: linear-gradient(115deg, #062542, #0b5d96);
+  box-shadow: 0 8px 24px rgba(6, 37, 66, 0.12);
+}
+
+.medi-eyebrow {
+  display: block;
+  margin-bottom: 10px;
+  color: #55ded5;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.medi-welcome h1 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: clamp(26px, 3vw, 36px);
+}
+
+.medi-welcome h2 {
+  margin: 0 0 12px;
+  color: #fff;
+  font-size: clamp(17px, 2vw, 22px);
+}
+
+.medi-welcome p {
+  max-width: 680px;
+  color: #e3eef7;
+  line-height: 1.7;
+}
+
+.medi-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.medi-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 17px;
+  border: 0;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.medi-button-primary {
+  color: #fff;
+  background: #0bb5ad;
+}
+
+.medi-button-secondary {
+  color: #062542;
+  background: #fff;
+}
+
+@media (max-width: 480px) {
+  .medi-actions {
+    flex-direction: column;
+  }
+
+  .medi-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
