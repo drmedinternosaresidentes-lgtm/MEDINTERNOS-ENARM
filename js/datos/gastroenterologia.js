@@ -5288,5 +5288,2227 @@ window.BANCO_GASTROENTEROLOGIA = [
     "Peery AF, et al. AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis. Gastroenterology. 2021.",
     "American Society of Colon and Rectal Surgeons. Clinical Practice Guidelines for the Management of Colon Cancer."
   ]
-}
+},
+  
+{
+  id: "GASTRO-211",
+  especialidad: "Gastroenterología",
+  tema: "Obstrucción intestinal",
+  subtema: "Obstrucción mecánica por adherencias",
+  dificultad: "alta",
+  caso: `Masculino de 64 años con antecedente de laparotomía por apendicitis complicada hace 15 años. Acude por dolor abdominal tipo cólico, vómitos biliosos, distensión y ausencia de evacuaciones y canalización de gases durante 24 horas. TA 118/76 mmHg, FC 96 lpm, temperatura 37.2 °C. El abdomen está distendido, con ruidos intestinales aumentados y dolor difuso sin defensa ni rebote. La tomografía contrastada muestra asas de intestino delgado dilatadas, un punto de transición y colon distal colapsado, sin neumatosis, líquido libre significativo ni signos de isquemia.`,
+  pregunta: "¿Cuál es la conducta inicial más apropiada?",
+  opciones: [
+    "Realizar laparotomía inmediata en todo paciente con obstrucción por adherencias",
+    "Administrar laxantes estimulantes y permitir la alimentación oral",
+    "Hospitalizar, mantener ayuno, administrar líquidos intravenosos, corregir alteraciones electrolíticas y realizar descompresión nasogástrica según la presentación, con vigilancia estrecha",
+    "Administrar loperamida para disminuir el dolor cólico",
+    "Realizar colonoscopia urgente para localizar el punto de transición"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "El cuadro es compatible con obstrucción mecánica del intestino delgado probablemente secundaria a adherencias posquirúrgicas. En ausencia de peritonitis, estrangulación o isquemia, puede intentarse manejo no operatorio hospitalario con ayuno, reposición hidroelectrolítica, descompresión nasogástrica cuando esté indicada y exploraciones seriadas. La tomografía y, en pacientes seleccionados, un protocolo con contraste hidrosoluble ayudan a valorar la evolución. El deterioro clínico, la sospecha de isquemia o la falta de resolución requieren reevaluación quirúrgica.",
+  perlaENARM: "Ante obstrucción del intestino delgado por adherencias sin datos de complicación, el tratamiento inicial suele ser conservador, bajo vigilancia hospitalaria.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente y los protocolos institucionales para diagnóstico y tratamiento de obstrucción intestinal mecánica.",
+    internacional: "World Society of Emergency Surgery (WSES). Bologna guidelines for diagnosis and management of adhesive small bowel obstruction."
+  },
+  bibliografia: [
+    "ten Broek RPG, et al. Bologna guidelines for diagnosis and management of adhesive small bowel obstruction: 2017 update. World Journal of Emergency Surgery. 2018;13:24.",
+    "Schwartz's Principles of Surgery. Small Intestinal Obstruction."
+  ]
+},
+{
+  id: "GASTRO-212",
+  especialidad: "Gastroenterología",
+  tema: "Obstrucción intestinal",
+  subtema: "Estrangulación e isquemia intestinal",
+  dificultad: "extrema",
+  caso: `Femenina de 72 años con antecedente de cirugía abdominal presenta 18 horas de dolor abdominal inicialmente intermitente, ahora continuo e intenso, vómitos y distensión. FC 122 lpm, TA 92/58 mmHg y temperatura 38.1 °C. El abdomen muestra dolor intenso con defensa involuntaria. Leucocitos 19,000/µL, lactato 4.8 mmol/L y acidosis metabólica. La tomografía identifica obstrucción en asa cerrada, edema mesentérico y disminución del realce de la pared intestinal.`,
+  pregunta: "¿Cuál es la conducta prioritaria?",
+  opciones: [
+    "Observar durante 48 horas para determinar si se resuelve espontáneamente",
+    "Administrar contraste hidrosoluble por vía oral y esperar su progresión",
+    "Realizar colonoscopia para descomprimir el intestino delgado",
+    "Iniciar reanimación inmediata, antibióticos intravenosos cuando estén indicados y exploración quirúrgica urgente para controlar la obstrucción y valorar la viabilidad intestinal",
+    "Administrar antiespasmódicos y repetir lactato al día siguiente"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "El dolor continuo, la defensa, el choque, la acidosis, la elevación del lactato y los hallazgos tomográficos sugieren estrangulación con isquemia intestinal. Se requiere reanimación simultánea y cirugía urgente. Durante la exploración se libera la obstrucción y se evalúa la viabilidad; el intestino claramente necrótico requiere resección. No debe retrasarse el control quirúrgico para observar la respuesta al tratamiento conservador.",
+  perlaENARM: "Obstrucción en asa cerrada más datos de isquemia, peritonitis o choque constituye una urgencia quirúrgica.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de urgencias quirúrgicas, abdomen agudo, sepsis e isquemia intestinal.",
+    internacional: "World Society of Emergency Surgery. Bologna guidelines for adhesive small bowel obstruction; WSES guidelines on acute mesenteric ischemia."
+  },
+  bibliografia: [
+    "ten Broek RPG, et al. World Journal of Emergency Surgery. 2018;13:24.",
+    "Bala M, et al. Acute mesenteric ischemia: updated guidelines of the World Society of Emergency Surgery. World Journal of Emergency Surgery. 2022."
+  ]
+},
+{
+  id: "GASTRO-213",
+  especialidad: "Gastroenterología",
+  tema: "Obstrucción intestinal",
+  subtema: "Hernia incarcerada y estrangulada",
+  dificultad: "extrema",
+  caso: `Masculino de 68 años con hernia inguinal derecha de larga evolución presenta dolor súbito en la región inguinal, vómitos y ausencia de canalización de gases. La hernia está aumentada de tamaño, es muy dolorosa, tensa e irreductible. FC 116 lpm, temperatura 38 °C y leucocitosis. La piel suprayacente presenta eritema. No hay mejoría tras analgesia inicial.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Intentar reducción manual repetida y enérgica antes de solicitar valoración quirúrgica",
+    "Indicar una faja abdominal y seguimiento ambulatorio",
+    "Administrar laxantes y líquidos por vía oral",
+    "Programar reparación electiva en seis meses",
+    "Iniciar reanimación, analgesia, valoración quirúrgica urgente y reparación de la hernia, con evaluación de la viabilidad intestinal"
+  ],
+  respuestaCorrecta: 4,
+  explicacion: "La hernia dolorosa e irreductible asociada a obstrucción, eritema y respuesta inflamatoria hace sospechar estrangulación. Se requiere evaluación quirúrgica urgente, reanimación y preparación para exploración. La reducción manual no debe intentarse de forma enérgica cuando se sospecha estrangulación, ya que puede retrasar el tratamiento y ocasionar reducción de intestino comprometido sin resolver la lesión. La resección se considera si existe necrosis.",
+  perlaENARM: "Una hernia irreductible con dolor intenso y datos sistémicos de alarma debe considerarse estrangulada hasta demostrar lo contrario.",
+  gpc: {
+    mexico: "Consultar protocolos institucionales mexicanos vigentes para hernia complicada, obstrucción intestinal y abdomen agudo.",
+    internacional: "World Society of Emergency Surgery. Guidelines for emergency repair of complicated abdominal wall hernias."
+  },
+  bibliografia: [
+    "Birindelli A, et al. 2017 update of the WSES guidelines for emergency repair of complicated abdominal wall hernias. World Journal of Emergency Surgery. 2017;12:37.",
+    "Schwartz's Principles of Surgery. Abdominal Wall Hernias."
+  ]
+},
+{
+  id: "GASTRO-214",
+  especialidad: "Gastroenterología",
+  tema: "Obstrucción intestinal",
+  subtema: "Vólvulo de sigmoides",
+  dificultad: "alta",
+  caso: `Masculino de 79 años, institucionalizado y con estreñimiento crónico, presenta distensión abdominal progresiva, dolor y ausencia de evacuaciones durante tres días. La tomografía muestra una marcada dilatación del sigmoides con configuración en remolino del mesocolon y convergencia de asas hacia un punto de torsión. No presenta peritonitis, choque ni signos tomográficos de perforación.`,
+  pregunta: "¿Cuál es el tratamiento inicial de elección si no existen datos de isquemia o perforación?",
+  opciones: [
+    "Descompresión endoscópica mediante sigmoidoscopia flexible o colonoscopia, con colocación de sonda rectal según el caso y posterior valoración de cirugía definitiva",
+    "Colectomía total inmediata en todos los pacientes",
+    "Administrar fibra y laxantes por vía oral",
+    "Realizar CPRE para descomprimir el colon",
+    "Indicar únicamente antibióticos durante siete días"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "En el vólvulo sigmoideo sin peritonitis, perforación ni sospecha de intestino no viable, la descompresión endoscópica es la intervención inicial habitual. Debido al elevado riesgo de recurrencia, debe valorarse sigmoidectomía durante el mismo ingreso una vez estabilizado el paciente. Si existe isquemia, perforación o peritonitis, se requiere intervención quirúrgica urgente.",
+  perlaENARM: "Vólvulo de sigmoides sin complicaciones: descompresión endoscópica inicial y valoración de resección definitiva por recurrencia.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para obstrucción colónica y vólvulo de sigmoides.",
+    internacional: "American Society of Colon and Rectal Surgeons. Clinical Practice Guidelines for the Management of Colonic Volvulus and Acute Colonic Pseudo-Obstruction."
+  },
+  bibliografia: [
+    "Alavi K, et al. The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Management of Colonic Volvulus and Acute Colonic Pseudo-Obstruction. Diseases of the Colon & Rectum. 2021.",
+    "Schwartz's Principles of Surgery. Colonic Volvulus."
+  ]
+},
+{
+  id: "GASTRO-215",
+  especialidad: "Gastroenterología",
+  tema: "Obstrucción intestinal",
+  subtema: "Vólvulo de ciego",
+  dificultad: "extrema",
+  caso: `Femenina de 61 años presenta dolor abdominal intenso, distensión, vómitos biliosos y ausencia de evacuaciones. La tomografía muestra el ciego marcadamente dilatado y desplazado hacia el cuadrante superior izquierdo, con torsión del pedículo ileocólico y obstrucción del colon proximal. No se observa neumoperitoneo, pero existe dolor persistente y edema mesentérico.`,
+  pregunta: "¿Cuál es el manejo definitivo más apropiado?",
+  opciones: [
+    "Descompresión endoscópica como primera opción por su alta eficacia en el vólvulo cecal",
+    "Tratamiento ambulatorio con laxantes osmóticos",
+    "Valoración quirúrgica urgente y resección del segmento afectado según viabilidad y estado clínico",
+    "Administración de anticolinérgicos para detener la peristalsis",
+    "Observación durante 72 horas antes de decidir tratamiento"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "El vólvulo cecal suele requerir tratamiento quirúrgico, debido a la menor eficacia de la descompresión endoscópica y al riesgo de isquemia y perforación. La hemicolectomía derecha suele ser el tratamiento definitivo preferido en pacientes aptos; la estrategia se individualiza según viabilidad intestinal, estabilidad hemodinámica y condiciones del paciente.",
+  perlaENARM: "A diferencia del vólvulo sigmoideo no complicado, el vólvulo cecal generalmente requiere cirugía.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de obstrucción colónica y cirugía de urgencia.",
+    internacional: "American Society of Colon and Rectal Surgeons. Clinical Practice Guidelines for Colonic Volvulus and Acute Colonic Pseudo-Obstruction."
+  },
+  bibliografia: [
+    "Alavi K, et al. Diseases of the Colon & Rectum. 2021.",
+    "Schwartz's Principles of Surgery. Colonic Volvulus."
+  ]
+},
+{
+  id: "GASTRO-216",
+  especialidad: "Gastroenterología",
+  tema: "Obstrucción intestinal",
+  subtema: "Obstrucción colónica por neoplasia",
+  dificultad: "alta",
+  caso: `Masculino de 70 años con pérdida ponderal de 8 kg, anemia ferropénica y cambio progresivo del hábito intestinal presenta distensión, vómitos y ausencia de evacuaciones. La tomografía muestra una lesión estenosante del colon sigmoides con dilatación proximal y colon distal colapsado. No hay perforación libre ni datos concluyentes de metástasis.`,
+  pregunta: "¿Cuál es la conducta inicial más adecuada?",
+  opciones: [
+    "Indicar colonoscopia completa con preparación oral inmediata pese a la obstrucción",
+    "Administrar laxantes estimulantes para superar la estenosis",
+    "Dar de alta con dieta rica en fibra y hierro oral",
+    "Hospitalizar, estabilizar, valorar gravedad y resecabilidad con el equipo quirúrgico, y definir descompresión o intervención según el contexto",
+    "Iniciar quimioterapia antes de confirmar la naturaleza de la lesión"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "La presentación sugiere obstrucción colónica por posible cáncer colorrectal. La prioridad es estabilizar al paciente, valorar isquemia, perforación y gravedad de la obstrucción, y planificar control del problema con cirugía y endoscopia cuando proceda. En pacientes seleccionados pueden considerarse stents como puente a cirugía o para paliación en centros experimentados. La confirmación histológica y la estadificación deben integrarse en la estrategia, sin retrasar el tratamiento de una emergencia.",
+  perlaENARM: "La obstrucción colónica por probable cáncer requiere estabilización y planificación multidisciplinaria; la estrategia depende de estabilidad, localización y posibilidad de resección.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para diagnóstico y tratamiento de cáncer colorrectal y los protocolos de obstrucción intestinal.",
+    internacional: "American Society of Colon and Rectal Surgeons. Clinical Practice Guidelines for the Management of Colon Cancer."
+  },
+  bibliografia: [
+    "American Society of Colon and Rectal Surgeons. Clinical Practice Guidelines for the Management of Colon Cancer.",
+    "Schwartz's Principles of Surgery. Colonic Obstruction."
+  ]
+},
+{
+  id: "GASTRO-217",
+  especialidad: "Gastroenterología",
+  tema: "Obstrucción intestinal",
+  subtema: "Íleo paralítico posoperatorio",
+  dificultad: "alta",
+  caso: `Masculino de 59 años en el segundo día posterior a colectomía presenta distensión abdominal difusa, náuseas, intolerancia a la vía oral y ausencia de evacuaciones. Los ruidos intestinales son hipoactivos. Está afebril, hemodinámicamente estable y sin defensa abdominal. La tomografía muestra dilatación difusa de intestino delgado y colon, sin punto de transición ni signos de perforación.`,
+  pregunta: "¿Cuál es el manejo inicial más apropiado?",
+  opciones: [
+    "Realizar laparotomía exploradora inmediata en todos los casos",
+    "Revisar y corregir factores precipitantes, optimizar analgesia evitando opioides en exceso, movilizar tempranamente y ajustar líquidos y electrolitos; utilizar descompresión si está indicada",
+    "Administrar dosis altas de opioides para restablecer el tránsito",
+    "Indicar laxantes estimulantes de rutina pese a la intolerancia oral",
+    "Realizar colonoscopia urgente para descartar tumor"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La dilatación difusa sin punto de transición en el contexto posoperatorio sugiere íleo paralítico. El manejo incluye corrección de hipopotasemia y otros trastornos, revisión de fármacos, reducción de opioides cuando sea posible, movilización temprana y avance de dieta según tolerancia y evolución. La sonda nasogástrica se reserva para vómitos importantes o distensión sintomática. Debe reevaluarse ante dolor creciente, fiebre, peritonismo o evolución atípica para descartar obstrucción mecánica u otra complicación.",
+  perlaENARM: "El íleo posoperatorio suele producir dilatación difusa sin punto de transición; primero se corrigen factores reversibles y se vigila la evolución.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de recuperación posoperatoria, íleo y prevención de complicaciones quirúrgicas.",
+    internacional: "Enhanced Recovery After Surgery (ERAS) Society. Recommendations for perioperative care in colorectal surgery."
+  },
+  bibliografia: [
+    "Gustafsson UO, et al. Guidelines for perioperative care in elective colorectal surgery: Enhanced Recovery After Surgery (ERAS) Society recommendations.",
+    "Schwartz's Principles of Surgery. Postoperative Ileus."
+  ]
+},
+{
+  id: "GASTRO-218",
+  especialidad: "Gastroenterología",
+  tema: "Obstrucción intestinal",
+  subtema: "Pseudoobstrucción colónica aguda",
+  dificultad: "extrema",
+  caso: `Masculino de 76 años hospitalizado por neumonía y movilidad reducida desarrolla distensión abdominal progresiva. La tomografía muestra dilatación marcada del colon, especialmente del ciego, sin lesión obstructiva mecánica ni punto de transición claro. Está hemodinámicamente estable, sin peritonitis ni neumatosis. El diámetro cecal es de 11.5 cm.`,
+  pregunta: "Si no mejora con medidas conservadoras iniciales y no existen contraindicaciones, ¿cuál es una opción terapéutica apropiada?",
+  opciones: [
+    "Administrar laxantes formadores de masa en dosis altas",
+    "Realizar colectomía total inmediata en todos los pacientes",
+    "Administrar opioides para reducir la distensión",
+    "Indicar colonoscopia con preparación oral intensiva como primera medida",
+    "Administrar neostigmina intravenosa monitorizada, si es apropiada, o realizar descompresión colonoscópica según contraindicaciones y disponibilidad"
+  ],
+  respuestaCorrecta: 4,
+  explicacion: "La pseudoobstrucción colónica aguda o síndrome de Ogilvie produce dilatación colónica sin una obstrucción mecánica demostrable. El manejo inicial incluye corregir electrolitos, suspender fármacos precipitantes, movilización y descompresión cuando se requiera. Si fracasan las medidas conservadoras y no existen contraindicaciones, puede utilizarse neostigmina intravenosa bajo monitorización por riesgo de bradicardia; la descompresión colonoscópica es una alternativa. Isquemia, perforación o deterioro requieren valoración quirúrgica urgente.",
+  perlaENARM: "Antes de tratar un colon muy dilatado como pseudoobstrucción, debe excluirse obstrucción mecánica; la neostigmina requiere monitorización.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para pseudoobstrucción colónica aguda y urgencias quirúrgicas.",
+    internacional: "American Society of Colon and Rectal Surgeons. Clinical Practice Guidelines for the Management of Colonic Volvulus and Acute Colonic Pseudo-Obstruction."
+  },
+  bibliografia: [
+    "Alavi K, et al. The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Management of Colonic Volvulus and Acute Colonic Pseudo-Obstruction. Diseases of the Colon & Rectum. 2021.",
+    "Schwartz's Principles of Surgery. Acute Colonic Pseudo-Obstruction."
+  ]
+},
+{
+  id: "GASTRO-219",
+  especialidad: "Gastroenterología",
+  tema: "Obstrucción intestinal",
+  subtema: "Obstrucción por íleo biliar",
+  dificultad: "extrema",
+  caso: `Femenina de 81 años con antecedentes de colelitiasis y episodios de dolor biliar presenta vómitos, distensión y ausencia de evacuaciones. La tomografía muestra obstrucción del intestino delgado distal, neumobilia y un cálculo ectópico de 3.2 cm en el íleon. Se encuentra deshidratada, pero sin peritonitis ni choque.`,
+  pregunta: "¿Cuál es el tratamiento más apropiado en este contexto?",
+  opciones: [
+    "Reposición de volumen y electrolitos, valoración quirúrgica y extracción del cálculo obstructivo, individualizando la reparación de la fístula según el estado clínico",
+    "Administrar ácido ursodesoxicólico como tratamiento inmediato de la obstrucción",
+    "Indicar únicamente antibióticos y observar indefinidamente",
+    "Realizar CPRE como tratamiento definitivo del cálculo impactado en el íleon",
+    "Administrar laxantes osmóticos para fragmentar el cálculo"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El íleo biliar es una obstrucción mecánica causada por un cálculo que alcanza el tubo digestivo a través de una fístula biliodigestiva. La combinación de obstrucción, neumobilia y cálculo ectópico es característica. El manejo requiere estabilización y, habitualmente, enterolitotomía u otra estrategia quirúrgica para resolver la obstrucción. La reparación simultánea de la fístula y la cirugía biliar se individualizan, especialmente en pacientes mayores o de alto riesgo.",
+  perlaENARM: "La tríada de obstrucción intestinal, neumobilia y cálculo ectópico sugiere íleo biliar; la prioridad es resolver la obstrucción.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de obstrucción intestinal y cirugía biliar en pacientes de alto riesgo.",
+    internacional: "Schwartz's Principles of Surgery. Gallstone Ileus."
+  },
+  bibliografia: [
+    "Schwartz's Principles of Surgery. Gallstone Ileus and Biliary Disease.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Gallstone ileus."
+  ]
+},
+{
+  id: "GASTRO-220",
+  especialidad: "Gastroenterología",
+  tema: "Obstrucción intestinal",
+  subtema: "Obstrucción por enfermedad de Crohn",
+  dificultad: "extrema",
+  caso: `Masculino de 35 años con enfermedad de Crohn ileal de ocho años de evolución presenta dolor posprandial tipo cólico, distensión y vómitos intermitentes. La enterorresonancia muestra una estenosis ileal de 6 cm con engrosamiento mural, hiperrealce y edema, además de dilatación preestenótica. No hay absceso, fístula ni perforación. La proteína C reactiva está elevada.`,
+  pregunta: "¿Cuál es el principio terapéutico más apropiado?",
+  opciones: [
+    "Indicar colectomía total como tratamiento de primera línea",
+    "Administrar loperamida a dosis altas y mantener la alimentación habitual",
+    "Hospitalizar si la obstrucción es clínicamente significativa, corregir líquidos y electrolitos y determinar el componente inflamatorio frente al fibrótico para seleccionar tratamiento médico, dilatación endoscópica o cirugía",
+    "Realizar dilatación endoscópica sin valorar longitud, localización ni complicaciones",
+    "Suspender todo tratamiento de Crohn de forma permanente"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La obstrucción por Crohn puede deberse a inflamación activa, fibrosis o ambas. La estabilización y la exclusión de absceso, perforación e isquemia son prioritarias en cuadros agudos. En estenosis predominantemente inflamatorias puede optimizarse tratamiento médico; las estenosis cortas y accesibles pueden ser candidatas a dilatación endoscópica en pacientes seleccionados. La enfermedad fibrótica sintomática, las estenosis largas, la recurrencia o las complicaciones pueden requerir intervención quirúrgica. La decisión debe individualizarse con gastroenterología y cirugía.",
+  perlaENARM: "En la estenosis por Crohn, distinguir inflamación reversible de fibrosis es esencial porque la fibrosis establecida no suele resolverse solo con fármacos.",
+  gpc: {
+    mexico: "Consultar las GPC mexicanas vigentes sobre enfermedad de Crohn, enfermedad inflamatoria intestinal y obstrucción intestinal.",
+    internacional: "European Crohn's and Colitis Organisation (ECCO). Guidelines on Therapeutics in Crohn's Disease: Surgical Treatment."
+  },
+  bibliografia: [
+    "European Crohn's and Colitis Organisation. Guidelines on Therapeutics in Crohn's Disease: Surgical Treatment.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Crohn's Disease and Intestinal Strictures."
+  ]
+},
+ 
+{
+  id: "GASTRO-221",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Diferenciación entre colitis ulcerosa y enfermedad de Crohn",
+  dificultad: "Baja",
+  caso: `Femenina de 26 años presenta diarrea sanguinolenta, urgencia defecatoria, tenesmo y dolor abdominal bajo durante ocho semanas. La colonoscopia muestra inflamación continua desde el recto hasta el colon descendente, con friabilidad y pérdida del patrón vascular. El íleon terminal no presenta lesiones y las biopsias muestran colitis crónica activa.`,
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Enfermedad de Crohn ileocolónica",
+    "Colitis ulcerosa",
+    "Síndrome de intestino irritable",
+    "Colitis isquémica",
+    "Enfermedad celíaca"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La colitis ulcerosa se caracteriza típicamente por inflamación continua que inicia en el recto y se extiende proximalmente en el colon. La diarrea sanguinolenta, el tenesmo y la urgencia defecatoria son manifestaciones frecuentes. El diagnóstico se integra con clínica, endoscopia, histología y exclusión de infecciones. Ningún hallazgo aislado es absolutamente específico.",
+  perlaENARM: "Inflamación continua desde el recto y diarrea sanguinolenta orientan a colitis ulcerosa.",
+  gpc: {
+    mexico: "Consultar el catálogo CENETEC/IMSS para localizar la GPC mexicana vigente aplicable a enfermedad inflamatoria intestinal.",
+    internacional: "American College of Gastroenterology (ACG). Clinical Guideline: Ulcerative Colitis in Adults."
+  },
+  bibliografia: [
+    "Rubin DT, et al. ACG Clinical Guideline: Ulcerative Colitis in Adults.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Inflammatory Bowel Disease."
+  ]
+},
+{
+  id: "GASTRO-222",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Enfermedad de Crohn y patrón transmural",
+  dificultad: "Media",
+  caso: `Masculino de 24 años presenta dolor recurrente en fosa iliaca derecha, pérdida ponderal, diarrea crónica y febrícula. La colonoscopia identifica lesiones salteadas en íleon terminal y colon derecho, con úlceras profundas y mucosa normal entre segmentos afectados. La biopsia muestra inflamación crónica compatible con enfermedad inflamatoria intestinal.`,
+  pregunta: "¿Qué característica distingue mejor a la enfermedad de Crohn de la colitis ulcerosa?",
+  opciones: [
+    "La afectación exclusiva de la mucosa rectal",
+    "La inflamación continua limitada al colon",
+    "La posibilidad de afectar cualquier segmento del tubo digestivo y producir inflamación transmural",
+    "La ausencia de estenosis y fístulas durante toda su evolución",
+    "La afectación obligatoria y exclusiva del intestino grueso"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La enfermedad de Crohn puede afectar cualquier segmento del tubo digestivo, desde la boca hasta la región perianal, y presenta distribución segmentaria. Su carácter transmural favorece complicaciones como estenosis, abscesos y fístulas. La colitis ulcerosa afecta el colon y suele presentar inflamación mucosa continua que inicia en el recto.",
+  perlaENARM: "Crohn: lesiones salteadas, posible afectación ileal y complicaciones transmuralmente mediadas, como fístulas y estenosis.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente aplicable a enfermedad de Crohn.",
+    internacional: "American College of Gastroenterology. Clinical Guideline: Management of Crohn's Disease in Adults."
+  },
+  bibliografia: [
+    "Lichtenstein GR, et al. ACG Clinical Guideline: Management of Crohn's Disease in Adults.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Crohn's Disease."
+  ]
+},
+{
+  id: "GASTRO-223",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Evaluación inicial de diarrea inflamatoria",
+  dificultad: "Alta",
+  caso: `Femenina de 31 años presenta diarrea de seis semanas, dolor abdominal, evacuaciones nocturnas y pérdida de 5 kg. La biometría muestra anemia y trombocitosis. La proteína C reactiva está elevada. La calprotectina fecal también está elevada, pero todavía no se han realizado estudios microbiológicos ni endoscopia.`,
+  pregunta: "¿Cuál es el siguiente enfoque diagnóstico más apropiado?",
+  opciones: [
+    "Diagnosticar enfermedad de Crohn exclusivamente por la calprotectina elevada",
+    "Diagnosticar síndrome de intestino irritable y evitar estudios adicionales",
+    "Iniciar corticoesteroides sistémicos sin descartar infección",
+    "Investigar causas infecciosas según antecedentes, completar evaluación clínica y realizar ileocolonoscopia con biopsias cuando sea apropiado",
+    "Solicitar únicamente una prueba de sangre oculta en heces"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "La diarrea nocturna, la pérdida ponderal, la anemia y los marcadores inflamatorios sugieren enfermedad orgánica. La calprotectina fecal ayuda a distinguir inflamación intestinal de trastornos funcionales, pero no confirma por sí sola enfermedad inflamatoria intestinal. Es necesario considerar infecciones y otras causas, y establecer el diagnóstico mediante integración clínica, endoscópica e histológica. La imagen del intestino delgado puede complementar el estudio si se sospecha Crohn.",
+  perlaENARM: "La calprotectina fecal es un marcador de inflamación intestinal, no una prueba etiológica definitiva.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente aplicable al abordaje de diarrea crónica y enfermedad inflamatoria intestinal.",
+    internacional: "European Crohn's and Colitis Organisation (ECCO). Guidelines on Diagnostics in Inflammatory Bowel Disease."
+  },
+  bibliografia: [
+    "Maaser C, et al. ECCO-ESGAR Guideline for Diagnostic Assessment in Inflammatory Bowel Disease.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Diagnostic Evaluation of IBD."
+  ]
+},
+{
+  id: "GASTRO-224",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Colitis ulcerosa aguda grave",
+  dificultad: "Muy alta",
+  caso: `Masculino de 35 años con colitis ulcerosa conocida presenta nueve evacuaciones sanguinolentas en 24 horas, temperatura de 38.2 °C, FC 112 lpm, hemoglobina de 9.8 g/dL y elevación de reactantes de fase aguda. La radiografía no muestra dilatación colónica importante. Se encuentra hospitalizado y se ha descartado infección por Clostridioides difficile.`,
+  pregunta: "¿Cuál es el tratamiento inicial más apropiado?",
+  opciones: [
+    "Loperamida y egreso con seguimiento ambulatorio",
+    "Corticoesteroides intravenosos, evaluación de complicaciones, profilaxis tromboembólica cuando esté indicada y valoración diaria de respuesta",
+    "Mesalazina rectal como único tratamiento, independientemente de la gravedad",
+    "Colectomía inmediata en todos los pacientes antes de intentar tratamiento médico",
+    "Antibióticos de amplio espectro como monoterapia"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El cuadro es compatible con colitis ulcerosa aguda grave y requiere hospitalización. El tratamiento inicial habitual incluye corticoesteroides intravenosos, evaluación de infección y complicaciones, soporte hidroelectrolítico y profilaxis de tromboembolismo venoso si no está contraindicada. La respuesta se evalúa tempranamente. Si fracasa el tratamiento médico, se consideran terapias de rescate y valoración quirúrgica sin demoras injustificadas.",
+  perlaENARM: "La colitis ulcerosa aguda grave requiere hospitalización y corticoesteroides intravenosos; debe evaluarse tempranamente la respuesta.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente y los protocolos institucionales para colitis ulcerosa grave.",
+    internacional: "American College of Gastroenterology. Clinical Guideline: Ulcerative Colitis in Adults."
+  },
+  bibliografia: [
+    "Rubin DT, et al. ACG Clinical Guideline: Ulcerative Colitis in Adults.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Severe Ulcerative Colitis."
+  ]
+},
+{
+  id: "GASTRO-225",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Absceso y fístula perianal en Crohn",
+  dificultad: "Extrema",
+  caso: `Masculino de 32 años con enfermedad de Crohn presenta fiebre, dolor perianal intenso y secreción purulenta. La resonancia pélvica identifica una fístula compleja y un absceso perianal de 3.5 cm. El paciente no presenta choque, pero tiene elevación de leucocitos y proteína C reactiva.`,
+  pregunta: "¿Cuál es la estrategia terapéutica prioritaria?",
+  opciones: [
+    "Iniciar infliximab inmediatamente como única intervención",
+    "Administrar corticoesteroides sistémicos a dosis altas sin controlar la infección",
+    "Drenar el absceso y controlar la sepsis; después planificar tratamiento médico y quirúrgico combinado para la enfermedad fistulizante",
+    "Indicar únicamente baños de asiento y observación",
+    "Realizar colectomía total de forma sistemática"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "Un absceso perianal asociado a Crohn requiere control del foco infeccioso, generalmente mediante drenaje, y valoración por cirugía colorrectal. En fístulas complejas puede utilizarse un setón para mantener el drenaje. Una vez controlada la sepsis, se valora terapia biológica, frecuentemente anti-TNF en pacientes seleccionados, junto con manejo quirúrgico. La inmunosupresión aislada no sustituye el drenaje del absceso.",
+  perlaENARM: "En Crohn fistulizante con absceso, primero se controla el foco séptico; después se coordina la terapia biológica con cirugía.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre enfermedad de Crohn y los protocolos institucionales para absceso perianal.",
+    internacional: "American College of Gastroenterology. Clinical Guideline: Management of Crohn's Disease in Adults."
+  },
+  bibliografia: [
+    "Lichtenstein GR, et al. ACG Clinical Guideline: Management of Crohn's Disease in Adults.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Perianal Crohn's Disease."
+  ]
+},
+{
+  id: "GASTRO-226",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Tratamiento de colitis ulcerosa leve a moderada",
+  dificultad: "Baja",
+  caso: `Femenina de 28 años con colitis ulcerosa confirmada presenta cuatro evacuaciones al día, sangre escasa y urgencia defecatoria. No tiene fiebre, taquicardia, anemia significativa ni elevación marcada de reactantes de fase aguda. La enfermedad se limita al recto y colon distal.`,
+  pregunta: "¿Cuál es una opción terapéutica inicial apropiada para enfermedad distal leve a moderada?",
+  opciones: [
+    "Colectomía total inmediata",
+    "Antibióticos intravenosos de amplio espectro como monoterapia",
+    "Corticoesteroides sistémicos indefinidos para todos los pacientes",
+    "Mesalazina rectal; puede combinarse con mesalazina oral según extensión y respuesta",
+    "Iniciar inmunosupresión intensiva sin tratamiento convencional previo"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "En colitis ulcerosa distal leve a moderada, la mesalazina rectal es una opción inicial fundamental. En proctosigmoiditis o enfermedad más extensa puede utilizarse tratamiento combinado oral y rectal. La elección depende de la extensión, gravedad, tolerancia, adherencia y respuesta. La falta de respuesta obliga a reevaluar diagnóstico, adherencia y necesidad de escalar tratamiento.",
+  perlaENARM: "En colitis ulcerosa distal leve a moderada, la mesalazina rectal es una opción de primera línea.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente aplicable al tratamiento de colitis ulcerosa.",
+    internacional: "American College of Gastroenterology. Clinical Guideline: Ulcerative Colitis in Adults."
+  },
+  bibliografia: [
+    "Rubin DT, et al. ACG Clinical Guideline: Ulcerative Colitis in Adults.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Ulcerative Colitis."
+  ]
+},
+{
+  id: "GASTRO-227",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Megacolon tóxico",
+  dificultad: "Muy alta",
+  caso: `Femenina de 42 años con colitis ulcerosa presenta fiebre de 39 °C, FC 128 lpm, dolor y distensión abdominal, hipotensión relativa y numerosas evacuaciones sanguinolentas. La radiografía muestra dilatación colónica transversal de 6.5 cm. Se sospecha megacolon tóxico.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Administrar loperamida y continuar manejo ambulatorio",
+    "Realizar colonoscopia completa con insuflación intensa para determinar la extensión",
+    "Iniciar laxantes y preparar al colon para colonoscopia",
+    "Indicar únicamente mesalazina oral y reevaluar en una semana",
+    "Hospitalizar de urgencia, proporcionar soporte y tratamiento médico especializado, evitar fármacos que reduzcan la motilidad y solicitar valoración quirúrgica temprana"
+  ],
+  respuestaCorrecta: 4,
+  explicacion: "El megacolon tóxico es una complicación potencialmente mortal caracterizada por dilatación colónica no obstructiva en el contexto de colitis grave y toxicidad sistémica. Requiere hospitalización, corrección hidroelectrolítica, evaluación de infección, tratamiento de la colitis y vigilancia estrecha. Deben evitarse antidiarreicos, opioides innecesarios y procedimientos endoscópicos que aumenten el riesgo de perforación. La perforación, el deterioro o la falta de respuesta pueden requerir colectomía urgente.",
+  perlaENARM: "Dilatación colónica más toxicidad sistémica en colitis grave: sospechar megacolon tóxico y valorar cirugía tempranamente.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para colitis grave, megacolon tóxico y cirugía de urgencia.",
+    internacional: "American College of Gastroenterology. Clinical Guideline: Ulcerative Colitis in Adults."
+  },
+  bibliografia: [
+    "Rubin DT, et al. ACG Clinical Guideline: Ulcerative Colitis in Adults.",
+    "Schwartz's Principles of Surgery. Toxic Megacolon."
+  ]
+},
+{
+  id: "GASTRO-228",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Estenosis ileal por Crohn",
+  dificultad: "Alta",
+  caso: `Masculino de 39 años con enfermedad de Crohn ileal presenta episodios recurrentes de dolor posprandial, distensión y vómitos. La enterorresonancia identifica una estenosis ileal de 4 cm con dilatación preestenótica, sin absceso ni perforación. Se observan edema mural e hiperrealce, compatibles con un componente inflamatorio activo.`,
+  pregunta: "¿Cuál es el principio más importante para seleccionar el tratamiento?",
+  opciones: [
+    "Distinguir el componente inflamatorio del fibrótico y valorar longitud, accesibilidad, complicaciones y respuesta al tratamiento",
+    "Indicar colectomía total en todos los pacientes con Crohn ileal",
+    "Administrar loperamida como tratamiento definitivo",
+    "Asumir que toda estenosis se resolverá con corticoesteroides",
+    "Realizar dilatación endoscópica sin evaluar la anatomía ni el riesgo"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Las estenosis por Crohn pueden contener componentes inflamatorios y fibróticos. El componente inflamatorio puede responder a tratamiento médico, mientras que la fibrosis establecida suele requerir dilatación endoscópica en estenosis cortas y apropiadas o cirugía. La elección depende de longitud, localización, accesibilidad, síntomas, complicaciones y antecedentes quirúrgicos. La presencia de absceso, perforación o isquemia cambia la urgencia.",
+  perlaENARM: "La distinción entre inflamación y fibrosis orienta el manejo de las estenosis por Crohn; no todas responden a fármacos.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre enfermedad de Crohn y protocolos para estenosis intestinal.",
+    internacional: "European Crohn's and Colitis Organisation (ECCO). Guidelines on Therapeutics in Crohn's Disease: Surgical Treatment."
+  },
+  bibliografia: [
+    "ECCO. Guidelines on Therapeutics in Crohn's Disease: Surgical Treatment.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Crohn's Disease and Intestinal Strictures."
+  ]
+},
+{
+  id: "GASTRO-229",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Manifestaciones extraintestinales",
+  dificultad: "Media",
+  caso: `Masculino de 30 años con colitis ulcerosa presenta dolor ocular intenso, fotofobia, enrojecimiento y disminución de la agudeza visual. No refiere traumatismo ocular. La exploración inicial sugiere inflamación del segmento anterior del ojo.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Atribuir los síntomas a fatiga visual y observar durante varias semanas",
+    "Indicar únicamente lágrimas artificiales y continuar sin evaluación",
+    "Reconocer una posible uveítis asociada a enfermedad inflamatoria intestinal y solicitar valoración oftalmológica urgente",
+    "Suspender toda terapia para colitis ulcerosa sin evaluación clínica",
+    "Administrar antibióticos tópicos como tratamiento definitivo sin confirmar etiología"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La uveítis es una manifestación extraintestinal posible de la enfermedad inflamatoria intestinal. El dolor ocular, la fotofobia y la disminución visual son datos de alarma que requieren valoración oftalmológica urgente para prevenir complicaciones visuales. El tratamiento depende del tipo de inflamación ocular y debe coordinarse con oftalmología y gastroenterología.",
+  perlaENARM: "En enfermedad inflamatoria intestinal, dolor ocular, fotofobia y visión disminuida requieren valoración urgente por posible uveítis.",
+  gpc: {
+    mexico: "Consultar recomendaciones mexicanas vigentes sobre manifestaciones extraintestinales de enfermedad inflamatoria intestinal.",
+    internacional: "European Crohn's and Colitis Organisation. Guidelines on Extraintestinal Manifestations in Inflammatory Bowel Disease."
+  },
+  bibliografia: [
+    "ECCO. Guidelines on Extraintestinal Manifestations in Inflammatory Bowel Disease.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Extraintestinal Manifestations of IBD."
+  ]
+},
+{
+  id: "GASTRO-230",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Falta de respuesta a corticoesteroides en colitis ulcerosa grave",
+  dificultad: "Extrema",
+  caso: `Masculino de 41 años con colitis ulcerosa aguda grave recibe corticoesteroides intravenosos durante tres días, junto con soporte hospitalario y profilaxis tromboembólica. Continúa con numerosas evacuaciones sanguinolentas, taquicardia y elevación de proteína C reactiva. La evaluación no muestra perforación ni megacolon tóxico, y las pruebas iniciales no identifican infección activa.`,
+  pregunta: "¿Cuál es la conducta más apropiada ante la falta de respuesta al tratamiento inicial?",
+  opciones: [
+    "Mantener los mismos corticoesteroides durante varias semanas sin reevaluar",
+    "Dar de alta con corticoesteroides orales y seguimiento diferido",
+    "Agregar loperamida para disminuir las evacuaciones y evitar la cirugía",
+    "Valorar tratamiento de rescate, como infliximab o ciclosporina en pacientes seleccionados, y mantener participación temprana del equipo quirúrgico",
+    "Indicar antibióticos como única terapia y suspender la evaluación especializada"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "La falta de respuesta a corticoesteroides intravenosos después de una evaluación temprana obliga a considerar tratamiento de rescate, habitualmente infliximab o ciclosporina en pacientes seleccionados, según contraindicaciones, experiencia y características clínicas. La valoración quirúrgica debe mantenerse activa, porque retrasar la colectomía cuando existe fracaso médico o deterioro puede aumentar el riesgo. La aparición de perforación, hemorragia incontrolable o megacolon tóxico requiere reevaluación urgente.",
+  perlaENARM: "En colitis ulcerosa aguda grave refractaria a corticoesteroides, decide oportunamente entre rescate médico y cirugía; no prolongues un tratamiento ineficaz.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente y los protocolos institucionales de colitis ulcerosa aguda grave refractaria.",
+    internacional: "American College of Gastroenterology. Clinical Guideline: Ulcerative Colitis in Adults."
+  },
+  bibliografia: [
+    "Rubin DT, et al. ACG Clinical Guideline: Ulcerative Colitis in Adults.",
+    "Sleisenger and Fordtran's Gastrointestinal and Liver Disease. Acute Severe Ulcerative Colitis."
+  ]
+},
+ {
+  id: "GASTRO-231",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome de intestino irritable",
+  subtema: "Criterios diagnósticos de Roma IV",
+  dificultad: "Baja",
+  caso: "Mujer de 26 años acude por dolor abdominal recurrente, asociado con cambios en la frecuencia y consistencia de las evacuaciones. Refiere que los síntomas comenzaron hace 8 meses y se presentan aproximadamente 2 días por semana durante los últimos 4 meses. El dolor se relaciona con la defecación. No presenta pérdida de peso, sangrado gastrointestinal ni fiebre.",
+  pregunta: "¿Cuál es el diagnóstico más probable de acuerdo con los criterios de Roma IV?",
+  opciones: [
+    "Enfermedad inflamatoria intestinal",
+    "Síndrome de intestino irritable",
+    "Dispepsia funcional",
+    "Enfermedad celíaca",
+    "Colitis infecciosa crónica"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Los criterios de Roma IV para el síndrome de intestino irritable requieren dolor abdominal recurrente, en promedio al menos 1 día por semana durante los últimos 3 meses, asociado con al menos 2 de los siguientes: relación con la defecación, cambio en la frecuencia de las evacuaciones y cambio en la forma de las heces. El inicio de los síntomas debe haber ocurrido al menos 6 meses antes del diagnóstico. La paciente cumple estos criterios. El diagnóstico es clínico y debe complementarse con estudios dirigidos cuando estén indicados por los síntomas o los hallazgos clínicos.",
+  perlaENARM: "Roma IV: dolor abdominal ≥1 día/semana durante los últimos 3 meses, asociado con ≥2 características intestinales; inicio ≥6 meses antes del diagnóstico.",
+  gpc: "No se asigna clave de GPC mexicana: no se ha verificado una guía mexicana específica y vigente que sustente este reactivo. Referencia complementaria: criterios de Roma IV.",
+  bibliografia: [
+    "Lacy BE, et al. Bowel Disorders. Gastroenterology. 2016;150(6):1393-1407.e5. doi:10.1053/j.gastro.2016.02.031.",
+    "Drossman DA, Hasler WL. Rome IV—Functional GI Disorders: Disorders of Gut-Brain Interaction. Gastroenterology. 2016;150(6):1257-1261."
+  ]
+},
+{
+  id: "GASTRO-232",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome de intestino irritable",
+  subtema: "Fisiopatología y trastornos de la interacción intestino-cerebro",
+  dificultad: "Media",
+  caso: "Hombre de 32 años presenta dolor abdominal recurrente, distensión y alternancia entre diarrea y estreñimiento. Los síntomas empeoran durante periodos de estrés laboral. La exploración física no muestra alteraciones relevantes y los estudios iniciales no identifican enfermedad orgánica.",
+  pregunta: "¿Cuál de los siguientes mecanismos fisiopatológicos explica mejor el cuadro clínico?",
+  opciones: [
+    "Destrucción autoinmunitaria progresiva de las células epiteliales intestinales",
+    "Obstrucción mecánica intermitente del intestino delgado",
+    "Alteraciones de la interacción intestino-cerebro, con cambios en la sensibilidad visceral y la motilidad intestinal",
+    "Insuficiencia pancreática exocrina con maldigestión primaria de grasas",
+    "Vasculitis de los vasos mesentéricos con isquemia intestinal recurrente"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "El síndrome de intestino irritable es un trastorno de la interacción intestino-cerebro. Su fisiopatología es multifactorial e incluye hipersensibilidad visceral, alteraciones de la motilidad y de la regulación del sistema nervioso entérico, procesamiento central del dolor, factores psicosociales y, en determinados pacientes, cambios en la microbiota o antecedentes de gastroenteritis. El estrés puede modular los síntomas mediante vías neuroendocrinas y autonómicas, sin que esto implique que el trastorno sea imaginario o exclusivamente psicológico.",
+  perlaENARM: "La hipersensibilidad visceral y la alteración de la interacción intestino-cerebro explican el dolor y la asociación de los síntomas con el estrés. No existe un biomarcador único que confirme el diagnóstico.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia complementaria: literatura científica sobre trastornos de la interacción intestino-cerebro.",
+  bibliografia: [
+    "Drossman DA, Hasler WL. Rome IV—Functional GI Disorders: Disorders of Gut-Brain Interaction. Gastroenterology. 2016;150(6):1257-1261.",
+    "Lacy BE, et al. ACG Clinical Guideline: Management of Irritable Bowel Syndrome. Am J Gastroenterol. 2021;116(1):17-44. doi:10.14309/ajg.0000000000001036."
+  ]
+},
+{
+  id: "GASTRO-233",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome de intestino irritable",
+  subtema: "Abordaje diagnóstico y pruebas complementarias",
+  dificultad: "Media",
+  caso: "Mujer de 29 años presenta dolor abdominal recurrente, distensión y evacuaciones diarreicas intermitentes desde hace 10 meses. Cumple los criterios clínicos de Roma IV. No tiene fiebre, pérdida de peso, anemia conocida ni antecedentes familiares de cáncer colorrectal. No se ha realizado evaluación de enfermedad celíaca.",
+  pregunta: "¿Cuál es la estrategia diagnóstica más apropiada en esta paciente con síntomas predominantes de diarrea?",
+  opciones: [
+    "Solicitar colonoscopia, tomografía abdominal y cápsula endoscópica de manera rutinaria",
+    "Establecer el diagnóstico exclusivamente mediante coprocultivo",
+    "Solicitar serología para enfermedad celíaca y proteína C reactiva o calprotectina fecal según el contexto clínico",
+    "Solicitar anticuerpos antinucleares y factor reumatoide para confirmar el diagnóstico",
+    "Realizar biopsia intestinal antes de considerar cualquier diagnóstico funcional"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "En pacientes con sospecha de síndrome de intestino irritable y diarrea, se recomienda una estrategia diagnóstica positiva basada en los síntomas, con estudios limitados y dirigidos. La serología para enfermedad celíaca permite detectar una enfermedad que puede simular este cuadro. La proteína C reactiva y la calprotectina fecal pueden ayudar a identificar pacientes con mayor probabilidad de enfermedad inflamatoria intestinal. La selección de estudios depende de la presentación clínica y de los factores de riesgo. La colonoscopia no es necesaria de forma rutinaria en pacientes jóvenes sin signos de alarma.",
+  perlaENARM: "SII con diarrea: considerar serología celíaca y calprotectina fecal o PCR para evaluar diagnósticos alternativos. Una estrategia positiva evita estudios invasivos innecesarios.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia complementaria: guía clínica ACG sobre síndrome de intestino irritable.",
+  bibliografia: [
+    "Lacy BE, et al. ACG Clinical Guideline: Management of Irritable Bowel Syndrome. Am J Gastroenterol. 2021;116(1):17-44.",
+    "Arasaradnam RP, et al. Guidelines for the investigation of chronic diarrhoea in adults: British Society of Gastroenterology, 3rd edition. Gut. 2018;67:1380-1399."
+  ]
+},
+{
+  id: "GASTRO-234",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome de intestino irritable",
+  subtema: "Signos de alarma y diagnóstico diferencial",
+  dificultad: "Alta",
+  caso: "Hombre de 58 años refiere dolor abdominal recurrente y cambios recientes en el hábito intestinal. Durante los últimos 4 meses ha perdido 7 kg sin proponérselo. En los estudios iniciales se identifica anemia ferropénica. No se ha realizado colonoscopia.",
+  pregunta: "¿Cuál es la conducta más apropiada ante esta presentación clínica?",
+  opciones: [
+    "Diagnosticar síndrome de intestino irritable y comenzar fibra soluble",
+    "Iniciar tratamiento empírico con antiespasmódicos y reevaluar en 6 meses",
+    "Indicar una dieta baja en FODMAP sin realizar estudios adicionales",
+    "Investigar enfermedad orgánica mediante evaluación prioritaria, incluida colonoscopia según el contexto clínico",
+    "Solicitar exclusivamente una prueba de aliento para sobrecrecimiento bacteriano"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "La pérdida de peso involuntaria, la anemia ferropénica y el cambio reciente del hábito intestinal en una persona mayor son signos de alarma que obligan a investigar enfermedad orgánica, incluido cáncer colorrectal y enfermedad inflamatoria intestinal. No debe atribuirse este cuadro a síndrome de intestino irritable sin una evaluación apropiada. La colonoscopia con toma de biopsias cuando corresponda es una herramienta importante para establecer el diagnóstico diferencial.",
+  perlaENARM: "Signos de alarma: hemorragia digestiva, anemia ferropénica, pérdida de peso involuntaria, masa abdominal, antecedentes familiares relevantes y síntomas de inicio reciente a mayor edad. Su presencia modifica la estrategia diagnóstica.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. La indicación de estudios se fundamenta en signos de alarma y en la evaluación de diagnósticos alternativos.",
+  bibliografia: [
+    "Lacy BE, et al. ACG Clinical Guideline: Management of Irritable Bowel Syndrome. Am J Gastroenterol. 2021;116(1):17-44.",
+    "Arasaradnam RP, et al. Guidelines for the investigation of chronic diarrhoea in adults: British Society of Gastroenterology, 3rd edition. Gut. 2018;67:1380-1399."
+  ]
+},
+{
+  id: "GASTRO-235",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome de intestino irritable",
+  subtema: "Clasificación por patrón evacuatorio",
+  dificultad: "Alta",
+  caso: "Mujer de 35 años cumple los criterios de Roma IV para síndrome de intestino irritable. Durante un diario de evacuaciones de 2 semanas, el 40% de las deposiciones corresponden a los tipos 1 y 2 de la escala de Bristol, el 15% a los tipos 6 y 7 y el resto a los tipos 3, 4 y 5. No utiliza laxantes ni antidiarreicos.",
+  pregunta: "¿Cómo debe clasificarse su síndrome de intestino irritable según la escala de Bristol?",
+  opciones: [
+    "SII con estreñimiento (SII-E)",
+    "SII con diarrea (SII-D)",
+    "SII mixto (SII-M)",
+    "SII no clasificable (SII-NC)",
+    "Estreñimiento funcional"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La clasificación de Roma IV utiliza la forma de las heces en los días con deposiciones anormales. El SII con estreñimiento presenta más del 25% de heces tipo 1-2 y menos del 25% tipo 6-7. El SII con diarrea presenta más del 25% tipo 6-7 y menos del 25% tipo 1-2. El SII mixto requiere más del 25% de heces tipo 1-2 y más del 25% tipo 6-7. En este caso, el 40% corresponde a heces tipo 1-2 y el 15% a tipos 6-7, por lo que corresponde a SII-E.",
+  perlaENARM: "Corrección importante: con los porcentajes del caso, la respuesta correcta es **SII con estreñimiento (SII-E)**, opción 0. El SII mixto exige superar el 25% tanto para heces tipo 1-2 como para tipos 6-7.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Clasificación basada en los criterios de Roma IV.",
+  bibliografia: [
+    "Lacy BE, et al. Bowel Disorders. Gastroenterology. 2016;150(6):1393-1407.e5.",
+    "Lacy BE, et al. ACG Clinical Guideline: Management of Irritable Bowel Syndrome. Am J Gastroenterol. 2021;116(1):17-44."
+  ]
+},
+{
+  id: "GASTRO-236",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome de intestino irritable",
+  subtema: "Tratamiento no farmacológico y dieta baja en FODMAP",
+  dificultad: "Muy alta",
+  caso: "Hombre de 30 años presenta síndrome de intestino irritable con diarrea, distensión y dolor abdominal que interfieren con sus actividades cotidianas. No presenta signos de alarma y la evaluación dirigida no sugiere enfermedad celíaca ni inflamatoria intestinal. Desea comenzar una intervención dietética.",
+  pregunta: "¿Cuál de las siguientes estrategias dietéticas tiene evidencia clínica para mejorar los síntomas globales del síndrome de intestino irritable?",
+  opciones: [
+    "Eliminar de manera permanente todos los carbohidratos de la dieta",
+    "Implementar una dieta baja en FODMAP por tiempo limitado, seguida de reintroducción y personalización",
+    "Suspender de manera indefinida todos los productos lácteos, cereales y frutas",
+    "Mantener una dieta exclusivamente líquida durante 4 semanas",
+    "Aumentar indiscriminadamente el consumo de fibra insoluble para reducir la diarrea"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Una dieta baja en FODMAP puede mejorar el dolor abdominal, la distensión y los síntomas globales en algunos pacientes con síndrome de intestino irritable. La intervención debe ser temporal y estructurada: restricción inicial, reintroducción progresiva y personalización para identificar desencadenantes individuales. Se recomienda, cuando sea posible, la supervisión de un profesional de nutrición con experiencia en trastornos gastrointestinales. La restricción prolongada e indiscriminada puede comprometer la calidad nutricional y la diversidad de la microbiota.",
+  perlaENARM: "Dieta baja en FODMAP: restricción temporal, reintroducción y personalización. No debe convertirse automáticamente en una dieta de exclusión permanente.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia complementaria: guía ACG sobre manejo del síndrome de intestino irritable.",
+  bibliografia: [
+    "Lacy BE, et al. ACG Clinical Guideline: Management of Irritable Bowel Syndrome. Am J Gastroenterol. 2021;116(1):17-44.",
+    "Black CJ, et al. Efficacy of a low FODMAP diet in irritable bowel syndrome: systematic review and network meta-analysis. Gut. 2022;71:1117-1126."
+  ]
+},
+{
+  id: "GASTRO-237",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome de intestino irritable",
+  subtema: "Fibra soluble y tratamiento del estreñimiento",
+  dificultad: "Muy alta",
+  caso: "Mujer de 42 años con síndrome de intestino irritable con estreñimiento presenta dolor abdominal, distensión y evacuaciones duras. No tiene signos de alarma. Solicita una intervención inicial que mejore la consistencia de las heces sin incrementar excesivamente la distensión.",
+  pregunta: "¿Cuál es la opción de suplementación con fibra más apropiada como parte del tratamiento inicial?",
+  opciones: [
+    "Salvado de trigo en dosis altas desde el primer día",
+    "Psyllium, con incremento gradual de la dosis y adecuada hidratación",
+    "Suspender toda fuente de fibra dietética",
+    "Utilizar únicamente fibra insoluble y evitar la fibra soluble",
+    "Administrar laxantes estimulantes de forma indefinida como primera intervención"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La fibra soluble, particularmente el psyllium, puede mejorar los síntomas globales del síndrome de intestino irritable. Se recomienda comenzar con una dosis baja y aumentarla gradualmente según tolerancia para reducir la distensión y la flatulencia. La fibra insoluble, como el salvado de trigo, puede exacerbar síntomas en algunos pacientes. Si persisten el estreñimiento o el dolor, debe individualizarse el tratamiento farmacológico de acuerdo con el subtipo y la respuesta clínica.",
+  perlaENARM: "En SII, preferir fibra soluble como psyllium frente a salvado de trigo. La titulación gradual mejora la tolerancia gastrointestinal.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia complementaria: guía clínica ACG.",
+  bibliografia: [
+    "Lacy BE, et al. ACG Clinical Guideline: Management of Irritable Bowel Syndrome. Am J Gastroenterol. 2021;116(1):17-44.",
+    "Ford AC, et al. Effect of fibre, antispasmodics, and peppermint oil in the treatment of irritable bowel syndrome: systematic review and meta-analysis. BMJ. 2008;337:a2313."
+  ]
+},
+{
+  id: "GASTRO-238",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome de intestino irritable",
+  subtema: "Tratamiento farmacológico del SII con diarrea",
+  dificultad: "Alta",
+  caso: "Hombre de 38 años con síndrome de intestino irritable con diarrea presenta evacuaciones frecuentes y urgencia defecatoria que afectan su vida laboral. No tiene fiebre, sangre en heces ni datos de deshidratación. La evaluación inicial no sugiere enfermedad inflamatoria intestinal ni infección activa.",
+  pregunta: "¿Cuál de las siguientes afirmaciones sobre el tratamiento farmacológico es correcta?",
+  opciones: [
+    "Los antibióticos sistémicos de amplio espectro son el tratamiento inicial obligatorio",
+    "La loperamida puede mejorar la frecuencia y consistencia de las evacuaciones, aunque no necesariamente el dolor global del SII",
+    "Los corticoesteroides sistémicos son el tratamiento de primera línea",
+    "Los opioides potentes son el tratamiento preferido a largo plazo para el dolor abdominal",
+    "Los inhibidores de la bomba de protones controlan de forma específica la diarrea funcional"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La loperamida puede reducir la frecuencia de las deposiciones y mejorar su consistencia en el SII con diarrea, pero su efecto sobre el dolor abdominal global y el conjunto de síntomas es limitado. El tratamiento debe individualizarse y puede incluir intervenciones dietéticas, manejo de síntomas específicos y fármacos dirigidos al SII con diarrea cuando estén indicados. La rifaximina es una opción para determinados pacientes con SII-D; no debe confundirse con el uso indiscriminado de antibióticos sistémicos.",
+  perlaENARM: "Loperamida: mejora diarrea y frecuencia evacuatoria, pero no necesariamente el dolor global del SII. Evitar opioides como estrategia crónica para el dolor por sus riesgos y complicaciones.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia complementaria: guía ACG sobre tratamiento del SII.",
+  bibliografia: [
+    "Lacy BE, et al. ACG Clinical Guideline: Management of Irritable Bowel Syndrome. Am J Gastroenterol. 2021;116(1):17-44.",
+    "Vasant DH, et al. British Society of Gastroenterology guidelines on the management of irritable bowel syndrome. Gut. 2021;70:1214-1240."
+  ]
+},
+{
+  id: "GASTRO-239",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome de intestino irritable",
+  subtema: "Tratamiento del dolor abdominal refractario",
+  dificultad: "Extrema",
+  caso: "Mujer de 36 años con síndrome de intestino irritable presenta dolor abdominal persistente y distensión que afectan significativamente su calidad de vida, a pesar de medidas dietéticas individualizadas, fibra soluble y tratamiento sintomático. No presenta signos de alarma y la evaluación diagnóstica es compatible con un trastorno de la interacción intestino-cerebro. Refiere ansiedad relacionada con sus síntomas y temor a comer por la posibilidad de presentar dolor.",
+  pregunta: "¿Cuál de las siguientes estrategias puede considerarse para el manejo integral de los síntomas persistentes?",
+  opciones: [
+    "Indicar opioides potentes de manera crónica y suspender las intervenciones no farmacológicas",
+    "Repetir colonoscopias de manera periódica aunque no existan nuevas indicaciones clínicas",
+    "Considerar un neuromodulador, como un antidepresivo tricíclico a dosis bajas, junto con intervenciones psicológicas dirigidas al intestino-cerebro",
+    "Prescribir corticoesteroides sistémicos durante varios meses",
+    "Indicar antibióticos de amplio espectro de manera indefinida"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "En pacientes con SII persistente, especialmente cuando predomina el dolor abdominal, los antidepresivos tricíclicos a dosis bajas pueden utilizarse como neuromoduladores del dolor visceral. La terapia cognitivo-conductual y la hipnoterapia dirigida al intestino pueden mejorar los síntomas globales en pacientes seleccionados. El abordaje debe ser multidimensional y considerar el subtipo del SII, las comorbilidades, las preferencias del paciente y los efectos adversos. Los opioides crónicos pueden causar dependencia y síndrome de intestino narcótico; los corticoesteroides no están indicados para el SII no complicado.",
+  perlaENARM: "Dolor persistente en SII: considerar neuromodulación y terapias psicológicas dirigidas al intestino-cerebro. Los antidepresivos tricíclicos pueden ser útiles incluso sin depresión mayor.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia complementaria: guías ACG y BSG sobre manejo integral del SII.",
+  bibliografia: [
+    "Lacy BE, et al. ACG Clinical Guideline: Management of Irritable Bowel Syndrome. Am J Gastroenterol. 2021;116(1):17-44.",
+    "Vasant DH, et al. British Society of Gastroenterology guidelines on the management of irritable bowel syndrome. Gut. 2021;70:1214-1240."
+  ]
+},
+{
+  id: "GASTRO-240",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome de intestino irritable",
+  subtema: "Diagnóstico diferencial de diarrea acuosa crónica",
+  dificultad: "Extrema",
+  caso: "Mujer de 63 años presenta diarrea acuosa crónica de 7 meses de evolución, con evacuaciones nocturnas y urgencia defecatoria. Los síntomas comenzaron después de los 60 años. No refiere sangre visible en heces. Tiene antecedente de uso frecuente de antiinflamatorios no esteroideos. Una colonoscopia previa mostró mucosa macroscópicamente normal, pero no se tomaron biopsias.",
+  pregunta: "¿Cuál es el diagnóstico alternativo que debe investigarse de manera prioritaria?",
+  opciones: [
+    "Síndrome de intestino irritable con diarrea, sin necesidad de estudios adicionales",
+    "Colitis microscópica",
+    "Dispepsia funcional",
+    "Enfermedad por reflujo gastroesofágico",
+    "Estreñimiento funcional con diarrea por rebosamiento como única posibilidad"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La colitis microscópica es una causa importante de diarrea acuosa crónica, particularmente en adultos mayores y mujeres, y puede asociarse con determinados fármacos, incluidos algunos antiinflamatorios no esteroideos. La mucosa colónica puede tener una apariencia normal durante la colonoscopia, por lo que el diagnóstico requiere biopsias colónicas. La diarrea nocturna y el inicio a edad avanzada hacen necesario investigar una causa orgánica en lugar de atribuir automáticamente los síntomas a SII.",
+  perlaENARM: "Diarrea acuosa crónica con colonoscopia macroscópicamente normal no excluye colitis microscópica: se requieren biopsias. Edad avanzada, diarrea nocturna y fármacos asociados aumentan la sospecha.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia complementaria: guías de investigación de diarrea crónica y literatura sobre colitis microscópica.",
+  bibliografia: [
+    "Arasaradnam RP, et al. Guidelines for the investigation of chronic diarrhoea in adults: British Society of Gastroenterology, 3rd edition. Gut. 2018;67:1380-1399.",
+    "Miehlke S, et al. European guidelines on microscopic colitis: United European Gastroenterology and European Microscopic Colitis Group statements and recommendations. United European Gastroenterol J. 2021;9(1):13-37."
+  ]
+},
+  {
+  id: "GASTRO-241",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis autoinmune",
+  subtema: "Presentación clínica y sospecha diagnóstica",
+  dificultad: "Baja",
+  caso: "Mujer de 34 años acude por fatiga, náuseas, artralgias y malestar general de 3 meses de evolución. Presenta ictericia leve y hepatomegalia discreta. Los estudios muestran ALT de 680 U/L, AST de 540 U/L, bilirrubina total de 3.2 mg/dL y fosfatasa alcalina discretamente elevada. Niega consumo significativo de alcohol y uso reciente de medicamentos hepatotóxicos.",
+  pregunta: "¿Cuál es el siguiente enfoque diagnóstico más apropiado ante la sospecha de hepatitis autoinmune?",
+  opciones: [
+    "Diagnosticar hepatitis autoinmune exclusivamente por la elevación de aminotransferasas",
+    "Solicitar inmunoglobulina G, autoanticuerpos relevantes y estudios para excluir otras causas de lesión hepática",
+    "Solicitar únicamente una determinación de alfafetoproteína",
+    "Iniciar tratamiento con azatioprina sin completar la evaluación etiológica",
+    "Considerar hepatitis autoinmune descartada por la ausencia de antecedentes familiares"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La hepatitis autoinmune puede presentarse con síntomas inespecíficos, hepatitis aguda o enfermedad crónica. El diagnóstico requiere integrar el patrón bioquímico, la concentración de IgG, los autoanticuerpos, la histología hepática cuando esté indicada y la exclusión cuidadosa de otras etiologías, particularmente hepatitis virales y lesión hepática inducida por fármacos. Ningún hallazgo aislado confirma la enfermedad.",
+  perlaENARM: "Ante una hepatitis de predominio hepatocelular sin causa evidente, considerar hepatitis autoinmune e investigar IgG, ANA, anticuerpos antimúsculo liso y diagnósticos alternativos.",
+  gpc: "No se asigna clave de GPC mexicana porque no se ha verificado una guía nacional específica y vigente para este reactivo. Referencia internacional: EASL Clinical Practice Guidelines on the management of autoimmune hepatitis, 2025.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of autoimmune hepatitis. J Hepatol. 2025;83(2):453-501. doi:10.1016/j.jhep.2025.03.017.",
+    "Mack CL, et al. Diagnosis and Management of Autoimmune Hepatitis in Adults and Children: 2019 Practice Guidance and Guidelines From the AASLD. Hepatology. 2020;72(2):671-722."
+  ]
+},
+{
+  id: "GASTRO-242",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis autoinmune",
+  subtema: "Autoanticuerpos y clasificación serológica",
+  dificultad: "Media",
+  caso: "Mujer de 27 años presenta elevación persistente de aminotransferasas. La concentración de IgG está elevada y se detectan anticuerpos antinucleares y anticuerpos antimúsculo liso. Los estudios para hepatitis A, B y C no identifican infección activa. La biopsia hepática muestra hepatitis de interfase con infiltrado linfoplasmocitario.",
+  pregunta: "¿Cuál es la interpretación más apropiada de estos hallazgos?",
+  opciones: [
+    "Los anticuerpos antinucleares excluyen hepatitis autoinmune",
+    "La presencia de anticuerpos antimúsculo liso demuestra por sí sola cirrosis biliar primaria",
+    "La combinación de hipergammaglobulinemia, autoanticuerpos e histología compatible apoya el diagnóstico de hepatitis autoinmune",
+    "La hepatitis de interfase es patognomónica de hepatitis viral por virus de la hepatitis C",
+    "La elevación de IgG descarta una enfermedad hepática inmunomediada"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La hepatitis autoinmune se sustenta en la combinación de hallazgos clínicos, bioquímicos, inmunológicos e histológicos. Los ANA y los anticuerpos antimúsculo liso son marcadores frecuentes en la presentación clásica del adulto. Sin embargo, no son específicos y deben interpretarse en conjunto con la IgG, la biopsia y la exclusión de diagnósticos alternativos. La clasificación serológica tradicional puede orientar, pero las guías EASL de 2025 no recomiendan utilizar los perfiles de autoanticuerpos como subtipos clínicos que determinen estrategias terapéuticas diferentes.",
+  perlaENARM: "ANA y antimúsculo liso son marcadores clásicos de hepatitis autoinmune; su presencia aislada no confirma el diagnóstico. Integrar IgG, histología y exclusión de otras causas.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2025 y AASLD 2019.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of autoimmune hepatitis. J Hepatol. 2025;83(2):453-501. doi:10.1016/j.jhep.2025.03.017.",
+    "Mack CL, et al. Hepatology. 2020;72(2):671-722."
+  ]
+},
+{
+  id: "GASTRO-243",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis autoinmune",
+  subtema: "Diagnóstico histopatológico",
+  dificultad: "Media",
+  caso: "Hombre de 41 años presenta fatiga crónica y elevación persistente de aminotransferasas. La IgG está elevada y los ANA son positivos. Después de excluir causas virales, metabólicas y farmacológicas relevantes, se realiza biopsia hepática que muestra inflamación portal con abundantes células plasmáticas, hepatitis de interfase y actividad necroinflamatoria lobulillar.",
+  pregunta: "¿Qué hallazgo histopatológico apoya de manera más característica el diagnóstico de hepatitis autoinmune?",
+  opciones: [
+    "Depósito predominante de hierro en hepatocitos sin inflamación",
+    "Esteatosis macrovesicular aislada sin actividad inflamatoria",
+    "Hepatitis de interfase con infiltrado inflamatorio linfoplasmocitario",
+    "Granulomas caseificantes con necrosis central",
+    "Fibrosis perisinusoidal aislada sin hepatitis"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La hepatitis de interfase, acompañada con frecuencia de infiltrado linfoplasmocitario y células plasmáticas, es un patrón histológico característico de hepatitis autoinmune. No es patognomónico y debe interpretarse en el contexto clínico y serológico. La biopsia también permite evaluar actividad inflamatoria, fibrosis y diagnósticos alternativos o coexistentes.",
+  perlaENARM: "Hepatitis de interfase e infiltrado linfoplasmocitario son hallazgos clásicos. Ningún patrón histológico debe interpretarse de forma aislada.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL Clinical Practice Guidelines, 2025.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of autoimmune hepatitis. J Hepatol. 2025;83(2):453-501.",
+    "Mack CL, et al. Hepatology. 2020;72(2):671-722."
+  ]
+},
+{
+  id: "GASTRO-244",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis autoinmune",
+  subtema: "Criterios diagnósticos simplificados",
+  dificultad: "Alta",
+  caso: "Mujer de 39 años presenta hepatitis persistente. La evaluación muestra ANA positivos en título significativo, IgG por encima del límite superior normal y biopsia compatible con hepatitis autoinmune. Se han excluido razonablemente hepatitis virales. El equipo médico desea integrar los criterios diagnósticos simplificados del International Autoimmune Hepatitis Group.",
+  pregunta: "¿Cuál de los siguientes componentes forma parte de los criterios simplificados para hepatitis autoinmune?",
+  opciones: [
+    "Concentración sérica de alfafetoproteína como criterio inmunológico principal",
+    "Presencia de autoanticuerpos, concentración de IgG, histología hepática y exclusión de hepatitis viral",
+    "Presencia obligatoria de cirrosis en la biopsia",
+    "Elevación aislada de fosfatasa alcalina como criterio confirmatorio",
+    "Antecedente familiar de hepatitis autoinmune como requisito indispensable"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Los criterios simplificados consideran cuatro dominios: autoanticuerpos, concentración de IgG, histología hepática y ausencia de hepatitis viral. La puntuación asignada a cada dominio permite clasificar la probabilidad diagnóstica. Una puntuación de al menos 6 puntos indica hepatitis autoinmune probable y una de al menos 7 indica hepatitis autoinmune definitiva. Estos criterios apoyan el juicio clínico, pero no sustituyen la evaluación integral ni deben utilizarse sin considerar presentaciones atípicas.",
+  perlaENARM: "Criterios simplificados: autoanticuerpos + IgG + histología + exclusión de hepatitis viral. Umbrales clásicos: ≥6 probable y ≥7 definitiva.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: criterios simplificados del IAIHG y guía EASL 2025.",
+  bibliografia: [
+    "Hennes EM, et al. Simplified criteria for the diagnosis of autoimmune hepatitis. Hepatology. 2008;48(1):169-176. doi:10.1002/hep.22322.",
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of autoimmune hepatitis. J Hepatol. 2025;83(2):453-501."
+  ]
+},
+{
+  id: "GASTRO-245",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis autoinmune",
+  subtema: "Diagnóstico diferencial y hepatitis inducida por fármacos",
+  dificultad: "Alta",
+  caso: "Mujer de 52 años inicia tratamiento con un medicamento asociado a lesión hepática inmunomediada. Seis meses después desarrolla ictericia y elevación marcada de aminotransferasas. La IgG está elevada, los ANA son positivos y la biopsia muestra inflamación compatible con hepatitis autoinmune. No tenía alteraciones hepáticas documentadas antes de iniciar el fármaco.",
+  pregunta: "¿Cuál es la consideración diagnóstica más importante antes de establecer una hepatitis autoinmune idiopática?",
+  opciones: [
+    "La positividad de ANA confirma que el medicamento no participa en la lesión",
+    "La presencia de hipergammaglobulinemia excluye lesión hepática inducida por fármacos",
+    "Debe considerarse una lesión hepática inducida por fármacos con fenotipo autoinmune y evaluar la evolución tras retirar el agente",
+    "Toda hepatitis relacionada temporalmente con un fármaco es hepatitis viral aguda",
+    "La biopsia compatible elimina la necesidad de revisar la exposición farmacológica"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "Algunos medicamentos pueden producir lesión hepática con autoanticuerpos, aumento de IgG y hallazgos histológicos semejantes a los de la hepatitis autoinmune idiopática. La evaluación debe incluir una cronología farmacológica detallada y la exclusión de otras causas. La mejoría tras retirar el agente, con o sin un curso limitado de corticoesteroides, y la ausencia de recaída a largo plazo pueden favorecer una lesión inducida por fármacos con fenotipo autoinmune. La distinción puede requerir seguimiento prolongado.",
+  perlaENARM: "La lesión hepática inducida por fármacos puede imitar la hepatitis autoinmune. Revisar cronología, medicamentos y evolución después de retirar el agente.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2025 y recomendaciones sobre lesión hepática inducida por fármacos.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of autoimmune hepatitis. J Hepatol. 2025;83(2):453-501.",
+    "Mack CL, et al. Hepatology. 2020;72(2):671-722."
+  ]
+},
+{
+  id: "GASTRO-246",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis autoinmune",
+  subtema: "Tratamiento de inducción y mantenimiento",
+  dificultad: "Muy alta",
+  caso: "Mujer de 31 años presenta hepatitis autoinmune activa confirmada mediante evaluación clínica, serológica e histológica. Tiene elevación persistente de aminotransferasas e IgG, sin insuficiencia hepática aguda ni contraindicaciones identificadas para inmunosupresión. Se encuentra en valoración por hepatología para iniciar tratamiento.",
+  pregunta: "¿Cuál es una estrategia farmacológica de primera línea respaldada por las recomendaciones internacionales actuales?",
+  opciones: [
+    "Prednisolona o prednisona combinada con azatioprina, tras evaluar las condiciones clínicas y las contraindicaciones",
+    "Ribavirina como monoterapia durante 12 semanas",
+    "Ursodesoxicólico como tratamiento inmunosupresor único",
+    "Antibióticos de amplio espectro durante 6 meses",
+    "Suspender toda intervención farmacológica hasta que se desarrolle cirrosis"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La inmunosupresión reduce la actividad inflamatoria y mejora el pronóstico de la hepatitis autoinmune activa. La combinación de un glucocorticoide con azatioprina constituye un esquema clásico de primera línea. La guía EASL de 2025 también reconoce al micofenolato mofetilo como alternativa de primera línea en adultos seleccionados, con especial atención a su teratogenicidad. La elección del régimen requiere individualizar la gravedad, las comorbilidades, el embarazo potencial y las contraindicaciones, además de monitorizar la respuesta bioquímica y la toxicidad.",
+  perlaENARM: "Tratamiento clásico: glucocorticoide + azatioprina. EASL 2025 incluye micofenolato mofetilo como alternativa de primera línea en adultos seleccionados; es teratógeno.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional actualizada: EASL Clinical Practice Guidelines, 2025.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of autoimmune hepatitis. J Hepatol. 2025;83(2):453-501.",
+    "Mack CL, et al. Hepatology. 2020;72(2):671-722."
+  ]
+},
+{
+  id: "GASTRO-247",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis autoinmune",
+  subtema: "Monitorización de respuesta terapéutica",
+  dificultad: "Muy alta",
+  caso: "Mujer de 44 años con hepatitis autoinmune recibe tratamiento inmunosupresor. Después de varios meses, las aminotransferasas disminuyen de manera importante, pero continúan por encima del límite normal y la IgG permanece elevada. La paciente refiere buena adherencia y no presenta síntomas nuevos.",
+  pregunta: "¿Cuál es el objetivo bioquímico principal del tratamiento y seguimiento?",
+  opciones: [
+    "Normalizar exclusivamente la bilirrubina, independientemente de las aminotransferasas",
+    "Conseguir normalización de AST, ALT e IgG, además de evaluar la evolución clínica y la fibrosis",
+    "Mantener las aminotransferasas hasta cinco veces por encima del límite normal para evitar efectos adversos",
+    "Suspender inmediatamente la inmunosupresión al observar cualquier descenso de AST",
+    "Utilizar únicamente la concentración de autoanticuerpos para decidir si existe remisión"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El objetivo terapéutico es lograr una respuesta bioquímica completa, definida principalmente por la normalización de aminotransferasas e IgG, junto con la remisión clínica y, cuando se evalúa, histológica. Una reducción parcial no equivale a remisión completa. La respuesta debe interpretarse considerando adherencia, dosis, toxicidad, diagnóstico alternativo y tiempo de tratamiento. La guía EASL de 2025 contempla un intervalo de 6 a 12 meses para evaluar la respuesta bioquímica completa o una respuesta insuficiente en el marco clínico apropiado.",
+  perlaENARM: "Remisión bioquímica: normalización de AST, ALT e IgG. La mejoría parcial no equivale a control completo de la hepatitis autoinmune.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2025.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of autoimmune hepatitis. J Hepatol. 2025;83(2):453-501.",
+    "Mack CL, et al. Hepatology. 2020;72(2):671-722."
+  ]
+},
+{
+  id: "GASTRO-248",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis autoinmune",
+  subtema: "Hepatitis autoinmune aguda grave e insuficiencia hepática",
+  dificultad: "Extrema",
+  caso: "Mujer de 46 años ingresa por ictericia progresiva, vómitos y deterioro del estado general. Los estudios muestran aminotransferasas marcadamente elevadas, bilirrubina total de 12 mg/dL e INR de 2.1. En las últimas horas desarrolla desorientación y asterixis. La evaluación inicial plantea hepatitis autoinmune aguda grave.",
+  pregunta: "¿Cuál es la conducta prioritaria ante la sospecha de insuficiencia hepática aguda?",
+  opciones: [
+    "Manejo ambulatorio con prednisona oral y control en 4 semanas",
+    "Esperar el resultado de todos los autoanticuerpos antes de solicitar atención especializada",
+    "Hospitalización urgente, manejo de insuficiencia hepática aguda y valoración inmediata por un centro con capacidad de trasplante hepático",
+    "Administrar azatioprina como única medida urgente y dar de alta",
+    "Realizar únicamente ultrasonido abdominal y diferir la evaluación de la coagulación"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La coagulopatía asociada a encefalopatía en una paciente sin cirrosis previa conocida sugiere insuficiencia hepática aguda, una emergencia con riesgo de mortalidad elevado. Se requiere hospitalización, vigilancia intensiva, evaluación etiológica urgente y contacto temprano con un centro de trasplante hepático. La inmunosupresión puede considerarse en pacientes seleccionados con sospecha de hepatitis autoinmune, pero no debe retrasar la referencia ni el manejo de las complicaciones. La decisión debe individualizarse por hepatología y cuidados intensivos.",
+  perlaENARM: "Hepatitis aguda + INR ≥1.5 + encefalopatía, sin hepatopatía crónica conocida: sospechar insuficiencia hepática aguda. La referencia temprana a un centro de trasplante es prioritaria.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2025 y recomendaciones especializadas sobre insuficiencia hepática aguda.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of autoimmune hepatitis. J Hepatol. 2025;83(2):453-501.",
+    "European Association for the Study of the Liver. EASL Clinical Practical Guidelines on the management of acute (fulminant) liver failure. J Hepatol. 2017;66(5):1047-1081."
+  ]
+},
+{
+  id: "GASTRO-249",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis autoinmune",
+  subtema: "Embarazo y selección de inmunosupresores",
+  dificultad: "Extrema",
+  caso: "Mujer de 29 años con hepatitis autoinmune activa desea embarazarse. Su tratamiento actual incluye prednisona y azatioprina, con respuesta bioquímica favorable. Durante la consulta pregunta si debe cambiar automáticamente a micofenolato mofetilo para mejorar el control de la enfermedad.",
+  pregunta: "¿Cuál es la recomendación más apropiada respecto a la selección del tratamiento en el contexto reproductivo?",
+  opciones: [
+    "Cambiar a micofenolato mofetilo porque es el fármaco preferido durante el embarazo",
+    "Suspender toda inmunosupresión de forma inmediata antes de intentar concebir",
+    "Planificar el embarazo con hepatología y obstetricia; evitar micofenolato mofetilo por su teratogenicidad y valorar la continuidad de un esquema compatible con el embarazo",
+    "Sustituir azatioprina por ribavirina para prevenir recaídas",
+    "Mantener exclusivamente micofenolato mofetilo durante todo el embarazo sin evaluación especializada"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "El embarazo en pacientes con hepatitis autoinmune requiere planificación y coordinación entre hepatología y obstetricia. El micofenolato mofetilo está contraindicado durante el embarazo por su riesgo teratógeno y debe evitarse en quienes planean concebir, siguiendo los periodos de suspensión recomendados por las autoridades y guías aplicables. La azatioprina y los glucocorticoides suelen poder mantenerse cuando están clínicamente indicados, con vigilancia individualizada. La actividad no controlada de la enfermedad también implica riesgos maternos y fetales.",
+  perlaENARM: "Micofenolato mofetilo: teratógeno y no compatible con el embarazo. No retirar automáticamente todo tratamiento inmunosupresor; planificar la concepción con especialistas.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2025 y recomendaciones de seguridad reproductiva de inmunosupresores.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of autoimmune hepatitis. J Hepatol. 2025;83(2):453-501.",
+    "Mack CL, et al. Hepatology. 2020;72(2):671-722."
+  ]
+},
+{
+  id: "GASTRO-250",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis autoinmune",
+  subtema: "Cirrosis, complicaciones y seguimiento",
+  dificultad: "Extrema",
+  caso: "Hombre de 55 años con hepatitis autoinmune de larga evolución presenta cirrosis confirmada por estudios clínicos e histológicos. Actualmente recibe inmunosupresión y sus aminotransferasas se han normalizado. La evaluación muestra datos de hipertensión portal, sin hemorragia digestiva previa. El paciente pregunta si la normalización de las enzimas elimina la necesidad de seguimiento.",
+  pregunta: "¿Cuál es la estrategia de seguimiento más apropiada?",
+  opciones: [
+    "Suspender la vigilancia porque las aminotransferasas normales descartan complicaciones de cirrosis",
+    "Realizar únicamente determinaciones anuales de ANA y suspender la vigilancia de hipertensión portal",
+    "Mantener seguimiento de la actividad de la hepatitis y de las complicaciones de la cirrosis, incluida la vigilancia de carcinoma hepatocelular según las recomendaciones aplicables",
+    "Realizar colonoscopia anual como única estrategia para detectar complicaciones hepáticas",
+    "Suspender permanentemente la inmunosupresión tras una sola determinación normal de ALT"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La normalización de aminotransferasas e IgG es un objetivo importante, pero no elimina el riesgo de complicaciones derivadas de una cirrosis establecida. Se requiere seguimiento de la actividad de la enfermedad, evaluación de la tolerancia al tratamiento, vigilancia de hipertensión portal y detección de carcinoma hepatocelular conforme a las recomendaciones para pacientes con cirrosis. La retirada de inmunosupresión debe considerarse solo en pacientes seleccionados, tras remisión sostenida y evaluación especializada, porque las recaídas son frecuentes.",
+  perlaENARM: "La cirrosis por hepatitis autoinmune requiere vigilancia de sus complicaciones aunque exista remisión bioquímica. No suspender inmunosupresión solo por una determinación normal de aminotransferasas.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL Clinical Practice Guidelines on the management of autoimmune hepatitis, 2025.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of autoimmune hepatitis. J Hepatol. 2025;83(2):453-501.",
+    "Mack CL, et al. Hepatology. 2020;72(2):671-722."
+  ]
+},
+ {
+  id: "GASTRO-251",
+  especialidad: "Gastroenterología",
+  tema: "Hemocromatosis",
+  subtema: "Fisiopatología y presentación clínica",
+  dificultad: "Baja",
+  caso: "Hombre de 48 años acude por fatiga, disminución de la libido y dolor articular crónico en las manos. Refiere que su padre falleció por cirrosis hepática sin antecedente conocido de alcoholismo. A la exploración presenta hiperpigmentación cutánea y hepatomegalia leve. Los estudios muestran elevación de aminotransferasas y glucosa en ayuno de 168 mg/dL.",
+  pregunta: "¿Cuál es el diagnóstico que mejor integra los hallazgos clínicos?",
+  opciones: [
+    "Enfermedad de Wilson",
+    "Hemocromatosis hereditaria",
+    "Hepatitis autoinmune",
+    "Enfermedad de Gilbert",
+    "Colangitis biliar primaria"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La hemocromatosis hereditaria es un trastorno de sobrecarga de hierro que puede producir lesión hepática, diabetes mellitus, hipogonadismo, artropatía y pigmentación cutánea. La forma clásica se asocia con variantes patogénicas del gen HFE, especialmente la homocigosis C282Y. La acumulación progresiva de hierro favorece estrés oxidativo, lesión celular, fibrosis y cirrosis. La presentación clínica puede ser inespecífica y no todos los pacientes desarrollan la tríada clásica de hiperpigmentación, diabetes y cirrosis.",
+  perlaENARM: "Hemocromatosis: sobrecarga de hierro + hepatopatía + diabetes + hipogonadismo + artropatía. La ausencia de la tríada clásica no excluye la enfermedad.",
+  gpc: "No se asigna clave de GPC mexicana: no se ha verificado una guía nacional específica y vigente para este reactivo. Referencia complementaria: EASL Clinical Practice Guidelines on haemochromatosis, 2022.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on haemochromatosis. J Hepatol. 2022;77(2):479-502. doi:10.1016/j.jhep.2022.03.033.",
+    "Pietrangelo A. Hereditary Hemochromatosis: Pathogenesis, Diagnosis, and Treatment. Gastroenterology. 2010;139(2):393-408."
+  ]
+},
+{
+  id: "GASTRO-252",
+  especialidad: "Gastroenterología",
+  tema: "Hemocromatosis",
+  subtema: "Metabolismo del hierro y gen HFE",
+  dificultad: "Media",
+  caso: "Hombre de 39 años presenta elevación persistente de ferritina y saturación de transferrina. La evaluación genética identifica homocigosis para una variante patogénica del gen HFE. No tiene antecedentes de transfusiones repetidas ni de anemia crónica. Se solicita explicar el mecanismo responsable de la acumulación de hierro.",
+  pregunta: "¿Qué alteración fisiopatológica explica mejor la sobrecarga de hierro en la hemocromatosis hereditaria clásica?",
+  opciones: [
+    "Disminución de la absorción intestinal de hierro por aumento de hepcidina",
+    "Aumento sostenido de hepcidina con bloqueo completo de la ferroportina",
+    "Disminución inapropiada de hepcidina, que permite una mayor absorción intestinal de hierro y liberación de hierro desde los macrófagos",
+    "Deficiencia primaria de transferrina que impide el transporte plasmático de hierro",
+    "Aumento de la excreción renal de hierro con deficiencia secundaria de ferritina"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La hepcidina, producida principalmente por los hepatocitos, regula la disponibilidad sistémica de hierro al inducir la internalización y degradación de la ferroportina. En la hemocromatosis relacionada con HFE, la producción de hepcidina es inadecuadamente baja para la cantidad de hierro corporal. Esto incrementa la absorción intestinal y la liberación de hierro desde los macrófagos, favoreciendo su acumulación progresiva en el hígado y otros órganos.",
+  perlaENARM: "Hepcidina baja o inapropiadamente normal → ferroportina activa → mayor disponibilidad sistémica de hierro. La alteración reguladora es central en la hemocromatosis hereditaria.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2022.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on haemochromatosis. J Hepatol. 2022;77(2):479-502.",
+    "Ganz T, Nemeth E. Hepcidin and iron homeostasis. Biochim Biophys Acta. 2012;1823(9):1434-1443."
+  ]
+},
+{
+  id: "GASTRO-253",
+  especialidad: "Gastroenterología",
+  tema: "Hemocromatosis",
+  subtema: "Interpretación de estudios de hierro",
+  dificultad: "Media",
+  caso: "Hombre de 46 años presenta fatiga y elevación persistente de aminotransferasas. Los estudios muestran ferritina de 980 ng/mL, hierro sérico elevado y saturación de transferrina de 78%. No tiene antecedentes de transfusiones ni de suplementos de hierro. Se sospecha hemocromatosis hereditaria.",
+  pregunta: "¿Cuál es el siguiente paso más apropiado para investigar la causa de la sobrecarga de hierro?",
+  opciones: [
+    "Descartar hemocromatosis porque la ferritina no supera 1,500 ng/mL",
+    "Solicitar únicamente una biopsia hepática sin evaluación genética",
+    "Realizar evaluación genética de HFE, especialmente para la variante C282Y, e integrar los resultados con el contexto clínico",
+    "Solicitar anticuerpos antinucleares como prueba confirmatoria de sobrecarga de hierro",
+    "Iniciar quelación de hierro antes de completar la evaluación etiológica"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "Una saturación de transferrina persistentemente elevada es una señal importante de sobrecarga de hierro y orienta hacia hemocromatosis hereditaria. La ferritina refleja las reservas de hierro, pero también aumenta por inflamación, enfermedad hepática, consumo de alcohol y alteraciones metabólicas. En personas con sospecha clínica y parámetros de hierro compatibles, el estudio genético de HFE ayuda a establecer el diagnóstico. La necesidad de resonancia magnética hepática, biopsia u otros estudios depende del genotipo, los resultados bioquímicos y la sospecha de daño orgánico.",
+  perlaENARM: "Saturación de transferrina elevada: dato clave para sospechar hemocromatosis. Ferritina elevada aislada no demuestra sobrecarga de hierro, porque es un reactante de fase aguda.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2022.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on haemochromatosis. J Hepatol. 2022;77(2):479-502.",
+    "Adams PC, et al. Hemochromatosis. Lancet. 2007;370(9602):1855-1860."
+  ]
+},
+{
+  id: "GASTRO-254",
+  especialidad: "Gastroenterología",
+  tema: "Hemocromatosis",
+  subtema: "Criterios bioquímicos y genéticos",
+  dificultad: "Alta",
+  caso: "Hombre de 43 años, asintomático, es estudiado por antecedente familiar de hemocromatosis. La saturación de transferrina es de 72% y la ferritina de 620 ng/mL. El estudio genético demuestra homocigosis para HFE C282Y. No presenta elevación importante de aminotransferasas ni datos clínicos de descompensación hepática.",
+  pregunta: "¿Cuál es la interpretación diagnóstica más apropiada según las recomendaciones europeas para adultos homocigotos C282Y?",
+  opciones: [
+    "El diagnóstico requiere obligatoriamente cirrosis demostrada por biopsia",
+    "La combinación de homocigosis C282Y y parámetros de hierro elevados permite establecer el diagnóstico de hemocromatosis",
+    "La saturación de transferrina elevada carece de valor si el paciente está asintomático",
+    "El diagnóstico solo puede establecerse si existe diabetes mellitus",
+    "La homocigosis C282Y excluye la posibilidad de sobrecarga de hierro"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "De acuerdo con EASL, en hombres y mujeres posmenopáusicas homocigotos C282Y, la saturación de transferrina y la ferritina por encima de los umbrales correspondientes permiten establecer el diagnóstico de hemocromatosis. Los umbrales orientativos son saturación de transferrina superior al 50% y ferritina superior a 300 µg/L en hombres, y saturación superior al 45% y ferritina superior a 200 µg/L en mujeres. En otros genotipos, la demostración de sobrecarga hepática mediante resonancia magnética o biopsia, según el caso, puede ser necesaria.",
+  perlaENARM: "Homocigosis HFE C282Y + saturación de transferrina y ferritina elevadas puede establecer el diagnóstico sin exigir biopsia hepática. Los umbrales deben interpretarse según sexo, estado menopáusico y guía utilizada.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2022.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on haemochromatosis. J Hepatol. 2022;77(2):479-502.",
+    "European Association for the Study of the Liver. Clinical Practice Guidelines on haemochromatosis. J Hepatol. 2010;53(1):3-22."
+  ]
+},
+{
+  id: "GASTRO-255",
+  especialidad: "Gastroenterología",
+  tema: "Hemocromatosis",
+  subtema: "Diagnóstico diferencial de hiperferritinemia",
+  dificultad: "Alta",
+  caso: "Hombre de 57 años con obesidad, diabetes mellitus tipo 2 y consumo habitual de alcohol presenta ferritina de 1,050 ng/mL. La saturación de transferrina es de 29%, la proteína C reactiva está elevada y la ecografía muestra esteatosis hepática. No tiene antecedentes familiares de hemocromatosis.",
+  pregunta: "¿Cuál es la interpretación más apropiada de los resultados?",
+  opciones: [
+    "La ferritina elevada confirma por sí sola hemocromatosis hereditaria",
+    "El cuadro obliga a diagnosticar enfermedad de Wilson",
+    "La hiperferritinemia puede relacionarse con inflamación, consumo de alcohol o enfermedad hepática metabólica; debe evaluarse el contexto antes de atribuirla a sobrecarga de hierro hereditaria",
+    "La saturación de transferrina normal confirma cirrosis descompensada",
+    "La ferritina elevada demuestra una hemocromatosis juvenil"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La ferritina es un marcador de reservas de hierro, pero también aumenta durante la inflamación y en enfermedades hepáticas metabólicas o asociadas al alcohol. Una saturación de transferrina normal o no elevada hace menos probable la hemocromatosis HFE clásica, aunque no excluye todas las causas de sobrecarga de hierro. La evaluación debe considerar la persistencia de los hallazgos, el contexto clínico y otros estudios cuando estén indicados.",
+  perlaENARM: "Hiperferritinemia no equivale automáticamente a hemocromatosis. Interpretar ferritina junto con saturación de transferrina, inflamación, alcohol y enfermedad hepática metabólica.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2022.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on haemochromatosis. J Hepatol. 2022;77(2):479-502.",
+    "Kowdley KV, et al. ACG Clinical Guideline: Hereditary Hemochromatosis. Am J Gastroenterol. 2019;114(8):1202-1218."
+  ]
+},
+{
+  id: "GASTRO-256",
+  especialidad: "Gastroenterología",
+  tema: "Hemocromatosis",
+  subtema: "Tratamiento mediante flebotomía",
+  dificultad: "Alta",
+  caso: "Hombre de 51 años con hemocromatosis HFE confirmada presenta saturación de transferrina de 76% y ferritina de 870 ng/mL. No tiene anemia, inestabilidad hemodinámica ni contraindicaciones para extracción sanguínea. La evaluación inicial no muestra insuficiencia hepática descompensada.",
+  pregunta: "¿Cuál es el tratamiento de primera línea para reducir la sobrecarga de hierro en este paciente?",
+  opciones: [
+    "Suplementación oral con hierro para inducir regulación intestinal",
+    "Flebotomías terapéuticas periódicas, con monitorización de hemoglobina y ferritina",
+    "Transfusiones programadas de concentrados eritrocitarios",
+    "Glucocorticoides sistémicos como monoterapia",
+    "Quelación con deferoxamina como primera elección en todos los pacientes"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La flebotomía terapéutica es el tratamiento de primera línea en la mayoría de los pacientes con hemocromatosis hereditaria que pueden tolerarla. Se realizan extracciones periódicas, habitualmente de alrededor de 400-500 mL según el peso y la situación clínica, con control de hemoglobina y ferritina. Durante la fase de inducción se busca reducir la ferritina aproximadamente a 50 µg/L; posteriormente, en mantenimiento, se suele mantener entre 50 y 100 µg/L, individualizando la frecuencia y evitando anemia o depleción excesiva.",
+  perlaENARM: "Tratamiento de elección: flebotomía terapéutica. Objetivo habitual de ferritina: alrededor de 50 µg/L en inducción y 50-100 µg/L en mantenimiento.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2022.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on haemochromatosis. J Hepatol. 2022;77(2):479-502.",
+    "Kowdley KV, et al. ACG Clinical Guideline: Hereditary Hemochromatosis. Am J Gastroenterol. 2019;114(8):1202-1218."
+  ]
+},
+{
+  id: "GASTRO-257",
+  especialidad: "Gastroenterología",
+  tema: "Hemocromatosis",
+  subtema: "Evaluación de fibrosis y riesgo hepático",
+  dificultad: "Muy alta",
+  caso: "Hombre de 55 años con hemocromatosis hereditaria confirmada presenta ferritina de 1,180 ng/mL y elevación persistente de aminotransferasas. La elastografía hepática sugiere fibrosis avanzada. No tiene ascitis ni encefalopatía.",
+  pregunta: "¿Cuál es la conducta más apropiada para determinar la gravedad de la enfermedad hepática?",
+  opciones: [
+    "Considerar que la ferritina elevada demuestra por sí sola carcinoma hepatocelular",
+    "Evaluar fibrosis y daño hepático con métodos no invasivos y considerar biopsia si persiste incertidumbre o si el resultado modifica la conducta",
+    "Descartar fibrosis avanzada porque no presenta ascitis",
+    "Solicitar únicamente anticuerpos antimúsculo liso para estadificar la hemocromatosis",
+    "Suspender la evaluación hepática una vez confirmada la variante genética"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La evaluación de fibrosis es fundamental porque determina el pronóstico y la necesidad de vigilancia de complicaciones. Deben integrarse la ferritina, las pruebas hepáticas, los índices no invasivos y la elastografía cuando esté disponible. La biopsia no es necesaria de forma rutinaria en todos los pacientes, pero puede considerarse cuando existe incertidumbre diagnóstica o sobre el estadio. Una ferritina superior a 1,000 µg/L se asocia con mayor probabilidad de fibrosis avanzada en determinadas poblaciones, pero no demuestra por sí sola cirrosis ni carcinoma hepatocelular.",
+  perlaENARM: "Ferritina >1,000 µg/L aumenta la preocupación por fibrosis avanzada, pero no confirma cirrosis. La estadificación hepática orienta el pronóstico y la vigilancia posterior.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2022.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on haemochromatosis. J Hepatol. 2022;77(2):479-502.",
+    "Kowdley KV, et al. ACG Clinical Guideline: Hereditary Hemochromatosis. Am J Gastroenterol. 2019;114(8):1202-1218."
+  ]
+},
+{
+  id: "GASTRO-258",
+  especialidad: "Gastroenterología",
+  tema: "Hemocromatosis",
+  subtema: "Hemocromatosis secundaria",
+  dificultad: "Muy alta",
+  caso: "Hombre de 36 años con anemia dependiente de transfusiones por una enfermedad hematológica presenta ferritina de 2,200 ng/mL y evidencia de acumulación hepática de hierro en resonancia magnética. La saturación de transferrina está elevada. No se identifican datos que sugieran hemocromatosis HFE clásica.",
+  pregunta: "¿Cuál es el mecanismo más probable de la sobrecarga de hierro en este caso?",
+  opciones: [
+    "Aumento de la absorción intestinal por homocigosis HFE C282Y como única explicación posible",
+    "Sobrecarga transfusional acumulativa de hierro",
+    "Deficiencia de hierro secundaria a hemorragia crónica",
+    "Disminución de la absorción intestinal por enfermedad celíaca",
+    "Aumento de la excreción renal de hierro inducido por anemia"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Las transfusiones repetidas aportan hierro que el organismo no puede eliminar de manera regulada. Con el tiempo, puede desarrollarse sobrecarga de hierro secundaria con depósito hepático y lesión en otros órganos. La causa, la intensidad de la sobrecarga, la expectativa de vida y la posibilidad de reducir la carga transfusional influyen en la decisión de utilizar quelación. La flebotomía generalmente no es apropiada en pacientes con anemia dependiente de transfusiones.",
+  perlaENARM: "Sobrecarga transfusional: considerar quelación según la enfermedad de base, la carga de hierro y la función orgánica. No confundir con hemocromatosis HFE clásica.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia complementaria: guías de hemocromatosis y manejo de sobrecarga transfusional de hierro.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on haemochromatosis. J Hepatol. 2022;77(2):479-502.",
+    "Kowdley KV, et al. ACG Clinical Guideline: Hereditary Hemochromatosis. Am J Gastroenterol. 2019;114(8):1202-1218."
+  ]
+},
+{
+  id: "GASTRO-259",
+  especialidad: "Gastroenterología",
+  tema: "Hemocromatosis",
+  subtema: "Hemocromatosis y carcinoma hepatocelular",
+  dificultad: "Extrema",
+  caso: "Hombre de 62 años con hemocromatosis hereditaria presenta cirrosis hepática confirmada. Recibe flebotomías y mantiene ferritina dentro del objetivo terapéutico. Actualmente está asintomático y sus aminotransferasas son normales.",
+  pregunta: "¿Qué estrategia debe mantenerse debido al riesgo de complicaciones hepáticas?",
+  opciones: [
+    "Suspender toda vigilancia oncológica porque la ferritina está controlada",
+    "Realizar determinaciones de ferritina cada 10 años como única medida preventiva",
+    "Mantener vigilancia de carcinoma hepatocelular conforme a las recomendaciones para cirrosis, habitualmente con ultrasonido hepático cada 6 meses, con o sin alfafetoproteína según la guía aplicada",
+    "Solicitar tomografía con contraste semanal de forma indefinida",
+    "Realizar biopsia hepática anual obligatoria en todos los pacientes"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La cirrosis por hemocromatosis mantiene un riesgo de carcinoma hepatocelular incluso después de reducir las reservas de hierro y normalizar las pruebas bioquímicas. Los pacientes con cirrosis deben continuar la vigilancia oncológica según las recomendaciones vigentes, habitualmente con ultrasonido hepático cada 6 meses y uso de alfafetoproteína de acuerdo con la guía aplicada. La necesidad de vigilancia en pacientes con fibrosis avanzada sin cirrosis debe individualizarse.",
+  perlaENARM: "La depleción de hierro no elimina el riesgo de carcinoma hepatocelular en pacientes con cirrosis establecida. Mantener vigilancia semestral en la población con cirrosis elegible.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia complementaria: EASL 2022 y guías internacionales de vigilancia de carcinoma hepatocelular.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on haemochromatosis. J Hepatol. 2022;77(2):479-502.",
+    "Singal AG, et al. AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma. Hepatology. 2023;78(6):1922-1965."
+  ]
+},
+{
+  id: "GASTRO-260",
+  especialidad: "Gastroenterología",
+  tema: "Hemocromatosis",
+  subtema: "Hemocromatosis juvenil y daño multiorgánico",
+  dificultad: "Extrema",
+  caso: "Hombre de 23 años presenta insuficiencia cardiaca, diabetes mellitus de reciente diagnóstico, hipogonadismo y elevación importante de ferritina y saturación de transferrina. La resonancia magnética demuestra sobrecarga de hierro hepática y cardiaca. No tiene antecedentes de transfusiones repetidas.",
+  pregunta: "¿Cuál es la consideración diagnóstica y terapéutica más apropiada?",
+  opciones: [
+    "Hemocromatosis juvenil; requiere evaluación genética especializada y tratamiento urgente e individualizado de la sobrecarga de hierro y del daño cardiaco",
+    "Hemocromatosis HFE clásica confirmada exclusivamente por la edad, sin necesidad de más estudios",
+    "Enfermedad de Gilbert con manifestaciones extrahepáticas",
+    "Hepatitis autoinmune aislada, porque la sobrecarga de hierro cardiaca no se relaciona con hemocromatosis",
+    "Enfermedad celíaca con malabsorción de hierro como causa más probable"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La hemocromatosis juvenil es una forma infrecuente de sobrecarga hereditaria de hierro que suele manifestarse antes de los 30 años y puede producir afectación cardiaca y endocrina grave. Puede asociarse con variantes patogénicas de HJV o HAMP, que alteran la regulación de hepcidina. La evaluación requiere confirmación de la sobrecarga, investigación genética dirigida y valoración multidisciplinaria. La insuficiencia cardiaca asociada al hierro exige atención especializada urgente; la elección entre flebotomía y quelación depende de la estabilidad hemodinámica, la anemia y el contexto clínico.",
+  perlaENARM: "Sobrecarga de hierro de inicio temprano con cardiomiopatía e hipogonadismo: sospechar hemocromatosis juvenil y considerar HJV/HAMP. La afectación cardiaca puede condicionar urgencia y selección terapéutica.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2022 y literatura especializada en hemocromatosis no relacionada con HFE.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on haemochromatosis. J Hepatol. 2022;77(2):479-502.",
+    "Pietrangelo A. Hereditary Hemochromatosis: Pathogenesis, Diagnosis, and Treatment. Gastroenterology. 2010;139(2):393-408."
+  ]
+},
+  {
+  id: "GASTRO-261",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad de Wilson",
+  subtema: "Presentación clínica y sospecha diagnóstica",
+  dificultad: "Baja",
+  caso: "Hombre de 19 años acude por fatiga, ictericia leve y elevación persistente de aminotransferasas. Refiere cambios recientes en su escritura y temblor fino de las manos. Su madre comenta que ha presentado irritabilidad y disminución del rendimiento escolar. No tiene antecedentes de consumo significativo de alcohol ni de exposición a hepatotóxicos.",
+  pregunta: "¿Cuál es el diagnóstico que mejor integra las manifestaciones hepáticas, neurológicas y psiquiátricas?",
+  opciones: [
+    "Hemocromatosis hereditaria",
+    "Enfermedad de Wilson",
+    "Hepatitis autoinmune como única posibilidad",
+    "Síndrome de Gilbert",
+    "Colangitis biliar primaria"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La enfermedad de Wilson es un trastorno autosómico recesivo del metabolismo del cobre causado por variantes patogénicas en ATP7B. Produce acumulación de cobre, principalmente en hígado y sistema nervioso central, y puede manifestarse con hepatitis, cirrosis, alteraciones del movimiento, cambios conductuales y síntomas psiquiátricos. Debe considerarse en personas jóvenes con hepatopatía inexplicada, especialmente cuando existen manifestaciones neurológicas o psiquiátricas concomitantes.",
+  perlaENARM: "Paciente joven con hepatopatía inexplicada más temblor, alteraciones conductuales o síntomas extrapiramidales: investigar enfermedad de Wilson.",
+  gpc: "No se asigna clave de GPC mexicana porque no se ha verificado una guía nacional específica y vigente para este reactivo. Referencia internacional: guía práctica de AASLD sobre enfermedad de Wilson, 2022.",
+  bibliografia: [
+    "Schilsky ML, et al. A multidisciplinary approach to the diagnosis and management of Wilson disease: 2022 Practice Guidance on Wilson disease from the American Association for the Study of Liver Diseases. Hepatology. 2023;77(4):1428-1455.",
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines: Wilson's disease. J Hepatol. 2012;56(3):671-685."
+  ]
+},
+{
+  id: "GASTRO-262",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad de Wilson",
+  subtema: "Fisiopatología y metabolismo del cobre",
+  dificultad: "Media",
+  caso: "Mujer de 22 años presenta hepatitis crónica y alteraciones del movimiento. Los estudios sugieren acumulación de cobre en el hígado. La evaluación genética identifica variantes patogénicas bialélicas en ATP7B.",
+  pregunta: "¿Qué alteración fisiopatológica explica principalmente la acumulación de cobre en esta enfermedad?",
+  opciones: [
+    "Aumento de la absorción intestinal de hierro por alteración de HFE",
+    "Defecto en la incorporación de cobre a la ceruloplasmina y en la excreción biliar del cobre",
+    "Deficiencia de la síntesis de albúmina como alteración primaria del metabolismo del cobre",
+    "Aumento de la excreción renal de cobre con deficiencia tisular progresiva",
+    "Defecto de la absorción intestinal de cobre causado por mutaciones en ATP7A"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "ATP7B codifica una ATPasa transportadora de cobre que participa en la incorporación de cobre a la apoceruloplasmina y en la excreción biliar del exceso de cobre. Su disfunción reduce la eliminación hepatobiliar y favorece la acumulación hepática, seguida de liberación de cobre hacia la circulación y depósito extrahepático. ATP7A, en cambio, está relacionado con la enfermedad de Menkes, que produce alteraciones en la distribución y disponibilidad del cobre.",
+  perlaENARM: "Wilson = ATP7B, herencia autosómica recesiva, disminución de la excreción biliar de cobre. Menkes = ATP7A.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencias internacionales: AASLD 2022 y EASL 2012.",
+  bibliografia: [
+    "Schilsky ML, et al. AASLD Practice Guidance on Wilson disease. Hepatology. 2023;77(4):1428-1455.",
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines: Wilson's disease. J Hepatol. 2012;56(3):671-685."
+  ]
+},
+{
+  id: "GASTRO-263",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad de Wilson",
+  subtema: "Ceruloplasmina y estudios iniciales",
+  dificultad: "Media",
+  caso: "Hombre de 20 años con elevación persistente de aminotransferasas presenta ceruloplasmina sérica de 12 mg/dL. No tiene manifestaciones neurológicas evidentes. La exploración física muestra hepatomegalia leve y no hay datos clínicos de insuficiencia hepática.",
+  pregunta: "¿Cuál es la interpretación más apropiada de la concentración de ceruloplasmina?",
+  opciones: [
+    "Una concentración menor de 20 mg/dL confirma por sí sola la enfermedad de Wilson",
+    "El resultado apoya la sospecha, pero debe integrarse con otros estudios porque la ceruloplasmina tiene limitaciones diagnósticas",
+    "Una ceruloplasmina baja descarta una enfermedad del metabolismo del cobre",
+    "La ceruloplasmina solo es útil para diagnosticar hemocromatosis",
+    "La concentración no tiene utilidad en la evaluación de una hepatopatía inexplicada"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La ceruloplasmina sérica suele estar disminuida en la enfermedad de Wilson, y una concentración inferior a 20 mg/dL es un hallazgo sugestivo en el contexto apropiado. Sin embargo, no es específica: también puede disminuir en otras hepatopatías avanzadas, pérdidas proteicas y estados de deficiencia de cobre. Además, puede ser normal o elevarse por inflamación, embarazo o tratamiento con estrógenos. Por ello, debe interpretarse junto con cobre urinario de 24 horas, exploración oftalmológica, evaluación hepática y, cuando corresponda, estudio genético.",
+  perlaENARM: "Ceruloplasmina baja orienta, pero no confirma Wilson por sí sola. Una concentración normal tampoco excluye completamente la enfermedad.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: AASLD 2022.",
+  bibliografia: [
+    "Schilsky ML, et al. AASLD Practice Guidance on Wilson disease. Hepatology. 2023;77(4):1428-1455.",
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines: Wilson's disease. J Hepatol. 2012;56(3):671-685."
+  ]
+},
+{
+  id: "GASTRO-264",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad de Wilson",
+  subtema: "Cobre urinario de 24 horas",
+  dificultad: "Alta",
+  caso: "Mujer de 24 años con hepatitis de etiología no aclarada presenta ceruloplasmina disminuida y elevación persistente de aminotransferasas. La cuantificación de cobre urinario en una recolección de 24 horas muestra 180 µg/24 h. No ha recibido tratamiento quelante antes de la recolección.",
+  pregunta: "¿Cuál es la interpretación más apropiada del resultado urinario?",
+  opciones: [
+    "Es un resultado normal que excluye enfermedad de Wilson",
+    "Es compatible con aumento de la excreción urinaria de cobre y apoya la sospecha de enfermedad de Wilson",
+    "Confirma hemocromatosis hereditaria",
+    "Demuestra deficiencia corporal de cobre",
+    "Solo tiene valor diagnóstico cuando la ceruloplasmina está elevada"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El cobre urinario de 24 horas suele estar elevado en la enfermedad de Wilson sintomática. Una excreción superior a 100 µg/24 h es un hallazgo fuertemente sugestivo en pacientes con presentación compatible, aunque debe integrarse con los demás datos. Valores menores también pueden ser relevantes, especialmente en pacientes pediátricos o en determinadas presentaciones. La calidad de la recolección y otros trastornos hepáticos pueden influir en la interpretación.",
+  perlaENARM: "Cobre urinario de 24 horas >100 µg/24 h en un paciente sintomático apoya fuertemente Wilson, pero no sustituye la integración diagnóstica.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: AASLD 2022.",
+  bibliografia: [
+    "Schilsky ML, et al. AASLD Practice Guidance on Wilson disease. Hepatology. 2023;77(4):1428-1455.",
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines: Wilson's disease. J Hepatol. 2012;56(3):671-685."
+  ]
+},
+{
+  id: "GASTRO-265",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad de Wilson",
+  subtema: "Anillos de Kayser-Fleischer",
+  dificultad: "Alta",
+  caso: "Hombre de 25 años presenta disartria, temblor de intención y alteraciones conductuales progresivas. La exploración oftalmológica con lámpara de hendidura identifica un anillo pigmentado marrón-dorado en la periferia de la córnea. Los estudios hepáticos muestran alteraciones bioquímicas crónicas.",
+  pregunta: "¿Qué estructura explica el hallazgo ocular característico de esta enfermedad?",
+  opciones: [
+    "Depósito de hierro en la cápsula anterior del cristalino",
+    "Depósito de cobre en la membrana de Descemet de la córnea",
+    "Depósito de bilirrubina en la retina",
+    "Acumulación de calcio en la conjuntiva bulbar",
+    "Depósito de melanina en el humor vítreo"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Los anillos de Kayser-Fleischer se deben al depósito de cobre en la membrana de Descemet, en la periferia corneal. Son especialmente frecuentes en pacientes con manifestaciones neurológicas, pero pueden faltar en pacientes con enfermedad hepática aislada. Su identificación apoya de manera importante el diagnóstico, aunque el hallazgo requiere correlación clínica y bioquímica.",
+  perlaENARM: "Anillo de Kayser-Fleischer = depósito corneal de cobre en la membrana de Descemet. Es más frecuente en la presentación neurológica que en la hepática aislada.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: AASLD 2022.",
+  bibliografia: [
+    "Schilsky ML, et al. AASLD Practice Guidance on Wilson disease. Hepatology. 2023;77(4):1428-1455.",
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines: Wilson's disease. J Hepatol. 2012;56(3):671-685."
+  ]
+},
+{
+  id: "GASTRO-266",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad de Wilson",
+  subtema: "Puntuación diagnóstica de Leipzig",
+  dificultad: "Muy alta",
+  caso: "Hombre de 21 años presenta temblor, disartria y elevación de aminotransferasas. La evaluación oftalmológica confirma anillos de Kayser-Fleischer. La ceruloplasmina sérica es de 8 mg/dL y el cobre urinario de 24 horas está claramente elevado. Se sospecha enfermedad de Wilson y se decide integrar una puntuación diagnóstica validada.",
+  pregunta: "¿Cuál es la utilidad principal del sistema de puntuación de Leipzig en este contexto?",
+  opciones: [
+    "Establecer el estadio histológico de fibrosis hepática sin biopsia",
+    "Determinar la gravedad de la encefalopatía hepática mediante criterios neurológicos",
+    "Integrar datos clínicos, oftalmológicos, bioquímicos, histológicos y genéticos para apoyar o establecer el diagnóstico de Wilson",
+    "Diferenciar exclusivamente hepatitis A de hepatitis E",
+    "Calcular el riesgo cardiovascular a diez años"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La puntuación de Leipzig integra diferentes dominios: anillos de Kayser-Fleischer, manifestaciones neurológicas, concentración de ceruloplasmina, excreción urinaria de cobre, contenido hepático de cobre y hallazgos genéticos. Una puntuación de 4 o más apoya el diagnóstico de enfermedad de Wilson. El sistema facilita la integración de resultados, pero no reemplaza el juicio clínico ni la interpretación de cada prueba según el contexto.",
+  perlaENARM: "Leipzig ≥4 puntos: diagnóstico de Wilson muy probable o establecido en el contexto apropiado. Integra hallazgos clínicos, bioquímicos, oculares, hepáticos y genéticos.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: AASLD 2022.",
+  bibliografia: [
+    "Schilsky ML, et al. AASLD Practice Guidance on Wilson disease. Hepatology. 2023;77(4):1428-1455.",
+    "Ferenci P, et al. Diagnosis and phenotypic classification of Wilson disease. Liver International. 2003;23(3):139-142."
+  ]
+},
+{
+  id: "GASTRO-267",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad de Wilson",
+  subtema: "Tratamiento farmacológico de la enfermedad sintomática",
+  dificultad: "Muy alta",
+  caso: "Mujer de 27 años presenta enfermedad de Wilson confirmada, con hepatitis crónica y manifestaciones neurológicas leves. No tiene insuficiencia hepática aguda ni contraindicación conocida para el tratamiento farmacológico. Se planea iniciar tratamiento para reducir la carga corporal de cobre.",
+  pregunta: "¿Cuál de las siguientes estrategias farmacológicas se utiliza para tratar la enfermedad de Wilson sintomática?",
+  opciones: [
+    "Quelación con penicilamina o trientina, individualizando la elección y la vigilancia de efectos adversos",
+    "Administración de hierro oral para competir con la absorción intestinal de cobre",
+    "Tratamiento exclusivo con ácido ursodesoxicólico",
+    "Glucocorticoides como monoterapia para eliminar el cobre tisular",
+    "Ribavirina como tratamiento etiológico específico"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La penicilamina y la trientina son agentes quelantes que favorecen la eliminación de cobre y se utilizan en el tratamiento de pacientes sintomáticos. La elección depende de la presentación clínica, la tolerabilidad, la disponibilidad y la experiencia del equipo tratante. La penicilamina puede causar reacciones de hipersensibilidad, citopenias, proteinuria y otros efectos adversos; la trientina también requiere vigilancia clínica y bioquímica. El zinc reduce la absorción intestinal de cobre y puede utilizarse en situaciones seleccionadas, especialmente en determinados pacientes presintomáticos o como parte de estrategias individualizadas.",
+  perlaENARM: "Wilson sintomática: penicilamina o trientina como quelantes. El zinc reduce la absorción intestinal de cobre; no sustituye automáticamente a la quelación en toda presentación sintomática.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: AASLD 2022.",
+  bibliografia: [
+    "Schilsky ML, et al. AASLD Practice Guidance on Wilson disease. Hepatology. 2023;77(4):1428-1455.",
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines: Wilson's disease. J Hepatol. 2012;56(3):671-685."
+  ]
+},
+{
+  id: "GASTRO-268",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad de Wilson",
+  subtema: "Tratamiento de mantenimiento y adherencia",
+  dificultad: "Alta",
+  caso: "Hombre de 30 años con enfermedad de Wilson ha mantenido estabilidad clínica durante 3 años con tratamiento y seguimiento especializado. Debido a dificultades económicas, suspende su medicamento durante varias semanas. Posteriormente presenta incremento de aminotransferasas y deterioro clínico.",
+  pregunta: "¿Cuál es la explicación y conducta más apropiadas?",
+  opciones: [
+    "La interrupción no tiene consecuencias porque el cobre se elimina espontáneamente",
+    "La enfermedad de Wilson se cura cuando se normaliza la ceruloplasmina",
+    "La suspensión del tratamiento puede favorecer acumulación de cobre y descompensación; requiere reevaluación especializada y restablecimiento de una estrategia terapéutica apropiada",
+    "Debe recibir hierro intravenoso como tratamiento de rescate",
+    "La elevación de aminotransferasas demuestra obligatoriamente hepatitis viral aguda"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La enfermedad de Wilson es un trastorno genético crónico que requiere tratamiento sostenido. La interrupción del tratamiento puede provocar acumulación de cobre, deterioro hepático y, en casos graves, descompensación potencialmente mortal. Ante un empeoramiento clínico debe evaluarse la gravedad de la lesión hepática, la adherencia, la tolerabilidad, la dosis y otras causas concomitantes. El restablecimiento o ajuste del tratamiento debe realizarse bajo supervisión especializada.",
+  perlaENARM: "La enfermedad de Wilson requiere tratamiento de por vida. La falta de adherencia puede precipitar deterioro hepático grave.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: AASLD 2022.",
+  bibliografia: [
+    "Schilsky ML, et al. AASLD Practice Guidance on Wilson disease. Hepatology. 2023;77(4):1428-1455.",
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines: Wilson's disease. J Hepatol. 2012;56(3):671-685."
+  ]
+},
+{
+  id: "GASTRO-269",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad de Wilson",
+  subtema: "Insuficiencia hepática aguda y trasplante",
+  dificultad: "Extrema",
+  caso: "Mujer de 18 años ingresa por ictericia intensa, hemólisis Coombs negativa, coagulopatía y encefalopatía de progresión rápida. Presenta lesión hepática grave y alteraciones bioquímicas compatibles con enfermedad de Wilson. La evaluación clínica sugiere insuficiencia hepática aguda.",
+  pregunta: "¿Cuál es la conducta prioritaria ante esta presentación?",
+  opciones: [
+    "Manejo ambulatorio con zinc oral y revisión en 3 meses",
+    "Esperar la confirmación genética antes de iniciar cualquier intervención",
+    "Hospitalización urgente en un centro especializado, soporte intensivo y evaluación inmediata para trasplante hepático",
+    "Iniciar únicamente azatioprina por sospecha de hepatitis autoinmune",
+    "Realizar flebotomías terapéuticas para retirar el cobre circulante"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La enfermedad de Wilson puede causar insuficiencia hepática aguda, acompañada en ocasiones de hemólisis Coombs negativa y deterioro multiorgánico. Es una emergencia médica que requiere cuidados intensivos, evaluación urgente por hepatología y valoración temprana para trasplante hepático. La confirmación diagnóstica debe acelerarse, pero no debe retrasar las intervenciones críticas ni la referencia al centro de trasplante. El tratamiento médico aislado puede ser insuficiente en la insuficiencia hepática aguda asociada a Wilson.",
+  perlaENARM: "Wilson + insuficiencia hepática aguda: referencia inmediata a centro de trasplante. La hemólisis Coombs negativa es una pista clínica importante.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: AASLD 2022 y guías especializadas en insuficiencia hepática aguda.",
+  bibliografia: [
+    "Schilsky ML, et al. AASLD Practice Guidance on Wilson disease. Hepatology. 2023;77(4):1428-1455.",
+    "European Association for the Study of the Liver. EASL Clinical Practical Guidelines on the management of acute (fulminant) liver failure. J Hepatol. 2017;66(5):1047-1081."
+  ]
+},
+{
+  id: "GASTRO-270",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad de Wilson",
+  subtema: "Diagnóstico diferencial de hepatopatía y manifestaciones neurológicas",
+  dificultad: "Extrema",
+  caso: "Hombre de 28 años presenta cirrosis, temblor y alteraciones de la conducta. La ceruloplasmina está disminuida y el cobre urinario elevado. La resonancia magnética cerebral muestra alteraciones en ganglios basales. Se detecta una variante patogénica de ATP7B en una sola copia, pero el estudio genético inicial no identifica una segunda variante.",
+  pregunta: "¿Cuál es la interpretación más apropiada de estos resultados?",
+  opciones: [
+    "La enfermedad de Wilson queda descartada porque solo se identificó una variante en ATP7B",
+    "La combinación de hallazgos bioquímicos, clínicos y de imagen obliga a continuar la evaluación especializada; el estudio genético inicial puede no detectar todas las variantes relevantes",
+    "El cuadro confirma enfermedad de Alzheimer de inicio temprano",
+    "La ceruloplasmina baja demuestra por sí sola enfermedad de Menkes",
+    "La resonancia magnética de ganglios basales confirma exclusivamente intoxicación por manganeso"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La enfermedad de Wilson suele requerir variantes patogénicas bialélicas de ATP7B, pero un estudio genético inicial puede identificar solo una variante por limitaciones técnicas o por la naturaleza de la segunda alteración. La sospecha clínica no debe descartarse automáticamente cuando existen datos bioquímicos, neurológicos y hepáticos compatibles. Deben revisarse la metodología genética utilizada y la posibilidad de estudios complementarios, además de integrar los resultados con cobre urinario, ceruloplasmina, examen oftalmológico y otros componentes de la evaluación diagnóstica.",
+  perlaENARM: "Un estudio genético incompleto o con una sola variante detectada no siempre excluye Wilson. Integrar fenotipo, metabolismo del cobre y alcance técnico del análisis molecular.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: AASLD 2022.",
+  bibliografia: [
+    "Schilsky ML, et al. AASLD Practice Guidance on Wilson disease. Hepatology. 2023;77(4):1428-1455.",
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines: Wilson's disease. J Hepatol. 2012;56(3):671-685."
+  ]
+},
+{
+  id: "GASTRO-271",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis biliar primaria",
+  subtema: "Presentación clínica y patrón bioquímico",
+  dificultad: "Baja",
+  caso: "Mujer de 48 años acude por prurito generalizado y fatiga de 8 meses de evolución. Niega fiebre, dolor abdominal intenso y consumo significativo de alcohol. Los estudios muestran fosfatasa alcalina de 420 U/L, GGT de 310 U/L, ALT de 65 U/L y bilirrubina total normal. La ecografía hepatobiliar no identifica dilatación de la vía biliar.",
+  pregunta: "¿Cuál es el diagnóstico que debe sospecharse principalmente?",
+  opciones: [
+    "Hepatitis autoinmune",
+    "Colangitis biliar primaria",
+    "Hepatitis alcohólica aguda",
+    "Hemocromatosis hereditaria",
+    "Pancreatitis crónica"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La colangitis biliar primaria es una enfermedad hepática autoinmunitaria crónica caracterizada por lesión progresiva de los conductos biliares intrahepáticos pequeños. Predomina en mujeres de mediana edad y puede manifestarse con fatiga, prurito y un patrón bioquímico colestásico, con elevación de fosfatasa alcalina y GGT. La bilirrubina puede permanecer normal durante las etapas iniciales. La ausencia de dilatación biliar ayuda a orientar hacia una causa intrahepática, aunque deben excluirse otras etiologías.",
+  perlaENARM: "Mujer de mediana edad + prurito + fosfatasa alcalina elevada + vía biliar no dilatada: sospechar colangitis biliar primaria.",
+  gpc: "No se asigna clave de GPC mexicana porque no se ha verificado una guía nacional específica y vigente para este reactivo. Referencias internacionales: EASL 2017 y AASLD 2018, con actualización focal de AASLD en 2021.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines: The diagnosis and management of patients with primary biliary cholangitis. J Hepatol. 2017;67(1):145-172.",
+    "Lindor KD, et al. Primary biliary cholangitis: 2021 practice guidance update from the American Association for the Study of Liver Diseases. Hepatology. 2022;75(4):1012-1013. doi:10.1002/hep.32117."
+  ]
+},
+{
+  id: "GASTRO-272",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis biliar primaria",
+  subtema: "Anticuerpos antimitocondriales",
+  dificultad: "Media",
+  caso: "Mujer de 52 años presenta prurito persistente y elevación de fosfatasa alcalina durante 6 meses. La ecografía hepatobiliar no muestra obstrucción extrahepática. Los anticuerpos antimitocondriales son positivos en título significativo.",
+  pregunta: "¿Cuál es la interpretación más apropiada de este resultado?",
+  opciones: [
+    "Los anticuerpos antimitocondriales son característicos de la colangitis biliar primaria y, en el contexto adecuado, apoyan fuertemente el diagnóstico",
+    "Los anticuerpos antimitocondriales confirman hepatitis viral B",
+    "El resultado demuestra obstrucción mecánica del colédoco",
+    "Los anticuerpos antimitocondriales son específicos de la enfermedad de Wilson",
+    "El resultado descarta una enfermedad hepática autoinmunitaria"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Los anticuerpos antimitocondriales (AMA), especialmente los dirigidos contra el complejo piruvato deshidrogenasa, son altamente característicos de la colangitis biliar primaria. En presencia de colestasis bioquímica y exclusión de obstrucción extrahepática, su detección permite establecer el diagnóstico sin biopsia en muchos pacientes. Un resultado positivo aislado, sin alteraciones bioquímicas compatibles, requiere interpretación clínica y seguimiento apropiado.",
+  perlaENARM: "Colestasis intrahepática + AMA positivos: combinación clásica para el diagnóstico de colangitis biliar primaria.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencias internacionales: EASL 2017 y AASLD 2018/actualización focal de 2021.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines. J Hepatol. 2017;67(1):145-172.",
+    "Lindor KD, et al. Primary biliary cholangitis: 2021 practice guidance update. Hepatology. 2022;75(4):1012-1013."
+  ]
+},
+{
+  id: "GASTRO-273",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis biliar primaria",
+  subtema: "Criterios diagnósticos",
+  dificultad: "Media",
+  caso: "Mujer de 45 años presenta fosfatasa alcalina persistentemente elevada, GGT aumentada y anticuerpos antimitocondriales positivos. La ecografía abdominal descarta dilatación de la vía biliar y no identifica lesiones focales hepáticas. No tiene manifestaciones clínicas de cirrosis.",
+  pregunta: "¿Cuál es la conducta diagnóstica más apropiada?",
+  opciones: [
+    "Realizar biopsia hepática obligatoria en todos los casos antes de establecer el diagnóstico",
+    "Solicitar únicamente alfafetoproteína para confirmar la enfermedad",
+    "Establecer el diagnóstico mediante la integración de colestasis bioquímica y AMA positivos, tras excluir causas alternativas",
+    "Descartar colangitis biliar primaria porque la paciente no tiene cirrosis",
+    "Solicitar colangiopancreatografía retrógrada endoscópica como prueba confirmatoria obligatoria"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "El diagnóstico de colangitis biliar primaria se establece habitualmente cuando se cumplen al menos dos de tres criterios: colestasis bioquímica con elevación de fosfatasa alcalina, presencia de AMA u otros autoanticuerpos específicos como anti-gp210 o anti-sp100, y hallazgos histológicos característicos de colangitis destructiva no supurativa. La biopsia no es necesaria cuando los hallazgos bioquímicos y serológicos son concordantes y se han excluido otras causas. Puede ser útil si los anticuerpos son negativos, existen hallazgos atípicos o se sospecha una enfermedad hepática concomitante.",
+  perlaENARM: "Diagnóstico: cumplir 2 de 3 criterios — colestasis bioquímica, autoanticuerpos específicos e histología compatible. La biopsia no es rutinaria en el cuadro clásico.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencias internacionales: EASL 2017 y AASLD 2018/actualización focal de 2021.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines. J Hepatol. 2017;67(1):145-172.",
+    "Lindor KD, et al. Primary biliary cholangitis: 2018 practice guidance from the American Association for the Study of Liver Diseases. Hepatology. 2019;69:394-419."
+  ]
+},
+{
+  id: "GASTRO-274",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis biliar primaria",
+  subtema: "Autoanticuerpos específicos en enfermedad AMA negativa",
+  dificultad: "Alta",
+  caso: "Mujer de 50 años presenta prurito y elevación persistente de fosfatasa alcalina. La ecografía no muestra obstrucción biliar. Los anticuerpos antimitocondriales son negativos, pero la sospecha de enfermedad colestásica autoinmunitaria permanece elevada.",
+  pregunta: "¿Qué estrategia puede ayudar a establecer el diagnóstico de colangitis biliar primaria en esta paciente?",
+  opciones: [
+    "Solicitar anticuerpos anti-gp210 y anti-sp100, junto con la evaluación clínica y bioquímica",
+    "Descartar definitivamente la enfermedad porque los AMA son negativos",
+    "Solicitar exclusivamente anticuerpos anti-transglutaminasa IgA",
+    "Realizar prueba de aliento para Helicobacter pylori",
+    "Solicitar anticuerpos contra el receptor de TSH como prueba confirmatoria"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Una minoría de pacientes con colangitis biliar primaria no presenta AMA detectables. En este contexto, los anticuerpos específicos anti-gp210 y anti-sp100 pueden apoyar el diagnóstico. Si persiste la colestasis sin explicación y la serología es negativa o no concluyente, puede considerarse biopsia hepática después de completar la evaluación por imagen y excluir otras causas intrahepáticas y extrahepáticas.",
+  perlaENARM: "AMA negativos no excluyen CBP. Considerar anti-gp210, anti-sp100 y, cuando esté indicado, biopsia hepática.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2017.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines. J Hepatol. 2017;67(1):145-172.",
+    "Lindor KD, et al. Primary biliary cholangitis: 2018 practice guidance from the American Association for the Study of Liver Diseases. Hepatology. 2019;69:394-419."
+  ]
+},
+{
+  id: "GASTRO-275",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis biliar primaria",
+  subtema: "Tratamiento de primera línea",
+  dificultad: "Alta",
+  caso: "Mujer de 49 años tiene diagnóstico confirmado de colangitis biliar primaria mediante colestasis bioquímica y AMA positivos. La bilirrubina es normal y no presenta datos de descompensación hepática. Se encuentra en valoración para iniciar tratamiento modificador de la enfermedad.",
+  pregunta: "¿Cuál es el tratamiento farmacológico de primera línea recomendado?",
+  opciones: [
+    "Prednisona en monoterapia para todas las pacientes",
+    "Ácido ursodesoxicólico a dosis de 13-15 mg/kg/día por vía oral",
+    "Azatioprina como tratamiento universal de primera línea",
+    "Rifampicina como tratamiento modificador de la enfermedad",
+    "Colestiramina como única terapia para prevenir progresión hepática"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El ácido ursodesoxicólico (AUDC) es el tratamiento de primera línea recomendado para la colangitis biliar primaria, a una dosis de 13-15 mg/kg/día por vía oral. Habitualmente se mantiene a largo plazo y se evalúa la respuesta bioquímica, especialmente mediante fosfatasa alcalina y bilirrubina. La colestiramina puede ayudar a controlar el prurito, pero no sustituye al tratamiento modificador de la enfermedad.",
+  perlaENARM: "CBP: AUDC 13-15 mg/kg/día como primera línea. Evaluar respuesta bioquímica tras aproximadamente 12 meses.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencias internacionales: EASL 2017 y AASLD 2018/actualización focal de 2021.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines. J Hepatol. 2017;67(1):145-172.",
+    "Lindor KD, et al. Primary biliary cholangitis: 2021 practice guidance update. Hepatology. 2022;75(4):1012-1013."
+  ]
+},
+{
+  id: "GASTRO-276",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis biliar primaria",
+  subtema: "Prurito colestásico",
+  dificultad: "Alta",
+  caso: "Mujer de 54 años con colangitis biliar primaria confirmada presenta prurito intenso, predominante en palmas y plantas, que empeora por la noche. No tiene lesiones cutáneas primarias ni datos de infección. El síntoma interfiere con el sueño y la calidad de vida.",
+  pregunta: "¿Cuál es una opción farmacológica inicial habitual para el control sintomático del prurito colestásico?",
+  opciones: [
+    "Colestiramina, administrada con separación adecuada respecto a otros medicamentos",
+    "Prednisona en dosis altas como tratamiento universal del prurito",
+    "Antibióticos de amplio espectro durante 14 días",
+    "Suspender el ácido ursodesoxicólico en todos los casos",
+    "Hierro oral a dosis altas"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La colestiramina es una opción inicial habitual para el prurito colestásico. Debe administrarse separada de otros medicamentos para reducir la interferencia con su absorción, siguiendo las recomendaciones de administración del producto. Si el prurito persiste, se requiere reevaluación de la adherencia, la intensidad del síntoma y las alternativas terapéuticas, que pueden incluir rifampicina, naltrexona o sertralina en pacientes seleccionados, con atención a contraindicaciones e interacciones. El control del prurito debe abordarse de manera individualizada.",
+  perlaENARM: "Prurito colestásico: colestiramina como opción inicial; separar su administración de otros fármacos. Si persiste, valorar alternativas y vigilar toxicidad e interacciones.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2017.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines. J Hepatol. 2017;67(1):145-172.",
+    "Lindor KD, et al. Primary biliary cholangitis: 2018 practice guidance from the American Association for the Study of Liver Diseases. Hepatology. 2019;69:394-419."
+  ]
+},
+{
+  id: "GASTRO-277",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis biliar primaria",
+  subtema: "Evaluación de respuesta al ácido ursodesoxicólico",
+  dificultad: "Muy alta",
+  caso: "Mujer de 57 años con colangitis biliar primaria recibe ácido ursodesoxicólico a dosis adecuada desde hace 12 meses. La fosfatasa alcalina permanece en 2.4 veces el límite superior normal y la bilirrubina ha aumentado ligeramente, aunque sigue dentro del intervalo normal. La adherencia al tratamiento está documentada.",
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Suspender el ácido ursodesoxicólico porque no existe ninguna utilidad después de un año",
+    "Considerar una respuesta bioquímica insuficiente, reevaluar el riesgo y valorar opciones terapéuticas adicionales con hepatología",
+    "Diagnosticar automáticamente una obstrucción completa del colédoco",
+    "Añadir prednisona de forma obligatoria sin evaluar otras posibilidades",
+    "Indicar trasplante hepático inmediato independientemente del estadio clínico"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La respuesta al AUDC debe evaluarse aproximadamente después de 12 meses, utilizando parámetros bioquímicos y herramientas de estratificación de riesgo. Una fosfatasa alcalina persistentemente elevada puede indicar mayor riesgo de progresión. Deben revisarse dosis, adherencia, diagnósticos concomitantes y estadio de fibrosis, además de discutir con hepatología opciones de segunda línea apropiadas y disponibles. La selección terapéutica depende del perfil de riesgo, las comorbilidades, la situación regulatoria de los fármacos y la presencia de enfermedad avanzada.",
+  perlaENARM: "Evaluar respuesta al AUDC a los 12 meses. La persistencia de colestasis obliga a estratificar riesgo y valorar tratamiento adicional, no a suspender automáticamente el AUDC.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencias internacionales: EASL 2017 y AASLD 2018/actualización focal de 2021. Verificar recomendaciones regulatorias y terapias disponibles al momento de prescribir.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines. J Hepatol. 2017;67(1):145-172.",
+    "Lindor KD, et al. Primary biliary cholangitis: 2021 practice guidance update. Hepatology. 2022;75(4):1012-1013."
+  ]
+},
+{
+  id: "GASTRO-278",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis biliar primaria",
+  subtema: "Asociación con hepatitis autoinmune",
+  dificultad: "Muy alta",
+  caso: "Mujer de 43 años con colangitis biliar primaria presenta elevación desproporcionada de ALT, que alcanza 8 veces el límite superior normal, e IgG elevada. Los AMA son positivos y la ecografía no muestra obstrucción extrahepática. El equipo médico considera una posible enfermedad hepática autoinmunitaria concomitante.",
+  pregunta: "¿Cuál es la conducta diagnóstica más apropiada?",
+  opciones: [
+    "Asumir que toda elevación de ALT forma parte de la colangitis biliar primaria y no investigar más",
+    "Realizar biopsia hepática para evaluar hepatitis de interfase y considerar características de solapamiento con hepatitis autoinmune",
+    "Suspender toda evaluación porque los AMA ya establecieron el diagnóstico",
+    "Solicitar exclusivamente una determinación de ferritina",
+    "Diagnosticar hepatitis viral A sin estudios adicionales"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Una elevación desproporcionada de aminotransferasas o IgG en una paciente con CBP debe hacer considerar hepatitis autoinmune concomitante u otra causa de lesión hepática. La biopsia hepática permite valorar hepatitis de interfase y otros hallazgos que apoyen una entidad superpuesta. Si se confirma hepatitis autoinmune clínicamente significativa, puede requerirse inmunosupresión además del tratamiento con AUDC. La decisión debe basarse en una evaluación especializada, porque no toda elevación de transaminasas representa un síndrome de solapamiento.",
+  perlaENARM: "CBP + ALT marcadamente elevada o IgG alta: investigar hepatitis autoinmune concomitante; la biopsia puede ser fundamental.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2017 y guía AASLD para CBP.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines. J Hepatol. 2017;67(1):145-172.",
+    "Lindor KD, et al. Primary biliary cholangitis: 2018 practice guidance from the American Association for the Study of Liver Diseases. Hepatology. 2019;69:394-419."
+  ]
+},
+{
+  id: "GASTRO-279",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis biliar primaria",
+  subtema: "Complicaciones extrahepáticas y enfermedad ósea",
+  dificultad: "Alta",
+  caso: "Mujer de 61 años con colangitis biliar primaria de 7 años de evolución refiere dolor óseo y ha presentado una fractura después de una caída desde su propia altura. No tiene antecedentes de uso crónico de glucocorticoides. La evaluación de laboratorio muestra deficiencia de vitamina D.",
+  pregunta: "¿Qué complicación debe investigarse de manera prioritaria en esta paciente?",
+  opciones: [
+    "Osteoporosis y enfermedad metabólica ósea asociadas a la hepatopatía colestásica",
+    "Hemocromatosis como causa obligatoria de toda fractura",
+    "Enfermedad de Wilson de inicio tardío",
+    "Pancreatitis aguda recurrente",
+    "Carcinoma pancreático como causa más probable de fragilidad ósea"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La colangitis biliar primaria se asocia con un mayor riesgo de osteopenia, osteoporosis y fracturas por fragilidad. La enfermedad colestásica crónica, la edad, la menopausia, la deficiencia de vitamina D y otros factores pueden contribuir al deterioro de la salud ósea. La evaluación incluye valoración de factores de riesgo, densitometría ósea cuando esté indicada y corrección de deficiencias nutricionales. La prevención y el tratamiento deben individualizarse según el riesgo de fractura y las recomendaciones para osteoporosis.",
+  perlaENARM: "CBP: no olvidar osteoporosis y riesgo de fractura. Evaluar salud ósea, vitamina D y factores de riesgo de manera periódica.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencia internacional: EASL 2017.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines. J Hepatol. 2017;67(1):145-172.",
+    "Lindor KD, et al. Primary biliary cholangitis: 2018 practice guidance from the American Association for the Study of Liver Diseases. Hepatology. 2019;69:394-419."
+  ]
+},
+{
+  id: "GASTRO-280",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis biliar primaria",
+  subtema: "Cirrosis avanzada y valoración para trasplante",
+  dificultad: "Extrema",
+  caso: "Mujer de 59 años con colangitis biliar primaria presenta cirrosis descompensada, ascitis recurrente y un episodio reciente de hemorragia por várices esofágicas. A pesar del tratamiento, la bilirrubina total aumenta progresivamente y su estado funcional se deteriora.",
+  pregunta: "¿Cuál es la conducta más apropiada ante esta evolución?",
+  opciones: [
+    "Continuar únicamente el tratamiento sintomático sin modificar el seguimiento",
+    "Suspender toda vigilancia porque la enfermedad ya alcanzó una etapa avanzada",
+    "Referir oportunamente a un centro especializado para evaluación de trasplante hepático y manejo de complicaciones de cirrosis",
+    "Iniciar suplementos de hierro como tratamiento modificador de la enfermedad",
+    "Indicar colestiramina como única intervención para prevenir mortalidad"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La ascitis recurrente, la hemorragia variceal y el deterioro progresivo de la función hepática indican cirrosis descompensada. En pacientes con CBP y descompensación hepática debe considerarse valoración por un centro de trasplante, en paralelo con el tratamiento de las complicaciones y la optimización del estado clínico. La decisión no debe basarse únicamente en la bilirrubina o en una cifra aislada, sino en la evolución clínica global y los criterios de evaluación para trasplante.",
+  perlaENARM: "CBP con ascitis, hemorragia variceal o encefalopatía: cirrosis descompensada. Considerar referencia temprana para valoración de trasplante hepático.",
+  gpc: "No se asigna clave de GPC mexicana no verificada. Referencias internacionales: EASL 2017 y AASLD 2018/actualización focal de 2021.",
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines. J Hepatol. 2017;67(1):145-172.",
+    "Lindor KD, et al. Primary biliary cholangitis: 2021 practice guidance update. Hepatology. 2022;75(4):1012-1013."
+  ]
+},
+  {
+  id: "GASTRO-281",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis esclerosante primaria",
+  subtema: "Definición y asociaciones epidemiológicas",
+  dificultad: "Baja",
+  caso: "Hombre de 34 años con antecedente de colitis ulcerosa diagnosticada hace 6 años acude por fatiga y prurito. Presenta elevación persistente de fosfatasa alcalina y GGT, con bilirrubina discretamente elevada. Las aminotransferasas muestran elevación leve.",
+  pregunta: "¿Cuál de las siguientes enfermedades se asocia clásicamente con la colangitis esclerosante primaria?",
+  opciones: [
+    "Colitis ulcerosa",
+    "Enfermedad celíaca",
+    "Enfermedad de Crohn exclusivamente ileal",
+    "Pancreatitis crónica alcohólica",
+    "Hepatitis viral aguda"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La colangitis esclerosante primaria (CEP) es una enfermedad colestásica crónica caracterizada por inflamación y fibrosis de los conductos biliares intrahepáticos, extrahepáticos o ambos. Existe una asociación estrecha con la enfermedad inflamatoria intestinal, especialmente con la colitis ulcerosa. La enfermedad intestinal puede ser clínicamente poco activa pese a la presencia de CEP.",
+  perlaENARM: "CEP + colitis ulcerosa es una asociación clásica. La actividad clínica intestinal no necesariamente refleja la actividad hepatobiliar.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Primary Sclerosing Cholangitis and Cholangiocarcinoma.",
+  bibliografia: [
+    "Bowlus CL, et al. AASLD Practice Guidance on Primary Sclerosing Cholangitis and Cholangiocarcinoma. Hepatology. 2023;77(2):659-702.",
+    "Chapman R, et al. British Society of Gastroenterology and UK-PSC guidelines for the diagnosis and management of primary sclerosing cholangitis. Gut. 2019;68:1356-1378."
+  ]
+},
+{
+  id: "GASTRO-282",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis esclerosante primaria",
+  subtema: "Patrón bioquímico y evaluación inicial",
+  dificultad: "Media",
+  caso: "Mujer de 39 años con prurito, fatiga y colitis ulcerosa. En los estudios presenta fosfatasa alcalina cuatro veces por encima del límite superior normal, GGT elevada, ALT dos veces por encima del límite normal y bilirrubina normal.",
+  pregunta: "¿Cuál es el patrón bioquímico predominante que orienta hacia una colangiopatía esclerosante?",
+  opciones: [
+    "Patrón hepatocelular con ALT mayor de diez veces el límite superior normal",
+    "Patrón colestásico con elevación predominante de fosfatasa alcalina y GGT",
+    "Hiperbilirrubinemia indirecta aislada",
+    "Elevación aislada de creatina cinasa",
+    "Hiperalbuminemia con transaminasas normales"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La CEP suele manifestarse bioquímicamente con un patrón colestásico, caracterizado por elevación de fosfatasa alcalina y GGT. Las aminotransferasas pueden elevarse de manera leve o moderada, mientras que la bilirrubina puede ser normal durante etapas iniciales. Los resultados bioquímicos por sí solos no establecen el diagnóstico.",
+  perlaENARM: "Prurito + fosfatasa alcalina elevada + enfermedad inflamatoria intestinal obliga a investigar una colangiopatía; una bilirrubina normal no excluye CEP.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Primary Sclerosing Cholangitis and Cholangiocarcinoma.",
+  bibliografia: [
+    "Bowlus CL, et al. Hepatology. 2023;77(2):659-702.",
+    "Chapman R, et al. Gut. 2019;68:1356-1378."
+  ]
+},
+{
+  id: "GASTRO-283",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis esclerosante primaria",
+  subtema: "Estudio de imagen de elección",
+  dificultad: "Media",
+  caso: "Hombre de 42 años con colitis ulcerosa y colestasis persistente. La ecografía abdominal no muestra dilatación importante de la vía biliar ni cálculos. Se sospecha CEP.",
+  pregunta: "¿Cuál es el estudio de imagen no invasivo de elección para evaluar la vía biliar y apoyar el diagnóstico?",
+  opciones: [
+    "Radiografía simple de abdomen",
+    "Tomografía simple sin contraste como prueba confirmatoria única",
+    "Colangiopancreatografía retrógrada endoscópica en todos los pacientes como primera prueba",
+    "Colangiorresonancia magnética",
+    "Gammagrafía ósea"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "La colangiorresonancia magnética (CPRM) es el estudio no invasivo de elección para evaluar la morfología de la vía biliar ante sospecha de CEP. Permite identificar estenosis multifocales y segmentos de dilatación alternante. La ecografía es útil para la evaluación inicial, pero puede ser normal o inespecífica. La CPRE se reserva para situaciones seleccionadas en las que se requiere intervención, obtención de muestras o evaluación adicional de una estenosis relevante.",
+  perlaENARM: "Ante sospecha de CEP, la colangiorresonancia suele preceder a la CPRE. Evita una intervención invasiva meramente diagnóstica cuando la imagen no invasiva es suficiente.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Primary Sclerosing Cholangitis and Cholangiocarcinoma.",
+  bibliografia: [
+    "Bowlus CL, et al. Hepatology. 2023;77(2):659-702.",
+    "Chapman R, et al. Gut. 2019;68:1356-1378."
+  ]
+},
+{
+  id: "GASTRO-284",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis esclerosante primaria",
+  subtema: "Hallazgos colangiográficos característicos",
+  dificultad: "Baja",
+  caso: "Hombre de 37 años con colitis ulcerosa y perfil bioquímico colestásico. La colangiorresonancia muestra múltiples estenosis cortas distribuidas en conductos biliares intrahepáticos y extrahepáticos, alternando con segmentos de calibre normal o dilatado.",
+  pregunta: "¿Cuál es la interpretación más característica de este hallazgo?",
+  opciones: [
+    "Coledocolitiasis única no complicada",
+    "Colangitis esclerosante primaria",
+    "Colecistitis aguda litiásica",
+    "Hepatitis alcohólica aislada",
+    "Trombosis de la vena porta como explicación específica"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La CEP típicamente produce estenosis multifocales con dilataciones interpuestas, descritas como un aspecto arrosariado. Puede afectar la vía biliar intrahepática, extrahepática o ambas. El diagnóstico debe integrar el contexto clínico, el patrón bioquímico y los hallazgos de imagen, además de excluir causas secundarias de colangitis esclerosante.",
+  perlaENARM: "El patrón arrosariado de la vía biliar es una imagen clásica de CEP, pero no sustituye la exclusión de causas secundarias.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Primary Sclerosing Cholangitis and Cholangiocarcinoma.",
+  bibliografia: [
+    "Bowlus CL, et al. Hepatology. 2023;77(2):659-702.",
+    "Chapman R, et al. Gut. 2019;68:1356-1378."
+  ]
+},
+{
+  id: "GASTRO-285",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis esclerosante primaria",
+  subtema: "Diagnóstico diferencial: enfermedad relacionada con IgG4",
+  dificultad: "Alta",
+  caso: "Hombre de 61 años presenta ictericia obstructiva, pérdida de peso y estenosis de la vía biliar. La imagen muestra engrosamiento de la pared del colédoco y una lesión pancreática compatible con pancreatitis autoinmune. Se considera el diagnóstico diferencial con CEP.",
+  pregunta: "¿Qué entidad debe investigarse especialmente porque puede simular una colangitis esclerosante y tiene tratamiento específico?",
+  opciones: [
+    "Enfermedad relacionada con IgG4",
+    "Síndrome de Gilbert",
+    "Hemocromatosis hereditaria sin afectación biliar",
+    "Enfermedad de Wilson exclusivamente neurológica",
+    "Hiperplasia nodular focal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La colangitis relacionada con IgG4 puede producir estenosis biliares e imitar una CEP o una neoplasia pancreatobiliar. La afectación pancreática compatible con pancreatitis autoinmune aumenta la sospecha. La evaluación puede incluir IgG4 sérica, imagen, histología cuando esté indicada y búsqueda de afectación de otros órganos. Una concentración sérica elevada de IgG4 aislada no confirma por sí sola el diagnóstico.",
+  perlaENARM: "Estenosis biliar + pancreatitis autoinmune obliga a considerar enfermedad relacionada con IgG4. No iniciar glucocorticoides empíricamente sin una evaluación diagnóstica adecuada, especialmente si debe excluirse malignidad.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Primary Sclerosing Cholangitis and Cholangiocarcinoma.",
+  bibliografia: [
+    "Bowlus CL, et al. Hepatology. 2023;77(2):659-702.",
+    "Chapman R, et al. Gut. 2019;68:1356-1378."
+  ]
+},
+{
+  id: "GASTRO-286",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis esclerosante primaria",
+  subtema: "Riesgo de colangiocarcinoma y señales de alarma",
+  dificultad: "Alta",
+  caso: "Hombre de 49 años con CEP conocida presenta empeoramiento reciente del prurito, pérdida involuntaria de peso, incremento progresivo de bilirrubina y una estenosis biliar nueva en la colangiorresonancia.",
+  pregunta: "¿Cuál es la conducta más apropiada ante esta evolución?",
+  opciones: [
+    "Atribuir todos los hallazgos a la progresión habitual de CEP y no investigar",
+    "Iniciar ácido ursodesoxicólico en dosis altas como única intervención",
+    "Investigar una estenosis clínicamente relevante y descartar colangiocarcinoma mediante evaluación especializada",
+    "Indicar colecistectomía urgente en todos los casos",
+    "Suspender el seguimiento hepatológico si la fosfatasa alcalina disminuye posteriormente"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La CEP se asocia con mayor riesgo de colangiocarcinoma. Una estenosis nueva o progresiva, ictericia creciente, pérdida de peso o deterioro clínico requieren evaluación dirigida. Según el contexto, puede indicarse CPRE con toma de muestras citológicas y/o biopsia, pruebas complementarias y discusión multidisciplinaria. Ningún marcador tumoral aislado confirma o descarta por sí mismo la neoplasia.",
+  perlaENARM: "En CEP, ictericia nueva o progresiva, pérdida de peso y una estenosis relevante son señales de alarma para colangiocarcinoma.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Primary Sclerosing Cholangitis and Cholangiocarcinoma.",
+  bibliografia: [
+    "Bowlus CL, et al. Hepatology. 2023;77(2):659-702.",
+    "Chapman R, et al. Gut. 2019;68:1356-1378."
+  ]
+},
+{
+  id: "GASTRO-287",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis esclerosante primaria",
+  subtema: "CEP asociada con enfermedad inflamatoria intestinal: vigilancia colorrectal",
+  dificultad: "Alta",
+  caso: "Mujer de 45 años con colitis ulcerosa y CEP confirmada mediante colangiorresonancia se encuentra sin síntomas intestinales. Pregunta sobre la vigilancia del cáncer colorrectal.",
+  pregunta: "¿Cuál de las siguientes estrategias es la más apropiada?",
+  opciones: [
+    "Realizar colonoscopia únicamente si aparece rectorragia",
+    "Suspender la vigilancia colorrectal porque la colitis está clínicamente inactiva",
+    "Realizar vigilancia colorrectal intensificada mediante colonoscopia, de acuerdo con las recomendaciones para CEP asociada con enfermedad inflamatoria intestinal",
+    "Solicitar únicamente sangre oculta en heces cada cinco años",
+    "Realizar colectomía profiláctica sistemática a todos los pacientes con CEP"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La asociación de CEP con enfermedad inflamatoria intestinal, especialmente colitis ulcerosa, aumenta el riesgo de neoplasia colorrectal. Se recomienda vigilancia colonoscópica intensificada según las guías aplicables, aunque la enfermedad intestinal esté clínicamente inactiva. La frecuencia concreta debe ajustarse al contexto clínico y a la recomendación de la guía vigente.",
+  perlaENARM: "CEP + colitis ulcerosa implica mayor riesgo colorrectal; la ausencia de síntomas intestinales no elimina la necesidad de vigilancia.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Primary Sclerosing Cholangitis and Cholangiocarcinoma; guías de vigilancia en enfermedad inflamatoria intestinal.",
+  bibliografia: [
+    "Bowlus CL, et al. Hepatology. 2023;77(2):659-702.",
+    "Chapman R, et al. Gut. 2019;68:1356-1378."
+  ]
+},
+{
+  id: "GASTRO-288",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis esclerosante primaria",
+  subtema: "Tratamiento farmacológico y ácido ursodesoxicólico",
+  dificultad: "Muy alta",
+  caso: "Hombre de 46 años con CEP confirmada presenta elevación persistente de fosfatasa alcalina, sin colangitis bacteriana ni obstrucción biliar que requiera intervención. Pregunta si existe un fármaco que detenga de manera comprobada la progresión de la enfermedad.",
+  pregunta: "¿Cuál afirmación sobre el ácido ursodesoxicólico (AUDC) es la más adecuada?",
+  opciones: [
+    "Las dosis altas han demostrado reducir de manera concluyente la mortalidad y deben indicarse a todos los pacientes",
+    "El AUDC no debe confundirse con un tratamiento curativo; su uso debe individualizarse y deben evitarse dosis altas por la falta de beneficio clínico demostrado y el potencial de daño",
+    "El AUDC elimina el riesgo de colangiocarcinoma",
+    "El AUDC sustituye la vigilancia de estenosis biliares",
+    "El AUDC está indicado únicamente cuando existe cirrosis descompensada"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "No se ha establecido un tratamiento farmacológico que cure la CEP o que detenga de manera concluyente su historia natural en todos los pacientes. El AUDC puede mejorar parámetros bioquímicos en algunos casos, pero la mejoría bioquímica no demuestra por sí sola beneficio en desenlaces clínicos. Las dosis altas se han asociado con resultados desfavorables y no deben utilizarse de manera rutinaria. El manejo requiere vigilancia de complicaciones, evaluación de estenosis relevantes y atención especializada.",
+  perlaENARM: "En CEP, normalizar o reducir la fosfatasa alcalina no equivale automáticamente a mejorar supervivencia. Evita el AUDC en dosis altas como estrategia rutinaria.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Primary Sclerosing Cholangitis and Cholangiocarcinoma.",
+  bibliografia: [
+    "Bowlus CL, et al. Hepatology. 2023;77(2):659-702.",
+    "Chapman R, et al. Gut. 2019;68:1356-1378."
+  ]
+},
+{
+  id: "GASTRO-289",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis esclerosante primaria",
+  subtema: "Estenosis clínicamente relevante y manejo endoscópico",
+  dificultad: "Muy alta",
+  caso: "Hombre de 52 años con CEP presenta fiebre, dolor en hipocondrio derecho e ictericia. Los estudios sugieren colangitis bacteriana y una estenosis relevante del colédoco con obstrucción del drenaje biliar.",
+  pregunta: "Además del tratamiento inicial de la infección, ¿qué intervención puede ser necesaria para resolver la obstrucción?",
+  opciones: [
+    "CPRE con evaluación de la estenosis y drenaje biliar cuando esté indicado",
+    "Colonoscopia urgente como método de descompresión biliar",
+    "Biopsia hepática percutánea como tratamiento de la obstrucción",
+    "Administración de AUDC como sustituto del drenaje",
+    "Observación sin tratamiento a pesar de la infección y la obstrucción"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La colangitis bacteriana con obstrucción biliar requiere antibióticos y evaluación urgente para drenaje según la gravedad y la respuesta clínica. La CPRE permite evaluar la estenosis, obtener muestras cuando esté indicado y realizar dilatación o drenaje. La colocación de prótesis se individualiza debido a sus posibles complicaciones, incluida la oclusión y la infección. El manejo debe realizarse por un equipo con experiencia en enfermedad hepatobiliar.",
+  perlaENARM: "CEP con fiebre, ictericia y obstrucción sugiere colangitis bacteriana: antibióticos y valoración del drenaje biliar, sin retrasar la atención en pacientes graves.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Primary Sclerosing Cholangitis and Cholangiocarcinoma.",
+  bibliografia: [
+    "Bowlus CL, et al. Hepatology. 2023;77(2):659-702.",
+    "Chapman R, et al. Gut. 2019;68:1356-1378."
+  ]
+},
+{
+  id: "GASTRO-290",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis esclerosante primaria",
+  subtema: "Pronóstico y trasplante hepático",
+  dificultad: "Extrema",
+  caso: "Mujer de 51 años con CEP avanzada presenta cirrosis descompensada, ascitis recurrente, episodios repetidos de colangitis bacteriana y deterioro progresivo de la función hepática pese al manejo especializado.",
+  pregunta: "¿Cuál es la estrategia más apropiada para su manejo a largo plazo?",
+  opciones: [
+    "Mantener exclusivamente tratamiento sintomático indefinido, sin valoración especializada",
+    "Indicar AUDC en dosis altas como alternativa al trasplante",
+    "Referir para evaluación de trasplante hepático, considerando la descompensación y las complicaciones recurrentes",
+    "Realizar colecistectomía como tratamiento definitivo de la CEP",
+    "Suspender la vigilancia de neoplasias tras el primer episodio de descompensación"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "El trasplante hepático es una opción establecida para pacientes seleccionados con CEP que desarrollan enfermedad hepática avanzada, descompensación o complicaciones recurrentes que afectan de forma importante su calidad de vida. La indicación y el momento dependen de la gravedad, las complicaciones, la evaluación integral y los criterios del centro de trasplante. La CEP puede recurrir después del trasplante y el riesgo de neoplasias debe evaluarse según el contexto clínico.",
+  perlaENARM: "La CEP avanzada con descompensación hepática o colangitis recurrente requiere valoración por un centro de trasplante. El trasplante no elimina la necesidad de seguimiento posterior.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: AASLD Practice Guidance on Primary Sclerosing Cholangitis and Cholangiocarcinoma.",
+  bibliografia: [
+    "Bowlus CL, et al. Hepatology. 2023;77(2):659-702.",
+    "Chapman R, et al. Gut. 2019;68:1356-1378."
+  ]
+},
+ {
+  id: "GASTRO-291",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Factores de riesgo y epidemiología",
+  dificultad: "Baja",
+  caso: "Hombre de 62 años acude a consulta por fatiga progresiva. Refiere que nunca se ha realizado una colonoscopia. Su padre fue diagnosticado con cáncer colorrectal a los 52 años. La biometría hemática muestra hemoglobina de 10.4 g/dL, VCM de 72 fL y ferritina disminuida.",
+  pregunta: "¿Cuál es la conducta diagnóstica más apropiada?",
+  opciones: [
+    "Iniciar hierro oral y diferir el estudio gastrointestinal hasta normalizar la hemoglobina",
+    "Solicitar únicamente sangre oculta en heces y realizar colonoscopia solo si es positiva",
+    "Realizar colonoscopia diagnóstica prioritaria para investigar neoplasia colorrectal",
+    "Solicitar únicamente tomografía simple de abdomen",
+    "Atribuir la anemia a la edad y repetir biometría hemática en un año"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La anemia ferropénica en un hombre adulto requiere investigar pérdidas gastrointestinales y descartar neoplasia. El antecedente de cáncer colorrectal en un familiar de primer grado, particularmente a edad relativamente temprana, incrementa el riesgo. La colonoscopia permite examinar la mucosa, identificar lesiones y obtener biopsias. En presencia de síntomas o anemia ferropénica, se trata de una evaluación diagnóstica, no de un simple tamizaje.",
+  perlaENARM: "Hombre adulto + anemia ferropénica sin causa evidente = investigar pérdida gastrointestinal. No confundir tamizaje con evaluación diagnóstica.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencias internacionales: USPSTF colorectal cancer screening recommendation; guías de evaluación diagnóstica de anemia ferropénica y cáncer colorrectal.",
+  bibliografia: [
+    "US Preventive Services Task Force. Screening for Colorectal Cancer: Recommendation Statement. JAMA. 2021;325:1965-1977.",
+    "American College of Gastroenterology. Clinical Guidelines: Colorectal Cancer Screening."
+  ]
+},
+{
+  id: "GASTRO-292",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Tamizaje en población de riesgo promedio",
+  dificultad: "Media",
+  caso: "Hombre de 47 años, asintomático, sin antecedentes familiares de cáncer colorrectal ni enfermedad inflamatoria intestinal, solicita orientación sobre prevención. No presenta anemia, pérdida de peso ni cambios del hábito intestinal.",
+  pregunta: "De acuerdo con las recomendaciones estadounidenses de tamizaje para riesgo promedio, ¿a qué edad debe iniciarse el tamizaje rutinario?",
+  opciones: [
+    "A los 30 años",
+    "A los 35 años",
+    "A los 40 años",
+    "A los 45 años",
+    "A los 60 años"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "La USPSTF recomienda iniciar el tamizaje del cáncer colorrectal en adultos de riesgo promedio a los 45 años y mantenerlo hasta los 75 años. Entre los 76 y 85 años, la decisión se individualiza según el estado general, antecedentes de tamizaje y preferencias. Las modalidades incluyen pruebas fecales y estudios estructurales como colonoscopia, de acuerdo con el contexto y los intervalos recomendados. Las recomendaciones pueden variar según la guía y el país.",
+  perlaENARM: "Dato preguntable: la USPSTF recomienda iniciar tamizaje de riesgo promedio a los 45 años. Síntomas de alarma requieren evaluación diagnóstica independientemente de la edad.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: USPSTF 2021.",
+  bibliografia: [
+    "US Preventive Services Task Force. Screening for Colorectal Cancer: Recommendation Statement. JAMA. 2021;325:1965-1977.",
+    "Davidson KW, et al. Screening for Colorectal Cancer: US Preventive Services Task Force Recommendation Statement. JAMA. 2021;325:1965-1977."
+  ]
+},
+{
+  id: "GASTRO-293",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Secuencia adenoma-carcinoma y prevención",
+  dificultad: "Media",
+  caso: "Durante una colonoscopia de tamizaje se identifica un adenoma tubular de 12 mm con displasia de bajo grado. La lesión se reseca completamente y se envía a histopatología.",
+  pregunta: "¿Qué mecanismo explica la progresión de una proporción de adenomas colorrectales a carcinoma?",
+  opciones: [
+    "Transformación maligna obligatoria de todo pólipo hiperplásico diminuto",
+    "Acumulación progresiva de alteraciones moleculares que favorecen proliferación, displasia e invasión",
+    "Infección bacteriana aguda que transforma directamente el epitelio normal en carcinoma",
+    "Metaplasia escamosa como único mecanismo universal",
+    "Obstrucción vascular aguda como causa necesaria de todos los cánceres colorrectales"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La vía convencional adenoma-carcinoma implica la acumulación de alteraciones genéticas y epigenéticas que afectan el control de la proliferación, la diferenciación y la estabilidad genómica. Entre las alteraciones clásicamente descritas se encuentran APC, KRAS y TP53, aunque la secuencia y las alteraciones varían entre tumores. La resección de lesiones precursoras reduce el riesgo de cáncer, pero el seguimiento posterior depende del número, tamaño, histología y calidad de la colonoscopia.",
+  perlaENARM: "La secuencia adenoma-carcinoma es un modelo clásico de carcinogénesis colorrectal. No todos los cánceres siguen exactamente la misma vía molecular.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencias internacionales: guías de tamizaje y vigilancia pospolipectomía.",
+  bibliografia: [
+    "Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. Cell. 1990;61:759-767.",
+    "Guías de vigilancia pospolipectomía de la US Multi-Society Task Force."
+  ]
+},
+{
+  id: "GASTRO-294",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Síndrome de Lynch",
+  dificultad: "Alta",
+  caso: "Mujer de 39 años con cáncer de colon derecho. Su madre presentó cáncer endometrial a los 46 años y un tío materno tuvo cáncer colorrectal antes de los 50 años. El análisis tumoral muestra pérdida de expresión de proteínas reparadoras de errores de apareamiento del ADN.",
+  pregunta: "¿Cuál es el síndrome hereditario que debe sospecharse prioritariamente?",
+  opciones: [
+    "Síndrome de Peutz-Jeghers",
+    "Poliposis adenomatosa familiar clásica",
+    "Síndrome de Lynch",
+    "Síndrome de Li-Fraumeni como única posibilidad",
+    "Poliposis juvenil aislada"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "El síndrome de Lynch es causado por variantes patogénicas germinales en genes de reparación de errores de apareamiento del ADN, como MLH1, MSH2, MSH6 y PMS2, o alteraciones relacionadas con EPCAM. Se asocia con cáncer colorrectal, endometrial y otros tumores. La pérdida de proteínas reparadoras en inmunohistoquímica o la inestabilidad microsatelital en el tumor orientan el estudio, pero requieren interpretación para determinar si existe una causa hereditaria o esporádica.",
+  perlaENARM: "Cáncer colorrectal a edad temprana + cáncer endometrial familiar = sospechar Lynch. La inmunohistoquímica tumoral orienta, pero no sustituye la confirmación genética germinal.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencias internacionales: recomendaciones de evaluación genética y guías de cáncer colorrectal hereditario.",
+  bibliografia: [
+    "NCCN Clinical Practice Guidelines in Oncology. Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, and Gastric.",
+    "Umar A, et al. Revised Bethesda Guidelines for hereditary nonpolyposis colorectal cancer (Lynch syndrome) and microsatellite instability. J Natl Cancer Inst. 2004;96:261-268."
+  ]
+},
+{
+  id: "GASTRO-295",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Poliposis adenomatosa familiar",
+  dificultad: "Alta",
+  caso: "Hombre de 22 años presenta cientos de pólipos adenomatosos en colon durante una colonoscopia. Su padre fue sometido a colectomía por poliposis a los 28 años. Se identifica una variante patogénica germinal en APC.",
+  pregunta: "¿Cuál es la principal implicación clínica de este diagnóstico?",
+  opciones: [
+    "El riesgo de cáncer colorrectal es similar al de la población general",
+    "La enfermedad se resuelve espontáneamente en la edad adulta",
+    "Existe un riesgo extremadamente alto de cáncer colorrectal sin manejo preventivo adecuado",
+    "La vigilancia debe comenzar únicamente después de los 50 años",
+    "La presencia de pólipos excluye neoplasias extracolónicas"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La poliposis adenomatosa familiar clásica se asocia con variantes germinales de APC y el desarrollo de numerosos adenomas colorrectales. Sin una estrategia preventiva adecuada, el riesgo de cáncer colorrectal es extremadamente alto. El manejo requiere vigilancia endoscópica temprana, asesoramiento genético y planificación quirúrgica individualizada. También deben considerarse manifestaciones extracolónicas, como tumores desmoides y neoplasias duodenales.",
+  perlaENARM: "Cientos de adenomas en un paciente joven sugieren poliposis adenomatosa familiar. APC es el gen clásico y la prevención colorrectal debe planificarse desde edades tempranas.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencias internacionales: guías de cáncer colorrectal hereditario y poliposis adenomatosa familiar.",
+  bibliografia: [
+    "NCCN Clinical Practice Guidelines in Oncology. Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, and Gastric.",
+    "Monahan KJ, et al. Guidelines for the management of hereditary colorectal cancer from the BSG/ACPGBI/UKCGG. Gut. 2020;69:411-444."
+  ]
+},
+{
+  id: "GASTRO-296",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Presentación clínica y localización tumoral",
+  dificultad: "Media",
+  caso: "Hombre de 68 años consulta por fatiga, disnea de esfuerzo y pérdida de peso. Presenta palidez, hemoglobina de 8.9 g/dL, VCM de 69 fL y prueba inmunoquímica fecal positiva. No refiere obstrucción intestinal.",
+  pregunta: "¿Qué localización tumoral se asocia clásicamente con anemia ferropénica oculta y síntomas constitucionales?",
+  opciones: [
+    "Colon derecho",
+    "Recto exclusivamente",
+    "Conducto anal exclusivamente",
+    "Esófago distal",
+    "Apéndice normal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Los tumores del colon derecho pueden manifestarse con pérdida crónica de sangre, anemia ferropénica y síntomas inespecíficos, debido a que el contenido intestinal es más líquido y el lumen es relativamente amplio. Los tumores del colon izquierdo pueden causar con mayor frecuencia cambios del hábito intestinal, disminución del calibre de las heces y síntomas obstructivos. Estas asociaciones son orientativas y no permiten localizar el tumor con certeza sin estudios diagnósticos.",
+  perlaENARM: "Colon derecho: anemia ferropénica y sangrado oculto. Colon izquierdo: cambios del hábito intestinal y posible obstrucción.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencias internacionales: guías de evaluación diagnóstica de cáncer colorrectal.",
+  bibliografia: [
+    "Harrison's Principles of Internal Medicine. Sección de neoplasias gastrointestinales.",
+    "NCCN Clinical Practice Guidelines in Oncology. Colon Cancer."
+  ]
+},
+{
+  id: "GASTRO-297",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Diagnóstico y estadificación",
+  dificultad: "Alta",
+  caso: "Mujer de 63 años presenta rectorragia y pérdida de peso. La colonoscopia identifica una masa ulcerada en colon sigmoide y la biopsia confirma adenocarcinoma invasor.",
+  pregunta: "¿Cuál es el siguiente abordaje más apropiado para completar la evaluación inicial de extensión?",
+  opciones: [
+    "Solicitar únicamente una radiografía simple de abdomen",
+    "Realizar estadificación con tomografía contrastada de tórax, abdomen y pelvis, además de solicitar CEA basal",
+    "Solicitar PET-CT en todos los pacientes como único estudio inicial",
+    "Iniciar quimioterapia sin conocer la extensión de la enfermedad",
+    "Repetir la biopsia cada semana hasta que el CEA sea normal"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Después de confirmar histológicamente un adenocarcinoma de colon, la estadificación habitual incluye tomografía contrastada de tórax, abdomen y pelvis, evaluación de la extensión local y a distancia, y determinación basal de antígeno carcinoembrionario (CEA). El CEA no sirve por sí solo para establecer el diagnóstico ni excluir cáncer cuando es normal, pero es útil como referencia para el seguimiento. El plan definitivo depende del estadio y de la valoración multidisciplinaria.",
+  perlaENARM: "Diagnóstico histológico + estadificación anatómica + CEA basal antes del tratamiento. Un CEA normal no descarta cáncer colorrectal.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: NCCN Clinical Practice Guidelines in Oncology: Colon Cancer.",
+  bibliografia: [
+    "NCCN Clinical Practice Guidelines in Oncology. Colon Cancer.",
+    "American Society of Clinical Oncology. Recomendaciones para el uso de marcadores tumorales en cáncer colorrectal."
+  ]
+},
+{
+  id: "GASTRO-298",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Tratamiento del cáncer de colon localizado",
+  dificultad: "Muy alta",
+  caso: "Hombre de 59 años es sometido a resección oncológica de colon por adenocarcinoma. La histopatología informa tumor que invade la muscular propia, metástasis en cuatro de 18 ganglios regionales y ausencia de metástasis a distancia en los estudios de imagen.",
+  pregunta: "¿Cuál es la clasificación y la implicación terapéutica más probable?",
+  opciones: [
+    "Estadio I; vigilancia sin valorar tratamiento adyuvante",
+    "Estadio II; nunca requiere tratamiento sistémico",
+    "Estadio III por afectación ganglionar regional; valorar quimioterapia adyuvante",
+    "Estadio IV por definición, debido a cualquier ganglio positivo",
+    "Enfermedad benigna porque el tumor fue resecado"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La presencia de metástasis en ganglios regionales, sin enfermedad metastásica distante, corresponde a estadio III. Después de una resección con intención curativa, suele recomendarse quimioterapia adyuvante en pacientes aptos, con esquemas basados en fluoropirimidina y oxaliplatino según el riesgo, el estadio patológico, las comorbilidades y las preferencias. La duración se individualiza considerando el riesgo de recurrencia y la toxicidad, en particular la neuropatía asociada con oxaliplatino.",
+  perlaENARM: "Cáncer de colon con ganglios regionales positivos y sin metástasis distante = estadio III; suele indicarse quimioterapia adyuvante tras resección.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: NCCN Clinical Practice Guidelines in Oncology: Colon Cancer.",
+  bibliografia: [
+    "NCCN Clinical Practice Guidelines in Oncology. Colon Cancer.",
+    "Labianca R, et al. Early colon cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up."
+  ]
+},
+{
+  id: "GASTRO-299",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Cáncer rectal: evaluación local",
+  dificultad: "Muy alta",
+  caso: "Mujer de 56 años presenta rectorragia y tenesmo. La colonoscopia confirma adenocarcinoma rectal a 6 cm del margen anal. La tomografía no muestra metástasis a distancia.",
+  pregunta: "¿Qué estudio es especialmente importante para evaluar la extensión local y planificar el tratamiento del cáncer rectal?",
+  opciones: [
+    "Radiografía simple de pelvis",
+    "Resonancia magnética de pelvis con protocolo para cáncer rectal",
+    "Ultrasonido tiroideo",
+    "Gammagrafía renal",
+    "Colonoscopia diaria durante una semana"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La resonancia magnética pélvica con protocolo de cáncer rectal permite valorar la profundidad de invasión, los ganglios regionales, la fascia mesorrectal y la posible invasión vascular extramural. Estos datos influyen en la selección de cirugía, radioterapia y tratamiento sistémico neoadyuvante. La estrategia depende del estadio, la localización, las características de riesgo y la discusión multidisciplinaria.",
+  perlaENARM: "Cáncer rectal: la resonancia magnética pélvica es clave para la estadificación local y la planeación terapéutica.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencias internacionales: NCCN Rectal Cancer y guías ESMO.",
+  bibliografia: [
+    "NCCN Clinical Practice Guidelines in Oncology. Rectal Cancer.",
+    "European Society for Medical Oncology. Clinical Practice Guidelines for rectal cancer."
+  ]
+},
+{
+  id: "GASTRO-300",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Cáncer colorrectal metastásico y biomarcadores",
+  dificultad: "Extrema",
+  caso: "Hombre de 58 años con adenocarcinoma de colon y metástasis hepáticas múltiples no resecables. El paciente conserva buen estado funcional. El análisis molecular identifica una variante patogénica activadora de KRAS.",
+  pregunta: "¿Cuál es la implicación terapéutica más relevante de encontrar una mutación activadora de KRAS?",
+  opciones: [
+    "Indica que el tumor responderá obligatoriamente a cetuximab en monoterapia",
+    "Permite omitir toda evaluación molecular adicional",
+    "Predice sensibilidad universal a los inhibidores de BRAF",
+    "La terapia anti-EGFR con cetuximab o panitumumab no se recomienda en tumores con mutaciones activadoras de RAS",
+    "Confirma que el tumor es de origen hereditario"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "Las mutaciones activadoras de KRAS o NRAS predicen falta de beneficio de los anticuerpos anti-EGFR cetuximab y panitumumab, por lo que estos fármacos no se indican como terapia dirigida en tumores con RAS mutado. En enfermedad metastásica se deben evaluar biomarcadores relevantes, incluidos RAS, BRAF, inestabilidad microsatelital o deficiencia de reparación de errores de apareamiento y, según el contexto, otras alteraciones accionables. La elección terapéutica depende del perfil molecular, la localización primaria, el estado funcional y los objetivos del tratamiento.",
+  perlaENARM: "Cáncer colorrectal metastásico: RAS mutado predice resistencia a anti-EGFR. Determinar MSI/dMMR también es esencial porque puede modificar la elección de inmunoterapia.",
+  gpc: "No se asigna una clave de GPC mexicana específica sin verificación documental. Referencia internacional: NCCN Clinical Practice Guidelines in Oncology: Colon Cancer.",
+  bibliografia: [
+    "NCCN Clinical Practice Guidelines in Oncology. Colon Cancer.",
+    "ASCO Guidelines. Treatment of Metastatic Colorectal Cancer."
+  ]
+}, 
 ];
