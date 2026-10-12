@@ -3688,7 +3688,7 @@ window.BANCO_GASTROENTEROLOGIA = [
     "Kiriyama S, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci. 2018.",
     "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021."
   ]
-}
+},
 
 {
   id: "GASTRO-151",
