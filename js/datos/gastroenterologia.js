@@ -3417,7 +3417,7 @@ window.BANCO_GASTROENTEROLOGIA = [
     "Yokoe M, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis. J Hepatobiliary Pancreat Sci. 2018.",
     "Pisano M, et al. WSES updated guidelines for acute calculous cholecystitis. World J Emerg Surg. 2020;15:61."
   ]
-}
+},
 
 {
   id: "GASTRO-131",
