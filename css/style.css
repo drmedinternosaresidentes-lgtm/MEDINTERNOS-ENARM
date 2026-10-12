@@ -852,3 +852,81 @@ button:focus-visible { outline: 3px solid rgba(18,167,160,.35); outline-offset: 
     font-size: 14px;
   }
 }
+/* Identidad visual ENARM - MEDI */
+:root {
+  --medi-navy: #062542;
+  --medi-blue: #0b4775;
+  --medi-teal: #0bb5ad;
+  --medi-teal-light: #e2f7f5;
+  --medi-copper: #c58b55;
+  --medi-white: #ffffff;
+  --medi-bg: #f3f7fa;
+  --medi-text: #10243d;
+  --medi-muted: #64748b;
+  --medi-border: #dce6ee;
+  --medi-radius: 16px;
+  --medi-shadow: 0 5px 20px rgba(6, 37, 66, 0.06);
+}
+
+/* Fondo general */
+body {
+  background-color: var(--medi-bg);
+  color: var(--medi-text);
+}
+
+/* Tarjetas */
+.card,
+.stat-card,
+.specialty-card {
+  border-radius: var(--medi-radius);
+  border: 1px solid var(--medi-border);
+  box-shadow: var(--medi-shadow);
+}
+
+/* Botones principales */
+.btn-primary,
+button.primary {
+  background-color: var(--medi-teal);
+  color: var(--medi-white);
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: background-color 0.2s ease,
+              transform 0.2s ease;
+}
+
+.btn-primary:hover,
+button.primary:hover {
+  background-color: #079991;
+  transform: translateY(-1px);
+}
+
+/* Enlaces activos */
+.active,
+.nav-link.active {
+  border-left: 3px solid var(--medi-teal);
+}
+
+/* Adaptación móvil */
+@media (max-width: 768px) {
+  .stat-card,
+  .specialty-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .dashboard-grid,
+  .stats-grid,
+  .specialties-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-grid,
+  .stats-grid,
+  .specialties-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
