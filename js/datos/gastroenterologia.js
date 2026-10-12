@@ -3689,7 +3689,271 @@ window.BANCO_GASTROENTEROLOGIA = [
     "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021."
   ]
 },
-
+{
+  id: "GASTRO-141",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Diagnóstico según Tokyo Guidelines",
+  dificultad: "Media",
+  caso: "Masculino de 68 años con fiebre, dolor en hipocondrio derecho e ictericia. La biometría hemática muestra leucocitosis y las pruebas hepáticas patrón colestásico.",
+  pregunta: "¿Qué combinación integra los dominios diagnósticos de colangitis aguda según Tokyo Guidelines?",
+  opciones: [
+    "Inflamación sistémica, colestasis e imagen compatible con obstrucción biliar",
+    "Fiebre, elevación aislada de transaminasas y lipasa elevada",
+    "Ictericia, hipoalbuminemia y ascitis",
+    "Dolor abdominal, hematuria y elevación de creatinina",
+    "Leucocitosis, amilasa elevada y dilatación pancreática"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Tokyo Guidelines integra evidencia de inflamación sistémica, colestasis y hallazgos de imagen compatibles con dilatación u otra causa de obstrucción biliar. La combinación de los tres dominios establece el diagnóstico definitivo.",
+  perlaENARM: "ENARM: recuerda los tres dominios: inflamación sistémica + colestasis + imagen. La tríada de Charcot es clásica, pero su ausencia no descarta colangitis.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente aplicable a colangitis aguda y coledocolitiasis.",
+    internacional: "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis."
+  },
+  bibliografia: [
+    "Kiriyama S, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci. 2018.",
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021."
+  ]
+},
+{
+  id: "GASTRO-142",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Microbiología y hemocultivos",
+  dificultad: "Media",
+  caso: "Mujer de 72 años con fiebre, ictericia e hipotensión. Se sospecha colangitis aguda secundaria a coledocolitiasis.",
+  pregunta: "¿Cuál es la conducta microbiológica inicial más apropiada, siempre que no retrase el tratamiento urgente?",
+  opciones: [
+    "Obtener hemocultivos antes de iniciar antibióticos",
+    "Esperar el resultado del cultivo de bilis antes de tratar",
+    "Solicitar únicamente coproparasitoscópico",
+    "Evitar cultivos porque no modifican el manejo",
+    "Iniciar antibióticos y obtener hemocultivos varios días después"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Se recomienda obtener hemocultivos antes de los antibióticos si esto no retrasa su administración. Cuando se realiza drenaje biliar, el cultivo de bilis también puede orientar el ajuste antimicrobiano.",
+  perlaENARM: "ENARM: en sepsis, los cultivos deben obtenerse antes del antibiótico cuando sea factible, sin retrasar la terapia antimicrobiana.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre sepsis y colangitis aguda.",
+    internacional: "Tokyo Guidelines 2018; Surviving Sepsis Campaign 2021."
+  },
+  bibliografia: [
+    "Evans L, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Intensive Care Med. 2021.",
+    "Gomi H, et al. Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-143",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Tratamiento antimicrobiano empírico",
+  dificultad: "Alta",
+  caso: "Hombre de 64 años con colangitis aguda grave, hipotensión y datos de disfunción orgánica. No tiene alergias medicamentosas conocidas.",
+  pregunta: "¿Cuál es el principio que debe guiar la selección del tratamiento antimicrobiano empírico?",
+  opciones: [
+    "Elegir cobertura según gravedad, adquisición comunitaria u hospitalaria, riesgo de resistencia y antibiograma local",
+    "Administrar siempre un macrólido como monoterapia",
+    "Evitar antibióticos hasta disponer del cultivo definitivo",
+    "Usar antifúngicos de rutina en todos los pacientes",
+    "Elegir exclusivamente un fármaco contra anaerobios"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El tratamiento empírico debe cubrir los patógenos probables y ajustarse a la gravedad, exposición sanitaria, factores de resistencia y epidemiología local. Posteriormente se desescala según cultivos y respuesta clínica.",
+  perlaENARM: "ENARM: la colangitis grave requiere antibióticos tempranos y control de la fuente; el esquema exacto depende de resistencias locales y factores individuales.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente y el antibiograma institucional.",
+    internacional: "Tokyo Guidelines 2018: antimicrobial therapy; Surviving Sepsis Campaign 2021."
+  },
+  bibliografia: [
+    "Gomi H, et al. Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis. J Hepatobiliary Pancreat Sci. 2018.",
+    "Evans L, et al. Surviving Sepsis Campaign 2021. Intensive Care Med. 2021."
+  ]
+},
+{
+  id: "GASTRO-144",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Drenaje biliar urgente",
+  dificultad: "Alta",
+  caso: "Paciente de 76 años con colangitis por coledocolitiasis, hipotensión persistente y lactato elevado a pesar de reanimación inicial y antibióticos.",
+  pregunta: "¿Cuál es la intervención de control de foco preferida cuando está disponible y es técnicamente factible?",
+  opciones: [
+    "CPRE urgente para descompresión y drenaje biliar",
+    "Colecistectomía electiva en seis semanas como única medida",
+    "Observación durante 72 horas antes de intervenir",
+    "Colangiografía diagnóstica sin intención terapéutica",
+    "Suspender antibióticos y repetir pruebas hepáticas al día siguiente"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La colangitis grave con obstrucción requiere reanimación, antimicrobianos y drenaje biliar oportuno. La CPRE permite descomprimir la vía biliar y tratar la causa cuando es factible.",
+  perlaENARM: "ENARM: en colangitis grave, no basta con antibióticos; el drenaje biliar es control del foco y no debe demorarse innecesariamente.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre colangitis y coledocolitiasis.",
+    internacional: "ASGE guideline on the management of cholangitis, 2021."
+  },
+  bibliografia: [
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021.",
+    "Miura F, et al. Tokyo Guidelines 2018: initial management of acute biliary infection and flowchart for acute cholangitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-145",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Clasificación de gravedad",
+  dificultad: "Alta",
+  caso: "Mujer de 81 años con colangitis aguda, creatinina de 2.4 mg/dL, oliguria y necesidad de soporte hemodinámico.",
+  pregunta: "¿Cómo se clasifica la colangitis cuando presenta disfunción renal y cardiovascular?",
+  opciones: [
+    "Grado I, leve",
+    "Grado II, moderada por edad únicamente",
+    "Grado III, grave por disfunción orgánica",
+    "No puede clasificarse hasta obtener el cultivo biliar",
+    "Grado I si la bilirrubina es menor de 10 mg/dL"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "Tokyo Guidelines clasifica como grado III la colangitis con disfunción de al menos un sistema orgánico, incluyendo disfunción cardiovascular o renal.",
+  perlaENARM: "ENARM: la disfunción orgánica determina grado III; no es necesario esperar los cultivos para reconocer la gravedad.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre colangitis aguda.",
+    internacional: "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis."
+  },
+  bibliografia: [
+    "Kiriyama S, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-146",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Colangitis moderada y factores de gravedad",
+  dificultad: "Alta",
+  caso: "Hombre de 78 años con colangitis aguda, fiebre de 39.4 °C y leucocitos de 17,000/µL, sin disfunción orgánica documentada.",
+  pregunta: "¿Cuál es la interpretación más apropiada de la gravedad según Tokyo Guidelines 2018?",
+  opciones: [
+    "La edad mayor de 75 años, por sí sola, establece grado III",
+    "Dos criterios de gravedad moderada pueden clasificarla como grado II",
+    "La ausencia de choque descarta colangitis",
+    "La fiebre elevada siempre equivale a grado III",
+    "La leucocitosis no participa en la clasificación"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La colangitis grado II requiere al menos dos criterios de gravedad moderada. Entre ellos están leucocitos mayores de 12,000 o menores de 4,000/µL, temperatura de al menos 39 °C, edad de 75 años o más, bilirrubina total de al menos 5 mg/dL e hipoalbuminemia significativa.",
+  perlaENARM: "ENARM: distingue grado II por acumulación de criterios moderados de grado III por disfunción orgánica.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre colangitis aguda.",
+    internacional: "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis."
+  },
+  bibliografia: [
+    "Kiriyama S, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-147",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Imagen inicial",
+  dificultad: "Media",
+  caso: "Paciente de 59 años con dolor en hipocondrio derecho, fiebre e ictericia. Se sospecha obstrucción de la vía biliar por cálculo.",
+  pregunta: "¿Cuál es una prueba de imagen inicial útil para buscar dilatación biliar y datos de obstrucción?",
+  opciones: [
+    "Ultrasonido abdominal",
+    "Radiografía simple de cráneo",
+    "Colonoscopia",
+    "Densitometría ósea",
+    "Electroencefalograma"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El ultrasonido abdominal suele ser una prueba inicial por disponibilidad y capacidad para identificar dilatación de la vía biliar y algunos cálculos. Un estudio negativo no excluye coledocolitiasis si la sospecha clínica persiste.",
+  perlaENARM: "ENARM: ultrasonido como imagen inicial; si persiste la sospecha con resultados no concluyentes, considerar colangiorresonancia o ultrasonido endoscópico según el contexto.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre diagnóstico de coledocolitiasis.",
+    internacional: "ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "Buxbaum JL, et al. ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis. Gastrointest Endosc. 2019."
+  ]
+},
+{
+  id: "GASTRO-148",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "CPRE y estrategia endoscópica",
+  dificultad: "Alta",
+  caso: "Paciente con colangitis aguda por cálculo distal del colédoco y obstrucción persistente. Se decide realizar CPRE.",
+  pregunta: "¿Cuál es el objetivo terapéutico principal de la CPRE en este escenario?",
+  opciones: [
+    "Descomprimir la vía biliar y, cuando sea apropiado, extraer el cálculo",
+    "Confirmar exclusivamente la presencia de esteatosis hepática",
+    "Realizar biopsia hepática percutánea",
+    "Tratar la infección sin necesidad de antibióticos",
+    "Sustituir toda reanimación hemodinámica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La CPRE es una intervención terapéutica para lograr drenaje biliar y tratar la obstrucción. La extensión de la extracción depende de la estabilidad del paciente, anatomía, recursos y complejidad del cálculo.",
+  perlaENARM: "ENARM: la CPRE en colangitis es principalmente terapéutica; el drenaje puede ser prioritario si el paciente está inestable.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre coledocolitiasis y colangitis.",
+    internacional: "ASGE guideline on the management of cholangitis, 2021."
+  },
+  bibliografia: [
+    "Buxbaum JL, et al. ASGE guideline on the management of cholangitis. Gastrointest Endosc. 2021."
+  ]
+},
+{
+  id: "GASTRO-149",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Diagnóstico diferencial con colecistitis",
+  dificultad: "Media",
+  caso: "Mujer de 52 años con fiebre y dolor en hipocondrio derecho. Presenta Murphy positivo, pero no tiene ictericia ni elevación de bilirrubina; el ultrasonido muestra engrosamiento de pared vesicular y líquido perivesicular.",
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Colecistitis aguda",
+    "Colangitis aguda confirmada",
+    "Hepatitis autoinmune",
+    "Colitis ulcerosa",
+    "Pancreatitis crónica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Murphy positivo y hallazgos inflamatorios vesiculares favorecen colecistitis aguda. La colangitis se relaciona con infección de la vía biliar, con evidencia de inflamación sistémica, colestasis y hallazgos compatibles en imagen.",
+  perlaENARM: "ENARM: Murphy y cambios inflamatorios vesiculares orientan a colecistitis; fiebre, colestasis y obstrucción biliar orientan a colangitis.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre colecistitis y colangitis.",
+    internacional: "Tokyo Guidelines 2018: diagnostic criteria for acute cholecystitis and acute cholangitis."
+  },
+  bibliografia: [
+    "Yokoe M, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis. J Hepatobiliary Pancreat Sci. 2018.",
+    "Kiriyama S, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-150",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis aguda",
+  subtema: "Tratamiento posterior y prevención de recurrencia",
+  dificultad: "Alta",
+  caso: "Paciente con colangitis por coledocolitiasis que mejora tras antibióticos y drenaje endoscópico. La vesícula conserva múltiples cálculos y no hay contraindicación quirúrgica.",
+  pregunta: "¿Cuál es la estrategia definitiva habitual para reducir la recurrencia de eventos biliares?",
+  opciones: [
+    "Valorar colecistectomía durante el mismo ingreso o de forma temprana según evolución y riesgo quirúrgico",
+    "Mantener antibióticos indefinidamente",
+    "Realizar CPRE mensual de manera preventiva",
+    "Indicar ayuno permanente",
+    "No ofrecer tratamiento adicional si desaparece la fiebre"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Tras resolver la obstrucción y controlar la infección, la colecistectomía temprana suele indicarse en pacientes aptos con cálculos vesiculares para reducir recurrencia. El momento se individualiza según estabilidad y contexto clínico.",
+  perlaENARM: "ENARM: resolver la colangitis no elimina el origen litiásico vesicular; planifica tratamiento definitivo para prevenir nuevos eventos.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre colelitiasis y coledocolitiasis.",
+    internacional: "ASGE guideline on the management of choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "Buxbaum JL, et al. ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis. Gastrointest Endosc. 2019."
+  ]
+},
 {
   id: "GASTRO-151",
   especialidad: "Gastroenterología",
