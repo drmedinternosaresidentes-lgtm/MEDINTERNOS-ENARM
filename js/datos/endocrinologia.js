@@ -4329,6 +4329,1449 @@ window.BANCO_ENDOCRINOLOGIA = [
     internacional: "BHOF Clinician's Guide, 2022; Endocrine Society, Osteoporosis in Men Clinical Practice Guideline."
   },
   bibliografia: "LeBoff MS et al. Osteoporosis International. 2022; Watts NB et al. Osteoporosis in Men: An Endocrine Society Clinical Practice Guideline. JCEM. 2012."
+},
+
+{
+  id: "ENDO-181",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Fenotipado clínico y riesgo cardiometabólico",
+  dificultad: "Media",
+  caso: `Hombre de 46 años con IMC de 29.4 kg/m², perímetro abdominal de 110 cm, presión arterial de 148/92 mmHg, triglicéridos de 265 mg/dL, HDL de 32 mg/dL y HbA1c de 6.2%. No consume glucocorticoides y su TSH es normal.`,
+  pregunta: "¿Qué interpretación integra mejor los hallazgos de este paciente?",
+  opciones: [
+    "Sobrepeso sin alteraciones metabólicas, porque el IMC es menor de 30 kg/m²",
+    "Obesidad grado I, porque el perímetro abdominal sustituye directamente al IMC",
+    "Adiposidad central con alteraciones cardiometabólicas y alto riesgo de progresión a diabetes, que requiere evaluación integral",
+    "Síndrome de Cushing confirmado por la distribución abdominal de la grasa",
+    "Diabetes mellitus tipo 2 confirmada por una HbA1c de 6.2%"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `El IMC corresponde a sobrepeso, pero la adiposidad central, hipertensión, hipertrigliceridemia, HDL bajo y HbA1c en rango de prediabetes revelan un perfil cardiometabólico desfavorable. Una HbA1c de 6.2% no establece diabetes por sí sola. Deben evaluarse riesgo cardiovascular, glucemia, complicaciones asociadas a adiposidad y estrategias de prevención. La distribución abdominal aislada no confirma hipercortisolismo.`,
+  perlaENARM: "El IMC clasifica el peso, pero no resume por sí solo la adiposidad central ni el riesgo metabólico.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre sobrepeso, obesidad y riesgo cardiometabólico.",
+    internacional: "ADA Standards of Care in Diabetes, edición vigente; guías internacionales de obesidad."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes, edición vigente; OMS, clasificación convencional del IMC."
+},
+{
+  id: "ENDO-182",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Diagnóstico diferencial endocrinológico",
+  dificultad: "Media",
+  caso: `Mujer de 38 años presenta aumento de peso, hipertensión de reciente inicio, equimosis espontáneas, debilidad proximal y estrías violáceas de 2 cm de ancho. La TSH es normal. No utiliza glucocorticoides según el interrogatorio inicial.`,
+  pregunta: "¿Qué prueba constituye una estrategia inicial válida para investigar la principal sospecha diagnóstica?",
+  opciones: [
+    "Cortisol sérico aleatorio a las 14:00 horas",
+    "ACTH plasmática aislada como prueba confirmatoria",
+    "Cortisol salival nocturno, cortisol libre urinario de 24 horas o supresión con 1 mg de dexametasona, seleccionando una prueba validada",
+    "Prueba de tolerancia oral a la glucosa",
+    "Medición aislada de aldosterona plasmática"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La combinación de equimosis, estrías violáceas anchas y debilidad muscular proximal eleva la sospecha de síndrome de Cushing. Las pruebas iniciales validadas incluyen cortisol salival nocturno, cortisol libre urinario de 24 horas y supresión nocturna con 1 mg de dexametasona. La elección depende del contexto clínico, función renal, patrón de sueño y posibles interferencias. Un resultado anormal requiere evaluación confirmatoria y etiológica; la ACTH no es la prueba inicial de cribado.`,
+  perlaENARM: "Obesidad aislada no justifica cribado indiscriminado de Cushing; los signos catabólicos específicos sí elevan la sospecha.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para diagnóstico de síndrome de Cushing.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Diagnosis of Cushing's Syndrome."
+  },
+  bibliografia: "Nieman LK et al. The Diagnosis of Cushing's Syndrome: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2008."
+},
+{
+  id: "ENDO-183",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Evaluación de prediabetes y prevención de diabetes",
+  dificultad: "Media",
+  caso: `Mujer de 43 años con IMC de 34 kg/m², antecedente de diabetes gestacional y madre con diabetes tipo 2 presenta HbA1c de 6.3% y glucosa en ayuno de 116 mg/dL. No tiene síntomas de hiperglucemia.`,
+  pregunta: "¿Qué estrategia tiene mayor fundamento para reducir su riesgo de progresión a diabetes tipo 2?",
+  opciones: [
+    "Iniciar insulina basal por el antecedente familiar",
+    "Implementar un programa estructurado de prevención con reducción ponderal y actividad física; valorar metformina por su perfil de alto riesgo",
+    "Indicar una sulfonilurea para evitar el agotamiento beta pancreático",
+    "Repetir la HbA1c hasta que alcance 6.5% antes de intervenir",
+    "Iniciar tratamiento con insulina prandial para normalizar la glucosa posprandial"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La HbA1c y la glucosa en ayuno están en rango de prediabetes. El antecedente de diabetes gestacional, obesidad y antecedentes familiares aumentan el riesgo de progresión. Los programas intensivos de prevención con pérdida ponderal y actividad física tienen evidencia sólida. La metformina puede considerarse en personas seleccionadas de alto riesgo, especialmente con IMC elevado, edad relativamente joven o antecedente de diabetes gestacional, tras individualizar beneficios y riesgos.`,
+  perlaENARM: "En prediabetes de alto riesgo, el estilo de vida estructurado es fundamental; metformina es una opción selectiva, no obligatoria para todos.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre prevención, diagnóstico y tratamiento de diabetes tipo 2.",
+    internacional: "ADA Standards of Care in Diabetes, capítulo de prevención o retraso de diabetes."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes, edición vigente; Diabetes Prevention Program Research Group. N Engl J Med. 2002."
+},
+{
+  id: "ENDO-184",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Selección de farmacoterapia antiobesidad",
+  dificultad: "Media",
+  caso: `Hombre de 52 años con IMC de 32 kg/m², hipertensión controlada y apnea obstructiva del sueño desea iniciar farmacoterapia después de seis meses de intervención estructurada. No presenta antecedente de pancreatitis ni de carcinoma medular tiroideo.`,
+  pregunta: "¿Cuál es el criterio que permite considerar farmacoterapia antiobesidad en este escenario?",
+  opciones: [
+    "Es indispensable alcanzar un IMC de 40 kg/m²",
+    "La farmacoterapia solo puede utilizarse cuando existe diabetes tipo 2",
+    "El IMC y las complicaciones relacionadas con el peso permiten considerar un fármaco autorizado, tras revisar contraindicaciones y preferencias",
+    "La farmacoterapia sustituye la intervención nutricional y conductual",
+    "Todos los medicamentos antiobesidad tienen las mismas indicaciones y contraindicaciones"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `Los criterios convencionales para numerosos medicamentos antiobesidad incluyen IMC ≥30 kg/m² o ≥27 kg/m² con una comorbilidad relacionada con el peso. El paciente cumple el criterio habitual por IMC, pero la selección del medicamento requiere revisar ficha técnica, antecedentes, interacciones, efectos adversos, disponibilidad y objetivos clínicos. El tratamiento farmacológico complementa el abordaje integral.`,
+  perlaENARM: "Criterios habituales: IMC ≥30 o ≥27 con comorbilidad; la indicación final depende del producto y la regulación local.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente y la ficha técnica autorizada del medicamento elegido.",
+    internacional: "AGA Clinical Practice Guideline on Pharmacological Interventions for Adults With Obesity."
+  },
+  bibliografia: "Grunvald E et al. AGA Clinical Practice Guideline on Pharmacological Interventions for Adults With Obesity. Gastroenterology. 2022."
+},
+{
+  id: "ENDO-185",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Semaglutida: interpretación de evidencia clínica",
+  dificultad: "Media",
+  caso: `Mujer de 47 años con obesidad sin diabetes inicia semaglutida en una presentación autorizada para control crónico del peso. Después de 68 semanas, además de intervención sobre el estilo de vida, ha perdido una proporción importante de su peso inicial y mejorado su presión arterial.`,
+  pregunta: "¿Qué conclusión refleja mejor la evidencia de los ensayos STEP sobre semaglutida para obesidad?",
+  opciones: [
+    "La reducción de peso se debe exclusivamente a glucosuria",
+    "La semaglutida actúa como inhibidor de la lipasa pancreática",
+    "El agonismo del receptor GLP-1 reduce la ingesta energética y puede producir una reducción ponderal clínicamente importante",
+    "La semaglutida elimina permanentemente la predisposición biológica a recuperar peso",
+    "Los resultados permiten utilizar cualquier dosis de semaglutida independientemente de la presentación"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `Semaglutida es un agonista del receptor GLP-1 que actúa sobre vías relacionadas con saciedad e ingesta energética, además de sus efectos glucorreguladores. En STEP 1, semaglutida 2.4 mg semanal, junto con intervención sobre estilo de vida, produjo una reducción media de peso cercana al 15% a las 68 semanas, con variabilidad individual. Los resultados corresponden a una población y un esquema específicos; no deben extrapolarse automáticamente a otras dosis o presentaciones.`,
+  perlaENARM: "Al interpretar ensayos de obesidad, identifica población, dosis, duración y comparador antes de extrapolar resultados.",
+  gpc: {
+    mexico: "Verificar indicación y presentación autorizadas en México.",
+    internacional: "Ensayos STEP; ficha técnica de semaglutida para control del peso."
+  },
+  bibliografia: "Wilding JPH et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med. 2021."
+},
+{
+  id: "ENDO-186",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Tirzepatida: mecanismo y evidencia",
+  dificultad: "Media",
+  caso: `Hombre de 50 años con obesidad y diabetes tipo 2 presenta HbA1c de 8.4% pese a metformina. Se discute un tratamiento que actúa sobre dos vías incretínicas y que ha demostrado reducciones importantes de HbA1c y peso en ensayos clínicos.`,
+  pregunta: "¿Qué combinación de receptores explica el mecanismo de tirzepatida?",
+  opciones: [
+    "GLP-1 y receptor de insulina",
+    "GIP y GLP-1",
+    "Glucagón y receptor de leptina",
+    "DPP-4 y SGLT2",
+    "Amilina y receptor mineralocorticoide"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Tirzepatida es un agonista dual de los receptores GIP y GLP-1. En ensayos clínicos ha demostrado efectos sobre glucemia y peso. La elección entre tirzepatida y otros tratamientos debe considerar enfermedad cardiovascular o renal, necesidad de control glucémico, tolerabilidad, preferencias, acceso y ficha técnica. La indicación autorizada puede variar entre presentaciones y jurisdicciones.`,
+  perlaENARM: "Tirzepatida = agonismo dual GIP/GLP-1; semaglutida = agonismo GLP-1.",
+  gpc: {
+    mexico: "Verificar la ficha técnica vigente y la indicación autorizada en México.",
+    internacional: "Ensayos SURPASS y SURMOUNT; ficha técnica de tirzepatida."
+  },
+  bibliografia: "Jastreboff AM et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med. 2022."
+},
+{
+  id: "ENDO-187",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Farmacoterapia incretínica en enfermedad gastrointestinal",
+  dificultad: "Media",
+  caso: `Mujer de 59 años con diabetes tipo 2 y obesidad presenta gastroparesia grave documentada, vómitos recurrentes y retención gástrica en un estudio de vaciamiento. Solicita iniciar semaglutida para perder peso.`,
+  pregunta: "¿Qué característica clínica modifica de manera más importante la selección de este tratamiento?",
+  opciones: [
+    "El antecedente de hipertensión bien controlada",
+    "La gastroparesia grave, que puede empeorar con fármacos que retrasan el vaciamiento gástrico",
+    "La edad mayor de 50 años por sí sola",
+    "La presencia de obesidad como única comorbilidad",
+    "La ausencia de hipoglucemia previa"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los agonistas GLP-1 pueden retrasar el vaciamiento gástrico y producir síntomas gastrointestinales. En gastroparesia grave, semaglutida no suele recomendarse o requiere evitarse conforme a la ficha técnica específica. La decisión debe valorar gravedad, alternativas metabólicas y objetivos terapéuticos. No se debe extrapolar esta precaución a cualquier síntoma digestivo leve.`,
+  perlaENARM: "Distingue náusea leve durante titulación de gastroparesia grave: la segunda cambia sustancialmente la selección terapéutica.",
+  gpc: {
+    mexico: "Consultar ficha técnica vigente del producto y guías de diabetes y gastroparesia.",
+    internacional: "Ficha técnica de semaglutida; ADA Standards of Care in Diabetes."
+  },
+  bibliografia: "FDA. Prescribing Information for semaglutide products; American Diabetes Association. Standards of Care in Diabetes."
+},
+{
+  id: "ENDO-188",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Seguridad pancreatobiliar de agonistas GLP-1",
+  dificultad: "Media",
+  caso: `Mujer de 54 años con obesidad en tratamiento con semaglutida presenta dolor intenso en hipocondrio derecho después de una comida grasa, fiebre y signo de Murphy positivo. La lipasa sérica no está elevada.`,
+  pregunta: "¿Qué diagnóstico debe priorizarse y qué factor farmacológico es relevante?",
+  opciones: [
+    "Pancreatitis aguda confirmada por el tratamiento",
+    "Colecistitis aguda; los tratamientos incretínicos se han asociado con mayor riesgo de enfermedad biliar en ciertos contextos",
+    "Hepatitis autoinmune confirmada por dolor posprandial",
+    "Apendicitis retrocecal como primera posibilidad",
+    "Gastroparesia aislada, porque explica siempre fiebre y Murphy positivo"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El dolor en hipocondrio derecho, la fiebre y el signo de Murphy orientan a colecistitis aguda; la evaluación requiere imagen hepatobiliar y valoración urgente. Los agonistas GLP-1 se han asociado con aumento del riesgo de eventos biliares en algunos análisis, particularmente en contextos de pérdida ponderal importante. Esta asociación no demuestra por sí sola causalidad en un caso individual. La ausencia de elevación de lipasa hace menos probable la pancreatitis, aunque el diagnóstico se integra con criterios clínicos, bioquímicos e imagen.`,
+  perlaENARM: "Dolor en hipocondrio derecho y Murphy positivo orientan a patología biliar, no a atribuir automáticamente todo dolor abdominal al fármaco.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para colecistitis aguda y la ficha técnica del medicamento.",
+    internacional: "Ficha técnica de agonistas GLP-1; guías internacionales de enfermedad biliar."
+  },
+  bibliografia: "He L et al. Association of GLP-1 Receptor Agonist Use With Risk of Gallbladder and Biliary Diseases. JAMA Intern Med. 2022."
+},
+{
+  id: "ENDO-189",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Contraindicaciones y antecedentes tiroideos",
+  dificultad: "Media",
+  caso: `Mujer de 40 años con obesidad solicita semaglutida. Su padre tuvo carcinoma medular de tiroides. La paciente tiene TSH normal y no presenta nódulos tiroideos conocidos.`,
+  pregunta: "¿Qué antecedente debe verificarse antes de prescribir semaglutida?",
+  opciones: [
+    "Antecedente familiar de carcinoma medular de tiroides, contraindicación según la ficha técnica estadounidense",
+    "Cualquier antecedente familiar de hipotiroidismo, que contraindica todos los agonistas GLP-1",
+    "TSH normal, que elimina toda contraindicación farmacológica",
+    "Antecedente de bocio coloide aislado, que equivale a MEN2",
+    "Ausencia de nódulos, que permite ignorar los antecedentes familiares"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La ficha técnica estadounidense de semaglutida incluye contraindicación en personas con antecedente personal o familiar de carcinoma medular de tiroides o con MEN2. La TSH normal no elimina esta contraindicación. Debe verificarse la ficha técnica autorizada en la jurisdicción correspondiente. No se debe confundir carcinoma medular con hipotiroidismo común o con todos los tipos de cáncer tiroideo.`,
+  perlaENARM: "La contraindicación se refiere específicamente a carcinoma medular tiroideo o MEN2, no a cualquier enfermedad tiroidea.",
+  gpc: {
+    mexico: "Verificar la ficha técnica mexicana vigente antes de prescribir.",
+    internacional: "FDA prescribing information for semaglutide products."
+  },
+  bibliografia: "FDA. Prescribing Information for semaglutide products."
+},
+{
+  id: "ENDO-190",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Hipoglucemia con tratamiento combinado",
+  dificultad: "Media",
+  caso: `Hombre de 63 años con diabetes tipo 2, obesidad y HbA1c de 7.1% utiliza insulina basal y una sulfonilurea. Se añade un agonista GLP-1. Dos semanas después presenta glucosa capilar de 48 mg/dL durante la madrugada y episodios similares en días consecutivos.`,
+  pregunta: "¿Qué componente del esquema explica mejor el incremento del riesgo de hipoglucemia y requiere revisión prioritaria?",
+  opciones: [
+    "El agonista GLP-1 por producir hipoglucemia grave de manera independiente en la mayoría de los pacientes",
+    "La combinación con insulina y sulfonilurea, que puede requerir reducción o retirada individualizada de uno o ambos fármacos",
+    "La metformina, porque estimula directamente la secreción de insulina",
+    "La obesidad, porque produce hipoglucemia nocturna por sí sola",
+    "La HbA1c de 7.1%, que confirma una hipoglucemia ficticia"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los agonistas GLP-1 tienen bajo riesgo intrínseco de hipoglucemia, pero el riesgo aumenta cuando se combinan con insulina o sulfonilureas. Ante hipoglucemias recurrentes debe evaluarse el patrón glucémico, la dosis de insulina, la sulfonilurea, la ingesta y la función renal. Los ajustes deben individualizarse; no es apropiado ignorar episodios documentados.`,
+  perlaENARM: "Cuando se añade un fármaco de bajo riesgo hipoglucémico a insulina o sulfonilurea, revisa el tratamiento concomitante.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para diabetes tipo 2 e hipoglucemia.",
+    internacional: "ADA Standards of Care in Diabetes, edición vigente."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes, edición vigente."
+},
+{
+  id: "ENDO-191",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Orlistat e interacciones nutricionales",
+  dificultad: "Media",
+  caso: `Mujer de 48 años utiliza orlistat y warfarina por antecedente de tromboembolia venosa. Después de varios meses presenta elevación del INR y concentraciones bajas de vitamina D. No ha cambiado la dosis de warfarina.`,
+  pregunta: "¿Qué mecanismo farmacológico puede relacionar el tratamiento con el problema nutricional y alterar el control anticoagulante?",
+  opciones: [
+    "Inhibición de la absorción de grasa, con posible disminución de vitaminas liposolubles, incluida la vitamina K",
+    "Aumento directo de la síntesis hepática de vitamina K",
+    "Estimulación de la absorción intestinal de todos los micronutrientes",
+    "Inducción obligatoria de hipercalcemia",
+    "Inhibición irreversible de la vitamina K epóxido reductasa por orlistat"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Orlistat inhibe las lipasas gastrointestinales y reduce la absorción de grasa dietética, lo que puede disminuir la absorción de vitaminas liposolubles A, D, E y K. La reducción de vitamina K puede contribuir a cambios del INR en pacientes que reciben warfarina. Se requiere monitorización del INR, evaluación nutricional y revisión de la necesidad de suplementación, separando su administración según la ficha técnica.`,
+  perlaENARM: "Orlistat puede alterar la absorción de vitamina K: vigila el INR en pacientes tratados con warfarina.",
+  gpc: {
+    mexico: "Consultar la ficha técnica de orlistat y el protocolo local de monitorización de warfarina.",
+    internacional: "FDA prescribing information for orlistat."
+  },
+  bibliografia: "FDA. Xenical (orlistat) prescribing information."
+},
+{
+  id: "ENDO-192",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Naltrexona/bupropión y seguridad neurológica",
+  dificultad: "Media",
+  caso: `Hombre de 44 años con obesidad, depresión en tratamiento y epilepsia controlada solicita naltrexona/bupropión para disminuir apetito. Niega consumo de opioides.`,
+  pregunta: "¿Qué dato del expediente representa una contraindicación relevante para esta combinación?",
+  opciones: [
+    "El IMC mayor de 30 kg/m²",
+    "El antecedente de epilepsia, por el riesgo convulsivo asociado con bupropión",
+    "La ausencia de diabetes tipo 2",
+    "El antecedente de actividad física regular",
+    "La presión arterial normal"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El bupropión reduce el umbral convulsivo, por lo que la combinación naltrexona/bupropión está contraindicada en pacientes con trastornos convulsivos. También deben revisarse otros criterios de exclusión, como uso crónico de opioides, hipertensión no controlada y determinados trastornos alimentarios, de acuerdo con la ficha técnica.`,
+  perlaENARM: "Antes de prescribir naltrexona/bupropión, revisa epilepsia, opioides, presión arterial y trastornos alimentarios.",
+  gpc: {
+    mexico: "Consultar la ficha técnica vigente del producto y la GPC mexicana de obesidad.",
+    internacional: "FDA prescribing information for Contrave."
+  },
+  bibliografia: "FDA. Contrave (naltrexone/bupropion) prescribing information."
+},
+{
+  id: "ENDO-193",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Apnea obstructiva del sueño",
+  dificultad: "Media",
+  caso: `Hombre de 57 años con IMC de 37 kg/m², cuello ancho, ronquidos, pausas respiratorias presenciadas y somnolencia diurna tiene hipertensión resistente. Su esposa informa que se queda dormido al conducir.`,
+  pregunta: "¿Qué problema debe priorizarse por sus implicaciones de seguridad inmediata y qué estudio permite confirmar la sospecha clínica?",
+  opciones: [
+    "Hipotiroidismo subclínico; TSH aislada confirma la causa de todos los síntomas",
+    "Apnea obstructiva del sueño; requiere evaluación del sueño y estudio diagnóstico apropiado, además de evitar conducir mientras exista somnolencia peligrosa",
+    "Narcolepsia confirmada por el IMC",
+    "Insuficiencia cardiaca confirmada por los ronquidos",
+    "Síndrome de Cushing confirmado por la hipertensión"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los síntomas y factores de riesgo sugieren apnea obstructiva del sueño, asociada con hipertensión resistente y riesgo de accidentes por somnolencia. Se requiere polisomnografía o una prueba domiciliaria apropiada en pacientes seleccionados; la polisomnografía es preferible cuando existen comorbilidades complejas u otras sospechas diagnósticas. La seguridad al conducir debe abordarse de inmediato.`,
+  perlaENARM: "La somnolencia al volante es un riesgo inmediato; el diagnóstico de apnea requiere estudio del sueño, no solo un cuestionario.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre apnea obstructiva del sueño.",
+    internacional: "American Academy of Sleep Medicine: diagnostic testing for adult obstructive sleep apnea."
+  },
+  bibliografia: "Kapur VK et al. Clinical Practice Guideline for Diagnostic Testing for Adult Obstructive Sleep Apnea. J Clin Sleep Med. 2017."
+},
+{
+  id: "ENDO-194",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Enfermedad hepática esteatósica metabólica",
+  dificultad: "Media",
+  caso: `Mujer de 59 años con diabetes tipo 2, IMC de 35 kg/m² y dislipidemia presenta AST de 42 U/L, ALT de 48 U/L y plaquetas de 180 000/µL. No tiene ictericia ni ascitis. Se busca estratificar el riesgo de fibrosis hepática.`,
+  pregunta: "¿Qué herramienta no invasiva puede utilizarse inicialmente para estimar el riesgo de fibrosis avanzada en este contexto?",
+  opciones: [
+    "FIB-4, calculado con edad, AST, ALT y recuento plaquetario",
+    "Child-Pugh, como herramienta de cribado inicial de fibrosis en toda persona con obesidad",
+    "MELD, como prueba de detección primaria de esteatosis",
+    "Amilasa sérica aislada",
+    "Albúmina sérica como única prueba para excluir fibrosis"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `FIB-4 utiliza edad, AST, ALT y plaquetas para estratificar el riesgo de fibrosis avanzada en personas con enfermedad hepática esteatósica metabólica. Un resultado bajo puede ayudar a descartar fibrosis avanzada en determinados contextos; un resultado indeterminado o alto puede requerir elastografía u otra evaluación. Los puntos de corte dependen de la edad y del contexto clínico. Las aminotransferasas poco elevadas no excluyen fibrosis significativa.`,
+  perlaENARM: "FIB-4 es una herramienta inicial de estratificación de fibrosis, no una prueba histológica ni un diagnóstico definitivo.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre enfermedad hepática esteatósica y evaluación de fibrosis.",
+    internacional: "AASLD Practice Guidance on NAFLD; guías contemporáneas sobre MASLD."
+  },
+  bibliografia: "Rinella ME et al. AASLD Practice Guidance on the clinical assessment and management of nonalcoholic fatty liver disease. Hepatology. 2023."
+},
+{
+  id: "ENDO-195",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Criterios contemporáneos de cirugía metabólica",
+  dificultad: "Media",
+  caso: `Hombre de 41 años con IMC de 36 kg/m², diabetes tipo 2 de siete años de evolución, apnea obstructiva del sueño y respuesta insuficiente al tratamiento médico integral solicita valoración para cirugía metabólica.`,
+  pregunta: "Según las recomendaciones ASMBS/IFSO de 2022, ¿qué afirmación sobre su elegibilidad es correcta?",
+  opciones: [
+    "No puede considerarse cirugía hasta que el IMC sea mayor de 50 kg/m²",
+    "La cirugía se considera únicamente si existe cirrosis descompensada",
+    "Cumple el umbral de IMC para recomendar cirugía metabólica y bariátrica, sujeto a evaluación multidisciplinaria",
+    "La diabetes tipo 2 contraindica la cirugía",
+    "La valoración psicológica y nutricional es innecesaria cuando el IMC supera 35 kg/m²"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `Las recomendaciones ASMBS/IFSO de 2022 recomiendan cirugía metabólica y bariátrica en personas con IMC ≥35 kg/m², independientemente de la presencia de comorbilidades. La indicación final requiere evaluación multidisciplinaria, valoración del riesgo perioperatorio, educación y capacidad de seguimiento prolongado. Los criterios de cobertura, disponibilidad y regulación pueden variar localmente.`,
+  perlaENARM: "ASMBS/IFSO 2022: IMC ≥35 kg/m² es un criterio para recomendar cirugía; no elimina la evaluación individual.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente y los criterios del centro especializado.",
+    internacional: "ASMBS/IFSO Indications for Metabolic and Bariatric Surgery, 2022."
+  },
+  bibliografia: "Eisenberg D et al. 2022 ASMBS/IFSO Indications for Metabolic and Bariatric Surgery. Surg Obes Relat Dis. 2022."
+},
+{
+  id: "ENDO-196",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Deficiencia de tiamina posterior a cirugía bariátrica",
+  dificultad: "Alta",
+  caso: `Mujer de 36 años sometida a bypass gástrico hace cuatro meses presenta vómitos persistentes, marcha atáxica, nistagmo y confusión. Ha perdido peso rápidamente y suspendió los suplementos. La concentración de tiamina aún no está disponible.`,
+  pregunta: "¿Qué intervención no debe retrasarse mientras se completa la evaluación diagnóstica?",
+  opciones: [
+    "Administrar glucosa parenteral de forma aislada y esperar la concentración de tiamina",
+    "Iniciar tiamina parenteral de inmediato ante la sospecha de encefalopatía de Wernicke",
+    "Indicar únicamente vitamina B12 oral",
+    "Esperar una resonancia magnética normal para descartar deficiencia",
+    "Suspender todos los suplementos hasta obtener resultados"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Vómitos prolongados, pérdida rápida de peso y signos neurológicos después de cirugía bariátrica son altamente sugestivos de deficiencia de tiamina con posible encefalopatía de Wernicke. Debe administrarse tiamina parenteral de inmediato, sin esperar resultados de laboratorio o neuroimagen. Si se requiere glucosa, la tiamina debe administrarse antes o simultáneamente cuando sea posible, sin retrasar el tratamiento urgente de la hipoglucemia.`,
+  perlaENARM: "Después de cirugía bariátrica, vómitos persistentes más ataxia, alteraciones oculomotoras o confusión = tratar empíricamente deficiencia de tiamina.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de urgencias nutricionales y seguimiento posbariátrico.",
+    internacional: "ASMBS Integrated Health Nutritional Guidelines."
+  },
+  bibliografia: "Parrott J et al. ASMBS Integrated Health Nutritional Guidelines for the Surgical Weight Loss Patient. Surg Obes Relat Dis. 2017."
+},
+{
+  id: "ENDO-197",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Interpretación de respuesta insuficiente a farmacoterapia",
+  dificultad: "Media",
+  caso: `Mujer de 49 años recibe un medicamento antiobesidad desde hace cinco meses. Refiere adherencia irregular por náuseas, continúa con episodios de ingesta compulsiva y no ha alcanzado la dosis terapéutica prevista. El peso ha disminuido 2%.`,
+  pregunta: "¿Qué información es indispensable antes de declarar fracaso farmacológico?",
+  opciones: [
+    "Únicamente el porcentaje de pérdida de peso, sin considerar la exposición real al fármaco",
+    "Adherencia, dosis alcanzada, duración a dosis terapéutica, tolerabilidad y factores conductuales concomitantes",
+    "Solo el valor de TSH, independientemente de los síntomas",
+    "El peso de un único día, sin revisar la tendencia",
+    "La necesidad de combinar automáticamente tres medicamentos"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La respuesta debe interpretarse según el fármaco, la dosis alcanzada, el tiempo a dosis terapéutica, la adherencia y la tolerabilidad. En este caso no puede declararse fracaso definitivo sin abordar náuseas, adherencia y episodios de ingesta compulsiva. Algunos productos tienen reglas específicas de suspensión por respuesta insuficiente; deben aplicarse las de la ficha técnica correspondiente.`,
+  perlaENARM: "Antes de clasificar un tratamiento como ineficaz, verifica que exista una prueba terapéutica adecuada y tolerada.",
+  gpc: {
+    mexico: "Consultar la ficha técnica del medicamento y la GPC mexicana vigente de obesidad.",
+    internacional: "AGA Clinical Practice Guideline on Pharmacological Interventions for Adults With Obesity, 2022."
+  },
+  bibliografia: "Grunvald E et al. Gastroenterology. 2022."
+},
+{
+  id: "ENDO-198",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Recuperación ponderal después de suspender semaglutida",
+  dificultad: "Media",
+  caso: `Mujer de 46 años sin diabetes recibió semaglutida para obesidad durante 68 semanas y perdió aproximadamente 15% de su peso inicial. Después de suspender el medicamento, recuperó parte del peso durante el año siguiente, a pesar de mantener varias modificaciones conductuales.`,
+  pregunta: "¿Qué fenómeno fisiológico ayuda a explicar esta evolución?",
+  opciones: [
+    "Destrucción irreversible de las células beta pancreáticas causada necesariamente por semaglutida",
+    "Desaparición permanente de las señales de hambre, seguida de una respuesta inflamatoria",
+    "Persistencia de mecanismos biológicos que favorecen recuperar peso cuando desaparece el efecto farmacológico",
+    "Desarrollo inevitable de hipotiroidismo autoinmune",
+    "Confirmación de que la pérdida inicial de peso fue exclusivamente agua"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La obesidad es una enfermedad crónica en la que intervienen mecanismos homeostáticos del apetito, saciedad y gasto energético. Tras retirar semaglutida puede recuperarse parte del peso perdido, como se observó en la extensión de STEP 1. Este fenómeno no demuestra falta de voluntad ni obliga a mantener indefinidamente un fármaco específico; requiere discutir continuidad, alternativas, objetivos y seguimiento.`,
+  perlaENARM: "La recuperación de peso después de retirar un tratamiento eficaz es compatible con la fisiología crónica de la obesidad.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente y la ficha técnica del medicamento para planear el seguimiento.",
+    internacional: "STEP 1 extension study."
+  },
+  bibliografia: "Wilding JPH et al. Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension. Diabetes Obes Metab. 2022."
+},
+{
+  id: "ENDO-199",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Metas terapéuticas y evaluación de complicaciones",
+  dificultad: "Media",
+  caso: `Hombre de 57 años con IMC inicial de 38 kg/m², hipertensión, hipertrigliceridemia y prediabetes pierde 8% de su peso tras nueve meses de tratamiento integral. Su HbA1c disminuye de 6.2% a 5.7%, los triglicéridos bajan y necesita menos medicación antihipertensiva. El IMC continúa en rango de obesidad.`,
+  pregunta: "¿Qué interpretación refleja mejor la respuesta clínica?",
+  opciones: [
+    "Fracaso terapéutico absoluto porque no alcanzó un IMC menor de 25 kg/m²",
+    "Respuesta clínicamente relevante, dado el descenso ponderal y la mejoría de complicaciones metabólicas",
+    "Ausencia de beneficio porque la HbA1c todavía no es inferior a 5.0%",
+    "Necesidad automática de cirugía por persistir obesidad",
+    "Indicación de suspender el seguimiento porque mejoraron los triglicéridos"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Una pérdida de peso de 5–10% puede producir beneficios metabólicos clínicamente importantes. En este caso mejoraron glucemia, triglicéridos y presión arterial. La respuesta debe valorarse mediante evolución de peso, complicaciones, función, calidad de vida, tolerabilidad y sostenibilidad, no solo por alcanzar un IMC normal.`,
+  perlaENARM: "Una pérdida de peso moderada puede mejorar de forma significativa las complicaciones; las metas deben individualizarse.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para metas y seguimiento integral de obesidad.",
+    internacional: "AGA Clinical Practice Guideline on Pharmacological Interventions for Adults With Obesity."
+  },
+  bibliografia: "Grunvald E et al. Gastroenterology. 2022."
+},
+{
+  id: "ENDO-200",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Integración terapéutica en obesidad con diabetes y enfermedad cardiovascular",
+  dificultad: "Alta",
+  caso: `Hombre de 62 años con IMC de 34 kg/m², diabetes tipo 2, enfermedad cardiovascular ateroesclerótica establecida y HbA1c de 7.2% utiliza metformina. Su función renal permite diversas alternativas terapéuticas. Desea reducir peso y riesgo cardiovascular, sin antecedentes personales o familiares de carcinoma medular tiroideo ni MEN2.`,
+  pregunta: "Al seleccionar un tratamiento adicional, ¿qué criterio debe tener mayor peso en la decisión compartida?",
+  opciones: [
+    "Elegir exclusivamente el medicamento que produzca mayor reducción de glucosa, sin considerar eventos cardiovasculares",
+    "Priorizar un tratamiento con beneficio cardiovascular demostrado y eficacia sobre el peso, valorando indicación, tolerabilidad, contraindicaciones y preferencias",
+    "Iniciar insulina basal obligatoriamente por presentar enfermedad cardiovascular",
+    "Elegir una sulfonilurea por su capacidad demostrada de reducir el peso",
+    "Evitar cualquier agonista incretínico porque existe enfermedad cardiovascular establecida"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En diabetes tipo 2 con enfermedad cardiovascular ateroesclerótica establecida, la elección debe considerar fármacos con beneficio cardiovascular demostrado, además del control glucémico y el peso. Algunos agonistas GLP-1 han demostrado reducción de eventos cardiovasculares en poblaciones seleccionadas. La elección entre un agonista GLP-1, un inhibidor SGLT2 u otras opciones depende también de insuficiencia cardiaca, enfermedad renal, objetivo ponderal, tolerabilidad, costo y ficha técnica. No debe asumirse que todos los fármacos de una clase tienen idéntica evidencia para todos los desenlaces.`,
+  perlaENARM: "En diabetes con enfermedad cardiovascular, selecciona tratamientos según desenlaces clínicos demostrados, no solo según HbA1c o pérdida de peso.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para diabetes tipo 2 y riesgo cardiovascular, además de la ficha técnica local.",
+    internacional: "ADA Standards of Care in Diabetes, edición vigente; ensayos cardiovasculares de agonistas GLP-1."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes, edición vigente; Marso SP et al. Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes. N Engl J Med. 2016; Marso SP et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. N Engl J Med. 2016."
+},
+
+{
+  id: "ENDO-201",
+  especialidad: "Endocrinología",
+  tema: "Hipófisis e hipotálamo",
+  subtema: "Apoplejía hipofisaria e insuficiencia suprarrenal aguda",
+  dificultad: "Muy alta",
+  caso: `Hombre de 46 años acude por cefalea súbita de máxima intensidad, vómitos, ptosis palpebral izquierda y diplopía. Presenta presión arterial de 82/48 mmHg, sodio de 124 mmol/L, glucosa de 58 mg/dL y cortisol de 2.1 µg/dL. La resonancia magnética revela una lesión selar hemorrágica de 2.4 cm con extensión supraselar y compresión del quiasma óptico. La agudeza visual ha disminuido progresivamente durante las últimas dos horas.`,
+  pregunta: "¿Qué intervención debe priorizarse mientras se coordina la valoración neuroquirúrgica urgente?",
+  opciones: [
+    "Administrar levotiroxina intravenosa como monoterapia y esperar la respuesta hormonal",
+    "Iniciar hidrocortisona parenteral y reanimación hemodinámica, con evaluación neuroquirúrgica urgente por el deterioro visual",
+    "Realizar una prueba de tolerancia a la insulina antes de administrar glucocorticoides",
+    "Administrar desmopresina por la hiponatremia, sin evaluar la diuresis",
+    "Esperar la confirmación histopatológica antes de iniciar tratamiento"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El cuadro corresponde a apoplejía hipofisaria con insuficiencia corticotropa aguda, choque y deterioro visual progresivo. La hidrocortisona parenteral debe administrarse inmediatamente, junto con líquidos isotónicos y soporte hemodinámico. La dosis de estrés habitual en el adulto es de 100 mg IV iniciales, seguida de 200 mg/24 h en infusión continua o 50 mg IV cada 6 horas, según el protocolo. El deterioro visual grave o progresivo y la alteración neurológica justifican valoración urgente para descompresión. La reposición de glucocorticoides precede a la de hormona tiroidea cuando ambas son necesarias.`,
+  perlaENARM: "Apoplejía hipofisaria + inestabilidad hemodinámica: glucocorticoide parenteral inmediato; no retrasarlo por pruebas endocrinas.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre insuficiencia suprarrenal aguda y el protocolo institucional de urgencias neuroendocrinas.",
+    internacional: "Society for Endocrinology. Emergency management of pituitary apoplexy."
+  },
+  bibliografia: "Rajasekaran S et al. UK guidelines for the management of pituitary apoplexy. Clin Endocrinol (Oxf). 2011."
+},
+{
+  id: "ENDO-202",
+  especialidad: "Endocrinología",
+  tema: "Hipófisis e hipotálamo",
+  subtema: "Acromegalia con IGF-1 limítrofe",
+  dificultad: "Muy alta",
+  caso: `Mujer de 52 años presenta crecimiento progresivo de manos, prognatismo, apnea obstructiva del sueño y diabetes de reciente inicio. El IGF-1 está discretamente elevado respecto al límite superior ajustado para edad, pero la paciente tiene hepatopatía crónica, pérdida ponderal reciente y glucemia en ayuno de 182 mg/dL. La resonancia muestra una lesión hipofisaria de 8 mm.`,
+  pregunta: "¿Qué estrategia ofrece la interpretación diagnóstica más sólida ante la discordancia entre fenotipo, IGF-1 y comorbilidades?",
+  opciones: [
+    "Descartar acromegalia porque el adenoma mide menos de 10 mm",
+    "Confirmar acromegalia exclusivamente con una GH aleatoria elevada",
+    "Repetir IGF-1 con un ensayo validado e interpretar el resultado según edad, estado clínico y posibles interferencias antes de seleccionar pruebas confirmatorias",
+    "Indicar cirugía transesfenoidal sin confirmar hipersecreción hormonal",
+    "Utilizar únicamente prolactina para establecer el diagnóstico"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `El fenotipo es sugestivo de acromegalia, pero la interpretación de IGF-1 puede alterarse por enfermedad hepática, desnutrición, diabetes mal controlada y variabilidad del ensayo. Se debe repetir IGF-1 con un método validado y rango de referencia apropiado. En resultados equívocos, una prueba de supresión de GH tras glucosa oral puede ayudar, interpretada con los puntos de corte del ensayo y el contexto glucémico. La diabetes no controlada puede modificar la respuesta de GH, por lo que el resultado requiere cautela. Una lesión hipofisaria aislada no demuestra secreción autónoma.`,
+  perlaENARM: "La acromegalia se evalúa inicialmente con IGF-1 ajustado por edad; una lesión selar no sustituye la demostración bioquímica.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para diagnóstico y tratamiento de acromegalia.",
+    internacional: "Endocrine Society Clinical Practice Guideline; consenso internacional de acromegalia."
+  },
+  bibliografia: "Katznelson L et al. Acromegaly: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2014."
+},
+{
+  id: "ENDO-203",
+  especialidad: "Endocrinología",
+  tema: "Hipófisis e hipotálamo",
+  subtema: "Hiperprolactinemia y efecto gancho",
+  dificultad: "Muy alta",
+  caso: `Mujer de 35 años presenta amenorrea, galactorrea y hemianopsia bitemporal. La resonancia muestra una masa selar de 4.1 cm con extensión supraselar. La prolactina reportada es de 78 ng/mL, valor aparentemente modesto para el tamaño tumoral. No consume antipsicóticos ni metoclopramida y la función renal es normal.`,
+  pregunta: "¿Qué error analítico debe descartarse antes de clasificar la lesión como un macroadenoma no funcionante con efecto de tallo?",
+  opciones: [
+    "Efecto gancho por exceso de prolactina, solicitando medición tras diluciones seriadas de la muestra",
+    "Deficiencia de biotina como explicación universal de prolactina baja",
+    "Interferencia por cortisol elevado que invalida todas las mediciones hipofisarias",
+    "Macroprolactinemia como explicación obligatoria de toda masa mayor de 4 cm",
+    "Supresión fisiológica de prolactina por la compresión del quiasma"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El efecto gancho de algunos inmunoensayos puede producir concentraciones falsamente bajas de prolactina cuando la concentración real es extremadamente elevada. Ante una masa hipofisaria grande con prolactina inesperadamente modesta, deben solicitarse diluciones seriadas para distinguir un macroprolactinoma de un tumor no funcionante con efecto de tallo. La distinción cambia sustancialmente el tratamiento: los prolactinomas suelen responder a agonistas dopaminérgicos, mientras que otras lesiones pueden requerir cirugía según sus características.`,
+  perlaENARM: "Masa selar grande + prolactina modestamente elevada: descartar efecto gancho mediante diluciones antes de decidir cirugía.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hiperprolactinemia y adenomas hipofisarios.",
+    internacional: "Pituitary Society international consensus statements on prolactin-secreting adenomas."
+  },
+  bibliografia: "Melmed S et al. Diagnosis and Treatment of Hyperprolactinemia: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2011."
+},
+{
+  id: "ENDO-204",
+  especialidad: "Endocrinología",
+  tema: "Hipófisis e hipotálamo",
+  subtema: "Diabetes insípida y prueba de copeptina",
+  dificultad: "Muy alta",
+  caso: `Hombre de 29 años presenta poliuria de 8.5 L/día, sodio de 150 mmol/L y osmolaridad plasmática de 310 mOsm/kg. La osmolaridad urinaria inicial es de 95 mOsm/kg. Después de desmopresina aumenta a 520 mOsm/kg. No utiliza litio y la función renal es normal.`,
+  pregunta: "¿Qué mecanismo explica mejor la respuesta observada?",
+  opciones: [
+    "Resistencia renal completa a la vasopresina",
+    "Deficiencia central de vasopresina con conservación de la capacidad renal de concentrar la orina",
+    "Polidipsia primaria con supresión persistente de vasopresina pese a hipernatremia",
+    "Diuresis osmótica por glucosuria intensa",
+    "Síndrome de secreción inadecuada de ADH"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La hipernatremia con orina marcadamente diluida indica incapacidad para conservar agua por falta de acción antidiurética. El incremento sustancial de la osmolaridad urinaria después de desmopresina favorece diabetes insípida central, ahora también denominada deficiencia de arginina vasopresina. En casos parciales o discordantes, las pruebas con copeptina basal o estimulada pueden mejorar la discriminación frente a polidipsia primaria y resistencia renal. Debe monitorizarse el sodio durante la reposición de agua y el tratamiento.`,
+  perlaENARM: "Respuesta concentradora importante a desmopresina favorece deficiencia central de vasopresina; la respuesta no debe interpretarse sin el contexto osmótico.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre diabetes insípida y trastornos del sodio.",
+    internacional: "Endocrine Society y literatura clínica sobre diagnóstico con copeptina."
+  },
+  bibliografia: "Fenske W et al. A Copeptin-Based Approach in the Diagnosis of Diabetes Insipidus. N Engl J Med. 2018."
+},
+{
+  id: "ENDO-205",
+  especialidad: "Endocrinología",
+  tema: "Suprarrenales",
+  subtema: "Insuficiencia suprarrenal y prueba con cosintropina",
+  dificultad: "Muy alta",
+  caso: `Mujer de 44 años con pérdida de peso, hipotensión ortostática, hiperpigmentación y sodio de 127 mmol/L presenta cortisol de 2.8 µg/dL a las 08:00 h, ACTH marcadamente elevada y potasio de 5.8 mmol/L. Tras cosintropina de 250 µg, el cortisol alcanza 11 µg/dL a los 60 minutos. El laboratorio utiliza un inmunoensayo moderno de cortisol.`,
+  pregunta: "¿Cuál es la interpretación más consistente con el conjunto de datos?",
+  opciones: [
+    "Insuficiencia suprarrenal central porque la ACTH está elevada",
+    "Insuficiencia suprarrenal primaria; la respuesta máxima de cortisol es insuficiente y debe interpretarse con el punto de corte validado para el ensayo",
+    "Respuesta suprarrenal normal porque el cortisol aumentó respecto al basal",
+    "Hiperaldosteronismo primario por la combinación de hiponatremia e hiperpotasemia",
+    "Pseudohipoaldosteronismo confirmado únicamente por la hiperpigmentación"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La hiperpigmentación, ACTH muy elevada, hiperpotasemia e hiponatremia sugieren insuficiencia suprarrenal primaria. La respuesta máxima de cortisol de 11 µg/dL es claramente insuficiente con los criterios habituales, aunque los umbrales exactos dependen del ensayo empleado. Deben evaluarse renina y aldosterona para caracterizar la deficiencia mineralocorticoide y anticuerpos contra 21-hidroxilasa para investigar etiología autoinmune. Si existe inestabilidad clínica, el tratamiento no debe retrasarse por completar las pruebas.`,
+  perlaENARM: "ACTH elevada con cortisol insuficiente orienta a insuficiencia suprarrenal primaria; los puntos de corte de cosintropina dependen del ensayo.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para insuficiencia suprarrenal primaria.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Primary Adrenal Insufficiency."
+  },
+  bibliografia: "Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency. J Clin Endocrinol Metab. 2016."
+},
+{
+  id: "ENDO-206",
+  especialidad: "Endocrinología",
+  tema: "Suprarrenales",
+  subtema: "Hiperaldosteronismo primario con renina suprimida",
+  dificultad: "Muy alta",
+  caso: `Hombre de 48 años con hipertensión resistente e hipopotasemia de 2.9 mmol/L presenta aldosterona plasmática de 18 ng/dL y actividad de renina plasmática suprimida. Utiliza espironolactona, losartán y clortalidona. El potasio continúa bajo pese a reposición.`,
+  pregunta: "¿Qué limitación debe considerarse antes de interpretar definitivamente la relación aldosterona-renina y decidir el siguiente estudio?",
+  opciones: [
+    "La espironolactona y losartán no afectan nunca la interpretación de renina",
+    "La hipopotasemia puede suprimir aldosterona y los medicamentos interfieren con renina o aldosterona; se requiere corregir potasio y planear la evaluación farmacológica de forma segura",
+    "La aldosterona de 18 ng/dL descarta hiperaldosteronismo primario",
+    "La actividad de renina suprimida confirma por sí sola un adenoma unilateral",
+    "Debe realizarse adrenalectomía sin evaluación bioquímica adicional"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La relación aldosterona-renina es una prueba de cribado, pero se afecta por hipopotasemia, postura, ingesta de sodio y múltiples medicamentos. Los antagonistas del receptor mineralocorticoide, diuréticos y bloqueadores del sistema renina-angiotensina pueden alterar la interpretación. Deben corregirse las alteraciones de potasio y planearse la preparación farmacológica conforme al riesgo clínico; no es seguro retirar antihipertensivos de manera indiscriminada. Si el cribado continúa siendo positivo, se selecciona confirmación y, cuando corresponda, evaluación de lateralización.`,
+  perlaENARM: "La relación aldosterona-renina exige preparación e interpretación contextual; una prueba positiva no demuestra lateralización.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hipertensión resistente e hiperaldosteronismo primario.",
+    internacional: "Endocrine Society Clinical Practice Guideline on Primary Aldosteronism."
+  },
+  bibliografia: "Funder JW et al. The Management of Primary Aldosteronism: Case Detection, Diagnosis, and Treatment. J Clin Endocrinol Metab. 2016."
+},
+{
+  id: "ENDO-207",
+  especialidad: "Endocrinología",
+  tema: "Suprarrenales",
+  subtema: "Feocromocitoma y preparación preoperatoria",
+  dificultad: "Muy alta",
+  caso: `Mujer de 41 años con crisis de cefalea, palpitaciones, diaforesis e hipertensión paroxística presenta metanefrinas plasmáticas libres elevadas más de cinco veces el límite superior normal. La tomografía muestra una masa suprarrenal de 4.2 cm. Se programa resección laparoscópica.`,
+  pregunta: "¿Qué secuencia farmacológica reduce el riesgo de crisis hemodinámica durante la cirugía?",
+  opciones: [
+    "Iniciar propranolol en monoterapia y añadir alfa-bloqueo solo si persiste la taquicardia",
+    "Administrar alfa-bloqueo preoperatorio, optimizar volumen y añadir beta-bloqueo solo después de establecer bloqueo alfa si existe indicación",
+    "Administrar un inhibidor de la ECA como única preparación",
+    "Evitar toda preparación porque las metanefrinas elevadas no predicen riesgo perioperatorio",
+    "Iniciar metoclopramida para reducir la secreción catecolaminérgica"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El feocromocitoma bioquímicamente activo requiere preparación preoperatoria con bloqueo alfa y expansión de volumen según tolerancia, habitualmente durante 7–14 días. Si persiste taquicardia después de establecer bloqueo alfa adecuado, puede añadirse un beta-bloqueador. Administrar beta-bloqueo antes del alfa puede precipitar vasoconstricción alfa no contrarrestada y crisis hipertensiva. La preparación debe ser supervisada por un equipo experimentado.`,
+  perlaENARM: "Feocromocitoma: primero alfa-bloqueo; beta-bloqueo solo después de bloqueo alfa adecuado.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente y el protocolo multidisciplinario de feocromocitoma.",
+    internacional: "Endocrine Society Clinical Practice Guideline on Pheochromocytoma and Paraganglioma."
+  },
+  bibliografia: "Lenders JWM et al. Pheochromocytoma and Paraganglioma: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2014."
+},
+{
+  id: "ENDO-208",
+  especialidad: "Endocrinología",
+  tema: "Suprarrenales",
+  subtema: "Incidentaloma suprarrenal y autonomía de cortisol",
+  dificultad: "Muy alta",
+  caso: `Mujer de 63 años con diabetes tipo 2 e hipertensión tiene incidentaloma suprarrenal homogéneo de 2.8 cm y atenuación de 8 UH en tomografía sin contraste. El cortisol posterior a dexametasona de 1 mg es de 2.4 µg/dL. No presenta estrías violáceas ni debilidad proximal. ACTH matutina está baja en una segunda medición.`,
+  pregunta: "¿Cuál es la interpretación endocrinológica más apropiada del resultado de supresión?",
+  opciones: [
+    "Síndrome de Cushing manifiesto confirmado por el valor aislado de cortisol",
+    "Posible secreción autónoma leve de cortisol, que requiere confirmar validez del test e integrar comorbilidades, ACTH y contexto clínico",
+    "Incidentaloma maligno confirmado por el diámetro menor de 3 cm",
+    "Función suprarrenal normal porque la lesión es homogénea",
+    "Feocromocitoma confirmado por la falta de supresión con dexametasona"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En pacientes con incidentaloma suprarrenal, un cortisol posterior a dexametasona >1.8 µg/dL puede indicar secreción autónoma leve de cortisol en ausencia de fenotipo cushingoide manifiesto, según las guías europeas contemporáneas. Es importante revisar factores que alteren la prueba, confirmar ACTH independiente y valorar hipertensión, diabetes, fragilidad ósea y otras comorbilidades potencialmente relacionadas. La decisión quirúrgica se individualiza y no depende exclusivamente de un resultado bioquímico.`,
+  perlaENARM: "Cortisol posdexametasona >1.8 µg/dL en incidentaloma exige contextualización; no equivale automáticamente a Cushing manifiesto.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre incidentaloma suprarrenal.",
+    internacional: "European Society of Endocrinology Clinical Practice Guideline on Adrenal Incidentalomas, 2023."
+  },
+  bibliografia: "Fassnacht M et al. European Society of Endocrinology Clinical Practice Guidelines on the Management of Adrenal Incidentalomas. Eur J Endocrinol. 2023."
+},
+{
+  id: "ENDO-209",
+  especialidad: "Endocrinología",
+  tema: "Tiroides",
+  subtema: "Tirotoxicosis con captación baja",
+  dificultad: "Muy alta",
+  caso: `Mujer de 37 años presenta palpitaciones, pérdida de peso y TSH suprimida. T4 libre está elevada, TRAb es negativo y la captación de yodo radiactivo a las 24 horas es de 1%. La ecografía muestra una glándula heterogénea sin nódulos dominantes. No ha recibido contraste yodado recientemente.`,
+  pregunta: "¿Qué mecanismo explica mejor la tirotoxicosis y por qué cambia el tratamiento?",
+  opciones: [
+    "Síntesis hormonal aumentada por Graves, que obliga a usar metimazol en todos los casos",
+    "Liberación de hormona preformada por tiroiditis destructiva, en la que las tionamidas suelen ser ineficaces",
+    "Adenoma tóxico con captación focal intensa",
+    "Resistencia periférica a hormona tiroidea con TSH suprimida",
+    "Hipotiroidismo central con elevación verdadera de T4 libre"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La captación muy baja orienta a liberación de hormona preformada por tiroiditis destructiva o a otras causas de tirotoxicosis sin síntesis aumentada, como exposición exógena a hormona tiroidea. La ausencia de captación focal o difusa elevada y los TRAb negativos hacen menos probable Graves o autonomía nodular. En tiroiditis destructiva, las tionamidas no corrigen el mecanismo porque no existe síntesis hormonal aumentada; se emplea tratamiento sintomático y se identifica la causa.`,
+  perlaENARM: "Tirotoxicosis con captación baja: piensa en tiroiditis o hormona exógena antes de prescribir tionamidas.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre diagnóstico diferencial de tirotoxicosis.",
+    internacional: "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism."
+  },
+  bibliografia: "Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016."
+},
+{
+  id: "ENDO-210",
+  especialidad: "Endocrinología",
+  tema: "Tiroides",
+  subtema: "Tormenta tiroidea y disfunción multiorgánica",
+  dificultad: "Muy alta",
+  caso: `Mujer de 34 años con enfermedad de Graves sin tratamiento acude por fiebre de 40 °C, frecuencia cardiaca de 168 lpm, fibrilación auricular, agitación, diarrea e insuficiencia cardiaca de alto gasto. TSH está suprimida y T4 libre muy elevada. Presenta datos de choque incipiente.`,
+  pregunta: "¿Qué esquema inicial integra mejor el tratamiento de la tormenta tiroidea, considerando el riesgo de deterioro hemodinámico?",
+  opciones: [
+    "Levotiroxina intravenosa, seguida de yodo",
+    "Beta-bloqueador a dosis altas sin evaluar función cardiaca, más yodo antes de la tionamida",
+    "Tratamiento intensivo de soporte, tionamida, yodo administrado después de la tionamida, glucocorticoide y control adyuvante según el estado hemodinámico",
+    "Metimazol oral como monoterapia y alta a domicilio",
+    "Yodo radiactivo como intervención inmediata de primera línea"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La tormenta tiroidea es una emergencia clínica y el tratamiento no debe retrasarse esperando resultados hormonales. Incluye soporte intensivo, control de la hipertermia, líquidos y tratamiento del desencadenante; tionamida, yodo después de bloquear la síntesis hormonal y glucocorticoide. Los beta-bloqueadores requieren cautela si existe insuficiencia cardiaca o choque, pues pueden precipitar colapso circulatorio en pacientes con reserva miocárdica comprometida. La elección del agente y la titulación deben individualizarse en cuidados críticos.`,
+  perlaENARM: "En tormenta tiroidea, administra el yodo después de la tionamida; individualiza el beta-bloqueo si existe choque o insuficiencia cardiaca.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre tormenta tiroidea y el protocolo institucional de cuidados críticos.",
+    internacional: "American Thyroid Association Guidelines for Thyrotoxicosis."
+  },
+  bibliografia: "Ross DS et al. American Thyroid Association Guidelines. Thyroid. 2016."
+},
+{
+  id: "ENDO-211",
+  especialidad: "Endocrinología",
+  tema: "Tiroides",
+  subtema: "Hipotiroidismo central y monitorización",
+  dificultad: "Muy alta",
+  caso: `Hombre de 51 años con antecedente de cirugía hipofisaria presenta fatiga y frío. T4 libre de 0.55 ng/dL está baja y TSH de 1.8 mUI/L se encuentra dentro del intervalo de referencia. También tiene cortisol matutino bajo y no recibe glucocorticoides.`,
+  pregunta: "¿Qué error terapéutico debe evitarse al iniciar tratamiento de su hipotiroidismo?",
+  opciones: [
+    "Interpretar la TSH normal como exclusión de hipotiroidismo",
+    "Iniciar levotiroxina antes de evaluar y tratar la posible insuficiencia corticotropa",
+    "Utilizar T4 libre para orientar el seguimiento del hipotiroidismo central",
+    "Investigar otros déficits hipofisarios",
+    "Valorar el contexto clínico y la etiología hipofisaria"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La T4 libre baja con TSH inapropiadamente normal en un paciente con enfermedad hipofisaria sugiere hipotiroidismo central. Antes de administrar levotiroxina debe evaluarse la función corticotropa y tratar una posible insuficiencia suprarrenal, ya que la hormona tiroidea puede aumentar el aclaramiento de cortisol y precipitar una crisis. En el seguimiento del hipotiroidismo central se utiliza T4 libre, no TSH como objetivo principal.`,
+  perlaENARM: "En hipotiroidismo central, descarta o trata insuficiencia suprarrenal antes de iniciar levotiroxina.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hipopituitarismo e hipotiroidismo central.",
+    internacional: "Endocrine Society Clinical Practice Guideline on Hormone Replacement in Hypopituitarism."
+  },
+  bibliografia: "Fleseriu M et al. Hormonal Replacement in Hypopituitarism in Adults: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016."
+},
+{
+  id: "ENDO-212",
+  especialidad: "Endocrinología",
+  tema: "Calcio y metabolismo óseo",
+  subtema: "Hiperparatiroidismo primario normocalcémico",
+  dificultad: "Muy alta",
+  caso: `Mujer de 57 años con nefrolitiasis recurrente presenta PTH persistentemente elevada en tres determinaciones, calcio total y calcio ionizado normales, 25-hidroxivitamina D de 14 ng/mL y filtrado glomerular estimado de 52 mL/min/1.73 m². No utiliza litio.`,
+  pregunta: "¿Qué debe resolverse antes de establecer un diagnóstico de hiperparatiroidismo primario normocalcémico?",
+  opciones: [
+    "Confirmar que la PTH esté elevada una sola vez",
+    "Excluir causas secundarias de elevación de PTH, particularmente deficiencia de vitamina D y enfermedad renal crónica",
+    "Solicitar únicamente una gammagrafía paratiroidea",
+    "Indicar paratiroidectomía basándose solo en la nefrolitiasis",
+    "Descartar la enfermedad porque el calcio total es normal"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El hiperparatiroidismo primario normocalcémico exige elevación persistente de PTH con calcio total ajustado e ionizado normales, tras excluir causas secundarias. La deficiencia de vitamina D y el filtrado glomerular reducido pueden explicar la elevación de PTH. La imagen paratiroidea sirve para localización preoperatoria una vez establecido el diagnóstico, no para confirmarlo. Deben corregirse las causas secundarias y reevaluarse el perfil bioquímico.`,
+  perlaENARM: "PTH elevada con calcio normal no equivale automáticamente a hiperparatiroidismo primario; primero excluye causas secundarias.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hiperparatiroidismo y trastornos del metabolismo mineral.",
+    internacional: "European Society of Endocrinology consensus on normocalcemic primary hyperparathyroidism."
+  },
+  bibliografia: "Bilezikian JP et al. Evaluation and Management of Primary Hyperparathyroidism: Summary Statement and Guidelines from the Fifth International Workshop. J Bone Miner Res. 2022."
+},
+{
+  id: "ENDO-213",
+  especialidad: "Endocrinología",
+  tema: "Calcio y metabolismo óseo",
+  subtema: "Hipercalcemia y PTH no suprimida",
+  dificultad: "Muy alta",
+  caso: `Hombre de 39 años con hipercalcemia persistente de 11.3 mg/dL presenta PTH dentro del intervalo de referencia del laboratorio, fosfato bajo y nefrolitiasis. No utiliza tiazidas ni litio. El médico considera que la PTH es normal y por ello descarta una causa paratiroidea.`,
+  pregunta: "¿Qué principio fisiológico permite interpretar correctamente este resultado?",
+  opciones: [
+    "Una PTH dentro del intervalo siempre excluye hiperparatiroidismo",
+    "En presencia de hipercalcemia, una PTH normal puede ser inapropiadamente no suprimida y apoyar una causa dependiente de PTH",
+    "El calcio elevado suprime siempre la calcitonina y confirma carcinoma medular",
+    "La PTH no participa en la regulación renal del fosfato",
+    "El fosfato bajo demuestra por sí solo intoxicación por vitamina D"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La interpretación hormonal depende del contexto fisiológico. La hipercalcemia debería suprimir la secreción de PTH; por ello, una concentración dentro del intervalo de referencia puede ser inapropiadamente normal y orientar a hiperparatiroidismo primario. Deben confirmarse la hipercalcemia, la PTH intacta y los factores que interfieren; después se evalúan función renal, vitamina D, calciuria y diagnóstico diferencial, incluida hipercalcemia hipocalciúrica familiar cuando proceda.`,
+  perlaENARM: "En hipercalcemia, una PTH normal puede ser patológica porque debería estar suprimida.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre diagnóstico de hipercalcemia e hiperparatiroidismo primario.",
+    internacional: "Fifth International Workshop on Primary Hyperparathyroidism, 2022."
+  },
+  bibliografia: "Bilezikian JP et al. Evaluation and Management of Primary Hyperparathyroidism. J Bone Miner Res. 2022."
+},
+{
+  id: "ENDO-214",
+  especialidad: "Endocrinología",
+  tema: "Metabolismo óseo",
+  subtema: "Enfermedad renal crónica y alteraciones mineral-óseas",
+  dificultad: "Muy alta",
+  caso: `Hombre de 66 años con enfermedad renal crónica G4 presenta PTH de 420 pg/mL, fósforo de 5.7 mg/dL, calcio de 8.2 mg/dL y 25-hidroxivitamina D de 18 ng/mL. No tiene datos clínicos de hipercalcemia y no recibe calcimiméticos.`,
+  pregunta: "¿Qué enfoque refleja mejor el manejo de la alteración mineral-ósea asociada con enfermedad renal crónica?",
+  opciones: [
+    "Normalizar la PTH de inmediato con calcitriol a dosis altas en todos los pacientes",
+    "Interpretar tendencias seriadas de calcio, fósforo y PTH, corregir factores modificables y reservar terapias específicas para indicaciones individualizadas",
+    "Administrar calcio intravenoso crónicamente para elevar el calcio a valores supranormales",
+    "Indicar paratiroidectomía ante cualquier elevación de PTH",
+    "Ignorar el fósforo porque la función renal está reducida"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En enfermedad renal crónica avanzada, la PTH debe interpretarse en relación con tendencias de calcio, fósforo, función renal, vitamina D y tratamiento. Deben corregirse factores modificables como hiperfosfatemia, hipocalcemia y deficiencia de vitamina D. Los calcitrioles y análogos activos no se utilizan de forma rutinaria en todos los pacientes no dializados; pueden considerarse en hiperparatiroidismo grave y progresivo. El objetivo no es normalizar agresivamente un único valor aislado de PTH.`,
+  perlaENARM: "En CKD-MBD, interpreta tendencias y factores modificables; evita tratar una cifra aislada de PTH sin contexto.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre enfermedad renal crónica y trastorno mineral óseo.",
+    internacional: "KDIGO Clinical Practice Guideline Update for CKD-MBD."
+  },
+  bibliografia: "KDIGO CKD-MBD Update Work Group. KDIGO 2017 Clinical Practice Guideline Update for CKD-MBD. Kidney Int Suppl. 2017."
+},
+{
+  id: "ENDO-215",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Cetoacidosis diabética euglucémica asociada a SGLT2",
+  dificultad: "Muy alta",
+  caso: `Mujer de 58 años con diabetes tipo 2 utiliza empagliflozina y reduce drásticamente su ingesta por una enfermedad gastrointestinal. Acude con náuseas, dolor abdominal y taquipnea. Glucosa de 184 mg/dL, pH venoso de 7.19, bicarbonato de 10 mmol/L, anión gap elevado y beta-hidroxibutirato de 5.8 mmol/L.`,
+  pregunta: "¿Qué diagnóstico explica mejor la combinación de acidosis grave y glucemia no marcadamente elevada?",
+  opciones: [
+    "Estado hiperglucémico hiperosmolar puro",
+    "Cetoacidosis diabética euglucémica asociada a un inhibidor SGLT2",
+    "Acidosis respiratoria crónica compensada",
+    "Acidosis tubular renal distal aislada",
+    "Hipoglucemia por sulfonilureas"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La cetonemia significativa y la acidosis metabólica con anión gap elevado cumplen el patrón de cetoacidosis diabética, aunque la glucosa sea menor de 200 mg/dL. Los inhibidores SGLT2 y la reducción de ingesta pueden favorecer la presentación euglucémica. El manejo incluye suspender el fármaco, administrar líquidos, insulina y dextrosa según la glucemia, y vigilar estrechamente potasio y resolución de cetosis. Deben evaluarse precipitantes y no descartar CAD por una glucosa relativamente baja.`,
+  perlaENARM: "SGLT2 + enfermedad aguda + acidosis con cetonemia: descarta CAD aunque la glucosa sea inferior a 200 mg/dL.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para cetoacidosis diabética y la ficha técnica del inhibidor SGLT2.",
+    internacional: "2024 Consensus Report on Hyperglycemic Crises in Adults With Diabetes."
+  },
+  bibliografia: "Umpierrez GE et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care. 2024."
+},
+{
+  id: "ENDO-216",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Cetoacidosis diabética e hiperpotasemia con déficit corporal de potasio",
+  dificultad: "Muy alta",
+  caso: `Hombre de 24 años con diabetes tipo 1 presenta cetoacidosis diabética: pH 7.08, bicarbonato 7 mmol/L, glucosa 480 mg/dL y potasio sérico de 5.6 mmol/L. El electrocardiograma no muestra cambios atribuibles al potasio. La función renal previa era normal.`,
+  pregunta: "¿Qué afirmación fisiopatológica debe guiar la vigilancia durante el tratamiento con insulina?",
+  opciones: [
+    "El potasio corporal total está necesariamente aumentado porque la concentración sérica está elevada",
+    "El potasio sérico puede estar elevado pese a un déficit corporal total, y descender rápidamente al corregir la acidosis e iniciar insulina",
+    "La insulina incrementa el potasio extracelular de manera sostenida",
+    "No es necesario repetir potasio si el valor inicial supera 5 mmol/L",
+    "El bicarbonato debe administrarse rutinariamente antes de medir potasio"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En la CAD, la diuresis osmótica y los vómitos producen pérdidas de potasio; la insulinopenia y los desplazamientos transcelulares pueden mantener o elevar transitoriamente el potasio sérico. Al administrar insulina y corregir la acidosis, el potasio entra a las células y la concentración sérica puede caer con rapidez. Se requiere monitorización seriada y reposición según el valor y el protocolo. Si el potasio inicial está marcadamente bajo, la insulina debe retrasarse hasta iniciar su corrección.`,
+  perlaENARM: "En CAD, potasio sérico normal o alto no significa reservas corporales adecuadas.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre cetoacidosis diabética y el protocolo institucional de electrolitos.",
+    internacional: "2024 Consensus Report on Hyperglycemic Crises in Adults With Diabetes."
+  },
+  bibliografia: "Umpierrez GE et al. Diabetes Care. 2024."
+},
+{
+  id: "ENDO-217",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Insuficiencia renal y elección de tratamiento cardiometabólico",
+  dificultad: "Muy alta",
+  caso: `Mujer de 67 años con diabetes tipo 2, insuficiencia cardiaca con fracción de eyección reducida y enfermedad renal crónica con filtrado glomerular estimado de 24 mL/min/1.73 m². HbA1c de 7.4%. No tiene cetosis ni inestabilidad hemodinámica. Utiliza metformina y un inhibidor DPP-4.`,
+  pregunta: "¿Qué afirmación sobre la selección del tratamiento es más consistente con la evidencia cardiorrenal contemporánea?",
+  opciones: [
+    "Mantener metformina sin cambios porque la insuficiencia renal avanzada no modifica su seguridad",
+    "Considerar un inhibidor SGLT2 con beneficio demostrado en insuficiencia cardiaca y enfermedad renal, según elegibilidad y ficha técnica; revisar metformina por el filtrado reducido",
+    "Iniciar una sulfonilurea de acción prolongada como primera elección obligatoria",
+    "Evitar todos los fármacos con beneficio renal porque la HbA1c está cerca de la meta",
+    "Elegir exclusivamente el medicamento que reduzca más la HbA1c, ignorando insuficiencia cardiaca"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los inhibidores SGLT2 con evidencia cardiorrenal pueden aportar beneficios en insuficiencia cardiaca y enfermedad renal crónica, incluso cuando el efecto glucémico es menor a filtrados bajos. La elegibilidad depende del fármaco, indicación, filtrado y ficha técnica; deben evaluarse volumen, riesgo de infección, cetosis y circunstancias de suspensión temporal. Metformina se contraindica habitualmente cuando el eGFR es menor de 30 mL/min/1.73 m² y debe revisarse ante deterioro renal. La HbA1c no es el único determinante de la selección.`,
+  perlaENARM: "En diabetes con insuficiencia cardiaca o ERC, prioriza desenlaces cardiorrenales demostrados, no solo descenso de HbA1c.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre diabetes tipo 2, insuficiencia cardiaca y enfermedad renal crónica.",
+    internacional: "ADA Standards of Care in Diabetes; KDIGO Diabetes Management in CKD."
+  },
+  bibliografia: "KDIGO Diabetes Work Group. Clinical Practice Guideline for Diabetes Management in Chronic Kidney Disease. Kidney Int. 2022; American Diabetes Association. Standards of Care in Diabetes, edición vigente."
+},
+{
+  id: "ENDO-218",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Hipoglucemia recurrente e insuficiencia renal",
+  dificultad: "Muy alta",
+  caso: `Hombre de 74 años con diabetes tipo 2 y enfermedad renal crónica avanzada utiliza glibenclamida. Presenta episodios recurrentes de hipoglucemia pese a recibir dextrosa intravenosa. La insulina y el péptido C durante un episodio están elevados. No tiene acceso conocido a insulina exógena.`,
+  pregunta: "¿Qué mecanismo explica mejor la recurrencia de la hipoglucemia y qué tratamiento específico puede considerarse además de la corrección con glucosa?",
+  opciones: [
+    "Deficiencia absoluta de insulina; administrar más insulina regular",
+    "Secreción endógena de insulina inducida por sulfonilurea; considerar octreótido y suspender el agente causal",
+    "Hipoglucemia por insulina exógena, confirmada por péptido C elevado",
+    "Hipoglucemia ficticia sin necesidad de vigilancia",
+    "Resistencia a insulina por anticuerpos, confirmada por la glibenclamida"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Las sulfonilureas estimulan la secreción pancreática de insulina y pueden causar hipoglucemia prolongada, especialmente en adultos mayores y pacientes con deterioro renal. La dextrosa corrige inicialmente la glucemia, pero puede estimular nueva secreción de insulina en presencia del secretagogo. Octreótido puede utilizarse en intoxicación o hipoglucemia recurrente por sulfonilureas, junto con vigilancia prolongada y corrección de factores precipitantes. Un péptido C elevado durante hipoglucemia apoya secreción endógena de insulina.`,
+  perlaENARM: "Hipoglucemia recurrente por sulfonilureas: además de dextrosa, considera octreótido y monitorización prolongada.",
+  gpc: {
+    mexico: "Consultar protocolos de toxicología clínica y la GPC mexicana vigente de diabetes en adultos mayores.",
+    internacional: "Guías de toxicología clínica para hipoglucemia inducida por sulfonilureas."
+  },
+  bibliografia: "Literatura clínica de toxicología sobre sobredosis de sulfonilureas y uso de octreótido; ADA Standards of Care in Diabetes."
+},
+{
+  id: "ENDO-219",
+  especialidad: "Endocrinología",
+  tema: "Calcio y metabolismo óseo",
+  subtema: "Hipocalcemia sintomática y QT prolongado",
+  dificultad: "Muy alta",
+  caso: `Mujer de 49 años sometida a tiroidectomía total hace 24 horas presenta parestesias periorales, espasmo carpopedal y QTc de 520 ms. Calcio ionizado de 0.78 mmol/L, fósforo de 5.9 mg/dL y PTH de 5 pg/mL. La función renal es normal.`,
+  pregunta: "¿Qué mecanismo y estrategia terapéutica explican mejor el cuadro?",
+  opciones: [
+    "Hiperparatiroidismo primario con necesidad de bisfosfonato urgente",
+    "Hipoparatiroidismo posquirúrgico con hipocalcemia sintomática, que requiere calcio intravenoso monitorizado y posteriormente tratamiento de mantenimiento",
+    "Deficiencia aislada de vitamina D con PTH elevada",
+    "Hipercalcemia por inmovilización",
+    "Síndrome de secreción inadecuada de ADH como causa directa del QT prolongado"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La PTH baja después de tiroidectomía, junto con hipocalcemia, hiperfosfatemia y síntomas neuromusculares, indica hipoparatiroidismo posquirúrgico. La hipocalcemia grave sintomática y el QT prolongado requieren calcio intravenoso con monitorización electrocardiográfica, seguido de calcio oral y calcitriol según evolución. Deben monitorizarse calcio, magnesio, fósforo y función renal para evitar hipercalcemia y nefrocalcinosis durante el seguimiento.`,
+  perlaENARM: "Hipocalcemia sintomática + PTH baja + fósforo alto después de tiroidectomía: hipoparatiroidismo hasta demostrar lo contrario.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hipocalcemia e hipoparatiroidismo posquirúrgico.",
+    internacional: "International Task Force recommendations for hypoparathyroidism."
+  },
+  bibliografia: "Khan AA et al. Evaluation and Management of Hypoparathyroidism: Summary Statement and Guidelines from the Second International Workshop. J Bone Miner Res. 2022."
+},
+{
+  id: "ENDO-220",
+  especialidad: "Endocrinología",
+  tema: "Endocrinología integrativa",
+  subtema: "Resultados hormonales discordantes y resistencia a hormona tiroidea",
+  dificultad: "Muy alta",
+  caso: `Hombre de 32 años consulta por palpitaciones leves. En dos laboratorios diferentes presenta TSH de 3.8 mUI/L con T4 libre y T3 total elevadas. No recibe levotiroxina ni amiodarona. Su madre tiene resultados bioquímicos similares, pero pocos síntomas. La resonancia hipofisaria muestra una lesión de 4 mm, detectada durante el estudio.`,
+  pregunta: "¿Cuál es el paso conceptual más importante antes de atribuir los resultados a un tumor secretor de TSH?",
+  opciones: [
+    "Indicar cirugía hipofisaria porque cualquier lesión selar con T4 elevada es un adenoma funcionante",
+    "Confirmar la validez analítica y excluir interferencias; después integrar antecedentes familiares y estudios especializados para distinguir resistencia a hormona tiroidea de otras causas",
+    "Administrar metimazol de inmediato sin confirmar el mecanismo",
+    "Interpretar la TSH de 3.8 mUI/L como prueba definitiva de hipotiroidismo primario",
+    "Iniciar levotiroxina para suprimir la TSH"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La elevación de hormonas tiroideas con TSH no suprimida requiere excluir interferencias del ensayo, alteraciones de proteínas transportadoras y otros problemas analíticos antes de realizar estudios etiológicos. La historia familiar puede sugerir resistencia a hormona tiroidea, mientras que un adenoma secretor de TSH es otra posibilidad, pero una lesión hipofisaria pequeña puede ser incidental. La integración puede requerir mediciones en plataformas alternativas, evaluación especializada y estudios genéticos o dinámicos seleccionados. No se debe iniciar tratamiento definitivo basándose solo en la resonancia.`,
+  perlaENARM: "T4/T3 elevadas con TSH no suprimida: primero confirma que los resultados sean reales; después diferencia resistencia hormonal de secreción inapropiada de TSH.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre pruebas de función tiroidea discordantes y adenomas hipofisarios.",
+    internacional: "European Thyroid Association guidelines on genetic disorders and central causes of thyroid hormone resistance."
+  },
+  bibliografia: "European Thyroid Association. Guidelines on the diagnosis and management of genetic disorders of thyroid hormone transport, metabolism and action; literatura especializada sobre resistencia a hormona tiroidea y TSHomas."
+},
+
+{
+  id: "ENDO-221",
+  especialidad: "Endocrinología",
+  tema: "Suprarrenales",
+  subtema: "Hiperaldosteronismo primario y lateralización",
+  dificultad: "Muy alta",
+  caso: `Hombre de 42 años con hipertensión resistente e hipopotasemia presenta aldosterona de 26 ng/dL y renina suprimida. Tras corregir el potasio y completar la evaluación bioquímica, se confirma hiperaldosteronismo primario. La tomografía muestra un nódulo suprarrenal izquierdo de 1.8 cm y una glándula derecha sin lesiones. El paciente desea una opción potencialmente curativa.`,
+  pregunta: "¿Qué estudio permite establecer con mayor fiabilidad si la secreción de aldosterona es unilateral antes de plantear adrenalectomía?",
+  opciones: [
+    "Repetir la tomografía con contraste y asumir que el nódulo visible es funcional",
+    "Realizar muestreo venoso suprarrenal para comparar la secreción lateralizada, salvo excepciones clínicas bien definidas",
+    "Solicitar únicamente metanefrinas plasmáticas",
+    "Realizar biopsia percutánea del nódulo suprarrenal",
+    "Utilizar la concentración periférica de aldosterona como indicador directo de lateralización"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La tomografía identifica anatomía, pero no demuestra qué glándula secreta aldosterona. Los nódulos no funcionantes son frecuentes y pueden coexistir con enfermedad bilateral. El muestreo venoso suprarrenal permite determinar lateralización y orientar la elección entre adrenalectomía unilateral y tratamiento médico con antagonistas del receptor mineralocorticoide. Puede omitirse en pacientes muy seleccionados, habitualmente jóvenes con fenotipo bioquímico marcado y adenoma unilateral compatible, según los criterios de la guía aplicable y la experiencia del centro.`,
+  perlaENARM: "En hiperaldosteronismo primario, una lesión visible en tomografía no equivale a lateralización funcional.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hiperaldosteronismo primario y evaluación preoperatoria suprarrenal.",
+    internacional: "Endocrine Society. Clinical Practice Guideline on Primary Aldosteronism, actualización vigente."
+  },
+  bibliografia: "Funder JW et al. The Management of Primary Aldosteronism: Case Detection, Diagnosis, and Treatment. J Clin Endocrinol Metab. 2016."
+},
+{
+  id: "ENDO-222",
+  especialidad: "Endocrinología",
+  tema: "Suprarrenales",
+  subtema: "Insuficiencia suprarrenal secundaria y retirada de glucocorticoides",
+  dificultad: "Muy alta",
+  caso: `Mujer de 56 años recibió prednisona a dosis de 20–40 mg/día durante ocho meses por una enfermedad autoinmune. Tras una reducción rápida presenta astenia intensa, náuseas, hipotensión ortostática y sodio de 129 mmol/L. El potasio es de 4.2 mmol/L y la ACTH está baja.`,
+  pregunta: "¿Qué alteración explica mejor la ausencia de hiperpotasemia pese a la sospecha de insuficiencia suprarrenal?",
+  opciones: [
+    "La insuficiencia secundaria por supresión del eje hipotálamo-hipófisis-suprarrenal suele conservar relativamente la secreción de aldosterona",
+    "La hiperpotasemia solo aparece en la insuficiencia suprarrenal autoinmune con hiperpigmentación",
+    "La ACTH baja estimula directamente la secreción de aldosterona",
+    "La prednisona produce siempre hiperaldosteronismo primario",
+    "El potasio normal descarta cualquier forma de insuficiencia suprarrenal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La exposición prolongada a glucocorticoides puede suprimir CRH y ACTH, causando insuficiencia suprarrenal secundaria o terciaria al reducir la capacidad de respuesta del eje. La secreción de aldosterona depende principalmente del sistema renina-angiotensina y del potasio, por lo que suele preservarse; por ello, la hiperpotasemia es menos característica que en la insuficiencia primaria. La evaluación y el tratamiento dependen de la estabilidad clínica y del contexto de retirada. Si existe sospecha de crisis suprarrenal, se administran glucocorticoides y líquidos sin retrasarlos por pruebas confirmatorias.`,
+  perlaENARM: "Insuficiencia suprarrenal secundaria: el déficit de aldosterona suele ser menor que en la forma primaria; un potasio normal no la excluye.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre insuficiencia suprarrenal y retirada de glucocorticoides.",
+    internacional: "Endocrine Society; guía conjunta vigente sobre retirada de glucocorticoides y recuperación del eje HHS."
+  },
+  bibliografia: "Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency. J Clin Endocrinol Metab. 2016."
+},
+{
+  id: "ENDO-223",
+  especialidad: "Endocrinología",
+  tema: "Hipófisis e hipotálamo",
+  subtema: "Síndrome de secreción inadecuada de ADH frente a insuficiencia suprarrenal",
+  dificultad: "Muy alta",
+  caso: `Hombre de 68 años hospitalizado por neumonía presenta sodio de 119 mmol/L, osmolaridad plasmática de 255 mOsm/kg, osmolaridad urinaria de 540 mOsm/kg y sodio urinario de 64 mmol/L. Parece euvolémico. TSH y T4 libre son normales. Recibió glucocorticoides sistémicos durante varios meses hasta suspenderlos una semana antes del ingreso.`,
+  pregunta: "¿Qué condición debe excluirse antes de atribuir definitivamente la hiponatremia al SIADH?",
+  opciones: [
+    "Insuficiencia suprarrenal, que puede producir un patrón bioquímico indistinguible del SIADH",
+    "Hipertiroidismo manifiesto, aunque la TSH y T4 libre sean normales",
+    "Hiperaldosteronismo primario como causa habitual de hiponatremia euvolémica",
+    "Hipercalcemia, que constituye el criterio obligatorio de SIADH",
+    "Diabetes mellitus tipo 2, independientemente de la glucemia"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La hiponatremia hipotónica con orina concentrada y sodio urinario elevado puede aparecer en SIADH, pero la insuficiencia suprarrenal también aumenta la liberación no osmótica de vasopresina y puede imitarlo. La retirada reciente de glucocorticoides aumenta la sospecha de supresión del eje HHS. Debe evaluarse el cortisol y la función suprarrenal según la urgencia; si existe inestabilidad compatible con crisis, se trata inmediatamente. No debe diagnosticarse SIADH sin excluir insuficiencia suprarrenal y otras causas relevantes.`,
+  perlaENARM: "Antes de diagnosticar SIADH, excluye insuficiencia suprarrenal; puede producir hiponatremia euvolémica con orina concentrada.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hiponatremia e insuficiencia suprarrenal.",
+    internacional: "European Clinical Practice Guideline on Diagnosis and Treatment of Hyponatraemia."
+  },
+  bibliografia: "Spasovski G et al. Clinical Practice Guideline on Diagnosis and Treatment of Hyponatraemia. Eur J Endocrinol. 2014."
+},
+{
+  id: "ENDO-224",
+  especialidad: "Endocrinología",
+  tema: "Tiroides",
+  subtema: "Hipertiroidismo subclínico y riesgo cardiovascular",
+  dificultad: "Muy alta",
+  caso: `Mujer de 72 años con fibrilación auricular paroxística y osteoporosis presenta TSH de 0.03 mUI/L en dos determinaciones separadas por tres meses. T4 libre y T3 están dentro del intervalo de referencia. No recibe hormona tiroidea y no hay datos de enfermedad aguda reciente.`,
+  pregunta: "¿Qué interpretación clínica tiene mayor relevancia para decidir el manejo?",
+  opciones: [
+    "La función tiroidea es normal porque T4 libre y T3 no están elevadas",
+    "Existe hipertiroidismo subclínico persistente grado 2, y la edad, fibrilación auricular y osteoporosis favorecen considerar tratamiento etiológico",
+    "El diagnóstico de tormenta tiroidea está confirmado por la TSH suprimida",
+    "La TSH baja demuestra necesariamente un adenoma hipofisario secretor de TSH",
+    "No existe asociación entre TSH persistentemente suprimida, fibrilación auricular y pérdida ósea"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El hipertiroidismo subclínico se define por TSH baja con hormonas tiroideas circulantes normales, tras excluir causas transitorias y medicamentos. Una TSH persistentemente inferior a 0.1 mUI/L corresponde a grado 2. En personas mayores de 65 años y en pacientes con cardiopatía, fibrilación auricular u osteoporosis, las guías favorecen considerar tratamiento según la causa y el contexto clínico. El tratamiento debe dirigirse a Graves, autonomía nodular u otra etiología identificada.`,
+  perlaENARM: "TSH persistentemente <0.1 mUI/L en adulto mayor con fibrilación auricular u osteoporosis tiene relevancia terapéutica aun con T4 y T3 normales.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hipertiroidismo subclínico.",
+    internacional: "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism."
+  },
+  bibliografia: "Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016."
+},
+{
+  id: "ENDO-225",
+  especialidad: "Endocrinología",
+  tema: "Tiroides",
+  subtema: "Nódulo tiroideo, citología indeterminada y pruebas moleculares",
+  dificultad: "Muy alta",
+  caso: `Mujer de 44 años con nódulo tiroideo de 2.2 cm presenta citología Bethesda III en dos aspiraciones. La ecografía muestra patrón de sospecha intermedia, sin adenopatías sospechosas ni extensión extratiroidea. La función tiroidea es normal y no hay antecedentes de radiación cervical.`,
+  pregunta: "¿Qué estrategia puede ayudar a refinar el riesgo de malignidad y evitar cirugía diagnóstica innecesaria en una paciente seleccionada?",
+  opciones: [
+    "Repetir TSH cada semana hasta que el nódulo desaparezca",
+    "Integrar revisión citológica, patrón ecográfico, preferencias y, si está disponible y validada, una prueba molecular para decidir vigilancia o cirugía diagnóstica",
+    "Indicar tiroidectomía total obligatoria por cualquier resultado Bethesda III",
+    "Realizar tratamiento con yodo radiactivo sin diagnóstico etiológico",
+    "Considerar benigno el nódulo porque la TSH es normal"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Bethesda III corresponde a atipia de significado indeterminado y requiere integrar riesgo ecográfico, repetición de citología, contexto clínico y preferencias. En pacientes seleccionados, pruebas moleculares validadas pueden ayudar a estratificar riesgo y orientar vigilancia, lobectomía diagnóstica u otra conducta. Ninguna prueba molecular sustituye por completo la valoración clínica y la interpretación de la citología; la disponibilidad y el rendimiento dependen de la prueba utilizada y de la prevalencia local de malignidad.`,
+  perlaENARM: "Bethesda III no implica tiroidectomía total automática; la decisión depende del riesgo integrado y de las opciones diagnósticas disponibles.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para diagnóstico y tratamiento de nódulo tiroideo.",
+    internacional: "American Thyroid Association guidelines for thyroid nodules and differentiated thyroid cancer."
+  },
+  bibliografia: "Haugen BR et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016."
+},
+{
+  id: "ENDO-226",
+  especialidad: "Endocrinología",
+  tema: "Tiroides",
+  subtema: "Amiodarona y tirotoxicosis",
+  dificultad: "Muy alta",
+  caso: `Hombre de 70 años con cardiopatía y arritmia ventricular recibe amiodarona desde hace dos años. Presenta pérdida ponderal y deterioro de la función ventricular. TSH está suprimida y T4 libre elevada. La captación tiroidea es baja y el Doppler muestra aumento de vascularidad en una glándula con bocio multinodular previo.`,
+  pregunta: "¿Qué dato es más útil para distinguir una forma predominantemente destructiva de otra por síntesis hormonal aumentada inducida por amiodarona?",
+  opciones: [
+    "La concentración de TSH aislada",
+    "La vascularidad Doppler y la evidencia de enfermedad tiroidea previa, integradas con el resto de los hallazgos",
+    "El nivel de potasio sérico",
+    "El tamaño de la hipófisis en resonancia",
+    "La presencia de hipocalcemia"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La tirotoxicosis inducida por amiodarona incluye un mecanismo predominantemente destructivo (tipo 2) y otro por síntesis hormonal aumentada en una glándula predispuesta (tipo 1), además de formas mixtas. El Doppler puede ayudar: la vascularidad aumentada y el bocio nodular favorecen tipo 1, mientras que la ausencia de hipervascularidad apoya tipo 2. La captación puede estar baja en ambas por la elevada carga de yodo y no discrimina por sí sola. El tratamiento depende del mecanismo y de la gravedad cardiovascular.`,
+  perlaENARM: "Con amiodarona, una captación baja no diferencia por sí sola los mecanismos; integra Doppler, anatomía y contexto clínico.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre tirotoxicosis inducida por amiodarona.",
+    internacional: "European Thyroid Association Guidelines for Amiodarone-Associated Thyroid Dysfunction."
+  },
+  bibliografia: "Bartalena L et al. 2018 European Thyroid Association Guidelines for the Management of Amiodarone-Associated Thyroid Dysfunction. Eur Thyroid J. 2018."
+},
+{
+  id: "ENDO-227",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Diabetes autoinmune del adulto y fenotipo de diabetes tipo 2",
+  dificultad: "Muy alta",
+  caso: `Hombre de 39 años con IMC de 31 kg/m² presenta hiperglucemia de reciente diagnóstico. Inicialmente responde a metformina, pero a los 14 meses desarrolla pérdida ponderal, cetosis y deterioro rápido del control glucémico. El péptido C está bajo durante hiperglucemia y los anticuerpos anti-GAD son positivos.`,
+  pregunta: "¿Qué interpretación etiológica modifica de manera más importante la estrategia terapéutica?",
+  opciones: [
+    "Diabetes tipo 2 clásica confirmada por el IMC elevado",
+    "Diabetes autoinmune del adulto, con progresión de insuficiencia beta y probable necesidad de insulinoterapia",
+    "Diabetes monogénica confirmada por obesidad",
+    "Hiperglucemia por estrés sin enfermedad crónica",
+    "Resistencia a la insulina aislada con reserva beta conservada"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La diabetes autoinmune de evolución lenta en adultos puede presentarse inicialmente con sobrepeso y parecer diabetes tipo 2. La positividad de anti-GAD, el péptido C bajo y la progresión a cetosis sugieren pérdida autoinmune de la función beta. La insulinoterapia debe iniciarse según el estado metabólico y no retrasarse por el fenotipo corporal. El término LADA se utiliza habitualmente para describir esta presentación autoinmune adulta sin requerimiento inicial inmediato de insulina.`,
+  perlaENARM: "Obesidad no excluye diabetes autoinmune; anti-GAD positivo y péptido C bajo obligan a reconsiderar la clasificación.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre clasificación y tratamiento de diabetes en adultos.",
+    internacional: "ADA Standards of Care in Diabetes; consensus statements on adult autoimmune diabetes."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes, edición vigente; Buzzetti R et al. Management of Latent Autoimmune Diabetes in Adults: An International Expert Panel Consensus Statement. Diabetes. 2020."
+},
+{
+  id: "ENDO-228",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Diabetes monogénica y selección de tratamiento",
+  dificultad: "Muy alta",
+  caso: `Mujer de 24 años diagnosticada con diabetes a los 17 años presenta hiperglucemia leve y estable, sin obesidad ni signos de resistencia a la insulina. Varios familiares de tres generaciones tienen diabetes de inicio joven. Los anticuerpos de islotes son negativos y el péptido C persiste detectable ocho años después del diagnóstico.`,
+  pregunta: "¿Qué hallazgo conjunto justifica estudiar diabetes monogénica antes de intensificar un esquema convencional para diabetes tipo 2?",
+  opciones: [
+    "Inicio joven, patrón familiar autosómico dominante, ausencia de autoinmunidad y conservación de secreción endógena de insulina",
+    "Obesidad grave con acantosis nigricans y anticuerpos positivos",
+    "Pérdida completa de péptido C a los pocos meses del diagnóstico",
+    "Cetosis recurrente con anticuerpos anti-GAD intensamente positivos",
+    "Diabetes gestacional aislada en una familiar de segundo grado"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La diabetes monogénica debe considerarse ante inicio joven, patrón familiar compatible, ausencia de autoanticuerpos y secreción endógena de insulina conservada. La confirmación genética permite clasificar el subtipo y modificar el tratamiento. Algunas variantes de HNF1A o HNF4A responden a sulfonilureas, mientras que otras formas, como GCK-MODY, suelen producir hiperglucemia leve estable que generalmente no requiere tratamiento fuera de circunstancias específicas. La elección depende del gen y del fenotipo confirmado.`,
+  perlaENARM: "Diabetes de inicio joven en varias generaciones, anticuerpos negativos y péptido C conservado: considera MODY y confirma genéticamente.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre diabetes monogénica y criterios de referencia genética.",
+    internacional: "ADA Standards of Care in Diabetes; guías internacionales de diabetes monogénica."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes, edición vigente; Naylor R et al. Genetic Testing for Monogenic Diabetes."
+},
+{
+  id: "ENDO-229",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Hemoglobina glucosilada discordante con glucemia",
+  dificultad: "Muy alta",
+  caso: `Hombre de 55 años presenta HbA1c de 8.1%, pero las mediciones capilares y el monitoreo continuo de glucosa durante cuatro semanas muestran un promedio cercano a 130 mg/dL, sin hiperglucemia posprandial marcada. Tiene anemia microcítica, ferritina de 7 ng/mL y función renal conservada.`,
+  pregunta: "¿Qué explicación debe investigarse antes de intensificar el tratamiento basándose únicamente en la HbA1c?",
+  opciones: [
+    "Deficiencia de hierro, que puede elevar artificialmente la HbA1c en algunos contextos",
+    "Diabetes insípida central",
+    "Insuficiencia suprarrenal primaria confirmada por la HbA1c",
+    "Que el monitoreo continuo de glucosa sea siempre inválido en pacientes con anemia",
+    "Que la HbA1c mida exclusivamente la glucosa de las últimas 24 horas"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La discordancia importante entre HbA1c y glucosa medida requiere investigar interferencias analíticas y condiciones que alteran la vida media eritrocitaria. La deficiencia de hierro puede aumentar la HbA1c de manera independiente de la glucemia en algunos pacientes. Deben evaluarse calidad y representatividad del monitoreo, posibles hemoglobinopatías, transfusiones y otros factores. La decisión terapéutica no debe basarse de forma automática en una HbA1c potencialmente engañosa.`,
+  perlaENARM: "Si HbA1c y glucosa medida no concuerdan, busca alteraciones hematológicas o interferencias antes de intensificar fármacos.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre diagnóstico y monitorización de diabetes.",
+    internacional: "ADA Standards of Care in Diabetes: Glycemic Goals and Hypoglycemia."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes, edición vigente."
+},
+{
+  id: "ENDO-230",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Albuminuria y riesgo renal",
+  dificultad: "Muy alta",
+  caso: `Mujer de 61 años con diabetes tipo 2 presenta cociente albúmina/creatinina urinario de 96 mg/g en una muestra obtenida durante infección urinaria sintomática. El filtrado glomerular estimado es de 82 mL/min/1.73 m². No tiene resultados previos de albuminuria.`,
+  pregunta: "¿Qué requisito es necesario para clasificar de forma confiable una albuminuria persistente relacionada con enfermedad renal diabética?",
+  opciones: [
+    "Aceptar una sola muestra obtenida durante infección como evidencia definitiva",
+    "Confirmar persistencia mediante mediciones repetidas en muestras apropiadas y excluir causas transitorias de albuminuria",
+    "Diagnosticar enfermedad renal avanzada por un filtrado mayor de 60",
+    "Realizar biopsia renal obligatoria ante cualquier cociente mayor de 30 mg/g",
+    "Descartar albuminuria porque la creatinina sérica no está elevada"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La infección urinaria, fiebre, ejercicio intenso, hiperglucemia marcada, hipertensión no controlada y otras condiciones pueden producir elevación transitoria de albuminuria. Para establecer persistencia se requieren mediciones repetidas, habitualmente dos de tres muestras anormales en un periodo de 3–6 meses, según el contexto y la guía utilizada. La clasificación renal integra albuminuria y filtrado glomerular, además de excluir causas alternativas cuando existan datos atípicos.`,
+  perlaENARM: "No clasifiques albuminuria crónica con una sola muestra obtenida durante infección o enfermedad aguda.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre enfermedad renal diabética.",
+    internacional: "KDIGO Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease; ADA Standards of Care."
+  },
+  bibliografia: "KDIGO. Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease, edición vigente; American Diabetes Association. Standards of Care in Diabetes."
+},
+{
+  id: "ENDO-231",
+  especialidad: "Endocrinología",
+  tema: "Calcio y metabolismo óseo",
+  subtema: "Hipercalcemia hipocalciúrica familiar",
+  dificultad: "Muy alta",
+  caso: `Mujer de 34 años presenta calcio sérico persistentemente entre 10.8 y 11.1 mg/dL desde la adolescencia. PTH dentro del intervalo normal, función renal conservada y cociente de depuración calcio/creatinina urinaria de 0.006. Su madre tiene hipercalcemia similar. No presenta nefrolitiasis ni osteoporosis.`,
+  pregunta: "¿Qué diagnóstico debe considerarse prioritariamente antes de indicar paratiroidectomía?",
+  opciones: [
+    "Hipercalcemia hipocalciúrica familiar, que suele tener baja excreción urinaria de calcio y puede evitar una cirugía innecesaria",
+    "Carcinoma paratiroideo, confirmado por cualquier calcio superior a 11 mg/dL",
+    "Hipoparatiroidismo autoinmune",
+    "Hiperparatiroidismo secundario a insuficiencia renal terminal",
+    "Osteomalacia por deficiencia grave de vitamina D"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La hipercalcemia hipocalciúrica familiar suele manifestarse desde edades tempranas, con familiares afectados, hipercalcemia leve y excreción urinaria de calcio relativamente baja. El cociente de depuración calcio/creatinina inferior a 0.01 favorece esta posibilidad, pero existe solapamiento con hiperparatiroidismo primario y el resultado puede alterarse por deficiencia de vitamina D, enfermedad renal y medicamentos. Deben integrarse historia familiar, bioquímica y, cuando proceda, estudio genético antes de decidir cirugía.`,
+  perlaENARM: "Hipercalcemia leve familiar con hipocalciuria: considera FHH antes de paratiroidectomía.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre diagnóstico diferencial de hipercalcemia.",
+    internacional: "Fifth International Workshop on Primary Hyperparathyroidism."
+  },
+  bibliografia: "Bilezikian JP et al. Evaluation and Management of Primary Hyperparathyroidism. J Bone Miner Res. 2022."
+},
+{
+  id: "ENDO-232",
+  especialidad: "Endocrinología",
+  tema: "Metabolismo óseo",
+  subtema: "Osteoporosis y fractura vertebral durante tratamiento",
+  dificultad: "Muy alta",
+  caso: `Mujer de 73 años con osteoporosis de alto riesgo ha recibido denosumab cada seis meses durante cuatro años. Por un cambio de aseguradora, la siguiente dosis se ha retrasado y han transcurrido diez meses desde la última administración. Presenta dolor dorsal agudo tras levantar una bolsa ligera; la imagen confirma fractura vertebral por compresión.`,
+  pregunta: "¿Qué fenómeno farmacológico debe reconocerse y qué principio debe guiar el plan posterior?",
+  opciones: [
+    "Rebote del recambio óseo tras retraso o suspensión de denosumab; requiere estrategia antiresortiva secuencial individualizada",
+    "Osteomalacia confirmada por cualquier fractura vertebral durante denosumab",
+    "Denosumab produce protección residual indefinida tras suspenderlo",
+    "La fractura demuestra que el diagnóstico original de osteoporosis era incorrecto",
+    "Debe suspenderse permanentemente todo tratamiento antirresortivo"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Tras retraso importante o suspensión de denosumab puede producirse un aumento rápido del recambio óseo y un riesgo de fracturas vertebrales múltiples, especialmente en pacientes con fracturas previas. No se recomienda suspenderlo sin un plan de transición. La estrategia secuencial suele incluir un bisfosfonato en el momento apropiado, individualizado según duración de denosumab, riesgo de fractura, función renal y respuesta. La fractura aguda requiere además manejo clínico y evaluación del estado óseo.`,
+  perlaENARM: "Denosumab no debe retrasarse ni suspenderse sin un plan de transición por riesgo de rebote y fracturas vertebrales.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre osteoporosis y la ficha técnica de denosumab.",
+    internacional: "Endocrine Society guideline on pharmacological management of osteoporosis in postmenopausal women."
+  },
+  bibliografia: "Cummings SR et al. Vertebral Fractures After Discontinuation of Denosumab. J Bone Miner Res. 2018."
+},
+{
+  id: "ENDO-233",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Tratamiento incretínico y riesgo de aspiración perioperatoria",
+  dificultad: "Muy alta",
+  caso: `Mujer de 50 años con obesidad recibe un agonista GLP-1 semanal y tiene programada una cirugía electiva bajo anestesia general. Se encuentra en fase de escalada de dosis y presenta náuseas y plenitud posprandial. El equipo quirúrgico pregunta por el riesgo de contenido gástrico residual.`,
+  pregunta: "¿Qué enfoque perioperatorio refleja mejor la evidencia y las recomendaciones contemporáneas?",
+  opciones: [
+    "Continuar siempre sin evaluación porque los agonistas GLP-1 no modifican el vaciamiento gástrico",
+    "Evaluar individualmente el riesgo, considerando escalada de dosis y síntomas gastrointestinales, y coordinar medidas anestésicas y farmacológicas según la guía local",
+    "Suspender permanentemente el fármaco en todos los pacientes que recibirán anestesia",
+    "Administrar dosis adicional del agonista para evitar hiperglucemia perioperatoria",
+    "Sustituir la evaluación anestésica por una medición de TSH"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los agonistas GLP-1 pueden retrasar el vaciamiento gástrico y se han asociado con contenido gástrico residual en algunos pacientes. El riesgo puede ser mayor durante la escalada de dosis y ante náuseas, vómitos o plenitud importante. Las recomendaciones perioperatorias han evolucionado y difieren entre documentos; no es apropiado aplicar una suspensión universal sin considerar el riesgo individual, la urgencia de la intervención y las estrategias de mitigación, como ajustes dietéticos o evaluación anestésica específica.`,
+  perlaENARM: "En perioperatorio, la fase de escalada y los síntomas gastrointestinales importan; no existe una regla universal que sustituya la valoración individual.",
+  gpc: {
+    mexico: "Consultar el protocolo perioperatorio institucional y la ficha técnica del agonista GLP-1 utilizado.",
+    internacional: "Guías multisocietarias contemporáneas para manejo perioperatorio de agonistas GLP-1."
+  },
+  bibliografia: "American Society of Anesthesiologists y sociedades gastroenterológicas y endocrinológicas. Guidance on the Perioperative Use of GLP-1 Receptor Agonists, actualización vigente."
+},
+{
+  id: "ENDO-234",
+  especialidad: "Endocrinología",
+  tema: "Hipófisis e hipotálamo",
+  subtema: "SIADH y corrección de hiponatremia",
+  dificultad: "Muy alta",
+  caso: `Hombre de 64 años con cáncer pulmonar presenta sodio de 108 mmol/L, confusión y convulsiones. La osmolaridad plasmática es baja y la orina está concentrada. Tras administrar solución salina hipertónica, el sodio aumenta 9 mmol/L en seis horas y comienza una diuresis acuosa intensa.`,
+  pregunta: "¿Qué complicación amenaza al paciente y qué estrategia puede utilizarse para evitar una corrección excesiva adicional?",
+  opciones: [
+    "Desmielinización osmótica por sobrecorrección; considerar detener la corrección y utilizar desmopresina y agua libre bajo supervisión especializada",
+    "Edema cerebral por reducción excesivamente lenta del sodio; continuar la infusión hipertónica sin modificarla",
+    "Hipercalcemia aguda por SIADH; administrar calcitonina",
+    "Crisis tiroidea por solución hipertónica",
+    "Insuficiencia renal obstructiva confirmada por la diuresis acuosa"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La hiponatremia profunda con síntomas neurológicos requiere tratamiento urgente con solución salina hipertónica en bolos o protocolo equivalente. Sin embargo, una elevación de 9 mmol/L en seis horas, especialmente seguida de diuresis acuosa, puede conducir a sobrecorrección y aumentar el riesgo de desmielinización osmótica. Se deben detener las intervenciones que elevan el sodio y considerar desmopresina y reposición de agua libre, habitualmente dextrosa al 5%, con monitorización estrecha. Los límites de corrección dependen del riesgo de desmielinización y del protocolo aplicado.`,
+  perlaENARM: "En hiponatremia grave, vigila el ritmo de corrección; una diuresis acuosa repentina puede elevar el sodio rápidamente.",
+  gpc: {
+    mexico: "Consultar el protocolo mexicano vigente de urgencias para hiponatremia grave.",
+    internacional: "European Clinical Practice Guideline on Diagnosis and Treatment of Hyponatraemia."
+  },
+  bibliografia: "Spasovski G et al. Clinical Practice Guideline on Diagnosis and Treatment of Hyponatraemia. Eur J Endocrinol. 2014."
+},
+{
+  id: "ENDO-235",
+  especialidad: "Endocrinología",
+  tema: "Hipófisis e hipotálamo",
+  subtema: "Prolactinoma y embarazo",
+  dificultad: "Muy alta",
+  caso: `Mujer de 30 años con macroprolactinoma de 14 mm, prolactina inicial de 280 ng/mL y respuesta a cabergolina queda embarazada. La lesión se encuentra a 2 mm del quiasma óptico. Durante el embarazo desarrolla cefalea persistente y refiere disminución de la visión periférica.`,
+  pregunta: "¿Qué cambio en la evaluación y manejo se justifica por la aparición de estos síntomas?",
+  opciones: [
+    "Medir prolactina cada semana y usar su incremento como prueba principal de crecimiento tumoral",
+    "Evaluar urgentemente posible crecimiento tumoral con exploración visual y resonancia sin gadolinio cuando esté indicada, coordinando tratamiento especializado",
+    "Suspender toda evaluación porque los prolactinomas nunca crecen durante el embarazo",
+    "Administrar yodo radiactivo para reducir el tamaño tumoral",
+    "Realizar cirugía tiroidea por la cefalea"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Durante el embarazo, la prolactina aumenta fisiológicamente y no sirve de forma fiable para monitorizar el crecimiento del prolactinoma. Cefalea persistente o alteraciones visuales en una paciente con macroadenoma cercano al quiasma requieren evaluación urgente, exploración campimétrica y resonancia sin gadolinio si está indicada. La conducta puede incluir reiniciar un agonista dopaminérgico o valorar cirugía en situaciones seleccionadas, según el compromiso visual y la respuesta previa. La decisión debe coordinarse con endocrinología, obstetricia y neurocirugía.`,
+  perlaENARM: "En embarazo con macroprolactinoma, los síntomas visuales importan más que la prolactina sérica aislada.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hiperprolactinemia y manejo de adenomas hipofisarios en embarazo.",
+    internacional: "Pituitary Society consensus statements on prolactinoma management."
+  },
+  bibliografia: "Melmed S et al. Diagnosis and Treatment of Hyperprolactinemia: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2011."
+},
+{
+  id: "ENDO-236",
+  especialidad: "Endocrinología",
+  tema: "Suprarrenales",
+  subtema: "Feocromocitoma hereditario y estudio genético",
+  dificultad: "Muy alta",
+  caso: `Hombre de 27 años presenta feocromocitoma confirmado bioquímicamente y tumor suprarrenal unilateral. No tiene antecedentes familiares conocidos. La evaluación por imagen no muestra metástasis y el paciente pregunta si es necesario estudiar predisposición genética.`,
+  pregunta: "¿Qué principio contemporáneo debe guiar el asesoramiento etiológico?",
+  opciones: [
+    "El estudio genético solo está indicado si existen tres familiares afectados",
+    "Debe ofrecerse asesoramiento y considerar pruebas genéticas germinales, dado que una proporción relevante de feocromocitomas y paragangliomas se asocia con variantes hereditarias",
+    "Un tumor unilateral excluye una causa hereditaria",
+    "La ausencia de metástasis descarta síndromes hereditarios",
+    "La edad menor de 30 años elimina la necesidad de seguimiento"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Una proporción clínicamente relevante de feocromocitomas y paragangliomas se asocia con variantes germinales en genes de susceptibilidad. La edad joven aumenta la importancia del asesoramiento y la evaluación genética, incluso sin antecedentes familiares evidentes. El resultado puede modificar el seguimiento del paciente, el estudio de otros tumores y el asesoramiento de familiares. La selección del panel debe realizarse con orientación especializada.`,
+  perlaENARM: "Feocromocitoma en paciente joven: considera predisposición germinal aun sin historia familiar positiva.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre feocromocitoma y los criterios locales de referencia a genética clínica.",
+    internacional: "Endocrine Society Clinical Practice Guideline on Pheochromocytoma and Paraganglioma."
+  },
+  bibliografia: "Lenders JWM et al. Pheochromocytoma and Paraganglioma: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2014."
+},
+{
+  id: "ENDO-237",
+  especialidad: "Endocrinología",
+  tema: "Tiroides",
+  subtema: "Cáncer diferenciado y supresión de TSH",
+  dificultad: "Muy alta",
+  caso: `Mujer de 61 años tratada hace seis años con tiroidectomía total y yodo radiactivo por carcinoma papilar tiroideo de bajo riesgo. Actualmente tiene tiroglobulina indetectable, anticuerpos antitiroglobulina negativos y ecografía cervical sin enfermedad estructural. Recibe levotiroxina con TSH de 0.02 mUI/L y presenta fibrilación auricular paroxística.`,
+  pregunta: "¿Qué principio debe orientar la revisión de su objetivo de TSH?",
+  opciones: [
+    "Mantener siempre TSH indetectable en todos los pacientes con cáncer diferenciado",
+    "Individualizar el grado de supresión según respuesta oncológica y riesgo de recurrencia, considerando los riesgos cardiovasculares del exceso de hormona tiroidea",
+    "Suspender definitivamente levotiroxina porque la tiroglobulina es indetectable",
+    "Elevar la TSH por encima de 20 mUI/L para prevenir recurrencia",
+    "Utilizar calcitonina como principal marcador de seguimiento del carcinoma papilar"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La supresión de TSH se individualiza según riesgo inicial, respuesta al tratamiento y presencia de enfermedad persistente. En pacientes de bajo riesgo con respuesta excelente y sin evidencia bioquímica o estructural de enfermedad, puede relajarse la supresión para evitar efectos adversos, especialmente fibrilación auricular y pérdida ósea. La tiroglobulina y la ecografía se interpretan en conjunto con los anticuerpos antitiroglobulina y el contexto del paciente.`,
+  perlaENARM: "La supresión de TSH en cáncer diferenciado no es uniforme: la respuesta oncológica y el riesgo de daño cardiovascular u óseo determinan la meta.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre seguimiento del cáncer diferenciado de tiroides.",
+    internacional: "American Thyroid Association guidelines for differentiated thyroid cancer, actualización vigente."
+  },
+  bibliografia: "Haugen BR et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016."
+},
+{
+  id: "ENDO-238",
+  especialidad: "Endocrinología",
+  tema: "Obesidad y metabolismo",
+  subtema: "Hipoglucemia posbariátrica",
+  dificultad: "Muy alta",
+  caso: `Mujer de 43 años sometida a bypass gástrico hace tres años presenta episodios de sudoración, temblor y confusión entre una y tres horas después de comidas ricas en carbohidratos. Durante un episodio, la glucosa venosa es de 42 mg/dL y los síntomas desaparecen tras administrar glucosa. No presenta episodios nocturnos ni en ayuno prolongado.`,
+  pregunta: "¿Qué diagnóstico es más probable y qué dato clínico ayuda a diferenciarlo de un insulinoma?",
+  opciones: [
+    "Hipoglucemia posbariátrica, por su relación posprandial y ausencia de episodios típicos de ayuno",
+    "Insulinoma confirmado por cualquier episodio de hipoglucemia",
+    "Insuficiencia suprarrenal primaria confirmada por la relación con alimentos",
+    "Hipoglucemia ficticia porque ocurre después de una comida",
+    "Diabetes insípida por pérdida de glucosa urinaria"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La hipoglucemia posbariátrica suele aparecer uno a tres años después de cirugía, típicamente una a tres horas tras comidas, por respuestas incretínicas e insulinémicas exageradas. La documentación de la tríada de Whipple apoya hipoglucemia verdadera. Los episodios en ayuno, nocturnos o no relacionados con comidas obligan a ampliar el diagnóstico diferencial, incluido insulinoma. El tratamiento inicial suele incluir modificaciones dietéticas estructuradas; la acarbosa puede considerarse en casos persistentes bajo supervisión especializada.`,
+  perlaENARM: "Hipoglucemia tardía posprandial tras bypass sugiere hipoglucemia posbariátrica; episodios en ayuno obligan a buscar otras causas.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre complicaciones metabólicas posteriores a cirugía bariátrica.",
+    internacional: "Society for Endocrinology guidance on post-bariatric hypoglycaemia."
+  },
+  bibliografia: "Society for Endocrinology. Guidelines for the Diagnosis and Management of Post-Bariatric Hypoglycaemia, actualización vigente."
+},
+{
+  id: "ENDO-239",
+  especialidad: "Endocrinología",
+  tema: "Calcio y metabolismo óseo",
+  subtema: "Osteomalacia frente a osteoporosis",
+  dificultad: "Muy alta",
+  caso: `Hombre de 58 años con dolor óseo difuso, debilidad proximal y dificultad para subir escaleras presenta fosfatasa alcalina elevada, fósforo de 1.7 mg/dL, 25-hidroxivitamina D de 8 ng/mL, calcio de 8.4 mg/dL y PTH elevada. La densitometría muestra T-score de −2.7 en columna lumbar.`,
+  pregunta: "¿Qué interpretación evita el error de tratar exclusivamente la densitometría sin corregir el trastorno metabólico subyacente?",
+  opciones: [
+    "Osteoporosis primaria aislada, porque un T-score menor de −2.5 excluye osteomalacia",
+    "Osteomalacia por deficiencia grave de vitamina D con hiperparatiroidismo secundario, que requiere corregir el defecto mineral antes de plantear tratamiento antiresortivo aislado",
+    "Hiperparatiroidismo primario confirmado por la PTH elevada",
+    "Enfermedad ósea de Paget confirmada únicamente por la fosfatasa alcalina",
+    "Hipercalcemia maligna con osteólisis"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El dolor óseo, debilidad proximal, hipofosfatemia, vitamina D muy baja, fosfatasa alcalina elevada y PTH secundaria son compatibles con osteomalacia por deficiencia de vitamina D. La densitometría puede mostrar baja densidad mineral, pero no diferencia por sí sola osteoporosis de osteomalacia. Se debe corregir la deficiencia y evaluar su causa, calcio, fósforo y respuesta bioquímica. Iniciar un antiresortivo sin reconocer el defecto de mineralización puede ser inapropiado.`,
+  perlaENARM: "Una densitometría baja no distingue osteoporosis de osteomalacia; integra calcio, fósforo, fosfatasa alcalina, PTH y vitamina D.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre deficiencia de vitamina D y enfermedad metabólica ósea.",
+    internacional: "Endocrine Society; guías internacionales sobre osteomalacia y metabolismo mineral."
+  },
+  bibliografia: "Endotext. Disorders in the Action of Vitamin D; guías clínicas de metabolismo mineral y óseo."
+},
+{
+  id: "ENDO-240",
+  especialidad: "Endocrinología",
+  tema: "Endocrinología integrativa",
+  subtema: "Tumores neuroendocrinos y síndrome de hipercalcemia",
+  dificultad: "Muy alta",
+  caso: `Hombre de 59 años con pérdida ponderal y masa pulmonar presenta calcio de 13.4 mg/dL, PTH suprimida y PTHrP elevada. La 25-hidroxivitamina D es normal y no hay lesiones óseas líticas evidentes. Desarrolla poliuria, deshidratación y deterioro de la función renal.`,
+  pregunta: "¿Qué mecanismo explica mejor la hipercalcemia y cuál es el principio terapéutico inicial?",
+  opciones: [
+    "Secreción ectópica de PTH intacta, tratada exclusivamente con cinacalcet",
+    "Hipercalcemia humoral de malignidad mediada por PTHrP; iniciar hidratación isotónica según estado cardiaco y renal, y tratamiento antirresortivo apropiado",
+    "Hiperparatiroidismo primario con PTH suprimida",
+    "Intoxicación por vitamina D confirmada por PTHrP elevada",
+    "Hipocalcemia inducida por tumor con necesidad de calcio intravenoso"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La hipercalcemia con PTH suprimida y PTHrP elevada en un paciente con masa pulmonar es compatible con hipercalcemia humoral de malignidad. PTHrP activa vías similares a PTH en hueso y riñón, pero no suele elevar la síntesis renal de calcitriol como ocurre en algunos linfomas. El manejo inicial incluye hidratación isotónica individualizada y tratamiento antirresortivo, como bisfosfonato intravenoso o denosumab según gravedad, función renal, tratamientos previos y disponibilidad. La hipercalcemia grave requiere atención hospitalaria y tratamiento de la neoplasia subyacente.`,
+  perlaENARM: "Hipercalcemia + PTH suprimida + PTHrP elevada orienta a hipercalcemia humoral de malignidad, no a hiperparatiroidismo primario.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hipercalcemia de malignidad y el protocolo oncológico aplicable.",
+    internacional: "Endocrine Society Clinical Practice Guideline on Treatment of Hypercalcemia of Malignancy in Adults."
+  },
+  bibliografia: "Endocrine Society. Treatment of Hypercalcemia of Malignancy in Adults: Clinical Practice Guideline, 2022."
 }
 
 ];
