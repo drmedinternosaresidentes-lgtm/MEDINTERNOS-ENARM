@@ -9526,6 +9526,3609 @@ No debe diagnosticarse un trastorno metabólico mixto únicamente porque el bica
     internacional: "ATS 2020: diagnóstico y evaluación extrapulmonar; ERS 2021: tratamiento de la sarcoidosis."
   },
   bibliografia: "Crouser ED, et al. Am J Respir Crit Care Med. 2020;201:e26-e51. Baughman RP, et al. Eur Respir J. 2021;58:2004079."
+},
+
+{
+  id: "NEUMO-381",
+  especialidad: "Neumología",
+  tema: "Asma",
+  subtema: "Diagnóstico clínico y variabilidad del flujo espiratorio",
+  dificultad: "Baja",
+  caso: `Mujer de 24 años con episodios recurrentes de sibilancias, tos nocturna y disnea que empeoran al exponerse al polvo y durante el ejercicio. Entre episodios permanece asintomática. La espirometría muestra obstrucción y, después de administrar salbutamol, el FEV1 aumenta 15% y 300 mL respecto al basal.`,
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "EPOC",
+    "Asma con reversibilidad significativa de la obstrucción",
+    "Fibrosis pulmonar idiopática",
+    "Neumonía adquirida en la comunidad",
+    "Hipertensión pulmonar primaria"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los síntomas variables, los desencadenantes y la reversibilidad significativa del FEV1 apoyan el diagnóstico de asma. En adultos, un incremento del FEV1 de al menos 12% y 200 mL respecto al basal es un criterio clásico de respuesta broncodilatadora; deben considerarse los criterios técnicos y la guía utilizada.`,
+  perlaENARM: "Asma: síntomas respiratorios variables más evidencia objetiva de variabilidad del flujo espiratorio.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico y tratamiento del asma.",
+    internacional: "GINA. Global Strategy for Asthma Management and Prevention, 2025."
+  },
+  bibliografia: "Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2025."
+},
+{
+  id: "NEUMO-382",
+  especialidad: "Neumología",
+  tema: "Asma",
+  subtema: "Tratamiento controlador inicial",
+  dificultad: "Baja",
+  caso: `Mujer de 27 años con diagnóstico confirmado de asma. Presenta síntomas dos o tres veces por semana y despertares nocturnos ocasionales. Utiliza salbutamol como único tratamiento y ha acudido recientemente a urgencias por una exacerbación.`,
+  pregunta: "¿Cuál es el principio terapéutico más importante para reducir el riesgo de nuevas exacerbaciones?",
+  opciones: [
+    "Mantener exclusivamente salbutamol a demanda",
+    "Iniciar un tratamiento que contenga corticosteroide inhalado",
+    "Indicar antibióticos de forma preventiva",
+    "Utilizar corticosteroides sistémicos diariamente en todos los pacientes",
+    "Evitar toda actividad física"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El tratamiento del asma debe incluir corticosteroide inhalado, de acuerdo con el escalón terapéutico y las características del paciente. Las estrategias con corticosteroide inhalado y formoterol como alivio, cuando están indicadas y disponibles, reducen exacerbaciones frente al uso exclusivo de un broncodilatador de acción corta. Deben revisarse técnica inhalatoria, adherencia y desencadenantes.`,
+  perlaENARM: "El salbutamol aislado no es la estrategia preferida de control del asma; el tratamiento debe contener corticosteroide inhalado.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre tratamiento escalonado del asma.",
+    internacional: "GINA. Global Strategy for Asthma Management and Prevention, 2025."
+  },
+  bibliografia: "Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2025."
+},
+{
+  id: "NEUMO-383",
+  especialidad: "Neumología",
+  tema: "Asma",
+  subtema: "Exacerbación aguda y criterios de gravedad",
+  dificultad: "Media",
+  caso: `Hombre de 31 años con asma que presenta disnea intensa, habla en palabras aisladas, utiliza músculos accesorios y tiene saturación de oxígeno de 88% al aire ambiente. Se encuentra taquicárdico y con sibilancias difusas.`,
+  pregunta: "¿Cuál es la conducta inicial más apropiada?",
+  opciones: [
+    "Enviar a domicilio con antihistamínico",
+    "Administrar únicamente antibiótico oral",
+    "Iniciar oxígeno titulado, broncodilatador inhalado de acción rápida y corticosteroide sistémico, con evaluación urgente",
+    "Solicitar espirometría antes de tratar",
+    "Administrar sedantes para disminuir el trabajo respiratorio"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La hipoxemia, el habla entrecortada y el uso de músculos accesorios indican una exacerbación grave. Se requiere tratamiento inmediato con broncodilatadores de acción rápida, oxígeno titulado y corticosteroides sistémicos tempranos. Según la respuesta, puede añadirse ipratropio y considerarse sulfato de magnesio intravenoso en casos graves. La somnolencia, el agotamiento o la disminución del murmullo vesicular son signos de alarma.`,
+  perlaENARM: "En el asma grave, primero se estabiliza al paciente; no se retrasa el tratamiento por realizar espirometría.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre exacerbación aguda del asma.",
+    internacional: "GINA. Global Strategy for Asthma Management and Prevention, 2025."
+  },
+  bibliografia: "Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2025."
+},
+{
+  id: "NEUMO-384",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Confirmación espirométrica",
+  dificultad: "Baja",
+  caso: `Hombre de 66 años con tabaquismo acumulado de 45 paquetes-año, tos crónica y disnea progresiva. Después de administrar broncodilatador, la espirometría muestra una relación FEV1/FVC de 0.62.`,
+  pregunta: "¿Qué hallazgo confirma la presencia de obstrucción persistente compatible con EPOC en el contexto clínico adecuado?",
+  opciones: [
+    "FEV1/FVC posbroncodilatador menor de 0.70",
+    "FEV1/FVC mayor de 0.90",
+    "Capacidad vital forzada normal de manera aislada",
+    "Radiografía normal",
+    "Presencia obligatoria de eosinofilia periférica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `GOLD utiliza una relación FEV1/FVC posbroncodilatador menor de 0.70 para confirmar obstrucción persistente en un paciente con síntomas y exposición compatibles. En personas cercanas al punto de corte puede ser útil repetir la espirometría y considerar el límite inferior de la normalidad según el contexto clínico.`,
+  perlaENARM: "EPOC: el diagnóstico requiere contexto clínico y espirometría posbroncodilatador con FEV1/FVC menor de 0.70.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para diagnóstico y tratamiento de EPOC.",
+    internacional: "GOLD. Global Strategy for the Diagnosis, Management, and Prevention of COPD, 2025."
+  },
+  bibliografia: "Global Initiative for Chronic Obstructive Lung Disease. GOLD Report. 2025."
+},
+{
+  id: "NEUMO-385",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Tratamiento broncodilatador de mantenimiento",
+  dificultad: "Baja",
+  caso: `Hombre de 69 años con EPOC confirmado por espirometría. Presenta disnea al caminar varias cuadras, no tiene exacerbaciones frecuentes y utiliza salbutamol varias veces al día. No existen datos de asma concomitante.`,
+  pregunta: "¿Cuál es una estrategia farmacológica de mantenimiento apropiada?",
+  opciones: [
+    "Prednisona diaria como monoterapia",
+    "Antibióticos continuos para todos los pacientes",
+    "Broncodilatador de acción prolongada, con elección según síntomas y riesgo de exacerbación",
+    "Corticosteroide inhalado como monoterapia obligatoria",
+    "Suspender todos los broncodilatadores"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `Los broncodilatadores inhalados de acción prolongada constituyen la base del tratamiento sintomático de la EPOC. Puede elegirse LABA o LAMA, y la combinación LABA/LAMA es apropiada para muchos pacientes con disnea persistente. Los corticosteroides inhalados se reservan para perfiles seleccionados, considerando exacerbaciones, eosinófilos y asma concomitante.`,
+  perlaENARM: "En EPOC estable, los broncodilatadores de acción prolongada son fundamentales; el corticosteroide inhalado no se indica universalmente.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para tratamiento farmacológico de EPOC.",
+    internacional: "GOLD. Global Strategy for COPD, 2025."
+  },
+  bibliografia: "Global Initiative for Chronic Obstructive Lung Disease. GOLD Report. 2025."
+},
+{
+  id: "NEUMO-386",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Oxigenoterapia domiciliaria prolongada",
+  dificultad: "Media",
+  caso: `Hombre de 71 años con EPOC estable, sin exacerbación reciente. En dos evaluaciones separadas presenta PaO2 de 54 mmHg al aire ambiente. No tiene una causa reversible inmediata de hipoxemia.`,
+  pregunta: "¿Cuál es la intervención que ha demostrado beneficio en supervivencia en pacientes seleccionados con hipoxemia crónica grave?",
+  opciones: [
+    "Oxígeno únicamente durante cinco minutos al día",
+    "Oxigenoterapia domiciliaria prolongada durante al menos 15 horas al día, si cumple criterios y se confirma estabilidad",
+    "Ventilación invasiva domiciliaria en todos los casos",
+    "Corticosteroides sistémicos indefinidos",
+    "Antibióticos profilácticos como única medida"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La oxigenoterapia domiciliaria prolongada mejora la supervivencia en pacientes con EPOC e hipoxemia crónica grave en reposo. Un criterio clásico es PaO2 de 55 mmHg o menos, o saturación de 88% o menos, con matices adicionales cuando existe cor pulmonale, edema o policitemia. La indicación debe reevaluarse después de una exacerbación y considerar seguridad, tabaquismo y riesgo de incendio.`,
+  perlaENARM: "La oxigenoterapia prolongada mejora supervivencia en EPOC con hipoxemia crónica grave, no por disnea aislada.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre oxigenoterapia en EPOC.",
+    internacional: "GOLD 2025; ATS. Home Oxygen Therapy for Adults with Chronic Lung Disease, 2020."
+  },
+  bibliografia: "Jacobs SS, et al. Am J Respir Crit Care Med. 2020;202:e121-e141. GOLD Report. 2025."
+},
+{
+  id: "NEUMO-387",
+  especialidad: "Neumología",
+  tema: "Neumonía adquirida en la comunidad",
+  subtema: "Diagnóstico inicial",
+  dificultad: "Baja",
+  caso: `Mujer de 52 años con fiebre, tos productiva, dolor torácico pleurítico y crepitantes focales en base derecha. La radiografía de tórax muestra una opacidad alveolar segmentaria.`,
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Neumotórax espontáneo",
+    "Neumonía adquirida en la comunidad",
+    "Asma intermitente",
+    "Apnea obstructiva del sueño",
+    "Fibrosis pulmonar idiopática"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La combinación de síntomas infecciosos respiratorios, hallazgos focales y un infiltrado nuevo en imagen es compatible con neumonía adquirida en la comunidad. La evaluación adicional depende de gravedad, comorbilidades y necesidad de hospitalización.`,
+  perlaENARM: "La imagen torácica y el cuadro clínico permiten distinguir la neumonía de otras causas de tos y fiebre.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para diagnóstico y tratamiento de neumonía adquirida en la comunidad.",
+    internacional: "ATS/IDSA. Diagnosis and Treatment of Adults with Community-acquired Pneumonia, 2019."
+  },
+  bibliografia: "Metlay JP, et al. Am J Respir Crit Care Med. 2019;200:e45-e67."
+},
+{
+  id: "NEUMO-388",
+  especialidad: "Neumología",
+  tema: "Neumonía adquirida en la comunidad",
+  subtema: "Estratificación de gravedad",
+  dificultad: "Media",
+  caso: `Hombre de 76 años con neumonía, confusión nueva, presión arterial de 88/54 mmHg, frecuencia respiratoria de 32 por minuto y urea elevada. Presenta saturación de oxígeno de 86% al aire ambiente.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Manejo ambulatorio sin reevaluación",
+    "Tratamiento exclusivo con antitusígeno",
+    "Evaluación hospitalaria urgente, estabilización y valoración de ingreso a cuidados intensivos según criterios de gravedad",
+    "Esperar 72 horas sin administrar tratamiento",
+    "Indicar únicamente hidratación oral en domicilio"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La hipotensión, la confusión, la taquipnea y la hipoxemia indican neumonía potencialmente grave. Se requiere estabilización, evaluación de sepsis, oxigenación y tratamiento antimicrobiano oportuno. La necesidad de cuidados intensivos se determina con criterios clínicos y de gravedad, no por un solo parámetro.`,
+  perlaENARM: "Hipotensión, confusión e hipoxemia en neumonía son datos de alarma que descartan un manejo ambulatorio rutinario.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumonía grave y sepsis.",
+    internacional: "ATS/IDSA. Community-acquired Pneumonia Guideline, 2019."
+  },
+  bibliografia: "Metlay JP, et al. Am J Respir Crit Care Med. 2019;200:e45-e67."
+},
+{
+  id: "NEUMO-389",
+  especialidad: "Neumología",
+  tema: "Neumonía adquirida en la comunidad",
+  subtema: "Tratamiento empírico ambulatorio",
+  dificultad: "Media",
+  caso: `Mujer de 38 años con neumonía confirmada por imagen, signos vitales estables, saturación de 97% y ausencia de comorbilidades relevantes o factores de riesgo para microorganismos resistentes. Puede tolerar la vía oral.`,
+  pregunta: "¿Cuál es una opción de tratamiento empírico ambulatorio recomendada en guías internacionales?",
+  opciones: [
+    "Amoxicilina oral, si no existen contraindicaciones y de acuerdo con la guía local",
+    "Vancomicina intravenosa obligatoria",
+    "Meropenem más linezolid para todos los pacientes",
+    "Antifúngico sistémico de rutina",
+    "Ningún antimicrobiano aunque la neumonía bacteriana sea probable"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En adultos ambulatorios sin comorbilidades relevantes ni factores de riesgo para resistencia, la amoxicilina es una opción de tratamiento empírico contemplada por ATS/IDSA. La selección final depende de alergias, epidemiología, resistencias locales y evaluación clínica.`,
+  perlaENARM: "El antibiótico empírico se selecciona según el sitio de atención, comorbilidades, alergias y resistencia local.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para antibióticos en neumonía adquirida en la comunidad.",
+    internacional: "ATS/IDSA. Community-acquired Pneumonia Guideline, 2019."
+  },
+  bibliografia: "Metlay JP, et al. Am J Respir Crit Care Med. 2019;200:e45-e67."
+},
+{
+  id: "NEUMO-390",
+  especialidad: "Neumología",
+  tema: "Neumonía nosocomial",
+  subtema: "Definición y momento de aparición",
+  dificultad: "Baja",
+  caso: `Hombre de 64 años hospitalizado por pancreatitis. Al sexto día desarrolla fiebre, secreciones purulentas, deterioro de la oxigenación y un infiltrado pulmonar nuevo. No estaba intubado.`,
+  pregunta: "¿Cómo se clasifica esta infección respiratoria si se confirma el diagnóstico?",
+  opciones: [
+    "Neumonía adquirida en la comunidad",
+    "Neumonía nosocomial no asociada a ventilación mecánica",
+    "Neumonía neonatal",
+    "Tuberculosis latente",
+    "Exacerbación aislada de asma"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La neumonía hospitalaria aparece al menos 48 horas después del ingreso y no estaba incubándose al momento de la admisión. La neumonía asociada a ventilación mecánica es una categoría distinta vinculada al uso de ventilación invasiva. Deben considerarse microorganismos y resistencias según factores de riesgo locales.`,
+  perlaENARM: "Neumonía hospitalaria: inicio después de 48 horas de ingreso; la asociada a ventilación requiere el contexto de ventilación invasiva.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumonía hospitalaria.",
+    internacional: "ATS/IDSA. Hospital-acquired and Ventilator-associated Pneumonia, 2016."
+  },
+  bibliografia: "Kalil AC, et al. Clin Infect Dis. 2016;63:e61-e111."
+},
+{
+  id: "NEUMO-391",
+  especialidad: "Neumología",
+  tema: "Tuberculosis",
+  subtema: "Diagnóstico microbiológico inicial",
+  dificultad: "Baja",
+  caso: `Hombre de 43 años con tos de cinco semanas, sudoración nocturna, pérdida de peso y hemoptisis escasa. La radiografía muestra una cavidad en el lóbulo superior derecho. Se sospecha tuberculosis pulmonar.`,
+  pregunta: "¿Qué estudio microbiológico inicial es especialmente útil para detectar rápidamente Mycobacterium tuberculosis y evaluar resistencia a rifampicina?",
+  opciones: [
+    "Prueba molecular rápida, como Xpert MTB/RIF o una plataforma equivalente validada",
+    "Prueba de esfuerzo cardiaco",
+    "Anticuerpos séricos inespecíficos",
+    "Dímero D",
+    "Espirometría aislada"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Las pruebas moleculares rápidas permiten detectar material genético de M. tuberculosis y, según la plataforma, mutaciones asociadas a resistencia a rifampicina. Deben complementarse con baciloscopia, cultivo y pruebas de sensibilidad conforme a las recomendaciones nacionales y al contexto clínico.`,
+  perlaENARM: "Ante sospecha de tuberculosis pulmonar, las pruebas moleculares rápidas aceleran la confirmación y la detección de resistencia.",
+  gpc: {
+    mexico: "NOM-006-SSA2-2013 para la prevención y control de la tuberculosis, junto con disposiciones nacionales vigentes.",
+    internacional: "WHO. Consolidated Guidelines on Tuberculosis: Module 3, Diagnosis, 2024."
+  },
+  bibliografia: "World Health Organization. WHO consolidated guidelines on tuberculosis: Module 3, Diagnosis. 2024."
+},
+{
+  id: "NEUMO-392",
+  especialidad: "Neumología",
+  tema: "Tuberculosis",
+  subtema: "Tratamiento de tuberculosis sensible",
+  dificultad: "Media",
+  caso: `Mujer de 29 años con tuberculosis pulmonar confirmada molecularmente. Las pruebas iniciales no muestran resistencia a rifampicina y no hay datos de enfermedad extrapulmonar complicada. Se inicia tratamiento bajo supervisión clínica.`,
+  pregunta: "¿Cuál corresponde al esquema inicial convencional para tuberculosis pulmonar sensible en la fase intensiva?",
+  opciones: [
+    "Rifampicina y etambutol exclusivamente durante dos semanas",
+    "Isoniazida, rifampicina, pirazinamida y etambutol",
+    "Azitromicina y ceftriaxona durante tres días",
+    "Fluconazol y anfotericina B",
+    "Monoterapia con isoniazida para la enfermedad activa"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El esquema convencional para tuberculosis pulmonar sensible utiliza una fase intensiva con isoniazida, rifampicina, pirazinamida y etambutol, seguida de una fase de continuación con fármacos apropiados. La duración y el esquema definitivo dependen de la sensibilidad, la localización, las condiciones del paciente y las recomendaciones nacionales vigentes. La monoterapia de una enfermedad activa favorece resistencia.`,
+  perlaENARM: "La tuberculosis activa sensible se trata con combinación de fármacos; nunca debe utilizarse monoterapia como tratamiento completo.",
+  gpc: {
+    mexico: "NOM-006-SSA2-2013 y lineamientos nacionales vigentes para tratamiento de tuberculosis.",
+    internacional: "WHO. Consolidated Guidelines on Tuberculosis: Module 4, Treatment."
+  },
+  bibliografia: "World Health Organization. WHO consolidated guidelines on tuberculosis: Module 4, Treatment."
+},
+{
+  id: "NEUMO-393",
+  especialidad: "Neumología",
+  tema: "Tuberculosis",
+  subtema: "Infección tuberculosa latente",
+  dificultad: "Media",
+  caso: `Mujer de 35 años, contacto domiciliario de un paciente con tuberculosis pulmonar bacilífera. La prueba de infección tuberculosa resulta positiva. No presenta tos ni síntomas constitucionales y la radiografía de tórax no muestra lesiones sugestivas de enfermedad activa.`,
+  pregunta: "¿Cuál es el paso fundamental antes de iniciar tratamiento preventivo?",
+  opciones: [
+    "Iniciar monoterapia para enfermedad activa sin evaluación",
+    "Descartar enfermedad tuberculosa activa mediante evaluación clínica y estudios indicados",
+    "Realizar broncoscopia a todos los contactos asintomáticos",
+    "Administrar corticosteroides sistémicos",
+    "No realizar ninguna valoración porque la prueba es positiva"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Antes del tratamiento preventivo se debe descartar tuberculosis activa, pues un esquema preventivo inadecuado puede favorecer resistencia y retrasar el tratamiento correcto. La evaluación incluye síntomas, radiografía y estudios microbiológicos cuando estén indicados. La selección del régimen preventivo depende de edad, embarazo, interacciones y sensibilidad del caso fuente.`,
+  perlaENARM: "Una prueba positiva de infección tuberculosa no distingue por sí sola infección latente de enfermedad activa.",
+  gpc: {
+    mexico: "Consultar normativa mexicana vigente sobre estudio de contactos y tratamiento preventivo de tuberculosis.",
+    internacional: "WHO. Consolidated Guidelines on Tuberculosis: tuberculosis preventive treatment."
+  },
+  bibliografia: "World Health Organization. WHO consolidated guidelines on tuberculosis: tuberculosis preventive treatment."
+},
+{
+  id: "NEUMO-394",
+  especialidad: "Neumología",
+  tema: "Tromboembolia pulmonar",
+  subtema: "Uso del dímero D en probabilidad clínica baja",
+  dificultad: "Media",
+  caso: `Mujer de 42 años con disnea leve de inicio reciente y dolor pleurítico. Está hemodinámicamente estable, sin hipoxemia significativa ni signos de trombosis venosa profunda. La valoración clínica indica probabilidad baja o intermedia de tromboembolia pulmonar.`,
+  pregunta: "¿Cuál es la estrategia diagnóstica apropiada en este contexto?",
+  opciones: [
+    "Solicitar dímero D y, si resulta negativo con un ensayo sensible y se aplica correctamente el algoritmo, descartar tromboembolia pulmonar",
+    "Indicar trombólisis inmediata",
+    "Realizar angiografía invasiva a todos los pacientes",
+    "Descartar tromboembolia únicamente con una radiografía normal",
+    "Iniciar anticoagulación indefinida sin confirmar ni estratificar"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En pacientes con probabilidad clínica baja o intermedia, un dímero D negativo mediante un ensayo sensible puede excluir tromboembolia pulmonar sin imagen adicional. En mayores de 50 años puede considerarse un umbral ajustado por edad cuando el método y el algoritmo lo permiten. Si la probabilidad es alta, no debe utilizarse un dímero D negativo como único método de exclusión.`,
+  perlaENARM: "El dímero D sirve principalmente para excluir tromboembolia en pacientes seleccionados; no confirma por sí solo el diagnóstico.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para diagnóstico de tromboembolia pulmonar.",
+    internacional: "ESC. Guidelines for the Diagnosis and Management of Acute Pulmonary Embolism, 2019."
+  },
+  bibliografia: "Konstantinides SV, et al. Eur Heart J. 2020;41:543-603."
+},
+{
+  id: "NEUMO-395",
+  especialidad: "Neumología",
+  tema: "Tromboembolia pulmonar",
+  subtema: "Tromboembolia pulmonar de alto riesgo",
+  dificultad: "Media",
+  caso: `Hombre de 58 años con disnea súbita, dolor torácico, presión arterial de 76/48 mmHg y taquicardia. El ecocardiograma a pie de cama muestra dilatación y disfunción del ventrículo derecho. La sospecha clínica de tromboembolia pulmonar es alta.`,
+  pregunta: "¿Cuál es la prioridad terapéutica si se confirma o existe una probabilidad clínica suficientemente alta y no hay contraindicaciones relevantes?",
+  opciones: [
+    "Observación ambulatoria",
+    "Trombólisis sistémica urgente en el contexto de alto riesgo, junto con soporte hemodinámico y manejo especializado",
+    "Antitusígeno oral",
+    "Esperar varios días para obtener un dímero D",
+    "Diurético como único tratamiento"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La hipotensión persistente y el choque con sospecha de tromboembolia pulmonar indican alto riesgo. Se requiere estabilización inmediata, anticoagulación cuando sea apropiada y consideración de reperfusión urgente, generalmente trombólisis sistémica si no existen contraindicaciones. En situaciones seleccionadas pueden considerarse procedimientos por catéter o embolectomía quirúrgica.`,
+  perlaENARM: "La tromboembolia pulmonar con choque es una emergencia; la reperfusión se considera según riesgo hemorrágico y disponibilidad.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para tromboembolia pulmonar aguda.",
+    internacional: "ESC. Guidelines for Acute Pulmonary Embolism, 2019."
+  },
+  bibliografia: "Konstantinides SV, et al. Eur Heart J. 2020;41:543-603."
+},
+{
+  id: "NEUMO-396",
+  especialidad: "Neumología",
+  tema: "Edema agudo pulmonar",
+  subtema: "Manifestaciones clínicas y estabilización inicial",
+  dificultad: "Baja",
+  caso: `Hombre de 72 años con insuficiencia cardiaca que presenta ortopnea súbita, disnea intensa, estertores bilaterales y expectoración espumosa. La saturación es de 82% y la presión arterial de 178/102 mmHg.`,
+  pregunta: "¿Cuál es la conducta inicial más apropiada?",
+  opciones: [
+    "Administrar líquidos intravenosos de manera rápida",
+    "Oxígeno titulado, soporte ventilatorio no invasivo si está indicado y tratamiento dirigido a la congestión y presión arterial",
+    "Antibióticos sin evaluar infección",
+    "Sedación profunda como primera medida",
+    "Enviar a domicilio con reposo"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El cuadro es compatible con edema agudo pulmonar cardiogénico. Se debe estabilizar la oxigenación y considerar CPAP o ventilación no invasiva cuando corresponda. Los diuréticos intravenosos se utilizan si existe congestión y los vasodilatadores pueden ser útiles en pacientes con presión arterial adecuada o elevada. Deben identificarse y tratarse los precipitantes.`,
+  perlaENARM: "En edema pulmonar cardiogénico hipertensivo, la ventilación no invasiva y la reducción apropiada de la poscarga pueden ser decisivas.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre insuficiencia cardiaca aguda y edema pulmonar.",
+    internacional: "ESC. Guidelines for Acute and Chronic Heart Failure, 2021."
+  },
+  bibliografia: "McDonagh TA, et al. Eur Heart J. 2021;42:3599-3726."
+},
+{
+  id: "NEUMO-397",
+  especialidad: "Neumología",
+  tema: "Síndrome de dificultad respiratoria aguda",
+  subtema: "Criterios diagnósticos",
+  dificultad: "Media",
+  caso: `Mujer de 55 años con sepsis de origen abdominal que desarrolla hipoxemia aguda e infiltrados bilaterales no explicados completamente por derrames, atelectasias o nódulos. Requiere ventilación mecánica con PEEP de 8 cmH2O y presenta PaO2/FiO2 de 140.`,
+  pregunta: "¿Qué clasificación de gravedad corresponde si cumple los demás criterios de Berlín?",
+  opciones: [
+    "SDRA leve",
+    "SDRA moderado",
+    "SDRA grave",
+    "No puede existir SDRA si hay sepsis",
+    "Insuficiencia respiratoria crónica estable"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La definición de Berlín clasifica la gravedad según PaO2/FiO2 con PEEP o CPAP de al menos 5 cmH2O: leve de 201 a 300, moderado de 101 a 200 y grave de 100 o menos. Una relación de 140 corresponde a SDRA moderado si se satisfacen los demás criterios diagnósticos.`,
+  perlaENARM: "Berlín: PaO2/FiO2 de 201–300 leve, 101–200 moderado y 100 o menos grave, con soporte de presión positiva.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre SDRA y ventilación mecánica protectora.",
+    internacional: "ARDS Definition Task Force. The Berlin Definition of ARDS, 2012."
+  },
+  bibliografia: "ARDS Definition Task Force. JAMA. 2012;307:2526-2533."
+},
+{
+  id: "NEUMO-398",
+  especialidad: "Neumología",
+  tema: "Síndrome de dificultad respiratoria aguda",
+  subtema: "Ventilación mecánica protectora",
+  dificultad: "Baja",
+  caso: `Hombre de 60 años con SDRA que requiere intubación y ventilación mecánica. Su peso corporal real es de 100 kg, pero su talla corresponde a un peso corporal predicho de 70 kg.`,
+  pregunta: "¿Qué volumen corriente inicial es apropiado como parte de una estrategia protectora?",
+  opciones: [
+    "12 mL/kg de peso real",
+    "10 mL/kg de peso real",
+    "Aproximadamente 6 mL/kg de peso corporal predicho",
+    "15 mL/kg de peso predicho",
+    "Un volumen fijo de 1,500 mL en todos los pacientes"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La ventilación protectora en SDRA utiliza un volumen corriente aproximado de 6 mL/kg de peso corporal predicho, con ajuste dentro de un rango de 4–8 mL/kg según mecánica y presiones. El peso predicho se estima a partir de talla y sexo, no del peso real. Se busca limitar la presión plateau y evitar lesión pulmonar inducida por ventilación.`,
+  perlaENARM: "En SDRA, calcula el volumen corriente con peso corporal predicho, no con el peso real del paciente.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para ventilación mecánica en SDRA.",
+    internacional: "ATS. Mechanical Ventilation in Adult Patients with ARDS, 2017."
+  },
+  bibliografia: "Fan E, et al. Am J Respir Crit Care Med. 2017;195:1253-1263."
+},
+{
+  id: "NEUMO-399",
+  especialidad: "Neumología",
+  tema: "Neumotórax",
+  subtema: "Neumotórax a tensión",
+  dificultad: "Baja",
+  caso: `Hombre de 35 años politraumatizado con disnea extrema, hipotensión, taquicardia y ausencia unilateral de murmullo vesicular. Presenta deterioro hemodinámico rápido durante la evaluación inicial.`,
+  pregunta: "¿Cuál es la conducta inmediata si se sospecha neumotórax a tensión?",
+  opciones: [
+    "Esperar la radiografía antes de intervenir",
+    "Descompresión pleural inmediata y colocación posterior de drenaje torácico",
+    "Administrar únicamente broncodilatadores",
+    "Solicitar tomografía antes de tratar",
+    "Observar durante seis horas"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El neumotórax a tensión causa compromiso ventilatorio y obstructivo del retorno venoso. Es un diagnóstico clínico en un paciente inestable y requiere descompresión inmediata, seguida de drenaje pleural definitivo. No debe retrasarse el tratamiento para obtener una imagen.`,
+  perlaENARM: "Neumotórax a tensión con inestabilidad: descomprimir primero, imagen después si es necesaria.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de trauma y urgencias.",
+    internacional: "ATLS. Advanced Trauma Life Support, 10th edition."
+  },
+  bibliografia: "American College of Surgeons. Advanced Trauma Life Support. 10th ed."
+},
+{
+  id: "NEUMO-400",
+  especialidad: "Neumología",
+  tema: "Neumotórax",
+  subtema: "Neumotórax espontáneo primario",
+  dificultad: "Media",
+  caso: `Hombre de 22 años, alto y delgado, sin enfermedad pulmonar conocida, presenta dolor pleurítico súbito y disnea leve. Está hemodinámicamente estable y la imagen confirma un neumotórax espontáneo primario pequeño.`,
+  pregunta: "¿Cuál es una opción de manejo en un paciente cuidadosamente seleccionado, estable y con síntomas mínimos?",
+  opciones: [
+    "Toracotomía inmediata en todos los casos",
+    "Observación clínica con analgesia y seguimiento estrecho, según tamaño, síntomas y guía local",
+    "Antibióticos intravenosos durante 14 días",
+    "Intubación endotraqueal obligatoria",
+    "Trombólisis sistémica"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En pacientes seleccionados con neumotórax espontáneo primario, estabilidad y síntomas mínimos, puede considerarse manejo conservador con observación y seguimiento adecuados. La decisión depende del tamaño, síntomas, comorbilidades, recursos y recomendaciones locales. El deterioro clínico requiere reevaluación y tratamiento oportuno.`,
+  perlaENARM: "No todos los neumotórax primarios estables requieren automáticamente un tubo torácico; el manejo depende del contexto clínico.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumotórax espontáneo.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-401",
+  especialidad: "Neumología",
+  tema: "Derrame pleural",
+  subtema: "Criterios de Light",
+  dificultad: "Media",
+  caso: `Hombre de 61 años con derrame pleural unilateral. El líquido pleural presenta proteínas de 3.8 g/dL y las proteínas séricas son de 6.5 g/dL. La relación LDH pleural/LDH sérica es de 0.62.`,
+  pregunta: "¿Cómo se clasifica el derrame con estos resultados?",
+  opciones: [
+    "Trasudado porque las proteínas pleurales son menores de 4 g/dL",
+    "Exudado porque cumple criterios de Light",
+    "Trasudado obligatoriamente por ser unilateral",
+    "Quilotórax confirmado",
+    "Hemotórax confirmado"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los criterios de Light clasifican un derrame como exudado si cumple al menos uno de los siguientes: relación proteínas pleurales/séricas mayor de 0.5, relación LDH pleural/sérica mayor de 0.6 o LDH pleural mayor de dos tercios del límite superior normal sérico. En este caso, ambas relaciones son mayores que los umbrales.`,
+  perlaENARM: "Basta un criterio de Light positivo para clasificar el derrame como exudado.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico de derrame pleural.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-402",
+  especialidad: "Neumología",
+  tema: "Derrame pleural",
+  subtema: "Indicación de toracocentesis diagnóstica",
+  dificultad: "Baja",
+  caso: `Mujer de 57 años con fiebre, dolor pleurítico y derrame pleural unilateral de tamaño moderado. No tiene diagnóstico previo que explique el derrame.`,
+  pregunta: "¿Cuál es el siguiente procedimiento diagnóstico habitual si existe una ventana segura para realizarlo?",
+  opciones: [
+    "Toracocentesis guiada por imagen para analizar el líquido pleural",
+    "Espirometría como única prueba",
+    "Biopsia pulmonar abierta inmediata",
+    "Prueba de esfuerzo",
+    "No estudiar el derrame porque siempre es benigno"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Un derrame unilateral nuevo, especialmente con fiebre o dolor pleurítico, requiere investigación etiológica. La toracocentesis guiada por ultrasonido permite obtener líquido para bioquímica, recuento celular, microbiología y citología según la sospecha. Los derrames pequeños o los asociados a una causa conocida pueden requerir un abordaje individualizado.`,
+  perlaENARM: "El ultrasonido pleural mejora la seguridad de la toracocentesis y ayuda a caracterizar el derrame.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre derrame pleural y procedimientos pleurales.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-403",
+  especialidad: "Neumología",
+  tema: "Empiema",
+  subtema: "Drenaje de infección pleural",
+  dificultad: "Media",
+  caso: `Hombre de 63 años con neumonía, fiebre persistente y derrame pleural. La toracocentesis muestra líquido purulento con pH de 6.95 y abundantes neutrófilos.`,
+  pregunta: "¿Cuál es el manejo más apropiado?",
+  opciones: [
+    "Antibiótico y drenaje pleural, con valoración especializada",
+    "Observación sin antimicrobianos",
+    "Diurético como único tratamiento",
+    "Anticoagulación indefinida",
+    "Broncodilatador inhalado como tratamiento definitivo"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El pus en el espacio pleural establece el diagnóstico de empiema y requiere antibióticos y drenaje del espacio infectado. Un pH pleural muy bajo también indica alto riesgo de derrame parapneumónico complicado y favorece el drenaje en el contexto apropiado. Debe considerarse manejo intrapleural o quirúrgico si el drenaje inicial es insuficiente.`,
+  perlaENARM: "Empiema = pus pleural; requiere control del foco mediante drenaje además de antibióticos.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumonía complicada y empiema.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-404",
+  especialidad: "Neumología",
+  tema: "Insuficiencia respiratoria aguda",
+  subtema: "Clasificación gasométrica",
+  dificultad: "Baja",
+  caso: `Mujer de 70 años con neumonía presenta PaO2 de 52 mmHg y PaCO2 de 34 mmHg al aire ambiente. Tiene taquipnea y saturación de oxígeno de 84%.`,
+  pregunta: "¿Qué tipo de insuficiencia respiratoria predomina?",
+  opciones: [
+    "Tipo I o hipoxémica",
+    "Tipo II o hipercápnica",
+    "Insuficiencia ventilatoria crónica sin hipoxemia",
+    "Alcalosis metabólica aislada",
+    "Acidosis respiratoria crónica compensada"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La insuficiencia respiratoria tipo I se caracteriza por hipoxemia, habitualmente con PaCO2 normal o baja. La tipo II se caracteriza por hipercapnia debido a ventilación alveolar insuficiente y puede acompañarse de hipoxemia. La causa de la hipoxemia debe investigarse y tratarse.`,
+  perlaENARM: "Tipo I: hipoxemia predominante. Tipo II: hipercapnia por falla ventilatoria.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre insuficiencia respiratoria aguda.",
+    internacional: "ERS/ATS. Clinical practice guidance relevant to acute respiratory failure and noninvasive ventilation."
+  },
+  bibliografia: "Rochwerg B, et al. Official ERS/ATS clinical practice guidelines: noninvasive ventilation for acute respiratory failure. Eur Respir J. 2017;50:1602426."
+},
+{
+  id: "NEUMO-405",
+  especialidad: "Neumología",
+  tema: "Insuficiencia respiratoria aguda",
+  subtema: "Oxigenoterapia y objetivo de saturación en EPOC",
+  dificultad: "Media",
+  caso: `Hombre de 68 años con EPOC grave llega por exacerbación, somnolencia leve y aumento de disnea. La saturación inicial es de 79% al aire ambiente. Se sospecha retención crónica de CO2.`,
+  pregunta: "¿Cuál es el objetivo inicial habitual de saturación mientras se obtiene una gasometría y se ajusta el soporte?",
+  opciones: [
+    "100% en todos los pacientes sin excepción",
+    "88–92%, con vigilancia gasométrica y ajuste clínico",
+    "75–80% de forma deliberada",
+    "No administrar oxígeno aunque exista hipoxemia",
+    "Mantener saturación menor de 85%"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En pacientes con EPOC y riesgo de insuficiencia respiratoria hipercápnica se utiliza habitualmente un objetivo inicial de SpO2 de 88–92%, mientras se evalúa la gasometría. El oxígeno no debe negarse ante hipoxemia; debe titularse para evitar hiperoxia innecesaria y detectar retención de CO2 o acidosis.`,
+  perlaENARM: "EPOC con riesgo de hipercapnia: oxígeno controlado, objetivo habitual de 88–92% y gasometría.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre oxigenoterapia y exacerbación de EPOC.",
+    internacional: "BTS. Guideline for Oxygen Use in Adults in Healthcare and Emergency Settings, 2017."
+  },
+  bibliografia: "O'Driscoll BR, et al. Thorax. 2017;72(Suppl 1):ii1-ii90."
+},
+{
+  id: "NEUMO-406",
+  especialidad: "Neumología",
+  tema: "Ventilación mecánica",
+  subtema: "Indicaciones de ventilación no invasiva en exacerbación de EPOC",
+  dificultad: "Media",
+  caso: `Hombre de 67 años con EPOC exacerbado pese a broncodilatadores y tratamiento inicial. La gasometría muestra pH de 7.28 y PaCO2 de 68 mmHg. Está despierto, coopera y protege la vía aérea.`,
+  pregunta: "¿Cuál es la intervención ventilatoria apropiada si no existen contraindicaciones?",
+  opciones: [
+    "Ventilación no invasiva con presión positiva y vigilancia estrecha",
+    "Oxígeno a alto flujo sin monitorización como única medida",
+    "Sedación profunda y alta a domicilio",
+    "Intubación obligatoria en todos los casos, independientemente de la respuesta",
+    "Suspender broncodilatadores"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La acidosis respiratoria hipercápnica en una exacerbación de EPOC es una indicación frecuente de ventilación no invasiva cuando el paciente coopera y puede proteger la vía aérea. Se requiere vigilancia de respuesta clínica y gasométrica, así como capacidad de intubación si existe deterioro, contraindicación o fracaso de la estrategia.`,
+  perlaENARM: "EPOC exacerbado con hipercapnia y acidosis: considerar ventilación no invasiva si el paciente es candidato.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre ventilación no invasiva en EPOC.",
+    internacional: "ERS/ATS. Clinical Practice Guidelines: Noninvasive Ventilation for Acute Respiratory Failure, 2017."
+  },
+  bibliografia: "Rochwerg B, et al. Eur Respir J. 2017;50:1602426."
+},
+{
+  id: "NEUMO-407",
+  especialidad: "Neumología",
+  tema: "Ventilación mecánica",
+  subtema: "Presión plateau y prevención de lesión pulmonar",
+  dificultad: "Media",
+  caso: `Paciente con SDRA en ventilación mecánica protectora. Se mide una presión plateau de 34 cmH2O con volumen corriente de 8 mL/kg de peso predicho.`,
+  pregunta: "¿Cuál es una meta habitual para limitar la sobredistensión alveolar?",
+  opciones: [
+    "Mantener presión plateau menor o igual a 30 cmH2O",
+    "Elevar siempre la presión plateau por encima de 40 cmH2O",
+    "Ignorar la presión plateau si la saturación es normal",
+    "Usar el peso real para calcular todos los volúmenes",
+    "Eliminar completamente la PEEP"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En SDRA se recomienda ventilación protectora y una presión plateau generalmente menor o igual a 30 cmH2O. Si se encuentra elevada, deben revisarse volumen corriente, distensibilidad, PEEP y mecánica pulmonar. La reducción del volumen corriente puede requerir aceptar hipercapnia permisiva si no existen contraindicaciones.`,
+  perlaENARM: "SDRA: volumen corriente bajo según peso predicho y presión plateau de 30 cmH2O o menos como objetivo habitual.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente de ventilación mecánica protectora.",
+    internacional: "ATS. Mechanical Ventilation in Adult Patients with ARDS, 2017."
+  },
+  bibliografia: "Fan E, et al. Am J Respir Crit Care Med. 2017;195:1253-1263."
+},
+{
+  id: "NEUMO-408",
+  especialidad: "Neumología",
+  tema: "Gasometría arterial",
+  subtema: "Acidosis respiratoria aguda",
+  dificultad: "Baja",
+  caso: `Hombre de 59 años con hipoventilación por depresión del sistema nervioso central. La gasometría muestra pH de 7.25, PaCO2 de 60 mmHg y bicarbonato de 26 mEq/L.`,
+  pregunta: "¿Cuál es la alteración ácido-base primaria?",
+  opciones: [
+    "Acidosis respiratoria aguda",
+    "Alcalosis respiratoria",
+    "Acidosis metabólica pura",
+    "Alcalosis metabólica",
+    "Trastorno mixto de alcalosis respiratoria y metabólica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El pH bajo indica acidemia y la elevación de PaCO2 señala un trastorno respiratorio primario. El bicarbonato cercano al rango normal es compatible con compensación renal limitada, como ocurre en un proceso agudo. Se debe tratar la causa de hipoventilación y evaluar la necesidad de soporte ventilatorio.`,
+  perlaENARM: "Acidemia con PaCO2 elevada sugiere acidosis respiratoria; valora la compensación y el contexto temporal.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para interpretación gasométrica e insuficiencia respiratoria.",
+    internacional: "Harrison's Principles of Internal Medicine, 21st edition. Acid-base disorders."
+  },
+  bibliografia: "Jameson JL, et al., eds. Harrison's Principles of Internal Medicine. 21st ed. McGraw Hill."
+},
+{
+  id: "NEUMO-409",
+  especialidad: "Neumología",
+  tema: "Gasometría arterial",
+  subtema: "Acidosis metabólica con compensación respiratoria",
+  dificultad: "Media",
+  caso: `Mujer de 45 años con cetoacidosis diabética. La gasometría muestra pH de 7.18, bicarbonato de 10 mEq/L y PaCO2 de 23 mmHg.`,
+  pregunta: "¿Cómo se interpreta inicialmente el trastorno ácido-base?",
+  opciones: [
+    "Acidosis metabólica con compensación respiratoria aproximadamente apropiada",
+    "Alcalosis metabólica primaria",
+    "Acidosis respiratoria aislada",
+    "Alcalosis respiratoria aislada",
+    "Gasometría normal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El pH bajo y el bicarbonato reducido indican acidosis metabólica. Con la fórmula de Winter, la PaCO2 esperada es aproximadamente 1.5 × 10 + 8 = 23 ± 2 mmHg. El valor observado se encuentra dentro del rango esperado, compatible con compensación respiratoria apropiada. La evaluación completa incluye anión gap, electrolitos y contexto clínico.`,
+  perlaENARM: "Fórmula de Winter: PaCO2 esperada = 1.5 × HCO3 + 8 ± 2 mmHg.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre cetoacidosis diabética y trastornos ácido-base.",
+    internacional: "ADA. Standards of Care in Diabetes, 2025."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes. Diabetes Care. 2025."
+},
+{
+  id: "NEUMO-410",
+  especialidad: "Neumología",
+  tema: "Fibrosis pulmonar idiopática",
+  subtema: "Patrón radiológico de neumonía intersticial usual",
+  dificultad: "Media",
+  caso: `Hombre de 72 años con disnea progresiva de dos años y crepitantes bibasales tipo velcro. La tomografía de alta resolución muestra reticulación subpleural y basal, bronquiectasias por tracción y panalización, sin hallazgos que sugieran otra causa.`,
+  pregunta: "¿Qué patrón tomográfico es más característico de fibrosis pulmonar idiopática?",
+  opciones: [
+    "Patrón de neumonía intersticial usual",
+    "Consolidación lobar aislada",
+    "Árbol en gemación difuso como hallazgo exclusivo",
+    "Neumotórax a tensión",
+    "Adenopatías hiliares aisladas sin cambios intersticiales"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La fibrosis pulmonar idiopática suele mostrar un patrón de neumonía intersticial usual, con predominio basal y subpleural, reticulación, bronquiectasias por tracción y panalización. El diagnóstico requiere excluir causas conocidas de enfermedad intersticial y discutir los hallazgos en un contexto multidisciplinario cuando sea necesario.`,
+  perlaENARM: "UIP: predominio basal y subpleural, reticulación, bronquiectasias por tracción y panalización.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre enfermedades pulmonares intersticiales.",
+    internacional: "ATS/ERS/JRS/ALAT. IPF Diagnosis and Management Guideline, 2022."
+  },
+  bibliografia: "Raghu G, et al. Am J Respir Crit Care Med. 2022;205:e18-e47."
+},
+{
+  id: "NEUMO-411",
+  especialidad: "Neumología",
+  tema: "Fibrosis pulmonar idiopática",
+  subtema: "Tratamiento antifibrótico",
+  dificultad: "Media",
+  caso: `Mujer de 66 años con fibrosis pulmonar idiopática confirmada por discusión multidisciplinaria. Presenta descenso progresivo de la capacidad vital forzada, sin exacerbación aguda. La función hepática permite valorar tratamiento farmacológico.`,
+  pregunta: "¿Qué fármacos antifibróticos pueden considerarse para reducir la progresión funcional?",
+  opciones: [
+    "Pirfenidona o nintedanib",
+    "Amoxicilina o azitromicina de manera indefinida",
+    "Salbutamol como único tratamiento antifibrótico",
+    "Isoniazida y rifampicina sin tuberculosis",
+    "Anticoagulación plena para todos los pacientes"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Pirfenidona y nintedanib han demostrado reducir la velocidad de deterioro de la función pulmonar en fibrosis pulmonar idiopática. No revierten la fibrosis ya establecida y requieren evaluación de contraindicaciones, interacciones y efectos adversos. El seguimiento incluye función pulmonar, síntomas y valoración de oxigenación.`,
+  perlaENARM: "Los antifibróticos enlentecen la pérdida de función pulmonar; no representan una cura de la fibrosis establecida.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre fibrosis pulmonar idiopática y disponibilidad terapéutica.",
+    internacional: "ATS/ERS/JRS/ALAT. IPF and Progressive Pulmonary Fibrosis Guideline, 2022."
+  },
+  bibliografia: "Raghu G, et al. Am J Respir Crit Care Med. 2022;205:e18-e47."
+},
+{
+  id: "NEUMO-412",
+  especialidad: "Neumología",
+  tema: "Bronquiectasias",
+  subtema: "Diagnóstico por tomografía de alta resolución",
+  dificultad: "Baja",
+  caso: `Mujer de 48 años con tos productiva crónica, esputo abundante e infecciones respiratorias recurrentes. La tomografía muestra bronquios dilatados, falta de afilamiento bronquial y bronquios visibles cerca de la pleura.`,
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Bronquiectasias",
+    "Asma sin cambios estructurales",
+    "Neumotórax espontáneo",
+    "Edema pulmonar cardiogénico aislado",
+    "Tromboembolia pulmonar aguda"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La dilatación bronquial permanente con pérdida del afilamiento y visualización de bronquios periféricos es característica de bronquiectasias. La tomografía de alta resolución confirma la alteración estructural. La evaluación etiológica puede incluir cultivo de esputo, inmunoglobulinas y estudios dirigidos según el contexto.`,
+  perlaENARM: "Bronquiectasias: dilatación bronquial permanente demostrada mediante tomografía de alta resolución.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre bronquiectasias.",
+    internacional: "ERS. Clinical Practice Guideline for Adult Bronchiectasis, 2017."
+  },
+  bibliografia: "Polverino E, et al. Eur Respir J. 2017;50:1700629."
+},
+{
+  id: "NEUMO-413",
+  especialidad: "Neumología",
+  tema: "Bronquiectasias",
+  subtema: "Manejo de secreciones y prevención de exacerbaciones",
+  dificultad: "Media",
+  caso: `Hombre de 54 años con bronquiectasias confirmadas por tomografía y expectoración diaria abundante. Presenta exacerbaciones frecuentes, sin datos actuales de insuficiencia respiratoria.`,
+  pregunta: "¿Qué intervención no farmacológica forma parte fundamental del tratamiento habitual?",
+  opciones: [
+    "Técnicas individualizadas de limpieza de vías respiratorias y fisioterapia respiratoria",
+    "Reposo absoluto permanente",
+    "Supresión sistemática de toda tos productiva",
+    "Restricción de líquidos en todos los pacientes",
+    "Evitar la vacunación"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Las técnicas de limpieza de vías respiratorias y la fisioterapia respiratoria adaptadas al paciente ayudan a movilizar secreciones. También se recomiendan vacunación, evaluación microbiológica durante exacerbaciones y tratamiento de causas subyacentes. Los antibióticos prolongados se reservan para pacientes seleccionados con exacerbaciones frecuentes y tras evaluación especializada.`,
+  perlaENARM: "En bronquiectasias, el control de secreciones y la prevención de infecciones son componentes esenciales.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre bronquiectasias y rehabilitación respiratoria.",
+    internacional: "ERS. Clinical Practice Guideline for Adult Bronchiectasis, 2017."
+  },
+  bibliografia: "Polverino E, et al. Eur Respir J. 2017;50:1700629."
+},
+{
+  id: "NEUMO-414",
+  especialidad: "Neumología",
+  tema: "Hipertensión pulmonar",
+  subtema: "Confirmación hemodinámica",
+  dificultad: "Media",
+  caso: `Mujer de 47 años con disnea progresiva, síncope de esfuerzo y dilatación del ventrículo derecho. El ecocardiograma estima presión pulmonar elevada y no identifica una causa cardiaca izquierda evidente.`,
+  pregunta: "¿Cuál es el estudio de referencia para confirmar y caracterizar hemodinámicamente la hipertensión pulmonar?",
+  opciones: [
+    "Cateterismo cardiaco derecho",
+    "Radiografía de tórax aislada",
+    "Espirometría aislada",
+    "Electrocardiograma como prueba confirmatoria definitiva",
+    "Prueba cutánea de tuberculina"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El cateterismo cardiaco derecho permite medir presión arterial pulmonar, presión de enclavamiento y gasto cardiaco, y calcular resistencia vascular pulmonar. El ecocardiograma es una herramienta de detección y estimación de probabilidad, pero no sustituye la confirmación hemodinámica cuando esta es necesaria.`,
+  perlaENARM: "Ecocardiograma para estimar probabilidad; cateterismo derecho para confirmar y caracterizar hemodinámicamente.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipertensión pulmonar.",
+    internacional: "ESC/ERS. Guidelines for the Diagnosis and Treatment of Pulmonary Hypertension, 2022."
+  },
+  bibliografia: "Humbert M, et al. Eur Heart J. 2022;43:3618-3731."
+},
+{
+  id: "NEUMO-415",
+  especialidad: "Neumología",
+  tema: "Hipertensión pulmonar",
+  subtema: "Búsqueda de enfermedad tromboembólica crónica",
+  dificultad: "Media",
+  caso: `Hombre de 60 años con disnea persistente meses después de una embolia pulmonar. El ecocardiograma sugiere hipertensión pulmonar y la gammagrafía de ventilación/perfusión está disponible para el estudio etiológico.`,
+  pregunta: "¿Qué estudio de imagen es especialmente útil para descartar enfermedad tromboembólica pulmonar crónica en este contexto?",
+  opciones: [
+    "Gammagrafía de ventilación/perfusión",
+    "Radiografía abdominal",
+    "Ultrasonido tiroideo",
+    "Espirometría sin imagen",
+    "Prueba de sudor"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La gammagrafía de ventilación/perfusión es una prueba de detección importante para enfermedad tromboembólica pulmonar crónica. Un estudio normal hace esta etiología poco probable en el contexto apropiado. Los resultados anormales requieren evaluación adicional en un centro con experiencia.`,
+  perlaENARM: "Ante hipertensión pulmonar inexplicada, recuerda descartar enfermedad tromboembólica crónica con gammagrafía V/Q.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipertensión pulmonar y enfermedad tromboembólica crónica.",
+    internacional: "ESC/ERS. Pulmonary Hypertension Guidelines, 2022."
+  },
+  bibliografia: "Humbert M, et al. Eur Heart J. 2022;43:3618-3731."
+},
+{
+  id: "NEUMO-416",
+  especialidad: "Neumología",
+  tema: "Apnea obstructiva del sueño",
+  subtema: "Diagnóstico mediante estudio del sueño",
+  dificultad: "Baja",
+  caso: `Hombre de 51 años con obesidad, ronquido intenso, pausas respiratorias observadas por su pareja y somnolencia diurna. Presenta hipertensión arterial de difícil control.`,
+  pregunta: "¿Cuál es el estudio apropiado para confirmar apnea obstructiva del sueño?",
+  opciones: [
+    "Polisomnografía o prueba domiciliaria validada en pacientes apropiadamente seleccionados",
+    "Radiografía de tórax aislada",
+    "Gasometría arterial como única prueba diagnóstica",
+    "Electrocardiograma aislado",
+    "Tomografía de cráneo en todos los pacientes"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La polisomnografía es el estudio de referencia. Las pruebas domiciliarias pueden utilizarse en adultos no complicados con alta probabilidad clínica de apnea obstructiva. Si una prueba domiciliaria es negativa, no concluyente o técnicamente inadecuada pese a alta sospecha, se recomienda polisomnografía.`,
+  perlaENARM: "El ronquido y la somnolencia orientan, pero el diagnóstico requiere una prueba objetiva del sueño.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre apnea obstructiva del sueño.",
+    internacional: "AASM. Clinical Practice Guideline for Diagnostic Testing for Adult Obstructive Sleep Apnea, 2017."
+  },
+  bibliografia: "Kapur VK, et al. J Clin Sleep Med. 2017;13:479-504."
+},
+{
+  id: "NEUMO-417",
+  especialidad: "Neumología",
+  tema: "Apnea obstructiva del sueño",
+  subtema: "Tratamiento con presión positiva continua",
+  dificultad: "Baja",
+  caso: `Mujer de 56 años con somnolencia diurna, ronquido y polisomnografía compatible con apnea obstructiva del sueño moderada. No presenta una contraindicación para presión positiva y acepta tratamiento.`,
+  pregunta: "¿Cuál es una opción terapéutica de primera línea para muchos pacientes sintomáticos?",
+  opciones: [
+    "CPAP o presión positiva continua en la vía aérea",
+    "Oxígeno aislado como tratamiento universal",
+    "Antibióticos nocturnos",
+    "Corticosteroides sistémicos",
+    "Sedantes para aumentar el sueño profundo"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La CPAP mantiene abierta la vía aérea superior durante el sueño y es un tratamiento habitual para apnea obstructiva sintomática. Debe acompañarse de educación, ajuste de interfaz, evaluación de adherencia y medidas de estilo de vida. La elección terapéutica se individualiza según gravedad, síntomas y preferencias.`,
+  perlaENARM: "La CPAP corrige el colapso repetitivo de la vía aérea superior durante el sueño.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre tratamiento de apnea obstructiva del sueño.",
+    internacional: "AASM. Treatment of Adult Obstructive Sleep Apnea with Positive Airway Pressure, 2019."
+  },
+  bibliografia: "Patil SP, et al. J Clin Sleep Med. 2019;15:335-343."
+},
+{
+  id: "NEUMO-418",
+  especialidad: "Neumología",
+  tema: "Enfermedades pulmonares intersticiales",
+  subtema: "Patrón de neumonía intersticial no específica",
+  dificultad: "Media",
+  caso: `Mujer de 46 años con disnea progresiva, tos seca y enfermedad del tejido conectivo. La tomografía muestra vidrio despulido bilateral, reticulación fina y predominio basal, sin panalización extensa.`,
+  pregunta: "¿Qué patrón intersticial puede asociarse con enfermedades autoinmunes y mostrar este aspecto radiológico?",
+  opciones: [
+    "Neumonía intersticial no específica",
+    "Neumotórax a tensión",
+    "Edema agudo unilateral por obstrucción bronquial",
+    "Cuerpo extraño endobronquial",
+    "Tromboembolia pulmonar masiva como explicación única"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La neumonía intersticial no específica puede asociarse con enfermedades autoinmunes y mostrar vidrio despulido y reticulación basal, a menudo con menor panalización que la UIP. La interpretación requiere correlación clínica, exclusión de otras causas y valoración multidisciplinaria cuando el diagnóstico no sea claro.`,
+  perlaENARM: "Enfermedad autoinmune más vidrio despulido y reticulación basal obliga a considerar un patrón intersticial asociado.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre enfermedad pulmonar intersticial asociada a enfermedades autoinmunes.",
+    internacional: "ATS/ERS/JRS/ALAT. Idiopathic Pulmonary Fibrosis and Progressive Pulmonary Fibrosis Guideline, 2022."
+  },
+  bibliografia: "Raghu G, et al. Am J Respir Crit Care Med. 2022;205:e18-e47."
+},
+{
+  id: "NEUMO-419",
+  especialidad: "Neumología",
+  tema: "Enfermedades pulmonares intersticiales",
+  subtema: "Neumonitis por hipersensibilidad",
+  dificultad: "Media",
+  caso: `Hombre de 49 años con tos seca, disnea y episodios de escalofríos después de limpiar un palomar. La tomografía muestra vidrio despulido, nódulos centrilobulillares y atrapamiento aéreo.`,
+  pregunta: "¿Qué diagnóstico debe considerarse prioritariamente?",
+  opciones: [
+    "Neumonitis por hipersensibilidad",
+    "Neumotórax espontáneo",
+    "Apnea obstructiva del sueño",
+    "Edema pulmonar cardiogénico exclusivamente",
+    "Derrame pleural maligno como diagnóstico confirmado"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La exposición a antígenos aviares, los síntomas relacionados con la exposición y los hallazgos de pequeñas vías aéreas e intersticio sugieren neumonitis por hipersensibilidad. El diagnóstico integra historia de exposición, tomografía, pruebas complementarias y, en casos seleccionados, lavado broncoalveolar o biopsia.`,
+  perlaENARM: "La historia ambiental es central: exposición a aves o mohos puede orientar a neumonitis por hipersensibilidad.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre enfermedades pulmonares intersticiales.",
+    internacional: "ATS/JRS/ALAT. Diagnosis of Hypersensitivity Pneumonitis in Adults, 2020."
+  },
+  bibliografia: "Raghu G, et al. Am J Respir Crit Care Med. 2020;202:e36-e69."
+},
+{
+  id: "NEUMO-420",
+  especialidad: "Neumología",
+  tema: "Hemoptisis",
+  subtema: "Hemoptisis potencialmente mortal",
+  dificultad: "Media",
+  caso: `Hombre de 62 años con bronquiectasias presenta hemoptisis abundante, dificultad respiratoria y caída de la saturación. Continúa expulsando sangre y tiene dificultad para proteger la vía aérea.`,
+  pregunta: "¿Cuál es la prioridad inicial?",
+  opciones: [
+    "Estabilizar vía aérea y oxigenación, identificar el lado de sangrado y activar manejo urgente especializado",
+    "Solicitar espirometría antes de intervenir",
+    "Administrar anticoagulación plena",
+    "Enviar a domicilio con antitusígeno",
+    "Esperar el resultado de citología de esputo"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La hemoptisis amenazante se define principalmente por el riesgo de obstrucción de la vía aérea, hipoxemia e inestabilidad, no solo por el volumen estimado. Se priorizan vía aérea, respiración y circulación; cuando se identifica el lado del sangrado, puede colocarse en posición dependiente para proteger el pulmón no afectado. Puede requerir broncoscopia, embolización arterial bronquial o cirugía.`,
+  perlaENARM: "En hemoptisis masiva o amenazante, la prioridad es evitar asfixia y estabilizar al paciente.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para hemoptisis y urgencias respiratorias.",
+    internacional: "Society of Chest Imaging and Interventions. Consensus Guidelines for the Interventional Radiology Management of Hemoptysis, 2023."
+  },
+  bibliografia: "Singh A, et al. Indian J Radiol Imaging. 2023;33:535-544."
+},
+{
+  id: "NEUMO-421",
+  especialidad: "Neumología",
+  tema: "Hemoptisis",
+  subtema: "Estudio de hemoptisis no masiva",
+  dificultad: "Media",
+  caso: `Mujer de 59 años, fumadora, presenta episodios recurrentes de hemoptisis escasa y tos de varias semanas. La radiografía de tórax no muestra una causa evidente y la paciente está estable.`,
+  pregunta: "¿Qué estudio de imagen puede ayudar a identificar una lesión pulmonar o una causa vascular?",
+  opciones: [
+    "Tomografía de tórax con contraste según sospecha y función renal",
+    "Radiografía de rodilla",
+    "Ultrasonido obstétrico",
+    "Prueba de esfuerzo como único estudio",
+    "Ningún estudio adicional por tener radiografía normal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En hemoptisis recurrente, especialmente en fumadores, una radiografía normal no excluye malignidad ni otras causas. La tomografía con contraste o angiotomografía, según el escenario clínico, permite evaluar parénquima, vías respiratorias y vasos. La broncoscopia se considera de acuerdo con los hallazgos, persistencia y sospecha de lesión endobronquial.`,
+  perlaENARM: "Una radiografía normal no descarta una causa importante de hemoptisis, especialmente en pacientes con riesgo de cáncer pulmonar.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hemoptisis y evaluación de sospecha de cáncer pulmonar.",
+    internacional: "ACR. Appropriateness Criteria: Hemoptysis."
+  },
+  bibliografia: "American College of Radiology. ACR Appropriateness Criteria: Hemoptysis."
+},
+{
+  id: "NEUMO-422",
+  especialidad: "Neumología",
+  tema: "Sarcoidosis",
+  subtema: "Presentación radiológica clásica",
+  dificultad: "Baja",
+  caso: `Mujer de 32 años con tos seca leve y eritema nodoso en las piernas. La radiografía de tórax muestra adenopatías hiliares bilaterales simétricas, sin infiltrados pulmonares evidentes.`,
+  pregunta: "¿Qué diagnóstico debe considerarse?",
+  opciones: [
+    "Sarcoidosis en estadio radiológico I",
+    "EPOC grave",
+    "Neumotórax bilateral",
+    "Fibrosis pulmonar idiopática avanzada",
+    "Edema agudo pulmonar"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La sarcoidosis en estadio radiológico I se caracteriza por adenopatías hiliares bilaterales sin infiltrados parenquimatosos. El eritema nodoso y los síntomas articulares pueden acompañar presentaciones agudas. La evaluación debe considerar diagnósticos alternativos, especialmente infecciones y otras causas de adenopatías.`,
+  perlaENARM: "Sarcoidosis estadio I: adenopatías hiliares bilaterales sin infiltrados pulmonares.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente si está disponible para sarcoidosis.",
+    internacional: "ATS. Diagnosis and Detection of Sarcoidosis, 2020."
+  },
+  bibliografia: "Crouser ED, et al. Am J Respir Crit Care Med. 2020;201:e26-e51."
+},
+{
+  id: "NEUMO-423",
+  especialidad: "Neumología",
+  tema: "Sarcoidosis",
+  subtema: "Hipercalcemia asociada a granulomas",
+  dificultad: "Media",
+  caso: `Hombre de 44 años con sarcoidosis confirmada presenta poliuria, polidipsia y calcio sérico elevado. La PTH se encuentra suprimida y no hay datos de hiperparatiroidismo primario.`,
+  pregunta: "¿Cuál es el mecanismo que puede explicar la hipercalcemia en la sarcoidosis?",
+  opciones: [
+    "Producción extrarrenal de calcitriol por macrófagos activados en los granulomas",
+    "Deficiencia absoluta de vitamina D como mecanismo directo de hipercalcemia",
+    "Secreción obligatoria de PTH elevada",
+    "Disminución aislada de absorción intestinal de calcio",
+    "Producción de insulina por granulomas"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Los macrófagos activados en granulomas pueden expresar 1-alfa-hidroxilasa extrarrenal y aumentar la producción de calcitriol, favoreciendo absorción intestinal de calcio e hipercalcemia. Deben evaluarse función renal, calcio urinario, suplementos y otras causas de hipercalcemia. La intervención depende de gravedad y actividad de la enfermedad.`,
+  perlaENARM: "Sarcoidosis más hipercalcemia con PTH suprimida: considera producción extrarrenal de calcitriol.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente y literatura especializada sobre sarcoidosis y alteraciones del calcio.",
+    internacional: "ATS. Diagnosis and Detection of Sarcoidosis, 2020."
+  },
+  bibliografia: "Crouser ED, et al. Am J Respir Crit Care Med. 2020;201:e26-e51."
+},
+{
+  id: "NEUMO-424",
+  especialidad: "Neumología",
+  tema: "Asma",
+  subtema: "Control de factores modificables",
+  dificultad: "Baja",
+  caso: `Hombre de 36 años con asma mal controlada. Refiere uso frecuente de su inhalador de rescate. Al observarlo, utiliza una técnica inhalatoria incorrecta y reconoce que suspende el controlador cuando se siente bien.`,
+  pregunta: "¿Cuál es la intervención inicial más útil antes de aumentar automáticamente el escalón farmacológico?",
+  opciones: [
+    "Revisar técnica inhalatoria, adherencia, exposiciones y comorbilidades",
+    "Duplicar todos los medicamentos sin evaluación",
+    "Suspender el tratamiento controlador",
+    "Prescribir antibióticos en cada episodio de tos",
+    "Indicar reposo absoluto"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Antes de intensificar el tratamiento del asma deben verificarse diagnóstico, técnica inhalatoria, adherencia, exposición a desencadenantes y comorbilidades. La corrección de estos factores puede mejorar el control y evitar escalamiento innecesario. El plan debe incluir educación y seguimiento.`,
+  perlaENARM: "Antes de escalar tratamiento del asma, revisa técnica, adherencia y factores modificables.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre control del asma.",
+    internacional: "GINA. Global Strategy for Asthma Management and Prevention, 2025."
+  },
+  bibliografia: "Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2025."
+},
+{
+  id: "NEUMO-425",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Rehabilitación pulmonar",
+  dificultad: "Baja",
+  caso: `Mujer de 65 años con EPOC estable y disnea al subir escaleras pese al tratamiento inhalado apropiado. Ha reducido su actividad física por temor a quedarse sin aire.`,
+  pregunta: "¿Qué intervención no farmacológica puede mejorar capacidad de ejercicio, síntomas y calidad de vida?",
+  opciones: [
+    "Rehabilitación pulmonar individualizada",
+    "Reposo permanente",
+    "Antibióticos continuos para todos",
+    "Suspender los broncodilatadores",
+    "Evitar toda actividad supervisada"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La rehabilitación pulmonar combina ejercicio supervisado, educación y estrategias de autocuidado. Mejora disnea, tolerancia al ejercicio y calidad de vida en pacientes con EPOC, incluidos muchos después de una exacerbación cuando están clínicamente estables. Debe adaptarse a las comorbilidades y capacidades del paciente.`,
+  perlaENARM: "La rehabilitación pulmonar es parte del manejo integral de EPOC y no se sustituye con broncodilatadores.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre rehabilitación pulmonar y EPOC.",
+    internacional: "ATS. Pulmonary Rehabilitation for Adults with Chronic Respiratory Disease, 2023."
+  },
+  bibliografia: "Rochester CL, et al. Am J Respir Crit Care Med. 2023;208:e7-e26."
+},
+{
+  id: "NEUMO-426",
+  especialidad: "Neumología",
+  tema: "Neumonía adquirida en la comunidad",
+  subtema: "Indicaciones de evaluación hospitalaria",
+  dificultad: "Media",
+  caso: `Hombre de 70 años con neumonía, frecuencia respiratoria de 34 por minuto, saturación de 87%, confusión nueva y presión arterial de 90/58 mmHg. Su familia solicita tratamiento domiciliario.`,
+  pregunta: "¿Cuál es la decisión más segura?",
+  opciones: [
+    "Tratamiento ambulatorio con antitusígeno",
+    "Valoración hospitalaria urgente, estabilización y evaluación de gravedad",
+    "Esperar una semana para repetir radiografía",
+    "Indicar únicamente hidratación oral",
+    "Administrar sedantes para reducir la frecuencia respiratoria"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La taquipnea marcada, la hipoxemia, la confusión y la presión arterial baja indican enfermedad potencialmente grave. El paciente necesita evaluación urgente de oxigenación, perfusión, sepsis y requerimientos de soporte. La decisión de hospitalización y cuidados intensivos se basa en la gravedad global y la evolución.`,
+  perlaENARM: "La hipoxemia, la hipotensión y la alteración del estado mental son señales de alarma en neumonía.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumonía y criterios de hospitalización.",
+    internacional: "ATS/IDSA. Community-acquired Pneumonia Guideline, 2019."
+  },
+  bibliografia: "Metlay JP, et al. Am J Respir Crit Care Med. 2019;200:e45-e67."
+},
+{
+  id: "NEUMO-427",
+  especialidad: "Neumología",
+  tema: "Derrame pleural",
+  subtema: "Derrame asociado a insuficiencia cardiaca",
+  dificultad: "Media",
+  caso: `Hombre de 74 años con insuficiencia cardiaca descompensada, edema periférico, ingurgitación yugular y derrames pleurales bilaterales pequeños. No presenta fiebre ni dolor pleurítico y mejora tras diuresis.`,
+  pregunta: "¿Cuál es la explicación más probable del derrame pleural?",
+  opciones: [
+    "Trasudado por aumento de presiones hidrostáticas asociado a insuficiencia cardiaca",
+    "Empiema confirmado",
+    "Hemotórax espontáneo confirmado",
+    "Tuberculosis pleural confirmada",
+    "Quilotórax confirmado por la clínica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La insuficiencia cardiaca aumenta la presión hidrostática y puede producir derrames pleurales generalmente bilaterales. En un cuadro típico que responde a diuresis puede no ser necesaria una toracocentesis inmediata. Si el derrame es unilateral, desproporcionado, febril, persistente o atípico, debe investigarse otra etiología.`,
+  perlaENARM: "Los derrames bilaterales en insuficiencia cardiaca suelen ser trasudados; los datos atípicos obligan a ampliar el estudio.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre insuficiencia cardiaca y derrame pleural.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-428",
+  especialidad: "Neumología",
+  tema: "Tromboembolia pulmonar",
+  subtema: "Angiotomografía pulmonar",
+  dificultad: "Baja",
+  caso: `Mujer de 50 años con disnea súbita, dolor pleurítico y taquicardia. La probabilidad clínica de tromboembolia pulmonar es intermedia y el dímero D está elevado. La paciente está estable y no tiene contraindicación para contraste yodado.`,
+  pregunta: "¿Cuál es el estudio de imagen habitual para confirmar o excluir tromboembolia pulmonar en este contexto?",
+  opciones: [
+    "Angiotomografía pulmonar",
+    "Radiografía abdominal",
+    "Ecografía tiroidea",
+    "Espirometría aislada",
+    "Electroencefalograma"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La angiotomografía pulmonar es el estudio de imagen habitual para investigar tromboembolia pulmonar en pacientes estables cuando está indicada y no hay contraindicaciones. Si el contraste está contraindicado o existen circunstancias particulares, pueden considerarse alternativas como la gammagrafía V/Q.`,
+  perlaENARM: "En pacientes estables con sospecha apropiada de embolia pulmonar, la angiotomografía suele ser el estudio confirmatorio de elección.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre tromboembolia pulmonar.",
+    internacional: "ESC. Guidelines for Acute Pulmonary Embolism, 2019."
+  },
+  bibliografia: "Konstantinides SV, et al. Eur Heart J. 2020;41:543-603."
+},
+{
+  id: "NEUMO-429",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Exacerbación aguda y uso de corticosteroides",
+  dificultad: "Media",
+  caso: `Hombre de 68 años con EPOC presenta aumento de disnea, volumen de esputo y purulencia. No hay signos de choque, pero necesita tratamiento en urgencias. La evaluación descarta inicialmente neumotórax y edema pulmonar.`,
+  pregunta: "¿Qué tratamiento farmacológico suele formar parte del manejo de una exacerbación moderada o grave de EPOC?",
+  opciones: [
+    "Broncodilatadores de acción corta y un curso corto de corticosteroide sistémico cuando está indicado",
+    "Prednisona indefinida en todos los pacientes estables",
+    "Anticoagulación a dosis plena para toda exacerbación",
+    "Suspender todos los broncodilatadores",
+    "Antifúngicos sistémicos de rutina"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Las exacerbaciones se tratan con broncodilatadores de acción corta y, en muchos casos moderados o graves, un curso corto de corticosteroide sistémico. Los antibióticos se consideran cuando existen criterios clínicos de infección bacteriana, como aumento de purulencia junto con otros síntomas, o necesidad de ventilación, según el contexto. Se deben buscar diagnósticos alternativos y factores precipitantes.`,
+  perlaENARM: "En exacerbación de EPOC, los corticosteroides sistémicos se usan en cursos cortos cuando están indicados, no de manera indefinida.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para exacerbación de EPOC.",
+    internacional: "GOLD. Global Strategy for COPD, 2025."
+  },
+  bibliografia: "Global Initiative for Chronic Obstructive Lung Disease. GOLD Report. 2025."
+},
+{
+  id: "NEUMO-430",
+  especialidad: "Neumología",
+  tema: "Sarcoidosis",
+  subtema: "Indicaciones generales de tratamiento sistémico",
+  dificultad: "Media",
+  caso: `Mujer de 45 años con sarcoidosis pulmonar confirmada. Presenta disnea progresiva, descenso de la función pulmonar y uveítis activa que amenaza la visión. Se han evaluado diagnósticos infecciosos alternativos y no hay contraindicación inmediata para tratamiento inmunomodulador.`,
+  pregunta: "¿Cuál es el principio que debe guiar la decisión de iniciar tratamiento sistémico?",
+  opciones: [
+    "Tratar a todos los pacientes con sarcoidosis aunque estén asintomáticos y estables",
+    "Considerar tratamiento por deterioro funcional y afectación extrapulmonar con riesgo de daño orgánico",
+    "Esperar obligatoriamente a que aparezca fibrosis avanzada",
+    "Utilizar antibióticos como tratamiento específico de los granulomas",
+    "Evitar cualquier tratamiento aunque exista amenaza para la visión"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El tratamiento sistémico de la sarcoidosis se individualiza según actividad, síntomas, deterioro funcional y riesgo de daño irreversible. El compromiso ocular que amenaza la visión y la progresión pulmonar son razones importantes para considerar tratamiento, habitualmente con glucocorticoides y, cuando se requiere, fármacos ahorradores bajo seguimiento especializado. Deben excluirse infecciones y vigilar toxicidad.`,
+  perlaENARM: "En sarcoidosis, se trata el riesgo de daño orgánico y la enfermedad clínicamente significativa, no solo la presencia de granulomas.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente disponible para sarcoidosis y afectación ocular.",
+    internacional: "ATS. Diagnosis and Detection of Sarcoidosis, 2020; ERS. Treatment of Sarcoidosis, 2021."
+  },
+  bibliografia: "Crouser ED, et al. Am J Respir Crit Care Med. 2020;201:e26-e51. Baughman RP, et al. Eur Respir J. 2021;58:2004079."
+},
+  
+{
+  id: "NEUMO-381",
+  especialidad: "Neumología",
+  tema: "Asma",
+  subtema: "Diagnóstico clínico y variabilidad del flujo espiratorio",
+  dificultad: "Baja",
+  caso: `Mujer de 24 años con episodios recurrentes de sibilancias, tos nocturna y disnea que empeoran al exponerse al polvo y durante el ejercicio. Entre episodios permanece asintomática. La espirometría muestra obstrucción y, después de administrar salbutamol, el FEV1 aumenta 15% y 300 mL respecto al basal.`,
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "EPOC",
+    "Asma con reversibilidad significativa de la obstrucción",
+    "Fibrosis pulmonar idiopática",
+    "Neumonía adquirida en la comunidad",
+    "Hipertensión pulmonar primaria"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los síntomas variables, los desencadenantes y la reversibilidad significativa del FEV1 apoyan el diagnóstico de asma. En adultos, un incremento del FEV1 de al menos 12% y 200 mL respecto al basal es un criterio clásico de respuesta broncodilatadora; deben considerarse los criterios técnicos y la guía utilizada.`,
+  perlaENARM: "Asma: síntomas respiratorios variables más evidencia objetiva de variabilidad del flujo espiratorio.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico y tratamiento del asma.",
+    internacional: "GINA. Global Strategy for Asthma Management and Prevention, 2025."
+  },
+  bibliografia: "Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2025."
+},
+{
+  id: "NEUMO-382",
+  especialidad: "Neumología",
+  tema: "Asma",
+  subtema: "Tratamiento controlador inicial",
+  dificultad: "Baja",
+  caso: `Mujer de 27 años con diagnóstico confirmado de asma. Presenta síntomas dos o tres veces por semana y despertares nocturnos ocasionales. Utiliza salbutamol como único tratamiento y ha acudido recientemente a urgencias por una exacerbación.`,
+  pregunta: "¿Cuál es el principio terapéutico más importante para reducir el riesgo de nuevas exacerbaciones?",
+  opciones: [
+    "Mantener exclusivamente salbutamol a demanda",
+    "Iniciar un tratamiento que contenga corticosteroide inhalado",
+    "Indicar antibióticos de forma preventiva",
+    "Utilizar corticosteroides sistémicos diariamente en todos los pacientes",
+    "Evitar toda actividad física"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El tratamiento del asma debe incluir corticosteroide inhalado, de acuerdo con el escalón terapéutico y las características del paciente. Las estrategias con corticosteroide inhalado y formoterol como alivio, cuando están indicadas y disponibles, reducen exacerbaciones frente al uso exclusivo de un broncodilatador de acción corta. Deben revisarse técnica inhalatoria, adherencia y desencadenantes.`,
+  perlaENARM: "El salbutamol aislado no es la estrategia preferida de control del asma; el tratamiento debe contener corticosteroide inhalado.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre tratamiento escalonado del asma.",
+    internacional: "GINA. Global Strategy for Asthma Management and Prevention, 2025."
+  },
+  bibliografia: "Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2025."
+},
+{
+  id: "NEUMO-383",
+  especialidad: "Neumología",
+  tema: "Asma",
+  subtema: "Exacerbación aguda y criterios de gravedad",
+  dificultad: "Media",
+  caso: `Hombre de 31 años con asma que presenta disnea intensa, habla en palabras aisladas, utiliza músculos accesorios y tiene saturación de oxígeno de 88% al aire ambiente. Se encuentra taquicárdico y con sibilancias difusas.`,
+  pregunta: "¿Cuál es la conducta inicial más apropiada?",
+  opciones: [
+    "Enviar a domicilio con antihistamínico",
+    "Administrar únicamente antibiótico oral",
+    "Iniciar oxígeno titulado, broncodilatador inhalado de acción rápida y corticosteroide sistémico, con evaluación urgente",
+    "Solicitar espirometría antes de tratar",
+    "Administrar sedantes para disminuir el trabajo respiratorio"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La hipoxemia, el habla entrecortada y el uso de músculos accesorios indican una exacerbación grave. Se requiere tratamiento inmediato con broncodilatadores de acción rápida, oxígeno titulado y corticosteroides sistémicos tempranos. Según la respuesta, puede añadirse ipratropio y considerarse sulfato de magnesio intravenoso en casos graves. La somnolencia, el agotamiento o la disminución del murmullo vesicular son signos de alarma.`,
+  perlaENARM: "En el asma grave, primero se estabiliza al paciente; no se retrasa el tratamiento por realizar espirometría.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre exacerbación aguda del asma.",
+    internacional: "GINA. Global Strategy for Asthma Management and Prevention, 2025."
+  },
+  bibliografia: "Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2025."
+},
+{
+  id: "NEUMO-384",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Confirmación espirométrica",
+  dificultad: "Baja",
+  caso: `Hombre de 66 años con tabaquismo acumulado de 45 paquetes-año, tos crónica y disnea progresiva. Después de administrar broncodilatador, la espirometría muestra una relación FEV1/FVC de 0.62.`,
+  pregunta: "¿Qué hallazgo confirma la presencia de obstrucción persistente compatible con EPOC en el contexto clínico adecuado?",
+  opciones: [
+    "FEV1/FVC posbroncodilatador menor de 0.70",
+    "FEV1/FVC mayor de 0.90",
+    "Capacidad vital forzada normal de manera aislada",
+    "Radiografía normal",
+    "Presencia obligatoria de eosinofilia periférica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `GOLD utiliza una relación FEV1/FVC posbroncodilatador menor de 0.70 para confirmar obstrucción persistente en un paciente con síntomas y exposición compatibles. En personas cercanas al punto de corte puede ser útil repetir la espirometría y considerar el límite inferior de la normalidad según el contexto clínico.`,
+  perlaENARM: "EPOC: el diagnóstico requiere contexto clínico y espirometría posbroncodilatador con FEV1/FVC menor de 0.70.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para diagnóstico y tratamiento de EPOC.",
+    internacional: "GOLD. Global Strategy for the Diagnosis, Management, and Prevention of COPD, 2025."
+  },
+  bibliografia: "Global Initiative for Chronic Obstructive Lung Disease. GOLD Report. 2025."
+},
+{
+  id: "NEUMO-385",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Tratamiento broncodilatador de mantenimiento",
+  dificultad: "Baja",
+  caso: `Hombre de 69 años con EPOC confirmado por espirometría. Presenta disnea al caminar varias cuadras, no tiene exacerbaciones frecuentes y utiliza salbutamol varias veces al día. No existen datos de asma concomitante.`,
+  pregunta: "¿Cuál es una estrategia farmacológica de mantenimiento apropiada?",
+  opciones: [
+    "Prednisona diaria como monoterapia",
+    "Antibióticos continuos para todos los pacientes",
+    "Broncodilatador de acción prolongada, con elección según síntomas y riesgo de exacerbación",
+    "Corticosteroide inhalado como monoterapia obligatoria",
+    "Suspender todos los broncodilatadores"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `Los broncodilatadores inhalados de acción prolongada constituyen la base del tratamiento sintomático de la EPOC. Puede elegirse LABA o LAMA, y la combinación LABA/LAMA es apropiada para muchos pacientes con disnea persistente. Los corticosteroides inhalados se reservan para perfiles seleccionados, considerando exacerbaciones, eosinófilos y asma concomitante.`,
+  perlaENARM: "En EPOC estable, los broncodilatadores de acción prolongada son fundamentales; el corticosteroide inhalado no se indica universalmente.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para tratamiento farmacológico de EPOC.",
+    internacional: "GOLD. Global Strategy for COPD, 2025."
+  },
+  bibliografia: "Global Initiative for Chronic Obstructive Lung Disease. GOLD Report. 2025."
+},
+{
+  id: "NEUMO-386",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Oxigenoterapia domiciliaria prolongada",
+  dificultad: "Media",
+  caso: `Hombre de 71 años con EPOC estable, sin exacerbación reciente. En dos evaluaciones separadas presenta PaO2 de 54 mmHg al aire ambiente. No tiene una causa reversible inmediata de hipoxemia.`,
+  pregunta: "¿Cuál es la intervención que ha demostrado beneficio en supervivencia en pacientes seleccionados con hipoxemia crónica grave?",
+  opciones: [
+    "Oxígeno únicamente durante cinco minutos al día",
+    "Oxigenoterapia domiciliaria prolongada durante al menos 15 horas al día, si cumple criterios y se confirma estabilidad",
+    "Ventilación invasiva domiciliaria en todos los casos",
+    "Corticosteroides sistémicos indefinidos",
+    "Antibióticos profilácticos como única medida"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La oxigenoterapia domiciliaria prolongada mejora la supervivencia en pacientes con EPOC e hipoxemia crónica grave en reposo. Un criterio clásico es PaO2 de 55 mmHg o menos, o saturación de 88% o menos, con matices adicionales cuando existe cor pulmonale, edema o policitemia. La indicación debe reevaluarse después de una exacerbación y considerar seguridad, tabaquismo y riesgo de incendio.`,
+  perlaENARM: "La oxigenoterapia prolongada mejora supervivencia en EPOC con hipoxemia crónica grave, no por disnea aislada.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre oxigenoterapia en EPOC.",
+    internacional: "GOLD 2025; ATS. Home Oxygen Therapy for Adults with Chronic Lung Disease, 2020."
+  },
+  bibliografia: "Jacobs SS, et al. Am J Respir Crit Care Med. 2020;202:e121-e141. GOLD Report. 2025."
+},
+{
+  id: "NEUMO-387",
+  especialidad: "Neumología",
+  tema: "Neumonía adquirida en la comunidad",
+  subtema: "Diagnóstico inicial",
+  dificultad: "Baja",
+  caso: `Mujer de 52 años con fiebre, tos productiva, dolor torácico pleurítico y crepitantes focales en base derecha. La radiografía de tórax muestra una opacidad alveolar segmentaria.`,
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Neumotórax espontáneo",
+    "Neumonía adquirida en la comunidad",
+    "Asma intermitente",
+    "Apnea obstructiva del sueño",
+    "Fibrosis pulmonar idiopática"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La combinación de síntomas infecciosos respiratorios, hallazgos focales y un infiltrado nuevo en imagen es compatible con neumonía adquirida en la comunidad. La evaluación adicional depende de gravedad, comorbilidades y necesidad de hospitalización.`,
+  perlaENARM: "La imagen torácica y el cuadro clínico permiten distinguir la neumonía de otras causas de tos y fiebre.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para diagnóstico y tratamiento de neumonía adquirida en la comunidad.",
+    internacional: "ATS/IDSA. Diagnosis and Treatment of Adults with Community-acquired Pneumonia, 2019."
+  },
+  bibliografia: "Metlay JP, et al. Am J Respir Crit Care Med. 2019;200:e45-e67."
+},
+{
+  id: "NEUMO-388",
+  especialidad: "Neumología",
+  tema: "Neumonía adquirida en la comunidad",
+  subtema: "Estratificación de gravedad",
+  dificultad: "Media",
+  caso: `Hombre de 76 años con neumonía, confusión nueva, presión arterial de 88/54 mmHg, frecuencia respiratoria de 32 por minuto y urea elevada. Presenta saturación de oxígeno de 86% al aire ambiente.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Manejo ambulatorio sin reevaluación",
+    "Tratamiento exclusivo con antitusígeno",
+    "Evaluación hospitalaria urgente, estabilización y valoración de ingreso a cuidados intensivos según criterios de gravedad",
+    "Esperar 72 horas sin administrar tratamiento",
+    "Indicar únicamente hidratación oral en domicilio"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La hipotensión, la confusión, la taquipnea y la hipoxemia indican neumonía potencialmente grave. Se requiere estabilización, evaluación de sepsis, oxigenación y tratamiento antimicrobiano oportuno. La necesidad de cuidados intensivos se determina con criterios clínicos y de gravedad, no por un solo parámetro.`,
+  perlaENARM: "Hipotensión, confusión e hipoxemia en neumonía son datos de alarma que descartan un manejo ambulatorio rutinario.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumonía grave y sepsis.",
+    internacional: "ATS/IDSA. Community-acquired Pneumonia Guideline, 2019."
+  },
+  bibliografia: "Metlay JP, et al. Am J Respir Crit Care Med. 2019;200:e45-e67."
+},
+{
+  id: "NEUMO-389",
+  especialidad: "Neumología",
+  tema: "Neumonía adquirida en la comunidad",
+  subtema: "Tratamiento empírico ambulatorio",
+  dificultad: "Media",
+  caso: `Mujer de 38 años con neumonía confirmada por imagen, signos vitales estables, saturación de 97% y ausencia de comorbilidades relevantes o factores de riesgo para microorganismos resistentes. Puede tolerar la vía oral.`,
+  pregunta: "¿Cuál es una opción de tratamiento empírico ambulatorio recomendada en guías internacionales?",
+  opciones: [
+    "Amoxicilina oral, si no existen contraindicaciones y de acuerdo con la guía local",
+    "Vancomicina intravenosa obligatoria",
+    "Meropenem más linezolid para todos los pacientes",
+    "Antifúngico sistémico de rutina",
+    "Ningún antimicrobiano aunque la neumonía bacteriana sea probable"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En adultos ambulatorios sin comorbilidades relevantes ni factores de riesgo para resistencia, la amoxicilina es una opción de tratamiento empírico contemplada por ATS/IDSA. La selección final depende de alergias, epidemiología, resistencias locales y evaluación clínica.`,
+  perlaENARM: "El antibiótico empírico se selecciona según el sitio de atención, comorbilidades, alergias y resistencia local.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para antibióticos en neumonía adquirida en la comunidad.",
+    internacional: "ATS/IDSA. Community-acquired Pneumonia Guideline, 2019."
+  },
+  bibliografia: "Metlay JP, et al. Am J Respir Crit Care Med. 2019;200:e45-e67."
+},
+{
+  id: "NEUMO-390",
+  especialidad: "Neumología",
+  tema: "Neumonía nosocomial",
+  subtema: "Definición y momento de aparición",
+  dificultad: "Baja",
+  caso: `Hombre de 64 años hospitalizado por pancreatitis. Al sexto día desarrolla fiebre, secreciones purulentas, deterioro de la oxigenación y un infiltrado pulmonar nuevo. No estaba intubado.`,
+  pregunta: "¿Cómo se clasifica esta infección respiratoria si se confirma el diagnóstico?",
+  opciones: [
+    "Neumonía adquirida en la comunidad",
+    "Neumonía nosocomial no asociada a ventilación mecánica",
+    "Neumonía neonatal",
+    "Tuberculosis latente",
+    "Exacerbación aislada de asma"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La neumonía hospitalaria aparece al menos 48 horas después del ingreso y no estaba incubándose al momento de la admisión. La neumonía asociada a ventilación mecánica es una categoría distinta vinculada al uso de ventilación invasiva. Deben considerarse microorganismos y resistencias según factores de riesgo locales.`,
+  perlaENARM: "Neumonía hospitalaria: inicio después de 48 horas de ingreso; la asociada a ventilación requiere el contexto de ventilación invasiva.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumonía hospitalaria.",
+    internacional: "ATS/IDSA. Hospital-acquired and Ventilator-associated Pneumonia, 2016."
+  },
+  bibliografia: "Kalil AC, et al. Clin Infect Dis. 2016;63:e61-e111."
+},
+{
+  id: "NEUMO-391",
+  especialidad: "Neumología",
+  tema: "Tuberculosis",
+  subtema: "Diagnóstico microbiológico inicial",
+  dificultad: "Baja",
+  caso: `Hombre de 43 años con tos de cinco semanas, sudoración nocturna, pérdida de peso y hemoptisis escasa. La radiografía muestra una cavidad en el lóbulo superior derecho. Se sospecha tuberculosis pulmonar.`,
+  pregunta: "¿Qué estudio microbiológico inicial es especialmente útil para detectar rápidamente Mycobacterium tuberculosis y evaluar resistencia a rifampicina?",
+  opciones: [
+    "Prueba molecular rápida, como Xpert MTB/RIF o una plataforma equivalente validada",
+    "Prueba de esfuerzo cardiaco",
+    "Anticuerpos séricos inespecíficos",
+    "Dímero D",
+    "Espirometría aislada"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Las pruebas moleculares rápidas permiten detectar material genético de M. tuberculosis y, según la plataforma, mutaciones asociadas a resistencia a rifampicina. Deben complementarse con baciloscopia, cultivo y pruebas de sensibilidad conforme a las recomendaciones nacionales y al contexto clínico.`,
+  perlaENARM: "Ante sospecha de tuberculosis pulmonar, las pruebas moleculares rápidas aceleran la confirmación y la detección de resistencia.",
+  gpc: {
+    mexico: "NOM-006-SSA2-2013 para la prevención y control de la tuberculosis, junto con disposiciones nacionales vigentes.",
+    internacional: "WHO. Consolidated Guidelines on Tuberculosis: Module 3, Diagnosis, 2024."
+  },
+  bibliografia: "World Health Organization. WHO consolidated guidelines on tuberculosis: Module 3, Diagnosis. 2024."
+},
+{
+  id: "NEUMO-392",
+  especialidad: "Neumología",
+  tema: "Tuberculosis",
+  subtema: "Tratamiento de tuberculosis sensible",
+  dificultad: "Media",
+  caso: `Mujer de 29 años con tuberculosis pulmonar confirmada molecularmente. Las pruebas iniciales no muestran resistencia a rifampicina y no hay datos de enfermedad extrapulmonar complicada. Se inicia tratamiento bajo supervisión clínica.`,
+  pregunta: "¿Cuál corresponde al esquema inicial convencional para tuberculosis pulmonar sensible en la fase intensiva?",
+  opciones: [
+    "Rifampicina y etambutol exclusivamente durante dos semanas",
+    "Isoniazida, rifampicina, pirazinamida y etambutol",
+    "Azitromicina y ceftriaxona durante tres días",
+    "Fluconazol y anfotericina B",
+    "Monoterapia con isoniazida para la enfermedad activa"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El esquema convencional para tuberculosis pulmonar sensible utiliza una fase intensiva con isoniazida, rifampicina, pirazinamida y etambutol, seguida de una fase de continuación con fármacos apropiados. La duración y el esquema definitivo dependen de la sensibilidad, la localización, las condiciones del paciente y las recomendaciones nacionales vigentes. La monoterapia de una enfermedad activa favorece resistencia.`,
+  perlaENARM: "La tuberculosis activa sensible se trata con combinación de fármacos; nunca debe utilizarse monoterapia como tratamiento completo.",
+  gpc: {
+    mexico: "NOM-006-SSA2-2013 y lineamientos nacionales vigentes para tratamiento de tuberculosis.",
+    internacional: "WHO. Consolidated Guidelines on Tuberculosis: Module 4, Treatment."
+  },
+  bibliografia: "World Health Organization. WHO consolidated guidelines on tuberculosis: Module 4, Treatment."
+},
+{
+  id: "NEUMO-393",
+  especialidad: "Neumología",
+  tema: "Tuberculosis",
+  subtema: "Infección tuberculosa latente",
+  dificultad: "Media",
+  caso: `Mujer de 35 años, contacto domiciliario de un paciente con tuberculosis pulmonar bacilífera. La prueba de infección tuberculosa resulta positiva. No presenta tos ni síntomas constitucionales y la radiografía de tórax no muestra lesiones sugestivas de enfermedad activa.`,
+  pregunta: "¿Cuál es el paso fundamental antes de iniciar tratamiento preventivo?",
+  opciones: [
+    "Iniciar monoterapia para enfermedad activa sin evaluación",
+    "Descartar enfermedad tuberculosa activa mediante evaluación clínica y estudios indicados",
+    "Realizar broncoscopia a todos los contactos asintomáticos",
+    "Administrar corticosteroides sistémicos",
+    "No realizar ninguna valoración porque la prueba es positiva"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Antes del tratamiento preventivo se debe descartar tuberculosis activa, pues un esquema preventivo inadecuado puede favorecer resistencia y retrasar el tratamiento correcto. La evaluación incluye síntomas, radiografía y estudios microbiológicos cuando estén indicados. La selección del régimen preventivo depende de edad, embarazo, interacciones y sensibilidad del caso fuente.`,
+  perlaENARM: "Una prueba positiva de infección tuberculosa no distingue por sí sola infección latente de enfermedad activa.",
+  gpc: {
+    mexico: "Consultar normativa mexicana vigente sobre estudio de contactos y tratamiento preventivo de tuberculosis.",
+    internacional: "WHO. Consolidated Guidelines on Tuberculosis: tuberculosis preventive treatment."
+  },
+  bibliografia: "World Health Organization. WHO consolidated guidelines on tuberculosis: tuberculosis preventive treatment."
+},
+{
+  id: "NEUMO-394",
+  especialidad: "Neumología",
+  tema: "Tromboembolia pulmonar",
+  subtema: "Uso del dímero D en probabilidad clínica baja",
+  dificultad: "Media",
+  caso: `Mujer de 42 años con disnea leve de inicio reciente y dolor pleurítico. Está hemodinámicamente estable, sin hipoxemia significativa ni signos de trombosis venosa profunda. La valoración clínica indica probabilidad baja o intermedia de tromboembolia pulmonar.`,
+  pregunta: "¿Cuál es la estrategia diagnóstica apropiada en este contexto?",
+  opciones: [
+    "Solicitar dímero D y, si resulta negativo con un ensayo sensible y se aplica correctamente el algoritmo, descartar tromboembolia pulmonar",
+    "Indicar trombólisis inmediata",
+    "Realizar angiografía invasiva a todos los pacientes",
+    "Descartar tromboembolia únicamente con una radiografía normal",
+    "Iniciar anticoagulación indefinida sin confirmar ni estratificar"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En pacientes con probabilidad clínica baja o intermedia, un dímero D negativo mediante un ensayo sensible puede excluir tromboembolia pulmonar sin imagen adicional. En mayores de 50 años puede considerarse un umbral ajustado por edad cuando el método y el algoritmo lo permiten. Si la probabilidad es alta, no debe utilizarse un dímero D negativo como único método de exclusión.`,
+  perlaENARM: "El dímero D sirve principalmente para excluir tromboembolia en pacientes seleccionados; no confirma por sí solo el diagnóstico.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para diagnóstico de tromboembolia pulmonar.",
+    internacional: "ESC. Guidelines for the Diagnosis and Management of Acute Pulmonary Embolism, 2019."
+  },
+  bibliografia: "Konstantinides SV, et al. Eur Heart J. 2020;41:543-603."
+},
+{
+  id: "NEUMO-395",
+  especialidad: "Neumología",
+  tema: "Tromboembolia pulmonar",
+  subtema: "Tromboembolia pulmonar de alto riesgo",
+  dificultad: "Media",
+  caso: `Hombre de 58 años con disnea súbita, dolor torácico, presión arterial de 76/48 mmHg y taquicardia. El ecocardiograma a pie de cama muestra dilatación y disfunción del ventrículo derecho. La sospecha clínica de tromboembolia pulmonar es alta.`,
+  pregunta: "¿Cuál es la prioridad terapéutica si se confirma o existe una probabilidad clínica suficientemente alta y no hay contraindicaciones relevantes?",
+  opciones: [
+    "Observación ambulatoria",
+    "Trombólisis sistémica urgente en el contexto de alto riesgo, junto con soporte hemodinámico y manejo especializado",
+    "Antitusígeno oral",
+    "Esperar varios días para obtener un dímero D",
+    "Diurético como único tratamiento"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La hipotensión persistente y el choque con sospecha de tromboembolia pulmonar indican alto riesgo. Se requiere estabilización inmediata, anticoagulación cuando sea apropiada y consideración de reperfusión urgente, generalmente trombólisis sistémica si no existen contraindicaciones. En situaciones seleccionadas pueden considerarse procedimientos por catéter o embolectomía quirúrgica.`,
+  perlaENARM: "La tromboembolia pulmonar con choque es una emergencia; la reperfusión se considera según riesgo hemorrágico y disponibilidad.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para tromboembolia pulmonar aguda.",
+    internacional: "ESC. Guidelines for Acute Pulmonary Embolism, 2019."
+  },
+  bibliografia: "Konstantinides SV, et al. Eur Heart J. 2020;41:543-603."
+},
+{
+  id: "NEUMO-396",
+  especialidad: "Neumología",
+  tema: "Edema agudo pulmonar",
+  subtema: "Manifestaciones clínicas y estabilización inicial",
+  dificultad: "Baja",
+  caso: `Hombre de 72 años con insuficiencia cardiaca que presenta ortopnea súbita, disnea intensa, estertores bilaterales y expectoración espumosa. La saturación es de 82% y la presión arterial de 178/102 mmHg.`,
+  pregunta: "¿Cuál es la conducta inicial más apropiada?",
+  opciones: [
+    "Administrar líquidos intravenosos de manera rápida",
+    "Oxígeno titulado, soporte ventilatorio no invasivo si está indicado y tratamiento dirigido a la congestión y presión arterial",
+    "Antibióticos sin evaluar infección",
+    "Sedación profunda como primera medida",
+    "Enviar a domicilio con reposo"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El cuadro es compatible con edema agudo pulmonar cardiogénico. Se debe estabilizar la oxigenación y considerar CPAP o ventilación no invasiva cuando corresponda. Los diuréticos intravenosos se utilizan si existe congestión y los vasodilatadores pueden ser útiles en pacientes con presión arterial adecuada o elevada. Deben identificarse y tratarse los precipitantes.`,
+  perlaENARM: "En edema pulmonar cardiogénico hipertensivo, la ventilación no invasiva y la reducción apropiada de la poscarga pueden ser decisivas.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre insuficiencia cardiaca aguda y edema pulmonar.",
+    internacional: "ESC. Guidelines for Acute and Chronic Heart Failure, 2021."
+  },
+  bibliografia: "McDonagh TA, et al. Eur Heart J. 2021;42:3599-3726."
+},
+{
+  id: "NEUMO-397",
+  especialidad: "Neumología",
+  tema: "Síndrome de dificultad respiratoria aguda",
+  subtema: "Criterios diagnósticos",
+  dificultad: "Media",
+  caso: `Mujer de 55 años con sepsis de origen abdominal que desarrolla hipoxemia aguda e infiltrados bilaterales no explicados completamente por derrames, atelectasias o nódulos. Requiere ventilación mecánica con PEEP de 8 cmH2O y presenta PaO2/FiO2 de 140.`,
+  pregunta: "¿Qué clasificación de gravedad corresponde si cumple los demás criterios de Berlín?",
+  opciones: [
+    "SDRA leve",
+    "SDRA moderado",
+    "SDRA grave",
+    "No puede existir SDRA si hay sepsis",
+    "Insuficiencia respiratoria crónica estable"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La definición de Berlín clasifica la gravedad según PaO2/FiO2 con PEEP o CPAP de al menos 5 cmH2O: leve de 201 a 300, moderado de 101 a 200 y grave de 100 o menos. Una relación de 140 corresponde a SDRA moderado si se satisfacen los demás criterios diagnósticos.`,
+  perlaENARM: "Berlín: PaO2/FiO2 de 201–300 leve, 101–200 moderado y 100 o menos grave, con soporte de presión positiva.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre SDRA y ventilación mecánica protectora.",
+    internacional: "ARDS Definition Task Force. The Berlin Definition of ARDS, 2012."
+  },
+  bibliografia: "ARDS Definition Task Force. JAMA. 2012;307:2526-2533."
+},
+{
+  id: "NEUMO-398",
+  especialidad: "Neumología",
+  tema: "Síndrome de dificultad respiratoria aguda",
+  subtema: "Ventilación mecánica protectora",
+  dificultad: "Baja",
+  caso: `Hombre de 60 años con SDRA que requiere intubación y ventilación mecánica. Su peso corporal real es de 100 kg, pero su talla corresponde a un peso corporal predicho de 70 kg.`,
+  pregunta: "¿Qué volumen corriente inicial es apropiado como parte de una estrategia protectora?",
+  opciones: [
+    "12 mL/kg de peso real",
+    "10 mL/kg de peso real",
+    "Aproximadamente 6 mL/kg de peso corporal predicho",
+    "15 mL/kg de peso predicho",
+    "Un volumen fijo de 1,500 mL en todos los pacientes"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La ventilación protectora en SDRA utiliza un volumen corriente aproximado de 6 mL/kg de peso corporal predicho, con ajuste dentro de un rango de 4–8 mL/kg según mecánica y presiones. El peso predicho se estima a partir de talla y sexo, no del peso real. Se busca limitar la presión plateau y evitar lesión pulmonar inducida por ventilación.`,
+  perlaENARM: "En SDRA, calcula el volumen corriente con peso corporal predicho, no con el peso real del paciente.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para ventilación mecánica en SDRA.",
+    internacional: "ATS. Mechanical Ventilation in Adult Patients with ARDS, 2017."
+  },
+  bibliografia: "Fan E, et al. Am J Respir Crit Care Med. 2017;195:1253-1263."
+},
+{
+  id: "NEUMO-399",
+  especialidad: "Neumología",
+  tema: "Neumotórax",
+  subtema: "Neumotórax a tensión",
+  dificultad: "Baja",
+  caso: `Hombre de 35 años politraumatizado con disnea extrema, hipotensión, taquicardia y ausencia unilateral de murmullo vesicular. Presenta deterioro hemodinámico rápido durante la evaluación inicial.`,
+  pregunta: "¿Cuál es la conducta inmediata si se sospecha neumotórax a tensión?",
+  opciones: [
+    "Esperar la radiografía antes de intervenir",
+    "Descompresión pleural inmediata y colocación posterior de drenaje torácico",
+    "Administrar únicamente broncodilatadores",
+    "Solicitar tomografía antes de tratar",
+    "Observar durante seis horas"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El neumotórax a tensión causa compromiso ventilatorio y obstructivo del retorno venoso. Es un diagnóstico clínico en un paciente inestable y requiere descompresión inmediata, seguida de drenaje pleural definitivo. No debe retrasarse el tratamiento para obtener una imagen.`,
+  perlaENARM: "Neumotórax a tensión con inestabilidad: descomprimir primero, imagen después si es necesaria.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de trauma y urgencias.",
+    internacional: "ATLS. Advanced Trauma Life Support, 10th edition."
+  },
+  bibliografia: "American College of Surgeons. Advanced Trauma Life Support. 10th ed."
+},
+{
+  id: "NEUMO-400",
+  especialidad: "Neumología",
+  tema: "Neumotórax",
+  subtema: "Neumotórax espontáneo primario",
+  dificultad: "Media",
+  caso: `Hombre de 22 años, alto y delgado, sin enfermedad pulmonar conocida, presenta dolor pleurítico súbito y disnea leve. Está hemodinámicamente estable y la imagen confirma un neumotórax espontáneo primario pequeño.`,
+  pregunta: "¿Cuál es una opción de manejo en un paciente cuidadosamente seleccionado, estable y con síntomas mínimos?",
+  opciones: [
+    "Toracotomía inmediata en todos los casos",
+    "Observación clínica con analgesia y seguimiento estrecho, según tamaño, síntomas y guía local",
+    "Antibióticos intravenosos durante 14 días",
+    "Intubación endotraqueal obligatoria",
+    "Trombólisis sistémica"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En pacientes seleccionados con neumotórax espontáneo primario, estabilidad y síntomas mínimos, puede considerarse manejo conservador con observación y seguimiento adecuados. La decisión depende del tamaño, síntomas, comorbilidades, recursos y recomendaciones locales. El deterioro clínico requiere reevaluación y tratamiento oportuno.`,
+  perlaENARM: "No todos los neumotórax primarios estables requieren automáticamente un tubo torácico; el manejo depende del contexto clínico.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumotórax espontáneo.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-401",
+  especialidad: "Neumología",
+  tema: "Derrame pleural",
+  subtema: "Criterios de Light",
+  dificultad: "Media",
+  caso: `Hombre de 61 años con derrame pleural unilateral. El líquido pleural presenta proteínas de 3.8 g/dL y las proteínas séricas son de 6.5 g/dL. La relación LDH pleural/LDH sérica es de 0.62.`,
+  pregunta: "¿Cómo se clasifica el derrame con estos resultados?",
+  opciones: [
+    "Trasudado porque las proteínas pleurales son menores de 4 g/dL",
+    "Exudado porque cumple criterios de Light",
+    "Trasudado obligatoriamente por ser unilateral",
+    "Quilotórax confirmado",
+    "Hemotórax confirmado"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los criterios de Light clasifican un derrame como exudado si cumple al menos uno de los siguientes: relación proteínas pleurales/séricas mayor de 0.5, relación LDH pleural/sérica mayor de 0.6 o LDH pleural mayor de dos tercios del límite superior normal sérico. En este caso, ambas relaciones son mayores que los umbrales.`,
+  perlaENARM: "Basta un criterio de Light positivo para clasificar el derrame como exudado.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico de derrame pleural.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-402",
+  especialidad: "Neumología",
+  tema: "Derrame pleural",
+  subtema: "Indicación de toracocentesis diagnóstica",
+  dificultad: "Baja",
+  caso: `Mujer de 57 años con fiebre, dolor pleurítico y derrame pleural unilateral de tamaño moderado. No tiene diagnóstico previo que explique el derrame.`,
+  pregunta: "¿Cuál es el siguiente procedimiento diagnóstico habitual si existe una ventana segura para realizarlo?",
+  opciones: [
+    "Toracocentesis guiada por imagen para analizar el líquido pleural",
+    "Espirometría como única prueba",
+    "Biopsia pulmonar abierta inmediata",
+    "Prueba de esfuerzo",
+    "No estudiar el derrame porque siempre es benigno"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Un derrame unilateral nuevo, especialmente con fiebre o dolor pleurítico, requiere investigación etiológica. La toracocentesis guiada por ultrasonido permite obtener líquido para bioquímica, recuento celular, microbiología y citología según la sospecha. Los derrames pequeños o los asociados a una causa conocida pueden requerir un abordaje individualizado.`,
+  perlaENARM: "El ultrasonido pleural mejora la seguridad de la toracocentesis y ayuda a caracterizar el derrame.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre derrame pleural y procedimientos pleurales.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-403",
+  especialidad: "Neumología",
+  tema: "Empiema",
+  subtema: "Drenaje de infección pleural",
+  dificultad: "Media",
+  caso: `Hombre de 63 años con neumonía, fiebre persistente y derrame pleural. La toracocentesis muestra líquido purulento con pH de 6.95 y abundantes neutrófilos.`,
+  pregunta: "¿Cuál es el manejo más apropiado?",
+  opciones: [
+    "Antibiótico y drenaje pleural, con valoración especializada",
+    "Observación sin antimicrobianos",
+    "Diurético como único tratamiento",
+    "Anticoagulación indefinida",
+    "Broncodilatador inhalado como tratamiento definitivo"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El pus en el espacio pleural establece el diagnóstico de empiema y requiere antibióticos y drenaje del espacio infectado. Un pH pleural muy bajo también indica alto riesgo de derrame parapneumónico complicado y favorece el drenaje en el contexto apropiado. Debe considerarse manejo intrapleural o quirúrgico si el drenaje inicial es insuficiente.`,
+  perlaENARM: "Empiema = pus pleural; requiere control del foco mediante drenaje además de antibióticos.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumonía complicada y empiema.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-404",
+  especialidad: "Neumología",
+  tema: "Insuficiencia respiratoria aguda",
+  subtema: "Clasificación gasométrica",
+  dificultad: "Baja",
+  caso: `Mujer de 70 años con neumonía presenta PaO2 de 52 mmHg y PaCO2 de 34 mmHg al aire ambiente. Tiene taquipnea y saturación de oxígeno de 84%.`,
+  pregunta: "¿Qué tipo de insuficiencia respiratoria predomina?",
+  opciones: [
+    "Tipo I o hipoxémica",
+    "Tipo II o hipercápnica",
+    "Insuficiencia ventilatoria crónica sin hipoxemia",
+    "Alcalosis metabólica aislada",
+    "Acidosis respiratoria crónica compensada"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La insuficiencia respiratoria tipo I se caracteriza por hipoxemia, habitualmente con PaCO2 normal o baja. La tipo II se caracteriza por hipercapnia debido a ventilación alveolar insuficiente y puede acompañarse de hipoxemia. La causa de la hipoxemia debe investigarse y tratarse.`,
+  perlaENARM: "Tipo I: hipoxemia predominante. Tipo II: hipercapnia por falla ventilatoria.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre insuficiencia respiratoria aguda.",
+    internacional: "ERS/ATS. Clinical practice guidance relevant to acute respiratory failure and noninvasive ventilation."
+  },
+  bibliografia: "Rochwerg B, et al. Official ERS/ATS clinical practice guidelines: noninvasive ventilation for acute respiratory failure. Eur Respir J. 2017;50:1602426."
+},
+{
+  id: "NEUMO-405",
+  especialidad: "Neumología",
+  tema: "Insuficiencia respiratoria aguda",
+  subtema: "Oxigenoterapia y objetivo de saturación en EPOC",
+  dificultad: "Media",
+  caso: `Hombre de 68 años con EPOC grave llega por exacerbación, somnolencia leve y aumento de disnea. La saturación inicial es de 79% al aire ambiente. Se sospecha retención crónica de CO2.`,
+  pregunta: "¿Cuál es el objetivo inicial habitual de saturación mientras se obtiene una gasometría y se ajusta el soporte?",
+  opciones: [
+    "100% en todos los pacientes sin excepción",
+    "88–92%, con vigilancia gasométrica y ajuste clínico",
+    "75–80% de forma deliberada",
+    "No administrar oxígeno aunque exista hipoxemia",
+    "Mantener saturación menor de 85%"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En pacientes con EPOC y riesgo de insuficiencia respiratoria hipercápnica se utiliza habitualmente un objetivo inicial de SpO2 de 88–92%, mientras se evalúa la gasometría. El oxígeno no debe negarse ante hipoxemia; debe titularse para evitar hiperoxia innecesaria y detectar retención de CO2 o acidosis.`,
+  perlaENARM: "EPOC con riesgo de hipercapnia: oxígeno controlado, objetivo habitual de 88–92% y gasometría.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre oxigenoterapia y exacerbación de EPOC.",
+    internacional: "BTS. Guideline for Oxygen Use in Adults in Healthcare and Emergency Settings, 2017."
+  },
+  bibliografia: "O'Driscoll BR, et al. Thorax. 2017;72(Suppl 1):ii1-ii90."
+},
+{
+  id: "NEUMO-406",
+  especialidad: "Neumología",
+  tema: "Ventilación mecánica",
+  subtema: "Indicaciones de ventilación no invasiva en exacerbación de EPOC",
+  dificultad: "Media",
+  caso: `Hombre de 67 años con EPOC exacerbado pese a broncodilatadores y tratamiento inicial. La gasometría muestra pH de 7.28 y PaCO2 de 68 mmHg. Está despierto, coopera y protege la vía aérea.`,
+  pregunta: "¿Cuál es la intervención ventilatoria apropiada si no existen contraindicaciones?",
+  opciones: [
+    "Ventilación no invasiva con presión positiva y vigilancia estrecha",
+    "Oxígeno a alto flujo sin monitorización como única medida",
+    "Sedación profunda y alta a domicilio",
+    "Intubación obligatoria en todos los casos, independientemente de la respuesta",
+    "Suspender broncodilatadores"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La acidosis respiratoria hipercápnica en una exacerbación de EPOC es una indicación frecuente de ventilación no invasiva cuando el paciente coopera y puede proteger la vía aérea. Se requiere vigilancia de respuesta clínica y gasométrica, así como capacidad de intubación si existe deterioro, contraindicación o fracaso de la estrategia.`,
+  perlaENARM: "EPOC exacerbado con hipercapnia y acidosis: considerar ventilación no invasiva si el paciente es candidato.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre ventilación no invasiva en EPOC.",
+    internacional: "ERS/ATS. Clinical Practice Guidelines: Noninvasive Ventilation for Acute Respiratory Failure, 2017."
+  },
+  bibliografia: "Rochwerg B, et al. Eur Respir J. 2017;50:1602426."
+},
+{
+  id: "NEUMO-407",
+  especialidad: "Neumología",
+  tema: "Ventilación mecánica",
+  subtema: "Presión plateau y prevención de lesión pulmonar",
+  dificultad: "Media",
+  caso: `Paciente con SDRA en ventilación mecánica protectora. Se mide una presión plateau de 34 cmH2O con volumen corriente de 8 mL/kg de peso predicho.`,
+  pregunta: "¿Cuál es una meta habitual para limitar la sobredistensión alveolar?",
+  opciones: [
+    "Mantener presión plateau menor o igual a 30 cmH2O",
+    "Elevar siempre la presión plateau por encima de 40 cmH2O",
+    "Ignorar la presión plateau si la saturación es normal",
+    "Usar el peso real para calcular todos los volúmenes",
+    "Eliminar completamente la PEEP"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En SDRA se recomienda ventilación protectora y una presión plateau generalmente menor o igual a 30 cmH2O. Si se encuentra elevada, deben revisarse volumen corriente, distensibilidad, PEEP y mecánica pulmonar. La reducción del volumen corriente puede requerir aceptar hipercapnia permisiva si no existen contraindicaciones.`,
+  perlaENARM: "SDRA: volumen corriente bajo según peso predicho y presión plateau de 30 cmH2O o menos como objetivo habitual.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente de ventilación mecánica protectora.",
+    internacional: "ATS. Mechanical Ventilation in Adult Patients with ARDS, 2017."
+  },
+  bibliografia: "Fan E, et al. Am J Respir Crit Care Med. 2017;195:1253-1263."
+},
+{
+  id: "NEUMO-408",
+  especialidad: "Neumología",
+  tema: "Gasometría arterial",
+  subtema: "Acidosis respiratoria aguda",
+  dificultad: "Baja",
+  caso: `Hombre de 59 años con hipoventilación por depresión del sistema nervioso central. La gasometría muestra pH de 7.25, PaCO2 de 60 mmHg y bicarbonato de 26 mEq/L.`,
+  pregunta: "¿Cuál es la alteración ácido-base primaria?",
+  opciones: [
+    "Acidosis respiratoria aguda",
+    "Alcalosis respiratoria",
+    "Acidosis metabólica pura",
+    "Alcalosis metabólica",
+    "Trastorno mixto de alcalosis respiratoria y metabólica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El pH bajo indica acidemia y la elevación de PaCO2 señala un trastorno respiratorio primario. El bicarbonato cercano al rango normal es compatible con compensación renal limitada, como ocurre en un proceso agudo. Se debe tratar la causa de hipoventilación y evaluar la necesidad de soporte ventilatorio.`,
+  perlaENARM: "Acidemia con PaCO2 elevada sugiere acidosis respiratoria; valora la compensación y el contexto temporal.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para interpretación gasométrica e insuficiencia respiratoria.",
+    internacional: "Harrison's Principles of Internal Medicine, 21st edition. Acid-base disorders."
+  },
+  bibliografia: "Jameson JL, et al., eds. Harrison's Principles of Internal Medicine. 21st ed. McGraw Hill."
+},
+{
+  id: "NEUMO-409",
+  especialidad: "Neumología",
+  tema: "Gasometría arterial",
+  subtema: "Acidosis metabólica con compensación respiratoria",
+  dificultad: "Media",
+  caso: `Mujer de 45 años con cetoacidosis diabética. La gasometría muestra pH de 7.18, bicarbonato de 10 mEq/L y PaCO2 de 23 mmHg.`,
+  pregunta: "¿Cómo se interpreta inicialmente el trastorno ácido-base?",
+  opciones: [
+    "Acidosis metabólica con compensación respiratoria aproximadamente apropiada",
+    "Alcalosis metabólica primaria",
+    "Acidosis respiratoria aislada",
+    "Alcalosis respiratoria aislada",
+    "Gasometría normal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El pH bajo y el bicarbonato reducido indican acidosis metabólica. Con la fórmula de Winter, la PaCO2 esperada es aproximadamente 1.5 × 10 + 8 = 23 ± 2 mmHg. El valor observado se encuentra dentro del rango esperado, compatible con compensación respiratoria apropiada. La evaluación completa incluye anión gap, electrolitos y contexto clínico.`,
+  perlaENARM: "Fórmula de Winter: PaCO2 esperada = 1.5 × HCO3 + 8 ± 2 mmHg.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre cetoacidosis diabética y trastornos ácido-base.",
+    internacional: "ADA. Standards of Care in Diabetes, 2025."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes. Diabetes Care. 2025."
+},
+{
+  id: "NEUMO-410",
+  especialidad: "Neumología",
+  tema: "Fibrosis pulmonar idiopática",
+  subtema: "Patrón radiológico de neumonía intersticial usual",
+  dificultad: "Media",
+  caso: `Hombre de 72 años con disnea progresiva de dos años y crepitantes bibasales tipo velcro. La tomografía de alta resolución muestra reticulación subpleural y basal, bronquiectasias por tracción y panalización, sin hallazgos que sugieran otra causa.`,
+  pregunta: "¿Qué patrón tomográfico es más característico de fibrosis pulmonar idiopática?",
+  opciones: [
+    "Patrón de neumonía intersticial usual",
+    "Consolidación lobar aislada",
+    "Árbol en gemación difuso como hallazgo exclusivo",
+    "Neumotórax a tensión",
+    "Adenopatías hiliares aisladas sin cambios intersticiales"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La fibrosis pulmonar idiopática suele mostrar un patrón de neumonía intersticial usual, con predominio basal y subpleural, reticulación, bronquiectasias por tracción y panalización. El diagnóstico requiere excluir causas conocidas de enfermedad intersticial y discutir los hallazgos en un contexto multidisciplinario cuando sea necesario.`,
+  perlaENARM: "UIP: predominio basal y subpleural, reticulación, bronquiectasias por tracción y panalización.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre enfermedades pulmonares intersticiales.",
+    internacional: "ATS/ERS/JRS/ALAT. IPF Diagnosis and Management Guideline, 2022."
+  },
+  bibliografia: "Raghu G, et al. Am J Respir Crit Care Med. 2022;205:e18-e47."
+},
+{
+  id: "NEUMO-411",
+  especialidad: "Neumología",
+  tema: "Fibrosis pulmonar idiopática",
+  subtema: "Tratamiento antifibrótico",
+  dificultad: "Media",
+  caso: `Mujer de 66 años con fibrosis pulmonar idiopática confirmada por discusión multidisciplinaria. Presenta descenso progresivo de la capacidad vital forzada, sin exacerbación aguda. La función hepática permite valorar tratamiento farmacológico.`,
+  pregunta: "¿Qué fármacos antifibróticos pueden considerarse para reducir la progresión funcional?",
+  opciones: [
+    "Pirfenidona o nintedanib",
+    "Amoxicilina o azitromicina de manera indefinida",
+    "Salbutamol como único tratamiento antifibrótico",
+    "Isoniazida y rifampicina sin tuberculosis",
+    "Anticoagulación plena para todos los pacientes"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Pirfenidona y nintedanib han demostrado reducir la velocidad de deterioro de la función pulmonar en fibrosis pulmonar idiopática. No revierten la fibrosis ya establecida y requieren evaluación de contraindicaciones, interacciones y efectos adversos. El seguimiento incluye función pulmonar, síntomas y valoración de oxigenación.`,
+  perlaENARM: "Los antifibróticos enlentecen la pérdida de función pulmonar; no representan una cura de la fibrosis establecida.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre fibrosis pulmonar idiopática y disponibilidad terapéutica.",
+    internacional: "ATS/ERS/JRS/ALAT. IPF and Progressive Pulmonary Fibrosis Guideline, 2022."
+  },
+  bibliografia: "Raghu G, et al. Am J Respir Crit Care Med. 2022;205:e18-e47."
+},
+{
+  id: "NEUMO-412",
+  especialidad: "Neumología",
+  tema: "Bronquiectasias",
+  subtema: "Diagnóstico por tomografía de alta resolución",
+  dificultad: "Baja",
+  caso: `Mujer de 48 años con tos productiva crónica, esputo abundante e infecciones respiratorias recurrentes. La tomografía muestra bronquios dilatados, falta de afilamiento bronquial y bronquios visibles cerca de la pleura.`,
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Bronquiectasias",
+    "Asma sin cambios estructurales",
+    "Neumotórax espontáneo",
+    "Edema pulmonar cardiogénico aislado",
+    "Tromboembolia pulmonar aguda"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La dilatación bronquial permanente con pérdida del afilamiento y visualización de bronquios periféricos es característica de bronquiectasias. La tomografía de alta resolución confirma la alteración estructural. La evaluación etiológica puede incluir cultivo de esputo, inmunoglobulinas y estudios dirigidos según el contexto.`,
+  perlaENARM: "Bronquiectasias: dilatación bronquial permanente demostrada mediante tomografía de alta resolución.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre bronquiectasias.",
+    internacional: "ERS. Clinical Practice Guideline for Adult Bronchiectasis, 2017."
+  },
+  bibliografia: "Polverino E, et al. Eur Respir J. 2017;50:1700629."
+},
+{
+  id: "NEUMO-413",
+  especialidad: "Neumología",
+  tema: "Bronquiectasias",
+  subtema: "Manejo de secreciones y prevención de exacerbaciones",
+  dificultad: "Media",
+  caso: `Hombre de 54 años con bronquiectasias confirmadas por tomografía y expectoración diaria abundante. Presenta exacerbaciones frecuentes, sin datos actuales de insuficiencia respiratoria.`,
+  pregunta: "¿Qué intervención no farmacológica forma parte fundamental del tratamiento habitual?",
+  opciones: [
+    "Técnicas individualizadas de limpieza de vías respiratorias y fisioterapia respiratoria",
+    "Reposo absoluto permanente",
+    "Supresión sistemática de toda tos productiva",
+    "Restricción de líquidos en todos los pacientes",
+    "Evitar la vacunación"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Las técnicas de limpieza de vías respiratorias y la fisioterapia respiratoria adaptadas al paciente ayudan a movilizar secreciones. También se recomiendan vacunación, evaluación microbiológica durante exacerbaciones y tratamiento de causas subyacentes. Los antibióticos prolongados se reservan para pacientes seleccionados con exacerbaciones frecuentes y tras evaluación especializada.`,
+  perlaENARM: "En bronquiectasias, el control de secreciones y la prevención de infecciones son componentes esenciales.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre bronquiectasias y rehabilitación respiratoria.",
+    internacional: "ERS. Clinical Practice Guideline for Adult Bronchiectasis, 2017."
+  },
+  bibliografia: "Polverino E, et al. Eur Respir J. 2017;50:1700629."
+},
+{
+  id: "NEUMO-414",
+  especialidad: "Neumología",
+  tema: "Hipertensión pulmonar",
+  subtema: "Confirmación hemodinámica",
+  dificultad: "Media",
+  caso: `Mujer de 47 años con disnea progresiva, síncope de esfuerzo y dilatación del ventrículo derecho. El ecocardiograma estima presión pulmonar elevada y no identifica una causa cardiaca izquierda evidente.`,
+  pregunta: "¿Cuál es el estudio de referencia para confirmar y caracterizar hemodinámicamente la hipertensión pulmonar?",
+  opciones: [
+    "Cateterismo cardiaco derecho",
+    "Radiografía de tórax aislada",
+    "Espirometría aislada",
+    "Electrocardiograma como prueba confirmatoria definitiva",
+    "Prueba cutánea de tuberculina"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El cateterismo cardiaco derecho permite medir presión arterial pulmonar, presión de enclavamiento y gasto cardiaco, y calcular resistencia vascular pulmonar. El ecocardiograma es una herramienta de detección y estimación de probabilidad, pero no sustituye la confirmación hemodinámica cuando esta es necesaria.`,
+  perlaENARM: "Ecocardiograma para estimar probabilidad; cateterismo derecho para confirmar y caracterizar hemodinámicamente.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipertensión pulmonar.",
+    internacional: "ESC/ERS. Guidelines for the Diagnosis and Treatment of Pulmonary Hypertension, 2022."
+  },
+  bibliografia: "Humbert M, et al. Eur Heart J. 2022;43:3618-3731."
+},
+{
+  id: "NEUMO-415",
+  especialidad: "Neumología",
+  tema: "Hipertensión pulmonar",
+  subtema: "Búsqueda de enfermedad tromboembólica crónica",
+  dificultad: "Media",
+  caso: `Hombre de 60 años con disnea persistente meses después de una embolia pulmonar. El ecocardiograma sugiere hipertensión pulmonar y la gammagrafía de ventilación/perfusión está disponible para el estudio etiológico.`,
+  pregunta: "¿Qué estudio de imagen es especialmente útil para descartar enfermedad tromboembólica pulmonar crónica en este contexto?",
+  opciones: [
+    "Gammagrafía de ventilación/perfusión",
+    "Radiografía abdominal",
+    "Ultrasonido tiroideo",
+    "Espirometría sin imagen",
+    "Prueba de sudor"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La gammagrafía de ventilación/perfusión es una prueba de detección importante para enfermedad tromboembólica pulmonar crónica. Un estudio normal hace esta etiología poco probable en el contexto apropiado. Los resultados anormales requieren evaluación adicional en un centro con experiencia.`,
+  perlaENARM: "Ante hipertensión pulmonar inexplicada, recuerda descartar enfermedad tromboembólica crónica con gammagrafía V/Q.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipertensión pulmonar y enfermedad tromboembólica crónica.",
+    internacional: "ESC/ERS. Pulmonary Hypertension Guidelines, 2022."
+  },
+  bibliografia: "Humbert M, et al. Eur Heart J. 2022;43:3618-3731."
+},
+{
+  id: "NEUMO-416",
+  especialidad: "Neumología",
+  tema: "Apnea obstructiva del sueño",
+  subtema: "Diagnóstico mediante estudio del sueño",
+  dificultad: "Baja",
+  caso: `Hombre de 51 años con obesidad, ronquido intenso, pausas respiratorias observadas por su pareja y somnolencia diurna. Presenta hipertensión arterial de difícil control.`,
+  pregunta: "¿Cuál es el estudio apropiado para confirmar apnea obstructiva del sueño?",
+  opciones: [
+    "Polisomnografía o prueba domiciliaria validada en pacientes apropiadamente seleccionados",
+    "Radiografía de tórax aislada",
+    "Gasometría arterial como única prueba diagnóstica",
+    "Electrocardiograma aislado",
+    "Tomografía de cráneo en todos los pacientes"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La polisomnografía es el estudio de referencia. Las pruebas domiciliarias pueden utilizarse en adultos no complicados con alta probabilidad clínica de apnea obstructiva. Si una prueba domiciliaria es negativa, no concluyente o técnicamente inadecuada pese a alta sospecha, se recomienda polisomnografía.`,
+  perlaENARM: "El ronquido y la somnolencia orientan, pero el diagnóstico requiere una prueba objetiva del sueño.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre apnea obstructiva del sueño.",
+    internacional: "AASM. Clinical Practice Guideline for Diagnostic Testing for Adult Obstructive Sleep Apnea, 2017."
+  },
+  bibliografia: "Kapur VK, et al. J Clin Sleep Med. 2017;13:479-504."
+},
+{
+  id: "NEUMO-417",
+  especialidad: "Neumología",
+  tema: "Apnea obstructiva del sueño",
+  subtema: "Tratamiento con presión positiva continua",
+  dificultad: "Baja",
+  caso: `Mujer de 56 años con somnolencia diurna, ronquido y polisomnografía compatible con apnea obstructiva del sueño moderada. No presenta una contraindicación para presión positiva y acepta tratamiento.`,
+  pregunta: "¿Cuál es una opción terapéutica de primera línea para muchos pacientes sintomáticos?",
+  opciones: [
+    "CPAP o presión positiva continua en la vía aérea",
+    "Oxígeno aislado como tratamiento universal",
+    "Antibióticos nocturnos",
+    "Corticosteroides sistémicos",
+    "Sedantes para aumentar el sueño profundo"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La CPAP mantiene abierta la vía aérea superior durante el sueño y es un tratamiento habitual para apnea obstructiva sintomática. Debe acompañarse de educación, ajuste de interfaz, evaluación de adherencia y medidas de estilo de vida. La elección terapéutica se individualiza según gravedad, síntomas y preferencias.`,
+  perlaENARM: "La CPAP corrige el colapso repetitivo de la vía aérea superior durante el sueño.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre tratamiento de apnea obstructiva del sueño.",
+    internacional: "AASM. Treatment of Adult Obstructive Sleep Apnea with Positive Airway Pressure, 2019."
+  },
+  bibliografia: "Patil SP, et al. J Clin Sleep Med. 2019;15:335-343."
+},
+{
+  id: "NEUMO-418",
+  especialidad: "Neumología",
+  tema: "Enfermedades pulmonares intersticiales",
+  subtema: "Patrón de neumonía intersticial no específica",
+  dificultad: "Media",
+  caso: `Mujer de 46 años con disnea progresiva, tos seca y enfermedad del tejido conectivo. La tomografía muestra vidrio despulido bilateral, reticulación fina y predominio basal, sin panalización extensa.`,
+  pregunta: "¿Qué patrón intersticial puede asociarse con enfermedades autoinmunes y mostrar este aspecto radiológico?",
+  opciones: [
+    "Neumonía intersticial no específica",
+    "Neumotórax a tensión",
+    "Edema agudo unilateral por obstrucción bronquial",
+    "Cuerpo extraño endobronquial",
+    "Tromboembolia pulmonar masiva como explicación única"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La neumonía intersticial no específica puede asociarse con enfermedades autoinmunes y mostrar vidrio despulido y reticulación basal, a menudo con menor panalización que la UIP. La interpretación requiere correlación clínica, exclusión de otras causas y valoración multidisciplinaria cuando el diagnóstico no sea claro.`,
+  perlaENARM: "Enfermedad autoinmune más vidrio despulido y reticulación basal obliga a considerar un patrón intersticial asociado.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre enfermedad pulmonar intersticial asociada a enfermedades autoinmunes.",
+    internacional: "ATS/ERS/JRS/ALAT. Idiopathic Pulmonary Fibrosis and Progressive Pulmonary Fibrosis Guideline, 2022."
+  },
+  bibliografia: "Raghu G, et al. Am J Respir Crit Care Med. 2022;205:e18-e47."
+},
+{
+  id: "NEUMO-419",
+  especialidad: "Neumología",
+  tema: "Enfermedades pulmonares intersticiales",
+  subtema: "Neumonitis por hipersensibilidad",
+  dificultad: "Media",
+  caso: `Hombre de 49 años con tos seca, disnea y episodios de escalofríos después de limpiar un palomar. La tomografía muestra vidrio despulido, nódulos centrilobulillares y atrapamiento aéreo.`,
+  pregunta: "¿Qué diagnóstico debe considerarse prioritariamente?",
+  opciones: [
+    "Neumonitis por hipersensibilidad",
+    "Neumotórax espontáneo",
+    "Apnea obstructiva del sueño",
+    "Edema pulmonar cardiogénico exclusivamente",
+    "Derrame pleural maligno como diagnóstico confirmado"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La exposición a antígenos aviares, los síntomas relacionados con la exposición y los hallazgos de pequeñas vías aéreas e intersticio sugieren neumonitis por hipersensibilidad. El diagnóstico integra historia de exposición, tomografía, pruebas complementarias y, en casos seleccionados, lavado broncoalveolar o biopsia.`,
+  perlaENARM: "La historia ambiental es central: exposición a aves o mohos puede orientar a neumonitis por hipersensibilidad.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre enfermedades pulmonares intersticiales.",
+    internacional: "ATS/JRS/ALAT. Diagnosis of Hypersensitivity Pneumonitis in Adults, 2020."
+  },
+  bibliografia: "Raghu G, et al. Am J Respir Crit Care Med. 2020;202:e36-e69."
+},
+{
+  id: "NEUMO-420",
+  especialidad: "Neumología",
+  tema: "Hemoptisis",
+  subtema: "Hemoptisis potencialmente mortal",
+  dificultad: "Media",
+  caso: `Hombre de 62 años con bronquiectasias presenta hemoptisis abundante, dificultad respiratoria y caída de la saturación. Continúa expulsando sangre y tiene dificultad para proteger la vía aérea.`,
+  pregunta: "¿Cuál es la prioridad inicial?",
+  opciones: [
+    "Estabilizar vía aérea y oxigenación, identificar el lado de sangrado y activar manejo urgente especializado",
+    "Solicitar espirometría antes de intervenir",
+    "Administrar anticoagulación plena",
+    "Enviar a domicilio con antitusígeno",
+    "Esperar el resultado de citología de esputo"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La hemoptisis amenazante se define principalmente por el riesgo de obstrucción de la vía aérea, hipoxemia e inestabilidad, no solo por el volumen estimado. Se priorizan vía aérea, respiración y circulación; cuando se identifica el lado del sangrado, puede colocarse en posición dependiente para proteger el pulmón no afectado. Puede requerir broncoscopia, embolización arterial bronquial o cirugía.`,
+  perlaENARM: "En hemoptisis masiva o amenazante, la prioridad es evitar asfixia y estabilizar al paciente.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para hemoptisis y urgencias respiratorias.",
+    internacional: "Society of Chest Imaging and Interventions. Consensus Guidelines for the Interventional Radiology Management of Hemoptysis, 2023."
+  },
+  bibliografia: "Singh A, et al. Indian J Radiol Imaging. 2023;33:535-544."
+},
+{
+  id: "NEUMO-421",
+  especialidad: "Neumología",
+  tema: "Hemoptisis",
+  subtema: "Estudio de hemoptisis no masiva",
+  dificultad: "Media",
+  caso: `Mujer de 59 años, fumadora, presenta episodios recurrentes de hemoptisis escasa y tos de varias semanas. La radiografía de tórax no muestra una causa evidente y la paciente está estable.`,
+  pregunta: "¿Qué estudio de imagen puede ayudar a identificar una lesión pulmonar o una causa vascular?",
+  opciones: [
+    "Tomografía de tórax con contraste según sospecha y función renal",
+    "Radiografía de rodilla",
+    "Ultrasonido obstétrico",
+    "Prueba de esfuerzo como único estudio",
+    "Ningún estudio adicional por tener radiografía normal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En hemoptisis recurrente, especialmente en fumadores, una radiografía normal no excluye malignidad ni otras causas. La tomografía con contraste o angiotomografía, según el escenario clínico, permite evaluar parénquima, vías respiratorias y vasos. La broncoscopia se considera de acuerdo con los hallazgos, persistencia y sospecha de lesión endobronquial.`,
+  perlaENARM: "Una radiografía normal no descarta una causa importante de hemoptisis, especialmente en pacientes con riesgo de cáncer pulmonar.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hemoptisis y evaluación de sospecha de cáncer pulmonar.",
+    internacional: "ACR. Appropriateness Criteria: Hemoptysis."
+  },
+  bibliografia: "American College of Radiology. ACR Appropriateness Criteria: Hemoptysis."
+},
+{
+  id: "NEUMO-422",
+  especialidad: "Neumología",
+  tema: "Sarcoidosis",
+  subtema: "Presentación radiológica clásica",
+  dificultad: "Baja",
+  caso: `Mujer de 32 años con tos seca leve y eritema nodoso en las piernas. La radiografía de tórax muestra adenopatías hiliares bilaterales simétricas, sin infiltrados pulmonares evidentes.`,
+  pregunta: "¿Qué diagnóstico debe considerarse?",
+  opciones: [
+    "Sarcoidosis en estadio radiológico I",
+    "EPOC grave",
+    "Neumotórax bilateral",
+    "Fibrosis pulmonar idiopática avanzada",
+    "Edema agudo pulmonar"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La sarcoidosis en estadio radiológico I se caracteriza por adenopatías hiliares bilaterales sin infiltrados parenquimatosos. El eritema nodoso y los síntomas articulares pueden acompañar presentaciones agudas. La evaluación debe considerar diagnósticos alternativos, especialmente infecciones y otras causas de adenopatías.`,
+  perlaENARM: "Sarcoidosis estadio I: adenopatías hiliares bilaterales sin infiltrados pulmonares.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente si está disponible para sarcoidosis.",
+    internacional: "ATS. Diagnosis and Detection of Sarcoidosis, 2020."
+  },
+  bibliografia: "Crouser ED, et al. Am J Respir Crit Care Med. 2020;201:e26-e51."
+},
+{
+  id: "NEUMO-423",
+  especialidad: "Neumología",
+  tema: "Sarcoidosis",
+  subtema: "Hipercalcemia asociada a granulomas",
+  dificultad: "Media",
+  caso: `Hombre de 44 años con sarcoidosis confirmada presenta poliuria, polidipsia y calcio sérico elevado. La PTH se encuentra suprimida y no hay datos de hiperparatiroidismo primario.`,
+  pregunta: "¿Cuál es el mecanismo que puede explicar la hipercalcemia en la sarcoidosis?",
+  opciones: [
+    "Producción extrarrenal de calcitriol por macrófagos activados en los granulomas",
+    "Deficiencia absoluta de vitamina D como mecanismo directo de hipercalcemia",
+    "Secreción obligatoria de PTH elevada",
+    "Disminución aislada de absorción intestinal de calcio",
+    "Producción de insulina por granulomas"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Los macrófagos activados en granulomas pueden expresar 1-alfa-hidroxilasa extrarrenal y aumentar la producción de calcitriol, favoreciendo absorción intestinal de calcio e hipercalcemia. Deben evaluarse función renal, calcio urinario, suplementos y otras causas de hipercalcemia. La intervención depende de gravedad y actividad de la enfermedad.`,
+  perlaENARM: "Sarcoidosis más hipercalcemia con PTH suprimida: considera producción extrarrenal de calcitriol.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente y literatura especializada sobre sarcoidosis y alteraciones del calcio.",
+    internacional: "ATS. Diagnosis and Detection of Sarcoidosis, 2020."
+  },
+  bibliografia: "Crouser ED, et al. Am J Respir Crit Care Med. 2020;201:e26-e51."
+},
+{
+  id: "NEUMO-424",
+  especialidad: "Neumología",
+  tema: "Asma",
+  subtema: "Control de factores modificables",
+  dificultad: "Baja",
+  caso: `Hombre de 36 años con asma mal controlada. Refiere uso frecuente de su inhalador de rescate. Al observarlo, utiliza una técnica inhalatoria incorrecta y reconoce que suspende el controlador cuando se siente bien.`,
+  pregunta: "¿Cuál es la intervención inicial más útil antes de aumentar automáticamente el escalón farmacológico?",
+  opciones: [
+    "Revisar técnica inhalatoria, adherencia, exposiciones y comorbilidades",
+    "Duplicar todos los medicamentos sin evaluación",
+    "Suspender el tratamiento controlador",
+    "Prescribir antibióticos en cada episodio de tos",
+    "Indicar reposo absoluto"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Antes de intensificar el tratamiento del asma deben verificarse diagnóstico, técnica inhalatoria, adherencia, exposición a desencadenantes y comorbilidades. La corrección de estos factores puede mejorar el control y evitar escalamiento innecesario. El plan debe incluir educación y seguimiento.`,
+  perlaENARM: "Antes de escalar tratamiento del asma, revisa técnica, adherencia y factores modificables.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre control del asma.",
+    internacional: "GINA. Global Strategy for Asthma Management and Prevention, 2025."
+  },
+  bibliografia: "Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2025."
+},
+{
+  id: "NEUMO-425",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Rehabilitación pulmonar",
+  dificultad: "Baja",
+  caso: `Mujer de 65 años con EPOC estable y disnea al subir escaleras pese al tratamiento inhalado apropiado. Ha reducido su actividad física por temor a quedarse sin aire.`,
+  pregunta: "¿Qué intervención no farmacológica puede mejorar capacidad de ejercicio, síntomas y calidad de vida?",
+  opciones: [
+    "Rehabilitación pulmonar individualizada",
+    "Reposo permanente",
+    "Antibióticos continuos para todos",
+    "Suspender los broncodilatadores",
+    "Evitar toda actividad supervisada"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La rehabilitación pulmonar combina ejercicio supervisado, educación y estrategias de autocuidado. Mejora disnea, tolerancia al ejercicio y calidad de vida en pacientes con EPOC, incluidos muchos después de una exacerbación cuando están clínicamente estables. Debe adaptarse a las comorbilidades y capacidades del paciente.`,
+  perlaENARM: "La rehabilitación pulmonar es parte del manejo integral de EPOC y no se sustituye con broncodilatadores.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre rehabilitación pulmonar y EPOC.",
+    internacional: "ATS. Pulmonary Rehabilitation for Adults with Chronic Respiratory Disease, 2023."
+  },
+  bibliografia: "Rochester CL, et al. Am J Respir Crit Care Med. 2023;208:e7-e26."
+},
+{
+  id: "NEUMO-426",
+  especialidad: "Neumología",
+  tema: "Neumonía adquirida en la comunidad",
+  subtema: "Indicaciones de evaluación hospitalaria",
+  dificultad: "Media",
+  caso: `Hombre de 70 años con neumonía, frecuencia respiratoria de 34 por minuto, saturación de 87%, confusión nueva y presión arterial de 90/58 mmHg. Su familia solicita tratamiento domiciliario.`,
+  pregunta: "¿Cuál es la decisión más segura?",
+  opciones: [
+    "Tratamiento ambulatorio con antitusígeno",
+    "Valoración hospitalaria urgente, estabilización y evaluación de gravedad",
+    "Esperar una semana para repetir radiografía",
+    "Indicar únicamente hidratación oral",
+    "Administrar sedantes para reducir la frecuencia respiratoria"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La taquipnea marcada, la hipoxemia, la confusión y la presión arterial baja indican enfermedad potencialmente grave. El paciente necesita evaluación urgente de oxigenación, perfusión, sepsis y requerimientos de soporte. La decisión de hospitalización y cuidados intensivos se basa en la gravedad global y la evolución.`,
+  perlaENARM: "La hipoxemia, la hipotensión y la alteración del estado mental son señales de alarma en neumonía.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumonía y criterios de hospitalización.",
+    internacional: "ATS/IDSA. Community-acquired Pneumonia Guideline, 2019."
+  },
+  bibliografia: "Metlay JP, et al. Am J Respir Crit Care Med. 2019;200:e45-e67."
+},
+{
+  id: "NEUMO-427",
+  especialidad: "Neumología",
+  tema: "Derrame pleural",
+  subtema: "Derrame asociado a insuficiencia cardiaca",
+  dificultad: "Media",
+  caso: `Hombre de 74 años con insuficiencia cardiaca descompensada, edema periférico, ingurgitación yugular y derrames pleurales bilaterales pequeños. No presenta fiebre ni dolor pleurítico y mejora tras diuresis.`,
+  pregunta: "¿Cuál es la explicación más probable del derrame pleural?",
+  opciones: [
+    "Trasudado por aumento de presiones hidrostáticas asociado a insuficiencia cardiaca",
+    "Empiema confirmado",
+    "Hemotórax espontáneo confirmado",
+    "Tuberculosis pleural confirmada",
+    "Quilotórax confirmado por la clínica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La insuficiencia cardiaca aumenta la presión hidrostática y puede producir derrames pleurales generalmente bilaterales. En un cuadro típico que responde a diuresis puede no ser necesaria una toracocentesis inmediata. Si el derrame es unilateral, desproporcionado, febril, persistente o atípico, debe investigarse otra etiología.`,
+  perlaENARM: "Los derrames bilaterales en insuficiencia cardiaca suelen ser trasudados; los datos atípicos obligan a ampliar el estudio.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre insuficiencia cardiaca y derrame pleural.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-428",
+  especialidad: "Neumología",
+  tema: "Tromboembolia pulmonar",
+  subtema: "Angiotomografía pulmonar",
+  dificultad: "Baja",
+  caso: `Mujer de 50 años con disnea súbita, dolor pleurítico y taquicardia. La probabilidad clínica de tromboembolia pulmonar es intermedia y el dímero D está elevado. La paciente está estable y no tiene contraindicación para contraste yodado.`,
+  pregunta: "¿Cuál es el estudio de imagen habitual para confirmar o excluir tromboembolia pulmonar en este contexto?",
+  opciones: [
+    "Angiotomografía pulmonar",
+    "Radiografía abdominal",
+    "Ecografía tiroidea",
+    "Espirometría aislada",
+    "Electroencefalograma"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La angiotomografía pulmonar es el estudio de imagen habitual para investigar tromboembolia pulmonar en pacientes estables cuando está indicada y no hay contraindicaciones. Si el contraste está contraindicado o existen circunstancias particulares, pueden considerarse alternativas como la gammagrafía V/Q.`,
+  perlaENARM: "En pacientes estables con sospecha apropiada de embolia pulmonar, la angiotomografía suele ser el estudio confirmatorio de elección.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre tromboembolia pulmonar.",
+    internacional: "ESC. Guidelines for Acute Pulmonary Embolism, 2019."
+  },
+  bibliografia: "Konstantinides SV, et al. Eur Heart J. 2020;41:543-603."
+},
+{
+  id: "NEUMO-429",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Exacerbación aguda y uso de corticosteroides",
+  dificultad: "Media",
+  caso: `Hombre de 68 años con EPOC presenta aumento de disnea, volumen de esputo y purulencia. No hay signos de choque, pero necesita tratamiento en urgencias. La evaluación descarta inicialmente neumotórax y edema pulmonar.`,
+  pregunta: "¿Qué tratamiento farmacológico suele formar parte del manejo de una exacerbación moderada o grave de EPOC?",
+  opciones: [
+    "Broncodilatadores de acción corta y un curso corto de corticosteroide sistémico cuando está indicado",
+    "Prednisona indefinida en todos los pacientes estables",
+    "Anticoagulación a dosis plena para toda exacerbación",
+    "Suspender todos los broncodilatadores",
+    "Antifúngicos sistémicos de rutina"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Las exacerbaciones se tratan con broncodilatadores de acción corta y, en muchos casos moderados o graves, un curso corto de corticosteroide sistémico. Los antibióticos se consideran cuando existen criterios clínicos de infección bacteriana, como aumento de purulencia junto con otros síntomas, o necesidad de ventilación, según el contexto. Se deben buscar diagnósticos alternativos y factores precipitantes.`,
+  perlaENARM: "En exacerbación de EPOC, los corticosteroides sistémicos se usan en cursos cortos cuando están indicados, no de manera indefinida.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para exacerbación de EPOC.",
+    internacional: "GOLD. Global Strategy for COPD, 2025."
+  },
+  bibliografia: "Global Initiative for Chronic Obstructive Lung Disease. GOLD Report. 2025."
+},
+{
+  id: "NEUMO-430",
+  especialidad: "Neumología",
+  tema: "Sarcoidosis",
+  subtema: "Indicaciones generales de tratamiento sistémico",
+  dificultad: "Media",
+  caso: `Mujer de 45 años con sarcoidosis pulmonar confirmada. Presenta disnea progresiva, descenso de la función pulmonar y uveítis activa que amenaza la visión. Se han evaluado diagnósticos infecciosos alternativos y no hay contraindicación inmediata para tratamiento inmunomodulador.`,
+  pregunta: "¿Cuál es el principio que debe guiar la decisión de iniciar tratamiento sistémico?",
+  opciones: [
+    "Tratar a todos los pacientes con sarcoidosis aunque estén asintomáticos y estables",
+    "Considerar tratamiento por deterioro funcional y afectación extrapulmonar con riesgo de daño orgánico",
+    "Esperar obligatoriamente a que aparezca fibrosis avanzada",
+    "Utilizar antibióticos como tratamiento específico de los granulomas",
+    "Evitar cualquier tratamiento aunque exista amenaza para la visión"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El tratamiento sistémico de la sarcoidosis se individualiza según actividad, síntomas, deterioro funcional y riesgo de daño irreversible. El compromiso ocular que amenaza la visión y la progresión pulmonar son razones importantes para considerar tratamiento, habitualmente con glucocorticoides y, cuando se requiere, fármacos ahorradores bajo seguimiento especializado. Deben excluirse infecciones y vigilar toxicidad.`,
+  perlaENARM: "En sarcoidosis, se trata el riesgo de daño orgánico y la enfermedad clínicamente significativa, no solo la presencia de granulomas.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente disponible para sarcoidosis y afectación ocular.",
+    internacional: "ATS. Diagnosis and Detection of Sarcoidosis, 2020; ERS. Treatment of Sarcoidosis, 2021."
+  },
+  bibliografia: "Crouser ED, et al. Am J Respir Crit Care Med. 2020;201:e26-e51. Baughman RP, et al. Eur Respir J. 2021;58:2004079."
+},
+  
+{
+  id: "NEUMO-431",
+  especialidad: "Neumología",
+  tema: "Asma",
+  subtema: "Asma grave y eosinofilia",
+  dificultad: "Media",
+  caso: `Mujer de 39 años con asma persistente, tres exacerbaciones tratadas con corticosteroides sistémicos durante el último año y síntomas diarios pese a tratamiento inhalado de dosis altas. Se confirma buena adherencia y técnica correcta. Presenta eosinófilos sanguíneos de 650 células/µL.`,
+  pregunta: "¿Cuál es el siguiente paso más apropiado?",
+  opciones: [
+    "Suspender el corticosteroide inhalado",
+    "Evaluar fenotipo, comorbilidades y elegibilidad para tratamiento biológico dirigido",
+    "Indicar antibióticos indefinidos",
+    "Utilizar salbutamol como único tratamiento",
+    "Diagnosticar EPOC exclusivamente por la eosinofilia"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El asma grave no controlada requiere confirmar diagnóstico, adherencia, técnica inhalatoria y factores modificables antes de escalar. La eosinofilia puede identificar un fenotipo inflamatorio tipo 2 y ayudar a seleccionar tratamientos biológicos, como los dirigidos contra IL-5/IL-5R o la vía de IL-4/IL-13, según criterios clínicos y disponibilidad.`,
+  perlaENARM: "Antes de indicar biológicos en asma grave, confirma el diagnóstico y optimiza el tratamiento inhalado.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre asma grave.",
+    internacional: "GINA. Global Strategy for Asthma Management and Prevention, 2025."
+  },
+  bibliografia: "Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2025."
+},
+{
+  id: "NEUMO-432",
+  especialidad: "Neumología",
+  tema: "Asma",
+  subtema: "Asma inducida por antiinflamatorios no esteroideos",
+  dificultad: "Media",
+  caso: `Mujer de 42 años con asma, rinosinusitis crónica y pólipos nasales. Presenta broncoespasmo intenso aproximadamente una hora después de ingerir ácido acetilsalicílico. Refiere episodios similares tras tomar ibuprofeno.`,
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Síndrome de apnea obstructiva del sueño",
+    "Enfermedad respiratoria exacerbada por AINE",
+    "Neumonía eosinofílica crónica confirmada",
+    "Déficit de alfa-1 antitripsina",
+    "Tuberculosis pulmonar"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La combinación de asma, pólipos nasales y reacciones respiratorias a inhibidores de COX-1 es característica de la enfermedad respiratoria exacerbada por AINE. El manejo incluye control del asma y enfermedad nasosinusal, evitación de los desencadenantes y valoración especializada cuando se considere desensibilización.`,
+  perlaENARM: "Asma más pólipos nasales más reacción a aspirina o ibuprofeno sugiere enfermedad respiratoria exacerbada por AINE.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre asma y rinosinusitis crónica.",
+    internacional: "GINA. Global Strategy for Asthma Management and Prevention, 2025."
+  },
+  bibliografia: "Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2025."
+},
+{
+  id: "NEUMO-433",
+  especialidad: "Neumología",
+  tema: "Asma",
+  subtema: "Aspergilosis broncopulmonar alérgica",
+  dificultad: "Media",
+  caso: `Hombre de 35 años con asma de difícil control, expectoración de tapones mucosos marrones y opacidades pulmonares transitorias. Presenta IgE total muy elevada, sensibilización a Aspergillus fumigatus y bronquiectasias centrales.`,
+  pregunta: "¿Cuál es el diagnóstico que mejor integra estos hallazgos?",
+  opciones: [
+    "Aspergilosis broncopulmonar alérgica",
+    "EPOC enfisematoso",
+    "Neumotórax espontáneo",
+    "Edema pulmonar cardiogénico",
+    "Tromboembolia pulmonar"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La aspergilosis broncopulmonar alérgica aparece principalmente en pacientes con asma o fibrosis quística. La sensibilización a Aspergillus, la IgE total elevada y los hallazgos radiológicos compatibles apoyan el diagnóstico. Deben integrarse los criterios actuales, incluyendo IgE específica, eosinófilos y características tomográficas. El tratamiento puede incluir corticosteroides y, en pacientes seleccionados, antifúngicos.`,
+  perlaENARM: "Asma difícil de controlar, IgE elevada, bronquiectasias centrales y tapones mucosos orientan a ABPA.",
+  gpc: {
+    mexico: "Consultar normativa y protocolos institucionales vigentes para aspergilosis broncopulmonar alérgica.",
+    internacional: "ISHAM. Revised Guidelines for Diagnosis and Management of Allergic Bronchopulmonary Aspergillosis, 2024."
+  },
+  bibliografia: "Agarwal R, et al. Revised ISHAM-ABPA working group clinical practice guidelines. Eur Respir J. 2024."
+},
+{
+  id: "NEUMO-434",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Deficiencia de alfa-1 antitripsina",
+  dificultad: "Media",
+  caso: `Hombre de 42 años, con antecedente de tabaquismo leve, presenta disnea progresiva. La tomografía muestra enfisema panacinar de predominio basal. Su padre falleció por enfermedad pulmonar a edad temprana.`,
+  pregunta: "¿Qué estudio debe considerarse para identificar una causa hereditaria tratable en su evaluación?",
+  opciones: [
+    "Determinación de alfa-1 antitripsina y confirmación del fenotipo o genotipo cuando corresponda",
+    "Anticuerpos antinucleares como única prueba",
+    "Prueba de tuberculina",
+    "Dímero D",
+    "Prueba de sudor exclusivamente"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La deficiencia de alfa-1 antitripsina debe considerarse en EPOC de inicio temprano, enfisema basal o antecedentes familiares. La medición sérica puede alterarse por inflamación, por lo que puede requerirse confirmación mediante fenotipo o genotipo. La identificación permite asesoramiento, evaluación hepática y valoración de tratamiento específico en pacientes seleccionados.`,
+  perlaENARM: "Enfisema de inicio temprano y predominio basal: busca deficiencia de alfa-1 antitripsina.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre EPOC y deficiencia de alfa-1 antitripsina.",
+    internacional: "GOLD. Global Strategy for COPD, 2025."
+  },
+  bibliografia: "Global Initiative for Chronic Obstructive Lung Disease. GOLD Report. 2025."
+},
+{
+  id: "NEUMO-435",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Eosinófilos y corticosteroides inhalados",
+  dificultad: "Media",
+  caso: `Hombre de 70 años con EPOC, dos exacerbaciones moderadas durante el último año pese a LABA/LAMA y eosinófilos sanguíneos persistentes de 380 células/µL. No tiene antecedentes de neumonía recurrente ni contraindicaciones importantes para corticosteroides inhalados.`,
+  pregunta: "¿Qué modificación puede considerarse para reducir nuevas exacerbaciones?",
+  opciones: [
+    "Considerar añadir corticosteroide inhalado a la combinación LABA/LAMA",
+    "Suspender todos los broncodilatadores",
+    "Iniciar corticosteroide sistémico indefinido",
+    "Indicar oxígeno domiciliario sin evaluar hipoxemia",
+    "Usar antibiótico para siempre en todos los pacientes"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En EPOC con exacerbaciones persistentes pese a broncodilatación dual, un recuento de eosinófilos elevado favorece una mayor probabilidad de beneficio al añadir corticosteroide inhalado. La decisión considera exacerbaciones, antecedentes de neumonía, asma concomitante y riesgo de efectos adversos. Los eosinófilos no deben interpretarse de manera aislada.`,
+  perlaENARM: "En EPOC, los eosinófilos ayudan a estimar el beneficio de corticosteroides inhalados para prevenir exacerbaciones.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre tratamiento escalonado de EPOC.",
+    internacional: "GOLD. Global Strategy for COPD, 2025."
+  },
+  bibliografia: "Global Initiative for Chronic Obstructive Lung Disease. GOLD Report. 2025."
+},
+{
+  id: "NEUMO-436",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Exacerbación con sospecha de infección bacteriana",
+  dificultad: "Media",
+  caso: `Mujer de 67 años con EPOC presenta aumento de disnea, incremento del volumen de esputo y purulencia durante tres días. No hay infiltrado nuevo en la radiografía y se encuentra hemodinámicamente estable.`,
+  pregunta: "¿Cuál es la consideración más apropiada respecto al uso de antibióticos?",
+  opciones: [
+    "Considerarlos por el aumento de purulencia junto con disnea y volumen de esputo, según gravedad y epidemiología",
+    "Administrarlos en todas las exacerbaciones sin excepción",
+    "Evitar antibióticos incluso si requiere ventilación mecánica",
+    "Sustituir broncodilatadores por antibióticos",
+    "Elegir antifúngicos como primera línea"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Los antibióticos pueden estar indicados en exacerbaciones de EPOC cuando se presentan los síntomas cardinales, especialmente aumento de purulencia junto con incremento de disnea y volumen de esputo, o cuando se requiere ventilación mecánica. La selección depende de gravedad, cultivos previos, riesgo de resistencia y epidemiología local.`,
+  perlaENARM: "La purulencia del esputo ayuda a seleccionar pacientes con exacerbación de EPOC que pueden beneficiarse de antibióticos.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para exacerbación de EPOC y uso racional de antibióticos.",
+    internacional: "GOLD. Global Strategy for COPD, 2025."
+  },
+  bibliografia: "Global Initiative for Chronic Obstructive Lung Disease. GOLD Report. 2025."
+},
+{
+  id: "NEUMO-437",
+  especialidad: "Neumología",
+  tema: "Neumonía adquirida en la comunidad",
+  subtema: "Neumonía por aspiración",
+  dificultad: "Media",
+  caso: `Hombre de 76 años con antecedente de evento vascular cerebral y disfagia presenta fiebre, tos productiva e infiltrado en regiones pulmonares dependientes. Se sospecha aspiración de contenido orofaríngeo.`,
+  pregunta: "¿Cuál es el principio correcto para seleccionar el tratamiento antimicrobiano?",
+  opciones: [
+    "Individualizar según gravedad y factores de riesgo; no añadir cobertura anaerobia de rutina si no hay absceso o empiema",
+    "Administrar antifúngicos a todos los pacientes",
+    "Indicar cobertura anaerobia obligatoria en cualquier aspiración",
+    "No administrar antimicrobianos aunque exista neumonía bacteriana",
+    "Tratar siempre con vancomicina en monoterapia"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La neumonía por aspiración se trata de acuerdo con la gravedad y los factores de riesgo de patógenos resistentes. La cobertura anaerobia adicional no se recomienda rutinariamente para todos los casos, salvo situaciones como absceso pulmonar o empiema, o cuando el contexto clínico sugiera infección anaerobia relevante. También debe evaluarse la deglución para prevenir recurrencias.`,
+  perlaENARM: "La aspiración no implica automáticamente cobertura anaerobia; considera absceso, empiema y contexto clínico.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumonía y prevención de aspiración.",
+    internacional: "ATS/IDSA. Community-acquired Pneumonia Guideline, 2019."
+  },
+  bibliografia: "Metlay JP, et al. Am J Respir Crit Care Med. 2019;200:e45-e67."
+},
+{
+  id: "NEUMO-438",
+  especialidad: "Neumología",
+  tema: "Neumonía adquirida en la comunidad",
+  subtema: "Derrame parapneumónico complicado",
+  dificultad: "Media",
+  caso: `Mujer de 58 años hospitalizada por neumonía presenta derrame pleural. El líquido no es francamente purulento, pero el pH es de 7.08 y el cultivo está pendiente.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Considerar drenaje pleural además de antibióticos, con valoración especializada",
+    "Dar de alta sin tratamiento",
+    "Utilizar solo broncodilatadores",
+    "Ignorar el pH porque el líquido no es purulento",
+    "Administrar anticoagulación como único tratamiento"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Un pH pleural de 7.08 en un derrame parapneumónico indica alto riesgo de infección pleural complicada y favorece el drenaje, junto con antibióticos. La decisión integra imagen, tamaño del derrame, microbiología, bioquímica y estado clínico. La ausencia de pus visible no excluye infección pleural complicada.`,
+  perlaENARM: "Un pH pleural menor o igual a 7.20 en el contexto adecuado favorece drenaje de un derrame parapneumónico complicado.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre empiema y derrame parapneumónico.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-439",
+  especialidad: "Neumología",
+  tema: "Neumonía nosocomial",
+  subtema: "Riesgo de microorganismos resistentes",
+  dificultad: "Media",
+  caso: `Hombre de 63 años hospitalizado durante nueve días desarrolla neumonía. Recibió antibióticos intravenosos recientemente y tuvo aislamiento previo de Pseudomonas aeruginosa en una muestra respiratoria. Se encuentra séptico.`,
+  pregunta: "¿Cuál es el principio apropiado para elegir el tratamiento empírico inicial?",
+  opciones: [
+    "Considerar cobertura empírica contra patógenos resistentes según factores de riesgo, antibiograma local y gravedad",
+    "Utilizar exclusivamente amoxicilina oral",
+    "Esperar el cultivo sin estabilizar ni tratar la sepsis",
+    "Indicar antifúngicos en todos los pacientes",
+    "Evitar tomar muestras microbiológicas"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La neumonía hospitalaria con sepsis, exposición reciente a antibióticos y aislamiento previo de Pseudomonas requiere valorar cobertura empírica activa contra los patógenos probables. Se deben obtener cultivos sin retrasar el tratamiento, ajustar el esquema a la epidemiología local y desescalar según resultados y respuesta clínica.`,
+  perlaENARM: "En neumonía hospitalaria, los antibióticos previos, cultivos previos y antibiograma local orientan la cobertura empírica.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumonía hospitalaria y sepsis.",
+    internacional: "ATS/IDSA. Hospital-acquired and Ventilator-associated Pneumonia, 2016."
+  },
+  bibliografia: "Kalil AC, et al. Clin Infect Dis. 2016;63:e61-e111."
+},
+{
+  id: "NEUMO-440",
+  especialidad: "Neumología",
+  tema: "Tuberculosis",
+  subtema: "Tuberculosis pulmonar con resistencia a rifampicina",
+  dificultad: "Media",
+  caso: `Hombre de 40 años con tos crónica tiene prueba molecular positiva para M. tuberculosis y resistencia a rifampicina. Está estable, pero no se cuenta aún con un perfil completo de sensibilidad.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Referir o coordinar manejo especializado urgente, ampliar pruebas de resistencia e iniciar un esquema recomendado según el perfil y las guías vigentes",
+    "Mantener monoterapia con isoniazida",
+    "Ignorar el resultado molecular y tratar como infección viral",
+    "Suspender todo seguimiento hasta el cultivo final",
+    "Administrar exclusivamente amoxicilina"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La resistencia a rifampicina modifica sustancialmente el manejo y exige evaluación rápida de sensibilidad a otros fármacos y coordinación con un programa especializado. Los esquemas para tuberculosis resistente deben seleccionarse según la resistencia documentada, antecedentes terapéuticos, localización y recomendaciones actuales; no se debe improvisar una combinación incompleta.`,
+  perlaENARM: "La resistencia a rifampicina requiere estudio ampliado de sensibilidad y manejo especializado de tuberculosis resistente.",
+  gpc: {
+    mexico: "NOM-006-SSA2-2013 y lineamientos nacionales vigentes para tuberculosis farmacorresistente.",
+    internacional: "WHO. Consolidated Guidelines on Tuberculosis: Module 4, Treatment."
+  },
+  bibliografia: "World Health Organization. WHO consolidated guidelines on tuberculosis: Module 4, Treatment."
+},
+{
+  id: "NEUMO-441",
+  especialidad: "Neumología",
+  tema: "Tuberculosis",
+  subtema: "Reacción paradójica durante tratamiento",
+  dificultad: "Media",
+  caso: `Hombre de 33 años con tuberculosis pulmonar sensible confirmada. Después de iniciar tratamiento adecuado presenta empeoramiento radiológico transitorio, pero mantiene adherencia, estabilidad clínica y cultivos en seguimiento. No hay evidencia inicial de resistencia ni de una nueva infección.`,
+  pregunta: "¿Qué debe hacerse antes de atribuir el empeoramiento a una reacción paradójica?",
+  opciones: [
+    "Evaluar adherencia, resistencia, complicaciones y diagnósticos alternativos",
+    "Suspender automáticamente todos los fármacos antituberculosos",
+    "Agregar un solo antibiótico y retirar los demás",
+    "Declarar curación sin evaluación",
+    "Indicar antifúngicos de forma obligatoria"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El empeoramiento paradójico puede ocurrir durante el tratamiento, pero es un diagnóstico de exclusión. Deben investigarse mala adherencia, resistencia, absorción inadecuada, complicaciones y diagnósticos alternativos. El manejo depende de la gravedad y de la localización; no se debe modificar el esquema sin evaluación.`,
+  perlaENARM: "El deterioro durante tratamiento antituberculoso obliga primero a descartar resistencia, mala adherencia y complicaciones.",
+  gpc: {
+    mexico: "Consultar normativa mexicana vigente sobre seguimiento de tuberculosis.",
+    internacional: "WHO. Consolidated Guidelines on Tuberculosis: Module 4, Treatment."
+  },
+  bibliografia: "World Health Organization. WHO consolidated guidelines on tuberculosis: Module 4, Treatment."
+},
+{
+  id: "NEUMO-442",
+  especialidad: "Neumología",
+  tema: "Tromboembolia pulmonar",
+  subtema: "Regla PERC",
+  dificultad: "Media",
+  caso: `Mujer de 28 años con dolor torácico inespecífico. El médico considera una probabilidad clínica muy baja de tromboembolia pulmonar. Tiene frecuencia cardiaca de 78 por minuto, saturación de 99%, no usa estrógenos, no presenta hemoptisis ni signos de trombosis venosa profunda y no tiene antecedentes tromboembólicos.`,
+  pregunta: "¿En qué contexto puede utilizarse la regla PERC?",
+  opciones: [
+    "En pacientes con probabilidad clínica muy baja para decidir si puede omitirse el dímero D",
+    "En pacientes con choque para descartar embolia",
+    "Como sustituto de la angiotomografía en toda probabilidad alta",
+    "Para confirmar definitivamente tromboembolia",
+    "Para seleccionar trombólisis sin evaluar el estado hemodinámico"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `PERC puede ayudar a excluir tromboembolia pulmonar sin pruebas adicionales en pacientes seleccionados con probabilidad clínica muy baja y cuando todos los criterios son negativos. No debe aplicarse indiscriminadamente a pacientes de probabilidad intermedia o alta ni sustituye los algoritmos diagnósticos validados.`,
+  perlaENARM: "PERC solo se utiliza en pacientes seleccionados con probabilidad clínica muy baja; no confirma ni descarta por sí sola en todos los escenarios.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico de tromboembolia pulmonar.",
+    internacional: "ESC. Guidelines for Acute Pulmonary Embolism, 2019."
+  },
+  bibliografia: "Konstantinides SV, et al. Eur Heart J. 2020;41:543-603."
+},
+{
+  id: "NEUMO-443",
+  especialidad: "Neumología",
+  tema: "Tromboembolia pulmonar",
+  subtema: "Anticoagulación inicial",
+  dificultad: "Media",
+  caso: `Hombre de 56 años con tromboembolia pulmonar confirmada por angiotomografía. Está hemodinámicamente estable, tiene función renal adecuada y no presenta sangrado activo ni contraindicación para anticoagulación.`,
+  pregunta: "¿Cuál es el principio terapéutico inicial?",
+  opciones: [
+    "Iniciar anticoagulación apropiada y definir duración según factores desencadenantes y riesgo de recurrencia",
+    "Administrar trombólisis a todos los pacientes",
+    "Evitar anticoagulación porque la embolia está confirmada",
+    "Usar únicamente oxígeno",
+    "Indicar antibióticos durante seis meses"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La anticoagulación es el tratamiento fundamental de la mayoría de los pacientes con tromboembolia pulmonar confirmada. En pacientes estables suelen considerarse anticoagulantes orales directos cuando son apropiados; algunas situaciones, como embarazo, insuficiencia renal avanzada o síndrome antifosfolípido de alto riesgo, modifican la selección. La duración depende de factores provocadores y riesgo hemorrágico.`,
+  perlaENARM: "La trombólisis se reserva principalmente para embolia de alto riesgo o situaciones seleccionadas de deterioro; no para todos los casos.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para tratamiento de tromboembolia venosa.",
+    internacional: "ESC. Guidelines for Acute Pulmonary Embolism, 2019."
+  },
+  bibliografia: "Konstantinides SV, et al. Eur Heart J. 2020;41:543-603."
+},
+{
+  id: "NEUMO-444",
+  especialidad: "Neumología",
+  tema: "Edema agudo pulmonar",
+  subtema: "Diferenciación entre edema cardiogénico y SDRA",
+  dificultad: "Media",
+  caso: `Mujer de 61 años con sepsis grave desarrolla hipoxemia e infiltrados bilaterales. La ecocardiografía no muestra evidencia clara de elevación de presiones de llenado izquierdas y el cuadro no mejora únicamente con diuréticos.`,
+  pregunta: "¿Qué diagnóstico debe considerarse en este contexto?",
+  opciones: [
+    "Síndrome de dificultad respiratoria aguda asociado a sepsis",
+    "Asma intermitente aislada",
+    "Neumotórax espontáneo como explicación bilateral",
+    "Apnea obstructiva del sueño como causa inmediata",
+    "EPOC estable sin exacerbación"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La sepsis puede desencadenar SDRA, caracterizado por insuficiencia respiratoria aguda e infiltrados bilaterales no explicados completamente por sobrecarga o falla cardiaca. La evaluación integra temporalidad, imagen, oxigenación y causas alternativas. El manejo incluye tratamiento de la causa y soporte ventilatorio protector cuando se requiere.`,
+  perlaENARM: "En sepsis con hipoxemia e infiltrados bilaterales, considera SDRA y evalúa si el edema se explica por falla cardiaca.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre SDRA y sepsis.",
+    internacional: "ARDS Definition Task Force. Berlin Definition of ARDS, 2012."
+  },
+  bibliografia: "ARDS Definition Task Force. JAMA. 2012;307:2526-2533."
+},
+{
+  id: "NEUMO-445",
+  especialidad: "Neumología",
+  tema: "SDRA",
+  subtema: "Posición prona",
+  dificultad: "Media",
+  caso: `Hombre de 54 años con neumonía grave y SDRA. A pesar de ventilación protectora, la relación PaO2/FiO2 permanece en 85 con PEEP de 12 cmH2O. No existen contraindicaciones mayores para pronación.`,
+  pregunta: "¿Qué intervención puede mejorar la oxigenación y el pronóstico en este contexto?",
+  opciones: [
+    "Sesiones prolongadas de posición prona en un equipo entrenado",
+    "Suspender la PEEP de manera inmediata",
+    "Aumentar sistemáticamente el volumen corriente a 12 mL/kg",
+    "Mantener al paciente sentado sin reevaluación",
+    "Retirar la ventilación mecánica aunque persista hipoxemia grave"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En SDRA grave, la posición prona durante sesiones prolongadas, junto con ventilación protectora, puede mejorar la oxigenación y reducir mortalidad en pacientes seleccionados. Requiere personal entrenado, vigilancia de dispositivos y prevención de lesiones por presión.`,
+  perlaENARM: "SDRA grave refractario a medidas iniciales: considera pronación temprana y prolongada en centros con experiencia.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre SDRA y posición prona.",
+    internacional: "ATS. Clinical Practice Guideline for ARDS, 2024."
+  },
+  bibliografia: "American Thoracic Society. An Update on Management of Adult Patients with ARDS. Am J Respir Crit Care Med. 2024."
+},
+{
+  id: "NEUMO-446",
+  especialidad: "Neumología",
+  tema: "Neumotórax",
+  subtema: "Neumotórax secundario",
+  dificultad: "Media",
+  caso: `Hombre de 73 años con EPOC y enfisema avanzado presenta disnea súbita y dolor pleurítico. La radiografía muestra neumotórax espontáneo moderado. Su saturación es de 88% y requiere oxígeno.`,
+  pregunta: "¿Cuál es el principio de manejo más apropiado?",
+  opciones: [
+    "Evaluación hospitalaria y tratamiento pleural según síntomas, tamaño y estabilidad, con umbral bajo para intervención",
+    "Alta inmediata sin seguimiento",
+    "Tratar únicamente con antibióticos",
+    "Esperar siempre a que el neumotórax desaparezca espontáneamente",
+    "Administrar trombólisis"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El neumotórax secundario ocurre en un pulmón con enfermedad subyacente y puede producir deterioro importante incluso si el tamaño parece moderado. Se requiere valoración hospitalaria, oxigenación y decisión individualizada sobre aspiración o drenaje según síntomas, estabilidad y guías locales. El deterioro hemodinámico exige descartar tensión.`,
+  perlaENARM: "El neumotórax secundario suele tolerarse peor que el primario por la reserva pulmonar limitada.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumotórax y EPOC.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-447",
+  especialidad: "Neumología",
+  tema: "Derrame pleural",
+  subtema: "Derrame pleural maligno",
+  dificultad: "Media",
+  caso: `Mujer de 64 años con cáncer de mama tratado presenta disnea progresiva y derrame pleural unilateral recurrente. La toracocentesis inicial muestra exudado y citología negativa.`,
+  pregunta: "¿Cuál es la interpretación más apropiada de la citología negativa?",
+  opciones: [
+    "No excluye malignidad; se requiere decidir estudios adicionales según sospecha y objetivos clínicos",
+    "Confirma definitivamente que el derrame es benigno",
+    "Descarta toda enfermedad pleural",
+    "Obliga a diagnosticar tuberculosis",
+    "Indica que no debe repetirse ningún estudio"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La sensibilidad de la citología pleural depende del tipo tumoral y puede ser insuficiente para excluir malignidad. Si persiste sospecha, pueden considerarse una segunda muestra, biopsia pleural guiada o toracoscopia, según el contexto. El tratamiento paliativo del derrame recurrente puede incluir catéter pleural permanente o pleurodesis en pacientes seleccionados.`,
+  perlaENARM: "Una citología pleural negativa no excluye derrame maligno cuando la sospecha clínica sigue siendo alta.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre derrame pleural maligno.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-448",
+  especialidad: "Neumología",
+  tema: "Empiema",
+  subtema: "Falla del drenaje pleural",
+  dificultad: "Media",
+  caso: `Hombre de 59 años con empiema recibe antibióticos y drenaje torácico. Después de 48 horas continúa febril y la tomografía muestra colecciones loculadas residuales. Está estable, pero la infección persiste.`,
+  pregunta: "¿Cuál es el siguiente paso razonable?",
+  opciones: [
+    "Reevaluar la posición y permeabilidad del drenaje y valorar terapia intrapleural o intervención quirúrgica con el equipo especializado",
+    "Retirar el drenaje sin reevaluar",
+    "Suspender los antibióticos aunque persista infección",
+    "Tratar únicamente con broncodilatadores",
+    "Dar de alta sin seguimiento"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La persistencia de sepsis y colecciones loculadas obliga a comprobar la adecuación del drenaje y considerar intervenciones adicionales. En pacientes seleccionados pueden utilizarse tPA/DNasa intrapleurales o cirugía, según anatomía, riesgo y experiencia local. El manejo debe individualizarse con neumología, cirugía torácica e infectología cuando corresponda.`,
+  perlaENARM: "En empiema, el control del foco es esencial: persistencia de colección y fiebre requieren reevaluación del drenaje.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre empiema y cirugía torácica.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-449",
+  especialidad: "Neumología",
+  tema: "Insuficiencia respiratoria",
+  subtema: "Criterios de intubación en deterioro clínico",
+  dificultad: "Media",
+  caso: `Hombre de 66 años con neumonía grave recibe oxígeno y soporte no invasivo. Presenta deterioro progresivo del estado mental, agotamiento, aumento del trabajo respiratorio e hipoxemia persistente.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Preparar intubación y ventilación invasiva si no hay una intervención inmediata reversible, sin retrasarla ante fracaso del soporte",
+    "Mantener indefinidamente el soporte no invasivo pese al deterioro",
+    "Administrar sedantes y observar",
+    "Suspender el oxígeno",
+    "Realizar espirometría antes de decidir"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La alteración del estado mental, el agotamiento y la hipoxemia persistente son signos de fracaso del soporte respiratorio y riesgo de pérdida de la vía aérea. Se requiere preparación para intubación y ventilación invasiva, de acuerdo con la situación clínica y las preferencias del paciente. El soporte no invasivo no debe prolongarse cuando fracasa.`,
+  perlaENARM: "No retrases la intubación cuando existe agotamiento, deterioro neurológico o hipoxemia refractaria.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre insuficiencia respiratoria y ventilación invasiva.",
+    internacional: "ERS/ATS. Noninvasive Ventilation for Acute Respiratory Failure, 2017."
+  },
+  bibliografia: "Rochwerg B, et al. Eur Respir J. 2017;50:1602426."
+},
+{
+  id: "NEUMO-450",
+  especialidad: "Neumología",
+  tema: "Gasometría arterial",
+  subtema: "Alcalosis respiratoria aguda",
+  dificultad: "Media",
+  caso: `Mujer de 29 años presenta taquipnea y parestesias durante un episodio de ansiedad. La gasometría muestra pH de 7.52, PaCO2 de 27 mmHg y bicarbonato de 22 mEq/L. La evaluación clínica no identifica inicialmente hipoxemia ni inestabilidad.`,
+  pregunta: "¿Cuál es la alteración ácido-base primaria?",
+  opciones: [
+    "Alcalosis respiratoria aguda",
+    "Acidosis respiratoria",
+    "Acidosis metabólica aislada",
+    "Alcalosis metabólica aislada",
+    "Acidosis mixta obligatoria"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El pH elevado indica alcalemia y la PaCO2 baja identifica una alteración respiratoria primaria. El bicarbonato puede disminuir ligeramente por compensación aguda. Aunque la ansiedad puede causar hiperventilación, deben descartarse causas orgánicas relevantes según el contexto, como tromboembolia pulmonar, sepsis, dolor o hipoxemia.`,
+  perlaENARM: "Alcalemia con PaCO2 reducida sugiere alcalosis respiratoria; no atribuyas toda hiperventilación a ansiedad sin evaluar el contexto.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de urgencias y trastornos ácido-base.",
+    internacional: "Harrison's Principles of Internal Medicine, 21st edition."
+  },
+  bibliografia: "Jameson JL, et al., eds. Harrison's Principles of Internal Medicine. 21st ed. McGraw Hill."
+},
+{
+  id: "NEUMO-451",
+  especialidad: "Neumología",
+  tema: "Fibrosis pulmonar idiopática",
+  subtema: "Exacerbación aguda",
+  dificultad: "Media",
+  caso: `Hombre de 74 años con fibrosis pulmonar idiopática presenta empeoramiento de disnea en menos de dos semanas, nueva hipoxemia y opacidades bilaterales en vidrio despulido sobre fibrosis conocida. No hay evidencia inicial de sobrecarga cardiaca.`,
+  pregunta: "¿Cuál es el abordaje inicial más apropiado?",
+  opciones: [
+    "Evaluar causas precipitantes, infecciones, embolia y edema cardiogénico; proporcionar soporte y valoración especializada urgente",
+    "Asumir que siempre es progresión crónica y no investigar",
+    "Administrar antibióticos y retirar todo soporte de oxígeno",
+    "Indicar rehabilitación ambulatoria como única medida",
+    "Realizar espirometría antes de estabilizar la oxigenación"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El deterioro respiratorio agudo sobre fibrosis conocida puede corresponder a exacerbación aguda, pero requiere descartar infección, embolia pulmonar, neumotórax, edema y otras causas. El tratamiento es de soporte y se individualiza; la evidencia para inmunosupresión en exacerbación aguda de fibrosis pulmonar idiopática es limitada y debe valorarse con especialistas.`,
+  perlaENARM: "En deterioro agudo de fibrosis pulmonar, descarta causas reversibles antes de atribuirlo a exacerbación aguda.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre fibrosis pulmonar idiopática y exacerbación aguda.",
+    internacional: "ATS/ERS/JRS/ALAT. IPF and Progressive Pulmonary Fibrosis Guideline, 2022."
+  },
+  bibliografia: "Raghu G, et al. Am J Respir Crit Care Med. 2022;205:e18-e47."
+},
+{
+  id: "NEUMO-452",
+  especialidad: "Neumología",
+  tema: "Bronquiectasias",
+  subtema: "Colonización por Pseudomonas aeruginosa",
+  dificultad: "Media",
+  caso: `Mujer de 60 años con bronquiectasias y exacerbaciones frecuentes presenta cultivo de esputo repetidamente positivo para Pseudomonas aeruginosa. Está clínicamente estable al momento de la consulta.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Evaluar carga de exacerbaciones, susceptibilidad y posibilidad de estrategias de erradicación o tratamiento inhalado prolongado bajo supervisión especializada",
+    "Administrar antibióticos intravenosos indefinidos a todos los pacientes",
+    "Ignorar los cultivos y no realizar seguimiento",
+    "Prescribir antifúngicos como primera línea",
+    "Suspender fisioterapia respiratoria"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La identificación persistente de Pseudomonas en bronquiectasias se asocia con mayor riesgo de exacerbaciones y peor pronóstico. El manejo depende de si se trata de una primera detección, infección crónica y frecuencia de exacerbaciones. Puede considerarse erradicación en situaciones seleccionadas o antibiótico inhalado prolongado en enfermedad crónica con exacerbaciones frecuentes, con vigilancia de resistencia y efectos adversos.`,
+  perlaENARM: "Pseudomonas en bronquiectasias modifica la estratificación de riesgo y puede cambiar el tratamiento preventivo.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre bronquiectasias e infección crónica.",
+    internacional: "ERS. Clinical Practice Guideline for Adult Bronchiectasis, 2017."
+  },
+  bibliografia: "Polverino E, et al. Eur Respir J. 2017;50:1700629."
+},
+{
+  id: "NEUMO-453",
+  especialidad: "Neumología",
+  tema: "Hipertensión pulmonar",
+  subtema: "Sospecha de hipertensión pulmonar tromboembólica crónica",
+  dificultad: "Media",
+  caso: `Mujer de 58 años con antecedente de embolia pulmonar y disnea persistente. El ecocardiograma muestra dilatación ventricular derecha y la gammagrafía V/Q evidencia defectos de perfusión segmentarios no concordantes con ventilación.`,
+  pregunta: "¿Cuál es el siguiente paso apropiado?",
+  opciones: [
+    "Referir a un centro especializado para evaluación de enfermedad tromboembólica pulmonar crónica",
+    "Descartar enfermedad vascular pulmonar porque está estable",
+    "Administrar broncodilatador como tratamiento definitivo",
+    "Iniciar corticosteroides para todos los casos",
+    "Ignorar los defectos de perfusión"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Los defectos de perfusión no concordantes con ventilación, junto con hipertensión pulmonar y antecedente tromboembólico, sugieren enfermedad tromboembólica pulmonar crónica. Se requiere evaluación especializada con estudios anatómicos y hemodinámicos para determinar elegibilidad para endarterectomía, angioplastia pulmonar con balón o tratamiento farmacológico.`,
+  perlaENARM: "La enfermedad tromboembólica crónica puede ser tratable mediante procedimientos especializados; no debe confundirse con disnea inespecífica.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipertensión pulmonar tromboembólica crónica.",
+    internacional: "ESC/ERS. Guidelines for Pulmonary Hypertension, 2022."
+  },
+  bibliografia: "Humbert M, et al. Eur Heart J. 2022;43:3618-3731."
+},
+{
+  id: "NEUMO-454",
+  especialidad: "Neumología",
+  tema: "Apnea obstructiva del sueño",
+  subtema: "Evaluación de riesgo y comorbilidades",
+  dificultad: "Media",
+  caso: `Hombre de 59 años con obesidad, somnolencia al conducir, ronquidos intensos y fibrilación auricular recurrente. No ha recibido tratamiento para trastornos respiratorios del sueño.`,
+  pregunta: "¿Cuál es el enfoque más apropiado?",
+  opciones: [
+    "Realizar evaluación objetiva de apnea del sueño, advertir sobre conducción con somnolencia y tratar según los resultados",
+    "Diagnosticar apnea exclusivamente por el peso corporal",
+    "Prescribir sedantes para mejorar la continuidad del sueño",
+    "Descartar apnea porque tiene fibrilación auricular",
+    "Indicar oxígeno domiciliario sin evaluación"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La obesidad, el ronquido, la somnolencia y algunas comorbilidades cardiovasculares aumentan la sospecha de apnea obstructiva del sueño. Se requiere prueba objetiva y evaluación de seguridad, especialmente si existe somnolencia al conducir. El tratamiento debe individualizarse y abordar factores de riesgo modificables.`,
+  perlaENARM: "La somnolencia al conducir requiere medidas de seguridad inmediatas además del estudio diagnóstico.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre apnea obstructiva del sueño.",
+    internacional: "AASM. Diagnostic Testing for Adult Obstructive Sleep Apnea, 2017."
+  },
+  bibliografia: "Kapur VK, et al. J Clin Sleep Med. 2017;13:479-504."
+},
+{
+  id: "NEUMO-455",
+  especialidad: "Neumología",
+  tema: "Enfermedad pulmonar intersticial",
+  subtema: "Enfermedad intersticial asociada a artritis reumatoide",
+  dificultad: "Media",
+  caso: `Mujer de 62 años con artritis reumatoide de larga evolución desarrolla tos seca, disnea progresiva y crepitantes bibasales. La tomografía muestra reticulación subpleural y bronquiectasias por tracción.`,
+  pregunta: "¿Cuál es el enfoque diagnóstico más apropiado?",
+  opciones: [
+    "Considerar enfermedad pulmonar intersticial asociada a artritis reumatoide y evaluar patrón radiológico, actividad articular y posibles toxicidades farmacológicas",
+    "Atribuir todo a asma sin estudios",
+    "Diagnosticar tuberculosis solo por tener tos",
+    "Descartar enfermedad intersticial porque existe artritis",
+    "Administrar antibióticos indefinidos"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La artritis reumatoide puede asociarse con enfermedad pulmonar intersticial, incluyendo patrones UIP y NSIP. La evaluación integra tomografía de alta resolución, función pulmonar, evolución clínica y exposición a fármacos potencialmente neumotóxicos. La decisión terapéutica requiere coordinación entre neumología y reumatología.`,
+  perlaENARM: "En enfermedades autoinmunes, la disnea progresiva y la tos seca pueden indicar afectación intersticial, incluso si la artritis parece estable.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre artritis reumatoide y enfermedad pulmonar intersticial.",
+    internacional: "ACR/CHEST. Guideline for Screening and Monitoring of Interstitial Lung Disease in Systemic Autoimmune Rheumatic Diseases, 2023."
+  },
+  bibliografia: "Johnson SR, et al. Arthritis Rheumatol. 2024. ACR/CHEST guideline on screening and monitoring ILD in systemic autoimmune rheumatic diseases."
+},
+{
+  id: "NEUMO-456",
+  especialidad: "Neumología",
+  tema: "Hemoptisis",
+  subtema: "Embolización de arterias bronquiales",
+  dificultad: "Media",
+  caso: `Hombre de 57 años con bronquiectasias presenta hemoptisis amenazante. Se estabiliza la vía aérea, pero el sangrado persiste. La angiotomografía identifica una arteria bronquial hipertrofiada que alimenta la zona afectada.`,
+  pregunta: "¿Qué procedimiento puede controlar el sangrado en muchos pacientes seleccionados?",
+  opciones: [
+    "Embolización de arterias bronquiales",
+    "Espirometría de esfuerzo",
+    "CPAP como única intervención hemostática",
+    "Toracocentesis del lado contralateral",
+    "Anticoagulación plena"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La embolización de arterias bronquiales es una intervención importante en hemoptisis amenazante o recurrente cuando se identifica una fuente vascular tratable. La estabilización de la vía aérea y la localización del sangrado preceden o acompañan la intervención según urgencia. La recurrencia depende de la enfermedad subyacente y de la anatomía vascular.`,
+  perlaENARM: "La embolización arterial bronquial es una opción clave para controlar hemoptisis grave o recurrente.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de hemoptisis y radiología intervencionista.",
+    internacional: "Society of Chest Imaging and Interventions. Consensus Guidelines for Hemoptysis, 2023."
+  },
+  bibliografia: "Singh A, et al. Indian J Radiol Imaging. 2023;33:535-544."
+},
+{
+  id: "NEUMO-457",
+  especialidad: "Neumología",
+  tema: "Sarcoidosis",
+  subtema: "Evaluación de afectación cardiaca",
+  dificultad: "Media",
+  caso: `Hombre de 46 años con sarcoidosis extracardiaca confirmada refiere palpitaciones y presíncope. El ECG muestra bloqueo auriculoventricular de segundo grado y extrasístoles ventriculares frecuentes.`,
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Evaluación cardiológica urgente por posible sarcoidosis cardiaca, con imagen avanzada según indicación",
+    "Considerar los hallazgos benignos sin estudiar",
+    "Iniciar únicamente antitusígeno",
+    "Realizar seguimiento anual sin evaluación adicional",
+    "Descartar sarcoidosis cardiaca porque existe enfermedad pulmonar"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La sarcoidosis puede afectar el sistema de conducción y el miocardio, causando bloqueo, arritmias ventriculares y muerte súbita. El presíncope y los trastornos de conducción requieren evaluación urgente, habitualmente con ecocardiograma y consideración de resonancia cardiaca o PET según el escenario. La estratificación puede modificar la indicación de dispositivos y tratamiento inmunosupresor.`,
+  perlaENARM: "Sarcoidosis más bloqueo AV o arritmias ventriculares obliga a investigar compromiso cardiaco.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente y protocolos especializados sobre sarcoidosis cardiaca.",
+    internacional: "ATS. Diagnosis and Detection of Sarcoidosis, 2020."
+  },
+  bibliografia: "Crouser ED, et al. Am J Respir Crit Care Med. 2020;201:e26-e51."
+},
+{
+  id: "NEUMO-458",
+  especialidad: "Neumología",
+  tema: "Neumonía adquirida en la comunidad",
+  subtema: "Falta de respuesta al tratamiento",
+  dificultad: "Media",
+  caso: `Hombre de 65 años tratado por neumonía adquirida en la comunidad continúa con fiebre y disnea después de 72 horas. La imagen muestra aumento del derrame pleural y persiste la elevación de marcadores inflamatorios.`,
+  pregunta: "¿Cuál es el siguiente paso más apropiado?",
+  opciones: [
+    "Reevaluar diagnóstico, cobertura antimicrobiana, complicaciones pleurales y necesidad de nuevos estudios",
+    "Continuar sin cambios durante varias semanas sin reevaluación",
+    "Suspender todos los antibióticos inmediatamente",
+    "Asumir que se trata de asma",
+    "Administrar sedantes como tratamiento definitivo"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La falta de respuesta obliga a reconsiderar resistencia, diagnóstico alternativo, complicaciones como empiema o absceso, obstrucción bronquial y complicaciones sistémicas. La reevaluación incluye estado clínico, cultivos cuando estén indicados e imagen dirigida. El aumento del derrame pleural puede requerir toracocentesis o drenaje.`,
+  perlaENARM: "Neumonía que no mejora en 48–72 horas: busca complicaciones, resistencia o diagnóstico alternativo.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumonía adquirida en la comunidad y complicaciones.",
+    internacional: "ATS/IDSA. Community-acquired Pneumonia Guideline, 2019."
+  },
+  bibliografia: "Metlay JP, et al. Am J Respir Crit Care Med. 2019;200:e45-e67."
+},
+{
+  id: "NEUMO-459",
+  especialidad: "Neumología",
+  tema: "Ventilación mecánica",
+  subtema: "Auto-PEEP en EPOC",
+  dificultad: "Media",
+  caso: `Hombre de 69 años con EPOC grave bajo ventilación mecánica presenta hipotensión y dificultad para activar el ventilador. La curva de flujo espiratorio no regresa a cero antes de la siguiente inspiración y la presión intrínseca al final de la espiración está elevada.`,
+  pregunta: "¿Qué mecanismo explica mejor estos hallazgos?",
+  opciones: [
+    "Hiperinsuflación dinámica con auto-PEEP por atrapamiento aéreo",
+    "Neumotórax bilateral confirmado",
+    "Hipervolemia aislada",
+    "Hipoglucemia",
+    "Obstrucción intestinal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En EPOC grave, la espiración incompleta puede producir atrapamiento aéreo, hiperinsuflación dinámica y auto-PEEP. Esto aumenta el trabajo respiratorio y puede disminuir el retorno venoso, contribuyendo a hipotensión. El manejo incluye ajustar frecuencia respiratoria, tiempo espiratorio, flujo inspiratorio y volumen corriente, además de tratar la obstrucción.`,
+  perlaENARM: "En EPOC ventilado, flujo espiratorio que no llega a cero sugiere atrapamiento aéreo y auto-PEEP.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de ventilación mecánica en EPOC.",
+    internacional: "ERS/ATS. Noninvasive Ventilation for Acute Respiratory Failure, 2017."
+  },
+  bibliografia: "Rochwerg B, et al. Eur Respir J. 2017;50:1602426."
+},
+{
+  id: "NEUMO-460",
+  especialidad: "Neumología",
+  tema: "Ventilación mecánica",
+  subtema: "Destete y prueba de respiración espontánea",
+  dificultad: "Media",
+  caso: `Mujer de 57 años ingresada por neumonía grave, actualmente afebril, hemodinámicamente estable, con mejoría de la oxigenación y disminución de los requerimientos de ventilación. Está despierta y tiene tos efectiva.`,
+  pregunta: "¿Qué estrategia permite evaluar si puede retirarse el soporte ventilatorio invasivo?",
+  opciones: [
+    "Realizar evaluación de preparación y una prueba de respiración espontánea bajo vigilancia",
+    "Extubar automáticamente sin evaluar",
+    "Mantener ventilación invasiva durante semanas en todos los casos",
+    "Aumentar la sedación antes de evaluar",
+    "Suspender monitorización y oxígeno"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La liberación de ventilación mecánica requiere evaluar reversibilidad de la causa, estabilidad hemodinámica, oxigenación, estado neurológico y capacidad de proteger la vía aérea. Una prueba de respiración espontánea ayuda a valorar tolerancia, pero la extubación también exige evaluar tos, secreciones y riesgo de obstrucción.`,
+  perlaENARM: "Superar la prueba de respiración espontánea no sustituye la evaluación de protección de vía aérea y manejo de secreciones.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre liberación de ventilación mecánica.",
+    internacional: "ATS/CHEST. Liberation from Mechanical Ventilation in Critically Ill Adults, 2017."
+  },
+  bibliografia: "Schmidt GA, et al. Am J Respir Crit Care Med. 2017;195:120-133."
+},
+{
+  id: "NEUMO-461",
+  especialidad: "Neumología",
+  tema: "Gasometría arterial",
+  subtema: "Trastorno mixto ácido-base",
+  dificultad: "Media",
+  caso: `Hombre de 58 años con sepsis presenta pH de 7.20, bicarbonato de 12 mEq/L y PaCO2 de 40 mmHg. No está recibiendo ventilación mecánica.`,
+  pregunta: "¿Qué interpretación es más probable?",
+  opciones: [
+    "Acidosis metabólica con compensación respiratoria insuficiente, compatible con un trastorno respiratorio agregado",
+    "Acidosis metabólica con compensación plenamente apropiada",
+    "Alcalosis respiratoria aislada",
+    "Alcalosis metabólica aislada",
+    "Gasometría normal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El pH bajo y el bicarbonato disminuido indican acidosis metabólica. Según la fórmula de Winter, con bicarbonato de 12 mEq/L se espera una PaCO2 aproximada de 26 ± 2 mmHg. Una PaCO2 de 40 mmHg es mayor de lo esperado y sugiere acidosis respiratoria concomitante o compensación ventilatoria inadecuada.`,
+  perlaENARM: "Si la PaCO2 observada supera la esperada por Winter, considera acidosis respiratoria agregada.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de interpretación gasométrica y sepsis.",
+    internacional: "Harrison's Principles of Internal Medicine, 21st edition."
+  },
+  bibliografia: "Jameson JL, et al., eds. Harrison's Principles of Internal Medicine. 21st ed. McGraw Hill."
+},
+{
+  id: "NEUMO-462",
+  especialidad: "Neumología",
+  tema: "Gasometría arterial",
+  subtema: "Compensación de acidosis respiratoria crónica",
+  dificultad: "Media",
+  caso: `Hombre de 70 años con EPOC e hipercapnia crónica estable. La gasometría muestra pH de 7.36, PaCO2 de 60 mmHg y bicarbonato de 33 mEq/L.`,
+  pregunta: "¿Cuál es la interpretación más probable?",
+  opciones: [
+    "Acidosis respiratoria crónica con compensación renal",
+    "Alcalosis respiratoria aguda",
+    "Acidosis metabólica aislada",
+    "Alcalosis metabólica pura sin trastorno respiratorio",
+    "Acidemia grave sin compensación"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La PaCO2 elevada indica un trastorno respiratorio primario. En la hipercapnia crónica, el riñón aumenta la retención de bicarbonato y el pH puede acercarse a la normalidad. Debe compararse con gasometrías previas y el estado clínico para detectar una exacerbación aguda sobre crónica.`,
+  perlaENARM: "En acidosis respiratoria crónica, la compensación renal eleva el bicarbonato más que en la forma aguda.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre EPOC e interpretación gasométrica.",
+    internacional: "Harrison's Principles of Internal Medicine, 21st edition."
+  },
+  bibliografia: "Jameson JL, et al., eds. Harrison's Principles of Internal Medicine. 21st ed. McGraw Hill."
+},
+{
+  id: "NEUMO-463",
+  especialidad: "Neumología",
+  tema: "Fibrosis pulmonar",
+  subtema: "Neumonía organizada",
+  dificultad: "Media",
+  caso: `Mujer de 55 años presenta tos seca y disnea subaguda después de una infección respiratoria. La tomografía muestra consolidaciones periféricas parcheadas que cambian de localización en estudios sucesivos. Los cultivos iniciales no identifican infección activa.`,
+  pregunta: "¿Qué diagnóstico debe considerarse después de excluir causas infecciosas y otras etiologías?",
+  opciones: [
+    "Neumonía organizada",
+    "Neumotórax a tensión",
+    "Apnea obstructiva del sueño",
+    "Embolia pulmonar masiva confirmada",
+    "EPOC estable"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La neumonía organizada puede producir síntomas subagudos y consolidaciones periféricas o migratorias. Puede ser criptogénica o secundaria a infecciones, medicamentos y enfermedades sistémicas. El diagnóstico requiere integrar historia, imagen y, en casos seleccionados, histología; los corticosteroides pueden ser útiles después de excluir infección y otras causas.`,
+  perlaENARM: "Consolidaciones migratorias y cuadro subagudo sugieren neumonía organizada, pero primero excluye infección y causas secundarias.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre enfermedades pulmonares intersticiales.",
+    internacional: "ATS/ERS. Classification of Idiopathic Interstitial Pneumonias, 2013."
+  },
+  bibliografia: "Travis WD, et al. Am J Respir Crit Care Med. 2013;188:733-748."
+},
+{
+  id: "NEUMO-464",
+  especialidad: "Neumología",
+  tema: "Enfermedad pulmonar intersticial",
+  subtema: "Lavado broncoalveolar y linfocitosis",
+  dificultad: "Media",
+  caso: `Hombre de 47 años con disnea subaguda y vidrio despulido difuso. Trabaja con aves y refiere empeoramiento al limpiar su criadero. El equipo considera neumonitis por hipersensibilidad y solicita estudios complementarios.`,
+  pregunta: "¿Qué utilidad puede tener el lavado broncoalveolar en este contexto?",
+  opciones: [
+    "Aportar información complementaria, como linfocitosis, dentro de una evaluación integrada",
+    "Confirmar por sí solo cualquier enfermedad intersticial",
+    "Excluir todas las infecciones con certeza absoluta",
+    "Sustituir siempre la historia de exposición y la tomografía",
+    "Demostrar obligatoriamente cáncer pulmonar"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El lavado broncoalveolar puede mostrar linfocitosis en neumonitis por hipersensibilidad y ayudar a evaluar diagnósticos alternativos. Sin embargo, no es específico ni suficiente por sí solo; la interpretación depende de exposición, tomografía, evolución y, cuando sea necesario, otros estudios.`,
+  perlaENARM: "El lavado broncoalveolar es una pieza del diagnóstico integrado de enfermedad intersticial, no una prueba definitiva aislada.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumonitis por hipersensibilidad.",
+    internacional: "ATS/JRS/ALAT. Diagnosis of Hypersensitivity Pneumonitis in Adults, 2020."
+  },
+  bibliografia: "Raghu G, et al. Am J Respir Crit Care Med. 2020;202:e36-e69."
+},
+{
+  id: "NEUMO-465",
+  especialidad: "Neumología",
+  tema: "Hipertensión pulmonar",
+  subtema: "Prueba de vasorreactividad aguda",
+  dificultad: "Media",
+  caso: `Mujer de 35 años con hipertensión arterial pulmonar idiopática confirmada mediante cateterismo derecho. El equipo especializado considera si podría beneficiarse de calcioantagonistas a dosis altas.`,
+  pregunta: "¿En qué pacientes tiene un papel la prueba de vasorreactividad aguda?",
+  opciones: [
+    "En determinados pacientes con hipertensión arterial pulmonar idiopática, hereditaria o asociada a fármacos, para identificar respondedores",
+    "En todos los pacientes con EPOC",
+    "En cualquier paciente con edema pulmonar",
+    "Para confirmar tuberculosis",
+    "Para diagnosticar apnea del sueño"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La prueba de vasorreactividad aguda se realiza en grupos seleccionados de hipertensión arterial pulmonar para identificar pacientes que podrían beneficiarse de calcioantagonistas a dosis altas. No se recomienda de forma indiscriminada para todas las causas de hipertensión pulmonar, y debe realizarse en centros especializados.`,
+  perlaENARM: "La vasorreactividad aguda ayuda a seleccionar candidatos a calcioantagonistas en subgrupos específicos de hipertensión arterial pulmonar.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipertensión pulmonar.",
+    internacional: "ESC/ERS. Guidelines for Pulmonary Hypertension, 2022."
+  },
+  bibliografia: "Humbert M, et al. Eur Heart J. 2022;43:3618-3731."
+},
+{
+  id: "NEUMO-466",
+  especialidad: "Neumología",
+  tema: "Apnea obstructiva del sueño",
+  subtema: "Índice apnea-hipopnea",
+  dificultad: "Media",
+  caso: `Hombre de 50 años con ronquido, somnolencia diurna y pausas respiratorias observadas. La polisomnografía muestra un índice apnea-hipopnea de 22 eventos por hora.`,
+  pregunta: "¿Cómo se clasifica habitualmente esta gravedad en adultos?",
+  opciones: [
+    "Leve",
+    "Moderada",
+    "Grave",
+    "Normal",
+    "No interpretable en ningún contexto"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En adultos, el índice apnea-hipopnea suele clasificarse como leve entre 5 y menos de 15 eventos por hora, moderado entre 15 y menos de 30, y grave con 30 o más. La interpretación debe relacionarse con síntomas, comorbilidades y tipo de estudio.`,
+  perlaENARM: "IAH adulto: 5–14 leve, 15–29 moderado y 30 o más grave, en el contexto diagnóstico apropiado.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre apnea obstructiva del sueño.",
+    internacional: "AASM. Diagnostic Testing for Adult Obstructive Sleep Apnea, 2017."
+  },
+  bibliografia: "Kapur VK, et al. J Clin Sleep Med. 2017;13:479-504."
+},
+{
+  id: "NEUMO-467",
+  especialidad: "Neumología",
+  tema: "Bronquiectasias",
+  subtema: "Evaluación etiológica inicial",
+  dificultad: "Media",
+  caso: `Mujer de 40 años con bronquiectasias bilaterales, sinusitis recurrente e infecciones respiratorias desde la adolescencia. No presenta una causa adquirida evidente.`,
+  pregunta: "¿Qué evaluación etiológica es razonable considerar?",
+  opciones: [
+    "Inmunoglobulinas séricas y pruebas dirigidas según historia clínica, incluyendo causas hereditarias cuando corresponda",
+    "Dímero D como estudio etiológico universal",
+    "Prueba de esfuerzo cardiaco",
+    "Biopsia pulmonar abierta en todos los casos",
+    "No investigar la causa de las bronquiectasias"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Las bronquiectasias pueden asociarse con inmunodeficiencias, aspergilosis broncopulmonar alérgica, fibrosis quística, discinesia ciliar y otras causas. La historia de sinusitis e infecciones desde edades tempranas justifica una evaluación dirigida, incluyendo inmunoglobulinas y estudios específicos según los hallazgos.`,
+  perlaENARM: "En bronquiectasias de inicio temprano o con infecciones recurrentes, busca una causa tratable subyacente.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre bronquiectasias.",
+    internacional: "ERS. Clinical Practice Guideline for Adult Bronchiectasis, 2017."
+  },
+  bibliografia: "Polverino E, et al. Eur Respir J. 2017;50:1700629."
+},
+{
+  id: "NEUMO-468",
+  especialidad: "Neumología",
+  tema: "Hemoptisis",
+  subtema: "Hemoptisis en tuberculosis",
+  dificultad: "Media",
+  caso: `Hombre de 45 años con tuberculosis pulmonar en evaluación presenta hemoptisis moderada. Está estable y la imagen muestra una cavidad en lóbulo superior, sin evidencia inicial de choque.`,
+  pregunta: "¿Cuál es el enfoque más apropiado?",
+  opciones: [
+    "Evaluar gravedad y causa del sangrado, obtener estudios microbiológicos y considerar imagen vascular según evolución",
+    "Asumir que todo sangrado es benigno por tener tuberculosis",
+    "Administrar anticoagulación a dosis plena",
+    "Suspender la evaluación porque existe una cavidad",
+    "Indicar únicamente antitusígenos"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La tuberculosis puede producir hemoptisis por inflamación, cavitación o alteraciones vasculares, pero deben evaluarse otras causas y el riesgo de progresión. El manejo depende de la gravedad, estado respiratorio y fuente del sangrado; puede requerir angiotomografía y embolización si es importante o recurrente.`,
+  perlaENARM: "La tuberculosis cavitaria puede causar hemoptisis significativa; la estabilidad inicial no elimina la necesidad de evaluación.",
+  gpc: {
+    mexico: "NOM-006-SSA2-2013 y protocolos vigentes para tuberculosis y hemoptisis.",
+    internacional: "WHO. Consolidated Guidelines on Tuberculosis; consensus guidance on hemoptysis."
+  },
+  bibliografia: "World Health Organization. WHO consolidated guidelines on tuberculosis."
+},
+{
+  id: "NEUMO-469",
+  especialidad: "Neumología",
+  tema: "Sarcoidosis",
+  subtema: "Síndrome de Löfgren",
+  dificultad: "Media",
+  caso: `Mujer de 30 años presenta fiebre, artralgias de tobillos y eritema nodoso. La radiografía muestra adenopatías hiliares bilaterales simétricas. No hay síntomas respiratorios graves.`,
+  pregunta: "¿Qué síndrome clínico es el más probable?",
+  opciones: [
+    "Síndrome de Löfgren",
+    "Síndrome de Kartagener",
+    "Síndrome de Goodpasture",
+    "Síndrome de apnea obstructiva",
+    "Síndrome de dificultad respiratoria aguda"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El síndrome de Löfgren es una presentación aguda de sarcoidosis caracterizada clásicamente por eritema nodoso, artritis o artralgias, y adenopatías hiliares bilaterales. En un cuadro típico el pronóstico suele ser favorable, pero debe mantenerse el diagnóstico diferencial según epidemiología y hallazgos clínicos.`,
+  perlaENARM: "Löfgren: eritema nodoso, artritis o artralgias y adenopatías hiliares bilaterales.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre sarcoidosis.",
+    internacional: "ATS. Diagnosis and Detection of Sarcoidosis, 2020."
+  },
+  bibliografia: "Crouser ED, et al. Am J Respir Crit Care Med. 2020;201:e26-e51."
+},
+{
+  id: "NEUMO-470",
+  especialidad: "Neumología",
+  tema: "Sarcoidosis",
+  subtema: "Seguimiento de afectación pulmonar",
+  dificultad: "Media",
+  caso: `Hombre de 42 años con sarcoidosis pulmonar, adenopatías hiliares y síntomas leves. Se encuentra estable, sin hipoxemia ni evidencia de afectación cardiaca, ocular o neurológica.`,
+  pregunta: "¿Cuál es un principio razonable de seguimiento?",
+  opciones: [
+    "Vigilancia clínica y funcional periódica, con evaluación de órganos extrapulmonares según recomendaciones",
+    "Iniciar inmunosupresión intensa en todos los casos",
+    "No volver a evaluar al paciente",
+    "Realizar biopsia pulmonar mensual",
+    "Indicar antibióticos continuos"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Muchos pacientes con sarcoidosis estable y sin amenaza orgánica pueden manejarse mediante vigilancia. El seguimiento incluye síntomas, función pulmonar y evaluación dirigida de órganos extrapulmonares. La frecuencia y los estudios se individualizan según estadio, actividad y evolución.`,
+  perlaENARM: "No toda sarcoidosis requiere inmunosupresión; el riesgo de daño orgánico y la evolución guían la conducta.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre seguimiento de sarcoidosis.",
+    internacional: "ATS. Diagnosis and Detection of Sarcoidosis, 2020."
+  },
+  bibliografia: "Crouser ED, et al. Am J Respir Crit Care Med. 2020;201:e26-e51."
+},
+{
+  id: "NEUMO-471",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Hipercapnia crónica y ventilación no invasiva domiciliaria",
+  dificultad: "Media",
+  caso: `Hombre de 70 años con EPOC grave permanece hipercápnico varias semanas después de una exacerbación que requirió ventilación no invasiva. Se encuentra clínicamente estable, pero la PaCO2 continúa elevada en mediciones repetidas.`,
+  pregunta: "¿Qué opción puede considerarse en pacientes seleccionados tras evaluación especializada?",
+  opciones: [
+    "Valorar ventilación no invasiva domiciliaria a largo plazo según persistencia de hipercapnia y criterios clínicos",
+    "Intubar de manera permanente a todos los pacientes",
+    "Suspender la evaluación gasométrica",
+    "Administrar sedantes nocturnos como tratamiento de la hipercapnia",
+    "Utilizar antibióticos como sustituto del soporte ventilatorio"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En pacientes seleccionados con EPOC e hipercapnia crónica persistente, la ventilación no invasiva domiciliaria puede considerarse tras optimizar tratamiento y confirmar persistencia de la hipercapnia después de la exacerbación. La selección requiere evaluación de otras causas, comorbilidades, adherencia y objetivos terapéuticos.`,
+  perlaENARM: "La ventilación no invasiva domiciliaria puede beneficiar a pacientes seleccionados con EPOC e hipercapnia persistente.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre EPOC e hipercapnia crónica.",
+    internacional: "ATS. Long-Term Noninvasive Ventilation in Chronic Stable Hypercapnic COPD, 2020."
+  },
+  bibliografia: "Macrea M, et al. Am J Respir Crit Care Med. 2020;202:e74-e87."
+},
+{
+  id: "NEUMO-472",
+  especialidad: "Neumología",
+  tema: "EPOC",
+  subtema: "Exacerbaciones recurrentes pese a tratamiento inhalado",
+  dificultad: "Media",
+  caso: `Hombre de 66 años con EPOC, bronquitis crónica y exacerbaciones repetidas pese a LABA/LAMA y tratamiento optimizado. Presenta eosinófilos de 70 células/µL y no tiene asma concomitante.`,
+  pregunta: "¿Cuál es el siguiente paso más apropiado antes de añadir otros fármacos preventivos?",
+  opciones: [
+    "Revisar adherencia, técnica, tabaquismo, rehabilitación y causas de exacerbación; luego valorar opciones adicionales según fenotipo",
+    "Iniciar corticosteroide sistémico indefinido",
+    "Suspender LABA/LAMA",
+    "Prescribir antifúngicos",
+    "Administrar trombólisis"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Las exacerbaciones persistentes requieren verificar diagnóstico, adherencia, técnica, exposición al tabaco, vacunación, rehabilitación y comorbilidades. Después pueden considerarse opciones adicionales en perfiles seleccionados, como roflumilast en bronquitis crónica con obstrucción grave o macrólidos en pacientes apropiados, tras evaluar riesgos y resistencia.`,
+  perlaENARM: "En EPOC con exacerbaciones recurrentes, optimiza medidas básicas y selecciona tratamientos adicionales según fenotipo y riesgos.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para prevención de exacerbaciones de EPOC.",
+    internacional: "GOLD. Global Strategy for COPD, 2025."
+  },
+  bibliografia: "Global Initiative for Chronic Obstructive Lung Disease. GOLD Report. 2025."
+},
+{
+  id: "NEUMO-473",
+  especialidad: "Neumología",
+  tema: "Tromboembolia pulmonar",
+  subtema: "Tromboembolia pulmonar en embarazo",
+  dificultad: "Media",
+  caso: `Mujer de 30 años embarazada de 24 semanas presenta disnea súbita y dolor pleurítico. Está hemodinámicamente estable y la sospecha clínica de tromboembolia pulmonar requiere evaluación. No tiene antecedente de reacción al contraste.`,
+  pregunta: "¿Cuál es el principio diagnóstico y terapéutico apropiado?",
+  opciones: [
+    "Aplicar un algoritmo validado para embarazo y seleccionar imagen según el contexto; utilizar heparina de bajo peso molecular si se confirma o está indicada la anticoagulación",
+    "Utilizar dímero D como prueba confirmatoria única",
+    "Administrar anticoagulante oral directo como tratamiento universal",
+    "Evitar toda evaluación por estar embarazada",
+    "Indicar trombólisis en cualquier sospecha"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La evaluación de tromboembolia pulmonar en embarazo requiere un algoritmo validado y selección individualizada de imagen. Si se requiere anticoagulación, la heparina de bajo peso molecular es una opción habitual porque no atraviesa la placenta. Los anticoagulantes orales directos no se recomiendan de rutina durante el embarazo.`,
+  perlaENARM: "En embarazo con sospecha de embolia, no omitas el diagnóstico; utiliza algoritmos específicos y anticoagulación compatible cuando esté indicada.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre tromboembolia venosa en embarazo.",
+    internacional: "ESC. Guidelines for Acute Pulmonary Embolism, 2019."
+  },
+  bibliografia: "Konstantinides SV, et al. Eur Heart J. 2020;41:543-603."
+},
+{
+  id: "NEUMO-474",
+  especialidad: "Neumología",
+  tema: "Derrame pleural",
+  subtema: "Pseudoexudado tras diuresis",
+  dificultad: "Media",
+  caso: `Hombre de 75 años con insuficiencia cardiaca recibe diuréticos intensivos. El derrame pleural cumple marginalmente un criterio de Light para exudado, pero el cuadro clínico y la respuesta a diuresis sugieren origen cardiaco.`,
+  pregunta: "¿Cuál es la interpretación más apropiada?",
+  opciones: [
+    "Considerar un pseudoexudado por diuresis y correlacionar con gradientes de albúmina o proteínas y el contexto clínico",
+    "Diagnosticar cáncer pleural automáticamente",
+    "Descartar insuficiencia cardiaca por un único criterio de Light",
+    "Indicar quimioterapia sin estudios",
+    "Asumir empiema aunque no haya datos infecciosos"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Los diuréticos pueden concentrar proteínas y LDH en el líquido pleural de pacientes con insuficiencia cardiaca, haciendo que algunos trasudados parezcan exudados por criterios de Light. El gradiente de albúmina sérica-pleural y el contexto clínico pueden ayudar a aclarar la etiología. Si persisten datos atípicos, deben investigarse otras causas.`,
+  perlaENARM: "En insuficiencia cardiaca tratada con diuréticos, un criterio de Light positivo no siempre excluye un origen cardiaco.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre derrame pleural e insuficiencia cardiaca.",
+    internacional: "BTS. Guideline for Pleural Disease, 2023."
+  },
+  bibliografia: "Roberts ME, et al. Thorax. 2023;78(Suppl 3):s1-s42."
+},
+{
+  id: "NEUMO-475",
+  especialidad: "Neumología",
+  tema: "Neumonía adquirida en la comunidad",
+  subtema: "Procalcitonina y decisión antibiótica",
+  dificultad: "Media",
+  caso: `Mujer de 62 años con fiebre, tos productiva e infiltrado lobar nuevo compatible con neumonía adquirida en la comunidad. La procalcitonina inicial es baja y no existen datos de choque.`,
+  pregunta: "¿Cuál es la interpretación más adecuada?",
+  opciones: [
+    "Una procalcitonina baja aislada no debe utilizarse para negar antibióticos cuando existe neumonía clínica y radiológicamente probable",
+    "La procalcitonina baja confirma infección viral en todos los casos",
+    "La procalcitonina sustituye la evaluación clínica",
+    "Debe administrarse antibiótico de amplio espectro indefinidamente",
+    "No es necesario evaluar gravedad ni seguimiento"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La procalcitonina no tiene sensibilidad suficiente para excluir por sí sola una infección bacteriana en neumonía adquirida en la comunidad. La decisión inicial debe basarse en el cuadro clínico, la imagen y la gravedad. Los biomarcadores pueden complementar, pero no sustituir, el juicio clínico y la reevaluación.`,
+  perlaENARM: "No descartes neumonía bacteriana únicamente por procalcitonina baja si el cuadro clínico la sustenta.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre neumonía y uso racional de antibióticos.",
+    internacional: "ATS/IDSA. Community-acquired Pneumonia Guideline, 2019."
+  },
+  bibliografia: "Metlay JP, et al. Am J Respir Crit Care Med. 2019;200:e45-e67."
+},
+{
+  id: "NEUMO-476",
+  especialidad: "Neumología",
+  tema: "Tuberculosis",
+  subtema: "Tuberculosis extrapulmonar y prueba molecular",
+  dificultad: "Media",
+  caso: `Mujer de 36 años con fiebre prolongada y adenopatía cervical persistente. La biopsia muestra inflamación granulomatosa y se sospecha tuberculosis ganglionar. La baciloscopia del tejido es negativa.`,
+  pregunta: "¿Cuál es el enfoque diagnóstico más apropiado?",
+  opciones: [
+    "Solicitar prueba molecular y cultivo de la muestra cuando estén disponibles, sin excluir tuberculosis por una baciloscopia negativa",
+    "Descartar tuberculosis de manera definitiva por baciloscopia negativa",
+    "Indicar únicamente broncodilatadores",
+    "Diagnosticar sarcoidosis exclusivamente por granulomas",
+    "Evitar toda evaluación microbiológica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La tuberculosis extrapulmonar puede ser paucibacilar y la baciloscopia negativa no la excluye. Las pruebas moleculares y el cultivo del tejido pueden aumentar la confirmación y permitir estudios de sensibilidad. Los granulomas no son exclusivos de tuberculosis y deben considerarse otras infecciones y enfermedades inflamatorias.`,
+  perlaENARM: "En tuberculosis extrapulmonar, una baciloscopia negativa no excluye enfermedad; integra histología, prueba molecular y cultivo.",
+  gpc: {
+    mexico: "NOM-006-SSA2-2013 y lineamientos nacionales vigentes para tuberculosis extrapulmonar.",
+    internacional: "WHO. Consolidated Guidelines on Tuberculosis: Module 3, Diagnosis, 2024."
+  },
+  bibliografia: "World Health Organization. WHO consolidated guidelines on tuberculosis: Module 3, Diagnosis. 2024."
+},
+{
+  id: "NEUMO-477",
+  especialidad: "Neumología",
+  tema: "Insuficiencia respiratoria",
+  subtema: "Oxigenoterapia de alto flujo",
+  dificultad: "Media",
+  caso: `Hombre de 60 años con neumonía e insuficiencia respiratoria hipoxémica. Está despierto, hemodinámicamente estable y requiere concentraciones elevadas de oxígeno, sin hipercapnia ni agotamiento inmediato.`,
+  pregunta: "¿Qué soporte puede considerarse en un paciente seleccionado con vigilancia estrecha?",
+  opciones: [
+    "Cánula nasal de alto flujo",
+    "Suspender el oxígeno para estimular la respiración",
+    "Ventilación invasiva obligatoria en todos los casos",
+    "CPAP domiciliaria sin monitorización",
+    "Sedación profunda como primera medida"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La cánula nasal de alto flujo proporciona oxígeno calentado y humidificado con flujos elevados y puede ser útil en insuficiencia respiratoria hipoxémica seleccionada. Se debe monitorizar la respuesta clínica y evitar retrasar la intubación si hay deterioro, agotamiento, alteración neurológica o hipoxemia refractaria.`,
+  perlaENARM: "El alto flujo puede ser útil en hipoxemia, pero exige reevaluación frecuente para identificar fracaso temprano.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de soporte respiratorio en insuficiencia hipoxémica.",
+    internacional: "ERS. Clinical Practice Guidelines on High-Flow Nasal Cannula in Acute Respiratory Failure, 2022."
+  },
+  bibliografia: "Oczkowski S, et al. ERS clinical practice guidelines: high-flow nasal cannula in acute respiratory failure. Eur Respir J. 2022."
+},
+{
+  id: "NEUMO-478",
+  especialidad: "Neumología",
+  tema: "Neumonía adquirida en la comunidad",
+  subtema: "Vacunación y prevención",
+  dificultad: "Media",
+  caso: `Hombre de 68 años con EPOC estable y antecedente de neumonía bacteriana. No recuerda su esquema de vacunación y continúa fumando.`,
+  pregunta: "¿Cuál es una estrategia preventiva integral?",
+  opciones: [
+    "Revisar y actualizar vacunas indicadas por edad y comorbilidades, promover abandono del tabaco y optimizar la enfermedad pulmonar",
+    "Indicar antibióticos diarios a todos los pacientes",
+    "Evitar toda vacunación por tener EPOC",
+    "Suspender tratamiento inhalado al estar estable",
+    "Indicar corticosteroides sistémicos permanentes"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La prevención de infecciones respiratorias incluye vacunación apropiada según edad, comorbilidades y recomendaciones nacionales, además de abandono del tabaco, control de EPOC y medidas de autocuidado. La selección de vacunas debe revisarse con las recomendaciones vigentes y el antecedente vacunal individual.`,
+  perlaENARM: "En EPOC, la prevención incluye vacunación, abandono del tabaco, actividad física y tratamiento inhalado adecuado.",
+  gpc: {
+    mexico: "Consultar Cartilla Nacional de Salud y recomendaciones mexicanas vigentes de vacunación para adultos con comorbilidades.",
+    internacional: "GOLD. Global Strategy for COPD, 2025."
+  },
+  bibliografia: "Global Initiative for Chronic Obstructive Lung Disease. GOLD Report. 2025."
+},
+{
+  id: "NEUMO-479",
+  especialidad: "Neumología",
+  tema: "Fibrosis pulmonar idiopática",
+  subtema: "Valoración de trasplante pulmonar",
+  dificultad: "Media",
+  caso: `Hombre de 59 años con fibrosis pulmonar idiopática progresiva pese a tratamiento antifibrótico. Presenta descenso funcional, necesidad creciente de oxígeno y limitación marcada para las actividades diarias.`,
+  pregunta: "¿Cuál es una medida apropiada dentro de su atención integral?",
+  opciones: [
+    "Referir oportunamente para evaluación de trasplante pulmonar si cumple criterios y no existen contraindicaciones",
+    "Esperar siempre a la ventilación invasiva para referir",
+    "Suspender seguimiento funcional",
+    "Indicar antibióticos indefinidos",
+    "Afirmar que el trasplante nunca está indicado en fibrosis pulmonar"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La fibrosis pulmonar progresiva puede justificar referencia temprana a un centro de trasplante, antes de que el deterioro sea extremo. La evaluación considera trayectoria funcional, oxigenación, comorbilidades, fragilidad y contraindicaciones. El tratamiento antifibrótico y la atención integral continúan durante la evaluación cuando están indicados.`,
+  perlaENARM: "En enfermedad intersticial progresiva, la referencia temprana para trasplante evita perder una ventana de oportunidad.",
+  gpc: {
+    mexico: "Consultar protocolos nacionales e institucionales vigentes para referencia a trasplante pulmonar.",
+    internacional: "ISHLT. Consensus Document for the Selection of Lung Transplant Candidates, 2021."
+  },
+  bibliografia: "Leard LE, et al. J Heart Lung Transplant. 2021;40:1349-1379."
+},
+{
+  id: "NEUMO-480",
+  especialidad: "Neumología",
+  tema: "Insuficiencia respiratoria",
+  subtema: "Integración clínica de hipoxemia y deterioro agudo",
+  dificultad: "Media",
+  caso: `Mujer de 64 años con enfermedad pulmonar crónica presenta empeoramiento súbito de disnea, taquicardia e hipoxemia desproporcionada respecto a su exploración basal. No tiene fiebre y la radiografía no muestra un infiltrado nuevo significativo.`,
+  pregunta: "¿Qué diagnóstico potencialmente grave debe incluirse en el diagnóstico diferencial?",
+  opciones: [
+    "Tromboembolia pulmonar",
+    "Rinitis alérgica aislada",
+    "Apnea obstructiva del sueño como única explicación inmediata",
+    "Sinusitis crónica",
+    "Reflujo gastroesofágico aislado"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La disnea súbita y la hipoxemia desproporcionada, sin una explicación evidente en la radiografía, obligan a considerar tromboembolia pulmonar, aunque también deben evaluarse neumotórax, arritmias y otras causas agudas. La probabilidad clínica y la estabilidad hemodinámica guían la selección de pruebas diagnósticas y el tratamiento.`,
+  perlaENARM: "Disnea súbita e hipoxemia sin explicación radiográfica clara: considera tromboembolia pulmonar y neumotórax.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre insuficiencia respiratoria y tromboembolia pulmonar.",
+    internacional: "ESC. Guidelines for Acute Pulmonary Embolism, 2019."
+  },
+  bibliografia: "Konstantinides SV, et al. Eur Heart J. 2020;41:543-603."
 }
 
 ];
