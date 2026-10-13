@@ -8014,5 +8014,3142 @@ window.BANCO_GASTROENTEROLOGIA = [
     "Singal AG, et al. Hepatology. 2023;78(6):1922-1965.",
     "Terrault NA, et al. Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD guidance."
   ]
+},
+  
+{
+  id: "GASTRO-311",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer gástrico",
+  subtema: "Factores de riesgo y carcinogénesis",
+  dificultad: "Media",
+  caso: "Hombre de 63 años, originario de una región con alta incidencia de cáncer gástrico, con infección por Helicobacter pylori documentada años atrás. La endoscopia realizada por dispepsia persistente muestra gastritis atrófica y metaplasia intestinal.",
+  pregunta: "¿Cuál de los siguientes mecanismos explica mejor la progresión hacia el adenocarcinoma gástrico de tipo intestinal?",
+  opciones: [
+    "Infección crónica por H. pylori con inflamación, atrofia glandular, metaplasia intestinal y displasia",
+    "Hipersecreción aislada de ácido clorhídrico con ulceración aguda",
+    "Infección por rotavirus con destrucción de las criptas gástricas",
+    "Obstrucción pilórica con aumento de la presión intragástrica",
+    "Producción pancreática de enzimas proteolíticas con autodigestión de la mucosa"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La infección crónica por H. pylori puede inducir gastritis crónica activa y progresar a atrofia, metaplasia intestinal, displasia y adenocarcinoma. Esta secuencia se conoce como cascada de Correa. La progresión no es inevitable y depende también de factores del huésped y ambientales.",
+  perlaENARM: "H. pylori, gastritis atrófica y metaplasia intestinal son asociaciones clave del adenocarcinoma gástrico de tipo intestinal. La erradicación de H. pylori reduce el riesgo, pero no elimina por completo el riesgo cuando ya existen lesiones precursoras.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente aplicable a diagnóstico y tratamiento del cáncer gástrico y las recomendaciones nacionales sobre infección por H. pylori.",
+    internacional: "NCI. Gastric Cancer Treatment PDQ; NCI. Genetics of Gastric Cancer PDQ."
+  },
+  bibliografia: [
+    "National Cancer Institute. Gastric Cancer Treatment (PDQ), Health Professional Version.",
+    "National Cancer Institute. Genetics of Gastric Cancer (PDQ), Health Professional Version."
+  ]
+},
+{
+  id: "GASTRO-312",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer gástrico",
+  subtema: "Clasificación histológica de Lauren",
+  dificultad: "Media",
+  caso: "Hombre de 68 años con pérdida ponderal progresiva, saciedad temprana y anemia ferropénica. La biopsia gástrica reporta adenocarcinoma con formación de glándulas, células cohesivas y patrón infiltrativo predominantemente antral.",
+  pregunta: "¿Qué subtipo histológico de adenocarcinoma gástrico es más compatible con estos hallazgos?",
+  opciones: [
+    "Tipo difuso de Lauren",
+    "Tipo intestinal de Lauren",
+    "Linfoma gástrico MALT",
+    "Tumor del estroma gastrointestinal",
+    "Carcinoma neuroendocrino de células pequeñas"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El tipo intestinal suele formar estructuras glandulares o tubulares y se relaciona con la secuencia de gastritis crónica, atrofia, metaplasia y displasia. El tipo difuso se caracteriza por células poco cohesivas, con frecuencia en anillo de sello, y puede infiltrar ampliamente la pared gástrica.",
+  perlaENARM: "Intestinal = formación glandular; difuso = células poco cohesivas y posible linitis plástica. La histología debe interpretarse junto con la clínica y la extensión tumoral.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre cáncer gástrico para clasificación histopatológica y abordaje diagnóstico.",
+    internacional: "NCI. Gastric Cancer Treatment PDQ; NCCN Clinical Practice Guidelines in Oncology: Gastric Cancer, versión 2.2025."
+  },
+  bibliografia: [
+    "National Cancer Institute. Gastric Cancer Treatment (PDQ), Health Professional Version.",
+    "Ajani JA, et al. Gastric Cancer, Version 2.2025. J Natl Compr Canc Netw. 2025;23(5):169-191."
+  ]
+},
+{
+  id: "GASTRO-313",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer gástrico",
+  subtema: "Linitis plástica y carcinoma difuso",
+  dificultad: "Alta",
+  caso: "Mujer de 46 años con saciedad temprana intensa, vómitos posprandiales y pérdida de 12 kg. La endoscopia muestra pliegues engrosados y rigidez difusa del estómago; la distensión con insuflación es limitada. La biopsia identifica células en anillo de sello.",
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Adenocarcinoma intestinal superficial",
+    "Linfoma gástrico MALT localizado",
+    "Adenocarcinoma gástrico difuso con linitis plástica",
+    "Úlcera péptica benigna con fibrosis localizada",
+    "Tumor del estroma gastrointestinal exofítico"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La infiltración difusa de la pared gástrica por células poco cohesivas puede causar engrosamiento, rigidez y pérdida de distensibilidad, hallazgos característicos de linitis plástica. Las células en anillo de sello apoyan el patrón difuso, aunque la interpretación definitiva requiere correlación anatomopatológica.",
+  perlaENARM: "Estómago rígido, poco distensible y con infiltración difusa: sospecha linitis plástica. Una biopsia superficial negativa no excluye la enfermedad si persiste una alta sospecha clínica; pueden requerirse biopsias profundas o técnicas complementarias.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre cáncer gástrico para diagnóstico histopatológico y manejo de lesiones infiltrativas.",
+    internacional: "NCI. Gastric Cancer Treatment PDQ; NCCN Gastric Cancer, versión 2.2025."
+  },
+  bibliografia: [
+    "National Cancer Institute. Gastric Cancer Treatment (PDQ), Health Professional Version.",
+    "Ajani JA, et al. Gastric Cancer, Version 2.2025. J Natl Compr Canc Netw. 2025;23(5):169-191."
+  ]
+},
+{
+  id: "GASTRO-314",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer gástrico",
+  subtema: "Diagnóstico definitivo",
+  dificultad: "Media",
+  caso: "Hombre de 59 años con pérdida ponderal, anemia microcítica y saciedad temprana. La endoscopia digestiva alta identifica una lesión ulcerada irregular en el antro gástrico, con bordes elevados y friables.",
+  pregunta: "¿Cuál es el siguiente paso indispensable para establecer el diagnóstico definitivo?",
+  opciones: [
+    "Solicitar únicamente antígeno carcinoembrionario sérico",
+    "Realizar ultrasonido abdominal como prueba confirmatoria",
+    "Iniciar quimioterapia con base en la apariencia endoscópica",
+    "Obtener biopsias endoscópicas de la lesión para estudio histopatológico",
+    "Solicitar una prueba de aliento para H. pylori como confirmación del cáncer"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "La endoscopia permite visualizar la lesión y obtener tejido. El diagnóstico definitivo del adenocarcinoma gástrico requiere confirmación histopatológica. Los marcadores séricos y los estudios de imagen no sustituyen la biopsia.",
+  perlaENARM: "Lesión gástrica sospechosa = endoscopia con biopsia. Los marcadores tumorales no son pruebas de tamizaje ni confirman por sí solos el cáncer gástrico.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre diagnóstico y tratamiento del cáncer gástrico.",
+    internacional: "ESMO Clinical Practice Guideline: Gastric Cancer; NCI. Gastric Cancer Treatment PDQ."
+  },
+  bibliografia: [
+    "Lordick F, et al. Gastric cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up. Ann Oncol. 2022;33(10):1005-1020.",
+    "National Cancer Institute. Gastric Cancer Treatment (PDQ), Health Professional Version."
+  ]
+},
+{
+  id: "GASTRO-315",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer gástrico",
+  subtema: "Estadificación locorregional y metástasis",
+  dificultad: "Alta",
+  caso: "Paciente de 62 años con adenocarcinoma gástrico confirmado por biopsia. La tomografía contrastada muestra engrosamiento de la pared gástrica y ganglios regionales aumentados, sin lesiones hepáticas evidentes. Se considera candidato potencial a tratamiento con intención curativa.",
+  pregunta: "¿Qué estudio es especialmente útil para evaluar la profundidad de invasión de la pared gástrica y la afectación de ganglios locorregionales en casos seleccionados?",
+  opciones: [
+    "Radiografía simple de abdomen",
+    "Ultrasonido endoscópico",
+    "Prueba de aliento con urea",
+    "Serie esófago-gastroduodenal como único estudio de estadificación",
+    "Determinación aislada de CA 19-9"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El ultrasonido endoscópico puede ayudar a definir la profundidad de invasión tumoral y valorar ganglios regionales, especialmente cuando esa información modifica la conducta. La tomografía contrastada de tórax, abdomen y pelvis forma parte de la evaluación habitual de extensión; en pacientes seleccionados puede indicarse laparoscopia de estadificación para buscar enfermedad peritoneal oculta.",
+  perlaENARM: "El ultrasonido endoscópico ayuda a valorar T y N locorregionales. La tomografía busca enfermedad a distancia; ninguna modalidad sustituye la integración multidisciplinaria de la estadificación.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre estadificación del cáncer gástrico.",
+    internacional: "ESMO Clinical Practice Guideline: Gastric Cancer; NCCN Gastric Cancer, versión 2.2025."
+  },
+  bibliografia: [
+    "Lordick F, et al. Ann Oncol. 2022;33(10):1005-1020.",
+    "Ajani JA, et al. J Natl Compr Canc Netw. 2025;23(5):169-191."
+  ]
+},
+{
+  id: "GASTRO-316",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer gástrico",
+  subtema: "Ganglio de Virchow y metástasis",
+  dificultad: "Media",
+  caso: "Hombre de 67 años con pérdida de peso, anemia y una masa epigástrica. A la exploración se identifica un ganglio supraclavicular izquierdo duro, no doloroso y fijo. La endoscopia posterior confirma adenocarcinoma gástrico.",
+  pregunta: "¿Qué representa el ganglio supraclavicular izquierdo descrito?",
+  opciones: [
+    "Ganglio de Virchow, hallazgo sugestivo de diseminación metastásica",
+    "Ganglio de Troisier, característico exclusivamente de infección viral",
+    "Ganglio centinela que confirma enfermedad limitada a la mucosa",
+    "Adenopatía reactiva que descarta enfermedad a distancia",
+    "Ganglio de la cadena cervical posterior sin relevancia oncológica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El ganglio de Virchow es una adenopatía supraclavicular izquierda asociada clásicamente a metástasis de tumores abdominales, incluido el cáncer gástrico. Su presencia obliga a evaluar enfermedad avanzada y a confirmar la naturaleza de la lesión cuando sea necesario.",
+  perlaENARM: "Ganglio supraclavicular izquierdo duro en un adulto con síntomas constitucionales = sospecha de neoplasia abdominal metastásica. No debe interpretarse como prueba histológica aislada.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre evaluación de enfermedad metastásica en cáncer gástrico.",
+    internacional: "NCI. Gastric Cancer Treatment PDQ; ESMO Clinical Practice Guideline: Gastric Cancer."
+  },
+  bibliografia: [
+    "National Cancer Institute. Gastric Cancer Treatment (PDQ), Health Professional Version.",
+    "Lordick F, et al. Ann Oncol. 2022;33(10):1005-1020."
+  ]
+},
+{
+  id: "GASTRO-317",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer gástrico",
+  subtema: "Síndrome de cáncer gástrico difuso hereditario",
+  dificultad: "Alta",
+  caso: "Mujer de 34 años, asintomática, cuya madre y hermana fueron diagnosticadas con cáncer gástrico difuso a edades tempranas. Los informes anatomopatológicos describen carcinoma de células en anillo de sello.",
+  pregunta: "¿Qué gen se asocia clásicamente con el síndrome de cáncer gástrico difuso hereditario?",
+  opciones: [
+    "APC",
+    "RET",
+    "CDH1",
+    "VHL",
+    "RB1"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "Las variantes germinales patogénicas de CDH1, que codifica E-cadherina, se asocian con el síndrome de cáncer gástrico difuso hereditario. CTNNA1 también puede estar implicado. La historia familiar descrita justifica asesoramiento genético y evaluación especializada.",
+  perlaENARM: "Cáncer gástrico difuso a edad temprana y varios familiares afectados: sospecha síndrome hereditario asociado a CDH1. No se recomienda tomar decisiones quirúrgicas preventivas sin evaluación genética y multidisciplinaria.",
+  gpc: {
+    mexico: "Consultar los criterios nacionales vigentes de referencia a genética clínica y la GPC aplicable a cáncer gástrico hereditario.",
+    internacional: "NCI. Genetics of Gastric Cancer PDQ; NCCN Gastric Cancer, versión 2.2025."
+  },
+  bibliografia: [
+    "National Cancer Institute. Genetics of Gastric Cancer (PDQ), Health Professional Version.",
+    "Ajani JA, et al. Gastric Cancer, Version 2.2025. J Natl Compr Canc Netw. 2025;23(5):169-191."
+  ]
+},
+{
+  id: "GASTRO-318",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer gástrico",
+  subtema: "Tratamiento del cáncer gástrico temprano",
+  dificultad: "Alta",
+  caso: "Paciente de 70 años con adenocarcinoma gástrico bien diferenciado, limitado a la mucosa según la evaluación inicial, sin datos de enfermedad metastásica. La lesión es pequeña y presenta características endoscópicas potencialmente compatibles con resección curativa.",
+  pregunta: "¿Cuál es la conducta más apropiada para determinar si puede tratarse mediante resección endoscópica con intención curativa?",
+  opciones: [
+    "Indicar quimioterapia sistémica como tratamiento único",
+    "Realizar resección endoscópica sin evaluar profundidad ni criterios histológicos",
+    "Indicar gastrectomía total obligatoria en todos los tumores limitados a la mucosa",
+    "Evaluar tamaño, diferenciación, profundidad, ulceración y criterios de riesgo ganglionar en un equipo experto",
+    "Mantener vigilancia anual sin obtener resección ni confirmación histológica"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "Algunos cánceres gástricos tempranos pueden tratarse con resección endoscópica, pero la selección depende de criterios estrictos que consideran tamaño, tipo histológico, profundidad, ulceración y riesgo de metástasis ganglionares. Si la lesión no cumple criterios o la resección revela factores de alto riesgo, puede ser necesaria cirugía adicional.",
+  perlaENARM: "Cáncer gástrico temprano no significa resección endoscópica automática. La decisión depende de criterios de curabilidad y del riesgo de afectación ganglionar.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente y los criterios endoscópicos especializados aplicables a cáncer gástrico temprano.",
+    internacional: "NCI. Gastric Cancer Treatment PDQ; ESMO Clinical Practice Guideline: Gastric Cancer."
+  },
+  bibliografia: [
+    "National Cancer Institute. Gastric Cancer Treatment (PDQ), Health Professional Version.",
+    "Lordick F, et al. Ann Oncol. 2022;33(10):1005-1020."
+  ]
+},
+{
+  id: "GASTRO-319",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer gástrico",
+  subtema: "Tratamiento perioperatorio del cáncer resecable",
+  dificultad: "Alta",
+  caso: "Hombre de 58 años con adenocarcinoma gástrico confirmado, enfermedad localmente avanzada resecable y sin metástasis identificadas tras la estadificación. Presenta buen estado funcional y es candidato a tratamiento multimodal.",
+  pregunta: "¿Cuál es el enfoque terapéutico general que debe discutirse en un comité multidisciplinario para muchos pacientes con enfermedad resecable localmente avanzada?",
+  opciones: [
+    "Tratamiento exclusivamente con inhibidores de la bomba de protones",
+    "Cirugía sin discutir tratamiento sistémico en ningún caso",
+    "Antibióticos como tratamiento antineoplásico definitivo",
+    "Radioterapia aislada como estándar universal",
+    "Tratamiento perioperatorio sistémico y gastrectomía oncológica con linfadenectomía cuando corresponda"
+  ],
+  respuestaCorrecta: 4,
+  explicacion: "En muchos pacientes con cáncer gástrico resecable localmente avanzado se considera tratamiento sistémico perioperatorio y cirugía oncológica con linfadenectomía. La estrategia concreta depende del estadio, localización, estado funcional, histología, biomarcadores cuando sean pertinentes y guías vigentes. No todos los pacientes siguen el mismo esquema.",
+  perlaENARM: "La cirugía es el pilar del tratamiento curativo, pero en enfermedad localmente avanzada suele requerirse una estrategia multidisciplinaria. La selección de quimioterapia perioperatoria o tratamiento adyuvante depende del contexto clínico y regional.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre tratamiento multimodal del cáncer gástrico resecable.",
+    internacional: "NCCN Gastric Cancer, versión 2.2025; ESMO Clinical Practice Guideline: Gastric Cancer."
+  },
+  bibliografia: [
+    "Ajani JA, et al. Gastric Cancer, Version 2.2025. J Natl Compr Canc Netw. 2025;23(5):169-191.",
+    "Lordick F, et al. Ann Oncol. 2022;33(10):1005-1020."
+  ]
+},
+{
+  id: "GASTRO-320",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer gástrico",
+  subtema: "Biomarcadores en enfermedad avanzada",
+  dificultad: "Alta",
+  caso: "Mujer de 64 años con adenocarcinoma gástrico metastásico confirmado. Se planea tratamiento sistémico de primera línea. La muestra tumoral está disponible y el estado funcional permite tratamiento oncológico.",
+  pregunta: "¿Cuál de las siguientes estrategias de evaluación molecular es apropiada para orientar opciones terapéuticas en enfermedad avanzada?",
+  opciones: [
+    "Solicitar únicamente CA 19-9 y elegir tratamiento según su concentración",
+    "Evaluar biomarcadores relevantes como HER2, PD-L1 y MSI/MMR; considerar CLDN18.2 según disponibilidad y opciones terapéuticas",
+    "Determinar únicamente el grupo sanguíneo ABO",
+    "Solicitar mutación de BCR::ABL1 en todos los adenocarcinomas gástricos",
+    "Evitar las pruebas tumorales porque no modifican ninguna decisión terapéutica"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "En cáncer gástrico avanzado, biomarcadores como HER2, PD-L1 y deficiencia del sistema de reparación de errores de apareamiento o inestabilidad microsatelital pueden orientar tratamientos dirigidos o inmunoterapia. CLDN18.2 también puede ser relevante para seleccionar opciones terapéuticas en pacientes elegibles, según disponibilidad y aprobación regulatoria local.",
+  perlaENARM: "En cáncer gástrico metastásico, el perfil molecular puede cambiar la primera línea. Los biomarcadores deben solicitarse e interpretarse según las guías vigentes, la disponibilidad local y las características del paciente.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente y las aprobaciones regulatorias nacionales para tratamiento sistémico del cáncer gástrico avanzado.",
+    internacional: "NCCN Gastric Cancer, versión 2.2025; NCI. Gastric Cancer Treatment PDQ."
+  },
+  bibliografia: [
+    "Ajani JA, et al. Gastric Cancer, Version 2.2025. J Natl Compr Canc Netw. 2025;23(5):169-191.",
+    "National Cancer Institute. Gastric Cancer Treatment (PDQ), Health Professional Version."
+  ]
+},
+  
+{
+  id: "GASTRO-321",
+  especialidad: "Gastroenterología",
+  tema: "ERGE complicada",
+  subtema: "Esofagitis erosiva grave",
+  dificultad: "Intermedia",
+  caso: "Hombre de 58 años con pirosis y regurgitación crónicas. La endoscopia muestra erosiones confluentes que comprometen gran parte de la mucosa esofágica distal y afectan más del 75% de la circunferencia esofágica.",
+  pregunta: "¿Qué grado de esofagitis erosiva corresponde a la clasificación de Los Ángeles?",
+  opciones: [
+    "Grado A",
+    "Grado B",
+    "Grado C",
+    "Grado D",
+    "No puede clasificarse endoscópicamente"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "La esofagitis grado D de Los Ángeles presenta lesiones mucosas que afectan al menos el 75% de la circunferencia esofágica. El grado C comprende lesiones que se extienden entre los pliegues mucosos y afectan menos del 75% de la circunferencia. La clasificación endoscópica permite estimar la gravedad del daño mucoso.",
+  perlaENARM: "Los Ángeles D: lesiones que afectan ≥75% de la circunferencia esofágica. En esofagitis erosiva grave se recomienda tratamiento con inhibidor de la bomba de protones (IBP) y mantenimiento prolongado según evolución.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente aplicable a ERGE y esofagitis erosiva; no se asigna una clave no corroborada.",
+    internacional: "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022."
+  },
+  bibliografia: [
+    "Katz PO, et al. ACG Clinical Guideline: Guidelines for the Diagnosis and Management of Gastroesophageal Reflux Disease. Am J Gastroenterol. 2022;117:27-56."
+  ]
+},
+{
+  id: "GASTRO-322",
+  especialidad: "Gastroenterología",
+  tema: "ERGE complicada",
+  subtema: "Estenosis péptica",
+  dificultad: "Intermedia",
+  caso: "Mujer de 64 años con antecedente de ERGE de larga evolución presenta disfagia progresiva inicialmente para sólidos. La endoscopia identifica una estenosis distal concéntrica y corta, sin masa evidente. Se obtienen biopsias para descartar malignidad.",
+  pregunta: "Una vez descartada una causa maligna, ¿cuál es el tratamiento endoscópico de elección para la estenosis péptica sintomática?",
+  opciones: [
+    "Dilatación endoscópica con balón o bujías, asociada a tratamiento antisecretor",
+    "Tratamiento exclusivo con antiácidos a demanda",
+    "Esofagectomía inmediata en todos los casos",
+    "Tratamiento antibiótico empírico durante 14 días",
+    "Ligadura endoscópica de la estenosis"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La dilatación endoscópica es el tratamiento habitual de la estenosis péptica benigna sintomática. Debe acompañarse de supresión ácida, generalmente con IBP, para reducir la recurrencia. La disfagia obliga a excluir neoplasia y otras causas estructurales antes de asumir que la estenosis es benigna.",
+  perlaENARM: "Disfagia progresiva es un dato de alarma: requiere endoscopia y evaluación de la lesión. La dilatación trata la obstrucción, mientras que el IBP controla el mecanismo lesivo y reduce recurrencias.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre ERGE y disfagia; confirmar la aplicabilidad local de las recomendaciones endoscópicas.",
+    internacional: "ACG Clinical Guideline for GERD, 2022; recomendaciones endoscópicas para estenosis benignas."
+  },
+  bibliografia: [
+    "Katz PO, et al. Am J Gastroenterol. 2022;117:27-56."
+  ]
+},
+{
+  id: "GASTRO-323",
+  especialidad: "Gastroenterología",
+  tema: "ERGE complicada",
+  subtema: "Esófago de Barrett: definición y diagnóstico",
+  dificultad: "Intermedia",
+  caso: "Hombre de 61 años con ERGE de 15 años de evolución se somete a endoscopia. Se observa mucosa columnar que se extiende 3 cm por encima de la unión gastroesofágica. Las biopsias muestran metaplasia intestinal con células caliciformes.",
+  pregunta: "¿Cuál es la interpretación diagnóstica más apropiada?",
+  opciones: [
+    "Esófago de Barrett, por metaplasia intestinal en el esófago tubular",
+    "Acalasia en fase inicial",
+    "Esofagitis infecciosa por Candida",
+    "Úlcera péptica gástrica",
+    "Adenocarcinoma invasor confirmado"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El esófago de Barrett consiste en sustitución del epitelio escamoso distal por epitelio columnar metaplásico; en la definición utilizada por las guías estadounidenses, se requiere metaplasia intestinal en el esófago tubular. El diagnóstico se integra con los hallazgos endoscópicos y la histología. La metaplasia intestinal no equivale por sí misma a cáncer.",
+  perlaENARM: "Barrett es una lesión precursora del adenocarcinoma esofágico. Metaplasia intestinal, displasia y carcinoma son categorías histopatológicas distintas.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente sobre ERGE y lesiones premalignas esofágicas.",
+    internacional: "ACG Guideline for the Diagnosis and Management of GERD, 2022; ASGE Guideline on Screening and Surveillance of Barrett's Esophagus."
+  },
+  bibliografia: [
+    "Katz PO, et al. Am J Gastroenterol. 2022;117:27-56.",
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;90:335-359.e2."
+  ]
+},
+{
+  id: "GASTRO-324",
+  especialidad: "Gastroenterología",
+  tema: "ERGE complicada",
+  subtema: "Vigilancia del esófago de Barrett sin displasia",
+  dificultad: "Avanzada",
+  caso: "Hombre de 55 años con esófago de Barrett confirmado mediante endoscopia y biopsias protocolizadas. La longitud del segmento es de 2 cm y no se identifica displasia después de revisión histopatológica adecuada.",
+  pregunta: "¿Cuál es la estrategia general más apropiada?",
+  opciones: [
+    "Ablación endoscópica inmediata en todos los pacientes",
+    "Esofagectomía profiláctica",
+    "Vigilancia endoscópica según longitud del segmento y guía aplicable, además de manejo de la ERGE",
+    "Quimioterapia preventiva",
+    "Suspender todo seguimiento porque no existe riesgo de progresión"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "En Barrett sin displasia, la conducta habitual es vigilancia endoscópica según la longitud del segmento y la guía utilizada, además del manejo de la ERGE. La ablación no se recomienda de forma rutinaria para todos los pacientes sin displasia. La vigilancia debe realizarse con inspección cuidadosa y biopsias protocolizadas.",
+  perlaENARM: "Barrett sin displasia no significa cáncer ni indicación automática de ablación. Los intervalos de vigilancia dependen de la guía y de la longitud del segmento; evita memorizar un intervalo único sin especificar el contexto.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente y el protocolo institucional de vigilancia de Barrett.",
+    internacional: "ASGE Guideline on Screening and Surveillance of Barrett's Esophagus; ACG Clinical Guideline for GERD."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Gastrointest Endosc. 2019;90:335-359.e2.",
+    "Katz PO, et al. Am J Gastroenterol. 2022;117:27-56."
+  ]
+},
+{
+  id: "GASTRO-325",
+  especialidad: "Gastroenterología",
+  tema: "ERGE complicada",
+  subtema: "Barrett con displasia de alto grado",
+  dificultad: "Avanzada",
+  caso: "Mujer de 67 años con esófago de Barrett presenta displasia de alto grado confirmada por un patólogo gastrointestinal experto. La endoscopia de alta definición no muestra invasión evidente ni metástasis conocidas.",
+  pregunta: "En un paciente apropiadamente seleccionado, ¿qué estrategia se prefiere para tratar la displasia de alto grado asociada a Barrett sin carcinoma invasor?",
+  opciones: [
+    "Observación sin vigilancia",
+    "Terapia endoscópica de erradicación, con resección de lesiones visibles y ablación del epitelio residual cuando esté indicada",
+    "Tratamiento exclusivo con antiácidos",
+    "Antibióticos para erradicar Helicobacter pylori",
+    "Quimioterapia sistémica como primera elección"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La terapia endoscópica de erradicación es una opción preferida para Barrett con displasia de alto grado y para determinados casos de neoplasia intramucosa. Las lesiones visibles deben evaluarse y, por lo general, resecarse endoscópicamente para definir la profundidad y la histología antes de tratar el epitelio residual. La invasión más profunda puede cambiar la estrategia hacia tratamiento quirúrgico u oncológico.",
+  perlaENARM: "Displasia de alto grado en Barrett: confirmar histología y valorar terapia endoscópica de erradicación en un centro experto. Las lesiones visibles suelen requerir resección antes de la ablación.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente y la disponibilidad de terapia endoscópica avanzada en el centro de referencia.",
+    internacional: "ASGE Guideline on Endoscopic Eradication Therapy for Barrett's Esophagus-Associated Dysplasia and Intramucosal Cancer."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Endoscopic eradication therapy for patients with Barrett's esophagus-associated dysplasia and intramucosal cancer. Gastrointest Endosc. 2018;87:907-931.e9."
+  ]
+},
+{
+  id: "GASTRO-326",
+  especialidad: "Gastroenterología",
+  tema: "ERGE complicada",
+  subtema: "Adenocarcinoma esofágico asociado a Barrett",
+  dificultad: "Avanzada",
+  caso: "Hombre de 69 años con obesidad y ERGE crónica consulta por disfagia progresiva, pérdida ponderal y anemia. La endoscopia muestra una lesión ulcerada en el esófago distal; las biopsias confirman adenocarcinoma.",
+  pregunta: "¿Cuál es el siguiente paso para definir la estrategia terapéutica?",
+  opciones: [
+    "Indicar tratamiento empírico con IBP y diferir la estadificación",
+    "Iniciar ablación del segmento de Barrett sin estudiar el tumor",
+    "Realizar estadificación oncológica con imagen y evaluación locorregional según el caso, para decidir tratamiento multidisciplinario",
+    "Indicar vigilancia endoscópica anual como si fuera Barrett sin displasia",
+    "Tratar únicamente con antiácidos"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "Una vez confirmado el adenocarcinoma, la conducta depende de la extensión locorregional y de la presencia de enfermedad metastásica. La estadificación puede incluir tomografía, PET-TC en casos seleccionados y ultrasonido endoscópico cuando aporte información útil. La decisión terapéutica debe ser multidisciplinaria y distinguir enfermedad superficial, localmente avanzada y metastásica.",
+  perlaENARM: "Disfagia progresiva, pérdida de peso y anemia son datos de alarma. Ante cáncer confirmado, primero se estadifica; la terapia depende de la profundidad de invasión y de la extensión tumoral.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de cáncer de esófago y el protocolo oncológico institucional.",
+    internacional: "Guías oncológicas internacionales vigentes para adenocarcinoma esofágico; ACG Guideline for GERD."
+  },
+  bibliografia: [
+    "Katz PO, et al. Am J Gastroenterol. 2022;117:27-56.",
+    "Consultar la versión vigente de la guía oncológica institucional para estadificación y tratamiento."
+  ]
+},
+{
+  id: "GASTRO-327",
+  especialidad: "Gastroenterología",
+  tema: "ERGE complicada",
+  subtema: "ERGE refractaria al tratamiento",
+  dificultad: "Avanzada",
+  caso: "Hombre de 46 años con pirosis persistente pese a referir uso diario de omeprazol. No se ha corroborado el horario de administración ni la adherencia. No presenta pérdida de peso, disfagia ni hemorragia digestiva.",
+  pregunta: "¿Cuál es el primer paso antes de etiquetar el cuadro como ERGE refractaria?",
+  opciones: [
+    "Indicar cirugía antirreflujo de inmediato",
+    "Verificar adherencia, administración correcta del IBP antes de los alimentos y optimizar el tratamiento",
+    "Solicitar manometría como único estudio inicial en todos los casos",
+    "Iniciar tratamiento oncológico empírico",
+    "Suspender el IBP y asumir un trastorno funcional"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La persistencia de síntomas no demuestra por sí sola reflujo patológico refractario. Primero se revisan adherencia, horario de administración y optimización del IBP. Si persisten los síntomas, se reevalúa el diagnóstico y se seleccionan estudios objetivos —monitorización de reflujo y, según la indicación, endoscopia o manometría— para distinguir reflujo persistente de pirosis funcional u otros trastornos.",
+  perlaENARM: "Antes de escalar el tratamiento de una ERGE aparentemente refractaria, confirma que el IBP se toma correctamente, habitualmente 30–60 minutos antes de una comida.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de ERGE para el abordaje de síntomas persistentes.",
+    internacional: "ACG Clinical Guideline for the Diagnosis and Management of GERD, 2022."
+  },
+  bibliografia: [
+    "Katz PO, et al. Am J Gastroenterol. 2022;117:27-56."
+  ]
+},
+{
+  id: "GASTRO-328",
+  especialidad: "Gastroenterología",
+  tema: "ERGE complicada",
+  subtema: "Estudio de ERGE persistente con diagnóstico no demostrado",
+  dificultad: "Avanzada",
+  caso: "Mujer de 39 años con pirosis persistente a pesar de un ensayo terapéutico correctamente optimizado. Nunca ha tenido evidencia endoscópica concluyente de ERGE y no presenta esofagitis erosiva grave ni Barrett conocido.",
+  pregunta: "¿Qué estudio permite establecer objetivamente la presencia de reflujo patológico cuando el diagnóstico de ERGE aún no está demostrado?",
+  opciones: [
+    "Manometría esofágica aislada como prueba confirmatoria de ERGE",
+    "Monitorización ambulatoria de reflujo sin tratamiento antisecretor, según disponibilidad y contexto clínico",
+    "Radiografía simple de tórax",
+    "Prueba terapéutica indefinida con IBP sin reevaluación",
+    "Biopsia gástrica para Helicobacter pylori como prueba confirmatoria"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Cuando la ERGE no está demostrada objetivamente, la monitorización ambulatoria del reflujo fuera de tratamiento antisecretor puede confirmar o excluir exposición ácida patológica. En pacientes con ERGE ya demostrada y síntomas persistentes pese a tratamiento optimizado, puede indicarse monitorización con impedancia-pH durante tratamiento, de acuerdo con la pregunta clínica. La manometría evalúa motilidad y ayuda en situaciones específicas, pero no confirma por sí sola ERGE.",
+  perlaENARM: "ERGE no demostrada: monitorización de reflujo fuera de IBP. ERGE previamente demostrada con síntomas persistentes bajo tratamiento optimizado: considerar impedancia-pH bajo tratamiento.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente y la disponibilidad local de monitorización ambulatoria de reflujo.",
+    internacional: "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022."
+  },
+  bibliografia: [
+    "Katz PO, et al. Am J Gastroenterol. 2022;117:27-56."
+  ]
+},
+{
+  id: "GASTRO-329",
+  especialidad: "Gastroenterología",
+  tema: "ERGE complicada",
+  subtema: "Indicaciones de cirugía antirreflujo",
+  dificultad: "Avanzada",
+  caso: "Hombre de 52 años con regurgitación persistente, hernia hiatal y exposición ácida patológica documentada. La evaluación preoperatoria no identifica una contraindicación mayor y se considera una intervención antirreflujo.",
+  pregunta: "¿Cuál es el principio fundamental antes de indicar cirugía antirreflujo?",
+  opciones: [
+    "La presencia aislada de pirosis siempre es suficiente",
+    "La cirugía se indica sin comprobar el diagnóstico ni estudiar la motilidad",
+    "Debe existir una indicación clínica apropiada, evidencia objetiva de ERGE y evaluación preoperatoria pertinente, incluida la motilidad esofágica",
+    "La cirugía elimina la necesidad de cualquier seguimiento",
+    "La cirugía está contraindicada en todos los pacientes con hernia hiatal"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La cirugía antirreflujo puede beneficiar a pacientes seleccionados con ERGE objetivamente demostrada, particularmente cuando hay regurgitación persistente, hernia hiatal relevante o preferencia por una alternativa al tratamiento médico prolongado. La evaluación preoperatoria debe descartar diagnósticos alternativos y valorar la motilidad esofágica; la manometría ayuda a excluir trastornos importantes que modificarían el procedimiento o su conveniencia.",
+  perlaENARM: "No indicar funduplicatura únicamente por síntomas. Se requiere selección adecuada, evidencia objetiva de ERGE y evaluación preoperatoria; la manometría es importante antes de la cirugía.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente y los criterios del equipo de cirugía esofagogástrica.",
+    internacional: "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022."
+  },
+  bibliografia: [
+    "Katz PO, et al. Am J Gastroenterol. 2022;117:27-56."
+  ]
+},
+{
+  id: "GASTRO-330",
+  especialidad: "Gastroenterología",
+  tema: "ERGE complicada",
+  subtema: "Datos de alarma y endoscopia",
+  dificultad: "Intermedia",
+  caso: "Mujer de 63 años con pirosis de varios años de evolución presenta ahora disfagia progresiva, pérdida involuntaria de 7 kg y anemia ferropénica. No ha recibido una endoscopia previa.",
+  pregunta: "¿Cuál es la conducta diagnóstica inicial más apropiada?",
+  opciones: [
+    "Aumentar el IBP y reevaluar en seis meses sin estudios",
+    "Indicar únicamente cambios dietéticos",
+    "Realizar endoscopia digestiva alta de forma prioritaria para investigar una lesión estructural o neoplasia",
+    "Diagnosticar ERGE no complicada por los antecedentes de pirosis",
+    "Solicitar exclusivamente una prueba de aliento para Helicobacter pylori"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La disfagia, la pérdida ponderal involuntaria y la anemia son datos de alarma que requieren evaluación endoscópica para identificar estenosis, esofagitis grave, úlcera o neoplasia. Aunque la ERGE puede coexistir, no debe atribuirse automáticamente a ella la aparición de síntomas nuevos o progresivos.",
+  perlaENARM: "Disfagia, sangrado digestivo, anemia, pérdida de peso y vómitos persistentes son datos de alarma. No retrases la endoscopia con ensayos empíricos prolongados cuando existen estos hallazgos.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de ERGE y los criterios institucionales de endoscopia prioritaria.",
+    internacional: "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022."
+  },
+  bibliografia: [
+    "Katz PO, et al. Am J Gastroenterol. 2022;117:27-56."
+  ]
+},
+
+{
+  id: "GASTRO-331",
+  especialidad: "Gastroenterología",
+  tema: "Hemorragia gastrointestinal alta",
+  subtema: "Presentación clínica",
+  dificultad: "Baja",
+  caso: "Hombre de 58 años presenta vómito con sangre roja y mareo después de varios días de dolor epigástrico.",
+  pregunta: "¿Cómo se denomina la expulsión de sangre mediante el vómito?",
+  opciones: [
+    "Hematoquecia",
+    "Hematemesis",
+    "Esteatorrea",
+    "Disfagia",
+    "Tenesmo rectal"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La hematemesis es la expulsión de sangre mediante el vómito y orienta a una hemorragia gastrointestinal alta. La evaluación inicial debe priorizar el estado hemodinámico y la estabilización del paciente.",
+  perlaENARM: "Hematemesis y melena son manifestaciones clásicas de hemorragia digestiva alta.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de hemorragia gastrointestinal alta.",
+    internacional: "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021."
+  },
+  bibliografia: [
+    "Laine L, et al. ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding. Am J Gastroenterol. 2021;116:899-917."
+  ]
+},
+{
+  id: "GASTRO-332",
+  especialidad: "Gastroenterología",
+  tema: "Hemorragia gastrointestinal baja",
+  subtema: "Hematoquecia",
+  dificultad: "Baja",
+  caso: "Hombre de 70 años presenta evacuaciones con sangre roja brillante, sin vómito con sangre.",
+  pregunta: "¿Cómo se denomina la expulsión de sangre roja por el recto?",
+  opciones: [
+    "Hematemesis",
+    "Melena",
+    "Hematoquecia",
+    "Acolia",
+    "Coluria"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La hematoquecia consiste en la expulsión de sangre roja o rojo oscuro por el recto. Suele relacionarse con hemorragia gastrointestinal baja, aunque una hemorragia alta abundante también puede producirla.",
+  perlaENARM: "La hematoquecia suele sugerir sangrado bajo, pero si existe inestabilidad hemodinámica debe considerarse también una fuente alta.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de hemorragia gastrointestinal baja.",
+    internacional: "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding, 2023."
+  },
+  bibliografia: [
+    "Sengupta N, et al. Management of Patients With Acute Lower Gastrointestinal Bleeding. Am J Gastroenterol. 2023."
+  ]
+},
+{
+  id: "GASTRO-333",
+  especialidad: "Gastroenterología",
+  tema: "Úlcera péptica",
+  subtema: "Etiología",
+  dificultad: "Baja",
+  caso: "Mujer de 45 años presenta dolor epigástrico y una endoscopia compatible con úlcera péptica. No utiliza antiinflamatorios de manera habitual.",
+  pregunta: "¿Qué microorganismo se asocia clásicamente con la enfermedad ulcerosa péptica?",
+  opciones: [
+    "Escherichia coli",
+    "Helicobacter pylori",
+    "Clostridioides difficile",
+    "Salmonella Typhi",
+    "Candida albicans"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Helicobacter pylori es una causa importante de úlcera péptica. Los antiinflamatorios no esteroideos también son una causa relevante. Identificar la etiología permite seleccionar el tratamiento y prevenir recurrencias.",
+  perlaENARM: "Ante una úlcera péptica, investigar H. pylori y el uso de AINE.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente para infección por H. pylori y enfermedad ulcerosa péptica.",
+    internacional: "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection, 2024."
+  },
+  bibliografia: [
+    "Chey WD, et al. ACG Clinical Guideline: Treatment of Helicobacter pylori Infection. Am J Gastroenterol. 2024."
+  ]
+},
+{
+  id: "GASTRO-334",
+  especialidad: "Gastroenterología",
+  tema: "ERGE",
+  subtema: "Manifestación clínica típica",
+  dificultad: "Baja",
+  caso: "Hombre de 35 años presenta ardor retroesternal después de comer, que empeora al acostarse. En ocasiones percibe que el contenido gástrico regresa a la boca.",
+  pregunta: "¿Cuál es el síntoma típico de la enfermedad por reflujo gastroesofágico?",
+  opciones: [
+    "Pirosis",
+    "Hemoptisis",
+    "Disuria",
+    "Ictericia",
+    "Artritis"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La pirosis es una sensación de ardor retroesternal y constituye una manifestación típica de ERGE. La regurgitación también es característica.",
+  perlaENARM: "Pirosis y regurgitación son los síntomas típicos de ERGE.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de ERGE.",
+    internacional: "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022."
+  },
+  bibliografia: [
+    "Katz PO, et al. ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease. Am J Gastroenterol. 2022;117:27-56."
+  ]
+},
+{
+  id: "GASTRO-335",
+  especialidad: "Gastroenterología",
+  tema: "Gastritis",
+  subtema: "Lesión por antiinflamatorios",
+  dificultad: "Baja",
+  caso: "Mujer de 50 años presenta dispepsia y dolor epigástrico. Refiere consumo frecuente de ibuprofeno por dolor articular.",
+  pregunta: "¿Qué mecanismo explica el daño de la mucosa gástrica asociado con los AINE?",
+  opciones: [
+    "Aumento de la producción de moco protector",
+    "Inhibición de la síntesis de prostaglandinas protectoras",
+    "Aumento de la absorción intestinal de hierro",
+    "Estimulación de la secreción de insulina",
+    "Disminución de la motilidad del esófago como único mecanismo"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Los AINE inhiben la ciclooxigenasa y disminuyen la síntesis de prostaglandinas que contribuyen a proteger la mucosa gástrica. Esto favorece erosiones, úlceras y hemorragia gastrointestinal.",
+  perlaENARM: "H. pylori y AINE son causas importantes de úlcera péptica.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de dispepsia y enfermedad ulcerosa péptica.",
+    internacional: "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection, 2024."
+  },
+  bibliografia: [
+    "Chey WD, et al. ACG Clinical Guideline: Treatment of Helicobacter pylori Infection. Am J Gastroenterol. 2024."
+  ]
+},
+{
+  id: "GASTRO-336",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis viral",
+  subtema: "Hepatitis A",
+  dificultad: "Baja",
+  caso: "Niño de 9 años presenta malestar general, náuseas e ictericia después de consumir agua posiblemente contaminada.",
+  pregunta: "¿Cuál es la vía típica de transmisión de la hepatitis A?",
+  opciones: [
+    "Picadura de mosquito",
+    "Vía fecal-oral",
+    "Transmisión exclusivamente genética",
+    "Inhalación de polvo",
+    "Contacto con polen"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El virus de la hepatitis A se transmite principalmente por vía fecal-oral, mediante agua o alimentos contaminados y contacto estrecho. La infección no produce hepatitis crónica.",
+  perlaENARM: "Hepatitis A: transmisión fecal-oral y ausencia de infección crónica.",
+  gpc: {
+    mexico: "Verificar los lineamientos mexicanos vigentes de hepatitis viral y vacunación.",
+    internacional: "Centers for Disease Control and Prevention. Clinical Overview of Hepatitis A."
+  },
+  bibliografia: [
+    "Centers for Disease Control and Prevention. Hepatitis A."
+  ]
+},
+{
+  id: "GASTRO-337",
+  especialidad: "Gastroenterología",
+  tema: "Cirrosis",
+  subtema: "Definición",
+  dificultad: "Baja",
+  caso: "Hombre de 60 años con hepatopatía crónica presenta hígado nodular y alteración de la arquitectura hepática.",
+  pregunta: "¿Qué característica define fundamentalmente la cirrosis?",
+  opciones: [
+    "Inflamación gástrica aislada",
+    "Fibrosis hepática difusa con nódulos regenerativos y distorsión arquitectónica",
+    "Inflamación exclusiva del colon",
+    "Obstrucción del apéndice",
+    "Cálculos limitados a la vesícula"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La cirrosis es una etapa avanzada de enfermedad hepática crónica caracterizada por fibrosis y nódulos regenerativos que alteran la arquitectura normal del hígado.",
+  perlaENARM: "La cirrosis puede complicarse con hipertensión portal, ascitis, hemorragia variceal y encefalopatía hepática.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de cirrosis hepática.",
+    internacional: "EASL Clinical Practice Guidelines on decompensated cirrhosis."
+  },
+  bibliografia: [
+    "European Association for the Study of the Liver. Clinical Practice Guidelines on decompensated cirrhosis."
+  ]
+},
+{
+  id: "GASTRO-338",
+  especialidad: "Gastroenterología",
+  tema: "Hipertensión portal",
+  subtema: "Formación de várices esofágicas",
+  dificultad: "Baja",
+  caso: "Paciente con cirrosis presenta hematemesis abundante. La endoscopia identifica várices esofágicas sangrantes.",
+  pregunta: "¿Qué alteración fisiopatológica favorece la formación de várices esofágicas en la cirrosis?",
+  opciones: [
+    "Hipertensión portal",
+    "Hipoglucemia aislada",
+    "Hipertensión arterial sistémica como único mecanismo",
+    "Hipotiroidismo",
+    "Obstrucción del colon"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El aumento de la resistencia al flujo portal favorece la formación de circulación colateral portosistémica, incluidas las várices esofágicas. Su ruptura puede producir hemorragia potencialmente mortal.",
+  perlaENARM: "Cirrosis más hematemesis: sospechar hemorragia variceal y estabilizar al paciente de inmediato.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de hipertensión portal y hemorragia variceal.",
+    internacional: "Baveno VII Consensus, 2022."
+  },
+  bibliografia: [
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974."
+  ]
+},
+{
+  id: "GASTRO-339",
+  especialidad: "Gastroenterología",
+  tema: "Ascitis",
+  subtema: "Manifestaciones clínicas",
+  dificultad: "Baja",
+  caso: "Hombre con cirrosis presenta aumento progresivo del perímetro abdominal y matidez cambiante a la percusión.",
+  pregunta: "¿Qué complicación explica mejor estos hallazgos?",
+  opciones: [
+    "Ascitis",
+    "Apendicitis",
+    "Hernia hiatal",
+    "Disfagia",
+    "Pancreatitis crónica exclusivamente"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La ascitis es la acumulación de líquido en la cavidad peritoneal. En pacientes con cirrosis suele relacionarse con hipertensión portal y retención renal de sodio y agua.",
+  perlaENARM: "La ascitis de nueva aparición requiere evaluación etiológica y suele ameritar paracentesis diagnóstica.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de cirrosis y ascitis.",
+    internacional: "AASLD Practice Guidance on ascites, spontaneous bacterial peritonitis and hepatorenal syndrome."
+  },
+  bibliografia: [
+    "AASLD. Practice Guidance on ascites, spontaneous bacterial peritonitis and hepatorenal syndrome."
+  ]
+},
+{
+  id: "GASTRO-340",
+  especialidad: "Gastroenterología",
+  tema: "Peritonitis bacteriana espontánea",
+  subtema: "Criterio diagnóstico",
+  dificultad: "Baja",
+  caso: "Paciente con cirrosis y ascitis ingresa por fiebre y dolor abdominal. Se realiza paracentesis diagnóstica.",
+  pregunta: "¿Qué recuento de polimorfonucleares en líquido ascítico apoya el diagnóstico de peritonitis bacteriana espontánea?",
+  opciones: [
+    "≥250 células/mm³",
+    "≥10 células/mm³",
+    "≥25 células/mm³",
+    "≥50 células/mm³",
+    "Solo un cultivo positivo, sin considerar el recuento celular"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Un recuento de polimorfonucleares de al menos 250 células/mm³ en líquido ascítico establece el criterio diagnóstico habitual, incluso cuando el cultivo es negativo.",
+  perlaENARM: "Ascitis más PMN ≥250 células/mm³: tratar como peritonitis bacteriana espontánea.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de infección del líquido ascítico.",
+    internacional: "AASLD Practice Guidance on ascites and spontaneous bacterial peritonitis."
+  },
+  bibliografia: [
+    "AASLD. Practice Guidance on ascites, spontaneous bacterial peritonitis and hepatorenal syndrome."
+  ]
+},
+{
+  id: "GASTRO-341",
+  especialidad: "Gastroenterología",
+  tema: "Encefalopatía hepática",
+  subtema: "Manifestaciones clínicas",
+  dificultad: "Baja",
+  caso: "Hombre con cirrosis presenta desorientación, inversión del ciclo sueño-vigilia y asterixis.",
+  pregunta: "¿Qué complicación debe sospecharse?",
+  opciones: [
+    "Encefalopatía hepática",
+    "Colecistitis aguda",
+    "ERGE no complicada",
+    "Hernia inguinal",
+    "Síndrome de intestino irritable"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La encefalopatía hepática produce alteraciones neuropsiquiátricas en el contexto de insuficiencia hepática o derivación portosistémica. El diagnóstico es clínico y requiere buscar factores precipitantes.",
+  perlaENARM: "En cirrosis con confusión, buscar infección, hemorragia digestiva, estreñimiento y alteraciones electrolíticas.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de encefalopatía hepática.",
+    internacional: "AASLD/EASL Practice Guideline on Hepatic Encephalopathy."
+  },
+  bibliografia: [
+    "Vilstrup H, et al. Hepatic Encephalopathy in Chronic Liver Disease: 2014 Practice Guideline by AASLD and EASL. Hepatology. 2014."
+  ]
+},
+{
+  id: "GASTRO-342",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome hepatorrenal",
+  subtema: "Concepto",
+  dificultad: "Baja",
+  caso: "Paciente con cirrosis avanzada y ascitis desarrolla deterioro de la función renal sin una causa alternativa evidente.",
+  pregunta: "¿Qué describe mejor el síndrome hepatorrenal?",
+  opciones: [
+    "Disfunción renal asociada con enfermedad hepática avanzada y alteraciones circulatorias",
+    "Infección aislada de la vejiga",
+    "Obstrucción del esófago",
+    "Inflamación exclusiva de la vesícula",
+    "Hipersecreción de ácido gástrico"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El síndrome hepatorrenal es una forma de disfunción renal asociada con enfermedad hepática avanzada y alteraciones hemodinámicas. Su diagnóstico requiere evaluar otras causas de lesión renal.",
+  perlaENARM: "Cirrosis descompensada con deterioro renal requiere buscar hipovolemia, infección, fármacos nefrotóxicos y otras causas.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de cirrosis y lesión renal aguda.",
+    internacional: "AASLD Practice Guidance on ascites and hepatorenal syndrome."
+  },
+  bibliografia: [
+    "AASLD. Practice Guidance on ascites, spontaneous bacterial peritonitis and hepatorenal syndrome."
+  ]
+},
+{
+  id: "GASTRO-343",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis aguda",
+  subtema: "Criterios diagnósticos",
+  dificultad: "Baja",
+  caso: "Mujer de 42 años presenta dolor epigástrico intenso irradiado a la espalda y lipasa sérica cuatro veces por encima del límite superior normal.",
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Pancreatitis aguda",
+    "Apendicitis crónica",
+    "ERGE no complicada",
+    "Colitis ulcerosa",
+    "Gastritis superficial"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El diagnóstico de pancreatitis aguda se establece generalmente con dos de tres criterios: dolor característico, lipasa o amilasa al menos tres veces por encima del límite superior normal e imagen compatible.",
+  perlaENARM: "Se requieren dos de tres criterios diagnósticos; no todos los pacientes necesitan tomografía para confirmar el cuadro.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de pancreatitis aguda.",
+    internacional: "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024."
+  },
+  bibliografia: [
+    "Tenner S, et al. American College of Gastroenterology Guidelines: Management of Acute Pancreatitis. Am J Gastroenterol. 2024."
+  ]
+},
+{
+  id: "GASTRO-344",
+  especialidad: "Gastroenterología",
+  tema: "Colecistitis aguda",
+  subtema: "Presentación clínica",
+  dificultad: "Baja",
+  caso: "Mujer de 38 años presenta dolor persistente en hipocondrio derecho, fiebre y signo de Murphy positivo.",
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Colecistitis aguda",
+    "Gastritis crónica",
+    "Síndrome de intestino irritable",
+    "Hepatitis A necesariamente",
+    "Enfermedad hemorroidal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El dolor en hipocondrio derecho, la fiebre y el signo de Murphy orientan a colecistitis aguda. El ultrasonido abdominal suele ser el estudio inicial de imagen.",
+  perlaENARM: "Dolor en hipocondrio derecho más Murphy positivo: sospechar colecistitis.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de colecistitis aguda.",
+    internacional: "Tokyo Guidelines 2018."
+  },
+  bibliografia: [
+    "Yokoe M, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-345",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis",
+  subtema: "Tríada de Charcot",
+  dificultad: "Baja",
+  caso: "Hombre de 67 años presenta fiebre, ictericia y dolor en hipocondrio derecho. La imagen sugiere obstrucción de la vía biliar.",
+  pregunta: "¿Qué síndrome clínico describe esta combinación?",
+  opciones: [
+    "Tríada de Charcot",
+    "Tríada de Beck",
+    "Síndrome nefrótico",
+    "Tríada de Virchow",
+    "Síndrome de Mallory-Weiss"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La tríada de Charcot consiste en fiebre, dolor en hipocondrio derecho e ictericia. Es característica de colangitis aguda, que puede evolucionar a sepsis.",
+  perlaENARM: "Colangitis: antibióticos, soporte y valoración oportuna del drenaje biliar.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de colangitis aguda.",
+    internacional: "Tokyo Guidelines 2018."
+  },
+  bibliografia: [
+    "Kiriyama S, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-346",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Manifestaciones clínicas",
+  dificultad: "Baja",
+  caso: "Paciente con cólico biliar presenta ictericia y elevación de bilirrubina directa. El ultrasonido sugiere dilatación de la vía biliar.",
+  pregunta: "¿Qué diagnóstico debe considerarse?",
+  opciones: [
+    "Coledocolitiasis",
+    "Hemorroides",
+    "ERGE",
+    "Apendicitis",
+    "Enfermedad celíaca"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La coledocolitiasis consiste en cálculos dentro del colédoco y puede producir obstrucción biliar, ictericia y alteraciones del perfil hepático.",
+  perlaENARM: "Ictericia obstructiva y dilatación de la vía biliar orientan a obstrucción; la probabilidad clínica determina los estudios siguientes.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de coledocolitiasis.",
+    internacional: "ASGE Guideline on the Role of Endoscopy in the Evaluation and Management of Choledocholithiasis."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Guideline on the role of endoscopy in the evaluation and management of choledocholithiasis. Gastrointest Endosc. 2019."
+  ]
+},
+{
+  id: "GASTRO-347",
+  especialidad: "Gastroenterología",
+  tema: "Abdomen agudo",
+  subtema: "Irritación peritoneal",
+  dificultad: "Baja",
+  caso: "Hombre de 45 años presenta dolor abdominal intenso, defensa involuntaria y dolor al retirar bruscamente la mano después de palpar el abdomen.",
+  pregunta: "¿Qué sugieren estos hallazgos?",
+  opciones: [
+    "Irritación peritoneal",
+    "Dispepsia funcional sin complicaciones",
+    "Estreñimiento simple necesariamente",
+    "ERGE",
+    "Intolerancia a la lactosa"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La defensa involuntaria y el dolor de rebote sugieren irritación peritoneal. El paciente requiere evaluación urgente para identificar causas que pueden necesitar tratamiento quirúrgico.",
+  perlaENARM: "Dolor abdominal intenso con signos peritoneales es una urgencia hasta demostrar lo contrario.",
+  gpc: {
+    mexico: "Verificar protocolos mexicanos vigentes de urgencias y abdomen agudo.",
+    internacional: "World Society of Emergency Surgery. Guidelines for emergency abdominal conditions."
+  },
+  bibliografia: [
+    "World Society of Emergency Surgery. Guidelines for emergency abdominal conditions."
+  ]
+},
+{
+  id: "GASTRO-348",
+  especialidad: "Gastroenterología",
+  tema: "Apendicitis",
+  subtema: "Migración del dolor",
+  dificultad: "Baja",
+  caso: "Joven de 19 años presenta dolor periumbilical que, después de varias horas, se localiza en la fosa iliaca derecha y se acompaña de náuseas.",
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Apendicitis aguda",
+    "Colecistitis aguda",
+    "ERGE",
+    "Hepatitis crónica",
+    "Hernia hiatal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La migración del dolor desde la región periumbilical hacia la fosa iliaca derecha es una presentación clásica de apendicitis aguda.",
+  perlaENARM: "La migración del dolor a la fosa iliaca derecha es un dato clásico de apendicitis.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de apendicitis aguda.",
+    internacional: "WSES Jerusalem Guidelines for Acute Appendicitis."
+  },
+  bibliografia: [
+    "Di Saverio S, et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg. 2020;15:27."
+  ]
+},
+{
+  id: "GASTRO-349",
+  especialidad: "Gastroenterología",
+  tema: "Diverticulitis",
+  subtema: "Localización típica",
+  dificultad: "Baja",
+  caso: "Hombre de 62 años presenta dolor en cuadrante inferior izquierdo, fiebre y sensibilidad localizada a la palpación.",
+  pregunta: "¿Qué diagnóstico es compatible con este cuadro?",
+  opciones: [
+    "Diverticulitis aguda",
+    "Apendicitis típica",
+    "Hepatitis viral aguda",
+    "ERGE",
+    "Colangitis"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La diverticulitis suele presentarse con dolor en cuadrante inferior izquierdo, fiebre y cambios en el hábito intestinal. La tomografía puede confirmar el diagnóstico y evaluar complicaciones cuando está indicada.",
+  perlaENARM: "Dolor en fosa iliaca izquierda y fiebre en un adulto: considerar diverticulitis.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de diverticulitis.",
+    internacional: "AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis, 2021."
+  },
+  bibliografia: [
+    "Peery AF, et al. AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis. Gastroenterology. 2021."
+  ]
+},
+{
+  id: "GASTRO-350",
+  especialidad: "Gastroenterología",
+  tema: "Obstrucción intestinal",
+  subtema: "Manifestaciones clínicas",
+  dificultad: "Baja",
+  caso: "Paciente con antecedente de cirugía abdominal presenta distensión, vómitos, dolor tipo cólico y ausencia de evacuaciones y gases.",
+  pregunta: "¿Qué diagnóstico debe sospecharse?",
+  opciones: [
+    "Obstrucción intestinal",
+    "ERGE no complicada",
+    "Hepatitis A",
+    "Gastritis superficial",
+    "Hemorroides"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La distensión, los vómitos, el dolor cólico y la obstipación son manifestaciones típicas de obstrucción intestinal. Las adherencias son una causa frecuente después de cirugía abdominal.",
+  perlaENARM: "Obstrucción intestinal con dolor continuo, fiebre o signos peritoneales obliga a descartar isquemia o perforación.",
+  gpc: {
+    mexico: "Verificar protocolos mexicanos vigentes de urgencias quirúrgicas y obstrucción intestinal.",
+    internacional: "World Society of Emergency Surgery. Guidelines on small bowel obstruction."
+  },
+  bibliografia: [
+    "World Society of Emergency Surgery. Guidelines on small bowel obstruction."
+  ]
+},
+{
+  id: "GASTRO-351",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Colitis ulcerosa",
+  dificultad: "Baja",
+  caso: "Mujer de 27 años presenta diarrea sanguinolenta recurrente, urgencia evacuatoria y tenesmo.",
+  pregunta: "¿Qué enfermedad inflamatoria intestinal se caracteriza típicamente por afectación continua de la mucosa del colon desde el recto?",
+  opciones: [
+    "Colitis ulcerosa",
+    "Enfermedad de Wilson",
+    "Hepatitis autoinmune",
+    "Pancreatitis aguda",
+    "Coledocolitiasis"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La colitis ulcerosa afecta el colon de forma continua, habitualmente comenzando en el recto, y compromete principalmente la mucosa.",
+  perlaENARM: "Colitis ulcerosa: afectación continua del colon y comienzo habitual en el recto.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de enfermedad inflamatoria intestinal.",
+    internacional: "ECCO Guidelines on Ulcerative Colitis."
+  },
+  bibliografia: [
+    "European Crohn's and Colitis Organisation. Guidelines on Ulcerative Colitis."
+  ]
+},
+{
+  id: "GASTRO-352",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Enfermedad de Crohn",
+  dificultad: "Baja",
+  caso: "Hombre de 24 años presenta diarrea crónica, dolor abdominal y pérdida de peso. La evaluación identifica inflamación segmentaria que afecta todo el espesor de la pared intestinal.",
+  pregunta: "¿Qué característica es típica de la enfermedad de Crohn?",
+  opciones: [
+    "Inflamación transmural y lesiones discontinuas",
+    "Inflamación exclusiva de la mucosa rectal en todos los casos",
+    "Afectación únicamente del estómago",
+    "Ausencia de inflamación intestinal",
+    "Obstrucción exclusiva del colédoco"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La enfermedad de Crohn puede afectar cualquier segmento del tubo digestivo y se caracteriza por lesiones discontinuas e inflamación transmural, que favorece fístulas y estenosis.",
+  perlaENARM: "Crohn: lesiones salteadas y compromiso transmural; puede afectar desde la boca hasta el ano.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de enfermedad de Crohn.",
+    internacional: "ECCO Guidelines on Crohn's Disease."
+  },
+  bibliografia: [
+    "European Crohn's and Colitis Organisation. Guidelines on Crohn's Disease."
+  ]
+},
+{
+  id: "GASTRO-353",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome de intestino irritable",
+  subtema: "Características clínicas",
+  dificultad: "Baja",
+  caso: "Mujer de 30 años presenta dolor abdominal recurrente relacionado con la defecación y cambios en la frecuencia y consistencia de las evacuaciones. No tiene datos de alarma.",
+  pregunta: "¿Cuál es el diagnóstico funcional más probable?",
+  opciones: [
+    "Síndrome de intestino irritable",
+    "Cáncer gástrico confirmado",
+    "Peritonitis bacteriana espontánea",
+    "Colangitis aguda",
+    "Pancreatitis necrosante"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El síndrome de intestino irritable se caracteriza por dolor abdominal recurrente asociado con la defecación y cambios en el hábito intestinal. El diagnóstico se basa en criterios clínicos y una evaluación apropiada.",
+  perlaENARM: "Dolor abdominal recurrente relacionado con la defecación y cambios del hábito intestinal orienta a intestino irritable.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de síndrome de intestino irritable.",
+    internacional: "ACG Clinical Guideline: Management of Irritable Bowel Syndrome, 2021."
+  },
+  bibliografia: [
+    "Lacy BE, et al. ACG Clinical Guideline: Management of Irritable Bowel Syndrome. Am J Gastroenterol. 2021;116:17-44."
+  ]
+},
+{
+  id: "GASTRO-354",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis autoinmune",
+  subtema: "Hallazgos de laboratorio",
+  dificultad: "Baja",
+  caso: "Mujer de 35 años presenta elevación persistente de aminotransferasas, hipergammaglobulinemia y autoanticuerpos compatibles con hepatitis autoinmune.",
+  pregunta: "¿Qué alteración inmunológica es frecuente en esta enfermedad?",
+  opciones: [
+    "Elevación de IgG",
+    "Ausencia obligatoria de inmunoglobulinas",
+    "Disminución aislada de troponina",
+    "Elevación exclusiva de amilasa",
+    "Deficiencia de vitamina C como criterio diagnóstico"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La hepatitis autoinmune suele asociarse con elevación de aminotransferasas, aumento de IgG y autoanticuerpos. El diagnóstico integra la clínica, la serología, la exclusión de otras causas y, habitualmente, la histología.",
+  perlaENARM: "Hepatitis autoinmune: aminotransferasas elevadas, IgG alta y autoanticuerpos compatibles.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de hepatitis autoinmune.",
+    internacional: "EASL Clinical Practice Guidelines on Autoimmune Hepatitis."
+  },
+  bibliografia: [
+    "European Association for the Study of the Liver. Clinical Practice Guidelines on Autoimmune Hepatitis."
+  ]
+},
+{
+  id: "GASTRO-355",
+  especialidad: "Gastroenterología",
+  tema: "Hemocromatosis",
+  subtema: "Sobrecarga de hierro",
+  dificultad: "Baja",
+  caso: "Hombre de 52 años presenta hepatopatía crónica, diabetes y pigmentación cutánea. Los estudios muestran saturación de transferrina elevada.",
+  pregunta: "¿Qué alteración caracteriza la hemocromatosis hereditaria?",
+  opciones: [
+    "Acumulación excesiva de hierro",
+    "Deficiencia absoluta de hierro",
+    "Acumulación exclusiva de calcio",
+    "Déficit aislado de vitamina B12",
+    "Pérdida renal de glucosa"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La hemocromatosis hereditaria produce absorción excesiva de hierro y depósito progresivo en órganos, especialmente hígado, páncreas y corazón.",
+  perlaENARM: "Sobrecarga de hierro más hepatopatía y diabetes sugiere hemocromatosis.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente para sobrecarga de hierro.",
+    internacional: "EASL Clinical Practice Guidelines on Haemochromatosis, 2022."
+  },
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on Haemochromatosis. J Hepatol. 2022."
+  ]
+},
+{
+  id: "GASTRO-356",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad de Wilson",
+  subtema: "Metabolismo del cobre",
+  dificultad: "Baja",
+  caso: "Joven de 19 años presenta alteraciones hepáticas y cambios conductuales. La evaluación revela sospecha de acumulación de cobre.",
+  pregunta: "¿Qué trastorno metabólico produce la enfermedad de Wilson?",
+  opciones: [
+    "Acumulación de cobre",
+    "Acumulación de hierro por deficiencia de hepcidina en todos los casos",
+    "Déficit de sodio",
+    "Exceso de vitamina C",
+    "Acumulación de bilirrubina exclusivamente por obstrucción"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La enfermedad de Wilson es un trastorno hereditario del metabolismo del cobre que puede afectar el hígado y el sistema nervioso central. La evaluación puede incluir ceruloplasmina, cobre urinario y otras pruebas.",
+  perlaENARM: "Paciente joven con enfermedad hepática y síntomas neuropsiquiátricos: considerar enfermedad de Wilson.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de enfermedad de Wilson.",
+    internacional: "EASL-ERN Clinical Practice Guidelines on Wilson's Disease."
+  },
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL-ERN Clinical Practice Guidelines on Wilson's Disease."
+  ]
+},
+{
+  id: "GASTRO-357",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis biliar primaria",
+  subtema: "Perfil bioquímico",
+  dificultad: "Baja",
+  caso: "Mujer de 54 años presenta prurito crónico y elevación persistente de fosfatasa alcalina. Se detectan anticuerpos antimitocondriales.",
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Colangitis biliar primaria",
+    "Apendicitis aguda",
+    "ERGE",
+    "Pancreatitis aguda",
+    "Síndrome de intestino irritable"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La colangitis biliar primaria es una enfermedad autoinmune de los pequeños conductos biliares intrahepáticos, asociada frecuentemente con colestasis y anticuerpos antimitocondriales.",
+  perlaENARM: "Prurito, patrón bioquímico colestásico y anticuerpos antimitocondriales sugieren colangitis biliar primaria.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de colangitis biliar primaria.",
+    internacional: "EASL Clinical Practice Guidelines on Primary Biliary Cholangitis."
+  },
+  bibliografia: [
+    "European Association for the Study of the Liver. Clinical Practice Guidelines on Primary Biliary Cholangitis."
+  ]
+},
+{
+  id: "GASTRO-358",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis esclerosante primaria",
+  subtema: "Asociación con enfermedad inflamatoria intestinal",
+  dificultad: "Baja",
+  caso: "Hombre de 37 años con colitis ulcerosa presenta elevación de fosfatasa alcalina y estudios de imagen con estrechamientos y dilataciones multifocales de los conductos biliares.",
+  pregunta: "¿Qué diagnóstico debe sospecharse?",
+  opciones: [
+    "Colangitis esclerosante primaria",
+    "Gastritis por AINE",
+    "Apendicitis",
+    "Hepatitis A exclusivamente",
+    "Úlcera duodenal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La colangitis esclerosante primaria produce inflamación y fibrosis de los conductos biliares. Se asocia frecuentemente con enfermedad inflamatoria intestinal, especialmente colitis ulcerosa.",
+  perlaENARM: "Colangitis esclerosante primaria y colitis ulcerosa constituyen una asociación clásica.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de colangiopatías.",
+    internacional: "EASL Clinical Practice Guidelines on sclerosing cholangitis."
+  },
+  bibliografia: [
+    "European Association for the Study of the Liver. Clinical Practice Guidelines on sclerosing cholangitis."
+  ]
+},
+{
+  id: "GASTRO-359",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Datos de alarma",
+  dificultad: "Baja",
+  caso: "Hombre de 62 años presenta anemia ferropénica, cambio reciente del hábito intestinal y pérdida de peso.",
+  pregunta: "¿Qué enfermedad debe descartarse prioritariamente?",
+  opciones: [
+    "Cáncer colorrectal",
+    "ERGE no complicada",
+    "Intolerancia a la lactosa exclusivamente",
+    "Hemorroides sin evaluación adicional",
+    "Gastroenteritis viral autolimitada"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La anemia ferropénica y el cambio reciente del hábito intestinal en un adulto mayor son datos de alarma que justifican evaluar una posible neoplasia colorrectal.",
+  perlaENARM: "Anemia ferropénica sin explicación en un adulto: investigar pérdida digestiva y neoplasia según el contexto.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de diagnóstico y tratamiento del cáncer colorrectal.",
+    internacional: "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer."
+  },
+  bibliografia: [
+    "National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology: Colon Cancer."
+  ]
+},
+{
+  id: "GASTRO-360",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer hepatocelular",
+  subtema: "Vigilancia en cirrosis",
+  dificultad: "Baja",
+  caso: "Hombre de 60 años con cirrosis compensada acude a seguimiento sin síntomas nuevos.",
+  pregunta: "¿Qué estrategia se utiliza habitualmente para la vigilancia del carcinoma hepatocelular en pacientes con cirrosis que son candidatos a tratamiento?",
+  opciones: [
+    "Ultrasonido hepático aproximadamente cada seis meses, con o sin alfafetoproteína según la guía",
+    "Radiografía de tórax cada semana",
+    "Colonoscopia mensual",
+    "Amilasa sérica diaria",
+    "Endoscopia esofágica diaria"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "En muchos pacientes con cirrosis que podrían beneficiarse de tratamiento se recomienda vigilancia semestral mediante ultrasonido hepático; algunas guías incorporan alfafetoproteína.",
+  perlaENARM: "En pacientes apropiados con cirrosis, recordar vigilancia de carcinoma hepatocelular cada seis meses.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de carcinoma hepatocelular.",
+    internacional: "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma."
+  },
+  bibliografia: [
+    "Singal AG, et al. AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma. Hepatology."
+  ]
+},
+{
+  id: "GASTRO-361",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer gástrico",
+  subtema: "Factor de riesgo",
+  dificultad: "Baja",
+  caso: "Hombre de 65 años con infección crónica por Helicobacter pylori presenta pérdida de peso y saciedad temprana.",
+  pregunta: "¿Cuál es un factor de riesgo reconocido para adenocarcinoma gástrico?",
+  opciones: [
+    "Infección por Helicobacter pylori",
+    "Actividad física regular",
+    "Consumo adecuado de frutas",
+    "Vacunación contra hepatitis A",
+    "Hidratación adecuada"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La infección crónica por H. pylori se asocia con gastritis crónica atrófica, metaplasia intestinal y mayor riesgo de cáncer gástrico.",
+  perlaENARM: "H. pylori participa en la secuencia de Correa que puede conducir al adenocarcinoma gástrico.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de cáncer gástrico e infección por H. pylori.",
+    internacional: "NCI Gastric Cancer Treatment PDQ; NCCN Gastric Cancer."
+  },
+  bibliografia: [
+    "National Cancer Institute. Gastric Cancer Treatment PDQ."
+  ]
+},
+{
+  id: "GASTRO-362",
+  especialidad: "Gastroenterología",
+  tema: "ERGE complicada",
+  subtema: "Datos de alarma",
+  dificultad: "Baja",
+  caso: "Mujer de 59 años con pirosis de larga evolución desarrolla disfagia progresiva y pérdida de peso.",
+  pregunta: "¿Cuál es la conducta inicial más apropiada?",
+  opciones: [
+    "Endoscopia digestiva alta prioritaria",
+    "Continuar automedicación sin estudios",
+    "Indicar únicamente antiácidos a demanda",
+    "Diagnosticar intestino irritable",
+    "Solicitar solo una prueba de aliento para H. pylori"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La disfagia y la pérdida de peso son datos de alarma. La endoscopia permite investigar estenosis, esofagitis grave y neoplasias.",
+  perlaENARM: "ERGE con disfagia o pérdida de peso requiere investigar complicaciones.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de ERGE y disfagia.",
+    internacional: "ACG Clinical Guideline for the Diagnosis and Management of GERD, 2022."
+  },
+  bibliografia: [
+    "Katz PO, et al. Am J Gastroenterol. 2022;117:27-56."
+  ]
+},
+{
+  id: "GASTRO-363",
+  especialidad: "Gastroenterología",
+  tema: "Hemorragia gastrointestinal alta",
+  subtema: "Melena",
+  dificultad: "Baja",
+  caso: "Paciente presenta evacuaciones negras, brillantes, pegajosas y de olor intenso.",
+  pregunta: "¿Cómo se denomina este hallazgo?",
+  opciones: [
+    "Melena",
+    "Hematoquecia",
+    "Acolia",
+    "Esteatorrea",
+    "Disentería exclusivamente"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La melena es la evacuación de heces negras por sangre digerida y suele sugerir una fuente gastrointestinal alta, aunque existen excepciones.",
+  perlaENARM: "La melena orienta a sangrado digestivo alto; hierro y bismuto también pueden oscurecer las heces.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de hemorragia digestiva.",
+    internacional: "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021."
+  },
+  bibliografia: [
+    "Laine L, et al. Am J Gastroenterol. 2021;116:899-917."
+  ]
+},
+{
+  id: "GASTRO-364",
+  especialidad: "Gastroenterología",
+  tema: "Úlcera péptica",
+  subtema: "Perforación",
+  dificultad: "Baja",
+  caso: "Hombre con antecedente de úlcera péptica presenta dolor abdominal súbito, intenso y generalizado, con abdomen rígido.",
+  pregunta: "¿Qué complicación debe sospecharse?",
+  opciones: [
+    "Perforación de úlcera péptica",
+    "ERGE no complicada",
+    "Síndrome de intestino irritable",
+    "Estreñimiento funcional",
+    "Hemorroides"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El dolor súbito intenso con rigidez abdominal puede indicar perforación de una úlcera y peritonitis. Requiere evaluación y tratamiento de urgencia.",
+  perlaENARM: "Dolor súbito más abdomen rígido en paciente con úlcera: sospechar perforación.",
+  gpc: {
+    mexico: "Verificar protocolos mexicanos vigentes de urgencias quirúrgicas.",
+    internacional: "World Society of Emergency Surgery guidelines for perforated and bleeding peptic ulcer."
+  },
+  bibliografia: [
+    "World Society of Emergency Surgery. Guidelines for perforated and bleeding peptic ulcer."
+  ]
+},
+{
+  id: "GASTRO-365",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis viral",
+  subtema: "Prevención de hepatitis B",
+  dificultad: "Baja",
+  caso: "Paciente pregunta qué medida previene eficazmente la infección por hepatitis B en personas susceptibles.",
+  pregunta: "¿Cuál es la principal medida preventiva frente a hepatitis B?",
+  opciones: [
+    "Vacunación",
+    "Evitar todos los lácteos",
+    "Consumir antibióticos diariamente",
+    "Tomar inhibidores de bomba de protones",
+    "Realizar colonoscopia anual"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La vacunación es una estrategia fundamental para prevenir la infección por el virus de hepatitis B. También son importantes las medidas para evitar exposición a sangre y fluidos potencialmente infecciosos.",
+  perlaENARM: "Hepatitis B: existe vacuna; la hepatitis C no dispone de una vacuna aprobada para uso rutinario.",
+  gpc: {
+    mexico: "Verificar los esquemas y lineamientos mexicanos vigentes de vacunación contra hepatitis B.",
+    internacional: "WHO. Hepatitis B fact sheet and immunization guidance."
+  },
+  bibliografia: [
+    "World Health Organization. Hepatitis B."
+  ]
+},
+{
+  id: "GASTRO-366",
+  especialidad: "Gastroenterología",
+  tema: "Cirrosis",
+  subtema: "Datos de descompensación",
+  dificultad: "Baja",
+  caso: "Hombre con consumo crónico elevado de alcohol presenta arañas vasculares, ascitis y esplenomegalia.",
+  pregunta: "¿Qué enfermedad explica mejor el conjunto de hallazgos?",
+  opciones: [
+    "Cirrosis hepática descompensada",
+    "Gastritis aislada",
+    "ERGE no complicada",
+    "Apendicitis",
+    "Enfermedad hemorroidal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Las arañas vasculares, la ascitis y la esplenomegalia pueden aparecer en enfermedad hepática crónica avanzada con hipertensión portal. La ascitis es una manifestación de descompensación.",
+  perlaENARM: "La aparición de ascitis en un paciente con cirrosis indica descompensación clínica.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de cirrosis hepática.",
+    internacional: "EASL Clinical Practice Guidelines on decompensated cirrhosis."
+  },
+  bibliografia: [
+    "European Association for the Study of the Liver. Clinical Practice Guidelines on decompensated cirrhosis."
+  ]
+},
+{
+  id: "GASTRO-367",
+  especialidad: "Gastroenterología",
+  tema: "Ascitis",
+  subtema: "Paracentesis diagnóstica",
+  dificultad: "Baja",
+  caso: "Paciente hospitalizado con cirrosis presenta ascitis de nueva aparición.",
+  pregunta: "¿Qué procedimiento permite analizar directamente el líquido ascítico y buscar infección?",
+  opciones: [
+    "Paracentesis diagnóstica",
+    "Colonoscopia",
+    "Broncoscopia",
+    "Prueba de esfuerzo",
+    "Electroencefalograma"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La paracentesis permite medir el recuento celular, cultivar el líquido y calcular el gradiente de albúmina suero-ascitis, entre otros estudios según la indicación.",
+  perlaENARM: "Ascitis nueva o ingreso hospitalario por cirrosis con ascitis: considerar paracentesis diagnóstica.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de ascitis.",
+    internacional: "AASLD Practice Guidance on ascites."
+  },
+  bibliografia: [
+    "AASLD. Practice Guidance on ascites, spontaneous bacterial peritonitis and hepatorenal syndrome."
+  ]
+},
+{
+  id: "GASTRO-368",
+  especialidad: "Gastroenterología",
+  tema: "Encefalopatía hepática",
+  subtema: "Tratamiento inicial",
+  dificultad: "Baja",
+  caso: "Paciente con cirrosis presenta encefalopatía hepática manifiesta después de un episodio de estreñimiento.",
+  pregunta: "¿Qué fármaco se utiliza habitualmente como tratamiento inicial de la encefalopatía hepática manifiesta?",
+  opciones: [
+    "Lactulosa",
+    "Loperamida",
+    "Omeprazol como monoterapia",
+    "Loperamida más opioides",
+    "Ácido acetilsalicílico"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La lactulosa es el tratamiento inicial habitual para la encefalopatía hepática manifiesta. También es esencial buscar y corregir factores precipitantes, como estreñimiento, infección o hemorragia digestiva.",
+  perlaENARM: "Encefalopatía hepática: lactulosa y corrección del desencadenante.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de encefalopatía hepática.",
+    internacional: "AASLD/EASL Practice Guideline on Hepatic Encephalopathy."
+  },
+  bibliografia: [
+    "Vilstrup H, et al. Hepatic Encephalopathy in Chronic Liver Disease. Hepatology. 2014."
+  ]
+},
+{
+  id: "GASTRO-369",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis aguda",
+  subtema: "Etiología frecuente",
+  dificultad: "Baja",
+  caso: "Mujer de 48 años con pancreatitis aguda presenta cálculos en la vesícula en el ultrasonido.",
+  pregunta: "¿Cuál es una de las causas más frecuentes de pancreatitis aguda?",
+  opciones: [
+    "Litiasis biliar",
+    "Hemorroides",
+    "ERGE",
+    "Apendicitis crónica",
+    "Enfermedad celíaca exclusivamente"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La litiasis biliar y el consumo de alcohol son causas frecuentes de pancreatitis aguda. La evaluación inicial debe buscar la etiología y valorar la gravedad.",
+  perlaENARM: "Ante pancreatitis aguda, buscar litiasis biliar y evaluar el consumo de alcohol.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de pancreatitis aguda.",
+    internacional: "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024."
+  },
+  bibliografia: [
+    "Tenner S, et al. American College of Gastroenterology Guidelines: Management of Acute Pancreatitis. Am J Gastroenterol. 2024."
+  ]
+},
+{
+  id: "GASTRO-370",
+  especialidad: "Gastroenterología",
+  tema: "Colecistitis aguda",
+  subtema: "Estudio de imagen inicial",
+  dificultad: "Baja",
+  caso: "Paciente con fiebre y dolor en hipocondrio derecho presenta sospecha de colecistitis.",
+  pregunta: "¿Cuál suele ser el estudio de imagen inicial?",
+  opciones: [
+    "Ultrasonido abdominal",
+    "Radiografía de cráneo",
+    "Colonoscopia",
+    "Electroencefalograma",
+    "Densitometría ósea"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El ultrasonido abdominal permite detectar cálculos, engrosamiento de la pared vesicular y otros signos compatibles con colecistitis.",
+  perlaENARM: "Ante sospecha de enfermedad vesicular, el ultrasonido suele ser el estudio inicial.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de colecistitis aguda.",
+    internacional: "Tokyo Guidelines 2018."
+  },
+  bibliografia: [
+    "Yokoe M, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-371",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis",
+  subtema: "Control de la obstrucción biliar",
+  dificultad: "Baja",
+  caso: "Hombre con fiebre, ictericia e hipotensión presenta colangitis aguda por obstrucción de la vía biliar.",
+  pregunta: "Además del soporte hemodinámico y los antibióticos, ¿qué intervención puede ser necesaria para controlar la fuente de infección?",
+  opciones: [
+    "Drenaje de la vía biliar",
+    "Ablación del colon",
+    "Funduplicatura inmediata",
+    "Ligadura hemorroidal",
+    "Apendicectomía en todos los casos"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La colangitis obstructiva puede requerir drenaje biliar, frecuentemente mediante CPRE, según la gravedad y la situación clínica. En casos graves, el control de la obstrucción es prioritario.",
+  perlaENARM: "Colangitis grave: reanimación, antibióticos y descompresión biliar oportuna.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de colangitis aguda.",
+    internacional: "Tokyo Guidelines 2018."
+  },
+  bibliografia: [
+    "Kiriyama S, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-372",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Tratamiento endoscópico",
+  dificultad: "Baja",
+  caso: "Paciente con coledocolitiasis confirmada requiere extracción endoscópica del cálculo.",
+  pregunta: "¿Qué procedimiento se utiliza habitualmente para tratar cálculos del colédoco cuando está indicado el abordaje endoscópico?",
+  opciones: [
+    "CPRE",
+    "Colonoscopia",
+    "Cistoscopia",
+    "Broncoscopia",
+    "Artroscopia"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La colangiopancreatografía retrógrada endoscópica permite tratar la obstrucción biliar mediante esfinterotomía y extracción de cálculos en pacientes seleccionados.",
+  perlaENARM: "La CPRE es principalmente terapéutica cuando existe una indicación biliar apropiada.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de coledocolitiasis.",
+    internacional: "ASGE guideline on choledocholithiasis."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Guideline on the role of endoscopy in the evaluation and management of choledocholithiasis. Gastrointest Endosc. 2019."
+  ]
+},
+{
+  id: "GASTRO-373",
+  especialidad: "Gastroenterología",
+  tema: "Abdomen agudo",
+  subtema: "Estabilización inicial",
+  dificultad: "Baja",
+  caso: "Paciente de 68 años llega a urgencias con dolor abdominal súbito, presión arterial baja y piel fría.",
+  pregunta: "¿Cuál es la prioridad inicial?",
+  opciones: [
+    "Evaluar y estabilizar vía aérea, respiración y circulación, además del estado hemodinámico",
+    "Realizar colonoscopia electiva",
+    "Indicar alta inmediata",
+    "Administrar laxantes y esperar",
+    "Solicitar únicamente pruebas cutáneas"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El dolor abdominal con hipotensión puede representar una emergencia con choque. Se priorizan la evaluación inicial, la reanimación y la búsqueda urgente de la causa.",
+  perlaENARM: "En urgencias, primero estabiliza al paciente; no retrases el soporte vital necesario.",
+  gpc: {
+    mexico: "Verificar los protocolos mexicanos vigentes de atención inicial y choque.",
+    internacional: "Harrison's Principles of Internal Medicine, evaluación del paciente con abdomen agudo."
+  },
+  bibliografia: [
+    "Harrison's Principles of Internal Medicine. 21st ed. McGraw Hill."
+  ]
+},
+{
+  id: "GASTRO-374",
+  especialidad: "Gastroenterología",
+  tema: "Apendicitis",
+  subtema: "Imagen durante el embarazo",
+  dificultad: "Baja",
+  caso: "Mujer embarazada con dolor en fosa iliaca derecha presenta sospecha de apendicitis y una ecografía no concluyente.",
+  pregunta: "¿Qué estudio puede ser útil para continuar la evaluación cuando está disponible?",
+  opciones: [
+    "Resonancia magnética sin gadolinio",
+    "Radiografía de cráneo",
+    "Densitometría ósea",
+    "Colonoscopia inmediata en todos los casos",
+    "Gammagrafía tiroidea"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "En el embarazo suele preferirse ultrasonido como estudio inicial. Si no es concluyente, la resonancia magnética sin gadolinio puede ayudar a evaluar apendicitis.",
+  perlaENARM: "Embarazo con sospecha de apendicitis: ultrasonido inicial y considerar resonancia si persiste la duda.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de apendicitis y diagnóstico por imagen durante el embarazo.",
+    internacional: "WSES Jerusalem Guidelines for Acute Appendicitis."
+  },
+  bibliografia: [
+    "Di Saverio S, et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg. 2020;15:27."
+  ]
+},
+{
+  id: "GASTRO-375",
+  especialidad: "Gastroenterología",
+  tema: "Diverticulitis",
+  subtema: "Estudio confirmatorio",
+  dificultad: "Baja",
+  caso: "Hombre de 59 años presenta dolor en cuadrante inferior izquierdo y fiebre. Se sospecha diverticulitis aguda.",
+  pregunta: "¿Qué estudio es útil para confirmar el diagnóstico y evaluar complicaciones en muchos adultos?",
+  opciones: [
+    "Tomografía computarizada abdominopélvica",
+    "Electrocardiograma como único estudio",
+    "Radiografía de mano",
+    "Endoscopia nasal",
+    "Audiometría"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La tomografía abdominopélvica permite identificar inflamación diverticular, abscesos y otras complicaciones cuando está indicada.",
+  perlaENARM: "La tomografía ayuda a confirmar diverticulitis y definir si existen complicaciones.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de diverticulitis.",
+    internacional: "AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis, 2021."
+  },
+  bibliografia: [
+    "Peery AF, et al. AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis. Gastroenterology. 2021."
+  ]
+},
+{
+  id: "GASTRO-376",
+  especialidad: "Gastroenterología",
+  tema: "Obstrucción intestinal",
+  subtema: "Etiología frecuente",
+  dificultad: "Baja",
+  caso: "Mujer de 66 años con antecedente de cirugía abdominal presenta distensión y vómitos. La imagen confirma obstrucción del intestino delgado.",
+  pregunta: "¿Cuál es una causa frecuente de obstrucción del intestino delgado en pacientes operados previamente?",
+  opciones: [
+    "Adherencias posquirúrgicas",
+    "ERGE",
+    "Hepatitis A",
+    "Gastritis superficial",
+    "Colangitis biliar primaria"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Las adherencias posquirúrgicas son una causa importante de obstrucción del intestino delgado. Deben evaluarse signos de estrangulación, isquemia o perforación.",
+  perlaENARM: "Antecedente de cirugía abdominal más obstrucción del intestino delgado: pensar en adherencias.",
+  gpc: {
+    mexico: "Verificar los protocolos mexicanos vigentes de obstrucción intestinal.",
+    internacional: "World Society of Emergency Surgery guidelines on small bowel obstruction."
+  },
+  bibliografia: [
+    "World Society of Emergency Surgery. Guidelines on small bowel obstruction."
+  ]
+},
+{
+  id: "GASTRO-377",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Manifestaciones extraintestinales",
+  dificultad: "Baja",
+  caso: "Paciente con enfermedad de Crohn presenta dolor y enrojecimiento ocular de aparición reciente.",
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Valorar oportunamente una posible manifestación extraintestinal ocular",
+    "Ignorar el síntoma porque nunca se relaciona con Crohn",
+    "Suspender toda evaluación médica",
+    "Indicar antibióticos siempre sin valoración",
+    "Diagnosticar hemorroides"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Las enfermedades inflamatorias intestinales pueden acompañarse de manifestaciones extraintestinales, incluidas uveítis y episcleritis. El dolor ocular, la fotofobia o la disminución visual requieren valoración urgente.",
+  perlaENARM: "En enfermedad inflamatoria intestinal, el ojo rojo doloroso o con alteración visual no debe ignorarse.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de enfermedad inflamatoria intestinal y los criterios de referencia oftalmológica.",
+    internacional: "ECCO Guidelines on Extraintestinal Manifestations in Inflammatory Bowel Disease."
+  },
+  bibliografia: [
+    "European Crohn's and Colitis Organisation. Guidelines on Extraintestinal Manifestations in Inflammatory Bowel Disease."
+  ]
+},
+{
+  id: "GASTRO-378",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome de intestino irritable",
+  subtema: "Datos de alarma",
+  dificultad: "Baja",
+  caso: "Hombre de 57 años con dolor abdominal y diarrea refiere pérdida involuntaria de peso y sangre visible en las heces.",
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Investigar causas orgánicas y datos de alarma antes de atribuir los síntomas a intestino irritable",
+    "Confirmar intestino irritable sin evaluación",
+    "Indicar exclusivamente antiespasmódicos de por vida",
+    "Ignorar el sangrado",
+    "Diagnosticar ERGE"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El sangrado digestivo y la pérdida de peso son datos de alarma que obligan a investigar enfermedad orgánica. No deben atribuirse automáticamente al síndrome de intestino irritable.",
+  perlaENARM: "Sangrado, anemia o pérdida de peso requieren reconsiderar un diagnóstico funcional.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de síndrome de intestino irritable.",
+    internacional: "ACG Clinical Guideline: Management of Irritable Bowel Syndrome, 2021."
+  },
+  bibliografia: [
+    "Lacy BE, et al. ACG Clinical Guideline: Management of Irritable Bowel Syndrome. Am J Gastroenterol. 2021;116:17-44."
+  ]
+},
+{
+  id: "GASTRO-379",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Detección en personas de riesgo promedio",
+  dificultad: "Baja",
+  caso: "Hombre de 46 años sin síntomas ni antecedentes familiares relevantes pregunta cuándo debe comenzar a discutir la detección de cáncer colorrectal.",
+  pregunta: "¿Qué edad de inicio recomienda la USPSTF estadounidense para la detección en adultos con riesgo promedio?",
+  opciones: [
+    "45 años",
+    "60 años",
+    "70 años",
+    "75 años en todos los casos",
+    "Únicamente después de presentar síntomas"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La USPSTF recomienda ofrecer detección de cáncer colorrectal a adultos de riesgo promedio desde los 45 hasta los 75 años. La modalidad y las recomendaciones pueden variar según el país y el riesgo individual.",
+  perlaENARM: "La edad de inicio del tamizaje depende de la guía aplicable; los síntomas requieren evaluación diagnóstica y no solo tamizaje.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de detección oportuna de cáncer colorrectal.",
+    internacional: "US Preventive Services Task Force. Colorectal Cancer Screening, 2021."
+  },
+  bibliografia: [
+    "US Preventive Services Task Force. Screening for Colorectal Cancer. JAMA. 2021;325:1965-1977."
+  ]
+},
+{
+  id: "GASTRO-380",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer gástrico",
+  subtema: "Confirmación histológica",
+  dificultad: "Baja",
+  caso: "Hombre de 63 años presenta saciedad temprana y pérdida de peso. La endoscopia identifica una lesión gástrica sospechosa.",
+  pregunta: "¿Qué procedimiento permite confirmar histológicamente el diagnóstico?",
+  opciones: [
+    "Biopsia endoscópica de la lesión",
+    "Prueba de esfuerzo",
+    "Espirometría",
+    "Radiografía de extremidades",
+    "Examen general de orina"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La confirmación de cáncer gástrico requiere estudio histopatológico, habitualmente mediante biopsias obtenidas durante endoscopia digestiva alta.",
+  perlaENARM: "Lesión gástrica sospechosa: endoscopia con biopsia para confirmación histológica.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de cáncer gástrico.",
+    internacional: "NCI Gastric Cancer Treatment PDQ; NCCN Gastric Cancer."
+  },
+  bibliografia: [
+    "National Cancer Institute. Gastric Cancer Treatment PDQ."
+  ]
+},
+
+{
+  id: "GASTRO-381",
+  especialidad: "Gastroenterología",
+  tema: "Hemorragia gastrointestinal alta",
+  subtema: "Estratificación inicial",
+  dificultad: "Media",
+  caso: "Hombre de 67 años acude por melena y mareo. Tiene presión arterial de 105/68 mmHg, frecuencia cardiaca de 102 lpm, hemoglobina de 10 g/dL y urea elevada. No presenta hematemesis activa.",
+  pregunta: "¿Qué herramienta clínica permite estimar el riesgo antes de la endoscopia en un paciente con hemorragia digestiva alta?",
+  opciones: [
+    "Escala de Glasgow-Blatchford",
+    "Criterios de Roma IV",
+    "Escala de Child-Pugh exclusivamente",
+    "Índice de Wells",
+    "Criterios de Light"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La escala de Glasgow-Blatchford utiliza variables clínicas y de laboratorio, como presión arterial, frecuencia cardiaca, hemoglobina, urea, melena y síncope, para estimar la necesidad de intervención. Complementa, pero no sustituye, la valoración hemodinámica.",
+  perlaENARM: "Hemorragia digestiva alta: Glasgow-Blatchford ayuda a identificar pacientes de bajo riesgo y a orientar la disposición inicial.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de hemorragia gastrointestinal alta.",
+    internacional: "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021."
+  },
+  bibliografia: [
+    "Laine L, et al. ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding. Am J Gastroenterol. 2021;116:899-917."
+  ]
+},
+{
+  id: "GASTRO-382",
+  especialidad: "Gastroenterología",
+  tema: "Hemorragia gastrointestinal baja",
+  subtema: "Estudio diagnóstico",
+  dificultad: "Media",
+  caso: "Hombre de 72 años presenta hematoquecia abundante, taquicardia e hipotensión. Después de iniciar la reanimación, continúa con sangrado activo hemodinámicamente significativo.",
+  pregunta: "¿Qué estudio puede localizar rápidamente el sitio de sangrado activo en este contexto?",
+  opciones: [
+    "Colonoscopia electiva sin preparación",
+    "Angiotomografía computarizada con contraste",
+    "Prueba de aliento para Helicobacter pylori",
+    "Manometría anorrectal",
+    "Radiografía simple de abdomen como único estudio"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "En pacientes seleccionados con hemorragia digestiva baja activa y hemodinámicamente significativa, la angiotomografía puede localizar el sitio de sangrado y facilitar la planificación de una intervención. La reanimación y la evaluación de una posible fuente alta siguen siendo esenciales según la presentación.",
+  perlaENARM: "Hematoquecia con inestabilidad: reanimación inmediata y selección del estudio según la actividad del sangrado y el contexto clínico.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de hemorragia gastrointestinal baja.",
+    internacional: "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding, 2023."
+  },
+  bibliografia: [
+    "Sengupta N, et al. Management of Patients With Acute Lower Gastrointestinal Bleeding. Am J Gastroenterol. 2023."
+  ]
+},
+{
+  id: "GASTRO-383",
+  especialidad: "Gastroenterología",
+  tema: "Úlcera péptica",
+  subtema: "Erradicación de Helicobacter pylori",
+  dificultad: "Media",
+  caso: "Hombre de 48 años con úlcera duodenal tiene prueba positiva para Helicobacter pylori. No tiene alergia conocida a medicamentos y se desconoce la sensibilidad antibiótica local.",
+  pregunta: "¿Qué estrategia terapéutica empírica se prefiere habitualmente cuando la susceptibilidad antibiótica es desconocida, de acuerdo con la guía ACG 2024?",
+  opciones: [
+    "Omeprazol como monoterapia durante siete días",
+    "Amoxicilina como monoterapia",
+    "Terapia cuádruple con bismuto durante 14 días, si no existen contraindicaciones",
+    "Metronidazol como monoterapia",
+    "No tratar porque la infección suele desaparecer espontáneamente"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La guía ACG 2024 recomienda como esquema empírico preferido en muchos pacientes sin susceptibilidad conocida la terapia cuádruple optimizada con bismuto durante 14 días. La selección debe considerar alergias, tratamientos previos y disponibilidad. Es necesario confirmar la erradicación posteriormente.",
+  perlaENARM: "H. pylori: no basta con prescribir el esquema; se debe comprobar la erradicación.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente para infección por H. pylori y enfermedad ulcerosa péptica.",
+    internacional: "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection, 2024."
+  },
+  bibliografia: [
+    "Chey WD, et al. ACG Clinical Guideline: Treatment of Helicobacter pylori Infection. Am J Gastroenterol. 2024."
+  ]
+},
+{
+  id: "GASTRO-384",
+  especialidad: "Gastroenterología",
+  tema: "Úlcera péptica",
+  subtema: "Confirmación de erradicación",
+  dificultad: "Media",
+  caso: "Mujer de 43 años completó tratamiento para H. pylori hace seis semanas. Se encuentra asintomática y desea confirmar que la infección fue erradicada.",
+  pregunta: "¿Cuál es una estrategia apropiada para comprobar la erradicación?",
+  opciones: [
+    "Medir anticuerpos IgG séricos como única prueba de control",
+    "Realizar prueba de aliento con urea o antígeno fecal, respetando los periodos de suspensión farmacológica",
+    "Solicitar hemograma exclusivamente",
+    "Repetir el tratamiento sin realizar ninguna prueba",
+    "Usar la mejoría de los síntomas como confirmación definitiva"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La erradicación puede confirmarse mediante prueba de aliento con urea, antígeno fecal u otra prueba apropiada. Habitualmente se espera al menos cuatro semanas después de terminar los antibióticos y se suspende el IBP aproximadamente dos semanas antes, si clínicamente es posible, para reducir falsos negativos.",
+  perlaENARM: "La serología no es adecuada para confirmar erradicación porque los anticuerpos pueden persistir después del tratamiento.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente para H. pylori.",
+    internacional: "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection, 2024."
+  },
+  bibliografia: [
+    "Chey WD, et al. Am J Gastroenterol. 2024."
+  ]
+},
+{
+  id: "GASTRO-385",
+  especialidad: "Gastroenterología",
+  tema: "ERGE",
+  subtema: "Esofagitis erosiva grave",
+  dificultad: "Media",
+  caso: "Hombre de 60 años con ERGE presenta esofagitis erosiva grado C de Los Ángeles. Mejora después de ocho semanas de tratamiento con un inhibidor de la bomba de protones.",
+  pregunta: "¿Cuál es la estrategia de mantenimiento más apropiada?",
+  opciones: [
+    "Suspender permanentemente el IBP en todos los casos",
+    "Utilizar únicamente antiácidos a demanda",
+    "Mantener tratamiento antisecretor a largo plazo o valorar una alternativa intervencionista apropiada",
+    "Indicar antibióticos de manera indefinida",
+    "Realizar gastrectomía como tratamiento habitual"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "En la esofagitis erosiva grave, especialmente grados C y D, se recomienda mantenimiento con IBP o considerar cirugía antirreflujo en pacientes adecuadamente seleccionados. La suspensión suele asociarse con recurrencia de la esofagitis.",
+  perlaENARM: "Esofagitis erosiva grados C-D: generalmente requiere mantenimiento prolongado con IBP o una alternativa apropiada.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de ERGE.",
+    internacional: "ACG Clinical Guideline for the Diagnosis and Management of GERD, 2022."
+  },
+  bibliografia: [
+    "Katz PO, et al. Am J Gastroenterol. 2022;117:27-56."
+  ]
+},
+{
+  id: "GASTRO-386",
+  especialidad: "Gastroenterología",
+  tema: "ERGE complicada",
+  subtema: "Estenosis péptica",
+  dificultad: "Media",
+  caso: "Hombre de 65 años con pirosis de larga evolución desarrolla disfagia progresiva para sólidos. La endoscopia identifica una estenosis distal corta; se obtienen biopsias para excluir neoplasia.",
+  pregunta: "Una vez establecida la benignidad de la estenosis, ¿qué tratamiento suele ser apropiado?",
+  opciones: [
+    "Dilatación endoscópica y tratamiento con IBP",
+    "Antibióticos como monoterapia",
+    "Suspender toda alimentación de manera permanente",
+    "Quimioterapia empírica",
+    "Tratamiento exclusivo con antidiarreicos"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La dilatación endoscópica alivia la obstrucción producida por una estenosis péptica benigna. El tratamiento antisecretor disminuye la lesión por reflujo y ayuda a reducir recurrencias. La evaluación debe excluir malignidad antes de asumir una causa benigna.",
+  perlaENARM: "Disfagia progresiva: endoscopia y biopsias según los hallazgos; no atribuirla automáticamente a ERGE.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de ERGE y disfagia.",
+    internacional: "ACG Clinical Guideline for GERD, 2022."
+  },
+  bibliografia: [
+    "Katz PO, et al. Am J Gastroenterol. 2022;117:27-56."
+  ]
+},
+{
+  id: "GASTRO-387",
+  especialidad: "Gastroenterología",
+  tema: "Esófago de Barrett",
+  subtema: "Displasia",
+  dificultad: "Media",
+  caso: "Hombre de 62 años con esófago de Barrett presenta una biopsia informada como displasia de bajo grado. La muestra es revisada por un patólogo gastrointestinal experto y el diagnóstico se confirma.",
+  pregunta: "¿Cuál es una opción de manejo aceptada para este paciente?",
+  opciones: [
+    "Esofagectomía obligatoria en todos los casos",
+    "Terapia endoscópica de erradicación o vigilancia endoscópica estrecha tras discutir riesgos y beneficios",
+    "Quimioterapia sistémica inmediata",
+    "Ningún seguimiento porque la displasia no progresa",
+    "Antibióticos de amplio espectro durante seis meses"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "En Barrett con displasia de bajo grado confirmada, puede ofrecerse terapia endoscópica de erradicación o vigilancia endoscópica estrecha según las características del paciente, su preferencia y la experiencia del centro. La confirmación histopatológica por un experto es importante porque existe variabilidad diagnóstica.",
+  perlaENARM: "Barrett con displasia de bajo grado: confirmar la histología y discutir ablación frente a vigilancia.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de Barrett y lesiones premalignas esofágicas.",
+    internacional: "ACG Clinical Guideline: Diagnosis and Management of Barrett's Esophagus."
+  },
+  bibliografia: [
+    "Shaheen NJ, et al. Diagnosis and Management of Barrett's Esophagus: An Updated ACG Guideline. Am J Gastroenterol. 2022."
+  ]
+},
+{
+  id: "GASTRO-388",
+  especialidad: "Gastroenterología",
+  tema: "Gastritis",
+  subtema: "Anemia por gastritis autoinmune",
+  dificultad: "Media",
+  caso: "Mujer de 58 años presenta fatiga, glositis y anemia macrocítica. La evaluación identifica vitamina B12 baja y anticuerpos contra el factor intrínseco.",
+  pregunta: "¿Qué mecanismo explica mejor la deficiencia de vitamina B12?",
+  opciones: [
+    "Pérdida excesiva de hierro por vía renal",
+    "Disminución de la absorción de vitamina B12 por alteración del factor intrínseco",
+    "Aumento de la síntesis de hemoglobina",
+    "Deficiencia aislada de vitamina C",
+    "Exceso de absorción de calcio"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La gastritis autoinmune puede destruir las células parietales y reducir el factor intrínseco, indispensable para la absorción de vitamina B12 en el íleon terminal. La deficiencia prolongada puede producir anemia megaloblástica y alteraciones neurológicas.",
+  perlaENARM: "Anemia macrocítica, vitamina B12 baja y anticuerpos contra factor intrínseco sugieren anemia perniciosa.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de anemia por deficiencia de vitamina B12 y gastritis autoinmune.",
+    internacional: "Harrison's Principles of Internal Medicine, evaluación de anemia megaloblástica."
+  },
+  bibliografia: [
+    "Harrison's Principles of Internal Medicine. 21st ed. McGraw Hill."
+  ]
+},
+{
+  id: "GASTRO-389",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis viral",
+  subtema: "Interpretación serológica de hepatitis B",
+  dificultad: "Media",
+  caso: "Paciente asintomático presenta HBsAg negativo, anti-HBc total negativo y anti-HBs positivo después de completar el esquema de vacunación contra hepatitis B.",
+  pregunta: "¿Cuál es la interpretación más probable?",
+  opciones: [
+    "Infección crónica por hepatitis B",
+    "Infección aguda por hepatitis B",
+    "Inmunidad por vacunación",
+    "Hepatitis C activa",
+    "Infección por hepatitis A crónica"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "El anti-HBs positivo con HBsAg y anti-HBc negativos es compatible con inmunidad inducida por vacunación. La infección natural previa suele producir anti-HBc positivo.",
+  perlaENARM: "Vacunación contra hepatitis B: anti-HBs positivo sin anti-HBc.",
+  gpc: {
+    mexico: "Verificar los lineamientos mexicanos vigentes para interpretación serológica de hepatitis B.",
+    internacional: "CDC. Screening and Testing for Hepatitis B Virus Infection."
+  },
+  bibliografia: [
+    "Centers for Disease Control and Prevention. Screening and Testing for Hepatitis B Virus Infection."
+  ]
+},
+{
+  id: "GASTRO-390",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis viral",
+  subtema: "Hepatitis C",
+  dificultad: "Media",
+  caso: "Hombre de 49 años presenta anticuerpos contra el virus de hepatitis C positivos en una prueba de tamizaje. No tiene estudios moleculares previos.",
+  pregunta: "¿Qué prueba permite determinar si existe infección activa por el virus de hepatitis C?",
+  opciones: [
+    "Repetir únicamente los anticuerpos anti-VHC",
+    "ARN del virus de hepatitis C mediante prueba molecular",
+    "Anticuerpos antinucleares exclusivamente",
+    "Alfafetoproteína como prueba confirmatoria",
+    "Bilirrubina indirecta aislada"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Los anticuerpos anti-VHC indican exposición, pero no distinguen infección activa de infección resuelta. La detección de ARN viral confirma infección activa y permite planificar el tratamiento.",
+  perlaENARM: "Anti-VHC positivo no equivale a infección activa: confirmar con ARN viral.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de diagnóstico y tratamiento de hepatitis C.",
+    internacional: "AASLD-IDSA HCV Guidance."
+  },
+  bibliografia: [
+    "AASLD-IDSA. HCV Guidance: Recommendations for Testing, Managing, and Treating Hepatitis C."
+  ]
+},
+{
+  id: "GASTRO-391",
+  especialidad: "Gastroenterología",
+  tema: "Cirrosis",
+  subtema: "Clasificación pronóstica",
+  dificultad: "Media",
+  caso: "Paciente con cirrosis tiene bilirrubina de 3.2 mg/dL, albúmina de 2.7 g/dL, INR de 1.8, ascitis moderada y encefalopatía grado I.",
+  pregunta: "¿Qué escala integra estos parámetros para clasificar la gravedad clínica de la cirrosis?",
+  opciones: [
+    "Child-Pugh",
+    "Glasgow-Blatchford",
+    "Alvarado",
+    "Ranson exclusivamente",
+    "Wells"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Child-Pugh incorpora bilirrubina, albúmina, INR o tiempo de protrombina, ascitis y encefalopatía. Se utiliza para clasificar la gravedad y estimar el pronóstico, aunque otras herramientas, como MELD-Na o MELD 3.0 según el contexto, también son relevantes.",
+  perlaENARM: "Child-Pugh: bilirrubina, albúmina, coagulación, ascitis y encefalopatía.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de cirrosis y evaluación pronóstica.",
+    internacional: "EASL Clinical Practice Guidelines on decompensated cirrhosis."
+  },
+  bibliografia: [
+    "European Association for the Study of the Liver. Clinical Practice Guidelines on decompensated cirrhosis."
+  ]
+},
+{
+  id: "GASTRO-392",
+  especialidad: "Gastroenterología",
+  tema: "Hipertensión portal",
+  subtema: "Profilaxis primaria de hemorragia variceal",
+  dificultad: "Media",
+  caso: "Hombre de 59 años con cirrosis compensada presenta várices esofágicas de riesgo elevado sin hemorragia previa. No tiene contraindicaciones para betabloqueadores no selectivos.",
+  pregunta: "¿Qué estrategia farmacológica puede utilizarse para reducir el riesgo de primera hemorragia variceal?",
+  opciones: [
+    "Betabloqueador no selectivo apropiado, como carvedilol, según el contexto clínico",
+    "Anticoagulación en todos los pacientes",
+    "AINE diariamente",
+    "Loperamida como profilaxis",
+    "Suspender todo seguimiento endoscópico y clínico"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Los betabloqueadores no selectivos reducen la presión portal y pueden prevenir la primera descompensación en pacientes seleccionados con hipertensión portal clínicamente significativa. En várices de alto riesgo también debe valorarse la estrategia endoscópica según las características del paciente y las guías aplicables.",
+  perlaENARM: "La profilaxis primaria busca prevenir la primera hemorragia; la elección depende del riesgo variceal y la tolerancia al tratamiento.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de hipertensión portal y profilaxis variceal.",
+    internacional: "Baveno VII Consensus, 2022."
+  },
+  bibliografia: [
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974."
+  ]
+},
+{
+  id: "GASTRO-393",
+  especialidad: "Gastroenterología",
+  tema: "Ascitis",
+  subtema: "Gradiente de albúmina suero-ascitis",
+  dificultad: "Media",
+  caso: "Paciente con ascitis presenta albúmina sérica de 3.0 g/dL y albúmina en líquido ascítico de 1.0 g/dL.",
+  pregunta: "¿Cómo se interpreta el gradiente de albúmina suero-ascitis calculado con estos resultados?",
+  opciones: [
+    "Es de 2.0 g/dL y favorece hipertensión portal como mecanismo de la ascitis",
+    "Es de 0.5 g/dL y confirma tuberculosis peritoneal",
+    "Es de 4.0 g/dL y confirma carcinomatosis",
+    "No puede calcularse con albúmina sérica y ascítica",
+    "Confirma peritonitis bacteriana espontánea por sí solo"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El gradiente de albúmina suero-ascitis se calcula restando la albúmina ascítica de la sérica: 3.0 − 1.0 = 2.0 g/dL. Un valor de al menos 1.1 g/dL favorece hipertensión portal como mecanismo de la ascitis, aunque no establece por sí solo la etiología completa.",
+  perlaENARM: "Gradiente ≥1.1 g/dL: orienta a ascitis relacionada con hipertensión portal.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de diagnóstico de ascitis.",
+    internacional: "AASLD Practice Guidance on ascites."
+  },
+  bibliografia: [
+    "AASLD. Practice Guidance on ascites, spontaneous bacterial peritonitis and hepatorenal syndrome."
+  ]
+},
+{
+  id: "GASTRO-394",
+  especialidad: "Gastroenterología",
+  tema: "Peritonitis bacteriana espontánea",
+  subtema: "Tratamiento inicial",
+  dificultad: "Media",
+  caso: "Paciente con cirrosis y ascitis presenta fiebre y dolor abdominal. El líquido ascítico contiene 680 polimorfonucleares/mm³ y no se identifica una fuente quirúrgica evidente.",
+  pregunta: "¿Cuál es la conducta inicial más apropiada?",
+  opciones: [
+    "Esperar el resultado del cultivo antes de iniciar tratamiento",
+    "Iniciar antibiótico empírico apropiado y valorar albúmina según función renal, bilirrubina y riesgo clínico",
+    "Administrar únicamente diuréticos",
+    "Indicar laxantes como tratamiento definitivo",
+    "Realizar colonoscopia antes de tratar"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Un recuento de PMN de al menos 250 células/mm³ apoya el diagnóstico de peritonitis bacteriana espontánea y requiere tratamiento antibiótico oportuno. La elección depende de la gravedad, exposición sanitaria y resistencia local. La albúmina intravenosa está indicada en pacientes seleccionados para reducir el riesgo de deterioro renal y mortalidad.",
+  perlaENARM: "No retrasar antibióticos cuando la sospecha y el líquido ascítico apoyan peritonitis bacteriana espontánea.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de peritonitis bacteriana espontánea.",
+    internacional: "AASLD Practice Guidance on ascites and spontaneous bacterial peritonitis."
+  },
+  bibliografia: [
+    "AASLD. Practice Guidance on ascites, spontaneous bacterial peritonitis and hepatorenal syndrome."
+  ]
+},
+{
+  id: "GASTRO-395",
+  especialidad: "Gastroenterología",
+  tema: "Encefalopatía hepática",
+  subtema: "Factores precipitantes",
+  dificultad: "Media",
+  caso: "Paciente con cirrosis presenta confusión y asterixis después de varios días de estreñimiento. No hay focalización neurológica evidente.",
+  pregunta: "Además de tratar la encefalopatía, ¿qué medida es fundamental?",
+  opciones: [
+    "Buscar y corregir factores precipitantes, incluido el estreñimiento",
+    "Restringir indefinidamente todas las proteínas",
+    "Administrar benzodiacepinas rutinariamente",
+    "Indicar opioides para mejorar el estado mental",
+    "Evitar evaluar infecciones"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La encefalopatía hepática puede precipitarse por estreñimiento, infección, hemorragia digestiva, deshidratación, alteraciones electrolíticas o fármacos. Corregir el desencadenante es parte esencial del tratamiento.",
+  perlaENARM: "Encefalopatía hepática: trata el episodio y busca activamente el precipitante.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de encefalopatía hepática.",
+    internacional: "AASLD/EASL Practice Guideline on Hepatic Encephalopathy."
+  },
+  bibliografia: [
+    "Vilstrup H, et al. Hepatic Encephalopathy in Chronic Liver Disease. Hepatology. 2014."
+  ]
+},
+{
+  id: "GASTRO-396",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome hepatorrenal",
+  subtema: "Evaluación de lesión renal",
+  dificultad: "Media",
+  caso: "Paciente con cirrosis descompensada presenta aumento de creatinina después de diarrea y tratamiento diurético. Tiene ascitis y presión arterial baja.",
+  pregunta: "¿Cuál es el paso inicial más importante antes de atribuir el deterioro renal exclusivamente a síndrome hepatorrenal?",
+  opciones: [
+    "Evaluar volemia, infección, fármacos y otras causas de lesión renal",
+    "Asumir síndrome hepatorrenal sin estudios",
+    "Administrar AINE para mejorar la perfusión renal",
+    "Aumentar siempre los diuréticos",
+    "Indicar contraste intravenoso de manera rutinaria"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El deterioro renal en la cirrosis puede deberse a hipovolemia, infección, fármacos nefrotóxicos, lesión tubular u otras causas. La evaluación clínica y la corrección de factores reversibles son esenciales antes de establecer el fenotipo de síndrome hepatorrenal.",
+  perlaENARM: "En cirrosis con lesión renal aguda, evita asumir síndrome hepatorrenal sin evaluar otras causas.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de cirrosis y lesión renal aguda.",
+    internacional: "AASLD Practice Guidance on ascites and hepatorenal syndrome."
+  },
+  bibliografia: [
+    "AASLD. Practice Guidance on ascites, spontaneous bacterial peritonitis and hepatorenal syndrome."
+  ]
+},
+{
+  id: "GASTRO-397",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis aguda",
+  subtema: "Indicación de tomografía",
+  dificultad: "Media",
+  caso: "Hombre de 46 años presenta dolor epigástrico típico y lipasa seis veces por encima del límite superior normal. Está hemodinámicamente estable y no hay dudas diagnósticas.",
+  pregunta: "¿Cuál es la conducta más apropiada respecto a la tomografía contrastada durante las primeras horas?",
+  opciones: [
+    "Realizarla obligatoriamente en todos los casos al ingreso",
+    "Evitar la tomografía rutinaria inmediata si el diagnóstico está claro y no hay indicación específica",
+    "Sustituir la evaluación clínica por tomografías diarias",
+    "Solicitar tomografía de cráneo",
+    "Realizar CPRE de urgencia en toda pancreatitis"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "En pancreatitis aguda con diagnóstico clínico y bioquímico claro, la tomografía temprana no es necesaria de rutina. Se reserva para incertidumbre diagnóstica, falta de mejoría o sospecha de complicaciones, según el momento y la situación clínica.",
+  perlaENARM: "Pancreatitis típica con enzimas diagnósticas: no necesita tomografía inmediata de rutina.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de pancreatitis aguda.",
+    internacional: "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024."
+  },
+  bibliografia: [
+    "Tenner S, et al. Am J Gastroenterol. 2024."
+  ]
+},
+{
+  id: "GASTRO-398",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis aguda",
+  subtema: "Pancreatitis biliar",
+  dificultad: "Media",
+  caso: "Mujer de 52 años ingresa por pancreatitis aguda biliar. Presenta fiebre, ictericia, bilirrubina elevada y dilatación de la vía biliar, con sospecha clínica de colangitis.",
+  pregunta: "¿Qué intervención debe considerarse de manera urgente?",
+  opciones: [
+    "CPRE temprana para drenaje biliar, según la evaluación clínica",
+    "Colecistectomía electiva meses después sin tratar la colangitis",
+    "Colonoscopia inmediata",
+    "Tratamiento exclusivo con antiácidos",
+    "Administrar antidiarreicos"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La pancreatitis biliar acompañada de colangitis requiere evaluación urgente para descompresión de la vía biliar, habitualmente mediante CPRE. En pancreatitis biliar sin colangitis ni obstrucción persistente, la CPRE urgente no se indica de rutina.",
+  perlaENARM: "Pancreatitis biliar más colangitis: considerar CPRE urgente; no confundir con pancreatitis biliar no complicada.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de pancreatitis biliar y colangitis.",
+    internacional: "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024."
+  },
+  bibliografia: [
+    "Tenner S, et al. Am J Gastroenterol. 2024."
+  ]
+},
+{
+  id: "GASTRO-399",
+  especialidad: "Gastroenterología",
+  tema: "Colecistitis aguda",
+  subtema: "Tratamiento definitivo",
+  dificultad: "Media",
+  caso: "Mujer de 41 años presenta dolor en hipocondrio derecho, fiebre y ultrasonido compatible con colecistitis aguda calculosa. Se encuentra estable y es candidata a cirugía.",
+  pregunta: "¿Cuál es el tratamiento definitivo habitual?",
+  opciones: [
+    "Colecistectomía laparoscópica temprana, cuando sea clínicamente apropiada",
+    "Antibióticos de por vida sin reevaluación",
+    "Colectomía total",
+    "Funduplicatura",
+    "Observación indefinida sin tratamiento"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "En pacientes apropiadamente seleccionados, la colecistectomía laparoscópica temprana es el tratamiento definitivo de la colecistitis aguda calculosa. La decisión depende de la gravedad, las comorbilidades y la disponibilidad de recursos.",
+  perlaENARM: "Colecistitis aguda calculosa: la colecistectomía temprana suele ser el tratamiento definitivo en pacientes aptos.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de colecistitis aguda.",
+    internacional: "Tokyo Guidelines 2018."
+  },
+  bibliografia: [
+    "Yokoe M, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-400",
+  especialidad: "Gastroenterología",
+  tema: "Coledocolitiasis",
+  subtema: "Probabilidad de obstrucción biliar",
+  dificultad: "Media",
+  caso: "Hombre de 55 años presenta dolor biliar e ictericia. El ultrasonido muestra dilatación del colédoco, pero no visualiza directamente el cálculo. No tiene colangitis.",
+  pregunta: "Si la probabilidad de coledocolitiasis es intermedia y el paciente está estable, ¿qué estrategia puede ayudar a confirmar el diagnóstico antes de una CPRE?",
+  opciones: [
+    "Colangiorresonancia o ultrasonido endoscópico",
+    "CPRE diagnóstica en todos los casos sin valorar riesgos",
+    "Radiografía simple de abdomen como única prueba",
+    "Manometría esofágica",
+    "Prueba de aliento para H. pylori"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "En pacientes con probabilidad intermedia de coledocolitiasis, la colangiorresonancia o el ultrasonido endoscópico pueden confirmar la presencia de cálculos y evitar CPRE innecesarias. La CPRE tiene riesgos y debe reservarse principalmente para indicaciones terapéuticas apropiadas.",
+  perlaENARM: "Probabilidad intermedia de coledocolitiasis: confirmar con colangiorresonancia o ultrasonido endoscópico según disponibilidad.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de coledocolitiasis.",
+    internacional: "ASGE Guideline on Choledocholithiasis, 2019."
+  },
+  bibliografia: [
+    "ASGE Standards of Practice Committee. Guideline on the role of endoscopy in the evaluation and management of choledocholithiasis. Gastrointest Endosc. 2019."
+  ]
+},
+{
+  id: "GASTRO-401",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis",
+  subtema: "Gravedad clínica",
+  dificultad: "Media",
+  caso: "Hombre de 74 años con colangitis presenta fiebre, ictericia, hipotensión y confusión. La bilirrubina está elevada y se sospecha obstrucción biliar.",
+  pregunta: "¿Qué aspecto del tratamiento no debe retrasarse mientras se inicia la reanimación y los antibióticos?",
+  opciones: [
+    "La evaluación urgente para drenaje de la vía biliar",
+    "La colonoscopia de vigilancia",
+    "La prueba de aliento para H. pylori",
+    "La endoscopia de Barrett electiva",
+    "El estudio de motilidad esofágica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La hipotensión y la alteración del estado mental indican enfermedad grave y posible sepsis. Además del soporte hemodinámico y los antibióticos, el control de la obstrucción mediante drenaje biliar es fundamental y debe realizarse con la urgencia que determine la gravedad.",
+  perlaENARM: "Colangitis con choque o disfunción orgánica: reanimación, antibióticos y control urgente de la fuente.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de colangitis aguda y sepsis.",
+    internacional: "Tokyo Guidelines 2018."
+  },
+  bibliografia: [
+    "Kiriyama S, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci. 2018."
+  ]
+},
+{
+  id: "GASTRO-402",
+  especialidad: "Gastroenterología",
+  tema: "Apendicitis",
+  subtema: "Diagnóstico por imagen",
+  dificultad: "Media",
+  caso: "Hombre de 28 años presenta dolor en fosa iliaca derecha, fiebre y leucocitosis. La exploración sugiere apendicitis, pero el diagnóstico no es concluyente.",
+  pregunta: "¿Qué estudio de imagen suele tener alta utilidad diagnóstica en adultos cuando se requiere confirmar apendicitis?",
+  opciones: [
+    "Tomografía computarizada abdominopélvica",
+    "Radiografía de cráneo",
+    "Colonoscopia urgente en todos los pacientes",
+    "Manometría anorrectal",
+    "Ultrasonido tiroideo"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La tomografía abdominopélvica tiene alta precisión diagnóstica en adultos con sospecha de apendicitis y permite identificar diagnósticos alternativos y complicaciones. El ultrasonido puede ser preferible en determinados pacientes, como niños y embarazadas.",
+  perlaENARM: "La elección de imagen depende de edad, embarazo, disponibilidad y probabilidad clínica.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de apendicitis aguda.",
+    internacional: "WSES Jerusalem Guidelines for Acute Appendicitis."
+  },
+  bibliografia: [
+    "Di Saverio S, et al. World J Emerg Surg. 2020;15:27."
+  ]
+},
+{
+  id: "GASTRO-403",
+  especialidad: "Gastroenterología",
+  tema: "Diverticulitis",
+  subtema: "Antibióticos en enfermedad no complicada",
+  dificultad: "Media",
+  caso: "Mujer inmunocompetente de 48 años presenta diverticulitis no complicada confirmada por tomografía. Está estable, tolera líquidos y no presenta sepsis ni comorbilidades importantes.",
+  pregunta: "¿Cuál es una conducta aceptada en pacientes seleccionados con estas características?",
+  opciones: [
+    "Administrar antibióticos de manera obligatoria a todos los pacientes",
+    "Considerar manejo ambulatorio sin antibióticos, con seguimiento y criterios de alarma claros",
+    "Realizar colectomía urgente en todos los casos",
+    "Indicar quimioterapia",
+    "Realizar colonoscopia durante la fase aguda en todos los pacientes"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "En pacientes inmunocompetentes seleccionados con diverticulitis no complicada y sin datos de gravedad, los antibióticos pueden utilizarse de manera selectiva y no son obligatorios en todos los casos. El manejo depende de la situación clínica, los factores de riesgo y la evolución.",
+  perlaENARM: "Diverticulitis no complicada en paciente estable: los antibióticos pueden omitirse en casos seleccionados.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de diverticulitis.",
+    internacional: "AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis, 2021."
+  },
+  bibliografia: [
+    "Peery AF, et al. Gastroenterology. 2021."
+  ]
+},
+{
+  id: "GASTRO-404",
+  especialidad: "Gastroenterología",
+  tema: "Obstrucción intestinal",
+  subtema: "Datos de isquemia",
+  dificultad: "Media",
+  caso: "Hombre de 69 años con obstrucción intestinal presenta dolor que se vuelve continuo, fiebre, taquicardia y defensa abdominal.",
+  pregunta: "¿Qué complicación debe sospecharse y evaluarse de manera urgente?",
+  opciones: [
+    "Isquemia o estrangulación intestinal",
+    "ERGE no complicada",
+    "Síndrome de intestino irritable",
+    "Gastritis superficial",
+    "Intolerancia a la lactosa"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El dolor continuo, la fiebre, la taquicardia y los signos peritoneales en una obstrucción intestinal sugieren isquemia, estrangulación o perforación. Se requiere evaluación quirúrgica urgente.",
+  perlaENARM: "Obstrucción con dolor continuo o peritonismo: descartar isquemia intestinal sin demora.",
+  gpc: {
+    mexico: "Verificar los protocolos mexicanos vigentes de obstrucción intestinal y urgencias quirúrgicas.",
+    internacional: "World Society of Emergency Surgery guidelines on small bowel obstruction."
+  },
+  bibliografia: [
+    "World Society of Emergency Surgery. Guidelines on small bowel obstruction."
+  ]
+},
+{
+  id: "GASTRO-405",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Colitis ulcerosa aguda grave",
+  dificultad: "Media",
+  caso: "Mujer de 31 años con colitis ulcerosa presenta numerosas evacuaciones sanguinolentas al día, taquicardia, fiebre y anemia. Se sospecha un brote grave.",
+  pregunta: "¿Cuál es la conducta inicial más apropiada?",
+  opciones: [
+    "Hospitalización para evaluación, soporte y tratamiento especializado",
+    "Alta inmediata sin seguimiento",
+    "Loperamida como único tratamiento",
+    "Suspender toda evaluación infecciosa",
+    "Indicar antibióticos sin investigar la gravedad"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La colitis ulcerosa aguda grave puede complicarse con hemorragia, perforación y megacolon tóxico. Requiere hospitalización, evaluación de gravedad, exclusión de infección relevante y tratamiento especializado oportuno.",
+  perlaENARM: "Brote grave de colitis ulcerosa: hospitalización y vigilancia estrecha de complicaciones.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de colitis ulcerosa.",
+    internacional: "ECCO Guidelines on Therapeutics in Ulcerative Colitis."
+  },
+  bibliografia: [
+    "European Crohn's and Colitis Organisation. Guidelines on Ulcerative Colitis."
+  ]
+},
+{
+  id: "GASTRO-406",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad de Crohn",
+  subtema: "Complicaciones fistulizantes",
+  dificultad: "Media",
+  caso: "Hombre de 29 años con enfermedad de Crohn presenta dolor perianal, fiebre y salida de material purulento por una abertura cercana al ano.",
+  pregunta: "¿Qué complicación debe sospecharse?",
+  opciones: [
+    "Fístula perianal con posible absceso",
+    "ERGE",
+    "Hepatitis A",
+    "Úlcera gástrica no complicada",
+    "Colangitis biliar primaria"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La enfermedad de Crohn puede producir enfermedad perianal fistulizante y abscesos. Es importante valorar sepsis local y realizar evaluación quirúrgica e imagen pélvica según el contexto.",
+  perlaENARM: "Crohn perianal con fiebre y supuración: descartar absceso y controlar la infección antes de intensificar inmunosupresión.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de enfermedad de Crohn y enfermedad perianal.",
+    internacional: "ECCO Guidelines on Crohn's Disease."
+  },
+  bibliografia: [
+    "European Crohn's and Colitis Organisation. Guidelines on Crohn's Disease."
+  ]
+},
+{
+  id: "GASTRO-407",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome de intestino irritable",
+  subtema: "Criterios clínicos",
+  dificultad: "Media",
+  caso: "Mujer de 33 años presenta dolor abdominal recurrente durante varios meses, relacionado con la defecación y acompañado de cambios en la frecuencia y forma de las heces. No tiene datos de alarma.",
+  pregunta: "¿Cuál es el principio diagnóstico más apropiado?",
+  opciones: [
+    "Establecer el diagnóstico mediante criterios clínicos validados y estudios selectivos según los síntomas",
+    "Realizar cirugía exploratoria en todos los pacientes",
+    "Diagnosticar cáncer colorrectal por la presencia de dolor",
+    "Solicitar tomografía diaria",
+    "Indicar antibióticos prolongados a todos los pacientes"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El síndrome de intestino irritable puede diagnosticarse mediante criterios clínicos, como Roma IV, cuando la presentación es compatible y no existen datos de alarma. Los estudios se seleccionan según el subtipo y las características clínicas.",
+  perlaENARM: "El diagnóstico de intestino irritable es clínico, pero requiere valorar signos de alarma y diagnósticos alternativos.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de síndrome de intestino irritable.",
+    internacional: "ACG Clinical Guideline: Management of Irritable Bowel Syndrome, 2021."
+  },
+  bibliografia: [
+    "Lacy BE, et al. Am J Gastroenterol. 2021;116:17-44."
+  ]
+},
+{
+  id: "GASTRO-408",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad celíaca",
+  subtema: "Prueba serológica inicial",
+  dificultad: "Media",
+  caso: "Mujer de 27 años presenta diarrea crónica, pérdida de peso y ferropenia. Consume gluten habitualmente y se sospecha enfermedad celíaca.",
+  pregunta: "¿Qué prueba serológica suele solicitarse inicialmente en un paciente que consume gluten?",
+  opciones: [
+    "Anticuerpos antitransglutaminasa tisular IgA junto con IgA total",
+    "Anticuerpos antimitocondriales exclusivamente",
+    "Anticuerpos anti-VHC",
+    "Alfafetoproteína",
+    "Antígeno prostático específico"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La prueba inicial habitual es anti-transglutaminasa tisular IgA, acompañada de IgA total para detectar deficiencia de IgA. En pacientes con deficiencia de IgA se utilizan pruebas basadas en IgG. No debe retirarse el gluten antes de completar la evaluación diagnóstica.",
+  perlaENARM: "Sospecha de celiaquía: anti-transglutaminasa IgA más IgA total mientras el paciente consume gluten.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de enfermedad celíaca.",
+    internacional: "ACG Clinical Guideline: Diagnosis and Management of Celiac Disease."
+  },
+  bibliografia: [
+    "Rubio-Tapia A, et al. ACG Clinical Guideline: Diagnosis and Management of Celiac Disease. Am J Gastroenterol. 2023."
+  ]
+},
+{
+  id: "GASTRO-409",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Síndrome de Lynch",
+  dificultad: "Media",
+  caso: "Hombre de 39 años presenta cáncer de colon. Su madre tuvo cáncer endometrial a los 44 años y un hermano fue diagnosticado con cáncer colorrectal antes de los 45 años.",
+  pregunta: "¿Qué síndrome hereditario debe sospecharse?",
+  opciones: [
+    "Síndrome de Lynch",
+    "Enfermedad de Wilson",
+    "Síndrome de intestino irritable",
+    "Colangitis biliar primaria",
+    "Síndrome de Gilbert"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El cáncer colorrectal a edad temprana y la agregación familiar de cáncer colorrectal y endometrial sugieren síndrome de Lynch, asociado con alteraciones de genes de reparación de errores de apareamiento del ADN.",
+  perlaENARM: "Cáncer colorrectal temprano más cáncer endometrial familiar: pensar en síndrome de Lynch.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de cáncer colorrectal hereditario.",
+    internacional: "NCCN Clinical Practice Guidelines in Oncology: Genetic/Familial High-Risk Assessment."
+  },
+  bibliografia: [
+    "NCCN. Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, and Gastric."
+  ]
+},
+{
+  id: "GASTRO-410",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Síndrome de poliposis adenomatosa familiar",
+  dificultad: "Media",
+  caso: "Hombre de 24 años tiene cientos de pólipos adenomatosos en el colon y un padre sometido a colectomía por poliposis a edad temprana.",
+  pregunta: "¿Qué alteración genética se asocia clásicamente con la poliposis adenomatosa familiar?",
+  opciones: [
+    "Mutación germinal del gen APC",
+    "Mutación del gen ATP7B",
+    "Mutación exclusiva del gen HFE",
+    "Infección por virus de hepatitis A",
+    "Deficiencia aislada de lactasa"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La poliposis adenomatosa familiar clásica se asocia con mutaciones germinales del gen APC y un riesgo muy elevado de cáncer colorrectal si no se interviene. Requiere asesoramiento genético y manejo especializado.",
+  perlaENARM: "Cientos de adenomas en un paciente joven: sospechar poliposis adenomatosa familiar por APC.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de síndromes hereditarios de cáncer colorrectal.",
+    internacional: "NCCN Clinical Practice Guidelines in Oncology: Genetic/Familial High-Risk Assessment."
+  },
+  bibliografia: [
+    "NCCN. Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, and Gastric."
+  ]
+},
+{
+  id: "GASTRO-411",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer gástrico",
+  subtema: "Diagnóstico y estadificación",
+  dificultad: "Media",
+  caso: "Hombre de 64 años presenta pérdida de peso, saciedad temprana y una lesión gástrica cuya biopsia confirma adenocarcinoma.",
+  pregunta: "¿Cuál es el siguiente principio de manejo antes de definir el tratamiento oncológico?",
+  opciones: [
+    "Completar la estadificación y evaluar la resecabilidad",
+    "Indicar solo antiácidos",
+    "Iniciar tratamiento sin conocer la extensión tumoral",
+    "Realizar colonoscopia diaria",
+    "Suspender toda evaluación después de la biopsia"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Después de confirmar adenocarcinoma gástrico, la estadificación determina la extensión local y a distancia, ayuda a valorar la resecabilidad y orienta la elección entre tratamiento endoscópico, cirugía, tratamiento perioperatorio o terapia sistémica.",
+  perlaENARM: "Cáncer gástrico confirmado: histología, estadificación y discusión multidisciplinaria antes de elegir tratamiento.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de cáncer gástrico.",
+    internacional: "NCCN Clinical Practice Guidelines in Oncology: Gastric Cancer."
+  },
+  bibliografia: [
+    "National Comprehensive Cancer Network. NCCN Guidelines: Gastric Cancer."
+  ]
+},
+{
+  id: "GASTRO-412",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer hepatocelular",
+  subtema: "Diagnóstico por imagen",
+  dificultad: "Media",
+  caso: "Hombre de 61 años con cirrosis presenta una lesión hepática de 2.4 cm en ultrasonido de vigilancia.",
+  pregunta: "¿Qué estudio permite caracterizar la lesión y evaluar patrones radiológicos compatibles con carcinoma hepatocelular?",
+  opciones: [
+    "TC multifásica con contraste o resonancia magnética hepática con protocolo dinámico",
+    "Radiografía simple de abdomen",
+    "Colonoscopia",
+    "Manometría esofágica",
+    "Prueba de aliento para H. pylori"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "En pacientes de riesgo, la TC multifásica o la resonancia dinámica pueden identificar patrones radiológicos característicos de carcinoma hepatocelular. La interpretación depende del tamaño de la lesión, la calidad del estudio y los criterios diagnósticos validados.",
+  perlaENARM: "En cirrosis, una lesión focal debe caracterizarse con imagen dinámica; la alfafetoproteína aislada no confirma el diagnóstico.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de carcinoma hepatocelular.",
+    internacional: "AASLD Practice Guidance on hepatocellular carcinoma."
+  },
+  bibliografia: [
+    "Singal AG, et al. AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma. Hepatology."
+  ]
+},
+{
+  id: "GASTRO-413",
+  especialidad: "Gastroenterología",
+  tema: "Hemocromatosis",
+  subtema: "Interpretación de estudios de hierro",
+  dificultad: "Media",
+  caso: "Hombre de 50 años presenta elevación persistente de ferritina y saturación de transferrina del 72%. No tiene antecedente reciente de transfusiones.",
+  pregunta: "¿Cuál es la interpretación más apropiada de estos hallazgos?",
+  opciones: [
+    "La saturación de transferrina elevada sugiere sobrecarga de hierro y justifica evaluación etiológica",
+    "La ferritina elevada confirma por sí sola hemocromatosis hereditaria",
+    "Los resultados excluyen cualquier enfermedad hepática",
+    "El diagnóstico es deficiencia absoluta de hierro",
+    "La saturación de transferrina no tiene utilidad clínica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La saturación de transferrina elevada orienta a sobrecarga de hierro y debe interpretarse junto con ferritina, antecedentes, función hepática y posibles causas secundarias. La ferritina también puede elevarse por inflamación, hepatopatía y otras condiciones.",
+  perlaENARM: "Ferritina alta no equivale siempre a hemocromatosis; interpretar la saturación de transferrina y el contexto.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de sobrecarga de hierro.",
+    internacional: "EASL Clinical Practice Guidelines on Haemochromatosis, 2022."
+  },
+  bibliografia: [
+    "EASL Clinical Practice Guidelines on Haemochromatosis. J Hepatol. 2022."
+  ]
+},
+{
+  id: "GASTRO-414",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad de Wilson",
+  subtema: "Evaluación diagnóstica",
+  dificultad: "Media",
+  caso: "Joven de 20 años con alteraciones hepáticas y síntomas neurológicos presenta sospecha de enfermedad de Wilson.",
+  pregunta: "¿Cuál es una estrategia apropiada para evaluar esta enfermedad?",
+  opciones: [
+    "Integrar ceruloplasmina, cobre urinario de 24 horas, evaluación oftalmológica y otros hallazgos clínicos",
+    "Usar únicamente la concentración sérica de sodio",
+    "Confirmar con una prueba de aliento para H. pylori",
+    "Utilizar exclusivamente la concentración de lipasa",
+    "Descartar Wilson si las aminotransferasas son normales en una medición"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El diagnóstico de Wilson requiere integrar datos clínicos, bioquímicos y, cuando corresponda, genéticos o histológicos. La ceruloplasmina aislada no es suficiente para excluir o confirmar todos los casos.",
+  perlaENARM: "Joven con hepatopatía y síntomas neurológicos: evaluar metabolismo del cobre con un abordaje integrado.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de enfermedad de Wilson.",
+    internacional: "EASL-ERN Clinical Practice Guidelines on Wilson's Disease."
+  },
+  bibliografia: [
+    "European Association for the Study of the Liver. EASL-ERN Clinical Practice Guidelines on Wilson's Disease."
+  ]
+},
+{
+  id: "GASTRO-415",
+  especialidad: "Gastroenterología",
+  tema: "Hepatitis autoinmune",
+  subtema: "Diagnóstico diferencial",
+  dificultad: "Media",
+  caso: "Mujer de 38 años presenta aminotransferasas elevadas, IgG alta y anticuerpos antinucleares positivos. Antes de iniciar inmunosupresión se evalúan otras causas de hepatitis.",
+  pregunta: "¿Cuál es un principio esencial para establecer el diagnóstico de hepatitis autoinmune?",
+  opciones: [
+    "Integrar serología, IgG, exclusión de causas alternativas y evaluación histológica cuando corresponda",
+    "Diagnosticarla exclusivamente por ANA positivo",
+    "Excluirla siempre que exista cualquier otra enfermedad autoinmune",
+    "Usar la lipasa como criterio principal",
+    "Confirmarla mediante colonoscopia"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Los autoanticuerpos pueden encontrarse en otras enfermedades y no son diagnósticos por sí solos. La evaluación integra patrón bioquímico, IgG, autoanticuerpos, exclusión de otras causas y, habitualmente, biopsia hepática.",
+  perlaENARM: "ANA positivo no confirma hepatitis autoinmune; se necesita integración clínica, bioquímica y, generalmente, histológica.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de hepatitis autoinmune.",
+    internacional: "EASL Clinical Practice Guidelines on Autoimmune Hepatitis."
+  },
+  bibliografia: [
+    "European Association for the Study of the Liver. Clinical Practice Guidelines on Autoimmune Hepatitis."
+  ]
+},
+{
+  id: "GASTRO-416",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis biliar primaria",
+  subtema: "Tratamiento inicial",
+  dificultad: "Media",
+  caso: "Mujer de 56 años presenta colestasis persistente y anticuerpos antimitocondriales positivos, compatibles con colangitis biliar primaria.",
+  pregunta: "¿Cuál es el tratamiento farmacológico de primera línea habitual?",
+  opciones: [
+    "Ácido ursodesoxicólico",
+    "Loperamida como tratamiento de la enfermedad hepática",
+    "Corticoides a dosis altas en todos los pacientes",
+    "Antibióticos indefinidos",
+    "AINE como monoterapia"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El ácido ursodesoxicólico es el tratamiento de primera línea habitual en colangitis biliar primaria. La respuesta bioquímica debe evaluarse posteriormente para identificar a quienes requieren valoración terapéutica adicional.",
+  perlaENARM: "Colangitis biliar primaria: ácido ursodesoxicólico y seguimiento de la respuesta bioquímica.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de colangitis biliar primaria.",
+    internacional: "EASL Clinical Practice Guidelines on Primary Biliary Cholangitis."
+  },
+  bibliografia: [
+    "European Association for the Study of the Liver. Clinical Practice Guidelines on Primary Biliary Cholangitis."
+  ]
+},
+{
+  id: "GASTRO-417",
+  especialidad: "Gastroenterología",
+  tema: "Colangitis esclerosante primaria",
+  subtema: "Evaluación de estenosis dominante",
+  dificultad: "Media",
+  caso: "Hombre de 43 años con colangitis esclerosante primaria presenta empeoramiento del prurito, ictericia y aumento reciente de bilirrubina.",
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Evaluar una posible estenosis biliar relevante y descartar colangiocarcinoma",
+    "Atribuir todos los síntomas a intestino irritable",
+    "Suspender el seguimiento hepatobiliar",
+    "Iniciar tratamiento para H. pylori sin estudios",
+    "Realizar exclusivamente una radiografía de tórax"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El empeoramiento clínico o bioquímico en colangitis esclerosante primaria requiere evaluar obstrucción biliar, estenosis clínicamente relevantes e infección, además de considerar colangiocarcinoma según el contexto.",
+  perlaENARM: "Colangitis esclerosante primaria con ictericia nueva o progresiva: descartar obstrucción y malignidad.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de colangiopatías.",
+    internacional: "EASL Clinical Practice Guidelines on sclerosing cholangitis."
+  },
+  bibliografia: [
+    "European Association for the Study of the Liver. Clinical Practice Guidelines on sclerosing cholangitis."
+  ]
+},
+{
+  id: "GASTRO-418",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Cribado de infección antes de biológicos",
+  dificultad: "Media",
+  caso: "Paciente con enfermedad de Crohn moderada a grave será tratado con un agente biológico inmunomodulador.",
+  pregunta: "¿Qué evaluación infecciosa es importante realizar antes de iniciar determinados tratamientos biológicos?",
+  opciones: [
+    "Evaluar tuberculosis latente y hepatitis B, entre otras infecciones según el fármaco y el riesgo",
+    "Realizar únicamente una prueba de embarazo en todos los pacientes como única evaluación",
+    "Descartar infección exclusivamente mediante radiografía de mano",
+    "Evitar toda evaluación infecciosa",
+    "Administrar antibióticos de amplio espectro a todos los pacientes"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Antes de determinadas terapias biológicas es importante evaluar tuberculosis latente y hepatitis B, además de actualizar vacunación y valorar otras infecciones según el medicamento y los antecedentes. El cribado reduce el riesgo de reactivación infecciosa.",
+  perlaENARM: "Antes de anti-TNF: recordar tuberculosis y hepatitis B, además de revisar vacunación y riesgos individuales.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de enfermedad inflamatoria intestinal y terapia biológica.",
+    internacional: "ECCO Guidelines on prevention, diagnosis, and management of infections in inflammatory bowel disease."
+  },
+  bibliografia: [
+    "European Crohn's and Colitis Organisation. Guidelines on infections in inflammatory bowel disease."
+  ]
+},
+{
+  id: "GASTRO-419",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Megacolon tóxico",
+  dificultad: "Media",
+  caso: "Paciente con colitis ulcerosa grave presenta distensión abdominal marcada, fiebre, taquicardia y deterioro del estado general. La radiografía muestra dilatación colónica importante.",
+  pregunta: "¿Qué complicación debe sospecharse?",
+  opciones: [
+    "Megacolon tóxico",
+    "ERGE",
+    "Hernia hiatal",
+    "Síndrome de Gilbert",
+    "Colelitiasis asintomática"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El megacolon tóxico es una complicación grave caracterizada por dilatación colónica no obstructiva acompañada de toxicidad sistémica. Requiere hospitalización, soporte, tratamiento de la causa y valoración multidisciplinaria urgente.",
+  perlaENARM: "Colitis grave más dilatación colónica y toxicidad sistémica: sospechar megacolon tóxico.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de colitis ulcerosa grave y megacolon tóxico.",
+    internacional: "ECCO Guidelines on Ulcerative Colitis."
+  },
+  bibliografia: [
+    "European Crohn's and Colitis Organisation. Guidelines on Ulcerative Colitis."
+  ]
+},
+{
+  id: "GASTRO-420",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad inflamatoria intestinal",
+  subtema: "Diarrea por Clostridioides difficile",
+  dificultad: "Media",
+  caso: "Mujer de 35 años con colitis ulcerosa en tratamiento inmunosupresor presenta aumento reciente de diarrea sanguinolenta después de recibir antibióticos.",
+  pregunta: "¿Qué causa infecciosa debe investigarse porque puede imitar o agravar un brote de enfermedad inflamatoria intestinal?",
+  opciones: [
+    "Infección por Clostridioides difficile",
+    "Hepatitis A crónica",
+    "Enfermedad de Wilson",
+    "Hemocromatosis",
+    "Colangitis biliar primaria"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La infección por C. difficile puede producir diarrea y agravar la evolución de la enfermedad inflamatoria intestinal. Ante un cambio clínico relevante, especialmente después de antibióticos, es importante realizar pruebas apropiadas para descartar infección.",
+  perlaENARM: "Antes de atribuir toda diarrea nueva a un brote de EII, investigar infección según el contexto.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de EII e infección por C. difficile.",
+    internacional: "ACG Clinical Guidelines on Clostridioides difficile Infection."
+  },
+  bibliografia: [
+    "American College of Gastroenterology. Clinical Guidelines on Clostridioides difficile Infection."
+  ]
+},
+{
+  id: "GASTRO-421",
+  especialidad: "Gastroenterología",
+  tema: "Síndrome de intestino irritable",
+  subtema: "Estudios selectivos en diarrea crónica",
+  dificultad: "Media",
+  caso: "Mujer de 29 años presenta diarrea crónica sin sangrado ni pérdida de peso. El médico sospecha intestino irritable con predominio de diarrea.",
+  pregunta: "¿Qué prueba puede ayudar a descartar enfermedad celíaca en una evaluación selectiva?",
+  opciones: [
+    "Anticuerpos antitransglutaminasa tisular IgA junto con IgA total",
+    "Alfafetoproteína",
+    "Anticuerpos anti-VHC como única prueba",
+    "Troponina",
+    "Antígeno prostático específico"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "En pacientes con síntomas compatibles con intestino irritable y diarrea, puede considerarse serología para enfermedad celíaca. La selección de otras pruebas depende de los síntomas, los factores de riesgo y los hallazgos de alarma.",
+  perlaENARM: "Diarrea crónica: no asumir intestino irritable sin valorar causas orgánicas relevantes.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de síndrome de intestino irritable y enfermedad celíaca.",
+    internacional: "ACG Clinical Guideline: Management of Irritable Bowel Syndrome, 2021."
+  },
+  bibliografia: [
+    "Lacy BE, et al. Am J Gastroenterol. 2021;116:17-44."
+  ]
+},
+{
+  id: "GASTRO-422",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Anemia ferropénica",
+  dificultad: "Media",
+  caso: "Hombre de 61 años presenta anemia ferropénica sin sangrado visible, sin explicación nutricional y sin evaluación digestiva previa.",
+  pregunta: "¿Cuál es una estrategia diagnóstica apropiada en un hombre adulto con anemia ferropénica inexplicada?",
+  opciones: [
+    "Evaluación gastrointestinal, habitualmente con endoscopia alta y colonoscopia según el contexto",
+    "Administrar hierro indefinidamente sin investigar la causa",
+    "Realizar solo radiografía de tórax",
+    "Descartar enfermedad digestiva porque no hay hematoquecia",
+    "Solicitar únicamente amilasa"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La anemia ferropénica inexplicada en hombres adultos puede reflejar pérdida digestiva crónica, incluida una neoplasia. La evaluación endoscópica del tubo digestivo se considera habitualmente, ajustada al estado clínico y a las circunstancias individuales.",
+  perlaENARM: "Anemia ferropénica inexplicada en un adulto: investigar pérdida digestiva, aunque no haya sangre visible.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de anemia ferropénica y cáncer colorrectal.",
+    internacional: "AGA Clinical Practice Guidelines on Gastrointestinal Evaluation of Iron Deficiency Anemia."
+  },
+  bibliografia: [
+    "Ko CW, et al. AGA Clinical Practice Guidelines on the Gastrointestinal Evaluation of Iron Deficiency Anemia. Gastroenterology. 2020."
+  ]
+},
+{
+  id: "GASTRO-423",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Pólipos adenomatosos",
+  dificultad: "Media",
+  caso: "Mujer de 58 años se somete a colonoscopia de tamizaje y se reseca un adenoma tubular de 8 mm. La resección es completa y no existen otros hallazgos de alto riesgo.",
+  pregunta: "¿Qué factor es importante para determinar el intervalo de vigilancia posterior?",
+  opciones: [
+    "Número, tamaño, histología y calidad de la colonoscopia y resección",
+    "El grupo sanguíneo exclusivamente",
+    "La talla del paciente",
+    "La presencia de ERGE como único dato",
+    "El nivel de sodio sérico"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El intervalo de vigilancia tras polipectomía depende del número, tamaño e histología de las lesiones, la calidad de la preparación, la integridad de la resección y la guía aplicable.",
+  perlaENARM: "La vigilancia tras polipectomía se individualiza según hallazgos histológicos y calidad del estudio.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de vigilancia posterior a polipectomía.",
+    internacional: "US Multi-Society Task Force on Colorectal Cancer: Recommendations for Follow-Up After Colonoscopy and Polypectomy."
+  },
+  bibliografia: [
+    "Gupta S, et al. Recommendations for Follow-Up After Colonoscopy and Polypectomy. Gastroenterology. 2020."
+  ]
+},
+{
+  id: "GASTRO-424",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer gástrico",
+  subtema: "Biomarcadores en enfermedad avanzada",
+  dificultad: "Media",
+  caso: "Hombre de 67 años tiene adenocarcinoma gástrico metastásico confirmado por biopsia. Se considera tratamiento sistémico de primera línea.",
+  pregunta: "¿Cuál es el principio más apropiado para orientar el tratamiento sistémico?",
+  opciones: [
+    "Evaluar biomarcadores relevantes, como HER2, PD-L1, MSI/MMR y CLDN18.2 cuando corresponda",
+    "Seleccionar tratamiento solo por la edad",
+    "Evitar cualquier estudio molecular en enfermedad avanzada",
+    "Usar siempre el mismo esquema independientemente de los resultados",
+    "Indicar únicamente tratamiento para H. pylori"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "En adenocarcinoma gástrico avanzado, los biomarcadores pueden orientar tratamientos dirigidos o inmunoterapia en pacientes seleccionados. La disponibilidad, indicaciones regulatorias y criterios de cada fármaco deben verificarse en la guía vigente.",
+  perlaENARM: "Cáncer gástrico avanzado: la caracterización molecular puede cambiar la elección terapéutica.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de cáncer gástrico y disponibilidad local de biomarcadores.",
+    internacional: "NCCN Clinical Practice Guidelines in Oncology: Gastric Cancer."
+  },
+  bibliografia: [
+    "National Comprehensive Cancer Network. NCCN Guidelines: Gastric Cancer."
+  ]
+},
+{
+  id: "GASTRO-425",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer hepatocelular",
+  subtema: "Interpretación de alfafetoproteína",
+  dificultad: "Media",
+  caso: "Hombre de 58 años con cirrosis presenta una alfafetoproteína normal, pero el ultrasonido identifica una lesión hepática sospechosa.",
+  pregunta: "¿Cuál es la interpretación más apropiada?",
+  opciones: [
+    "La alfafetoproteína normal no excluye carcinoma hepatocelular y debe caracterizarse la lesión",
+    "El resultado descarta definitivamente cáncer hepatocelular",
+    "La alfafetoproteína normal confirma metástasis",
+    "No se requiere seguimiento de la lesión",
+    "El resultado confirma enfermedad de Wilson"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La alfafetoproteína tiene sensibilidad limitada y puede ser normal en carcinoma hepatocelular. Una lesión sospechosa en una persona de riesgo requiere evaluación por imagen dinámica y seguimiento diagnóstico apropiado.",
+  perlaENARM: "Alfafetoproteína normal no descarta carcinoma hepatocelular.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de carcinoma hepatocelular.",
+    internacional: "AASLD Practice Guidance on hepatocellular carcinoma."
+  },
+  bibliografia: [
+    "Singal AG, et al. AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma. Hepatology."
+  ]
+},
+{
+  id: "GASTRO-426",
+  especialidad: "Gastroenterología",
+  tema: "ERGE",
+  subtema: "ERGE refractaria",
+  dificultad: "Media",
+  caso: "Mujer de 44 años presenta pirosis persistente pese a tratamiento con IBP. Refiere que toma el medicamento después del desayuno y omite dosis varios días por semana.",
+  pregunta: "¿Cuál es el siguiente paso más apropiado?",
+  opciones: [
+    "Revisar adherencia y optimizar el horario del IBP antes de clasificarla como refractaria",
+    "Indicar cirugía antirreflujo inmediata sin evaluación",
+    "Diagnosticar cáncer esofágico sin endoscopia",
+    "Suspender toda intervención terapéutica",
+    "Iniciar antibióticos de amplio espectro"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Antes de considerar ERGE refractaria deben revisarse la adherencia y la administración correcta del IBP, generalmente 30-60 minutos antes de una comida. Si persisten los síntomas pese a tratamiento optimizado, se evalúa la necesidad de estudios objetivos.",
+  perlaENARM: "Síntomas persistentes no significan necesariamente ERGE refractaria: verifica primero adherencia y horario del IBP.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de ERGE.",
+    internacional: "ACG Clinical Guideline for the Diagnosis and Management of GERD, 2022."
+  },
+  bibliografia: [
+    "Katz PO, et al. Am J Gastroenterol. 2022;117:27-56."
+  ]
+},
+{
+  id: "GASTRO-427",
+  especialidad: "Gastroenterología",
+  tema: "Enfermedad celíaca",
+  subtema: "Tratamiento",
+  dificultad: "Media",
+  caso: "Mujer de 25 años tiene enfermedad celíaca confirmada mediante evaluación clínica, serológica e histológica.",
+  pregunta: "¿Cuál es el tratamiento nutricional fundamental?",
+  opciones: [
+    "Dieta estricta sin gluten de manera permanente",
+    "Eliminar exclusivamente los lácteos en todos los pacientes",
+    "Consumir más trigo para inducir tolerancia",
+    "Utilizar antibióticos de forma indefinida",
+    "Suspender toda ingesta de fibra"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La dieta estricta sin gluten es el tratamiento fundamental de la enfermedad celíaca. Se recomienda educación nutricional y seguimiento para valorar respuesta clínica, estado nutricional y adherencia.",
+  perlaENARM: "Celiaquía confirmada: dieta sin gluten de forma permanente y seguimiento nutricional.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de enfermedad celíaca.",
+    internacional: "ACG Clinical Guideline: Diagnosis and Management of Celiac Disease, 2023."
+  },
+  bibliografia: [
+    "Rubio-Tapia A, et al. ACG Clinical Guideline: Diagnosis and Management of Celiac Disease. Am J Gastroenterol. 2023."
+  ]
+},
+{
+  id: "GASTRO-428",
+  especialidad: "Gastroenterología",
+  tema: "Pancreatitis crónica",
+  subtema: "Insuficiencia pancreática exocrina",
+  dificultad: "Media",
+  caso: "Hombre de 55 años con pancreatitis crónica presenta pérdida de peso y evacuaciones voluminosas, grasosas y difíciles de eliminar. Se sospecha maldigestión de grasas.",
+  pregunta: "¿Qué tratamiento está indicado cuando se confirma insuficiencia pancreática exocrina sintomática?",
+  opciones: [
+    "Terapia de reemplazo con enzimas pancreáticas junto con soporte nutricional",
+    "Antibióticos de amplio espectro indefinidos",
+    "Restricción absoluta de toda grasa sin valoración nutricional",
+    "Lactulosa como tratamiento único",
+    "Anticoagulación de por vida en todos los casos"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La insuficiencia pancreática exocrina puede causar esteatorrea, pérdida ponderal y deficiencias nutricionales. El reemplazo enzimático con las comidas y la evaluación nutricional son componentes centrales del manejo.",
+  perlaENARM: "Pancreatitis crónica con esteatorrea y pérdida de peso: considerar insuficiencia pancreática exocrina.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de pancreatitis crónica e insuficiencia pancreática exocrina.",
+    internacional: "AGA Clinical Practice Update on the Epidemiology, Evaluation, and Management of Exocrine Pancreatic Insufficiency."
+  },
+  bibliografia: [
+    "Whitcomb DC, et al. AGA Clinical Practice Update on Exocrine Pancreatic Insufficiency."
+  ]
+},
+{
+  id: "GASTRO-429",
+  especialidad: "Gastroenterología",
+  tema: "Cáncer colorrectal",
+  subtema: "Síndrome obstructivo",
+  dificultad: "Media",
+  caso: "Hombre de 70 años presenta distensión abdominal progresiva, vómitos, obstipación y pérdida de peso. La tomografía identifica una lesión estenosante del colon izquierdo con dilatación proximal.",
+  pregunta: "¿Cuál es la prioridad inicial?",
+  opciones: [
+    "Evaluar y estabilizar al paciente, valorar la obstrucción y solicitar manejo quirúrgico especializado urgente",
+    "Indicar laxantes y dar de alta",
+    "Realizar tamizaje anual sin atender la obstrucción",
+    "Iniciar dieta rica en fibra sin evaluación",
+    "Tratar exclusivamente con IBP"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Una neoplasia colorrectal puede producir obstrucción intestinal. Se requiere estabilización, evaluación de complicaciones y planificación multidisciplinaria urgente, considerando la necesidad de descompresión o cirugía según el caso.",
+  perlaENARM: "Cáncer colorrectal con obstrucción: primero estabilizar y resolver la urgencia; después completar la estrategia oncológica.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de cáncer colorrectal y obstrucción intestinal.",
+    internacional: "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer."
+  },
+  bibliografia: [
+    "National Comprehensive Cancer Network. NCCN Guidelines: Colon Cancer."
+  ]
+},
+{
+  id: "GASTRO-430",
+  especialidad: "Gastroenterología",
+  tema: "Hemorragia gastrointestinal alta",
+  subtema: "Sospecha de hemorragia variceal",
+  dificultad: "Media",
+  caso: "Hombre de 60 años con cirrosis presenta hematemesis abundante e hipotensión. Se sospecha ruptura de várices esofágicas.",
+  pregunta: "Además de la reanimación hemodinámica, ¿qué combinación farmacológica debe iniciarse tempranamente ante la sospecha de hemorragia variceal?",
+  opciones: [
+    "Fármaco vasoactivo, como octreótido o terlipresina según disponibilidad, y antibiótico profiláctico",
+    "AINE y anticoagulante",
+    "Loperamida y antiespasmódico",
+    "IBP como único tratamiento específico de la hemorragia variceal",
+    "Corticoides sistémicos como monoterapia"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "En la hemorragia variceal sospechada se inicia tempranamente un fármaco vasoactivo y profilaxis antibiótica, junto con reanimación y endoscopia terapéutica una vez que el paciente está suficientemente estabilizado. El manejo debe adaptarse a la gravedad y a las contraindicaciones.",
+  perlaENARM: "Hemorragia variceal: reanimación, vasoactivo, antibiótico y ligadura endoscópica cuando corresponda.",
+  gpc: {
+    mexico: "Verificar la GPC mexicana vigente de hemorragia variceal en cirrosis.",
+    internacional: "Baveno VII Consensus, 2022."
+  },
+  bibliografia: [
+    "de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol. 2022;76:959-974."
+  ]
 }
 ];
