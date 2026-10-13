@@ -13586,3 +13586,4 @@ El consenso ACC 2025 enfatiza además la reevaluación seriada, la hemodinámica
 }
 ];
 
+window.BANCO_CARDIOLOGIA = BANCO_CARDIOLOGIA;
