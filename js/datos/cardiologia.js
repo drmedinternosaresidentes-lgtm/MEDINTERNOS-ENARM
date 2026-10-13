@@ -11631,7 +11631,7 @@ El consenso ACC 2025 enfatiza además la reevaluación seriada, la hemodinámica
     "Braunwald's Heart Disease. 12th ed.",
     "Harrison's Principles of Internal Medicine. 21st ed."
   ]
-}
+},
+    
 ];
 
-window.BANCO_CARDIOLOGIA = BANCO_CARDIOLOGIA;
