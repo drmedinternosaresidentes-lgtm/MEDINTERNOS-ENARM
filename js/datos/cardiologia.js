@@ -11632,6 +11632,1957 @@ El consenso ACC 2025 enfatiza además la reevaluación seriada, la hemodinámica
     "Harrison's Principles of Internal Medicine. 21st ed."
   ]
 },
-    
+  
+{
+  id: "CARD-411",
+  especialidad: "Cardiología",
+  tema: "Hipertensión arterial",
+  subtema: "Confirmación diagnóstica",
+  dificultad: "Baja",
+  caso: "Hombre de 48 años presenta presión arterial de 148/92 mmHg y, en una segunda consulta, de 146/90 mmHg. Está asintomático y no tiene datos de daño agudo de órgano blanco.",
+  pregunta: "¿Cuál es el siguiente paso más apropiado para confirmar hipertensión sostenida?",
+  opciones: [
+    "Diagnosticar emergencia hipertensiva",
+    "Solicitar mediciones domiciliarias o monitorización ambulatoria de presión arterial",
+    "Administrar nitroprusiato intravenoso",
+    "Solicitar troponina como prueba confirmatoria",
+    "Realizar prueba de esfuerzo"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Las mediciones fuera del consultorio ayudan a confirmar hipertensión y detectar hipertensión de bata blanca o enmascarada.",
+  perlaENARM: "Confirma la hipertensión con mediciones estandarizadas y, cuando sea posible, fuera del consultorio.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hipertensión arterial sistémica.",
+    internacional: "2024 ESC Guidelines for the Management of Elevated Blood Pressure and Hypertension."
+  },
+  bibliografia: "Harrison's Principles of Internal Medicine; Braunwald's Heart Disease."
+},
+{
+  id: "CARD-412",
+  especialidad: "Cardiología",
+  tema: "Hipertensión arterial",
+  subtema: "Medidas no farmacológicas",
+  dificultad: "Baja",
+  caso: "Mujer de 52 años con hipertensión leve, sobrepeso y consumo elevado de sal solicita medidas para mejorar su presión arterial.",
+  pregunta: "¿Cuál de las siguientes intervenciones no farmacológicas es apropiada?",
+  opciones: [
+    "Aumentar el consumo de alimentos ultraprocesados",
+    "Evitar toda actividad física",
+    "Reducir el sodio, realizar ejercicio regular y alcanzar un peso saludable",
+    "Suspender el seguimiento médico",
+    "Consumir alcohol diariamente para vasodilatar"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La reducción del sodio, la alimentación saludable, el ejercicio y el control del peso contribuyen a reducir la presión arterial.",
+  perlaENARM: "Las medidas de estilo de vida complementan el tratamiento farmacológico.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hipertensión arterial sistémica.",
+    internacional: "2024 ESC Guidelines for the Management of Elevated Blood Pressure and Hypertension."
+  },
+  bibliografia: "Harrison's Principles of Internal Medicine; Braunwald's Heart Disease."
+},
+{
+  id: "CARD-413",
+  especialidad: "Cardiología",
+  tema: "Hipertensión arterial",
+  subtema: "Tratamiento farmacológico inicial",
+  dificultad: "Media",
+  caso: "Hombre de 56 años tiene hipertensión confirmada, sin diabetes, enfermedad renal crónica ni cardiopatía conocida. No presenta contraindicaciones para los antihipertensivos habituales.",
+  pregunta: "¿Cuál de los siguientes grupos puede utilizarse como tratamiento inicial de primera línea?",
+  opciones: [
+    "Alfa-bloqueador obligatorio para todos los pacientes",
+    "IECA o ARA-II, calcioantagonista dihidropiridínico o diurético tiazídico",
+    "Nitrato sublingual diario",
+    "Digoxina",
+    "Antiarrítmico de clase III"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Los grupos de primera línea incluyen inhibidores del sistema renina-angiotensina, calcioantagonistas dihidropiridínicos y diuréticos tiazídicos o similares.",
+  perlaENARM: "La selección del antihipertensivo depende de comorbilidades, tolerabilidad y cifras de presión arterial.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hipertensión arterial sistémica.",
+    internacional: "2024 ESC Guidelines for the Management of Elevated Blood Pressure and Hypertension."
+  },
+  bibliografia: "Harrison's Principles of Internal Medicine; Braunwald's Heart Disease."
+},
+{
+  id: "CARD-414",
+  especialidad: "Cardiología",
+  tema: "Crisis hipertensivas",
+  subtema: "Emergencia hipertensiva",
+  dificultad: "Baja",
+  caso: "Mujer de 61 años presenta presión arterial de 202/116 mmHg. Está asintomática, sin déficit neurológico, dolor torácico, disnea ni datos clínicos de lesión aguda de órgano blanco.",
+  pregunta: "¿Qué dato define principalmente una emergencia hipertensiva?",
+  opciones: [
+    "Presión sistólica mayor de 180 mmHg por sí sola",
+    "Edad mayor de 60 años",
+    "Presencia de daño agudo de órgano blanco",
+    "Antecedente familiar de hipertensión",
+    "Dislipidemia aislada"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La emergencia hipertensiva se caracteriza por presión arterial elevada acompañada de daño agudo de órgano blanco. La cifra aislada no basta para establecer el diagnóstico.",
+  perlaENARM: "Emergencia hipertensiva = presión elevada más lesión aguda de órgano blanco.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre crisis hipertensivas.",
+    internacional: "2024 ESC Guidelines for the Management of Elevated Blood Pressure and Hypertension."
+  },
+  bibliografia: "Harrison's Principles of Internal Medicine; Braunwald's Heart Disease."
+},
+{
+  id: "CARD-415",
+  especialidad: "Cardiología",
+  tema: "Crisis hipertensivas",
+  subtema: "Edema pulmonar hipertensivo",
+  dificultad: "Media",
+  caso: "Hombre de 70 años presenta disnea súbita, ortopnea, estertores difusos, saturación de oxígeno de 82% y presión arterial de 198/110 mmHg. La radiografía muestra edema pulmonar.",
+  pregunta: "¿Cuál es el enfoque inicial más apropiado?",
+  opciones: [
+    "Administrar un bolo rápido de solución salina",
+    "Administrar nifedipino sublingual",
+    "Proporcionar soporte respiratorio y tratar la congestión; considerar vasodilatación intravenosa si está indicada",
+    "Administrar betabloqueador intravenoso a dosis altas como primera medida",
+    "Esperar 24 horas antes de intervenir"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "El edema pulmonar hipertensivo requiere atención inmediata, soporte respiratorio y tratamiento de la congestión. Los vasodilatadores intravenosos pueden ser útiles en pacientes seleccionados con presión arterial elevada.",
+  perlaENARM: "Edema pulmonar hipertensivo: soporte respiratorio y descongestión; evita la administración rutinaria de líquidos.",
+  gpc: {
+    mexico: "Consultar las GPC mexicanas vigentes sobre crisis hipertensivas e insuficiencia cardiaca aguda.",
+    internacional: "Guías internacionales vigentes sobre hipertensión e insuficiencia cardiaca aguda."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-416",
+  especialidad: "Cardiología",
+  tema: "Cardiopatía isquémica",
+  subtema: "Angina estable",
+  dificultad: "Baja",
+  caso: "Hombre de 59 años refiere opresión retroesternal al subir escaleras. El dolor cede a los cinco minutos de reposo y no ha cambiado de patrón durante seis meses.",
+  pregunta: "¿Cuál es la interpretación clínica más probable?",
+  opciones: [
+    "Angina estable",
+    "Pericarditis aguda",
+    "Disección aórtica",
+    "Taponamiento cardiaco",
+    "Neumotórax a tensión"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El dolor opresivo relacionado con esfuerzo, aliviado con reposo y estable en el tiempo, es compatible con angina estable.",
+  perlaENARM: "Dolor de esfuerzo reproducible y aliviado con reposo orienta a angina estable.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre cardiopatía isquémica crónica.",
+    internacional: "2024 ESC Guidelines for the Management of Chronic Coronary Syndromes."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-417",
+  especialidad: "Cardiología",
+  tema: "Cardiopatía isquémica",
+  subtema: "Angina inestable",
+  dificultad: "Media",
+  caso: "Mujer de 64 años presenta dolor torácico en reposo, de mayor intensidad y duración que sus episodios previos. El ECG no muestra elevación persistente del ST y las troponinas seriadas no están elevadas.",
+  pregunta: "¿Qué diagnóstico debe considerarse tras la evaluación clínica correspondiente?",
+  opciones: [
+    "Angina estable sin cambio clínico",
+    "Angina inestable dentro del espectro de síndrome coronario agudo",
+    "Infarto con elevación del ST confirmado",
+    "Pericarditis constrictiva",
+    "Hipertensión pulmonar primaria"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El dolor en reposo o con patrón progresivo puede representar angina inestable. Se deben integrar ECG seriados, troponinas y contexto clínico para establecer el diagnóstico.",
+  perlaENARM: "Dolor nuevo, progresivo o en reposo obliga a descartar síndrome coronario agudo.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre síndrome coronario agudo.",
+    internacional: "2023 ESC Guidelines for Acute Coronary Syndromes; 2025 ACC/AHA ACS Guideline."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-418",
+  especialidad: "Cardiología",
+  tema: "Síndrome coronario agudo",
+  subtema: "Troponina de alta sensibilidad",
+  dificultad: "Baja",
+  caso: "Hombre de 54 años acude por dolor torácico de una hora. La primera troponina de alta sensibilidad está por debajo del límite diagnóstico, pero persiste la sospecha clínica de síndrome coronario agudo.",
+  pregunta: "¿Cuál es el siguiente paso más apropiado?",
+  opciones: [
+    "Descartar definitivamente infarto con una sola medición",
+    "Repetir troponina según un algoritmo validado y correlacionar con ECG y clínica",
+    "Administrar fibrinólisis a todos los pacientes",
+    "Solicitar únicamente dímero D",
+    "Dar de alta sin reevaluación"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Una troponina inicial negativa, especialmente en una consulta temprana, no excluye por sí sola un infarto. Se requieren mediciones seriadas según el algoritmo validado y la valoración clínica.",
+  perlaENARM: "Troponina temprana negativa no siempre descarta infarto; utiliza determinaciones seriadas según protocolo.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre síndrome coronario agudo.",
+    internacional: "2023 ESC Guidelines for Acute Coronary Syndromes; 2025 ACC/AHA ACS Guideline."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-419",
+  especialidad: "Cardiología",
+  tema: "Síndrome coronario agudo",
+  subtema: "Localización electrocardiográfica",
+  dificultad: "Baja",
+  caso: "Varón de 60 años presenta dolor torácico opresivo de 45 minutos. El ECG muestra elevación del ST en II, III y aVF, con cambios recíprocos en I y aVL.",
+  pregunta: "¿Qué territorio miocárdico está principalmente afectado?",
+  opciones: [
+    "Anterior",
+    "Lateral alto exclusivamente",
+    "Inferior",
+    "Septal exclusivamente",
+    "Posterior aislado"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "Las derivaciones II, III y aVF exploran la cara inferior. En el contexto descrito, el patrón es compatible con infarto inferior y requiere evaluación inmediata para reperfusión.",
+  perlaENARM: "II, III y aVF corresponden al territorio inferior.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre infarto agudo de miocardio.",
+    internacional: "2023 ESC Guidelines for Acute Coronary Syndromes; 2025 ACC/AHA ACS Guideline."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-420",
+  especialidad: "Cardiología",
+  tema: "Reperfusión",
+  subtema: "Angioplastia primaria",
+  dificultad: "Baja",
+  caso: "Paciente de 58 años presenta IAMCEST de 90 minutos de evolución. Se encuentra en un hospital con hemodinamia disponible y la angioplastia primaria puede realizarse oportunamente.",
+  pregunta: "¿Cuál es la estrategia de reperfusión preferida?",
+  opciones: [
+    "Esperar a que la troponina alcance su máximo",
+    "Angioplastia coronaria primaria sin demoras evitables",
+    "Realizar prueba de esfuerzo antes de tratar",
+    "Dar exclusivamente analgesia",
+    "Posponer la reperfusión hasta el día siguiente"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La intervención coronaria percutánea primaria es la estrategia preferida en IAMCEST cuando puede realizarse dentro del intervalo recomendado.",
+  perlaENARM: "En IAMCEST, el tiempo es miocardio: no retrases la reperfusión para esperar biomarcadores.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre infarto agudo de miocardio.",
+    internacional: "2023 ESC Guidelines for Acute Coronary Syndromes; 2025 ACC/AHA ACS Guideline."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-421",
+  especialidad: "Cardiología",
+  tema: "Reperfusión",
+  subtema: "Fibrinólisis en IAMCEST",
+  dificultad: "Media",
+  caso: "Hombre de 57 años presenta IAMCEST de dos horas de evolución en un hospital sin hemodinamia. El traslado demoraría demasiado para alcanzar el tiempo recomendado de angioplastia. No tiene contraindicaciones para fibrinólisis.",
+  pregunta: "¿Cuál es una estrategia apropiada si no es posible realizar angioplastia primaria oportunamente?",
+  opciones: [
+    "No reperfundir porque el hospital carece de hemodinamia",
+    "Administrar fibrinólisis si cumple criterios y realizar traslado para estrategia farmacoinvasiva",
+    "Administrar únicamente aspirina y enviarlo a casa",
+    "Realizar prueba de esfuerzo",
+    "Esperar 24 horas para repetir el ECG"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "En pacientes elegibles con IAMCEST temprano, cuando la angioplastia primaria no puede efectuarse oportunamente, la fibrinólisis puede ser una alternativa seguida de traslado para evaluación invasiva.",
+  perlaENARM: "Fibrinólisis en IAMCEST: paciente elegible, reperfusión oportuna imposible y traslado posterior.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre infarto agudo de miocardio.",
+    internacional: "2023 ESC Guidelines for Acute Coronary Syndromes; 2025 ACC/AHA ACS Guideline."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-422",
+  especialidad: "Cardiología",
+  tema: "Insuficiencia cardiaca",
+  subtema: "Diagnóstico",
+  dificultad: "Baja",
+  caso: "Mujer de 74 años presenta disnea de esfuerzo, ortopnea, edema maleolar y estertores bibasales. Tiene antecedente de hipertensión de larga evolución.",
+  pregunta: "¿Qué estudio es fundamental para evaluar la estructura y función cardiaca?",
+  opciones: [
+    "Ecocardiograma transtorácico",
+    "Colonoscopia",
+    "Electroencefalograma",
+    "Espirometría como único estudio",
+    "Radiografía de muñeca"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El ecocardiograma permite evaluar fracción de eyección, cavidades, válvulas y parámetros estructurales. Debe integrarse con clínica y otros estudios.",
+  perlaENARM: "Ante sospecha de insuficiencia cardiaca, el ecocardiograma es una herramienta central.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre insuficiencia cardiaca.",
+    internacional: "2023 Focused Update of the 2021 ESC Guidelines for Heart Failure."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-423",
+  especialidad: "Cardiología",
+  tema: "Insuficiencia cardiaca",
+  subtema: "Tratamiento de HFrEF",
+  dificultad: "Media",
+  caso: "Hombre de 62 años con disnea y edema tiene FEVI de 30%. Su función renal y potasio permiten tratamiento neurohormonal y no presenta contraindicaciones relevantes.",
+  pregunta: "¿Cuál de los siguientes grupos forma parte de la terapia modificadora de pronóstico?",
+  opciones: [
+    "AINE de forma crónica",
+    "Inhibidor SGLT2",
+    "Nifedipino de acción corta como tratamiento principal",
+    "Antibiótico profiláctico permanente",
+    "Corticoide sistémico"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Los inhibidores SGLT2 forman parte de los cuatro pilares terapéuticos de HFrEF, junto con ARNI/IECA/ARA-II, betabloqueadores basados en evidencia y antagonistas mineralocorticoides.",
+  perlaENARM: "HFrEF: recuerda los cuatro pilares; los SGLT2 benefician incluso sin diabetes.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre insuficiencia cardiaca.",
+    internacional: "2023 Focused Update of the 2021 ESC Guidelines for Heart Failure."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-424",
+  especialidad: "Cardiología",
+  tema: "Insuficiencia cardiaca",
+  subtema: "Diuréticos y congestión",
+  dificultad: "Baja",
+  caso: "Paciente de 68 años con insuficiencia cardiaca presenta edema de miembros inferiores, aumento de peso y ortopnea. Tiene signos clínicos de sobrecarga de volumen.",
+  pregunta: "¿Qué fármaco se utiliza habitualmente para aliviar la congestión?",
+  opciones: [
+    "Furosemida",
+    "Adenosina",
+    "Atropina",
+    "Aspirina como descongestivo",
+    "Amiodarona"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Los diuréticos de asa, como la furosemida, se utilizan para aliviar la congestión. Deben ajustarse según respuesta clínica, función renal y electrolitos.",
+  perlaENARM: "Los diuréticos alivian congestión, pero no sustituyen el tratamiento modificador del pronóstico.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre insuficiencia cardiaca.",
+    internacional: "2023 Focused Update of the 2021 ESC Guidelines for Heart Failure."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-425",
+  especialidad: "Cardiología",
+  tema: "Arritmias",
+  subtema: "Taquicardia supraventricular regular",
+  dificultad: "Baja",
+  caso: "Mujer de 28 años presenta palpitaciones súbitas. El ECG muestra taquicardia regular de QRS estrecho a 180 lpm. Está estable, sin dolor torácico ni hipotensión.",
+  pregunta: "¿Cuál es una intervención inicial apropiada?",
+  opciones: [
+    "Desfibrilación no sincronizada inmediata",
+    "Maniobras vagales correctamente realizadas",
+    "Fibrinólisis",
+    "Marcapasos permanente inmediato",
+    "Administración de potasio sin medirlo"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "En una taquicardia supraventricular regular de QRS estrecho con estabilidad hemodinámica, las maniobras vagales son una opción inicial.",
+  perlaENARM: "TSV regular de QRS estrecho y paciente estable: maniobras vagales como primera medida.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre taquicardias supraventriculares.",
+    internacional: "Guías contemporáneas de reanimación y manejo de taquicardias supraventriculares."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-426",
+  especialidad: "Cardiología",
+  tema: "Arritmias",
+  subtema: "Taquicardia con inestabilidad",
+  dificultad: "Media",
+  caso: "Hombre de 66 años presenta taquicardia regular de QRS ancho a 190 lpm, presión arterial de 72/40 mmHg y alteración del estado mental. Tiene pulso palpable.",
+  pregunta: "¿Cuál es la intervención inmediata más apropiada?",
+  opciones: [
+    "Observar durante 30 minutos",
+    "Cardioversión eléctrica sincronizada urgente, si el ritmo permite sincronización",
+    "Administrar betabloqueador oral y dar de alta",
+    "Realizar prueba de esfuerzo",
+    "Esperar el resultado de troponina"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La taquicardia con pulso e inestabilidad hemodinámica requiere cardioversión sincronizada urgente cuando es posible sincronizar con el QRS. Si pierde el pulso, debe seguirse el algoritmo de paro cardiaco.",
+  perlaENARM: "Taquicardia con pulso e inestabilidad: cardioversión sincronizada; sin pulso, algoritmo de paro.",
+  gpc: {
+    mexico: "Consultar el protocolo institucional vigente de soporte vital cardiovascular avanzado.",
+    internacional: "AHA Guidelines for CPR and ECC; algoritmo ACLS de taquicardia con pulso."
+  },
+  bibliografia: "Braunwald's Heart Disease; AHA ACLS Guidelines."
+},
+{
+  id: "CARD-427",
+  especialidad: "Cardiología",
+  tema: "Fibrilación auricular",
+  subtema: "Reconocimiento electrocardiográfico",
+  dificultad: "Baja",
+  caso: "Paciente de 73 años presenta palpitaciones. El ECG muestra intervalos R-R irregularmente irregulares y ausencia de ondas P organizadas.",
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Ritmo sinusal",
+    "Fibrilación auricular",
+    "Bloqueo AV de primer grado",
+    "Flutter ventricular",
+    "Bradicardia sinusal"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La fibrilación auricular se caracteriza por actividad auricular desorganizada y respuesta ventricular irregularmente irregular en ausencia de ondas P consistentes.",
+  perlaENARM: "R-R irregularmente irregular y ausencia de ondas P organizadas orientan a FA.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre fibrilación auricular.",
+    internacional: "2024 ESC Guidelines for the Management of Atrial Fibrillation."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-428",
+  especialidad: "Cardiología",
+  tema: "Fibrilación auricular",
+  subtema: "Anticoagulación",
+  dificultad: "Media",
+  caso: "Hombre de 76 años con fibrilación auricular no valvular tiene hipertensión y diabetes. No presenta sangrado activo ni contraindicación para anticoagulación.",
+  pregunta: "¿Cuál es el objetivo principal de la anticoagulación cuando está indicada en FA?",
+  opciones: [
+    "Eliminar inmediatamente todos los episodios de FA",
+    "Prevenir accidente cerebrovascular y embolia sistémica",
+    "Disminuir directamente el colesterol LDL",
+    "Tratar la hipertensión pulmonar",
+    "Evitar todas las extrasístoles ventriculares"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La anticoagulación en pacientes con fibrilación auricular y riesgo tromboembólico suficiente reduce el riesgo de accidente cerebrovascular y embolia sistémica.",
+  perlaENARM: "Anticoagulación, control de frecuencia y control del ritmo son objetivos diferentes.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre fibrilación auricular.",
+    internacional: "2024 ESC Guidelines for the Management of Atrial Fibrillation."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-429",
+  especialidad: "Cardiología",
+  tema: "Flutter auricular",
+  subtema: "Diagnóstico electrocardiográfico",
+  dificultad: "Baja",
+  caso: "Hombre de 65 años presenta palpitaciones. El ECG muestra ondas auriculares regulares en patrón de dientes de sierra, visibles especialmente en derivaciones inferiores.",
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Fibrilación ventricular",
+    "Flutter auricular",
+    "Bloqueo AV completo",
+    "Taquicardia sinusal",
+    "Ritmo idioventricular"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El patrón de ondas F en dientes de sierra es característico del flutter auricular. La frecuencia ventricular depende de la relación de conducción AV.",
+  perlaENARM: "Ondas F en dientes de sierra: hallazgo clásico de flutter auricular.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre arritmias supraventriculares.",
+    internacional: "2024 ESC Guidelines for the Management of Atrial Fibrillation."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-430",
+  especialidad: "Cardiología",
+  tema: "Bloqueos AV",
+  subtema: "Bloqueo AV de primer grado",
+  dificultad: "Baja",
+  caso: "ECG de un hombre de 52 años muestra ritmo sinusal, todas las ondas P conducen a QRS y el intervalo PR mide 230 ms.",
+  pregunta: "¿Cómo se clasifica este hallazgo?",
+  opciones: [
+    "Bloqueo AV de primer grado",
+    "Bloqueo AV completo",
+    "Bloqueo AV Mobitz II",
+    "Fibrilación auricular",
+    "Flutter auricular"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El bloqueo AV de primer grado se caracteriza por prolongación del PR mayor de 200 ms con conducción de todas las ondas P a los ventrículos.",
+  perlaENARM: "PR mayor de 200 ms con conducción 1:1 corresponde a bloqueo AV de primer grado.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre trastornos de conducción cardiaca.",
+    internacional: "ESC Guidelines on Cardiac Pacing and Cardiac Resynchronization Therapy."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-431",
+  especialidad: "Cardiología",
+  tema: "Bloqueos AV",
+  subtema: "Bloqueo AV completo",
+  dificultad: "Media",
+  caso: "Mujer de 78 años presenta síncope. El ECG muestra ondas P regulares y complejos QRS regulares, pero sin relación fija entre ambos; la frecuencia ventricular es de 30 lpm.",
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Bloqueo AV de primer grado",
+    "Bloqueo AV completo",
+    "Taquicardia sinusal",
+    "Flutter auricular con conducción 2:1",
+    "Extrasístoles auriculares aisladas"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La disociación completa entre la actividad auricular y ventricular indica bloqueo AV de tercer grado. El síncope y el escape ventricular lento requieren atención urgente y valoración para estimulación cardiaca.",
+  perlaENARM: "Ondas P y QRS independientes con bradicardia marcada: bloqueo AV completo.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre trastornos de conducción cardiaca.",
+    internacional: "ESC Guidelines on Cardiac Pacing and Cardiac Resynchronization Therapy."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-432",
+  especialidad: "Cardiología",
+  tema: "Bloqueos de rama",
+  subtema: "Bloqueo de rama izquierda",
+  dificultad: "Baja",
+  caso: "ECG de un paciente muestra QRS de 150 ms, complejo predominantemente negativo en V1 y ondas R anchas o melladas en derivaciones laterales.",
+  pregunta: "¿Qué trastorno de conducción es más probable?",
+  opciones: [
+    "Bloqueo de rama izquierda",
+    "Bloqueo sinoauricular",
+    "Bloqueo AV de primer grado aislado",
+    "Ritmo de la unión",
+    "Fibrilación auricular"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El QRS ancho con morfología típica en V1 y derivaciones laterales es compatible con bloqueo de rama izquierda. Si hay dolor torácico, debe evaluarse el contexto de posible isquemia aguda.",
+  perlaENARM: "BRI: QRS ancho, complejo negativo en V1 y R ancha o mellada en derivaciones laterales.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre electrocardiografía y trastornos de conducción.",
+    internacional: "Guías internacionales de electrocardiografía y síndrome coronario agudo."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-433",
+  especialidad: "Cardiología",
+  tema: "Pericarditis",
+  subtema: "Presentación clínica",
+  dificultad: "Baja",
+  caso: "Mujer de 30 años presenta dolor torácico que empeora al acostarse y mejora al sentarse e inclinarse hacia delante. El ECG muestra elevación difusa del ST y depresión del PR.",
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Pericarditis aguda",
+    "Estenosis aórtica",
+    "Embolia pulmonar crónica",
+    "Bloqueo AV completo",
+    "Cardiomiopatía hipertrófica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El dolor posicional y pleurítico, junto con elevación difusa del ST y depresión del PR, es característico de pericarditis aguda.",
+  perlaENARM: "Dolor que mejora al inclinarse hacia delante más cambios difusos del ST sugiere pericarditis.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre pericarditis.",
+    internacional: "ESC 2025 Guidelines for the Management of Myocarditis and Pericarditis."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-434",
+  especialidad: "Cardiología",
+  tema: "Taponamiento cardiaco",
+  subtema: "Reconocimiento clínico",
+  dificultad: "Media",
+  caso: "Paciente con derrame pericárdico presenta hipotensión, taquicardia, ingurgitación yugular y ruidos cardiacos apagados. El ecocardiograma muestra colapso de cavidades derechas.",
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Estenosis mitral leve",
+    "Taponamiento cardiaco",
+    "Hipertensión arterial aislada",
+    "Insuficiencia aórtica crónica",
+    "Angina estable"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La combinación de hipotensión, ingurgitación yugular, ruidos apagados y signos ecocardiográficos de compresión de cavidades es compatible con taponamiento. El compromiso hemodinámico requiere drenaje urgente según la situación clínica.",
+  perlaENARM: "Derrame pericárdico más compromiso hemodinámico: sospecha taponamiento.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre derrame pericárdico y taponamiento.",
+    internacional: "ESC 2025 Guidelines for the Management of Myocarditis and Pericarditis."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-435",
+  especialidad: "Cardiología",
+  tema: "Endocarditis infecciosa",
+  subtema: "Hemocultivos iniciales",
+  dificultad: "Baja",
+  caso: "Hombre de 45 años presenta fiebre prolongada, nuevo soplo y sospecha clínica de endocarditis. Está estable y no ha recibido antibióticos.",
+  pregunta: "¿Qué debe realizarse antes de iniciar antimicrobianos, si la situación clínica lo permite?",
+  opciones: [
+    "Obtener hemocultivos adecuados de diferentes muestras",
+    "Realizar una prueba de esfuerzo",
+    "Administrar antibióticos y omitir los cultivos",
+    "Solicitar únicamente examen general de orina",
+    "Esperar una semana sin estudios"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Los hemocultivos antes de los antibióticos aumentan la posibilidad de identificar el microorganismo y orientar el tratamiento. En pacientes inestables, la toma de cultivos no debe retrasar el tratamiento urgente.",
+  perlaENARM: "Endocarditis sospechada: hemocultivos antes del antibiótico si la situación clínica lo permite.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre endocarditis infecciosa.",
+    internacional: "2023 ESC Guidelines for the Management of Endocarditis."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-436",
+  especialidad: "Cardiología",
+  tema: "Estenosis aórtica",
+  subtema: "Hallazgos de exploración",
+  dificultad: "Baja",
+  caso: "Hombre de 76 años presenta disnea de esfuerzo y síncope. En la exploración se ausculta un soplo sistólico eyectivo en foco aórtico que irradia hacia las carótidas.",
+  pregunta: "¿Qué valvulopatía debe sospecharse?",
+  opciones: [
+    "Estenosis aórtica",
+    "Insuficiencia mitral",
+    "Estenosis tricuspídea",
+    "Insuficiencia pulmonar",
+    "Comunicación interauricular"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El soplo sistólico eyectivo en foco aórtico con irradiación carotídea es característico de estenosis aórtica. La ecocardiografía cuantifica su gravedad.",
+  perlaENARM: "Soplo sistólico aórtico irradiado a carótidas con síncope o disnea: sospecha estenosis aórtica.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre valvulopatías.",
+    internacional: "2025 ESC/EACTS Guidelines for the Management of Valvular Heart Disease."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-437",
+  especialidad: "Cardiología",
+  tema: "Insuficiencia aórtica",
+  subtema: "Hallazgos clínicos",
+  dificultad: "Baja",
+  caso: "Paciente de 58 años presenta disnea progresiva. A la auscultación se identifica un soplo diastólico decreciente en el borde esternal izquierdo.",
+  pregunta: "¿Qué lesión valvular es más probable?",
+  opciones: [
+    "Insuficiencia aórtica",
+    "Estenosis mitral",
+    "Estenosis tricuspídea",
+    "Estenosis pulmonar",
+    "Insuficiencia mitral aislada"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La insuficiencia aórtica produce un soplo diastólico decreciente. La ecocardiografía cuantifica la regurgitación y evalúa dimensiones y función ventricular.",
+  perlaENARM: "Soplo diastólico decreciente en borde esternal izquierdo: piensa en insuficiencia aórtica.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre valvulopatías.",
+    internacional: "2025 ESC/EACTS Guidelines for the Management of Valvular Heart Disease."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-438",
+  especialidad: "Cardiología",
+  tema: "Estenosis mitral",
+  subtema: "Auscultación",
+  dificultad: "Baja",
+  caso: "Mujer de 43 años con antecedente de fiebre reumática presenta disnea. La auscultación revela un chasquido de apertura y un retumbo diastólico apical.",
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Estenosis mitral",
+    "Insuficiencia aórtica",
+    "Estenosis pulmonar",
+    "Insuficiencia tricuspídea",
+    "Comunicación interventricular"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El chasquido de apertura seguido de retumbo diastólico apical es característico de estenosis mitral, frecuentemente de origen reumático.",
+  perlaENARM: "Chasquido de apertura más retumbo diastólico apical: estenosis mitral.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre valvulopatías mitrales.",
+    internacional: "2025 ESC/EACTS Guidelines for the Management of Valvular Heart Disease."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-439",
+  especialidad: "Cardiología",
+  tema: "Insuficiencia mitral",
+  subtema: "Auscultación",
+  dificultad: "Baja",
+  caso: "Hombre de 62 años presenta disnea y fatiga. Se ausculta un soplo holosistólico en el ápex que irradia hacia la axila.",
+  pregunta: "¿Qué lesión valvular explica mejor este hallazgo?",
+  opciones: [
+    "Insuficiencia mitral",
+    "Estenosis aórtica",
+    "Estenosis mitral",
+    "Insuficiencia pulmonar",
+    "Estenosis tricuspídea"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El soplo holosistólico apical con irradiación a la axila es característico de insuficiencia mitral. La ecocardiografía determina mecanismo y severidad.",
+  perlaENARM: "Soplo holosistólico apical irradiado a axila: insuficiencia mitral.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre valvulopatías mitrales.",
+    internacional: "2025 ESC/EACTS Guidelines for the Management of Valvular Heart Disease."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-440",
+  especialidad: "Cardiología",
+  tema: "Cardiomiopatía hipertrófica",
+  subtema: "Maniobras dinámicas",
+  dificultad: "Media",
+  caso: "Hombre de 25 años presenta síncope durante ejercicio. Tiene hipertrofia septal asimétrica y soplo sistólico que aumenta al ponerse de pie o realizar Valsalva.",
+  pregunta: "¿Qué diagnóstico explica mejor los hallazgos?",
+  opciones: [
+    "Cardiomiopatía hipertrófica obstructiva",
+    "Estenosis mitral",
+    "Insuficiencia pulmonar",
+    "Taponamiento cardiaco",
+    "Comunicación interauricular aislada"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La cardiomiopatía hipertrófica obstructiva puede producir un soplo dinámico que aumenta con maniobras que reducen la precarga. El síncope de esfuerzo exige estratificación del riesgo de muerte súbita.",
+  perlaENARM: "En cardiomiopatía hipertrófica obstructiva, Valsalva suele aumentar la intensidad del soplo.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre cardiomiopatía hipertrófica.",
+    internacional: "2024 AHA/ACC Guideline for the Management of Hypertrophic Cardiomyopathy."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-441",
+  especialidad: "Cardiología",
+  tema: "Miocarditis",
+  subtema: "Sospecha clínica",
+  dificultad: "Media",
+  caso: "Hombre de 27 años presenta dolor torácico y disnea varios días después de un cuadro viral. Tiene troponina elevada y alteraciones inespecíficas del ST; la coronariografía no muestra obstrucciones significativas.",
+  pregunta: "¿Qué diagnóstico debe considerarse?",
+  opciones: [
+    "Miocarditis",
+    "Estenosis aórtica calcificada",
+    "Flutter auricular aislado",
+    "Coartación aórtica",
+    "Hipertensión pulmonar tromboembólica crónica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La miocarditis puede presentarse con dolor torácico, troponina elevada, cambios electrocardiográficos y disfunción ventricular después de una infección. La resonancia magnética cardiaca puede ayudar a caracterizar el tejido.",
+  perlaENARM: "Síndrome similar a infarto con coronarias no obstructivas después de infección: considera miocarditis.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente aplicable a miocarditis y dolor torácico.",
+    internacional: "ESC 2025 Guidelines for the Management of Myocarditis and Pericarditis."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-442",
+  especialidad: "Cardiología",
+  tema: "Disección aórtica",
+  subtema: "Presentación clínica",
+  dificultad: "Media",
+  caso: "Hombre de 63 años presenta dolor torácico súbito, máximo desde el inicio, irradiado a la espalda. Se identifica diferencia de pulsos entre ambos brazos.",
+  pregunta: "¿Cuál es el diagnóstico que debe descartarse de forma urgente?",
+  opciones: [
+    "Disección aórtica",
+    "Angina estable",
+    "Pericarditis crónica estable",
+    "Estenosis mitral leve",
+    "Taquicardia sinusal fisiológica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El dolor súbito y máximo desde el inicio, junto con asimetría de pulsos, es sugestivo de síndrome aórtico agudo. En pacientes estables, la angiotomografía es una prueba diagnóstica clave.",
+  perlaENARM: "Dolor máximo al inicio más déficit de pulsos: sospecha disección aórtica.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre síndrome aórtico agudo.",
+    internacional: "2024 ESC Guidelines for the Management of Peripheral Arterial and Aortic Diseases."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-443",
+  especialidad: "Cardiología",
+  tema: "Tromboembolia pulmonar",
+  subtema: "Probabilidad clínica",
+  dificultad: "Media",
+  caso: "Mujer de 39 años presenta disnea súbita y dolor pleurítico después de una cirugía reciente. Está hemodinámicamente estable y tiene taquicardia.",
+  pregunta: "¿Cuál es el enfoque diagnóstico inicial más apropiado?",
+  opciones: [
+    "Descartar embolia pulmonar por tener menos de 40 años",
+    "Estimar la probabilidad clínica y seleccionar dímero D o angiotomografía según el riesgo",
+    "Realizar prueba de esfuerzo de inmediato",
+    "Solicitar solo troponina para confirmar el diagnóstico",
+    "Iniciar fibrinólisis sin evaluar estabilidad ni probabilidad"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La sospecha de embolia pulmonar se aborda mediante probabilidad clínica pretest. El dímero D es útil en pacientes seleccionados con probabilidad baja o intermedia; con probabilidad alta suele requerirse imagen diagnóstica.",
+  perlaENARM: "La elección entre dímero D e imagen depende de la probabilidad clínica pretest.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre enfermedad tromboembólica venosa.",
+    internacional: "ESC Guidelines for the Diagnosis and Management of Acute Pulmonary Embolism."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-444",
+  especialidad: "Cardiología",
+  tema: "Cardiopatía hipertensiva",
+  subtema: "Hipertrofia ventricular izquierda",
+  dificultad: "Baja",
+  caso: "Hombre de 67 años con hipertensión de larga evolución presenta hipertrofia ventricular izquierda en el ecocardiograma.",
+  pregunta: "¿Qué mecanismo explica principalmente este hallazgo?",
+  opciones: [
+    "Sobrecarga crónica de presión ventricular",
+    "Obstrucción aguda de una arteria pulmonar",
+    "Disminución aislada de la presión venosa",
+    "Bloqueo sinoauricular",
+    "Derrame pleural aislado"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La hipertensión arterial aumenta la poscarga y favorece remodelado e hipertrofia ventricular izquierda. El control sostenido de la presión arterial reduce el riesgo cardiovascular.",
+  perlaENARM: "Hipertensión crónica: sobrecarga de presión y posible hipertrofia ventricular izquierda.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hipertensión arterial.",
+    internacional: "2024 ESC Guidelines for the Management of Elevated Blood Pressure and Hypertension."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-445",
+  especialidad: "Cardiología",
+  tema: "Cardiopatías congénitas del adulto",
+  subtema: "Comunicación interauricular",
+  dificultad: "Media",
+  caso: "Mujer de 32 años presenta disnea leve y soplo sistólico de eyección en foco pulmonar. El segundo ruido cardiaco muestra desdoblamiento fijo y el ecocardiograma sugiere dilatación de cavidades derechas.",
+  pregunta: "¿Qué cardiopatía congénita debe sospecharse?",
+  opciones: [
+    "Comunicación interauricular",
+    "Estenosis mitral",
+    "Insuficiencia aórtica",
+    "Coartación aórtica",
+    "Miocardiopatía dilatada"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La comunicación interauricular puede producir sobrecarga de volumen de cavidades derechas y desdoblamiento fijo del segundo ruido. El ecocardiograma define el defecto y su repercusión.",
+  perlaENARM: "Desdoblamiento fijo de S2 más dilatación de cavidades derechas: clásico de CIA.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre cardiopatías congénitas del adulto.",
+    internacional: "2020 ESC Guidelines for the Management of Adult Congenital Heart Disease; verificar actualizaciones."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-446",
+  especialidad: "Cardiología",
+  tema: "Cardiomiopatía dilatada",
+  subtema: "Hallazgos ecocardiográficos",
+  dificultad: "Baja",
+  caso: "Hombre de 50 años presenta disnea, edema y fatiga. El ecocardiograma muestra dilatación ventricular izquierda y FEVI de 25%, sin una valvulopatía primaria que explique el cuadro.",
+  pregunta: "¿Cuál es el fenotipo cardiaco descrito?",
+  opciones: [
+    "Cardiomiopatía dilatada con disfunción sistólica",
+    "Estenosis mitral aislada",
+    "Taponamiento cardiaco",
+    "Pericarditis aguda sin derrame",
+    "Hipertrofia ventricular aislada con FEVI normal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La dilatación ventricular asociada con deterioro de la función sistólica es característica de cardiomiopatía dilatada. La evaluación etiológica incluye causas isquémicas, genéticas, tóxicas, inflamatorias y metabólicas.",
+  perlaENARM: "Ventrículo dilatado y FEVI reducida: considera cardiomiopatía dilatada.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre insuficiencia cardiaca y cardiomiopatías.",
+    internacional: "2023 ESC Guidelines for the Management of Cardiomyopathies."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-447",
+  especialidad: "Cardiología",
+  tema: "Takotsubo",
+  subtema: "Presentación clínica",
+  dificultad: "Media",
+  caso: "Mujer de 68 años presenta dolor torácico después de un evento emocional intenso. El ECG y las troponinas sugieren síndrome coronario agudo, pero la imagen muestra alteraciones extensas de la contractilidad que no corresponden a una sola arteria coronaria.",
+  pregunta: "¿Qué diagnóstico debe considerarse en el diagnóstico diferencial?",
+  opciones: [
+    "Síndrome de Takotsubo",
+    "Bloqueo AV de primer grado",
+    "Estenosis mitral reumática aislada",
+    "Hipertensión arterial sin repercusión",
+    "Comunicación interauricular"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Takotsubo puede simular un síndrome coronario agudo y asociarse con desencadenantes emocionales o físicos. Deben excluirse enfermedad coronaria aguda y otras causas de disfunción ventricular.",
+  perlaENARM: "Takotsubo: presentación tipo SCA y alteraciones de contractilidad que exceden un territorio coronario.",
+  gpc: {
+    mexico: "Consultar las GPC mexicanas vigentes aplicables a SCA y miocardiopatías.",
+    internacional: "Literatura y consensos internacionales contemporáneos sobre Takotsubo."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-448",
+  especialidad: "Cardiología",
+  tema: "Pericarditis constrictiva",
+  subtema: "Fisiopatología clínica",
+  dificultad: "Media",
+  caso: "Hombre de 60 años presenta edema periférico, ascitis, ingurgitación yugular y fatiga. La FEVI está conservada y se sospecha limitación del llenado diastólico por enfermedad pericárdica.",
+  pregunta: "¿Cuál es el mecanismo fisiopatológico principal de la pericarditis constrictiva?",
+  opciones: [
+    "Restricción del llenado ventricular por un pericardio rígido",
+    "Oclusión aguda de la arteria descendente anterior",
+    "Obstrucción del flujo de salida por estenosis aórtica",
+    "Aumento aislado de la conducción AV",
+    "Rotura de músculo papilar"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La constricción pericárdica limita la expansión diastólica ventricular y puede causar congestión venosa sistémica incluso con FEVI conservada.",
+  perlaENARM: "Congestión sistémica con FEVI conservada y sospecha pericárdica: considera fisiología constrictiva.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente aplicable a enfermedad pericárdica.",
+    internacional: "ESC 2025 Guidelines for the Management of Myocarditis and Pericarditis."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-449",
+  especialidad: "Cardiología",
+  tema: "Cor pulmonale",
+  subtema: "Definición",
+  dificultad: "Baja",
+  caso: "Paciente con EPOC avanzada presenta disnea, ingurgitación yugular, edema periférico y dilatación del ventrículo derecho.",
+  pregunta: "¿Qué concepto describe mejor el cor pulmonale?",
+  opciones: [
+    "Alteración del ventrículo derecho secundaria a enfermedad pulmonar o vascular pulmonar",
+    "Insuficiencia mitral primaria",
+    "Infarto exclusivo del ventrículo izquierdo",
+    "Estenosis mitral sin repercusión pulmonar",
+    "Bloqueo AV de primer grado"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El cor pulmonale es una alteración estructural o funcional del ventrículo derecho secundaria a enfermedad pulmonar o de la vasculatura pulmonar.",
+  perlaENARM: "Enfermedad pulmonar crónica más disfunción del ventrículo derecho sugiere cor pulmonale.",
+  gpc: {
+    mexico: "Consultar las GPC mexicanas vigentes sobre EPOC e hipertensión pulmonar.",
+    internacional: "Guías ESC/ERS vigentes de hipertensión pulmonar."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-450",
+  especialidad: "Cardiología",
+  tema: "Hipertensión pulmonar",
+  subtema: "Definición hemodinámica",
+  dificultad: "Media",
+  caso: "Paciente con disnea progresiva es sometido a cateterismo derecho. La presión arterial pulmonar media es de 27 mmHg.",
+  pregunta: "¿Qué afirmación es correcta respecto al diagnóstico de hipertensión pulmonar?",
+  opciones: [
+    "Se define únicamente por una presión sistólica pulmonar ecocardiográfica elevada",
+    "El cateterismo derecho es el estándar de referencia para confirmar la hemodinámica",
+    "La radiografía de tórax confirma por sí sola todos los casos",
+    "La presión pulmonar media no tiene relevancia diagnóstica",
+    "Un ECG normal excluye hipertensión pulmonar"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La hipertensión pulmonar se define hemodinámicamente mediante cateterismo derecho. La clasificación requiere integrar presión de enclavamiento y resistencia vascular pulmonar.",
+  perlaENARM: "El cateterismo derecho confirma hipertensión pulmonar; la clasificación requiere más que la presión pulmonar media.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre hipertensión pulmonar.",
+    internacional: "2022 ESC/ERS Guidelines for the Diagnosis and Treatment of Pulmonary Hypertension."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-451",
+  especialidad: "Cardiología",
+  tema: "Síncope",
+  subtema: "Datos de alto riesgo",
+  dificultad: "Media",
+  caso: "Hombre de 70 años presenta síncope durante ejercicio. Tiene antecedente de cardiopatía estructural y un ECG anormal.",
+  pregunta: "¿Cuál es la conducta más apropiada?",
+  opciones: [
+    "Considerar el episodio benigno y dar alta sin evaluación",
+    "Realizar evaluación urgente por posible causa cardiaca de alto riesgo",
+    "Diagnosticar síncope vasovagal sin estudios",
+    "Indicar únicamente hidratación oral y no dar seguimiento",
+    "Atribuirlo a hipoglucemia sin medir glucosa"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El síncope durante ejercicio, la cardiopatía estructural y un ECG anormal son datos de alto riesgo que obligan a descartar arritmias o enfermedad cardiaca significativa.",
+  perlaENARM: "Síncope de esfuerzo o con cardiopatía estructural: no asumas origen vasovagal.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre síncope.",
+    internacional: "2018 ESC Guidelines for the Diagnosis and Management of Syncope; verificar actualizaciones."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-452",
+  especialidad: "Cardiología",
+  tema: "POTS",
+  subtema: "Criterios clínicos",
+  dificultad: "Media",
+  caso: "Mujer de 24 años presenta palpitaciones, mareo y fatiga al ponerse de pie, con mejoría al acostarse. No hay hipotensión ortostática significativa ni otra causa identificada de taquicardia.",
+  pregunta: "¿Qué hallazgo apoya el diagnóstico de síndrome de taquicardia postural ortostática en un adulto?",
+  opciones: [
+    "Aumento sostenido de frecuencia cardiaca de al menos 30 lpm dentro de los 10 minutos de ponerse de pie, con síntomas ortostáticos y sin hipotensión ortostática significativa",
+    "Descenso aislado de la frecuencia cardiaca de 30 lpm",
+    "Bloqueo AV completo en reposo",
+    "Hipertensión pulmonar confirmada por radiografía",
+    "Elevación de troponina como criterio obligatorio"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "En adultos, POTS se caracteriza por síntomas ortostáticos y aumento sostenido de frecuencia cardiaca de al menos 30 lpm al ponerse de pie, sin hipotensión ortostática significativa y tras excluir causas alternativas.",
+  perlaENARM: "POTS: taquicardia ortostática sintomática sin hipotensión ortostática significativa.",
+  gpc: {
+    mexico: "Consultar protocolos institucionales; verificar si existe una GPC mexicana específica vigente.",
+    internacional: "Consensos internacionales sobre POTS y disautonomía."
+  },
+  bibliografia: "Braunwald's Heart Disease; literatura clínica revisada por pares sobre POTS."
+},
+{
+  id: "CARD-453",
+  especialidad: "Cardiología",
+  tema: "Brugada",
+  subtema: "Patrón electrocardiográfico",
+  dificultad: "Media",
+  caso: "Hombre de 35 años presenta síncope nocturno y antecedente familiar de muerte súbita. El ECG muestra elevación del ST con morfología tipo coved en V1-V2.",
+  pregunta: "¿Qué síndrome debe sospecharse?",
+  opciones: [
+    "Síndrome de Brugada",
+    "Síndrome de Wolff-Parkinson-White",
+    "Síndrome de QT corto exclusivamente",
+    "Bloqueo AV de primer grado",
+    "Estenosis mitral"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El patrón tipo 1 en derivaciones precordiales derechas es característico del síndrome de Brugada cuando cumple los criterios diagnósticos y se integra con el contexto clínico.",
+  perlaENARM: "Patrón tipo 1 en V1-V2 más síncope o historia familiar de muerte súbita: sospecha Brugada.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente aplicable a arritmias hereditarias.",
+    internacional: "2022 ESC Guidelines for Ventricular Arrhythmias and Prevention of Sudden Cardiac Death."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-454",
+  especialidad: "Cardiología",
+  tema: "WPW",
+  subtema: "Electrocardiograma",
+  dificultad: "Baja",
+  caso: "Hombre de 22 años presenta palpitaciones episódicas. En el ECG basal se observa PR corto, onda delta y QRS ensanchado.",
+  pregunta: "¿Qué síndrome electrocardiográfico sugieren estos hallazgos?",
+  opciones: [
+    "Wolff-Parkinson-White",
+    "Bloqueo AV completo",
+    "Pericarditis aguda",
+    "Estenosis aórtica",
+    "Flutter ventricular"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El patrón de preexcitación tipo WPW se asocia con intervalo PR corto, onda delta y QRS ensanchado por conducción ventricular temprana a través de una vía accesoria.",
+  perlaENARM: "PR corto más onda delta más QRS ancho: patrón de preexcitación compatible con WPW.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre preexcitación y arritmias supraventriculares.",
+    internacional: "Guías internacionales contemporáneas de arritmias supraventriculares."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-455",
+  especialidad: "Cardiología",
+  tema: "QT largo",
+  subtema: "Factores precipitantes",
+  dificultad: "Media",
+  caso: "Mujer de 67 años recibe un fármaco que prolonga el QT. Presenta síncope y el ECG muestra QTc prolongado con episodios de taquicardia ventricular polimórfica.",
+  pregunta: "¿Qué medida inicial es importante?",
+  opciones: [
+    "Mantener todos los fármacos implicados sin cambios",
+    "Revisar y retirar causas farmacológicas reversibles, corregir electrolitos y tratar la arritmia urgentemente",
+    "Administrar otro fármaco que prolongue el QT",
+    "Dar de alta sin monitorización",
+    "Indicar ejercicio intenso durante el episodio"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La prolongación adquirida del QT puede precipitar torsades de pointes. Deben retirarse los fármacos causales cuando sea posible, corregirse potasio y magnesio y proporcionar tratamiento urgente con monitorización.",
+  perlaENARM: "QT prolongado y torsades: busca medicamentos y alteraciones electrolíticas corregibles.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente aplicable a arritmias ventriculares.",
+    internacional: "2022 ESC Guidelines for Ventricular Arrhythmias and Prevention of Sudden Cardiac Death."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-456",
+  especialidad: "Cardiología",
+  tema: "TV monomórfica/polimórfica",
+  subtema: "Taquicardia ventricular monomórfica",
+  dificultad: "Baja",
+  caso: "Paciente con infarto antiguo presenta taquicardia regular de QRS ancho con morfología uniforme de los complejos. Está consciente y tiene presión arterial conservada.",
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: [
+    "Taquicardia ventricular monomórfica",
+    "Fibrilación auricular con respuesta ventricular lenta",
+    "Ritmo sinusal normal",
+    "Bloqueo AV de primer grado",
+    "Flutter auricular con QRS estrecho"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Una taquicardia regular de QRS ancho en un paciente con cicatriz de infarto debe considerarse taquicardia ventricular hasta demostrar lo contrario.",
+  perlaENARM: "Taquicardia regular de QRS ancho con cardiopatía estructural: considera TV hasta demostrar otra causa.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre arritmias ventriculares.",
+    internacional: "2022 ESC Guidelines for Ventricular Arrhythmias and Prevention of Sudden Cardiac Death."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-457",
+  especialidad: "Cardiología",
+  tema: "Muerte súbita",
+  subtema: "Prevención secundaria",
+  dificultad: "Media",
+  caso: "Hombre de 63 años con cardiopatía isquémica sobrevive a una fibrilación ventricular documentada. Se descartan causas reversibles y persiste cardiopatía estructural.",
+  pregunta: "¿Qué dispositivo puede estar indicado para prevención secundaria de muerte súbita?",
+  opciones: [
+    "Desfibrilador automático implantable",
+    "Marcapasos temporal como tratamiento definitivo universal",
+    "Balón intraaórtico permanente",
+    "Stent venoso",
+    "Filtro de vena cava"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "En sobrevivientes de fibrilación ventricular sin causa reversible suficiente, un desfibrilador automático implantable puede reducir el riesgo de muerte súbita. La decisión requiere valoración especializada.",
+  perlaENARM: "Fibrilación ventricular recuperada sin causa reversible: valorar ICD para prevención secundaria.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre prevención de muerte súbita y arritmias ventriculares.",
+    internacional: "2022 ESC Guidelines for Ventricular Arrhythmias and Prevention of Sudden Cardiac Death."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-458",
+  especialidad: "Cardiología",
+  tema: "Dislipidemias",
+  subtema: "Prevención secundaria",
+  dificultad: "Baja",
+  caso: "Hombre de 58 años con antecedente de infarto de miocardio tiene LDL-C de 110 mg/dL y no presenta contraindicación para estatinas.",
+  pregunta: "¿Cuál es la estrategia hipolipemiante inicial más apropiada?",
+  opciones: [
+    "No tratar porque está asintomático",
+    "Estatina de alta intensidad y reevaluación para intensificar según objetivo y riesgo",
+    "Fibrato como monoterapia en todos los casos",
+    "Suspender todos los cambios de estilo de vida",
+    "Utilizar únicamente suplementos sin evidencia"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La enfermedad aterosclerótica establecida requiere prevención secundaria intensiva. Se recomienda una estatina de alta intensidad o la máxima tolerada y añadir tratamiento no estatínico si no se alcanza el objetivo apropiado.",
+  perlaENARM: "Después de un infarto, la prevención secundaria incluye reducción intensiva de LDL-C.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre dislipidemias y prevención cardiovascular.",
+    internacional: "Guías ESC/EAS de dislipidemias y guías contemporáneas de prevención cardiovascular."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-459",
+  especialidad: "Cardiología",
+  tema: "Amiloidosis cardiaca",
+  subtema: "Sospecha clínica",
+  dificultad: "Media",
+  caso: "Hombre de 74 años presenta insuficiencia cardiaca con FEVI conservada, aumento del grosor ventricular, bajo voltaje relativo en el ECG y antecedente de síndrome del túnel del carpo bilateral.",
+  pregunta: "¿Qué enfermedad infiltrativa debe considerarse?",
+  opciones: [
+    "Amiloidosis cardiaca",
+    "Pericarditis viral aislada",
+    "Estenosis pulmonar",
+    "Comunicación interauricular",
+    "Bloqueo AV de primer grado aislado"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El engrosamiento ventricular con discordancia entre grosor y voltaje, insuficiencia cardiaca y antecedentes extracardiacos como túnel del carpo pueden sugerir amiloidosis cardiaca. Se requieren estudios específicos para identificar el tipo de amiloide.",
+  perlaENARM: "Paredes engrosadas, voltaje bajo y túnel del carpo: considera amiloidosis cardiaca.",
+  gpc: {
+    mexico: "Consultar protocolos institucionales vigentes para diagnóstico de amiloidosis cardiaca.",
+    internacional: "Guías y consensos internacionales contemporáneos sobre amiloidosis cardiaca."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-460",
+  especialidad: "Cardiología",
+  tema: "Tumores cardiacos",
+  subtema: "Mixoma auricular",
+  dificultad: "Media",
+  caso: "Mujer de 46 años presenta disnea intermitente, episodios de síncope posicional y síntomas constitucionales. El ecocardiograma identifica una masa móvil pediculada en la aurícula izquierda, próxima a la válvula mitral.",
+  pregunta: "¿Cuál es el tumor cardiaco primario benigno más probable?",
+  opciones: [
+    "Mixoma auricular",
+    "Angiosarcoma",
+    "Lipoma pericárdico exclusivamente",
+    "Fibroma cutáneo",
+    "Carcinoma pulmonar primario"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "El mixoma es el tumor primario benigno cardiaco más frecuente en adultos y suele localizarse en la aurícula izquierda. Puede producir obstrucción valvular intermitente, embolias y síntomas constitucionales; requiere valoración especializada y habitualmente resección quirúrgica.",
+  perlaENARM: "Masa móvil pediculada en aurícula izquierda con síntomas obstructivos: piensa en mixoma.",
+  gpc: {
+    mexico: "Consultar protocolo institucional; verificar si existe una GPC mexicana específica vigente para tumores cardiacos.",
+    internacional: "Literatura cardiológica especializada sobre tumores cardiacos."
+  },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+  
+{
+  id: "CARD-461",
+  especialidad: "Cardiología",
+  tema: "Hipertensión arterial",
+  subtema: "Hipertensión de bata blanca",
+  dificultad: "Baja",
+  caso: "Mujer de 44 años presenta presión arterial de 150/92 mmHg en consulta. En casa registra cifras repetidas de 118-126/72-80 mmHg con técnica adecuada.",
+  pregunta: "¿Qué estudio ayuda a aclarar la discrepancia?",
+  opciones: ["Ecocardiograma transesofágico", "Monitorización ambulatoria de presión arterial", "Prueba de esfuerzo", "Angiografía coronaria", "Holter electrocardiográfico"],
+  respuestaCorrecta: 1,
+  explicacion: "La monitorización ambulatoria o las mediciones domiciliarias estandarizadas ayudan a identificar hipertensión de bata blanca.",
+  perlaENARM: "Presión elevada en consulta con mediciones extraconsultorio normales sugiere hipertensión de bata blanca.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre hipertensión arterial.", internacional: "2024 ESC Guidelines for the Management of Elevated Blood Pressure and Hypertension." },
+  bibliografia: "Harrison's Principles of Internal Medicine; Braunwald's Heart Disease."
+},
+{
+  id: "CARD-462",
+  especialidad: "Cardiología",
+  tema: "Hipertensión arterial",
+  subtema: "Hipertensión resistente",
+  dificultad: "Media",
+  caso: "Hombre de 61 años continúa con presión arterial elevada pese a recibir tres antihipertensivos, incluido un diurético, a dosis adecuadas. Refiere buena adherencia.",
+  pregunta: "¿Cuál es el siguiente paso más apropiado?",
+  opciones: ["Duplicar todos los fármacos sin evaluación", "Confirmar mediciones y adherencia, descartar efecto de bata blanca y causas secundarias", "Suspender el diurético en todos los casos", "Iniciar digoxina", "Indicar nitrato sublingual diario"],
+  respuestaCorrecta: 1,
+  explicacion: "Antes de confirmar hipertensión resistente deben verificarse técnica de medición, adherencia, dosis y presión fuera del consultorio, además de evaluar causas secundarias.",
+  perlaENARM: "La hipertensión resistente exige descartar pseudorresistencia antes de intensificar el tratamiento.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre hipertensión arterial.", internacional: "2024 ESC Guidelines for the Management of Elevated Blood Pressure and Hypertension." },
+  bibliografia: "Harrison's Principles of Internal Medicine; Braunwald's Heart Disease."
+},
+{
+  id: "CARD-463",
+  especialidad: "Cardiología",
+  tema: "Hipertensión arterial",
+  subtema: "Antagonistas del sistema renina-angiotensina",
+  dificultad: "Baja",
+  caso: "Paciente con hipertensión comienza tratamiento con enalapril. En la consulta de seguimiento pregunta qué alteración electrolítica debe vigilarse.",
+  pregunta: "¿Cuál de las siguientes es un efecto adverso importante de los IECA?",
+  opciones: ["Hipopotasemia obligatoria", "Hiperpotasemia", "Hipercalcemia grave", "Hipernatremia constante", "Hipofosfatemia"],
+  respuestaCorrecta: 1,
+  explicacion: "Los IECA pueden elevar el potasio y aumentar la creatinina, especialmente en enfermedad renal, deshidratación o estenosis bilateral de arterias renales.",
+  perlaENARM: "Con IECA o ARA-II vigila creatinina y potasio después de iniciar o ajustar el tratamiento.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre hipertensión arterial.", internacional: "2024 ESC Guidelines for the Management of Elevated Blood Pressure and Hypertension." },
+  bibliografia: "Harrison's Principles of Internal Medicine; Braunwald's Heart Disease."
+},
+{
+  id: "CARD-464",
+  especialidad: "Cardiología",
+  tema: "Hipertensión arterial",
+  subtema: "IECA y embarazo",
+  dificultad: "Baja",
+  caso: "Mujer de 30 años con hipertensión descubre que tiene ocho semanas de embarazo y utiliza lisinopril.",
+  pregunta: "¿Cuál es la conducta farmacológica apropiada?",
+  opciones: ["Mantener lisinopril durante todo el embarazo", "Suspender el IECA y seleccionar un antihipertensivo compatible con embarazo", "Añadir un ARA-II", "Cambiar a aliskireno", "Suspender todo control de presión arterial"],
+  respuestaCorrecta: 1,
+  explicacion: "Los IECA y ARA-II deben evitarse durante el embarazo por riesgo de toxicidad fetal. Se requiere sustitución y seguimiento médico oportunos.",
+  perlaENARM: "IECA y ARA-II están contraindicados durante el embarazo.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre hipertensión y embarazo.", internacional: "Guías internacionales vigentes sobre hipertensión durante el embarazo." },
+  bibliografia: "Harrison's Principles of Internal Medicine; Braunwald's Heart Disease."
+},
+{
+  id: "CARD-465",
+  especialidad: "Cardiología",
+  tema: "Hipertensión secundaria",
+  subtema: "Hiperaldosteronismo primario",
+  dificultad: "Media",
+  caso: "Hombre de 49 años con hipertensión difícil de controlar presenta potasio de 2.9 mmol/L sin uso de diuréticos. Se sospecha una causa endocrina.",
+  pregunta: "¿Qué trastorno debe investigarse prioritariamente?",
+  opciones: ["Hipotiroidismo", "Hiperaldosteronismo primario", "Hipoparatiroidismo", "Acromegalia en todos los casos", "Insuficiencia suprarrenal primaria"],
+  respuestaCorrecta: 1,
+  explicacion: "La hipertensión resistente o acompañada de hipopotasemia debe motivar evaluación de hiperaldosteronismo primario, habitualmente con relación aldosterona-renina bajo condiciones apropiadas.",
+  perlaENARM: "Hipertensión resistente más hipopotasemia: busca hiperaldosteronismo primario.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre hipertensión secundaria.", internacional: "Guías internacionales vigentes sobre diagnóstico de hiperaldosteronismo primario." },
+  bibliografia: "Harrison's Principles of Internal Medicine; Braunwald's Heart Disease."
+},
+{
+  id: "CARD-466",
+  especialidad: "Cardiología",
+  tema: "Cardiopatía isquémica",
+  subtema: "Evaluación del dolor torácico",
+  dificultad: "Baja",
+  caso: "Hombre de 57 años presenta opresión retroesternal de 30 minutos, diaforesis y náusea. Actualmente el dolor persiste.",
+  pregunta: "¿Qué estudio debe obtenerse de forma inmediata?",
+  opciones: ["Prueba de esfuerzo", "Electrocardiograma de 12 derivaciones", "Holter de 48 horas como primera prueba", "Ecografía abdominal", "Espirometría"],
+  respuestaCorrecta: 1,
+  explicacion: "El ECG de 12 derivaciones debe realizarse de manera inmediata, idealmente dentro de los primeros 10 minutos del primer contacto médico, en la sospecha de síndrome coronario agudo.",
+  perlaENARM: "Dolor torácico agudo: ECG temprano y evaluación urgente; no comiences con prueba de esfuerzo.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre síndrome coronario agudo.", internacional: "2023 ESC Guidelines for Acute Coronary Syndromes; 2025 ACC/AHA ACS Guideline." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-467",
+  especialidad: "Cardiología",
+  tema: "Síndrome coronario agudo",
+  subtema: "Aspirina",
+  dificultad: "Baja",
+  caso: "Paciente con sospecha de síndrome coronario agudo presenta dolor opresivo típico. No tiene alergia a aspirina ni hemorragia activa.",
+  pregunta: "¿Qué intervención antiagregante inicial suele estar indicada?",
+  opciones: ["Aspirina masticada en dosis de carga según protocolo", "Warfarina como monoterapia inmediata", "Suspender todo antiagregante", "Clopidogrel durante un mes antes de evaluar", "Vitamina K intravenosa"],
+  respuestaCorrecta: 0,
+  explicacion: "La aspirina temprana reduce eventos isquémicos en el síndrome coronario agudo, salvo contraindicación. El resto del tratamiento depende del diagnóstico, la estrategia invasiva y el riesgo hemorrágico.",
+  perlaENARM: "La aspirina es un pilar temprano del tratamiento del SCA si no está contraindicada.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre síndrome coronario agudo.", internacional: "2023 ESC Guidelines for Acute Coronary Syndromes; 2025 ACC/AHA ACS Guideline." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-468",
+  especialidad: "Cardiología",
+  tema: "Infarto agudo de miocardio",
+  subtema: "Complicación mecánica",
+  dificultad: "Media",
+  caso: "Tres días después de un infarto, un paciente desarrolla disnea súbita, hipotensión y un nuevo soplo holosistólico intenso en el borde esternal izquierdo.",
+  pregunta: "¿Qué complicación debe sospecharse?",
+  opciones: ["Comunicación interventricular postinfarto", "Hipertensión esencial", "Angina estable", "Bloqueo AV de primer grado aislado", "Estenosis mitral crónica"],
+  respuestaCorrecta: 0,
+  explicacion: "La rotura del tabique interventricular puede causar un cortocircuito agudo, soplo holosistólico e inestabilidad hemodinámica. Requiere ecocardiografía y evaluación urgente para intervención.",
+  perlaENARM: "Deterioro súbito tras infarto con nuevo soplo: descarta una complicación mecánica.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre infarto y complicaciones mecánicas.", internacional: "Guías internacionales vigentes sobre síndrome coronario agudo y complicaciones del infarto." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-469",
+  especialidad: "Cardiología",
+  tema: "Infarto agudo de miocardio",
+  subtema: "Rotura de músculo papilar",
+  dificultad: "Media",
+  caso: "Paciente presenta edema pulmonar agudo y shock cuatro días después de un infarto inferior. La ecocardiografía sugiere insuficiencia mitral aguda grave.",
+  pregunta: "¿Qué complicación es una causa importante de este cuadro?",
+  opciones: ["Rotura de músculo papilar", "Hipertrofia ventricular fisiológica", "Pericarditis constrictiva crónica", "Coartación aórtica", "Estenosis pulmonar leve"],
+  respuestaCorrecta: 0,
+  explicacion: "La rotura de músculo papilar tras un infarto puede provocar insuficiencia mitral aguda, edema pulmonar y shock cardiogénico. Es una urgencia quirúrgica.",
+  perlaENARM: "Edema pulmonar súbito con insuficiencia mitral grave después de un infarto: considera rotura papilar.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre complicaciones del infarto.", internacional: "Guías internacionales vigentes de síndrome coronario agudo y valvulopatías." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-470",
+  especialidad: "Cardiología",
+  tema: "Infarto agudo de miocardio",
+  subtema: "Pericarditis postinfarto",
+  dificultad: "Media",
+  caso: "Una semana después de un infarto, un paciente presenta dolor pleurítico que empeora en decúbito y mejora al inclinarse hacia delante. Se ausculta roce pericárdico.",
+  pregunta: "¿Cuál es el diagnóstico más probable?",
+  opciones: ["Pericarditis postinfarto", "Estenosis aórtica", "Angina estable", "Tromboembolismo arterial periférico", "Bloqueo de rama aislado"],
+  respuestaCorrecta: 0,
+  explicacion: "La pericarditis temprana postinfarto puede producir dolor pleurítico posicional y roce pericárdico. Se debe valorar el contexto para distinguirla de isquemia recurrente y otras complicaciones.",
+  perlaENARM: "Dolor posicional y roce pericárdico después de un infarto sugieren pericarditis.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre infarto y enfermedad pericárdica.", internacional: "ESC 2025 Guidelines for the Management of Myocarditis and Pericarditis." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-471",
+  especialidad: "Cardiología",
+  tema: "Cardiopatía isquémica crónica",
+  subtema: "Estatina en prevención secundaria",
+  dificultad: "Baja",
+  caso: "Mujer de 63 años con antecedente de angioplastia coronaria tiene LDL-C de 96 mg/dL y tolera bien atorvastatina a dosis baja.",
+  pregunta: "¿Qué estrategia es generalmente apropiada?",
+  opciones: ["Suspender toda terapia hipolipemiante", "Intensificar la estatina según tolerancia y riesgo, y reevaluar LDL-C", "Sustituir por antibiótico", "Tratar solo si reaparece angina", "Indicar fibrinólisis preventiva"],
+  respuestaCorrecta: 1,
+  explicacion: "La enfermedad coronaria establecida requiere prevención secundaria intensiva. Debe emplearse estatina de alta intensidad o máxima tolerada y considerar tratamiento adicional según el LDL-C y la guía aplicable.",
+  perlaENARM: "La prevención secundaria con estatinas se indica incluso si el paciente está asintomático.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre dislipidemias y cardiopatía isquémica.", internacional: "Guías ESC/EAS vigentes sobre dislipidemias y prevención cardiovascular." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-472",
+  especialidad: "Cardiología",
+  tema: "Angina estable",
+  subtema: "Nitratos y contraindicaciones",
+  dificultad: "Media",
+  caso: "Hombre de 60 años con angina estable utiliza sildenafil por disfunción eréctil y presenta dolor torácico.",
+  pregunta: "¿Qué debe evitarse por el riesgo de hipotensión grave?",
+  opciones: ["Evaluar el dolor torácico", "Administrar nitratos mientras exista interacción clínicamente relevante con sildenafil", "Obtener ECG", "Medir signos vitales", "Derivar a evaluación urgente si el dolor es nuevo o persistente"],
+  respuestaCorrecta: 1,
+  explicacion: "La combinación de nitratos con inhibidores de PDE-5 puede provocar hipotensión profunda. El dolor torácico nuevo o persistente requiere evaluación urgente.",
+  perlaENARM: "Nitratos e inhibidores de PDE-5 no deben combinarse por riesgo de hipotensión grave.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre cardiopatía isquémica.", internacional: "2024 ESC Guidelines for the Management of Chronic Coronary Syndromes." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-473",
+  especialidad: "Cardiología",
+  tema: "Insuficiencia cardiaca",
+  subtema: "Péptidos natriuréticos",
+  dificultad: "Baja",
+  caso: "Paciente con disnea aguda presenta diagnóstico diferencial entre insuficiencia cardiaca y enfermedad respiratoria. Se solicita BNP o NT-proBNP.",
+  pregunta: "¿Cuál es la utilidad principal de estos biomarcadores?",
+  opciones: ["Confirmar infarto en todos los pacientes", "Apoyar la evaluación de insuficiencia cardiaca, especialmente cuando valores bajos hacen menos probable el diagnóstico", "Diagnosticar exclusivamente embolia pulmonar", "Medir directamente la presión arterial", "Sustituir el ecocardiograma en toda circunstancia"],
+  respuestaCorrecta: 1,
+  explicacion: "BNP y NT-proBNP ayudan a evaluar disnea y la probabilidad de insuficiencia cardiaca. Edad, función renal, obesidad y fibrilación auricular influyen en su interpretación.",
+  perlaENARM: "Los péptidos natriuréticos son útiles para apoyar o descartar insuficiencia cardiaca en el contexto apropiado.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre insuficiencia cardiaca.", internacional: "2023 Focused Update of the 2021 ESC Guidelines for Heart Failure." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-474",
+  especialidad: "Cardiología",
+  tema: "Insuficiencia cardiaca",
+  subtema: "Antagonistas mineralocorticoides",
+  dificultad: "Media",
+  caso: "Hombre de 65 años con HFrEF sintomática y FEVI de 30% recibe tratamiento de base. La función renal es adecuada y el potasio es normal.",
+  pregunta: "¿Qué fármaco puede añadirse para mejorar el pronóstico si cumple los criterios clínicos y de laboratorio?",
+  opciones: ["Espironolactona", "Ibuprofeno diario", "Verapamilo como sustituto de toda la terapia", "Nifedipino sublingual", "Prednisona crónica"],
+  respuestaCorrecta: 0,
+  explicacion: "Los antagonistas del receptor mineralocorticoide reducen eventos en HFrEF seleccionada. Deben vigilarse potasio y función renal por riesgo de hiperpotasemia.",
+  perlaENARM: "Espironolactona en HFrEF: beneficio pronóstico y vigilancia de potasio y función renal.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre insuficiencia cardiaca.", internacional: "2023 Focused Update of the 2021 ESC Guidelines for Heart Failure." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-475",
+  especialidad: "Cardiología",
+  tema: "Insuficiencia cardiaca",
+  subtema: "Betabloqueadores con evidencia",
+  dificultad: "Media",
+  caso: "Paciente con HFrEF estable, euvolémico y sin datos de descompensación requiere iniciar un betabloqueador.",
+  pregunta: "¿Cuál de los siguientes tiene evidencia de beneficio pronóstico en HFrEF?",
+  opciones: ["Carvedilol", "Propranolol como elección obligatoria en todos los casos", "Sotalol como tratamiento de base", "Verapamilo", "Diltiazem"],
+  respuestaCorrecta: 0,
+  explicacion: "Carvedilol, bisoprolol y metoprolol succinato son betabloqueadores con evidencia de beneficio en HFrEF. Se inician en estabilidad clínica y se titulan progresivamente.",
+  perlaENARM: "Inicia y titula betabloqueadores con evidencia cuando el paciente con HFrEF está clínicamente estable.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre insuficiencia cardiaca.", internacional: "2023 Focused Update of the 2021 ESC Guidelines for Heart Failure." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-476",
+  especialidad: "Cardiología",
+  tema: "Insuficiencia cardiaca",
+  subtema: "Sacubitrilo/valsartán",
+  dificultad: "Media",
+  caso: "Hombre con HFrEF sintomática permanece estable pese a tratamiento convencional. Se considera cambiar un IECA por sacubitrilo/valsartán.",
+  pregunta: "¿Qué intervalo de seguridad debe respetarse al cambiar desde un IECA?",
+  opciones: ["No se requiere intervalo", "Al menos 36 horas entre la última dosis de IECA y el inicio de sacubitrilo/valsartán", "Solo 5 minutos", "Una semana obligatoria en todos los casos", "Debe administrarse simultáneamente con IECA"],
+  respuestaCorrecta: 1,
+  explicacion: "Se requiere un intervalo de al menos 36 horas entre IECA y sacubitrilo/valsartán para reducir el riesgo de angioedema. No deben administrarse simultáneamente.",
+  perlaENARM: "IECA a ARNI: separación mínima de 36 horas.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre insuficiencia cardiaca.", internacional: "2023 Focused Update of the 2021 ESC Guidelines for Heart Failure." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-477",
+  especialidad: "Cardiología",
+  tema: "Insuficiencia cardiaca",
+  subtema: "Insuficiencia cardiaca con FEVI preservada",
+  dificultad: "Media",
+  caso: "Mujer de 74 años con hipertensión, obesidad y diabetes presenta disnea, congestión y FEVI de 58%. El ecocardiograma muestra alteraciones compatibles con aumento de presiones de llenado.",
+  pregunta: "¿Qué enfoque terapéutico es apropiado?",
+  opciones: ["Negar insuficiencia cardiaca por FEVI normal", "Tratar congestión y comorbilidades; considerar inhibidor SGLT2 si no está contraindicado", "Administrar inotrópicos crónicos a todos los pacientes", "Suspender control de presión arterial", "Indicar nitratos a todos como única terapia"],
+  respuestaCorrecta: 1,
+  explicacion: "La FEVI preservada no excluye insuficiencia cardiaca. El manejo incluye descongestión, control de comorbilidades y tratamientos con evidencia, incluidos inhibidores SGLT2 en pacientes elegibles.",
+  perlaENARM: "Insuficiencia cardiaca con FEVI preservada también requiere criterios clínicos y evidencia de alteración cardiaca.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre insuficiencia cardiaca.", internacional: "2023 Focused Update of the 2021 ESC Guidelines for Heart Failure." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-478",
+  especialidad: "Cardiología",
+  tema: "Edema agudo pulmonar",
+  subtema: "Oxigenoterapia",
+  dificultad: "Baja",
+  caso: "Paciente con insuficiencia cardiaca aguda presenta disnea intensa y saturación de oxígeno de 84% al aire ambiente.",
+  pregunta: "¿Cuál es una medida inicial apropiada?",
+  opciones: ["Evitar oxígeno a pesar de hipoxemia", "Administrar oxígeno y valorar soporte ventilatorio según gravedad", "Administrar gran volumen de solución salina", "Indicar ejercicio intenso", "Esperar sin monitorización"],
+  respuestaCorrecta: 1,
+  explicacion: "La hipoxemia debe corregirse y se debe valorar ventilación no invasiva u otro soporte respiratorio según el trabajo respiratorio y el estado hemodinámico.",
+  perlaENARM: "En insuficiencia cardiaca aguda, el soporte respiratorio se adapta a la oxigenación y al esfuerzo ventilatorio.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre insuficiencia cardiaca aguda.", internacional: "Guías internacionales vigentes sobre insuficiencia cardiaca aguda." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-479",
+  especialidad: "Cardiología",
+  tema: "Fibrilación auricular",
+  subtema: "Control de frecuencia",
+  dificultad: "Baja",
+  caso: "Paciente con fibrilación auricular, frecuencia ventricular de 135 lpm y estabilidad hemodinámica no presenta preexcitación en el ECG.",
+  pregunta: "¿Cuál es una opción habitual para control de frecuencia, según función ventricular y comorbilidades?",
+  opciones: ["Betabloqueador", "Fibrinólisis", "Adrenalina en infusión como rutina", "Nitrato sublingual", "Antibiótico intravenoso"],
+  respuestaCorrecta: 0,
+  explicacion: "Los betabloqueadores o los calcioantagonistas no dihidropiridínicos pueden utilizarse en pacientes seleccionados para control de frecuencia. Verapamilo y diltiazem deben evitarse en HFrEF significativa.",
+  perlaENARM: "Control de frecuencia en FA: selecciona el fármaco según función ventricular y comorbilidades.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre fibrilación auricular.", internacional: "2024 ESC Guidelines for the Management of Atrial Fibrillation." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-480",
+  especialidad: "Cardiología",
+  tema: "Fibrilación auricular",
+  subtema: "Inestabilidad hemodinámica",
+  dificultad: "Media",
+  caso: "Hombre de 72 años presenta fibrilación auricular rápida, presión arterial de 70/40 mmHg, dolor torácico y alteración del estado mental.",
+  pregunta: "¿Cuál es la intervención inmediata preferida?",
+  opciones: ["Cardioversión eléctrica sincronizada urgente", "Esperar el efecto de anticoagulación oral", "Realizar prueba de esfuerzo", "Dar únicamente tratamiento oral ambulatorio", "Observar durante 24 horas"],
+  respuestaCorrecta: 0,
+  explicacion: "La fibrilación auricular que causa inestabilidad hemodinámica requiere cardioversión eléctrica sincronizada urgente. La anticoagulación y la estrategia posterior se valoran sin retrasar la estabilización.",
+  perlaENARM: "FA con shock o inestabilidad atribuible al ritmo: cardioversión sincronizada urgente.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre fibrilación auricular.", internacional: "2024 ESC Guidelines for the Management of Atrial Fibrillation." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-481",
+  especialidad: "Cardiología",
+  tema: "Fibrilación auricular",
+  subtema: "Anticoagulantes orales directos",
+  dificultad: "Media",
+  caso: "Paciente con fibrilación auricular no valvular tiene indicación de anticoagulación y función renal compatible con un anticoagulante oral directo. No tiene prótesis mecánica ni estenosis mitral reumática moderada-grave.",
+  pregunta: "¿Qué afirmación es correcta?",
+  opciones: ["Los anticoagulantes directos están prohibidos en toda FA", "Un anticoagulante oral directo puede preferirse a warfarina en pacientes elegibles", "La aspirina siempre sustituye la anticoagulación", "El anticoagulante elimina la necesidad de valorar sangrado", "La anticoagulación se indica solo si hay palpitaciones"],
+  respuestaCorrecta: 1,
+  explicacion: "Los anticoagulantes orales directos suelen preferirse en FA elegible. Las prótesis mecánicas y la estenosis mitral reumática moderada-grave son situaciones relevantes en las que se prefiere un antagonista de vitamina K.",
+  perlaENARM: "En FA, el riesgo tromboembólico guía la anticoagulación; distingue FA no valvular de prótesis mecánica o estenosis mitral relevante.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre fibrilación auricular y anticoagulación.", internacional: "2024 ESC Guidelines for the Management of Atrial Fibrillation." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-482",
+  especialidad: "Cardiología",
+  tema: "Flutter auricular",
+  subtema: "Anticoagulación",
+  dificultad: "Media",
+  caso: "Hombre de 70 años tiene flutter auricular persistente y antecedentes de hipertensión y accidente cerebrovascular isquémico.",
+  pregunta: "¿Qué aspecto debe considerarse para reducir el riesgo de embolia?",
+  opciones: ["Evaluar indicación de anticoagulación según riesgo tromboembólico", "Administrar aspirina como sustituto universal", "Indicar antibióticos permanentes", "Evitar toda evaluación de riesgo", "Realizar fibrinólisis crónica"],
+  respuestaCorrecta: 0,
+  explicacion: "El flutter auricular puede asociarse con tromboembolia. La necesidad de anticoagulación se evalúa considerando el riesgo tromboembólico y el contexto clínico.",
+  perlaENARM: "El flutter auricular también exige valorar el riesgo tromboembólico.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre arritmias auriculares.", internacional: "2024 ESC Guidelines for the Management of Atrial Fibrillation." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-483",
+  especialidad: "Cardiología",
+  tema: "Taquicardia supraventricular",
+  subtema: "Adenosina",
+  dificultad: "Media",
+  caso: "Paciente estable con taquicardia regular de QRS estrecho persiste sintomático a pesar de maniobras vagales. No hay datos de preexcitación en el ECG basal.",
+  pregunta: "¿Qué fármaco puede utilizarse en una TSV regular apropiada bajo monitorización?",
+  opciones: ["Adenosina intravenosa en bolo rápido según protocolo", "Warfarina intravenosa como antiarrítmico", "Fibrinólisis", "Digoxina tópica", "Vitamina K"],
+  respuestaCorrecta: 0,
+  explicacion: "La adenosina puede terminar ciertas taquicardias supraventriculares dependientes del nodo AV. Debe utilizarse con monitorización y evitando su uso inapropiado en ritmos irregulares o taquicardias de QRS ancho no caracterizadas.",
+  perlaENARM: "Adenosina: útil en TSV regular de QRS estrecho; interpreta el ritmo antes de administrarla.",
+  gpc: { mexico: "Consultar protocolos mexicanos vigentes de reanimación y arritmias.", internacional: "AHA ACLS Guidelines; guías contemporáneas de TSV." },
+  bibliografia: "Braunwald's Heart Disease; AHA ACLS Guidelines."
+},
+{
+  id: "CARD-484",
+  especialidad: "Cardiología",
+  tema: "Bradicardia",
+  subtema: "Bradicardia sintomática",
+  dificultad: "Media",
+  caso: "Hombre de 75 años presenta frecuencia cardiaca de 34 lpm, hipotensión, confusión y signos de hipoperfusión.",
+  pregunta: "¿Cuál es el enfoque inicial más apropiado?",
+  opciones: ["Observar sin monitorización", "Evaluación y soporte urgente, tratamiento de bradicardia sintomática y preparación para estimulación si está indicada", "Administrar betabloqueador adicional", "Realizar prueba de esfuerzo", "Dar alta inmediata"],
+  respuestaCorrecta: 1,
+  explicacion: "La bradicardia con compromiso hemodinámico exige soporte, identificación de causas reversibles y tratamiento conforme al algoritmo de bradicardia; puede requerir atropina y estimulación transcutánea o transvenosa.",
+  perlaENARM: "Bradicardia más hipotensión o alteración mental es una urgencia clínica.",
+  gpc: { mexico: "Consultar protocolo institucional vigente de soporte vital cardiovascular avanzado.", internacional: "AHA Guidelines for CPR and ECC; algoritmo ACLS de bradicardia." },
+  bibliografia: "Braunwald's Heart Disease; AHA ACLS Guidelines."
+},
+{
+  id: "CARD-485",
+  especialidad: "Cardiología",
+  tema: "Bloqueo AV",
+  subtema: "Mobitz II",
+  dificultad: "Media",
+  caso: "ECG muestra ondas P regulares con algunos impulsos no conducidos, PR constante en los latidos conducidos y QRS ancho.",
+  pregunta: "¿Qué trastorno de conducción es más probable?",
+  opciones: ["Bloqueo AV Mobitz II", "Bloqueo AV de primer grado", "Ritmo sinusal normal", "Flutter auricular típico", "Taquicardia sinusal"],
+  respuestaCorrecta: 0,
+  explicacion: "El bloqueo Mobitz II se caracteriza por ondas P no conducidas sin prolongación progresiva del PR antes del bloqueo. Puede progresar a bloqueo completo y requiere valoración urgente para estimulación.",
+  perlaENARM: "Mobitz II puede progresar a bloqueo completo; requiere evaluación especializada urgente.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre trastornos de conducción.", internacional: "ESC Guidelines on Cardiac Pacing and Cardiac Resynchronization Therapy." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-486",
+  especialidad: "Cardiología",
+  tema: "Marcapasos",
+  subtema: "Disfunción del nodo sinusal",
+  dificultad: "Media",
+  caso: "Mujer de 76 años presenta fatiga y síncope recurrente. El monitor documenta pausas sinusales prolongadas coincidentes con los síntomas, sin causa reversible identificada.",
+  pregunta: "¿Qué tratamiento puede estar indicado?",
+  opciones: ["Marcapasos permanente tras valoración especializada", "Fibrinólisis crónica", "Antibiótico preventivo de por vida", "Nitratos como única terapia", "No realizar evaluación adicional"],
+  respuestaCorrecta: 0,
+  explicacion: "La disfunción del nodo sinusal sintomática, correlacionada con pausas y sin causas reversibles, puede requerir marcapasos permanente.",
+  perlaENARM: "En disfunción sinusal, la correlación entre síntomas y bradicardia es fundamental para decidir estimulación.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre marcapasos.", internacional: "ESC Guidelines on Cardiac Pacing and Cardiac Resynchronization Therapy." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-487",
+  especialidad: "Cardiología",
+  tema: "Marcapasos",
+  subtema: "Dependencia del dispositivo",
+  dificultad: "Baja",
+  caso: "Paciente con marcapasos acude a seguimiento. El ECG muestra espigas del dispositivo seguidas de complejos QRS capturados.",
+  pregunta: "¿Qué indica este hallazgo?",
+  opciones: ["Captura eléctrica del marcapasos", "Fibrilación ventricular", "Ausencia obligatoria de funcionamiento", "Infarto confirmado", "Taponamiento cardiaco"],
+  respuestaCorrecta: 0,
+  explicacion: "Una espiga seguida de despolarización apropiada sugiere captura. La evaluación completa del dispositivo requiere interrogación y correlación clínica.",
+  perlaENARM: "Espiga seguida de complejo apropiado indica captura; no equivale por sí sola a una revisión completa del dispositivo.",
+  gpc: { mexico: "Consultar protocolo institucional de seguimiento de dispositivos cardiacos.", internacional: "ESC Guidelines on Cardiac Pacing and Cardiac Resynchronization Therapy." },
+  bibliografia: "Braunwald's Heart Disease; literatura especializada en dispositivos cardiacos."
+},
+{
+  id: "CARD-488",
+  especialidad: "Cardiología",
+  tema: "Fibrilación ventricular",
+  subtema: "Desfibrilación",
+  dificultad: "Baja",
+  caso: "Paciente pierde súbitamente la conciencia, no tiene pulso y el monitor muestra fibrilación ventricular.",
+  pregunta: "¿Cuál es la intervención prioritaria?",
+  opciones: ["Desfibrilación no sincronizada y RCP de alta calidad", "Cardioversión sincronizada electiva", "Esperar resultado de troponina", "Administrar anticoagulante oral y observar", "Realizar ecocardiograma antes de iniciar RCP"],
+  respuestaCorrecta: 0,
+  explicacion: "La fibrilación ventricular sin pulso es un ritmo desfibrilable. Se debe iniciar RCP de alta calidad y desfibrilar sin demora, siguiendo el algoritmo de soporte vital avanzado.",
+  perlaENARM: "FV sin pulso: RCP y desfibrilación no sincronizada inmediata.",
+  gpc: { mexico: "Consultar protocolo mexicano institucional de reanimación cardiopulmonar.", internacional: "AHA Guidelines for CPR and ECC." },
+  bibliografia: "AHA ACLS Guidelines; Braunwald's Heart Disease."
+},
+{
+  id: "CARD-489",
+  especialidad: "Cardiología",
+  tema: "Taquicardia ventricular",
+  subtema: "Torsades de pointes",
+  dificultad: "Media",
+  caso: "Mujer hospitalizada con QT prolongado presenta episodios de taquicardia ventricular polimórfica con complejos que parecen girar alrededor de la línea de base.",
+  pregunta: "¿Qué arritmia describe mejor el trazado?",
+  opciones: ["Torsades de pointes", "Taquicardia sinusal", "Flutter auricular con conducción fija", "Bloqueo AV de primer grado", "Ritmo de escape nodal"],
+  respuestaCorrecta: 0,
+  explicacion: "La torsades de pointes es una taquicardia ventricular polimórfica asociada típicamente a QT prolongado. El tratamiento depende de estabilidad, pulso, corrección de causas y manejo urgente.",
+  perlaENARM: "Torsades de pointes se asocia con QT prolongado; revisa fármacos y electrolitos.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre arritmias ventriculares.", internacional: "2022 ESC Guidelines for Ventricular Arrhythmias and Prevention of Sudden Cardiac Death." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-490",
+  especialidad: "Cardiología",
+  tema: "QT largo",
+  subtema: "Corrección electrolítica",
+  dificultad: "Baja",
+  caso: "Paciente con vómitos y uso reciente de diuréticos presenta QT prolongado y potasio sérico de 2.8 mmol/L.",
+  pregunta: "¿Qué medida contribuye a reducir el riesgo arrítmico?",
+  opciones: ["Corregir cuidadosamente la hipopotasemia y revisar causas del QT prolongado", "Inducir hipopotasemia adicional", "Administrar un fármaco que prolongue aún más el QT", "Suspender la monitorización", "Indicar ejercicio intenso inmediato"],
+  respuestaCorrecta: 0,
+  explicacion: "La hipopotasemia favorece prolongación del QT y arritmias ventriculares. La reposición y la monitorización deben adaptarse a la gravedad y a la función renal.",
+  perlaENARM: "QT prolongado: corrige potasio y magnesio y elimina desencadenantes cuando sea posible.",
+  gpc: { mexico: "Consultar protocolos institucionales vigentes de arritmias y trastornos electrolíticos.", internacional: "2022 ESC Guidelines for Ventricular Arrhythmias and Prevention of Sudden Cardiac Death." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-491",
+  especialidad: "Cardiología",
+  tema: "Valvulopatías",
+  subtema: "Ecocardiografía",
+  dificultad: "Baja",
+  caso: "Paciente con soplo cardiaco nuevo y disnea progresiva requiere determinar qué válvula está afectada y la repercusión hemodinámica.",
+  pregunta: "¿Cuál es el estudio inicial de elección?",
+  opciones: ["Ecocardiograma transtorácico", "Electroencefalograma", "Colonoscopia", "Densitometría ósea", "Prueba de tolerancia oral a la glucosa"],
+  respuestaCorrecta: 0,
+  explicacion: "El ecocardiograma transtorácico evalúa anatomía, función y gravedad de las valvulopatías y sus efectos sobre las cavidades cardiacas.",
+  perlaENARM: "El ecocardiograma transtorácico es la herramienta inicial central ante sospecha de valvulopatía.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre valvulopatías.", internacional: "2025 ESC/EACTS Guidelines for the Management of Valvular Heart Disease." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-492",
+  especialidad: "Cardiología",
+  tema: "Estenosis aórtica",
+  subtema: "Síntomas de gravedad",
+  dificultad: "Media",
+  caso: "Hombre de 78 años con estenosis aórtica grave confirmada desarrolla angina y síncope de esfuerzo.",
+  pregunta: "¿Cuál es la conducta general más apropiada?",
+  opciones: ["Seguimiento indefinido sin reevaluación", "Referencia prioritaria para valoración de reemplazo valvular", "Administrar solo antibióticos", "Indicar ejercicio intenso para aumentar tolerancia", "Suspender todo seguimiento cardiológico"],
+  respuestaCorrecta: 1,
+  explicacion: "La estenosis aórtica grave sintomática tiene mal pronóstico sin intervención y requiere evaluación especializada para reemplazo valvular quirúrgico o transcatéter según características del paciente.",
+  perlaENARM: "Estenosis aórtica grave sintomática: valorar intervención valvular sin demoras evitables.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre valvulopatías.", internacional: "2025 ESC/EACTS Guidelines for the Management of Valvular Heart Disease." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-493",
+  especialidad: "Cardiología",
+  tema: "Insuficiencia mitral",
+  subtema: "Insuficiencia mitral aguda",
+  dificultad: "Media",
+  caso: "Paciente presenta disnea intensa y edema pulmonar de inicio súbito. La ecocardiografía muestra insuficiencia mitral aguda grave.",
+  pregunta: "¿Cuál es la prioridad terapéutica?",
+  opciones: ["Valoración urgente por equipo cardiológico y quirúrgico, junto con estabilización hemodinámica", "Alta con seguimiento anual", "Indicar únicamente dieta hiposódica", "Realizar prueba de esfuerzo", "Esperar varios meses antes de valorar intervención"],
+  respuestaCorrecta: 0,
+  explicacion: "La insuficiencia mitral aguda grave puede producir edema pulmonar y shock. Requiere estabilización y valoración urgente para intervención según el mecanismo.",
+  perlaENARM: "Insuficiencia mitral aguda grave no es equivalente a enfermedad crónica estable: es una urgencia.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre valvulopatías.", internacional: "2025 ESC/EACTS Guidelines for the Management of Valvular Heart Disease." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-494",
+  especialidad: "Cardiología",
+  tema: "Prótesis valvulares",
+  subtema: "Anticoagulación",
+  dificultad: "Media",
+  caso: "Hombre de 55 años tiene una prótesis valvular mecánica mitral y acude para revisar su tratamiento antitrombótico.",
+  pregunta: "¿Cuál es el tratamiento anticoagulante oral habitual para una prótesis mecánica?",
+  opciones: ["Antagonista de vitamina K con INR objetivo individualizado", "Aspirina como monoterapia universal", "Apixabán como sustituto habitual de warfarina", "Ningún anticoagulante", "Clopidogrel como monoterapia obligatoria"],
+  respuestaCorrecta: 0,
+  explicacion: "Las prótesis mecánicas requieren anticoagulación con antagonistas de vitamina K. El objetivo de INR depende de tipo y posición de la prótesis y de los factores de riesgo.",
+  perlaENARM: "Prótesis mecánica: antagonista de vitamina K; los anticoagulantes directos no son sustitutos habituales.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre prótesis valvulares y anticoagulación.", internacional: "2025 ESC/EACTS Guidelines for the Management of Valvular Heart Disease." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-495",
+  especialidad: "Cardiología",
+  tema: "Endocarditis infecciosa",
+  subtema: "Ecocardiografía",
+  dificultad: "Media",
+  caso: "Paciente con fiebre persistente, hemocultivos positivos y sospecha alta de endocarditis tiene ecocardiograma transtorácico no concluyente.",
+  pregunta: "¿Qué estudio puede aportar mayor sensibilidad para detectar vegetaciones en muchas situaciones?",
+  opciones: ["Ecocardiograma transesofágico", "Radiografía simple de abdomen", "Prueba de esfuerzo", "Densitometría", "Espirometría"],
+  respuestaCorrecta: 0,
+  explicacion: "El ecocardiograma transesofágico ofrece mayor sensibilidad en numerosas situaciones, especialmente cuando el estudio transtorácico es negativo o no concluyente y la sospecha clínica persiste.",
+  perlaENARM: "Endocarditis con sospecha alta y eco transtorácico no concluyente: considera eco transesofágico.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre endocarditis infecciosa.", internacional: "2023 ESC Guidelines for the Management of Endocarditis." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-496",
+  especialidad: "Cardiología",
+  tema: "Endocarditis infecciosa",
+  subtema: "Profilaxis antibiótica",
+  dificultad: "Media",
+  caso: "Paciente con prótesis valvular mecánica será sometido a un procedimiento dental que manipula tejido gingival.",
+  pregunta: "¿Qué consideración es correcta?",
+  opciones: ["La profilaxis antibiótica puede estar indicada por su alto riesgo, según procedimiento y guía vigente", "Toda persona necesita profilaxis para cualquier procedimiento", "La prótesis mecánica elimina el riesgo infeccioso", "Solo se indica profilaxis con antivirales", "La profilaxis sustituye la higiene oral"],
+  respuestaCorrecta: 0,
+  explicacion: "La profilaxis de endocarditis se reserva para pacientes con condiciones cardiacas de alto riesgo sometidos a procedimientos seleccionados, especialmente dentales con manipulación gingival. Deben seguirse las recomendaciones vigentes.",
+  perlaENARM: "La profilaxis de endocarditis no es universal; se reserva para grupos de alto riesgo y procedimientos específicos.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre endocarditis y profilaxis.", internacional: "2023 ESC Guidelines for the Management of Endocarditis." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-497",
+  especialidad: "Cardiología",
+  tema: "Pericarditis aguda",
+  subtema: "Tratamiento",
+  dificultad: "Baja",
+  caso: "Adulto joven con pericarditis aguda idiopática, estable y sin contraindicaciones farmacológicas, presenta dolor típico y roce pericárdico.",
+  pregunta: "¿Qué tratamiento suele utilizarse como primera línea?",
+  opciones: ["AINE o aspirina más colchicina, según indicación y contraindicaciones", "Anticoagulación a dosis altas para todos", "Fibrinólisis", "Antibióticos para todos los casos", "Quimioterapia"],
+  respuestaCorrecta: 0,
+  explicacion: "En pericarditis aguda idiopática o viral no complicada se utilizan habitualmente aspirina o AINE y colchicina, con evaluación de causas y factores de riesgo.",
+  perlaENARM: "Pericarditis aguda no complicada: AINE o aspirina más colchicina, si no hay contraindicaciones.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre pericarditis.", internacional: "ESC 2025 Guidelines for the Management of Myocarditis and Pericarditis." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-498",
+  especialidad: "Cardiología",
+  tema: "Taponamiento cardiaco",
+  subtema: "Drenaje urgente",
+  dificultad: "Media",
+  caso: "Paciente con derrame pericárdico presenta hipotensión progresiva, taquicardia y colapso diastólico de cavidades derechas en ecocardiograma.",
+  pregunta: "¿Cuál es el tratamiento definitivo urgente si se confirma taponamiento con compromiso hemodinámico?",
+  opciones: ["Drenaje pericárdico urgente", "Diuréticos a dosis altas como única medida", "Prueba de esfuerzo", "Alta domiciliaria", "Betabloqueador oral como única intervención"],
+  respuestaCorrecta: 0,
+  explicacion: "El taponamiento cardiaco con compromiso hemodinámico requiere drenaje urgente, habitualmente pericardiocentesis guiada por imagen o abordaje quirúrgico según el contexto.",
+  perlaENARM: "Taponamiento con inestabilidad hemodinámica: el drenaje no debe retrasarse.",
+  gpc: { mexico: "Consultar protocolo institucional y GPC vigente sobre taponamiento cardiaco.", internacional: "ESC 2025 Guidelines for the Management of Myocarditis and Pericarditis." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-499",
+  especialidad: "Cardiología",
+  tema: "Miocarditis",
+  subtema: "Restricción de ejercicio",
+  dificultad: "Media",
+  caso: "Atleta de 24 años presenta miocarditis confirmada por resonancia magnética y troponina elevada.",
+  pregunta: "¿Qué recomendación general debe darse durante la fase activa?",
+  opciones: ["Continuar entrenamiento competitivo intenso", "Suspender ejercicio intenso y recibir seguimiento cardiológico antes de volver al deporte", "Realizar maratón para evaluar tolerancia", "Ignorar síntomas si la FEVI está conservada", "Tomar estimulantes para mejorar rendimiento"],
+  respuestaCorrecta: 1,
+  explicacion: "La miocarditis puede asociarse con arritmias y muerte súbita durante el esfuerzo. La restricción deportiva y el retorno deben individualizarse con reevaluación clínica, eléctrica y funcional.",
+  perlaENARM: "Miocarditis activa: evita ejercicio intenso hasta reevaluación especializada.",
+  gpc: { mexico: "Consultar protocolo institucional vigente sobre miocarditis.", internacional: "ESC 2025 Guidelines for the Management of Myocarditis and Pericarditis." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-500",
+  especialidad: "Cardiología",
+  tema: "Cardiomiopatía hipertrófica",
+  subtema: "Evaluación familiar",
+  dificultad: "Media",
+  caso: "Hombre de 33 años tiene cardiomiopatía hipertrófica confirmada. Su hija de 17 años está asintomática.",
+  pregunta: "¿Qué estrategia es apropiada para familiares de primer grado?",
+  opciones: ["No evaluarlos si están asintomáticos", "Ofrecer evaluación clínica y ECG/ecocardiografía según edad y protocolo familiar", "Indicar anticoagulación a todos", "Solicitar coronariografía anual a todos", "Prohibir toda actividad física sin evaluación"],
+  respuestaCorrecta: 1,
+  explicacion: "La cardiomiopatía hipertrófica puede ser hereditaria. Los familiares de primer grado requieren evaluación y seguimiento con asesoramiento genético cuando corresponda.",
+  perlaENARM: "La cardiomiopatía hipertrófica obliga a considerar cribado familiar.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre cardiomiopatía hipertrófica.", internacional: "2024 AHA/ACC Guideline for the Management of Hypertrophic Cardiomyopathy." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-501",
+  especialidad: "Cardiología",
+  tema: "Disección aórtica",
+  subtema: "Control inicial de frecuencia y presión",
+  dificultad: "Media",
+  caso: "Paciente con sospecha alta de disección aórtica aguda está en área de reanimación. Presenta hipertensión intensa y taquicardia, sin contraindicación para betabloqueo.",
+  pregunta: "¿Cuál es un principio del tratamiento inicial mientras se organiza el manejo definitivo?",
+  opciones: ["Reducir el estrés de la pared aórtica con control de frecuencia y presión mediante tratamiento intravenoso monitorizado", "Administrar vasodilatador aislado antes de controlar la frecuencia en todos los casos", "Permitir hipertensión para mantener el dolor", "Realizar ejercicio intenso", "Dar de alta con analgésicos"],
+  respuestaCorrecta: 0,
+  explicacion: "El manejo inicial del síndrome aórtico agudo incluye analgesia y control antiimpulso, habitualmente con betabloqueo intravenoso cuando no está contraindicado, además de valoración urgente para intervención según el tipo.",
+  perlaENARM: "En disección aórtica, controla la fuerza de eyección y la frecuencia; requiere manejo urgente especializado.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre síndrome aórtico agudo.", internacional: "2024 ESC Guidelines for the Management of Peripheral Arterial and Aortic Diseases." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-502",
+  especialidad: "Cardiología",
+  tema: "Enfermedad arterial periférica",
+  subtema: "Índice tobillo-brazo",
+  dificultad: "Baja",
+  caso: "Hombre de 66 años fumador presenta dolor en pantorrillas al caminar que desaparece al descansar. Los pulsos pedios están disminuidos.",
+  pregunta: "¿Qué estudio no invasivo es útil para confirmar enfermedad arterial periférica?",
+  opciones: ["Índice tobillo-brazo", "Electroencefalograma", "Endoscopia digestiva", "Prueba de Coombs", "Espirometría"],
+  respuestaCorrecta: 0,
+  explicacion: "El índice tobillo-brazo es una prueba inicial útil en la sospecha de enfermedad arterial periférica. Debe interpretarse considerando calcificación arterial y contexto clínico.",
+  perlaENARM: "Claudicación intermitente: el índice tobillo-brazo es una prueba inicial clave.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre enfermedad arterial periférica.", internacional: "2024 ESC Guidelines for the Management of Peripheral Arterial and Aortic Diseases." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-503",
+  especialidad: "Cardiología",
+  tema: "Enfermedad arterial periférica",
+  subtema: "Claudicación intermitente",
+  dificultad: "Baja",
+  caso: "Mujer de 69 años con enfermedad arterial periférica estable presenta dolor de pantorrillas al caminar distancias similares, sin dolor en reposo ni úlceras.",
+  pregunta: "¿Qué intervención no farmacológica forma parte del manejo recomendado?",
+  opciones: ["Programa estructurado de ejercicio supervisado o estructurado", "Reposo absoluto permanente", "Fumar para mejorar la circulación", "Evitar caminar en todos los casos", "Aplicar calor intenso en zonas insensibles"],
+  respuestaCorrecta: 0,
+  explicacion: "El ejercicio estructurado mejora la capacidad funcional y los síntomas de claudicación. También se requiere control de tabaquismo, lípidos, presión arterial y riesgo aterosclerótico.",
+  perlaENARM: "En claudicación estable, el ejercicio estructurado es parte central del tratamiento.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre enfermedad arterial periférica.", internacional: "2024 ESC Guidelines for the Management of Peripheral Arterial and Aortic Diseases." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-504",
+  especialidad: "Cardiología",
+  tema: "Tromboembolia pulmonar",
+  subtema: "Embolia pulmonar de alto riesgo",
+  dificultad: "Media",
+  caso: "Paciente con sospecha de embolia pulmonar presenta hipotensión persistente y shock obstructivo. No existe una contraindicación absoluta conocida para reperfusión.",
+  pregunta: "¿Qué estrategia debe considerarse de forma urgente tras la evaluación inmediata?",
+  opciones: ["Reperfusión urgente, incluida trombólisis sistémica en pacientes elegibles", "Alta domiciliaria", "Prueba de esfuerzo", "Anticoagulación oral y reevaluación en un mes", "Solo oxígeno sin tratamiento definitivo"],
+  respuestaCorrecta: 0,
+  explicacion: "La embolia pulmonar de alto riesgo con inestabilidad hemodinámica puede requerir reperfusión urgente, generalmente trombólisis sistémica si es apropiada, o alternativas intervencionistas según el caso.",
+  perlaENARM: "Embolia pulmonar con shock: identifica alto riesgo y evalúa reperfusión urgente.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre enfermedad tromboembólica venosa.", internacional: "ESC Guidelines for the Diagnosis and Management of Acute Pulmonary Embolism." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-505",
+  especialidad: "Cardiología",
+  tema: "Hipertensión pulmonar",
+  subtema: "Signos de insuficiencia derecha",
+  dificultad: "Baja",
+  caso: "Paciente con hipertensión pulmonar presenta edema de miembros inferiores, hepatomegalia y distensión yugular.",
+  pregunta: "¿Qué complicación funcional sugieren estos hallazgos?",
+  opciones: ["Insuficiencia cardiaca derecha", "Insuficiencia mitral aislada", "Bloqueo AV de primer grado", "Angina estable", "Hipertensión arterial sistémica sin repercusión"],
+  respuestaCorrecta: 0,
+  explicacion: "La congestión venosa sistémica con edema, hepatomegalia e ingurgitación yugular es compatible con insuficiencia cardiaca derecha.",
+  perlaENARM: "Ingurgitación yugular, hepatomegalia y edema periférico sugieren congestión sistémica.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre hipertensión pulmonar e insuficiencia cardiaca.", internacional: "2022 ESC/ERS Guidelines for the Diagnosis and Treatment of Pulmonary Hypertension." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-506",
+  especialidad: "Cardiología",
+  tema: "Síncope",
+  subtema: "Síncope vasovagal",
+  dificultad: "Baja",
+  caso: "Mujer de 21 años pierde brevemente la conciencia tras permanecer de pie durante mucho tiempo en un lugar caluroso. Refiere náusea, sudoración y visión borrosa previas. Se recupera rápidamente.",
+  pregunta: "¿Cuál es la causa más probable si la evaluación no muestra datos de alarma?",
+  opciones: ["Síncope vasovagal", "Disección aórtica", "Infarto con elevación del ST", "Taponamiento cardiaco", "Bloqueo AV completo confirmado"],
+  respuestaCorrecta: 0,
+  explicacion: "El desencadenante ortostático prolongado y el pródromo autonómico son característicos del síncope vasovagal, siempre que la historia y la evaluación no sugieran causas de riesgo.",
+  perlaENARM: "Pródromo autonómico y desencadenante típico favorecen síncope vasovagal.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre síncope.", internacional: "ESC Guidelines for the Diagnosis and Management of Syncope; verificar actualizaciones." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-507",
+  especialidad: "Cardiología",
+  tema: "Dislipidemia",
+  subtema: "Hipertrigliceridemia grave",
+  dificultad: "Media",
+  caso: "Hombre de 45 años tiene triglicéridos de 1,100 mg/dL. Niega dolor abdominal, pero consume alcohol en exceso y tiene diabetes mal controlada.",
+  pregunta: "¿Cuál es una prioridad inicial del manejo?",
+  opciones: ["Evaluar causas secundarias, controlar glucemia y reducir triglicéridos para disminuir riesgo de pancreatitis", "Ignorar el resultado si no tiene síntomas", "Aumentar el consumo de alcohol", "Suspender toda modificación dietética", "Iniciar estrógenos como primera opción"],
+  respuestaCorrecta: 0,
+  explicacion: "La hipertrigliceridemia grave se asocia con riesgo de pancreatitis. Se deben corregir causas secundarias, modificar dieta y alcohol, optimizar diabetes y considerar tratamiento farmacológico según el contexto.",
+  perlaENARM: "Triglicéridos muy elevados: piensa en riesgo de pancreatitis y busca causas secundarias.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre dislipidemias.", internacional: "Guías internacionales vigentes sobre dislipidemias e hipertrigliceridemia." },
+  bibliografia: "Harrison's Principles of Internal Medicine; Braunwald's Heart Disease."
+},
+{
+  id: "CARD-508",
+  especialidad: "Cardiología",
+  tema: "Prevención cardiovascular",
+  subtema: "Tabaquismo",
+  dificultad: "Baja",
+  caso: "Hombre de 54 años con cardiopatía coronaria continúa fumando diez cigarrillos al día.",
+  pregunta: "¿Cuál es una intervención importante para reducir su riesgo cardiovascular futuro?",
+  opciones: ["Apoyar el abandono completo del tabaco con consejería y tratamiento cuando esté indicado", "Recomendar cambiar a más cigarrillos diarios", "Suspender estatina por fumar", "Indicar reposo absoluto", "No abordar el tabaquismo porque ya tiene enfermedad coronaria"],
+  respuestaCorrecta: 0,
+  explicacion: "El abandono del tabaco reduce el riesgo cardiovascular. La intervención puede incluir consejería, apoyo conductual y farmacoterapia individualizada.",
+  perlaENARM: "Dejar de fumar es una intervención de prevención secundaria de alto impacto.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre prevención cardiovascular y tabaquismo.", internacional: "Guías internacionales vigentes sobre prevención cardiovascular." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+},
+{
+  id: "CARD-509",
+  especialidad: "Cardiología",
+  tema: "Cardiopatía y diabetes",
+  subtema: "Riesgo cardiovascular",
+  dificultad: "Baja",
+  caso: "Mujer de 60 años con diabetes tipo 2, hipertensión y obesidad pregunta si necesita prevención cardiovascular aunque no presente dolor torácico.",
+  pregunta: "¿Cuál es la respuesta más apropiada?",
+  opciones: ["La ausencia de dolor excluye riesgo cardiovascular", "Debe recibir evaluación y manejo integral de factores de riesgo cardiovascular", "Solo requiere tratamiento si presenta infarto", "Debe suspender el control de lípidos", "La diabetes protege contra aterosclerosis"],
+  respuestaCorrecta: 1,
+  explicacion: "La diabetes y otros factores elevan el riesgo aterosclerótico aun sin síntomas. El tratamiento integral incluye control individualizado de presión, lípidos, glucemia, peso y tabaquismo.",
+  perlaENARM: "La prevención cardiovascular no depende de que el paciente tenga síntomas.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre diabetes y prevención cardiovascular.", internacional: "Guías internacionales vigentes de prevención cardiovascular y diabetes." },
+  bibliografia: "Harrison's Principles of Internal Medicine; Braunwald's Heart Disease."
+},
+{
+  id: "CARD-510",
+  especialidad: "Cardiología",
+  tema: "Rehabilitación cardiaca",
+  subtema: "Prevención secundaria",
+  dificultad: "Baja",
+  caso: "Hombre de 59 años se recupera de un infarto tratado con angioplastia. Está estable y pregunta si puede beneficiarse de rehabilitación cardiaca.",
+  pregunta: "¿Cuál es una respuesta correcta?",
+  opciones: ["La rehabilitación cardiaca puede mejorar capacidad funcional y apoyar la prevención secundaria", "Está contraindicada en todos los pacientes después de un infarto", "Solo se utiliza en pacientes con valvulopatías", "Sustituye toda la medicación prescrita", "Debe comenzar con ejercicio máximo no supervisado"],
+  respuestaCorrecta: 0,
+  explicacion: "La rehabilitación cardiaca combina ejercicio prescrito, educación, control de factores de riesgo y apoyo psicosocial, con beneficios funcionales y clínicos en pacientes elegibles.",
+  perlaENARM: "Tras un evento coronario, considera rehabilitación cardiaca como parte del tratamiento integral.",
+  gpc: { mexico: "Consultar GPC mexicana vigente sobre rehabilitación cardiaca y prevención secundaria.", internacional: "Guías internacionales vigentes sobre prevención cardiovascular y rehabilitación cardiaca." },
+  bibliografia: "Braunwald's Heart Disease; Harrison's Principles of Internal Medicine."
+}
 ];
 
