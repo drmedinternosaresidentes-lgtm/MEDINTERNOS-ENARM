@@ -8,7 +8,8 @@ const ESPECIALIDADES = [
   ["Cirugía", "🔪", "Abdomen agudo, trauma, perioperatorio y cirugía general."],
   ["Urgencias", "🚑", "Reanimación, choque, intoxicaciones y emergencias médicas."],
   ["Anestesiología", "💉", "Valoración perioperatoria, anestesia, vía aérea y reanimación."],
-  ["Gastroenterología", "🩺", "Hemorragia digestiva, úlcera péptica, hepatología, patología biliar, páncreas y enfermedad intestinal."]
+  ["Gastroenterología", "🩺", "Hemorragia digestiva, úlcera péptica, hepatología, patología biliar, páncreas y enfermedad intestinal."],
+  ["Endocrinología", "🧬", "Diabetes, tiroides, obesidad, hipófisis, suprarrenales, metabolismo óseo y calcio."],
 ];
 
 
