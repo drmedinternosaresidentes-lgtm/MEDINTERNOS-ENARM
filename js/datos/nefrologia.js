@@ -480,3 +480,4 @@ window.BANCO_NEFROLOGIA = [
   },
   bibliografia: "Manual CTO de Medicina y Cirugía, Nefrología, 14.ª ed., lesión renal aguda y enfermedad renal crónica; KDIGO."
 }
+];
