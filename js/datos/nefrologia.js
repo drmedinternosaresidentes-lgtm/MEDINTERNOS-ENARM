@@ -1,1 +1,1 @@
-
+window.BANCO_GASTROENTEROLOGIA = [
