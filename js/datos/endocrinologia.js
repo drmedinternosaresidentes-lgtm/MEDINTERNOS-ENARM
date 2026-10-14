@@ -5772,6 +5772,4816 @@ window.BANCO_ENDOCRINOLOGIA = [
     internacional: "Endocrine Society Clinical Practice Guideline on Treatment of Hypercalcemia of Malignancy in Adults."
   },
   bibliografia: "Endocrine Society. Treatment of Hypercalcemia of Malignancy in Adults: Clinical Practice Guideline, 2022."
+},
+  
+{
+  id: "ENDO-241",
+  especialidad: "Endocrinología",
+  tema: "Síndrome de Cushing",
+  subtema: "Interpretación de pruebas de cribado y factores de confusión",
+  dificultad: "Muy alta",
+  caso: `Mujer de 42 años con obesidad centrípeta progresiva, equimosis espontáneas, debilidad muscular proximal, hipertensión e hipopotasemia. Trabaja en turno nocturno y presenta depresión mayor activa. El cortisol libre urinario de 24 horas es 1.3 veces el límite superior normal; el cortisol salival nocturno está elevado en dos determinaciones. La prueba de supresión con 1 mg de dexametasona muestra cortisol matutino de 2.6 µg/dL. No utiliza glucocorticoides exógenos.`,
+  pregunta: "¿Cuál es la interpretación más rigurosa de estos resultados?",
+  opciones: [
+    "El síndrome de Cushing endógeno está confirmado porque dos pruebas son anormales.",
+    "La prueba con dexametasona descarta hipercortisolismo porque el cortisol es menor de 5 µg/dL.",
+    "Existen resultados sugestivos, pero los trastornos del sueño y la depresión pueden alterar las pruebas; debe reevaluarse el contexto y realizar pruebas apropiadas adicionales.",
+    "Debe solicitarse directamente una resonancia hipofisaria para confirmar enfermedad de Cushing.",
+    "La hipopotasemia establece por sí misma un origen ectópico de ACTH."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `El diagnóstico bioquímico del hipercortisolismo requiere pruebas validadas e interpretación contextual. La supresión normal suele definirse por cortisol posterior a 1 mg de dexametasona ≤1.8 µg/dL; 2.6 µg/dL es anormal, aunque pueden existir falsos positivos. La depresión grave y la alteración del ciclo sueño-vigilia pueden modificar el ritmo circadiano y producir hipercortisolismo no neoplásico. Antes de localizar la fuente, deben revisarse medicamentos, adherencia, metabolismo de dexametasona y condiciones que interfieren. Se pueden repetir pruebas o elegir otra modalidad validada, como cortisol libre urinario o supresión con dexametasona, según el contexto. La imagen hipofisaria no confirma por sí sola el diagnóstico endocrinológico.`,
+  perlaENARM: "El punto de corte clásico de cortisol tras 1 mg de dexametasona es ≤1.8 µg/dL para excluir hipercortisolismo con alta sensibilidad. Primero se demuestra hipercortisolismo; después se investiga su etiología.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente sobre diagnóstico y tratamiento del síndrome de Cushing; verificar disponibilidad y actualización en el catálogo CENETEC.",
+    internacional: "Endocrine Society Clinical Practice Guideline: The Diagnosis of Cushing's Syndrome, 2008."
+  },
+  bibliografia: "Nieman LK, et al. The Diagnosis of Cushing's Syndrome. J Clin Endocrinol Metab. 2008;93:1526-1540. doi:10.1210/jc.2008-0125."
+},
+{
+  id: "ENDO-242",
+  especialidad: "Endocrinología",
+  tema: "Síndrome de Cushing",
+  subtema: "Diferenciación entre enfermedad de Cushing y secreción ectópica de ACTH",
+  dificultad: "Muy alta",
+  caso: `Varón de 51 años con hipercortisolismo confirmado, ACTH plasmática elevada, hipopotasemia grave y pérdida de peso acelerada. La resonancia hipofisaria identifica una lesión de 4 mm. La tomografía torácica revela un nódulo pulmonar de 1.4 cm, sin confirmación histológica. La lesión hipofisaria podría ser incidental.`,
+  pregunta: "¿Qué estrategia permite diferenciar con mayor fiabilidad una fuente hipofisaria de una secreción ectópica de ACTH cuando las pruebas no invasivas son discordantes?",
+  opciones: [
+    "Considerar hipofisaria cualquier lesión mayor de 3 mm.",
+    "Realizar muestreo bilateral de senos petrosos inferiores con mediciones simultáneas de ACTH central y periférica, bajo protocolo especializado.",
+    "Utilizar únicamente la concentración absoluta de ACTH periférica.",
+    "Indicar resección transesfenoidal basada exclusivamente en la resonancia.",
+    "Considerar ectópica la secreción por la presencia de hipopotasemia."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El muestreo de senos petrosos inferiores es una prueba de referencia para localizar una fuente hipofisaria de ACTH en pacientes con hipercortisolismo ACTH-dependiente cuando la evaluación convencional no es concluyente. Un gradiente central/periférico de ACTH ≥2 antes de estimulación o ≥3 después de estimulación apoya origen hipofisario, según el protocolo utilizado. La prueba requiere experiencia, confirmación de cateterización adecuada y consideración de sus limitaciones. Debe realizarse cuando el hipercortisolismo está activo, ya que una enfermedad cíclica o el tratamiento previo pueden generar resultados engañosos. Una lesión hipofisaria pequeña puede ser incidental y una lesión pulmonar no demuestra por sí misma secreción ectópica.`,
+  perlaENARM: "ACTH-dependiente no significa automáticamente enfermedad de Cushing. Un adenoma hipofisario pequeño en imagen no sustituye la demostración funcional del origen.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre síndrome de Cushing y criterios de referencia a centros con experiencia en muestreo de senos petrosos.",
+    internacional: "Endocrine Society; Pituitary Society Consensus sobre enfermedad de Cushing."
+  },
+  bibliografia: "Nieman LK, et al. J Clin Endocrinol Metab. 2008;93:1526-1540. Fleseriu M, et al. Consensus on diagnosis and management of Cushing's disease."
+},
+{
+  id: "ENDO-243",
+  especialidad: "Endocrinología",
+  tema: "Hiperplasia suprarrenal congénita",
+  subtema: "Deficiencia no clásica de 21-hidroxilasa",
+  dificultad: "Muy alta",
+  caso: `Mujer de 24 años con hirsutismo, acné e irregularidad menstrual desde la adolescencia. La testosterona está moderadamente elevada y la ecografía ovárica muestra morfología poliquística. La 17-hidroxiprogesterona matutina basal es de 240 ng/dL; se encuentra en fase folicular temprana y no utiliza anticonceptivos.`,
+  pregunta: "¿Qué prueba permite resolver mejor la sospecha de deficiencia no clásica de 21-hidroxilasa?",
+  opciones: [
+    "Medir aldosterona plasmática como única prueba confirmatoria.",
+    "Repetir la testosterona total después de administrar dexametasona.",
+    "Realizar estimulación con cosintropina y medir 17-hidroxiprogesterona, interpretando el resultado con el método y los puntos de corte validados.",
+    "Solicitar únicamente anticuerpos anti-21-hidroxilasa.",
+    "Confirmar el diagnóstico mediante morfología ovárica poliquística."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La deficiencia no clásica de 21-hidroxilasa puede simular síndrome de ovario poliquístico. Una 17-hidroxiprogesterona basal limítrofe requiere prueba dinámica con cosintropina, habitualmente con muestra matutina en fase folicular para reducir falsos positivos. Los puntos de corte dependen del ensayo; los métodos de espectrometría de masas y los inmunoensayos no siempre son intercambiables. Una elevación marcada de 17-hidroxiprogesterona tras estimulación respalda el diagnóstico; el análisis genético de CYP21A2 puede ayudar en casos seleccionados o para asesoramiento reproductivo. No todos los pacientes presentan pérdida salina ni insuficiencia suprarrenal clínica.`,
+  perlaENARM: "Ante hiperandrogenismo femenino, una 17-hidroxiprogesterona matutina es una prueba clave para excluir hiperplasia suprarrenal congénita no clásica antes de atribuir todo al ovario poliquístico.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hiperplasia suprarrenal congénita y evaluación del hiperandrogenismo.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Congenital Adrenal Hyperplasia Due to Steroid 21-Hydroxylase Deficiency, 2018."
+  },
+  bibliografia: "Speiser PW, et al. Congenital Adrenal Hyperplasia Due to Steroid 21-Hydroxylase Deficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2018;103:4043-4088."
+},
+{
+  id: "ENDO-244",
+  especialidad: "Endocrinología",
+  tema: "Neoplasia endocrina múltiple tipo 2",
+  subtema: "Secuencia de evaluación preoperatoria en carcinoma medular de tiroides",
+  dificultad: "Muy alta",
+  caso: `Mujer de 29 años con mutación germinal patogénica de RET asociada a MEN2. Presenta nódulo tiroideo sospechoso y calcitonina elevada. La tomografía identifica una masa suprarrenal de 3 cm compatible con feocromocitoma. Está programada para tiroidectomía.`,
+  pregunta: "¿Qué prioridad modifica de manera crítica la secuencia quirúrgica?",
+  opciones: [
+    "Realizar tiroidectomía de inmediato y estudiar después la masa suprarrenal.",
+    "Administrar un betabloqueador como monoterapia antes de cualquier otra intervención.",
+    "Excluir y, si se confirma, preparar y tratar primero el feocromocitoma antes de la cirugía tiroidea.",
+    "Administrar levotiroxina supresora y repetir calcitonina en seis meses.",
+    "Realizar paratiroidectomía profiláctica en todos los portadores de RET."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `En MEN2, el feocromocitoma puede provocar una crisis catecolaminérgica potencialmente mortal durante la anestesia o la cirugía. Debe evaluarse bioquímicamente y, si está presente, prepararse con bloqueo alfa adecuado y manejo especializado antes de intervenir el carcinoma medular de tiroides. Si se necesita control de taquicardia, el betabloqueador se agrega únicamente después de establecer bloqueo alfa suficiente. La extensión de la cirugía tiroidea y la evaluación de hiperparatiroidismo dependen del genotipo, la enfermedad clínica y la valoración multidisciplinaria.`,
+  perlaENARM: "MEN2 con feocromocitoma y cirugía tiroidea planificada: el feocromocitoma se trata primero. Nunca iniciar betabloqueo aislado en un feocromocitoma funcional.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre cáncer medular de tiroides y feocromocitoma; referir a centro multidisciplinario.",
+    internacional: "American Thyroid Association Guidelines for Medullary Thyroid Carcinoma, 2015; Endocrine Society Guideline on Pheochromocytoma and Paraganglioma, 2014."
+  },
+  bibliografia: "Wells SA Jr, et al. Revised American Thyroid Association Guidelines for the Management of Medullary Thyroid Carcinoma. Thyroid. 2015;25:567-610. Lenders JWM, et al. J Clin Endocrinol Metab. 2014;99:1915-1942."
+},
+{
+  id: "ENDO-245",
+  especialidad: "Endocrinología",
+  tema: "Neoplasia endocrina múltiple tipo 1",
+  subtema: "Hipercalcemia, enfermedad paratiroidea y tumores neuroendocrinos pancreáticos",
+  dificultad: "Muy alta",
+  caso: `Varón de 34 años con nefrolitiasis recurrente, calcio de 11.4 mg/dL, PTH elevada, gastrina persistentemente elevada y úlceras pépticas múltiples. Su madre fue operada por hiperparatiroidismo a los 38 años. El paciente utiliza un inhibidor de la bomba de protones.`,
+  pregunta: "¿Cuál es la interpretación más apropiada del patrón clínico y qué elemento debe considerarse al interpretar la gastrina?",
+  opciones: [
+    "La asociación descarta MEN1 porque la hipercalcemia y la gastrina elevada son independientes.",
+    "MEN1 es una posibilidad importante; la gastrina debe interpretarse considerando el uso de inhibidores de la bomba de protones y el contexto ácido gástrico.",
+    "La gastrina elevada confirma por sí sola un gastrinoma sin necesidad de evaluación adicional.",
+    "La PTH elevada demuestra hiperparatiroidismo secundario a deficiencia de vitamina D.",
+    "La presencia de úlceras excluye un síndrome hereditario."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `MEN1 se caracteriza clásicamente por tumores paratiroideos, tumores neuroendocrinos gastroenteropancreáticos y tumores hipofisarios. El hiperparatiroidismo primario suele ser una manifestación inicial. Sin embargo, los inhibidores de la bomba de protones elevan la gastrina y dificultan la interpretación de una sospecha de gastrinoma; la evaluación requiere integrar gastrina en ayuno, acidez gástrica cuando esté indicada, medicamentos y estudios especializados. La retirada del antisecretor, si se considera necesaria, debe planificarse con supervisión médica porque un gastrinoma verdadero puede causar complicaciones graves. La evaluación genética de MEN1 está indicada cuando el fenotipo y los antecedentes lo justifican.`,
+  perlaENARM: "La tríada clásica de MEN1 es hiperparatiroidismo primario, tumor neuroendocrino gastroenteropancreático y tumor hipofisario. Una gastrina elevada aislada bajo tratamiento antisecretor no demuestra gastrinoma.",
+  gpc: {
+    mexico: "Consultar lineamientos mexicanos vigentes para neoplasias endocrinas hereditarias y tumores neuroendocrinos; valorar asesoramiento genético.",
+    internacional: "Endocrine Society Clinical Practice Guidelines for MEN1; consensos internacionales de MEN1."
+  },
+  bibliografia: "Thakker RV, et al. Clinical Practice Guidelines for Multiple Endocrine Neoplasia Type 1. J Clin Endocrinol Metab. 2012;97:2990-3011."
+},
+{
+  id: "ENDO-246",
+  especialidad: "Endocrinología",
+  tema: "Insulinoma",
+  subtema: "Interpretación bioquímica de hipoglucemia durante ayuno supervisado",
+  dificultad: "Muy alta",
+  caso: `Varón de 47 años sin diabetes presenta episodios de confusión y diaforesis en ayuno. Durante un episodio documentado, la glucosa plasmática es de 42 mg/dL, insulina de 8 µU/mL, péptido C de 2.1 ng/mL y proinsulina de 32 pmol/L. La búsqueda de sulfonilureas y meglitinidas es negativa. La función renal es normal.`,
+  pregunta: "¿Qué interpretación integra mejor los resultados obtenidos durante la hipoglucemia?",
+  opciones: [
+    "La insulina es apropiadamente suprimida porque está dentro del intervalo de referencia habitual.",
+    "El patrón indica supresión apropiada de la secreción endógena de insulina.",
+    "Existe secreción endógena inapropiada de insulina durante la hipoglucemia, compatible con hiperinsulinismo endógeno.",
+    "El péptido C elevado demuestra administración exógena de insulina.",
+    "La proinsulina elevada excluye un insulinoma."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `Durante hipoglucemia significativa, la insulina debe estar suprimida. Una concentración aparentemente normal puede ser patológica si resulta inapropiadamente detectable. Los criterios bioquímicos utilizados durante glucosa plasmática baja incluyen insulina ≥3 µU/mL, péptido C ≥0.6 ng/mL y proinsulina ≥5 pmol/L, interpretados en el contexto clínico y del ensayo. La negatividad de secretagogos favorece hiperinsulinismo endógeno y obliga a considerar insulinoma, entre otras causas menos comunes. La localización tumoral se realiza después de establecer el diagnóstico bioquímico; no debe comenzarse con imagen aislada.`,
+  perlaENARM: "En hipoglucemia, importa la supresión fisiológica de la insulina, no que el resultado esté dentro del intervalo de referencia de una persona euglucémica.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre evaluación de hipoglucemia en personas sin diabetes; los casos sospechosos requieren endocrinología.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Evaluation and Management of Adult Hypoglycemic Disorders, 2009."
+  },
+  bibliografia: "Cryer PE, et al. Evaluation and Management of Adult Hypoglycemic Disorders: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2009;94:709-728."
+},
+{
+  id: "ENDO-247",
+  especialidad: "Endocrinología",
+  tema: "Hipoglucemia no diabética",
+  subtema: "Diferenciación entre hiperinsulinismo endógeno y administración exógena",
+  dificultad: "Muy alta",
+  caso: `Mujer de 39 años presenta episodios de hipoglucemia documentada. Durante glucosa de 38 mg/dL se obtienen insulina de 48 µU/mL, péptido C menor de 0.1 ng/mL y proinsulina suprimida. La función renal y hepática es normal. El cribado inicial de secretagogos es negativo.`,
+  pregunta: "¿Qué mecanismo explica mejor el patrón bioquímico, suponiendo que los ensayos utilizados detectan la insulina administrada?",
+  opciones: [
+    "Insulinoma con secreción elevada de péptido C.",
+    "Hipoglucemia mediada por IGF-II.",
+    "Administración exógena de insulina.",
+    "Insuficiencia suprarrenal aislada.",
+    "Secreción de sulfonilureas con péptido C necesariamente indetectable."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La insulina exógena puede producir insulina circulante elevada con supresión de péptido C y proinsulina, ya que estas últimas reflejan secreción pancreática endógena. En insulinoma o exposición a secretagogos, el péptido C suele permanecer detectable o elevado durante la hipoglucemia. Deben revisarse las limitaciones analíticas: algunos inmunoensayos detectan de manera desigual análogos de insulina, por lo que una insulina baja no siempre excluye exposición a determinados análogos. La investigación debe realizarse con un enfoque clínico y toxicológico no acusatorio, garantizando seguridad y evitando conclusiones precipitadas.`,
+  perlaENARM: "Insulina alta con péptido C y proinsulina suprimidos orienta a insulina exógena; los secretagogos producen hiperinsulinismo endógeno.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para hipoglucemia no diabética y toxicología clínica.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Evaluation and Management of Adult Hypoglycemic Disorders, 2009."
+  },
+  bibliografia: "Cryer PE, et al. J Clin Endocrinol Metab. 2009;94:709-728."
+},
+{
+  id: "ENDO-248",
+  especialidad: "Endocrinología",
+  tema: "Tumores neuroendocrinos pancreáticos",
+  subtema: "Glucagonoma y síndrome de eritema necrolítico migratorio",
+  dificultad: "Muy alta",
+  caso: `Mujer de 58 años con pérdida ponderal, diabetes de reciente aparición, anemia y lesiones eritematosas migratorias con erosiones y costras en región perineal, glúteos y extremidades. La glucosa está elevada y el zinc sérico es discretamente bajo. Las lesiones mejoran parcialmente con suplementación nutricional, pero recurren.`,
+  pregunta: "¿Qué conjunto de hallazgos apoyaría con mayor fuerza un glucagonoma como causa del cuadro?",
+  opciones: [
+    "Insulina elevada durante hipoglucemia y péptido C suprimido.",
+    "Glucagón plasmático marcadamente elevado en contexto compatible y una lesión pancreática concordante.",
+    "Calcitonina elevada con nódulo tiroideo.",
+    "PTH elevada con hipercalcemia.",
+    "Cortisol suprimido después de dexametasona."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El glucagonoma puede causar diabetes o intolerancia a la glucosa, pérdida de peso, anemia y eritema necrolítico migratorio. Las lesiones cutáneas no son exclusivas de este tumor: deficiencias nutricionales, enfermedad hepática y otros trastornos dermatológicos pueden producir cuadros similares. La sospecha requiere correlación clínica, medición de glucagón y localización mediante imagen apropiada. Una concentración elevada debe interpretarse considerando insuficiencia renal, pancreatitis y otros factores que pueden modificarla. La estabilización nutricional, el control metabólico y el manejo oncológico deben planificarse de manera multidisciplinaria.`,
+  perlaENARM: "Glucagonoma: diabetes, pérdida de peso, anemia y eritema necrolítico migratorio. El exantema por sí solo no establece el diagnóstico.",
+  gpc: {
+    mexico: "Consultar lineamientos mexicanos vigentes sobre tumores neuroendocrinos gastroenteropancreáticos.",
+    internacional: "ENETS Consensus Guidelines for functional pancreatic neuroendocrine tumor syndromes."
+  },
+  bibliografia: "Falconi M, et al. ENETS Consensus Guidelines for the management of patients with functional pancreatic neuroendocrine tumors. Neuroendocrinology. 2016;103:153-171."
+},
+{
+  id: "ENDO-249",
+  especialidad: "Endocrinología",
+  tema: "Tumores neuroendocrinos pancreáticos",
+  subtema: "VIPoma y diarrea secretora",
+  dificultad: "Muy alta",
+  caso: `Varón de 46 años con diarrea acuosa de 3.5 litros al día, incluso durante el ayuno, hipopotasemia de 2.6 mmol/L, bicarbonato de 15 mmol/L y deshidratación. No presenta esteatorrea ni fiebre. La evaluación infecciosa inicial es negativa.`,
+  pregunta: "¿Qué perfil fisiopatológico es más consistente con la sospecha de VIPoma?",
+  opciones: [
+    "Diarrea osmótica que desaparece por completo al ayunar.",
+    "Diarrea secretora con hipopotasemia y pérdida intestinal de bicarbonato, asociada a VIP elevado.",
+    "Diarrea inflamatoria con sangre y leucocitos fecales como hallazgo definitorio.",
+    "Hipercalcemia con PTH elevada como mecanismo principal de la diarrea.",
+    "Hipoglucemia hiperinsulinémica como causa necesaria del trastorno electrolítico."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El VIPoma produce diarrea secretora profusa, hipopotasemia y pérdida de bicarbonato, que puede causar acidosis metabólica hiperclorémica. La diarrea persiste durante el ayuno y puede generar hipovolemia grave. El diagnóstico se apoya en VIP plasmático elevado, obtenido e interpretado adecuadamente, y localización tumoral. La prioridad clínica es reponer volumen y electrolitos, monitorizar el estado hemodinámico y controlar la secreción cuando corresponda. La hipopotasemia también requiere evaluación electrocardiográfica y reposición supervisada. No toda diarrea acuosa de alto volumen es un VIPoma; deben excluirse causas más frecuentes.`,
+  perlaENARM: "VIPoma: diarrea acuosa, hipopotasemia y aclorhidria en la descripción clásica; la pérdida de bicarbonato intestinal puede provocar acidosis metabólica.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para diarrea secretora grave y tumores neuroendocrinos.",
+    internacional: "ENETS Consensus Guidelines for functional pancreatic neuroendocrine tumor syndromes."
+  },
+  bibliografia: "Falconi M, et al. Neuroendocrinology. 2016;103:153-171."
+},
+{
+  id: "ENDO-250",
+  especialidad: "Endocrinología",
+  tema: "Pubertad precoz",
+  subtema: "Diferenciación de activación central del eje hipotálamo-hipófisis-gónada",
+  dificultad: "Muy alta",
+  caso: `Niña de 6 años y 8 meses con desarrollo mamario progresivo, aceleración de la velocidad de crecimiento y edad ósea adelantada 2 años. La LH basal ultrasensible es baja, pero la exploración muestra progresión puberal en seis meses. No hay exposición conocida a estrógenos.`,
+  pregunta: "¿Qué estrategia ayuda a establecer si existe activación central del eje gonadotrópico pese a una LH basal baja?",
+  opciones: [
+    "Descartar pubertad precoz central porque la LH basal no está elevada.",
+    "Medir únicamente estradiol y considerar que cualquier elevación confirma origen central.",
+    "Realizar prueba de estimulación con GnRH o análogo validado, integrando respuesta de LH, clínica y método analítico.",
+    "Solicitar una prueba de supresión con dexametasona.",
+    "Confirmar pubertad precoz central por edad ósea adelantada sin más evaluación."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `En etapas iniciales de pubertad precoz central, la LH basal puede permanecer baja, especialmente durante el inicio de la activación pulsátil nocturna. Una prueba de estimulación con GnRH o un análogo permite evaluar la respuesta gonadotrópica; los puntos de corte dependen del protocolo y del ensayo. La edad ósea adelantada y la aceleración del crecimiento apoyan progresión puberal, pero no establecen por sí solas el origen central. Si se confirma pubertad precoz central, la necesidad de neuroimagen depende de edad, sexo, hallazgos neurológicos y contexto clínico; en niñas muy pequeñas suele existir un umbral bajo para estudiar el sistema nervioso central.`,
+  perlaENARM: "Una LH basal baja no excluye pubertad precoz central temprana. Integra progresión clínica, velocidad de crecimiento, edad ósea y respuesta estimulada.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico y tratamiento de pubertad precoz.",
+    internacional: "Endocrine Society y Pediatric Endocrine Society: guías y documentos de consenso sobre pubertad precoz central."
+  },
+  bibliografia: "Carel JC, Léger J. Clinical practice. Precocious puberty. N Engl J Med. 2008;358:2366-2377."
+},
+{
+  id: "ENDO-251",
+  especialidad: "Endocrinología",
+  tema: "Síndrome de ovario poliquístico",
+  subtema: "Exclusión de diagnósticos alternativos en hiperandrogenismo",
+  dificultad: "Muy alta",
+  caso: `Mujer de 27 años con oligomenorrea, hirsutismo y acné. La testosterona está elevada de forma moderada, sin virilización rápida. La 17-hidroxiprogesterona basal se encuentra en rango limítrofe y la prolactina está discretamente elevada en una muestra tomada durante estrés venoso. No hay datos clínicos de hipercortisolismo.`,
+  pregunta: "¿Qué estrategia evita atribuir prematuramente el cuadro a síndrome de ovario poliquístico?",
+  opciones: [
+    "Confirmar el diagnóstico únicamente con una ecografía ovárica.",
+    "Excluir sistemáticamente todas las enfermedades endocrinas mediante tomografía corporal.",
+    "Repetir prolactina en condiciones apropiadas y estudiar la 17-hidroxiprogesterona con el algoritmo indicado, integrando los criterios clínicos de SOP.",
+    "Diagnosticar SOP porque existe hirsutismo y oligomenorrea, independientemente de los resultados.",
+    "Solicitar exclusivamente hormona antimülleriana como prueba confirmatoria."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `El diagnóstico de SOP en adultas requiere dos de tres características —disfunción ovulatoria, hiperandrogenismo clínico o bioquímico y morfología ovárica poliquística— tras excluir causas que imitan el síndrome. Entre ellas se encuentran hiperprolactinemia, disfunción tiroidea y deficiencia no clásica de 21-hidroxilasa. La prolactina puede elevarse transitoriamente por estrés, ejercicio o venopunción, por lo que una elevación leve debe confirmarse bajo condiciones adecuadas. Una 17-hidroxiprogesterona limítrofe requiere evaluación adicional según el método. La ecografía no es obligatoria si ya se cumplen los otros dos criterios y se han excluido diagnósticos alternativos.`,
+  perlaENARM: "SOP es un diagnóstico clínico después de excluir imitadores relevantes; la ecografía no sustituye la evaluación de hiperandrogenismo y oligoovulación.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre síndrome de ovario poliquístico e infertilidad asociada.",
+    internacional: "2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome."
+  },
+  bibliografia: "Teede HJ, et al. Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome. Fertil Steril. 2023."
+},
+{
+  id: "ENDO-252",
+  especialidad: "Endocrinología",
+  tema: "Hiperandrogenismo femenino",
+  subtema: "Identificación de tumor secretor de andrógenos",
+  dificultad: "Muy alta",
+  caso: `Mujer de 36 años con aparición de voz grave, clitoromegalia y aumento rápido de masa muscular en ocho meses. La testosterona total es marcadamente elevada en una segunda muestra confirmatoria y la DHEAS también está elevada. La paciente niega consumo de andrógenos.`,
+  pregunta: "¿Qué característica clínica determina que la evaluación deba acelerarse para descartar una neoplasia secretora de andrógenos?",
+  opciones: [
+    "Hirsutismo leve que progresa lentamente desde la adolescencia.",
+    "Acné aislado sin irregularidad menstrual.",
+    "Virilización de progresión rápida con elevaciones androgénicas marcadas.",
+    "Morfología ovárica poliquística aislada.",
+    "Una relación LH/FSH elevada sin otros hallazgos."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La virilización rápida y las concentraciones marcadamente elevadas de andrógenos obligan a descartar tumor ovárico o suprarrenal secretor, aunque existen otras causas. La DHEAS orienta hacia una contribución suprarrenal, mientras que la testosterona puede elevarse por fuentes ováricas o suprarrenales; ningún marcador localiza por sí solo con certeza. Deben confirmarse los resultados con un método fiable, idealmente espectrometría de masas para testosterona cuando esté disponible, y realizar imagen dirigida según el perfil bioquímico. También deben revisarse suplementos, fármacos y exposición inadvertida a testosterona tópica de otra persona.`,
+  perlaENARM: "El inicio rápido y la virilización franca son señales de alarma contra el diagnóstico automático de SOP. La magnitud hormonal orienta, pero no reemplaza la localización etiológica.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hiperandrogenismo femenino y tumores suprarrenales u ováricos.",
+    internacional: "2023 International Evidence-based Guideline for PCOS; Endocrine Society guidance on androgen excess."
+  },
+  bibliografia: "Teede HJ, et al. International Evidence-based Guideline for PCOS. 2023. Azziz R, et al. Evaluation and Treatment of Hirsutism in Premenopausal Women. J Clin Endocrinol Metab. 2018."
+},
+{
+  id: "ENDO-253",
+  especialidad: "Endocrinología",
+  tema: "Hipogonadismo masculino",
+  subtema: "Interpretación de testosterona total y SHBG",
+  dificultad: "Muy alta",
+  caso: `Varón de 56 años con obesidad, diabetes tipo 2 y disminución de libido. Dos determinaciones matutinas muestran testosterona total en el límite inferior del intervalo. La SHBG está disminuida y la testosterona libre calculada se encuentra dentro del intervalo de referencia. No presenta anemia, osteoporosis ni pérdida marcada de vello corporal.`,
+  pregunta: "¿Cuál es la conclusión más sólida antes de considerar tratamiento con testosterona?",
+  opciones: [
+    "El hipogonadismo está confirmado porque la testosterona total es limítrofe.",
+    "La testosterona total debe ignorarse y tratarse cualquier síntoma sexual.",
+    "La reducción de SHBG puede disminuir la testosterona total sin una reducción equivalente de testosterona libre; se requiere integración clínica y bioquímica cuidadosa.",
+    "La obesidad confirma hipogonadismo primario con LH elevada.",
+    "Debe iniciarse testosterona para prevenir progresión de diabetes."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `El diagnóstico de hipogonadismo requiere síntomas compatibles y concentraciones inequívocamente bajas de testosterona, confirmadas en muestras matutinas separadas y en condiciones clínicas apropiadas. La obesidad y la resistencia a la insulina reducen SHBG, lo que puede disminuir la testosterona total sin reducir proporcionalmente la fracción libre. En casos limítrofes o con alteraciones de SHBG, la testosterona libre calculada con métodos validados o medida por diálisis de equilibrio puede ayudar. Si se confirma hipogonadismo, LH y FSH contribuyen a diferenciar causas primarias y secundarias. No se indica testosterona únicamente para mejorar control glucémico ni por una cifra aislada.`,
+  perlaENARM: "Testosterona total baja con SHBG baja no equivale automáticamente a hipogonadismo; confirma síntomas, repetición matutina y evaluación de testosterona libre cuando esté indicada.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipogonadismo masculino y terapia de reemplazo con testosterona.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Testosterone Therapy in Men With Hypogonadism, 2018."
+  },
+  bibliografia: "Bhasin S, et al. Testosterone Therapy in Men With Hypogonadism: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2018;103:1715-1744."
+},
+{
+  id: "ENDO-254",
+  especialidad: "Endocrinología",
+  tema: "Osteomalacia inducida por tumor",
+  subtema: "Hipofosfatemia mediada por FGF23",
+  dificultad: "Muy alta",
+  caso: `Varón de 52 años con dolor óseo difuso, debilidad proximal y fracturas por insuficiencia. El fosfato sérico es de 1.4 mg/dL, la fosfatasa alcalina está elevada y el calcio es normal. La función renal es conservada. La excreción urinaria de fosfato permanece inapropiadamente elevada durante la hipofosfatemia y el 1,25-dihidroxivitamina D está bajo-normal.`,
+  pregunta: "¿Qué mecanismo explica mejor el patrón bioquímico y orienta el estudio etiológico?",
+  opciones: [
+    "Deficiencia aislada de vitamina D con conservación renal completa del fosfato.",
+    "Pérdida renal de fosfato mediada por FGF23, con supresión de la síntesis de calcitriol.",
+    "Hiperparatiroidismo primario como causa obligatoria de toda hipofosfatemia.",
+    "Exceso de calcitriol con absorción intestinal excesiva de fosfato.",
+    "Hipofosfatemia transitoria por redistribución sin repercusión ósea."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los tumores mesenquimales fosfatúricos pueden secretar FGF23, que reduce la reabsorción proximal de fosfato y disminuye la producción renal de calcitriol. El resultado es hipofosfatemia persistente, pérdida renal de fosfato y mineralización ósea defectuosa. La evaluación incluye confirmar la hipofosfatemia, estimar la pérdida renal de fosfato y medir FGF23 cuando esté disponible, además de diferenciar causas hereditarias y adquiridas. La localización tumoral puede ser compleja y requerir técnicas de imagen funcional y anatómica. El tratamiento debe ser especializado; no se debe asumir que todo fosfato bajo se debe a desnutrición.`,
+  perlaENARM: "Hipofosfatemia crónica + fosfaturia inapropiada + calcitriol bajo o inapropiadamente normal sugiere un mecanismo mediado por FGF23.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de metabolismo óseo y trastornos del fosfato; derivar a un centro con experiencia en osteomalacia.",
+    internacional: "Consensos internacionales sobre tumor-induced osteomalacia y evaluación de hipofosfatemia."
+  },
+  bibliografia: "Jan de Beur SM, et al. Global guidance for the recognition, diagnosis, and management of tumor-induced osteomalacia. J Intern Med. 2023."
+},
+{
+  id: "ENDO-255",
+  especialidad: "Endocrinología",
+  tema: "Hipercalcemia asociada a enfermedades granulomatosas",
+  subtema: "Producción extrarrenal de calcitriol",
+  dificultad: "Muy alta",
+  caso: `Mujer de 43 años con tos crónica, adenopatías hiliares bilaterales e hipercalcemia. El calcio corregido es de 11.6 mg/dL, PTH suprimida, PTHrP indetectable y 25-hidroxivitamina D normal. La 1,25-dihidroxivitamina D está elevada. La función renal está conservada.`,
+  pregunta: "¿Qué mecanismo fisiopatológico explica mejor el patrón hormonal?",
+  opciones: [
+    "Secreción autónoma de PTH por las paratiroides.",
+    "Producción tumoral obligatoria de PTHrP.",
+    "Conversión extrarrenal aumentada de 25-hidroxivitamina D a calcitriol por células inflamatorias granulomatosas.",
+    "Deficiencia de vitamina D que estimula directamente la resorción ósea como único mecanismo.",
+    "Disminución de la absorción intestinal de calcio."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `En enfermedades granulomatosas como sarcoidosis y algunas infecciones, los macrófagos activados pueden expresar 1-alfa-hidroxilasa extrarrenal y generar calcitriol de forma relativamente no regulada. El aumento de calcitriol favorece la absorción intestinal de calcio y puede contribuir a hipercalcemia e hipercalciuria. La PTH suele estar suprimida y la PTHrP no necesariamente está elevada. El diagnóstico etiológico debe establecerse sin atribuir automáticamente las adenopatías a sarcoidosis; deben excluirse infecciones y neoplasias según el contexto. La suplementación de vitamina D o calcio puede agravar el trastorno en determinados pacientes.`,
+  perlaENARM: "Hipercalcemia con PTH suprimida y calcitriol elevado sugiere enfermedad granulomatosa o algunos linfomas; PTHrP y calcitriol orientan hacia mecanismos distintos.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipercalcemia y evaluación de sarcoidosis o enfermedades granulomatosas.",
+    internacional: "Endotext: Approach to Hypercalcemia; guías internacionales de evaluación de sarcoidosis."
+  },
+  bibliografia: "Goltzman D. Approach to Hypercalcemia. Endotext. NCBI Bookshelf. Actualizar la consulta según la edición disponible."
+},
+{
+  id: "ENDO-256",
+  especialidad: "Endocrinología",
+  tema: "Hipocalcemia refractaria",
+  subtema: "Hipomagnesemia y resistencia funcional a PTH",
+  dificultad: "Muy alta",
+  caso: `Varón de 63 años con alcoholismo crónico y diarrea persistente presenta parestesias, espasmo carpopedal y QT prolongado. El calcio ionizado está bajo, el magnesio es de 0.7 mg/dL, el potasio de 2.9 mmol/L y la PTH es inapropiadamente normal. La hipocalcemia persiste pese a calcio intravenoso inicial.`,
+  pregunta: "¿Qué mecanismo explica la hipocalcemia refractaria y cuál es el principio terapéutico fundamental?",
+  opciones: [
+    "La hipomagnesemia aumenta siempre la secreción de PTH y no altera su acción.",
+    "La deficiencia de magnesio puede reducir la secreción de PTH y causar resistencia periférica a ella; debe corregirse el magnesio además del calcio cuando esté indicado.",
+    "El potasio bajo explica por sí solo toda la hipocalcemia.",
+    "La PTH normal excluye cualquier trastorno paratiroideo funcional.",
+    "La administración aislada de calcitriol resuelve necesariamente el problema sin reponer magnesio."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La hipomagnesemia grave altera la secreción de PTH y reduce la respuesta periférica a esta hormona, produciendo un patrón funcional de hipoparatiroidismo y resistencia a PTH. También puede contribuir a hipopotasemia refractaria. La hipocalcemia sintomática con QT prolongado requiere monitorización y tratamiento urgente, habitualmente calcio intravenoso según gravedad, mientras se corrige la deficiencia de magnesio y se investiga su causa. La velocidad y vía de reposición de magnesio dependen de síntomas, función renal y pérdidas continuas. Debe monitorizarse el calcio ionizado y el electrocardiograma cuando el cuadro es grave.`,
+  perlaENARM: "Hipocalcemia que no responde como se espera al calcio, acompañada de hipopotasemia, obliga a medir y corregir magnesio.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para urgencias electrolíticas e hipocalcemia sintomática.",
+    internacional: "Society for Endocrinology: Emergency management of acute hypocalcaemia in adult patients."
+  },
+  bibliografia: "Society for Endocrinology. Emergency management of acute hypocalcaemia in adult patients. Endocr Connect. 2016."
+},
+{
+  id: "ENDO-257",
+  especialidad: "Endocrinología",
+  tema: "Trastornos del sodio",
+  subtema: "Pseudohiponatremia por hipertrigliceridemia",
+  dificultad: "Muy alta",
+  caso: `Paciente de 49 años con pancreatitis previa y triglicéridos de 3,600 mg/dL presenta sodio de 121 mmol/L medido por electrodo indirecto. Está neurológicamente íntegro y no tiene signos de hipovolemia. La osmolaridad medida es de 292 mOsm/kg y una muestra procesada por electrodo directo reporta sodio de 136 mmol/L.`,
+  pregunta: "¿Cuál es la interpretación correcta y qué error terapéutico debe evitarse?",
+  opciones: [
+    "Hiponatremia hipotónica grave que requiere solución salina hipertónica inmediata.",
+    "Hiponatremia translocacional por glucosa, confirmada por la diferencia entre electrodos.",
+    "Pseudohiponatremia por artefacto del método indirecto en una muestra con lípidos muy elevados; debe evitarse corregir el sodio como si existiera hipotonía real.",
+    "Síndrome de secreción inapropiada de ADH demostrado por la osmolaridad normal.",
+    "Hiponatremia por pérdida renal de sodio que requiere restricción de agua."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `El electrodo indirecto diluye la muestra y presupone una fracción acuosa plasmática habitual. Con hipertrigliceridemia extrema, la fracción de agua disminuye y el sodio reportado puede ser falsamente bajo. El electrodo directo mide la concentración en la fase acuosa sin el mismo artefacto. La osmolaridad medida suele permanecer normal en pseudohiponatremia, a diferencia de la hiponatremia hipotónica verdadera. Administrar solución hipertónica sin confirmar el trastorno puede causar hipernatremia iatrogénica y daño neurológico. La hiperglucemia, en contraste, produce hiponatremia translocacional real por desplazamiento de agua hacia el espacio extracelular.`,
+  perlaENARM: "Sodio bajo con osmolaridad medida normal y lipemia marcada: verifica el método analítico y considera pseudohiponatremia antes de tratar.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de trastornos hidroelectrolíticos y laboratorio clínico.",
+    internacional: "European Clinical Practice Guideline on Diagnosis and Treatment of Hyponatraemia, 2014."
+  },
+  bibliografia: "Spasovski G, et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014;170:G1-G47."
+},
+{
+  id: "ENDO-258",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus secundaria",
+  subtema: "Diabetes pancreatógena tipo 3c",
+  dificultad: "Muy alta",
+  caso: `Varón de 61 años con pancreatitis crónica calcificante, esteatorrea, pérdida ponderal y diabetes de reciente diagnóstico. La elastasa fecal está disminuida, la imagen muestra atrofia pancreática y calcificaciones, y los autoanticuerpos asociados a diabetes autoinmune son negativos. Presenta episodios de hipoglucemia tras dosis pequeñas de insulina.`,
+  pregunta: "¿Qué combinación fisiopatológica explica mejor la presentación y el riesgo de hipoglucemia?",
+  opciones: [
+    "Resistencia a insulina aislada con conservación completa de glucagón y función exocrina.",
+    "Destrucción autoinmune selectiva de células beta con exocrinopatía incidental.",
+    "Pérdida de función endocrina pancreática, incluida secreción de insulina y potencialmente glucagón, junto con insuficiencia exocrina.",
+    "Exceso persistente de glucagón como mecanismo obligatorio de toda diabetes pancreatógena.",
+    "Diabetes tipo 2 confirmada por edad, independientemente de la enfermedad pancreática."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La diabetes tipo 3c aparece en el contexto de enfermedad pancreática exocrina, como pancreatitis crónica, resección pancreática o enfermedad infiltrativa. Puede coexistir pérdida de células beta y alteración de la secreción de glucagón, lo que dificulta tanto el control glucémico como la contrarregulación durante hipoglucemia. La malabsorción y la ingesta irregular aumentan la variabilidad glucémica. La evaluación integra historia de enfermedad pancreática, imagen, insuficiencia exocrina y exclusión razonable de diabetes autoinmune. El tratamiento requiere individualización, soporte nutricional y manejo de la insuficiencia exocrina cuando corresponda.`,
+  perlaENARM: "En diabetes tipo 3c, la pérdida de glucagón y la malabsorción pueden elevar el riesgo de hipoglucemia; no debe asumirse que todo adulto con diabetes tiene tipo 2.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diabetes mellitus y pancreatitis crónica; individualizar la atención multidisciplinaria.",
+    internacional: "American Diabetes Association, Standards of Care in Diabetes; literatura de consenso sobre diabetes pancreatógena."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes. Diabetes Care. Edición anual vigente. Hart PA, et al. Type 3c diabetes mellitus secondary to chronic pancreatitis and pancreatic cancer. Lancet Gastroenterol Hepatol. 2016."
+},
+{
+  id: "ENDO-259",
+  especialidad: "Endocrinología",
+  tema: "Hiperglucemia inducida por glucocorticoides",
+  subtema: "Patrón glucémico y selección del esquema de insulina",
+  dificultad: "Muy alta",
+  caso: `Mujer de 70 años hospitalizada por una enfermedad inflamatoria recibe prednisona oral cada mañana. La glucosa en ayuno es de 112 mg/dL, pero las glucemias antes de la cena alcanzan 280-320 mg/dL. No tenía diagnóstico previo de diabetes y la función renal está estable.`,
+  pregunta: "¿Qué principio terapéutico explica mejor la elección del esquema de insulina en este patrón?",
+  opciones: [
+    "Administrar exclusivamente insulina basal de acción prolongada en dosis altas, sin considerar el horario del glucocorticoide.",
+    "Ignorar las glucemias vespertinas porque la glucosa en ayuno es normal.",
+    "Ajustar el tratamiento al perfil temporal de hiperglucemia; la NPH matutina puede corresponder al efecto de prednisona matutina, con vigilancia y ajustes individualizados.",
+    "Suspender de inmediato el glucocorticoide sin valorar la enfermedad de base.",
+    "Utilizar únicamente una sulfonilurea independientemente de la ingesta y el contexto hospitalario."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La prednisona administrada por la mañana suele producir hiperglucemia predominantemente posprandial y vespertina, mientras que la glucosa en ayuno puede ser relativamente normal. La insulina NPH matutina puede emparejarse con ese perfil farmacodinámico; también pueden utilizarse otros esquemas basal-bolo según gravedad, ingesta, dosis y duración del glucocorticoide. La dosis debe revisarse cuando se reduce o suspende el esteroide para evitar hipoglucemia. En hospitalización, las decisiones consideran el estado clínico, la nutrición, la función renal y las tendencias de glucosa, no una única medición.`,
+  perlaENARM: "Glucocorticoide matutino + glucosa en ayuno aceptable + hiperglucemia vespertina: piensa en el perfil temporal del esteroide y adapta el esquema, con vigilancia al reducirlo.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hiperglucemia hospitalaria y diabetes asociada a glucocorticoides.",
+    internacional: "American Diabetes Association, Standards of Care in Diabetes: Diabetes Care in the Hospital."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes—Diabetes Care in the Hospital. Diabetes Care. Edición anual vigente."
+},
+{
+  id: "ENDO-260",
+  especialidad: "Endocrinología",
+  tema: "Orbitopatía tiroidea",
+  subtema: "Tratamiento del hipertiroidismo con enfermedad ocular activa",
+  dificultad: "Muy alta",
+  caso: `Mujer de 45 años con enfermedad de Graves, tabaquismo activo, diplopía reciente, dolor orbitario y edema palpebral. La evaluación oftalmológica clasifica la orbitopatía como activa y de gravedad moderada a severa. La paciente solicita tratamiento definitivo de su hipertiroidismo.`,
+  pregunta: "¿Qué consideración modifica más la elección del tratamiento definitivo tiroideo?",
+  opciones: [
+    "El radioyodo es siempre la opción preferida, sin importar actividad ocular ni tabaquismo.",
+    "La actividad de la orbitopatía y el tabaquismo deben influir en la elección; el radioyodo puede empeorar la enfermedad ocular y requiere valoración especializada y, en casos seleccionados, profilaxis con glucocorticoides.",
+    "La tiroidectomía está absolutamente contraindicada en toda orbitopatía.",
+    "El control de la función tiroidea no influye en la evolución ocular.",
+    "El tratamiento debe basarse exclusivamente en la concentración de anticuerpos antiperoxidasa."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La orbitopatía de Graves es una enfermedad autoinmune que puede evolucionar de manera parcialmente independiente de la función tiroidea. La actividad y gravedad ocular, el tabaquismo, la estabilidad del estado tiroideo y las preferencias del paciente influyen en la elección terapéutica. El radioyodo puede exacerbar la orbitopatía, especialmente en fumadores y en pacientes con enfermedad ocular activa; en circunstancias seleccionadas se considera profilaxis con glucocorticoides, pero una orbitopatía activa moderada-grave requiere evaluación especializada antes de decidir. Los antitiroideos o la tiroidectomía pueden ser preferibles según el escenario clínico. Mantener eutiroidismo y suspender tabaco son componentes importantes del manejo.`,
+  perlaENARM: "En Graves, no elijas radioyodo sin valorar orbitopatía activa y tabaquismo. La gravedad ocular puede cambiar la estrategia definitiva aunque el hipertiroidismo sea tratable.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre enfermedad de Graves y orbitopatía tiroidea; referir a endocrinología y oftalmología especializada.",
+    internacional: "2021 EUGOGO Clinical Practice Guidelines for the Medical Management of Graves' Orbitopathy."
+  },
+  bibliografia: "Bartalena L, et al. The 2021 European Group on Graves' Orbitopathy (EUGOGO) clinical practice guidelines for the medical management of Graves' orbitopathy. Eur J Endocrinol. 2021;185:G43-G67."
+},
+
+{
+  id: "ENDO-261",
+  especialidad: "Endocrinología",
+  tema: "Acromegalia",
+  subtema: "Discordancia entre IGF-1, GH y control bioquímico",
+  dificultad: "Muy alta",
+  caso: `Mujer de 46 años con crecimiento acral, prognatismo, apnea obstructiva del sueño y antecedente de resección transesfenoidal de un macroadenoma somatotropo. A los seis meses, la IGF-1 permanece en 1.4 veces el límite superior normal para edad y sexo, mientras que la GH aleatoria es de 0.8 ng/mL. La paciente inició estrógenos orales tres meses antes.`,
+  pregunta: "¿Qué factor puede explicar parte de la discordancia bioquímica y debe considerarse antes de concluir que persiste actividad tumoral?",
+  opciones: [
+    "Los estrógenos orales aumentan la IGF-1 de manera predecible y descartan actividad de GH.",
+    "La GH aleatoria normal excluye actividad persistente independientemente de la IGF-1.",
+    "Los estrógenos orales pueden reducir la producción hepática de IGF-1; debe verificarse el contexto analítico y confirmar el patrón antes de atribuirlo a enfermedad persistente.",
+    "La IGF-1 elevada después de cirugía demuestra necesariamente un adenoma ectópico.",
+    "La GH aleatoria es el único marcador válido para seguimiento posquirúrgico."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La IGF-1 ajustada por edad es un marcador central para evaluar actividad de acromegalia, pero su interpretación depende del método, condiciones clínicas y medicamentos. Los estrógenos orales reducen la producción hepática de IGF-1 inducida por GH y pueden modificar la relación entre GH e IGF-1. Una IGF-1 persistentemente elevada requiere confirmar resultados, revisar el ensayo y evaluar el contexto terapéutico; no debe descartarse actividad por una GH aleatoria aislada. El seguimiento integra IGF-1, GH según el escenario, resonancia y manifestaciones clínicas.`,
+  perlaENARM: "En acromegalia, la GH aleatoria tiene limitaciones por su secreción pulsátil. La IGF-1 debe interpretarse con edad, ensayo y factores que alteran su producción hepática.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre acromegalia y seguimiento posquirúrgico.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Acromegaly, 2014; consensos internacionales posteriores."
+  },
+  bibliografia: "Katznelson L, et al. Acromegaly: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2014;99:3933-3951."
+},
+{
+  id: "ENDO-262",
+  especialidad: "Endocrinología",
+  tema: "Hipopituitarismo",
+  subtema: "Interpretación del eje tiroideo en enfermedad hipofisaria",
+  dificultad: "Muy alta",
+  caso: `Varón de 39 años con macroadenoma hipofisario no funcionante, fatiga e intolerancia al frío. La TSH es de 2.1 mUI/L y la T4 libre de 0.55 ng/dL. El cortisol de las 8:00 h es de 3.2 µg/dL. No ha recibido tratamiento hormonal.`,
+  pregunta: "¿Qué interpretación evita un error potencialmente peligroso al iniciar reemplazo hormonal?",
+  opciones: [
+    "La TSH normal descarta hipotiroidismo clínicamente significativo.",
+    "La T4 libre baja con TSH no elevada sugiere hipotiroidismo central; debe evaluarse y tratarse la insuficiencia corticotropa antes de iniciar levotiroxina.",
+    "La TSH debe elevarse por encima de 10 mUI/L para diagnosticar hipotiroidismo central.",
+    "La levotiroxina debe iniciarse primero porque aumenta la disponibilidad de cortisol.",
+    "El patrón demuestra resistencia periférica a hormonas tiroideas."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En enfermedad hipofisaria, una T4 libre baja con TSH baja o inapropiadamente normal es compatible con hipotiroidismo central. La TSH no es un marcador fiable para excluirlo ni para ajustar por sí sola el reemplazo. El cortisol matutino muy bajo sugiere insuficiencia suprarrenal central y requiere evaluación urgente según el contexto clínico. Iniciar levotiroxina antes de cubrir una deficiencia de cortisol puede precipitar una crisis suprarrenal al incrementar las necesidades metabólicas y la depuración de cortisol. En pacientes con sospecha importante, no debe retrasarse la cobertura glucocorticoide necesaria mientras se completa la evaluación.`,
+  perlaENARM: "En hipopituitarismo, descarta o cubre insuficiencia suprarrenal antes de iniciar levotiroxina. Una TSH normal no excluye hipotiroidismo central.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipopituitarismo e insuficiencia suprarrenal central.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Hormonal Replacement in Hypopituitarism in Adults, 2016."
+  },
+  bibliografia: "Fleseriu M, et al. Hormonal Replacement in Hypopituitarism in Adults: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016;101:3888-3921."
+},
+{
+  id: "ENDO-263",
+  especialidad: "Endocrinología",
+  tema: "Hipopituitarismo",
+  subtema: "Diabetes insípida en el contexto de lesión hipofisaria",
+  dificultad: "Muy alta",
+  caso: `Mujer de 51 años sometida a cirugía transesfenoidal por una lesión selar. En el segundo día posoperatorio presenta diuresis de 6.5 litros, sodio de 151 mmol/L, osmolaridad plasmática de 310 mOsm/kg y osmolaridad urinaria de 105 mOsm/kg. Se encuentra hemodinámicamente estable.`,
+  pregunta: "¿Qué patrón fisiológico identifica la alteración predominante?",
+  opciones: [
+    "Exceso de ADH con retención de agua libre.",
+    "Diuresis osmótica por glucosuria como explicación demostrada.",
+    "Defecto de concentración urinaria ante hiperosmolaridad plasmática, compatible con diabetes insípida central posoperatoria.",
+    "SIADH con pérdida renal de sodio.",
+    "Polidipsia primaria con supresión apropiada de ADH."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La hipernatremia y la osmolaridad plasmática elevada deberían estimular una respuesta antidiurética que concentre la orina. Una orina muy diluida en ese contexto demuestra incapacidad para conservar agua y, tras cirugía selar, hace sospechar déficit de vasopresina. Deben cuantificarse las pérdidas, vigilar el sodio y valorar reposición hídrica y desmopresina según evolución. En el posoperatorio hipofisario puede aparecer un patrón trifásico: diabetes insípida inicial, fase antidiurética posterior y, en algunos casos, recurrencia de diabetes insípida. La desmopresina excesiva durante la fase antidiurética puede causar hiponatremia.`,
+  perlaENARM: "Poliuria con hipernatremia y orina inapropiadamente diluida orienta a diabetes insípida; tras cirugía hipofisaria, vigila la posible evolución trifásica.",
+  gpc: {
+    mexico: "Consultar protocolo institucional vigente para alteraciones hidroelectrolíticas después de cirugía hipofisaria.",
+    internacional: "Endotext: Diagnostic Tests for Diabetes Insipidus; literatura especializada en diabetes insípida posoperatoria."
+  },
+  bibliografia: "Garrahy A, Moran C, Thompson CJ. Diagnosis and management of central diabetes insipidus in adults. Clin Endocrinol (Oxf). 2019."
+},
+{
+  id: "ENDO-264",
+  especialidad: "Endocrinología",
+  tema: "Cáncer diferenciado de tiroides",
+  subtema: "Tiroglobulina detectable después de tiroidectomía",
+  dificultad: "Muy alta",
+  caso: `Mujer de 44 años con carcinoma papilar de tiroides de riesgo inicialmente intermedio, tratada con tiroidectomía total y radioyodo. A los 18 meses presenta tiroglobulina detectable de 3.2 ng/mL con TSH suprimida, anticuerpos antitiroglobulina negativos y ultrasonido cervical sin lesiones sospechosas.`,
+  pregunta: "¿Qué dato es indispensable para interpretar correctamente la tiroglobulina y clasificar la respuesta al tratamiento?",
+  opciones: [
+    "El tamaño inicial del nódulo es suficiente para definir enfermedad estructural persistente.",
+    "La tiroglobulina detectable demuestra metástasis a distancia.",
+    "La tendencia de tiroglobulina, el contexto de estimulación de TSH, el tratamiento recibido y el riesgo inicial deben integrarse antes de clasificar la respuesta.",
+    "Una tiroglobulina menor de 5 ng/mL excluye recurrencia en todos los pacientes.",
+    "La TSH suprimida vuelve imposible medir tiroglobulina."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La tiroglobulina es un marcador útil después del tratamiento de cáncer diferenciado de tiroides, pero su significado depende de si hubo tiroidectomía total, ablación con radioyodo, concentración de TSH, sensibilidad del ensayo y tendencia temporal. Una cifra aislada no demuestra enfermedad estructural ni metástasis. Los anticuerpos antitiroglobulina pueden interferir en la medición y deben monitorizarse. La clasificación dinámica de respuesta integra bioquímica, imagen y riesgo inicial, lo que orienta la intensidad de vigilancia y el objetivo de TSH.`,
+  perlaENARM: "En cáncer diferenciado de tiroides, la tiroglobulina no se interpreta sin conocer TSH, tratamiento previo, anticuerpos y tendencia longitudinal.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico, tratamiento y seguimiento del cáncer diferenciado de tiroides.",
+    internacional: "American Thyroid Association Guidelines for Differentiated Thyroid Cancer, 2015, con actualizaciones y consensos posteriores."
+  },
+  bibliografia: "Haugen BR, et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26:1-133."
+},
+{
+  id: "ENDO-265",
+  especialidad: "Endocrinología",
+  tema: "Cáncer medular de tiroides",
+  subtema: "Calcitonina y evaluación de enfermedad residual",
+  dificultad: "Muy alta",
+  caso: `Varón de 38 años sometido a tiroidectomía total y disección ganglionar por carcinoma medular de tiroides. La calcitonina preoperatoria era de 1,850 pg/mL. A las 48 horas de la cirugía sigue elevada en 420 pg/mL, y a los tres meses es de 95 pg/mL. El paciente está asintomático.`,
+  pregunta: "¿Qué característica de la cinética del marcador resulta más informativa para el pronóstico bioquímico?",
+  opciones: [
+    "La calcitonina debe normalizarse en las primeras dos horas para descartar persistencia.",
+    "El valor preoperatorio pierde relevancia después de la cirugía.",
+    "La persistencia y el tiempo de duplicación de calcitonina durante el seguimiento aportan información sobre carga y comportamiento de enfermedad.",
+    "Una calcitonina detectable siempre indica metástasis cerebral.",
+    "El tiempo de duplicación carece de utilidad si el paciente está asintomático."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La calcitonina es un marcador central en carcinoma medular de tiroides. Su descenso posoperatorio puede continuar durante un periodo, por lo que la medición muy temprana no debe interpretarse de manera aislada. La calcitonina y el CEA posoperatorios, sus tendencias y tiempos de duplicación contribuyen a estimar persistencia, progresión y pronóstico. La imagen se selecciona según las concentraciones, su cinética y la sospecha clínica. Un marcador elevado no localiza por sí mismo la enfermedad ni demuestra una metástasis en un órgano específico.`,
+  perlaENARM: "En carcinoma medular, la tendencia y el tiempo de duplicación de calcitonina y CEA aportan más que una cifra aislada para valorar progresión.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre carcinoma medular de tiroides y vigilancia posoperatoria.",
+    internacional: "American Thyroid Association Guidelines for Medullary Thyroid Carcinoma, 2015."
+  },
+  bibliografia: "Wells SA Jr, et al. Revised American Thyroid Association Guidelines for the Management of Medullary Thyroid Carcinoma. Thyroid. 2015;25:567-610."
+},
+{
+  id: "ENDO-266",
+  especialidad: "Endocrinología",
+  tema: "Hipotiroidismo",
+  subtema: "Alteración de pruebas tiroideas por enfermedad no tiroidea",
+  dificultad: "Muy alta",
+  caso: `Varón de 72 años en terapia intensiva por sepsis grave, sin antecedentes tiroideos. Presenta T3 total baja, T4 libre en el límite inferior y TSH de 0.18 mUI/L. No hay hipotermia, bradicardia inexplicada ni bocio. Recibió contraste yodado una semana antes.`,
+  pregunta: "¿Qué interpretación evita el sobrediagnóstico de enfermedad tiroidea primaria en esta fase?",
+  opciones: [
+    "TSH baja confirma hipertiroidismo manifiesto.",
+    "T3 baja confirma hipotiroidismo primario que requiere levotiroxina inmediata.",
+    "La enfermedad crítica puede alterar transitoriamente T3, T4 y TSH; deben integrarse la evolución clínica y las pruebas previas antes de atribuirlo a disfunción tiroidea primaria.",
+    "El contraste yodado siempre produce hipotiroidismo central permanente.",
+    "La T4 libre en límite bajo demuestra coma mixedematoso."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La enfermedad no tiroidea grave puede reducir T3 por cambios en desyodación y metabolismo periférico, y en cuadros más severos modificar T4 y TSH. Durante la fase crítica, estos resultados no demuestran por sí mismos hipotiroidismo primario. La decisión de tratar depende de evidencia clínica y bioquímica más convincente, antecedentes y evolución. El contraste yodado puede alterar la función tiroidea en personas susceptibles, pero no permite atribuir automáticamente el patrón a una alteración permanente. Si no existe sospecha clínica fuerte, repetir pruebas después de la recuperación suele aportar una interpretación más fiable.`,
+  perlaENARM: "En pacientes críticos, T3 baja es frecuente y no equivale por sí sola a hipotiroidismo primario; evita tratar resultados aislados sin contexto.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre disfunción tiroidea y evaluación del paciente críticamente enfermo.",
+    internacional: "European Thyroid Association guidance on thyroid dysfunction in special clinical settings."
+  },
+  bibliografia: "Fliers E, Bianco AC, Langouche L, Boelen A. Thyroid function in critically ill patients. Lancet Diabetes Endocrinol. 2015;3:816-825."
+},
+{
+  id: "ENDO-267",
+  especialidad: "Endocrinología",
+  tema: "Hipertiroidismo",
+  subtema: "Tirotoxicosis inducida por yodo",
+  dificultad: "Muy alta",
+  caso: `Varón de 76 años con bocio multinodular conocido desarrolla fibrilación auricular y pérdida ponderal cuatro semanas después de una angiografía con contraste yodado. La TSH está suprimida, la T4 libre elevada y la captación de radioyodo es muy baja. No presenta dolor tiroideo.`,
+  pregunta: "¿Por qué la captación baja no permite concluir automáticamente que se trata de tiroiditis destructiva?",
+  opciones: [
+    "La captación de radioyodo siempre está elevada en cualquier causa de tirotoxicosis.",
+    "La carga reciente de yodo puede suprimir la captación y precipitar síntesis hormonal autónoma en tejido nodular.",
+    "La captación baja confirma hipotiroidismo central.",
+    "La fibrilación auricular descarta tirotoxicosis por yodo.",
+    "El bocio multinodular excluye síntesis autónoma de hormonas."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La carga de yodo puede desencadenar hipertiroidismo en pacientes con autonomía tiroidea preexistente, fenómeno conocido como Jod-Basedow. Después de contraste yodado, la captación de radioyodo puede estar suprimida por el exceso de yodo, por lo que pierde especificidad para diferenciar síntesis aumentada de liberación destructiva. La cronología, el bocio previo, los anticuerpos, el Doppler y la evolución clínica ayudan a distinguir mecanismos. La fibrilación auricular en una persona mayor aumenta la relevancia clínica y requiere manejo cardiovascular y tiroideo coordinado.`,
+  perlaENARM: "Después de contraste yodado, una captación baja puede ser un artefacto fisiológico del exceso de yodo; no diagnostica por sí sola tiroiditis.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipertiroidismo y manejo de tirotoxicosis en adultos mayores.",
+    internacional: "European Thyroid Association guidance on iodine-based contrast media-induced thyroid dysfunction."
+  },
+  bibliografia: "Bednarczuk T, et al. 2021 European Thyroid Association Guidelines for the Management of Iodine-Based Contrast Media-Induced Thyroid Dysfunction. Eur Thyroid J. 2021."
+},
+{
+  id: "ENDO-268",
+  especialidad: "Endocrinología",
+  tema: "Osteoporosis",
+  subtema: "Fractura por fragilidad y discordancia con densitometría",
+  dificultad: "Muy alta",
+  caso: `Mujer de 67 años con fractura vertebral por compresión después de levantar una bolsa ligera. La DXA muestra T-score de -2.2 en columna lumbar y -1.8 en cuello femoral. No tiene cáncer conocido ni traumatismo de alta energía.`,
+  pregunta: "¿Qué inferencia clínica es correcta a partir de la fractura y los resultados densitométricos?",
+  opciones: [
+    "La osteoporosis queda excluida porque ningún T-score es menor de -2.5.",
+    "La fractura vertebral por fragilidad puede establecer osteoporosis clínica y justificar evaluación terapéutica aunque el T-score no alcance -2.5.",
+    "El T-score de columna determina por sí solo el riesgo y descarta fracturas futuras.",
+    "La fractura vertebral solo se considera osteoporótica si hay hipocalcemia.",
+    "La densitometría debe repetirse antes de reconocer el significado clínico de la fractura."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La densitometría cuantifica densidad mineral ósea, pero no captura por completo la microarquitectura ni todos los determinantes de resistencia ósea. Una fractura vertebral por fragilidad en una persona mayor es un evento clínico importante y puede justificar el diagnóstico de osteoporosis y tratamiento, incluso con T-score en rango de osteopenia. Deben investigarse causas secundarias, revisar imágenes y descartar diagnósticos alternativos según el contexto. La decisión farmacológica depende del tipo de fractura, riesgo absoluto, comorbilidades y evaluación integral.`,
+  perlaENARM: "Una fractura vertebral por fragilidad no se descarta como osteoporosis por tener T-score mayor de -2.5.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre prevención, diagnóstico y tratamiento de osteoporosis en adultos.",
+    internacional: "Bone Health and Osteoporosis Foundation Clinician's Guide, 2022."
+  },
+  bibliografia: "LeBoff MS, et al. The clinician's guide to prevention and treatment of osteoporosis. Osteoporos Int. 2022;33:2049-2102."
+},
+{
+  id: "ENDO-269",
+  especialidad: "Endocrinología",
+  tema: "Osteoporosis",
+  subtema: "Interpretación de densitometría en enfermedad degenerativa vertebral",
+  dificultad: "Muy alta",
+  caso: `Varón de 74 años con espondiloartrosis lumbar avanzada presenta T-score lumbar de +0.2, pero T-score de cuello femoral de -2.7. La radiografía muestra osteofitos extensos y calcificación aórtica. No hay fractura vertebral documentada.`,
+  pregunta: "¿Qué fenómeno explica mejor la discrepancia entre columna y cadera?",
+  opciones: [
+    "La espondiloartrosis reduce artificialmente la densidad mineral lumbar.",
+    "Los osteofitos y otras alteraciones degenerativas pueden elevar artificialmente la medición lumbar; debe interpretarse el sitio no afectado y la calidad técnica.",
+    "La densidad lumbar normal excluye osteoporosis en cualquier otro sitio.",
+    "La calcificación aórtica disminuye el valor densitométrico de columna.",
+    "El T-score de cadera no es válido en hombres mayores de 70 años."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La DXA lumbar puede sobreestimar la densidad mineral ósea cuando existen osteofitos, esclerosis, fracturas o calcificaciones proyectadas sobre la región medida. La interpretación exige revisar imágenes y excluir vértebras con artefactos significativos conforme a criterios técnicos. La cadera puede ofrecer una estimación más fiable en este contexto y un T-score de -2.5 o menor en cuello femoral cumple el umbral densitométrico de osteoporosis en adultos mayores. La discordancia no debe resolverse promediando indiscriminadamente sitios afectados por artefactos.`,
+  perlaENARM: "Una columna lumbar aparentemente normal en un adulto mayor con espondiloartrosis puede reflejar artefacto por aumento de densidad, no hueso sano.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre interpretación de densitometría y diagnóstico de osteoporosis.",
+    internacional: "International Society for Clinical Densitometry: Adult Official Positions."
+  },
+  bibliografia: "International Society for Clinical Densitometry. Adult Official Positions. Edición vigente."
+},
+{
+  id: "ENDO-270",
+  especialidad: "Endocrinología",
+  tema: "Síndrome metabólico",
+  subtema: "Riesgo cardiometabólico residual con LDL controlado",
+  dificultad: "Muy alta",
+  caso: `Varón de 54 años con diabetes tipo 2, obesidad visceral, triglicéridos de 310 mg/dL, HDL de 29 mg/dL y LDL de 68 mg/dL bajo estatina de alta intensidad. Tiene presión arterial de 132/78 mmHg y filtrado glomerular estimado de 82 mL/min/1.73 m².`,
+  pregunta: "¿Qué interpretación explica mejor por qué persiste riesgo aterogénico pese a LDL aparentemente controlado?",
+  opciones: [
+    "El LDL bajo elimina todo riesgo cardiovascular atribuible a lipoproteínas.",
+    "La hipertrigliceridemia y el fenotipo de resistencia a insulina pueden acompañarse de exceso de partículas remanentes y apoB, por lo que el riesgo no se resume en LDL-C.",
+    "El HDL bajo demuestra que debe suspenderse la estatina.",
+    "Los triglicéridos elevados descartan enfermedad aterosclerótica.",
+    "La ausencia de enfermedad renal elimina el riesgo cardiovascular residual."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La resistencia a insulina aumenta el flujo de ácidos grasos al hígado, la producción de VLDL y la formación de partículas remanentes. Puede coexistir LDL-C relativamente bajo con un número elevado de partículas aterogénicas, especialmente cuando los triglicéridos son altos. ApoB puede ayudar a estimar la carga de partículas en determinados contextos. La reducción de riesgo se centra en control global: estatina apropiada, presión arterial, glucemia, peso, actividad física y terapias adicionales indicadas por riesgo y perfil lipídico. Elevar farmacológicamente HDL-C no ha demostrado por sí mismo una reducción consistente de eventos.`,
+  perlaENARM: "En resistencia a insulina, LDL-C no siempre refleja toda la carga de partículas aterogénicas; integra triglicéridos, no-HDL-C y, cuando aporta valor, apoB.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre dislipidemia, diabetes y prevención cardiovascular.",
+    internacional: "ADA Standards of Care in Diabetes y guías de manejo de dislipidemia de sociedades cardiovasculares."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes. Diabetes Care. Edición anual vigente; guías AHA/ACC sobre manejo del colesterol."
+},
+{
+  id: "ENDO-271",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus tipo 1",
+  subtema: "Pérdida de reserva beta y clasificación de diabetes",
+  dificultad: "Muy alta",
+  caso: `Mujer de 33 años con pérdida ponderal, cetosis al diagnóstico y necesidad temprana de insulina. A los cuatro años presenta péptido C detectable, obesidad central y anticuerpos anti-GAD negativos en una medición tardía. Su expediente inicial documenta anti-GAD positivos y anticuerpos anti-IA-2 negativos.`,
+  pregunta: "¿Qué afirmación integra mejor la evolución de los marcadores y el fenotipo actual?",
+  opciones: [
+    "Un anti-GAD negativo tardío invalida cualquier resultado positivo inicial.",
+    "La obesidad actual obliga a reclasificar el caso como diabetes tipo 2.",
+    "La autoinmunidad documentada inicialmente y la reserva beta residual son compatibles con diabetes tipo 1 con función residual; el fenotipo aislado no define la clasificación.",
+    "El péptido C detectable excluye diabetes autoinmune.",
+    "La cetosis inicial demuestra diabetes monogénica."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La diabetes tipo 1 presenta una evolución heterogénea de la destrucción beta y puede conservar secreción endógena de insulina durante años. Los autoanticuerpos pueden disminuir o desaparecer con el tiempo, por lo que un resultado tardío negativo no invalida necesariamente una positividad documentada al inicio. Obesidad y resistencia a insulina pueden coexistir con diabetes autoinmune. La clasificación integra presentación, autoanticuerpos, péptido C interpretado con glucosa simultánea, historia clínica y evolución. La reserva residual puede modificar necesidades de insulina, pero no justifica retirarla sin una evaluación cuidadosa.`,
+  perlaENARM: "La diabetes tipo 1 puede coexistir con obesidad y péptido C detectable; los autoanticuerpos pueden perder sensibilidad con el tiempo.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico y tratamiento de diabetes mellitus tipo 1 en adultos.",
+    internacional: "ADA Standards of Care in Diabetes; consenso internacional sobre clasificación de diabetes."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes. Diabetes Care. Edición anual vigente."
+},
+{
+  id: "ENDO-272",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus tipo 2",
+  subtema: "Discordancia entre HbA1c y glucosa plasmática",
+  dificultad: "Muy alta",
+  caso: `Varón de 58 años con enfermedad renal crónica avanzada, anemia tratada recientemente con eritropoyetina y transfusión sanguínea hace tres semanas. La HbA1c es de 5.9%, pero las glucemias capilares y el monitoreo continuo muestran hiperglucemia persistente, con promedio estimado equivalente a HbA1c cercana a 8.5%.`,
+  pregunta: "¿Qué variable explica mejor que la HbA1c subestime la exposición glucémica real?",
+  opciones: [
+    "La HbA1c nunca se altera en enfermedad renal crónica.",
+    "La reducción de la vida media eritrocitaria, la eritropoyetina y la transfusión pueden distorsionar la HbA1c independientemente de la glucemia.",
+    "El monitoreo continuo mide glucosa intersticial y por eso siempre sobreestima la glucemia.",
+    "La HbA1c solo es válida cuando la glucosa en ayuno es normal.",
+    "La anemia eleva siempre la HbA1c, por lo que el resultado debe corregirse hacia arriba con una fórmula universal."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La HbA1c depende de la exposición glucémica y de la duración de vida de los eritrocitos. En enfermedad renal avanzada, anemia, tratamiento con eritropoyetina y transfusiones pueden alterar su relación con la glucemia real; el efecto puede variar según el mecanismo. Ante discordancia importante, se priorizan las mediciones directas de glucosa y los datos de monitoreo continuo, junto con revisión de factores analíticos. La albúmina glucada o fructosamina pueden ser alternativas en contextos seleccionados, aunque también tienen limitaciones, especialmente si existe alteración del recambio proteico o hipoalbuminemia.`,
+  perlaENARM: "HbA1c discordante con glucosa directa en ERC, anemia o transfusión: no intensifiques ni reduzcas tratamiento basándote solo en HbA1c.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre evaluación del control glucémico en enfermedad renal crónica.",
+    internacional: "ADA Standards of Care in Diabetes; KDIGO Clinical Practice Guideline for Diabetes Management in CKD, 2022."
+  },
+  bibliografia: "KDIGO. Clinical Practice Guideline for Diabetes Management in Chronic Kidney Disease. Kidney Int. 2022;102(Suppl):S1-S127."
+},
+{
+  id: "ENDO-273",
+  especialidad: "Endocrinología",
+  tema: "Complicaciones microvasculares de la diabetes",
+  subtema: "Retinopatía diabética y cambios tras intensificación glucémica",
+  dificultad: "Muy alta",
+  caso: `Mujer de 49 años con diabetes de larga evolución, HbA1c de 12.1% y retinopatía no proliferativa moderada. Tras intensificación rápida del tratamiento, la HbA1c desciende a 7.2% en tres meses. En la evaluación oftalmológica posterior se observa progresión de lesiones retinianas.`,
+  pregunta: "¿Qué explicación es más consistente con la evolución temporal?",
+  opciones: [
+    "La reducción de HbA1c descarta que las lesiones sean diabéticas.",
+    "La mejoría glucémica rápida puede asociarse con empeoramiento temprano transitorio de retinopatía en pacientes susceptibles, sin invalidar el beneficio del control sostenido.",
+    "La progresión demuestra toxicidad directa de toda terapia intensiva y obliga a mantener hiperglucemia.",
+    "La retinopatía diabética solo progresa cuando la HbA1c aumenta.",
+    "La progresión temprana confirma necesariamente oclusión de la arteria central de la retina."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El empeoramiento temprano de retinopatía puede aparecer tras una mejoría glucémica rápida, particularmente cuando la hiperglucemia ha sido intensa y prolongada y ya existe retinopatía. Este fenómeno no implica que el control glucémico sostenido sea perjudicial; el beneficio microvascular a largo plazo permanece establecido. La presencia de retinopatía significativa debe motivar evaluación oftalmológica y planificación de seguimiento al intensificar el tratamiento. El manejo de presión arterial, lípidos y otros factores de riesgo también influye en el pronóstico ocular.`,
+  perlaENARM: "La mejoría glucémica rápida puede empeorar transitoriamente la retinopatía preexistente; el control sostenido sigue siendo beneficioso, con vigilancia oftalmológica apropiada.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre retinopatía diabética y seguimiento oftalmológico.",
+    internacional: "ADA Standards of Care in Diabetes: Retinopathy, Neuropathy, and Foot Care."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes. Diabetes Care. Edición anual vigente; DCCT Research Group, Arch Ophthalmol. 1998."
+},
+{
+  id: "ENDO-274",
+  especialidad: "Endocrinología",
+  tema: "Complicaciones macrovasculares de la diabetes",
+  subtema: "Insuficiencia cardiaca y selección de tratamiento hipoglucemiante",
+  dificultad: "Muy alta",
+  caso: `Varón de 66 años con diabetes tipo 2, fracción de eyección de 30%, filtrado glomerular de 48 mL/min/1.73 m² y HbA1c de 7.8%. Recibe metformina a dosis ajustada y diurético de asa. No tiene cetoacidosis ni hipovolemia, y la presión arterial es estable.`,
+  pregunta: "¿Qué característica de una clase farmacológica modifica el tratamiento más allá de la reducción de HbA1c?",
+  opciones: [
+    "Las tiazolidinedionas mejoran de forma consistente la insuficiencia cardiaca con fracción de eyección reducida.",
+    "Los inhibidores de SGLT2 reducen eventos relacionados con insuficiencia cardiaca y pueden aportar beneficio renal, independientemente de que la HbA1c no sea muy elevada.",
+    "Los inhibidores de DPP-4 tienen todos el mismo efecto sobre hospitalización por insuficiencia cardiaca.",
+    "La insulina está absolutamente contraindicada en cualquier paciente con insuficiencia cardiaca.",
+    "La elección debe basarse exclusivamente en lograr HbA1c menor de 6.0%."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En diabetes tipo 2 con insuficiencia cardiaca, los inhibidores de SGLT2 tienen beneficios cardiovasculares y renales que no dependen exclusivamente de su efecto glucémico. La selección requiere revisar función renal, estado de volumen, riesgo de cetoacidosis y otras contraindicaciones. Los diuréticos y el estado hemodinámico exigen vigilancia de volumen, especialmente al inicio. Las tiazolidinedionas pueden causar retención de líquidos y empeorar insuficiencia cardiaca. La elección farmacológica moderna se orienta por comorbilidades y reducción de eventos, no solo por la HbA1c.`,
+  perlaENARM: "En diabetes con insuficiencia cardiaca, el beneficio cardiorrenal puede priorizar una clase terapéutica aunque la HbA1c esté cerca de la meta.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diabetes tipo 2, insuficiencia cardiaca y enfermedad renal crónica.",
+    internacional: "ADA Standards of Care in Diabetes; guías AHA/ACC/HFSA de insuficiencia cardiaca."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes. Diabetes Care. Edición anual vigente; Heidenreich PA, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. Circulation. 2022."
+},
+{
+  id: "ENDO-275",
+  especialidad: "Endocrinología",
+  tema: "Cetoacidosis diabética",
+  subtema: "Interpretación de cetonemia con brecha aniónica persistente",
+  dificultad: "Muy alta",
+  caso: `Mujer de 24 años con diabetes tipo 1 ingresó con cetoacidosis: pH 7.08, bicarbonato 7 mmol/L y beta-hidroxibutirato 7.2 mmol/L. Tras líquidos e insulina, el beta-hidroxibutirato desciende a 0.5 mmol/L y el pH es 7.31, pero el bicarbonato permanece en 15 mmol/L y el cloro está elevado. Está hemodinámicamente estable.`,
+  pregunta: "¿Qué mecanismo explica mejor la acidosis residual en este momento?",
+  opciones: [
+    "Persistencia obligatoria de cetoacidosis porque el bicarbonato no ha alcanzado 22 mmol/L.",
+    "Acidosis metabólica hiperclorémica asociada a la reposición de líquidos, después de la resolución de la cetosis.",
+    "Alcalosis metabólica oculta por exceso de insulina.",
+    "Acidosis láctica demostrada por el cloro elevado.",
+    "Insuficiencia renal aguda confirmada por el bicarbonato bajo."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Durante el tratamiento de la cetoacidosis, la pérdida urinaria de cetoaniones y la administración de soluciones ricas en cloro pueden producir acidosis metabólica hiperclorémica. La cetonemia cuantitativa y la evolución del pH aportan información más específica que el bicarbonato aislado. Deben evaluarse la brecha aniónica, el cloro, la función renal y el estado clínico para distinguir acidosis residual de cetosis persistente. La transición a insulina subcutánea debe seguir los criterios de resolución y garantizar superposición apropiada para evitar recurrencia.`,
+  perlaENARM: "Después de tratar la CAD, bicarbonato bajo con beta-hidroxibutirato normalizado y cloro alto puede reflejar acidosis hiperclorémica residual, no cetosis persistente.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico y tratamiento de cetoacidosis diabética.",
+    internacional: "2024 Consensus Report: Hyperglycemic Crises in Adults With Diabetes."
+  },
+  bibliografia: "Umpierrez GE, et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care. 2024."
+},
+{
+  id: "ENDO-276",
+  especialidad: "Endocrinología",
+  tema: "Estado hiperosmolar hiperglucémico",
+  subtema: "Interpretación de sodio corregido y tonicidad",
+  dificultad: "Muy alta",
+  caso: `Varón de 78 años con diabetes tipo 2 presenta glucosa de 900 mg/dL, sodio medido de 150 mmol/L, BUN de 42 mg/dL y alteración del estado mental. No hay cetonemia significativa. La osmolaridad efectiva calculada con sodio medido y glucosa en mg/dL es aproximadamente 350 mOsm/kg.`,
+  pregunta: "¿Qué componente explica mejor la tonicidad elevada y por qué el BUN no debe incluirse en la osmolaridad efectiva?",
+  opciones: [
+    "El BUN es el principal osmolo efectivo y determina por sí solo el estado neurológico.",
+    "La glucosa y el sodio contribuyen a la tonicidad; la urea atraviesa membranas relativamente libremente y contribuye menos al gradiente osmótico transcelular sostenido.",
+    "La hipernatremia medida es necesariamente un error por la glucosa elevada.",
+    "La osmolaridad efectiva se calcula solo con glucosa y BUN.",
+    "La ausencia de cetonas excluye una emergencia hiperglucémica."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La osmolaridad efectiva o tonicidad se estima habitualmente como 2 × sodio + glucosa/18 cuando la glucosa está en mg/dL. El BUN se incluye en la osmolaridad total calculada, pero suele excluirse de la efectiva porque la urea atraviesa muchas membranas celulares y no mantiene el mismo gradiente osmótico sostenido que el sodio y la glucosa. El estado hiperosmolar puede causar alteraciones neurológicas graves y requiere corrección cuidadosa de volumen, glucosa y electrolitos. La velocidad de cambio importa para evitar complicaciones neurológicas.`,
+  perlaENARM: "Osmolaridad efectiva = 2 × Na + glucosa/18. No incluyas BUN en la tonicidad; sí contribuye a la osmolaridad total.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre estado hiperosmolar hiperglucémico.",
+    internacional: "2024 Consensus Report: Hyperglycemic Crises in Adults With Diabetes."
+  },
+  bibliografia: "Umpierrez GE, et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care. 2024."
+},
+{
+  id: "ENDO-277",
+  especialidad: "Endocrinología",
+  tema: "Hipoglucemia",
+  subtema: "Insuficiencia suprarrenal como causa de hipoglucemia recurrente",
+  dificultad: "Muy alta",
+  caso: `Mujer de 35 años sin diabetes presenta episodios recurrentes de hipoglucemia, pérdida ponderal, náusea y mareo ortostático. Durante un episodio, glucosa plasmática de 48 mg/dL, insulina y péptido C suprimidos. El sodio es de 129 mmol/L, el potasio de 5.5 mmol/L y la presión arterial baja.`,
+  pregunta: "¿Qué patrón de laboratorio integra mejor los síntomas sistémicos con la hipoglucemia no hiperinsulinémica?",
+  opciones: [
+    "Insulinoma con supresión completa de insulina.",
+    "Insuficiencia suprarrenal primaria, con déficit de cortisol y posible déficit de aldosterona.",
+    "Hipoglucemia posprandial aislada sin alteración endocrina.",
+    "Hipertiroidismo como explicación de la hiponatremia e hiperpotasemia.",
+    "Secreción de insulina exógena con insulina plasmática siempre indetectable."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El cortisol favorece la producción hepática de glucosa y participa en la respuesta contrarreguladora. Su déficit puede contribuir a hipoglucemia, especialmente durante ayuno o enfermedad intercurrente. La combinación de hipotensión, hiponatremia e hiperpotasemia sugiere insuficiencia suprarrenal primaria con posible déficit mineralocorticoide. La evaluación incluye cortisol y ACTH, con prueba de estimulación cuando la situación lo permite; si existe sospecha de crisis, el tratamiento glucocorticoide no debe retrasarse para obtener confirmación. La hipoglucemia con insulina suprimida obliga a investigar causas no hiperinsulinémicas.`,
+  perlaENARM: "Hipoglucemia no hiperinsulinémica acompañada de hipotensión, hiponatremia e hiperpotasemia debe hacer sospechar insuficiencia suprarrenal primaria.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre insuficiencia suprarrenal y crisis adrenal.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Diagnosis and Treatment of Primary Adrenal Insufficiency, 2016."
+  },
+  bibliografia: "Bornstein SR, et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016;101:364-389."
+},
+{
+  id: "ENDO-278",
+  especialidad: "Endocrinología",
+  tema: "Feocromocitoma",
+  subtema: "Interpretación de metanefrinas en pacientes con interferencias",
+  dificultad: "Muy alta",
+  caso: `Mujer de 42 años con crisis de palpitaciones y cefalea. Las metanefrinas plasmáticas están elevadas 1.4 veces el límite superior normal. La muestra se obtuvo sentada, inmediatamente después de caminar desde la sala de espera; la paciente utiliza venlafaxina y consume cafeína en exceso. La tomografía muestra una lesión suprarrenal de 1.8 cm.`,
+  pregunta: "¿Qué aspecto preanalítico y farmacológico puede explicar un resultado falsamente positivo antes de atribuir funcionalidad a la lesión?",
+  opciones: [
+    "Las metanefrinas solo se elevan por feocromocitoma y no tienen interferencias relevantes.",
+    "La postura, el estrés de la toma y los fármacos que alteran la neurotransmisión noradrenérgica pueden elevar las metanefrinas.",
+    "Una elevación menor de dos veces el límite superior confirma metástasis.",
+    "La cafeína disminuye siempre las metanefrinas plasmáticas.",
+    "La lesión suprarrenal hace innecesaria la confirmación bioquímica."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Las metanefrinas plasmáticas libres son pruebas sensibles para feocromocitoma y paraganglioma, pero elevaciones leves pueden aparecer por estrés, postura y determinados medicamentos. La toma en decúbito tras reposo adecuado mejora la especificidad en muchos contextos. Los inhibidores de la recaptación de noradrenalina pueden producir resultados falsamente positivos y deben considerarse al planear la interpretación. Una lesión suprarrenal incidental no demuestra secreción catecolaminérgica. La decisión de repetir la prueba, utilizar otra modalidad o avanzar a imagen funcional depende de la magnitud de la elevación y la probabilidad preprueba.`,
+  perlaENARM: "Metanefrinas discretamente elevadas requieren revisar postura, reposo, medicamentos y probabilidad preprueba antes de diagnosticar feocromocitoma.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre feocromocitoma, paraganglioma e incidentaloma suprarrenal.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Pheochromocytoma and Paraganglioma, 2014."
+  },
+  bibliografia: "Lenders JWM, et al. Pheochromocytoma and Paraganglioma: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2014;99:1915-1942."
+},
+{
+  id: "ENDO-279",
+  especialidad: "Endocrinología",
+  tema: "Hiperaldosteronismo primario",
+  subtema: "Interpretación de renina y aldosterona en presencia de fármacos",
+  dificultad: "Muy alta",
+  caso: `Varón de 52 años con hipertensión resistente e hipopotasemia. Toma espironolactona, losartán y clortalidona. La renina está elevada y la aldosterona también está elevada, con una relación aldosterona-renina no sugestiva de hiperaldosteronismo. La muestra se obtuvo durante hipopotasemia no corregida.`,
+  pregunta: "¿Qué limitación invalida una interpretación simplista de una relación aldosterona-renina no elevada?",
+  opciones: [
+    "La espironolactona y losartán pueden elevar renina y modificar la relación; además, la hipopotasemia puede reducir la aldosterona.",
+    "La aldosterona nunca se altera por potasio sérico.",
+    "La relación aldosterona-renina es independiente de cualquier antihipertensivo.",
+    "Una renina elevada confirma hiperaldosteronismo primario.",
+    "La hipopotasemia aumenta siempre la aldosterona y produce falsos negativos imposibles."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La relación aldosterona-renina depende del estado de potasio, ingesta de sodio, postura, horario y medicamentos. Los antagonistas del receptor mineralocorticoide y los bloqueadores del sistema renina-angiotensina pueden elevar renina y reducir la sensibilidad de la relación; los diuréticos también interfieren. La hipopotasemia puede suprimir la secreción de aldosterona y generar resultados falsamente tranquilizadores. Cuando sea seguro, debe corregirse el potasio y planear una evaluación bioquímica con ajustes farmacológicos individualizados. En hipertensión resistente con hipopotasemia, una prueba negativa bajo condiciones interferentes no excluye el diagnóstico.`,
+  perlaENARM: "Una relación aldosterona-renina negativa bajo espironolactona, ARA-II, diuréticos o hipopotasemia no excluye de forma fiable hiperaldosteronismo primario.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipertensión resistente e hiperaldosteronismo primario.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Primary Aldosteronism, 2016; actualización internacional más reciente disponible."
+  },
+  bibliografia: "Funder JW, et al. The Management of Primary Aldosteronism: Case Detection, Diagnosis, and Treatment. J Clin Endocrinol Metab. 2016;101:1889-1916."
+},
+{
+  id: "ENDO-280",
+  especialidad: "Endocrinología",
+  tema: "Hiperparatiroidismo primario",
+  subtema: "Interpretación de calcio y PTH con función renal alterada",
+  dificultad: "Muy alta",
+  caso: `Mujer de 63 años con calcio total de 10.8 mg/dL, albúmina de 3.0 g/dL, PTH de 95 pg/mL y filtrado glomerular estimado de 42 mL/min/1.73 m². El fosfato está en límite bajo y la 25-hidroxivitamina D es de 14 ng/mL. No hay calcio ionizado disponible.`,
+  pregunta: "¿Qué dato impide atribuir sin reservas la elevación de PTH a hiperparatiroidismo primario aislado?",
+  opciones: [
+    "La PTH nunca aumenta en enfermedad renal crónica.",
+    "La deficiencia de vitamina D y la enfermedad renal pueden elevar PTH secundariamente y complicar la interpretación del calcio total.",
+    "El fosfato bajo excluye cualquier trastorno paratiroideo.",
+    "La albúmina baja demuestra hipocalcemia verdadera.",
+    "El calcio total no tiene ninguna utilidad clínica en la evaluación del hiperparatiroidismo."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La PTH elevada debe interpretarse en relación con calcio, función renal, vitamina D y fosfato. La deficiencia de vitamina D y la enfermedad renal crónica pueden producir hiperparatiroidismo secundario, mientras que la hipoalbuminemia dificulta interpretar el calcio total. Las fórmulas de calcio corregido tienen limitaciones y pueden ser inexactas en enfermedad renal o enfermedad crítica; el calcio ionizado aporta información directa cuando existe discordancia. Antes de establecer hiperparatiroidismo primario, deben repetirse mediciones y evaluar causas secundarias, considerando el patrón bioquímico completo.`,
+  perlaENARM: "PTH alta no equivale automáticamente a hiperparatiroidismo primario: evalúa vitamina D, función renal, albúmina y calcio ionizado cuando sea necesario.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hiperparatiroidismo y trastorno mineral óseo en enfermedad renal crónica.",
+    internacional: "Fifth International Workshop Guidelines for the Evaluation and Management of Primary Hyperparathyroidism, 2022; KDIGO CKD-MBD."
+  },
+  bibliografia: "Bilezikian JP, et al. Evaluation and Management of Primary Hyperparathyroidism: Summary Statement and Guidelines from the Fifth International Workshop. J Bone Miner Res. 2022;37:2293-2314. KDIGO CKD-MBD Update. Kidney Int Suppl. 2017."
+},
+
+{
+  id: "ENDO-281",
+  especialidad: "Endocrinología",
+  tema: "Fisiología tiroidea",
+  subtema: "Alteraciones de proteínas transportadoras y discordancia hormonal",
+  dificultad: "Muy alta",
+  caso: `Mujer de 31 años, clínicamente eutiroidea, en tratamiento con anticonceptivos combinados. En una evaluación preoperatoria presenta T4 total de 15.2 µg/dL, T3 total elevada, T4 libre normal y TSH de 1.7 mUI/L. No hay antecedentes de enfermedad tiroidea ni anticuerpos positivos.`,
+  pregunta: "¿Qué cambio molecular explica mejor la combinación de resultados sin necesidad de postular una alteración primaria de la glándula?",
+  opciones: [
+    "Disminución de la afinidad de la albúmina por T4 con aumento compensatorio de TSH.",
+    "Aumento de la globulina transportadora de tiroxina (TBG), con incremento de las concentraciones totales y conservación de la fracción libre.",
+    "Inhibición de la desyodasa tipo 1 con acumulación obligatoria de T4 libre.",
+    "Resistencia generalizada a hormonas tiroideas por mutación del receptor TRβ.",
+    "Autonomía tiroidea subclínica con producción excesiva de T3 y T4."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los estrógenos aumentan la concentración de TBG, lo que incrementa la cantidad de hormona tiroidea unida a proteínas y, por tanto, las concentraciones totales de T4 y T3. Una vez alcanzado el nuevo equilibrio, la fracción libre y la TSH permanecen normales si el eje funciona adecuadamente. El Manual CTO, tema 1.3, describe esta situación como hipertiroxinemia eutiroidea y diferencia las alteraciones de transporte de las verdaderas alteraciones funcionales. El patrón no justifica tratamiento antitiroideo ni levotiroxina. Si existe discordancia persistente entre métodos, deben considerarse interferencias analíticas y alteraciones hereditarias de proteínas transportadoras.`,
+  perlaENARM: "T4 total elevada + T4 libre normal + TSH normal en una paciente que recibe estrógenos sugiere aumento de TBG, no hipertiroidismo.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre interpretación de pruebas de función tiroidea.",
+    internacional: "ATA: evaluación bioquímica de la función tiroidea; revisar indicaciones específicas de estudio ante discordancia persistente."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 1.3, pp. 6-7."
+},
+{
+  id: "ENDO-282",
+  especialidad: "Endocrinología",
+  tema: "Fisiología tiroidea",
+  subtema: "Síndrome de Pendred y transporte apical de yoduro",
+  dificultad: "Muy alta",
+  caso: `Adolescente de 16 años con hipoacusia neurosensorial bilateral desde la infancia y aumento progresivo del volumen tiroideo. La TSH es discretamente elevada y la T4 libre está en el límite inferior. No existen antecedentes de exposición a radiación cervical ni datos de autoinmunidad tiroidea.`,
+  pregunta: "¿Qué proteína y proceso fisiológico relacionan de forma más directa las manifestaciones auditivas y tiroideas?",
+  opciones: [
+    "NIS, responsable de transportar yoduro desde el coloide hacia la circulación.",
+    "Pendrina, implicada en el transporte apical de aniones y en la salida de yoduro hacia el coloide tiroideo.",
+    "TPO, responsable de transportar yoduro a través de la membrana basolateral.",
+    "Tiroglobulina, que funciona como receptor nuclear de T3.",
+    "Desyodasa tipo 2, que transporta yodo al oído interno."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El síndrome de Pendred se asocia a variantes patogénicas bialélicas de SLC26A4, que codifica pendrina. Esta proteína participa en el transporte apical de aniones en el tiroides y también cumple funciones en el oído interno. Su alteración puede ocasionar hipoacusia neurosensorial y bocio, con hipotiroidismo variable. Debe distinguirse del defecto del simportador sodio-yoduro, que altera la captación basolateral, y de los defectos de TPO, que afectan la organificación del yodo. La gravedad tiroidea es variable y la hipoacusia puede preceder durante años al bocio.`,
+  perlaENARM: "Hipoacusia neurosensorial más bocio sugiere síndrome de Pendred; pendrina participa en el transporte apical de aniones.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de bocio, hipotiroidismo congénito y evaluación de hipoacusia hereditaria.",
+    internacional: "GeneReviews: SLC26A4-Related Sensorineural Hearing Loss; literatura especializada en defectos de hormonogénesis tiroidea."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 1.3, p. 6."
+},
+{
+  id: "ENDO-283",
+  especialidad: "Endocrinología",
+  tema: "Fisiología de la prolactina",
+  subtema: "Efecto de tallo y regulación dopaminérgica",
+  dificultad: "Muy alta",
+  caso: `Mujer de 48 años con cefalea progresiva y alteraciones campimétricas. La resonancia muestra una masa selar de 2.6 cm que comprime el tallo hipofisario. La prolactina es de 78 ng/mL, la T4 libre está disminuida con TSH inapropiadamente normal y el cortisol matutino es bajo.`,
+  pregunta: "¿Qué propiedad de la regulación hipofisaria explica que la prolactina esté elevada a pesar de una lesión que también compromete otros ejes?",
+  opciones: [
+    "La prolactina es la única hormona adenohipofisaria cuyo control hipotalámico es predominantemente inhibitorio, mediado por dopamina.",
+    "La prolactina depende exclusivamente de la estimulación por GnRH.",
+    "La compresión del tallo aumenta selectivamente la secreción de todas las hormonas hipofisarias.",
+    "La prolactina se sintetiza principalmente en la neurohipófisis.",
+    "La TSH elevada estimula directamente la secreción de prolactina en todos los pacientes."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La dopamina hipotalámica inhibe tónicamente la secreción de prolactina a través de receptores D2. La compresión del tallo interrumpe la llegada de dopamina a los lactotropos y puede producir hiperprolactinemia moderada, denominada efecto de tallo. A diferencia de la prolactina, otros ejes adenohipofisarios suelen presentar déficits por daño hipofisario o desconexión de estímulos liberadores. Una concentración de prolactina moderadamente elevada no demuestra por sí sola un prolactinoma; la magnitud, el tamaño tumoral, la función renal, los fármacos y el efecto gancho deben considerarse cuando exista discordancia.`,
+  perlaENARM: "La lesión del tallo puede causar hiperprolactinemia por pérdida del freno dopaminérgico, mientras produce déficit de otros ejes.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hiperprolactinemia y masas selares.",
+    internacional: "Endocrine Society: evaluación de hiperprolactinemia; consensos internacionales sobre tumores hipofisarios."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 1.2 y tema 2.1."
+},
+{
+  id: "ENDO-284",
+  especialidad: "Endocrinología",
+  tema: "Fisiología hipotalámica-hipofisaria",
+  subtema: "Administración continua de GnRH y desensibilización gonadotropa",
+  dificultad: "Muy alta",
+  caso: `Varón de 62 años con cáncer de próstata hormonodependiente inicia un análogo de GnRH de liberación prolongada. En los primeros días aumenta transitoriamente la testosterona; semanas después, LH y testosterona descienden a concentraciones de castración.`,
+  pregunta: "¿Qué modificación de la señalización explica la transición entre la respuesta inicial y la supresión sostenida?",
+  opciones: [
+    "La estimulación pulsátil continua mantiene la síntesis de LH sin cambios.",
+    "La estimulación continua del receptor de GnRH causa desensibilización y reducción funcional de la secreción de gonadotrofinas.",
+    "El análogo bloquea directamente el receptor androgénico prostático sin afectar la hipófisis.",
+    "La FSH inhibe de forma irreversible la síntesis testicular de testosterona.",
+    "El aumento inicial de testosterona demuestra resistencia hipofisaria permanente."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La secreción fisiológica de GnRH es pulsátil. La administración continua de un agonista produce inicialmente estimulación de LH y FSH, con aumento transitorio de esteroides sexuales, seguido de desensibilización y regulación a la baja del sistema gonadotropo. La supresión de LH reduce la producción testicular de testosterona. Este fenómeno se utiliza terapéuticamente en enfermedades dependientes de hormonas gonadales. Los antagonistas de GnRH producen supresión más rápida sin el mismo fenómeno inicial de estimulación, aunque su selección depende del escenario clínico.`,
+  perlaENARM: "GnRH pulsátil estimula LH/FSH; GnRH agonista continuo termina suprimiéndolas tras una fase inicial de estimulación.",
+  gpc: {
+    mexico: "Consultar guías mexicanas vigentes de cáncer de próstata y supresión androgénica.",
+    internacional: "Guías internacionales de cáncer de próstata sobre terapia de deprivación androgénica."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 1.2, p. 5."
+},
+{
+  id: "ENDO-285",
+  especialidad: "Endocrinología",
+  tema: "Fisiología suprarrenal",
+  subtema: "Exceso aparente de mineralocorticoides por alteración de 11β-HSD2",
+  dificultad: "Muy alta",
+  caso: `Varón de 28 años con hipertensión de inicio temprano, hipopotasemia, alcalosis metabólica y supresión de renina y aldosterona. Refiere consumo crónico de un producto herbal para molestias digestivas cuyo componente principal es regaliz. No hay antecedentes familiares de hiperaldosteronismo.`,
+  pregunta: "¿Qué alteración permite que el cortisol active el receptor mineralocorticoide a pesar de que la aldosterona esté suprimida?",
+  opciones: [
+    "Activación constitutiva de la aldosterona sintasa por aumento de ACTH.",
+    "Inhibición de 11β-hidroxiesteroide deshidrogenasa tipo 2, que normalmente convierte cortisol en cortisona en el riñón.",
+    "Aumento de la degradación renal de cortisol por 11β-HSD1.",
+    "Mutación activadora obligatoria del receptor glucocorticoide.",
+    "Deficiencia de 21-hidroxilasa con aumento de aldosterona."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La 11β-HSD2 renal protege al receptor mineralocorticoide al convertir cortisol en cortisona, que tiene mucha menor actividad en dicho receptor. El ácido glicirrícico del regaliz puede inhibir esta enzima, permitiendo que el cortisol active el receptor mineralocorticoide. El resultado es retención de sodio, pérdida renal de potasio e hidrogeniones, hipertensión y supresión de renina y aldosterona. La exposición debe investigarse en alimentos, infusiones, suplementos y productos medicinales. El patrón se diferencia del hiperaldosteronismo primario por la aldosterona baja.`,
+  perlaENARM: "Hipertensión + hipopotasemia + renina baja + aldosterona baja obliga a pensar en exceso aparente de mineralocorticoides, incluido regaliz.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de hipertensión secundaria y trastornos del potasio.",
+    internacional: "Literatura endocrinológica sobre exceso aparente de mineralocorticoides y metabolismo del cortisol."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 1.4, pp. 8-9."
+},
+{
+  id: "ENDO-286",
+  especialidad: "Endocrinología",
+  tema: "Fisiología suprarrenal",
+  subtema: "Regulación diferencial de aldosterona y cortisol",
+  dificultad: "Muy alta",
+  caso: `Paciente de 44 años con insuficiencia suprarrenal primaria confirmada. Presenta cortisol muy bajo, ACTH marcadamente elevada, renina elevada y aldosterona baja. El potasio es de 5.7 mmol/L y el sodio de 128 mmol/L.`,
+  pregunta: "¿Qué explicación fisiológica justifica que la deficiencia de aldosterona no dependa exclusivamente de la disminución de ACTH?",
+  opciones: [
+    "La aldosterona se regula principalmente por el sistema renina-angiotensina y por el potasio, mientras que el cortisol depende de forma predominante de ACTH.",
+    "La aldosterona es secretada por la médula suprarrenal y depende de catecolaminas.",
+    "La ACTH es el regulador único y sostenido de aldosterona en condiciones fisiológicas.",
+    "La renina inhibe la síntesis de aldosterona cuando disminuye el volumen circulante.",
+    "El potasio elevado suprime directamente la zona glomerulosa."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La corteza suprarrenal presenta regulación zonal. La zona fasciculada produce cortisol bajo el control predominante de ACTH; la zona glomerulosa produce aldosterona, regulada principalmente por angiotensina II y potasio plasmático. En la insuficiencia suprarrenal primaria se pierde la función cortical y pueden coexistir deficiencia de glucocorticoides y mineralocorticoides. La renina elevada refleja disminución del volumen efectivo y pérdida de la retroalimentación mineralocorticoide. La ACTH puede influir en la aldosterona, pero no sustituye la regulación por el sistema renina-angiotensina ni por el potasio.`,
+  perlaENARM: "Cortisol: regulación predominante por ACTH. Aldosterona: regulación predominante por angiotensina II y potasio.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre insuficiencia suprarrenal primaria.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Primary Adrenal Insufficiency, 2016."
+  },
+  bibliografia: "Bornstein SR, et al. Diagnosis and Treatment of Primary Adrenal Insufficiency. J Clin Endocrinol Metab. 2016;101:364-389. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 1.4."
+},
+{
+  id: "ENDO-287",
+  especialidad: "Endocrinología",
+  tema: "Metabolismo del ayuno",
+  subtema: "Cambio de combustible cerebral y cetogénesis",
+  dificultad: "Muy alta",
+  caso: `Adulto sano sometido a ayuno prolongado de varios días. La insulina está disminuida, el glucagón elevado, los ácidos grasos libres aumentados y la cetonemia en ascenso. La glucosa se mantiene en un rango compatible con adaptación al ayuno, sin síntomas neurológicos.`,
+  pregunta: "¿Qué adaptación metabólica reduce progresivamente la necesidad de gluconeogénesis a partir de aminoácidos musculares?",
+  opciones: [
+    "Aumento sostenido de insulina y supresión completa de lipólisis.",
+    "Utilización cerebral creciente de cuerpos cetónicos, que disminuye parcialmente la demanda de glucosa y el catabolismo proteico.",
+    "Conversión directa de ácidos grasos de cadena larga en glucosa neta en el hígado.",
+    "Inhibición de la beta-oxidación y aumento de la glucólisis hepática.",
+    "Síntesis renal de glucosa exclusivamente a partir de triglicéridos."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Durante el ayuno, la caída de insulina y el aumento relativo de glucagón favorecen lipólisis, beta-oxidación hepática y producción de cuerpos cetónicos. A medida que el ayuno se prolonga, el cerebro incrementa el uso de cuerpos cetónicos, lo que reduce su demanda de glucosa y permite disminuir la proteólisis muscular necesaria para aportar aminoácidos gluconeogénicos. Los ácidos grasos de cadena par no producen glucosa neta de forma significativa en humanos, aunque el glicerol de los triglicéridos sí puede contribuir a la gluconeogénesis. Esta adaptación conserva proteínas durante el ayuno prolongado.`,
+  perlaENARM: "En ayuno prolongado, la cetoadaptación cerebral ahorra proteínas; los ácidos grasos de cadena par no generan glucosa neta.",
+  gpc: {
+    mexico: "Consultar material mexicano vigente de fisiología y soporte nutricional cuando el escenario sea clínico.",
+    internacional: "Textos de fisiología endocrina y metabolismo energético."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 1.8."
+},
+{
+  id: "ENDO-288",
+  especialidad: "Endocrinología",
+  tema: "Metabolismo lipídico",
+  subtema: "Deficiencia de lipoproteína lipasa y apoC-II",
+  dificultad: "Muy alta",
+  caso: `Varón de 19 años con episodios de dolor abdominal recurrente, pancreatitis y xantomas eruptivos. El plasma en ayuno tiene aspecto lechoso y los triglicéridos superan 2,000 mg/dL. La electroforesis muestra acumulación predominante de quilomicrones.`,
+  pregunta: "¿Qué mecanismo explica la persistencia de quilomicrones en ayuno y la marcada hipertrigliceridemia?",
+  opciones: [
+    "Aumento aislado de receptores LDL que impide la captación de colesterol.",
+    "Alteración de la lipólisis intravascular de quilomicrones por deficiencia de LPL o de su cofactor apoC-II.",
+    "Deficiencia de CETP con acumulación exclusiva de HDL.",
+    "Aumento de la actividad de lipasa hepática que bloquea la síntesis de quilomicrones.",
+    "Mutación de apoB100 que produce exclusivamente hipercolesterolemia LDL."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La lipoproteína lipasa hidroliza los triglicéridos de quilomicrones y VLDL. ApoC-II es un cofactor esencial de esta enzima. La deficiencia de LPL o de apoC-II puede producir quilomicronemia grave, triglicéridos extremadamente elevados y riesgo de pancreatitis. El patrón difiere de la hipertrigliceridemia multifactorial, que suele asociarse con diabetes descontrolada, obesidad, alcohol, fármacos y producción aumentada de VLDL. La evaluación etiológica considera edad de inicio, antecedentes familiares, persistencia de quilomicrones en ayuno y estudios genéticos en casos seleccionados.`,
+  perlaENARM: "Quilomicrones persistentes en ayuno, triglicéridos extremos y pancreatitis recurrente sugieren un defecto de la vía LPL–apoC-II.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipertrigliceridemia grave y prevención de pancreatitis.",
+    internacional: "Guías de sociedades de lípidos para quilomicronemia familiar y dislipidemias graves."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 1.10 y tema 7.1."
+},
+{
+  id: "ENDO-289",
+  especialidad: "Endocrinología",
+  tema: "Homeostasis cálcica",
+  subtema: "Resistencia a PTH por alteración de señalización Gsα",
+  dificultad: "Muy alta",
+  caso: `Adolescente de 15 años con talla baja, obesidad de inicio infantil, braquidactilia y facies redondeada. Presenta calcio de 7.4 mg/dL, fosfato elevado y PTH marcadamente elevada. La función renal es normal y la 25-hidroxivitamina D es suficiente.`,
+  pregunta: "¿Qué defecto de señalización explica mejor la combinación de hipocalcemia, hiperfosfatemia y PTH elevada?",
+  opciones: [
+    "Producción excesiva de PTH con activación completa de su receptor renal.",
+    "Resistencia a PTH por alteración de la señalización mediada por Gsα, compatible con un fenotipo de seudohipoparatiroidismo.",
+    "Deficiencia aislada de vitamina D con PTH suprimida.",
+    "Activación constitutiva de la vitamina D renal con hipercalcemia.",
+    "Pérdida de función de calcitonina como causa de hipocalcemia e hiperfosfatemia."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La PTH actúa mediante un receptor acoplado a proteína Gsα y señalización por AMPc. En formas de seudohipoparatiroidismo existe resistencia a la acción hormonal, especialmente en tejidos como riñón, con incapacidad para conservar calcio y excretar fosfato de forma apropiada. La PTH aumenta como respuesta compensatoria, pero no logra corregir el trastorno. El fenotipo de osteodistrofia hereditaria de Albright puede incluir braquidactilia, talla baja y obesidad. La clasificación molecular y clínica requiere considerar impronta genética y otros rasgos asociados.`,
+  perlaENARM: "Hipocalcemia + hiperfosfatemia + PTH alta con función renal y vitamina D adecuadas sugiere resistencia a PTH, no déficit de secreción.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de hipocalcemia y trastornos hereditarios de señalización hormonal.",
+    internacional: "Consensos y revisiones especializadas sobre trastornos de señalización de PTH y seudohipoparatiroidismo."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 1.1 y tema 8.2."
+},
+{
+  id: "ENDO-290",
+  especialidad: "Endocrinología",
+  tema: "Metabolismo del fosfato",
+  subtema: "FGF23, calcitriol y pérdida renal de fosfato",
+  dificultad: "Muy alta",
+  caso: `Niño de 8 años con arqueamiento de miembros inferiores, desaceleración del crecimiento y fosfato sérico bajo. La función renal global es normal, la fosfaturia es inapropiadamente elevada y el calcitriol se encuentra bajo para el grado de hipofosfatemia. El calcio es normal.`,
+  pregunta: "¿Qué mecanismo hormonal puede producir hipofosfatemia persistente pese a una función glomerular conservada?",
+  opciones: [
+    "Disminución de FGF23 con aumento de la reabsorción renal de fosfato.",
+    "Exceso o acción inapropiada de FGF23, que reduce la reabsorción tubular de fosfato y limita la síntesis de calcitriol.",
+    "Aumento aislado de calcitonina que bloquea por completo la absorción intestinal de fosfato.",
+    "Deficiencia de PTH como causa obligatoria de fosfaturia.",
+    "Activación de la síntesis renal de calcitriol como causa directa de pérdida urinaria de fosfato."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `FGF23 reduce la expresión de cotransportadores de fosfato en el túbulo proximal y disminuye la síntesis de calcitriol al modular la actividad de las enzimas implicadas en su metabolismo. El resultado es fosfaturia, hipofosfatemia y mineralización ósea deficiente. En un niño con raquitismo hipofosfatémico, deben diferenciarse causas hereditarias, como formas ligadas al X, de pérdidas renales adquiridas y otras tubulopatías. El diagnóstico no se establece con el fosfato aislado: requiere evaluar la excreción renal, calcio, PTH, vitamina D y contexto familiar.`,
+  perlaENARM: "FGF23 elevado o inapropiadamente activo produce fosfaturia y calcitriol bajo; una creatinina normal no excluye una tubulopatía fosfatúrica.",
+  gpc: {
+    mexico: "Consultar protocolos pediátricos vigentes sobre raquitismo hipofosfatémico y trastornos del fosfato.",
+    internacional: "Guías internacionales de diagnóstico y tratamiento de hipofosfatemia ligada al X y otros trastornos mediados por FGF23."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 8.4."
+},
+{
+  id: "ENDO-291",
+  especialidad: "Endocrinología",
+  tema: "Neoplasias endocrinas múltiples",
+  subtema: "MEN2B y fenotipo mucoso-neural",
+  dificultad: "Muy alta",
+  caso: `Adolescente de 17 años con hábito marfanoide, neuromas mucosos en labios y lengua, engrosamiento de nervios corneales y episodios de diarrea. La calcitonina está marcadamente elevada. No tiene antecedentes familiares conocidos de cáncer tiroideo.`,
+  pregunta: "¿Qué alteración genética y riesgo endocrino deben vincularse prioritariamente con este fenotipo?",
+  opciones: [
+    "Mutación inactivadora de MEN1 con riesgo predominante de prolactinoma.",
+    "Mutación activadora germinal de RET asociada a MEN2B, con riesgo elevado de carcinoma medular de tiroides y feocromocitoma.",
+    "Mutación de SLC26A4 con carcinoma folicular hereditario.",
+    "Mutación de CYP21A2 con carcinoma medular de tiroides.",
+    "Mutación de VHL con hiperparatiroidismo primario como manifestación obligatoria."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `MEN2B se asocia a variantes activadoras germinales de RET y puede manifestarse con carcinoma medular de tiroides, feocromocitoma, neuromas mucosos y hábito marfanoide. La ausencia de antecedentes familiares no descarta el síndrome, ya que pueden aparecer variantes de novo. El riesgo de carcinoma medular exige evaluación genética y manejo especializado; además, debe excluirse feocromocitoma antes de una cirugía. El fenotipo mucoso-neural permite diferenciar MEN2B de MEN2A, en el que el hiperparatiroidismo primario es una asociación más característica.`,
+  perlaENARM: "Neuromas mucosos + hábito marfanoide + calcitonina elevada orientan a MEN2B por RET; la historia familiar negativa no lo excluye.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre carcinoma medular de tiroides y síndromes MEN; referir a asesoramiento genético.",
+    internacional: "American Thyroid Association Guidelines for Medullary Thyroid Carcinoma, 2015."
+  },
+  bibliografia: "Wells SA Jr, et al. Revised American Thyroid Association Guidelines for the Management of Medullary Thyroid Carcinoma. Thyroid. 2015;25:567-610. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 9.1."
+},
+{
+  id: "ENDO-292",
+  especialidad: "Endocrinología",
+  tema: "Síndromes poliglandulares autoinmunitarios",
+  subtema: "Reconocimiento de síndrome poliglandular autoinmunitario tipo 2",
+  dificultad: "Muy alta",
+  caso: `Mujer de 36 años con vitíligo, pérdida ponderal, hipotensión ortostática y deseo de ingerir sal. Presenta cortisol bajo, ACTH elevada, anticuerpos anti-21-hidroxilasa positivos y TSH elevada con T4 libre baja. Tiene antecedente de diabetes tipo 1 desde la adolescencia.`,
+  pregunta: "¿Qué característica define mejor la agrupación endocrina observada?",
+  opciones: [
+    "Síndrome MEN1 por mutación de un gen supresor tumoral.",
+    "Síndrome poliglandular autoinmunitario tipo 2, caracterizado por insuficiencia suprarrenal autoinmunitaria con enfermedad tiroidea autoinmunitaria y/o diabetes tipo 1.",
+    "Síndrome MEN2 por mutación activadora de RET.",
+    "Síndrome poliglandular tipo 1, que exige candidiasis mucocutánea crónica y suele comenzar en la infancia.",
+    "Resistencia generalizada a receptores hormonales por mutación de GNAS."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El síndrome poliglandular autoinmunitario tipo 2 se caracteriza por insuficiencia suprarrenal primaria autoinmunitaria asociada a enfermedad tiroidea autoinmunitaria, diabetes tipo 1 o ambas. Puede coexistir con otras enfermedades autoinmunes, como vitíligo. A diferencia del tipo 1, no se define por la tríada clásica de candidiasis mucocutánea crónica, hipoparatiroidismo e insuficiencia suprarrenal, ni suele seguir una herencia mendeliana simple. El reconocimiento importa porque una deficiencia hormonal puede preceder a otra y porque la insuficiencia suprarrenal debe tratarse antes de iniciar levotiroxina si ambas coexisten.`,
+  perlaENARM: "Insuficiencia suprarrenal primaria autoinmunitaria + tiroiditis autoinmunitaria y/o diabetes tipo 1 es el patrón clásico del síndrome poliglandular autoinmunitario tipo 2.",
+  gpc: {
+    mexico: "Consultar GPC mexicanas vigentes sobre enfermedad de Addison, diabetes tipo 1 y enfermedad tiroidea autoinmunitaria.",
+    internacional: "Endocrine Society guideline on primary adrenal insufficiency; literatura de síndromes poliglandulares autoinmunitarios."
+  },
+  bibliografia: "Bornstein SR, et al. Diagnosis and Treatment of Primary Adrenal Insufficiency. J Clin Endocrinol Metab. 2016;101:364-389. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 9.3."
+},
+{
+  id: "ENDO-293",
+  especialidad: "Endocrinología",
+  tema: "Tumores neuroendocrinos gastroenteropancreáticos",
+  subtema: "Somatostatinoma y síndrome de malabsorción",
+  dificultad: "Muy alta",
+  caso: `Mujer de 59 años con diabetes de reciente aparición, colelitiasis, pérdida de peso y esteatorrea. La evaluación revela una lesión pancreática y elevación marcada de somatostatina plasmática. No presenta hipoglucemias episódicas ni úlceras pépticas recurrentes.`,
+  pregunta: "¿Qué mecanismo hormonal relaciona la diabetes, la esteatorrea y la colelitiasis?",
+  opciones: [
+    "Estimulación excesiva de insulina y glucagón con aceleración del tránsito intestinal.",
+    "Inhibición de secreciones pancreáticas y gastrointestinales, de hormonas insulinotrópicas y de la contracción vesicular por exceso de somatostatina.",
+    "Secreción exclusiva de gastrina con aumento de ácido gástrico.",
+    "Exceso de VIP que aumenta la absorción intestinal de agua.",
+    "Producción de calcitonina que inhibe la lipólisis y causa esteatorrea."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El somatostatinoma puede generar un síndrome caracterizado por diabetes, esteatorrea y colelitiasis. La somatostatina inhibe múltiples secreciones endocrinas y exocrinas, incluida la liberación de insulina y glucagón, así como funciones gastrointestinales y contracción de la vesícula biliar. La presentación clínica puede ser incompleta y la elevación hormonal debe interpretarse con el contexto y el método de medición. El diagnóstico exige correlación bioquímica, imagen y evaluación especializada del tumor neuroendocrino.`,
+  perlaENARM: "Somatostatinoma: asociación clásica de diabetes, esteatorrea y colelitiasis por inhibición hormonal y gastrointestinal amplia.",
+  gpc: {
+    mexico: "Consultar lineamientos mexicanos vigentes para tumores neuroendocrinos pancreáticos.",
+    internacional: "ENETS consensus guidelines for functional pancreatic neuroendocrine tumor syndromes."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 10.6."
+},
+{
+  id: "ENDO-294",
+  especialidad: "Endocrinología",
+  tema: "Gastrinoma",
+  subtema: "Síndrome de Zollinger-Ellison y diagnóstico bioquímico",
+  dificultad: "Muy alta",
+  caso: `Varón de 45 años con diarrea crónica, úlceras duodenales múltiples y recurrentes pese a tratamiento antisecretor. La gastrina en ayuno está elevada ocho veces por encima del límite superior, pero la muestra se obtuvo durante tratamiento con inhibidor de bomba de protones y no se ha medido el pH gástrico.`,
+  pregunta: "¿Qué elemento fisiológico permite distinguir mejor hipergastrinemia apropiada por hipoclorhidria de hipergastrinemia inapropiada asociada a gastrinoma?",
+  opciones: [
+    "La concentración de gastrina aislada, independientemente del pH gástrico.",
+    "La demostración de hipergastrinemia en presencia de secreción ácida gástrica inapropiadamente elevada, interpretando el efecto de los antisecretores.",
+    "La presencia de diarrea por sí sola.",
+    "Una gastrina elevada con pH gástrico alto, que confirma hipersecreción ácida.",
+    "La ausencia de úlceras gástricas, que excluye gastrinoma."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La gastrina aumenta fisiológicamente cuando disminuye la acidez gástrica, por ejemplo durante tratamiento con inhibidores de la bomba de protones o en gastritis atrófica. En el síndrome de Zollinger-Ellison, la hipergastrinemia es inapropiada porque coexiste con secreción ácida elevada. Por ello, la interpretación requiere considerar el pH gástrico y el contexto farmacológico, y puede requerir pruebas confirmatorias especializadas. La retirada de antisecretores debe planearse cuidadosamente, ya que puede desencadenar complicaciones en pacientes con hipersecreción ácida grave. Una cifra elevada aislada no basta para establecer el diagnóstico.`,
+  perlaENARM: "La gastrina debe interpretarse junto con la acidez gástrica: hipergastrinemia con pH alto puede ser compensatoria, mientras que con acidez elevada es inapropiada.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes para tumores neuroendocrinos gastroenteropancreáticos y síndrome de Zollinger-Ellison.",
+    internacional: "ENETS consensus guidelines for functional pancreatic neuroendocrine tumor syndromes."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 10.2."
+},
+{
+  id: "ENDO-295",
+  especialidad: "Endocrinología",
+  tema: "Trastornos del desarrollo sexual",
+  subtema: "Insensibilidad completa a andrógenos",
+  dificultad: "Muy alta",
+  caso: `Adolescente de 16 años con fenotipo femenino, amenorrea primaria, desarrollo mamario normal, escaso vello axilar y púbico y ausencia de útero en ultrasonido. El cariotipo es 46,XY y la testosterona se encuentra en rango masculino. La LH está elevada.`,
+  pregunta: "¿Qué alteración explica la discordancia entre el cariotipo, la producción de testosterona y el fenotipo externo?",
+  opciones: [
+    "Deficiencia de aromatasa con ausencia de conversión de andrógenos a estrógenos.",
+    "Resistencia completa a la acción de andrógenos por alteración del receptor androgénico.",
+    "Deficiencia de 21-hidroxilasa con virilización de una persona 46,XX.",
+    "Insuficiencia ovárica primaria con pérdida de cromosoma X.",
+    "Deficiencia aislada de hormona antimülleriana con útero ausente."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En la insensibilidad completa a andrógenos, el cariotipo es 46,XY y los testículos producen testosterona y hormona antimülleriana. La hormona antimülleriana induce regresión de estructuras müllerianas, por lo que no existe útero. Sin embargo, la resistencia del receptor androgénico impide la virilización de genitales externos y reduce el desarrollo de vello terminal. La aromatización de testosterona a estradiol permite el desarrollo mamario. El diagnóstico requiere evaluación endocrina, genética y atención multidisciplinaria sensible a las necesidades de la persona, incluida la discusión individualizada de riesgos gonadales y opciones de manejo.`,
+  perlaENARM: "46,XY + fenotipo femenino + ausencia de útero + mamas desarrolladas + escaso vello terminal sugiere insensibilidad completa a andrógenos.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para trastornos del desarrollo sexual y asesoramiento genético.",
+    internacional: "Consensos internacionales sobre diferencias del desarrollo sexual y manejo de insensibilidad a andrógenos."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 11.3."
+},
+{
+  id: "ENDO-296",
+  especialidad: "Endocrinología",
+  tema: "Trastornos del desarrollo sexual",
+  subtema: "Deficiencia de 5α-reductasa tipo 2",
+  dificultad: "Muy alta",
+  caso: `Adolescente de 15 años con cariotipo 46,XY, genitales externos subvirilizados al nacimiento y ausencia de útero. Durante la pubertad desarrolla aumento de masa muscular y virilización parcial. La testosterona está en rango masculino y la dihidrotestosterona es relativamente baja.`,
+  pregunta: "¿Qué conversión enzimática defectuosa explica el fenotipo y la virilización puberal?",
+  opciones: [
+    "Conversión de colesterol a pregnenolona por CYP11A1.",
+    "Conversión de testosterona a dihidrotestosterona por 5α-reductasa tipo 2.",
+    "Conversión de androstenediona a testosterona por 17β-HSD en todos los tejidos.",
+    "Conversión de testosterona a estradiol por aromatasa.",
+    "Síntesis de hormona antimülleriana por células de Sertoli."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La 5α-reductasa tipo 2 convierte testosterona en dihidrotestosterona, andrógeno esencial para la masculinización de genitales externos y próstata durante el desarrollo fetal. Su deficiencia produce subvirilización en una persona 46,XY, con testículos y regresión de estructuras müllerianas si la producción de hormona antimülleriana está conservada. Durante la pubertad, el aumento de testosterona puede provocar virilización parcial a pesar de la deficiencia enzimática. La relación testosterona/dihidrotestosterona y el estudio molecular ayudan a distinguirla de la insensibilidad a andrógenos, aunque deben interpretarse según edad y condiciones de estimulación.`,
+  perlaENARM: "La DHT es crucial para genitales externos masculinos; su deficiencia puede permitir virilización puberal por aumento de testosterona.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de trastornos del desarrollo sexual 46,XY.",
+    internacional: "Consensos internacionales sobre trastornos de síntesis y acción de andrógenos."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 11.3."
+},
+{
+  id: "ENDO-297",
+  especialidad: "Endocrinología",
+  tema: "Pubertad retrasada",
+  subtema: "Diferenciación entre hipogonadismo hipogonadotrópico y primario",
+  dificultad: "Muy alta",
+  caso: `Varón de 16 años sin aumento testicular, con talla baja relativa y edad ósea retrasada dos años. LH y FSH son bajas para la edad; el olfato está marcadamente disminuido desde la infancia. No hay enfermedad crónica, desnutrición ni uso de glucocorticoides.`,
+  pregunta: "¿Qué asociación clínica orienta hacia una causa congénita específica de hipogonadismo hipogonadotrópico?",
+  opciones: [
+    "Hipogonadismo hipergonadotrópico por disgenesia gonadal.",
+    "Síndrome de Kallmann, por alteración del desarrollo/migración de neuronas GnRH asociada a anosmia o hiposmia.",
+    "Síndrome de Klinefelter, que se caracteriza por LH y FSH bajas.",
+    "Pubertad retrasada constitucional, que siempre cursa con anosmia.",
+    "Insensibilidad completa a andrógenos con ausencia de testículos."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El síndrome de Kallmann es una forma de hipogonadismo hipogonadotrópico congénito asociada a anosmia o hiposmia por alteración del desarrollo de sistemas neuronales olfatorios y de neuronas GnRH. La ausencia de progresión puberal con gonadotrofinas bajas requiere diferenciar retraso constitucional, enfermedad sistémica, déficit energético y causas congénitas. El examen debe valorar volumen testicular, proporciones corporales, olfato y otros déficits hipofisarios. Las pruebas genéticas y la imagen se individualizan según el fenotipo. La edad ósea retrasada, por sí sola, no distingue retraso constitucional de hipogonadismo permanente.`,
+  perlaENARM: "Pubertad retrasada + gonadotrofinas bajas + anosmia sugiere síndrome de Kallmann; la ausencia de anosmia no excluye hipogonadismo congénito.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre pubertad retrasada e hipogonadismo masculino.",
+    internacional: "Guías de sociedades de endocrinología pediátrica sobre evaluación de pubertad retrasada."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 11.9."
+},
+{
+  id: "ENDO-298",
+  especialidad: "Endocrinología",
+  tema: "Hipogonadismo masculino",
+  subtema: "Síndrome de Klinefelter y patrón gonadotrópico",
+  dificultad: "Muy alta",
+  caso: `Varón de 19 años con talla alta, extremidades largas, ginecomastia, testículos pequeños y firmes, azoospermia y testosterona baja. LH y FSH están elevadas. La concentración de inhibina B es muy baja.`,
+  pregunta: "¿Qué mecanismo explica mejor la elevación de gonadotrofinas y la pérdida de fertilidad?",
+  opciones: [
+    "Supresión hipotalámica de GnRH por exceso de estradiol como mecanismo primario.",
+    "Insuficiencia testicular primaria con daño de túbulos seminíferos y alteración de la función de células de Leydig.",
+    "Deficiencia aislada de GnRH con conservación completa de la espermatogénesis.",
+    "Resistencia periférica a testosterona con LH y FSH siempre suprimidas.",
+    "Exceso de inhibina B que estimula la secreción de FSH."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El síndrome de Klinefelter, habitualmente asociado a cariotipo 47,XXY, causa insuficiencia testicular primaria. La degeneración de túbulos seminíferos conduce a azoospermia e inhibina B baja, lo que reduce la retroalimentación negativa sobre FSH. El daño de células de Leydig puede reducir testosterona y elevar LH. La confirmación requiere cariotipo y la evaluación incluye salud ósea, metabólica, sexual y reproductiva. La asesoría sobre fertilidad debe ser temprana, dado que las opciones de recuperación espermática y reproducción asistida dependen de cada caso.`,
+  perlaENARM: "Testículos pequeños y firmes + azoospermia + FSH elevada + talla alta orientan a Klinefelter; la FSH refleja daño de túbulos seminíferos.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para hipogonadismo masculino, infertilidad y asesoramiento genético.",
+    internacional: "European Academy of Andrology guidelines for Klinefelter syndrome."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 11.4."
+},
+{
+  id: "ENDO-299",
+  especialidad: "Endocrinología",
+  tema: "Hipoglucemia en el sujeto no diabético",
+  subtema: "Hipoglucemia por IGF-II no mediada por insulina",
+  dificultad: "Muy alta",
+  caso: `Varón de 67 años con pérdida de peso y una masa retroperitoneal de gran tamaño presenta hipoglucemias en ayuno. Durante glucosa plasmática de 41 mg/dL, la insulina, el péptido C y la proinsulina están suprimidos; los cuerpos cetónicos también están inapropiadamente bajos. El cribado de secretagogos es negativo.`,
+  pregunta: "¿Qué mecanismo explica mejor la combinación de hipoglucemia hipoinsulinémica e inhibición de la cetogénesis?",
+  opciones: [
+    "Deficiencia aislada de cortisol con cetogénesis necesariamente suprimida en todos los casos.",
+    "Producción tumoral de IGF-II o formas de alto peso molecular, con actividad similar a insulina sobre tejidos periféricos.",
+    "Insulinoma con insulina suprimida durante el episodio.",
+    "Hipoglucemia por ayuno simple con aumento esperado de cuerpos cetónicos.",
+    "Deficiencia de glucagón como única causa de masa retroperitoneal."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Algunos tumores mesenquimales y otras neoplasias pueden producir IGF-II en cantidades o formas moleculares que ejercen actividad insulinomimética. La captación periférica de glucosa aumenta y se inhiben la lipólisis y la cetogénesis, mientras que insulina, péptido C y proinsulina permanecen suprimidos. El patrón contrasta con el ayuno simple, donde la cetogénesis debería aumentar, y con el insulinoma, donde la secreción endógena de insulina es inapropiadamente detectable. La evaluación puede incluir IGF-I, IGF-II y la relación entre ambos, además de caracterización tumoral. La interpretación debe integrar nutrición, función hepática, renal y suprarrenal.`,
+  perlaENARM: "Hipoglucemia con insulina suprimida y cetonas inapropiadamente bajas sugiere un efecto insulinomimético, como IGF-II tumoral.",
+  gpc: {
+    mexico: "Consultar protocolos de hipoglucemia no diabética y evaluación oncológica de tumores secretores de factores de crecimiento.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Evaluation and Management of Adult Hypoglycemic Disorders, 2009."
+  },
+  bibliografia: "Cryer PE, et al. Evaluation and Management of Adult Hypoglycemic Disorders. J Clin Endocrinol Metab. 2009;94:709-728. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 6."
+},
+{
+  id: "ENDO-300",
+  especialidad: "Endocrinología",
+  tema: "Hipercalcemia",
+  subtema: "Interpretación de PTH no suprimida y diagnóstico diferencial",
+  dificultad: "Muy alta",
+  caso: `Mujer de 55 años con calcio total persistentemente elevado en varias mediciones, calcio ionizado elevado, PTH intacta en el límite superior del intervalo de referencia, función renal conservada y 25-hidroxivitamina D suficiente. No utiliza litio ni tiazidas. El fosfato es bajo-normal.`,
+  pregunta: "¿Por qué una PTH dentro del intervalo de referencia puede ser fisiológicamente anormal en este contexto?",
+  opciones: [
+    "Porque la PTH debe elevarse ante cualquier hipercalcemia.",
+    "Porque la hipercalcemia debería suprimir la secreción de PTH; una concentración no suprimida es inapropiada y orienta a hipercalcemia mediada por PTH.",
+    "Porque el calcio ionizado no regula la secreción de PTH.",
+    "Porque la PTH normal excluye hiperparatiroidismo primario.",
+    "Porque el fosfato bajo-normal confirma secreción de PTHrP."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La interpretación hormonal depende del contexto fisiológico y no solo del intervalo de referencia del laboratorio. El calcio ionizado elevado inhibe la secreción de PTH mediante el receptor sensor de calcio. Por ello, una PTH que permanece detectable en rango normal puede ser inapropiada y compatible con hiperparatiroidismo primario. Deben confirmarse las alteraciones en muestras repetidas y revisar función renal, vitamina D, fármacos y, cuando proceda, excreción urinaria de calcio para distinguir diagnósticos como hipercalcemia hipocalciúrica familiar. Una PTH suprimida orientaría hacia mecanismos no mediados por PTH.`,
+  perlaENARM: "En hipercalcemia, una PTH normal puede ser patológica porque debería estar suprimida; interpreta las hormonas según la respuesta fisiológica esperada.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico de hiperparatiroidismo primario e hipercalcemia.",
+    internacional: "Fifth International Workshop Guidelines for Primary Hyperparathyroidism, 2022."
+  },
+  bibliografia: "Bilezikian JP, et al. Evaluation and Management of Primary Hyperparathyroidism: Summary Statement and Guidelines from the Fifth International Workshop. J Bone Miner Res. 2022;37:2293-2314. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 8.1."
+},
+
+{
+  id: "ENDO-301",
+  especialidad: "Endocrinología",
+  tema: "Síndrome de Cushing",
+  subtema: "Interferencia farmacológica en la prueba de supresión con dexametasona",
+  dificultad: "Muy alta",
+  caso: `Mujer de 35 años con obesidad centrípeta, equimosis espontáneas, debilidad muscular proximal y estrías violáceas. Tras administrar 1 mg de dexametasona nocturna, el cortisol matutino es de 4.1 µg/dL. Utiliza carbamazepina desde hace tres años por epilepsia y tiene función hepática conservada.`,
+  pregunta: "¿Qué mecanismo puede explicar la falta de supresión sin que necesariamente exista hipercortisolismo endógeno?",
+  opciones: [
+    "La carbamazepina inhibe CYP3A4 y prolonga la exposición a dexametasona.",
+    "La inducción enzimática por carbamazepina acelera el metabolismo de dexametasona y puede reducir su exposición efectiva.",
+    "La carbamazepina bloquea directamente el receptor mineralocorticoide.",
+    "La dexametasona estimula fisiológicamente la secreción de ACTH durante la noche.",
+    "La carbamazepina aumenta la afinidad del cortisol por la albúmina y eleva siempre el cortisol libre."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La dexametasona se metaboliza principalmente mediante CYP3A4. Los inductores enzimáticos, como carbamazepina, pueden reducir su concentración y producir una supresión insuficiente del eje hipotálamo-hipófisis-suprarrenal, generando un falso positivo. El fenotipo clínico justifica estudiar síndrome de Cushing, pero una prueba alterada debe interpretarse considerando fármacos, adherencia y condiciones que modifican el cortisol. Se requieren pruebas de cribado validadas y, en general, confirmación con resultados concordantes antes de determinar la etiología. La exposición farmacológica no debe confundirse con resistencia intrínseca a glucocorticoides.`,
+  perlaENARM: "Antes de interpretar una prueba con dexametasona, revisa inductores de CYP3A4, como carbamazepina y fenitoína.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico de síndrome de Cushing.",
+    internacional: "Endocrine Society Clinical Practice Guideline: The Diagnosis of Cushing's Syndrome, 2008."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 4.1, pp. 70-74. Nieman LK, et al. J Clin Endocrinol Metab. 2008;93:1526-1540."
+},
+{
+  id: "ENDO-302",
+  especialidad: "Endocrinología",
+  tema: "Síndrome de Cushing",
+  subtema: "Hipercortisolismo dependiente de ACTH y cateterismo de senos petrosos",
+  dificultad: "Muy alta",
+  caso: `Varón de 42 años con hipercortisolismo endógeno confirmado mediante pruebas concordantes. La ACTH está elevada y la resonancia hipofisaria no identifica una lesión concluyente. La tomografía torácica muestra un nódulo pulmonar de 8 mm, indeterminado, sin otros hallazgos.`,
+  pregunta: "¿Qué método permite diferenciar con mayor solidez una fuente hipofisaria de ACTH de una secreción ectópica cuando la imagen no resuelve la etiología?",
+  opciones: [
+    "Repetir indefinidamente la ACTH basal hasta obtener un valor mayor.",
+    "Realizar cateterismo bilateral de senos petrosos inferiores con mediciones centrales y periféricas de ACTH, bajo protocolo especializado.",
+    "Asumir origen pulmonar por la presencia del nódulo.",
+    "Solicitar únicamente cortisol libre urinario para localizar el tumor.",
+    "Realizar adrenalectomía bilateral antes de establecer el origen de ACTH."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Una vez confirmado el hipercortisolismo endógeno y demostrado que es dependiente de ACTH, la localización exige integrar imagen y pruebas dinámicas. El cateterismo de senos petrosos inferiores, realizado por un equipo experto y con condiciones técnicas adecuadas, evalúa el gradiente de ACTH entre drenaje venoso hipofisario y circulación periférica. Es especialmente útil cuando la resonancia es negativa o equívoca. No debe utilizarse como prueba de cribado ni interpretarse sin considerar la estimulación protocolizada y la calidad del procedimiento. Un nódulo pulmonar pequeño puede ser incidental y no demuestra secreción ectópica.`,
+  perlaENARM: "Hipercortisolismo ACTH-dependiente con RM hipofisaria no concluyente: el muestreo de senos petrosos puede resolver la localización antes de cirugía dirigida.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre síndrome de Cushing y referencia a centros con experiencia.",
+    internacional: "Endocrine Society guideline on diagnosis of Cushing syndrome; consensos especializados en enfermedad de Cushing."
+  },
+  bibliografia: "Nieman LK, et al. The Diagnosis of Cushing's Syndrome. J Clin Endocrinol Metab. 2008;93:1526-1540. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 4.1."
+},
+{
+  id: "ENDO-303",
+  especialidad: "Endocrinología",
+  tema: "Síndrome de Cushing",
+  subtema: "Pseudo-Cushing y alteración del ritmo circadiano",
+  dificultad: "Muy alta",
+  caso: `Mujer de 39 años con depresión mayor activa, consumo elevado de alcohol y obesidad. Presenta cortisol salival nocturno discretamente elevado en dos muestras, mientras que el cortisol libre urinario es normal en tres recolecciones adecuadas. No tiene debilidad muscular proximal ni equimosis espontáneas.`,
+  pregunta: "¿Qué limitación diagnóstica debe reconocerse antes de atribuir los resultados a hipercortisolismo autónomo?",
+  opciones: [
+    "El cortisol salival nocturno no refleja el ritmo circadiano.",
+    "La depresión activa, el consumo de alcohol y la obesidad pueden generar alteraciones funcionales del eje y resultados falsamente positivos.",
+    "Un cortisol libre urinario normal excluye absolutamente todo hipercortisolismo cíclico.",
+    "La ausencia de estrías descarta por completo el síndrome de Cushing.",
+    "El cortisol salival elevado demuestra un adenoma suprarrenal."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El hipercortisolismo no neoplásico, tradicionalmente denominado pseudo-Cushing en determinados contextos, puede acompañarse de alteraciones del ritmo circadiano y pruebas de cribado anormales. La depresión grave, el consumo excesivo de alcohol y otros estados fisiológicos o patológicos pueden modificar el eje hipotálamo-hipófisis-suprarrenal. La discordancia entre pruebas obliga a revisar la probabilidad clínica, la calidad de las muestras y los factores reversibles, y a repetir la evaluación tras su abordaje cuando sea apropiado. Si persiste sospecha elevada o existe posibilidad de hipercortisolismo cíclico, se requiere valoración endocrinológica dirigida.`,
+  perlaENARM: "Pruebas de Cushing discordantes con factores de pseudo-Cushing requieren reevaluación contextual; no se localiza una lesión antes de confirmar hipercortisolismo endógeno.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico diferencial del hipercortisolismo.",
+    internacional: "Endocrine Society Clinical Practice Guideline: The Diagnosis of Cushing's Syndrome, 2008."
+  },
+  bibliografia: "Nieman LK, et al. J Clin Endocrinol Metab. 2008;93:1526-1540. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 4.1."
+},
+{
+  id: "ENDO-304",
+  especialidad: "Endocrinología",
+  tema: "Hiperplasia suprarrenal congénita",
+  subtema: "Deficiencia no clásica de 21-hidroxilasa",
+  dificultad: "Muy alta",
+  caso: `Mujer de 24 años con hirsutismo, acné y ciclos menstruales irregulares desde la adolescencia. La testosterona está moderadamente elevada y la ecografía muestra ovarios con morfología poliquística. La 17-hidroxiprogesterona basal, obtenida temprano por la mañana en fase folicular, está en zona limítrofe.`,
+  pregunta: "¿Qué evaluación distingue de manera más específica una deficiencia no clásica de 21-hidroxilasa de un síndrome de ovario poliquístico?",
+  opciones: [
+    "Repetir únicamente la testosterona total después de comer.",
+    "Realizar estimulación con cosintropina y medir la respuesta de 17-hidroxiprogesterona con interpretación según el método analítico.",
+    "Confirmar el diagnóstico de ovario poliquístico mediante la ecografía, sin más estudios.",
+    "Medir solo cortisol aleatorio por la tarde.",
+    "Solicitar aldosterona plasmática como prueba confirmatoria exclusiva."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La deficiencia no clásica de 21-hidroxilasa puede imitar el síndrome de ovario poliquístico mediante hiperandrogenismo y alteraciones menstruales. La 17-hidroxiprogesterona basal se utiliza como prueba inicial, pero los resultados limítrofes requieren evaluación dinámica con cosintropina. Los puntos de corte dependen del ensayo y del protocolo; por ello, deben utilizarse criterios validados por el laboratorio y considerar el momento del ciclo y la hora de la toma. La morfología ovárica poliquística no excluye una causa suprarrenal del hiperandrogenismo.`,
+  perlaENARM: "Ante hiperandrogenismo, excluye hiperplasia suprarrenal congénita no clásica; una 17-hidroxiprogesterona limítrofe puede requerir cosintropina.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hiperandrogenismo y síndrome de ovario poliquístico.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Congenital Adrenal Hyperplasia Due to Steroid 21-Hydroxylase Deficiency, 2018."
+  },
+  bibliografia: "Speiser PW, et al. Congenital Adrenal Hyperplasia Due to Steroid 21-Hydroxylase Deficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2018;103:4043-4088. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 4.5."
+},
+{
+  id: "ENDO-305",
+  especialidad: "Endocrinología",
+  tema: "Hiperandrogenismo",
+  subtema: "Localización etiológica mediante testosterona y DHEAS",
+  dificultad: "Muy alta",
+  caso: `Mujer de 37 años con progresión rápida de hirsutismo, voz grave y clitoromegalia en ocho meses. La testosterona total está marcadamente elevada, mientras que DHEAS solo presenta un incremento discreto. La 17-hidroxiprogesterona no está elevada.`,
+  pregunta: "¿Qué inferencia etiológica es más consistente con la distribución de los andrógenos y la rapidez de virilización?",
+  opciones: [
+    "La progresión rápida obliga a considerar una fuente tumoral; la testosterona desproporcionadamente elevada orienta a origen ovárico, aunque requiere confirmación.",
+    "DHEAS discretamente elevada demuestra carcinoma suprarrenal.",
+    "La ausencia de 17-hidroxiprogesterona elevada confirma síndrome de ovario poliquístico.",
+    "La virilización rápida es característica de hiperandrogenismo idiopático benigno.",
+    "La testosterona no ayuda a diferenciar fuentes ováricas de suprarrenales."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La aparición rápida de virilización, clitoromegalia o cambio de voz es una señal de alarma para una fuente tumoral o una causa de hiperandrogenismo intensa. DHEAS se produce predominantemente en la corteza suprarrenal, mientras que la testosterona circulante puede proceder de ovarios, suprarrenales y conversión periférica. Una elevación marcada de testosterona con DHEAS no proporcionalmente elevada orienta hacia una fuente ovárica, pero no la demuestra por sí sola. Deben confirmarse las concentraciones mediante un método fiable y realizar imagen dirigida según la evaluación endocrina.`,
+  perlaENARM: "Virilización de progresión rápida no debe atribuirse automáticamente a ovario poliquístico; la distribución de testosterona y DHEAS ayuda a orientar el origen.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hiperandrogenismo femenino y evaluación de tumores secretores de andrógenos.",
+    internacional: "Guías internacionales de evaluación del hiperandrogenismo en mujeres."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 4.5."
+},
+{
+  id: "ENDO-306",
+  especialidad: "Endocrinología",
+  tema: "Síndrome de ovario poliquístico",
+  subtema: "Exclusión de diagnósticos alternativos y criterios clínicos",
+  dificultad: "Muy alta",
+  caso: `Mujer de 27 años con oligomenorrea e hirsutismo de larga evolución. La ecografía transvaginal muestra aumento del número de folículos ováricos. La prolactina es normal, la TSH está dentro del intervalo de referencia y la 17-hidroxiprogesterona basal es normal. No hay virilización rápida ni datos clínicos de hipercortisolismo.`,
+  pregunta: "¿Qué principio diagnóstico evita sobrediagnosticar el síndrome únicamente por la imagen ovárica?",
+  opciones: [
+    "La morfología poliquística es suficiente para diagnosticar el síndrome en cualquier mujer.",
+    "El diagnóstico requiere integrar criterios clínicos y bioquímicos, excluir causas alternativas y no utilizar la morfología ecográfica de forma aislada.",
+    "La irregularidad menstrual excluye el síndrome si existe hirsutismo.",
+    "La presencia de hirsutismo confirma automáticamente un tumor ovárico.",
+    "La ecografía sustituye la evaluación de causas tiroideas y suprarrenales."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El síndrome de ovario poliquístico es un diagnóstico clínico que requiere criterios definidos y exclusión de causas alternativas de hiperandrogenismo y disfunción ovulatoria. En adultas, los criterios de Rotterdam contemplan oligo/anovulación, hiperandrogenismo clínico o bioquímico y morfología ovárica poliquística; se requieren dos de tres tras excluir otras etiologías. La ecografía no es obligatoria cuando ya se cumplen otros criterios diagnósticos y se han excluido causas alternativas. La evaluación debe incluir riesgo metabólico, presión arterial, perfil lipídico y estado glucémico según el contexto.`,
+  perlaENARM: "La morfología poliquística aislada no establece síndrome de ovario poliquístico; integra criterios y descarta diagnósticos alternativos.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico y tratamiento del síndrome de ovario poliquístico.",
+    internacional: "International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome, 2023."
+  },
+  bibliografia: "Teede HJ, et al. Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome. Fertil Steril. 2023;120:767-793. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 4.5."
+},
+{
+  id: "ENDO-307",
+  especialidad: "Endocrinología",
+  tema: "Hipogonadismo masculino",
+  subtema: "Testosterona total y globulina transportadora de hormonas sexuales",
+  dificultad: "Muy alta",
+  caso: `Varón de 58 años con obesidad, diabetes tipo 2 y disminución de libido. La testosterona total matutina es de 245 ng/dL en dos mediciones. La SHBG está disminuida y la testosterona libre calculada permanece dentro del intervalo de referencia. LH y FSH no están elevadas.`,
+  pregunta: "¿Qué consideración evita diagnosticar hipogonadismo bioquímico basándose únicamente en la testosterona total?",
+  opciones: [
+    "La obesidad siempre aumenta SHBG y reduce la testosterona total sin modificar la fracción libre.",
+    "La reducción de SHBG puede disminuir la testosterona total mientras la fracción libre se conserva; la interpretación exige integrar síntomas, método y contexto.",
+    "La LH normal confirma insuficiencia testicular primaria.",
+    "La testosterona libre carece de utilidad cuando la SHBG está alterada.",
+    "Una testosterona total menor de 300 ng/dL demuestra hipogonadismo independientemente de síntomas y condiciones de medición."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La testosterona total depende de la fracción unida a SHBG y albúmina, además de la fracción libre. La obesidad y la resistencia a insulina suelen reducir SHBG y pueden disminuir la testosterona total sin una reducción equivalente de testosterona libre. El diagnóstico de hipogonadismo requiere síntomas compatibles y concentraciones bajas confirmadas en muestras matutinas, utilizando métodos fiables y evaluando SHBG cuando la interpretación de testosterona total es incierta. También deben investigarse causas funcionales, medicamentos y enfermedad sistémica antes de considerar reemplazo hormonal.`,
+  perlaENARM: "Con SHBG baja, la testosterona total puede subestimar la disponibilidad androgénica; confirma el diagnóstico con evaluación clínica y bioquímica adecuada.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipogonadismo masculino.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Testosterone Therapy in Men With Hypogonadism, 2018."
+  },
+  bibliografia: "Bhasin S, et al. Testosterone Therapy in Men With Hypogonadism: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2018;103:1715-1744. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 1.5."
+},
+{
+  id: "ENDO-308",
+  especialidad: "Endocrinología",
+  tema: "Amenorrea primaria",
+  subtema: "Insuficiencia ovárica frente a hipogonadismo hipotalámico",
+  dificultad: "Muy alta",
+  caso: `Mujer de 17 años con amenorrea primaria, desarrollo mamario escaso y ausencia de progresión puberal. Presenta FSH y LH elevadas en dos determinaciones, estradiol bajo y cariotipo 46,XX. No existe antecedente de quimioterapia ni radioterapia.`,
+  pregunta: "¿Qué localización funcional explica el patrón gonadotrópico y qué evaluación etiológica adquiere relevancia?",
+  opciones: [
+    "Hipotálamo, porque la FSH elevada demuestra deficiencia de GnRH.",
+    "Ovario, por hipogonadismo hipergonadotrópico; debe investigarse disgenesia gonadal e insuficiencia ovárica primaria.",
+    "Hipófisis, porque el estradiol bajo estimula directamente FSH.",
+    "Útero, porque la ausencia de menstruación causa retroalimentación positiva sobre LH.",
+    "Glándula suprarrenal, porque la FSH es secretada por la corteza suprarrenal."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El estradiol bajo con FSH y LH elevadas indica pérdida de retroalimentación negativa y orienta a insuficiencia gonadal primaria. En una adolescente 46,XX con amenorrea primaria deben considerarse disgenesia gonadal, insuficiencia ovárica primaria y causas genéticas o autoinmunes según el fenotipo. La evaluación debe incluir anatomía genital y uterina, historia familiar, pruebas complementarias dirigidas y asesoramiento sobre salud ósea y fertilidad. El patrón difiere del hipogonadismo hipogonadotrópico, donde las gonadotrofinas son bajas o inapropiadamente normales.`,
+  perlaENARM: "Estradiol bajo con FSH elevada orienta a falla gonadal primaria; con gonadotrofinas bajas o normales, considera causas hipotalámicas o hipofisarias.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre amenorrea primaria e insuficiencia ovárica primaria.",
+    internacional: "Guías internacionales sobre insuficiencia ovárica primaria y evaluación de amenorrea."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 1.5 y tema 2.4."
+},
+{
+  id: "ENDO-309",
+  especialidad: "Endocrinología",
+  tema: "Insuficiencia ovárica primaria",
+  subtema: "Consecuencias endocrinas y salud ósea",
+  dificultad: "Muy alta",
+  caso: `Mujer de 32 años con amenorrea de ocho meses, sofocos y FSH elevada en mediciones repetidas. El estradiol es bajo. No utiliza anticonceptivos hormonales y no está embarazada. La densitometría revela disminución de densidad mineral ósea para su edad.`,
+  pregunta: "¿Qué mecanismo relaciona la pérdida de función ovárica con el deterioro óseo y cardiovascular a largo plazo?",
+  opciones: [
+    "El estradiol aumenta la resorción ósea y su descenso protege el esqueleto.",
+    "La pérdida de estrógenos favorece resorción ósea y puede afectar la salud genitourinaria y cardiometabólica; deben investigarse causas y necesidades de reemplazo individualizadas.",
+    "La FSH elevada inhibe por completo la actividad osteoclástica.",
+    "La insuficiencia ovárica solo afecta fertilidad y no modifica la salud ósea.",
+    "El tratamiento con calcio aislado sustituye todos los efectos fisiológicos del estradiol."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La insuficiencia ovárica primaria antes de los 40 años implica pérdida de función ovárica con hipoestrogenismo. El estradiol participa en la regulación del remodelado óseo y su déficit favorece la resorción y pérdida de masa ósea. También puede afectar síntomas vasomotores, función genitourinaria y perfil cardiometabólico. La evaluación debe investigar causas genéticas, autoinmunes y otras etiologías seleccionadas, además de revisar salud ósea, fertilidad y contraindicaciones para terapia hormonal. El manejo debe individualizarse y no reducirse a suplementación de calcio.`,
+  perlaENARM: "En insuficiencia ovárica primaria, el hipoestrogenismo afecta más que la fertilidad: considera salud ósea y consecuencias sistémicas.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre insuficiencia ovárica primaria y terapia hormonal.",
+    internacional: "ESHRE/ASRM Evidence-based Guideline on Premature Ovarian Insufficiency, 2024."
+  },
+  bibliografia: "ESHRE, ASRM y colaboradores. Evidence-based Guideline: Premature Ovarian Insufficiency. 2024. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 1.5."
+},
+{
+  id: "ENDO-310",
+  especialidad: "Endocrinología",
+  tema: "Diabetes y embarazo",
+  subtema: "Interpretación de glucosa y requerimientos de insulina durante la gestación",
+  dificultad: "Muy alta",
+  caso: `Mujer de 29 años con diabetes tipo 1 y embarazo de 24 semanas. Refiere aumento progresivo de requerimientos de insulina desde el segundo trimestre, sin cambios importantes en dieta o actividad física. La glucosa posprandial ha aumentado y no hay cetonemia ni infección.`,
+  pregunta: "¿Qué adaptación fisiológica explica mejor el cambio de requerimientos en esta etapa?",
+  opciones: [
+    "El embarazo reduce progresivamente la resistencia a insulina después del primer trimestre.",
+    "Hormonas placentarias y otros mediadores aumentan la resistencia a insulina durante el segundo y tercer trimestre.",
+    "La placenta deja de producir hormonas metabólicas después de la semana 20.",
+    "El aumento de requerimientos demuestra necesariamente falla de la bomba de insulina.",
+    "La producción fetal de insulina elimina las necesidades maternas de insulina."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Durante el embarazo, el lactógeno placentario, progesterona, cortisol y otros mediadores contribuyen a aumentar la resistencia materna a la insulina, sobre todo conforme avanza la gestación. Esto favorece el aporte de nutrientes al feto, pero en la madre con diabetes exige ajustes frecuentes de insulina y vigilancia estrecha. En el primer trimestre pueden aumentar episodios de hipoglucemia y las necesidades pueden cambiar tras el parto por la caída brusca de hormonas placentarias. Los requerimientos crecientes deben interpretarse junto con glucosa, dieta, técnica de administración, enfermedad intercurrente y riesgo de cetosis.`,
+  perlaENARM: "En diabetes pregestacional, la resistencia a insulina suele aumentar en segundo y tercer trimestre; después del parto, las necesidades pueden caer rápidamente.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diabetes y embarazo.",
+    internacional: "ADA Standards of Care in Diabetes: Management of Diabetes in Pregnancy."
+  },
+  bibliografia: "American Diabetes Association. Standards of Care in Diabetes. Sección Management of Diabetes in Pregnancy, edición anual vigente. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 5.8."
+},
+{
+  id: "ENDO-311",
+  especialidad: "Endocrinología",
+  tema: "Diabetes gestacional",
+  subtema: "Tamizaje y diagnóstico según estrategia de una o dos etapas",
+  dificultad: "Muy alta",
+  caso: `Gestante de 27 semanas sin diabetes conocida, con factores de riesgo metabólico. Se realiza una prueba de tolerancia oral con 75 g de glucosa. La glucosa plasmática en ayuno es de 93 mg/dL, a la hora de 184 mg/dL y a las dos horas de 151 mg/dL.`,
+  pregunta: "¿Qué interpretación corresponde a los criterios de una estrategia diagnóstica de 75 g ampliamente utilizada?",
+  opciones: [
+    "Los tres valores son normales porque la glucosa en ayuno es menor de 100 mg/dL.",
+    "La glucosa en ayuno y la de una hora superan los umbrales diagnósticos habituales de la estrategia de 75 g.",
+    "Solo se diagnostica diabetes gestacional si los tres valores son anormales.",
+    "La glucosa de una hora no se utiliza en ninguna estrategia diagnóstica de embarazo.",
+    "El resultado confirma diabetes tipo 1 de inicio gestacional."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En la estrategia de un paso con 75 g, los umbrales habitualmente utilizados son glucosa en ayuno de 92 mg/dL, a una hora de 180 mg/dL y a dos horas de 153 mg/dL; basta con que un valor alcance o supere el umbral para cumplir criterios de diabetes gestacional. En el caso, ayuno y una hora están por encima de esos puntos de corte. Los protocolos locales pueden emplear una estrategia de dos pasos con carga de 50 g seguida de una prueba de 100 g, cuyos criterios son diferentes. Debe especificarse el método utilizado para evitar mezclar umbrales de algoritmos distintos.`,
+  perlaENARM: "No mezcles estrategias de 75 g y de dos pasos: los umbrales y el número de valores requeridos son diferentes.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico y tratamiento de diabetes gestacional.",
+    internacional: "IADPSG recommendations; ADA Standards of Care in Diabetes: Management of Diabetes in Pregnancy."
+  },
+  bibliografia: "International Association of Diabetes and Pregnancy Study Groups. Recommendations on the Diagnosis and Classification of Hyperglycemia in Pregnancy. Diabetes Care. 2010;33:676-682. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 5.8."
+},
+{
+  id: "ENDO-312",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Diabetes pancreatogénica tipo 3c",
+  dificultad: "Muy alta",
+  caso: `Varón de 57 años con pancreatitis crónica calcificante, esteatorrea y pérdida ponderal. Presenta hiperglucemia persistente, péptido C bajo y episodios frecuentes de hipoglucemia con dosis modestas de insulina. La elastasa fecal está disminuida y no se detectan autoanticuerpos asociados a diabetes tipo 1.`,
+  pregunta: "¿Qué combinación fisiopatológica explica la inestabilidad glucémica en este paciente?",
+  opciones: [
+    "Resistencia a insulina aislada con producción excesiva de glucagón.",
+    "Pérdida de células beta y de células alfa, junto con insuficiencia exocrina y malabsorción.",
+    "Aumento de incretinas por destrucción pancreática y exceso persistente de insulina.",
+    "Autoinmunidad contra el receptor de insulina como mecanismo obligatorio.",
+    "Aumento compensatorio de reserva beta que produce hipoglucemia reactiva."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La diabetes pancreatogénica o tipo 3c puede surgir por enfermedad del páncreas exocrino, incluida pancreatitis crónica. La destrucción de células beta reduce la secreción de insulina y el daño de células alfa puede disminuir la respuesta de glucagón a la hipoglucemia. La insuficiencia exocrina causa maldigestión, malabsorción y variabilidad en la disponibilidad de nutrientes. Esta combinación aumenta la inestabilidad glucémica y el riesgo de hipoglucemia con insulina. La clasificación requiere relacionar diabetes con enfermedad pancreática, valorar función exocrina y excluir otras causas, incluida diabetes autoinmune cuando corresponda.`,
+  perlaENARM: "Pancreatitis crónica + insuficiencia exocrina + diabetes sugiere tipo 3c; la pérdida de glucagón puede aumentar el riesgo de hipoglucemia.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre pancreatitis crónica, insuficiencia exocrina y diabetes secundaria.",
+    internacional: "Revisiones y consensos sobre diabetes pancreatogénica tipo 3c."
+  },
+  bibliografia: "Hart PA, et al. Type 3c (pancreatogenic) diabetes mellitus secondary to chronic pancreatitis and pancreatic cancer. Lancet Gastroenterol Hepatol. 2016;1:226-237. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 5."
+},
+{
+  id: "ENDO-313",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Hiperfagia de origen hipotalámico",
+  dificultad: "Muy alta",
+  caso: `Niña de 10 años con aumento ponderal acelerado posterior a resección de un tumor supraselar. Presenta hiperfagia intensa, somnolencia, disminución de actividad espontánea y deterioro progresivo del control del peso. La función tiroidea está adecuadamente reemplazada.`,
+  pregunta: "¿Qué mecanismo explica que el aumento de peso sea desproporcionado respecto a los cambios dietéticos declarados?",
+  opciones: [
+    "Deficiencia aislada de lipasa pancreática con aumento de la absorción calórica.",
+    "Disfunción de circuitos hipotalámicos de saciedad y gasto energético, con hiperfagia y reducción del gasto energético espontáneo.",
+    "Aumento de leptina circulante que siempre genera saciedad eficaz.",
+    "Hipertiroidismo subclínico como causa típica de hiperfagia y aumento ponderal masivo.",
+    "Deficiencia de aldosterona que provoca almacenamiento de grasa corporal."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La lesión hipotalámica puede alterar los circuitos de regulación de apetito, saciedad, gasto energético y actividad autonómica. Después de tumores supraselares o de su tratamiento puede desarrollarse obesidad hipotalámica, con hiperfagia, menor actividad espontánea y una respuesta adaptativa del gasto energético que dificulta el control ponderal. No se explica exclusivamente por voluntad o ingesta declarada. La evaluación requiere revisar función hipofisaria, sueño, conducta alimentaria y comorbilidades, además de plantear un manejo multidisciplinario especializado.`,
+  perlaENARM: "Obesidad grave posterior a lesión supraselar puede reflejar disfunción hipotalámica de saciedad y gasto energético, no solo exceso de ingesta.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de obesidad pediátrica y seguimiento endocrino después de tumores hipotalámicos.",
+    internacional: "Consensos especializados en obesidad hipotalámica y obesidad pediátrica."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, fisiología del sistema endocrino y metabolismo energético."
+},
+{
+  id: "ENDO-314",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Farmacoterapia y contraindicación por antecedentes específicos",
+  dificultad: "Muy alta",
+  caso: `Mujer de 43 años con IMC de 36 kg/m², hipertensión controlada y fracaso de intervención estructurada sobre estilo de vida. Tiene antecedente personal de pancreatitis aguda biliar resuelta, sin recurrencias, y colecistectomía posterior. Solicita tratamiento farmacológico para obesidad.`,
+  pregunta: "¿Qué aspecto debe incorporarse de forma explícita al balance beneficio-riesgo antes de seleccionar una terapia incretínica?",
+  opciones: [
+    "El antecedente de pancreatitis constituye una contraindicación absoluta universal para todos los agonistas GLP-1, sin necesidad de individualización.",
+    "Debe revisarse la ficha técnica del fármaco y valorar el antecedente de pancreatitis, los síntomas actuales y factores de riesgo, explicando que la evidencia y las advertencias no equivalen siempre a una contraindicación absoluta.",
+    "La colecistectomía garantiza que no puede haber efectos gastrointestinales relacionados con incretinas.",
+    "La obesidad con IMC mayor de 35 excluye cualquier farmacoterapia.",
+    "La terapia incretínica debe elegirse sin considerar antecedentes pancreáticos porque solo actúa en tejido adiposo."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La selección de farmacoterapia antiobesidad debe integrar eficacia, comorbilidades, antecedentes, preferencias y ficha técnica. Los agonistas del receptor GLP-1 y terapias relacionadas tienen efectos gastrointestinales y advertencias específicas; los antecedentes de pancreatitis requieren valoración individualizada y vigilancia clínica, pero no deben interpretarse de forma uniforme como contraindicación absoluta para todos los fármacos y jurisdicciones. La evidencia disponible y las recomendaciones regulatorias pueden diferir en su redacción. Debe explicarse la incertidumbre y discutir alternativas, sin minimizar dolor abdominal persistente u otros síntomas de alarma.`,
+  perlaENARM: "En farmacoterapia de obesidad, distingue contraindicación formal, advertencia regulatoria y precaución clínica individualizada.",
+  gpc: {
+    mexico: "Consultar ficha técnica mexicana vigente del fármaco seleccionado y GPC de obesidad aplicable.",
+    internacional: "Guías de farmacoterapia de obesidad y fichas regulatorias actualizadas de cada agonista incretínico."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, metabolismo y obesidad. La seguridad debe contrastarse con la ficha técnica vigente del medicamento específico."
+},
+{
+  id: "ENDO-315",
+  especialidad: "Endocrinología",
+  tema: "Hipotiroidismo congénito",
+  subtema: "Tamiz neonatal y ventana de tratamiento",
+  dificultad: "Muy alta",
+  caso: `Recién nacido a término, clínicamente estable, con tamiz neonatal que reporta TSH muy elevada. La muestra confirmatoria demuestra TSH de 180 mUI/L y T4 libre marcadamente baja. La gammagrafía aún no está disponible y el estudio etiológico tardará varios días.`,
+  pregunta: "¿Qué principio temporal debe guiar el inicio del tratamiento para reducir el riesgo neurológico?",
+  opciones: [
+    "Esperar a conocer la etiología anatómica antes de administrar hormona tiroidea.",
+    "Iniciar levotiroxina con prontitud tras confirmación bioquímica, sin retrasar el tratamiento por estudios de imagen o etiología.",
+    "Esperar a que aparezcan síntomas clínicos para confirmar relevancia.",
+    "Administrar yodo como sustituto de la levotiroxina.",
+    "Repetir el tamiz neonatal varias semanas después antes de tomar decisiones."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El hipotiroidismo congénito es una causa prevenible de discapacidad intelectual. La neurogénesis, migración neuronal y mielinización tempranas dependen de disponibilidad adecuada de hormona tiroidea. Cuando las pruebas séricas confirman hipotiroidismo congénito, el tratamiento debe iniciarse de manera urgente y no esperar a la gammagrafía o a la identificación anatómica de la causa. La etiología puede estudiarse posteriormente y ayuda a estimar permanencia y planear seguimiento. La dosis inicial se individualiza según gravedad, peso y protocolos pediátricos vigentes.`,
+  perlaENARM: "En hipotiroidismo congénito confirmado, el tratamiento temprano tiene prioridad sobre completar el estudio etiológico.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente de hipotiroidismo congénito y lineamientos de tamiz neonatal.",
+    internacional: "European Society for Paediatric Endocrinology/European Society for Endocrinology consensus guidelines on congenital hypothyroidism."
+  },
+  bibliografia: "Van Trotsenburg P, et al. Congenital Hypothyroidism: A 2020–2021 Consensus Guidelines Update. Thyroid. 2021;31:387-419. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 1.3."
+},
+{
+  id: "ENDO-316",
+  especialidad: "Endocrinología",
+  tema: "Nódulo tiroideo",
+  subtema: "Interpretación de captación focal en paciente con TSH suprimida",
+  dificultad: "Muy alta",
+  caso: `Mujer de 52 años con nódulo tiroideo de 2.3 cm y TSH de 0.03 mUI/L. La T4 libre está normal y la T3 total discretamente elevada. La gammagrafía demuestra captación focal aumentada en el nódulo con supresión relativa del tejido tiroideo restante.`,
+  pregunta: "¿Qué significado funcional tiene el patrón gammagráfico y cómo modifica la necesidad de citología?",
+  opciones: [
+    "El nódulo es hiperfuncionante; por lo general, la citología no se indica de rutina en un nódulo concordantemente hiperfuncionante, aunque deben integrarse el contexto y hallazgos sospechosos.",
+    "La captación focal aumentada demuestra carcinoma papilar y obliga a cirugía inmediata.",
+    "El patrón confirma tiroiditis destructiva.",
+    "La supresión de TSH demuestra hipotiroidismo central.",
+    "Todos los nódulos mayores de 2 cm requieren biopsia sin considerar función ni ecografía."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Cuando la TSH está suprimida, la gammagrafía permite identificar nódulos hiperfuncionantes. Un nódulo que concentra el trazador y suprime el tejido circundante es compatible con autonomía funcional. Estos nódulos tienen una probabilidad de malignidad generalmente baja y, si la hiperfunción es inequívoca y concordante con el nódulo evaluado, la citología suele no ser necesaria de rutina. La ecografía continúa siendo relevante para revisar concordancia anatómica y características sospechosas, y la tirotoxicosis requiere evaluación según edad, comorbilidades y grado de exceso hormonal.`,
+  perlaENARM: "TSH suprimida en un paciente con nódulo: considera gammagrafía antes de aplicar automáticamente los criterios de biopsia.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre nódulo tiroideo e hipertiroidismo.",
+    internacional: "American Thyroid Association Guidelines for Thyroid Nodules and Differentiated Thyroid Cancer, 2015."
+  },
+  bibliografia: "Haugen BR, et al. Thyroid. 2016;26:1-133. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, sección de enfermedad tiroidea."
+},
+{
+  id: "ENDO-317",
+  especialidad: "Endocrinología",
+  tema: "Hipertiroidismo",
+  subtema: "Orbitopatía tiroidea y tabaquismo",
+  dificultad: "Muy alta",
+  caso: `Mujer de 46 años con enfermedad de Graves, tabaquismo activo y diplopía progresiva. La exploración muestra retracción palpebral, proptosis y limitación de la elevación ocular. La T4 libre ya está dentro del intervalo de referencia bajo tratamiento.`,
+  pregunta: "¿Qué elemento modifica especialmente el riesgo y la evolución de la orbitopatía, aun cuando la función tiroidea esté controlada?",
+  opciones: [
+    "El tabaquismo, asociado a mayor riesgo y gravedad de orbitopatía tiroidea.",
+    "La normalización de T4 libre elimina inmediatamente toda actividad inflamatoria orbitaria.",
+    "La orbitopatía solo ocurre en pacientes con hipotiroidismo manifiesto.",
+    "La diplopía excluye enfermedad relacionada con Graves.",
+    "El control de TSH hace innecesaria la evaluación oftalmológica."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La orbitopatía tiroidea es una enfermedad autoinmunitaria de tejidos orbitarios que puede evolucionar de forma parcialmente independiente de la concentración sérica de hormonas tiroideas. El tabaquismo es uno de los factores de riesgo modificables más importantes y se asocia con mayor gravedad y peor respuesta terapéutica. La diplopía y la limitación de movimientos pueden reflejar afectación de músculos extraoculares y requieren evaluación oftalmológica especializada. Deben valorarse actividad inflamatoria, gravedad, exposición corneal y neuropatía óptica; el control bioquímico tiroideo no sustituye esa evaluación.`,
+  perlaENARM: "Graves con diplopía y tabaquismo: controla función tiroidea, promueve abandono del tabaco y evalúa gravedad orbitaria por separado.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre enfermedad de Graves y orbitopatía tiroidea.",
+    internacional: "European Group on Graves' Orbitopathy clinical practice guidelines, 2021."
+  },
+  bibliografia: "Bartalena L, et al. The 2021 European Group on Graves' Orbitopathy Clinical Practice Guidelines. Eur J Endocrinol. 2021. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024."
+},
+{
+  id: "ENDO-318",
+  especialidad: "Endocrinología",
+  tema: "Insulinoma",
+  subtema: "Criterios bioquímicos durante hipoglucemia supervisada",
+  dificultad: "Muy alta",
+  caso: `Varón de 41 años sin diabetes presenta episodios neuroglucopénicos en ayuno. Durante una hipoglucemia documentada con glucosa plasmática de 43 mg/dL, la insulina es de 8 µU/mL, el péptido C de 2.1 ng/mL y la proinsulina de 28 pmol/L. El cribado de sulfonilureas es negativo y la función renal es normal.`,
+  pregunta: "¿Qué interpretación del perfil hormonal resulta más consistente con la fisiología de la hipoglucemia?",
+  opciones: [
+    "La insulina es apropiadamente suprimida porque está dentro del intervalo de referencia habitual.",
+    "La insulina, el péptido C y la proinsulina son inapropiadamente detectables durante hipoglucemia, lo que respalda hiperinsulinismo endógeno.",
+    "El péptido C elevado demuestra administración de insulina exógena.",
+    "La proinsulina elevada excluye insulinoma.",
+    "El cribado negativo de sulfonilureas descarta todas las causas de hiperinsulinismo."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Durante una glucosa plasmática marcadamente baja, la secreción pancreática de insulina debería estar suprimida. Una insulina detectable junto con péptido C y proinsulina inapropiadamente elevados apoya hiperinsulinismo endógeno, siempre que la muestra se haya obtenido durante el episodio y se consideren función renal, métodos analíticos y secretagogos. El cribado negativo de sulfonilureas reduce la probabilidad de hipoglucemia por secretagogos, pero la evaluación debe incluir otras causas y confirmar la tríada de Whipple. La localización de un insulinoma se realiza después de establecer bioquímicamente el diagnóstico.`,
+  perlaENARM: "En hipoglucemia, la pregunta no es si la insulina cae dentro del rango normal del laboratorio, sino si está apropiadamente suprimida.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipoglucemia en personas sin diabetes.",
+    internacional: "Endocrine Society Clinical Practice Guideline: Evaluation and Management of Adult Hypoglycemic Disorders, 2009."
+  },
+  bibliografia: "Cryer PE, et al. J Clin Endocrinol Metab. 2009;94:709-728. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 6."
+},
+{
+  id: "ENDO-319",
+  especialidad: "Endocrinología",
+  tema: "Insuficiencia suprarrenal",
+  subtema: "Interpretación de cortisol durante enfermedad crítica",
+  dificultad: "Muy alta",
+  caso: `Paciente de 63 años con choque séptico persistente pese a reanimación inicial y vasopresores. El cortisol total es de 12 µg/dL, la albúmina de 1.8 g/dL y no hay antecedente conocido de enfermedad suprarrenal. El equipo plantea interpretar el cortisol total como prueba definitiva de insuficiencia suprarrenal.`,
+  pregunta: "¿Qué limitación bioquímica debe considerarse al interpretar este resultado en enfermedad crítica?",
+  opciones: [
+    "El cortisol total refleja exclusivamente la fracción libre y no depende de proteínas transportadoras.",
+    "La hipoalbuminemia y los cambios en globulina transportadora de cortisol pueden reducir el cortisol total sin una reducción proporcional de la fracción libre.",
+    "La sepsis eleva siempre el cortisol total por encima de 50 µg/dL.",
+    "Un cortisol total de 12 µg/dL confirma por sí solo insuficiencia suprarrenal primaria.",
+    "El cortisol libre es imposible de modificar durante enfermedad crítica."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La mayor parte del cortisol circulante está unida a globulina transportadora de cortisol y albúmina. En enfermedad crítica, ambas proteínas pueden disminuir y modificar la relación entre cortisol total y libre. Por ello, una concentración total aislada puede ser difícil de interpretar y no confirma por sí sola insuficiencia suprarrenal primaria. En el choque séptico, las decisiones sobre corticosteroides se basan en el escenario hemodinámico y las recomendaciones de cuidados críticos, no únicamente en un valor de cortisol. Si existe sospecha de insuficiencia suprarrenal verdadera, la evaluación debe adaptarse a la urgencia y al contexto clínico.`,
+  perlaENARM: "En enfermedad crítica con hipoalbuminemia, el cortisol total puede no reflejar fielmente la fracción libre; evita interpretarlo de forma aislada.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de choque séptico e insuficiencia suprarrenal.",
+    internacional: "Surviving Sepsis Campaign guidelines; Endocrine Society guidance for adrenal insufficiency."
+  },
+  bibliografia: "Evans L, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Intensive Care Med. 2021. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 4.2."
+},
+{
+  id: "ENDO-320",
+  especialidad: "Endocrinología",
+  tema: "Hipercalcemia",
+  subtema: "Interpretación de PTHrP y calcitriol en hipercalcemia maligna",
+  dificultad: "Muy alta",
+  caso: `Varón de 64 años con hipercalcemia sintomática, PTH suprimida, función renal deteriorada y neoplasia conocida. La PTHrP no está elevada y la 1,25-dihidroxivitamina D está marcadamente elevada pese a hipercalcemia. No ha recibido suplementos de vitamina D en dosis altas.`,
+  pregunta: "¿Qué mecanismo neoplásico explica mejor la elevación de calcitriol con PTH suprimida?",
+  opciones: [
+    "Secreción de PTH intacta por un adenoma paratiroideo.",
+    "Producción extrarrenal de 1α-hidroxilasa por células tumorales o macrófagos asociados al tumor, con aumento de calcitriol.",
+    "Aumento de PTHrP como mecanismo demostrado pese al resultado normal.",
+    "Deficiencia de vitamina D que incrementa directamente el calcitriol.",
+    "Supresión completa del metabolismo de vitamina D como mecanismo exclusivo de hipercalcemia."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La hipercalcemia con PTH suprimida orienta a mecanismos no mediados por PTH. Cuando PTHrP no está elevada y el calcitriol se encuentra alto, debe considerarse producción extrarrenal de 1α-hidroxilasa, descrita en ciertos linfomas y enfermedades granulomatosas. El calcitriol aumenta la absorción intestinal de calcio y puede contribuir a la hipercalcemia. La insuficiencia renal complica el manejo y obliga a evaluar volumen, función renal y gravedad clínica. La etiología requiere integrar el tipo de neoplasia, otros marcadores y estudios dirigidos; no todos los cánceres producen hipercalcemia mediante el mismo mecanismo.`,
+  perlaENARM: "Hipercalcemia + PTH suprimida + calcitriol elevado sugiere producción extrarrenal de calcitriol; PTHrP y calcitriol ayudan a diferenciar mecanismos malignos.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipercalcemia asociada a neoplasia.",
+    internacional: "Endocrine Society clinical practice guideline on treatment of hypercalcemia of malignancy, 2022."
+  },
+  bibliografia: "El-Hajj Fuleihan G, et al. Treatment of Hypercalcemia of Malignancy in Adults: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2023. Manual CTO de Medicina y Cirugía. Endocrinología. 14.ª ed. 2024, tema 8."
+},
+
+{
+  id: "ENDO-321",
+  especialidad: "Endocrinología",
+  tema: "Déficit de hormona de crecimiento en el adulto",
+  subtema: "Interpretación de pruebas dinámicas y efecto de la obesidad",
+  dificultad: "Muy alta",
+  caso: `Varón de 46 años con antecedente de resección de un macroadenoma hipofisario no funcionante y radioterapia posterior. Presenta disminución de la masa muscular, aumento de adiposidad visceral y deterioro de la calidad de vida. IGF-1 de −1,8 desviaciones estándar para edad y sexo. La función tiroidea y el eje gonadal están sustituidos adecuadamente; el cortisol es normal. Tiene un IMC de 36 kg/m².`,
+  pregunta: "¿Qué consideración es indispensable al confirmar un déficit de GH en este paciente?",
+  opciones: [
+    "Un IGF-1 bajo confirma por sí solo el diagnóstico en cualquier contexto clínico.",
+    "La obesidad puede atenuar la respuesta de GH a las pruebas de estímulo, por lo que deben emplearse umbrales validados para el contexto clínico y el método utilizado.",
+    "Una concentración basal de GH indetectable confirma necesariamente el déficit.",
+    "La prueba de supresión con glucosa es la prueba confirmatoria de primera elección para déficit de GH.",
+    "La medición de GH urinaria de 24 horas sustituye las pruebas dinámicas."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En el adulto, la concentración basal de GH es pulsátil y puede ser indetectable incluso en sujetos sanos. El IGF-1 bajo apoya el diagnóstico, pero no siempre basta para confirmarlo. En pacientes con enfermedad hipotálamo-hipofisaria estructural, la probabilidad pretest es mayor; aun así, suele requerirse una prueba de estímulo validada, salvo situaciones específicas en las que la evidencia clínica y bioquímica permita omitirla conforme a la guía aplicable. La obesidad reduce la secreción estimulada de GH y obliga a interpretar la respuesta con umbrales apropiados. La prueba de tolerancia a la insulina es una referencia clásica, pero puede estar contraindicada en epilepsia o enfermedad cardiovascular relevante; existen alternativas como glucagón o macimorelina según disponibilidad y contexto.`,
+  perlaENARM: "GH basal no sirve para descartar déficit en el adulto. Obesidad y prueba dinámica deben interpretarse conjuntamente.",
+  gpc: {
+    mexico: "Consultar GPC mexicanas vigentes sobre hipopituitarismo y evaluación de enfermedad hipotálamo-hipofisaria.",
+    internacional: "Endocrine Society. Evaluation and Treatment of Adult Growth Hormone Deficiency; consensos internacionales sobre pruebas dinámicas y ajuste de umbrales."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado 2.3: Déficit de hormona de crecimiento en el adulto; Endocrine Society, guía clínica sobre déficit de GH en adultos."
+},
+{
+  id: "ENDO-322",
+  especialidad: "Endocrinología",
+  tema: "Tratamiento médico de la acromegalia",
+  subtema: "Elección de tratamiento según control bioquímico y comorbilidades",
+  dificultad: "Muy alta",
+  caso: `Mujer de 52 años con acromegalia confirmada, operada por un macroadenoma somatotropo. Persiste enfermedad bioquímica, con IGF-1 elevado para edad y GH persistentemente detectable. La resonancia muestra un remanente tumoral pequeño, sin compresión quiasmática. Tiene diabetes mellitus tipo 2 con HbA1c de 9,1% pese a tratamiento intensivo.`,
+  pregunta: "¿Qué opción farmacológica merece especial consideración por el perfil glucémico de la paciente?",
+  opciones: [
+    "Pasireótida, porque mejora habitualmente el control glucémico al inhibir la secreción de GH.",
+    "Pegvisomant, porque bloquea el receptor de GH y suele reducir IGF-1 sin inhibir directamente la secreción hipofisaria de GH.",
+    "Cabergolina como monoterapia obligatoria, independientemente de la magnitud de la elevación de IGF-1.",
+    "Levotiroxina a dosis supresoras para reducir la secreción de GH.",
+    "Desmopresina, por su acción directa sobre los somatotropos."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Pegvisomant antagoniza el receptor periférico de GH y reduce la producción hepática de IGF-1. Es una alternativa particularmente útil cuando persiste actividad bioquímica tras cirugía, especialmente si el control glucémico es problemático. Requiere monitorización de IGF-1 y vigilancia hepática; la resonancia debe mantenerse para vigilar el remanente, porque el fármaco no es un tratamiento citoreductor tumoral. Pasireótida puede ser eficaz en enfermedad persistente, pero inhibe la secreción de insulina y puede empeorar la hiperglucemia. Los análogos de somatostatina de primera generación y la cabergolina se seleccionan según respuesta bioquímica, tamaño tumoral, tolerancia y características del paciente.`,
+  perlaENARM: "Pasireótida puede empeorar la diabetes; pegvisomant actúa sobre el receptor de GH y se monitoriza con IGF-1, no con GH sérica.",
+  gpc: {
+    mexico: "Verificar GPC y protocolos institucionales vigentes para acromegalia persistente o recurrente.",
+    internacional: "Pituitary Society y consensos internacionales de acromegalia; guías de tratamiento médico individualizado."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado 2.2: Acromegalia y gigantismo; consensos internacionales sobre tratamiento farmacológico de la acromegalia."
+},
+{
+  id: "ENDO-323",
+  especialidad: "Endocrinología",
+  tema: "Tumores hipofisarios no funcionantes",
+  subtema: "Evaluación hormonal preoperatoria y déficit corticotropo",
+  dificultad: "Muy alta",
+  caso: `Varón de 61 años con macroadenoma hipofisario de 2,8 cm, extensión supraselar y alteración campimétrica bitemporal. No presenta fenotipo de hipersecreción hormonal. El cortisol de las 8:00 h es de 2,4 µg/dL, con ACTH baja-normal; la T4 libre está disminuida con TSH no elevada. El sodio es de 132 mmol/L.`,
+  pregunta: "¿Cuál es la prioridad endocrinológica antes de programar la cirugía?",
+  opciones: [
+    "Iniciar levotiroxina inmediatamente y diferir cualquier otra intervención hormonal.",
+    "Descartar déficit de GH mediante prueba dinámica antes de tratar los demás ejes.",
+    "Evaluar y tratar la insuficiencia corticotropa antes de iniciar levotiroxina y antes del procedimiento quirúrgico.",
+    "Administrar un agonista dopaminérgico a dosis altas aunque la prolactina sea normal.",
+    "Realizar una prueba de supresión con dexametasona para confirmar autonomía de cortisol."
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La masa con compromiso quiasmático requiere valoración neuroquirúrgica y evaluación integral de los ejes hipofisarios. El cortisol matutino marcadamente bajo, acompañado de ACTH no elevada, sugiere insuficiencia suprarrenal central. La sustitución glucocorticoidea es prioritaria: iniciar levotiroxina antes de cubrir un déficit de cortisol puede precipitar una crisis suprarrenal al aumentar las necesidades metabólicas y la depuración de cortisol. En el perioperatorio se requiere un plan de cobertura glucocorticoidea y vigilancia del sodio, el balance hídrico y los déficits hormonales restantes.`,
+  perlaENARM: "En hipopituitarismo, primero se asegura el eje corticotropo; después se inicia levotiroxina si existe hipotiroidismo central.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de hipopituitarismo, insuficiencia suprarrenal y manejo perioperatorio de tumores hipofisarios.",
+    internacional: "Endocrine Society: evaluación hormonal de incidentalomas hipofisarios; guías de insuficiencia suprarrenal central e hipopituitarismo."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartados 2.8 y 2.9: Hipopituitarismo y masas selares."
+},
+{
+  id: "ENDO-324",
+  especialidad: "Endocrinología",
+  tema: "Hipofisitis asociada a inmunoterapia",
+  subtema: "Toxicidad endocrina por inhibidores de puntos de control inmunitario",
+  dificultad: "Muy alta",
+  caso: `Mujer de 64 años con melanoma metastásico en tratamiento con ipilimumab y nivolumab. Tras varias semanas desarrolla cefalea, náusea, astenia e hipotensión. Sodio de 127 mmol/L, cortisol matutino de 1,8 µg/dL y ACTH disminuida. La resonancia muestra aumento difuso de volumen hipofisario, sin lesión focal definida.`,
+  pregunta: "¿Qué interpretación integra mejor los hallazgos y orienta la atención inicial?",
+  opciones: [
+    "Enfermedad de Addison primaria, que necesariamente cursa con ACTH baja.",
+    "Hipofisitis relacionada con inmunoterapia con insuficiencia corticotropa; debe iniciarse glucocorticoide sin retraso si existe sospecha de crisis.",
+    "Síndrome de Cushing hipofisario con supresión secundaria de ACTH.",
+    "Diabetes insípida central aislada, que explica la hiponatremia y la hipotensión.",
+    "Hiperaldosteronismo primario provocado por inmunoterapia."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los inhibidores de puntos de control inmunitario pueden inducir hipofisitis o déficits hormonales hipofisarios, con afectación frecuente del eje ACTH-cortisol. La combinación de cortisol bajo y ACTH baja es compatible con insuficiencia suprarrenal central. Si hay inestabilidad hemodinámica o sospecha de crisis, se administra hidrocortisona y líquidos sin esperar todos los estudios; las muestras hormonales se obtienen antes si hacerlo no retrasa el tratamiento. La resonancia puede mostrar aumento glandular, pero una imagen normal no excluye toxicidad endocrina. Deben evaluarse también los ejes tiroideo y gonadal. La necesidad de glucocorticoides a dosis inmunosupresoras depende de la gravedad de la inflamación, no del déficit hormonal aislado.`,
+  perlaENARM: "Cortisol bajo más ACTH baja tras inmunoterapia apunta a insuficiencia suprarrenal central. No retrasar glucocorticoides ante una crisis probable.",
+  gpc: {
+    mexico: "Consultar protocolos oncológicos e institucionales vigentes para toxicidades endocrinas inmunomediadas.",
+    internacional: "ESMO y ASCO: guías de manejo de eventos adversos inmunomediados; European Society of Endocrinology, guía sobre endocrinopatías por inhibidores de puntos de control inmunitario."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartados 2.8 y 4; guías ESE/ASCO/ESMO sobre toxicidad endocrina inmunomediada."
+},
+{
+  id: "ENDO-325",
+  especialidad: "Endocrinología",
+  tema: "Hipercolesterolemia familiar",
+  subtema: "Diagnóstico clínico y tamizaje en cascada",
+  dificultad: "Muy alta",
+  caso: `Varón de 29 años con infarto agudo de miocardio. LDL-C de 246 mg/dL antes de iniciar tratamiento, xantomas tendinosos en Aquiles y antecedente de infarto en su padre a los 43 años. No tiene hipotiroidismo, síndrome nefrótico ni colestasis. Su hermano de 24 años se encuentra asintomático.`,
+  pregunta: "¿Qué estrategia familiar ofrece mayor utilidad preventiva tras establecer la sospecha de hipercolesterolemia familiar?",
+  opciones: [
+    "Esperar a que los familiares desarrollen síntomas cardiovasculares para medir lípidos.",
+    "Realizar tamizaje en cascada de familiares de primer grado con perfil lipídico y, si se identifica una variante causal, prueba genética dirigida cuando esté disponible.",
+    "Solicitar únicamente lipoproteína(a) al hermano y omitir el perfil lipídico.",
+    "Descartar una causa hereditaria porque la concentración de LDL puede elevarse por dieta.",
+    "Realizar ecocardiograma anual como única prueba de detección familiar."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El LDL-C muy elevado, los xantomas tendinosos y la enfermedad coronaria prematura son altamente sugestivos de hipercolesterolemia familiar. La evaluación debe descartar causas secundarias, pero el fenotipo descrito favorece una alteración hereditaria. El tamizaje en cascada permite identificar familiares afectados antes de que desarrollen eventos. Puede realizarse con perfil lipídico y, cuando se conoce una variante patogénica familiar, con estudio genético dirigido. El diagnóstico genético no debe ser requisito para iniciar prevención intensiva en un paciente con un fenotipo clínico convincente.`,
+  perlaENARM: "LDL-C ≥190 mg/dL obliga a valorar hipercolesterolemia familiar y causas secundarias. Xantomas tendinosos y coronariopatía prematura refuerzan el diagnóstico.",
+  gpc: {
+    mexico: "Consultar GPC vigentes sobre dislipidemias y prevención cardiovascular; adaptar el tamizaje a los recursos disponibles.",
+    internacional: "ESC/EAS: guías de dislipidemias; recomendaciones internacionales para diagnóstico y tamizaje familiar de hipercolesterolemia familiar."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado 7.1: Dislipidemias; guías ESC/EAS de dislipidemias."
+},
+{
+  id: "ENDO-326",
+  especialidad: "Endocrinología",
+  tema: "Dislipidemias hereditarias",
+  subtema: "Sitosterolemia frente a hipercolesterolemia familiar",
+  dificultad: "Muy alta",
+  caso: `Mujer de 22 años con xantomas tendinosos y colesterol elevado desde la infancia. Su respuesta al tratamiento convencional con estatina ha sido menor de la esperada. Presenta anemia hemolítica leve y plaquetas grandes en el frotis. No existe un patrón claro de hipercolesterolemia en generaciones sucesivas de su familia.`,
+  pregunta: "¿Qué mecanismo molecular debe considerarse ante esta combinación de hallazgos?",
+  opciones: [
+    "Mutación activadora de PCSK9 con herencia autosómica dominante como explicación obligatoria.",
+    "Defecto de ABCG5 o ABCG8, con absorción intestinal aumentada y eliminación biliar reducida de esteroles vegetales.",
+    "Deficiencia de lipoproteinlipasa, caracterizada por quilomicronemia aislada y pancreatitis recurrente.",
+    "Deficiencia de lipasa ácida lisosomal, que siempre produce hipocolesterolemia.",
+    "Mutación de LDLR que explica directamente la macroplaquetopenia por depósito de colesterol."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La sitosterolemia es un trastorno autosómico recesivo por alteraciones de ABCG5 o ABCG8, transportadores que limitan la absorción intestinal y favorecen la excreción biliar de esteroles vegetales. Puede simular hipercolesterolemia familiar, con xantomas y enfermedad aterosclerótica prematura, pero también producir hemólisis y macrotrombocitopenia. La cuantificación plasmática de esteroles vegetales y el estudio molecular pueden confirmar el diagnóstico. El tratamiento incluye restricción de esteroles vegetales y ezetimiba; la respuesta insuficiente a estatinas y los hallazgos hematológicos deben impulsar el diagnóstico diferencial.`,
+  perlaENARM: "Xantomas más hemólisis y plaquetas grandes orientan a sitosterolemia; no todo fenotipo de hipercolesterolemia familiar es causado por LDLR.",
+  gpc: {
+    mexico: "No se identifica una GPC mexicana específica ampliamente establecida para sitosterolemia; consultar protocolos de dislipidemias raras y genética metabólica.",
+    internacional: "Literatura especializada sobre sitosterolemia, transportadores ABCG5/ABCG8 y manejo con ezetimiba."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado 7.1: Dislipidemias; revisiones especializadas sobre sitosterolemia."
+},
+{
+  id: "ENDO-327",
+  especialidad: "Endocrinología",
+  tema: "Hipertrigliceridemia grave",
+  subtema: "Quilomicronemia multifactorial y riesgo de pancreatitis",
+  dificultad: "Muy alta",
+  caso: `Varón de 47 años con triglicéridos de 1.860 mg/dL, dolor abdominal y lipasa elevada. Tiene obesidad, diabetes descontrolada y consumo importante de alcohol. En registros previos, los triglicéridos oscilaban entre 350 y 600 mg/dL. No hay historia de pancreatitis durante la infancia ni de hipertrigliceridemia extrema desde edades tempranas.`,
+  pregunta: "¿Qué explicación etiológica resulta más consistente con la historia longitudinal?",
+  opciones: [
+    "Síndrome de quilomicronemia familiar monogénica como diagnóstico confirmado por una sola medición.",
+    "Quilomicronemia multifactorial precipitada por factores secundarios sobre una predisposición metabólica.",
+    "Disbetalipoproteinemia familiar, que siempre produce triglicéridos superiores a 10.000 mg/dL.",
+    "Hipercolesterolemia familiar aislada por defecto de LDLR.",
+    "Deficiencia de CETP como causa obligatoria de pancreatitis por quilomicrones."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La hipertrigliceridemia grave puede resultar de la combinación de predisposición genética y factores secundarios como diabetes descontrolada, obesidad y alcohol. Los valores previamente variables y la aparición de elevaciones extremas durante una descompensación metabólica favorecen una quilomicronemia multifactorial frente a una deficiencia monogénica de la vía de lipoproteinlipasa, que suele manifestarse desde etapas tempranas con triglicéridos persistentemente muy elevados. La prioridad clínica es evaluar y tratar la pancreatitis, corregir desencadenantes y reducir triglicéridos; la selección de medidas específicas depende de gravedad, glucemia, estado hemodinámico y protocolo institucional.`,
+  perlaENARM: "Triglicéridos ≥1.000 mg/dL aumentan de forma importante el riesgo de pancreatitis. Diabetes descontrolada y alcohol son desencadenantes frecuentes de quilomicronemia multifactorial.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes para pancreatitis aguda e hipertrigliceridemia grave, incluyendo control de diabetes y abstinencia de alcohol.",
+    internacional: "Endocrine Society y consensos internacionales sobre hipertrigliceridemia; guías de pancreatitis aguda."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado 7.1: Dislipidemias; guías internacionales sobre hipertrigliceridemia grave."
+},
+{
+  id: "ENDO-328",
+  especialidad: "Endocrinología",
+  tema: "Lipodistrofia familiar parcial",
+  subtema: "Resistencia grave a la insulina y distribución anómala de grasa",
+  dificultad: "Muy alta",
+  caso: `Mujer de 31 años con diabetes de inicio temprano, hipertrigliceridemia de 1.100 mg/dL y esteatosis hepática. Presenta pérdida marcada de grasa subcutánea en extremidades y región glútea, con acumulación relativa de grasa en cara, cuello y abdomen. Refiere familiares con fenotipo corporal semejante y diabetes de difícil control.`,
+  pregunta: "¿Qué alteración fisiopatológica explica mejor el conjunto de manifestaciones?",
+  opciones: [
+    "Exceso generalizado de tejido adiposo funcional con sensibilidad aumentada a insulina.",
+    "Pérdida de capacidad de almacenamiento adiposo, con depósito ectópico de lípidos, resistencia grave a insulina e hipertrigliceridemia.",
+    "Deficiencia aislada de cortisol con aumento compensatorio de lipólisis sin alteración del metabolismo lipídico.",
+    "Aumento primario de la captación muscular de ácidos grasos que protege al hígado de esteatosis.",
+    "Deficiencia aislada de lipasa pancreática con malabsorción de grasa como mecanismo principal."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Las lipodistrofias se caracterizan por pérdida parcial o generalizada de tejido adiposo funcional. La capacidad limitada para almacenar lípidos favorece su depósito ectópico en hígado y músculo, con resistencia marcada a la insulina, diabetes, hipertrigliceridemia y esteatosis hepática. Algunas formas familiares parciales se asocian con variantes en genes como LMNA o PPARG. La confirmación requiere integrar fenotipo, historia familiar, evaluación metabólica y, cuando esté indicado, estudio genético. Deben descartarse causas adquiridas y otras enfermedades que alteran la distribución de grasa.`,
+  perlaENARM: "Pérdida de grasa en extremidades más adiposidad cervicofacial, diabetes grave e hipertrigliceridemia debe hacer sospechar lipodistrofia, no obesidad simple.",
+  gpc: {
+    mexico: "Consultar protocolos institucionales de enfermedades metabólicas raras, diabetes compleja y dislipidemias graves.",
+    internacional: "Guías y consensos internacionales sobre lipodistrofias; recomendaciones de evaluación metabólica y genética."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartados 5 y 7: Diabetes mellitus, dislipidemias y obesidad; consensos sobre lipodistrofias."
+},
+{
+  id: "ENDO-329",
+  especialidad: "Endocrinología",
+  tema: "Obesidad y regulación neuroendocrina del apetito",
+  subtema: "Vía leptina-melanocortina y obesidad de inicio temprano",
+  dificultad: "Muy alta",
+  caso: `Niño de 5 años con obesidad grave de inicio durante el primer año de vida, hiperfagia persistente y familiares de primer grado sin obesidad grave. No presenta rasgos dismórficos evidentes ni alteraciones neurológicas focales. El crecimiento lineal se mantiene y la evaluación tiroidea es normal.`,
+  pregunta: "¿Qué estrategia etiológica debe priorizarse ante este fenotipo?",
+  opciones: [
+    "Descartar toda causa monogénica porque la obesidad infantil siempre es ambiental.",
+    "Investigar causas genéticas de obesidad de inicio muy temprano, incluyendo alteraciones de la vía leptina-melanocortina.",
+    "Solicitar únicamente cortisol urinario porque la obesidad grave implica síndrome de Cushing.",
+    "Diagnosticar hipotiroidismo central por el peso corporal aunque T4 libre y TSH sean normales.",
+    "Indicar una prueba de supresión con glucosa para investigar exceso de GH."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La obesidad grave de inicio muy temprano acompañada de hiperfagia marcada, especialmente cuando no existe una explicación ambiental suficiente, justifica considerar una etiología monogénica o sindrómica. La vía leptina-melanocortina participa en la regulación hipotalámica de la saciedad; alteraciones en genes como LEP, LEPR, POMC, PCSK1 o MC4R pueden producir fenotipos específicos. La selección de pruebas genéticas depende de la disponibilidad y del fenotipo. No se recomienda un estudio endocrino indiscriminado: el hipotiroidismo y el hipercortisolismo suelen asociarse con alteración del crecimiento lineal u otros signos que aumentan la sospecha clínica.`,
+  perlaENARM: "Obesidad grave antes de los 5 años más hiperfagia intensa es una señal para investigar obesidad monogénica.",
+  gpc: {
+    mexico: "Consultar protocolos pediátricos vigentes de obesidad y referencia a genética clínica/endocrinología pediátrica.",
+    internacional: "Consensos internacionales de evaluación de obesidad genética y guías pediátricas de obesidad."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado 7.3: Obesidad; consensos internacionales sobre obesidad monogénica."
+},
+{
+  id: "ENDO-330",
+  especialidad: "Endocrinología",
+  tema: "Desnutrición y valoración nutricional",
+  subtema: "Limitaciones de albúmina y marcadores inflamatorios",
+  dificultad: "Muy alta",
+  caso: `Varón de 70 años hospitalizado por neumonía grave. Presenta pérdida involuntaria de 9% del peso en tres meses y reducción importante de la ingesta. La albúmina es de 2,1 g/dL y la proteína C reactiva está muy elevada. No tiene edema previo ni datos de cirrosis o síndrome nefrótico.`,
+  pregunta: "¿Cuál es la interpretación más rigurosa de la albúmina en este contexto?",
+  opciones: [
+    "Confirma por sí sola desnutrición calórico-proteica grave y cuantifica con precisión la masa muscular.",
+    "Es un marcador influido por inflamación y enfermedad aguda; el diagnóstico nutricional debe integrar pérdida de peso, ingesta, composición corporal y contexto clínico.",
+    "Permite distinguir con alta especificidad desnutrición de inflamación cuando la PCR está elevada.",
+    "Su vida media corta permite detectar cambios nutricionales de un día a otro.",
+    "Una albúmina baja excluye la necesidad de valoración nutricional formal."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La albúmina es una proteína de fase aguda negativa y disminuye en la inflamación, el aumento de permeabilidad capilar y diversas enfermedades sistémicas. Su concentración baja se asocia con gravedad y pronóstico, pero no es un marcador específico de reservas nutricionales ni permite atribuir la alteración exclusivamente a desnutrición. La pérdida involuntaria de peso y la reducción de ingesta son datos clínicos relevantes y deben complementarse con exploración nutricional, masa y función muscular, evolución ponderal y herramientas validadas. La intervención nutricional debe individualizarse según el riesgo de síndrome de realimentación y el estado clínico.`,
+  perlaENARM: "La albúmina baja en enfermedad crítica refleja en buena medida inflamación y gravedad; no diagnostica desnutrición por sí sola.",
+  gpc: {
+    mexico: "Consultar guías institucionales vigentes de evaluación nutricional y soporte nutricional hospitalario.",
+    internacional: "GLIM: criterios para diagnóstico de desnutrición; ESPEN: guías de nutrición clínica y soporte nutricional."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado 7.4: Principios generales de nutrición; criterios GLIM y guías ESPEN."
+},
+{
+  id: "ENDO-331",
+  especialidad: "Endocrinología",
+  tema: "Soporte nutricional",
+  subtema: "Elección de vía enteral frente a parenteral",
+  dificultad: "Muy alta",
+  caso: `Mujer de 58 años con accidente cerebrovascular extenso, disfagia grave y tracto gastrointestinal funcional. Se prevé que no podrá cubrir sus requerimientos por vía oral durante varias semanas. No presenta obstrucción intestinal, íleo ni isquemia mesentérica.`,
+  pregunta: "¿Qué principio debe orientar la selección inicial de la vía de soporte nutricional?",
+  opciones: [
+    "Preferir nutrición parenteral total porque evita la aspiración en todos los pacientes.",
+    "Utilizar nutrición enteral cuando el tubo digestivo es funcional y la vía oral es insuficiente o insegura.",
+    "Mantener ayuno completo hasta que recupere la deglución, sin valorar alternativas.",
+    "Elegir nutrición yeyunal de forma universal, incluso si la alimentación gástrica es factible.",
+    "Indicar nutrición parenteral exclusiva por el diagnóstico de accidente cerebrovascular."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Cuando el tubo digestivo es funcional, la nutrición enteral suele preferirse a la parenteral si la vía oral no cubre los requerimientos o no es segura. La elección entre acceso gástrico y pospilórico depende de tolerancia, riesgo de aspiración, anatomía y contexto clínico; la vía pospilórica no es obligatoria para todos. La nutrición parenteral se reserva principalmente para situaciones en las que el tubo digestivo no puede utilizarse o la vía enteral resulta insuficiente o está contraindicada. En pacientes con riesgo de desnutrición, debe definirse un plan de seguimiento y vigilar electrolitos si existe riesgo de realimentación.`,
+  perlaENARM: "Si el intestino funciona, la vía enteral suele ser preferible; la nutrición parenteral no es la primera opción por conveniencia.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de disfagia postictus, nutrición enteral y prevención de aspiración.",
+    internacional: "ESPEN: guías de nutrición clínica y soporte enteral/parenteral; recomendaciones para pacientes neurológicos."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado 7.4: Principios generales de nutrición; guías ESPEN."
+},
+{
+  id: "ENDO-332",
+  especialidad: "Endocrinología",
+  tema: "Osteoporosis inducida por glucocorticoides",
+  subtema: "Prevención de fractura en tratamiento glucocorticoide prolongado",
+  dificultad: "Muy alta",
+  caso: `Mujer de 63 años con polimialgia reumática en tratamiento con prednisona equivalente a 7,5 mg/día desde hace seis meses. Tiene fractura vertebral por compresión documentada y densitometría con T-score de −2,1 en cuello femoral. La función renal es normal y no presenta hipocalcemia.`,
+  pregunta: "¿Qué concepto debe guiar la estimación de su riesgo óseo?",
+  opciones: [
+    "La densitometría osteopénica excluye riesgo alto de fractura aunque exista una fractura vertebral.",
+    "Los glucocorticoides aumentan el riesgo de fractura y una fractura por fragilidad puede justificar tratamiento independientemente de que el T-score no alcance −2,5.",
+    "La pérdida ósea por glucocorticoides solo ocurre cuando la dosis supera 30 mg/día.",
+    "La suplementación con calcio y vitamina D sustituye siempre al tratamiento antirresortivo en presencia de fractura.",
+    "La densitometría debe repetirse cada semana para ajustar el tratamiento."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los glucocorticoides reducen la formación ósea, alteran la función osteoblástica, afectan el balance de remodelado y aumentan el riesgo de fractura, especialmente al inicio y durante los primeros meses de exposición. El riesgo depende de dosis, duración, edad, antecedentes de fractura y otros factores clínicos. Una fractura vertebral por fragilidad es un dato de alto riesgo aunque el T-score esté en rango de osteopenia. Se deben evaluar causas secundarias, asegurar ingesta adecuada de calcio y vitamina D, promover ejercicio y prevención de caídas, y valorar tratamiento farmacológico según el riesgo y la guía aplicable.`,
+  perlaENARM: "En osteoporosis inducida por glucocorticoides, el riesgo de fractura no se define únicamente por el T-score.",
+  gpc: {
+    mexico: "Consultar GPC vigentes sobre osteoporosis y prevención de fracturas en usuarios crónicos de glucocorticoides.",
+    internacional: "American College of Rheumatology: guía de prevención y tratamiento de osteoporosis inducida por glucocorticoides; guías internacionales de osteoporosis."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartados 4 y 8 relacionados con metabolismo mineral; guía ACR sobre osteoporosis inducida por glucocorticoides."
+},
+{
+  id: "ENDO-333",
+  especialidad: "Endocrinología",
+  tema: "Enfermedad de Paget ósea",
+  subtema: "Interpretación de fosfatasa alcalina elevada",
+  dificultad: "Muy alta",
+  caso: `Varón de 72 años con dolor óseo localizado en pelvis y aumento de volumen craneal progresivo. La fosfatasa alcalina total está elevada cuatro veces por encima del límite superior, con GGT normal, calcio y fosfato séricos normales. La radiografía pélvica muestra áreas mixtas líticas y escleróticas con engrosamiento cortical y trabeculación gruesa.`,
+  pregunta: "¿Qué proceso fisiopatológico explica mejor el patrón radiológico y bioquímico?",
+  opciones: [
+    "Supresión completa del remodelado óseo con reducción de la actividad osteoclástica.",
+    "Remodelado óseo focal acelerado y desorganizado, con actividad osteoclástica y formación ósea aumentadas.",
+    "Deficiencia aislada de vitamina D que siempre produce fosfatasa alcalina normal.",
+    "Hiperparatiroidismo primario confirmado por la fosfatasa alcalina elevada, incluso con PTH desconocida.",
+    "Metástasis osteoblásticas como diagnóstico obligatorio ante toda lesión esclerótica."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La enfermedad de Paget se caracteriza por remodelado óseo focal excesivo y desorganizado. La fase inicial puede ser predominantemente lítica; posteriormente aparece una combinación de resorción y formación ósea, con engrosamiento cortical, trabéculas gruesas y deformidad. La fosfatasa alcalina suele elevarse cuando existe enfermedad activa extensa, aunque puede ser normal en enfermedad monostótica o de baja actividad. La GGT normal ayuda a orientar hacia un origen óseo, pero no sustituye el contexto clínico ni los estudios de imagen. Deben considerarse diagnósticos diferenciales como metástasis, displasia fibrosa y otras enfermedades óseas.`,
+  perlaENARM: "Dolor óseo focal, FA elevada con perfil hepático no sugestivo de colestasis y patrón mixto lítico-esclerótico orientan a Paget.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de enfermedad metabólica ósea y criterios de referencia a endocrinología o reumatología.",
+    internacional: "Guías internacionales de diagnóstico y tratamiento de enfermedad ósea de Paget."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, 14.ª ed., Reumatología, apartado 2.3: Enfermedad de Paget; Manual CTO de Endocrinología, apartado 8: metabolismo mineral."
+},
+{
+  id: "ENDO-334",
+  especialidad: "Endocrinología",
+  tema: "Hipercalciuria idiopática",
+  subtema: "Litiasis renal recurrente y metabolismo óseo",
+  dificultad: "Muy alta",
+  caso: `Varón de 35 años con litiasis cálcica recurrente. Tiene calcio sérico normal, PTH normal y 25-OH-vitamina D suficiente. La recolección urinaria de 24 horas confirma excreción elevada de calcio con volumen urinario adecuado. No hay hipercalcemia ni evidencia de hiperparatiroidismo.`,
+  pregunta: "¿Qué intervención no farmacológica es más apropiada para reducir el riesgo de recurrencia?",
+  opciones: [
+    "Eliminar prácticamente todo el calcio de la dieta para reducir la calciuria.",
+    "Mantener una ingesta dietética normal de calcio, reducir sodio y asegurar hidratación suficiente.",
+    "Aumentar la ingesta de sodio para inducir natriuresis y reducir la reabsorción tubular de calcio.",
+    "Restringir agua para reducir el volumen urinario y evitar la pérdida de minerales.",
+    "Iniciar dosis altas de vitamina D sin medir su concentración ni valorar la calciuria."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En la hipercalciuria idiopática, el exceso de calcio urinario favorece la formación de cálculos y puede asociarse con alteraciones del balance óseo. La restricción excesiva de calcio dietético puede aumentar la absorción intestinal de oxalato y no es la estrategia estándar. Se recomienda una ingesta dietética normal de calcio, reducción de sodio, hidratación suficiente para aumentar el volumen urinario y ajustes según composición del cálculo y estudio metabólico. En casos seleccionados con recurrencia persistente, pueden considerarse fármacos como tiazidas, valorando indicaciones, efectos adversos y evidencia actual.`,
+  perlaENARM: "En litiasis cálcica, no se recomienda restringir de forma indiscriminada el calcio dietético; reducir sodio y aumentar líquidos suele ser fundamental.",
+  gpc: {
+    mexico: "Consultar GPC vigentes sobre urolitiasis y evaluación metabólica de litiasis recurrente.",
+    internacional: "AUA/EAU: guías de evaluación metabólica y prevención de recurrencia de cálculos urinarios."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, 14.ª ed., Nefrología, trastornos hidroelectrolíticos; guías AUA/EAU de litiasis urinaria."
+},
+{
+  id: "ENDO-335",
+  especialidad: "Endocrinología",
+  tema: "Hiperfosfatemia",
+  subtema: "Diagnóstico diferencial entre enfermedad renal y liberación celular",
+  dificultad: "Muy alta",
+  caso: `Mujer de 48 años con dolor muscular y debilidad tras una convulsión prolongada. La creatina cinasa está marcadamente elevada, el fosfato sérico es de 6,8 mg/dL, el potasio de 5,7 mmol/L y la creatinina de 1,3 mg/dL, sin antecedente de enfermedad renal crónica.`,
+  pregunta: "¿Qué mecanismo explica mejor la hiperfosfatemia inicial?",
+  opciones: [
+    "Aumento aislado de PTH, que incrementa la reabsorción renal de fosfato.",
+    "Liberación intracelular de fosfato por lesión muscular, con posible contribución de una disminución transitoria de la excreción renal.",
+    "Deficiencia de FGF23 como explicación demostrada únicamente por un fosfato elevado.",
+    "Hipervitaminosis D como diagnóstico confirmado por el potasio elevado.",
+    "Pérdida renal primaria de fosfato como mecanismo habitual de hiperfosfatemia."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La rabdomiólisis libera fosfato, potasio y otros componentes intracelulares al plasma. La lesión renal aguda asociada puede agravar la hiperfosfatemia al reducir la excreción. Deben vigilarse calcio, potasio, función renal, diuresis y complicaciones metabólicas. En otros contextos, la hiperfosfatemia puede deberse a enfermedad renal crónica, lisis tumoral, carga exógena de fosfato o alteraciones hormonales. Un fosfato elevado aislado no demuestra una alteración primaria de FGF23.`,
+  perlaENARM: "Rabdomiólisis: CK elevada, hiperpotasemia e hiperfosfatemia por liberación celular; vigilar lesión renal aguda y cambios del calcio.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de rabdomiólisis, lesión renal aguda y trastornos hidroelectrolíticos.",
+    internacional: "Guías de manejo de rabdomiólisis y recomendaciones de nefrología para alteraciones del fosfato."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado 8.3: Hiperfosfatemia; Manual CTO de Nefrología, trastornos hidroelectrolíticos."
+},
+{
+  id: "ENDO-336",
+  especialidad: "Endocrinología",
+  tema: "Hipofosfatemia",
+  subtema: "Síndrome de realimentación y desplazamiento intracelular",
+  dificultad: "Muy alta",
+  caso: `Paciente de 58 años con alcoholismo crónico y pérdida ponderal importante inicia nutrición tras varios días de ingesta mínima. A las 48 horas presenta debilidad, confusión y dificultad respiratoria. El fosfato desciende de 2,8 a 0,7 mg/dL; también disminuyen potasio y magnesio.`,
+  pregunta: "¿Qué mecanismo vincula la intervención nutricional con la alteración bioquímica?",
+  opciones: [
+    "La insulina estimula la salida de fosfato de las células hacia el plasma.",
+    "La carga de carbohidratos aumenta la insulina y promueve la entrada celular de fosfato, potasio y magnesio, favoreciendo el síndrome de realimentación.",
+    "La nutrición inhibe la síntesis de ATP y eleva el fosfato sérico de manera sostenida.",
+    "La hipofosfatemia demuestra pérdida renal hereditaria de fosfato sin relación con la ingesta.",
+    "El descenso de fosfato excluye una alteración de la producción de ATP."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En pacientes desnutridos, la reintroducción de calorías, especialmente carbohidratos, incrementa la secreción de insulina y favorece el desplazamiento intracelular de fosfato, potasio y magnesio. El descenso grave de fosfato compromete la síntesis de ATP y puede causar debilidad diafragmática, disfunción miocárdica, alteraciones neurológicas y hematológicas. La prevención incluye identificar riesgo, administrar tiamina cuando esté indicada, iniciar el soporte de manera gradual y monitorizar estrechamente electrolitos y balance hídrico. La reposición debe individualizarse según gravedad y función renal.`,
+  perlaENARM: "Hipofosfatemia grave tras reiniciar alimentación en desnutrición: pensar en síndrome de realimentación y riesgo de falla respiratoria o cardiaca.",
+  gpc: {
+    mexico: "Consultar protocolos hospitalarios vigentes para prevención y tratamiento del síndrome de realimentación.",
+    internacional: "ASPEN y NICE: recomendaciones de identificación y manejo del síndrome de realimentación."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado 7.4: Principios generales de nutrición; consensos ASPEN/NICE."
+},
+{
+  id: "ENDO-337",
+  especialidad: "Endocrinología",
+  tema: "Deficiencia de vitamina D",
+  subtema: "Diferenciación bioquímica entre deficiencia de vitamina D y otras causas de hipofosfatemia",
+  dificultad: "Muy alta",
+  caso: `Mujer de 43 años con dolor óseo difuso y debilidad proximal. Calcio de 8,2 mg/dL, fosfato de 2,1 mg/dL, fosfatasa alcalina elevada, PTH de 165 pg/mL y 25-OH-vitamina D de 7 ng/mL. La función renal es normal.`,
+  pregunta: "¿Qué secuencia fisiopatológica explica mejor los resultados?",
+  opciones: [
+    "La deficiencia de vitamina D reduce la absorción intestinal de calcio y fosfato, induce hiperparatiroidismo secundario y aumenta la pérdida renal de fosfato.",
+    "La deficiencia de vitamina D aumenta la absorción intestinal de calcio y suprime PTH.",
+    "La PTH elevada demuestra hiperparatiroidismo primario aunque el calcio esté bajo.",
+    "El fosfato bajo indica necesariamente una mutación de FGF23.",
+    "La fosfatasa alcalina elevada excluye osteomalacia por deficiencia de vitamina D."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La 25-OH-vitamina D es el principal indicador de las reservas de vitamina D. Su deficiencia disminuye la absorción intestinal de calcio y fosfato. La reducción de calcio estimula la secreción de PTH, que aumenta la reabsorción renal de calcio pero incrementa la fosfaturia. La combinación puede producir hipofosfatemia, elevación de fosfatasa alcalina y osteomalacia. El calcio puede ser normal en fases iniciales gracias a la compensación por PTH, por lo que deben integrarse todos los resultados y el contexto clínico.`,
+  perlaENARM: "Vitamina D muy baja, PTH elevada, FA alta y fosfato bajo con función renal conservada orientan a osteomalacia por deficiencia de vitamina D.",
+  gpc: {
+    mexico: "Consultar guías vigentes sobre deficiencia de vitamina D, metabolismo óseo y prevención de osteomalacia.",
+    internacional: "Guías de sociedades de endocrinología y metabolismo óseo sobre evaluación de vitamina D y trastornos minerales."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartados 8.2 y 8.4: Hipocalcemia e hipofosfatemia; textos de metabolismo óseo."
+},
+{
+  id: "ENDO-338",
+  especialidad: "Endocrinología",
+  tema: "Hipocalcemia",
+  subtema: "Diferenciación de hipoparatiroidismo e hipomagnesemia",
+  dificultad: "Muy alta",
+  caso: `Varón de 55 años con alcoholismo crónico presenta parestesias, espasmo carpopedal y QT prolongado. Calcio total y calcio ionizado bajos, magnesio de 0,7 mg/dL, PTH inapropiadamente normal y fosfato elevado. La función renal es conservada.`,
+  pregunta: "¿Cuál es el principio fisiológico que explica la PTH inapropiadamente normal?",
+  opciones: [
+    "La hipomagnesemia grave puede inhibir la secreción de PTH y generar resistencia periférica a su acción.",
+    "La hipomagnesemia estimula siempre la secreción máxima de PTH y elimina la resistencia periférica.",
+    "La PTH normal excluye cualquier alteración paratiroidea o metabólica.",
+    "El fosfato elevado confirma por sí solo enfermedad renal crónica terminal.",
+    "El QT prolongado es un hallazgo que descarta hipocalcemia clínicamente significativa."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La hipomagnesemia grave puede comprometer la secreción de PTH y producir resistencia a su acción en los tejidos diana. Por ello, la PTH puede resultar inapropiadamente normal ante hipocalcemia, y la reposición aislada de calcio puede ser insuficiente. Se requiere corregir el magnesio, además de tratar la hipocalcemia sintomática y vigilar el electrocardiograma. El fosfato elevado es compatible con disminución de la acción de PTH, pero debe interpretarse junto con la función renal y el contexto clínico.`,
+  perlaENARM: "Hipocalcemia refractaria con hipomagnesemia intensa: corregir magnesio para recuperar secreción y acción de PTH.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de urgencias para hipocalcemia sintomática y reposición de magnesio.",
+    internacional: "Guías y consensos de manejo de hipocalcemia e hipomagnesemia."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado 8.2: Hipocalcemia; Manual CTO de Nefrología, trastornos hidroelectrolíticos."
+},
+{
+  id: "ENDO-339",
+  especialidad: "Endocrinología",
+  tema: "Trastornos del desarrollo sexual",
+  subtema: "Insuficiencia gonadal y preservación de fertilidad en síndrome de Klinefelter",
+  dificultad: "Muy alta",
+  caso: `Varón de 19 años con talla alta, ginecomastia, testículos pequeños y firmes, azoospermia y gonadotropinas elevadas. El cariotipo confirma 47,XXY. Consulta por infertilidad y pregunta si debe iniciar testosterona de inmediato.`,
+  pregunta: "¿Qué aspecto debe resolverse antes de iniciar testosterona si desea paternidad biológica?",
+  opciones: [
+    "La testosterona exógena aumenta de forma constante la espermatogénesis en la azoospermia.",
+    "Debe discutirse evaluación reproductiva especializada y opciones de preservación o recuperación espermática antes de iniciar testosterona, que puede suprimir la espermatogénesis.",
+    "El cariotipo debe repetirse cada mes para determinar si desaparece el cromosoma X adicional.",
+    "La hCG está contraindicada en cualquier paciente con hipogonadismo hipergonadotrópico.",
+    "La azoospermia descarta que el síndrome de Klinefelter sea la causa de la insuficiencia gonadal."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El síndrome de Klinefelter suele causar insuficiencia testicular primaria, con testosterona baja o limítrofe, gonadotropinas elevadas y deterioro de la espermatogénesis. La testosterona puede mejorar síntomas de hipogonadismo, pero no restaura de manera fiable la fertilidad y puede suprimir la producción espermática. En pacientes que desean paternidad biológica, la valoración por reproducción asistida y andrología debe preceder a decisiones terapéuticas que puedan interferir con la evaluación de fertilidad. La recuperación espermática mediante técnicas especializadas puede ser posible en casos seleccionados. La decisión debe individualizarse según objetivos reproductivos, síntomas y resultados hormonales.`,
+  perlaENARM: "En hipogonadismo con deseo reproductivo, no iniciar testosterona automáticamente: primero valorar fertilidad y alternativas.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de hipogonadismo masculino, infertilidad y referencia a andrología/reproducción asistida.",
+    internacional: "Guías internacionales de hipogonadismo masculino y recomendaciones de reproducción asistida en síndrome de Klinefelter."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartados 2.4 y 11: Alteraciones de gonadotrofinas y trastornos del desarrollo sexual."
+},
+{
+  id: "ENDO-340",
+  especialidad: "Endocrinología",
+  tema: "Tumores neuroendocrinos pancreáticos",
+  subtema: "Glucagonoma y síndrome clínico asociado",
+  dificultad: "Muy alta",
+  caso: `Mujer de 59 años con pérdida de peso, diabetes de reciente diagnóstico, anemia y lesiones eritematosas migratorias con erosiones en región perineal, glúteos y extremidades. Presenta glositis y diarrea intermitente. La tomografía identifica una masa sólida en la cola pancreática.`,
+  pregunta: "¿Qué combinación de hallazgos orienta con mayor fuerza hacia un glucagonoma funcional?",
+  opciones: [
+    "Hipoglucemia en ayuno, hiperinsulinemia y ausencia de lesiones cutáneas.",
+    "Diabetes o hiperglucemia, eritema necrolítico migratorio, pérdida ponderal y elevación de glucagón plasmático.",
+    "Hipersecreción de gastrina, úlceras pépticas múltiples y diarrea ácida como patrón obligatorio.",
+    "Hipercalcemia, nefrolitiasis e hiperparatiroidismo primario como manifestaciones cardinales.",
+    "Hipopotasemia con hipertensión resistente como presentación típica aislada."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El glucagonoma es un tumor neuroendocrino pancreático que produce glucagón y puede ocasionar diabetes o hiperglucemia, pérdida de peso, anemia, glositis y eritema necrolítico migratorio. El diagnóstico requiere correlación clínica con glucagón plasmático, imagen anatómica y, cuando corresponde, caracterización de tumor neuroendocrino. Deben considerarse otras causas de dermatosis migratoria y elevación de glucagón, especialmente insuficiencia renal, enfermedad hepática y estados catabólicos. El manejo incluye control metabólico y nutricional, evaluación de extensión tumoral y abordaje multidisciplinario; la resecabilidad y la presencia de metástasis determinan las opciones terapéuticas.`,
+  perlaENARM: "Eritema necrolítico migratorio más diabetes, pérdida de peso y masa pancreática es la asociación clásica del glucagonoma.",
+  gpc: {
+    mexico: "Consultar protocolos oncológicos vigentes para tumores neuroendocrinos pancreáticos y referencia a equipo multidisciplinario.",
+    internacional: "ENETS y NANETS: guías de diagnóstico, estadificación y manejo de tumores neuroendocrinos pancreáticos."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartados 6 y 9; guías ENETS/NANETS sobre tumores neuroendocrinos pancreáticos."
+},
+
+{
+  id: "ENDO-341",
+  especialidad: "Endocrinología",
+  tema: "Incidentaloma suprarrenal",
+  subtema: "Autonomía de cortisol sin fenotipo cushingoide",
+  dificultad: "Muy alta",
+  caso: `Mujer de 66 años con hipertensión y diabetes tipo 2, sin estrías violáceas ni debilidad muscular proximal. Una TC realizada por cólico renal identifica una masa suprarrenal unilateral de 2,7 cm. Tras 1 mg de dexametasona nocturna, el cortisol matutino es de 2,6 µg/dL. No utiliza anticonceptivos ni glucocorticoides y la dexametasona se administró correctamente.`,
+  pregunta: "¿Cuál es la interpretación más adecuada del resultado de supresión?",
+  opciones: [
+    "Descarta secreción autónoma de cortisol porque no existen estigmas físicos de Cushing.",
+    "Es compatible con secreción autónoma leve de cortisol y requiere integrar comorbilidades, confirmación del contexto bioquímico y características de la lesión.",
+    "Confirma síndrome de Cushing manifiesto y obliga a cirugía inmediata en todos los casos.",
+    "Demuestra insuficiencia suprarrenal primaria.",
+    "Confirma que la masa es un carcinoma suprarrenal."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En el contexto de una masa suprarrenal, un cortisol posterior a 1 mg de dexametasona superior a 1,8 µg/dL sugiere autonomía de secreción de cortisol según las recomendaciones europeas actuales. La ausencia de fenotipo cushingoide no excluye secreción autónoma leve. Deben valorarse hipertensión, diabetes, fragilidad ósea y riesgo cardiovascular, además de revisar la calidad de la prueba y los factores que alteran el metabolismo de dexametasona. El resultado no demuestra malignidad ni determina por sí solo la necesidad de cirugía; la decisión es individualizada.`,
+  perlaENARM: "Incidentaloma más cortisol posdexametasona >1,8 µg/dL: considerar secreción autónoma leve aunque no exista Cushing clínico manifiesto.",
+  gpc: {
+    mexico: "Consultar GPC y protocolos institucionales vigentes para incidentaloma suprarrenal.",
+    internacional: "European Society of Endocrinology, guía clínica de incidentalomas suprarrenales, 2023."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 4.4: Incidentaloma suprarrenal; guía ESE 2023."
+},
+{
+  id: "ENDO-342",
+  especialidad: "Endocrinología",
+  tema: "Incidentaloma suprarrenal",
+  subtema: "Caracterización radiológica y riesgo de malignidad",
+  dificultad: "Muy alta",
+  caso: `Varón de 58 años sin antecedente oncológico. Una TC muestra una masa suprarrenal homogénea de 2,2 cm, con atenuación de 7 unidades Hounsfield en la fase sin contraste. No hay invasión local ni adenopatías. La evaluación hormonal inicial no identifica hipersecreción.`,
+  pregunta: "¿Qué característica radiológica favorece con mayor fuerza un adenoma suprarrenal benigno?",
+  opciones: [
+    "Atenuación de 7 UH en una lesión homogénea en TC sin contraste.",
+    "Atenuación superior a 40 UH con necrosis central.",
+    "Invasión de estructuras adyacentes.",
+    "Crecimiento rápido documentado en estudios seriados.",
+    "Heterogeneidad marcada y márgenes infiltrativos."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Una lesión suprarrenal homogénea con atenuación ≤10 UH en TC sin contraste es característica de un adenoma rico en lípidos y presenta un perfil radiológico benigno. La interpretación debe considerar el contexto clínico y la evaluación hormonal correspondiente. Heterogeneidad, invasión, necrosis y crecimiento significativo aumentan la preocupación por malignidad y requieren valoración especializada. La caracterización radiológica no sustituye la evaluación de secreción hormonal cuando está indicada.`,
+  perlaENARM: "Una masa homogénea con ≤10 UH en TC sin contraste favorece adenoma rico en lípidos.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de evaluación radiológica y endocrina del incidentaloma suprarrenal.",
+    internacional: "European Society of Endocrinology, guía de incidentalomas suprarrenales, 2023."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 4.4: Incidentaloma suprarrenal; guía ESE 2023."
+},
+{
+  id: "ENDO-343",
+  especialidad: "Endocrinología",
+  tema: "Feocromocitoma",
+  subtema: "Interpretación de metanefrinas y factores preanalíticos",
+  dificultad: "Muy alta",
+  caso: `Mujer de 43 años con episodios de cefalea, palpitaciones y diaforesis. Las metanefrinas plasmáticas están elevadas 1,4 veces por encima del límite superior. La muestra se obtuvo inmediatamente después de que llegara caminando, mientras estaba sentada y ansiosa. No se ha identificado una masa suprarrenal.`,
+  pregunta: "¿Qué factor debe considerarse antes de interpretar la elevación discreta como evidencia bioquímica concluyente?",
+  opciones: [
+    "La postura, el estrés y las condiciones de obtención pueden elevar falsamente las metanefrinas; debe repetirse la prueba bajo condiciones preanalíticas apropiadas.",
+    "Toda elevación superior al límite normal confirma feocromocitoma independientemente de su magnitud.",
+    "La ausencia de una masa suprarrenal descarta definitivamente un tumor productor de catecolaminas.",
+    "La determinación de cortisol sustituye la evaluación de metanefrinas.",
+    "La prueba debe repetirse exclusivamente durante una crisis hipertensiva."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Las metanefrinas plasmáticas libres son una prueba sensible para detectar feocromocitoma y paraganglioma, pero elevaciones discretas pueden aparecer por estrés, postura, enfermedad aguda y ciertos medicamentos. La obtención tras reposo en decúbito y con condiciones preanalíticas estandarizadas mejora la especificidad. La magnitud de la elevación y la probabilidad pretest orientan la necesidad de repetir estudios o avanzar hacia imagen. No se debe excluir el diagnóstico únicamente porque no exista una masa suprarrenal, pues algunos paragangliomas son extraadrenales.`,
+  perlaENARM: "Una elevación limítrofe de metanefrinas exige revisar postura, reposo, estrés, fármacos y probabilidad pretest.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes para diagnóstico de feocromocitoma y paraganglioma.",
+    internacional: "Endocrine Society: guía clínica para feocromocitoma y paraganglioma."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 4.6: Feocromocitoma; guía clínica de Endocrine Society."
+},
+{
+  id: "ENDO-344",
+  especialidad: "Endocrinología",
+  tema: "Carcinoma medular de tiroides",
+  subtema: "Calcitonina, CEA y seguimiento bioquímico",
+  dificultad: "Muy alta",
+  caso: `Varón de 49 años sometido a tiroidectomía total por carcinoma medular de tiroides. En el seguimiento, la calcitonina permanece indetectable y el antígeno carcinoembrionario es normal. La exploración cervical y la imagen no muestran enfermedad estructural.`,
+  pregunta: "¿Qué afirmación describe mejor la utilidad de estos marcadores?",
+  opciones: [
+    "La calcitonina es un marcador relevante de tejido tumoral C residual y el CEA complementa la evaluación de carga y evolución tumoral.",
+    "El CEA sustituye a la calcitonina en todos los pacientes con carcinoma medular.",
+    "La tiroglobulina es el marcador bioquímico principal de carcinoma medular.",
+    "La calcitonina no tiene utilidad después de la tiroidectomía.",
+    "Un CEA normal excluye cualquier enfermedad metastásica en todos los casos."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El carcinoma medular deriva de células C parafoliculares y produce calcitonina, por lo que esta es un marcador central para el seguimiento. El CEA aporta información complementaria sobre carga tumoral y evolución; su incremento desproporcionado o su cinética puede ser relevante en enfermedad avanzada. La tiroglobulina se utiliza principalmente en el seguimiento de carcinomas diferenciados derivados de células foliculares, no como marcador principal del carcinoma medular. La interpretación siempre se integra con la evolución temporal y los hallazgos clínicos e imagenológicos.`,
+  perlaENARM: "Carcinoma medular: calcitonina y CEA. Carcinoma diferenciado folicular: tiroglobulina.",
+  gpc: {
+    mexico: "Consultar GPC vigentes sobre cáncer de tiroides y seguimiento del carcinoma medular.",
+    internacional: "American Thyroid Association, guía de manejo del carcinoma medular de tiroides."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 3.8: Tumores malignos del tiroides; guía ATA de carcinoma medular."
+},
+{
+  id: "ENDO-345",
+  especialidad: "Endocrinología",
+  tema: "Cáncer diferenciado de tiroides",
+  subtema: "Interpretación de tiroglobulina y anticuerpos antitiroglobulina",
+  dificultad: "Muy alta",
+  caso: `Mujer de 42 años con antecedente de tiroidectomía total y radioyodo por carcinoma papilar. Durante el seguimiento, la tiroglobulina es indetectable, pero los anticuerpos antitiroglobulina son persistentemente positivos. No hay lesión cervical evidente en la ecografía.`,
+  pregunta: "¿Cuál es la limitación principal de interpretar la tiroglobulina como prueba aislada en esta paciente?",
+  opciones: [
+    "Los anticuerpos antitiroglobulina pueden interferir con la medición y producir resultados falsamente bajos en algunos inmunoensayos.",
+    "La tiroglobulina siempre aumenta por encima de 100 ng/mL en todo paciente con recurrencia.",
+    "La tiroglobulina carece de utilidad en el seguimiento de carcinomas diferenciados.",
+    "Los anticuerpos antitiroglobulina confirman por sí solos metástasis a distancia.",
+    "La presencia de anticuerpos demuestra que el tumor original era un carcinoma medular."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La tiroglobulina es útil para el seguimiento del cáncer diferenciado después de tiroidectomía, pero los anticuerpos antitiroglobulina pueden interferir con determinados métodos analíticos. Por ello, una tiroglobulina indetectable no debe interpretarse de forma aislada cuando los anticuerpos son positivos. La tendencia de los anticuerpos, el riesgo inicial, la ecografía y otros estudios seleccionados orientan el seguimiento. El cambio de método analítico también puede dificultar la comparación longitudinal.`,
+  perlaENARM: "En cáncer diferenciado, interpretar tiroglobulina junto con anticuerpos antitiroglobulina y tendencia temporal.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de seguimiento de cáncer diferenciado de tiroides.",
+    internacional: "American Thyroid Association, guías de cáncer diferenciado de tiroides."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 3.8: Tumores malignos del tiroides; guías ATA."
+},
+{
+  id: "ENDO-346",
+  especialidad: "Endocrinología",
+  tema: "Nódulo tiroideo",
+  subtema: "Citología folicular y limitaciones de la punción aspirativa",
+  dificultad: "Muy alta",
+  caso: `Mujer de 47 años con nódulo tiroideo sólido de 3,2 cm. La TSH es normal y la PAAF informa neoplasia folicular. No hay adenopatías sospechosas. El equipo solicita una interpretación de la citología antes de definir el abordaje quirúrgico.`,
+  pregunta: "¿Por qué la PAAF no puede distinguir de forma definitiva un adenoma folicular de un carcinoma folicular?",
+  opciones: [
+    "Porque el diagnóstico de carcinoma folicular requiere demostrar invasión capsular y/o vascular en el estudio histológico.",
+    "Porque el carcinoma folicular siempre presenta calcitonina elevada.",
+    "Porque la citología no permite obtener células tiroideas.",
+    "Porque toda neoplasia folicular es benigna si no hay adenopatías.",
+    "Porque la TSH normal descarta malignidad."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La distinción entre adenoma folicular y carcinoma folicular depende de demostrar invasión capsular o vascular, características que requieren evaluación histológica de la pieza. La PAAF identifica un patrón de proliferación folicular, pero no permite valorar adecuadamente la invasión. Por ello, en los casos indicados se considera resección diagnóstica, frecuentemente hemitiroidectomía, individualizando según tamaño, ecografía, factores de riesgo y preferencias del paciente.`,
+  perlaENARM: "Citología folicular no equivale a carcinoma: la invasión capsular o vascular requiere histología.",
+  gpc: {
+    mexico: "Consultar GPC vigentes de evaluación del nódulo tiroideo y cáncer diferenciado.",
+    internacional: "American Thyroid Association: guías de nódulos tiroideos y cáncer diferenciado."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartados 3.6–3.8: Nódulo tiroideo, estudio citológico y tumores malignos."
+},
+{
+  id: "ENDO-347",
+  especialidad: "Endocrinología",
+  tema: "Hipertiroidismo",
+  subtema: "Tirotoxicosis por destrucción glandular frente a síntesis aumentada",
+  dificultad: "Muy alta",
+  caso: `Mujer de 38 años con palpitaciones y pérdida de peso de tres semanas de evolución. TSH suprimida, T4 libre elevada, captación tiroidea de radioyodo muy baja y ausencia de nódulos. No presenta dolor cervical ni elevación importante de reactantes inflamatorios. Refiere infección respiratoria reciente.`,
+  pregunta: "¿Qué mecanismo es más compatible con el patrón de captación observado?",
+  opciones: [
+    "Síntesis aumentada de hormona por Graves, que habitualmente produce captación difusa elevada.",
+    "Liberación de hormona preformada por destrucción folicular, compatible con tiroiditis indolora.",
+    "Autonomía nodular tóxica, que siempre produce captación difusa elevada.",
+    "Adenoma hipofisario secretor de TSH.",
+    "Resistencia generalizada a hormona tiroidea con TSH suprimida."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La tirotoxicosis con captación baja sugiere que el exceso de hormona circulante no se debe a síntesis aumentada por la glándula. La tiroiditis destructiva libera hormona preformada y suele cursar con captación reducida. En cambio, Graves habitualmente produce captación difusa aumentada y la autonomía nodular genera captación focal o parcheada. También deben considerarse exposición exógena a hormona tiroidea y exceso de yodo, según el contexto.`,
+  perlaENARM: "Tirotoxicosis con captación baja: pensar en tiroiditis, hormona exógena o exceso de yodo; no asumir Graves.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes para diagnóstico diferencial de tirotoxicosis.",
+    internacional: "American Thyroid Association y European Thyroid Association: guías de hipertiroidismo y tirotoxicosis."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 3: Enfermedades de la glándula tiroides."
+},
+{
+  id: "ENDO-348",
+  especialidad: "Endocrinología",
+  tema: "Tiroiditis subaguda",
+  subtema: "Fases evolutivas y tratamiento sintomático",
+  dificultad: "Muy alta",
+  caso: `Varón de 36 años con dolor cervical anterior irradiado a mandíbula, fiebre y elevación de VSG. Inicialmente presenta TSH suprimida y T4 libre elevada, con captación tiroidea baja. Seis semanas después desarrolla cansancio y TSH elevada con T4 libre disminuida.`,
+  pregunta: "¿Qué evolución fisiopatológica explica mejor el cambio hormonal?",
+  opciones: [
+    "Una transición desde liberación de hormona preformada durante la fase destructiva a una fase hipotiroidea transitoria por agotamiento de las reservas.",
+    "Progresión obligatoria a enfermedad de Graves por estimulación de receptores de TSH.",
+    "Aparición de un adenoma hipofisario secretor de TSH.",
+    "Conversión de tiroiditis en carcinoma folicular en seis semanas.",
+    "Supresión permanente de TSH por liberación de calcitonina."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La tiroiditis subaguda dolorosa suele presentar una fase inicial de tirotoxicosis por liberación de hormona preformada, con captación baja y reactantes inflamatorios elevados. Puede seguir una fase hipotiroidea transitoria al agotarse las reservas hormonales, antes de la recuperación. El manejo se orienta al control del dolor y de los síntomas; los antitiroideos no suelen ser útiles porque no existe aumento de síntesis hormonal. Se requiere seguimiento para identificar a quienes desarrollan hipotiroidismo persistente.`,
+  perlaENARM: "Tiroiditis subaguda: tirotoxicosis con captación baja, dolor y VSG elevada; puede seguir una fase hipotiroidea transitoria.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes para tiroiditis y seguimiento de función tiroidea.",
+    internacional: "American Thyroid Association y European Thyroid Association: recomendaciones sobre tiroiditis."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 3: Enfermedades de la glándula tiroides."
+},
+{
+  id: "ENDO-349",
+  especialidad: "Endocrinología",
+  tema: "Hipotiroidismo",
+  subtema: "Interpretación de TSH en enfermedad hipofisaria",
+  dificultad: "Muy alta",
+  caso: `Mujer de 54 años con antecedente de cirugía transesfenoidal por macroadenoma hipofisario. Presenta fatiga y frío. La T4 libre está por debajo del intervalo de referencia y la TSH es de 2,1 mUI/L. No toma levotiroxina ni fármacos que interfieran con la función tiroidea.`,
+  pregunta: "¿Qué interpretación es más consistente con el contexto clínico?",
+  opciones: [
+    "Función tiroidea normal porque la TSH se encuentra dentro del intervalo de referencia.",
+    "Hipotiroidismo central, dado que la TSH es inapropiadamente normal frente a una T4 libre baja.",
+    "Hipertiroidismo subclínico.",
+    "Enfermedad de Graves en fase inicial.",
+    "Resistencia a hormona tiroidea confirmada por la TSH normal."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En el hipotiroidismo central, la T4 libre está baja y la TSH puede ser baja, normal o discretamente elevada, pero resulta inapropiada para el nivel de hormona circulante. La TSH aislada no es suficiente para evaluar la función tiroidea cuando existe enfermedad hipotálamo-hipofisaria. Antes de iniciar levotiroxina, debe evaluarse el eje corticotropo y tratar una posible insuficiencia suprarrenal central para evitar precipitar una crisis.`,
+  perlaENARM: "T4 libre baja con TSH normal no excluye hipotiroidismo: si existe enfermedad hipofisaria, considera hipotiroidismo central.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de hipopituitarismo e hipotiroidismo central.",
+    internacional: "Endocrine Society y European Thyroid Association: guías de hipopituitarismo e hipotiroidismo central."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartados 2.8 y 3: Hipopituitarismo y enfermedades tiroideas."
+},
+{
+  id: "ENDO-350",
+  especialidad: "Endocrinología",
+  tema: "Enfermedad de Graves",
+  subtema: "Elección de antitiroideos durante el embarazo",
+  dificultad: "Muy alta",
+  caso: `Mujer de 29 años con enfermedad de Graves activa, embarazada de nueve semanas. Tiene T4 libre elevada y síntomas moderados. No presenta tormenta tiroidea ni insuficiencia hepática. Pregunta por el fármaco antitiroideo de elección en el primer trimestre.`,
+  pregunta: "¿Qué opción farmacológica suele preferirse durante el primer trimestre?",
+  opciones: [
+    "Metimazol, por ser el fármaco con menor riesgo de embriopatía en el primer trimestre.",
+    "Propiltiouracilo, considerando el riesgo teratógeno del metimazol durante la organogénesis y vigilando toxicidad hepática.",
+    "Radioyodo, porque evita la exposición fetal a antitiroideos.",
+    "Suspender todo tratamiento aunque persista tirotoxicosis manifiesta.",
+    "Levotiroxina en monoterapia para suprimir la TSH."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Cuando se requiere tratamiento antitiroideo durante el primer trimestre, suele preferirse propiltiouracilo por el riesgo de embriopatía asociado al metimazol durante la organogénesis. El propiltiouracilo tiene riesgo de hepatotoxicidad grave, por lo que debe individualizarse el tratamiento y considerarse el cambio a metimazol después del primer trimestre, según evolución y guías aplicables. El radioyodo está contraindicado durante el embarazo. La meta es utilizar la menor dosis eficaz para controlar el hipertiroidismo materno y evitar hipotiroidismo fetal por sobretratamiento.`,
+  perlaENARM: "Graves en embarazo: PTU durante el primer trimestre suele ser preferido; radioyodo está contraindicado.",
+  gpc: {
+    mexico: "Consultar GPC vigentes de hipertiroidismo y embarazo de alto riesgo.",
+    internacional: "American Thyroid Association: guías de enfermedad tiroidea durante el embarazo."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 3: Hipertiroidismo y enfermedad de Graves; guías ATA de embarazo."
+},
+{
+  id: "ENDO-351",
+  especialidad: "Endocrinología",
+  tema: "Hiperparatiroidismo primario",
+  subtema: "Indicaciones de cirugía en enfermedad asintomática",
+  dificultad: "Muy alta",
+  caso: `Mujer de 57 años con calcio sérico persistentemente elevado, PTH no suprimida, función renal conservada y sin síntomas clásicos. La densitometría muestra T-score de −2,7 en radio distal. No tiene contraindicación quirúrgica.`,
+  pregunta: "¿Qué hallazgo aporta por sí mismo un criterio relevante para considerar paratiroidectomía?",
+  opciones: [
+    "T-score ≤ −2,5 en un sitio esquelético evaluado adecuadamente.",
+    "Edad superior a 50 años como criterio único obligatorio.",
+    "PTH dentro del intervalo de referencia, independientemente del calcio.",
+    "Ausencia de síntomas clínicos, que contraindica la cirugía.",
+    "Fosfato sérico normal, que excluye enfermedad ósea por PTH."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El hiperparatiroidismo primario puede causar pérdida ósea cortical, particularmente en el radio distal. Una densidad mineral ósea con T-score ≤ −2,5 en un sitio relevante constituye un criterio aceptado para considerar cirugía en pacientes que no tienen síntomas clásicos, junto con otros criterios como hipercalcemia significativa, nefrolitiasis, reducción de función renal o hipercalciuria seleccionada según la guía. La indicación final requiere confirmar el diagnóstico y valorar riesgo quirúrgico y preferencias del paciente.`,
+  perlaENARM: "En hiperparatiroidismo primario asintomático, osteoporosis densitométrica puede ser indicación de paratiroidectomía.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de hiperparatiroidismo primario y enfermedad metabólica ósea.",
+    internacional: "International Workshop on Primary Hyperparathyroidism: recomendaciones para evaluación y manejo."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 8.1: Hipercalcemia; consensos internacionales sobre hiperparatiroidismo primario."
+},
+{
+  id: "ENDO-352",
+  especialidad: "Endocrinología",
+  tema: "Hipercalcemia",
+  subtema: "Diferenciación entre hiperparatiroidismo primario y hipercalcemia hipocalciúrica familiar",
+  dificultad: "Muy alta",
+  caso: `Varón de 33 años con hipercalcemia leve persistente desde la adolescencia, PTH normal-alta y función renal normal. La calciuria de 24 horas es baja y la relación de aclaramiento calcio/creatinina es de 0,006. Su madre también tiene hipercalcemia asintomática. No presenta litiasis ni osteoporosis.`,
+  pregunta: "¿Qué diagnóstico debe investigarse antes de indicar una paratiroidectomía?",
+  opciones: [
+    "Hipercalcemia hipocalciúrica familiar, relacionada con alteraciones de la detección del calcio.",
+    "Carcinoma paratiroideo, confirmado por hipercalcemia leve familiar.",
+    "Hipercalcemia humoral de malignidad.",
+    "Intoxicación por vitamina D como causa hereditaria obligatoria.",
+    "Hipercalcemia por inmovilización."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La hipercalcemia hipocalciúrica familiar suele cursar con hipercalcemia leve de larga evolución, PTH normal o discretamente elevada, baja excreción urinaria de calcio y antecedentes familiares. Puede deberse a variantes de CASR y, en otros fenotipos, genes relacionados como GNA11 o AP2S1. La relación de aclaramiento calcio/creatinina baja apoya el diagnóstico, aunque existe solapamiento con hiperparatiroidismo primario y puede verse influida por dieta, vitamina D y función renal. Reconocerla evita una cirugía paratiroidea generalmente ineficaz.`,
+  perlaENARM: "Hipercalcemia familiar leve más hipocalciuria: considerar hipercalcemia hipocalciúrica familiar antes de operar.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de diagnóstico diferencial de hipercalcemia y referencia a genética clínica cuando proceda.",
+    internacional: "International Workshop on Primary Hyperparathyroidism y literatura especializada sobre hipercalcemia hipocalciúrica familiar."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 8.1: Hipercalcemia; consensos internacionales sobre trastornos hereditarios del sensor de calcio."
+},
+{
+  id: "ENDO-353",
+  especialidad: "Endocrinología",
+  tema: "Hipocalcemia posquirúrgica",
+  subtema: "Hipoparatiroidismo transitorio y permanente",
+  dificultad: "Muy alta",
+  caso: `Paciente de 46 años sometida a tiroidectomía total por carcinoma papilar. Al día siguiente presenta parestesias periorales, espasmo carpopedal y calcio ionizado bajo. El fosfato está elevado y la PTH es marcadamente baja.`,
+  pregunta: "¿Qué mecanismo explica mejor la combinación de calcio bajo, fosfato elevado y PTH baja?",
+  opciones: [
+    "Disminución de secreción de PTH por lesión o disfunción de las paratiroides durante la cirugía.",
+    "Aumento de PTH con fosfaturia intensa.",
+    "Hipercalcemia mediada por PTHrP.",
+    "Exceso de vitamina D con supresión de la absorción intestinal de calcio.",
+    "Resistencia aislada a hormona tiroidea."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Después de una tiroidectomía, la lesión, desvascularización o manipulación de las paratiroides puede producir hipoparatiroidismo transitorio o persistente. La reducción de PTH disminuye la reabsorción renal de calcio y la excreción de fosfato, lo que favorece hipocalcemia e hiperfosfatemia. La sintomatología neuromuscular y el QT prolongado requieren atención inmediata, con tratamiento según gravedad y monitorización. La persistencia del déficit se determina mediante seguimiento bioquímico y evolución clínica, no por una sola medición posoperatoria.`,
+  perlaENARM: "Hipocalcemia e hiperfosfatemia con PTH baja después de tiroidectomía sugieren hipoparatiroidismo posquirúrgico.",
+  gpc: {
+    mexico: "Consultar protocolos perioperatorios vigentes de cirugía tiroidea e hipocalcemia.",
+    internacional: "International Task Force: recomendaciones para diagnóstico y manejo de hipoparatiroidismo."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 8.2: Hipocalcemia; consensos internacionales de hipoparatiroidismo."
+},
+{
+  id: "ENDO-354",
+  especialidad: "Endocrinología",
+  tema: "Hiperparatiroidismo secundario en enfermedad renal crónica",
+  subtema: "Alteraciones del eje fosfato-vitamina D-PTH",
+  dificultad: "Muy alta",
+  caso: `Varón de 63 años con enfermedad renal crónica G4, fosfato elevado, calcio en límite bajo y PTH progresivamente elevada. La 25-OH-vitamina D está suficiente. No hay hipercalcemia ni antecedentes de trasplante renal.`,
+  pregunta: "¿Qué mecanismo contribuye de forma central al aumento de PTH en este contexto?",
+  opciones: [
+    "Retención de fosfato y disminución de la producción renal de calcitriol, con alteraciones de la señalización mineral y estimulación paratiroidea.",
+    "Aumento de la producción renal de calcitriol y supresión de la PTH.",
+    "Exceso de filtración glomerular de fosfato como mecanismo de hiperfosfatemia.",
+    "Secreción autónoma de PTH demostrada únicamente por la presencia de enfermedad renal crónica.",
+    "Activación permanente del receptor de vitamina D por insuficiencia renal."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En la enfermedad renal crónica, la reducción de la capacidad excretora produce retención de fosfato y disminuye la síntesis renal de calcitriol. Estos cambios, junto con alteraciones del calcio y de la señalización por FGF23, favorecen el hiperparatiroidismo secundario y la enfermedad mineral ósea asociada a ERC. La interpretación y el tratamiento deben basarse en tendencias de calcio, fosfato y PTH, el estadio renal, la dieta y los tratamientos actuales. Una elevación de PTH aislada no justifica automáticamente calcitriol o calcimiméticos en todos los pacientes.`,
+  perlaENARM: "ERC avanzada: retención de fosfato y menor calcitriol contribuyen al hiperparatiroidismo secundario.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de enfermedad mineral ósea asociada a enfermedad renal crónica.",
+    internacional: "KDIGO: guía de enfermedad mineral y ósea en enfermedad renal crónica."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartados 8.1 y 8.3; KDIGO CKD-MBD."
+},
+{
+  id: "ENDO-355",
+  especialidad: "Endocrinología",
+  tema: "Pubertad precoz central",
+  subtema: "Interpretación de prueba de estímulo con GnRH",
+  dificultad: "Muy alta",
+  caso: `Niña de 7 años y 2 meses con telarquia progresiva, aceleración de la velocidad de crecimiento y edad ósea adelantada. La ecografía pélvica muestra crecimiento uterino. La LH basal es baja, pero la prueba de estímulo con GnRH muestra respuesta de LH compatible con activación puberal según el ensayo utilizado.`,
+  pregunta: "¿Qué interpretación integra mejor los datos clínicos y hormonales?",
+  opciones: [
+    "La LH basal baja excluye activación central del eje gonadal.",
+    "La respuesta puberal de LH tras GnRH, junto con progresión clínica y edad ósea avanzada, apoya pubertad precoz central.",
+    "El crecimiento uterino confirma una fuente suprarrenal de estrógenos.",
+    "La edad ósea avanzada descarta exposición a esteroides sexuales.",
+    "La telarquia antes de los 8 años siempre representa una variante benigna."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La pubertad precoz central resulta de activación prematura del eje hipotálamo-hipófisis-gónada. La LH basal puede ser baja en fases tempranas o según el ensayo, por lo que una prueba de estímulo puede ayudar a demostrar respuesta puberal. La progresión de caracteres sexuales, aceleración del crecimiento y avance de edad ósea refuerzan la sospecha. La interpretación depende del método analítico y de los umbrales validados localmente. Deben considerarse edad, velocidad de progresión y necesidad de estudiar etiología central según sexo, edad y hallazgos clínicos.`,
+  perlaENARM: "En pubertad precoz, una LH basal baja no siempre excluye activación central; integrar clínica, edad ósea y prueba dinámica.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de pubertad precoz y endocrinología pediátrica.",
+    internacional: "Sociedades internacionales de endocrinología pediátrica: recomendaciones para evaluación de pubertad precoz."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 11.8: Pubertad precoz."
+},
+{
+  id: "ENDO-356",
+  especialidad: "Endocrinología",
+  tema: "Pubertad retrasada",
+  subtema: "Diferenciación entre retraso constitucional e hipogonadismo",
+  dificultad: "Muy alta",
+  caso: `Varón de 15 años y 8 meses sin aumento testicular significativo. Tiene talla baja relativa, edad ósea retrasada y padre con antecedente de pubertad tardía. Las gonadotropinas se encuentran en rango bajo-normal y no presenta anosmia, micropene ni criptorquidia previa.`,
+  pregunta: "¿Qué dato adicional sería especialmente útil para diferenciar retraso constitucional de hipogonadismo hipogonadotrópico persistente?",
+  opciones: [
+    "La historia longitudinal de crecimiento y pubertad, exploración dirigida y reevaluación evolutiva, porque los perfiles basales pueden solaparse.",
+    "Una única concentración de testosterona baja que confirma hipogonadismo permanente.",
+    "La ausencia de anosmia, que excluye todos los trastornos congénitos del eje gonadotrópico.",
+    "Una TSH normal, que confirma retraso constitucional.",
+    "La edad ósea retrasada, que descarta cualquier enfermedad orgánica."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El retraso constitucional del crecimiento y la pubertad puede compartir con el hipogonadismo hipogonadotrópico concentraciones basales bajas de gonadotropinas y esteroides sexuales. La historia familiar, la trayectoria de crecimiento, la edad ósea, los signos de trastornos congénitos y la evolución clínica ayudan a orientar el diagnóstico. Ningún dato aislado excluye por completo el hipogonadismo central. Si existe sospecha de causa orgánica o el retraso progresa, se requiere evaluación endocrinológica dirigida y seguimiento.`,
+  perlaENARM: "Retraso constitucional e hipogonadismo hipogonadotrópico pueden solaparse en pruebas basales; la evolución clínica es clave.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de pubertad retrasada y evaluación de hipogonadismo en adolescentes.",
+    internacional: "Guías de sociedades de endocrinología pediátrica sobre retraso puberal e hipogonadismo."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 11.9: Pubertad retrasada."
+},
+{
+  id: "ENDO-357",
+  especialidad: "Endocrinología",
+  tema: "Tumor carcinoide",
+  subtema: "Síndrome carcinoide y metabolismo de triptófano",
+  dificultad: "Muy alta",
+  caso: `Varón de 61 años con diarrea acuosa episódica, rubor facial y broncoespasmo. La imagen identifica metástasis hepáticas de un tumor neuroendocrino del intestino delgado. La excreción urinaria de ácido 5-hidroxiindolacético está elevada.`,
+  pregunta: "¿Qué fenómeno fisiopatológico favorece la aparición del síndrome carcinoide clásico?",
+  opciones: [
+    "Metabolismo hepático de mediadores tumorales que impide siempre su llegada a la circulación sistémica.",
+    "Acceso de mediadores secretados por el tumor a la circulación sistémica, frecuentemente facilitado por metástasis hepáticas.",
+    "Secreción exclusiva de insulina que produce hipoglucemia en ayuno.",
+    "Producción de calcitonina por células C tiroideas como mecanismo obligatorio.",
+    "Exceso de aldosterona con retención de sodio como causa directa del rubor."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El síndrome carcinoide se asocia con secreción sistémica de serotonina y otros mediadores por determinados tumores neuroendocrinos. En tumores gastrointestinales, los mediadores pueden metabolizarse inicialmente en el hígado; las metástasis hepáticas facilitan su acceso a la circulación sistémica. La elevación de 5-HIAA urinario apoya el diagnóstico, pero su interpretación requiere condiciones preanalíticas y dietéticas apropiadas. La evaluación debe considerar localización, extensión, síntomas y posibles complicaciones como cardiopatía carcinoide.`,
+  perlaENARM: "Tumor neuroendocrino intestinal más metástasis hepáticas, rubor y diarrea sugiere síndrome carcinoide; 5-HIAA es un marcador útil.",
+  gpc: {
+    mexico: "Consultar protocolos oncológicos vigentes para tumores neuroendocrinos gastroenteropancreáticos.",
+    internacional: "ENETS y NANETS: guías de diagnóstico y manejo de tumores neuroendocrinos y síndrome carcinoide."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 10.8: Tumores carcinoides."
+},
+{
+  id: "ENDO-358",
+  especialidad: "Endocrinología",
+  tema: "Vipoma",
+  subtema: "Diarrea secretora e hipopotasemia",
+  dificultad: "Muy alta",
+  caso: `Mujer de 52 años con diarrea acuosa de gran volumen que persiste durante el ayuno, hipopotasemia grave y acidosis metabólica. No presenta fiebre ni datos de infección intestinal. La tomografía muestra una masa pancreática y el VIP plasmático está elevado.`,
+  pregunta: "¿Qué mecanismo explica mejor la alteración electrolítica predominante?",
+  opciones: [
+    "Secreción intestinal de agua y electrolitos mediada por VIP, con pérdidas fecales de potasio y bicarbonato.",
+    "Inhibición completa de la secreción intestinal de cloro con retención de potasio.",
+    "Exceso de aldosterona como única explicación obligatoria de la diarrea secretora.",
+    "Malabsorción grasa por deficiencia aislada de lipasa pancreática.",
+    "Pérdida renal aislada de potasio sin participación intestinal."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El VIP aumenta la secreción intestinal de agua y electrolitos y puede producir diarrea secretora profusa, hipopotasemia y pérdida fecal de bicarbonato con acidosis metabólica. La persistencia durante el ayuno orienta a diarrea secretora. El manejo inicial requiere reposición de líquidos y electrolitos, seguida de localización y estadificación del tumor neuroendocrino. Los análogos de somatostatina pueden reducir la secreción en casos seleccionados, mientras que el tratamiento definitivo depende de resecabilidad y extensión tumoral.`,
+  perlaENARM: "VIPoma: diarrea acuosa persistente en ayuno, hipopotasemia y acidosis metabólica.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes para tumores neuroendocrinos pancreáticos y manejo de diarrea secretora grave.",
+    internacional: "ENETS y NANETS: recomendaciones para tumores neuroendocrinos pancreáticos funcionales."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 10.4: Vipoma. Síndrome de Werner-Morrison."
+},
+{
+  id: "ENDO-359",
+  especialidad: "Endocrinología",
+  tema: "Tumores neuroendocrinos pancreáticos",
+  subtema: "Tumor no funcionante y efecto de masa",
+  dificultad: "Muy alta",
+  caso: `Varón de 64 años con masa pancreática de 5,5 cm, pérdida de peso y metástasis hepáticas. No presenta hipoglucemia, úlcera péptica recurrente, diarrea secretora ni síndrome hormonal reconocible. La biopsia demuestra un tumor neuroendocrino bien diferenciado.`,
+  pregunta: "¿Qué afirmación es más precisa sobre la ausencia de un síndrome hormonal?",
+  opciones: [
+    "La ausencia de síndrome clínico permite clasificarlo como no funcionante, aunque se requiere evaluación bioquímica dirigida y correlación con el contexto.",
+    "Todo tumor neuroendocrino pancreático debe producir hipoglucemia.",
+    "La ausencia de síntomas hormonales excluye origen neuroendocrino.",
+    "Los tumores no funcionantes son siempre benignos y no metastatizan.",
+    "La concentración normal de una hormona aislada excluye todos los síndromes funcionales."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Los tumores neuroendocrinos pancreáticos pueden ser funcionantes o no funcionantes desde el punto de vista clínico. Los no funcionantes pueden manifestarse por efecto de masa, dolor, pérdida de peso o metástasis, sin un síndrome hormonal evidente. La evaluación debe ser dirigida por clínica, histología, extensión y sospecha de secreción; no es correcto asumir que todos producen una hormona clínicamente activa. El grado histológico, la diferenciación, el índice proliferativo y la extensión son determinantes pronósticos y terapéuticos.`,
+  perlaENARM: "Un tumor neuroendocrino pancreático puede debutar por efecto de masa o metástasis sin síndrome hormonal.",
+  gpc: {
+    mexico: "Consultar protocolos oncológicos vigentes para tumores neuroendocrinos pancreáticos.",
+    internacional: "ENETS y NANETS: guías de diagnóstico, clasificación y tratamiento de tumores neuroendocrinos pancreáticos."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 10.7: Tumores neuroendocrinos gastroenteropancreáticos no funcionantes."
+},
+{
+  id: "ENDO-360",
+  especialidad: "Endocrinología",
+  tema: "Síndrome poliglandular autoinmunitario tipo 1",
+  subtema: "Relación entre candidiasis, hipoparatiroidismo e insuficiencia suprarrenal",
+  dificultad: "Muy alta",
+  caso: `Adolescente de 16 años con candidiasis mucocutánea recurrente desde la infancia, episodios de tetania por hipocalcemia y datos recientes de insuficiencia suprarrenal primaria. La PTH está baja y los anticuerpos contra 21-hidroxilasa son positivos.`,
+  pregunta: "¿Qué alteración genética se asocia clásicamente con este patrón sindrómico?",
+  opciones: [
+    "Variantes bialélicas de AIRE, con herencia autosómica recesiva.",
+    "Mutación activadora de RET con herencia autosómica dominante.",
+    "Mutación de MEN1 con hiperparatiroidismo primario como mecanismo de hipocalcemia.",
+    "Mutación de CASR con hiperparatiroidismo secundario obligatorio.",
+    "Mutación de LDLR con autoinmunidad endocrina como manifestación primaria."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El síndrome poliglandular autoinmunitario tipo 1 se asocia clásicamente con candidiasis mucocutánea crónica, hipoparatiroidismo e insuficiencia suprarrenal primaria. Se relaciona con variantes bialélicas de AIRE, que alteran mecanismos de tolerancia inmunológica central. La expresión clínica es variable y pueden aparecer otras manifestaciones autoinmunes. El reconocimiento permite anticipar otras endocrinopatías y organizar vigilancia longitudinal, además de tratar de inmediato los déficits hormonales presentes.`,
+  perlaENARM: "Candidiasis mucocutánea + hipoparatiroidismo + Addison: síndrome poliglandular autoinmunitario tipo 1, asociado a AIRE.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes para insuficiencia suprarrenal, hipoparatiroidismo y enfermedades autoinmunes endocrinas.",
+    internacional: "Literatura y consensos internacionales sobre síndromes poliglandulares autoinmunitarios."
+  },
+  bibliografia: "Manual CTO de Endocrinología, 14.ª ed., apartado 9.3: Síndromes poliglandulares autoinmunitarios."
+},
+
+{
+  id: "ENDO-361",
+  especialidad: "Endocrinología",
+  tema: "Hiperplasia suprarrenal congénita clásica",
+  subtema: "Deficiencia de 21-hidroxilasa y pérdida salina neonatal",
+  dificultad: "Muy alta",
+  caso: `Recién nacido de 12 días con vómitos, pérdida ponderal, deshidratación e hipotensión. Presenta hiponatremia, hiperpotasemia, acidosis metabólica e hipoglucemia. En una recién nacida, la exploración genital muestra virilización. La concentración de 17-hidroxiprogesterona está marcadamente elevada.`,
+  pregunta: "¿Qué combinación de alteraciones hormonales explica mejor este cuadro?",
+  opciones: [
+    "Disminución de cortisol y aldosterona, con aumento de ACTH y desviación de precursores hacia la síntesis de andrógenos.",
+    "Aumento de cortisol y aldosterona por activación de CYP21A2.",
+    "Disminución de ACTH y exceso de mineralocorticoides.",
+    "Deficiencia aislada de aromatasa con producción normal de cortisol y aldosterona.",
+    "Exceso de 11-desoxicorticosterona como mecanismo primario de pérdida salina."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La deficiencia de 21-hidroxilasa, causada por variantes patogénicas de CYP21A2, reduce la síntesis de cortisol y, en la forma perdedora de sal, de aldosterona. La pérdida de retroalimentación negativa incrementa ACTH y estimula la producción de precursores, que se desvían hacia la síntesis de andrógenos. La deficiencia mineralocorticoide causa pérdida renal de sodio, hipovolemia e hiperpotasemia. Se trata de una urgencia: deben obtenerse muestras hormonales si no retrasan la atención, iniciar hidrocortisona y corregir cuidadosamente el déficit de volumen, glucosa y electrolitos.`,
+  perlaENARM: "Neonato con pérdida salina, hiperpotasemia y 17-hidroxiprogesterona elevada: sospechar deficiencia clásica de 21-hidroxilasa.",
+  gpc: {
+    mexico: "Consultar protocolos neonatales y GPC vigentes para hiperplasia suprarrenal congénita e insuficiencia suprarrenal aguda.",
+    internacional: "Endocrine Society: guía clínica para hiperplasia suprarrenal congénita por deficiencia de 21-hidroxilasa."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de hiperplasia suprarrenal congénita; guía clínica de Endocrine Society."
+},
+{
+  id: "ENDO-362",
+  especialidad: "Endocrinología",
+  tema: "Hiperplasia suprarrenal congénita",
+  subtema: "Deficiencia de 11β-hidroxilasa",
+  dificultad: "Muy alta",
+  caso: `Adolescente de 15 años con acné intenso, crecimiento acelerado durante la infancia y talla adulta inferior a la esperada. Presenta hipertensión arterial e hipopotasemia. La actividad de renina plasmática está suprimida y los andrógenos están elevados. La 17-hidroxiprogesterona no presenta el patrón típico de una deficiencia de 21-hidroxilasa.`,
+  pregunta: "¿Qué metabolito explica mejor la hipertensión de este paciente?",
+  opciones: [
+    "Aldosterona elevada por estimulación primaria de la zona glomerulosa.",
+    "11-desoxicorticosterona elevada por bloqueo de CYP11B1, con actividad mineralocorticoide.",
+    "DHEAS elevada, que actúa como agonista potente del receptor mineralocorticoide.",
+    "Cortisol elevado por activación de la 11β-hidroxilasa.",
+    "Renina elevada con activación secundaria de la síntesis de aldosterona."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La deficiencia de 11β-hidroxilasa impide convertir 11-desoxicortisol en cortisol y reduce la producción de corticosterona. La ACTH aumenta y favorece la acumulación de 11-desoxicorticosterona, que posee actividad mineralocorticoide y causa hipertensión, expansión de volumen y supresión de renina y aldosterona. La derivación de precursores hacia andrógenos produce virilización o pubertad precoz periférica. Este patrón difiere de la deficiencia de 21-hidroxilasa perdedora de sal, en la que la deficiencia de aldosterona puede producir hipotensión e hiperpotasemia.`,
+  perlaENARM: "Hiperandrogenismo más hipertensión, hipopotasemia y renina baja: considerar deficiencia de 11β-hidroxilasa.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de hiperplasia suprarrenal congénita y evaluación de hipertensión endocrina.",
+    internacional: "Endocrine Society: guía clínica para hiperplasia suprarrenal congénita."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de hiperplasia suprarrenal congénita; Endocrine Society."
+},
+{
+  id: "ENDO-363",
+  especialidad: "Endocrinología",
+  tema: "Insuficiencia suprarrenal",
+  subtema: "Crisis suprarrenal en pacientes con glucocorticoides crónicos",
+  dificultad: "Muy alta",
+  caso: `Varón de 59 años tratado durante 10 meses con prednisona a dosis moderadas por una enfermedad inflamatoria. Suspende el fármaco de forma abrupta y, cuatro días después, presenta vómitos, dolor abdominal, debilidad e hipotensión. El sodio es de 129 mmol/L, el potasio es normal y el cortisol es bajo.`,
+  pregunta: "¿Qué mecanismo explica mejor la ausencia de hiperpotasemia en este cuadro compatible con crisis suprarrenal?",
+  opciones: [
+    "La insuficiencia suprarrenal secundaria conserva habitualmente la secreción de aldosterona, regulada principalmente por renina-angiotensina y potasio.",
+    "La ausencia de hiperpotasemia descarta insuficiencia suprarrenal.",
+    "La prednisona produce siempre hiperaldosteronismo persistente después de suspenderla.",
+    "El potasio normal demuestra que el cortisol bajo es un artefacto analítico.",
+    "La ACTH suprimida causa directamente una pérdida renal grave de potasio."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La exposición prolongada a glucocorticoides suprime el eje hipotálamo-hipófisis-suprarrenal. La suspensión abrupta puede impedir una respuesta adecuada al estrés y precipitar insuficiencia suprarrenal secundaria o terciaria. Como la función del sistema renina-angiotensina-aldosterona suele conservarse, la hiperpotasemia característica de la insuficiencia suprarrenal primaria puede estar ausente. Ante sospecha de crisis, se administra hidrocortisona parenteral y solución isotónica sin retrasar el tratamiento por esperar confirmación bioquímica. La recuperación del eje tras retirar glucocorticoides es variable y depende de dosis, duración y susceptibilidad individual.`,
+  perlaENARM: "Insuficiencia suprarrenal secundaria: hiponatremia posible, pero la hiperpotasemia no es un hallazgo obligatorio.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de insuficiencia suprarrenal y retirada segura de glucocorticoides.",
+    internacional: "Endocrine Society y guías internacionales sobre insuficiencia suprarrenal y supresión del eje por glucocorticoides."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de insuficiencia suprarrenal; guías de insuficiencia suprarrenal."
+},
+{
+  id: "ENDO-364",
+  especialidad: "Endocrinología",
+  tema: "Feocromocitoma y paraganglioma",
+  subtema: "Paraganglioma de cabeza y cuello",
+  dificultad: "Muy alta",
+  caso: `Mujer de 44 años con masa cervical pulsátil, tinnitus y disfonía progresiva. La imagen muestra una lesión hipervascular en la bifurcación carotídea. No presenta crisis hipertensivas y las metanefrinas plasmáticas son normales.`,
+  pregunta: "¿Qué interpretación es más precisa respecto a la secreción hormonal de esta lesión?",
+  opciones: [
+    "Las metanefrinas normales excluyen todos los paragangliomas.",
+    "Algunos paragangliomas de cabeza y cuello son no secretores de catecolaminas y pueden presentarse por efecto de masa.",
+    "Toda masa hipervascular cervical es un feocromocitoma suprarrenal.",
+    "La ausencia de hipertensión confirma que la lesión es benigna.",
+    "La disfonía indica secreción ectópica obligatoria de ACTH."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Los paragangliomas de cabeza y cuello suelen originarse en tejido paraganglionar parasimpático y con frecuencia no secretan catecolaminas en cantidades clínicamente relevantes. Pueden manifestarse por masa cervical, tinnitus pulsátil, disfagia o déficit de pares craneales. La evaluación debe incluir caracterización anatómica, valoración bioquímica apropiada y consideración de estudio genético, dada la proporción relevante de casos hereditarios. La ausencia de secreción bioquímica no establece benignidad: el comportamiento se evalúa mediante extensión, invasión y presencia de metástasis.`,
+  perlaENARM: "Masa cervical hipervascular con tinnitus pulsátil puede corresponder a paraganglioma no secretor.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes para tumores paraganglionares y referencia a equipos multidisciplinarios.",
+    internacional: "Endocrine Society y consensos internacionales sobre feocromocitoma y paraganglioma."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de feocromocitoma y paraganglioma; guías internacionales."
+},
+{
+  id: "ENDO-365",
+  especialidad: "Endocrinología",
+  tema: "Hipopituitarismo",
+  subtema: "Diabetes insípida posterior a cirugía hipofisaria",
+  dificultad: "Muy alta",
+  caso: `Varón de 47 años operado de un macroadenoma hipofisario. En el segundo día posoperatorio presenta poliuria de 6,5 L/día, sed intensa, sodio de 151 mmol/L y osmolalidad plasmática elevada. La osmolalidad urinaria es de 95 mOsm/kg. No recibe diuréticos y la glucemia es normal.`,
+  pregunta: "¿Qué alteración explica mejor la incapacidad de concentrar la orina?",
+  opciones: [
+    "Deficiencia de vasopresina por lesión del eje hipotálamo-neurohipofisario.",
+    "Exceso de aldosterona que produce diuresis osmótica por glucosa.",
+    "SIADH posoperatorio como causa de hipernatremia.",
+    "Hiperglucemia no detectada como mecanismo demostrado.",
+    "Exceso de hormona tiroidea que bloquea directamente la acuaporina 2."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La poliuria hipotónica, hipernatremia y osmolalidad plasmática elevada tras cirugía hipofisaria sugieren diabetes insípida central por déficit de vasopresina. Deben vigilarse estrechamente el balance hídrico, la sed, el sodio y la osmolalidad urinaria. La desmopresina puede estar indicada según el estado clínico, pero su administración debe acompañarse de reevaluación frecuente para evitar hiponatremia si aparece una fase posterior de secreción inapropiada de vasopresina. La evolución posquirúrgica puede ser trifásica y no todos los pacientes presentan el patrón completo.`,
+  perlaENARM: "Poscirugía hipofisaria con poliuria hipotónica e hipernatremia: sospechar diabetes insípida central y monitorizar estrechamente el sodio.",
+  gpc: {
+    mexico: "Consultar protocolos posoperatorios de cirugía hipofisaria y manejo de trastornos del agua.",
+    internacional: "Guías de neuroendocrinología y protocolos institucionales de vigilancia hidroelectrolítica poshipofisectomía."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de diabetes insípida y trastornos hipotálamo-hipofisarios."
+},
+{
+  id: "ENDO-366",
+  especialidad: "Endocrinología",
+  tema: "SIADH",
+  subtema: "Diagnóstico diferencial de hiponatremia hipotónica",
+  dificultad: "Muy alta",
+  caso: `Mujer de 71 años con cáncer pulmonar y confusión leve. Sodio sérico de 121 mmol/L, osmolalidad plasmática de 258 mOsm/kg, osmolalidad urinaria de 510 mOsm/kg y sodio urinario de 62 mmol/L. Está clínicamente euvolémica, con función renal conservada y sin uso de diuréticos. T4 libre y evaluación del eje corticotropo no sugieren insuficiencia endocrina.`,
+  pregunta: "¿Qué mecanismo es más consistente con este perfil?",
+  opciones: [
+    "Secreción o acción inapropiada de vasopresina que impide la excreción de agua libre.",
+    "Supresión completa de vasopresina con máxima dilución urinaria.",
+    "Pérdida extrarrenal de sodio con respuesta renal apropiada de conservación de sodio.",
+    "Diabetes insípida central con pérdida de agua libre.",
+    "Hiponatremia hipertónica por hiperglucemia grave."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La hiponatremia hipotónica con orina inapropiadamente concentrada y sodio urinario elevado, en un paciente euvolémico sin insuficiencia renal, suprarrenal o tiroidea relevante, es compatible con SIADH. El diagnóstico requiere excluir causas alternativas y revisar fármacos, dolor, náuseas y enfermedad pulmonar o neurológica. La gravedad neurológica determina la urgencia y el tratamiento. En hiponatremia grave sintomática puede requerirse solución salina hipertónica con monitorización estrecha, evitando una corrección excesivamente rápida por riesgo de desmielinización osmótica.`,
+  perlaENARM: "SIADH: hiponatremia hipotónica, orina concentrada y sodio urinario generalmente elevado, tras excluir causas endocrinas y renales relevantes.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de hiponatremia y trastornos hidroelectrolíticos.",
+    internacional: "European Clinical Practice Guideline on Diagnosis and Treatment of Hyponatraemia."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de alteraciones hidroelectrolíticas y SIADH; guía europea de hiponatremia."
+},
+{
+  id: "ENDO-367",
+  especialidad: "Endocrinología",
+  tema: "Acromegalia",
+  subtema: "Apnea obstructiva del sueño y riesgo cardiometabólico",
+  dificultad: "Muy alta",
+  caso: `Varón de 51 años con acromegalia bioquímicamente activa, cefalea y crecimiento acral. Presenta somnolencia diurna, ronquido intenso y episodios de apnea observados por su pareja. La ecocardiografía muestra hipertrofia ventricular izquierda y la presión arterial está elevada.`,
+  pregunta: "¿Qué mecanismo vincula la acromegalia con el trastorno respiratorio durante el sueño?",
+  opciones: [
+    "Crecimiento de tejidos blandos orofaríngeos y alteraciones anatómicas de la vía aérea superior, favorecidos por el exceso crónico de GH e IGF-1.",
+    "Destrucción del centro respiratorio por déficit aislado de cortisol.",
+    "Reducción obligatoria del tamaño lingual por efecto de IGF-1.",
+    "Disminución de la resistencia de la vía aérea por crecimiento mandibular en todos los pacientes.",
+    "Supresión directa de la ventilación por déficit de aldosterona."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El exceso crónico de GH e IGF-1 produce crecimiento de tejidos blandos y cambios craneofaciales, incluidos macroglosia y engrosamiento de tejidos faríngeos, que pueden favorecer apnea obstructiva del sueño. Esta comorbilidad contribuye a somnolencia, hipertensión y riesgo cardiometabólico. El tratamiento de la acromegalia puede mejorar algunos componentes, pero la apnea puede persistir y requiere evaluación y manejo específicos. La pesquisa de comorbilidades forma parte de la valoración integral del paciente.`,
+  perlaENARM: "En acromegalia, buscar apnea obstructiva del sueño, hipertensión, diabetes y cardiomiopatía; el control hormonal no garantiza resolución de todas las comorbilidades.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes para acromegalia y evaluación de apnea obstructiva del sueño.",
+    internacional: "Pituitary Society: consensos de acromegalia; guías internacionales de apnea obstructiva del sueño."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de acromegalia; consensos de Pituitary Society."
+},
+{
+  id: "ENDO-368",
+  especialidad: "Endocrinología",
+  tema: "Hiperprolactinemia",
+  subtema: "Macroprolactina y discordancia clínico-bioquímica",
+  dificultad: "Muy alta",
+  caso: `Mujer de 35 años con prolactina de 115 ng/mL detectada en dos análisis. Tiene ciclos menstruales regulares, no presenta galactorrea, cefalea ni alteraciones visuales y la resonancia hipofisaria no identifica una lesión. No utiliza fármacos que eleven prolactina.`,
+  pregunta: "¿Qué análisis adicional puede explicar la discordancia entre el valor bioquímico y la ausencia de manifestaciones clínicas?",
+  opciones: [
+    "Evaluar macroprolactina mediante un procedimiento validado, como precipitación con polietilenglicol.",
+    "Solicitar exclusivamente cortisol urinario para confirmar prolactinoma.",
+    "Iniciar cabergolina sin investigar posibles interferencias analíticas.",
+    "Medir tiroglobulina para diferenciar prolactina monomérica de macroprolactina.",
+    "Repetir la resonancia cada semana."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La macroprolactina corresponde a complejos de prolactina con inmunoglobulinas que pueden detectarse en algunos inmunoensayos y presentar menor bioactividad. En pacientes con hiperprolactinemia y escasa correlación clínica, su evaluación ayuda a evitar diagnósticos y tratamientos innecesarios. La interpretación debe basarse en la prolactina monomérica tras el procedimiento validado y en el contexto clínico. También deben revisarse causas secundarias y la calidad de la muestra antes de atribuir el hallazgo a un prolactinoma.`,
+  perlaENARM: "Prolactina elevada sin síntomas ni lesión hipofisaria: considerar macroprolactinemia antes de indicar tratamiento.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de hiperprolactinemia y evaluación de interferencias analíticas.",
+    internacional: "Endocrine Society y consensos internacionales sobre diagnóstico de hiperprolactinemia."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de hiperprolactinemia; guías clínicas de prolactina."
+},
+{
+  id: "ENDO-369",
+  especialidad: "Endocrinología",
+  tema: "Hipogonadismo masculino",
+  subtema: "Interpretación de testosterona y gonadotropinas",
+  dificultad: "Muy alta",
+  caso: `Varón de 42 años con disminución de libido, fatiga y menor frecuencia de erecciones matutinas. Dos determinaciones matutinas muestran testosterona total baja. La LH y la FSH están elevadas, y la exploración revela testículos de volumen reducido.`,
+  pregunta: "¿Qué localización fisiopatológica del trastorno es más probable?",
+  opciones: [
+    "Hipogonadismo primario por insuficiencia testicular, con pérdida de retroalimentación negativa sobre las gonadotropinas.",
+    "Hipogonadismo hipogonadotrópico por lesión hipotalámica, con LH y FSH elevadas.",
+    "Resistencia a hormona tiroidea como causa demostrada de testosterona baja.",
+    "Hiperprolactinemia obligatoria con supresión de gonadotropinas.",
+    "Producción autónoma de testosterona por un tumor testicular."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La testosterona baja acompañada de LH y FSH elevadas indica hipogonadismo primario o hipergonadotrópico. La insuficiencia de las células de Leydig reduce la producción de testosterona, mientras que la alteración de la función de Sertoli y de la espermatogénesis puede elevar FSH. El diagnóstico clínico requiere síntomas compatibles y mediciones matutinas repetidas, además de investigar etiología y causas reversibles. Antes de iniciar testosterona debe aclararse el deseo reproductivo, porque el tratamiento exógeno suprime la espermatogénesis.`,
+  perlaENARM: "Testosterona baja con LH/FSH elevadas localiza el problema en el testículo; gonadotropinas bajas o inapropiadamente normales orientan a causa central.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de hipogonadismo masculino e infertilidad.",
+    internacional: "Endocrine Society: guía clínica para tratamiento del hipogonadismo masculino."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de hipogonadismo masculino; guía de Endocrine Society."
+},
+{
+  id: "ENDO-370",
+  especialidad: "Endocrinología",
+  tema: "Hipogonadismo femenino",
+  subtema: "Insuficiencia ovárica primaria y evaluación etiológica",
+  dificultad: "Muy alta",
+  caso: `Mujer de 32 años con amenorrea de cinco meses, sofocos y sequedad vaginal. La FSH está elevada en mediciones repetidas y el estradiol es bajo. No está embarazada ni utiliza anticonceptivos hormonales. Desea conocer la causa de su alteración ovárica.`,
+  pregunta: "¿Qué evaluación etiológica debe considerarse en una mujer joven con este patrón?",
+  opciones: [
+    "Estudio dirigido que incluya antecedentes iatrogénicos, evaluación genética cuando esté indicada y búsqueda de causas autoinmunes seleccionadas.",
+    "Diagnosticar síndrome de ovario poliquístico por la amenorrea aislada.",
+    "Descartar insuficiencia ovárica porque tiene menos de 40 años.",
+    "Solicitar únicamente prolactina, sin valorar el patrón gonadotrópico.",
+    "Iniciar anticonceptivos sin confirmar la alteración ni evaluar salud ósea."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La insuficiencia ovárica primaria antes de los 40 años se caracteriza por alteración menstrual, elevación de gonadotropinas y disminución de la función ovárica, aunque la actividad puede ser intermitente. Una vez establecido el diagnóstico, la evaluación etiológica se individualiza e incluye revisión de quimioterapia, radioterapia y cirugía, así como estudios genéticos y autoinmunes cuando estén indicados. La valoración debe contemplar salud ósea, síntomas vasomotores, salud sexual y riesgos a largo plazo. El tratamiento hormonal sustitutivo suele considerarse hasta la edad habitual de menopausia, salvo contraindicaciones, con individualización clínica.`,
+  perlaENARM: "Amenorrea con FSH elevada antes de los 40 años obliga a evaluar insuficiencia ovárica primaria y sus causas, además de las consecuencias óseas.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de amenorrea, insuficiencia ovárica primaria y salud ósea.",
+    internacional: "ESHRE y guías internacionales sobre insuficiencia ovárica primaria."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartados de amenorrea e hipogonadismo femenino; guías internacionales de insuficiencia ovárica primaria."
+},
+{
+  id: "ENDO-371",
+  especialidad: "Endocrinología",
+  tema: "Síndrome de ovario poliquístico",
+  subtema: "Riesgo metabólico y evaluación de disglucemia",
+  dificultad: "Muy alta",
+  caso: `Mujer de 27 años con oligomenorrea, hiperandrogenismo clínico y ecografía compatible con morfología ovárica poliquística. Tiene IMC de 31 kg/m² y antecedente familiar de diabetes tipo 2. La glucosa en ayuno es de 96 mg/dL y la HbA1c de 5,5%.`,
+  pregunta: "¿Qué afirmación sobre la evaluación metabólica es más precisa?",
+  opciones: [
+    "La glucosa y HbA1c normales descartan cualquier riesgo de disglucemia asociado al síndrome.",
+    "La prueba oral de tolerancia a la glucosa puede detectar alteraciones que no se identifican con glucosa en ayuno o HbA1c aisladas.",
+    "La evaluación de glucosa solo está indicada cuando existe diabetes sintomática.",
+    "La morfología ovárica determina por sí sola la presencia de resistencia a la insulina.",
+    "La insulina basal aislada es la prueba universal de referencia para diagnosticar resistencia a la insulina."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El síndrome de ovario poliquístico se asocia con mayor riesgo de alteraciones de la tolerancia a la glucosa y diabetes tipo 2, independientemente de que la glucosa en ayuno sea inicialmente normal. La prueba oral de tolerancia a la glucosa puede ser más sensible en pacientes de riesgo. La periodicidad de reevaluación depende del perfil clínico y metabólico. La insulina basal y los índices derivados no son pruebas universales estandarizadas para diagnosticar resistencia a la insulina en la práctica clínica habitual.`,
+  perlaENARM: "En SOP, glucosa en ayuno o HbA1c normales no siempre excluyen intolerancia a la glucosa; considerar PTOG según riesgo y guía.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de SOP y prevención de diabetes en mujeres con riesgo metabólico.",
+    internacional: "International Evidence-based Guideline for the Assessment and Management of PCOS, 2023."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de síndrome de ovario poliquístico; guía internacional de SOP 2023."
+},
+{
+  id: "ENDO-372",
+  especialidad: "Endocrinología",
+  tema: "Hiperandrogenismo",
+  subtema: "Diferenciación entre origen ovárico y suprarrenal",
+  dificultad: "Muy alta",
+  caso: `Mujer de 39 años con hirsutismo de progresión rápida, voz grave y aumento de masa muscular durante los últimos seis meses. La testosterona total está marcadamente elevada y la DHEAS solo discretamente aumentada. La ecografía pélvica inicial no identifica una masa ovárica definida.`,
+  pregunta: "¿Cuál es la interpretación diagnóstica más rigurosa?",
+  opciones: [
+    "La virilización rápida y la testosterona marcadamente elevada obligan a investigar una fuente tumoral de andrógenos, incluida una lesión ovárica pequeña no visible inicialmente.",
+    "La ecografía normal excluye por completo una fuente ovárica.",
+    "El cuadro confirma síndrome de ovario poliquístico, independientemente de la rapidez de progresión.",
+    "La DHEAS discretamente elevada confirma un carcinoma suprarrenal.",
+    "La virilización es una manifestación esperable de cualquier hiperandrogenismo leve."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La progresión rápida del hiperandrogenismo, especialmente con virilización y concentraciones muy elevadas de testosterona, es una señal de alarma para una fuente tumoral ovárica o suprarrenal. La DHEAS puede orientar hacia origen suprarrenal, pero ningún marcador aislado localiza con certeza el origen. Una ecografía pélvica negativa no excluye lesiones ováricas pequeñas; pueden requerirse estudios de imagen adicionales y evaluación endocrinológica especializada. El SOP suele tener evolución crónica y no debe asumirse ante virilización rápida.`,
+  perlaENARM: "Virilización rápida no es típica del SOP: investigar tumor productor de andrógenos aunque la primera imagen sea negativa.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de hiperandrogenismo femenino y evaluación de tumores endocrinos.",
+    internacional: "Guías internacionales de evaluación del hiperandrogenismo en mujeres y de SOP."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartados de hiperandrogenismo y síndrome de ovario poliquístico."
+},
+{
+  id: "ENDO-373",
+  especialidad: "Endocrinología",
+  tema: "Metabolismo óseo",
+  subtema: "Osteomalacia frente a osteoporosis",
+  dificultad: "Muy alta",
+  caso: `Varón de 62 años con dolor óseo difuso, debilidad proximal y dificultad para levantarse de una silla. La densitometría muestra baja densidad mineral ósea. Tiene fosfato bajo, fosfatasa alcalina elevada y 25-OH-vitamina D disminuida. La radiografía muestra pseudofracturas en zonas de carga.`,
+  pregunta: "¿Qué distinción conceptual es esencial antes de iniciar un tratamiento antiosteoporótico convencional?",
+  opciones: [
+    "La osteomalacia es un defecto de mineralización que requiere identificar y corregir su causa; una densidad mineral ósea baja no demuestra por sí sola osteoporosis.",
+    "La densitometría baja confirma osteoporosis independientemente de los datos bioquímicos.",
+    "La fosfatasa alcalina elevada descarta osteomalacia.",
+    "El fosfato bajo siempre indica una neoplasia secretora de FGF23.",
+    "La deficiencia de vitamina D no afecta la mineralización ósea en adultos."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La osteoporosis se caracteriza por disminución de la resistencia ósea sin que exista necesariamente un defecto primario de mineralización. En la osteomalacia, la mineralización de la matriz está alterada y puede manifestarse con dolor, debilidad proximal, fosfato bajo, fosfatasa alcalina elevada y pseudofracturas. La densitometría puede mostrar baja densidad en ambas entidades y no distingue por sí sola el diagnóstico. Debe corregirse la causa subyacente antes de seleccionar terapias específicas para osteoporosis.`,
+  perlaENARM: "Dolor óseo, debilidad proximal, FA elevada y pseudofracturas sugieren osteomalacia; no etiquetar toda densidad baja como osteoporosis.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de metabolismo óseo, deficiencia de vitamina D y osteoporosis.",
+    internacional: "Guías internacionales de enfermedades metabólicas óseas y osteomalacia."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de metabolismo óseo y vitamina D."
+},
+{
+  id: "ENDO-374",
+  especialidad: "Endocrinología",
+  tema: "Osteoporosis",
+  subtema: "Interpretación de densitometría en mujeres premenopáusicas",
+  dificultad: "Muy alta",
+  caso: `Mujer de 34 años con fractura vertebral tras un traumatismo mínimo. La densitometría muestra un Z-score de −2,3 en columna lumbar. No ha llegado a la menopausia y no utiliza glucocorticoides. Tiene amenorrea de ocho meses en estudio.`,
+  pregunta: "¿Cuál es la interpretación más apropiada del Z-score?",
+  opciones: [
+    "El Z-score ≤ −2,0 indica densidad mineral ósea por debajo de lo esperado para la edad y requiere investigar causas secundarias; no debe interpretarse automáticamente con los criterios de T-score posmenopáusicos.",
+    "El Z-score de −2,3 confirma osteoporosis posmenopáusica.",
+    "El Z-score solo se utiliza en varones mayores de 70 años.",
+    "La fractura vertebral no tiene relevancia si la paciente es joven.",
+    "La densitometría no puede aportar información en mujeres premenopáusicas."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En mujeres premenopáusicas se utiliza preferentemente el Z-score para comparar la densidad mineral ósea con personas de edad similar. Un Z-score ≤ −2,0 se describe como densidad mineral ósea por debajo de lo esperado para la edad. La interpretación debe integrar fracturas por fragilidad, amenorrea y causas secundarias, como hipogonadismo, malabsorción o trastornos endocrinos. El diagnóstico y tratamiento no deben basarse únicamente en el valor densitométrico ni extrapolar sin matices los criterios aplicados en mujeres posmenopáusicas.`,
+  perlaENARM: "Premenopausia: priorizar Z-score; ≤ −2,0 significa densidad por debajo de lo esperado para la edad.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de osteoporosis en adultos jóvenes y evaluación de amenorrea.",
+    internacional: "International Society for Clinical Densitometry: posiciones oficiales sobre interpretación de densitometría."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de osteoporosis; ISCD Official Positions."
+},
+{
+  id: "ENDO-375",
+  especialidad: "Endocrinología",
+  tema: "Dislipidemia",
+  subtema: "Lipoproteína(a) y riesgo cardiovascular residual",
+  dificultad: "Muy alta",
+  caso: `Varón de 50 años con infarto prematuro y antecedente familiar de enfermedad coronaria temprana. Su LDL-C alcanza la meta individualizada con tratamiento hipolipemiante intensivo, pero la lipoproteína(a) está marcadamente elevada. No tiene hipertrigliceridemia ni enfermedad renal avanzada.`,
+  pregunta: "¿Qué interpretación es más adecuada sobre la lipoproteína(a)?",
+  opciones: [
+    "Es una lipoproteína con componente similar al LDL y apolipoproteína(a), cuyo nivel está determinado en gran medida genéticamente y puede contribuir al riesgo cardiovascular residual.",
+    "Es un marcador que disminuye de forma predecible hasta valores normales con cualquier estatina.",
+    "Una lipoproteína(a) elevada demuestra que el LDL-C calculado es necesariamente falso.",
+    "Solo tiene relevancia clínica cuando los triglicéridos superan 1.000 mg/dL.",
+    "Es una hormona pancreática que regula la secreción de insulina."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La lipoproteína(a) contiene una partícula similar a LDL unida a apolipoproteína(a). Sus concentraciones dependen en gran medida de la genética y se asocian con riesgo aterosclerótico y estenosis valvular aórtica. Puede ser útil medirla al menos una vez en la vida adulta o en situaciones de enfermedad cardiovascular prematura y antecedentes familiares. Las estatinas reducen LDL-C, pero no suelen reducir de manera significativa la lipoproteína(a); la prevención debe centrarse en el control intensivo de los factores de riesgo y en las opciones terapéuticas disponibles según las guías y la indicación clínica.`,
+  perlaENARM: "Lp(a) elevada puede explicar riesgo cardiovascular residual pese a LDL-C controlado; su concentración es predominantemente genética.",
+  gpc: {
+    mexico: "Consultar guías vigentes de dislipidemias y prevención cardiovascular.",
+    internacional: "ESC/EAS y consensos internacionales sobre lipoproteína(a) y riesgo cardiovascular."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de dislipidemias; guías ESC/EAS."
+},
+{
+  id: "ENDO-376",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Tratamiento farmacológico y mantenimiento de la pérdida ponderal",
+  dificultad: "Muy alta",
+  caso: `Mujer de 45 años con obesidad y apnea obstructiva del sueño. Tras tratamiento integral logra una reducción ponderal clínicamente significativa con un agonista del receptor GLP-1, pero al suspenderlo recupera progresivamente peso y reaparece parte de la sintomatología. No presentó efectos adversos graves.`,
+  pregunta: "¿Qué principio terapéutico explica mejor la recuperación ponderal tras retirar el fármaco?",
+  opciones: [
+    "La obesidad es una enfermedad crónica con adaptaciones biológicas que favorecen la recuperación de peso; la suspensión puede eliminar parte del efecto farmacológico sobre apetito y saciedad.",
+    "La recuperación demuestra que el tratamiento nunca fue eficaz.",
+    "La suspensión del agonista GLP-1 causa inevitablemente diabetes tipo 1.",
+    "La recuperación ponderal descarta la participación biológica en la regulación del peso.",
+    "Los tratamientos antiobesidad solo deben utilizarse durante una semana."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La regulación del peso corporal incluye señales neuroendocrinas y adaptaciones que aumentan el hambre y reducen el gasto energético tras la pérdida ponderal. Los agonistas del receptor GLP-1 pueden reducir el apetito y facilitar la pérdida de peso, pero al suspenderlos puede recuperarse una parte importante del peso perdido. Esto no implica fracaso previo, sino que el tratamiento de la obesidad suele requerir una estrategia longitudinal. La decisión de continuar, cambiar o retirar medicación debe considerar beneficio, tolerancia, contraindicaciones, preferencias y acceso.`,
+  perlaENARM: "La obesidad requiere manejo crónico; recuperar peso tras retirar un fármaco eficaz no equivale automáticamente a fracaso terapéutico.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de manejo integral de obesidad y farmacoterapia antiobesidad.",
+    internacional: "Guías internacionales de obesidad y evidencia clínica de seguimiento tras la suspensión de agonistas GLP-1."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de obesidad; guías internacionales de manejo crónico de obesidad."
+},
+{
+  id: "ENDO-377",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Diabetes monogénica por alteración de GCK",
+  dificultad: "Muy alta",
+  caso: `Mujer de 24 años con glucosa en ayuno persistentemente entre 105 y 125 mg/dL desde la adolescencia. La HbA1c se mantiene discretamente elevada, sin progresión relevante durante años. Tiene IMC normal, no presenta anticuerpos contra células beta y varios familiares de distintas generaciones tienen hiperglucemia leve similar.`,
+  pregunta: "¿Qué característica favorece una diabetes monogénica por variante en GCK?",
+  opciones: [
+    "Hiperglucemia leve y estable desde edades tempranas, con patrón familiar autosómico dominante y escasa progresión.",
+    "Cetoacidosis recurrente con destrucción autoinmune de células beta.",
+    "Obesidad grave de inicio reciente como requisito diagnóstico.",
+    "Necesidad inmediata de insulina por pérdida completa de células beta.",
+    "Hipoglucemia de ayuno con hiperinsulinemia persistente."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Las variantes heterocigotas de GCK elevan el umbral de glucosa necesario para estimular la secreción de insulina, produciendo hiperglucemia leve y relativamente estable desde etapas tempranas. La evolución suele ser poco progresiva y el fenotipo puede repetirse en varias generaciones. El diagnóstico molecular puede evitar tratamientos innecesarios, aunque la decisión clínica depende del contexto, especialmente durante el embarazo, cuando las implicaciones pueden cambiar según el genotipo fetal y materno.`,
+  perlaENARM: "Hiperglucemia leve, estable y familiar desde la juventud: considerar MODY-GCK antes de etiquetar diabetes tipo 2.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de diabetes monogénica y referencia a genética clínica.",
+    internacional: "ISPAD: guías de diabetes monogénica en niños y adolescentes."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de diabetes monogénica; guías ISPAD."
+},
+{
+  id: "ENDO-378",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Neuropatía autonómica y gastroparesia diabética",
+  dificultad: "Muy alta",
+  caso: `Varón de 58 años con diabetes de larga evolución y control glucémico irregular. Presenta saciedad precoz, plenitud posprandial, náuseas y vómitos de alimentos ingeridos varias horas antes. La endoscopia no muestra obstrucción mecánica.`,
+  pregunta: "¿Qué estudio permite confirmar objetivamente el retraso del vaciamiento gástrico?",
+  opciones: [
+    "Gammagrafía de vaciamiento gástrico con comida estandarizada y protocolo validado.",
+    "Medición aislada de amilasa sérica.",
+    "Prueba de supresión con dexametasona.",
+    "Ecografía tiroidea.",
+    "Determinación de péptido C en ayuno como prueba confirmatoria."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La gastroparesia se caracteriza por retraso del vaciamiento gástrico en ausencia de obstrucción mecánica. En pacientes con diabetes, la neuropatía autonómica puede alterar la motilidad gástrica y generar saciedad precoz, náuseas, vómitos y variabilidad glucémica. La gammagrafía de vaciamiento gástrico con comida estandarizada es una prueba de referencia, con preparación adecuada y control de factores que alteran la motilidad, incluida la glucemia y ciertos fármacos. Los síntomas aislados no bastan para confirmar el diagnóstico.`,
+  perlaENARM: "Gastroparesia: síntomas compatibles más demostración objetiva de retraso del vaciamiento y ausencia de obstrucción.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de complicaciones gastrointestinales de diabetes y evaluación de gastroparesia.",
+    internacional: "American College of Gastroenterology: guía clínica de gastroparesia."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de complicaciones crónicas de diabetes; guía ACG de gastroparesia."
+},
+{
+  id: "ENDO-379",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Neuropatía autonómica cardiovascular",
+  dificultad: "Muy alta",
+  caso: `Mujer de 63 años con diabetes de 18 años de evolución presenta mareo al ponerse de pie y poca percepción de episodios de hipoglucemia. La presión arterial desciende de 138/78 mmHg en decúbito a 104/62 mmHg al ponerse de pie. La frecuencia cardiaca aumenta solo de 78 a 84 latidos por minuto. No toma antihipertensivos ni diuréticos.`,
+  pregunta: "¿Qué mecanismo explica mejor la respuesta cronotrópica limitada y la hipotensión ortostática?",
+  opciones: [
+    "Disfunción autonómica con deterioro de las respuestas simpáticas y parasimpáticas cardiovasculares.",
+    "Hiperaldosteronismo primario como causa obligatoria de hipotensión ortostática.",
+    "Exceso de catecolaminas con taquicardia compensatoria exagerada.",
+    "Hipertiroidismo manifiesto confirmado por la frecuencia cardiaca.",
+    "Aumento aislado del tono vagal como explicación suficiente de todos los hallazgos."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La neuropatía autonómica cardiovascular diabética puede afectar la regulación de la frecuencia cardiaca y la presión arterial, produciendo hipotensión ortostática, respuesta cronotrópica inadecuada y alteración de la percepción de hipoglucemia. Deben excluirse otras causas de hipotensión, revisar medicamentos y valorar el riesgo de caídas. La evaluación autonómica puede incluir pruebas cardiovasculares estandarizadas. El manejo se individualiza e incluye medidas posturales, hidratación apropiada según comorbilidades y tratamiento farmacológico selectivo cuando esté indicado.`,
+  perlaENARM: "Diabetes de larga evolución con hipotensión ortostática y escasa respuesta de frecuencia cardiaca: sospechar neuropatía autonómica.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de complicaciones microvasculares y neuropatía diabética.",
+    internacional: "American Diabetes Association: Standards of Care in Diabetes, sección de neuropatía y complicaciones."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de complicaciones crónicas de diabetes; ADA Standards of Care."
+},
+{
+  id: "ENDO-380",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Retinopatía diabética y progresión tras intensificación glucémica",
+  dificultad: "Muy alta",
+  caso: `Varón de 56 años con diabetes de larga evolución y HbA1c de 12,2%. Inicia un esquema intensivo que reduce rápidamente la HbA1c. Tres meses después refiere visión borrosa y la evaluación oftalmológica identifica progresión de retinopatía diabética previamente documentada.`,
+  pregunta: "¿Qué interpretación es más adecuada sobre la relación temporal entre la intensificación glucémica y la retinopatía?",
+  opciones: [
+    "La mejoría glucémica sostenida reduce el riesgo microvascular a largo plazo, pero una reducción rápida puede asociarse con empeoramiento transitorio temprano de retinopatía en pacientes susceptibles.",
+    "La progresión demuestra que el control glucémico intensivo siempre empeora la retinopatía a largo plazo.",
+    "La retinopatía diabética no guarda relación con la duración ni el control de la diabetes.",
+    "Debe suspenderse de forma permanente todo tratamiento que reduzca la HbA1c.",
+    "La visión borrosa confirma neuropatía óptica por hipoglucemia en todos los casos."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La intensificación glucémica puede asociarse con empeoramiento temprano transitorio de retinopatía, especialmente en personas con hiperglucemia crónica marcada y enfermedad retiniana preexistente. Esto no invalida el beneficio del control glucémico a largo plazo. Antes de intensificar tratamiento en pacientes con riesgo elevado, debe evaluarse el estado retiniano y coordinar seguimiento oftalmológico; si aparece progresión, la conducta depende de la gravedad y puede requerir tratamiento específico por oftalmología. La decisión no debe reducirse a suspender el control metabólico, sino a individualizar la velocidad de cambio y la vigilancia.`,
+  perlaENARM: "El empeoramiento temprano de retinopatía tras una mejoría glucémica rápida no niega el beneficio microvascular del control sostenido.",
+  gpc: {
+    mexico: "Consultar GPC vigentes de diabetes mellitus y tamizaje de retinopatía diabética.",
+    internacional: "American Diabetes Association: Standards of Care in Diabetes; guías oftalmológicas de retinopatía diabética."
+  },
+  bibliografia: "Manual CTO de Endocrinología, Metabolismo y Nutrición, 14.ª ed., apartado de complicaciones crónicas de diabetes; ADA Standards of Care."
+},
+
+{
+  id: "ENDO-381",
+  especialidad: "Endocrinología",
+  tema: "Fisiología endocrina",
+  subtema: "Conversión periférica de T4 a T3 y efecto de enfermedad no tiroidea",
+  dificultad: "Muy alta",
+  caso: `Varón de 68 años ingresado en terapia intensiva por sepsis grave. Presenta T3 total disminuida, T4 libre inicialmente normal y TSH de 0,18 mUI/L. No tiene antecedentes de enfermedad tiroidea y no recibe amiodarona ni glucocorticoides antes de la toma inicial.`,
+  pregunta: "¿Qué mecanismo contribuye de forma temprana a este patrón bioquímico?",
+  opciones: [
+    "Aumento de la actividad de las desyodasas que convierten T4 en T3.",
+    "Disminución de la conversión periférica de T4 a T3 y cambios en el metabolismo de las hormonas tiroideas durante la enfermedad crítica.",
+    "Aumento autónomo de la síntesis tiroidea por estimulación del receptor de TSH.",
+    "Destrucción tiroidea irreversible como diagnóstico confirmado por T3 baja.",
+    "Aumento de TSH por retroalimentación positiva de T3."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El síndrome de enfermedad no tiroidea puede aparecer durante enfermedades sistémicas graves. La disminución de T3 suele ser una alteración temprana y se relaciona con cambios en la actividad de las desyodasas, el metabolismo hormonal y las proteínas transportadoras. En fases más graves pueden disminuir también T4 y TSH. Este patrón no demuestra por sí solo hipotiroidismo primario ni justifica tratamiento rutinario con hormona tiroidea. La interpretación debe considerar el contexto clínico, los antecedentes y la evolución tras la recuperación.`,
+  perlaENARM: "En enfermedad crítica, T3 baja con TSH normal-baja puede corresponder a enfermedad no tiroidea; no diagnosticar hipotiroidismo por un valor aislado.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de interpretación de pruebas tiroideas en pacientes hospitalizados.",
+    internacional: "American Thyroid Association: recomendaciones sobre pruebas tiroideas en enfermedad no tiroidea."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulo 1.3: Hormonas tiroideas."
+},
+{
+  id: "ENDO-382",
+  especialidad: "Endocrinología",
+  tema: "Fisiología tiroidea",
+  subtema: "Transporte de hormonas tiroideas y cambios en proteínas transportadoras",
+  dificultad: "Muy alta",
+  caso: `Mujer de 30 años, embarazada de 18 semanas, sin síntomas tiroideos. La T4 total está por encima del intervalo de referencia para mujeres no embarazadas, mientras que la TSH y la T4 libre, interpretadas con referencias apropiadas para el embarazo y el método utilizado, son normales.`,
+  pregunta: "¿Qué mecanismo explica mejor el incremento de T4 total sin evidencia de disfunción tiroidea?",
+  opciones: [
+    "Aumento de la globulina transportadora de tiroxina inducido por estrógenos.",
+    "Aumento autónomo de secreción de T4 por un adenoma tóxico.",
+    "Inhibición completa de la unión de T4 a proteínas plasmáticas.",
+    "Supresión de la síntesis de globulina transportadora por el embarazo.",
+    "Conversión acelerada de T4 a T3 como única explicación de T4 total elevada."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Los estrógenos aumentan la concentración de globulina transportadora de tiroxina, en parte al reducir su depuración. Durante el embarazo se incrementa la fracción de hormona unida a proteínas y puede elevarse la T4 total sin que exista hipertiroidismo. La evaluación debe emplear intervalos de referencia apropiados para la gestación y el método analítico. La TSH y la T4 libre deben interpretarse en el contexto fisiológico del embarazo, sin basarse exclusivamente en la T4 total.`,
+  perlaENARM: "Embarazo: T4 total elevada puede reflejar aumento de TBG; no equivale automáticamente a tirotoxicosis.",
+  gpc: {
+    mexico: "Consultar GPC vigentes de enfermedad tiroidea durante el embarazo.",
+    internacional: "American Thyroid Association: guías para diagnóstico y manejo de enfermedad tiroidea en embarazo y posparto."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulos 1.3 y 3."
+},
+{
+  id: "ENDO-383",
+  especialidad: "Endocrinología",
+  tema: "Fisiología del ayuno",
+  subtema: "Cetogénesis y adaptación metabólica cerebral",
+  dificultad: "Muy alta",
+  caso: `Varón sano de 35 años sometido a ayuno prolongado bajo supervisión clínica. Después de varios días, presenta cetonemia elevada, disminución de la insulina y aumento de ácidos grasos libres. La glucemia permanece en un intervalo bajo-normal y no hay acidosis grave.`,
+  pregunta: "¿Qué adaptación metabólica permite reducir parcialmente el requerimiento de glucosa durante el ayuno prolongado?",
+  opciones: [
+    "Utilización cerebral creciente de cuerpos cetónicos, que reduce la demanda de glucosa y la necesidad de gluconeogénesis a partir de aminoácidos.",
+    "Supresión completa de la gluconeogénesis hepática desde las primeras horas.",
+    "Utilización exclusiva de ácidos grasos de cadena larga por el cerebro.",
+    "Aumento sostenido de la secreción de insulina para activar la lipólisis.",
+    "Conversión directa de todos los ácidos grasos en glucosa neta en el hígado."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Durante el ayuno disminuye la insulina y aumenta la movilización de ácidos grasos, que sirven como sustrato para la cetogénesis hepática. Con la adaptación prolongada, el cerebro incrementa el uso de cuerpos cetónicos, disminuyendo parte de sus requerimientos de glucosa. La gluconeogénesis continúa siendo necesaria, pero se reduce la demanda de aminoácidos como sustrato, lo que contribuye a conservar masa proteica. Los ácidos grasos de cadena par no producen glucosa neta en humanos.`,
+  perlaENARM: "Ayuno prolongado: el cerebro utiliza más cuerpos cetónicos y disminuye parcialmente la necesidad de gluconeogénesis a partir de aminoácidos.",
+  gpc: {
+    mexico: "Aplicación fisiológica; consultar protocolos institucionales cuando se evalúen trastornos metabólicos del ayuno.",
+    internacional: "Textos de fisiología metabólica y endocrinología clínica."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulo 1.8: Fisiología del ayuno de los distintos macronutrientes."
+},
+{
+  id: "ENDO-384",
+  especialidad: "Endocrinología",
+  tema: "Ginecomastia",
+  subtema: "Desequilibrio entre actividad estrogénica y androgénica",
+  dificultad: "Muy alta",
+  caso: `Varón de 58 años con aumento mamario bilateral, doloroso y de consistencia glandular. Tiene cirrosis hepática compensada, testosterona baja-normal y estradiol discretamente elevado. No se palpa masa testicular y no utiliza espironolactona ni antiandrógenos.`,
+  pregunta: "¿Qué mecanismo contribuye a la ginecomastia asociada a la hepatopatía crónica?",
+  opciones: [
+    "Aumento relativo de la acción estrogénica respecto de la androgénica, favorecido por cambios en metabolismo hormonal y proteínas transportadoras.",
+    "Supresión completa de la actividad estrogénica.",
+    "Producción obligatoria de hCG por un tumor testicular en todo paciente con cirrosis.",
+    "Aumento aislado de testosterona libre como causa directa del crecimiento glandular.",
+    "Bloqueo absoluto de la aromatasa por la enfermedad hepática."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La ginecomastia verdadera resulta de un desequilibrio entre la acción estrogénica y androgénica sobre el tejido mamario. En la hepatopatía crónica pueden alterarse el metabolismo de esteroides sexuales y las proteínas transportadoras, además de coexistir hipogonadismo. La evaluación debe diferenciar tejido glandular de adiposidad y revisar fármacos, evolución, dolor, asimetría, secreción y signos de malignidad. Una masa testicular, una elevación marcada de hCG o un cuadro de progresión rápida requieren investigación dirigida.`,
+  perlaENARM: "Ginecomastia: el mecanismo central es el predominio relativo de acción estrogénica sobre androgénica, no necesariamente un estradiol muy elevado.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de evaluación de ginecomastia y enfermedad hepática.",
+    internacional: "Guías de evaluación clínica de ginecomastia y trastornos del eje gonadal masculino."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulo 2.5: Ginecomastia."
+},
+{
+  id: "ENDO-385",
+  especialidad: "Endocrinología",
+  tema: "Alteraciones de la tirotrofina",
+  subtema: "Adenoma productor de TSH",
+  dificultad: "Muy alta",
+  caso: `Mujer de 45 años con palpitaciones, pérdida de peso y bocio. La T4 libre y la T3 están elevadas en determinaciones repetidas, mientras que la TSH no está suprimida. No toma biotina y los resultados son concordantes en una segunda plataforma analítica.`,
+  pregunta: "¿Qué estudio contribuye a diferenciar un adenoma productor de TSH de otras causas de hormonas tiroideas elevadas con TSH no suprimida?",
+  opciones: [
+    "Evaluación integrada de subunidad alfa, SHBG, antecedentes familiares, pruebas de interferencia y resonancia hipofisaria.",
+    "Gammagrafía tiroidea como única prueba confirmatoria de adenoma hipofisario.",
+    "Medición de calcitonina como prueba definitiva de secreción de TSH.",
+    "Supresión con dexametasona como única prueba para confirmar el diagnóstico.",
+    "Determinación de tiroglobulina aislada, sin otros estudios."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Las hormonas tiroideas elevadas con TSH no suprimida requieren confirmar primero que el patrón sea real y excluir interferencias analíticas, fármacos y alteraciones de proteínas transportadoras. El diagnóstico diferencial incluye resistencia a hormona tiroidea y adenoma hipofisario productor de TSH. La subunidad alfa, SHBG, antecedentes familiares y estudios hipofisarios pueden ayudar, pero ningún dato aislado es concluyente. La resonancia debe interpretarse con cautela porque pueden existir incidentalomas hipofisarios.`,
+  perlaENARM: "T4/T3 elevadas con TSH no suprimida: primero confirmar el resultado y excluir interferencias; después diferenciar resistencia a hormona tiroidea de TSHoma.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de evaluación de discordancia entre pruebas tiroideas y enfermedad hipofisaria.",
+    internacional: "European Thyroid Association: recomendaciones para tumores hipofisarios secretores de TSH y resistencia a hormona tiroidea."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulos 2.6 y 3."
+},
+{
+  id: "ENDO-386",
+  especialidad: "Endocrinología",
+  tema: "Síndrome de Cushing",
+  subtema: "Discrepancia entre pruebas de cortisol y sospecha clínica",
+  dificultad: "Muy alta",
+  caso: `Mujer de 41 años con debilidad muscular proximal, equimosis espontáneas y estrías violáceas anchas. El cortisol salival nocturno es elevado en una determinación, pero normal en otra. La prueba de supresión con dexametasona muestra cortisol por encima del umbral de supresión y no hay exposición conocida a glucocorticoides exógenos.`,
+  pregunta: "¿Qué estrategia es más apropiada ante esta discordancia bioquímica con alta sospecha clínica?",
+  opciones: [
+    "Descartar Cushing porque una de las muestras salivales fue normal.",
+    "Repetir y complementar pruebas validadas de primera línea, considerando variabilidad biológica y posible hipercortisolismo cíclico.",
+    "Solicitar directamente una TC suprarrenal como prueba confirmatoria de hipercortisolismo.",
+    "Medir ACTH una sola vez y usarla como prueba de cribado definitiva.",
+    "Iniciar tratamiento inhibidor de cortisol sin completar la evaluación diagnóstica."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Las pruebas iniciales para hipercortisolismo incluyen cortisol salival nocturno, cortisol libre urinario y supresión con dexametasona, seleccionados según el contexto. Ante resultados discordantes y signos clínicos específicos, debe repetirse o complementarse la evaluación antes de localizar la causa. La variabilidad biológica y el hipercortisolismo cíclico pueden generar resultados intermitentemente normales. La ACTH y las imágenes se utilizan para orientar la etiología una vez establecido el exceso de cortisol, no como sustitutos de la confirmación inicial.`,
+  perlaENARM: "Sospecha clínica alta más pruebas discordantes: repetir pruebas bioquímicas validadas antes de localizar por imagen.",
+  gpc: {
+    mexico: "Consultar GPC vigentes de síndrome de Cushing y evaluación de hipercortisolismo.",
+    internacional: "Endocrine Society: guía para diagnóstico del síndrome de Cushing."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulo 4.1: Síndrome de Cushing."
+},
+{
+  id: "ENDO-387",
+  especialidad: "Endocrinología",
+  tema: "Hiperaldosteronismo primario",
+  subtema: "Interpretación de renina y aldosterona durante tratamiento antihipertensivo",
+  dificultad: "Muy alta",
+  caso: `Varón de 50 años con hipertensión resistente e hipopotasemia. Se solicita relación aldosterona-renina mientras recibe espironolactona, losartán y un diurético tiazídico. La renina está elevada y la relación resulta baja. La sospecha clínica de hiperaldosteronismo primario continúa siendo alta.`,
+  pregunta: "¿Cuál es la principal limitación de interpretar esta relación en las condiciones descritas?",
+  opciones: [
+    "Los fármacos pueden elevar la renina y modificar aldosterona, generando un resultado falsamente negativo; debe planificarse una evaluación bajo condiciones apropiadas y seguras.",
+    "La relación aldosterona-renina no se modifica con antagonistas del receptor mineralocorticoide.",
+    "Una relación baja confirma hiperaldosteronismo primario cuando existe hipopotasemia.",
+    "El uso de losartán suprime siempre la renina y confirma autonomía de aldosterona.",
+    "La hipopotasemia aumenta la aldosterona de forma independiente y hace innecesaria la evaluación hormonal."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La relación aldosterona-renina depende de concentraciones hormonales que pueden alterarse por medicamentos, estado de potasio, ingesta de sodio y condiciones de toma. Los antagonistas del receptor mineralocorticoide, los diuréticos y los inhibidores del sistema renina-angiotensina pueden interferir significativamente. Si es seguro, debe planificarse una estrategia de ajuste farmacológico y repetición conforme al protocolo especializado; no se deben retirar fármacos sin valorar el riesgo de hipertensión grave o hipopotasemia. La sospecha clínica sigue siendo relevante ante un resultado potencialmente interferido.`,
+  perlaENARM: "Relación aldosterona-renina negativa bajo espironolactona, diuréticos o ARA-II puede no excluir hiperaldosteronismo primario.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de hipertensión secundaria e hiperaldosteronismo primario.",
+    internacional: "Endocrine Society: guía de diagnóstico y manejo de hiperaldosteronismo primario."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulo 4.3: Hiperaldosteronismo."
+},
+{
+  id: "ENDO-388",
+  especialidad: "Endocrinología",
+  tema: "Feocromocitoma",
+  subtema: "Preparación preoperatoria y expansión de volumen",
+  dificultad: "Muy alta",
+  caso: `Paciente de 39 años con feocromocitoma bioquímicamente confirmado y lesión suprarrenal localizada. Se programa adrenalectomía. Presenta episodios hipertensivos y taquicardia, pero también hipotensión ortostática entre episodios.`,
+  pregunta: "¿Qué principio farmacológico debe respetarse durante la preparación preoperatoria?",
+  opciones: [
+    "Iniciar bloqueo alfa antes de añadir un betabloqueador si persiste taquicardia, junto con preparación de volumen individualizada.",
+    "Iniciar betabloqueo aislado antes del bloqueo alfa para prevenir vasoconstricción.",
+    "Evitar cualquier preparación farmacológica porque la hipotensión ortostática excluye secreción catecolaminérgica.",
+    "Administrar únicamente un diurético para reducir la volemia antes de la cirugía.",
+    "Iniciar bloqueo beta y alfa simultáneamente sin considerar la secuencia ni el estado hemodinámico."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El bloqueo alfa preoperatorio reduce la vasoconstricción mediada por catecolaminas y ayuda a estabilizar la presión arterial. Si se necesita betabloqueo para taquicardia, se introduce después de establecer un bloqueo alfa adecuado, porque el betabloqueo aislado puede dejar una estimulación alfa sin oposición y precipitar una crisis hipertensiva. La expansión de volumen debe individualizarse y vigilarse, especialmente si existe cardiopatía o insuficiencia renal. La preparación se realiza bajo supervisión especializada.`,
+  perlaENARM: "Feocromocitoma: primero bloqueo alfa; después, si se necesita, bloqueo beta. Nunca betabloqueo aislado como preparación inicial.",
+  gpc: {
+    mexico: "Consultar protocolos perioperatorios vigentes de feocromocitoma.",
+    internacional: "Endocrine Society: guía clínica para feocromocitoma y paraganglioma."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulo 4.6: Feocromocitoma."
+},
+{
+  id: "ENDO-389",
+  especialidad: "Endocrinología",
+  tema: "Hipoglucemia en el sujeto no diabético",
+  subtema: "Interpretación de hipoglucemia con insulina y péptido C elevados",
+  dificultad: "Muy alta",
+  caso: `Mujer de 44 años sin diabetes presenta episodios de confusión y diaforesis en ayuno. Durante una glucemia plasmática de 42 mg/dL, la insulina está inapropiadamente detectable, el péptido C está elevado y la proinsulina también está elevada. La búsqueda de sulfonilureas y meglitinidas es negativa.`,
+  pregunta: "¿Qué mecanismo resulta más compatible con la muestra crítica?",
+  opciones: [
+    "Hiperinsulinismo endógeno, que requiere localizar la causa después de confirmar bioquímicamente el episodio.",
+    "Administración exógena de insulina como explicación típica de péptido C elevado.",
+    "Hipoglucemia por insuficiencia suprarrenal como explicación suficiente de insulina elevada.",
+    "Hipoglucemia reactiva posprandial confirmada por una muestra obtenida en ayuno.",
+    "Deficiencia aislada de glucagón con supresión completa de insulina."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Durante hipoglucemia verdadera, la secreción de insulina debería estar suprimida. Insulina, péptido C y proinsulina inapropiadamente elevados apoyan hiperinsulinismo endógeno. Un cribado negativo para secretagogos reduce la probabilidad de hipoglucemia inducida por sulfonilureas o meglitinidas, aunque deben revisarse la sensibilidad y el momento de la muestra. Una vez documentada la tríada de Whipple y obtenida una muestra crítica válida, la evaluación etiológica puede incluir pruebas adicionales y localización de una posible fuente pancreática.`,
+  perlaENARM: "Insulina alta con péptido C bajo orienta a insulina exógena; insulina y péptido C elevados sugieren secreción endógena o secretagogos.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de hipoglucemia no diabética y evaluación de hiperinsulinismo endógeno.",
+    internacional: "Endocrine Society: guía de evaluación y manejo de hipoglucemia en adultos sin diabetes."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulo 6: Hipoglucemia en el sujeto no diabético."
+},
+{
+  id: "ENDO-390",
+  especialidad: "Endocrinología",
+  tema: "Hipoglucemia en el sujeto no diabético",
+  subtema: "Hipoglucemia por secretagogos de insulina",
+  dificultad: "Muy alta",
+  caso: `Varón de 72 años sin diagnóstico conocido de diabetes ingresa por hipoglucemia grave. Durante el episodio presenta glucosa plasmática baja, insulina elevada, péptido C elevado y proinsulina detectable. La familia refiere que comparte domicilio con una persona tratada con glibenclamida.`,
+  pregunta: "¿Qué dato permite distinguir mejor una exposición a secretagogos de un insulinoma?",
+  opciones: [
+    "Cribado plasmático u urinario validado para sulfonilureas y meglitinidas obtenido en el momento apropiado.",
+    "Una concentración elevada de péptido C, que distingue por sí sola ambas etiologías.",
+    "La ausencia de diabetes en la historia clínica.",
+    "Una glucosa baja aislada sin medición hormonal.",
+    "La concentración de TSH durante el episodio."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Los secretagogos estimulan la secreción endógena de insulina, por lo que pueden producir un patrón bioquímico indistinguible del insulinoma si no se investiga la exposición farmacológica. La detección depende de la cobertura del ensayo y del momento de la muestra, por lo que un resultado negativo debe interpretarse en su contexto. Es esencial obtener muestras durante el episodio y evitar procedimientos invasivos de localización antes de excluir causas farmacológicas plausibles.`,
+  perlaENARM: "Sulfonilureas pueden imitar bioquímicamente un insulinoma; el cribado de secretagogos es parte esencial de la evaluación.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de hipoglucemia grave y toxicología clínica.",
+    internacional: "Endocrine Society: guía de hipoglucemia en adultos sin diabetes."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulo 6: Hipoglucemia en el sujeto no diabético."
+},
+{
+  id: "ENDO-391",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Insulinoterapia y variabilidad glucémica por gastroparesia",
+  dificultad: "Muy alta",
+  caso: `Mujer de 61 años con diabetes tipo 1 y gastroparesia confirmada. Presenta hipoglucemia temprana después de administrar insulina prandial y, varias horas después, hiperglucemia tardía. La ingesta es variable y los vómitos son intermitentes.`,
+  pregunta: "¿Qué desajuste fisiológico explica mejor este patrón?",
+  opciones: [
+    "La absorción de nutrientes se retrasa respecto al perfil de acción de la insulina administrada antes de comer.",
+    "La gastroparesia acelera de forma constante el vaciamiento gástrico.",
+    "La insulina prandial deja de actuar cuando existe neuropatía autonómica.",
+    "La hiperglucemia tardía demuestra secreción excesiva de glucagón como única causa.",
+    "La variabilidad glucémica descarta la utilidad de monitorización continua."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En la gastroparesia, el vaciamiento gástrico retrasado y variable puede desacoplar la llegada de glucosa desde el intestino del perfil de acción de la insulina prandial. Esto favorece hipoglucemia temprana y elevación tardía de glucosa. El ajuste de la estrategia de insulina debe individualizarse según patrón de alimentación, monitorización, vómitos y tecnología disponible. No existe una única pauta universal; el objetivo es reducir el desacoplamiento entre absorción y acción insulínica sin aumentar el riesgo de hipoglucemia.`,
+  perlaENARM: "Gastroparesia diabética: la insulina puede actuar antes de que la glucosa ingerida llegue a la circulación.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de insulinoterapia, monitorización continua y gastroparesia diabética.",
+    internacional: "American Diabetes Association: Standards of Care in Diabetes; American College of Gastroenterology: gastroparesia."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulos 5.6 y 5.5: Tratamiento y complicaciones crónicas de diabetes."
+},
+{
+  id: "ENDO-392",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus y embarazo",
+  subtema: "Necesidades de insulina en el periodo posparto",
+  dificultad: "Muy alta",
+  caso: `Mujer de 30 años con diabetes tipo 1 que utilizó dosis elevadas de insulina durante el tercer trimestre. Tras el parto presenta glucemias bajas repetidas con el mismo esquema de insulina que utilizaba antes del nacimiento. Está lactando y no tiene fiebre ni datos de infección.`,
+  pregunta: "¿Qué cambio fisiológico explica principalmente el aumento del riesgo de hipoglucemia posparto?",
+  opciones: [
+    "La retirada de hormonas placentarias reduce rápidamente la resistencia a la insulina del embarazo.",
+    "La secreción placentaria de lactógeno aumenta después del parto y eleva la resistencia a insulina.",
+    "La producción de insulina endógena se normaliza obligatoriamente en toda paciente con diabetes tipo 1.",
+    "La lactancia produce hiperglucemia sostenida y excluye hipoglucemia.",
+    "La depuración renal de insulina se detiene fisiológicamente tras el parto."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Después del parto, la eliminación de la placenta provoca una caída rápida de hormonas diabetógenas, como el lactógeno placentario, y disminuye la resistencia a la insulina. Por ello, los requerimientos de insulina pueden reducirse de forma importante en mujeres con diabetes pregestacional. La lactancia también puede aumentar el riesgo de hipoglucemia en determinadas circunstancias. El esquema debe reajustarse con monitorización frecuente, ingesta adecuada y educación para prevenir episodios graves.`,
+  perlaENARM: "Tras el parto, disminuye rápidamente la resistencia a la insulina; las dosis del tercer trimestre suelen ser excesivas para el periodo posparto.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de diabetes pregestacional y atención posparto.",
+    internacional: "American Diabetes Association: Standards of Care in Diabetes, sección de embarazo."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulo 5.8: Aspectos relacionados con la diabetes y el embarazo."
+},
+{
+  id: "ENDO-393",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Retinopatía diabética y evaluación previa al embarazo",
+  dificultad: "Muy alta",
+  caso: `Mujer de 32 años con diabetes tipo 1 desde la adolescencia planea embarazo. La HbA1c es de 8,8% y tiene retinopatía diabética no proliferativa moderada. Desea iniciar intentos de concepción en las próximas semanas.`,
+  pregunta: "¿Qué aspecto clínico debe incorporarse de forma prioritaria a la planificación preconcepcional?",
+  opciones: [
+    "Evaluación oftalmológica y planificación del seguimiento de la retinopatía, junto con optimización metabólica preconcepcional individualizada.",
+    "Suspender permanentemente toda insulina hasta lograr embarazo.",
+    "Posponer la evaluación ocular porque la retinopatía no cambia durante el embarazo.",
+    "Indicar radioyodo para reducir el riesgo fetal de diabetes.",
+    "Iniciar embarazo de inmediato porque la HbA1c no modifica los riesgos maternofetales."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El embarazo puede acelerar la progresión de retinopatía diabética, sobre todo cuando existe enfermedad preexistente y se produce una mejoría glucémica rápida. La planificación debe incluir evaluación oftalmológica antes de la concepción, optimización metabólica y un plan de seguimiento durante el embarazo y el posparto. El momento de la concepción debe individualizarse con el equipo tratante, considerando el control glucémico y otras complicaciones. La insulina no debe suspenderse en diabetes tipo 1.`,
+  perlaENARM: "Antes del embarazo en diabetes pregestacional, valorar retina y optimizar glucemia; la retinopatía puede progresar durante la gestación.",
+  gpc: {
+    mexico: "Consultar GPC vigentes de diabetes y embarazo, además de protocolos oftalmológicos.",
+    internacional: "American Diabetes Association: Standards of Care in Diabetes; guías de diabetes pregestacional."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulos 5.5 y 5.8."
+},
+{
+  id: "ENDO-394",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Interpretación de HbA1c en alteraciones del recambio eritrocitario",
+  dificultad: "Muy alta",
+  caso: `Varón de 49 años con diabetes conocida y enfermedad renal crónica avanzada. Recibe eritropoyetina y recientemente recibió transfusión por anemia. La HbA1c es de 5,8%, pero la monitorización continua muestra glucosa media elevada y múltiples episodios de hiperglucemia.`,
+  pregunta: "¿Cuál es la explicación más probable de la discordancia?",
+  opciones: [
+    "La HbA1c puede ser poco fiable por cambios en la vida media eritrocitaria, tratamiento con eritropoyetina y transfusión.",
+    "La monitorización continua es siempre incorrecta en enfermedad renal crónica.",
+    "La HbA1c refleja exclusivamente la glucosa de las últimas 24 horas.",
+    "La anemia y la transfusión siempre elevan la HbA1c.",
+    "La glucosa media elevada excluye cualquier interferencia de la HbA1c."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La HbA1c depende de la exposición a glucosa y de la duración de vida de los eritrocitos. La enfermedad renal avanzada, la anemia, la eritropoyetina y las transfusiones pueden modificar su relación con la glucemia real. En estos contextos, la HbA1c puede infraestimar o resultar difícil de interpretar. La monitorización continua y los datos capilares deben integrarse con la situación clínica; otros marcadores como albúmina glicada o fructosamina pueden tener utilidad selectiva, aunque también presentan limitaciones.`,
+  perlaENARM: "ERC avanzada, eritropoyetina o transfusión pueden desacoplar HbA1c de la glucemia real.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de monitorización glucémica en diabetes y enfermedad renal crónica.",
+    internacional: "American Diabetes Association y KDIGO: recomendaciones de evaluación glucémica en enfermedad renal crónica."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulos 5.2 y 5.7."
+},
+{
+  id: "ENDO-395",
+  especialidad: "Endocrinología",
+  tema: "Metabolismo lipídico",
+  subtema: "Hipertrigliceridemia y pancreatitis",
+  dificultad: "Muy alta",
+  caso: `Varón de 46 años con pancreatitis aguda y triglicéridos de 2.300 mg/dL. Presenta diabetes descontrolada y consumo elevado de alcohol. No tiene antecedentes de episodios similares en la infancia. Durante la hospitalización, el equipo discute si una plasmaféresis debe realizarse de rutina.`,
+  pregunta: "¿Qué afirmación refleja mejor la evidencia clínica disponible sobre plasmaféresis en este escenario?",
+  opciones: [
+    "Debe realizarse de rutina en todos los pacientes con pancreatitis por hipertrigliceridemia, independientemente de gravedad y respuesta clínica.",
+    "Puede reducir rápidamente triglicéridos en casos seleccionados, pero su uso rutinario universal no está respaldado por evidencia concluyente de mejores desenlaces clínicos.",
+    "Está contraindicada en todos los pacientes con triglicéridos superiores a 1.000 mg/dL.",
+    "Sustituye el manejo de la pancreatitis, la corrección de desencadenantes y el soporte hemodinámico.",
+    "Es el tratamiento definitivo de la predisposición metabólica y elimina la recurrencia."
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La plasmaféresis puede disminuir rápidamente la concentración de triglicéridos, pero la evidencia de que su uso rutinario mejore desenlaces clínicos relevantes en todos los pacientes es limitada. La decisión se individualiza según gravedad, evolución, respuesta al tratamiento convencional y recursos disponibles. El manejo incluye soporte de pancreatitis, control metabólico, tratamiento de factores precipitantes y prevención secundaria. No debe retrasarse el tratamiento estándar mientras se considera una intervención extracorpórea.`,
+  perlaENARM: "La reducción rápida de triglicéridos no demuestra por sí sola beneficio clínico de plasmaféresis rutinaria en toda pancreatitis hipertrigliceridémica.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de pancreatitis aguda e hipertrigliceridemia grave.",
+    internacional: "Guías de pancreatitis aguda y consensos especializados sobre hipertrigliceridemia grave."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulo 1.10: Nutrición y metabolismo lipídico; guías de pancreatitis aguda."
+},
+{
+  id: "ENDO-396",
+  especialidad: "Endocrinología",
+  tema: "Obesidad",
+  subtema: "Síndrome de hipoventilación por obesidad",
+  dificultad: "Muy alta",
+  caso: `Varón de 56 años con IMC de 44 kg/m², somnolencia diurna, cefalea matutina y edema periférico. La gasometría arterial en vigilia muestra PaCO2 de 51 mmHg y PaO2 disminuida. No tiene EPOC, enfermedad neuromuscular ni uso crónico de opioides.`,
+  pregunta: "¿Qué elemento diferencia el síndrome de hipoventilación por obesidad de la apnea obstructiva del sueño aislada?",
+  opciones: [
+    "Hipercapnia diurna en vigilia en una persona con obesidad, tras excluir otras causas de hipoventilación.",
+    "Ronquido nocturno como único criterio diagnóstico.",
+    "Desaturación exclusivamente durante el sueño con PaCO2 siempre normal en vigilia.",
+    "Presencia obligatoria de hipotiroidismo manifiesto.",
+    "IMC elevado sin evaluación gasométrica ni exclusión de otras causas."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El síndrome de hipoventilación por obesidad se define por obesidad, hipercapnia diurna en vigilia y ausencia de otra explicación suficiente para la hipoventilación. La apnea obstructiva del sueño es frecuente y puede coexistir, pero no equivale por sí sola al síndrome. La evaluación incluye gasometría cuando está indicada, estudio del sueño y búsqueda de enfermedades pulmonares, neuromusculares, metabólicas o farmacológicas. El tratamiento suele requerir pérdida ponderal y soporte ventilatorio según el fenotipo y la gravedad.`,
+  perlaENARM: "Obesidad más PaCO2 ≥45 mmHg en vigilia, sin otra causa, orienta a síndrome de hipoventilación por obesidad.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de obesidad, apnea del sueño e hipoventilación.",
+    internacional: "American Thoracic Society: guía clínica sobre síndrome de hipoventilación por obesidad."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulo 7.3: Obesidad; guía ATS sobre hipoventilación por obesidad."
+},
+{
+  id: "ENDO-397",
+  especialidad: "Endocrinología",
+  tema: "Osteoporosis",
+  subtema: "Interpretación del riesgo de fractura y FRAX",
+  dificultad: "Muy alta",
+  caso: `Mujer de 68 años con T-score de −2,2 en cuello femoral, sin fractura previa documentada. Tiene artritis reumatoide y recibe glucocorticoides crónicos. El cálculo de FRAX inicial no incluyó adecuadamente todos los factores clínicos y el equipo considera que el riesgo real podría estar subestimado.`,
+  pregunta: "¿Cuál es la principal limitación de usar FRAX de forma aislada en esta paciente?",
+  opciones: [
+    "FRAX integra factores clínicos y densidad mineral ósea del cuello femoral, pero puede no reflejar por completo dosis de glucocorticoides, caídas recurrentes ni todos los factores individuales.",
+    "FRAX no utiliza edad ni antecedentes de fractura.",
+    "FRAX confirma osteoporosis en todos los pacientes con T-score mayor de −2,5.",
+    "FRAX mide directamente la microarquitectura ósea mediante tomografía.",
+    "FRAX sustituye la evaluación clínica y excluye la necesidad de revisar fracturas vertebrales."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `FRAX estima la probabilidad de fractura a 10 años a partir de factores clínicos y, cuando está disponible, densidad mineral ósea del cuello femoral. Es útil para estratificar riesgo, pero tiene limitaciones: no representa de forma completa la dosis acumulada de glucocorticoides, el riesgo de caídas, la frecuencia de fracturas recientes ni todas las características individuales. Debe integrarse con historia clínica, densitometría y evaluación de fracturas vertebrales cuando corresponda.`,
+  perlaENARM: "FRAX ayuda a estratificar riesgo, pero no sustituye el juicio clínico ni refleja todos los determinantes de fractura.",
+  gpc: {
+    mexico: "Consultar GPC vigentes de osteoporosis y prevención de fracturas.",
+    internacional: "National Osteoporosis Guideline Group y guías internacionales de evaluación del riesgo de fractura."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de osteoporosis; guías internacionales sobre riesgo de fractura."
+},
+{
+  id: "ENDO-398",
+  especialidad: "Endocrinología",
+  tema: "Metabolismo fosfocálcico",
+  subtema: "FGF23 y raquitismo hipofosfatémico ligado al X",
+  dificultad: "Muy alta",
+  caso: `Niño de 6 años con arqueamiento progresivo de miembros inferiores, talla baja y dolor óseo. El fosfato sérico está disminuido, la fosfatasa alcalina elevada y la función renal conservada. La 25-OH-vitamina D es suficiente. La evaluación urinaria demuestra pérdida renal de fosfato y la historia familiar sugiere transmisión ligada al X.`,
+  pregunta: "¿Qué mecanismo explica mejor el trastorno mineral?",
+  opciones: [
+    "Exceso de señalización por FGF23, que reduce la reabsorción renal de fosfato y disminuye la síntesis de calcitriol.",
+    "Deficiencia de PTH con aumento de reabsorción renal de fosfato.",
+    "Exceso de aldosterona como causa directa de fosfaturia selectiva.",
+    "Deficiencia aislada de calcitonina con retención de fosfato.",
+    "Hiperparatiroidismo primario con hipercalcemia obligatoria."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El raquitismo hipofosfatémico ligado al X suele deberse a variantes de PHEX que aumentan la actividad o disponibilidad de FGF23. FGF23 reduce la reabsorción proximal de fosfato y disminuye la síntesis de calcitriol, causando hipofosfatemia crónica y mineralización defectuosa. La evaluación integra fosfato, fosfatasa alcalina, función renal, vitamina D, pérdida renal de fosfato y contexto familiar. El tratamiento depende del diagnóstico específico y puede incluir terapias dirigidas en pacientes elegibles.`,
+  perlaENARM: "Raquitismo con hipofosfatemia, pérdida renal de fosfato y vitamina D suficiente: considerar trastorno mediado por FGF23.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de raquitismo hipofosfatémico y enfermedades metabólicas óseas pediátricas.",
+    internacional: "Guías internacionales de raquitismo hipofosfatémico ligado al X y terapias dirigidas a FGF23."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulos 1.9 y 8; guías internacionales de trastornos hipofosfatémicos."
+},
+{
+  id: "ENDO-399",
+  especialidad: "Endocrinología",
+  tema: "Fisiología endocrina",
+  subtema: "Regulación de la secreción de aldosterona",
+  dificultad: "Muy alta",
+  caso: `Varón de 37 años con hipopotasemia por pérdidas gastrointestinales. La presión arterial es normal y la función renal está conservada. La actividad de renina plasmática y la aldosterona están bajas durante la evaluación inicial, sin uso de fármacos que alteren el sistema renina-angiotensina.`,
+  pregunta: "¿Qué efecto directo ejerce la hipopotasemia sobre la secreción de aldosterona?",
+  opciones: [
+    "Tiende a inhibir la secreción de aldosterona, porque el potasio extracelular es un regulador directo de la zona glomerulosa.",
+    "Estimula siempre la secreción de aldosterona de manera independiente de renina.",
+    "Activa directamente la síntesis de cortisol en la zona fasciculada.",
+    "No tiene ningún efecto sobre la secreción de aldosterona.",
+    "Produce secreción autónoma de aldosterona en todos los pacientes."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La secreción de aldosterona está regulada principalmente por angiotensina II y potasio extracelular; la ACTH tiene un efecto menor y transitorio. El aumento de potasio estimula directamente la zona glomerulosa, mientras que la hipopotasemia tiende a inhibir la secreción. Por ello, una concentración baja de aldosterona durante hipopotasemia puede ser una respuesta fisiológica y debe interpretarse con renina, estado de volumen, sodio y contexto clínico. La toma aislada no basta para diagnosticar un trastorno mineralocorticoide.`,
+  perlaENARM: "El potasio extracelular regula directamente aldosterona: hiperpotasemia estimula e hipopotasemia inhibe su secreción.",
+  gpc: {
+    mexico: "Aplicación fisiológica; consultar protocolos de trastornos hidroelectrolíticos cuando exista sospecha de enfermedad suprarrenal.",
+    internacional: "Textos de fisiología endocrina y guías de evaluación de trastornos mineralocorticoides."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulo 1.4: Hormonas suprarrenales."
+},
+{
+  id: "ENDO-400",
+  especialidad: "Endocrinología",
+  tema: "Diabetes mellitus",
+  subtema: "Inhibidores SGLT2 y cetoacidosis con glucemia no muy elevada",
+  dificultad: "Muy alta",
+  caso: `Mujer de 59 años con diabetes tipo 2 tratada con empagliflozina. Tras una cirugía electiva y varios días de ingesta reducida presenta náuseas, dolor abdominal y taquipnea. La glucosa es de 184 mg/dL, el bicarbonato de 12 mmol/L, la brecha aniónica está elevada y las cetonas son positivas.`,
+  pregunta: "¿Qué explicación integra mejor la acidosis con cetosis y la glucemia relativamente baja?",
+  opciones: [
+    "Cetoacidosis diabética asociada a inhibidor SGLT2, favorecida por ayuno perioperatorio y reducción de la disponibilidad de insulina.",
+    "Ausencia de cetoacidosis porque la glucosa es menor de 250 mg/dL.",
+    "Acidosis respiratoria primaria sin relación con el metabolismo de cuerpos cetónicos.",
+    "Hipoglucemia por insulina endógena como causa de toda la brecha aniónica.",
+    "Acidosis láctica confirmada únicamente por el uso de empagliflozina."
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Los inhibidores SGLT2 pueden favorecer cetoacidosis con glucemia normal o solo moderadamente elevada, especialmente durante ayuno, enfermedad aguda, cirugía o reducción de insulina. La glucosuria limita la elevación de glucosa plasmática, por lo que una glucemia inferior a 250 mg/dL no excluye cetoacidosis. El diagnóstico se basa en acidosis metabólica con brecha aniónica elevada y cetonemia o cetonuria, interpretadas con el contexto clínico. El manejo requiere suspender el fármaco, administrar líquidos, insulina y dextrosa según protocolo, y monitorizar potasio y cierre de la brecha aniónica.`,
+  perlaENARM: "SGLT2 más acidosis con brecha aniónica y cetonas: descartar cetoacidosis aunque la glucemia sea menor de 250 mg/dL.",
+  gpc: {
+    mexico: "Consultar protocolos vigentes de cetoacidosis diabética y manejo perioperatorio de inhibidores SGLT2.",
+    internacional: "American Diabetes Association y consensos internacionales sobre crisis hiperglucémicas y seguridad perioperatoria de SGLT2."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., capítulos 5.4 y 5.6: Complicaciones agudas y tratamiento de la diabetes."
+},
+
+{
+  id: "ENDO-401",
+  especialidad: "Endocrinología",
+  tema: "Déficit de hormona de crecimiento en el adulto",
+  subtema: "Interpretación de pruebas de estimulación",
+  dificultad: "Muy alta",
+  caso: `Varón de 46 años con antecedente de cirugía transesfenoidal por macroadenoma no funcionante y deficiencias confirmadas de ACTH y TSH. Presenta aumento de adiposidad visceral, disminución de masa magra y deterioro de calidad de vida. La IGF-1 está discretamente por debajo del límite inferior normal. No tiene enfermedad hepática ni desnutrición.`,
+  pregunta: "¿Qué estrategia aporta mayor solidez diagnóstica para confirmar un déficit de GH en este contexto?",
+  opciones: [
+    "Diagnosticarlo exclusivamente por la IGF-1 baja",
+    "Realizar una prueba de estímulo validada e interpretar el pico según el método y el contexto clínico",
+    "Medir GH aleatoria después del desayuno",
+    "Utilizar una prueba de supresión con glucosa oral",
+    "Descartar el déficit porque la IGF-1 no es indetectable"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La IGF-1 baja apoya el diagnóstico, pero no siempre es suficiente; su concentración también depende de edad, estado nutricional, función hepática y otras variables. En adultos, la confirmación suele requerir una prueba dinámica validada, salvo contextos clínicos seleccionados de probabilidad preprueba muy elevada en los que la guía aplicable permita un abordaje diferente. El antecedente de lesión hipofisaria y varias deficiencias hormonales aumenta sustancialmente la probabilidad preprueba. El umbral de respuesta depende de la prueba utilizada, del ensayo y, en determinadas pruebas, del IMC.`,
+  perlaENARM: "Una GH aleatoria no sirve para diagnosticar déficit de GH por su secreción pulsátil. La IGF-1 baja aislada tampoco es universalmente diagnóstica.",
+  gpc: {
+    mexico: "Verificar recomendaciones mexicanas vigentes sobre hipopituitarismo y evaluación de déficit de GH en adultos.",
+    internacional: "Endocrine Society. Evaluation and Treatment of Adult Growth Hormone Deficiency; consultar criterios vigentes de pruebas dinámicas."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado 2.3; Endocrine Society, guía clínica sobre déficit de GH en adultos."
+},
+{
+  id: "ENDO-402",
+  especialidad: "Endocrinología",
+  tema: "Déficit de hormona de crecimiento en el adulto",
+  subtema: "Selección de prueba dinámica",
+  dificultad: "Muy alta",
+  caso: `Mujer de 58 años con hipopituitarismo posquirúrgico, obesidad grado III y sospecha clínica de déficit de GH. Se plantea una prueba de tolerancia a la insulina, pero tiene cardiopatía isquémica con antecedente de arritmia ventricular.`,
+  pregunta: "¿Cuál es el principal problema de la estrategia diagnóstica propuesta?",
+  opciones: [
+    "La obesidad descarta por sí misma el déficit de GH",
+    "La prueba de tolerancia a la insulina está contraindicada o debe evitarse por el riesgo de hipoglucemia grave en este contexto",
+    "La prueba solo es válida en menores de 30 años",
+    "La GH no responde a estímulos en pacientes con hipopituitarismo",
+    "La cardiopatía produce siempre una elevación falsa de IGF-1"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La hipoglucemia inducida durante la prueba de tolerancia a la insulina puede desencadenar eventos cardiovasculares o neurológicos; una cardiopatía isquémica relevante y antecedentes de arritmia son razones importantes para evitarla. Debe seleccionarse una prueba alternativa validada según disponibilidad, comorbilidades y criterios del laboratorio. Además, la obesidad puede reducir la respuesta de GH y modificar la interpretación de los puntos de corte, por lo que no deben extrapolarse umbrales sin considerar el contexto.`,
+  perlaENARM: "La prueba de tolerancia a la insulina es una prueba de referencia en contextos seleccionados, pero no es segura para todos los pacientes.",
+  gpc: {
+    mexico: "Consultar guía mexicana vigente de hipopituitarismo y protocolo institucional de pruebas dinámicas.",
+    internacional: "Endocrine Society. Evaluation and Treatment of Adult Growth Hormone Deficiency."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado 2.3; Endocrine Society, guía sobre déficit de GH en adultos."
+},
+{
+  id: "ENDO-403",
+  especialidad: "Endocrinología",
+  tema: "Pubertad precoz",
+  subtema: "Diferenciación entre origen central y periférico",
+  dificultad: "Muy alta",
+  caso: `Niña de 6 años con crecimiento mamario progresivo, aceleración de la velocidad de crecimiento y edad ósea adelantada dos años. La estradiol está elevado y las concentraciones basales de LH son bajas o indetectables con el ensayo utilizado.`,
+  pregunta: "¿Qué dato permitiría discriminar con mayor utilidad una activación central incipiente de una fuente periférica de estrógenos?",
+  opciones: [
+    "Una determinación aislada de estradiol",
+    "La respuesta de LH a un estímulo con GnRH o un agonista validado",
+    "La concentración de prolactina como prueba confirmatoria",
+    "La medición aislada de TSH",
+    "La presencia de telarquia como prueba suficiente de origen central"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Una LH basal baja no excluye una activación central temprana, en especial cuando el ensayo no tiene sensibilidad suficiente o la secreción pulsátil no coincide con la toma. La respuesta de LH tras estímulo ayuda a diferenciar la activación del eje hipotálamo-hipófisis-gónada de la producción periférica de esteroides sexuales. La interpretación debe integrarse con progresión clínica, velocidad de crecimiento, edad ósea y características del ensayo.`,
+  perlaENARM: "En una niña con progresión puberal, una LH basal no detectable no descarta por sí sola pubertad precoz central.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para diagnóstico y tratamiento de pubertad precoz.",
+    internacional: "Guías y consensos pediátricos internacionales sobre evaluación de pubertad precoz central."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de alteraciones de las gonadotrofinas y pubertad precoz."
+},
+{
+  id: "ENDO-404",
+  especialidad: "Endocrinología",
+  tema: "Pubertad precoz periférica",
+  subtema: "Tumor productor de andrógenos en un niño",
+  dificultad: "Muy alta",
+  caso: `Niño de 7 años con crecimiento acelerado, vello púbico, acné y aumento importante de testosterona. La LH permanece en rango prepuberal tras estímulo con GnRH. En la exploración, un testículo es claramente mayor que el contralateral.`,
+  pregunta: "¿Qué etiología debe priorizarse por la combinación de datos clínicos?",
+  opciones: [
+    "Pubertad precoz central idiopática",
+    "Tumor testicular de células de Leydig",
+    "Déficit aislado de gonadotropinas",
+    "Hipotiroidismo primario",
+    "Síndrome de Kallmann"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La testosterona elevada con gonadotropinas suprimidas sugiere producción gonadal autónoma o una fuente periférica de andrógenos. El aumento testicular unilateral orienta específicamente a un tumor de células de Leydig, aunque el diagnóstico requiere ecografía testicular y evaluación complementaria. En la pubertad precoz central se espera activación gonadotrópica; el patrón hormonal descrito no la favorece.`,
+  perlaENARM: "En un niño con virilización y aumento testicular unilateral, no atribuir automáticamente el cuadro a pubertad precoz central.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre pubertad precoz y evaluación de masas testiculares pediátricas.",
+    internacional: "Consensos pediátricos internacionales sobre pubertad precoz periférica."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de pubertad precoz periférica."
+},
+{
+  id: "ENDO-405",
+  especialidad: "Endocrinología",
+  tema: "Pubertad precoz central",
+  subtema: "Indicación de neuroimagen",
+  dificultad: "Muy alta",
+  caso: `Niño de 6 años con crecimiento testicular bilateral, elevación de LH tras estímulo, aceleración del crecimiento y edad ósea adelantada. No presenta cefalea ni alteraciones visuales.`,
+  pregunta: "¿Cuál es la consideración diagnóstica que no debe omitirse pese a la ausencia de síntomas neurológicos?",
+  opciones: [
+    "La ausencia de cefalea excluye lesión intracraneal",
+    "La pubertad precoz central en un niño pequeño amerita evaluación del sistema nervioso central mediante neuroimagen",
+    "La resonancia está indicada únicamente si la prolactina está elevada",
+    "Debe asumirse una etiología testicular periférica",
+    "La edad ósea adelantada descarta patología central"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La activación central del eje puberal en niños, especialmente a edades tempranas, obliga a considerar lesiones del sistema nervioso central aun sin manifestaciones neurológicas evidentes. La resonancia magnética cerebral es la modalidad preferida cuando está indicada. La ausencia de cefalea o alteraciones visuales no excluye un hamartoma hipotalámico u otra lesión relevante.`,
+  perlaENARM: "La pubertad precoz central en niños exige especial atención a causas orgánicas del SNC; la clínica neurológica puede estar ausente.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente para pubertad precoz y criterios de neuroimagen.",
+    internacional: "Consensos pediátricos internacionales sobre pubertad precoz central."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de pubertad precoz central."
+},
+{
+  id: "ENDO-406",
+  especialidad: "Endocrinología",
+  tema: "Retraso puberal",
+  subtema: "Hipogonadismo hipergonadotrópico",
+  dificultad: "Muy alta",
+  caso: `Adolescente de 15 años sin desarrollo mamario. Presenta talla baja, cuello alado y cúbito valgo. Las concentraciones de FSH y LH están elevadas y el estradiol es bajo.`,
+  pregunta: "¿Qué mecanismo explica mejor el patrón hormonal?",
+  opciones: [
+    "Fallo hipotalámico con disminución de GnRH",
+    "Fallo ovárico primario con pérdida de retroalimentación negativa",
+    "Secreción autónoma de estradiol por un tumor ovárico",
+    "Resistencia periférica aislada a la acción de la prolactina",
+    "Activación prematura del eje gonadotrópico"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El estradiol bajo junto con gonadotropinas elevadas define un patrón de hipogonadismo hipergonadotrópico, compatible con insuficiencia gonadal primaria. El fenotipo descrito obliga a considerar síndrome de Turner y confirmar el diagnóstico con estudio cromosómico. En el hipogonadismo hipogonadotrópico, en cambio, las gonadotropinas son bajas o inapropiadamente normales.`,
+  perlaENARM: "Retraso puberal con FSH elevada y estradiol bajo orienta a disgenesia gonadal o insuficiencia gonadal primaria.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre retraso puberal, amenorrea primaria y síndrome de Turner.",
+    internacional: "Guías internacionales de evaluación del retraso puberal e insuficiencia ovárica primaria."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de alteraciones de las gonadotrofinas."
+},
+{
+  id: "ENDO-407",
+  especialidad: "Endocrinología",
+  tema: "Retraso puberal",
+  subtema: "Retraso constitucional frente a hipogonadismo central",
+  dificultad: "Muy alta",
+  caso: `Varón de 14 años y 8 meses con volumen testicular de 3 mL, velocidad de crecimiento baja y edad ósea retrasada dos años. Su padre tuvo desarrollo puberal tardío. Las gonadotropinas son bajas y no existen alteraciones neurológicas ni otras deficiencias hipofisarias conocidas.`,
+  pregunta: "¿Qué limitación debe reconocerse al interpretar estos datos?",
+  opciones: [
+    "Las gonadotropinas bajas distinguen siempre de manera definitiva el retraso constitucional del hipogonadismo central permanente",
+    "La edad ósea retrasada confirma por sí sola una lesión hipotalámica",
+    "El retraso constitucional y el hipogonadismo hipogonadotrópico pueden compartir hallazgos iniciales y requerir seguimiento clínico",
+    "El antecedente familiar excluye cualquier enfermedad orgánica",
+    "Un volumen testicular de 3 mL confirma pubertad completa"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `El retraso constitucional del crecimiento y la pubertad y el hipogonadismo hipogonadotrópico permanente pueden presentar talla baja relativa, edad ósea retrasada y gonadotropinas bajas. La historia familiar apoya el retraso constitucional, pero no lo demuestra de forma definitiva. La evolución longitudinal, la búsqueda de datos de enfermedad sistémica o lesión central y, en casos seleccionados, estudios adicionales permiten mejorar la discriminación diagnóstica.`,
+  perlaENARM: "Las gonadotropinas bajas en un adolescente con retraso puberal no separan por sí solas el retraso constitucional del hipogonadismo central permanente.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre retraso puberal y evaluación del hipogonadismo.",
+    internacional: "Consensos internacionales de endocrinología pediátrica sobre retraso puberal."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de alteraciones de las gonadotrofinas."
+},
+{
+  id: "ENDO-408",
+  especialidad: "Endocrinología",
+  tema: "Sistema incretínico",
+  subtema: "Efecto incretina",
+  dificultad: "Muy alta",
+  caso: `En un estudio fisiológico, dos grupos reciben la misma carga de glucosa: uno por vía oral y otro por infusión intravenosa ajustada para reproducir concentraciones plasmáticas de glucosa semejantes. La respuesta de insulina es mayor después de la administración oral.`,
+  pregunta: "¿Qué fenómeno explica la diferencia observada?",
+  opciones: [
+    "Mayor filtración glomerular de glucosa tras la vía oral",
+    "Liberación intestinal de incretinas que amplifican la secreción de insulina dependiente de glucosa",
+    "Supresión completa de la secreción de glucagón por la glucosa intravenosa",
+    "Conversión intestinal directa de glucosa en insulina",
+    "Activación exclusiva de receptores de insulina en el músculo por la vía oral"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El efecto incretina describe la mayor secreción de insulina tras la glucosa oral frente a la intravenosa cuando la glucemia se hace comparable. Participan principalmente GIP, secretado por células K, y GLP-1, secretado por células L. Sus acciones son dependientes de glucosa; GLP-1 también reduce el glucagón de manera dependiente del contexto glucémico, retrasa el vaciamiento gástrico y participa en la saciedad.`,
+  perlaENARM: "La vía oral produce mayor respuesta insulinotrópica que la intravenosa a igual glucemia por el efecto incretina.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente de diabetes mellitus para el contexto clínico del sistema incretínico.",
+    internacional: "ADA Standards of Care in Diabetes, sección de fisiopatología y tratamiento farmacológico."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado 1.7, sistema incretínico."
+},
+{
+  id: "ENDO-409",
+  especialidad: "Endocrinología",
+  tema: "Sistema incretínico",
+  subtema: "Fisiología de GIP y GLP-1",
+  dificultad: "Muy alta",
+  caso: `Un paciente con diabetes mellitus tipo 2 presenta una respuesta insulinotrópica reducida al administrar GIP, mientras conserva una respuesta clínica relevante a un agonista del receptor de GLP-1. Se revisan las diferencias entre ambas vías fisiológicas.`,
+  pregunta: "¿Cuál afirmación integra mejor la fisiología de estas incretinas?",
+  opciones: [
+    "GIP y GLP-1 se secretan exclusivamente en el páncreas",
+    "GIP procede principalmente de células K y GLP-1 de células L intestinales; ambas potencian la secreción de insulina de forma dependiente de glucosa",
+    "GLP-1 aumenta siempre el glucagón durante la hiperglucemia",
+    "GIP es la única incretina capaz de modular la secreción de insulina",
+    "La acción insulinotrópica de ambas hormonas es independiente de la glucemia"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `GIP y GLP-1 son hormonas intestinales con efecto insulinotrópico dependiente de glucosa. En la diabetes tipo 2, la respuesta insulinotrópica al GIP puede estar disminuida, mientras que la respuesta al GLP-1 puede conservarse en grado clínicamente aprovechable. Esta diferencia contribuye a explicar por qué los agonistas del receptor de GLP-1 son terapéuticamente eficaces; no significa que todas las respuestas fisiológicas sean idénticas entre ambos péptidos.`,
+  perlaENARM: "Células K: GIP. Células L: GLP-1. El efecto insulinotrópico de las incretinas depende de glucosa.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente de diabetes mellitus tipo 2.",
+    internacional: "ADA Standards of Care in Diabetes, sección de tratamiento farmacológico y fisiopatología."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado 1.7, sistema incretínico."
+},
+{
+  id: "ENDO-410",
+  especialidad: "Endocrinología",
+  tema: "Incidentaloma suprarrenal",
+  subtema: "Caracterización radiológica de adenoma",
+  dificultad: "Muy alta",
+  caso: `Mujer de 63 años con una masa suprarrenal descubierta incidentalmente en una tomografía sin contraste. La lesión mide 2.1 cm, es homogénea y presenta atenuación de 7 unidades Hounsfield. No hay antecedentes de cáncer ni síntomas sugestivos de secreción hormonal.`,
+  pregunta: "¿Cuál es la interpretación radiológica más sólida de estos hallazgos?",
+  opciones: [
+    "La lesión debe considerarse carcinoma suprarrenal hasta demostrar lo contrario",
+    "La baja atenuación y homogeneidad favorecen un adenoma rico en lípidos, aunque debe completarse la evaluación hormonal indicada",
+    "El tamaño menor de 4 cm excluye cualquier posibilidad de malignidad y secreción hormonal",
+    "La atenuación de 7 UH confirma un feocromocitoma",
+    "Toda lesión incidental menor de 3 cm requiere adrenalectomía"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Una masa suprarrenal homogénea con atenuación de 10 UH o menos en una TC sin contraste es altamente compatible con adenoma rico en lípidos. La imagen, sin embargo, no sustituye la evaluación hormonal recomendada según el contexto clínico y las guías vigentes. El tamaño aislado no debe emplearse como único criterio de benignidad ni como indicación automática de cirugía.`,
+  perlaENARM: "En TC suprarrenal sin contraste, una lesión homogénea de ≤10 UH favorece fuertemente un adenoma rico en lípidos.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre incidentaloma suprarrenal y evaluación funcional.",
+    internacional: "European Society of Endocrinology, guía clínica de incidentalomas suprarrenales."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado 4.4, incidentaloma suprarrenal; guía ESE sobre incidentalomas suprarrenales."
+},
+{
+  id: "ENDO-411",
+  especialidad: "Endocrinología",
+  tema: "Incidentaloma suprarrenal",
+  subtema: "Masa indeterminada y riesgo oncológico",
+  dificultad: "Muy alta",
+  caso: `Varón de 59 años con masa suprarrenal de 5.8 cm, heterogénea, con áreas de necrosis y atenuación de 32 UH en la tomografía sin contraste. No se ha documentado una secreción hormonal. El paciente no tiene antecedente conocido de neoplasia extraadrenal.`,
+  pregunta: "¿Qué característica obliga a considerar la lesión de alto riesgo y a acelerar la valoración especializada?",
+  opciones: [
+    "La ausencia de síntomas catecolaminérgicos",
+    "La combinación de tamaño grande, heterogeneidad y atenuación elevada en la TC sin contraste",
+    "La ausencia de hipopotasemia",
+    "La falta de antecedente familiar de cáncer",
+    "La localización unilateral de la lesión"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El tamaño mayor de 4 cm, la heterogeneidad y la atenuación elevada son características radiológicas que aumentan la preocupación por malignidad y justifican una valoración multidisciplinaria especializada. Ninguno de estos hallazgos confirma por sí solo carcinoma adrenocortical; la evaluación debe integrar secreción hormonal, características de imagen, antecedentes y estadificación cuando corresponda. La ausencia de síntomas hormonales no descarta malignidad.`,
+  perlaENARM: "Una masa suprarrenal grande, heterogénea y con atenuación elevada no debe manejarse como un adenoma típico.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre incidentaloma suprarrenal y sospecha de carcinoma adrenocortical.",
+    internacional: "European Society of Endocrinology, guía clínica de incidentalomas suprarrenales."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado 4.4; guía ESE de incidentalomas suprarrenales."
+},
+{
+  id: "ENDO-412",
+  especialidad: "Endocrinología",
+  tema: "Hipofisitis relacionada con inmunoterapia",
+  subtema: "Toxicidad endocrina por inhibidores de puntos de control",
+  dificultad: "Muy alta",
+  caso: `Paciente de 61 años con melanoma en tratamiento con un inhibidor de puntos de control inmunitario consulta por cefalea, astenia, náusea e hipotensión. El cortisol matutino es muy bajo y la ACTH está baja. La RM muestra aumento difuso de la hipófisis sin lesión focal definida.`,
+  pregunta: "¿Cuál es la alteración endocrina que debe reconocerse con mayor urgencia?",
+  opciones: [
+    "Insuficiencia suprarrenal primaria por destrucción autoinmunitaria de la corteza",
+    "Insuficiencia suprarrenal secundaria por compromiso hipofisario, con riesgo de crisis adrenal",
+    "Hiperaldosteronismo primario",
+    "Síndrome de secreción ectópica de ACTH",
+    "Hipercortisolismo por activación del eje hipotálamo-hipófisis-suprarrenal"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La combinación de cortisol bajo con ACTH baja o inapropiadamente normal indica insuficiencia suprarrenal central. En el contexto de inmunoterapia, la hipofisitis es una causa importante y puede afectar de manera predominante el eje corticotropo. La hipotensión y los síntomas sistémicos obligan a valorar una crisis adrenal y a iniciar glucocorticoides sin retrasarlos por la obtención de imágenes o pruebas confirmatorias si el paciente está inestable.`,
+  perlaENARM: "Cortisol bajo más ACTH baja sugiere insuficiencia suprarrenal central; en un paciente inestable, tratar primero la posible crisis.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de toxicidad endocrina por inmunoterapia y manejo de insuficiencia suprarrenal.",
+    internacional: "Guías de la European Society of Endocrinology y sociedades oncológicas sobre eventos endocrinos inmunomediados."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartados de hipófisis e insuficiencia suprarrenal; guías internacionales sobre endocrinopatías inmunomediadas."
+},
+{
+  id: "ENDO-413",
+  especialidad: "Endocrinología",
+  tema: "Hipofisitis relacionada con inmunoterapia",
+  subtema: "Patrón de laboratorio y resonancia",
+  dificultad: "Muy alta",
+  caso: `Mujer de 54 años tratada con ipilimumab por una neoplasia avanzada presenta fatiga y cefalea. La RM muestra crecimiento hipofisario simétrico y realce homogéneo. Se detectan cortisol bajo con ACTH baja y T4 libre baja con TSH no elevada.`,
+  pregunta: "¿Qué interpretación explica de forma más coherente el conjunto de resultados?",
+  opciones: [
+    "Dos enfermedades primarias independientes de las glándulas suprarrenal y tiroidea",
+    "Compromiso hipofisario con déficit de varios ejes hormonales",
+    "Hipertiroidismo primario acompañado de insuficiencia suprarrenal primaria",
+    "Resistencia a hormona tiroidea y síndrome de Cushing",
+    "Hallazgos compatibles exclusivamente con un adenoma hipofisario secretor de TSH"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El cortisol bajo con ACTH baja y la T4 libre baja con TSH inapropiadamente normal sugieren déficits centrales de los ejes corticotropo y tirotropo. El antecedente de ipilimumab, junto con el aumento hipofisario difuso, respalda hipofisitis inmunomediada. Debe priorizarse la reposición de glucocorticoides antes de iniciar levotiroxina, porque la hormona tiroidea puede precipitar o agravar una crisis adrenal cuando existe déficit de cortisol no tratado.`,
+  perlaENARM: "En hipopituitarismo combinado, corregir primero el déficit de cortisol antes de iniciar hormona tiroidea.",
+  gpc: {
+    mexico: "Consultar protocolo institucional vigente para hipofisitis y toxicidad endocrina inmunomediada.",
+    internacional: "European Society of Endocrinology, guía sobre endocrinopatías por inhibidores de puntos de control inmunitario."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartados de hipófisis e insuficiencia suprarrenal; guía ESE sobre toxicidad endocrina inmunomediada."
+},
+{
+  id: "ENDO-414",
+  especialidad: "Endocrinología",
+  tema: "Lipodistrofia familiar parcial",
+  subtema: "Reconocimiento fenotípico y metabólico",
+  dificultad: "Muy alta",
+  caso: `Mujer de 32 años con diabetes de difícil control, hipertrigliceridemia marcada y esteatosis hepática. Presenta pérdida de tejido adiposo subcutáneo en extremidades y región glútea, con conservación relativa de grasa en cara y cuello. Varios familiares tienen un fenotipo similar.`,
+  pregunta: "¿Qué mecanismo fisiopatológico integra mejor el fenotipo y las alteraciones metabólicas?",
+  opciones: [
+    "Exceso generalizado de tejido adiposo funcional con aumento aislado de leptina",
+    "Capacidad reducida para almacenar lípidos en tejido adiposo, con depósito ectópico de grasa y resistencia a la insulina",
+    "Deficiencia absoluta de insulina por destrucción autoinmunitaria de células beta como mecanismo único",
+    "Aumento primario de la sensibilidad a insulina en músculo",
+    "Defecto aislado de absorción intestinal de triglicéridos"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Las lipodistrofias se caracterizan por pérdida parcial o generalizada de tejido adiposo funcional. La capacidad limitada de almacenamiento subcutáneo favorece la acumulación ectópica de lípidos en hígado y músculo, resistencia a la insulina, diabetes e hipertrigliceridemia. La distribución regional de grasa y la historia familiar orientan a una forma hereditaria; la confirmación puede requerir evaluación genética y caracterización metabólica especializada.`,
+  perlaENARM: "La lipodistrofia puede causar un fenotipo de resistencia grave a la insulina pese a la escasez de tejido adiposo subcutáneo.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para dislipidemia grave, diabetes secundaria y sospecha de lipodistrofia.",
+    internacional: "Consensos internacionales sobre diagnóstico y tratamiento de lipodistrofias."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de nutrición y metabolismo lipídico; consensos internacionales sobre lipodistrofias."
+},
+{
+  id: "ENDO-415",
+  especialidad: "Endocrinología",
+  tema: "Lipodistrofia familiar parcial",
+  subtema: "Diagnóstico diferencial de obesidad central",
+  dificultad: "Muy alta",
+  caso: `Varón de 29 años con cuello ancho, aparente acumulación de grasa troncal, extremidades muy musculosas y escaso tejido adiposo en brazos y piernas. Tiene hipertrigliceridemia, acantosis nigricans y diabetes de inicio temprano. La fuerza muscular está conservada.`,
+  pregunta: "¿Qué hallazgo adicional apoyaría más una lipodistrofia frente a obesidad común o síndrome de Cushing?",
+  opciones: [
+    "Estrías violáceas anchas y fragilidad cutánea progresiva",
+    "Evidencia de pérdida regional de grasa subcutánea con resistencia grave a la insulina y antecedentes familiares semejantes",
+    "Hipopotasemia persistente con alcalosis metabólica",
+    "Supresión del cortisol tras dexametasona en dosis baja",
+    "Disminución aislada de la TSH"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La distribución anómala del tejido adiposo, especialmente la pérdida de grasa en extremidades con conservación o acumulación relativa en regiones centrales, junto con alteraciones metabólicas intensas y antecedentes familiares, apoya una lipodistrofia parcial. El síndrome de Cushing debe investigarse si existen signos discriminantes, pero el fenotipo lipodistrófico no debe confundirse automáticamente con hipercortisolismo. La exploración de la distribución grasa y la historia familiar son esenciales.`,
+  perlaENARM: "La apariencia de obesidad central no excluye lipodistrofia: importa la distribución real del tejido adiposo y la gravedad metabólica.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de evaluación de hipertrigliceridemia y diabetes secundaria.",
+    internacional: "Consensos internacionales sobre lipodistrofia familiar y diagnóstico diferencial de fenotipos de resistencia a insulina."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de nutrición y metabolismo lipídico; consensos internacionales sobre lipodistrofias."
+},
+{
+  id: "ENDO-416",
+  especialidad: "Endocrinología",
+  tema: "Hipercolesterolemia familiar",
+  subtema: "Diagnóstico clínico y cascada familiar",
+  dificultad: "Muy alta",
+  caso: `Varón de 24 años con colesterol LDL de 286 mg/dL en dos determinaciones, xantomas tendinosos y padre con infarto agudo de miocardio a los 39 años. No hay hipotiroidismo, síndrome nefrótico ni colestasis.`,
+  pregunta: "¿Qué implicación diagnóstica y preventiva es la más importante?",
+  opciones: [
+    "La edad joven hace improbable una enfermedad monogénica",
+    "El fenotipo es altamente sugestivo de hipercolesterolemia familiar y justifica evaluación especializada y búsqueda en cascada de familiares",
+    "El diagnóstico exige triglicéridos superiores a 1,000 mg/dL",
+    "Los xantomas tendinosos son característicos de hipertrigliceridemia aislada",
+    "Debe descartarse hipercolesterolemia familiar porque no hay enfermedad cardiovascular personal"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La elevación marcada y persistente del LDL, los xantomas tendinosos y los antecedentes de enfermedad cardiovascular prematura son hallazgos altamente sugestivos de hipercolesterolemia familiar. La identificación temprana permite intensificar la reducción del LDL y detectar familiares afectados mediante evaluación en cascada. La ausencia de eventos cardiovasculares en el paciente joven no reduce la relevancia del diagnóstico.`,
+  perlaENARM: "LDL muy elevado, xantomas tendinosos y enfermedad cardiovascular prematura familiar deben hacer sospechar hipercolesterolemia familiar.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre dislipidemias y evaluación de hipercolesterolemia familiar.",
+    internacional: "ESC/EAS Guidelines for the management of dyslipidaemias; consensos internacionales sobre hipercolesterolemia familiar."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado 1.10, nutrición y metabolismo lipídico; guías ESC/EAS sobre dislipidemias."
+},
+{
+  id: "ENDO-417",
+  especialidad: "Endocrinología",
+  tema: "Sitosterolemia",
+  subtema: "Diagnóstico diferencial de hipercolesterolemia familiar",
+  dificultad: "Muy alta",
+  caso: `Adolescente de 16 años con xantomas tendinosos y elevación del colesterol. La respuesta al tratamiento habitual para hipercolesterolemia ha sido menor de la esperada. Presenta además anemia hemolítica leve y macrotrombocitopenia. No se conoce historia familiar de hipercolesterolemia grave.`,
+  pregunta: "¿Qué diagnóstico alternativo explica mejor la asociación de xantomas y alteraciones hematológicas?",
+  opciones: [
+    "Sitosterolemia por alteración del transporte intestinal y biliar de esteroles vegetales",
+    "Hipotiroidismo subclínico aislado",
+    "Síndrome de secreción inadecuada de ADH",
+    "Hipertrigliceridemia familiar aislada",
+    "Deficiencia de 21-hidroxilasa"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La sitosterolemia es un trastorno hereditario del transporte de esteroles asociado a variantes patogénicas en ABCG5 o ABCG8. Puede producir xantomas y enfermedad aterosclerótica prematura, además de alteraciones hematológicas como hemólisis y macrotrombocitopenia. El diagnóstico requiere medir esteroles vegetales plasmáticos y, cuando procede, confirmación genética. Es importante reconocerla porque su abordaje difiere del de la hipercolesterolemia familiar clásica.`,
+  perlaENARM: "Xantomas más hemólisis o macrotrombocitopenia deben hacer considerar sitosterolemia, no solo hipercolesterolemia familiar.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para dislipidemias hereditarias y trastornos metabólicos raros.",
+    internacional: "Literatura revisada por pares y consensos especializados sobre sitosterolemia."
+  },
+  bibliografia: "Literatura clínica especializada sobre sitosterolemia y metabolismo de esteroles; Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de metabolismo lipídico."
+},
+{
+  id: "ENDO-418",
+  especialidad: "Endocrinología",
+  tema: "Dislipidemia en endocrinología",
+  subtema: "Dislipidemia secundaria a hipotiroidismo",
+  dificultad: "Muy alta",
+  caso: `Mujer de 47 años con LDL de 218 mg/dL, estreñimiento, intolerancia al frío y TSH de 38 mUI/L con T4 libre baja. No tiene antecedentes de enfermedad cardiovascular aterosclerótica ni xantomas tendinosos.`,
+  pregunta: "¿Qué principio debe guiar la interpretación etiológica de la dislipidemia?",
+  opciones: [
+    "El LDL elevado demuestra por sí solo hipercolesterolemia familiar",
+    "El hipotiroidismo manifiesto puede elevar el LDL y debe tratarse como causa secundaria, reevaluando después el perfil lipídico",
+    "El hipotiroidismo reduce siempre las concentraciones de LDL",
+    "La dislipidemia no puede relacionarse con alteraciones tiroideas",
+    "La ausencia de xantomas descarta cualquier enfermedad lipídica"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El hipotiroidismo manifiesto reduce la expresión y actividad del receptor hepático de LDL y disminuye su depuración, lo que puede elevar el colesterol LDL. Debe corregirse el hipotiroidismo y reevaluarse el perfil lipídico, sin olvidar que pueden coexistir causas primarias. La decisión de iniciar simultáneamente tratamiento hipolipemiante depende del riesgo cardiovascular, la magnitud de la elevación y el contexto clínico.`,
+  perlaENARM: "Antes de etiquetar una dislipidemia como primaria, busca causas secundarias tratables, incluido el hipotiroidismo manifiesto.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipotiroidismo y dislipidemias.",
+    internacional: "ESC/EAS Guidelines for the management of dyslipidaemias; guías internacionales de hipotiroidismo."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartados de hormonas tiroideas y metabolismo lipídico; guías ESC/EAS sobre dislipidemias."
+},
+{
+  id: "ENDO-419",
+  especialidad: "Endocrinología",
+  tema: "Hipopituitarismo",
+  subtema: "Secuencia de reemplazo hormonal",
+  dificultad: "Muy alta",
+  caso: `Paciente de 43 años con macroadenoma hipofisario y déficit confirmado de ACTH y TSH. Tiene hipotensión ortostática, astenia, cortisol matutino muy bajo y T4 libre reducida. Está hemodinámicamente estable al momento de la valoración.`,
+  pregunta: "¿Por qué debe priorizarse la reposición de glucocorticoides antes de la levotiroxina?",
+  opciones: [
+    "La levotiroxina inhibe directamente la síntesis hipofisaria de ACTH en todos los pacientes",
+    "La hormona tiroidea aumenta el aclaramiento y las necesidades de cortisol, pudiendo precipitar una crisis adrenal si el déficit corticotropo no se trata",
+    "La reposición de glucocorticoides corrige permanentemente el déficit de TSH",
+    "La levotiroxina está contraindicada de forma absoluta en el hipopituitarismo",
+    "Los glucocorticoides normalizan de inmediato la T4 libre y hacen innecesaria la levotiroxina"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En el hipopituitarismo combinado, la insuficiencia suprarrenal central representa el riesgo inmediato. La administración de hormona tiroidea aumenta la demanda metabólica y el aclaramiento de cortisol; si no existe una reserva adecuada, puede precipitar una descompensación adrenal. Por ello se asegura primero una cobertura glucocorticoide apropiada y después se inicia levotiroxina, ajustándola según T4 libre y contexto clínico, no mediante TSH aislada.`,
+  perlaENARM: "En déficit simultáneo de ACTH y TSH: glucocorticoides primero, levotiroxina después.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipopituitarismo e insuficiencia suprarrenal central.",
+    internacional: "Endocrine Society, guías de evaluación y tratamiento del hipopituitarismo en adultos."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartados de hipófisis e insuficiencia suprarrenal; Endocrine Society, guías de hipopituitarismo."
+},
+{
+  id: "ENDO-420",
+  especialidad: "Endocrinología",
+  tema: "Evaluación endocrina de incidentalomas",
+  subtema: "Interpretación clínica de una masa suprarrenal no funcionante",
+  dificultad: "Muy alta",
+  caso: `Mujer de 55 años con una lesión suprarrenal homogénea de 2.4 cm y atenuación de 8 UH en TC sin contraste. No presenta síntomas catecolaminérgicos, hipertensión resistente ni signos clínicos de exceso de cortisol. La lesión se encontró durante un estudio por cólico renal.`,
+  pregunta: "¿Cuál afirmación refleja mejor la relación entre benignidad radiológica y evaluación endocrina?",
+  opciones: [
+    "La imagen compatible con adenoma demuestra que la lesión no secreta hormonas",
+    "La imagen orienta a benignidad, pero la evaluación hormonal inicial debe ajustarse a las recomendaciones vigentes y al contexto clínico",
+    "La ausencia de síntomas descarta por completo secreción autónoma de cortisol",
+    "Una masa menor de 4 cm siempre requiere biopsia para confirmar benignidad",
+    "La atenuación baja confirma una lesión productora de aldosterona"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Las características radiológicas de una lesión homogénea con atenuación ≤10 UH favorecen un adenoma rico en lípidos, pero no determinan por sí mismas su funcionalidad. La evaluación hormonal debe seguir las recomendaciones vigentes, considerando el estado clínico y las pruebas indicadas para descartar secreción autónoma de cortisol y otras causas cuando corresponda. La biopsia no es una prueba rutinaria para caracterizar una masa suprarrenal y puede ser peligrosa si no se ha excluido feocromocitoma cuando existe indicación de considerarlo.`,
+  perlaENARM: "Benignidad radiológica y ausencia de secreción hormonal son conceptos diferentes: la imagen no sustituye la valoración funcional.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre incidentaloma suprarrenal y evaluación hormonal.",
+    internacional: "European Society of Endocrinology, guía clínica de incidentalomas suprarrenales."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado 4.4; guía ESE sobre incidentalomas suprarrenales."
+},
+
+{
+  id: "ENDO-421",
+  especialidad: "Endocrinología",
+  tema: "Resistencia generalizada a glucocorticoides",
+  subtema: "Síndrome de Chrousos y activación del eje hipotálamo-hipófisis-suprarrenal",
+  dificultad: "Muy alta",
+  caso: `Varón de 23 años con hipertensión arterial, hipopotasemia y alcalosis metabólica. Presenta concentraciones elevadas de cortisol sérico y urinario, ACTH elevada y ausencia de estrías violáceas, debilidad muscular proximal o fragilidad cutánea. No existe supresión adecuada del cortisol con dosis altas de dexametasona. Se descartan exposición exógena a glucocorticoides y secreción ectópica de ACTH.`,
+  pregunta: "¿Qué mecanismo molecular explica mejor este fenotipo paradójico?",
+  opciones: [
+    "Activación constitutiva del receptor mineralocorticoide por una mutación adquirida",
+    "Disminución de la sensibilidad tisular a glucocorticoides por alteración del receptor NR3C1",
+    "Deficiencia de 11β-hidroxilasa con producción obligatoriamente baja de cortisol",
+    "Aumento de la actividad de 11β-HSD2 que incrementa la acción del cortisol sobre el receptor mineralocorticoide",
+    "Inactivación del receptor de ACTH en la corteza suprarrenal"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La resistencia generalizada a glucocorticoides puede deberse a alteraciones del receptor codificado por NR3C1. La menor retroalimentación negativa incrementa CRH y ACTH, elevando la producción de cortisol sin el fenotipo clásico de hipercortisolismo tisular. El exceso de ACTH también puede aumentar andrógenos y mineralocorticoides con actividad relevante, como desoxicorticosterona y corticosterona, según el caso. La hipertensión y la hipopotasemia requieren correlación con el perfil esteroideo y exclusión de otras causas.`,
+  perlaENARM: "Cortisol elevado sin fenotipo cushingoide no excluye alteración del eje: considera resistencia periférica a glucocorticoides cuando el contexto lo sugiera.",
+  gpc: {
+    mexico: "Verificar disponibilidad de protocolos mexicanos vigentes para evaluación de hipercortisolismo y causas genéticas de hipertensión endocrina.",
+    internacional: "Literatura endocrinológica especializada sobre resistencia familiar a glucocorticoides y variantes de NR3C1."
+  },
+  bibliografia: "Harrison. Principios de Medicina Interna; revisiones clínicas especializadas sobre resistencia a glucocorticoides y NR3C1."
+},
+{
+  id: "ENDO-422",
+  especialidad: "Endocrinología",
+  tema: "Defectos de esteroidogénesis suprarrenal",
+  subtema: "Deficiencia de 17α-hidroxilasa/17,20-liasa",
+  dificultad: "Muy alta",
+  caso: `Adolescente de 16 años con amenorrea primaria, ausencia de desarrollo mamario, hipertensión e hipopotasemia. Los estudios muestran concentraciones bajas de cortisol y esteroides sexuales, ACTH elevada y aumento de desoxicorticosterona. El cariotipo es 46,XX.`,
+  pregunta: "¿Qué alteración enzimática integra mejor los hallazgos?",
+  opciones: [
+    "Deficiencia de 21-hidroxilasa",
+    "Deficiencia de 11β-hidroxilasa",
+    "Deficiencia de 17α-hidroxilasa/17,20-liasa",
+    "Deficiencia de aromatasa",
+    "Deficiencia aislada de aldosterona sintasa"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La deficiencia de CYP17A1 reduce la síntesis de cortisol y de esteroides sexuales. La acumulación de precursores con actividad mineralocorticoide, especialmente desoxicorticosterona, puede producir hipertensión e hipopotasemia con supresión de renina y aldosterona. En una persona 46,XX, la deficiencia de estrógenos explica la ausencia de desarrollo mamario y la amenorrea primaria. La diferenciación con otros defectos enzimáticos exige integrar electrolitos, renina, aldosterona y perfil esteroideo.`,
+  perlaENARM: "Hipertensión más hipopotasemia y falta de desarrollo sexual sugieren un defecto de CYP17A1; la aldosterona puede estar baja pese al fenotipo mineralocorticoide.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para trastornos del desarrollo sexual e hiperplasia suprarrenal congénita.",
+    internacional: "Guías internacionales sobre hiperplasia suprarrenal congénita y evaluación de defectos de esteroidogénesis."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de fisiología suprarrenal y trastornos de esteroidogénesis."
+},
+{
+  id: "ENDO-423",
+  especialidad: "Endocrinología",
+  tema: "Insuficiencia suprarrenal genética",
+  subtema: "Deficiencia familiar de glucocorticoides",
+  dificultad: "Muy alta",
+  caso: `Niño de 5 años con hiperpigmentación progresiva, episodios recurrentes de hipoglucemia y cortisol muy bajo. La ACTH está marcadamente elevada. El sodio, el potasio, la renina y la aldosterona son normales. No presenta anomalías neurológicas ni alteraciones del desarrollo sexual.`,
+  pregunta: "¿Qué mecanismo explica mejor la conservación del equilibrio mineralocorticoide?",
+  opciones: [
+    "Destrucción autoinmunitaria uniforme de todas las zonas suprarrenales",
+    "Alteración de la señalización de ACTH con compromiso predominante de la producción de glucocorticoides",
+    "Deficiencia completa de aldosterona sintasa",
+    "Exceso primario de renina que compensa una pérdida renal de sodio",
+    "Secreción ectópica de ACTH con supresión de la corteza suprarrenal"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La deficiencia familiar de glucocorticoides puede originarse por variantes que afectan el receptor de ACTH MC2R o proteínas necesarias para su señalización, como MRAP. El cortisol disminuye y la ACTH aumenta, lo que produce hiperpigmentación. La función mineralocorticoide suele conservarse porque la zona glomerulosa depende de manera importante del sistema renina-angiotensina y del potasio, aunque el fenotipo depende de la alteración genética concreta.`,
+  perlaENARM: "Insuficiencia de cortisol con ACTH muy alta y electrolitos conservados sugiere considerar defectos de señalización de ACTH, entre otros diagnósticos.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de insuficiencia suprarrenal pediátrica y enfermedades endocrinas hereditarias.",
+    internacional: "Literatura especializada sobre deficiencia familiar de glucocorticoides y variantes MC2R/MRAP."
+  },
+  bibliografia: "Harrison. Principios de Medicina Interna; revisiones especializadas sobre insuficiencia suprarrenal primaria de origen genético."
+},
+{
+  id: "ENDO-424",
+  especialidad: "Endocrinología",
+  tema: "Nódulo tiroideo",
+  subtema: "Citología Bethesda III y estratificación de riesgo",
+  dificultad: "Muy alta",
+  caso: `Mujer de 42 años con nódulo tiroideo de 1.7 cm. La ecografía muestra composición sólida, hipoecogenicidad leve, márgenes regulares y ausencia de microcalcificaciones o extensión extratiroidea. La citología por aspiración se informa como atipia de significado indeterminado, categoría Bethesda III. No tiene antecedente de radiación cervical ni historia familiar de cáncer tiroideo.`,
+  pregunta: "¿Qué afirmación describe mejor la interpretación de esta citología?",
+  opciones: [
+    "Bethesda III confirma carcinoma papilar y obliga siempre a tiroidectomía total",
+    "Bethesda III es una categoría indeterminada cuyo manejo depende de la ecografía, repetición de la aspiración y, en casos seleccionados, pruebas moleculares",
+    "La categoría Bethesda III excluye malignidad con certeza",
+    "La gammagrafía tiroidea sustituye siempre la evaluación citológica aunque la TSH sea normal",
+    "La presencia de un nódulo sólido determina cirugía independientemente del riesgo"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Bethesda III representa atipia de significado indeterminado y no equivale a diagnóstico de cáncer. La conducta debe individualizarse según patrón ecográfico, tamaño, factores clínicos, experiencia citopatológica, posibilidad de repetir la aspiración y disponibilidad de pruebas moleculares validadas. La decisión quirúrgica debe equilibrar probabilidad de malignidad y consecuencias de una intervención innecesaria; no existe una única conducta obligatoria para todos los nódulos de esta categoría.`,
+  perlaENARM: "Una citología indeterminada requiere estratificación adicional; no debe interpretarse como confirmación ni exclusión definitiva de malignidad.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico y tratamiento de nódulo tiroideo.",
+    internacional: "American Thyroid Association, guías para nódulos tiroideos y cáncer diferenciado de tiroides."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de nódulo tiroideo; guías ATA sobre nódulos tiroideos."
+},
+{
+  id: "ENDO-425",
+  especialidad: "Endocrinología",
+  tema: "Nódulo tiroideo",
+  subtema: "Interpretación de gammagrafía y TSH",
+  dificultad: "Muy alta",
+  caso: `Varón de 57 años con nódulo tiroideo de 2.3 cm detectado incidentalmente. La TSH es de 0.04 mUI/L y la T4 libre está en el límite superior normal. No hay síntomas compresivos ni adenopatías sospechosas.`,
+  pregunta: "¿Qué estudio funcional permite determinar si el nódulo corresponde a un foco autónomo?",
+  opciones: [
+    "Repetir exclusivamente la ecografía en 48 horas",
+    "Gammagrafía tiroidea con un trazador apropiado, interpretada en el contexto de la función tiroidea",
+    "Tomografía cervical con contraste como prueba de autonomía hormonal",
+    "Medición aislada de tiroglobulina sérica",
+    "Biopsia de ganglio cervical sin adenopatías identificadas"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Cuando la TSH está suprimida, la gammagrafía tiroidea puede identificar un nódulo hiperfuncionante y distinguirlo de tejido no funcionante. La autonomía funcional modifica el algoritmo diagnóstico y puede reducir la necesidad de aspiración citológica del nódulo hiperfuncionante típico, aunque la decisión final debe considerar la ecografía y la existencia de hallazgos sospechosos independientes. El contraste yodado puede interferir con estudios isotópicos posteriores, por lo que debe considerarse antes de elegir imagen con contraste.`,
+  perlaENARM: "En un nódulo tiroideo con TSH baja, la gammagrafía aporta información funcional que la ecografía no puede proporcionar.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre evaluación del nódulo tiroideo.",
+    internacional: "American Thyroid Association, guías de evaluación de nódulos tiroideos."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de nódulo tiroideo; guías ATA."
+},
+{
+  id: "ENDO-426",
+  especialidad: "Endocrinología",
+  tema: "Cáncer diferenciado de tiroides",
+  subtema: "Interpretación de tiroglobulina tras tiroidectomía",
+  dificultad: "Muy alta",
+  caso: `Mujer de 39 años tratada con tiroidectomía total y radioyodo por carcinoma papilar. En el seguimiento, la tiroglobulina sérica es detectable en una medición y los anticuerpos antitiroglobulina también son positivos. La ecografía cervical no muestra lesiones sospechosas.`,
+  pregunta: "¿Cuál es la principal limitación para interpretar la tiroglobulina en esta paciente?",
+  opciones: [
+    "La tiroglobulina solo se produce en el tejido tiroideo maligno",
+    "Los anticuerpos antitiroglobulina pueden interferir con la medición y dificultar la interpretación de la tendencia",
+    "La tiroglobulina carece de utilidad después de la tiroidectomía",
+    "La ecografía normal demuestra que cualquier valor de tiroglobulina es falso",
+    "La presencia de anticuerpos confirma metástasis a distancia"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La tiroglobulina se utiliza como marcador de seguimiento en el cáncer diferenciado de tiroides, pero los anticuerpos antitiroglobulina pueden interferir con determinados inmunoensayos y generar resultados engañosos. Es esencial revisar la tendencia de los anticuerpos y utilizar métodos consistentes cuando sea posible, integrando el resultado con el riesgo inicial y la imagen. Un valor aislado no debe interpretarse sin conocer el método analítico ni la presencia de interferencias.`,
+  perlaENARM: "En seguimiento de cáncer diferenciado, interpreta tiroglobulina junto con anticuerpos antitiroglobulina y evolución temporal.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente de cáncer diferenciado de tiroides y seguimiento posoperatorio.",
+    internacional: "American Thyroid Association, guías de cáncer diferenciado de tiroides."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de cáncer diferenciado de tiroides; guías ATA."
+},
+{
+  id: "ENDO-427",
+  especialidad: "Endocrinología",
+  tema: "Cáncer diferenciado de tiroides",
+  subtema: "Supresión de TSH individualizada",
+  dificultad: "Muy alta",
+  caso: `Mujer de 68 años con antecedente de carcinoma papilar de tiroides de riesgo inicial intermedio. Tras cirugía y tratamiento complementario, presenta ecografía cervical negativa y tiroglobulina indetectable sin anticuerpos interferentes en varias determinaciones. Desarrolló fibrilación auricular y tiene osteopenia avanzada.`,
+  pregunta: "¿Qué principio debe guiar el objetivo de TSH durante el seguimiento?",
+  opciones: [
+    "Mantener TSH indetectable de forma permanente en todos los pacientes con antecedente de cáncer tiroideo",
+    "Individualizar el grado de supresión según respuesta oncológica actual, riesgo de recurrencia y riesgos cardiovasculares y óseos",
+    "Suspender siempre la levotiroxina porque la tiroglobulina es indetectable",
+    "Utilizar exclusivamente la TSH inicial para decidir el objetivo durante toda la vida",
+    "Aumentar la dosis de levotiroxina hasta provocar tirotoxicosis clínica"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El objetivo de TSH en cáncer diferenciado debe ajustarse al riesgo inicial y a la respuesta dinámica al tratamiento. Una respuesta excelente sostenida puede permitir relajar la supresión, especialmente cuando existen riesgos de fibrilación auricular o pérdida ósea asociados al exceso de hormona tiroidea. La estrategia requiere vigilancia periódica y no debe basarse únicamente en la categoría de riesgo inicial ni en un valor aislado de tiroglobulina.`,
+  perlaENARM: "La supresión de TSH no es una meta idéntica para todos: pondera riesgo oncológico frente a toxicidad cardiovascular y esquelética.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre seguimiento de cáncer diferenciado de tiroides.",
+    internacional: "American Thyroid Association, guías de cáncer diferenciado de tiroides."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de cáncer diferenciado de tiroides; guías ATA."
+},
+{
+  id: "ENDO-428",
+  especialidad: "Endocrinología",
+  tema: "Carcinoma medular de tiroides",
+  subtema: "Calcitonina y causas de elevación no tumoral",
+  dificultad: "Muy alta",
+  caso: `Varón de 52 años con nódulo tiroideo de 1.2 cm y calcitonina sérica discretamente elevada. Tiene enfermedad renal crónica avanzada y fuma diariamente. No hay antecedentes familiares conocidos de carcinoma medular. La ecografía no muestra adenopatías sospechosas.`,
+  pregunta: "¿Cuál es la interpretación más rigurosa del resultado de calcitonina?",
+  opciones: [
+    "Cualquier elevación confirma carcinoma medular de tiroides",
+    "La elevación debe interpretarse según magnitud, método, función renal y posibles factores de confusión, sin descartar una neoplasia cuando la sospecha persiste",
+    "La enfermedad renal crónica siempre reduce la calcitonina",
+    "Una ecografía sin adenopatías excluye carcinoma medular",
+    "La calcitonina no tiene utilidad clínica en la evaluación de lesiones tiroideas"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La calcitonina es un marcador importante del carcinoma medular, pero elevaciones discretas pueden observarse en contextos no tumorales o por interferencias analíticas. La insuficiencia renal y el tabaquismo pueden complicar la interpretación, y los puntos de corte dependen del ensayo y del contexto. Es necesario confirmar el resultado cuando corresponda, revisar el método, integrar la imagen y decidir si se requieren pruebas adicionales o valoración especializada.`,
+  perlaENARM: "Calcitonina elevada no equivale automáticamente a carcinoma medular: importa la magnitud, el ensayo y el contexto clínico.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre nódulo tiroideo y carcinoma medular.",
+    internacional: "American Thyroid Association, guías para carcinoma medular de tiroides."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de cáncer tiroideo; guías ATA de carcinoma medular."
+},
+{
+  id: "ENDO-429",
+  especialidad: "Endocrinología",
+  tema: "Hiperparatiroidismo primario",
+  subtema: "Criterios de intervención quirúrgica",
+  dificultad: "Muy alta",
+  caso: `Mujer de 49 años con hipercalcemia persistente, PTH elevada y diagnóstico bioquímico de hiperparatiroidismo primario. Está asintomática y no presenta litiasis renal conocida. La densitometría muestra un T-score de −2.7 en radio distal. La tasa de filtración glomerular estimada es de 82 mL/min/1.73 m².`,
+  pregunta: "¿Qué hallazgo constituye por sí mismo un criterio reconocido para recomendar valoración quirúrgica?",
+  opciones: [
+    "La ausencia de síntomas gastrointestinales",
+    "La osteoporosis densitométrica con T-score ≤ −2.5 en un sitio evaluado",
+    "La edad mayor de 45 años",
+    "Una tasa de filtración glomerular superior a 60 mL/min/1.73 m²",
+    "La PTH dentro del intervalo de referencia en una única medición"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En hiperparatiroidismo primario confirmado, la osteoporosis densitométrica con T-score ≤ −2.5 en un sitio esquelético relevante constituye un criterio aceptado para considerar paratiroidectomía, incluso sin síntomas clásicos. Otros criterios incluyen hipercalcemia por encima de un umbral definido respecto al límite superior normal, deterioro renal, nefrolitiasis o nefrocalcinosis, hipercalciuria en contextos especificados y edad menor de 50 años. Deben revisarse los criterios de la guía vigente y las características individuales.`,
+  perlaENARM: "El hiperparatiroidismo primario asintomático puede requerir cirugía por afectación ósea o renal, no solo por síntomas.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente de hiperparatiroidismo primario y criterios de paratiroidectomía.",
+    internacional: "International Workshop on the Management of Asymptomatic Primary Hyperparathyroidism."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de metabolismo fosfocálcico; recomendaciones del International Workshop."
+},
+{
+  id: "ENDO-430",
+  especialidad: "Endocrinología",
+  tema: "Hiperparatiroidismo primario",
+  subtema: "Localización preoperatoria frente a diagnóstico bioquímico",
+  dificultad: "Muy alta",
+  caso: `Paciente de 56 años con hipercalcemia y PTH elevada, confirmadas en mediciones repetidas, además de nefrolitiasis recurrente. La ecografía cervical y la gammagrafía con sestamibi no identifican una lesión paratiroidea clara.`,
+  pregunta: "¿Cómo deben interpretarse los estudios de localización negativos?",
+  opciones: [
+    "Descartan el hiperparatiroidismo primario",
+    "Invalidan las mediciones de calcio y PTH",
+    "No excluyen el diagnóstico bioquímico ni la posibilidad de cirugía; condicionan la estrategia de localización y exploración",
+    "Demuestran que la hipercalcemia es necesariamente familiar hipocalciúrica",
+    "Obligan a iniciar calcimiméticos en todos los casos"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La ecografía y la gammagrafía son pruebas de localización preoperatoria, no pruebas diagnósticas del hiperparatiroidismo primario. Un estudio negativo no descarta enfermedad multiglandular, adenomas ectópicos ni lesiones pequeñas. Si la indicación quirúrgica está establecida por criterios clínicos y bioquímicos, el caso debe revisarse en un equipo con experiencia para decidir si se requiere imagen adicional o exploración quirúrgica apropiada.`,
+  perlaENARM: "Primero se establece el diagnóstico bioquímico de hiperparatiroidismo; después se localiza la glándula para planificar la cirugía.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente de hiperparatiroidismo primario y manejo quirúrgico.",
+    internacional: "International Workshop on the Management of Asymptomatic Primary Hyperparathyroidism."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de metabolismo fosfocálcico; recomendaciones internacionales de hiperparatiroidismo primario."
+},
+{
+  id: "ENDO-431",
+  especialidad: "Endocrinología",
+  tema: "Hipofosfatasia",
+  subtema: "Interpretación de fosfatasa alcalina baja",
+  dificultad: "Muy alta",
+  caso: `Mujer de 38 años con dolor musculoesquelético crónico, fracturas por estrés recurrentes y pérdida prematura de piezas dentales. En varias determinaciones, la fosfatasa alcalina está por debajo del intervalo de referencia para su edad. La función renal es normal y no hay datos de malnutrición.`,
+  pregunta: "¿Qué estudio complementario apoya con mayor especificidad la sospecha de hipofosfatasia?",
+  opciones: [
+    "PTH intacta como única prueba confirmatoria",
+    "Medición de sustratos de fosfatasa alcalina, como piridoxal-5-fosfato, tras revisar suplementos de vitamina B6",
+    "Calcio urinario aislado",
+    "Calcitonina basal",
+    "Tiroglobulina sérica"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La hipofosfatasia se asocia con actividad reducida de fosfatasa alcalina por variantes patogénicas en ALPL. La elevación de sustratos como piridoxal-5-fosfato apoya el diagnóstico; debe considerarse la ingesta de vitamina B6 y otros factores que alteren su interpretación. El fenotipo puede incluir fracturas, dolor óseo, alteraciones dentales y, en formas adultas, síntomas que se confunden con otras enfermedades musculoesqueléticas. Una fosfatasa alcalina baja persistente requiere descartar otras causas antes de concluir el diagnóstico.`,
+  perlaENARM: "Fosfatasa alcalina persistentemente baja más fracturas y pérdida dental obliga a considerar hipofosfatasia.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para enfermedades óseas metabólicas raras.",
+    internacional: "Literatura especializada y consensos internacionales sobre diagnóstico de hipofosfatasia."
+  },
+  bibliografia: "Literatura clínica especializada sobre hipofosfatasia y ALPL; textos de metabolismo óseo y mineral."
+},
+{
+  id: "ENDO-432",
+  especialidad: "Endocrinología",
+  tema: "Enfermedad ósea de Paget",
+  subtema: "Patrón bioquímico y actividad metabólica",
+  dificultad: "Muy alta",
+  caso: `Varón de 71 años con dolor óseo focal en pelvis y aumento del volumen de un fémur. La radiografía muestra engrosamiento cortical, expansión ósea y trabeculación gruesa. La fosfatasa alcalina total está elevada, mientras que las transaminasas son normales.`,
+  pregunta: "¿Qué proceso explica mejor la combinación de imagen y bioquímica?",
+  opciones: [
+    "Osteomalacia por deficiencia aislada de vitamina D como diagnóstico demostrado",
+    "Remodelado óseo acelerado y desorganizado característico de enfermedad de Paget",
+    "Osteoporosis simple con reducción uniforme de la formación ósea",
+    "Hipoparatiroidismo con remodelado óseo aumentado",
+    "Metástasis osteoblásticas como única explicación posible"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La enfermedad de Paget se caracteriza por remodelado óseo aumentado y desorganizado, con fases de resorción y formación intensas. La expansión del hueso, el engrosamiento cortical, la trabeculación gruesa y la elevación de fosfatasa alcalina en un contexto compatible apoyan el diagnóstico. La fosfatasa alcalina debe interpretarse considerando causas hepáticas y otras enfermedades óseas; si el diagnóstico o la extensión son inciertos, puede requerirse evaluación adicional.`,
+  perlaENARM: "Paget suele producir fosfatasa alcalina elevada y expansión ósea con engrosamiento cortical y trabeculación gruesa.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para enfermedad de Paget y enfermedades metabólicas óseas.",
+    internacional: "Guías internacionales de diagnóstico y tratamiento de enfermedad ósea de Paget."
+  },
+  bibliografia: "Textos de metabolismo óseo y literatura clínica especializada sobre enfermedad ósea de Paget."
+},
+{
+  id: "ENDO-433",
+  especialidad: "Endocrinología",
+  tema: "Osteoporosis secundaria",
+  subtema: "Identificación de causas endocrinas",
+  dificultad: "Muy alta",
+  caso: `Varón de 51 años con fractura vertebral por fragilidad y densitometría compatible con osteoporosis. Tiene pérdida de peso involuntaria, debilidad muscular y testosterona total baja en dos determinaciones matutinas. La LH y la FSH están bajas o inapropiadamente normales.`,
+  pregunta: "¿Qué conclusión debe orientar el estudio etiológico antes de atribuir toda la pérdida ósea al envejecimiento?",
+  opciones: [
+    "El patrón gonadotrópico demuestra insuficiencia testicular primaria",
+    "Debe investigarse hipogonadismo central y posibles causas hipofisarias, sistémicas o farmacológicas",
+    "La osteoporosis en varones nunca se relaciona con déficit hormonal",
+    "La testosterona baja aislada confirma un prolactinoma",
+    "La densitometría descarta una causa endocrina secundaria"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La testosterona baja confirmada en mediciones matutinas con LH y FSH bajas o inapropiadamente normales sugiere hipogonadismo secundario. En presencia de fractura por fragilidad y pérdida de peso, deben evaluarse causas orgánicas hipotalámico-hipofisarias, enfermedades sistémicas, medicamentos y otros déficits hormonales según el contexto. La osteoporosis en un varón de esta edad obliga a buscar causas secundarias, sin asumir que la edad por sí sola explica el cuadro.`,
+  perlaENARM: "En osteoporosis masculina relativamente temprana, identifica causas secundarias; testosterona baja con gonadotropinas no elevadas orienta a origen central.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente de osteoporosis y evaluación de hipogonadismo masculino.",
+    internacional: "Guías internacionales de osteoporosis masculina y evaluación de hipogonadismo."
+  },
+  bibliografia: "Harrison. Principios de Medicina Interna; guías clínicas sobre osteoporosis masculina e hipogonadismo."
+},
+{
+  id: "ENDO-434",
+  especialidad: "Endocrinología",
+  tema: "Hipogonadismo masculino",
+  subtema: "Interpretación de testosterona total y SHBG",
+  dificultad: "Muy alta",
+  caso: `Varón de 46 años con obesidad, diabetes tipo 2 y disminución de la libido. La testosterona total está ligeramente baja, pero la SHBG también está reducida. La muestra se obtuvo a media tarde después de una comida abundante.`,
+  pregunta: "¿Qué estrategia mejora más la validez de la evaluación bioquímica?",
+  opciones: [
+    "Diagnosticar hipogonadismo definitivo con esta única medición",
+    "Repetir testosterona total en condiciones matutinas apropiadas y valorar testosterona libre cuando la SHBG altera la interpretación",
+    "Utilizar la LH como sustituto directo de la testosterona",
+    "Medir exclusivamente estradiol y descartar testosterona",
+    "Iniciar testosterona sin confirmar el diagnóstico"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El diagnóstico de hipogonadismo requiere síntomas compatibles y concentraciones bajas de testosterona confirmadas en mediciones adecuadas. La testosterona varía con el horario, la ingesta, la enfermedad aguda y otros factores. La obesidad y la resistencia a la insulina suelen reducir SHBG, lo que puede disminuir la testosterona total sin que la testosterona libre esté reducida en igual magnitud. En este contexto, una evaluación repetida y una estimación fiable de testosterona libre pueden aclarar el estado androgénico.`,
+  perlaENARM: "Cuando la SHBG está alterada, la testosterona total puede ser engañosa; confirma el resultado en condiciones preanalíticas apropiadas.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico de hipogonadismo masculino.",
+    internacional: "Endocrine Society, guía clínica de terapia con testosterona en hombres con hipogonadismo."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de alteraciones gonadales; Endocrine Society, guía de hipogonadismo masculino."
+},
+{
+  id: "ENDO-435",
+  especialidad: "Endocrinología",
+  tema: "Hipogonadismo masculino",
+  subtema: "Fertilidad y tratamiento con testosterona",
+  dificultad: "Muy alta",
+  caso: `Varón de 31 años con testosterona baja confirmada, LH y FSH bajas y deseo de paternidad en los próximos dos años. Se le propone iniciar testosterona exógena para mejorar la libido y la masa muscular.`,
+  pregunta: "¿Cuál es la principal consecuencia reproductiva que debe discutirse antes de iniciar el tratamiento propuesto?",
+  opciones: [
+    "La testosterona exógena aumenta de manera constante la espermatogénesis",
+    "La supresión de gonadotropinas puede reducir la espermatogénesis y comprometer la fertilidad",
+    "La testosterona exógena no modifica la función del eje hipotálamo-hipófisis-gónada",
+    "La testosterona siempre incrementa la FSH por retroalimentación positiva",
+    "La fertilidad depende exclusivamente de la concentración sérica de testosterona total"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La testosterona exógena inhibe la secreción de GnRH y de gonadotropinas por retroalimentación negativa. La reducción de LH disminuye la testosterona intratesticular y la reducción de FSH afecta el soporte de las células de Sertoli, lo que puede disminuir marcadamente la producción espermática. En hombres que desean fertilidad, debe investigarse la causa del hipogonadismo y considerar alternativas dirigidas al eje gonadotrópico bajo supervisión especializada.`,
+  perlaENARM: "La testosterona exógena puede mejorar síntomas, pero suprime el eje gonadotrópico y no es un tratamiento para preservar la fertilidad.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre hipogonadismo masculino e infertilidad.",
+    internacional: "Endocrine Society y guías internacionales de evaluación del hipogonadismo masculino."
+  },
+  bibliografia: "Endocrine Society, guía clínica de terapia con testosterona en hombres con hipogonadismo; textos de fisiología endocrina."
+},
+{
+  id: "ENDO-436",
+  especialidad: "Endocrinología",
+  tema: "Insuficiencia ovárica primaria",
+  subtema: "Consecuencias de la hipoestrogenemia",
+  dificultad: "Muy alta",
+  caso: `Mujer de 34 años con amenorrea de nueve meses, sofocos y sequedad vaginal. Se confirma elevación persistente de FSH y estradiol bajo. No tiene contraindicaciones conocidas para terapia hormonal y no existen antecedentes personales de cáncer hormonodependiente.`,
+  pregunta: "Además del abordaje de fertilidad, ¿qué objetivo clínico es importante en el tratamiento a largo plazo si no existen contraindicaciones?",
+  opciones: [
+    "Mantener la hipoestrogenemia hasta la edad habitual de menopausia",
+    "Considerar reemplazo hormonal fisiológico hasta la edad habitual de menopausia para reducir consecuencias de la deficiencia estrogénica",
+    "Administrar exclusivamente antiresortivos óseos a todas las pacientes",
+    "Evitar cualquier tratamiento estrogénico porque la FSH está elevada",
+    "Usar anticonceptivos como única opción obligatoria en todas las pacientes"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La insuficiencia ovárica primaria antes de los 40 años se asocia con pérdida de estrógenos, síntomas vasomotores y genitourinarios, deterioro de la salud ósea y posibles consecuencias cardiometabólicas. En ausencia de contraindicaciones, suele considerarse terapia hormonal hasta la edad promedio de menopausia, individualizando formulación y vía. La elección entre terapia hormonal y anticoncepción depende también de las necesidades anticonceptivas, preferencias y situación clínica.`,
+  perlaENARM: "La insuficiencia ovárica primaria no equivale simplemente a menopausia sintomática: la edad temprana obliga a considerar las consecuencias sistémicas de la hipoestrogenemia.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente de insuficiencia ovárica primaria y terapia hormonal.",
+    internacional: "Guías internacionales sobre insuficiencia ovárica primaria y terapia hormonal en mujeres jóvenes."
+  },
+  bibliografia: "Guías internacionales sobre insuficiencia ovárica primaria; Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de alteraciones gonadales."
+},
+{
+  id: "ENDO-437",
+  especialidad: "Endocrinología",
+  tema: "Síndrome de ovario poliquístico",
+  subtema: "Diagnóstico diferencial de hiperandrogenismo",
+  dificultad: "Muy alta",
+  caso: `Mujer de 27 años con hirsutismo y ciclos menstruales irregulares desde la adolescencia. En los últimos cinco meses desarrolló voz grave, clitoromegalia y aumento rápido de masa muscular. La testosterona está marcadamente elevada.`,
+  pregunta: "¿Qué característica clínica obliga a ampliar de inmediato el estudio más allá del diagnóstico habitual de síndrome de ovario poliquístico?",
+  opciones: [
+    "La presencia de acné leve desde la adolescencia",
+    "La progresión rápida con signos de virilización y elevación marcada de testosterona",
+    "La irregularidad menstrual crónica aislada",
+    "El sobrepeso sin alteraciones androgénicas",
+    "La presencia de resistencia a la insulina sin virilización"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `El síndrome de ovario poliquístico es frecuente, pero la virilización rápida y las concentraciones marcadamente elevadas de andrógenos no deben atribuirse automáticamente a esta entidad. Es necesario descartar tumores ováricos o suprarrenales productores de andrógenos y otras causas menos frecuentes. La selección de imagen y pruebas adicionales depende del patrón hormonal, del grado de elevación de testosterona y DHEAS, y de la presentación clínica.`,
+  perlaENARM: "Virilización de rápida progresión o andrógenos marcadamente elevados son señales de alarma frente a un diagnóstico rutinario de SOP.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre SOP e hiperandrogenismo femenino.",
+    internacional: "International Evidence-based Guideline for the Assessment and Management of PCOS."
+  },
+  bibliografia: "Guía internacional basada en evidencia para SOP; Manual CTO de Medicina y Cirugía, Endocrinología, 14.ª ed., apartado de hiperandrogenismo."
+},
+{
+  id: "ENDO-438",
+  especialidad: "Endocrinología",
+  tema: "Diabetes monogénica",
+  subtema: "Diabetes neonatal por alteraciones de canales KATP",
+  dificultad: "Muy alta",
+  caso: `Lactante de 7 semanas con hiperglucemia persistente, deshidratación y pérdida de peso. La diabetes se confirmó durante el primer mes de vida. No hay autoanticuerpos de diabetes tipo 1 y el péptido C es detectable. El estudio genético identifica una variante activadora en KCNJ11.`,
+  pregunta: "¿Qué implicación terapéutica puede derivarse de la identificación molecular, si el genotipo y la situación clínica lo permiten?",
+  opciones: [
+    "La variante confirma diabetes tipo 1 autoinmunitaria y contraindica cualquier tratamiento oral",
+    "Puede permitir transición supervisada a una sulfonilurea, porque la alteración del canal KATP puede responder a este mecanismo",
+    "Debe suspenderse toda terapia y esperar remisión espontánea",
+    "La insulina está absolutamente contraindicada en la fase inicial",
+    "El hallazgo implica obligatoriamente diabetes tipo 2 poligénica"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Algunas variantes activadoras de KCNJ11 o ABCC8 mantienen abiertos los canales KATP de la célula beta y reducen la secreción de insulina. Las sulfonilureas pueden cerrar estos canales mediante su interacción con el complejo receptor, por lo que ciertos pacientes pueden pasar de insulina a tratamiento oral bajo supervisión especializada. La respuesta depende del genotipo, la función residual y el fenotipo neurológico asociado; la transición nunca debe realizarse sin monitorización clínica y glucémica.`,
+  perlaENARM: "Diabetes antes de los seis meses de vida exige considerar diabetes monogénica; algunas variantes de KCNJ11 responden a sulfonilureas.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para diabetes neonatal y acceso a diagnóstico genético.",
+    internacional: "ISPAD Clinical Practice Consensus Guidelines sobre diabetes monogénica en niños y adolescentes."
+  },
+  bibliografia: "ISPAD Clinical Practice Consensus Guidelines, diabetes monogénica; literatura especializada sobre KCNJ11 y diabetes neonatal."
+},
+{
+  id: "ENDO-439",
+  especialidad: "Endocrinología",
+  tema: "Diabetes monogénica",
+  subtema: "Diabetes MODY por GCK",
+  dificultad: "Muy alta",
+  caso: `Mujer de 25 años con glucosa en ayuno persistentemente entre 108 y 125 mg/dL desde la adolescencia. La HbA1c se mantiene discretamente elevada, sin progresión significativa durante años. El IMC es normal, no tiene síntomas osmóticos y varios familiares presentan un patrón similar. No hay autoanticuerpos de diabetes autoinmunitaria.`,
+  pregunta: "¿Qué mecanismo explica mejor la estabilidad del patrón glucémico?",
+  opciones: [
+    "Destrucción progresiva de células beta mediada por autoanticuerpos",
+    "Variación del umbral de detección de glucosa de la célula beta por una variante de GCK",
+    "Resistencia extrema a insulina por obesidad visceral",
+    "Deficiencia absoluta de insulina por destrucción pancreática",
+    "Hiperglucemia secundaria a exceso persistente de cortisol"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Las variantes heterocigotas de GCK elevan el umbral de glucosa para la secreción de insulina y producen hiperglucemia leve, estable y de inicio temprano. La transmisión suele ser autosómica dominante y el diagnóstico molecular puede evitar tratamientos innecesarios. El manejo depende del contexto, especialmente durante el embarazo, donde el efecto del genotipo fetal y materno puede modificar la estrategia obstétrica y glucémica.`,
+  perlaENARM: "Hiperglucemia leve, estable, de larga evolución y con patrón familiar sugiere MODY por GCK más que diabetes tipo 1 o tipo 2 clásica.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes para diabetes monogénica y asesoramiento genético.",
+    internacional: "ISPAD Clinical Practice Consensus Guidelines sobre diabetes monogénica."
+  },
+  bibliografia: "ISPAD Clinical Practice Consensus Guidelines, diabetes monogénica; literatura especializada sobre glucocinasa y MODY."
+},
+{
+  id: "ENDO-440",
+  especialidad: "Endocrinología",
+  tema: "Diabetes monogénica en el embarazo",
+  subtema: "Interpretación del genotipo materno-fetal en GCK-MODY",
+  dificultad: "Muy alta",
+  caso: `Mujer embarazada de 28 semanas con GCK-MODY confirmado genéticamente. La glucosa en ayuno está discretamente elevada y estable. El crecimiento fetal se encuentra dentro del intervalo esperado, sin evidencia ecográfica de macrosomía. Se desconoce si el feto heredó la variante materna.`,
+  pregunta: "¿Qué principio fisiopatológico es esencial para individualizar el manejo glucémico y obstétrico?",
+  opciones: [
+    "La hiperglucemia materna leve exige siempre insulinoterapia intensiva, sin importar el genotipo fetal",
+    "La presencia o ausencia de la variante fetal puede modificar la respuesta de crecimiento a la glucemia materna y debe considerarse en la planificación clínica",
+    "El genotipo materno no tiene relación con la glucemia fetal",
+    "Todos los fetos de madres con GCK-MODY desarrollan macrosomía",
+    "La glucosa materna debe normalizarse a cualquier costo, aunque aumente el riesgo de restricción del crecimiento"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En GCK-MODY, el umbral de secreción de insulina está desplazado. Si el feto hereda la variante materna, también puede tener un umbral glucémico elevado y un patrón de crecimiento diferente del de un feto sin la variante. Por ello, el tratamiento durante el embarazo no debe decidirse únicamente por los valores de glucosa materna: se integra el crecimiento fetal, la información genética disponible y la valoración obstétrica especializada. La estrategia concreta debe seguir protocolos expertos, pues el genotipo fetal no siempre se conoce de forma directa.`,
+  perlaENARM: "En GCK-MODY durante el embarazo, el genotipo fetal puede modificar la relación entre glucemia materna y crecimiento fetal.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de diabetes monogénica y atención endocrino-obstétrica de alto riesgo.",
+    internacional: "ISPAD Clinical Practice Consensus Guidelines sobre diabetes monogénica y literatura especializada sobre GCK-MODY en embarazo."
+  },
+  bibliografia: "ISPAD Clinical Practice Consensus Guidelines, diabetes monogénica; revisiones especializadas sobre GCK-MODY y embarazo."
 }
 
 ];
