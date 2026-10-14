@@ -1,4 +1,4 @@
-window.BANCO_ENDOCRINOLOGIA = [
+window.BANCO_NEUROLOGIA = [
   
 {
   id: "NEU-001",
