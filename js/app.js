@@ -3,6 +3,7 @@ const ESPECIALIDADES = [
   ["Cardiología", "❤️", "Enfermedad cardiovascular, ECG, SCA, insuficiencia cardiaca y valvulopatías."],
   ["Neumología", "🫁", "Asma, EPOC, neumonía, tromboembolia y enfermedad intersticial."],
   ["Nefrología", "🫘", "IRA, ERC, glomerulopatías, electrolitos y trastornos ácido-base."],
+  ["Neurología", "🧠", "EVC isquémico y hemorrágico, trombectomía, epilepsia, estado epiléptico"],
   ["Pediatría", "👶", "Urgencias, infecciones, neonatología y enfermedades pediátricas."],
   ["Ginecología y Obstetricia", "🤰", "Obstetricia, ginecología, urgencias y medicina materno-fetal."],
   ["Cirugía", "🔪", "Abdomen agudo, trauma, perioperatorio y cirugía general."],
