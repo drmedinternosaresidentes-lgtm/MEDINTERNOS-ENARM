@@ -482,6 +482,487 @@ window.BANCO_NEUROLOGIA = [
 },
  
 {
+  id: "NEU-021",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Localización del hematoma y etiología hipertensiva",
+  dificultad: "Media",
+  caso: `Hombre de 59 años con hipertensión arterial de larga evolución y adherencia irregular al tratamiento presenta cefalea, vómitos y hemiparesia derecha de progresión durante 30 minutos. La tomografía simple muestra un hematoma agudo en el putamen izquierdo, sin antecedente traumático.`,
+  pregunta: "¿Qué mecanismo vascular explica con mayor probabilidad esta hemorragia?",
+  opciones: [
+    "Rotura de vasos perforantes lesionados por arteriopatía hipertensiva crónica",
+    "Rotura de aneurisma sacular de la arteria comunicante anterior",
+    "Trombosis de una vena cortical con infarto hemorrágico como mecanismo obligatorio",
+    "Degeneración primaria de la mielina en la cápsula interna",
+    "Ruptura espontánea de un seno venoso dural sin lesión parenquimatosa previa"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Las hemorragias profundas en putamen, tálamo, puente y cerebelo se asocian clásicamente con arteriopatía de pequeños vasos relacionada con hipertensión crónica. La lesión de las arterias perforantes favorece su ruptura. La localización y el contexto clínico respaldan esta etiología, aunque no excluyen otras causas si existen datos atípicos.`,
+  perlaENARM: "Hemorragia profunda en ganglios basales más hipertensión crónica orienta a arteriopatía hipertensiva de vasos perforantes.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico y tratamiento de hemorragia intracerebral espontánea.",
+    internacional: "AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage."
+  },
+  bibliografia: "Manual CTO de Medicina y Cirugía, Neurología, 14.ª ed., apartado 4.4, pp. 36-38; Greenberg SM et al. 2022 Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage. Stroke. 2022;53:e282-e361."
+},
+{
+  id: "NEU-022",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Hemorragia lobar y angiopatía amiloide cerebral",
+  dificultad: "Media",
+  caso: `Mujer de 79 años sin hipertensión grave conocida presenta afasia súbita. La tomografía revela una hemorragia lobar parietal izquierda. En la resonancia, las secuencias sensibles a susceptibilidad muestran múltiples microhemorragias estrictamente lobares y focos de siderosis superficial cortical.`,
+  pregunta: "¿Qué enfermedad de pequeños vasos explica mejor este patrón?",
+  opciones: [
+    "Arteriopatía hipertensiva profunda aislada",
+    "Angiopatía amiloide cerebral",
+    "Enfermedad de Moyamoya como diagnóstico confirmado por las microhemorragias",
+    "Vasculitis bacteriana de vasos perforantes",
+    "Malformación cavernosa única como explicación necesaria de todas las lesiones"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La edad avanzada, la hemorragia lobar, las microhemorragias estrictamente lobares y la siderosis superficial cortical sugieren angiopatía amiloide cerebral. La distribución de las lesiones ayuda a distinguirla de la arteriopatía hipertensiva, que se asocia con mayor frecuencia a microhemorragias profundas. La interpretación definitiva integra criterios clínicos y de resonancia.`,
+  perlaENARM: "Anciano con hemorragia lobar recurrente, microhemorragias lobares y siderosis cortical: sospecha angiopatía amiloide cerebral.",
+  gpc: {
+    mexico: "Consultar protocolos institucionales vigentes para hemorragia lobar y evaluación de enfermedad cerebral de pequeños vasos.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage; Boston Criteria version 2.0 for cerebral amyloid angiopathy."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361; Charidimou A et al. The Boston Criteria version 2.0 for cerebral amyloid angiopathy. Lancet Neurol. 2022;21:714-725."
+},
+{
+  id: "NEU-023",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Hemorragia lobar en adulto joven",
+  dificultad: "Alta",
+  caso: `Hombre de 32 años sin hipertensión previa presenta crisis convulsiva focal seguida de hemiparesia. La tomografía muestra un hematoma lobar frontal. La angiografía por tomografía inicial no identifica un aneurisma evidente.`,
+  pregunta: "¿Qué estrategia diagnóstica está indicada para investigar una causa estructural subyacente?",
+  opciones: [
+    "Considerar finalizado el estudio porque la angiografía por tomografía fue negativa",
+    "Investigar malformación arteriovenosa, cavernoma, tumor u otra lesión mediante estudio vascular y resonancia seleccionados según el contexto",
+    "Atribuir la hemorragia a hipertensión crónica sin evaluar antecedentes ni imagen",
+    "Solicitar exclusivamente electroencefalograma y descartar neuroimagen adicional",
+    "Realizar punción lumbar como primera prueba para localizar la lesión vascular"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `En un adulto joven sin hipertensión conocida, una hemorragia lobar obliga a buscar causas secundarias como malformación arteriovenosa, cavernoma, tumor, trombosis venosa o vasculopatía. Una angiografía por tomografía negativa no excluye todas las lesiones, especialmente si el hematoma comprime o enmascara una malformación. La selección de resonancia y, en casos indicados, angiografía por sustracción digital depende de los hallazgos y la evolución.`,
+  perlaENARM: "Hemorragia lobar en paciente joven y normotenso: no etiquetarla automáticamente como hipertensiva; investiga una causa estructural.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente y protocolo de neuroimagen para hemorragia intracerebral en pacientes jóvenes.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage."
+  },
+  bibliografia: "Manual CTO de Neurología, 14.ª ed., apartado 4.4; Greenberg SM et al. Stroke. 2022;53:e282-e361."
+},
+{
+  id: "NEU-024",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Diagnóstico inicial por neuroimagen",
+  dificultad: "Media",
+  caso: `Paciente de 71 años presenta deterioro neurológico focal de inicio reciente, cefalea y vómitos. Se sospecha una hemorragia intracraneal y requiere una prueba de imagen inmediata. No existe contraindicación para trasladarlo a tomografía.`,
+  pregunta: "¿Qué estudio debe realizarse inicialmente para identificar una hemorragia intracerebral aguda?",
+  opciones: [
+    "Tomografía craneal sin contraste",
+    "Electroencefalograma de 30 minutos",
+    "Radiografía de cráneo",
+    "Resonancia lumbar",
+    "Punción lumbar antes de cualquier imagen"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La tomografía craneal sin contraste es una prueba rápida y ampliamente disponible para detectar sangre aguda, estimar su localización y extensión, y reconocer extensión intraventricular o efecto de masa. La resonancia aporta información adicional en situaciones seleccionadas, pero no debe retrasarse la evaluación inicial urgente.`,
+  perlaENARM: "Déficit focal agudo con sospecha de hemorragia: tomografía craneal sin contraste como estudio inicial habitual.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre diagnóstico por imagen en hemorragia intracerebral.",
+    internacional: "AHA/ASA 2022 Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361; Manual CTO de Neurología, 14.ª ed., apartado 4.4."
+},
+{
+  id: "NEU-025",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Control de presión arterial en hemorragia leve a moderada",
+  dificultad: "Alta",
+  caso: `Hombre de 62 años con hemorragia intracerebral espontánea de volumen moderado, sin herniación ni deterioro progresivo, presenta presión arterial sistólica persistente de 184 mmHg. No toma anticoagulantes y se encuentra en una unidad con monitorización continua.`,
+  pregunta: "¿Qué estrategia de control tensional es congruente con las recomendaciones actuales para pacientes seleccionados con hemorragia leve a moderada y PAS inicial de 150-220 mmHg?",
+  opciones: [
+    "Reducir la PAS de forma suave y sostenida hacia un objetivo cercano a 140 mmHg, evitando descensos excesivos",
+    "Reducir de inmediato la PAS a menos de 90 mmHg",
+    "Mantener siempre la PAS por encima de 200 mmHg",
+    "Administrar nifedipino sublingual para producir una caída impredecible",
+    "No monitorizar la presión arterial durante las primeras 24 horas"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En pacientes seleccionados con hemorragia intracerebral leve a moderada y PAS de 150-220 mmHg, las guías consideran razonable reducir de forma temprana y controlada hacia 140 mmHg, manteniendo aproximadamente entre 130 y 150 mmHg. Reducir por debajo de 130 mmHg puede ser perjudicial. La decisión se individualiza en hemorragias grandes, graves o con presión intracraneal elevada.`,
+  perlaENARM: "En hemorragia intracerebral leve-moderada, evita tanto la hipertensión sostenida como el descenso excesivo: objetivo cercano a 140 mmHg en pacientes seleccionados.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente y protocolo hospitalario de control hemodinámico en hemorragia intracerebral.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361; Anderson CS et al. Intensive blood pressure reduction in acute cerebral haemorrhage. N Engl J Med. 2013;368:2355-2365."
+},
+{
+  id: "NEU-026",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Reversión de warfarina",
+  dificultad: "Alta",
+  caso: `Mujer de 76 años en tratamiento con warfarina por fibrilación auricular presenta hemorragia intracerebral confirmada por tomografía. El INR es de 3.4. Se encuentra en urgencias con deterioro neurológico reciente y no hay antecedente de alergia a hemoderivados.`,
+  pregunta: "¿Qué tratamiento debe administrarse urgentemente para revertir la anticoagulación?",
+  opciones: [
+    "Suspender warfarina y esperar 24 horas sin otra intervención",
+    "Complejo protrombínico de cuatro factores junto con vitamina K intravenosa",
+    "Aspirina en dosis de carga",
+    "Heparina no fraccionada para neutralizar la warfarina",
+    "Vitamina K oral como única intervención en todos los casos"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La hemorragia intracerebral asociada a antagonistas de vitamina K exige reversión urgente. El complejo protrombínico de cuatro factores repone rápidamente los factores dependientes de vitamina K, mientras que la vitamina K intravenosa sostiene la reversión. El plasma puede ser una alternativa si no se dispone de complejo protrombínico, aunque suele requerir más tiempo y volumen.`,
+  perlaENARM: "Hemorragia intracerebral por warfarina: reversión urgente con complejo protrombínico de cuatro factores más vitamina K intravenosa.",
+  gpc: {
+    mexico: "Consultar protocolo mexicano institucional vigente para reversión urgente de anticoagulación en hemorragia intracraneal.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361; Tomaselli GF et al. 2020 ACC Expert Consensus Decision Pathway on Management of Bleeding in Patients on Oral Anticoagulants. J Am Coll Cardiol. 2020;76:594-622."
+},
+{
+  id: "NEU-027",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Reversión de dabigatrán",
+  dificultad: "Alta",
+  caso: `Hombre de 69 años con fibrilación auricular tratado con dabigatrán desarrolla hemorragia intracerebral. La última dosis fue hace tres horas y la función renal está disminuida. La hemorragia se considera clínicamente significativa.`,
+  pregunta: "¿Qué agente específico puede revertir rápidamente el efecto anticoagulante del dabigatrán?",
+  opciones: [
+    "Protamina",
+    "Idarucizumab",
+    "Vitamina K intravenosa",
+    "Andexanet alfa como antídoto específico de dabigatrán",
+    "Ácido acetilsalicílico"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `Idarucizumab es un fragmento de anticuerpo monoclonal que se une al dabigatrán y revierte rápidamente su efecto anticoagulante. En una hemorragia intracerebral relevante debe considerarse de urgencia si existe exposición reciente o efecto anticoagulante clínicamente significativo. La función renal influye en la eliminación del dabigatrán.`,
+  perlaENARM: "Dabigatrán: idarucizumab. No confundir con andexanet alfa, que se utiliza para revertir determinados inhibidores del factor Xa.",
+  gpc: {
+    mexico: "Consultar protocolo institucional vigente para reversión de anticoagulantes directos en hemorragia intracraneal.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage; ACC Expert Consensus on anticoagulant-related bleeding."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361; Pollack CV Jr et al. Idarucizumab for Dabigatran Reversal. N Engl J Med. 2015;373:511-520."
+},
+{
+  id: "NEU-028",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Reversión de inhibidores del factor Xa",
+  dificultad: "Alta",
+  caso: `Paciente de 74 años en tratamiento con apixabán por fibrilación auricular presenta hemorragia intracerebral espontánea. La última toma fue reciente y la hemorragia está progresando en la imagen de control.`,
+  pregunta: "¿Qué agente específico puede considerarse para revertir el efecto de apixabán en una hemorragia potencialmente mortal, según disponibilidad y protocolo?",
+  opciones: [
+    "Vitamina K como antídoto específico",
+    "Idarucizumab",
+    "Andexanet alfa",
+    "Protamina como reversor completo",
+    "Clopidogrel"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `Andexanet alfa es un agente de reversión para determinados inhibidores del factor Xa, incluidos apixabán y rivaroxabán. Su uso debe integrarse con la gravedad de la hemorragia, la exposición reciente, la disponibilidad y los riesgos trombóticos. En escenarios donde no esté disponible o no sea apropiado, puede considerarse un concentrado de complejo protrombínico según el protocolo local y la evidencia aplicable.`,
+  perlaENARM: "Apixabán o rivaroxabán: considera andexanet alfa cuando esté indicado y disponible; la reversión también conlleva riesgo trombótico.",
+  gpc: {
+    mexico: "Consultar protocolo institucional vigente para hemorragia asociada a anticoagulantes directos.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage; guías vigentes de reversión de anticoagulantes."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361; Connolly SJ et al. Andexanet Alfa for Acute Major Bleeding Associated with Factor Xa Inhibitors. N Engl J Med. 2019;380:1326-1335."
+},
+{
+  id: "NEU-029",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Hematoma cerebeloso y descompresión quirúrgica",
+  dificultad: "Alta",
+  caso: `Mujer de 65 años presenta vértigo, vómitos y ataxia intensa. La tomografía revela un hematoma cerebeloso de 4 cm con compresión del cuarto ventrículo, hidrocefalia obstructiva y disminución progresiva del nivel de conciencia.`,
+  pregunta: "¿Qué intervención debe valorarse de manera urgente?",
+  opciones: [
+    "Evacuación quirúrgica del hematoma cerebeloso y manejo de la hidrocefalia según la evaluación neuroquirúrgica",
+    "Alta con control ambulatorio de presión arterial",
+    "Trombólisis intravenosa para disolver el hematoma",
+    "Anticoagulación terapéutica para prevenir extensión",
+    "Observación sin monitorización porque el cerebelo no controla funciones vitales"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La hemorragia cerebelosa con diámetro mayor de aproximadamente 3 cm, deterioro neurológico, compresión del tronco o hidrocefalia obstructiva requiere valoración neuroquirúrgica inmediata para evacuación. La hidrocefalia puede requerir drenaje ventricular, pero este no sustituye necesariamente la evacuación del hematoma cuando existe compresión significativa de la fosa posterior.`,
+  perlaENARM: "Hematoma cerebeloso grande más deterioro, compresión del tronco o hidrocefalia: urgencia neuroquirúrgica.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente y protocolo neuroquirúrgico para hemorragia cerebelosa.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage."
+  },
+  bibliografia: "Manual CTO de Neurología, 14.ª ed., apartado 4.4, pp. 37-38; Greenberg SM et al. Stroke. 2022;53:e282-e361."
+},
+{
+  id: "NEU-030",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Hidrocefalia por extensión intraventricular",
+  dificultad: "Alta",
+  caso: `Hombre de 70 años con hemorragia talámica presenta empeoramiento del estado de conciencia. La tomografía de control muestra extensión intraventricular importante, dilatación ventricular y signos de hidrocefalia aguda.`,
+  pregunta: "¿Qué procedimiento permite tratar de forma urgente la hidrocefalia obstructiva en este contexto?",
+  opciones: [
+    "Drenaje ventricular externo cuando está indicado por el equipo neurocrítico y neuroquirúrgico",
+    "Punción lumbar evacuadora como primera medida",
+    "Endarterectomía carotídea",
+    "Trombólisis intravenosa",
+    "Resección de la arteria cerebral media"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La sangre intraventricular puede obstruir la circulación del líquido cefalorraquídeo y causar hidrocefalia aguda con deterioro de conciencia. En pacientes seleccionados, el drenaje ventricular externo permite derivar el líquido cefalorraquídeo y monitorizar la presión intracraneal. La punción lumbar está contraindicada cuando existe obstrucción e importante efecto de masa.`,
+  perlaENARM: "Hemorragia intraventricular con hidrocefalia y deterioro: considera drenaje ventricular externo; evita punción lumbar ante obstrucción y efecto de masa.",
+  gpc: {
+    mexico: "Consultar protocolo institucional vigente para hidrocefalia aguda asociada a hemorragia intracerebral.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361; Manual CTO de Neurología, 14.ª ed., apartado 4.4."
+},
+{
+  id: "NEU-031",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Escala de Glasgow y protección de vía aérea",
+  dificultad: "Media",
+  caso: `Hombre de 60 años con hemorragia intracerebral extensa presenta Glasgow de 7, respiración irregular y respuesta motora de retirada al dolor. La tomografía muestra edema y desplazamiento de la línea media.`,
+  pregunta: "¿Qué prioridad debe guiar el manejo inmediato en urgencias?",
+  opciones: [
+    "Asegurar oxigenación y protección de la vía aérea, junto con estabilización hemodinámica y evaluación neurocrítica",
+    "Administrar alimentos por vía oral para prevenir hipoglucemia",
+    "Realizar punción lumbar para confirmar sangre en el líquido cefalorraquídeo",
+    "Retrasar la estabilización hasta completar resonancia magnética",
+    "Iniciar rehabilitación de la marcha antes de controlar la vía aérea"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Un Glasgow de 7 con respiración irregular implica alto riesgo de pérdida de reflejos protectores y compromiso ventilatorio. La estabilización ABC, incluida la vía aérea cuando sea necesaria, debe preceder a estudios no urgentes. En paralelo se controlan presión arterial, temperatura, glucosa, oxigenación y complicaciones intracraneales.`,
+  perlaENARM: "En hemorragia intracerebral con deterioro del estado de conciencia, prioriza ABC y protección de la vía aérea antes de procedimientos no esenciales.",
+  gpc: {
+    mexico: "Consultar protocolo institucional vigente de urgencias neurológicas y neurocríticos.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage; recomendaciones de cuidados neurocríticos."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361; Manual CTO de Neurología, 14.ª ed., capítulos 2 y 4."
+},
+{
+  id: "NEU-032",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Escala ICH y pronóstico",
+  dificultad: "Alta",
+  caso: `Hombre de 78 años presenta hemorragia intracerebral de 42 mL, localización infratentorial, Glasgow de 6 y extensión intraventricular. El equipo solicita una herramienta estandarizada para estimar la gravedad inicial y facilitar la comunicación pronóstica.`,
+  pregunta: "¿Qué escala clínica integra variables como Glasgow, volumen, localización infratentorial, extensión intraventricular y edad?",
+  opciones: [
+    "NIHSS exclusivamente",
+    "Escala ICH (Intracerebral Hemorrhage Score)",
+    "Escala de Hunt y Hess",
+    "Escala de Wells",
+    "Escala de Child-Pugh"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La escala ICH utiliza cinco variables: Glasgow, volumen del hematoma, localización infratentorial, extensión intraventricular y edad de 80 años o más. Es útil para describir la gravedad inicial y apoyar la comunicación clínica. No debe emplearse de manera aislada para limitar tratamientos o establecer con certeza el desenlace individual.`,
+  perlaENARM: "La escala ICH incluye Glasgow, volumen, localización infratentorial, extensión intraventricular y edad ≥80 años.",
+  gpc: {
+    mexico: "Consultar protocolos institucionales vigentes para estratificación de gravedad en hemorragia intracerebral.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage."
+  },
+  bibliografia: "Hemphill JC 3rd et al. The ICH Score: a simple, reliable grading scale for intracerebral hemorrhage. Stroke. 2001;32:891-897; Greenberg SM et al. Stroke. 2022;53:e282-e361."
+},
+{
+  id: "NEU-033",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Convulsiones y electroencefalografía",
+  dificultad: "Alta",
+  caso: `Mujer de 66 años con hematoma lobar frontal desarrolla movimientos clónicos del brazo derecho al ingreso. Después del episodio persiste con fluctuaciones del nivel de conciencia sin nuevas convulsiones evidentes.`,
+  pregunta: "¿Qué estudio resulta especialmente útil si se sospecha actividad epiléptica no convulsiva persistente?",
+  opciones: [
+    "Electroencefalograma, preferentemente continuo si persiste la sospecha en un paciente crítico",
+    "Radiografía de columna cervical",
+    "Doppler venoso de miembros inferiores",
+    "Punción lumbar inmediata pese al efecto de masa",
+    "Electromiografía de los músculos de la mano"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Las hemorragias corticales o lobares pueden provocar crisis epilépticas. Si el estado de conciencia fluctúa o no mejora tras una crisis manifiesta, debe considerarse actividad epiléptica no convulsiva. El electroencefalograma, y en pacientes seleccionados el monitoreo continuo, permite detectar crisis electrográficas y orientar el tratamiento.`,
+  perlaENARM: "Después de una crisis en hemorragia lobar, la alteración persistente de conciencia obliga a considerar estado epiléptico no convulsivo.",
+  gpc: {
+    mexico: "Consultar protocolo institucional vigente para crisis epilépticas asociadas a lesión cerebral aguda.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage; ACNS consensus statements on continuous EEG."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361; Herman ST et al. Consensus Statement on Continuous EEG in Critically Ill Adults and Children. J Clin Neurophysiol. 2015;32:87-95."
+},
+{
+  id: "NEU-034",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Profilaxis de tromboembolismo venoso",
+  dificultad: "Alta",
+  caso: `Hombre de 72 años con hemorragia intracerebral espontánea permanece inmóvil en cama. Una tomografía de control a las 48 horas demuestra hematoma estable, sin expansión ni nueva hemorragia. No hay sospecha de trombosis venosa profunda al momento.`,
+  pregunta: "¿Qué estrategia puede utilizarse para reducir el riesgo de tromboembolismo venoso?",
+  opciones: [
+    "Compresión neumática intermitente y valoración del momento seguro para iniciar profilaxis farmacológica",
+    "Reposo absoluto sin dispositivos mecánicos ni evaluación posterior",
+    "Anticoagulación terapéutica inmediata a dosis plena en todos los pacientes",
+    "Trombólisis sistémica preventiva",
+    "Colocación sistemática de filtro de vena cava en todo paciente inmóvil"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La inmovilidad después de una hemorragia intracerebral aumenta el riesgo de tromboembolismo venoso. La compresión neumática intermitente se recomienda desde el diagnóstico cuando es factible. La profilaxis farmacológica con heparina a dosis bajas puede considerarse después de evaluar estabilidad del hematoma y el riesgo hemorrágico, con frecuencia tras 24-48 horas según el escenario y el protocolo clínico.`,
+  perlaENARM: "En hemorragia intracerebral, inicia medidas mecánicas de profilaxis y decide la farmacológica según estabilidad radiológica y riesgo hemorrágico.",
+  gpc: {
+    mexico: "Consultar GPC mexicana vigente sobre prevención de tromboembolismo venoso en pacientes neurocríticos.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361."
+},
+{
+  id: "NEU-035",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Reinicio de anticoagulación tras hemorragia",
+  dificultad: "Muy alta",
+  caso: `Hombre de 75 años con fibrilación auricular y alto riesgo embólico tuvo una hemorragia intracerebral lobar hace tres semanas. La resonancia muestra múltiples microhemorragias lobares y siderosis cortical superficial. El hematoma está estable y no hay trombosis aguda.`,
+  pregunta: "¿Qué principio debe guiar la decisión sobre reiniciar anticoagulación oral?",
+  opciones: [
+    "Reiniciarla obligatoriamente a los siete días en todos los sobrevivientes",
+    "Suspenderla para siempre sin considerar el riesgo embólico ni las alternativas",
+    "Individualizar el balance entre riesgo de embolia y recurrencia hemorrágica, considerando el patrón lobar y la sospecha de angiopatía amiloide",
+    "Cambiar siempre a doble antiagregación como sustituto equivalente",
+    "Reiniciarla a dosis plena el mismo día sin reevaluación"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `El reinicio de anticoagulación tras hemorragia intracerebral requiere una decisión individualizada que considere indicación anticoagulante, riesgo embólico, localización y mecanismo probable de la hemorragia, hallazgos de resonancia, evolución y preferencias del paciente. El patrón lobar con microhemorragias y siderosis cortical sugiere riesgo de recurrencia asociado a angiopatía amiloide. Deben discutirse alternativas y el momento de reinicio con un equipo multidisciplinario.`,
+  perlaENARM: "Tras una hemorragia lobar con marcadores de angiopatía amiloide, la decisión de reiniciar anticoagulación no se basa solo en el CHA₂DS₂-VASc.",
+  gpc: {
+    mexico: "Consultar protocolo institucional vigente para prevención embólica después de hemorragia intracerebral.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage; guías vigentes de fibrilación auricular."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361; Kleindorfer DO et al. Stroke. 2021;52:e364-e467."
+},
+{
+  id: "NEU-036",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Sangrado relacionado con simpaticomiméticos",
+  dificultad: "Alta",
+  caso: `Hombre de 36 años sin diagnóstico previo de hipertensión presenta cefalea, agitación y hemiparesia después de consumir cocaína. La presión arterial es de 224/126 mmHg y la tomografía revela hemorragia intracerebral profunda.`,
+  pregunta: "¿Qué mecanismo contribuye al riesgo hemorrágico en este contexto?",
+  opciones: [
+    "Descenso sostenido de catecolaminas con hipotensión cerebral",
+    "Descarga simpática con elevación intensa de la presión arterial y posible lesión vascular",
+    "Bloqueo irreversible de la acetilcolinesterasa",
+    "Inhibición de la síntesis de mielina como mecanismo primario",
+    "Hipocoagulabilidad por deficiencia congénita de factor VIII como explicación obligatoria"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La cocaína y otros simpaticomiméticos pueden provocar descarga catecolaminérgica, vasoconstricción y elevaciones graves de la presión arterial, favoreciendo hemorragia cerebral. Deben evaluarse otras causas, pero la exposición modifica el abordaje clínico, incluyendo el control de la agitación, la monitorización cardiovascular y el tratamiento tensional cuidadosamente titulado.`,
+  perlaENARM: "En un paciente joven con hemorragia intracerebral e hipertensión abrupta, pregunta por cocaína, anfetaminas y otros simpaticomiméticos.",
+  gpc: {
+    mexico: "Consultar protocolos institucionales vigentes para intoxicación por estimulantes y hemorragia intracerebral.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361; Manual CTO de Neurología, 14.ª ed., apartado 4.4."
+},
+{
+  id: "NEU-037",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Hematoma lobar y tumor hemorrágico",
+  dificultad: "Alta",
+  caso: `Mujer de 58 años presenta hemorragia lobar occipital. Tras la estabilización, una resonancia con contraste revela una lesión nodular con realce irregular alrededor del hematoma y edema vasogénico desproporcionado. Refiere pérdida de peso en los últimos meses.`,
+  pregunta: "¿Qué hipótesis etiológica debe investigarse de manera prioritaria?",
+  opciones: [
+    "Hemorragia intratumoral por neoplasia primaria o metástasis",
+    "Arteriopatía hipertensiva profunda como diagnóstico demostrado por la edad",
+    "Migraña con aura hemorrágica",
+    "Esclerosis múltiple como causa habitual de hematomas lobares",
+    "Enfermedad de Parkinson con hemorragia espontánea como complicación típica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Una lesión nodular con realce y edema vasogénico desproporcionado puede indicar tumor hemorrágico. Las metástasis de ciertos tumores y algunas neoplasias primarias pueden sangrar. La evaluación posterior puede requerir resonancia de control tras la reabsorción parcial del hematoma, estudio sistémico y diagnóstico histológico según la lesión.`,
+  perlaENARM: "Hemorragia lobar con realce nodular o edema desproporcionado: investiga tumor subyacente, aunque el hematoma agudo dificulte su caracterización.",
+  gpc: {
+    mexico: "Consultar protocolo institucional vigente para hemorragia intracerebral de posible origen tumoral.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage; guías neurooncológicas vigentes."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361; Manual CTO de Neurología, 14.ª ed., apartado 4.4."
+},
+{
+  id: "NEU-038",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Expansión del hematoma y signo del spot",
+  dificultad: "Muy alta",
+  caso: `Hombre de 64 años con hemorragia intracerebral de 25 mL se somete a angiografía por tomografía. En el interior del hematoma se observa un foco de extravasación de contraste. El paciente aún no presenta herniación.`,
+  pregunta: "¿Qué significado tiene este hallazgo en la valoración de riesgo?",
+  opciones: [
+    "Es el signo del spot y se asocia con mayor riesgo de expansión del hematoma",
+    "Confirma una hemorragia subaracnoidea aneurismática",
+    "Demuestra que el hematoma ya se ha estabilizado",
+    "Es diagnóstico de trombosis venosa profunda",
+    "Descarta la necesidad de vigilancia neurológica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El signo del spot consiste en focos de extravasación de contraste dentro del hematoma en angiografía por tomografía y se asocia con riesgo aumentado de expansión. Es un marcador pronóstico que puede apoyar la estratificación y la vigilancia, pero no determina por sí solo una intervención específica ni sustituye la valoración clínica integral.`,
+  perlaENARM: "Extravasación de contraste dentro de un hematoma en angio-TC: signo del spot, asociado a mayor probabilidad de expansión.",
+  gpc: {
+    mexico: "Consultar protocolo institucional vigente para estratificación y monitorización de hemorragia intracerebral.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361; Manual CTO de Neurología, 14.ª ed., apartado 4.4."
+},
+{
+  id: "NEU-039",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Tratamiento antiplaquetario y transfusión de plaquetas",
+  dificultad: "Muy alta",
+  caso: `Hombre de 68 años en tratamiento crónico con ácido acetilsalicílico por enfermedad coronaria presenta hemorragia intracerebral espontánea. No tiene trombocitopenia y no se planea una intervención neuroquirúrgica urgente.`,
+  pregunta: "¿Qué estrategia debe evitarse de rutina en este escenario?",
+  opciones: [
+    "Transfundir plaquetas de forma rutinaria únicamente por el antecedente de ácido acetilsalicílico",
+    "Suspender temporalmente el antiagregante durante la fase aguda y evaluar el contexto clínico",
+    "Monitorizar el estado neurológico y la evolución por imagen",
+    "Controlar la presión arterial según gravedad y protocolo",
+    "Evaluar el riesgo hemorrágico y trombótico de manera individual"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En hemorragia intracerebral asociada a antiagregantes, la transfusión rutinaria de plaquetas en pacientes que no requieren cirugía urgente puede ser perjudicial y no se recomienda de forma general. Las decisiones cambian según trombocitopenia, necesidad de neurocirugía y otras circunstancias específicas. Debe individualizarse la suspensión y eventual reinicio de antiagregación según la indicación vascular.`,
+  perlaENARM: "No transfundas plaquetas automáticamente por uso previo de aspirina en hemorragia intracerebral si no existe una indicación específica.",
+  gpc: {
+    mexico: "Consultar protocolo institucional vigente para hemorragia intracerebral asociada a antiagregantes.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage."
+  },
+  bibliografia: "Greenberg SM et al. Stroke. 2022;53:e282-e361; Baharoglu MI et al. Platelet transfusion versus standard care after acute stroke due to spontaneous cerebral haemorrhage associated with antiplatelet therapy (PATCH). Lancet. 2016;387:2605-2613."
+},
+{
+  id: "NEU-040",
+  especialidad: "Neurología",
+  tema: "Hemorragia intracerebral",
+  subtema: "Pronóstico, objetivos de cuidado y limitaciones de escalas",
+  dificultad: "Muy alta",
+  caso: `Mujer de 82 años con hemorragia intracerebral profunda, Glasgow de 9 y extensión intraventricular ingresa a una unidad neurocrítica. La familia solicita conocer el pronóstico definitivo durante la primera hora. El equipo calcula una escala ICH elevada.`,
+  pregunta: "¿Cómo debe utilizarse esta puntuación en la comunicación clínica?",
+  opciones: [
+    "Como predicción individual infalible que justifica limitar automáticamente todo tratamiento",
+    "Como herramienta de estratificación y comunicación que debe integrarse con evolución, imagen, comorbilidades y preferencias, evitando decisiones prematuras basadas solo en la puntuación",
+    "Como sustituto de las exploraciones neurológicas seriadas",
+    "Como indicación automática de retirar soporte vital",
+    "Como prueba etiológica que distingue angiopatía amiloide de hipertensión"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: `La escala ICH ayuda a estimar la gravedad poblacional y comunicar variables pronósticas, pero no predice con certeza el desenlace individual. Las decisiones sobre limitación del soporte deben evitarse basándose exclusivamente en una puntuación inicial, especialmente antes de observar la evolución y tratar causas reversibles. La comunicación debe ser clara, multidisciplinaria y centrada en los valores del paciente.`,
+  perlaENARM: "La escala ICH estratifica gravedad, pero no debe utilizarse aisladamente para decidir retirar soporte vital ni para sustituir el juicio clínico.",
+  gpc: {
+    mexico: "Consultar protocolos institucionales vigentes de neurocríticos, comunicación pronóstica y toma compartida de decisiones.",
+    internacional: "AHA/ASA 2022 Guideline for Spontaneous Intracerebral Hemorrhage."
+  },
+  bibliografia: "Hemphill JC 3rd et al. Stroke. 2001;32:891-897; Greenberg SM et al. Stroke. 2022;53:e282-e361."
+},
+
+{
   id: "NEU-041",
   especialidad: "Neurología",
   tema: "Hemorragia subaracnoidea",
@@ -4808,6 +5289,487 @@ window.BANCO_NEUROLOGIA = [
     internacional: "American Headache Society consensus statement, 2021; recomendaciones preventivas vigentes."
   },
   bibliografia: "Ailani J et al. Headache. 2021;61:1021-1039."
+},
+
+{
+  id: "NEU-221",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Doctrina de Monro-Kellie",
+  dificultad: "Media",
+  caso: `Varón de 58 años presenta un hematoma intracerebral con edema perilesional. Durante la vigilancia neurológica aumenta progresivamente la presión intracraneal. La expansión de la lesión comienza a superar la capacidad de compensación del compartimento craneal.`,
+  pregunta: "¿Qué principio fisiológico explica el aumento de presión cuando se agotan los mecanismos compensatorios intracraneales?",
+  opciones: [
+    "La suma de los volúmenes de tejido cerebral, sangre y LCR es prácticamente constante dentro del cráneo rígido",
+    "El volumen cerebral puede aumentar indefinidamente sin modificar la presión",
+    "La presión intracraneal depende exclusivamente de la presión arterial sistémica",
+    "El LCR no participa en la regulación del volumen intracraneal",
+    "El aumento del volumen venoso reduce siempre la presión intracraneal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La doctrina de Monro-Kellie establece que, dentro de un cráneo rígido, los volúmenes de parénquima cerebral, sangre y líquido cefalorraquídeo mantienen un equilibrio. Inicialmente, el desplazamiento de LCR y sangre venosa puede compensar un aumento de volumen. Cuando se agota esa reserva, pequeños incrementos adicionales de volumen producen aumentos desproporcionados de presión, con reducción de la perfusión cerebral y riesgo de herniación.`,
+  perlaENARM: "Monro-Kellie: una vez agotada la compensación intracraneal, pequeños aumentos de volumen pueden elevar mucho la presión intracraneal.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de neurocríticos para monitorización y tratamiento de hipertensión intracraneal.",
+    internacional: "Brain Trauma Foundation. Guidelines for the Management of Severe Traumatic Brain Injury, 4th edition."
+  },
+  bibliografia: "Carney N et al. Guidelines for the Management of Severe Traumatic Brain Injury, Fourth Edition. Neurosurgery. 2017;80:6-15."
+},
+{
+  id: "NEU-222",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Presión de perfusión cerebral",
+  dificultad: "Alta",
+  caso: `Paciente de 40 años con traumatismo craneoencefálico grave presenta presión intracraneal de 25 mmHg y presión arterial media de 85 mmHg. Se requiere estimar la presión de perfusión cerebral para orientar la reanimación neurocrítica.`,
+  pregunta: "¿Cuál es la presión de perfusión cerebral calculada con estos datos?",
+  opciones: [
+    "25 mmHg",
+    "40 mmHg",
+    "60 mmHg",
+    "85 mmHg",
+    "110 mmHg"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: `La presión de perfusión cerebral se calcula como presión arterial media menos presión intracraneal: PPC = PAM − PIC. En este caso, 85 − 25 = 60 mmHg. En traumatismo craneoencefálico grave se suele orientar el manejo hacia una PPC aproximada de 60–70 mmHg, individualizando según autorregulación, lesión y situación hemodinámica. No debe elevarse indiscriminadamente la presión arterial porque una estrategia excesiva puede producir complicaciones sistémicas.`,
+  perlaENARM: "PPC = PAM − PIC. Con PAM de 85 y PIC de 25 mmHg, la PPC es 60 mmHg.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de traumatismo craneoencefálico grave y monitorización de presión intracraneal.",
+    internacional: "Brain Trauma Foundation. Guidelines for the Management of Severe Traumatic Brain Injury, 4th edition."
+  },
+  bibliografia: "Carney N et al. Neurosurgery. 2017;80:6-15."
+},
+{
+  id: "NEU-223",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Hipertensión intracraneal idiopática",
+  dificultad: "Alta",
+  caso: `Mujer de 29 años con obesidad presenta cefalea diaria, tinnitus pulsátil y episodios breves de oscurecimiento visual al cambiar de posición. La exploración oftalmológica confirma papiledema bilateral. La RM cerebral no muestra masa ni hidrocefalia y la venografía no identifica trombosis venosa cerebral.`,
+  pregunta: "¿Qué estudio permite documentar la presión de apertura del LCR después de excluir lesiones estructurales y confirmar que la punción lumbar sea segura?",
+  opciones: [
+    "Punción lumbar con medición de presión de apertura en decúbito lateral",
+    "Electroencefalograma de rutina",
+    "Radiografía simple de cráneo",
+    "Electromiografía de miembros inferiores",
+    "Biopsia de nervio óptico como prueba inicial"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La hipertensión intracraneal idiopática se sospecha ante papiledema, síntomas visuales transitorios, tinnitus pulsátil y cefalea, especialmente en mujeres con obesidad. Después de excluir masa, hidrocefalia y trombosis venosa cerebral mediante neuroimagen apropiada, la punción lumbar permite medir la presión de apertura y analizar el LCR. El diagnóstico requiere presión elevada con composición del LCR normal y ausencia de una causa secundaria identificable.`,
+  perlaENARM: "Papiledema más tinnitus pulsátil y oscurecimientos visuales: sospechar hipertensión intracraneal idiopática; excluir trombosis venosa cerebral.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de neurooftalmología e hipertensión intracraneal idiopática.",
+    internacional: "Consensus guidelines on management of idiopathic intracranial hypertension, 2018."
+  },
+  bibliografia: "Mollan SP et al. Idiopathic intracranial hypertension: consensus guidelines on management. J Neurol Neurosurg Psychiatry. 2018;89:1088-1100."
+},
+{
+  id: "NEU-224",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Criterios de presión de apertura",
+  dificultad: "Alta",
+  caso: `Mujer de 32 años con papiledema y neuroimagen sin lesión ocupante de espacio se somete a punción lumbar en decúbito lateral. La presión de apertura es de 31 cmH₂O, la composición del LCR es normal y no se identifica una causa secundaria de hipertensión intracraneal.`,
+  pregunta: "¿Cómo debe interpretarse la presión de apertura en este contexto?",
+  opciones: [
+    "Es compatible con presión intracraneal elevada y apoya hipertensión intracraneal idiopática dentro del contexto clínico",
+    "Es normal en todos los adultos y descarta hipertensión intracraneal",
+    "Confirma meningitis bacteriana aunque el LCR sea normal",
+    "Demuestra por sí sola trombosis venosa cerebral",
+    "Es diagnóstica de hemorragia subaracnoidea"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Una presión de apertura mayor de 25 cmH₂O en un adulto, medida correctamente, apoya el diagnóstico de hipertensión intracraneal idiopática cuando se integra con papiledema, neuroimagen adecuada y composición normal del LCR. La presión no debe interpretarse de forma aislada: posición, esfuerzo, sedación y técnica pueden influir. Deben excluirse causas secundarias y documentarse el estado visual.`,
+  perlaENARM: "En adultos, una presión de apertura >25 cmH₂O apoya hipertensión intracraneal idiopática, pero no sustituye los criterios clínicos y de exclusión.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de diagnóstico de hipertensión intracraneal idiopática.",
+    internacional: "Mollan et al. Consensus guidelines on management of idiopathic intracranial hypertension, 2018."
+  },
+  bibliografia: "Mollan SP et al. J Neurol Neurosurg Psychiatry. 2018;89:1088-1100."
+},
+{
+  id: "NEU-225",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Tratamiento médico de hipertensión intracraneal idiopática",
+  dificultad: "Alta",
+  caso: `Mujer de 30 años con obesidad tiene hipertensión intracraneal idiopática confirmada, papiledema y defectos leves del campo visual. La neuroimagen excluye una causa secundaria y no existe deterioro visual fulminante.`,
+  pregunta: "¿Qué fármaco puede utilizarse para reducir la producción de LCR en esta paciente?",
+  opciones: [
+    "Acetazolamida",
+    "Warfarina",
+    "Levodopa",
+    "Amoxicilina",
+    "Haloperidol"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La acetazolamida inhibe la anhidrasa carbónica y reduce la producción de LCR. Puede utilizarse en hipertensión intracraneal idiopática con papiledema y afectación visual, junto con reducción de peso cuando existe obesidad y vigilancia oftalmológica seriada. Deben revisarse función renal, electrolitos, tolerancia y riesgo de litiasis. La progresión del daño visual exige reevaluación urgente y posible intervención quirúrgica.`,
+  perlaENARM: "Acetazolamida más reducción ponderal son pilares del tratamiento médico de la hipertensión intracraneal idiopática con riesgo visual.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para hipertensión intracraneal idiopática y seguimiento neurooftalmológico.",
+    internacional: "Mollan et al., 2018; ensayo clínico IIH Treatment Trial."
+  },
+  bibliografia: "Wall M et al. Effect of acetazolamide on visual function in patients with idiopathic intracranial hypertension and mild visual loss. JAMA. 2014;311:1641-1651."
+},
+{
+  id: "NEU-226",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Pérdida de peso en hipertensión intracraneal idiopática",
+  dificultad: "Alta",
+  caso: `Mujer de 34 años con índice de masa corporal de 37 kg/m² presenta hipertensión intracraneal idiopática. La función visual está estable, pero persisten cefalea y papiledema leve. Pregunta qué intervención modifica de manera importante el curso de la enfermedad.`,
+  pregunta: "¿Qué intervención no farmacológica es fundamental en pacientes con obesidad y esta enfermedad?",
+  opciones: [
+    "Reducción sostenida de peso mediante un plan estructurado y seguimiento",
+    "Reposo absoluto durante seis meses",
+    "Aumentar de forma sistemática la ingesta de sodio",
+    "Evitar toda actividad física de manera permanente",
+    "Restringir líquidos de forma intensa sin indicación clínica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La obesidad es un factor estrechamente asociado con hipertensión intracraneal idiopática y la reducción sostenida de peso puede mejorar la presión intracraneal y la evolución de la enfermedad. El plan debe individualizarse e incluir intervención nutricional, actividad física y seguimiento; en casos seleccionados pueden valorarse tratamientos específicos para obesidad. La pérdida de peso no reemplaza la vigilancia visual ni las intervenciones urgentes si la visión se deteriora.`,
+  perlaENARM: "En hipertensión intracraneal idiopática asociada a obesidad, la reducción sostenida de peso es una intervención modificadora de la enfermedad.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de obesidad e hipertensión intracraneal idiopática.",
+    internacional: "Mollan et al. Consensus guidelines on management of idiopathic intracranial hypertension, 2018."
+  },
+  bibliografia: "Mollan SP et al. J Neurol Neurosurg Psychiatry. 2018;89:1088-1100."
+},
+{
+  id: "NEU-227",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Amenaza visual en hipertensión intracraneal idiopática",
+  dificultad: "Muy alta",
+  caso: `Mujer de 27 años con hipertensión intracraneal idiopática presenta empeoramiento rápido de la agudeza visual y reducción progresiva de los campos visuales pese al tratamiento médico. El papiledema es intenso y el equipo confirma deterioro funcional objetivo.`,
+  pregunta: "¿Qué enfoque debe priorizarse ante el riesgo de pérdida visual irreversible?",
+  opciones: [
+    "Valoración neuroquirúrgica urgente para una intervención dirigida a proteger la visión",
+    "Mantener el mismo tratamiento y esperar seis meses sin repetir campimetría",
+    "Suspender toda vigilancia oftalmológica porque el papiledema ya está diagnosticado",
+    "Tratar exclusivamente con analgésicos para cefalea",
+    "Realizar una nueva punción lumbar como única estrategia definitiva"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `El deterioro visual progresivo en hipertensión intracraneal idiopática es una urgencia neurooftalmológica. Puede requerir fenestración de la vaina del nervio óptico, derivación de LCR u otra intervención según anatomía, disponibilidad y experiencia del equipo. Las punciones lumbares repetidas no constituyen una estrategia definitiva habitual. La elección debe realizarse con neurooftalmología y neurocirugía, priorizando preservar la función visual.`,
+  perlaENARM: "La pérdida visual progresiva en hipertensión intracraneal idiopática exige intervención urgente; la cefalea no es el único objetivo terapéutico.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de neurooftalmología y cirugía para hipertensión intracraneal idiopática.",
+    internacional: "Mollan et al., 2018."
+  },
+  bibliografia: "Mollan SP et al. J Neurol Neurosurg Psychiatry. 2018;89:1088-1100."
+},
+{
+  id: "NEU-228",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Trombosis venosa cerebral como causa secundaria",
+  dificultad: "Muy alta",
+  caso: `Mujer de 31 años en puerperio presenta cefalea progresiva, papiledema y diplopía por paresia del VI par craneal. La TC simple no muestra masa ni hemorragia evidente. La presión de apertura del LCR se encuentra elevada.`,
+  pregunta: "¿Qué estudio es necesario para excluir una causa venosa secundaria antes de establecer hipertensión intracraneal idiopática?",
+  opciones: [
+    "Venografía por TC o venografía por resonancia magnética",
+    "Radiografía de cráneo",
+    "Electromiografía",
+    "Ecografía tiroidea",
+    "Electroencefalograma aislado"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La trombosis venosa cerebral puede producir hipertensión intracraneal, papiledema y paresia del VI par, y el puerperio constituye un factor de riesgo. Una TC simple normal no la excluye. Se requiere imagen venosa mediante venografía por TC o RM antes de etiquetar el cuadro como hipertensión intracraneal idiopática. Si se confirma trombosis, el manejo debe dirigirse a la causa y sus complicaciones.`,
+  perlaENARM: "No diagnosticar hipertensión intracraneal idiopática sin excluir trombosis venosa cerebral con imagen venosa apropiada.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para trombosis venosa cerebral y complicaciones neurológicas del puerperio.",
+    internacional: "European Stroke Organization guideline for cerebral venous thrombosis."
+  },
+  bibliografia: "Ferro JM et al. European Stroke Organization guideline for the diagnosis and treatment of cerebral venous thrombosis. Eur J Neurol. 2017;24:1203-1213."
+},
+{
+  id: "NEU-229",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Herniación uncal",
+  dificultad: "Muy alta",
+  caso: `Varón de 62 años con hematoma temporal expansivo presenta deterioro brusco de conciencia, pupila derecha dilatada y poco reactiva, y debilidad contralateral. La TC muestra desplazamiento medial del lóbulo temporal hacia la incisura tentorial.`,
+  pregunta: "¿Qué síndrome de herniación explica mejor estos hallazgos?",
+  opciones: [
+    "Herniación uncal",
+    "Herniación tonsilar aislada",
+    "Herniación subfalcina sin compresión del tronco",
+    "Herniación ascendente del cerebelo",
+    "Herniación transcalvaria espontánea"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La herniación uncal ocurre cuando el uncus temporal se desplaza a través de la incisura tentorial. Puede comprimir el III par craneal y producir midriasis ipsilateral, además de afectar vías motoras y estructuras del tronco encefálico. Es una emergencia que exige estabilización, medidas para reducir la presión intracraneal y tratamiento urgente de la lesión causante.`,
+  perlaENARM: "Midriasis unilateral progresiva más deterioro de conciencia en una lesión expansiva supratentorial: sospechar herniación uncal.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de neurocríticos para herniación cerebral y lesiones expansivas.",
+    internacional: "Brain Trauma Foundation. Guidelines for the Management of Severe Traumatic Brain Injury, 4th edition."
+  },
+  bibliografia: "Carney N et al. Neurosurgery. 2017;80:6-15."
+},
+{
+  id: "NEU-230",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Herniación tonsilar",
+  dificultad: "Muy alta",
+  caso: `Mujer de 54 años con edema cerebral difuso desarrolla deterioro rápido de conciencia, respiración irregular, bradicardia e hipotensión. La neuroimagen muestra desplazamiento inferior de las amígdalas cerebelosas a través del foramen magno.`,
+  pregunta: "¿Qué estructura anatómica está en riesgo inmediato por esta herniación?",
+  opciones: [
+    "Bulbo raquídeo y centros cardiorrespiratorios",
+    "Corteza occipital exclusivamente",
+    "Nervio óptico en su segmento intraorbitario",
+    "Hipocampo aislado",
+    "Nervio femoral"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La herniación tonsilar desplaza las amígdalas cerebelosas a través del foramen magno y puede comprimir el bulbo raquídeo. El compromiso del tronco encefálico puede alterar la respiración y la función cardiovascular, por lo que requiere atención inmediata. La estabilización cardiorrespiratoria y el tratamiento urgente de la causa son prioritarios.`,
+  perlaENARM: "Herniación tonsilar: compresión bulbar con riesgo de paro respiratorio y colapso cardiovascular.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de emergencia neurocrítica y herniación cerebral.",
+    internacional: "Brain Trauma Foundation. Guidelines for the Management of Severe Traumatic Brain Injury, 4th edition."
+  },
+  bibliografia: "Carney N et al. Neurosurgery. 2017;80:6-15."
+},
+{
+  id: "NEU-231",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Tríada de Cushing",
+  dificultad: "Alta",
+  caso: `Paciente de 47 años con traumatismo craneoencefálico grave presenta presión arterial de 190/70 mmHg, frecuencia cardiaca de 42 latidos por minuto y respiración irregular. El nivel de conciencia disminuye progresivamente.`,
+  pregunta: "¿Qué interpretación clínica tiene esta combinación de hallazgos?",
+  opciones: [
+    "Respuesta de Cushing sugestiva de hipertensión intracraneal grave y posible herniación",
+    "Respuesta vagal benigna sin riesgo neurológico",
+    "Síndrome serotoninérgico",
+    "Crisis tiroidea",
+    "Cetoacidosis diabética sin complicación neurológica"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La tríada de Cushing consiste en hipertensión arterial, bradicardia y respiración irregular. Es un signo tardío de hipertensión intracraneal grave y puede indicar compresión del tronco encefálico. No debe esperarse a que aparezca la tríada para actuar: el deterioro de conciencia, las alteraciones pupilares y los cambios respiratorios requieren intervención urgente.`,
+  perlaENARM: "Tríada de Cushing = hipertensión, bradicardia y respiración irregular; es un signo tardío y ominoso.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de traumatismo craneoencefálico grave y emergencias neurocríticas.",
+    internacional: "Brain Trauma Foundation. Guidelines for the Management of Severe Traumatic Brain Injury, 4th edition."
+  },
+  bibliografia: "Carney N et al. Neurosurgery. 2017;80:6-15."
+},
+{
+  id: "NEU-232",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Tratamiento hiperosmolar",
+  dificultad: "Muy alta",
+  caso: `Varón de 39 años con traumatismo craneoencefálico grave desarrolla una elevación aguda de la presión intracraneal, con deterioro pupilar. La vía aérea está asegurada, la oxigenación es adecuada y se han corregido la hipotensión y la hipoglucemia.`,
+  pregunta: "¿Qué intervención farmacológica puede utilizarse como medida de rescate para reducir la presión intracraneal?",
+  opciones: [
+    "Solución salina hipertónica o manitol, seleccionados según situación hemodinámica, osmolaridad y función renal",
+    "Agua libre intravenosa en bolo",
+    "Dextrosa hipertónica como tratamiento específico de la hipertensión intracraneal",
+    "Nitroglicerina intravenosa para reducir de manera indiscriminada la presión arterial",
+    "Hipotensión inducida para disminuir la presión intracraneal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La solución salina hipertónica y el manitol son agentes hiperosmolares utilizados para reducir temporalmente la presión intracraneal. La elección depende de presión arterial, volemia, sodio, osmolaridad, función renal y contexto clínico. Ninguno sustituye el tratamiento de la lesión causante ni la valoración neuroquirúrgica. La hipotensión debe evitarse porque disminuye la perfusión cerebral.`,
+  perlaENARM: "Hipertensión intracraneal aguda: solución salina hipertónica o manitol como tratamiento de rescate, evitando hipotensión y monitorizando efectos adversos.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de neurocríticos para terapia hiperosmolar.",
+    internacional: "Neurocritical Care Society. Guidelines for the Acute Treatment of Cerebral Edema in Neurocritical Care Patients, 2020."
+  },
+  bibliografia: "Cook AM et al. Guidelines for the Acute Treatment of Cerebral Edema in Neurocritical Care Patients. Neurocrit Care. 2020;32:647-666."
+},
+{
+  id: "NEU-233",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Hiperventilación como medida temporal",
+  dificultad: "Muy alta",
+  caso: `Paciente con lesión cerebral traumática presenta deterioro neurológico agudo y signos clínicos de herniación inminente. Mientras se prepara la intervención definitiva, el equipo considera medidas puente para reducir transitoriamente la presión intracraneal.`,
+  pregunta: "¿Cuál es el principal mecanismo por el que la hiperventilación controlada reduce la presión intracraneal?",
+  opciones: [
+    "La disminución de PaCO₂ produce vasoconstricción cerebral y reduce el volumen sanguíneo cerebral",
+    "El aumento de PaCO₂ provoca vasoconstricción intensa",
+    "La hiperventilación aumenta directamente la producción de LCR",
+    "La reducción de PaCO₂ incrementa el edema cerebral de manera inmediata en todos los casos",
+    "La hiperventilación elimina el hematoma intracraneal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La hiperventilación reduce la PaCO₂, lo que produce vasoconstricción cerebral y disminuye temporalmente el volumen sanguíneo intracraneal. Su efecto es transitorio y la vasoconstricción excesiva puede reducir la perfusión cerebral y agravar la isquemia. Por ello se reserva para situaciones seleccionadas como medida puente ante deterioro agudo o herniación inminente, mientras se trata la causa definitiva.`,
+  perlaENARM: "Hiperventilación: medida temporal, no profiláctica rutinaria; el descenso excesivo de PaCO₂ puede causar isquemia cerebral.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de ventilación y manejo de hipertensión intracraneal en neurocríticos.",
+    internacional: "Brain Trauma Foundation. Guidelines for the Management of Severe Traumatic Brain Injury, 4th edition."
+  },
+  bibliografia: "Carney N et al. Neurosurgery. 2017;80:6-15."
+},
+{
+  id: "NEU-234",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Drenaje de LCR",
+  dificultad: "Alta",
+  caso: `Varón de 63 años con hemorragia subaracnoidea aneurismática presenta deterioro de conciencia y ventriculomegalia aguda en la TC. El aneurisma ya está siendo atendido por el equipo neurovascular y no existe una contraindicación inmediata para el procedimiento indicado.`,
+  pregunta: "¿Qué intervención permite disminuir la presión intracraneal cuando la hidrocefalia aguda es la causa principal?",
+  opciones: [
+    "Drenaje ventricular externo",
+    "Punción lumbar inmediata sin valorar la anatomía",
+    "Administración de triptanes",
+    "Restricción absoluta de líquidos como única medida",
+    "Electroencefalograma continuo como tratamiento de la hidrocefalia"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La hidrocefalia aguda con deterioro neurológico puede requerir drenaje ventricular externo, que permite evacuar LCR, medir la presión intracraneal y ajustar el drenaje. En pacientes con lesión obstructiva o efecto de masa, la punción lumbar puede ser peligrosa y no constituye un sustituto del drenaje ventricular. El manejo debe coordinarse con neurocirugía y el equipo neurocrítico.`,
+  perlaENARM: "Hidrocefalia aguda con deterioro de conciencia: considerar drenaje ventricular externo urgente; evitar punción lumbar si existe riesgo de herniación.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de hidrocefalia aguda, hemorragia subaracnoidea y drenaje ventricular.",
+    internacional: "AHA/ASA Guideline for Aneurysmal Subarachnoid Hemorrhage, 2023."
+  },
+  bibliografia: "Hoh BL et al. Stroke. 2023;54:e314-e370."
+},
+{
+  id: "NEU-235",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Corticoides y edema cerebral",
+  dificultad: "Alta",
+  caso: `Mujer de 55 años con metástasis cerebral presenta edema vasogénico perilesional, cefalea y déficit focal progresivo. La imagen no muestra hemorragia aguda. Se considera que el edema está relacionado con una lesión tumoral.`,
+  pregunta: "¿Qué tratamiento farmacológico puede reducir el edema vasogénico sintomático asociado con una neoplasia cerebral?",
+  opciones: [
+    "Dexametasona, utilizando la dosis mínima eficaz y reduciéndola según respuesta clínica",
+    "Dexametasona como tratamiento universal del edema de cualquier etiología",
+    "Antibióticos como monoterapia del edema tumoral",
+    "Warfarina para reducir la permeabilidad vascular",
+    "Suspender todo tratamiento oncológico y observar"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La dexametasona reduce el edema vasogénico asociado con tumores cerebrales y puede mejorar los síntomas neurológicos. Debe utilizarse cuando existe indicación clínica, con la dosis mínima eficaz y reducción gradual según evolución, debido a efectos adversos como hiperglucemia, miopatía, alteraciones psiquiátricas e infecciones. Los corticosteroides no son tratamiento universal para todo edema cerebral y pueden ser perjudiciales en determinadas lesiones, como el traumatismo craneoencefálico.`,
+  perlaENARM: "Dexametasona para edema vasogénico tumoral sintomático; no extrapolar su uso a todo tipo de edema cerebral.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente de metástasis cerebrales y tratamiento del edema peritumoral.",
+    internacional: "Guidelines for the use of dexamethasone in patients with brain metastases; recomendaciones de neurooncología."
+  },
+  bibliografia: "Ryken TC et al. The role of steroids in the management of brain metastases: a systematic review and evidence-based clinical practice guideline. J Neurooncol. 2010;96:103-114."
+},
+{
+  id: "NEU-236",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Corticosteroides en traumatismo craneoencefálico",
+  dificultad: "Muy alta",
+  caso: `Varón de 41 años con traumatismo craneoencefálico grave presenta edema cerebral y elevación de la presión intracraneal. Un integrante del equipo propone administrar dexametasona para reducir el edema, extrapolando su uso en metástasis cerebrales.`,
+  pregunta: "¿Cuál es la recomendación basada en evidencia para corticosteroides en traumatismo craneoencefálico grave?",
+  opciones: [
+    "No utilizarlos para reducir la presión intracraneal, debido a la ausencia de beneficio y al daño demostrado",
+    "Administrarlos de rutina a todos los pacientes con traumatismo craneoencefálico grave",
+    "Utilizarlos como sustituto de la monitorización de presión intracraneal",
+    "Administrarlos solo cuando exista hipotensión",
+    "Utilizarlos para evitar la necesidad de neurocirugía en todos los casos"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Los corticosteroides no se recomiendan para reducir la presión intracraneal ni mejorar el desenlace en traumatismo craneoencefálico grave. El ensayo CRASH demostró mayor mortalidad con metilprednisolona a dosis altas. El manejo debe centrarse en prevenir hipoxia e hipotensión, controlar la presión intracraneal cuando esté indicado y tratar la lesión estructural. La utilidad de corticosteroides en edema tumoral no se extrapola al trauma.`,
+  perlaENARM: "Traumatismo craneoencefálico grave: corticosteroides contraindicados para reducir la presión intracraneal por evidencia de daño.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de traumatismo craneoencefálico grave.",
+    internacional: "Brain Trauma Foundation Guidelines, 4th edition; CRASH trial."
+  },
+  bibliografia: "Edwards P et al. Final results of MRC CRASH, a randomised placebo-controlled trial of intravenous corticosteroid in adults with head injury. Lancet. 2005;365:1957-1959. Carney N et al. Neurosurgery. 2017;80:6-15."
+},
+{
+  id: "NEU-237",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Presión intracraneal y posicionamiento",
+  dificultad: "Media",
+  caso: `Paciente neurocrítico con edema cerebral presenta presión intracraneal elevada. No existe inestabilidad hemodinámica y no hay contraindicación para elevar la cabecera de la cama. El equipo busca una intervención inicial que favorezca el drenaje venoso cerebral.`,
+  pregunta: "¿Qué ajuste postural suele utilizarse como medida complementaria?",
+  opciones: [
+    "Elevar la cabecera aproximadamente 30 grados y mantener el cuello en posición neutra",
+    "Colocar siempre la cabeza en declive pronunciado",
+    "Mantener el cuello rotado al máximo hacia un lado",
+    "Comprimir ambas yugulares de forma continua",
+    "Colocar al paciente en posición de Trendelenburg de manera rutinaria"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Elevar la cabecera cerca de 30 grados y mantener el cuello en posición neutra puede favorecer el retorno venoso y ayudar a controlar la presión intracraneal. La intervención debe individualizarse según presión arterial, perfusión cerebral, lesiones cervicales y tolerancia hemodinámica. Es una medida complementaria y no sustituye el tratamiento de la causa ni la terapia específica cuando la presión permanece elevada.`,
+  perlaENARM: "Cabecera elevada y cuello neutro pueden favorecer drenaje venoso cerebral; vigilar que no se comprometa la perfusión.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de cuidados neurocríticos y posicionamiento en lesión cerebral aguda.",
+    internacional: "Brain Trauma Foundation. Guidelines for the Management of Severe Traumatic Brain Injury, 4th edition."
+  },
+  bibliografia: "Carney N et al. Neurosurgery. 2017;80:6-15."
+},
+{
+  id: "NEU-238",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Pseudotumor cerebri y fármacos asociados",
+  dificultad: "Alta",
+  caso: `Mujer de 25 años con obesidad presenta cefalea progresiva, papiledema y tinnitus pulsátil. Recibe un derivado de tetraciclina por acné y utiliza suplementos con vitamina A. La neuroimagen no muestra masa, pero aún no se ha completado el estudio de causas secundarias.`,
+  pregunta: "¿Qué conducta es importante al evaluar una posible hipertensión intracraneal secundaria a fármacos?",
+  opciones: [
+    "Revisar y retirar, cuando sea clínicamente apropiado, los fármacos asociados y completar la evaluación diagnóstica",
+    "Asumir que todos los casos son idiopáticos por existir obesidad",
+    "Aumentar la dosis del derivado de tetraciclina",
+    "Iniciar anticoagulación sin estudiar la circulación venosa",
+    "Descartar la relación farmacológica porque la paciente es joven"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `Algunos fármacos, incluidos derivados de tetraciclinas y retinoides, se han asociado con hipertensión intracraneal secundaria. La evaluación requiere revisar exposiciones, suspender el agente sospechoso cuando sea seguro y completar la investigación de causas secundarias, incluida trombosis venosa cerebral. La presencia de obesidad no excluye una causa farmacológica y la vigilancia visual sigue siendo prioritaria.`,
+  perlaENARM: "En sospecha de hipertensión intracraneal, revisar tetraciclinas y retinoides; no etiquetar como idiopática sin excluir causas secundarias.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente y la información de seguridad de los fármacos sospechosos.",
+    internacional: "Mollan et al. Consensus guidelines on management of idiopathic intracranial hypertension, 2018."
+  },
+  bibliografia: "Mollan SP et al. J Neurol Neurosurg Psychiatry. 2018;89:1088-1100."
+},
+{
+  id: "NEU-239",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Hernia subfalcina",
+  dificultad: "Muy alta",
+  caso: `Varón de 67 años con hematoma frontal expansivo presenta desplazamiento de la línea media en la TC. El giro del cíngulo se desplaza por debajo de la hoz cerebral y el paciente desarrolla debilidad predominante en la pierna contralateral.`,
+  pregunta: "¿Qué tipo de herniación y estructura vascular explican mejor este patrón?",
+  opciones: [
+    "Herniación subfalcina con posible compresión de la arteria cerebral anterior",
+    "Herniación tonsilar con compresión exclusiva del bulbo",
+    "Herniación uncal con compresión inicial obligatoria del nervio óptico",
+    "Herniación ascendente a través del tentorio",
+    "Herniación transesfenoidal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `La herniación subfalcina ocurre cuando el giro del cíngulo se desplaza bajo la hoz cerebral. Puede comprimir la arteria cerebral anterior y producir isquemia en su territorio, con debilidad predominante de la extremidad inferior contralateral. El desplazamiento de la línea media y el deterioro clínico requieren valoración urgente y tratamiento de la lesión expansiva causante.`,
+  perlaENARM: "Herniación subfalcina: desplazamiento del cíngulo bajo la hoz y riesgo de compromiso de la arteria cerebral anterior.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de neurocirugía y manejo de lesiones expansivas intracraneales.",
+    internacional: "Brain Trauma Foundation. Guidelines for the Management of Severe Traumatic Brain Injury, 4th edition."
+  },
+  bibliografia: "Carney N et al. Neurosurgery. 2017;80:6-15."
+},
+{
+  id: "NEU-240",
+  especialidad: "Neurología",
+  tema: "Hipertensión intracraneal",
+  subtema: "Monitorización y tratamiento de hipertensión intracraneal en trauma",
+  dificultad: "Muy alta",
+  caso: `Varón de 36 años con traumatismo craneoencefálico grave tiene monitor de presión intracraneal. Durante la última hora, la presión se mantiene en 24–27 mmHg pese a medidas iniciales, y la presión de perfusión cerebral se aproxima al límite inferior de la meta individualizada. La TC muestra edema difuso sin una lesión evacuable evidente.`,
+  pregunta: "¿Cuál es el principio más apropiado para guiar el siguiente escalón terapéutico?",
+  opciones: [
+    "Escalar el tratamiento según presión intracraneal, perfusión cerebral, neuroimagen y respuesta, buscando causas reversibles y evitando hipotensión",
+    "Administrar sedantes y no volver a medir la presión intracraneal",
+    "Reducir la presión arterial sistémica de forma agresiva para disminuir la presión intracraneal",
+    "Mantener la presión intracraneal elevada mientras no aparezca midriasis",
+    "Administrar corticosteroides de rutina para reducir el edema traumático"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: `En traumatismo craneoencefálico grave, una presión intracraneal persistentemente elevada requiere una estrategia escalonada basada en el contexto clínico, la duración de la elevación, la perfusión cerebral, la neuroimagen y la respuesta a medidas previas. Deben revisarse oxigenación, ventilación, presión arterial, posición, sedación, temperatura y alteraciones metabólicas. La terapia hiperosmolar, el drenaje de LCR cuando sea posible y otras intervenciones se seleccionan según indicación. Los corticosteroides no se recomiendan para reducir la presión intracraneal traumática.`,
+  perlaENARM: "No tratar un número aislado: integrar PIC, PPC, exploración, neuroimagen y respuesta; evitar hipoxia e hipotensión.",
+  gpc: {
+    mexico: "Consultar protocolos mexicanos vigentes de traumatismo craneoencefálico grave y monitorización neurocrítica.",
+    internacional: "Brain Trauma Foundation. Guidelines for the Management of Severe Traumatic Brain Injury, 4th edition; Neurocritical Care Society, 2020."
+  },
+  bibliografia: "Carney N et al. Neurosurgery. 2017;80:6-15. Cook AM et al. Neurocrit Care. 2020;32:647-666."
 },
 
 {
