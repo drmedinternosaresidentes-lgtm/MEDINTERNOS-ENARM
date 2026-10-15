@@ -749,11 +749,6 @@ window.BANCO_PEDIATRIA = [
     },
     bibliografia: "American Academy of Pediatrics. Guidelines for Perinatal Care."
   },
-  // ============================================================
-  // NEONATOLOGÍA — DIFICULTAD MEDIA
-  // 30 preguntas | PED-031 a PED-060
-  // ============================================================
-
   {
     id: "PED-031",
     especialidad: "Pediatría",
@@ -778,7 +773,6 @@ window.BANCO_PEDIATRIA = [
     },
     bibliografia: "American Academy of Pediatrics. Textbook of Neonatal Resuscitation."
   },
-
   {
     id: "PED-032",
     especialidad: "Pediatría",
