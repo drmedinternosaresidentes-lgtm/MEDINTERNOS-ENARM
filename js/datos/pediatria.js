@@ -8087,4 +8087,4 @@ window.BANCO_PEDIATRIA = [
   },
   bibliografia: "GINA. Difficult-to-Treat and Severe Asthma: Guide for Health Professionals."
 }
-]
+];
