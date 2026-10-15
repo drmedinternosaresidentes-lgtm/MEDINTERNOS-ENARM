@@ -179,7 +179,38 @@ this.orden = orden;
   pool = this.shuffle(pool);
 }
 
-this.preguntas = pool.slice(0, cantidad);
+
+this.preguntas = pool
+  .slice(0, cantidad)
+  .map((pregunta) => {
+    const opcionesMezcladas = pregunta.opciones.map(
+      (texto, indiceOriginal) => ({
+        texto,
+        indiceOriginal
+      })
+    );
+
+    // Mezclar las opciones aleatoriamente.
+    for (let i = opcionesMezcladas.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+
+      [
+        opcionesMezcladas[i],
+        opcionesMezcladas[j]
+      ] = [
+        opcionesMezcladas[j],
+        opcionesMezcladas[i]
+      ];
+    }
+
+    return {
+      ...pregunta,
+      opciones: opcionesMezcladas.map((opcion) => opcion.texto),
+      respuestaCorrecta: opcionesMezcladas.findIndex(
+        (opcion) => opcion.indiceOriginal === pregunta.respuestaCorrecta
+      )
+    };
+  });
 
     this.indice = 0;
 
