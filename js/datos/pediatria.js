@@ -1,4 +1,5 @@
 window.BANCO_PEDIATRIA = [
+  
   {
     id: "PED-001",
     especialidad: "Pediatría",
@@ -8086,5 +8087,4 @@ window.BANCO_PEDIATRIA = [
   },
   bibliografia: "GINA. Difficult-to-Treat and Severe Asthma: Guide for Health Professionals."
 }
-
 ];
