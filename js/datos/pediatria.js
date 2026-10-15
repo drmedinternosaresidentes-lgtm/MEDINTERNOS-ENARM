@@ -8078,5 +8078,730 @@ window.BANCO_PEDIATRIA = [
     internacional: "GINA. Difficult-to-Treat and Severe Asthma: Guide for Health Professionals."
   },
   bibliografia: "GINA. Difficult-to-Treat and Severe Asthma: Guide for Health Professionals."
- }
+ },
+  {
+    id: "PED-301",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Presentación clínica característica",
+    dificultad: "Baja",
+    caso: "Niño de 22 meses previamente sano presenta rinorrea y febrícula durante dos días. Durante la madrugada desarrolla tos áspera semejante al ladrido de un perro, disfonía y ruido respiratorio audible durante la inspiración. Se encuentra despierto, acepta líquidos y presenta retracciones supraesternales leves cuando llora.",
+    pregunta: "¿Qué estructura anatómica explica principalmente el estridor inspiratorio de este cuadro?",
+    opciones: [
+      "Bronquiolos terminales con obstrucción por secreciones",
+      "Alvéolos con ocupación inflamatoria difusa",
+      "Espacio subglótico con edema que estrecha la vía aérea superior",
+      "Pleura visceral con inflamación aguda",
+      "Parénquima pulmonar con pérdida de elasticidad"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: "La laringotraqueítis produce inflamación y edema de la laringe, especialmente en la región subglótica. El estrechamiento de esta vía aérea genera flujo turbulento y estridor predominantemente inspiratorio. La tos perruna y la disfonía reflejan la afectación laríngea. La gravedad depende del grado de obstrucción y del trabajo respiratorio, no únicamente de la intensidad de la tos.",
+    perlaENARM: "Tos perruna, disfonía y estridor inspiratorio después de un pródromo catarral constituyen la presentación clásica del crup.",
+    gpc: {
+      mexico: "Consultar la GPC mexicana vigente aplicable a laringotraqueítis aguda pediátrica.",
+      internacional: "Guías pediátricas internacionales vigentes para crup y obstrucción aguda de la vía aérea superior."
+    },
+    bibliografia: "Manual de Pediatría adjunto, capítulo de patología respiratoria pediátrica; guías clínicas pediátricas sobre crup."
+  },
+  {
+    id: "PED-302",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Etiología viral",
+    dificultad: "Baja",
+    caso: "En una guardería, varios niños presentan infección de vías respiratorias superiores durante el otoño. Un niño de 2 años desarrolla posteriormente tos metálica, disfonía y estridor inspiratorio. No tiene sialorrea ni dificultad para deglutir. El cuadro es compatible con laringotraqueítis viral.",
+    pregunta: "¿Qué agente etiológico se asocia clásicamente con este síndrome?",
+    opciones: [
+      "Virus parainfluenza, especialmente el tipo 1",
+      "Virus de la hepatitis A",
+      "Rotavirus",
+      "Virus de Epstein-Barr como causa habitual",
+      "Parvovirus B19"
+    ],
+    respuestaCorrecta: 0,
+    explicacion: "Los virus parainfluenza son causas clásicas de laringotraqueítis viral, en particular el tipo 1. También pueden participar influenza, virus sincitial respiratorio, adenovirus y rinovirus. La presentación clínica habitual incluye pródromo catarral seguido de tos perruna, disfonía y estridor. En un cuadro típico no se requieren pruebas virológicas para establecer el diagnóstico.",
+    perlaENARM: "Parainfluenza tipo 1 es la asociación clásica de examen con crup; recuerda que otros virus respiratorios también pueden producirlo.",
+    gpc: {
+      mexico: "Consultar recomendaciones mexicanas vigentes sobre diagnóstico clínico de laringotraqueítis.",
+      internacional: "Guías pediátricas internacionales vigentes para crup."
+    },
+    bibliografia: "Manual de Pediatría adjunto, apartado de laringitis vírica; literatura pediátrica sobre etiología viral del crup."
+  },
+  {
+    id: "PED-303",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Diagnóstico clínico",
+    dificultad: "Baja",
+    caso: "Lactante de 18 meses con rinorrea y tos leve desde hace 36 horas presenta por la noche tos perruna y disfonía. Tiene estridor inspiratorio únicamente cuando llora, sin tiraje en reposo, y permanece activo. No hay antecedente de atragantamiento ni signos de toxicidad.",
+    pregunta: "¿Qué estrategia diagnóstica está indicada en este escenario típico?",
+    opciones: [
+      "Tomografía cervical con contraste en todos los casos",
+      "Hemocultivos y cultivo de secreciones laríngeas de rutina",
+      "Broncoscopia urgente aunque no existan datos atípicos",
+      "Radiografía cervical obligatoria antes de tratar",
+      "Diagnóstico clínico basado en la historia y la exploración respiratoria"
+    ],
+    respuestaCorrecta: 4,
+    explicacion: "El crup típico se diagnostica clínicamente por la combinación de pródromo respiratorio, tos perruna, disfonía y estridor. Las pruebas de imagen y los estudios de laboratorio no se solicitan de rutina en un niño estable con presentación característica. Deben reservarse para situaciones seleccionadas en las que exista incertidumbre diagnóstica, evolución atípica o sospecha de otra enfermedad.",
+    perlaENARM: "Crup típico y paciente estable: diagnóstico clínico. No retrases el tratamiento para obtener radiografías innecesarias.",
+    gpc: {
+      mexico: "Consultar la GPC mexicana vigente para el abordaje diagnóstico del crup pediátrico.",
+      internacional: "Guías pediátricas internacionales vigentes para diagnóstico de crup."
+    },
+    bibliografia: "Manual de Pediatría adjunto, capítulo de laringitis; guías clínicas pediátricas sobre evaluación del crup."
+  },
+  {
+    id: "PED-304",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Tratamiento antiinflamatorio",
+    dificultad: "Baja",
+    caso: "Niña de 3 años con tos perruna, disfonía y estridor inspiratorio leve es evaluada en urgencias. Está alerta, mantiene una saturación normal y no presenta signos de agotamiento. La exploración es compatible con crup sin datos de obstrucción grave.",
+    pregunta: "¿Qué medicamento reduce el edema de la vía aérea y se recomienda como tratamiento farmacológico en el crup?",
+    opciones: [
+      "Amoxicilina en todos los pacientes",
+      "Dexametasona",
+      "Furosemida intravenosa",
+      "Salbutamol como único tratamiento antiinflamatorio",
+      "Antihistamínico sedante como monoterapia"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "La dexametasona es un corticoide sistémico utilizado en el crup para reducir la inflamación y mejorar los síntomas. Se recomienda en distintos grados de gravedad; la vía oral suele ser apropiada cuando el niño puede recibir el medicamento. La dosis y la vía se determinan conforme al protocolo clínico aplicable. Los antibióticos no están indicados de rutina porque la causa habitual es viral.",
+    perlaENARM: "Dexametasona es el tratamiento farmacológico central del crup, incluso en cuadros leves según las recomendaciones clínicas vigentes.",
+    gpc: {
+      mexico: "Consultar la GPC mexicana vigente para dosis y administración de corticoides en laringotraqueítis.",
+      internacional: "Guías pediátricas internacionales vigentes para tratamiento farmacológico del crup."
+    },
+    bibliografia: "Manual de Pediatría adjunto, apartado de tratamiento de laringitis; guías pediátricas sobre corticoides en crup."
+  },
+  {
+    id: "PED-305",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Uso de adrenalina nebulizada",
+    dificultad: "Baja",
+    caso: "Niño de 2 años y medio presenta tos perruna, estridor en reposo y retracciones supraesternales e intercostales. Está consciente, pero muestra aumento evidente del trabajo respiratorio. Se inicia tratamiento para crup moderado a grave y se mantiene monitorizado.",
+    pregunta: "¿Qué fármaco inhalado puede proporcionar una mejoría rápida y transitoria de la obstrucción en este paciente?",
+    opciones: [
+      "Budesonida oral",
+      "Ipratropio como monoterapia obligatoria",
+      "Adrenalina nebulizada",
+      "Cromoglicato inhalado",
+      "Solución salina hipertónica como tratamiento específico"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: "La adrenalina nebulizada produce vasoconstricción de la mucosa y reduce temporalmente el edema de la vía aérea superior. Está indicada en crup con síntomas moderados o graves, especialmente ante estridor en reposo y aumento del trabajo respiratorio. Su efecto puede disminuir después de un periodo de observación, por lo que se requiere vigilancia clínica y reevaluación tras la administración.",
+    perlaENARM: "Estridor en reposo con dificultad respiratoria significativa: considera adrenalina nebulizada y vigilancia. Su efecto es rápido, pero transitorio.",
+    gpc: {
+      mexico: "Consultar la GPC mexicana vigente para indicaciones, dosis y monitorización de adrenalina nebulizada.",
+      internacional: "Guías pediátricas internacionales vigentes para crup moderado y grave."
+    },
+    bibliografia: "Manual de Pediatría adjunto, apartado de tratamiento de laringitis; guías clínicas sobre adrenalina nebulizada."
+  },
+  {
+    id: "PED-306",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Diferenciación de estridor y sibilancias",
+    dificultad: "Baja",
+    caso: "Escolar de 4 años presenta tos perruna y disfonía después de un catarro. Durante la inspiración se escucha un ruido áspero más intenso en el cuello; la auscultación pulmonar no muestra sibilancias espiratorias difusas. No hay antecedente de atragantamiento.",
+    pregunta: "¿Qué característica del ruido respiratorio favorece una obstrucción de la vía aérea superior?",
+    opciones: [
+      "Estridor de predominio inspiratorio audible en el cuello",
+      "Sibilancias polifónicas predominantemente espiratorias",
+      "Estertores crepitantes bibasales persistentes",
+      "Roce pleural durante la inspiración profunda",
+      "Roncus que desaparecen después de la tos"
+    ],
+    respuestaCorrecta: 0,
+    explicacion: "El estridor es un ruido respiratorio áspero que suele reflejar obstrucción de la vía aérea superior. En el crup predomina durante la inspiración por el estrechamiento de la región laríngea y subglótica. Las sibilancias suelen originarse en vías aéreas intratorácicas de menor calibre y son típicamente espiratorias. La localización y la fase respiratoria del ruido ayudan a orientar el diagnóstico.",
+    perlaENARM: "Estridor inspiratorio orienta a vía aérea superior; sibilancias espiratorias orientan a obstrucción de vías aéreas inferiores.",
+    gpc: {
+      mexico: "Consultar recomendaciones mexicanas vigentes para evaluación del estridor pediátrico.",
+      internacional: "Guías pediátricas internacionales vigentes para diagnóstico diferencial de estridor."
+    },
+    bibliografia: "Manual de Pediatría adjunto, patología respiratoria pediátrica y características del estridor."
+  },
+  {
+    id: "PED-307",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Signos de gravedad",
+    dificultad: "Baja",
+    caso: "Niño de 20 meses con crup recibe tratamiento inicial y permanece en observación. Posteriormente se muestra somnoliento, con retracciones marcadas, entrada de aire disminuida y menor intensidad del estridor, aunque el esfuerzo respiratorio continúa siendo evidente.",
+    pregunta: "¿Qué interpretación clínica debe hacerse ante la disminución del estridor acompañada de somnolencia y menor entrada de aire?",
+    opciones: [
+      "Resolución confirmada del edema subglótico",
+      "Efecto esperado sin necesidad de reevaluación",
+      "Evolución favorable porque ya no hay tos perruna",
+      "Probable agotamiento y obstrucción grave que requieren atención inmediata",
+      "Manifestación exclusiva de ansiedad posterior al tratamiento"
+    ],
+    respuestaCorrecta: 3,
+    explicacion: "La somnolencia, el esfuerzo respiratorio marcado y la reducción de la entrada de aire son signos de alarma. Un estridor menos intenso no demuestra mejoría si disminuye el flujo aéreo debido a una obstrucción crítica o agotamiento. Se requiere reevaluación inmediata, apoyo de un equipo experto en vía aérea y tratamiento urgente según la gravedad.",
+    perlaENARM: "La disminución del ruido respiratorio en un niño que empeora puede indicar flujo aéreo críticamente reducido; nunca interpretes el estridor de forma aislada.",
+    gpc: {
+      mexico: "Consultar protocolos mexicanos vigentes para manejo de obstrucción grave de la vía aérea pediátrica.",
+      internacional: "Guías pediátricas internacionales vigentes para evaluación de crup grave."
+    },
+    bibliografia: "Manual de Pediatría adjunto; guías clínicas pediátricas sobre signos de alarma y crup grave."
+  },
+  {
+    id: "PED-308",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Diagnóstico diferencial: epiglotitis",
+    dificultad: "Baja",
+    caso: "Niño de 4 años presenta fiebre alta, aspecto tóxico, dolor intenso al deglutir, sialorrea y postura inclinada hacia adelante. La voz está apagada y la dificultad respiratoria progresa rápidamente. No tiene la tos perruna característica del crup.",
+    pregunta: "¿Qué diagnóstico debe sospecharse por la combinación de odinofagia intensa, sialorrea y postura en trípode?",
+    opciones: [
+      "Laringotraqueítis viral leve",
+      "Epiglotitis aguda",
+      "Bronquiolitis por virus sincitial respiratorio",
+      "Laringomalacia congénita",
+      "Rinitis alérgica aguda"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "La fiebre alta, el aspecto tóxico, la sialorrea, la dificultad para deglutir y la postura en trípode orientan a epiglotitis, una urgencia por riesgo de obstrucción súbita de la vía aérea. Debe solicitarse ayuda experta y evitar maniobras que agiten al niño o la exploración faríngea forzada. El crup suele presentar tos perruna y un estado general relativamente mejor.",
+    perlaENARM: "Sialorrea, disfagia intensa, fiebre alta y postura en trípode son datos clásicos de epiglotitis, no de crup típico.",
+    gpc: {
+      mexico: "Consultar protocolos mexicanos vigentes para sospecha y manejo urgente de epiglotitis pediátrica.",
+      internacional: "Guías pediátricas internacionales vigentes para epiglotitis y obstrucción de vía aérea superior."
+    },
+    bibliografia: "Manual de Pediatría adjunto, diagnóstico diferencial entre laringitis y epiglotitis."
+  },
+  {
+    id: "PED-309",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Medidas de soporte",
+    dificultad: "Baja",
+    caso: "Lactante de 2 años con crup leve permanece tranquilo en brazos de su cuidador. Está bien perfundido, mantiene saturación normal y presenta estridor únicamente al llorar. La familia pregunta si debe administrarse oxígeno de forma rutinaria aunque no exista hipoxemia.",
+    pregunta: "¿Cuál es el principio de soporte más apropiado en este paciente estable?",
+    opciones: [
+      "Separarlo de su cuidador para realizar exploraciones repetidas",
+      "Administrar oxígeno a alto flujo a todos los niños con tos perruna",
+      "Indicar antibióticos profilácticos para prevenir neumonía",
+      "Realizar intubación preventiva por el diagnóstico de crup",
+      "Mantenerlo tranquilo, minimizar la agitación y vigilar la evolución respiratoria"
+    ],
+    respuestaCorrecta: 4,
+    explicacion: "La agitación y el llanto pueden aumentar el trabajo respiratorio y empeorar el estridor. En un niño estable es conveniente mantenerlo cómodo con su cuidador y evitar procedimientos innecesarios. El oxígeno se utiliza cuando existe hipoxemia o una indicación clínica concreta, mientras que la vigilancia debe ajustarse a la gravedad. Las medidas de soporte no sustituyen el corticoide indicado para el crup.",
+    perlaENARM: "En la obstrucción de la vía aérea superior, tranquilizar al niño y evitar maniobras innecesarias forma parte del manejo seguro.",
+    gpc: {
+      mexico: "Consultar la GPC mexicana vigente para medidas de soporte y monitorización en crup.",
+      internacional: "Guías pediátricas internacionales vigentes para manejo de crup."
+    },
+    bibliografia: "Manual de Pediatría adjunto; recomendaciones clínicas sobre soporte y monitorización del crup."
+  },
+  {
+    id: "PED-310",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Uso de estudios de imagen",
+    dificultad: "Baja",
+    caso: "Niña de 3 años con tos perruna, disfonía y estridor inspiratorio leve después de un catarro es evaluada en consulta. No presenta sialorrea, fiebre alta, hipoxemia ni datos de cuerpo extraño. La exploración es compatible con crup típico.",
+    pregunta: "¿En qué circunstancia estaría más justificado solicitar una radiografía cervical?",
+    opciones: [
+      "En todo niño con tos nocturna, aunque no tenga estridor",
+      "Como requisito antes de administrar dexametasona",
+      "Cuando existe incertidumbre diagnóstica o sospecha de una causa alternativa y el paciente está estable",
+      "Para cuantificar de forma rutinaria el edema en cada reevaluación",
+      "Para descartar definitivamente cualquier obstrucción si la imagen es normal"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: "El diagnóstico de crup es clínico y la radiografía no se requiere de rutina. Puede considerarse si la presentación es atípica o existe duda diagnóstica, siempre que el paciente esté suficientemente estable y el estudio no retrase la atención necesaria. La imagen no descarta por completo otras causas de obstrucción y nunca debe anteponerse a la estabilización de una vía aérea amenazada.",
+    perlaENARM: "No solicites radiografía de rutina en el crup típico. Si hay signos de obstrucción grave, la prioridad es estabilizar la vía aérea.",
+    gpc: {
+      mexico: "Consultar la GPC mexicana vigente para indicaciones de imagen en laringotraqueítis pediátrica.",
+      internacional: "Guías pediátricas internacionales vigentes para evaluación diagnóstica del crup."
+    },
+    bibliografia: "Manual de Pediatría adjunto, apartado de diagnóstico de laringitis; guías clínicas pediátricas sobre crup."
+  },
+  
+  {
+    id: "PED-311",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Clasificación de gravedad",
+    dificultad: "Media",
+    caso: "Niño de 2 años y 8 meses con rinorrea y tos perruna desde hace 24 horas. En urgencias presenta estridor audible en reposo, retracciones supraesternales y subcostales moderadas, pero permanece alerta, puede hablar y mantiene una entrada de aire bilateral adecuada. La saturación de oxígeno es de 96% al aire ambiente.",
+    pregunta: "¿Qué característica permite clasificar el cuadro como algo más que una laringotraqueítis leve?",
+    opciones: [
+      "La presencia de rinorrea durante el pródromo",
+      "La edad menor de cinco años",
+      "La tos perruna durante la noche",
+      "El estridor en reposo acompañado de retracciones",
+      "La saturación de oxígeno conservada"
+    ],
+    respuestaCorrecta: 3,
+    explicacion: "El estridor en reposo y las retracciones indican obstrucción clínicamente significativa y orientan a crup moderado, aunque la saturación permanezca normal. La gravedad se determina mediante la valoración conjunta del estridor, el trabajo respiratorio, la entrada de aire, el estado mental y la evolución clínica.",
+    perlaENARM: "El estridor en reposo diferencia un cuadro más significativo del estridor que aparece únicamente con el llanto.",
+    gpc: {
+      mexico: "Consultar la GPC mexicana vigente sobre evaluación de gravedad de laringotraqueítis pediátrica.",
+      internacional: "Guías pediátricas internacionales vigentes para evaluación del crup."
+    },
+    bibliografia: "Manual de Pediatría adjunto, apartado de laringitis; guías clínicas pediátricas sobre gravedad del crup."
+  },
+  {
+    id: "PED-312",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Tratamiento según gravedad",
+    dificultad: "Media",
+    caso: "Niña de 3 años con crup presenta estridor en reposo, retracciones moderadas y ansiedad por la dificultad respiratoria. No tiene sialorrea ni postura en trípode. Se encuentra en urgencias con monitorización disponible.",
+    pregunta: "Además del corticoide sistémico, ¿qué intervención farmacológica está indicada para lograr una mejoría rápida de la obstrucción?",
+    opciones: [
+      "Adrenalina nebulizada",
+      "Amoxicilina oral",
+      "Salbutamol inhalado como tratamiento específico del edema subglótico",
+      "Antihistamínico sedante",
+      "Montelukast oral como medicación de rescate"
+    ],
+    respuestaCorrecta: 0,
+    explicacion: "La adrenalina nebulizada produce vasoconstricción de la mucosa y reduce transitoriamente el edema de la vía aérea superior. Se utiliza en cuadros moderados o graves, junto con corticoide sistémico y vigilancia clínica. La respuesta debe reevaluarse porque el efecto de la adrenalina disminuye con el tiempo.",
+    perlaENARM: "En crup con estridor en reposo y dificultad respiratoria, la adrenalina nebulizada proporciona alivio rápido, pero requiere observación posterior.",
+    gpc: {
+      mexico: "Consultar la GPC mexicana vigente para tratamiento de crup moderado o grave.",
+      internacional: "Guías pediátricas internacionales vigentes para tratamiento de laringotraqueítis."
+    },
+    bibliografia: "Manual de Pediatría adjunto; guías clínicas pediátricas sobre adrenalina nebulizada y corticoides."
+  },
+  {
+    id: "PED-313",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Observación después de adrenalina",
+    dificultad: "Media",
+    caso: "Lactante de 26 meses con crup moderado recibe dexametasona y adrenalina nebulizada. A los 20 minutos desaparece el estridor en reposo y disminuyen las retracciones. La familia solicita el alta inmediata porque el niño parece encontrarse bien.",
+    pregunta: "¿Qué aspecto debe considerarse antes de decidir el egreso?",
+    opciones: [
+      "Realizar una tomografía cervical a todos los pacientes",
+      "Administrar antibióticos para prevenir una recaída",
+      "Mantener al niño en ayuno durante 24 horas",
+      "Repetir adrenalina de forma automática aunque permanezca asintomático",
+      "Observar la evolución durante el periodo recomendado y confirmar estabilidad sin recurrencia del estridor en reposo"
+    ],
+    respuestaCorrecta: 4,
+    explicacion: "La mejoría tras adrenalina nebulizada puede ser transitoria. El paciente debe permanecer en observación durante el intervalo establecido por el protocolo clínico, con reevaluación del estridor en reposo, trabajo respiratorio, entrada de aire y capacidad para hidratarse. El egreso depende de la estabilidad clínica y de la ausencia de recurrencia significativa.",
+    perlaENARM: "La respuesta inicial a adrenalina no basta para decidir el alta: debe descartarse recurrencia de la obstrucción durante la observación.",
+    gpc: {
+      mexico: "Consultar la GPC mexicana vigente sobre observación y criterios de alta en crup.",
+      internacional: "Guías pediátricas internacionales vigentes para disposición clínica tras adrenalina nebulizada."
+    },
+    bibliografia: "Manual de Pediatría adjunto; guías clínicas pediátricas para observación y alta en laringotraqueítis."
+  },
+  {
+    id: "PED-314",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Diagnóstico diferencial: traqueítis bacteriana",
+    dificultad: "Media",
+    caso: "Niño de 5 años presenta un cuadro inicial de tos y rinorrea que progresa a fiebre alta, aspecto tóxico, estridor intenso y dificultad respiratoria. No mejora como se esperaba después del tratamiento habitual del crup y desarrolla secreciones respiratorias espesas.",
+    pregunta: "¿Qué diagnóstico debe considerarse ante esta evolución y la falta de respuesta al tratamiento inicial?",
+    opciones: [
+      "Laringomalacia congénita",
+      "Traqueítis bacteriana",
+      "Rinitis alérgica",
+      "Asma inducida por ejercicio",
+      "Reflujo gastroesofágico no complicado"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "La traqueítis bacteriana puede comenzar con síntomas respiratorios similares a una infección viral y evolucionar a fiebre elevada, toxicidad sistémica, secreciones espesas y obstrucción importante. La falta de respuesta al tratamiento convencional del crup es una señal de alarma. Se requiere manejo hospitalario urgente, evaluación experta de la vía aérea y tratamiento antimicrobiano intravenoso según el protocolo local.",
+    perlaENARM: "Fiebre alta, aspecto tóxico, secreciones espesas y mala respuesta al tratamiento habitual obligan a sospechar traqueítis bacteriana.",
+    gpc: {
+      mexico: "Consultar protocolos mexicanos vigentes para obstrucción infecciosa grave de la vía aérea pediátrica.",
+      internacional: "Guías pediátricas internacionales vigentes para traqueítis bacteriana."
+    },
+    bibliografia: "Manual de Pediatría adjunto; literatura pediátrica sobre traqueítis bacteriana y diagnóstico diferencial del crup."
+  },
+  {
+    id: "PED-315",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Diagnóstico diferencial: aspiración de cuerpo extraño",
+    dificultad: "Media",
+    caso: "Niño de 2 años presenta tos y ruido respiratorio de inicio abrupto mientras jugaba con piezas pequeñas. No había tenido síntomas catarrales previos. En la exploración se identifica estridor y disminución asimétrica de la entrada de aire.",
+    pregunta: "¿Qué elemento clínico favorece más una obstrucción por cuerpo extraño frente a un crup viral?",
+    opciones: [
+      "Tos perruna después de un pródromo catarral de varios días",
+      "Disfonía leve que empeora durante la noche",
+      "Inicio súbito durante el juego, sin pródromo infeccioso",
+      "Antecedente de rinorrea y febrícula",
+      "Episodios de tos que aparecen después de un catarro"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: "La aspiración de cuerpo extraño suele presentarse de forma abrupta durante la alimentación o el juego y puede producir hallazgos asimétricos. El crup habitualmente sigue a un pródromo viral y desarrolla tos perruna, disfonía y estridor. Ante la sospecha de cuerpo extraño con compromiso de la vía aérea, la evaluación y el manejo deben ser urgentes.",
+    perlaENARM: "Inicio súbito y asimetría respiratoria en un niño pequeño son pistas importantes de aspiración de cuerpo extraño.",
+    gpc: {
+      mexico: "Consultar protocolos mexicanos vigentes para sospecha de aspiración de cuerpo extraño.",
+      internacional: "Guías pediátricas internacionales vigentes para obstrucción de vía aérea por cuerpo extraño."
+    },
+    bibliografia: "Manual de Pediatría adjunto; literatura pediátrica sobre aspiración de cuerpo extraño y estridor."
+  },
+  {
+    id: "PED-316",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Corticoides y prevención de progresión",
+    dificultad: "Media",
+    caso: "Niño de 18 meses con crup leve recibe dexametasona oral. Sus padres preguntan por qué se administra un corticoide si el niño no presenta hipoxemia y solo tiene estridor cuando llora.",
+    pregunta: "¿Cuál es el fundamento fisiopatológico del beneficio de la dexametasona?",
+    opciones: [
+      "Disminuye la inflamación y el edema de la mucosa de la vía aérea superior",
+      "Elimina directamente todos los virus respiratorios",
+      "Produce broncodilatación beta-2 inmediata como mecanismo principal",
+      "Aumenta la secreción de moco para expulsar el agente causal",
+      "Suprime de forma inmediata el reflejo de la tos mediante sedación"
+    ],
+    respuestaCorrecta: 0,
+    explicacion: "El corticoide reduce la respuesta inflamatoria y el edema laríngeo-subglótico, lo que mejora los síntomas y disminuye la probabilidad de necesitar nuevas intervenciones. Su efecto no depende de que exista hipoxemia. No actúa como antiviral ni como broncodilatador beta-2 de acción rápida.",
+    perlaENARM: "El mecanismo principal del corticoide en crup es antiinflamatorio: reduce el edema de la vía aérea superior.",
+    gpc: {
+      mexico: "Consultar la GPC mexicana vigente sobre tratamiento con corticoides en crup pediátrico.",
+      internacional: "Guías pediátricas internacionales vigentes para uso de corticoides en laringotraqueítis."
+    },
+    bibliografia: "Manual de Pediatría adjunto; evidencia clínica sobre corticoides en laringotraqueítis aguda."
+  },
+  {
+    id: "PED-317",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Medidas no recomendadas de rutina",
+    dificultad: "Media",
+    caso: "Niña de 4 años con crup típico, sin datos de infección bacteriana, acude a consulta. Su cuidador solicita un antibiótico porque considera que la tos intensa indica una infección bacteriana. La niña está activa, sin fiebre alta ni signos de toxicidad.",
+    pregunta: "¿Cuál es la razón principal para no indicar antibióticos de rutina en este caso?",
+    opciones: [
+      "Los antibióticos empeoran inevitablemente la obstrucción laríngea",
+      "La tos perruna excluye cualquier infección",
+      "Los corticoides están contraindicados si existe una infección viral",
+      "La causa habitual es viral y no hay datos que sugieran una infección bacteriana",
+      "Los antibióticos sustituyen la necesidad de valorar la gravedad"
+    ],
+    respuestaCorrecta: 3,
+    explicacion: "La laringotraqueítis típica suele ser viral. Sin evidencia de una complicación bacteriana o de otro diagnóstico que requiera antimicrobianos, los antibióticos no aportan beneficio y pueden causar efectos adversos. La prioridad es evaluar la gravedad, administrar el tratamiento indicado y proporcionar vigilancia e instrucciones sobre signos de alarma.",
+    perlaENARM: "No se indican antibióticos de rutina en el crup viral no complicado.",
+    gpc: {
+      mexico: "Consultar la GPC mexicana vigente sobre uso racional de antimicrobianos en infecciones respiratorias pediátricas.",
+      internacional: "Guías pediátricas internacionales vigentes para tratamiento del crup viral."
+    },
+    bibliografia: "Manual de Pediatría adjunto; recomendaciones clínicas sobre manejo de laringotraqueítis viral."
+  },
+  {
+    id: "PED-318",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Factores anatómicos y fisiopatología",
+    dificultad: "Media",
+    caso: "Dos niños presentan edema subglótico de magnitud similar durante una infección viral. El primero tiene 10 meses y el segundo 9 años. El lactante desarrolla estridor y retracciones más evidentes, mientras el escolar conserva una ventilación relativamente cómoda.",
+    pregunta: "¿Qué propiedad anatómica explica principalmente la mayor repercusión del edema en el lactante?",
+    opciones: [
+      "Mayor volumen pulmonar residual en relación con la edad",
+      "Menor diámetro basal de la vía aérea, que amplifica el efecto del edema",
+      "Ausencia completa de cartílago laríngeo durante el primer año",
+      "Mayor capacidad de difusión de oxígeno en la mucosa",
+      "Mayor calibre subglótico en comparación con el escolar"
+    ],
+    respuestaCorrecta: 1,
+    explicacion: "En los lactantes, el menor diámetro de la vía aérea hace que una reducción relativamente pequeña del radio aumente de forma importante la resistencia al flujo. Por ello, el edema subglótico puede causar síntomas más intensos que en un niño mayor. La evaluación debe considerar edad, trabajo respiratorio, entrada de aire y signos de agotamiento.",
+    perlaENARM: "El pequeño diámetro de la vía aérea del lactante explica por qué un edema subglótico relativamente limitado puede causar obstrucción clínicamente importante.",
+    gpc: {
+      mexico: "Consultar recomendaciones mexicanas vigentes para evaluación de obstrucción de vía aérea superior en lactantes.",
+      internacional: "Guías pediátricas internacionales vigentes sobre fisiopatología y gravedad del crup."
+    },
+    bibliografia: "Manual de Pediatría adjunto; literatura pediátrica sobre anatomía de la vía aérea y laringotraqueítis."
+  },
+  {
+    id: "PED-319",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Criterios de reevaluación urgente",
+    dificultad: "Media",
+    caso: "Niño de 3 años con crup recibe tratamiento y regresa a urgencias horas después por empeoramiento. Presenta estridor persistente en reposo, retracciones progresivas y dificultad para beber. La familia refiere que ahora está menos activo que al inicio.",
+    pregunta: "¿Qué hallazgo adicional elevaría especialmente la preocupación por insuficiencia respiratoria inminente?",
+    opciones: [
+      "Rinorrea transparente",
+      "Tos que aumenta cuando llora",
+      "Disfonía aislada sin dificultad respiratoria",
+      "Febrícula con buen estado general",
+      "Somnolencia progresiva y reducción de la entrada de aire"
+    ],
+    respuestaCorrecta: 4,
+    explicacion: "La alteración del estado mental y la disminución de la entrada de aire pueden indicar hipoxemia, agotamiento o flujo aéreo críticamente reducido. En este contexto se requiere atención urgente y preparación para el manejo avanzado de la vía aérea por personal experimentado. No debe retrasarse la estabilización para completar estudios no esenciales.",
+    perlaENARM: "Alteración del estado mental, agotamiento y entrada de aire reducida son signos de alarma en cualquier obstrucción respiratoria pediátrica.",
+    gpc: {
+      mexico: "Consultar protocolos mexicanos vigentes para atención urgente de obstrucción grave de vía aérea pediátrica.",
+      internacional: "Guías pediátricas internacionales vigentes para evaluación del crup grave."
+    },
+    bibliografia: "Manual de Pediatría adjunto; guías clínicas sobre signos de gravedad y manejo de la vía aérea."
+  },
+  {
+    id: "PED-320",
+    especialidad: "Pediatría",
+    tema: "Laringotraqueítis aguda",
+    subtema: "Criterios de egreso y educación familiar",
+    dificultad: "Media",
+    caso: "Lactante de 2 años atendido por crup moderado mejora tras recibir tratamiento. Durante la observación permanece alerta, tolera líquidos, no presenta estridor en reposo y tiene un trabajo respiratorio mínimo. Sus cuidadores viven cerca del hospital y comprenden las instrucciones de vigilancia.",
+    pregunta: "¿Qué conjunto de condiciones apoya mejor la posibilidad de egreso tras la reevaluación clínica?",
+    opciones: [
+      "Persistencia de estridor en reposo, aunque haya mejorado la tos",
+      "Necesidad repetida de adrenalina sin estabilidad posterior",
+      "Ausencia de estridor en reposo, trabajo respiratorio mínimo, tolerancia oral e instrucciones claras de retorno",
+      "Somnolencia persistente y entrada de aire disminuida",
+      "Hipoxemia no resuelta compensada con menor intensidad de la tos"
+    ],
+    respuestaCorrecta: 2,
+    explicacion: "El egreso puede considerarse cuando el niño permanece clínicamente estable, no presenta estridor en reposo ni dificultad respiratoria significativa, tolera líquidos y cuenta con cuidadores capaces de reconocer signos de alarma. La decisión debe incorporar el tiempo de observación requerido después de adrenalina, la respuesta sostenida y las condiciones de seguimiento.",
+    perlaENARM: "El alta del crup depende de la estabilidad respiratoria sostenida y de instrucciones claras para regresar ante estridor en reposo, retracciones o deterioro general.",
+    gpc: {
+      mexico: "Consultar la GPC mexicana vigente sobre criterios de egreso y seguimiento del crup pediátrico.",
+      internacional: "Guías pediátricas internacionales vigentes para disposición clínica tras laringotraqueítis."
+    },
+    bibliografia: "Manual de Pediatría adjunto; guías clínicas pediátricas sobre observación, egreso y educación familiar en crup."
+  },
+
+{
+  id: "PED-321",
+  especialidad: "Pediatría",
+  tema: "Laringotraqueítis aguda",
+  subtema: "Diagnóstico diferencial y gravedad clínica",
+  dificultad: "Alta",
+  caso: "Niño de 2 años con 24 horas de rinorrea y tos perruna. Durante la noche presenta disfonía, estridor inspiratorio en reposo y retracciones supraesternales. Está despierto, interactúa con sus padres y mantiene adecuada entrada de aire bilateral. No presenta sialorrea ni dificultad para deglutir.",
+  pregunta: "¿Qué característica permite clasificar el cuadro como laringotraqueítis al menos moderada y orienta a administrar tratamiento adicional a un corticosteroide?",
+  opciones: [
+    "La presencia aislada de tos perruna durante la noche",
+    "La rinorrea previa al inicio de la tos",
+    "El estridor inspiratorio en reposo acompañado de retracciones",
+    "La disfonía sin alteraciones respiratorias",
+    "La edad menor de tres años"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "El estridor en reposo y las retracciones indican obstrucción clínicamente significativa de la vía aérea superior. En cuadros moderados o graves se considera adrenalina nebulizada además de corticosteroide, con vigilancia posterior por posible recurrencia de los síntomas. La tos perruna, la disfonía y la edad son compatibles con el diagnóstico, pero no determinan por sí solas la gravedad.",
+  perlaENARM: "El estridor en reposo diferencia la enfermedad moderada de la presentación leve; las retracciones, el agotamiento y la entrada de aire disminuida ayudan a reconocer mayor compromiso.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para diagnóstico y tratamiento de laringotraqueítis aguda en pediatría.",
+    internacional: "Canadian Paediatric Society. Acute management of croup in the emergency department."
+  },
+  bibliografia: "Harrison. Principios de Medicina Interna; Manual de Pediatría aportado por el usuario; Canadian Paediatric Society, Acute management of croup in the emergency department."
+},
+{
+  id: "PED-322",
+  especialidad: "Pediatría",
+  tema: "Laringotraqueítis aguda",
+  subtema: "Falla respiratoria inminente",
+  dificultad: "Alta",
+  caso: "Paciente de 20 meses con diagnóstico de crup que inicialmente presentaba estridor intenso y retracciones marcadas. Tras empeorar durante la observación, se torna somnoliento, disminuye el esfuerzo respiratorio y la entrada de aire es pobre bilateralmente. La saturación de oxígeno es de 91%.",
+  pregunta: "¿Cuál es la interpretación clínica prioritaria ante la disminución del estridor en este contexto?",
+  opciones: [
+    "Respuesta favorable espontánea a la inflamación laríngea",
+    "Resolución de la obstrucción por disminución del edema",
+    "Evolución esperada después de la fase febril",
+    "Probable transición a una infección de vías respiratorias inferiores sin gravedad",
+    "Agotamiento respiratorio con riesgo de obstrucción crítica"
+  ],
+  respuestaCorrecta: 4,
+  explicacion: "La reducción del estridor no siempre significa mejoría. Si se acompaña de somnolencia, menor esfuerzo respiratorio y entrada de aire deficiente, puede reflejar flujo aéreo críticamente reducido y agotamiento. Se requiere atención inmediata, estabilización de la vía aérea por personal experimentado y oxígeno según necesidad; no debe retrasarse la intervención por estudios de imagen.",
+  perlaENARM: "Un niño que deja de hacer ruido, pero se vuelve somnoliento y mueve menos aire, puede estar empeorando, no mejorando.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente de urgencias pediátricas y laringotraqueítis aguda.",
+    internacional: "Canadian Paediatric Society. Acute management of croup in the emergency department."
+  },
+  bibliografia: "Manual de Pediatría aportado por el usuario; Canadian Paediatric Society. Acute management of croup in the emergency department."
+},
+{
+  id: "PED-323",
+  especialidad: "Pediatría",
+  tema: "Laringotraqueítis aguda",
+  subtema: "Uso de adrenalina nebulizada",
+  dificultad: "Alta",
+  caso: "Niña de 3 años con tos perruna, estridor en reposo y retracciones intercostales. Recibe dexametasona y adrenalina nebulizada, con disminución rápida del estridor y mejoría del trabajo respiratorio.",
+  pregunta: "¿Cuál es la razón principal para mantenerla en observación después de la mejoría inicial?",
+  opciones: [
+    "La adrenalina puede producir una mejoría transitoria y los síntomas pueden reaparecer cuando disminuye su efecto",
+    "La dexametasona produce broncoespasmo de rebote durante las primeras dos horas",
+    "La adrenalina elimina la inflamación laríngea, pero favorece una sobreinfección bacteriana inmediata",
+    "La respuesta inicial confirma una infección por virus sincitial respiratorio",
+    "Todos los pacientes con crup requieren hospitalización durante 24 horas"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La adrenalina nebulizada reduce temporalmente el edema de la mucosa mediante vasoconstricción. Su efecto clínico es rápido, pero no sustituye el efecto antiinflamatorio más sostenido del corticosteroide. La observación permite detectar recurrencia del estridor o del aumento del trabajo respiratorio y decidir el alta con criterios clínicos.",
+  perlaENARM: "La adrenalina actúa rápido y por un periodo limitado; el corticosteroide es fundamental para controlar la inflamación de manera más sostenida.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para manejo de laringotraqueítis aguda en pediatría.",
+    internacional: "Canadian Paediatric Society. Acute management of croup in the emergency department."
+  },
+  bibliografia: "Canadian Paediatric Society. Acute management of croup in the emergency department; Manual de Pediatría aportado por el usuario."
+},
+{
+  id: "PED-324",
+  especialidad: "Pediatría",
+  tema: "Laringotraqueítis aguda",
+  subtema: "Diagnóstico diferencial: epiglotitis",
+  dificultad: "Alta",
+  caso: "Niño de 4 años con fiebre alta de inicio abrupto, aspecto tóxico, voz apagada, sialorrea y postura en trípode. Rechaza la deglución y presenta dificultad respiratoria. No tiene tos perruna característica.",
+  pregunta: "¿Cuál es la conducta inicial más segura ante la sospecha de epiglotitis?",
+  opciones: [
+    "Solicitar radiografía lateral de cuello antes de cualquier intervención",
+    "Explorar la orofaringe con abatelenguas para confirmar el edema epiglótico",
+    "Administrar únicamente dexametasona y enviarlo a casa si mejora",
+    "Minimizar la agitación y organizar el manejo urgente de la vía aérea con personal experto",
+    "Realizar nebulizaciones repetidas y esperar la desaparición de la sialorrea"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "La fiebre elevada, el aspecto tóxico, la sialorrea, la disfagia y la postura en trípode sugieren epiglotitis, una urgencia por riesgo de obstrucción completa. Debe evitarse la manipulación faríngea que pueda desencadenar obstrucción. La prioridad es mantener al niño tranquilo y asegurar el manejo de la vía aérea en un entorno controlado por personal experimentado.",
+  perlaENARM: "Crup: tos perruna y disfonía. Epiglotitis: fiebre alta, disfagia, sialorrea y aspecto tóxico; la manipulación faríngea puede ser peligrosa.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para urgencias pediátricas y obstrucción aguda de la vía aérea superior.",
+    internacional: "Royal Children's Hospital Melbourne. Clinical practice guideline: Acute upper airway obstruction."
+  },
+  bibliografia: "Manual de Pediatría aportado por el usuario; Royal Children's Hospital Melbourne. Acute upper airway obstruction."
+},
+{
+  id: "PED-325",
+  especialidad: "Pediatría",
+  tema: "Laringotraqueítis aguda",
+  subtema: "Diagnóstico diferencial: traqueítis bacteriana",
+  dificultad: "Alta",
+  caso: "Niño de 5 años con cuadro respiratorio viral de cuatro días que desarrolla fiebre alta, aspecto tóxico, estridor progresivo y dificultad respiratoria. Recibió adrenalina nebulizada por sospecha de crup, con respuesta escasa y transitoria. Presenta secreciones espesas.",
+  pregunta: "¿Qué diagnóstico alternativo debe sospecharse con mayor fuerza?",
+  opciones: [
+    "Laringotraqueítis viral no complicada",
+    "Traqueítis bacteriana",
+    "Rinitis alérgica estacional",
+    "Laringomalacia congénita",
+    "Tos ferina sin complicaciones"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La fiebre elevada, el aspecto tóxico, el deterioro progresivo, las secreciones espesas y la respuesta insuficiente a la adrenalina sugieren traqueítis bacteriana. Puede producir obstrucción por inflamación y material purulento, por lo que requiere hospitalización, valoración urgente de la vía aérea, tratamiento antimicrobiano intravenoso y manejo multidisciplinario según la gravedad.",
+  perlaENARM: "Un cuadro que parece crup, pero cursa con toxicidad sistémica y escasa respuesta a adrenalina, obliga a considerar traqueítis bacteriana.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente de infecciones respiratorias agudas y urgencias pediátricas.",
+    internacional: "Royal Children's Hospital Melbourne. Clinical practice guideline: Acute upper airway obstruction."
+  },
+  bibliografia: "Manual de Pediatría aportado por el usuario; Royal Children's Hospital Melbourne. Acute upper airway obstruction."
+},
+{
+  id: "PED-326",
+  especialidad: "Pediatría",
+  tema: "Laringotraqueítis aguda",
+  subtema: "Corticosteroides: elección y administración",
+  dificultad: "Alta",
+  caso: "Paciente de 18 meses con tos perruna y disfonía, sin estridor en reposo ni retracciones. Tolera líquidos y se encuentra activo. Se establece diagnóstico clínico de laringotraqueítis aguda leve.",
+  pregunta: "¿Qué intervención farmacológica cuenta con evidencia de beneficio incluso en cuadros leves?",
+  opciones: [
+    "Antibiótico de amplio espectro durante siete días",
+    "Salbutamol inhalado como tratamiento antiinflamatorio laríngeo",
+    "Antitusígeno opioide para suprimir la tos nocturna",
+    "Adrenalina nebulizada obligatoria en todos los casos",
+    "Una dosis de corticosteroide sistémico, habitualmente dexametasona"
+  ],
+  respuestaCorrecta: 4,
+  explicacion: "Los corticosteroides reducen la inflamación de la vía aérea superior y mejoran desenlaces clínicos, incluida la necesidad de nuevas consultas y hospitalización. La dexametasona es una opción habitual por su duración de acción y posibilidad de administración en dosis única. La dosis se individualiza de acuerdo con el protocolo clínico y la gravedad.",
+  perlaENARM: "La dexametasona se utiliza en crup de diferentes grados de gravedad; la adrenalina nebulizada se reserva para cuadros con estridor en reposo o compromiso moderado-grave.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para diagnóstico y tratamiento de laringotraqueítis aguda.",
+    internacional: "Canadian Paediatric Society. Acute management of croup in the emergency department."
+  },
+  bibliografia: "Canadian Paediatric Society. Acute management of croup in the emergency department; Manual de Pediatría aportado por el usuario."
+},
+{
+  id: "PED-327",
+  especialidad: "Pediatría",
+  tema: "Laringotraqueítis aguda",
+  subtema: "Medidas generales y tratamiento de soporte",
+  dificultad: "Alta",
+  caso: "Niño de 2 años con crup leve, saturación de oxígeno normal, sin estridor en reposo y con adecuada hidratación. Sus padres preguntan si deben utilizar vapor caliente en el baño para reducir la inflamación laríngea.",
+  pregunta: "¿Cuál es la recomendación más sustentada para el manejo domiciliario, además del tratamiento indicado?",
+  opciones: [
+    "Utilizar vapor de agua hirviendo durante 15 minutos cada hora",
+    "Administrar descongestionantes nasales combinados con antitusígenos",
+    "Mantener al niño tranquilo, ofrecer líquidos según tolerancia y reconocer signos de alarma",
+    "Evitar toda ingesta oral hasta que desaparezca la tos",
+    "Iniciar antibiótico preventivo para evitar traqueítis bacteriana"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La agitación puede incrementar el trabajo respiratorio y empeorar la obstrucción dinámica. En cuadros leves se recomienda mantener al niño cómodo, ofrecer líquidos y explicar a los cuidadores cuándo buscar atención urgente. La humidificación con vapor no ha demostrado beneficio clínico consistente y el agua caliente implica riesgo de quemaduras.",
+  perlaENARM: "Evita recomendar vapor caliente como tratamiento del crup. Estridor en reposo, retracciones progresivas, cianosis, somnolencia o incapacidad para beber requieren reevaluación urgente.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para atención de infecciones respiratorias agudas en menores de cinco años.",
+    internacional: "Canadian Paediatric Society. Acute management of croup in the emergency department."
+  },
+  bibliografia: "Canadian Paediatric Society. Acute management of croup in the emergency department; Manual de Pediatría aportado por el usuario."
+},
+{
+  id: "PED-328",
+  especialidad: "Pediatría",
+  tema: "Laringotraqueítis aguda",
+  subtema: "Criterios de hospitalización",
+  dificultad: "Alta",
+  caso: "Niña de 2 años con crup que recibió dexametasona y adrenalina nebulizada. Durante la observación presenta recurrencia persistente del estridor en reposo, retracciones y dificultad para tolerar líquidos. La familia vive a varias horas del hospital y no dispone de transporte confiable.",
+  pregunta: "¿Cuál de los siguientes elementos favorece más la hospitalización?",
+  opciones: [
+    "Estridor persistente o recurrente en reposo, dificultad respiratoria y problemas para mantener hidratación segura",
+    "Antecedente de rinorrea de dos días de evolución",
+    "Tos perruna aislada cuando llora",
+    "Edad de dos años sin otros datos de gravedad",
+    "Disfonía residual con respiración tranquila y tolerancia oral normal"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La persistencia o recurrencia de síntomas moderados-graves, la dificultad respiratoria y la incapacidad para mantener hidratación segura son motivos para prolongar la vigilancia y considerar ingreso. La distancia al hospital y la falta de acceso confiable a atención urgente también modifican la seguridad del alta.",
+  perlaENARM: "El alta no depende únicamente de la respuesta inicial: se requiere estabilidad clínica sostenida, ausencia de estridor en reposo y capacidad para beber, además de un entorno domiciliario seguro.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para manejo de laringotraqueítis aguda y criterios de referencia hospitalaria.",
+    internacional: "Canadian Paediatric Society. Acute management of croup in the emergency department."
+  },
+  bibliografia: "Canadian Paediatric Society. Acute management of croup in the emergency department; Manual de Pediatría aportado por el usuario."
+},
+{
+  id: "PED-329",
+  especialidad: "Pediatría",
+  tema: "Laringotraqueítis aguda",
+  subtema: "Estudios complementarios",
+  dificultad: "Alta",
+  caso: "Lactante de 22 meses con tos perruna, disfonía y estridor inspiratorio de inicio gradual tras síntomas catarrales. Se encuentra hemodinámicamente estable, sin sialorrea ni aspecto tóxico, y la exploración es compatible con crup.",
+  pregunta: "¿Cuál es la estrategia diagnóstica inicial más apropiada?",
+  opciones: [
+    "Tomografía cervical contrastada para confirmar edema subglótico",
+    "Laringoscopia directa sistemática en todos los pacientes",
+    "Hemocultivos y cultivo de secreción laríngea antes de tratar",
+    "Diagnóstico clínico sin estudios complementarios rutinarios si la presentación es típica",
+    "Radiografía de cuello obligatoria para demostrar estrechamiento subglótico"
+  ],
+  respuestaCorrecta: 3,
+  explicacion: "La laringotraqueítis típica se diagnostica clínicamente. Las radiografías y la endoscopia no son rutinarias y pueden retrasar el tratamiento o provocar agitación en pacientes con obstrucción significativa. Los estudios se reservan para presentaciones atípicas, mala evolución o sospecha de diagnósticos alternativos, siempre priorizando la seguridad de la vía aérea.",
+  perlaENARM: "El diagnóstico del crup típico es clínico; los estudios de imagen no son requisito para iniciar el manejo.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente para diagnóstico clínico de laringotraqueítis aguda en pediatría.",
+    internacional: "Canadian Paediatric Society. Acute management of croup in the emergency department."
+  },
+  bibliografia: "Canadian Paediatric Society. Acute management of croup in the emergency department; Manual de Pediatría aportado por el usuario."
+},
+{
+  id: "PED-330",
+  especialidad: "Pediatría",
+  tema: "Laringotraqueítis aguda",
+  subtema: "Epidemiología y etiología",
+  dificultad: "Alta",
+  caso: "Niño de 3 años con cuadro de coriza y febrícula seguido de tos metálica, disfonía y estridor inspiratorio nocturno. No presenta sialorrea, disfagia ni aspecto tóxico. Se sospecha laringotraqueítis viral.",
+  pregunta: "¿Cuál es el agente etiológico clásico más asociado con este síndrome?",
+  opciones: [
+    "Streptococcus pyogenes",
+    "Virus parainfluenza, especialmente los tipos 1 y 2",
+    "Mycoplasma pneumoniae",
+    "Corynebacterium diphtheriae",
+    "Virus de Epstein-Barr"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Los virus parainfluenza son causas clásicas de laringotraqueítis aguda, aunque otros virus respiratorios también pueden producirla. La infección genera inflamación en la región subglótica; el edema adquiere especial relevancia en niños pequeños por el diámetro reducido de su vía aérea.",
+  perlaENARM: "Parainfluenza es la asociación clásica del crup. La etiología viral habitual no justifica antibióticos rutinarios en ausencia de datos que sugieran infección bacteriana.",
+  gpc: {
+    mexico: "Consultar la GPC mexicana vigente de infecciones respiratorias agudas en población pediátrica.",
+    internacional: "Canadian Paediatric Society. Acute management of croup in the emergency department."
+  },
+  bibliografia: "Manual de Pediatría aportado por el usuario; Canadian Paediatric Society. Acute management of croup in the emergency department."
+},
+
 ];
+
+
