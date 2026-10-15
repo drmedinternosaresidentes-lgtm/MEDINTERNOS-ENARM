@@ -180,37 +180,65 @@ this.orden = orden;
 }
 
 
-this.preguntas = pool
-  .slice(0, cantidad)
-  .map((pregunta) => {
-    const opcionesMezcladas = pregunta.opciones.map(
-      (texto, indiceOriginal) => ({
-        texto,
-        indiceOriginal
-      })
+    const seleccionadas = pool.slice(0, cantidad);
+    const distribucion = this.distribuirRespuestas(
+      seleccionadas.length
     );
 
-    // Mezclar las opciones aleatoriamente.
-    for (let i = opcionesMezcladas.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
+    this.preguntas = seleccionadas.map((pregunta, indicePregunta) => {
+      if (
+        !Array.isArray(pregunta.opciones) ||
+        pregunta.opciones.length !== 5 ||
+        !Number.isInteger(pregunta.respuestaCorrecta) ||
+        pregunta.respuestaCorrecta < 0 ||
+        pregunta.respuestaCorrecta >= pregunta.opciones.length
+      ) {
+        throw new Error(
+          `Pregunta inválida o sin cinco opciones: ${pregunta.id ?? "sin ID"}`
+        );
+      }
+
+      const opcionesMezcladas = pregunta.opciones.map(
+        (texto, indiceOriginal) => ({
+          texto,
+          indiceOriginal
+        })
+      );
+
+      const correctaOriginal = pregunta.respuestaCorrecta;
+
+      for (let i = opcionesMezcladas.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+
+        [
+          opcionesMezcladas[i],
+          opcionesMezcladas[j]
+        ] = [
+          opcionesMezcladas[j],
+          opcionesMezcladas[i]
+        ];
+      }
+
+      const indiceObjetivo = distribucion[indicePregunta];
+
+      const indiceActual = opcionesMezcladas.findIndex(
+        (opcion) => opcion.indiceOriginal === correctaOriginal
+      );
 
       [
-        opcionesMezcladas[i],
-        opcionesMezcladas[j]
+        opcionesMezcladas[indiceObjetivo],
+        opcionesMezcladas[indiceActual]
       ] = [
-        opcionesMezcladas[j],
-        opcionesMezcladas[i]
+        opcionesMezcladas[indiceActual],
+        opcionesMezcladas[indiceObjetivo]
       ];
-    }
 
-    return {
-      ...pregunta,
-      opciones: opcionesMezcladas.map((opcion) => opcion.texto),
-      respuestaCorrecta: opcionesMezcladas.findIndex(
-        (opcion) => opcion.indiceOriginal === pregunta.respuestaCorrecta
-      )
-    };
-  });
+      return {
+        ...pregunta,
+        opciones: opcionesMezcladas.map((opcion) => opcion.texto),
+        respuestaCorrecta: indiceObjetivo
+      };
+    });
 
     this.indice = 0;
 
@@ -228,7 +256,26 @@ this.preguntas = pool
     }
     return a;
   },
+  distribuirRespuestas(cantidad) {
+    const letras = [];
+    const base = Math.floor(cantidad / 5);
+    const sobrantes = cantidad % 5;
 
+    for (let i = 0; i < 5; i++) {
+      for (let j = 0; j < base; j++) {
+        letras.push(i);
+      }
+    }
+
+    const indicesExtra = this.shuffle([0, 1, 2, 3, 4]);
+
+    for (let i = 0; i < sobrantes; i++) {
+      letras.push(indicesExtra[i]);
+    }
+
+    return this.shuffle(letras);
+  },
+  
   responder(opcion) {
     this.respuestas[this.indice] = opcion;
 
