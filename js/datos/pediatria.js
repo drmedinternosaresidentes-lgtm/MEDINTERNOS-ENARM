@@ -1,4 +1,4 @@
-window.BANCO_NEUROLOGIA = [
+window.BANCO_PEDIATRIA = [
   {
     id: "PED-001",
     especialidad: "Pediatría",
