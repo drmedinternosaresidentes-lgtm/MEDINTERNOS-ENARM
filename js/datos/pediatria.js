@@ -4465,8 +4465,6 @@ window.BANCO_PEDIATRIA = [
     },
     bibliografia: "American Society of Hematology. Guidelines for immune thrombocytopenia, 2019; Nelson Textbook of Pediatrics."
   },
-
-[
   {
     id: "PED-151",
     especialidad: "Pediatría",
