@@ -5,7 +5,7 @@ const BANCO_PREGUNTAS = [
   ...window.BANCO_ENDOCRINOLOGIA,
   ...window.BANCO_NEFROLOGIA,
   ...window.BANCO_NEUROLOGIA,
-  ...window.BANCO_PEDIATRIA
+  
 ];
 
 window.BANCO_PREGUNTAS = BANCO_PREGUNTAS;
