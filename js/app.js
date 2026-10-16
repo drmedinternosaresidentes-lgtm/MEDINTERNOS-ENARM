@@ -1,8 +1,8 @@
 
 const ESPECIALIDADES = [
   ["Cardiología", "❤️", "Enfermedad cardiovascular, ECG, SCA, insuficiencia cardiaca y valvulopatías."],
-  ["Neumología", "🫁", "Asma, EPOC, neumonía, tromboembolia y enfermedad intersticial."],
-  ["Nefrología", "🫘", "IRA, ERC, glomerulopatías, electrolitos y trastornos ácido-base."],
+  ["Neumología", "wind", "Asma, EPOC, neumonía, tromboembolia y enfermedad intersticial."],
+  ["Nefrología","activity", "IRA, ERC, glomerulopatías, electrolitos y trastornos ácido-base."],
   ["Neurología", "🧠", "EVC isquémico y hemorrágico, trombectomía, epilepsia, estado epiléptico"],
   ["Pediatría", "👶", "Urgencias, infecciones, neonatología y enfermedades pediátricas."],
   ["Ginecología", "🌸", "Sangrado uterino, patología cervical, endocrinología ginecológica, infertilidad y oncología ginecológica."],
