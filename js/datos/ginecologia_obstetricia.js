@@ -1,4 +1,4 @@
-window.BANCO_GINECOLOGIA_OBSTETRICIA = [
+window.BANCO_GINECOLOGIA = [
 
 {
   id: "GIN-001",
