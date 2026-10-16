@@ -5,7 +5,7 @@ const ESPECIALIDADES = [
   ["Nefrología", "🫘", "IRA, ERC, glomerulopatías, electrolitos y trastornos ácido-base."],
   ["Neurología", "🧠", "EVC isquémico y hemorrágico, trombectomía, epilepsia, estado epiléptico"],
   ["Pediatría", "👶", "Urgencias, infecciones, neonatología y enfermedades pediátricas."],
-  ["Ginecología y Obstetricia", "🤰", "Obstetricia, ginecología, urgencias y medicina materno-fetal."],
+  ["Ginecología_Obstetricia", "🤰", "Obstetricia, ginecología, urgencias y medicina materno-fetal."],
   ["Cirugía", "🔪", "Abdomen agudo, trauma, perioperatorio y cirugía general."],
   ["Urgencias", "🚑", "Reanimación, choque, intoxicaciones y emergencias médicas."],
   ["Anestesiología", "💉", "Valoración perioperatoria, anestesia, vía aérea y reanimación."],
