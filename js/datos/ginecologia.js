@@ -8689,8 +8689,6 @@ window.BANCO_GINECOLOGIA = [
       "Manchester International Consensus Group recommendations for management of gynecological cancers in Lynch syndrome."
     ]
   },
-  
-[
   {
     "id": "GIN-411",
     "especialidad": "Ginecología",
