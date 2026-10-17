@@ -6726,8 +6726,6 @@ window.BANCO_GINECOLOGIA = [
       "The Menopause Society. Nonhormone Therapy Position Statement and Hormone Therapy Guidance."
     ]
   },
-  
-[
   {
     "id": "GIN-331",
     "especialidad": "Ginecología",
