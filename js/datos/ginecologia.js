@@ -4161,6 +4161,426 @@ window.BANCO_GINECOLOGIA = [
     "bibliografia": ["CDC, HPV-Associated Cancers and Precancers; ASCCP Risk-Based Management Consensus Guidelines"]
   },
   {
+    "id": "GIN-201",
+    "especialidad": "Ginecología",
+    "tema": "Neoplasia intraepitelial cervical",
+    "subtema": "Terminología histológica y riesgo de progresión",
+    "dificultad": "Muy difícil",
+    "objetivoAprendizaje": "Distinguir una lesión de bajo grado de una lesión precursora de alto grado y evitar sobretratamiento.",
+    "caso": "Mujer de 24 años, inmunocompetente, con citología anormal. La biopsia dirigida confirma lesión escamosa intraepitelial de bajo grado (LSIL/CIN 1). La colposcopia es adecuada, no existe sospecha de invasión y la paciente puede acudir a seguimiento.",
+    "pregunta": "¿Qué conducta suele ser preferible en esta paciente?",
+    "opciones": [
+      "A. Histerectomía total por riesgo inmediato de cáncer invasor",
+      "B. Conización cervical obligatoria en todos los casos",
+      "C. Radioterapia local",
+      "D. Vigilancia conforme al riesgo y a la guía aplicable, evitando tratamiento excisional rutinario de CIN 1",
+      "E. Quimioterapia sistémica"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "CIN 1 suele representar una infección productiva por VPH y tiene alta probabilidad de regresión, particularmente en pacientes jóvenes. En ausencia de discordancia preocupante o sospecha de invasión, la vigilancia es generalmente preferible al tratamiento excisional inmediato. La periodicidad se define según edad, resultados previos, prueba de VPH y recomendaciones locales.",
+    "perlaENARM": "CIN 1 no equivale a CIN 3: la primera suele vigilarse; las lesiones de alto grado requieren evaluación y manejo más intensivos.",
+    "bibliografia": ["Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed., capítulo de cáncer de cérvix", "ASCCP Risk-Based Management Consensus Guidelines"]
+  },
+  {
+    "id": "GIN-202",
+    "especialidad": "Ginecología",
+    "tema": "Neoplasia intraepitelial cervical",
+    "subtema": "Lesión de alto grado y tratamiento excisional",
+    "dificultad": "Muy difícil",
+    "objetivoAprendizaje": "Seleccionar el manejo de una lesión escamosa de alto grado confirmada histológicamente.",
+    "caso": "Mujer de 32 años con biopsia cervical que demuestra CIN 3. La colposcopia identifica una lesión extensa, pero completamente visible; el muestreo endocervical no muestra lesión glandular ni invasión. No está embarazada.",
+    "pregunta": "¿Cuál es el manejo estándar en una paciente no embarazada con CIN 3 confirmada?",
+    "opciones": [
+      "A. Vigilancia sin tratamiento como estrategia habitual",
+      "B. Tratamiento excisional cervical, como LEEP o conización, según anatomía y contexto",
+      "C. Antibióticos durante 14 días",
+      "D. Vacunación contra VPH como único tratamiento de la lesión",
+      "E. Histerectomía radical obligatoria sin evaluación adicional"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "CIN 3 es una lesión precursora de alto grado con riesgo relevante de progresión si persiste sin tratamiento. En pacientes no embarazadas, se recomienda tratamiento, habitualmente excisional, que también permite valorar márgenes y descartar invasión oculta. La técnica depende de la extensión, la anatomía y los objetivos reproductivos.",
+    "perlaENARM": "CIN 3 confirmada: tratar, generalmente mediante escisión; no confundir con vigilancia de CIN 1.",
+    "bibliografia": ["Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed.", "ASCCP Risk-Based Management Consensus Guidelines"]
+  },
+  {
+    "id": "GIN-203",
+    "especialidad": "Ginecología",
+    "tema": "Neoplasia intraepitelial cervical",
+    "subtema": "CIN 2 y deseo reproductivo",
+    "dificultad": "Muy difícil",
+    "objetivoAprendizaje": "Individualizar el manejo de CIN 2 en pacientes jóvenes que desean preservar fertilidad.",
+    "caso": "Mujer de 25 años con CIN 2 confirmada por biopsia, unión escamocolumnar y lesión completamente visibles, muestreo endocervical negativo y posibilidad de seguimiento estrecho. Desea embarazo en el futuro y expresa preocupación por el riesgo obstétrico de una escisión cervical.",
+    "pregunta": "¿Cuál afirmación refleja mejor el manejo basado en riesgo?",
+    "opciones": [
+      "A. La histerectomía es el tratamiento inicial obligatorio",
+      "B. Toda CIN 2 debe recibir radioterapia",
+      "C. Puede considerarse observación estrecha en pacientes seleccionadas, tras discutir riesgos y garantizar seguimiento; el tratamiento excisional también es una opción",
+      "D. La vacuna contra VPH elimina la lesión ya establecida",
+      "E. No se requiere seguimiento después de la biopsia"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "En pacientes jóvenes con CIN 2, el riesgo de progresión y la posibilidad de regresión deben ponderarse frente a los efectos obstétricos potenciales de la escisión cervical. Si la zona de transformación es completamente visible y el muestreo endocervical no muestra CIN 2 o mayor, puede considerarse vigilancia estrecha conforme a guías específicas. CIN 3, sospecha de invasión o seguimiento poco fiable cambian la decisión.",
+    "perlaENARM": "CIN 2 exige individualización; la posibilidad de vigilancia no se extrapola a CIN 3.",
+    "bibliografia": ["ASCCP Risk-Based Management Consensus Guidelines", "Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed."]
+  },
+  {
+    "id": "GIN-204",
+    "especialidad": "Ginecología",
+    "tema": "Neoplasia intraepitelial cervical",
+    "subtema": "Muestreo endocervical y lesión oculta",
+    "dificultad": "Muy difícil",
+    "objetivoAprendizaje": "Reconocer cuándo la zona de transformación no evaluable limita la seguridad de la vigilancia.",
+    "caso": "Mujer de 46 años con citología HSIL y biopsias superficiales sin lesión de alto grado. La colposcopia es insatisfactoria porque la unión escamocolumnar se encuentra dentro del canal endocervical.",
+    "pregunta": "¿Qué aspecto impide considerar tranquilizadores los resultados superficiales y debe orientar el estudio posterior?",
+    "opciones": [
+      "A. La ausencia de síntomas sistémicos",
+      "B. La edad mayor de 40 años como indicación automática de histerectomía",
+      "C. La vacunación previa contra VPH",
+      "D. El resultado negativo de una prueba de embarazo",
+      "E. La posibilidad de lesión de alto grado oculta en el canal, que requiere evaluación endocervical y, según el riesgo, procedimiento diagnóstico excisional"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La discordancia entre citología HSIL y biopsias negativas requiere evaluación adicional. Si la zona de transformación no se visualiza por completo, no puede excluirse una lesión endocervical. La conducta depende del riesgo, de la calidad de la colposcopia y del muestreo endocervical; puede ser necesario un procedimiento excisional diagnóstico.",
+    "perlaENARM": "HSIL citológica con colposcopia insatisfactoria: no asumir que las biopsias superficiales negativas descartan enfermedad significativa.",
+    "bibliografia": ["ASCCP Risk-Based Management Consensus Guidelines", "Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed."]
+  },
+  {
+    "id": "GIN-205",
+    "especialidad": "Ginecología",
+    "tema": "Neoplasia intraepitelial cervical",
+    "subtema": "Márgenes positivos después de escisión",
+    "dificultad": "Muy difícil",
+    "objetivoAprendizaje": "Interpretar márgenes de resección y seleccionar seguimiento después de tratamiento excisional.",
+    "caso": "Mujer de 38 años tratada mediante LEEP por CIN 3. El informe histopatológico confirma CIN 3 con margen endocervical positivo, sin carcinoma invasor. La paciente desea preservar fertilidad y puede acudir a seguimiento.",
+    "pregunta": "¿Cuál principio debe guiar la conducta posterior?",
+    "opciones": [
+      "A. Considerar el margen positivo como carcinoma invasor confirmado",
+      "B. Individualizar entre vigilancia basada en VPH, reevaluación endocervical y nueva escisión según riesgo, edad y objetivos reproductivos",
+      "C. Indicar quimioterapia adyuvante",
+      "D. Suspender toda vigilancia si el sangrado cesó",
+      "E. Administrar antibióticos para esterilizar el VPH"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Un margen positivo aumenta el riesgo de lesión residual o recurrente, pero no demuestra por sí solo invasión. La edad, el tipo de margen, los resultados de VPH, la posibilidad de seguimiento y el deseo reproductivo orientan la decisión. Las pruebas basadas en VPH son útiles en la vigilancia posratamiento; la repetición de escisión puede ser apropiada en escenarios seleccionados.",
+    "perlaENARM": "Margen positivo significa mayor riesgo de persistencia, no diagnóstico automático de cáncer invasor.",
+    "bibliografia": ["ASCCP Risk-Based Management Consensus Guidelines", "Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed."]
+  },
+  {
+    "id": "GIN-206",
+    "especialidad": "Ginecología",
+    "tema": "Tamizaje de cáncer cervicouterino",
+    "subtema": "Prueba de VPH y citología",
+    "dificultad": "Difícil",
+    "objetivoAprendizaje": "Diferenciar tamizaje de diagnóstico y evitar interpretar una prueba positiva como cáncer.",
+    "caso": "Mujer de 36 años asintomática, con cuello uterino sin lesiones visibles. La prueba de VPH de alto riesgo es positiva y la citología reporta NILM.",
+    "pregunta": "¿Qué factor determina la conducta posterior en un programa basado en riesgo?",
+    "opciones": [
+      "A. La positividad de VPH por sí sola confirma cáncer invasor",
+      "B. El CA-125 sérico",
+      "C. La ausencia de síntomas elimina la necesidad de seguimiento",
+      "D. El genotipo, los antecedentes de tamizaje y los resultados previos, aplicados al algoritmo vigente",
+      "E. La edad de la menarquia como único dato"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Una prueba de VPH de alto riesgo positiva con citología negativa no equivale a cáncer. La conducta depende del genotipo, especialmente si es VPH 16 o 18, y del historial de pruebas y lesiones. Según el algoritmo aplicable, puede indicarse colposcopia o repetición de pruebas en un intervalo definido.",
+    "perlaENARM": "VPH positivo no es sinónimo de cáncer; integrar genotipo, citología y antecedentes.",
+    "bibliografia": ["Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed.", "ASCCP Risk-Based Management Consensus Guidelines"]
+  },
+  {
+    "id": "GIN-207",
+    "especialidad": "Ginecología",
+    "tema": "Tamizaje de cáncer cervicouterino",
+    "subtema": "Prueba de VPH 16",
+    "dificultad": "Difícil",
+    "objetivoAprendizaje": "Reconocer la importancia del genotipo de alto riesgo en la estratificación.",
+    "caso": "Mujer de 33 años con prueba de VPH positiva para genotipo 16, citología negativa para lesión intraepitelial y sin antecedentes documentados de tratamiento cervical.",
+    "pregunta": "En un algoritmo de riesgo como ASCCP, ¿qué conducta suele corresponder?",
+    "opciones": [
+      "A. Colposcopia, aun con citología negativa",
+      "B. Repetir tamizaje dentro de diez años",
+      "C. Histerectomía inmediata",
+      "D. Quimioterapia preventiva",
+      "E. No registrar el resultado porque la citología es normal"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "VPH 16 confiere un riesgo elevado de lesión precancerosa y cáncer cervical. En algoritmos como ASCCP, su detección suele justificar colposcopia aunque la citología sea NILM. La conducta final debe ajustarse a la guía vigente y a los antecedentes clínicos completos.",
+    "perlaENARM": "VPH 16 positivo: no tranquilizarse únicamente por una citología negativa.",
+    "bibliografia": ["ASCCP Risk-Based Management Consensus Guidelines", "Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed."]
+  },
+  {
+    "id": "GIN-208",
+    "especialidad": "Ginecología",
+    "tema": "Tamizaje de cáncer cervicouterino",
+    "subtema": "Tamizaje durante el embarazo",
+    "dificultad": "Difícil",
+    "objetivoAprendizaje": "Distinguir evaluación cervical durante el embarazo de tratamiento excisional inmediato.",
+    "caso": "Gestante de 18 semanas con citología HSIL detectada durante el control prenatal. Está estable, sin sangrado y sin una lesión invasora visible.",
+    "pregunta": "¿Cuál principio orienta la evaluación?",
+    "opciones": [
+      "A. Toda HSIL durante el embarazo exige histerectomía",
+      "B. No se puede realizar ninguna evaluación cervical durante el embarazo",
+      "C. Debe realizarse evaluación colposcópica por personal experimentado; se evita el tratamiento excisional durante el embarazo salvo sospecha de cáncer",
+      "D. Se indica radioterapia para prevenir progresión",
+      "E. La citología debe repetirse diariamente hasta normalizarse"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El embarazo no elimina la necesidad de evaluar una citología de alto grado. La colposcopia y biopsia dirigida cuando esté indicada pueden realizarse por personal experimentado, pero el legrado endocervical está contraindicado y el tratamiento de lesiones precancerosas suele diferirse hasta después del embarazo. Si se sospecha invasión, se requiere evaluación especializada.",
+    "perlaENARM": "En embarazo: evaluar para descartar invasión; no tratar rutinariamente CIN con escisión durante la gestación.",
+    "bibliografia": ["ASCCP Risk-Based Management Consensus Guidelines", "Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed."]
+  },
+  {
+    "id": "GIN-209",
+    "especialidad": "Ginecología",
+    "tema": "Tamizaje de cáncer cervicouterino",
+    "subtema": "Seguimiento posterior a tratamiento de CIN 2+",
+    "dificultad": "Difícil",
+    "objetivoAprendizaje": "Reconocer el riesgo residual después de tratar una lesión de alto grado.",
+    "caso": "Mujer de 41 años tratada por CIN 3 hace cuatro años. Tiene una prueba de VPH negativa y pregunta si puede regresar al intervalo habitual de tamizaje sin vigilancia adicional.",
+    "pregunta": "¿Cuál es la recomendación general de las guías de seguimiento de lesiones de alto grado?",
+    "opciones": [
+      "A. Una prueba negativa elimina el riesgo y permite suspender el seguimiento",
+      "B. Mantener vigilancia basada en VPH o cotest a largo plazo, generalmente durante al menos 25 años después del tratamiento",
+      "C. Histerectomía obligatoria aunque no exista recurrencia",
+      "D. Colposcopia semanal indefinida",
+      "E. Repetir tratamiento excisional en todas las pacientes"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Después del tratamiento de CIN 2 o CIN 3, el riesgo de recurrencia y de cáncer cervical permanece aumentado durante años. Las recomendaciones ASCCP indican vigilancia basada en VPH o cotest y seguimiento prolongado, generalmente por al menos 25 años, con intervalos determinados por los resultados y el protocolo vigente.",
+    "perlaENARM": "CIN 2+ tratada: una prueba negativa no elimina la necesidad de vigilancia prolongada.",
+    "bibliografia": ["ASCCP Risk-Based Management Consensus Guidelines", "Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed."]
+  },
+  {
+    "id": "GIN-210",
+    "especialidad": "Ginecología",
+    "tema": "Tamizaje de cáncer cervicouterino",
+    "subtema": "Lesión cervical visible y prueba previa negativa",
+    "dificultad": "Difícil",
+    "objetivoAprendizaje": "Evitar utilizar el tamizaje como sustituto de la evaluación de una lesión sintomática.",
+    "caso": "Mujer de 45 años con sangrado poscoital recurrente. La exploración revela una lesión cervical exofítica, irregular y friable. La citología de hace un año fue negativa.",
+    "pregunta": "¿Qué intervención diagnóstica está indicada?",
+    "opciones": [
+      "A. Repetir citología dentro de tres años",
+      "B. Solicitar CA-125 para excluir cáncer cervical",
+      "C. Tratar empíricamente con antibióticos y finalizar el estudio",
+      "D. Realizar evaluación colposcópica y biopsia de la lesión sospechosa",
+      "E. Considerar que el resultado previo descarta neoplasia"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El tamizaje se dirige a personas asintomáticas; una lesión visible sospechosa o un sangrado poscoital persistente requieren evaluación diagnóstica. La biopsia permite confirmar o excluir malignidad. Una citología previa negativa no descarta una lesión invasora actual ni sustituye la biopsia de una lesión visible.",
+    "perlaENARM": "Lesión cervical sospechosa: biopsia dirigida, aunque el tamizaje previo haya sido negativo.",
+    "bibliografia": ["Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed., capítulo de cáncer de cérvix"]
+  },
+  {
+    "id": "GIN-211",
+    "especialidad": "Ginecología",
+    "tema": "Cáncer cervicouterino",
+    "subtema": "Histología",
+    "dificultad": "Difícil",
+    "objetivoAprendizaje": "Distinguir los principales tipos histológicos de cáncer cervical.",
+    "caso": "Mujer de 47 años con biopsia de una lesión cervical que demuestra carcinoma maligno con formación de nidos escamosos. La inmunohistoquímica y la morfología son compatibles con diferenciación escamosa.",
+    "pregunta": "¿Cuál es el tipo histológico más frecuente de cáncer cervicouterino?",
+    "opciones": [
+      "A. Carcinoma escamoso",
+      "B. Sarcoma endometrial",
+      "C. Tumor de células de la granulosa",
+      "D. Carcinoma seroso ovárico",
+      "E. Coriocarcinoma"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El carcinoma escamoso es el tipo histológico más frecuente del cáncer cervicouterino; el adenocarcinoma es el segundo en frecuencia. Ambos se relacionan estrechamente con infección persistente por VPH de alto riesgo, aunque existen diferencias en su origen y características clínicas.",
+    "perlaENARM": "Cáncer cervicouterino: carcinoma escamoso es el histotipo predominante; adenocarcinoma ocupa el segundo lugar.",
+    "bibliografia": ["Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed., capítulo 11, cáncer de cérvix"]
+  },
+  {
+    "id": "GIN-212",
+    "especialidad": "Ginecología",
+    "tema": "Cáncer cervicouterino",
+    "subtema": "Estadificación microinvasora",
+    "dificultad": "Muy difícil",
+    "objetivoAprendizaje": "Aplicar la profundidad de invasión estromal a la clasificación de enfermedad microinvasora.",
+    "caso": "Mujer de 37 años sometida a conización por sospecha de lesión invasora. La pieza muestra carcinoma escamoso invasor con profundidad estromal máxima de 2.5 mm, sin extensión horizontal mayor de 7 mm y con márgenes evaluables.",
+    "pregunta": "Según la clasificación FIGO clásica de enfermedad microinvasora utilizada en el enfoque del CTO, ¿qué categoría corresponde por la profundidad descrita?",
+    "opciones": [
+      "A. Estadio IB2",
+      "B. Estadio IIIC",
+      "C. Estadio IA1",
+      "D. Estadio IIA",
+      "E. Estadio IVB"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "En la clasificación FIGO clásica, IA1 corresponde a invasión estromal de hasta 3 mm de profundidad y extensión horizontal de hasta 7 mm. La estadificación contemporánea debe aplicarse con la edición FIGO vigente y el protocolo institucional, integrando la histología, extensión y factores de riesgo.",
+    "perlaENARM": "La profundidad estromal distingue IA1 de IA2 en la clasificación clásica: hasta 3 mm corresponde a IA1.",
+    "bibliografia": ["Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed., capítulo 11, estadificación del cáncer de cérvix"]
+  },
+  {
+    "id": "GIN-213",
+    "especialidad": "Ginecología",
+    "tema": "Cáncer cervicouterino",
+    "subtema": "Ganglios linfáticos y estrategia terapéutica",
+    "dificultad": "Muy difícil",
+    "objetivoAprendizaje": "Reconocer cómo la afectación ganglionar puede cambiar la estrategia inicial.",
+    "caso": "Mujer de 43 años con carcinoma cervical invasor aparentemente limitado al cuello uterino. Durante la valoración preoperatoria se identifica afectación ganglionar pélvica confirmada. La paciente se encuentra en condiciones generales adecuadas.",
+    "pregunta": "¿Qué principio terapéutico es fundamental ante afectación ganglionar pélvica confirmada?",
+    "opciones": [
+      "A. Realizar histerectomía radical en todos los casos sin modificar el plan",
+      "B. Considerar tratamiento con quimiorradioterapia definitiva según estadio y protocolo oncológico, evitando combinar cirugía radical y radioterapia cuando no aporte beneficio",
+      "C. Administrar únicamente hierro",
+      "D. Suspender toda terapia oncológica porque la enfermedad es incurable",
+      "E. Tratar con antibióticos y repetir imagen en cinco años"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La afectación ganglionar cambia el riesgo y puede modificar la estrategia hacia quimiorradioterapia definitiva, según estadio, extensión y guía aplicable. La planificación debe realizarse en un equipo de oncología ginecológica y radioterapia. Evitar la combinación innecesaria de cirugía radical y radioterapia ayuda a reducir morbilidad.",
+    "perlaENARM": "La afectación ganglionar no es un detalle menor: puede cambiar la estrategia de cirugía a quimiorradioterapia.",
+    "bibliografia": ["Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed., capítulo 11", "Guías internacionales de cáncer cervicouterino"]
+  },
+  {
+    "id": "GIN-214",
+    "especialidad": "Ginecología",
+    "tema": "Cáncer cervicouterino",
+    "subtema": "Preservación de fertilidad",
+    "dificultad": "Muy difícil",
+    "objetivoAprendizaje": "Identificar candidatas seleccionadas para tratamiento conservador de cáncer cervical temprano.",
+    "caso": "Mujer de 29 años con deseo gestacional, carcinoma cervical invasor pequeño diagnosticado por conización, sin evidencia de invasión linfovascular y con márgenes negativos. La evaluación de extensión no muestra enfermedad ganglionar.",
+    "pregunta": "¿Qué condición es indispensable antes de ofrecer una alternativa de preservación de fertilidad?",
+    "opciones": [
+      "A. Omitir la evaluación ganglionar porque el tumor es pequeño",
+      "B. Confirmar que el tumor es sensible a quimioterapia mediante una prueba no validada",
+      "C. Realizar histerectomía radical en toda paciente sin excepción",
+      "D. Elegir un procedimiento conservador sin considerar el tamaño ni la histología",
+      "E. Verificar criterios oncológicos estrictos, tamaño y características tumorales, estado ganglionar y posibilidad de seguimiento especializado"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La preservación de fertilidad solo es apropiada en pacientes seleccionadas con enfermedad temprana y características tumorales favorables. Deben considerarse tamaño, histología, profundidad de invasión, invasión linfovascular, márgenes y estado ganglionar. La decisión requiere asesoramiento oncológico especializado y una discusión explícita del riesgo de recurrencia.",
+    "perlaENARM": "Preservar fertilidad en cáncer cervical es posible en casos seleccionados; nunca debe omitirse la evaluación del riesgo ganglionar.",
+    "bibliografia": ["Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed.", "Guías internacionales de preservación de fertilidad en oncología ginecológica"]
+  },
+  {
+    "id": "GIN-215",
+    "especialidad": "Ginecología",
+    "tema": "Cáncer cervicouterino",
+    "subtema": "Estadio localmente avanzado",
+    "dificultad": "Muy difícil",
+    "objetivoAprendizaje": "Distinguir el manejo de enfermedad localmente avanzada del tratamiento quirúrgico de enfermedad temprana.",
+    "caso": "Mujer de 51 años con carcinoma cervical de 5 cm, extensión parametrial y ausencia de metástasis a distancia en la evaluación inicial. La función renal permite valorar cisplatino.",
+    "pregunta": "¿Qué modalidad suele ser la base del tratamiento curativo en enfermedad localmente avanzada?",
+    "opciones": [
+      "A. Quimiorradioterapia concurrente con cisplatino y braquiterapia, según elegibilidad y protocolo",
+      "B. Conización aislada",
+      "C. Vigilancia citológica sin tratamiento",
+      "D. Anticoncepción hormonal combinada",
+      "E. Histeroscopia diagnóstica"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La enfermedad cervical localmente avanzada se trata habitualmente con radioterapia externa y braquiterapia, acompañadas de quimioterapia concurrente con cisplatino si la paciente es elegible. La estrategia exacta depende del estadio, la función renal, las comorbilidades y las guías actuales. La cirugía radical inicial suele no ser la opción preferida en este escenario.",
+    "perlaENARM": "En enfermedad localmente avanzada, la quimiorradioterapia concurrente con braquiterapia es una estrategia curativa central.",
+    "bibliografia": ["Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed.", "Guías internacionales de cáncer cervicouterino"]
+  },
+  {
+    "id": "GIN-216",
+    "especialidad": "Ginecología",
+    "tema": "Cáncer cervicouterino",
+    "subtema": "Síntomas de presentación",
+    "dificultad": "Difícil",
+    "objetivoAprendizaje": "Reconocer síntomas de alarma que requieren evaluación diagnóstica.",
+    "caso": "Mujer de 48 años con sangrado poscoital, flujo acuoso sanguinolento y dolor pélvico progresivo. No ha realizado tamizaje cervical en la última década.",
+    "pregunta": "¿Cuál es la prioridad clínica?",
+    "opciones": [
+      "A. Iniciar terapia hormonal para menopausia sin exploración",
+      "B. Repetir el tamizaje en cinco años",
+      "C. Considerar el flujo como vaginosis hasta demostrar lo contrario",
+      "D. Realizar evaluación ginecológica pronta con exploración cervical y biopsia de cualquier lesión sospechosa",
+      "E. Solicitar CA-125 como prueba confirmatoria única"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El sangrado poscoital, el flujo sanguinolento persistente y el dolor pélvico pueden aparecer en cáncer cervical invasor, aunque también existen causas benignas. La prioridad es una evaluación diagnóstica pronta, con exploración y biopsia de lesiones sospechosas. Las pruebas de tamizaje no sustituyen la investigación de síntomas.",
+    "perlaENARM": "Sangrado poscoital persistente y flujo sanguinolento son señales de alarma; no manejar solo con tamizaje.",
+    "bibliografia": ["Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed., capítulo 11"]
+  },
+  {
+    "id": "GIN-217",
+    "especialidad": "Ginecología",
+    "tema": "Cáncer cervicouterino",
+    "subtema": "Adenocarcinoma endocervical",
+    "dificultad": "Difícil",
+    "objetivoAprendizaje": "Reconocer limitaciones de la citología para algunas lesiones glandulares.",
+    "caso": "Mujer de 44 años con sangrado intermenstrual y secreción acuosa persistente. La citología cervical es negativa, pero la exploración y la imagen sugieren una lesión endocervical. La biopsia dirigida confirma adenocarcinoma.",
+    "pregunta": "¿Qué principio explica que el diagnóstico no deba descartarse por una citología negativa?",
+    "opciones": [
+      "A. La citología tiene sensibilidad perfecta para toda lesión endocervical",
+      "B. Las lesiones glandulares pueden situarse en el canal endocervical y no siempre se detectan mediante una muestra citológica aislada",
+      "C. El adenocarcinoma cervical no produce síntomas",
+      "D. El VPH nunca se asocia con adenocarcinoma",
+      "E. La biopsia no tiene utilidad para diagnosticar cáncer cervical"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Aunque el tamizaje reduce el riesgo de cáncer cervical, no detecta todos los casos. Las lesiones endocervicales o glandulares pueden ser más difíciles de muestrear. Ante síntomas persistentes o hallazgos sospechosos, la evaluación diagnóstica y la histología prevalecen sobre la tranquilidad que pudiera producir una citología negativa aislada.",
+    "perlaENARM": "Una citología negativa no excluye cáncer cuando persisten síntomas o existe una lesión sospechosa.",
+    "bibliografia": ["Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed.", "Guías internacionales de diagnóstico de cáncer cervical"]
+  },
+  {
+    "id": "GIN-218",
+    "especialidad": "Ginecología",
+    "tema": "Cáncer cervicouterino",
+    "subtema": "Recurrencia y seguimiento",
+    "dificultad": "Difícil",
+    "objetivoAprendizaje": "Priorizar la vigilancia clínica después del tratamiento de cáncer cervical invasor.",
+    "caso": "Mujer de 55 años tratada hace ocho meses por cáncer cervical invasor. Consulta por dolor pélvico nuevo, edema unilateral de una extremidad inferior y pérdida de peso.",
+    "pregunta": "¿Qué conducta está justificada por la sospecha de recurrencia?",
+    "opciones": [
+      "A. Esperar al siguiente tamizaje rutinario sin evaluar síntomas",
+      "B. Indicar solo citología vaginal y descartar recurrencia si es negativa",
+      "C. Realizar evaluación clínica y estudios dirigidos para investigar recurrencia y complicaciones tromboembólicas",
+      "D. Administrar antibióticos por vía oral como única medida",
+      "E. Suspender el seguimiento oncológico"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El dolor pélvico nuevo, la pérdida ponderal y el edema unilateral pueden indicar recurrencia, obstrucción linfática o enfermedad tromboembólica. Se requiere evaluación clínica pronta y estudios dirigidos según los hallazgos. La citología aislada tiene limitaciones y no excluye recurrencia cuando existen síntomas sugestivos.",
+    "perlaENARM": "Después de cáncer cervical, síntomas nuevos requieren evaluación diagnóstica; no depender solo de citología de vigilancia.",
+    "bibliografia": ["Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed.", "Guías de seguimiento de cáncer cervicouterino"]
+  },
+  {
+    "id": "GIN-219",
+    "especialidad": "Ginecología",
+    "tema": "Cáncer cervicouterino",
+    "subtema": "Invasión parametrial",
+    "dificultad": "Muy difícil",
+    "objetivoAprendizaje": "Relacionar extensión anatómica con estadio clínico y tratamiento.",
+    "caso": "Mujer de 49 años con carcinoma cervical confirmado. La exploración bajo anestesia documenta extensión al parametrio, sin llegar a la pared pélvica. No hay invasión de mucosa vesical o rectal.",
+    "pregunta": "¿Qué implicación clínica tiene el compromiso parametrial?",
+    "opciones": [
+      "A. Es compatible con enfermedad localmente avanzada y suele orientar a quimiorradioterapia definitiva, según el estadio completo",
+      "B. Confirma estadio IA1",
+      "C. Permite descartar cáncer invasor",
+      "D. Obliga a vigilancia sin tratamiento",
+      "E. Demuestra metástasis cerebral"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La extensión parametrial corresponde a enfermedad localmente avanzada y suele modificar el manejo hacia quimiorradioterapia definitiva con braquiterapia, de acuerdo con el estadio completo y la elegibilidad. La estadificación debe considerar extensión vaginal, pared pélvica, órganos vecinos, ganglios y metástasis.",
+    "perlaENARM": "Compromiso parametrial: pensar en enfermedad localmente avanzada, no en una lesión microinvasora.",
+    "bibliografia": ["Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed.", "FIGO: estadificación del cáncer cervicouterino"]
+  },
+  {
+    "id": "GIN-220",
+    "especialidad": "Ginecología",
+    "tema": "Cáncer cervicouterino",
+    "subtema": "Prevención primaria y secundaria",
+    "dificultad": "Difícil",
+    "objetivoAprendizaje": "Integrar vacunación contra VPH y tamizaje como intervenciones complementarias.",
+    "caso": "Mujer de 30 años vacunada contra VPH durante la adolescencia, sin antecedentes de CIN 2+ y asintomática. Considera que ya no necesita pruebas de tamizaje.",
+    "pregunta": "¿Cuál es el principio preventivo correcto?",
+    "opciones": [
+      "A. La vacunación garantiza protección contra todos los genotipos oncogénicos",
+      "B. La vacunación solo protege si se realiza después de una infección confirmada",
+      "C. El tamizaje solo se indica si aparecen verrugas genitales",
+      "D. La vacunación reduce el riesgo, pero debe continuar el tamizaje según edad, antecedentes y guía nacional",
+      "E. La vacunación elimina una lesión precancerosa ya establecida"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La vacunación contra VPH previene nuevas infecciones por los tipos incluidos, pero no cubre todos los genotipos oncogénicos ni trata infecciones o lesiones existentes. El tamizaje sigue siendo necesario según la guía aplicable, la edad y los antecedentes. La prevención primaria y secundaria son complementarias.",
+    "perlaENARM": "Vacuna contra VPH más tamizaje cervical: estrategias complementarias para reducir cáncer cervicouterino.",
+    "bibliografia": ["Manual CTO de Medicina y Cirugía, Ginecología, 14.ª ed.", "CDC: HPV Vaccination and Cervical Cancer Screening"]
+  },
+  {
     "id": "GIN-221",
     "especialidad": "Ginecología",
     "tema": "Cáncer endometrial",
@@ -5758,7 +6178,7 @@ window.BANCO_GINECOLOGIA = [
     "bibliografia": [
       "Manual CTO de Medicina y Cirugía, 14.ª edición. Capítulo 1: Patología mamaria, lesiones proliferativas y riesgo de cáncer."
     ]
-  }
+  },
   {
     "id": "GIN-291",
     "especialidad": "Ginecología",
