@@ -962,25 +962,6 @@ window.BANCO_OBSTETRICIA = [
       "ACOG. Methods for Estimating the Due Date.",
       "WHO. Recommendations on Antenatal Care for a Positive Pregnancy Experience.",
       "NICE. Antenatal Care."
-    ]
-  
-      "dificultad": "Muy difícil",
-      "objetivoAprendizaje": "Reconocer las implicaciones de la muerte de un feto en embarazo monocoriónico.",
-      "caso": "A las 25 semanas se confirma muerte de uno de los fetos en embarazo monocoriónico-diamniótico. El otro feto conserva actividad cardiaca.",
-      "pregunta": "¿Cuál es una preocupación específica para el gemelo superviviente?",
-      "opciones": [
-        "Riesgo nulo de daño neurológico",
-        "Necesidad obligatoria de cesárea inmediata en todos los casos",
-        "Desaparición inmediata de las anastomosis placentarias sin repercusión",
-        "Riesgo de lesión por cambios hemodinámicos agudos a través de conexiones vasculares placentarias",
-        "Desarrollo inevitable de diabetes tipo 1"
-      ],
-      "respuestaCorrecta": 3,
-      "explicacion": "En embarazos monocoriónicos, la muerte de un gemelo puede provocar cambios hemodinámicos agudos en el superviviente por conexiones vasculares compartidas, con riesgo de lesión neurológica y otras complicaciones. Se requiere evaluación urgente por medicina fetal, vigilancia y asesoramiento individualizados.",
-      "perlaENARM": "La muerte de un gemelo monocoriónico representa un riesgo adicional para el superviviente por la circulación placentaria compartida.",
-      "bibliografia": [
-        "ISUOG Practice Guidelines: role of ultrasound in twin pregnancy.",
-        "ACOG Practice Bulletin: Multifetal Gestations."
       ]
     },
   {
