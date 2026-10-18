@@ -4871,7 +4871,6 @@ window.BANCO_OBSTETRICIA = [
       "Williams Obstetrics, 26.ª ed."
     ]
   },
-[
   {
     "id": "OBS-201",
     "especialidad": "Obstetricia",
