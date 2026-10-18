@@ -1,4 +1,4 @@
-window.BANCO_PEDIATRIA = [
+window.BANCO_OBSTETRICIA = [
 
   {
     "id": "OBS-001",
