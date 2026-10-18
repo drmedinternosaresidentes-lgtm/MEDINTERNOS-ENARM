@@ -16544,5 +16544,2966 @@ window.BANCO_OBSTETRICIA = [
       "NICE. Caesarean Birth, NG192.",
       "WHO. Recommendations for the Prevention and Treatment of Postpartum Haemorrhage."
     ]
+  },
+    {
+    "id": "OBS-681",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Definición y diferenciación de PEG",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar un feto pequeño para la edad gestacional de una restricción patológica del crecimiento fetal.",
+    "caso": "Gestante de 32 semanas con embarazo bien fechado mediante longitud cráneo-caudal del primer trimestre. El ultrasonido muestra peso fetal estimado en percentil 8, circunferencia abdominal en percentil 7, líquido amniótico normal y Doppler umbilical sin alteraciones. No existen comorbilidades maternas.",
+    "pregunta": "¿Qué distinción conceptual debe explicarse al interpretar estos resultados?",
+    "opciones": [
+      "Todo feto con peso por debajo del percentil 10 tiene necesariamente hipoxia grave",
+      "PEG y RCIU son términos idénticos en todos los sistemas de clasificación",
+      "El peso fetal estimado no sirve para identificar alteraciones del crecimiento",
+      "PEG describe un tamaño por debajo de un umbral estadístico, mientras que RCIU implica que el feto no alcanza su potencial de crecimiento",
+      "Un Doppler normal descarta cualquier posibilidad de alteración del crecimiento"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF define PEG como un feto con peso por debajo del percentil 10 y RCIU como la incapacidad para alcanzar el potencial genético de crecimiento. Un feto pequeño puede ser constitucionalmente pequeño o presentar una restricción patológica; para diferenciarlos se integran antecedentes, evolución biométrica, Doppler y evaluación materno-fetal. Un Doppler normal no elimina por completo el riesgo.",
+    "perlaENARM": "PEG es una clasificación estadística por tamaño; RCIU implica crecimiento patológico. El percentil 10 es un punto de detección, no una prueba aislada de hipoxia.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 1.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-682",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Datación de la edad gestacional",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la importancia de establecer con precisión la edad gestacional antes de diagnosticar una alteración del crecimiento.",
+    "caso": "Paciente de 30 semanas por fecha de última menstruación incierta presenta una biometría fetal que corresponde aproximadamente a 27 semanas. No dispone de ultrasonido previo y refiere ciclos menstruales irregulares.",
+    "pregunta": "¿Cuál es la principal limitación diagnóstica de este escenario?",
+    "opciones": [
+      "La diferencia biométrica confirma por sí sola una restricción grave",
+      "Sin una datación confiable es difícil distinguir un feto pequeño de un embarazo con edad gestacional sobreestimada",
+      "La longitud cráneo-caudal debe medirse en cualquier trimestre con igual precisión",
+      "La edad gestacional no modifica la interpretación del peso fetal",
+      "La fecha de última menstruación siempre es más precisa que el ultrasonido temprano"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La evaluación del crecimiento depende de comparar las mediciones fetales con estándares apropiados para la edad gestacional. El PDF destaca que la datación precisa es indispensable y señala al ultrasonido del primer trimestre mediante longitud cráneo-caudal como el método más exacto para establecer edad gestacional y fecha probable de parto. En ausencia de datación temprana, debe interpretarse la incertidumbre antes de etiquetar RCIU.",
+    "perlaENARM": "Antes de diagnosticar RCIU, confirma la edad gestacional; una datación incorrecta puede simular crecimiento fetal insuficiente.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 3.",
+      "ACOG. Methods for Estimating the Due Date.",
+      "ISUOG. Practice Guidelines: Ultrasound Assessment of Fetal Biometry and Growth."
+    ]
+  },
+  {
+    "id": "OBS-683",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Longitud cráneo-caudal",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Identificar el parámetro ecográfico de elección para datar el embarazo en el primer trimestre.",
+    "caso": "Gestante de 9 semanas acude por primera vez a control prenatal. La fecha de última menstruación es incierta y se requiere establecer la edad gestacional para interpretar los ultrasonidos posteriores.",
+    "pregunta": "¿Qué medición ofrece la mejor precisión para datar el embarazo en esta etapa?",
+    "opciones": [
+      "Longitud cráneo-caudal embrionaria",
+      "Circunferencia abdominal fetal",
+      "Índice de líquido amniótico",
+      "Índice de pulsatilidad de la arteria umbilical",
+      "Altura del fondo uterino"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La longitud cráneo-caudal del primer trimestre es el parámetro ecográfico de mayor precisión para establecer la edad gestacional temprana. Esta datación permite que las mediciones posteriores de peso estimado y circunferencia abdominal se comparen con percentiles apropiados.",
+    "perlaENARM": "Primer trimestre: longitud cráneo-caudal para datación. Segundo y tercer trimestres: la biometría se utiliza para evaluar crecimiento, no para redatar rutinariamente un embarazo bien fechado.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 3.",
+      "ACOG. Methods for Estimating the Due Date.",
+      "ISUOG. Practice Guidelines: Ultrasound Assessment of Fetal Biometry and Growth."
+    ]
+  },
+  {
+    "id": "OBS-684",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Altura del fondo uterino",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar la altura del fondo uterino como herramienta de vigilancia y reconocer sus limitaciones diagnósticas.",
+    "caso": "Durante el control prenatal de una gestante de 31 semanas, la altura del fondo uterino es menor de la esperada. La paciente tiene obesidad y antecedente de miomatosis uterina, sin ultrasonidos recientes.",
+    "pregunta": "¿Qué conducta corresponde al significado clínico de este hallazgo?",
+    "opciones": [
+      "Diagnosticar RCIU definitiva sin otras pruebas",
+      "Indicar nacimiento inmediato por vía abdominal",
+      "Descartar RCIU porque la obesidad puede alterar la medición",
+      "Utilizar la altura uterina para calcular el peso fetal exacto",
+      "Solicitar evaluación ecográfica del crecimiento, porque la altura uterina es una herramienta de tamizaje con sensibilidad limitada"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF informa una sensibilidad de 27% y especificidad de 88% para la altura del fondo uterino. Una medición menor de la esperada puede justificar ultrasonido de crecimiento, pero no confirma ni descarta por sí sola RCIU. La obesidad, los miomas, la cantidad de líquido amniótico y otros factores pueden afectar la medición.",
+    "perlaENARM": "La altura uterina sirve como tamizaje; una medición anormal requiere correlación ecográfica y clínica.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 3.",
+      "NICE. Antenatal Care, NG201.",
+      "ISUOG. Practice Guidelines: Ultrasound Assessment of Fetal Biometry and Growth."
+    ]
+  },
+  {
+    "id": "OBS-685",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Circunferencia abdominal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar la circunferencia abdominal y el peso fetal estimado en la detección de crecimiento subóptimo.",
+    "caso": "Gestante de 29 semanas con hipertensión crónica presenta circunferencia abdominal fetal en percentil 5 y peso fetal estimado en percentil 12. El ultrasonido previo mostró circunferencia abdominal en percentil 35.",
+    "pregunta": "¿Qué aspecto de estos resultados incrementa la sospecha de alteración del crecimiento?",
+    "opciones": [
+      "El peso estimado por encima del percentil 10 excluye cualquier alteración",
+      "La circunferencia abdominal es irrelevante cuando el peso está en percentil 12",
+      "La circunferencia abdominal baja y su descenso respecto a la medición previa ameritan evaluación integral del crecimiento y Doppler",
+      "La hipertensión crónica protege contra la insuficiencia placentaria",
+      "Una sola medición permite calcular con exactitud la velocidad de crecimiento"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF utiliza la circunferencia abdominal y el peso fetal estimado por debajo del percentil 10 para identificar crecimiento subóptimo. Una circunferencia abdominal en percentil 5, especialmente con descenso respecto a mediciones previas y enfermedad vascular materna, requiere evaluación más completa. El crecimiento debe interpretarse en conjunto con la edad gestacional, el Doppler y la evolución temporal.",
+    "perlaENARM": "La circunferencia abdominal es sensible a alteraciones del crecimiento; integra percentiles y trayectoria biométrica, no solo el peso estimado aislado.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 3.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Ultrasound Assessment of Fetal Biometry and Growth."
+    ]
+  },
+  {
+    "id": "OBS-686",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Estimación del peso fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la incertidumbre de las fórmulas de estimación del peso fetal y seleccionar la herramienta apropiada en fetos pequeños.",
+    "caso": "En una gestante de 33 semanas, el ultrasonido muestra biometría marcadamente pequeña. El peso fetal estimado calculado mediante una fórmula convencional es de 1,300 g, pero el equipo sospecha que la estimación puede tener limitaciones en este rango.",
+    "pregunta": "¿Qué recomendación específica aparece en el material proporcionado para fetos pequeños?",
+    "opciones": [
+      "Utilizar exclusivamente la altura del fondo uterino",
+      "Evitar toda estimación de peso en fetos pequeños",
+      "Aplicar siempre Shepard fuera de los rangos en los que fue validada",
+      "Considerar la fórmula de Hadlock, ya que Shepard y Aoki tienen limitaciones fuera de los rangos de peso para los que fueron validadas",
+      "Usar la edad materna como sustituto de la biometría fetal"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF señala que Shepard y Aoki fueron validadas para pesos al nacimiento entre 2,080 y 4,430 g, y advierte que utilizarlas fuera de ese rango puede ser inapropiado. Para fetos pequeños recomienda Hadlock. En la práctica, también debe considerarse que toda estimación ecográfica tiene un margen de error y que la conducta no depende de un único valor.",
+    "perlaENARM": "En fetos muy pequeños, considera las limitaciones de la fórmula de peso; el PDF recomienda Hadlock para estos casos.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 3.",
+      "ISUOG. Practice Guidelines: Ultrasound Assessment of Fetal Biometry and Growth.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-687",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Fisiopatología placentaria",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar una placentación anormal con disminución del intercambio de oxígeno y nutrientes y con consecuencias materno-fetales.",
+    "caso": "Gestante de 30 semanas presenta hipertensión de novo, proteinuria y feto con peso estimado en percentil 4. El Doppler muestra aumento de resistencia en la arteria umbilical.",
+    "pregunta": "¿Qué mecanismo fisiopatológico explica mejor la asociación entre el cuadro materno y el crecimiento fetal?",
+    "opciones": [
+      "Aumento de la superficie placentaria de intercambio",
+      "Alteración de la implantación y de la vasculatura uteroplacentaria, con menor transferencia de oxígeno y nutrientes",
+      "Incremento compensatorio de la perfusión placentaria como causa de RCIU",
+      "Aumento del aporte fetal de nutrientes por vasodilatación umbilical",
+      "Maduración pulmonar fetal acelerada como causa primaria de hipertensión"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF describe la alteración de la implantación placentaria y de la superficie de intercambio como mecanismos que pueden reducir el aporte de oxígeno y nutrientes, provocar hipoxia intrauterina y asociarse con preeclampsia y RCIU. El aumento de resistencia en la arteria umbilical es compatible con disfunción placentaria.",
+    "perlaENARM": "Preeclampsia más feto pequeño y resistencia umbilical elevada sugiere disfunción uteroplacentaria.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 1.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-688",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Factores de riesgo maternos",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Identificar los factores maternos asociados con mayor probabilidad de restricción del crecimiento fetal.",
+    "caso": "Gestante de 27 semanas con antecedente de hipertensión crónica y tabaquismo diario presenta altura uterina menor de la esperada. No se ha realizado ultrasonido de crecimiento.",
+    "pregunta": "¿Qué combinación de antecedentes incrementa de manera importante la sospecha de RCIU?",
+    "opciones": [
+      "Hipertensión crónica y tabaquismo",
+      "Embarazo único y grupo sanguíneo O",
+      "Náusea del primer trimestre y sexo fetal femenino",
+      "Uso previo de anticonceptivos orales y antecedente de apendicectomía",
+      "Rinitis alérgica aislada y miopía materna"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF destaca los trastornos hipertensivos y la enfermedad vascular como factores fuertemente asociados con RCIU, y también identifica el tabaquismo como riesgo por sus efectos sobre el flujo placentario y el desarrollo vascular uteroplacentario. La altura uterina menor de lo esperado justifica evaluación ecográfica.",
+    "perlaENARM": "Hipertensión o enfermedad vascular y tabaquismo son factores clásicos de riesgo de RCIU.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 2.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ACOG. Tobacco and Nicotine Cessation During Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-689",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Tabaquismo y crecimiento fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar los mecanismos mediante los cuales el tabaquismo puede alterar el crecimiento fetal.",
+    "caso": "Paciente de 24 semanas continúa fumando diez cigarrillos al día. El ultrasonido muestra circunferencia abdominal en percentil 9 y peso estimado en percentil 11.",
+    "pregunta": "¿Qué mecanismo vinculado al tabaquismo contribuye a la alteración del crecimiento fetal?",
+    "opciones": [
+      "Aumento sostenido de la perfusión uteroplacentaria",
+      "Supresión completa de la resistencia vascular placentaria",
+      "Aceleración fisiológica del crecimiento hepático fetal",
+      "Disminución del flujo placentario, alteración del desarrollo vascular y toxicidad fetal directa",
+      "Incremento del transporte de oxígeno por la hemoglobina fetal"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El material relaciona el tabaquismo con disminución del flujo placentario, inhibición del desarrollo vascular uteroplacentario y toxicidad fetal directa. Debe ofrecerse apoyo para suspender el tabaco y realizar evaluación del crecimiento según los factores de riesgo y los hallazgos.",
+    "perlaENARM": "El tabaquismo afecta el crecimiento mediante mecanismos vasculares placentarios y efectos tóxicos directos; suspenderlo beneficia la salud materno-fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 2.",
+      "ACOG. Tobacco and Nicotine Cessation During Pregnancy.",
+      "WHO. Recommendations for the Prevention and Management of Tobacco Use and Second-Hand Smoke Exposure in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-690",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Edad materna y factores epidemiológicos",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Reconocer factores epidemiológicos asociados con RCIU sin atribuir causalidad a un factor aislado.",
+    "caso": "Adolescente de 16 años con ganancia ponderal insuficiente durante el embarazo presenta biometría fetal en percentil 8. No tiene antecedentes de enfermedad renal o hipertensión.",
+    "pregunta": "¿Qué interpretación es congruente con los factores de riesgo descritos en el PDF?",
+    "opciones": [
+      "La adolescencia excluye la posibilidad de RCIU",
+      "La ganancia ponderal materna carece de relación con el crecimiento fetal",
+      "La edad adolescente y la ganancia insuficiente de peso pueden contribuir al riesgo, pero se requiere evaluación clínica completa",
+      "Un percentil 8 confirma hipoxia fetal grave",
+      "La ausencia de hipertensión elimina todos los factores de riesgo relevantes"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF incluye el embarazo adolescente, la edad materna avanzada y la ganancia insuficiente de peso entre los factores asociados con crecimiento fetal subóptimo. Estos elementos aumentan la sospecha, pero no establecen por sí solos el diagnóstico ni determinan la gravedad.",
+    "perlaENARM": "Edad materna y ganancia ponderal son factores de riesgo; la confirmación requiere datación precisa, biometría y evaluación fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 2.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-691",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Doppler de arterias uterinas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar el Doppler de arterias uterinas como parte de la evaluación de la circulación uteroplacentaria.",
+    "caso": "Gestante de 28 semanas con hipertensión crónica presenta peso fetal estimado en percentil 6. El Doppler muestra índice de pulsatilidad medio de arterias uterinas por encima del percentil 95.",
+    "pregunta": "¿Qué hallazgo fisiopatológico sugiere este resultado?",
+    "opciones": [
+      "Intercambio placentario necesariamente normal",
+      "Mayor resistencia de la circulación uteroplacentaria, compatible con placentación anormal",
+      "Diagnóstico definitivo de aneuploidía fetal",
+      "Ausencia de riesgo de preeclampsia",
+      "Prueba confirmatoria de infección congénita"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF describe el Doppler de arterias uterinas y de arteria umbilical como herramientas para contribuir a discriminar el origen placentario o no placentario del trastorno del crecimiento. Un índice de pulsatilidad uterino elevado sugiere aumento de resistencia uteroplacentaria, pero no identifica por sí solo una causa específica.",
+    "perlaENARM": "El Doppler uterino evalúa la circulación materna hacia la placenta; el umbilical evalúa la resistencia del circuito fetoplacentario.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, páginas 3-4.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-692",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Doppler umbilical",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar el aumento de resistencia de la arteria umbilical con disfunción placentaria y riesgo perinatal.",
+    "caso": "Feto de 31 semanas con peso estimado en percentil 2 presenta índice de pulsatilidad de arteria umbilical por encima del percentil 95, aunque todavía conserva flujo diastólico anterógrado.",
+    "pregunta": "¿Qué significado clínico tiene el hallazgo?",
+    "opciones": [
+      "Demuestra ausencia completa de perfusión fetal",
+      "Descarta enfermedad placentaria porque aún existe flujo diastólico",
+      "Confirma que el feto es pequeño constitucionalmente",
+      "Es equivalente a flujo diastólico reverso y exige idéntica interpretación",
+      "Sugiere aumento de resistencia placentaria y requiere vigilancia y manejo según edad gestacional y evaluación fetal"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El aumento del índice de pulsatilidad umbilical sugiere mayor resistencia en la circulación fetoplacentaria. La presencia de flujo diastólico anterógrado es distinta de la ausencia o reversión del flujo diastólico y tiene implicaciones pronósticas diferentes. La conducta debe considerar edad gestacional, gravedad, otros Doppler y pruebas de bienestar.",
+    "perlaENARM": "Doppler umbilical alterado: distingue resistencia elevada con flujo presente, flujo diastólico ausente y flujo diastólico reverso.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, páginas 3-4.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-693",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Doppler y tamizaje universal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer que el Doppler de rutina en embarazos sin factores de riesgo no se recomienda como estrategia universal de tamizaje.",
+    "caso": "Gestante de 25 semanas con embarazo de bajo riesgo, crecimiento acorde a la edad gestacional y exploración normal solicita Doppler de arterias uterinas y umbilicales en cada consulta para descartar cualquier complicación.",
+    "pregunta": "¿Qué recomendación coincide con el material proporcionado?",
+    "opciones": [
+      "El Doppler debe realizarse en todas las consultas prenatales",
+      "El Doppler normal excluye todos los trastornos placentarios futuros",
+      "El Doppler no ha mostrado utilidad clínica para realizarse rutinariamente como tamizaje en pacientes sin factores de riesgo",
+      "El Doppler sustituye la datación gestacional",
+      "El Doppler confirma el peso fetal con exactitud"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF señala que el Doppler no muestra utilidad clínica cuando se realiza de manera rutinaria o como tamizaje en pacientes sin factores de riesgo. Su uso se orienta a situaciones clínicas seleccionadas, como sospecha de RCIU o riesgo de insuficiencia placentaria, siguiendo la guía aplicable.",
+    "perlaENARM": "El Doppler es una herramienta dirigida por el riesgo y los hallazgos clínicos, no un sustituto del control prenatal ni una prueba universal para todo embarazo.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 4.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Ultrasound Assessment of Fetal Biometry and Growth."
+    ]
+  },
+  {
+    "id": "OBS-694",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Clasificación tipo 0 del PDF",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar la clasificación del material proporcionado para diferenciar un feto pequeño con Doppler normal de formas con alteraciones hemodinámicas.",
+    "caso": "Gestante de 34 semanas tiene peso fetal estimado en percentil 7. El Doppler de arterias uterinas es normal, la razón cerebroplacentaria está dentro del rango esperado y no se identifican signos de compromiso fetal.",
+    "pregunta": "Según la clasificación presentada en el PDF, ¿cómo se categoriza este perfil?",
+    "opciones": [
+      "Feto pequeño tipo 0, con peso entre percentiles 3 y 10 y evaluación Doppler normal",
+      "RCIU tipo III por flujo diastólico ausente",
+      "RCIU tipo V por perfil biofísico gravemente alterado",
+      "RCIU tipo IV por razón cerebroplacentaria menor del percentil 5",
+      "RCIU tipo II por índice de pulsatilidad uterino elevado"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La clasificación del PDF denomina feto pequeño tipo 0 al que presenta peso fetal estimado mayor del percentil 3 pero menor del percentil 10, con evaluación fetal y materna mediante Doppler en rangos normales. Esta categoría pertenece al sistema didáctico del documento y no debe equipararse automáticamente a todos los sistemas contemporáneos.",
+    "perlaENARM": "En la clasificación del PDF, percentil 3–10 más Doppler normal corresponde a feto pequeño tipo 0.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 4.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-695",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Clasificación tipo I del PDF",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer los criterios del tipo I en la clasificación de RCIU incluida en el material de estudio.",
+    "caso": "Ultrasonido de una gestante de 32 semanas muestra peso fetal estimado en percentil 2, razón cerebroplacentaria por encima del percentil 5 e índice de pulsatilidad medio de arterias uterinas por debajo del percentil 95. No hay flujo umbilical ausente ni reverso.",
+    "pregunta": "¿Qué categoría corresponde a los criterios descritos en el PDF?",
+    "opciones": [
+      "Feto pequeño tipo 0",
+      "RCIU tipo II",
+      "RCIU tipo III",
+      "RCIU tipo I",
+      "RCIU tipo V"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Según la tabla del PDF, el tipo I incluye fetos con peso fetal estimado menor del percentil 3, razón cerebroplacentaria por encima del percentil 5 e índice de pulsatilidad medio de arterias uterinas menor del percentil 95. Esta clasificación debe citarse como la del material proporcionado.",
+    "perlaENARM": "En la clasificación del PDF, PFE menor del percentil 3 con RCP mayor del percentil 5 y Doppler uterino no elevado corresponde al tipo I.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 4."
+    ]
+  },
+  {
+    "id": "OBS-696",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Clasificación tipo II del PDF",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar alteraciones de la razón cerebroplacentaria o del Doppler uterino que corresponden al tipo II del sistema proporcionado.",
+    "caso": "Gestante de 30 semanas presenta peso fetal estimado en percentil 8 y razón cerebroplacentaria en percentil 3. El Doppler umbilical conserva flujo diastólico y el perfil biofísico es tranquilizador.",
+    "pregunta": "¿Qué categoría asigna el PDF a un feto con peso menor del percentil 10 y razón cerebroplacentaria menor del percentil 5?",
+    "opciones": [
+      "Tipo 0",
+      "Tipo II",
+      "Tipo III",
+      "Tipo IV",
+      "Tipo V"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La clasificación del PDF establece el tipo II cuando el peso fetal estimado es menor del percentil 10 y la razón cerebroplacentaria es menor del percentil 5 o el índice de pulsatilidad medio de arterias uterinas es mayor del percentil 95. La conducta clínica debe basarse en una evaluación completa y no únicamente en la etiqueta del tipo.",
+    "perlaENARM": "En la tabla del PDF, PFE menor del percentil 10 más RCP menor del percentil 5 corresponde al tipo II.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 4."
+    ]
+  },
+  {
+    "id": "OBS-697",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Flujo diastólico ausente en arteria umbilical",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la ausencia de flujo diastólico umbilical como un marcador de compromiso placentario relevante.",
+    "caso": "Feto de 29 semanas con peso estimado en percentil 4 presenta flujo diastólico ausente en la arteria umbilical en más de la mitad de los ciclos evaluados en asa libre del cordón. No se documenta aún flujo reverso.",
+    "pregunta": "¿Qué categoría corresponde a este hallazgo en la clasificación del PDF?",
+    "opciones": [
+      "Feto pequeño tipo 0",
+      "Tipo I por Doppler normal",
+      "Tipo III",
+      "Tipo IV exclusivamente por razón cerebroplacentaria baja",
+      "Tipo V solo si existe diabetes materna"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF clasifica como tipo III al feto con peso menor del percentil 10 y flujo diastólico ausente en arteria umbilical en más del 50% de los ciclos descritos. La ausencia de flujo diastólico es un hallazgo de alto riesgo que exige vigilancia especializada y decisiones sobre el momento del nacimiento según edad gestacional, otros Doppler y estado fetal.",
+    "perlaENARM": "Flujo diastólico ausente en arteria umbilical implica mayor gravedad que una resistencia elevada con flujo diastólico conservado.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 4.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-698",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Clasificación tipo IV del PDF",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar la alteración de la razón cerebroplacentaria y del índice de pulsatilidad de la arteria cerebral media en la clasificación proporcionada.",
+    "caso": "Feto de 33 semanas con peso estimado en percentil 7 presenta razón cerebroplacentaria en percentil 3 e índice de pulsatilidad de la arteria cerebral media por debajo del umbral descrito en el material. El flujo umbilical diastólico está presente.",
+    "pregunta": "¿Qué categoría corresponde al patrón definido en el PDF?",
+    "opciones": [
+      "Tipo 0",
+      "Tipo I",
+      "Tipo II únicamente por peso bajo",
+      "Tipo III por flujo umbilical ausente",
+      "Tipo IV"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF define el tipo IV mediante peso fetal estimado menor del percentil 10, razón cerebroplacentaria menor del percentil 5 e índice de pulsatilidad de arteria cerebral media menor de 5 según el umbral presentado. En la práctica, deben revisarse las unidades, los percentiles y los criterios exactos del protocolo utilizado antes de aplicar una clasificación clínica.",
+    "perlaENARM": "La razón cerebroplacentaria baja y la disminución del índice de pulsatilidad cerebral pueden reflejar redistribución hemodinámica fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 4.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-699",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Criterios de gravedad tipo V del PDF",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer marcadores de deterioro fetal avanzado incluidos en la categoría de mayor gravedad del documento.",
+    "caso": "Gestante de 31 semanas con feto pequeño presenta perfil biofísico 4/10 y flujo diastólico reverso en la arteria umbilical. La evaluación se realiza en un centro de medicina materno-fetal.",
+    "pregunta": "¿Qué característica del caso coincide con los criterios de gravedad descritos en el tipo V del PDF?",
+    "opciones": [
+      "Peso fetal en percentil 20 con Doppler normal",
+      "Altura uterina aislada menor de lo esperado",
+      "Perfil biofísico normal con líquido amniótico normal",
+      "Perfil biofísico de 4/10 y flujo diastólico reverso umbilical",
+      "Circunferencia abdominal en percentil 15 sin otros hallazgos"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF considera tipo V al feto con peso menor del percentil 10 y uno o más criterios de gravedad, incluidos perfil biofísico menor o igual a 4/10, flujo diastólico reverso umbilical, alteraciones del registro sin estrés y determinados hallazgos venosos. Un perfil biofísico de 4/10 y flujo reverso son hallazgos preocupantes que requieren evaluación y manejo urgentes por el equipo especializado.",
+    "perlaENARM": "Perfil biofísico muy bajo o flujo diastólico reverso umbilical son señales de alarma; la conducta no debe retrasarse por completar una clasificación.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 4.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-700",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Redistribución cerebral fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la reducción de la resistencia cerebral con redistribución hemodinámica en fetos con insuficiencia placentaria.",
+    "caso": "Feto de 34 semanas con peso estimado en percentil 5 presenta índice de pulsatilidad bajo en arteria cerebral media y razón cerebroplacentaria menor del percentil 5. El Doppler umbilical aún muestra flujo diastólico anterógrado.",
+    "pregunta": "¿Qué mecanismo explica estos hallazgos?",
+    "opciones": [
+      "Vasodilatación cerebral compensatoria en respuesta a una posible hipoxemia fetal",
+      "Aumento de resistencia cerebral para conservar oxígeno",
+      "Diagnóstico definitivo de malformación cerebral",
+      "Ausencia completa de circulación placentaria",
+      "Prueba de que el feto es constitucionalmente pequeño"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La disminución del índice de pulsatilidad de la arteria cerebral media puede reflejar vasodilatación cerebral adaptativa ante una situación de estrés hipóxico, conocida como redistribución cerebral. Este hallazgo debe interpretarse con la edad gestacional, el Doppler umbilical y la evaluación de bienestar. No demuestra por sí solo una lesión neurológica.",
+    "perlaENARM": "En insuficiencia placentaria, una arteria cerebral media con resistencia reducida puede indicar redistribución hemodinámica fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 4.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-701",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Ductus venoso",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer alteraciones del ductus venoso como marcadores de compromiso hemodinámico fetal avanzado.",
+    "caso": "Feto de 30 semanas con RCIU presenta índice de pulsatilidad del ductus venoso por encima del percentil 95 y ondas venosas anormales persistentes en una segunda evaluación. El Doppler umbilical muestra deterioro progresivo.",
+    "pregunta": "¿Qué significado tiene esta combinación dentro del sistema del PDF?",
+    "opciones": [
+      "Es un patrón que excluye deterioro cardiovascular fetal",
+      "Es un criterio de gravedad incluido en la categoría tipo V y requiere valoración especializada urgente",
+      "Corresponde necesariamente a un feto pequeño constitucional",
+      "Indica que no se requiere seguimiento si el líquido es normal",
+      "Solo se relaciona con edad materna avanzada"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF incluye entre los criterios de gravedad del tipo V un índice de pulsatilidad del ductus venoso mayor del percentil 95 y determinadas alteraciones venosas persistentes. Estos hallazgos pueden reflejar compromiso cardiovascular fetal avanzado y requieren valoración especializada inmediata, integrando edad gestacional, otros Doppler y pruebas de bienestar.",
+    "perlaENARM": "Las alteraciones venosas en RCIU pueden indicar deterioro avanzado; no deben interpretarse de forma aislada ni trivializarse.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 4.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-702",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Aspirina a dosis bajas",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir la prevención de preeclampsia y RCIU en pacientes de riesgo de un tratamiento de rescate después de establecido el diagnóstico.",
+    "caso": "Paciente de 12 semanas con antecedente de preeclampsia temprana y restricción del crecimiento fetal en un embarazo previo acude a consulta para prevención de complicaciones placentarias.",
+    "pregunta": "¿Qué intervención farmacológica puede considerarse según el documento y las recomendaciones aplicables?",
+    "opciones": [
+      "Heparina terapéutica en todas las gestantes con antecedente de RCIU",
+      "Corticoesteroides semanales durante todo el embarazo",
+      "Aspirina a dosis bajas iniciada tempranamente cuando cumple criterios de riesgo, de acuerdo con la guía vigente",
+      "Sildenafilo para aumentar el crecimiento fetal en todos los casos",
+      "Antibióticos profilácticos hasta el nacimiento"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF indica que la aspirina a dosis bajas, iniciada entre las 12 y 16 semanas, puede reducir la incidencia de preeclampsia y RCIU en poblaciones con factores de riesgo. Su uso debe basarse en criterios de elegibilidad, dosis y contraindicaciones establecidos por la guía vigente. No es un tratamiento de rescate universal una vez diagnosticada la restricción.",
+    "perlaENARM": "La aspirina a dosis bajas se utiliza para prevención en pacientes seleccionadas; no es una terapia que revierta universalmente la RCIU ya establecida.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 5.",
+      "ACOG/SMFM. Low-Dose Aspirin Use During Pregnancy.",
+      "USPSTF. Aspirin Use to Prevent Preeclampsia and Related Morbidity and Mortality."
+    ]
+  },
+  {
+    "id": "OBS-703",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Corticoesteroides antenatales",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar corticoesteroides antenatales cuando existe riesgo de nacimiento pretérmino dentro del intervalo recomendado.",
+    "caso": "Gestante de 29 semanas con RCIU grave y Doppler deteriorado presenta una situación en la que el equipo considera probable el nacimiento dentro de los próximos siete días. No ha recibido un esquema previo de corticoesteroides.",
+    "pregunta": "¿Qué esquema de maduración pulmonar aparece en el PDF?",
+    "opciones": [
+      "Betametasona 2 mg cada 24 horas durante cinco días",
+      "Dexametasona 12 mg en una sola dosis",
+      "Hidrocortisona diaria hasta el término",
+      "Betametasona 6 mg cada 12 horas durante cuatro dosis exclusivamente",
+      "Betametasona 12 mg intramuscular cada 24 horas por dos dosis, o dexametasona 6 mg cada 12 horas por cuatro dosis"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF señala dos esquemas antenatales: betametasona 12 mg cada 24 horas por dos dosis y dexametasona 6 mg cada 12 horas por cuatro dosis. Se indican cuando el nacimiento pretérmino es probable dentro del intervalo apropiado. La necesidad de nacimiento por compromiso materno-fetal no debe retrasarse únicamente para completar el esquema.",
+    "perlaENARM": "Maduración pulmonar: betametasona 12 mg cada 24 horas por dos dosis o dexametasona 6 mg cada 12 horas por cuatro dosis.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 5.",
+      "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation.",
+      "WHO. Recommendations on Antenatal Corticosteroids for Improving Preterm Birth Outcomes."
+    ]
+  },
+  {
+    "id": "OBS-704",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Tratamiento una vez establecido el diagnóstico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer las limitaciones del tratamiento farmacológico de la RCIU y priorizar vigilancia y planificación del nacimiento.",
+    "caso": "Gestante de 32 semanas presenta feto con peso estimado en percentil 2, Doppler umbilical alterado y líquido amniótico reducido. La paciente solicita un medicamento que haga que el feto recupere rápidamente su crecimiento.",
+    "pregunta": "¿Qué explicación clínica es más adecuada?",
+    "opciones": [
+      "La RCIU se corrige habitualmente con antibióticos de amplio espectro",
+      "El tratamiento universal es aumentar la ingesta de azúcar",
+      "La aspirina iniciada a las 32 semanas revierte de inmediato la insuficiencia placentaria",
+      "Las intervenciones farmacológicas para revertir la RCIU son limitadas; el manejo se centra en identificar la causa, vigilar al feto y decidir el momento seguro del nacimiento",
+      "El reposo absoluto garantiza normalización del peso fetal"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF señala que las intervenciones farmacológicas para la RCIU son limitadas y destaca la importancia de identificar grupos de riesgo, explicar la enfermedad, establecer seguimiento y evaluar hemodinámica fetoplacentaria mediante Doppler. No existe un fármaco universal que revierta de inmediato una insuficiencia placentaria establecida.",
+    "perlaENARM": "El manejo de RCIU se centra en vigilancia, evaluación etiológica y momento del nacimiento, no en un medicamento universal para aumentar el peso fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 5.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-705",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Referencia a medicina materno-fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la necesidad de referencia a un nivel especializado ante una biometría compatible con RCIU.",
+    "caso": "En un centro de primer nivel se identifica peso fetal estimado en percentil 6 en una gestante de 30 semanas. El centro no dispone de Doppler obstétrico ni de personal para vigilancia fetal especializada.",
+    "pregunta": "¿Qué acción coincide con la recomendación del documento?",
+    "opciones": [
+      "Referir a un nivel de atención superior para buscar la causa y realizar evaluación hemodinámica fetoplacentaria cuando esté indicada",
+      "Esperar hasta el término sin repetir la evaluación",
+      "Diagnosticar hipoxia grave sin más pruebas",
+      "Indicar cesárea inmediata a todas las pacientes con percentil menor de 10",
+      "Suspender el control prenatal porque el diagnóstico ya está establecido"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF recomienda referir al siguiente nivel de atención cuando se detecta RCIU por biometría, para investigar la causa y realizar evaluación hemodinámica fetoplacentaria con Doppler cuando sea necesario. La referencia no significa que todas las pacientes deban tener nacimiento inmediato; la conducta depende de la gravedad y la edad gestacional.",
+    "perlaENARM": "Una biometría compatible con RCIU requiere evaluación de causa y gravedad; refiere si el nivel de atención no cuenta con recursos suficientes.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 5.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-706",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Diferencial etiológico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Organizar el diagnóstico diferencial de un feto pequeño considerando causas placentarias, cromosómicas, infecciosas y constitucionales.",
+    "caso": "Gestante de 28 semanas presenta peso fetal estimado en percentil 4. El Doppler umbilical es normal y no hay hipertensión materna. La ecografía anatómica muestra una anomalía estructural que requiere evaluación especializada.",
+    "pregunta": "¿Qué grupos etiológicos deben mantenerse en el diagnóstico diferencial?",
+    "opciones": [
+      "Únicamente insuficiencia placentaria por hipertensión",
+      "Solo error de medición del peso fetal",
+      "Causas cromosómicas, infecciones congénitas, feto constitucionalmente pequeño y causas placentarias",
+      "Únicamente diabetes gestacional",
+      "Exclusivamente alteraciones del líquido amniótico"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El diagrama de la página 6 del PDF propone considerar, ante un feto pequeño, cromosomopatías, infección congénita y feto constitucionalmente pequeño, además de evaluar el componente placentario. La presencia de una anomalía estructural justifica una evaluación dirigida y consejería individualizada.",
+    "perlaENARM": "Feto pequeño con Doppler normal no excluye etiología genética o infecciosa; el diagnóstico diferencial debe ser dirigido por la historia y la anatomía fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, páginas 4 y 6.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-707",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Peso fetal por debajo del percentil 3",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el peso fetal extremadamente bajo como marcador de riesgo y distinguirlo de los hallazgos Doppler que definen gravedad adicional.",
+    "caso": "Gestante de 35 semanas tiene peso fetal estimado en percentil 2. El Doppler umbilical y el perfil biofísico son normales, sin hipertensión ni otras complicaciones.",
+    "pregunta": "¿Qué interpretación es la más prudente?",
+    "opciones": [
+      "El Doppler normal convierte el peso en un dato irrelevante",
+      "Un peso por debajo del percentil 3 es un hallazgo de alto riesgo que requiere evaluación especializada, aunque la conducta depende del conjunto de resultados",
+      "Debe diagnosticarse flujo diastólico reverso sin medirlo",
+      "El feto necesariamente tiene una aneuploidía",
+      "La ausencia de hipertensión descarta la restricción patológica"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Un peso fetal estimado inferior al percentil 3 se asocia con mayor riesgo y requiere valoración especializada. Un Doppler normal aporta información favorable, pero no elimina el riesgo asociado con tamaño extremadamente pequeño. El momento del nacimiento debe individualizarse según edad gestacional, Doppler, vigilancia fetal y guía vigente.",
+    "perlaENARM": "PFE menor del percentil 3 merece especial atención incluso si el Doppler es normal; no confundas riesgo elevado con indicación automática de cesárea inmediata.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 4.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-708",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Curvas personalizadas de crecimiento",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar el fundamento de las curvas personalizadas y su relación con las características maternas y gestacionales.",
+    "caso": "Gestante de talla baja y bajo peso pregestacional tiene un feto con peso estimado en percentil 11 en una curva poblacional estándar. La trayectoria de crecimiento es estable y el Doppler es normal.",
+    "pregunta": "¿Qué concepto del PDF ayuda a interpretar el crecimiento en relación con las características individuales?",
+    "opciones": [
+      "Las curvas personalizadas ajustan la comparación del peso fetal a condiciones maternas y gestacionales similares",
+      "El peso fetal no debe compararse con ningún estándar",
+      "Toda gestante de talla baja tiene un feto con RCIU",
+      "Las curvas personalizadas sustituyen la datación del embarazo",
+      "El Doppler es innecesario en cualquier feto con percentil mayor de 10"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF señala que comparar el peso fetal estimado con estándares para condiciones similares de la gestación, mediante curvas personalizadas, puede ayudar a valorar el crecimiento de acuerdo con factores maternos, paternos y ambientales. Estas curvas no sustituyen la evaluación clínica ni deben emplearse para descartar insuficiencia placentaria cuando existen otros signos.",
+    "perlaENARM": "El tamaño fetal debe interpretarse con estándares apropiados y contexto clínico; una curva personalizada no reemplaza la evaluación de bienestar.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 1.",
+      "ISUOG. Practice Guidelines: Ultrasound Assessment of Fetal Biometry and Growth."
+    ]
+  },
+  {
+    "id": "OBS-709",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Riesgo perinatal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar la restricción del crecimiento fetal con riesgos perinatales y consecuencias a largo plazo.",
+    "caso": "Familia de una gestante cuyo feto presenta RCIU pregunta por las posibles repercusiones del trastorno, aun si el nacimiento ocurre sin complicaciones inmediatas.",
+    "pregunta": "¿Qué información es congruente con el material proporcionado?",
+    "opciones": [
+      "La RCIU solo afecta el peso al nacer y no tiene repercusiones posteriores",
+      "Los fetos pequeños tienen menor riesgo de morbilidad en todas las edades gestacionales",
+      "El crecimiento fetal no se relaciona con el neurodesarrollo",
+      "La RCIU se asocia con mayor morbilidad y mortalidad neonatal y puede relacionarse con secuelas neurológicas y del desarrollo",
+      "El riesgo de muerte fetal es independiente del peso estimado"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF destaca que la RCIU incrementa la morbilidad y mortalidad neonatal y que puede asociarse con lesión neurológica, retraso del desarrollo psicomotor y consecuencias en la vida adulta. La magnitud del riesgo depende de la causa, la gravedad, la edad gestacional y el manejo perinatal.",
+    "perlaENARM": "La RCIU no es solo un hallazgo antropométrico: puede asociarse con complicaciones neonatales y repercusiones a largo plazo.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 2.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-710",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Interpretación de biometría y percentiles",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar los percentiles de peso fetal estimado y evitar equiparar un percentil aislado con un diagnóstico etiológico.",
+    "caso": "Gestante de 37 semanas tiene peso fetal estimado en percentil 9, circunferencia abdominal en percentil 10, Doppler umbilical normal y sin factores maternos de riesgo. El crecimiento ha sido estable en dos evaluaciones.",
+    "pregunta": "¿Qué interpretación integra mejor la información disponible?",
+    "opciones": [
+      "La paciente tiene necesariamente insuficiencia placentaria grave",
+      "El feto requiere cesárea inmediata por definición",
+      "El percentil 9 descarta cualquier posibilidad de crecimiento patológico",
+      "El Doppler normal demuestra que la edad gestacional está mal calculada",
+      "El feto cumple criterio estadístico de pequeño, pero deben integrarse trayectoria, factores de riesgo y evaluación fetal para valorar si existe restricción patológica"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Un peso fetal estimado por debajo del percentil 10 identifica un feto pequeño, pero la interpretación clínica requiere integrar datación, trayectoria de crecimiento, Doppler y factores maternos. Un crecimiento estable y Doppler normal son datos útiles, aunque no deben interpretarse como garantía absoluta de ausencia de riesgo.",
+    "perlaENARM": "Percentil menor de 10 identifica tamaño pequeño; la gravedad y la etiología requieren integración clínica.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, páginas 1 y 3-4.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-711",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "RCIU y preeclampsia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar el riesgo materno y fetal cuando coexisten preeclampsia y restricción del crecimiento.",
+    "caso": "Gestante de 31 semanas presenta presión arterial de 165/110 mmHg, cefalea persistente, proteinuria y feto con peso estimado en percentil 3. El Doppler umbilical está alterado.",
+    "pregunta": "¿Qué principio debe dominar la atención de esta paciente?",
+    "opciones": [
+      "La RCIU es un problema exclusivamente fetal y no modifica la evaluación materna",
+      "La preeclampsia con características graves requiere estabilización materna y evaluación urgente del bienestar fetal; el momento del nacimiento depende de la gravedad y la respuesta clínica",
+      "Debe esperarse al término porque el feto es pequeño",
+      "El Doppler alterado excluye la necesidad de controlar la presión arterial",
+      "La aspirina a dosis bajas sustituye el tratamiento de la preeclampsia establecida"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La coexistencia de preeclampsia con características graves y RCIU puede reflejar enfermedad placentaria importante y aumenta el riesgo materno-fetal. La estabilización materna, el tratamiento antihipertensivo y la evaluación fetal son prioritarios. La decisión sobre nacimiento se individualiza según gravedad, edad gestacional y respuesta al manejo, sin retrasar una intervención indicada por seguridad.",
+    "perlaENARM": "Cuando coexisten preeclampsia grave y RCIU, la seguridad materna es prioritaria y el bienestar fetal debe evaluarse en paralelo.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, páginas 1-2.",
+      "ACOG. Gestational Hypertension and Preeclampsia.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-712",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Exposición a cocaína",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar el consumo de cocaína con el crecimiento fetal y ofrecer evaluación clínica no estigmatizante.",
+    "caso": "Gestante de 26 semanas refiere consumo reciente de cocaína. La biometría fetal muestra peso estimado en percentil 6 y la evaluación obstétrica identifica riesgo de disfunción placentaria.",
+    "pregunta": "¿Qué asociación se describe en el material proporcionado?",
+    "opciones": [
+      "La cocaína aumenta de manera predecible el peso fetal",
+      "La cocaína protege contra la vasoconstricción placentaria",
+      "El consumo de cocaína se asocia inversamente con el peso al nacimiento y justifica evaluación integral y apoyo para suspender el consumo",
+      "El consumo no se relaciona con resultados obstétricos",
+      "La exposición obliga a cesárea inmediata independientemente del estado fetal"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF incluye el consumo de cocaína entre los factores de riesgo de RCIU y señala una relación inversa con el peso al nacimiento. La atención debe evaluar complicaciones maternas y fetales, ofrecer apoyo para suspender el consumo y planificar vigilancia según los hallazgos, evitando intervenciones basadas únicamente en el antecedente.",
+    "perlaENARM": "El consumo de cocaína es un factor de riesgo obstétrico; evalúa sus consecuencias y ofrece apoyo clínico sin estigmatizar.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 2.",
+      "ACOG. Substance Use Disorders in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-713",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Contaminación ambiental",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Reconocer la exposición ambiental como posible factor asociado con crecimiento fetal subóptimo.",
+    "caso": "Gestante que vive cerca de una zona de alto tránsito vehicular presenta biometría fetal en percentil 8. No tiene hipertensión ni consume tabaco.",
+    "pregunta": "¿Qué postura es más apropiada respecto a la posible contribución ambiental?",
+    "opciones": [
+      "La contaminación ambiental nunca se asocia con el crecimiento fetal",
+      "La ausencia de tabaquismo elimina cualquier factor ambiental",
+      "El percentil 8 demuestra que la contaminación es la causa definitiva",
+      "El PDF incluye exposición a contaminación del aire entre los factores asociados, pero la etiología debe evaluarse sin atribuir causalidad a un solo dato",
+      "La contaminación ambiental obliga a indicar corticoesteroides"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF menciona la exposición a contaminación del aire, incluida la relacionada con combustión de gasolinas, entre los factores asociados con RCIU. Este antecedente no demuestra por sí solo la causa de un feto pequeño; deben evaluarse otros factores maternos, placentarios, fetales y ambientales.",
+    "perlaENARM": "Los factores ambientales pueden contribuir al riesgo, pero la etiología de RCIU suele requerir una evaluación multifactorial.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 2.",
+      "WHO. Air Pollution and Child Health: Prescribing Clean Air."
+    ]
+  },
+  {
+    "id": "OBS-714",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Ganancia ponderal materna",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Valorar la ganancia ponderal materna como parte de la evaluación integral del crecimiento fetal.",
+    "caso": "Gestante de 25 semanas con bajo peso pregestacional ha ganado menos peso del esperado. El peso fetal estimado se encuentra en percentil 7 y la paciente refiere inseguridad alimentaria.",
+    "pregunta": "¿Qué estrategia debe integrarse al plan de atención?",
+    "opciones": [
+      "Evaluar el estado nutricional y las condiciones sociales, ofrecer apoyo nutricional apropiado y completar la evaluación obstétrica del crecimiento",
+      "Indicar restricción calórica para reducir el riesgo de macrosomía",
+      "Afirmar que la ganancia de peso no influye en el crecimiento fetal",
+      "Administrar corticoesteroides durante todo el embarazo para aumentar el peso",
+      "Suspender la vigilancia fetal si se inicia suplementación nutricional"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La ganancia insuficiente de peso aparece en el PDF como factor de riesgo. La intervención debe considerar nutrición, acceso a alimentos, enfermedades maternas y evaluación fetal. La suplementación puede corregir déficits nutricionales, pero no sustituye la vigilancia ni garantiza reversión de una restricción de origen placentario.",
+    "perlaENARM": "Ganancia ponderal insuficiente más feto pequeño: evalúa nutrición y determinantes sociales, sin asumir que toda RCIU se debe a desnutrición materna.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 2.",
+      "National Academies. Weight Gain During Pregnancy: Reexamining the Guidelines.",
+      "WHO. Recommendations on Antenatal Care for a Positive Pregnancy Experience."
+    ]
+  },
+  {
+    "id": "OBS-715",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Maduración pulmonar y decisión del nacimiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar que la administración de corticoesteroides retrase un nacimiento necesario por deterioro materno-fetal.",
+    "caso": "Gestante de 30 semanas con RCIU grave presenta flujo diastólico reverso umbilical y deterioro de la evaluación fetal. El equipo considera que el nacimiento debe realizarse de forma urgente y la paciente aún no recibe corticoesteroides.",
+    "pregunta": "¿Cómo debe integrarse la maduración pulmonar a la conducta obstétrica?",
+    "opciones": [
+      "Retrasar siempre el nacimiento 48 horas para completar el esquema",
+      "Administrar corticoesteroides y mantener el embarazo aunque exista deterioro fetal progresivo",
+      "No administrar corticoesteroides en ninguna gestación con RCIU",
+      "Esperar a que el peso fetal supere el percentil 10",
+      "Administrarlos si están indicados y el tiempo clínico lo permite, pero no retrasar un nacimiento necesario por compromiso materno-fetal"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Los corticoesteroides antenatales reducen complicaciones relacionadas con prematuridad cuando el nacimiento pretérmino es probable dentro del intervalo apropiado. Sin embargo, el deterioro fetal o materno puede exigir nacimiento antes de completar el esquema. La seguridad no debe subordinarse a terminar una intervención preventiva.",
+    "perlaENARM": "Los corticoesteroides no justifican retrasar un nacimiento indicado por deterioro materno-fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 5.",
+      "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-716",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Seguimiento de RCIU",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar biometría seriada, Doppler y vigilancia fetal en el seguimiento de una restricción del crecimiento.",
+    "caso": "Gestante de 32 semanas con peso fetal estimado en percentil 5 tiene Doppler umbilical inicialmente normal. En el seguimiento, el crecimiento permanece bajo y aparece aumento del índice de pulsatilidad umbilical.",
+    "pregunta": "¿Qué elemento es fundamental para actualizar la evaluación de riesgo?",
+    "opciones": [
+      "Repetir el peso fetal diariamente para detectar cambios mínimos",
+      "Integrar la trayectoria de crecimiento con Doppler seriado y evaluación de bienestar fetal, ajustando el seguimiento a la gravedad",
+      "Suspender las mediciones porque el diagnóstico ya se realizó",
+      "Utilizar exclusivamente la altura uterina para decidir el nacimiento",
+      "Considerar que un Doppler previamente normal descarta deterioro posterior"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La RCIU puede evolucionar y el estado hemodinámico puede deteriorarse. El seguimiento requiere integrar biometría seriada en intervalos apropiados, Doppler y pruebas de bienestar fetal, además de la condición materna. Un resultado normal previo no garantiza que el riesgo permanezca estable.",
+    "perlaENARM": "El seguimiento de RCIU es dinámico: los hallazgos previos no sustituyen la reevaluación cuando cambia la condición fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, páginas 3-5.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-717",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "RCIU de inicio temprano",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que la restricción de inicio temprano puede requerir evaluación etiológica ampliada y vigilancia especializada.",
+    "caso": "En una gestante de 24 semanas se detecta peso fetal estimado por debajo del percentil 3 y una anomalía estructural adicional. El Doppler umbilical está alterado y la madre no presenta hipertensión.",
+    "pregunta": "¿Qué estrategia diagnóstica debe considerarse además de la evaluación hemodinámica?",
+    "opciones": [
+      "Asumir que la causa es exclusivamente nutricional",
+      "Descartar causas genéticas porque existe Doppler alterado",
+      "Referir para evaluación especializada, revisar anatomía fetal y considerar estudios etiológicos dirigidos, incluidos los genéticos cuando estén indicados",
+      "Suspender toda evaluación porque la edad gestacional es menor de 28 semanas",
+      "Indicar aspirina como tratamiento inmediato de la anomalía estructural"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La restricción grave de inicio temprano, especialmente cuando coexiste con anomalías estructurales, requiere evaluación especializada y búsqueda dirigida de causas. El Doppler alterado puede sugerir disfunción placentaria, pero no excluye etiología genética u otra condición fetal. La selección de estudios debe individualizarse según hallazgos y consejería.",
+    "perlaENARM": "RCIU grave de inicio temprano más anomalía estructural: amplía la evaluación etiológica y refiere a medicina materno-fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, páginas 4-6.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-718",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Feto constitucionalmente pequeño",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar un feto constitucionalmente pequeño de una restricción patológica mediante integración clínica.",
+    "caso": "Pareja de talla baja, sin enfermedad vascular ni consumo de tabaco, tiene un feto con peso estimado en percentil 8. La edad gestacional está bien establecida, la anatomía es normal, el crecimiento seriado es estable y el Doppler es normal.",
+    "pregunta": "¿Qué interpretación debe mantenerse en la valoración?",
+    "opciones": [
+      "La posibilidad de un feto constitucionalmente pequeño es razonable, aunque requiere seguimiento según el contexto y las guías",
+      "El percentil 8 demuestra insuficiencia placentaria grave",
+      "El crecimiento estable descarta por completo cualquier riesgo perinatal",
+      "El antecedente de padres bajos confirma una causa genética específica",
+      "El Doppler normal elimina la necesidad de considerar la edad gestacional"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Un feto puede ser pequeño por características constitucionales y no necesariamente por insuficiencia placentaria. La datación precisa, la trayectoria estable, la anatomía normal y el Doppler sin alteraciones son datos útiles, pero no proporcionan una garantía absoluta. La conducta debe seguir criterios de vigilancia apropiados para un feto pequeño.",
+    "perlaENARM": "La talla parental y el crecimiento estable orientan a tamaño constitucional, pero no sustituyen la evaluación fetal ni la vigilancia indicada.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, páginas 1 y 6.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-719",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Interpretación de percentiles y riesgo de muerte fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que el tamaño fetal pequeño se asocia con mayor riesgo perinatal y requiere estratificación individualizada.",
+    "caso": "Gestante de 35 semanas presenta peso fetal estimado en percentil 6, sin síntomas maternos y con Doppler umbilical normal. La paciente pregunta si el hallazgo puede ignorarse por no existir alteraciones actuales del bienestar fetal.",
+    "pregunta": "¿Qué explicación refleja mejor el riesgo clínico?",
+    "opciones": [
+      "El riesgo de muerte fetal es igual en todos los percentiles",
+      "Un Doppler normal garantiza que no ocurrirá deterioro",
+      "El percentil bajo solo predice el peso al nacer, no la morbilidad",
+      "El tamaño por debajo del percentil 10 se asocia con mayor riesgo, por lo que debe evaluarse el contexto y planearse vigilancia apropiada",
+      "La ausencia de síntomas maternos descarta enfermedad placentaria"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF identifica el peso fetal estimado por debajo del percentil 10 como un importante factor de riesgo de muerte fetal y señala que la RCIU incrementa la morbilidad y mortalidad neonatal. Un Doppler normal es un dato favorable, pero el tamaño fetal pequeño requiere valoración de riesgo y seguimiento según las guías.",
+    "perlaENARM": "El feto pequeño necesita estratificación de riesgo aun cuando la madre esté asintomática y el Doppler inicial sea normal.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, página 2.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-720",
+    "especialidad": "Obstetricia",
+    "tema": "Restricción del crecimiento intrauterino",
+    "subtema": "Integración diagnóstica y planificación del nacimiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar edad gestacional, percentil de crecimiento, Doppler y bienestar fetal para planificar la atención de una RCIU.",
+    "caso": "Gestante de 33 semanas con embarazo bien fechado presenta peso fetal estimado en percentil 4, circunferencia abdominal en percentil 3 y Doppler umbilical con flujo diastólico ausente. La madre está estable, pero la evaluación requiere atención especializada.",
+    "pregunta": "¿Qué principio debe guiar el plan de manejo?",
+    "opciones": [
+      "La edad gestacional de 33 semanas impide cualquier decisión de nacimiento",
+      "El percentil bajo por sí solo determina cesárea inmediata sin evaluar el resto",
+      "La combinación de crecimiento muy bajo y flujo diastólico ausente exige vigilancia especializada y planificación del nacimiento según gravedad, edad gestacional y estado materno-fetal",
+      "Debe iniciarse aspirina para normalizar el Doppler y mantener el embarazo hasta el término",
+      "El flujo diastólico ausente no tiene valor pronóstico si la madre está estable"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El peso fetal muy bajo junto con flujo diastólico ausente sugiere disfunción placentaria importante y requiere manejo especializado. El plan integra edad gestacional, evolución Doppler, pruebas de bienestar fetal, estado materno y recursos neonatales. La vía y el momento del nacimiento no se determinan exclusivamente por un percentil, y la necesidad de intervenir no debe retrasarse ante deterioro materno-fetal.",
+    "perlaENARM": "RCIU grave con flujo diastólico ausente es un escenario de alto riesgo: refiere, vigila estrechamente y planifica el nacimiento con criterios especializados.",
+    "bibliografia": [
+      "PDF proporcionado: 14. RCIU, páginas 4-5.",
+      "SMFM. Consult Series #52: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+   {
+    "id": "OBS-721",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Definición y clasificación",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar una emergencia obstétrica y reconocer la necesidad de atención inmediata en una unidad con capacidad resolutiva.",
+    "caso": "Gestante de 30 semanas acude por disnea súbita, saturación de oxígeno de 84%, taquicardia e hipotensión. El hospital de primer contacto no dispone de terapia intensiva ni de capacidad para realizar estudios avanzados de imagen.",
+    "pregunta": "¿Qué característica define mejor la condición clínica y organizativa de una emergencia obstétrica?",
+    "opciones": [
+      "Es cualquier síntoma durante el embarazo, aunque no exista riesgo materno-fetal",
+      "Es una enfermedad que únicamente requiere atención después del nacimiento",
+      "Es un estado que amenaza la vida materna o fetal y requiere atención inmediata por personal capacitado en una unidad con capacidad resolutiva",
+      "Es una complicación que debe observarse durante 24 horas antes de intervenir",
+      "Es una enfermedad exclusiva del tercer trimestre"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF define la emergencia obstétrica como un estado que pone en peligro la vida de la mujer durante el embarazo, parto o puerperio, o la del producto de la concepción, y que requiere atención médica o quirúrgica inmediata. La estabilización y la referencia deben organizarse sin demoras evitables.",
+    "perlaENARM": "La emergencia obstétrica exige reconocimiento temprano, estabilización inicial y atención en un centro con capacidad resolutiva.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 1.",
+      "OMS. WHO Recommendations for Prevention and Treatment of Maternal Peripartum Infections and Maternal Emergencies.",
+      "Secretaría de Salud, México. Guías de Práctica Clínica aplicables a las emergencias obstétricas."
+    ]
+  },
+  {
+    "id": "OBS-722",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Mortalidad materna",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Aplicar la definición temporal de mortalidad materna utilizada en epidemiología obstétrica.",
+    "caso": "Una mujer fallece 25 días después de la terminación de un embarazo debido a una complicación tromboembólica relacionada con la gestación. No existió accidente ni otra causa externa.",
+    "pregunta": "¿Cómo se clasifica esta defunción conforme a la definición de mortalidad materna presentada en el PDF?",
+    "opciones": [
+      "Como mortalidad materna, porque ocurrió dentro de los 42 días posteriores a la terminación del embarazo y estuvo relacionada con este",
+      "Como muerte accidental por haber ocurrido después del parto",
+      "Como muerte materna tardía por ocurrir después de siete días",
+      "Como muerte no obstétrica por haberse presentado durante el puerperio",
+      "Como muerte fetal, porque el embarazo ya había terminado"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La definición de la OMS reproducida en el PDF incluye la muerte durante el embarazo, parto o dentro de los 42 días posteriores a la terminación, siempre que la causa esté relacionada o agravada por el embarazo o su manejo y no sea accidental.",
+    "perlaENARM": "Mortalidad materna: durante el embarazo o hasta 42 días después de su terminación, por causas relacionadas o agravadas por la gestación.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 1.",
+      "OMS. International Classification of Diseases, Maternal Mortality Definitions."
+    ]
+  },
+  {
+    "id": "OBS-723",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Apendicitis aguda durante el embarazo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la presentación clínica de la apendicitis durante el embarazo y sus variaciones anatómicas.",
+    "caso": "Gestante de 34 semanas presenta dolor abdominal progresivo, anorexia, náuseas y febrícula. Inicialmente refiere dolor periumbilical que después se localiza en el cuadrante superior derecho. La exploración muestra dolor localizado y defensa.",
+    "pregunta": "¿Qué explicación anatómica ayuda a comprender la presentación atípica?",
+    "opciones": [
+      "El apéndice desaparece funcionalmente durante el tercer trimestre",
+      "La gestación impide que exista inflamación peritoneal",
+      "La apendicitis en el embarazo siempre produce dolor pélvico",
+      "El crecimiento uterino puede desplazar el apéndice y modificar la localización del dolor",
+      "La elevación fisiológica del diafragma elimina la posibilidad de dolor localizado"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF señala que el aumento del volumen uterino puede modificar la localización del apéndice, con desplazamiento descrito de aproximadamente 3–4 cm y posibilidad de dolor en la fosa iliaca o el hipocondrio derechos. La presentación clínica puede ser atípica, por lo que el diagnóstico requiere integrar exploración e imagen.",
+    "perlaENARM": "En el embarazo avanzado, la apendicitis no siempre se presenta con dolor clásico en fosa iliaca derecha.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 2.",
+      "SAGES. Guidelines for the Use of Laparoscopy During Pregnancy.",
+      "ACOG. Nonobstetric Surgery During Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-724",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Imagen en apendicitis del embarazo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar estudios de imagen ante sospecha de apendicitis en una gestante con ultrasonido no concluyente.",
+    "caso": "Gestante de 22 semanas presenta dolor progresivo en fosa iliaca derecha, leucocitosis y signos de irritación peritoneal. El ultrasonido abdominal no logra visualizar el apéndice y persiste una sospecha clínica importante.",
+    "pregunta": "¿Qué estudio de imagen se prefiere si está disponible y no existe contraindicación?",
+    "opciones": [
+      "Radiografía abdominal simple como estudio definitivo",
+      "Resonancia magnética sin gadolinio",
+      "Tomografía con contraste como primera opción obligatoria en todas las gestantes",
+      "Ultrasonido obstétrico para medir exclusivamente el líquido amniótico",
+      "Gammagrafía abdominal con radionúclidos"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF establece el ultrasonido abdominal como primera elección y recomienda resonancia magnética sin gadolinio cuando el ultrasonido no es diagnóstico. La tomografía puede considerarse si no se dispone de resonancia o existe una contraindicación, ponderando el riesgo y la necesidad de diagnosticar una enfermedad potencialmente grave.",
+    "perlaENARM": "Sospecha de apendicitis en embarazo: ultrasonido inicial; si es no concluyente, resonancia sin gadolinio cuando esté disponible.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 2.",
+      "ACOG. Guidelines for Diagnostic Imaging During Pregnancy and Lactation.",
+      "SAGES. Guidelines for the Use of Laparoscopy During Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-725",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Tratamiento quirúrgico de apendicitis",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer que el embarazo no debe retrasar el tratamiento quirúrgico indicado de la apendicitis.",
+    "caso": "Gestante de 18 semanas presenta dolor en fosa iliaca derecha, fiebre, defensa involuntaria y resonancia compatible con apendicitis aguda. No hay evidencia de perforación, pero el dolor continúa progresando.",
+    "pregunta": "¿Qué tratamiento se considera preferente en el material proporcionado?",
+    "opciones": [
+      "Observación ambulatoria hasta el segundo trimestre avanzado",
+      "Inducción del parto para facilitar el abordaje abdominal",
+      "Tocolíticos profilácticos como tratamiento de la inflamación",
+      "Antibióticos orales exclusivamente, independientemente de la evolución",
+      "Apendicectomía laparoscópica, con adaptación técnica a la edad gestacional y a la experiencia del equipo"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF considera la laparoscopia como primera elección para tratar la apendicitis durante el embarazo y señala que puede utilizarse en cualquier trimestre, aunque en el tercero el tamaño uterino puede dificultar el abordaje. El tratamiento no debe retrasarse ante una apendicitis confirmada. Los tocolíticos profilácticos no se recomiendan de rutina sin datos clínicos de amenaza de parto pretérmino.",
+    "perlaENARM": "La cirugía necesaria no debe posponerse por el embarazo; adapta el abordaje a la anatomía gestacional y al contexto clínico.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 2.",
+      "ACOG. Nonobstetric Surgery During Pregnancy.",
+      "SAGES. Guidelines for the Use of Laparoscopy During Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-726",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Tocolíticos después de cirugía no obstétrica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Evitar el uso rutinario de tocolíticos profilácticos en una gestante sin signos de trabajo de parto pretérmino.",
+    "caso": "Gestante de 25 semanas se somete a apendicectomía laparoscópica por apendicitis confirmada. Después de la cirugía no presenta contracciones regulares, modificaciones cervicales ni otros datos de amenaza de parto pretérmino.",
+    "pregunta": "¿Qué estrategia farmacológica es congruente con el documento?",
+    "opciones": [
+      "Administrar nifedipino durante siete días a todas las gestantes operadas",
+      "Iniciar sulfato de magnesio exclusivamente para prevenir contracciones",
+      "No administrar tocolíticos profilácticos de rutina si no existen datos clínicos de amenaza de parto pretérmino",
+      "Indicar indometacina hasta el término",
+      "Utilizar betamiméticos preventivos independientemente de la edad gestacional"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF especifica que no se recomienda el uso profiláctico de tocolíticos en mujeres embarazadas sin datos clínicos de amenaza de parto pretérmino. Se requiere vigilancia obstétrica individualizada y tratamiento si aparece una indicación clínica real.",
+    "perlaENARM": "La cirugía no obstétrica no justifica tocolisis profiláctica universal.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 2.",
+      "ACOG. Nonobstetric Surgery During Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-727",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Hígado graso agudo del embarazo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar el hígado graso agudo del embarazo mediante la integración de síntomas digestivos, ictericia y alteraciones metabólicas.",
+    "caso": "Gestante de 36 semanas presenta náuseas, vómitos, dolor abdominal superior, anorexia, malestar general e ictericia. Los estudios muestran elevación de transaminasas, hiperbilirrubinemia, hipoglucemia y prolongación del tiempo de protrombina.",
+    "pregunta": "¿Qué diagnóstico debe considerarse de manera prioritaria?",
+    "opciones": [
+      "Hígado graso agudo del embarazo",
+      "Colestasis intrahepática aislada sin repercusión sistémica",
+      "Hiperémesis gravídica no complicada",
+      "Hepatitis viral asintomática sin disfunción hepática",
+      "Colelitiasis no complicada como explicación suficiente de todos los hallazgos"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF describe el hígado graso agudo del embarazo como una enfermedad infrecuente del tercer trimestre que puede evolucionar a insuficiencia hepática fulminante. La combinación de síntomas gastrointestinales, ictericia, hipoglucemia y coagulopatía obliga a una evaluación urgente y a diferenciarla de HELLP, hepatitis aguda y otras causas de lesión hepática.",
+    "perlaENARM": "En el tercer trimestre, hipoglucemia y coagulopatía junto con lesión hepática sugieren hígado graso agudo del embarazo.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 3.",
+      "EASL. Clinical Practice Guidelines on the Management of Liver Diseases in Pregnancy.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-728",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Hígado graso agudo y HELLP",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar el hígado graso agudo del embarazo de otras causas de enfermedad hepática grave durante la gestación.",
+    "caso": "Gestante de 35 semanas presenta dolor epigástrico, vómitos, ictericia y deterioro del estado general. La presión arterial es normal, las plaquetas están disminuidas, existe hipoglucemia y el INR está prolongado.",
+    "pregunta": "¿Qué dato favorece especialmente el diagnóstico de hígado graso agudo del embarazo frente a un síndrome HELLP típico?",
+    "opciones": [
+      "La presencia aislada de dolor epigástrico",
+      "La gestación en el tercer trimestre",
+      "La elevación de transaminasas",
+      "La combinación de hipoglucemia y coagulopatía, compatible con disfunción hepática sintética",
+      "La ausencia de hipertensión descarta cualquier enfermedad obstétrica grave"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Tanto el hígado graso agudo como el síndrome HELLP pueden producir dolor abdominal, elevación de transaminasas y trombocitopenia. La hipoglucemia y la alteración de la coagulación sugieren disfunción hepática importante y apoyan el diagnóstico de hígado graso agudo, aunque la diferenciación requiere integrar todos los datos clínicos y de laboratorio.",
+    "perlaENARM": "La hipoglucemia y la coagulopatía son pistas importantes de disfunción hepática avanzada en el embarazo.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 3.",
+      "EASL. Clinical Practice Guidelines on the Management of Liver Diseases in Pregnancy.",
+      "ACOG. Gestational Hypertension and Preeclampsia."
+    ]
+  },
+  {
+    "id": "OBS-729",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Confirmación diagnóstica del hígado graso agudo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el papel de la biopsia hepática y evitar que la confirmación histológica retrase el tratamiento de una emergencia obstétrica.",
+    "caso": "Gestante de 36 semanas presenta ictericia progresiva, hipoglucemia y coagulopatía. La clínica y los estudios de laboratorio sugieren hígado graso agudo del embarazo. El equipo considera solicitar una biopsia antes de tomar decisiones obstétricas.",
+    "pregunta": "¿Cuál es la consideración clínica más importante?",
+    "opciones": [
+      "La biopsia es obligatoria en todos los casos antes de iniciar tratamiento",
+      "La biopsia puede demostrar esteatosis microvesicular, pero la evaluación clínica y el laboratorio suelen orientar el diagnóstico; no debe retrasarse la estabilización ni la finalización indicada del embarazo",
+      "La biopsia sustituye la monitorización de glucosa y coagulación",
+      "La ecografía normal excluye definitivamente el hígado graso agudo",
+      "La histología es innecesaria porque la hipoglucemia confirma por sí sola el diagnóstico"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF denomina a la biopsia hepática estándar de referencia histológico, al demostrar esteatosis microvesicular. Sin embargo, en una paciente con sospecha clínica importante, la biopsia no debe retrasar el manejo de la insuficiencia hepática ni la decisión obstétrica. La evaluación suele apoyarse en criterios clínicos y de laboratorio, con estudios adicionales dirigidos al diagnóstico diferencial.",
+    "perlaENARM": "La confirmación histológica no debe retrasar el tratamiento de una emergencia hepática obstétrica.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 3.",
+      "EASL. Clinical Practice Guidelines on the Management of Liver Diseases in Pregnancy.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-730",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Tratamiento del hígado graso agudo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar la estabilización materna y la finalización del embarazo ante hígado graso agudo.",
+    "caso": "Gestante de 37 semanas con diagnóstico clínico de hígado graso agudo presenta hipoglucemia recurrente, INR de 2.1 y deterioro de la función renal. El equipo dispone de cuidados intensivos y apoyo transfusional.",
+    "pregunta": "¿Qué estrategia terapéutica debe orientar la atención?",
+    "opciones": [
+      "Observación ambulatoria hasta el inicio espontáneo del trabajo de parto",
+      "Administrar únicamente ácido ursodesoxicólico y reevaluar en una semana",
+      "Iniciar corticoesteroides como tratamiento definitivo de la enfermedad hepática",
+      "Esperar a la normalización espontánea de las transaminasas antes de intervenir",
+      "Hospitalizar, estabilizar, corregir alteraciones metabólicas y de coagulación, y finalizar el embarazo de forma oportuna"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF señala como tratamiento de primera elección la finalización del embarazo acompañada de terapia de sostén y prevención o corrección de la coagulopatía. Deben vigilarse glucosa, función renal, coagulación y estado hemodinámico, con participación de obstetricia, anestesiología, medicina crítica y otras especialidades según la gravedad.",
+    "perlaENARM": "En hígado graso agudo, la finalización del embarazo y el soporte intensivo son pilares del tratamiento.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 3.",
+      "EASL. Clinical Practice Guidelines on the Management of Liver Diseases in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-731",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Coagulopatía en hígado graso agudo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar las alteraciones de coagulación y la necesidad de vigilancia intensiva en el hígado graso agudo del embarazo.",
+    "caso": "Paciente con hígado graso agudo del embarazo presenta sangrado en sitios de venopunción, INR prolongado y trombocitopenia. Se encuentra en preparación para finalizar el embarazo.",
+    "pregunta": "¿Qué componente del manejo es prioritario además de la decisión obstétrica?",
+    "opciones": [
+      "Vigilar y corregir la coagulopatía según los parámetros clínicos y de laboratorio, con soporte hemodinámico y metabólico",
+      "Suspender toda monitorización después de la primera medición de INR",
+      "Administrar anticoagulación terapéutica a todas las pacientes",
+      "Evitar productos sanguíneos incluso si existe hemorragia grave",
+      "Usar vitamina K como único tratamiento de toda coagulopatía obstétrica"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El hígado graso agudo puede causar insuficiencia hepática y coagulopatía grave. El PDF destaca la necesidad de mantener una coagulación adecuada y plaquetas por encima de un umbral de seguridad indicado en el material, además de estabilización y finalización del embarazo. La reposición de componentes se individualiza según hemorragia, procedimientos y pruebas de coagulación.",
+    "perlaENARM": "En una emergencia hepática obstétrica, el control de la coagulación debe acompañar la estabilización y la resolución del embarazo.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 3.",
+      "EASL. Clinical Practice Guidelines on the Management of Liver Diseases in Pregnancy.",
+      "WHO. Recommendations for Prevention and Treatment of Postpartum Haemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-732",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Crisis hipertensiva en embarazo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar los umbrales de hipertensión grave y reconocer la necesidad de tratamiento oportuno.",
+    "caso": "Gestante de 31 semanas presenta presión arterial de 168/112 mmHg. Tras 15 minutos, la presión arterial es de 166/110 mmHg. No refiere cefalea ni alteraciones visuales.",
+    "pregunta": "¿Cómo debe interpretarse el patrón tensional?",
+    "opciones": [
+      "Es hipertensión gestacional leve por ausencia de síntomas",
+      "No constituye una emergencia hasta que aparezca proteinuria",
+      "Cumple el criterio de crisis hipertensiva por persistencia de cifras graves y requiere tratamiento urgente",
+      "Debe repetirse la presión arterial en 24 horas antes de intervenir",
+      "Solo la presión diastólica determina la gravedad"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF define crisis hipertensiva mediante dos cifras tensionales iguales o mayores a 160 mmHg de sistólica o 110 mmHg de diastólica, separadas por al menos 15 minutos. La ausencia de síntomas no elimina el riesgo de accidente cerebrovascular, eclampsia, edema pulmonar o desprendimiento placentario.",
+    "perlaENARM": "Hipertensión grave persistente en embarazo o puerperio: no esperes a que aparezcan síntomas para tratar.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 4.",
+      "ACOG. Emergent Therapy for Acute-Onset, Severe Hypertension During Pregnancy and the Postpartum Period.",
+      "ACOG. Gestational Hypertension and Preeclampsia."
+    ]
+  },
+  {
+    "id": "OBS-733",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Tratamiento antihipertensivo urgente",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar un antihipertensivo de acción rápida ante hipertensión grave persistente durante la gestación.",
+    "caso": "Gestante de 35 semanas presenta cifras persistentes de 170/114 mmHg. Está consciente, sin datos de choque, y se requiere disminuir con rapidez el riesgo de complicaciones cerebrovasculares.",
+    "pregunta": "¿Qué fármacos se encuentran entre las opciones de primera línea descritas en el PDF?",
+    "opciones": [
+      "Enalapril oral y espironolactona",
+      "Losartán oral y furosemida como único tratamiento",
+      "Hidroclorotiazida y reposo como estrategia exclusiva",
+      "Nifedipino de liberación inmediata por vía oral o hidralazina intravenosa",
+      "Aspirina a dosis bajas como antihipertensivo de rescate"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF identifica nifedipino de liberación inmediata por vía oral e hidralazina intravenosa como opciones de primera elección. Las guías contemporáneas también consideran labetalol intravenoso cuando está disponible y no existe contraindicación. El tratamiento debe realizarse con vigilancia materna y fetal, evitando descensos excesivos de presión arterial.",
+    "perlaENARM": "Hipertensión grave aguda: usa un antihipertensivo de acción rápida y monitoriza la respuesta; no utilices IECA o ARA-II durante el embarazo.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 4.",
+      "ACOG. Emergent Therapy for Acute-Onset, Severe Hypertension During Pregnancy and the Postpartum Period.",
+      "NICE. Hypertension in Pregnancy: Diagnosis and Management."
+    ]
+  },
+  {
+    "id": "OBS-734",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Sulfato de magnesio",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar el control de la presión arterial de la profilaxis anticonvulsiva en pacientes con enfermedad hipertensiva grave.",
+    "caso": "Gestante de 33 semanas presenta hipertensión grave persistente, cefalea intensa y alteraciones visuales. Se inicia tratamiento antihipertensivo y se prepara la evaluación para el nacimiento.",
+    "pregunta": "¿Qué papel cumple el sulfato de magnesio en este contexto?",
+    "opciones": [
+      "Es el fármaco principal para normalizar la presión arterial",
+      "Previene y trata convulsiones eclámpticas; no sustituye al antihipertensivo de acción rápida",
+      "Está contraindicado en toda paciente con preeclampsia grave",
+      "Se utiliza exclusivamente para maduración pulmonar fetal",
+      "Evita la necesidad de monitorización neurológica"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF recomienda sulfato de magnesio para prevención y tratamiento de eclampsia en embarazadas o puérperas con crisis hipertensiva. Su función es anticonvulsiva, mientras que el control urgente de la presión requiere fármacos antihipertensivos específicos. Deben vigilarse respiración, reflejos y diuresis, ajustando el manejo ante insuficiencia renal.",
+    "perlaENARM": "Sulfato de magnesio: prevención y tratamiento de convulsiones; nifedipino, hidralazina o labetalol: control agudo de la presión arterial.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 4.",
+      "ACOG. Gestational Hypertension and Preeclampsia.",
+      "WHO. Recommendations for Prevention and Treatment of Pre-eclampsia and Eclampsia."
+    ]
+  },
+  {
+    "id": "OBS-735",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Finalización del embarazo con crisis hipertensiva",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar estabilización materna y momento del nacimiento en la crisis hipertensiva a término o cerca del término.",
+    "caso": "Gestante de 35 semanas con cifras tensionales persistentes de 168/112 mmHg recibe tratamiento antihipertensivo y sulfato de magnesio. Una vez estabilizada, el equipo evalúa la conducta obstétrica.",
+    "pregunta": "¿Qué recomendación temporal presenta el PDF para una crisis hipertensiva con embarazo de al menos 34 semanas?",
+    "opciones": [
+      "Esperar obligatoriamente hasta las 39 semanas",
+      "Mantener el embarazo durante dos semanas aunque persista la enfermedad grave",
+      "Finalizar el embarazo antes de administrar cualquier tratamiento antihipertensivo",
+      "Indicar cesárea inmediata como vía universal, sin considerar condiciones obstétricas",
+      "Procurar el nacimiento después de la estabilización hemodinámica"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF recomienda procurar el nacimiento inmediatamente después de la estabilización hemodinámica cuando la gestación es igual o mayor de 34 semanas y existe crisis hipertensiva. La vía del nacimiento depende de las condiciones maternas, fetales y obstétricas; no todas las pacientes requieren cesárea.",
+    "perlaENARM": "En enfermedad hipertensiva grave, estabiliza primero y planifica el nacimiento sin demoras innecesarias cuando está indicado.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 4.",
+      "ACOG. Gestational Hypertension and Preeclampsia.",
+      "NICE. Hypertension in Pregnancy: Diagnosis and Management."
+    ]
+  },
+  {
+    "id": "OBS-736",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Complicaciones de crisis hipertensiva",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer las complicaciones maternas y fetales de la hipertensión grave del embarazo.",
+    "caso": "Puérpera de 4 días presenta presión arterial de 180/116 mmHg, disnea, cefalea y saturación de oxígeno de 90%. La paciente refiere que su embarazo no se complicó por hipertensión.",
+    "pregunta": "¿Qué afirmación orienta mejor la atención inicial?",
+    "opciones": [
+      "La hipertensión grave puede manifestarse en el puerperio y asociarse con eclampsia, accidente cerebrovascular, edema pulmonar y lesión renal",
+      "La preeclampsia se excluye definitivamente después del parto",
+      "La ausencia de hipertensión durante el embarazo elimina el riesgo puerperal",
+      "El tratamiento debe posponerse hasta completar estudios de imagen",
+      "La disnea no se relaciona con complicaciones hipertensivas"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF advierte que la crisis hipertensiva puede presentarse durante el embarazo o puerperio y asociarse con falla renal, hemorragia cerebrovascular, edema pulmonar, falla hepática y otras complicaciones. La hipertensión grave posparto exige tratamiento urgente y evaluación de daño orgánico.",
+    "perlaENARM": "El puerperio no elimina el riesgo de preeclampsia, eclampsia ni accidente cerebrovascular.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 4.",
+      "ACOG. Gestational Hypertension and Preeclampsia.",
+      "ACOG. Optimizing Postpartum Care."
+    ]
+  },
+  {
+    "id": "OBS-737",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Embarazo ectópico roto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la presentación clínica del embarazo ectópico roto y priorizar la estabilización y el control quirúrgico.",
+    "caso": "Mujer de 28 años con amenorrea de siete semanas presenta dolor abdominal súbito, sangrado transvaginal y síncope. Está pálida, con presión arterial de 78/46 mmHg y taquicardia. La ecografía rápida muestra líquido libre abundante en pelvis.",
+    "pregunta": "¿Qué condición debe asumirse mientras se inicia la reanimación?",
+    "opciones": [
+      "Amenaza de aborto sin repercusión hemodinámica",
+      "Embarazo intrauterino viable con sangrado fisiológico",
+      "Embarazo ectópico roto con hemorragia interna y choque",
+      "Enfermedad trofoblástica gestacional sin sangrado",
+      "Quiste ovárico simple sin complicaciones"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La combinación de amenorrea, dolor abdominal, sangrado vaginal, inestabilidad hemodinámica y líquido libre abundante sugiere embarazo ectópico roto con hemorragia intraabdominal. Se requiere reanimación inmediata, preparación de hemoderivados y control quirúrgico urgente; no debe retrasarse la intervención para completar estudios no esenciales.",
+    "perlaENARM": "Embarazo posible más choque y líquido libre: considera hemorragia por embarazo ectópico roto hasta demostrar otra causa.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 4.",
+      "ACOG. Tubal Ectopic Pregnancy.",
+      "NICE. Ectopic Pregnancy and Miscarriage: Diagnosis and Initial Management."
+    ]
+  },
+  {
+    "id": "OBS-738",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Ecografía del embarazo ectópico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer los hallazgos ecográficos que apoyan el diagnóstico de embarazo ectópico roto.",
+    "caso": "Paciente con prueba de embarazo positiva presenta dolor pélvico y taquicardia. La ecografía transvaginal no identifica embarazo intrauterino y muestra una masa anexial compleja y líquido libre en el fondo de saco.",
+    "pregunta": "¿Qué estudio corresponde al método inicial de elección para la evaluación descrita en el PDF?",
+    "opciones": [
+      "Radiografía abdominal",
+      "Tomografía cerebral",
+      "Resonancia hepática",
+      "Ultrasonido endovaginal",
+      "Gammagrafía pulmonar como primer estudio"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF identifica el ultrasonido endovaginal como estudio de primera elección para el embarazo ectópico roto. Deben buscarse masa anexial, saco gestacional extrauterino y líquido libre. La ausencia de un saco intrauterino por sí sola no confirma embarazo ectópico; se integra con la clínica, β-hCG y seguimiento cuando la paciente está estable.",
+    "perlaENARM": "El ultrasonido transvaginal es central en el diagnóstico, pero la inestabilidad hemodinámica puede exigir intervención inmediata.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 4.",
+      "ACOG. Tubal Ectopic Pregnancy.",
+      "NICE. Ectopic Pregnancy and Miscarriage: Diagnosis and Initial Management."
+    ]
+  },
+  {
+    "id": "OBS-739",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Hallazgos auxiliares de embarazo ectópico roto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar hallazgos ecográficos auxiliares sin utilizarlos como criterios aislados de confirmación.",
+    "caso": "Paciente hemodinámicamente comprometida tiene prueba de embarazo positiva. La ecografía no identifica un saco extrauterino definitivo, pero muestra endometrio trilaminar y líquido libre que se extiende desde la pelvis hasta el espacio perihepático.",
+    "pregunta": "¿Qué importancia asigna el PDF a esta combinación?",
+    "opciones": [
+      "Descarta embarazo ectópico porque no se visualiza el embrión",
+      "Puede aportar elementos auxiliares que apoyan la sospecha de embarazo ectópico roto en el contexto clínico apropiado",
+      "Confirma un embarazo intrauterino viable",
+      "Es diagnóstica de torsión ovárica sin necesidad de otros datos",
+      "Obliga a diferir el tratamiento hasta obtener resonancia magnética"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF señala que, en ausencia de hallazgos ecográficos definitivos, el endometrio trilaminar y el líquido libre en áreas perihepática, periesplénica y pélvica pueden servir como elementos auxiliares en la sospecha de embarazo ectópico roto. Estos hallazgos no sustituyen la integración clínica ni justifican retrasar el tratamiento de una paciente inestable.",
+    "perlaENARM": "El líquido libre extendido más embarazo positivo e inestabilidad aumenta la sospecha de hemoperitoneo, incluso si no se observa el saco ectópico.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 4.",
+      "ACOG. Tubal Ectopic Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-740",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Tratamiento quirúrgico del embarazo ectópico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar la estrategia quirúrgica en el embarazo ectópico tubárico roto considerando la trompa contralateral.",
+    "caso": "Mujer de 31 años con embarazo ectópico tubárico roto requiere cirugía urgente. Durante el procedimiento se identifica una lesión tubárica sangrante y la trompa contralateral tiene aspecto normal.",
+    "pregunta": "¿Qué procedimiento favorece el control definitivo del sangrado en este contexto, según el PDF?",
+    "opciones": [
+      "Metotrexato intramuscular como sustituto de la cirugía",
+      "Observación sin intervención porque existe una trompa sana",
+      "Histerectomía obligatoria en toda paciente con ectópico roto",
+      "Salpingostomía como procedimiento universal, sin considerar el estado contralateral",
+      "Salpingectomía, cuando la trompa contralateral es sana y las condiciones clínicas lo permiten"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF indica que el tratamiento inicial es quirúrgico y laparoscópico cuando las condiciones lo permiten, y recomienda salpingectomía en lugar de salpingostomía cuando la trompa contralateral es sana. La elección final debe considerar hemorragia, anatomía, estabilidad y preferencias reproductivas.",
+    "perlaENARM": "En ectópico tubárico roto con trompa contralateral sana, la salpingectomía suele ser una opción definitiva eficaz.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 4.",
+      "ACOG. Tubal Ectopic Pregnancy.",
+      "NICE. Ectopic Pregnancy and Miscarriage: Diagnosis and Initial Management."
+    ]
+  },
+  {
+    "id": "OBS-741",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Embolia de líquido amniótico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la presentación clínica de la embolia de líquido amniótico y distinguirla de otras causas de colapso periparto.",
+    "caso": "Durante el trabajo de parto, una paciente presenta hipotensión súbita, disnea intensa, cianosis y posterior paro cardiorrespiratorio. Minutos después desarrolla sangrado difuso con alteraciones importantes de la coagulación. No tiene fiebre.",
+    "pregunta": "¿Qué diagnóstico debe sospecharse ante esta secuencia clínica?",
+    "opciones": [
+      "Embolia de líquido amniótico",
+      "Hiperémesis gravídica",
+      "Colestasis intrahepática del embarazo",
+      "Apendicitis aguda no complicada",
+      "Placenta previa sin hemorragia"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF describe la embolia de líquido amniótico como una emergencia que puede presentarse con colapso cardiorrespiratorio súbito y coagulación intravascular diseminada durante el trabajo de parto, nacimiento o puerperio inmediato. Es un diagnóstico clínico de exclusión que exige soporte vital inmediato y evaluación simultánea de causas alternativas.",
+    "perlaENARM": "Colapso cardiorrespiratorio periparto más coagulopatía de rápida aparición obliga a considerar embolia de líquido amniótico.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 5.",
+      "SMFM. Amniotic Fluid Embolism: Diagnosis and Management.",
+      "Society for Maternal-Fetal Medicine. Clinical Guidance on Amniotic Fluid Embolism."
+    ]
+  },
+  {
+    "id": "OBS-742",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Criterios de embolia de líquido amniótico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar los criterios clínicos propuestos para reconocer embolia de líquido amniótico.",
+    "caso": "Durante el nacimiento, una mujer presenta paro cardiorrespiratorio, saturación de oxígeno de 82% y presión sistólica de 70 mmHg. Desarrolla CID y no existe fiebre intraparto. El cuadro comenzó durante el evento obstétrico.",
+    "pregunta": "¿Qué conjunto de características coincide con los criterios clínicos resumidos en el PDF?",
+    "opciones": [
+      "Hipertensión crónica, proteinuria y ausencia de síntomas respiratorios",
+      "Fiebre mayor de 39 °C, tos crónica y anemia ferropénica",
+      "Colapso cardiorrespiratorio o hipotensión súbita con compromiso respiratorio, CID, relación temporal periparto y ausencia de fiebre",
+      "Dolor abdominal aislado con Doppler fetal normal",
+      "Náuseas, vómitos y pérdida ponderal progresiva durante semanas"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF presenta cuatro elementos: paro cardiorrespiratorio o hipotensión súbita con compromiso respiratorio; CID; aparición durante el trabajo de parto, nacimiento o hasta 30 minutos después del alumbramiento; y ausencia de fiebre. Estos criterios ayudan a estandarizar la identificación clínica, pero no sustituyen el juicio clínico ni la exclusión de otras causas.",
+    "perlaENARM": "La embolia de líquido amniótico se sospecha por colapso cardiorrespiratorio periparto con coagulopatía, no por una prueba de laboratorio única.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 5.",
+      "SMFM. Amniotic Fluid Embolism: Diagnosis and Management."
+    ]
+  },
+  {
+    "id": "OBS-743",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Reanimación en embolia de líquido amniótico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar soporte cardiorrespiratorio y hemodinámico ante sospecha de embolia de líquido amniótico.",
+    "caso": "Paciente en puerperio inmediato presenta colapso súbito, hipoxemia grave y sangrado por sitios de punción. Se sospecha embolia de líquido amniótico y el equipo de respuesta rápida está en la sala.",
+    "pregunta": "¿Qué conjunto de intervenciones corresponde al soporte inicial descrito en el PDF?",
+    "opciones": [
+      "Restringir oxígeno y administrar sedantes como tratamiento exclusivo",
+      "Esperar confirmación histológica antes de intervenir",
+      "Administrar grandes volúmenes de cristaloides sin reevaluación",
+      "Oxigenación y ventilación adecuadas, soporte vasopresor o inotrópico según necesidad, evitar sobrecarga de líquidos y vigilar la coagulación",
+      "Indicar únicamente diuréticos y observar durante seis horas"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF enfatiza suplementación de oxígeno, ventilación adecuada, vasopresores o inotrópicos, evitar exceso de líquidos parenterales y vigilar la coagulación. El manejo requiere reanimación avanzada, tratamiento de la CID y apoyo multidisciplinario en cuidados intensivos.",
+    "perlaENARM": "En embolia de líquido amniótico, el tratamiento es de soporte inmediato y multidisciplinario; no existe una prueba confirmatoria rápida que deba retrasar la reanimación.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 5.",
+      "SMFM. Amniotic Fluid Embolism: Diagnosis and Management.",
+      "AHA. Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care."
+    ]
+  },
+  {
+    "id": "OBS-744",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Paro cardiorrespiratorio durante el embarazo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer las modificaciones de reanimación necesarias ante paro cardiorrespiratorio en una gestante avanzada.",
+    "caso": "Gestante de 30 semanas presenta paro cardiorrespiratorio en urgencias. El equipo inicia reanimación cardiopulmonar y se identifica compresión aortocava por el útero grávido.",
+    "pregunta": "¿Qué modificación debe realizarse durante la reanimación?",
+    "opciones": [
+      "Colocar a la paciente en decúbito prono",
+      "Desplazar manualmente el útero hacia la izquierda para reducir la compresión aortocava, manteniendo una reanimación de alta calidad",
+      "Suspender las compresiones torácicas hasta completar un ultrasonido",
+      "Evitar la desfibrilación si el ritmo es desfibrilable",
+      "Administrar líquidos en grandes volúmenes antes de iniciar compresiones"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF indica colocar el útero hacia el costado izquierdo de la madre para evitar la compresión de la vena cava cuando persiste el embarazo durante un paro. Las recomendaciones contemporáneas enfatizan el desplazamiento uterino manual y la reanimación de alta calidad; las intervenciones obstétricas de rescate deben activarse según la edad gestacional y el tiempo de reanimación.",
+    "perlaENARM": "En paro de una gestante avanzada, reduce la compresión aortocava sin interrumpir las compresiones torácicas de calidad.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 5.",
+      "AHA. Cardiac Arrest in Pregnancy: Resuscitation Guidance.",
+      "SMFM. Amniotic Fluid Embolism: Diagnosis and Management."
+    ]
+  },
+  {
+    "id": "OBS-745",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Nacimiento durante paro cardiorrespiratorio materno",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer cuándo debe considerarse la intervención obstétrica resucitativa durante un paro cardiorrespiratorio materno.",
+    "caso": "Gestante de 32 semanas presenta paro cardiorrespiratorio y no recupera circulación espontánea pese a reanimación avanzada. El equipo obstétrico y neonatal se encuentra disponible.",
+    "pregunta": "¿Qué principio guía la preparación de una intervención obstétrica resucitativa?",
+    "opciones": [
+      "Esperar una hora antes de considerar cualquier intervención obstétrica",
+      "Trasladar a la paciente a otro hospital antes de continuar la reanimación",
+      "Suspender la reanimación materna durante el procedimiento obstétrico",
+      "Realizar cesárea únicamente si existe actividad cardiaca fetal documentada",
+      "Activar tempranamente el protocolo de nacimiento resucitativo según la edad gestacional, el tiempo de paro y las guías vigentes, sin interrumpir la reanimación materna"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF señala la necesidad de nacimiento inmediato ante paro respiratorio en una gestación mayor de 23 semanas. La recomendación contemporánea enfatiza preparar la intervención resucitativa de forma temprana cuando no se recupera circulación, con el objetivo principal de mejorar la reanimación materna y considerando la edad gestacional y los protocolos vigentes.",
+    "perlaENARM": "El nacimiento resucitativo es una intervención para mejorar la reanimación materna; no debe retrasarse por esperar confirmación de bienestar fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 5.",
+      "AHA. Cardiac Arrest in Pregnancy: Resuscitation Guidance."
+    ]
+  },
+  {
+    "id": "OBS-746",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Hiperémesis gravídica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir hiperémesis gravídica de las náuseas y vómitos leves del embarazo.",
+    "caso": "Gestante de 10 semanas presenta vómitos incoercibles, pérdida de 7% del peso pregestacional, mucosas secas, taquicardia y alteraciones electrolíticas. No tolera líquidos por vía oral.",
+    "pregunta": "¿Qué elementos apoyan el diagnóstico de hiperémesis gravídica?",
+    "opciones": [
+      "Náuseas ocasionales sin pérdida ponderal ni deshidratación",
+      "Vómitos aislados después de comidas abundantes",
+      "Vómitos persistentes con pérdida mayor de 5% del peso pregestacional, deshidratación o alteraciones electrolíticas",
+      "Pirosis aislada durante el tercer trimestre",
+      "Anorexia sin náuseas ni vómitos"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF define hiperémesis gravídica por náuseas y vómitos incoercibles acompañados de pérdida superior al 5% del peso pregestacional, deshidratación o alteraciones electrolíticas. La paciente necesita evaluación de gravedad, reposición de líquidos y electrolitos, control de síntomas y búsqueda de diagnósticos alternativos cuando corresponda.",
+    "perlaENARM": "Pérdida de más de 5% del peso pregestacional, deshidratación y alteraciones electrolíticas orientan a hiperémesis gravídica.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 5.",
+      "ACOG. Nausea and Vomiting of Pregnancy.",
+      "RCOG. The Management of Nausea and Vomiting of Pregnancy and Hyperemesis Gravidarum."
+    ]
+  },
+  {
+    "id": "OBS-747",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Evaluación de gravedad en hiperémesis",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Utilizar herramientas clínicas de gravedad y parámetros objetivos en la evaluación de hiperémesis gravídica.",
+    "caso": "Gestante de 9 semanas presenta vómitos repetidos y no tolera alimentos. Se encuentra hemodinámicamente estable, pero tiene pérdida de peso y reducción importante de la diuresis.",
+    "pregunta": "¿Qué herramienta menciona el PDF para evaluar la severidad de náuseas y vómitos durante el embarazo?",
+    "opciones": [
+      "Escala de PUQE",
+      "Escala de Glasgow",
+      "Puntaje de Bishop",
+      "Índice de Apgar",
+      "Escala de Wells"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF identifica la escala PUQE como herramienta para establecer la severidad de náuseas y vómitos. Debe complementarse con evaluación clínica de hidratación, pérdida de peso, electrolitos, función renal y capacidad para tolerar la vía oral.",
+    "perlaENARM": "PUQE cuantifica síntomas de náuseas y vómitos; no sustituye la evaluación de deshidratación y alteraciones metabólicas.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 5.",
+      "RCOG. The Management of Nausea and Vomiting of Pregnancy and Hyperemesis Gravidarum."
+    ]
+  },
+  {
+    "id": "OBS-748",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Tiamina en hiperémesis gravídica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Prevenir encefalopatía de Wernicke en pacientes con vómitos prolongados antes de administrar glucosa.",
+    "caso": "Gestante de 11 semanas ha presentado vómitos intensos durante tres semanas y requiere hospitalización por deshidratación. Se planea administrar líquidos intravenosos con dextrosa debido a hipoglucemia.",
+    "pregunta": "¿Qué medida debe incorporarse para reducir el riesgo de una complicación neurológica prevenible?",
+    "opciones": [
+      "Administrar dextrosa concentrada antes de cualquier vitamina",
+      "Evitar toda reposición de vitaminas durante el embarazo",
+      "Iniciar anticonvulsivos de manera profiláctica",
+      "Administrar tiamina antes de la dextrosa o nutrición parenteral",
+      "Restringir líquidos hasta que desaparezca el vómito"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF recomienda suplementar tiamina por vía oral o intravenosa desde la hospitalización y antes de administrar dextrosa o nutrición parenteral. En pacientes con vómitos prolongados, el déficit de tiamina puede precipitar encefalopatía de Wernicke cuando se aporta glucosa sin reposición adecuada.",
+    "perlaENARM": "Hiperémesis con vómitos prolongados: administra tiamina antes de la dextrosa para prevenir encefalopatía de Wernicke.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 5.",
+      "RCOG. The Management of Nausea and Vomiting of Pregnancy and Hyperemesis Gravidarum.",
+      "ACOG. Nausea and Vomiting of Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-749",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Tratamiento escalonado de hiperémesis",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar tratamiento antiemético escalonado y reconocer cuándo se requiere hospitalización.",
+    "caso": "Gestante de 10 semanas con hiperémesis gravídica persiste con vómitos pese a medidas dietéticas. No presenta datos de abdomen agudo, pero la ingesta oral es insuficiente y comienza a desarrollar alteraciones electrolíticas.",
+    "pregunta": "¿Qué enfoque terapéutico debe seguirse?",
+    "opciones": [
+      "Mantener únicamente dieta domiciliaria pese a la alteración electrolítica",
+      "Administrar antibióticos por vía intravenosa como primera elección universal",
+      "Evitar todo antiemético por el riesgo de malformaciones, sin valorar alternativas",
+      "Usar corticoesteroides como primera medida en todas las pacientes",
+      "Corregir hidratación y electrolitos, utilizar antieméticos apropiados y escalar tratamiento según respuesta y gravedad"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF describe un enfoque escalonado con antihistamínicos, después antieméticos como metoclopramida u ondansetrón y, en casos seleccionados resistentes, corticoesteroides. La atención debe corregir deshidratación y alteraciones electrolíticas, y administrar tiamina antes de dextrosa si existe riesgo de déficit. Las recomendaciones actuales varían en la elección exacta del fármaco inicial, por lo que deben considerarse la guía local y las contraindicaciones.",
+    "perlaENARM": "En hiperémesis moderada o grave, controlar vómitos sin corregir deshidratación y electrolitos es insuficiente.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 5.",
+      "ACOG. Nausea and Vomiting of Pregnancy.",
+      "RCOG. The Management of Nausea and Vomiting of Pregnancy and Hyperemesis Gravidarum."
+    ]
+  },
+  {
+    "id": "OBS-750",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Antieméticos en hiperémesis",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer que la selección del antiemético debe individualizarse según respuesta, efectos adversos y guía vigente.",
+    "caso": "Gestante de 12 semanas con hiperémesis continúa con vómitos a pesar de hidratación y un antihistamínico. No tiene alteraciones neurológicas ni contraindicación conocida para otros antieméticos.",
+    "pregunta": "¿Qué fármacos identifica el PDF como alternativas de segunda línea cuando fracasa el tratamiento inicial descrito?",
+    "opciones": [
+      "Enalapril y losartán",
+      "Metoclopramida u ondansetrón",
+      "Warfarina y heparina",
+      "Insulina y metformina",
+      "Oxitocina y misoprostol"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF incluye metoclopramida u ondansetrón como opciones de segunda línea después del fracaso de los fármacos iniciales descritos. La elección debe considerar efectos adversos, antecedentes, respuesta clínica y recomendaciones locales; la rehidratación y la corrección de electrolitos continúan siendo esenciales.",
+    "perlaENARM": "La hiperémesis resistente requiere escalamiento antiemético y soporte metabólico, no solo sustitución de un fármaco por otro.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 5.",
+      "ACOG. Nausea and Vomiting of Pregnancy.",
+      "RCOG. The Management of Nausea and Vomiting of Pregnancy and Hyperemesis Gravidarum."
+    ]
+  },
+  {
+    "id": "OBS-751",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Infarto agudo de miocardio durante el embarazo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar síntomas, electrocardiograma y troponina para reconocer infarto agudo de miocardio durante el embarazo o puerperio.",
+    "caso": "Puérpera de 8 días presenta dolor torácico opresivo, diaforesis, disnea y náuseas. El electrocardiograma muestra elevación nueva del ST y la troponina supera el percentil 99 con ascenso respecto a una medición previa.",
+    "pregunta": "¿Qué diagnóstico cumple mejor la definición de infarto agudo de miocardio descrita en el PDF?",
+    "opciones": [
+      "Reflujo gastroesofágico sin lesión miocárdica",
+      "Miocardiopatía periparto sin evidencia de isquemia",
+      "Infarto agudo de miocardio con evidencia clínica de isquemia y lesión miocárdica aguda",
+      "Taquicardia sinusal fisiológica del puerperio",
+      "Embolia de líquido amniótico como única explicación, aunque el cuadro ocurra ocho días después"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF define el infarto agudo de miocardio mediante aumento o descenso de troponina con al menos un valor superior al percentil 99, junto con evidencia de isquemia clínica, electrocardiográfica, por imagen o identificación de trombo coronario. El embarazo y el puerperio no excluyen síndrome coronario agudo.",
+    "perlaENARM": "Troponina elevada aislada indica lesión miocárdica; para diagnosticar infarto se requiere evidencia de isquemia aguda.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 6.",
+      "Fourth Universal Definition of Myocardial Infarction.",
+      "ESC. Guidelines for the Management of Acute Coronary Syndromes."
+    ]
+  },
+  {
+    "id": "OBS-752",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Reperfusión en infarto con elevación del ST",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la reperfusión coronaria como tratamiento prioritario del infarto con elevación del ST durante la gestación.",
+    "caso": "Gestante de 30 semanas presenta dolor torácico persistente, elevación del ST en derivaciones contiguas y ascenso de troponina. La sala de hemodinamia está disponible y no existe contraindicación inmediata para intervención coronaria.",
+    "pregunta": "¿Qué estrategia de reperfusión aparece como primera elección en el PDF?",
+    "opciones": [
+      "Angioplastia coronaria de reperfusión",
+      "Observación hasta después del nacimiento",
+      "Reposo absoluto sin tratamiento antitrombótico",
+      "Tocolisis como intervención primaria",
+      "Diuréticos como única terapia para el dolor torácico"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF identifica la angioplastia coronaria de reperfusión como tratamiento preferido en el infarto con elevación del ST. La atención requiere coordinación entre cardiología, obstetricia, anestesiología y medicina crítica, con selección individualizada de fármacos y vigilancia materno-fetal.",
+    "perlaENARM": "En IAM con elevación del ST, el embarazo no debe retrasar una reperfusión indicada.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 6.",
+      "ESC. Guidelines for the Management of Acute Coronary Syndromes.",
+      "ACOG. Cardiovascular Disease in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-753",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Diagnóstico diferencial del dolor torácico periparto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar infarto de miocardio de otras causas graves de dolor torácico en el embarazo y puerperio.",
+    "caso": "Puérpera de 5 días presenta dolor torácico y disnea súbita. El electrocardiograma no muestra elevación del ST y la primera troponina es normal. Tiene taquicardia, hipoxemia y dolor pleurítico.",
+    "pregunta": "¿Qué consideración evita un cierre diagnóstico prematuro?",
+    "opciones": [
+      "La troponina normal descarta todas las causas cardiovasculares graves",
+      "El puerperio excluye enfermedad tromboembólica",
+      "El dolor pleurítico confirma infarto agudo de miocardio",
+      "Debe considerarse tromboembolia pulmonar y otras causas graves; el diagnóstico requiere integrar clínica, estudios seriados y pruebas dirigidas",
+      "La ausencia de elevación del ST descarta cualquier síndrome coronario"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La presentación del infarto puede variar y una primera troponina normal no excluye todos los síndromes coronarios. Sin embargo, la disnea súbita, hipoxemia y dolor pleurítico en el puerperio obligan a considerar tromboembolia pulmonar y otras emergencias. La evaluación debe ser urgente y dirigida por la probabilidad clínica.",
+    "perlaENARM": "En el puerperio, dolor torácico y disnea requieren descartar de manera urgente causas coronarias y tromboembólicas.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 6.",
+      "ESC. Guidelines for the Management of Acute Coronary Syndromes.",
+      "ESC. Guidelines for the Diagnosis and Management of Acute Pulmonary Embolism."
+    ]
+  },
+  {
+    "id": "OBS-754",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Seguimiento posterior al infarto",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la necesidad de seguimiento cardiovascular después de un infarto asociado con embarazo.",
+    "caso": "Paciente de 34 años presentó infarto agudo de miocardio durante el puerperio y fue tratada con intervención coronaria. Se encuentra estable y solicita suspender el seguimiento porque ya no tiene dolor.",
+    "pregunta": "¿Qué recomendación general es congruente con el documento?",
+    "opciones": [
+      "Suspender todo seguimiento una vez normalizada la troponina",
+      "Mantener seguimiento cardiovascular durante al menos tres meses, además del plan individualizado de prevención secundaria",
+      "Realizar seguimiento exclusivamente obstétrico y no cardiológico",
+      "Evitar evaluar factores de riesgo cardiovascular durante el puerperio",
+      "Indicar embarazo inmediato para comprobar la función cardíaca"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF menciona seguimiento durante al menos tres meses después del infarto. La duración y frecuencia del control deben adaptarse a la causa, la función ventricular, el tratamiento recibido y los factores de riesgo, con coordinación entre cardiología y obstetricia.",
+    "perlaENARM": "La resolución del dolor no equivale a recuperación cardiovascular completa; el seguimiento y la prevención secundaria son esenciales.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 6.",
+      "ESC. Guidelines for the Management of Acute Coronary Syndromes.",
+      "ACOG. Cardiovascular Disease in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-755",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Prolapso del cordón umbilical",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el prolapso del cordón umbilical mediante exploración clínica y alteraciones súbitas de la frecuencia cardiaca fetal.",
+    "caso": "Durante el trabajo de parto, poco después de la ruptura de membranas, la frecuencia cardiaca fetal presenta desaceleraciones variables profundas y prolongadas. En el tacto vaginal se palpa una estructura pulsátil por delante de la presentación.",
+    "pregunta": "¿Qué diagnóstico explica mejor los hallazgos?",
+    "opciones": [
+      "Placenta previa",
+      "Desprendimiento prematuro de placenta sin alteración fetal",
+      "Prolapso del cordón umbilical",
+      "Ruptura hepática materna",
+      "Hiperémesis gravídica"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF define el prolapso del cordón como el paso del cordón a través del orificio cervical interno hacia el canal vaginal antes o al mismo tiempo que la presentación fetal. Las desaceleraciones variables súbitas y recurrentes pueden ser la primera manifestación debido a compresión del cordón.",
+    "perlaENARM": "Bradicardia o desaceleraciones variables súbitas después de romper membranas obligan a descartar prolapso del cordón mediante evaluación clínica inmediata.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 6.",
+      "RCOG. Umbilical Cord Prolapse, Green-top Guideline.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring."
+    ]
+  },
+  {
+    "id": "OBS-756",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Diagnóstico del prolapso del cordón",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir el diagnóstico clínico del prolapso del cordón de la evaluación ecográfica prenatal.",
+    "caso": "Gestante en trabajo de parto presenta bradicardia fetal persistente después de la ruptura de membranas. Se sospecha prolapso del cordón, pero el equipo propone trasladarla a ultrasonido antes de explorarla.",
+    "pregunta": "¿Qué estrategia diagnóstica corresponde a una sospecha urgente de prolapso?",
+    "opciones": [
+      "Realizar exploración vaginal o especuloscopia para confirmar la presencia del cordón sin retrasar las maniobras de emergencia",
+      "Esperar una ecografía detallada antes de realizar cualquier intervención",
+      "Solicitar resonancia magnética fetal",
+      "Utilizar únicamente la altura uterina",
+      "Descartar el diagnóstico si no existe sangrado vaginal"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF indica que el diagnóstico del prolapso del cordón es clínico mediante especuloscopia o tacto vaginal, y señala que no debe utilizarse ultrasonido como método diagnóstico principal en esta emergencia. La evaluación clínica inmediata permite iniciar maniobras para reducir la compresión y preparar el nacimiento.",
+    "perlaENARM": "Ante sospecha de prolapso del cordón, la evaluación es clínica y urgente; no retrases el manejo para obtener una imagen.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 6.",
+      "RCOG. Umbilical Cord Prolapse, Green-top Guideline."
+    ]
+  },
+  {
+    "id": "OBS-757",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Tratamiento del prolapso del cordón",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar el nacimiento urgente y las maniobras temporales de descompresión en el prolapso del cordón.",
+    "caso": "Gestante de 39 semanas con dilatación cervical de 5 cm presenta prolapso del cordón y bradicardia fetal sostenida. El nacimiento vaginal no es inminente.",
+    "pregunta": "¿Cuál es la estrategia definitiva indicada?",
+    "opciones": [
+      "Observar durante 30 minutos para comprobar recuperación espontánea",
+      "Administrar corticoesteroides y esperar el inicio del expulsivo",
+      "Realizar amniotomía para acelerar el descenso de la presentación",
+      "Indicar cesárea de urgencia, mientras se reducen temporalmente la compresión y la presión sobre el cordón",
+      "Iniciar oxitocina a dosis altas para acelerar el parto vaginal"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF identifica la cesárea de urgencia como tratamiento de primera elección cuando existe prolapso y el nacimiento vaginal no es inminente. Mientras se organiza el nacimiento, deben realizarse maniobras para aliviar la compresión del cordón y mantenerse la comunicación con el equipo neonatal.",
+    "perlaENARM": "Prolapso del cordón con nacimiento vaginal no inminente: cesárea urgente y descompresión temporal del cordón.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 6.",
+      "RCOG. Umbilical Cord Prolapse, Green-top Guideline."
+    ]
+  },
+  {
+    "id": "OBS-758",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Maniobras temporales en prolapso del cordón",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar maniobras que reducen temporalmente la compresión del cordón mientras se prepara el nacimiento.",
+    "caso": "En una gestante de 37 semanas se confirma prolapso del cordón. El quirófano se está preparando y la presentación fetal comprime el cordón, con desaceleraciones recurrentes.",
+    "pregunta": "¿Qué maniobra temporal aparece en el PDF para aliviar la compresión?",
+    "opciones": [
+      "Presionar el fondo uterino para forzar el descenso fetal",
+      "Colocar a la madre en posición de rodillas al pecho y considerar elevación manual de la presentación según el protocolo",
+      "Realizar presión directa sobre el cordón prolapsado",
+      "Indicar deambulación para modificar la presentación",
+      "Aplicar tracción sobre el cordón para retirarlo del canal vaginal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF señala que la posición de rodillas al pecho puede reducir temporalmente la compresión y que el llenado vesical con solución salina puede elevar la presentación y disminuir la compresión. También debe evitarse manipular innecesariamente el cordón expuesto. Estas medidas son puentes hacia el nacimiento, no tratamientos definitivos.",
+    "perlaENARM": "Las maniobras posturales y la elevación de la presentación son medidas temporales; no deben retrasar el nacimiento indicado.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 6.",
+      "RCOG. Umbilical Cord Prolapse, Green-top Guideline."
+    ]
+  },
+  {
+    "id": "OBS-759",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Llenado vesical en prolapso del cordón",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar el fundamento del llenado vesical como medida temporal para disminuir la compresión del cordón prolapsado.",
+    "caso": "Gestante con prolapso del cordón presenta desaceleraciones fetales recurrentes mientras se prepara una cesárea urgente. El equipo considera llenar la vejiga mediante sonda.",
+    "pregunta": "¿Cuál es el objetivo fisiológico de esta maniobra descrita en el documento?",
+    "opciones": [
+      "Inducir contracciones uterinas para acelerar el parto",
+      "Disminuir la presión arterial materna",
+      "Elevar la presentación fetal y reducir la compresión del cordón",
+      "Estimular la maduración pulmonar fetal",
+      "Evitar de forma definitiva la necesidad de nacimiento"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF describe el llenado vesical con aproximadamente 500 ml de solución salina como medida temporal que puede elevar la presentación fetal y reducir la compresión del cordón. Debe realizarse de acuerdo con el protocolo y las condiciones clínicas, mientras se prepara la resolución definitiva.",
+    "perlaENARM": "El llenado vesical en prolapso del cordón es una medida puente para aliviar compresión, no un tratamiento definitivo.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, página 6.",
+      "RCOG. Umbilical Cord Prolapse, Green-top Guideline."
+    ]
+  },
+  {
+    "id": "OBS-760",
+    "especialidad": "Obstetricia",
+    "tema": "Emergencias obstétricas",
+    "subtema": "Priorización de emergencias obstétricas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar intervenciones ante emergencias obstétricas según la amenaza inmediata para la vida materna y fetal.",
+    "caso": "En una unidad obstétrica llegan simultáneamente cuatro pacientes: una gestante con vómitos persistentes y pérdida de peso, una puérpera con presión arterial de 178/116 mmHg, una gestante con sospecha de apendicitis sin inestabilidad y una paciente en trabajo de parto con prolapso del cordón y bradicardia fetal sostenida.",
+    "pregunta": "¿Qué paciente requiere una intervención obstétrica inmediata por amenaza directa y actual para el bienestar fetal?",
+    "opciones": [
+      "La paciente con prolapso del cordón y bradicardia fetal sostenida",
+      "La gestante con hiperémesis estable y tolerancia parcial a líquidos",
+      "La gestante con sospecha de apendicitis estable que ya está en evaluación",
+      "La paciente con síntomas digestivos leves sin deshidratación",
+      "La paciente con náuseas del primer trimestre sin alteraciones de laboratorio"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El prolapso del cordón con bradicardia sostenida puede causar hipoxia fetal aguda y requiere descompresión inmediata y nacimiento urgente cuando el parto vaginal no es inminente. La puérpera con hipertensión grave también necesita tratamiento urgente en paralelo; en una situación real, la asignación de equipos debe permitir atender simultáneamente ambas emergencias y no retrasar el tratamiento de ninguna.",
+    "perlaENARM": "La priorización clínica se basa en la amenaza inmediata: prolapso del cordón con bradicardia exige resolución urgente, mientras la hipertensión grave también debe tratarse sin demora.",
+    "bibliografia": [
+      "PDF proporcionado: 15. Emergencias Obstétricas, páginas 4 y 6.",
+      "RCOG. Umbilical Cord Prolapse, Green-top Guideline.",
+      "ACOG. Emergent Therapy for Acute-Onset, Severe Hypertension During Pregnancy and the Postpartum Period."
+    ]
+  },
+   {
+    "id": "OBS-761",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Diagnóstico diferencial inicial",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar placenta previa, DPPNI, vasa previa y ruptura uterina mediante el patrón clínico de hemorragia, dolor y factores de riesgo.",
+    "caso": "Gestante de 34 semanas, G3P1, con antecedente de cesárea, acude por sangrado transvaginal rojo oscuro, abundante e indoloro. Está hemodinámicamente estable y la frecuencia cardiaca fetal es normal. No presenta hipertonía uterina ni dolor a la palpación.",
+    "pregunta": "¿Qué diagnóstico debe encabezar el diagnóstico diferencial y qué antecedente incrementa su probabilidad?",
+    "opciones": [
+      "DPPNI, porque el sangrado indoloro es su manifestación clásica",
+      "Ruptura uterina, porque toda cicatriz uterina produce sangrado antes del parto",
+      "Vasa previa, porque suele producir hemorragia abundante antes de la ruptura de membranas",
+      "Placenta previa, asociada con antecedente de cesárea y caracterizada clásicamente por sangrado indoloro",
+      "Atonía uterina, porque es la causa más probable de sangrado antes del nacimiento"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La placenta previa suele manifestarse con sangrado transvaginal indoloro en la segunda mitad del embarazo. La cesárea previa aumenta la probabilidad de placenta previa y obliga a valorar también el espectro de acretismo placentario. El patrón clínico orienta, pero la localización placentaria debe confirmarse por ultrasonido. La estabilidad inicial no elimina el riesgo de hemorragia posterior.",
+    "perlaENARM": "Sangrado indoloro en el tercer trimestre y cesárea previa: sospecha placenta previa y descarta acretismo si la placenta es baja o anterior sobre la cicatriz.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "ACOG. Placenta Accreta Spectrum.",
+      "ACOG. Bleeding During Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-762",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Evaluación inicial de placenta previa",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Establecer una secuencia diagnóstica segura ante hemorragia del tercer trimestre con sospecha de placenta previa.",
+    "caso": "Gestante de 32 semanas presenta su primer episodio de hemorragia vaginal indolora. La presión arterial es de 108/68 mmHg, la frecuencia cardiaca de 96 lpm y la frecuencia cardiaca fetal es tranquilizadora. No cuenta con ultrasonido reciente que documente la ubicación placentaria.",
+    "pregunta": "¿Qué evaluación debe priorizarse antes de realizar una exploración cervical digital?",
+    "opciones": [
+      "Tacto vaginal digital para estimar la dilatación cervical",
+      "Ultrasonido obstétrico, preferentemente transvaginal cuando esté indicado, para localizar la placenta",
+      "Amniotomía para determinar el origen del sangrado",
+      "Prueba de esfuerzo uterino con oxitocina",
+      "Alta inmediata porque la paciente conserva estabilidad hemodinámica"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Ante hemorragia del tercer trimestre debe localizarse la placenta antes de realizar tacto vaginal digital, ya que una placenta previa puede provocar hemorragia grave con esta maniobra. La evaluación incluye estabilización, valoración materno-fetal, biometría hemática, grupo y pruebas cruzadas según gravedad, y ultrasonido. La vía transvaginal es segura cuando se realiza correctamente y permite precisar la relación placentaria con el orificio cervical interno.",
+    "perlaENARM": "Si se sospecha placenta previa, no realices tacto vaginal digital hasta excluirla mediante imagen.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "RCOG. Placenta Praevia and Placenta Accreta: Diagnosis and Management.",
+      "ACOG. Bleeding During Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-763",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Placenta previa y distancia al orificio cervical interno",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la distancia entre el borde placentario y el orificio cervical interno con la planificación del nacimiento.",
+    "caso": "Gestante de 36 semanas, sin sangrado durante las últimas dos semanas, presenta placenta cuyo borde inferior se encuentra a 12 mm del orificio cervical interno en ultrasonido transvaginal. El feto está cefálico, no hay otras contraindicaciones obstétricas y la paciente desea parto vaginal.",
+    "pregunta": "¿Qué elemento debe determinar principalmente la vía del nacimiento?",
+    "opciones": [
+      "La edad materna por sí sola",
+      "El antecedente de sangrado, independientemente de la localización placentaria actual",
+      "La presentación cefálica, que garantiza un parto vaginal seguro",
+      "La concentración de hemoglobina como único criterio",
+      "La relación ecográfica precisa entre la placenta y el orificio cervical interno, junto con el contexto clínico y el protocolo obstétrico"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF diferencia la placenta previa de la inserción placentaria baja y menciona el umbral de 20 mm para la localización baja. Sin embargo, la decisión sobre parto vaginal no debe basarse en un único umbral sin considerar la distancia exacta, los antecedentes de hemorragia, la edad gestacional y los recursos disponibles. La placenta que cubre el orificio cervical interno generalmente contraindica el parto vaginal.",
+    "perlaENARM": "Distingue placenta previa, que cubre el orificio cervical interno, de placenta de inserción baja; la distancia y el contexto clínico condicionan la vía del nacimiento.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "RCOG. Placenta Praevia and Placenta Accreta: Diagnosis and Management.",
+      "ACOG. Placenta Accreta Spectrum."
+    ]
+  },
+  {
+    "id": "OBS-764",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Estabilización de hemorragia por placenta previa",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar la estabilización hemodinámica y la preparación transfusional en hemorragia obstétrica anteparto.",
+    "caso": "Gestante de 33 semanas con placenta previa conocida presenta hemorragia vaginal abundante. Tiene frecuencia cardiaca de 124 lpm, presión arterial de 88/54 mmHg y palidez. El registro fetal muestra taquicardia persistente.",
+    "pregunta": "¿Qué paquete de intervenciones debe iniciarse de inmediato?",
+    "opciones": [
+      "Reanimación materna, accesos venosos de gran calibre, toma de muestras y pruebas cruzadas, preparación de hemoderivados y evaluación para nacimiento urgente según respuesta y estado materno-fetal",
+      "Administrar únicamente corticoesteroides y observar durante 24 horas",
+      "Realizar tacto vaginal digital para determinar la dilatación",
+      "Esperar el resultado de la hemoglobina antes de iniciar líquidos o hemoderivados",
+      "Indicar reposo y alta si el sangrado disminuye espontáneamente"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La paciente presenta choque hemorrágico probable. La estabilización materna es prioritaria e incluye acceso vascular, evaluación de perfusión, estudios urgentes y reposición de volumen y hemoderivados según la situación clínica. La decisión de nacimiento depende de la respuesta a la reanimación y del estado fetal. Los corticoesteroides no deben retrasar las intervenciones necesarias para salvar la vida.",
+    "perlaENARM": "En hemorragia obstétrica con inestabilidad, trata el choque de inmediato; no esperes a que la hemoglobina refleje toda la pérdida sanguínea.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "WHO. Recommendations for the Prevention and Treatment of Postpartum Haemorrhage.",
+      "ACOG. Bleeding During Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-765",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "DPPNI: presentación clínica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el desprendimiento prematuro de placenta normoinserta mediante dolor, hipertonía y deterioro fetal.",
+    "caso": "Gestante de 35 semanas con antecedente de hipertensión crónica presenta dolor abdominal súbito, sangrado vaginal escaso de sangre fresca, útero hipertónico y contracciones frecuentes. La frecuencia cardiaca fetal muestra desaceleraciones tardías recurrentes.",
+    "pregunta": "¿Qué diagnóstico integra mejor los factores de riesgo y los hallazgos?",
+    "opciones": [
+      "Placenta previa, porque el dolor y la hipertonía son sus hallazgos más característicos",
+      "Vasa previa, porque la hipertensión es su principal factor predisponente",
+      "DPPNI, con posible hemorragia retroplacentaria y compromiso fetal",
+      "Ruptura uterina, que se confirma por la presencia aislada de hipertensión",
+      "Trabajo de parto fisiológico sin complicación placentaria"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El DPPNI se asocia con hipertensión y puede presentarse con dolor abdominal, hipertonía uterina, sangrado vaginal y alteraciones de la frecuencia cardiaca fetal. La hemorragia puede ser parcialmente oculta, por lo que el volumen de sangrado externo no refleja necesariamente la gravedad. El diagnóstico es fundamentalmente clínico y el ultrasonido puede apoyar, pero no descarta el cuadro si es normal.",
+    "perlaENARM": "Dolor intenso, útero hipertónico y compromiso fetal en una paciente hipertensa sugieren DPPNI; el sangrado externo puede ser escaso.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "ACOG. Management of Obstetric Hemorrhage.",
+      "RCOG. Antepartum Haemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-766",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "DPPNI y hemorragia oculta",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar subestimar la gravedad del DPPNI cuando el sangrado externo es escaso.",
+    "caso": "Gestante de 37 semanas presenta dolor abdominal continuo, contracciones frecuentes y deterioro progresivo de la presión arterial. Solo ha observado unas gotas de sangre vaginal. El útero está doloroso y rígido; el feto presenta bradicardia persistente.",
+    "pregunta": "¿Qué mecanismo explica que la hemorragia externa sea mínima pese a la gravedad del cuadro?",
+    "opciones": [
+      "El DPPNI nunca produce sangrado vaginal",
+      "Toda la sangre queda retenida dentro de la vejiga",
+      "La bradicardia fetal impide la salida de sangre vaginal",
+      "La hemorragia puede quedar parcialmente oculta detrás de la placenta y acumularse en el espacio retroplacentario",
+      "La ausencia de sangrado abundante excluye el desprendimiento placentario"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "En el DPPNI, parte de la sangre puede acumularse detrás de la placenta sin exteriorizarse. Esto puede causar choque, alteraciones de coagulación y compromiso fetal desproporcionados respecto al sangrado visible. La evaluación y el tratamiento deben basarse en la condición materno-fetal y no únicamente en la cantidad de sangre vaginal.",
+    "perlaENARM": "La magnitud de la hemorragia externa no estima de forma fiable la pérdida sanguínea total en el DPPNI.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "RCOG. Antepartum Haemorrhage.",
+      "ACOG. Management of Obstetric Hemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-767",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Diagnóstico por imagen del DPPNI",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar las limitaciones del ultrasonido en el diagnóstico del desprendimiento prematuro de placenta.",
+    "caso": "Gestante de 32 semanas presenta dolor uterino persistente, hipertonía y desaceleraciones fetales recurrentes. El ultrasonido no muestra un hematoma retroplacentario evidente.",
+    "pregunta": "¿Qué conclusión diagnóstica es más apropiada?",
+    "opciones": [
+      "El ultrasonido normal descarta DPPNI con certeza",
+      "El DPPNI sigue siendo posible porque el diagnóstico es clínico y la sensibilidad del ultrasonido es limitada",
+      "El diagnóstico cambia automáticamente a placenta previa",
+      "Debe descartarse toda patología placentaria si la placenta parece homogénea",
+      "La paciente puede egresar sin monitorización porque no se observó hematoma"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El DPPNI es principalmente un diagnóstico clínico. El ultrasonido puede identificar hematomas retroplacentarios, pero un resultado negativo no excluye el desprendimiento. Ante dolor, hipertonía y alteraciones fetales, se requiere vigilancia estrecha, evaluación de la coagulación y decisión oportuna sobre el nacimiento.",
+    "perlaENARM": "Un ultrasonido sin hematoma no descarta DPPNI cuando la clínica es sugestiva.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "RCOG. Antepartum Haemorrhage.",
+      "ACOG. Management of Obstetric Hemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-768",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "DPPNI y coagulopatía",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el riesgo de coagulación intravascular diseminada en el desprendimiento placentario grave.",
+    "caso": "Gestante de 36 semanas con sospecha de DPPNI presenta choque, sangrado vaginal y exudación sanguínea en los sitios de venopunción. El fibrinógeno está marcadamente disminuido, el tiempo de protrombina se prolonga y las plaquetas descienden.",
+    "pregunta": "¿Qué complicación debe sospecharse y qué evaluación es prioritaria?",
+    "opciones": [
+      "Trombocitosis reactiva, que no requiere intervención",
+      "Colestasis intrahepática, con pruebas hepáticas como única evaluación",
+      "Trombofilia hereditaria sin repercusión aguda",
+      "Hipertensión gestacional aislada",
+      "Coagulopatía de consumo o CID, que exige evaluación seriada de coagulación y tratamiento hemostático coordinado con el control de la hemorragia"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El DPPNI grave puede desencadenar CID por activación sistémica de la coagulación y consumo de factores. La disminución de fibrinógeno en una gestante con hemorragia es especialmente preocupante. El manejo requiere control de la fuente, reanimación, hemoderivados según parámetros clínicos y de laboratorio y vigilancia continua.",
+    "perlaENARM": "En hemorragia obstétrica grave, fibrinógeno bajo y sangrado difuso sugieren coagulopatía de consumo; no esperes a que todas las pruebas se alteren.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "ACOG. Management of Obstetric Hemorrhage.",
+      "RCOG. Antepartum Haemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-769",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Vasa previa",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir la hemorragia fetal por vasa previa de la hemorragia materna por placenta previa o DPPNI.",
+    "caso": "Gestante de 35 semanas con inserción velamentosa del cordón presenta sangrado vaginal inmediatamente después de la ruptura espontánea de membranas. En pocos minutos aparece bradicardia fetal profunda. La madre permanece normotensa y sin dolor.",
+    "pregunta": "¿Qué mecanismo explica mejor la descompensación fetal rápida?",
+    "opciones": [
+      "Rotura de vasos fetales desprotegidos que atraviesan las membranas, con pérdida sanguínea fetal aguda",
+      "Hemorragia retroplacentaria exclusivamente materna que no afecta al feto",
+      "Ruptura uterina completa con exteriorización obligatoria de las partes fetales",
+      "Desprendimiento placentario crónico sin repercusión fetal",
+      "Compresión de la vena cava materna por el útero"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "En la vasa previa, vasos fetales transcurren por las membranas cerca del orificio cervical interno y pueden romperse con la amniorrexis. La pérdida sanguínea es fetal, por lo que una hemorragia aparentemente pequeña puede provocar bradicardia y deterioro rápido sin inestabilidad materna inicial. Se requiere nacimiento urgente.",
+    "perlaENARM": "Sangrado tras ruptura de membranas más bradicardia fetal súbita y madre estable: sospecha vasa previa rota.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "SMFM. Diagnosis and Management of Vasa Previa.",
+      "RCOG. Vasa Praevia: Diagnosis and Management."
+    ]
+  },
+  {
+    "id": "OBS-770",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Diagnóstico prenatal de vasa previa",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar la utilidad del ultrasonido transvaginal con Doppler para confirmar vasos fetales cercanos al orificio cervical interno.",
+    "caso": "Gestante de 29 semanas con inserción velamentosa del cordón presenta una imagen lineal vascular que cruza las membranas sobre el orificio cervical interno. Se requiere diferenciar vasos fetales de otras estructuras vasculares.",
+    "pregunta": "¿Qué estudio permite caracterizar mejor el hallazgo?",
+    "opciones": [
+      "Radiografía simple de pelvis",
+      "Tomografía computarizada con contraste como estudio inicial",
+      "Ultrasonido transvaginal con Doppler color y evaluación espectral para determinar la naturaleza fetal del vaso",
+      "Tacto vaginal digital para palpar los vasos",
+      "Amniotomía diagnóstica para comprobar si existe sangrado"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El ultrasonido transvaginal con Doppler permite localizar los vasos respecto al orificio cervical interno y determinar si presentan flujo compatible con circulación fetal. El diagnóstico prenatal permite planificar el nacimiento antes de la ruptura de membranas y reducir el riesgo de hemorragia fetal catastrófica.",
+    "perlaENARM": "La herramienta diagnóstica clave para vasa previa es el ultrasonido transvaginal con Doppler; evita maniobras invasivas que puedan romper los vasos.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "SMFM. Diagnosis and Management of Vasa Previa.",
+      "RCOG. Vasa Praevia: Diagnosis and Management."
+    ]
+  },
+  {
+    "id": "OBS-771",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Momento del nacimiento en vasa previa",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Planificar el nacimiento de una paciente con vasa previa diagnosticada prenatalmente para evitar la ruptura de vasos fetales.",
+    "caso": "Gestante de 33 semanas con vasa previa confirmada por Doppler permanece sin sangrado, sin contracciones y con bienestar fetal normal. Vive a dos horas del hospital de referencia y no ha presentado ruptura de membranas.",
+    "pregunta": "¿Qué estrategia general reduce el riesgo de una emergencia fetal por ruptura de vasos?",
+    "opciones": [
+      "Esperar obligatoriamente hasta las 40 semanas para permitir madurez completa",
+      "Inducir el parto vaginal con amniotomía programada",
+      "Realizar tactos vaginales seriados para vigilar la posición del cordón",
+      "Planificar nacimiento por cesárea antes del trabajo de parto o la ruptura de membranas, individualizando el momento según guía vigente y factores clínicos",
+      "Indicar alta sin seguimiento porque la ausencia de sangrado elimina el riesgo"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF propone hospitalización entre las 30 y 34 semanas, finalización del embarazo y cesárea programada alrededor de las 34–36 semanas, además de cesárea urgente si se rompe la vasa previa. La práctica contemporánea individualiza el momento según síntomas, riesgo de parto prematuro, accesibilidad al hospital y recomendaciones locales; el objetivo es evitar trabajo de parto y ruptura de membranas antes de la cesárea.",
+    "perlaENARM": "Vasa previa confirmada: la cesárea planificada antes de la ruptura de membranas previene la hemorragia fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "SMFM. Diagnosis and Management of Vasa Previa.",
+      "RCOG. Vasa Praevia: Diagnosis and Management."
+    ]
+  },
+  {
+    "id": "OBS-772",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Ruptura uterina",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la ruptura uterina durante el trabajo de parto en una paciente con cicatriz uterina previa.",
+    "caso": "Gestante de 39 semanas con cesárea previa inicia trabajo de parto con oxitocina. Presenta dolor suprapúbico súbito e intenso, pérdida de la estación fetal, alteración abrupta de la frecuencia cardiaca fetal y contracciones que disminuyen. La presión arterial comienza a descender.",
+    "pregunta": "¿Qué complicación debe sospecharse y requiere intervención inmediata?",
+    "opciones": [
+      "Placenta previa sin trabajo de parto",
+      "Ruptura uterina",
+      "Hiperémesis gravídica",
+      "Vasa previa sin ruptura de membranas",
+      "DPPNI leve sin alteraciones fetales"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La ruptura uterina puede manifestarse con dolor súbito, alteraciones de la frecuencia cardiaca fetal, pérdida de estación, cambio en la dinámica uterina y choque. Los factores de riesgo incluyen cicatriz uterina y uso de uterotónicos. La presentación puede ser variable, por lo que la ausencia de todos los signos clásicos no excluye el diagnóstico.",
+    "perlaENARM": "Durante el trabajo de parto con cicatriz uterina, bradicardia fetal súbita y pérdida de estación son señales de alarma para ruptura uterina.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "ACOG. Vaginal Birth After Cesarean Delivery.",
+      "RCOG. Birth After Previous Caesarean Birth."
+    ]
+  },
+  {
+    "id": "OBS-773",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Factores precipitantes de ruptura uterina",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer factores que incrementan el riesgo de ruptura uterina durante la inducción o conducción del trabajo de parto.",
+    "caso": "Gestante de 38 semanas con antecedente de cesárea segmentaria inicia inducción con un esquema de uterotónicos. Durante la evolución presenta taquisistolia persistente y cambios agudos de la frecuencia cardiaca fetal.",
+    "pregunta": "¿Qué conjunto de factores del material aumenta la preocupación por ruptura uterina?",
+    "opciones": [
+      "Edad materna menor de 25 años y embarazo único",
+      "Presentación cefálica y membranas íntegras",
+      "Ausencia de cicatriz uterina y contracciones normales",
+      "Antecedente de lactancia materna y anemia leve",
+      "Cicatriz uterina previa, trabajo de parto prolongado y exposición excesiva a oxitocina o prostaglandinas en un contexto de riesgo"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF identifica la cesárea previa, el trabajo de parto prolongado, el exceso de oxitocina y el uso de prostaglandinas después de cesárea como factores asociados con ruptura uterina. La selección de métodos de inducción en una paciente con cicatriz debe seguir protocolos específicos y considerar el tipo de incisión uterina, las contraindicaciones y la capacidad de realizar cesárea urgente.",
+    "perlaENARM": "En una paciente con cesárea previa, la inducción requiere selección cuidadosa del método y vigilancia continua de la frecuencia cardiaca fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "ACOG. Vaginal Birth After Cesarean Delivery.",
+      "RCOG. Birth After Previous Caesarean Birth."
+    ]
+  },
+  {
+    "id": "OBS-774",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Conducta ante ruptura uterina",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar laparotomía y nacimiento urgente ante sospecha de ruptura uterina con compromiso materno-fetal.",
+    "caso": "Paciente en trabajo de parto con cesárea previa presenta dolor súbito, bradicardia fetal sostenida e hipotensión. La exploración muestra pérdida de la estación fetal y el equipo sospecha ruptura uterina completa.",
+    "pregunta": "¿Qué conducta quirúrgica corresponde a esta emergencia?",
+    "opciones": [
+      "Cesárea o laparotomía inmediata para nacimiento, control de hemorragia y reparación uterina si es factible; histerectomía si la lesión no puede controlarse o repararse",
+      "Observación durante una hora para comprobar la evolución del dolor",
+      "Aumentar la oxitocina para recuperar la dinámica uterina",
+      "Administrar tocolíticos y diferir el nacimiento hasta el término",
+      "Realizar ultrasonido seriado antes de activar el quirófano"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La ruptura uterina es una emergencia quirúrgica. El tratamiento exige laparotomía inmediata, extracción fetal, control de hemorragia y reparación cuando la anatomía y la condición clínica lo permitan. La histerectomía puede ser necesaria si existe daño extenso, hemorragia incontrolable o imposibilidad de reparar el útero. La confirmación por imagen no debe retrasar la cirugía ante alta sospecha clínica e inestabilidad.",
+    "perlaENARM": "La sospecha alta de ruptura uterina con compromiso fetal o choque requiere cirugía inmediata; la histerectomía no es obligatoria en todos los casos.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "ACOG. Vaginal Birth After Cesarean Delivery.",
+      "RCOG. Birth After Previous Caesarean Birth."
+    ]
+  },
+  {
+    "id": "OBS-775",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Placenta previa frente a DPPNI",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar dos causas frecuentes de hemorragia anteparto mediante el patrón de dolor y la actividad uterina.",
+    "caso": "Gestante de 30 semanas consulta por hemorragia transvaginal de inicio súbito. En la exploración se encuentra útero blando, no doloroso, sin contracciones regulares. La frecuencia cardiaca fetal es tranquilizadora y la paciente refiere un episodio similar semanas antes.",
+    "pregunta": "¿Qué diagnóstico es más compatible con este patrón, sin considerar aún los resultados de imagen?",
+    "opciones": [
+      "DPPNI grave, porque siempre cursa sin dolor",
+      "Ruptura uterina, porque puede repetirse durante el embarazo sin trabajo de parto",
+      "Placenta previa, por la hemorragia indolora recurrente con útero no doloroso",
+      "Vasa previa rota, aunque no haya relación temporal con la ruptura de membranas ni alteración fetal",
+      "Embolia de líquido amniótico"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La placenta previa suele producir episodios de sangrado indoloro, a menudo recurrentes, con útero blando. El DPPNI se asocia con mayor frecuencia a dolor y sensibilidad uterina, aunque puede presentarse de manera atípica. El diagnóstico definitivo requiere localizar la placenta y evaluar otras causas de hemorragia anteparto.",
+    "perlaENARM": "Hemorragia indolora recurrente y útero blando sugieren placenta previa; dolor e hipertonía orientan a DPPNI.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "RCOG. Antepartum Haemorrhage.",
+      "RCOG. Placenta Praevia and Placenta Accreta: Diagnosis and Management."
+    ]
+  },
+  {
+    "id": "OBS-776",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Hemorragia y bienestar fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer cuándo el deterioro fetal modifica la urgencia del nacimiento en una hemorragia anteparto.",
+    "caso": "Gestante de 35 semanas con hemorragia vaginal presenta bradicardia fetal persistente pese a las medidas iniciales de estabilización materna. La ecografía identifica una placenta no previa y el útero está doloroso y tenso.",
+    "pregunta": "¿Qué factor debe tener mayor peso al decidir la urgencia del nacimiento?",
+    "opciones": [
+      "La preferencia por esperar a que se cumplan 37 semanas en todos los casos",
+      "La ausencia de sangrado externo abundante, que descarta riesgo fetal",
+      "La necesidad de confirmar un hematoma por resonancia antes de intervenir",
+      "El deterioro fetal persistente en el contexto de probable DPPNI, junto con la condición materna",
+      "La edad materna, independientemente de la evolución clínica"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El DPPNI puede comprometer rápidamente la oxigenación fetal y causar hemorragia materna y coagulopatía. Una bradicardia persistente en este contexto exige respuesta obstétrica inmediata, con estabilización materna simultánea y nacimiento urgente cuando esté indicado. No debe retrasarse la resolución por esperar confirmación ecográfica.",
+    "perlaENARM": "En una hemorragia anteparto con deterioro fetal persistente, la condición materno-fetal y la urgencia clínica prevalecen sobre la confirmación por imagen.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "ACOG. Management of Obstetric Hemorrhage.",
+      "RCOG. Antepartum Haemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-777",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Diagnóstico diferencial de hemorragia tras amniorrexis",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar vasa previa rota de DPPNI y placenta previa cuando la hemorragia aparece después de la ruptura de membranas.",
+    "caso": "Gestante de 37 semanas presenta sangrado vaginal inmediatamente después de amniotomía. En segundos, la frecuencia cardiaca fetal cae a 70 lpm. La madre conserva presión arterial y pulso normales, y no presenta dolor uterino importante.",
+    "pregunta": "¿Qué diagnóstico debe sospecharse con mayor urgencia?",
+    "opciones": [
+      "DPPNI oculto como única posibilidad",
+      "Vasa previa rota con hemorragia fetal aguda",
+      "Placenta previa sin relación con la amniotomía",
+      "Ruptura uterina completa confirmada por la ausencia de hipotensión",
+      "Atonía uterina antes del nacimiento"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La aparición inmediata de sangrado tras la ruptura de membranas acompañada de bradicardia fetal intensa, con estabilidad materna inicial, es característica de vasa previa rota. La hemorragia puede provenir de vasos fetales expuestos y exige nacimiento de emergencia, generalmente por cesárea si el parto vaginal no es inminente.",
+    "perlaENARM": "La hemorragia posterior a amniorrexis con bradicardia fetal súbita y estabilidad materna es una señal clásica de vasa previa rota.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "SMFM. Diagnosis and Management of Vasa Previa.",
+      "RCOG. Vasa Praevia: Diagnosis and Management."
+    ]
+  },
+  {
+    "id": "OBS-778",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Placenta previa y acretismo placentario",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la asociación entre placenta previa, cesárea previa y espectro de acretismo placentario.",
+    "caso": "Gestante de 36 semanas con dos cesáreas previas presenta placenta anterior que cubre el orificio cervical interno. El ultrasonido muestra lagunas placentarias numerosas y pérdida de la zona hipoecoica retroplacentaria.",
+    "pregunta": "¿Qué complicación debe investigarse y qué implicación tiene para la planificación del nacimiento?",
+    "opciones": [
+      "Vasa previa aislada, que no requiere planificación quirúrgica",
+      "DPPNI crónico, que se confirma por el número de cesáreas",
+      "Ruptura uterina ya establecida, aunque no existan síntomas",
+      "Placenta de inserción baja sin riesgo hemorrágico relevante",
+      "Espectro de acretismo placentario, que requiere evaluación especializada y planificación multidisciplinaria por riesgo de hemorragia masiva"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La placenta previa sobre una cicatriz uterina, especialmente después de varias cesáreas, aumenta el riesgo de espectro de acretismo placentario. Los hallazgos ecográficos descritos incrementan la sospecha. El caso debe referirse a un centro con experiencia, banco de sangre y equipo multidisciplinario; la estrategia del nacimiento debe planificarse para reducir la morbilidad hemorrágica.",
+    "perlaENARM": "Placenta previa anterior sobre cicatriz de cesárea más lagunas placentarias: sospecha acretismo y planifica el nacimiento en un centro experto.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "ACOG. Placenta Accreta Spectrum.",
+      "RCOG. Placenta Praevia and Placenta Accreta: Diagnosis and Management."
+    ]
+  },
+  {
+    "id": "OBS-779",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Preparación para hemorragia obstétrica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Integrar preparación transfusional y evaluación de la coagulación en hemorragias obstétricas potencialmente graves.",
+    "caso": "Gestante de 34 semanas con sangrado anteparto de causa aún no definida requiere ingreso hospitalario. Actualmente tiene presión arterial normal, pero el sangrado ha sido intermitente y el equipo considera probable que requiera intervención.",
+    "pregunta": "¿Qué medida prepara mejor al equipo para un deterioro hemorrágico inesperado?",
+    "opciones": [
+      "Solicitar grupo sanguíneo, pruebas de compatibilidad y estudios hematológicos según gravedad, además de establecer acceso venoso y vigilancia materno-fetal",
+      "Esperar a que aparezca hipotensión para tomar muestras",
+      "Evitar determinar el grupo sanguíneo hasta conocer la vía del nacimiento",
+      "Administrar anticoagulación terapéutica de rutina",
+      "Dar el alta si la presión arterial se mantiene normal durante 30 minutos"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La hemorragia anteparto puede evolucionar rápidamente, por lo que se requiere valorar la magnitud del sangrado, preparar compatibilidad sanguínea y vigilar el estado materno-fetal. La intensidad de la preparación depende de la hemorragia, los factores de riesgo y la probabilidad de intervención. La estabilidad inicial no garantiza que el cuadro no progrese.",
+    "perlaENARM": "En hemorragia anteparto, la preparación transfusional y la vigilancia deben ajustarse al riesgo antes de que aparezca el choque.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "ACOG. Management of Obstetric Hemorrhage.",
+      "RCOG. Antepartum Haemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-780",
+    "especialidad": "Obstetricia",
+    "tema": "Hemorragias del tercer trimestre",
+    "subtema": "Integración clínica y conducta obstétrica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar el patrón clínico, los factores de riesgo y el estado materno-fetal para priorizar la atención de las cuatro principales causas de hemorragia del tercer trimestre.",
+    "caso": "En urgencias se valoran cuatro pacientes: una gestante con sangrado indoloro y placenta que cubre el orificio cervical interno; otra con dolor abdominal, útero hipertónico y desaceleraciones fetales; una tercera con sangrado tras ruptura de membranas y bradicardia fetal súbita; y una cuarta con cesárea previa, dolor suprapúbico intenso, pérdida de estación e hipotensión durante el trabajo de parto.",
+    "pregunta": "¿Qué asociación entre cuadro clínico y diagnóstico es correcta?",
+    "opciones": [
+      "Sangrado indoloro: DPPNI; útero hipertónico: placenta previa; sangrado tras amniorrexis: ruptura uterina; pérdida de estación: vasa previa",
+      "Sangrado indoloro: vasa previa; útero hipertónico: ruptura uterina; bradicardia tras amniorrexis: placenta previa; choque: DPPNI exclusivamente",
+      "Sangrado indoloro: placenta previa; dolor e hipertonía: DPPNI; sangrado tras amniorrexis con bradicardia: vasa previa; dolor súbito y pérdida de estación con cicatriz uterina: ruptura uterina",
+      "Sangrado indoloro: ruptura uterina; dolor e hipertonía: vasa previa; bradicardia tras amniorrexis: DPPNI; pérdida de estación: placenta previa",
+      "Los cuatro cuadros corresponden a placenta previa con diferentes presentaciones"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La placenta previa suele producir sangrado indoloro y se confirma localizando la placenta; el DPPNI se asocia con dolor, hipertonía y compromiso fetal; la vasa previa rota causa sangrado tras la ruptura de membranas con deterioro fetal rápido; y la ruptura uterina puede manifestarse con dolor súbito, pérdida de estación, alteración fetal y choque en pacientes con cicatriz uterina. Estas asociaciones orientan el diagnóstico, pero la atención debe adaptarse a la estabilidad y a los hallazgos de cada paciente.",
+    "perlaENARM": "Memoriza los patrones, pero no los conviertas en reglas absolutas: las cuatro hemorragias pueden tener presentaciones atípicas y requieren evaluación urgente.",
+    "bibliografia": [
+      "PDF proporcionado: 16. Hemorragias 3º Trimestre, tabla comparativa, página 1.",
+      "ACOG. Bleeding During Pregnancy.",
+      "ACOG. Placenta Accreta Spectrum.",
+      "SMFM. Diagnosis and Management of Vasa Previa.",
+      "RCOG. Antepartum Haemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-781",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Fisiopatología y mecanismo de hemorragia",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar la relación entre implantación placentaria en el segmento uterino inferior, remodelación uterina y hemorragia anteparto.",
+    "caso": "Gestante de 31 semanas con placenta que cubre el orificio cervical interno presenta un episodio de hemorragia vaginal indolora. No tiene contracciones regulares ni dolor a la palpación. El equipo explica que el sangrado puede recurrir conforme progresa la gestación.",
+    "pregunta": "¿Qué mecanismo fisiopatológico explica mejor la tendencia al sangrado de esta entidad?",
+    "opciones": [
+      "Activación sistémica de la coagulación por liberación de factor tisular desde un hematoma retroplacentario",
+      "Rotura primaria de vasos fetales que recorren las membranas sin protección",
+      "Desgarro transmural del miometrio por aumento de la presión intrauterina",
+      "Separación de la placenta en el segmento uterino inferior, donde la contracción miometrial es menos eficaz para comprimir los vasos sangrantes",
+      "Vasoconstricción intensa de las arterias uterinas con isquemia fetal como mecanismo principal del sangrado"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El material proporcionado explica que la placenta previa se relaciona con la implantación en el segmento uterino inferior. Al adelgazarse y distenderse este segmento, puede interrumpirse la adhesión placentaria y aparecer sangrado. La menor capacidad contráctil local dificulta la compresión de los vasos. La hemorragia puede estimular liberación local de trombina y contracciones, aumentando la separación. La descripción corresponde a la fisiopatología expuesta en la página 1 del PDF.",
+    "perlaENARM": "Placenta previa: implantación baja, separación placentaria y menor eficacia de la contracción local para controlar el sangrado.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, página 1.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-782",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Factores de riesgo y prevención",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar antecedentes de daño uterino y características maternas con el riesgo de placenta previa.",
+    "caso": "Mujer de 38 años, G5P3, con dos cesáreas previas, antecedente de legrado uterino y tabaquismo activo, acude a su ultrasonido morfológico de las 20 semanas. No presenta síntomas y desea conocer los riesgos que requieren vigilancia.",
+    "pregunta": "¿Qué antecedente tiene especial relevancia para evaluar tanto placenta previa como una posible anomalía de adherencia placentaria?",
+    "opciones": [
+      "Antecedente de cesáreas, por su asociación con implantación placentaria anómala y espectro de acretismo placentario",
+      "Antecedente de náuseas y vómitos durante el primer trimestre",
+      "Uso previo de anticonceptivos hormonales combinados",
+      "Antecedente de infección urinaria no complicada",
+      "Embarazo único con presentación cefálica"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF identifica la cesárea previa, la multiparidad, la edad materna avanzada, el tabaquismo, el consumo de cocaína, el embarazo múltiple y el antecedente de placenta previa como factores asociados. También relaciona la alteración de la cicatrización uterina con el daño endometrial. La coexistencia de placenta previa y cicatriz de cesárea eleva especialmente la sospecha de espectro de acretismo placentario.",
+    "perlaENARM": "Placenta previa sobre una cicatriz de cesárea: evalúa también el espectro de acretismo placentario, no solo la ubicación.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, páginas 1 y 3.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-783",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Clasificación ecográfica actual",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Clasificar la localización placentaria mediante la relación del borde placentario con el orificio cervical interno y distinguir terminología histórica de la actual.",
+    "caso": "En un ultrasonido transvaginal a las 29 semanas, el borde inferior de la placenta se encuentra a 14 mm del orificio cervical interno, sin cubrirlo. El informe antiguo del expediente utiliza el término 'placenta marginal'.",
+    "pregunta": "¿Cómo debe describirse el hallazgo utilizando la terminología ecográfica contemporánea?",
+    "opciones": [
+      "Placenta previa completa, porque cualquier distancia menor de 20 mm implica cobertura del orificio",
+      "Placenta de localización normal, porque no existe sangrado",
+      "Placenta de inserción baja, porque el borde está a menos de 20 mm del orificio cervical interno sin cubrirlo",
+      "Placenta previa central total, porque el borde se aproxima al cuello uterino",
+      "Desprendimiento placentario crónico, porque existe proximidad al cuello"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF presenta una clasificación histórica que incluye inserción baja, marginal, central parcial y central total. La terminología contemporánea distingue placenta previa cuando la placenta cubre el orificio cervical interno e inserción baja cuando el borde placentario está a menos de 20 mm sin cubrirlo. Este cambio evita clasificar como previa una placenta que únicamente se encuentra próxima al orificio. La página 4 del PDF también utiliza el umbral de 20 mm.",
+    "perlaENARM": "En la clasificación actual, cubrir el orificio define placenta previa; estar a menos de 20 mm sin cubrirlo corresponde a placenta de inserción baja.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, páginas 2 y 4.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-784",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Diagnóstico por ultrasonido",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar el método de imagen que delimita con mayor precisión la relación entre el borde placentario y el orificio cervical interno.",
+    "caso": "Gestante de 27 semanas presenta un ultrasonido abdominal que sugiere placenta baja, pero la posición fetal y la vejiga llena dificultan definir la distancia entre el borde placentario y el orificio cervical interno. Está estable y no tiene sangrado.",
+    "pregunta": "¿Qué estudio debe utilizarse para precisar la localización placentaria?",
+    "opciones": [
+      "Radiografía simple de pelvis",
+      "Tomografía computarizada pélvica",
+      "Resonancia magnética como primera prueba en todos los casos",
+      "Tacto vaginal digital para localizar manualmente el borde placentario",
+      "Ultrasonido transvaginal con medición de la distancia entre el borde placentario y el orificio cervical interno"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El ultrasonido transvaginal delimita con precisión la relación entre la placenta y el orificio cervical interno, y es seguro cuando se realiza correctamente. El PDF recomienda repetir por vía transvaginal un estudio abdominal que sugiera inserción baja. La resonancia puede reservarse para situaciones seleccionadas, como evaluación complementaria de anomalías placentarias, y no sustituye al ultrasonido transvaginal como estudio inicial para localizar el borde.",
+    "perlaENARM": "La vía transvaginal es el método de elección para medir con precisión la distancia placentaria al orificio cervical interno.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, páginas 3 y 4.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-785",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Tamizaje y seguimiento de placenta baja",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Planificar la reevaluación ecográfica de una placenta de inserción baja detectada en el segundo trimestre.",
+    "caso": "Gestante de 20 semanas con ultrasonido morfológico que muestra el borde placentario a 9 mm del orificio cervical interno. No ha presentado sangrado y no tiene antecedentes de cesárea.",
+    "pregunta": "¿Qué estrategia de seguimiento permite determinar si persiste la localización baja al final del embarazo?",
+    "opciones": [
+      "Indicar cesárea inmediata a las 20 semanas",
+      "Realizar seguimiento ecográfico en el tercer trimestre, habitualmente alrededor de las 32 semanas, y reevaluar más adelante si continúa baja",
+      "Repetir el ultrasonido diariamente hasta que el borde se aleje del cuello",
+      "Realizar amniocentesis para establecer la localización placentaria",
+      "Evitar cualquier nuevo ultrasonido porque la placenta no puede cambiar su relación con el cuello uterino"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El material proporcionado recomienda seguimiento ecográfico cuando el borde placentario está a menos de 20 mm y confirmación de persistencia alrededor de las 32 semanas. La mayoría de las placentas bajas detectadas a mitad del embarazo dejan de cumplir ese criterio al avanzar la gestación. Si la placenta sigue baja, se requiere reevaluación posterior para planificar la vía del nacimiento.",
+    "perlaENARM": "Placenta baja en el ultrasonido de las 20 semanas no equivale a placenta previa persistente al término; debe reevaluarse en el tercer trimestre.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, página 3 y algoritmo de la página 7.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-786",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Evaluación inicial de hemorragia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar la evaluación materno-fetal y evitar maniobras que puedan agravar una hemorragia por placenta previa.",
+    "caso": "Gestante de 30 semanas con sospecha de placenta previa llega por sangrado vaginal moderado. Está consciente, con presión arterial de 112/70 mmHg, y el feto tiene frecuencia cardiaca normal. La ubicación placentaria no está documentada en el expediente.",
+    "pregunta": "¿Cuál es la estrategia inicial que combina seguridad diagnóstica y evaluación de gravedad?",
+    "opciones": [
+      "Realizar tacto vaginal digital para comprobar si el cuello está cerrado",
+      "Inducir el trabajo de parto para determinar si el sangrado cesa",
+      "Dar de alta sin evaluación porque la paciente está normotensa",
+      "Valorar estabilidad materna y bienestar fetal, obtener estudios hematológicos según la magnitud del sangrado y localizar la placenta mediante ultrasonido",
+      "Administrar oxitocina antes de conocer el origen del sangrado"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF recomienda hospitalizar inicialmente, evaluar la condición hemodinámica materna y el estado fetal, solicitar estudios hematológicos y pruebas cruzadas según el caso y confirmar la localización placentaria por ultrasonido. Debe evitarse el tacto vaginal digital hasta excluir placenta previa. La estabilidad inicial no elimina la posibilidad de recurrencia o progresión de la hemorragia.",
+    "perlaENARM": "En hemorragia anteparto, estabiliza y evalúa primero; si se sospecha placenta previa, no realices tacto digital antes de localizar la placenta.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, páginas 4 y 5.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-787",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Exploración con espéculo y tacto vaginal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar la exploración vaginal que puede realizarse de la maniobra digital contraindicada cuando no se ha excluido placenta previa.",
+    "caso": "Gestante de 28 semanas presenta sangrado vaginal escaso. La paciente está estable, pero el origen del sangrado no se ha establecido y se sospecha placenta previa. Se requiere valorar si existe una lesión vaginal o cervical visible.",
+    "pregunta": "¿Qué afirmación sobre la exploración genital es correcta?",
+    "opciones": [
+      "El tacto vaginal digital es obligatorio antes del ultrasonido",
+      "Toda exploración genital está absolutamente contraindicada",
+      "La exploración con espéculo puede realizarse con cuidado, mientras se evita el tacto digital hasta excluir placenta previa",
+      "La amnioscopia es el método recomendado para localizar el borde placentario",
+      "La biopsia cervical debe realizarse de rutina durante el episodio hemorrágico"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La página 4 del PDF señala que la visualización con espéculo puede realizarse de forma segura y que no se recomienda el tacto vaginal digital ante sospecha de placenta previa. El espéculo permite valorar el origen visible del sangrado sin introducir los dedos a través del cuello. La localización placentaria se confirma con ultrasonido.",
+    "perlaENARM": "Sospecha de placenta previa: espéculo si está indicado; evita el tacto digital hasta excluirla.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, página 4.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-788",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Manejo expectante en paciente seleccionada",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evaluar criterios clínicos y logísticos que permiten considerar manejo ambulatorio tras un episodio de hemorragia por placenta previa.",
+    "caso": "Gestante de 32 semanas con placenta previa presenta sangrado que cesa durante la hospitalización. Lleva 72 horas sin nueva hemorragia, la prueba sin estrés es reactiva, el hematocrito es de 36%, cuenta con transporte confiable y vive a 20 minutos del hospital. No tiene contracciones ni alteraciones fetales.",
+    "pregunta": "¿Qué plan puede considerarse si el equipo confirma que se cumplen los criterios clínicos de egreso?",
+    "opciones": [
+      "Manejo ambulatorio seleccionado con seguimiento obstétrico estrecho, educación sobre signos de alarma y posibilidad de traslado urgente",
+      "Alta sin seguimiento hasta el inicio espontáneo del trabajo de parto",
+      "Inducción del parto vaginal inmediata en toda placenta previa",
+      "Suspender la vigilancia fetal porque el sangrado ya cesó",
+      "Indicar tactos vaginales diarios para vigilar la dilatación"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF plantea que puede considerarse manejo ambulatorio en pacientes seleccionadas después de 72 horas sin hemorragia, con prueba sin estrés reactiva, hematocrito de al menos 35%, seguimiento semanal y posibilidad de traslado urgente. Estos criterios pertenecen al material de estudio y no sustituyen la individualización clínica ni los protocolos locales. La paciente debe regresar de inmediato si presenta nuevo sangrado, contracciones, dolor o disminución de movimientos fetales.",
+    "perlaENARM": "El egreso tras placenta previa sangrante requiere estabilidad sostenida, bienestar fetal, seguimiento y acceso oportuno al hospital; no es automático.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, página 5.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-789",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Corticoesteroides antenatales",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar el papel de los corticoesteroides antenatales cuando existe riesgo de nacimiento pretérmino asociado con placenta previa.",
+    "caso": "Gestante de 31 semanas con placenta previa presenta un episodio de hemorragia que ha cesado. No está en trabajo de parto activo, pero el equipo considera que existe riesgo de nacimiento pretérmino durante los siguientes días.",
+    "pregunta": "¿Qué intervención puede reducir el riesgo de complicaciones respiratorias neonatales si se anticipa nacimiento pretérmino dentro de la ventana indicada?",
+    "opciones": [
+      "Administrar antibióticos de amplio espectro sin evidencia de infección",
+      "Indicar sulfato de magnesio como sustituto de los corticoesteroides para maduración pulmonar",
+      "Esperar a que aparezca insuficiencia respiratoria neonatal para intervenir",
+      "Administrar corticoesteroides antenatales según la edad gestacional, la probabilidad de nacimiento y el protocolo vigente",
+      "Administrar surfactante directamente al feto por vía intrauterina"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF recomienda corticoesteroides entre las 24 y 34 semanas cuando la paciente con placenta previa o inserción baja presenta sangrado. En la práctica, su indicación depende de la edad gestacional, la probabilidad de nacimiento en los siguientes días y las recomendaciones actuales. No deben retrasar una intervención urgente cuando existe hemorragia materna grave o compromiso fetal.",
+    "perlaENARM": "Los corticoesteroides antenatales disminuyen complicaciones de prematuridad; nunca deben retrasar un nacimiento urgente por indicación materna o fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, página 5.",
+      "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-790",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Tocolisis en contexto de sangrado",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que la tocolisis en placenta previa solo puede considerarse en circunstancias seleccionadas y no sustituye el control de una hemorragia grave.",
+    "caso": "Gestante de 30 semanas con placenta previa presenta sangrado moderado que ha disminuido y contracciones uterinas frecuentes. Está hemodinámicamente estable, la frecuencia cardiaca fetal es tranquilizadora y existe indicación de completar el esquema de corticoesteroides antenatales.",
+    "pregunta": "¿En qué circunstancia puede considerarse un tocolítico?",
+    "opciones": [
+      "En toda paciente con placenta previa, incluso con choque hemorrágico",
+      "Como estrategia para prolongar el embarazo varias semanas pese a hemorragia recurrente",
+      "Para facilitar el tacto vaginal y evaluar la dilatación",
+      "Para sustituir la vigilancia materno-fetal",
+      "De manera selectiva y por tiempo limitado, si es clínicamente seguro y permite completar corticoesteroides, sin retrasar una intervención necesaria"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF limita la consideración de tocolíticos a situaciones en que permitan completar el curso de corticoesteroides, aproximadamente 48 horas, en un contexto de amenaza de parto pretérmino y placenta previa. La tocolisis no debe utilizarse para retrasar el nacimiento si hay hemorragia significativa, inestabilidad materna o compromiso fetal.",
+    "perlaENARM": "En placenta previa, la tocolisis no es rutinaria: puede considerarse brevemente en casos seleccionados para completar corticoesteroides si no existe indicación de nacimiento inmediato.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, página 5.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-791",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Momento del nacimiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Individualizar el momento del nacimiento según persistencia de placenta previa, antecedentes hemorrágicos, edad gestacional y estado materno-fetal.",
+    "caso": "Gestante de 36 semanas y 2 días con placenta previa persistente que cubre el orificio cervical interno. Ha presentado dos episodios de sangrado, ambos controlados, y actualmente está estable, sin contracciones y con bienestar fetal normal.",
+    "pregunta": "¿Qué estrategia de nacimiento debe discutirse con el equipo obstétrico?",
+    "opciones": [
+      "Esperar obligatoriamente hasta las 40 semanas porque la paciente está estable",
+      "Planificar cesárea en el periodo recomendado para placenta previa, individualizando la fecha por los episodios hemorrágicos y la situación clínica",
+      "Inducir trabajo de parto vaginal porque el sangrado ha cesado",
+      "Realizar amniotomía para comprobar si la placenta obstruye el canal",
+      "Posponer cualquier decisión hasta que ocurra una hemorragia masiva"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF de 2021–2022 propone finalizar entre las 34 y 36 semanas en determinadas pacientes con placenta previa o inserción baja y antecedentes de sangrado, y finalizar si la gestación supera las 36 semanas. La guía RCOG actualizada en 2026 debe consultarse para el calendario vigente y la individualización. En placenta previa persistente que cubre el orificio, la vía habitual es cesárea; los episodios de hemorragia pueden justificar un nacimiento más temprano según la situación clínica.",
+    "perlaENARM": "Placenta previa persistente: el nacimiento suele planificarse por cesárea; la hemorragia previa puede modificar el momento, aun con estabilidad actual.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, página 5 y algoritmo de la página 7.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-792",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Vía del nacimiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar la indicación de cesárea en placenta previa de las posibilidades de parto vaginal en placenta de inserción baja.",
+    "caso": "Gestante de 37 semanas con placenta que cubre parcialmente el orificio cervical interno en ultrasonido transvaginal. Está estable, sin sangrado activo y con feto en presentación cefálica.",
+    "pregunta": "¿Cuál es la vía del nacimiento que corresponde al hallazgo ecográfico descrito?",
+    "opciones": [
+      "Parto vaginal obligatorio porque el feto está cefálico",
+      "Inducción con oxitocina para separar la placenta del cuello",
+      "Cesárea, porque la placenta cubre el orificio cervical interno y puede obstruir el canal del parto",
+      "Parto instrumentado para evitar el contacto fetal con la placenta",
+      "Amniotomía seguida de observación, sin plan de contingencia"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La placenta previa se define por la cobertura del orificio cervical interno y generalmente requiere cesárea para evitar hemorragia y obstrucción del canal. La posibilidad de parto vaginal puede considerarse en casos seleccionados de placenta de inserción baja que no cubre el orificio, con distancia adecuada y evaluación obstétrica individualizada. La presentación cefálica no elimina el riesgo hemorrágico.",
+    "perlaENARM": "Si la placenta cubre el orificio cervical interno, la vía habitual es cesárea; la presentación cefálica no modifica esa contraindicación.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, páginas 2 y 5.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-793",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Placenta de inserción baja y parto vaginal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar la distancia placentaria al orificio cervical interno con las condiciones obstétricas para valorar una posible vía vaginal.",
+    "caso": "Gestante de 37 semanas sin sangrado activo tiene el borde placentario a 24 mm del orificio cervical interno en ultrasonido transvaginal. El feto está cefálico, no hay otras contraindicaciones obstétricas y la paciente desea parto vaginal.",
+    "pregunta": "¿Qué interpretación orienta la discusión sobre la vía del nacimiento?",
+    "opciones": [
+      "La distancia medida es compatible con una localización que permite considerar parto vaginal si el resto de la evaluación es favorable",
+      "La distancia confirma placenta previa central total",
+      "Toda placenta previamente baja exige cesárea, aunque la ubicación se haya normalizado",
+      "El ultrasonido transvaginal no sirve para determinar la vía del nacimiento",
+      "La paciente requiere histerectomía profiláctica por el antecedente de placenta baja"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Una distancia de 24 mm es mayor que el umbral de 20 mm utilizado para definir placenta de inserción baja en la terminología contemporánea. Si no existen otros factores de riesgo, puede considerarse parto vaginal. Deben revisarse el historial hemorrágico, la localización placentaria final y las condiciones obstétricas. La decisión se individualiza y requiere capacidad de respuesta ante hemorragia.",
+    "perlaENARM": "Una placenta que ya se encuentra a 20 mm o más del orificio cervical interno puede permitir parto vaginal si la evaluación clínica es favorable.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, páginas 4 y 5.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-794",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Hemorragia obstétrica refractaria",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la escalada terapéutica ante hemorragia persistente durante el nacimiento en una paciente con placenta previa.",
+    "caso": "Durante una cesárea por placenta previa, después del nacimiento y de las medidas iniciales para controlar el sangrado, persiste hemorragia importante. El equipo dispone de recursos quirúrgicos y transfusionales y debe decidir cómo continuar.",
+    "pregunta": "¿Qué principio debe guiar la escalada del tratamiento hemorrágico?",
+    "opciones": [
+      "Retirar todos los accesos venosos y esperar la coagulación espontánea",
+      "Administrar anticoagulantes para evitar trombosis antes de controlar el sangrado",
+      "Repetir tactos vaginales para localizar el sitio de implantación",
+      "Aplicar medidas hemostáticas escalonadas según la causa y la respuesta, recurriendo a histerectomía si la hemorragia no puede controlarse con estrategias conservadoras",
+      "Evitar la transfusión aunque exista inestabilidad hemodinámica"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF menciona uterotónicos, balones intrauterinos y técnicas quirúrgicas como ligadura arterial o suturas compresivas, con histerectomía si no se logra controlar la hemorragia. En la práctica, la selección depende de la causa del sangrado, la estabilidad, la presencia de acretismo, la experiencia quirúrgica y el deseo reproductivo, sin retrasar una intervención definitiva cuando la vida está en riesgo.",
+    "perlaENARM": "La histerectomía es una medida definitiva para hemorragia incontrolable, no una intervención universal para toda placenta previa.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, página 5.",
+      "ACOG. Placenta Accreta Spectrum.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-795",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Planificación de la incisión uterina",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar la localización placentaria para planificar una incisión uterina que reduzca el riesgo de lesión placentaria y hemorragia.",
+    "caso": "Gestante de 35 semanas con placenta previa anterior que cubre el orificio cervical interno tiene cesárea programada. El ultrasonido muestra que la placenta se extiende sobre la región donde habitualmente se realiza la histerotomía.",
+    "pregunta": "¿Qué medida preoperatoria ayuda a reducir el riesgo de atravesar la placenta durante la cesárea?",
+    "opciones": [
+      "Realizar una amniotomía antes de entrar al abdomen",
+      "Revisar la localización placentaria con ultrasonido previo y planificar cuidadosamente el sitio de la incisión uterina",
+      "Realizar tacto vaginal digital inmediatamente antes de la cirugía",
+      "Omitir la evaluación ecográfica porque la placenta no cambia de posición",
+      "Indicar inducción vaginal para evitar la incisión uterina"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF señala que debe realizarse ultrasonido obstétrico antes de la cesárea para identificar la localización placentaria y determinar el sitio de la incisión uterina. Esto es especialmente relevante en placenta previa anterior y en pacientes con cicatrices uterinas. Si existen datos de espectro de acretismo, se necesita además planificación multidisciplinaria y disponibilidad de recursos para hemorragia mayor.",
+    "perlaENARM": "En placenta previa anterior, la localización ecográfica antes de la cesárea ayuda a planificar la histerotomía y anticipar hemorragia.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, página 5.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-796",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Diagnóstico diferencial y cardiotocografía",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar alteraciones de la frecuencia cardiaca fetal en el contexto de una hemorragia obstétrica y reconocer la necesidad de reevaluación inmediata.",
+    "caso": "Gestante de 33 semanas con placenta previa conocida presenta nuevo sangrado. La monitorización fetal muestra taquicardia sostenida y variabilidad disminuida. La paciente conserva presión arterial normal, pero refiere mareo.",
+    "pregunta": "¿Qué interpretación clínica debe guiar la reevaluación inmediata?",
+    "opciones": [
+      "El registro anormal es un hallazgo esperado que no requiere vigilancia",
+      "La estabilidad tensional materna excluye repercusión fetal",
+      "Debe descartarse repercusión materna y fetal por la hemorragia, intensificando la evaluación y preparando intervención si persiste el deterioro",
+      "La taquicardia fetal confirma por sí sola vasa previa",
+      "El sangrado debe atribuirse a cambios cervicales fisiológicos sin más evaluación"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La hemorragia por placenta previa puede afectar el estado materno y fetal, incluso antes de que aparezca hipotensión franca. Una taquicardia fetal persistente y variabilidad disminuida requieren evaluación inmediata, vigilancia continua y preparación para nacimiento si el deterioro no se corrige o si la condición clínica lo exige. Estos hallazgos no son específicos de una sola causa de sangrado.",
+    "perlaENARM": "Un registro fetal anormal durante una hemorragia anteparto exige reevaluación urgente, aunque la presión arterial materna inicialmente sea normal.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, página 4.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Nomenclature, Interpretation, and General Management Principles.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-797",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Espectro de acretismo placentario",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar los factores de riesgo y los hallazgos ecográficos para sospechar espectro de acretismo placentario en una paciente con placenta previa.",
+    "caso": "Gestante de 34 semanas con tres cesáreas previas presenta placenta previa anterior. El ultrasonido muestra múltiples lagunas placentarias, pérdida de la zona clara retroplacentaria y vasos anómalos en la interfaz uterovesical.",
+    "pregunta": "¿Qué diagnóstico asociado debe considerarse prioritariamente y qué cambia en la planificación?",
+    "opciones": [
+      "Espectro de acretismo placentario, que requiere valoración experta y planificación multidisciplinaria del nacimiento por riesgo de hemorragia masiva",
+      "Placenta de inserción baja sin riesgo quirúrgico adicional",
+      "DPPNI agudo, aunque no exista dolor ni separación placentaria",
+      "Vasa previa como explicación obligatoria de todas las lagunas placentarias",
+      "Ruptura uterina completa ya establecida, aun sin signos clínicos"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La coexistencia de placenta previa, cesáreas previas y signos ecográficos de invasión anormal eleva la sospecha de espectro de acretismo placentario. La planificación debe incluir un equipo con experiencia, estrategia quirúrgica, disponibilidad de sangre y discusión de los riesgos maternos. La guía RCOG actualizada en 2026 amplía el reconocimiento de factores de riesgo y enfatiza la detección prenatal.",
+    "perlaENARM": "Placenta previa anterior más cicatrices uterinas y lagunas placentarias: sospecha espectro de acretismo y evita una cesárea no planificada.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, páginas 1 y 3.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026.",
+      "ACOG. Placenta Accreta Spectrum."
+    ]
+  },
+  {
+    "id": "OBS-798",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Anemia y preparación para el nacimiento",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Incorporar la prevención y corrección de anemia a la preparación de una paciente con placenta previa y riesgo de hemorragia.",
+    "caso": "Gestante de 35 semanas con placenta previa persistente ha presentado dos episodios de sangrado. La hemoglobina es de 8.7 g/dL, no existe hemorragia activa y se planifica el nacimiento en un centro hospitalario.",
+    "pregunta": "¿Qué aspecto del manejo debe integrarse a la preparación preoperatoria?",
+    "opciones": [
+      "Suspender toda vigilancia hematológica porque no hay sangrado activo",
+      "Indicar anticoagulación terapéutica para prevenir hemorragia",
+      "Posponer la evaluación de la anemia hasta después del nacimiento",
+      "Evaluar y tratar la anemia según su causa y urgencia, además de preparar compatibilidad sanguínea y un plan de respuesta a hemorragia",
+      "Realizar tacto vaginal diario para estimar la pérdida sanguínea"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF destaca la prevención y el tratamiento de la anemia, además de la evaluación hematológica y las pruebas cruzadas en el manejo de placenta previa. Una hemoglobina baja reduce la reserva ante una hemorragia importante. La corrección debe individualizarse según tiempo disponible, síntomas, causa de la anemia y riesgo de sangrado, sin retrasar un nacimiento urgente si aparece una indicación materna o fetal.",
+    "perlaENARM": "La anemia disminuye la reserva fisiológica frente a hemorragia obstétrica; optimízala cuando sea posible y prepara recursos transfusionales.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, páginas 3 y 5.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-799",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Integración del algoritmo clínico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar un algoritmo de seguimiento de placenta baja detectada en el segundo trimestre y vincular persistencia, sangrado y vía del nacimiento.",
+    "caso": "Gestante de 20 semanas tiene el borde placentario a 12 mm del orificio cervical interno. A las 32 semanas continúa a 8 mm, sin cubrirlo. Ha presentado un episodio de sangrado a las 30 semanas, actualmente resuelto. El feto tiene crecimiento adecuado y la paciente está estable.",
+    "pregunta": "¿Qué elementos deben integrarse para definir el plan posterior?",
+    "opciones": [
+      "Considerar resuelto el problema porque no existe sangrado activo y cancelar todos los ultrasonidos",
+      "Reevaluar la localización placentaria en el tercer trimestre, valorar riesgo de nueva hemorragia y prematuridad, y planificar el nacimiento según la persistencia y el contexto clínico",
+      "Realizar cesárea inmediata a las 32 semanas en todas las pacientes con placenta baja",
+      "Inducir parto vaginal sin conocer la distancia placentaria final",
+      "Diagnosticar DPPNI únicamente por el antecedente de sangrado"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El algoritmo de la página 7 propone reevaluación ecográfica, valoración de persistencia de la placenta baja y consideración de los episodios hemorrágicos al planificar el nacimiento. El momento y la vía dependen de la distancia final al orificio, la cobertura cervical, el historial de sangrado, la condición materno-fetal y las recomendaciones vigentes. No debe confundirse una placenta baja persistente con una placenta que cubre el orificio.",
+    "perlaENARM": "El algoritmo de placenta baja exige reevaluación en el tercer trimestre; la distancia final y el antecedente hemorrágico modifican el plan obstétrico.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, página 7.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026."
+    ]
+  },
+  {
+    "id": "OBS-800",
+    "especialidad": "Obstetricia",
+    "tema": "Placenta previa",
+    "subtema": "Integración diagnóstica y terapéutica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Resolver un caso complejo de placenta previa integrando clasificación ecográfica, riesgo de acretismo, vigilancia y vía del nacimiento.",
+    "caso": "Gestante de 36 semanas con dos cesáreas previas presenta placenta anterior que cubre el orificio cervical interno. Ha tenido un episodio de hemorragia, actualmente resuelto. El ultrasonido identifica lagunas placentarias y adelgazamiento miometrial sobre la cicatriz. La madre está estable y el feto presenta registro tranquilizador.",
+    "pregunta": "¿Qué plan refleja mejor la integración de los riesgos identificados?",
+    "opciones": [
+      "Inducción vaginal porque el sangrado ya cesó y el registro fetal es normal",
+      "Alta sin seguimiento porque no existe hemorragia activa",
+      "Planificar el nacimiento por cesárea con evaluación especializada del posible espectro de acretismo, recursos para hemorragia y estrategia quirúrgica multidisciplinaria",
+      "Realizar tacto vaginal digital para determinar si la placenta se ha separado",
+      "Esperar hasta las 40 semanas sin reevaluar la placenta ni la cicatriz uterina"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La placenta cubre el orificio cervical interno, por lo que el parto vaginal no es la vía habitual. Las cesáreas previas, la placenta anterior y los hallazgos ecográficos aumentan la sospecha de espectro de acretismo placentario, que puede ocasionar hemorragia masiva durante el nacimiento. La planificación debe ser multidisciplinaria, con disponibilidad de sangre y experiencia quirúrgica. El calendario exacto se individualiza según la guía vigente, los síntomas y el riesgo materno-fetal.",
+    "perlaENARM": "Placenta previa sobre cicatriz uterina con signos de invasión anormal: planifica cesárea en un centro experto y anticipa hemorragia grave.",
+    "bibliografia": [
+      "PDF proporcionado: 17. Placenta Previa, páginas 3, 5 y 7.",
+      "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026.",
+      "ACOG. Placenta Accreta Spectrum."
+    ]
   }
  ];
