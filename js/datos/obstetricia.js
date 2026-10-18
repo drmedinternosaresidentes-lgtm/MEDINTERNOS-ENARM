@@ -13585,5 +13585,2964 @@ window.BANCO_OBSTETRICIA = [
       "American Diabetes Association. Standards of Care in Diabetes, manejo de diabetes durante el embarazo.",
       "ACOG. Gestational Diabetes Mellitus."
     ]
+  },
+   {
+    "id": "OBS-561",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Clasificación de la hipertensión durante la gestación",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar hipertensión crónica, gestacional y preeclampsia según la edad gestacional de aparición y los hallazgos asociados.",
+    "caso": "Mujer de 32 años, G2P1, acude a las 16 semanas de gestación con presión arterial de 148/94 mmHg en dos mediciones separadas. No presenta proteinuria, trombocitopenia ni alteración de la función renal. Antes del embarazo no tenía diagnóstico formal de hipertensión.",
+    "pregunta": "¿Cómo debe clasificarse inicialmente este trastorno hipertensivo?",
+    "opciones": [
+      "Hipertensión gestacional porque la paciente está embarazada",
+      "Preeclampsia sin datos de severidad por la cifra sistólica",
+      "Hipertensión crónica en el embarazo por haberse documentado antes de las 20 semanas",
+      "Preeclampsia con datos de severidad por cualquier presión arterial mayor de 140/90 mmHg",
+      "Eclampsia inminente aunque no existan síntomas neurológicos"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La hipertensión presente antes del embarazo o diagnosticada antes de las 20 semanas se clasifica como hipertensión crónica. La hipertensión gestacional y la preeclampsia suelen aparecer a partir de las 20 semanas, aunque la preeclampsia puede manifestarse durante el parto o el puerperio. Debe confirmarse la persistencia de las cifras y evaluar causas secundarias cuando esté indicado.",
+    "perlaENARM": "Hipertensión antes de las 20 semanas orienta a hipertensión crónica; después de las 20 semanas deben distinguirse hipertensión gestacional y preeclampsia.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 1.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222.",
+      "NOM-007-SSA2-2016, atención de la mujer durante el embarazo, parto y puerperio."
+    ]
+  },
+  {
+    "id": "OBS-562",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Diagnóstico de preeclampsia sin proteinuria",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que la disfunción orgánica permite diagnosticar preeclampsia aun sin proteinuria demostrada.",
+    "caso": "Gestante de 31 semanas sin antecedentes hipertensivos presenta presión arterial de 152/98 mmHg en dos mediciones. La relación proteína/creatinina urinaria es de 0.18. La creatinina sérica aumentó de 0.6 a 1.3 mg/dL y no existe antecedente de enfermedad renal.",
+    "pregunta": "¿Qué hallazgo permite establecer preeclampsia a pesar de no documentarse proteinuria significativa?",
+    "opciones": [
+      "La creatinina sérica superior a 1.1 mg/dL en ausencia de enfermedad renal previa",
+      "El aumento fisiológico de la filtración glomerular durante el embarazo",
+      "La relación proteína/creatinina menor de 0.3, que confirma preeclampsia",
+      "La ausencia de edema periférico",
+      "La edad gestacional mayor de 30 semanas por sí sola"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La preeclampsia puede diagnosticarse después de las 20 semanas con hipertensión de novo y disfunción orgánica, aun sin proteinuria. Una creatinina superior a 1.1 mg/dL o el doble del valor basal, en ausencia de otra enfermedad renal, constituye un criterio de afectación renal. La paciente requiere evaluación urgente de severidad y del bienestar maternofetal.",
+    "perlaENARM": "La proteinuria no es indispensable si existen criterios de disfunción orgánica asociados con hipertensión de novo.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 1 y 4.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-563",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Cuantificación de proteinuria",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar el cociente proteína/creatinina urinaria en la evaluación de sospecha de preeclampsia.",
+    "caso": "Gestante de 34 semanas presenta presión arterial de 146/92 mmHg. La tira reactiva urinaria muestra trazas de proteínas y la relación proteína/creatinina en muestra aislada es de 0.34. No tiene enfermedad renal conocida.",
+    "pregunta": "¿Qué conclusión se desprende del resultado cuantitativo?",
+    "opciones": [
+      "La proteinuria queda descartada porque la tira reactiva solo muestra trazas",
+      "Se requiere obligatoriamente una recolección de 24 horas antes de considerar proteinuria",
+      "El cociente solo es diagnóstico cuando supera 0.7",
+      "El resultado es compatible con proteinuria significativa y puede apoyar el diagnóstico de preeclampsia",
+      "El resultado demuestra síndrome HELLP"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El documento presenta un cociente proteína/creatinina de al menos 0.28 como umbral diagnóstico cuando no se dispone de cuantificación de 24 horas. En recomendaciones ampliamente utilizadas, un cociente de al menos 0.3 también se considera compatible con proteinuria significativa. Un resultado de 0.34 cumple ese criterio. El diagnóstico global requiere integrar hipertensión, edad gestacional y otros hallazgos.",
+    "perlaENARM": "Proteinuria significativa: ≥300 mg en 24 horas o cociente proteína/creatinina alrededor de ≥0.3, según el protocolo utilizado.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 4-5.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-564",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Interpretación de la tira reactiva urinaria",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer las limitaciones de la tira reactiva y elegir una prueba cuantitativa cuando persiste sospecha clínica.",
+    "caso": "Paciente de 30 semanas con presión arterial de 150/96 mmHg, cefalea reciente y edema facial tiene una tira reactiva urinaria negativa para proteínas. La sospecha clínica de preeclampsia continúa siendo relevante.",
+    "pregunta": "¿Qué estrategia diagnóstica evita descartar incorrectamente la enfermedad?",
+    "opciones": [
+      "Descartar preeclampsia por la tira reactiva negativa",
+      "Solicitar cuantificación de proteinuria mediante cociente proteína/creatinina o recolección de 24 horas, además de evaluar otros criterios de severidad",
+      "Diagnosticar eclampsia por la cefalea aislada",
+      "Esperar a que aparezca edema generalizado antes de repetir estudios",
+      "Repetir únicamente la tira reactiva al final del embarazo"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La tira reactiva es una prueba semicuantitativa y un resultado negativo no excluye proteinuria significativa. Debe utilizarse un método cuantitativo si persiste la sospecha. Además, la evaluación de preeclampsia incluye presión arterial, síntomas neurológicos, biometría hemática, plaquetas, creatinina, enzimas hepáticas y valoración fetal.",
+    "perlaENARM": "Una tira reactiva negativa no descarta preeclampsia ni sustituye la evaluación de disfunción orgánica.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 5.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-565",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Criterios de severidad",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar hipertensión grave que requiere tratamiento urgente independientemente de la proteinuria.",
+    "caso": "Gestante de 35 semanas presenta presión arterial de 164/112 mmHg, confirmada en una segunda medición pocos minutos después. Está consciente y no refiere cefalea. La tira reactiva urinaria es negativa.",
+    "pregunta": "¿Cuál es la prioridad terapéutica inmediata?",
+    "opciones": [
+      "Solicitar una recolección de orina de 24 horas antes de iniciar tratamiento",
+      "Dar seguimiento ambulatorio porque no existe cefalea",
+      "Esperar seis horas para confirmar nuevamente la hipertensión",
+      "Administrar sulfato de magnesio como único tratamiento y omitir el antihipertensivo",
+      "Tratar urgentemente la hipertensión grave con un fármaco apropiado y evaluar simultáneamente la necesidad de profilaxis anticonvulsiva y resolución obstétrica"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Una presión sistólica ≥160 mmHg o diastólica ≥110 mmHg persistente constituye hipertensión grave y exige tratamiento urgente para reducir el riesgo de accidente cerebrovascular materno. La ausencia de cefalea o proteinuria no elimina el riesgo. Deben valorarse los demás criterios de severidad, iniciar profilaxis anticonvulsiva cuando esté indicada y planear el nacimiento según la situación clínica.",
+    "perlaENARM": "La hipertensión grave persistente es una urgencia obstétrica: no retrases el antihipertensivo esperando proteinuria o síntomas.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 1 y 7.",
+      "ACOG. Emergent Therapy for Acute-Onset, Severe Hypertension During Pregnancy and the Postpartum Period."
+    ]
+  },
+  {
+    "id": "OBS-566",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Prevención con ácido acetilsalicílico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Aplicar la profilaxis con ácido acetilsalicílico en gestantes con alto riesgo de preeclampsia.",
+    "caso": "Mujer de 29 años, embarazada de 13 semanas, tiene antecedente de preeclampsia que obligó a finalizar su embarazo previo a las 32 semanas. Actualmente no presenta hipertensión ni sangrado.",
+    "pregunta": "¿Qué intervención preventiva concuerda con las recomendaciones del documento?",
+    "opciones": [
+      "Iniciar ácido acetilsalicílico a dosis baja, idealmente antes de las 16 semanas y según la guía aplicable",
+      "Esperar hasta las 32 semanas para iniciar aspirina",
+      "Indicar anticoagulación terapéutica universal con heparina",
+      "Iniciar un inhibidor de la enzima convertidora de angiotensina",
+      "Evitar cualquier intervención preventiva porque el embarazo previo ya terminó"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El antecedente de preeclampsia de inicio temprano constituye un factor de alto riesgo. El PDF recomienda aspirina 100 mg al día antes de las 16 semanas. Las guías internacionales recomiendan dosis bajas, con variaciones según la guía y el contexto clínico, iniciadas entre las 12 y 28 semanas, idealmente antes de las 16.",
+    "perlaENARM": "Antecedente de preeclampsia temprana: identifica alto riesgo e inicia profilaxis con aspirina a dosis baja oportunamente, si no hay contraindicación.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 2.",
+      "ACOG. Low-Dose Aspirin Use During Pregnancy.",
+      "USPSTF. Aspirin Use to Prevent Preeclampsia and Related Morbidity and Mortality."
+    ]
+  },
+  {
+    "id": "OBS-567",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Suplementación con calcio",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el papel de la baja ingesta dietética de calcio en la prevención de preeclampsia.",
+    "caso": "Gestante de 20 semanas vive en una comunidad donde el consumo de lácteos y otras fuentes de calcio es muy bajo. Tiene antecedentes familiares de preeclampsia, pero su presión arterial actual es normal.",
+    "pregunta": "¿Qué medida preventiva nutricional contempla el documento para este contexto?",
+    "opciones": [
+      "Restringir el calcio para reducir la presión arterial",
+      "Administrar diuréticos de forma profiláctica",
+      "Indicar calcio solo después de que aparezca proteinuria",
+      "Considerar suplementación de calcio elemental en dosis aproximadas de 1.5-2 g al día cuando la ingesta dietética sea baja, conforme a la guía aplicable",
+      "Sustituir toda la alimentación por suplementos vitamínicos"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF recomienda suplementación de calcio elemental de 1.5-2 g al día en áreas o poblaciones con baja ingesta dietética. La recomendación debe contextualizarse con las guías vigentes, el consumo basal y la disponibilidad de calcio en la dieta. La suplementación no sustituye el seguimiento prenatal ni la profilaxis con aspirina cuando está indicada.",
+    "perlaENARM": "La suplementación con calcio se considera especialmente en poblaciones con ingesta dietética baja; no es una sustitución del control obstétrico.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 2.",
+      "WHO. WHO Recommendations for Prevention and Treatment of Pre-eclampsia and Eclampsia."
+    ]
+  },
+  {
+    "id": "OBS-568",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Fisiopatología placentaria",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la placentación anormal y la disfunción endotelial con las manifestaciones sistémicas de la preeclampsia.",
+    "caso": "Gestante de 30 semanas desarrolla hipertensión, proteinuria y restricción del crecimiento fetal. Los estudios muestran alteración de la perfusión uteroplacentaria y elevación de marcadores relacionados con disfunción endotelial.",
+    "pregunta": "¿Qué mecanismo fisiopatológico integra mejor estos hallazgos?",
+    "opciones": [
+      "Aumento de la invasión trofoblástica que genera una circulación uteroplacentaria de baja resistencia",
+      "Aumento aislado de la secreción de insulina fetal sin participación placentaria",
+      "Remodelado incompleto de las arterias espirales, hipoperfusión placentaria y liberación de factores que inducen disfunción endotelial materna",
+      "Destrucción autoinmunitaria primaria de eritrocitos sin alteración vascular",
+      "Vasodilatación sistémica generalizada como mecanismo inicial de la hipertensión"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La placentación anormal con remodelado insuficiente de las arterias espirales favorece una circulación uteroplacentaria de alta resistencia. La placenta hipóxica o mal perfundida libera mediadores que alteran el endotelio materno, generando vasoconstricción, hipertensión y afectación renal, hepática, neurológica y hematológica.",
+    "perlaENARM": "La preeclampsia es un síndrome placentario y endotelial sistémico; no se limita a hipertensión y proteinuria.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 3.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-569",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Antihipertensivos durante el embarazo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar antihipertensivos compatibles con el embarazo y reconocer fármacos contraindicados.",
+    "caso": "Gestante de 24 semanas con hipertensión crónica requiere ajuste farmacológico. Su médico considera mantener enalapril, que tomaba antes de la concepción.",
+    "pregunta": "¿Qué modificación farmacológica debe realizarse?",
+    "opciones": [
+      "Mantener enalapril durante toda la gestación porque protege el riñón",
+      "Duplicar la dosis de enalapril si persiste la presión elevada",
+      "Añadir losartán para potenciar el efecto antihipertensivo",
+      "Suspender el control tensional hasta después del parto",
+      "Evitar enalapril y otros inhibidores del sistema renina-angiotensina y seleccionar un fármaco compatible, como labetalol o nifedipino según el contexto"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Los inhibidores de la enzima convertidora de angiotensina y los antagonistas del receptor de angiotensina se evitan durante el embarazo por sus riesgos fetales. Entre los fármacos utilizados se encuentran labetalol, nifedipino de liberación prolongada y metildopa, seleccionados según la situación clínica y las contraindicaciones.",
+    "perlaENARM": "IECA y ARA-II deben evitarse durante el embarazo; labetalol y nifedipino son opciones habituales cuando se requiere tratamiento oral.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 6.",
+      "ACOG. Chronic Hypertension in Pregnancy. Practice Bulletin No. 203."
+    ]
+  },
+  {
+    "id": "OBS-570",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Hipertensión grave aguda",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer opciones farmacológicas para tratar rápidamente la hipertensión grave durante el embarazo.",
+    "caso": "Gestante de 33 semanas con preeclampsia presenta presión arterial persistente de 168/114 mmHg. Está en un área de urgencias obstétricas, con acceso intravenoso y monitorización maternofetal.",
+    "pregunta": "¿Cuál de las siguientes opciones es apropiada para el tratamiento urgente de la hipertensión grave?",
+    "opciones": [
+      "Enalapril oral como primera elección",
+      "Labetalol intravenoso, hidralazina intravenosa o nifedipino oral de liberación inmediata conforme al protocolo",
+      "Furosemida oral como tratamiento único en ausencia de edema pulmonar",
+      "Metildopa como único tratamiento de rescate inmediato en todos los casos",
+      "Observación durante 24 horas antes de intervenir"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La hipertensión grave persistente requiere tratamiento oportuno para reducir el riesgo de accidente cerebrovascular. Labetalol intravenoso, hidralazina intravenosa y nifedipino oral de liberación inmediata son opciones aceptadas según el protocolo institucional, disponibilidad y contraindicaciones. Debe mantenerse la vigilancia maternofetal.",
+    "perlaENARM": "Ante hipertensión ≥160 sistólica o ≥110 diastólica persistente, trata con prontitud y no retrases la intervención por estudios no esenciales.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 7.",
+      "ACOG. Emergent Therapy for Acute-Onset, Severe Hypertension During Pregnancy and the Postpartum Period."
+    ]
+  },
+  {
+    "id": "OBS-571",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Sulfato de magnesio para profilaxis de eclampsia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Indicar profilaxis anticonvulsiva en preeclampsia con datos de severidad.",
+    "caso": "Gestante de 32 semanas con presión arterial de 166/110 mmHg y cefalea persistente presenta plaquetas de 88,000/mm³. No ha convulsionado y se encuentra hospitalizada.",
+    "pregunta": "¿Qué tratamiento reduce el riesgo de convulsiones eclámpticas?",
+    "opciones": [
+      "Sulfato de magnesio con dosis de carga y mantenimiento según protocolo",
+      "Fenitoína profiláctica como primera elección universal",
+      "Diazepam oral durante el resto del embarazo",
+      "Solo nifedipino, porque controlar la presión elimina el riesgo convulsivo",
+      "Reposo absoluto sin medicación anticonvulsiva"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "En la preeclampsia con datos de severidad, el sulfato de magnesio es el fármaco de elección para profilaxis de eclampsia. Los esquemas incluyen una dosis de carga seguida de infusión de mantenimiento, con ajustes según el protocolo. Deben vigilarse reflejos osteotendinosos, frecuencia respiratoria y diuresis.",
+    "perlaENARM": "El antihipertensivo reduce el riesgo vascular; el sulfato de magnesio previene convulsiones. Cumplen funciones diferentes.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 7.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222.",
+      "WHO. Recommendations for Prevention and Treatment of Pre-eclampsia and Eclampsia."
+    ]
+  },
+  {
+    "id": "OBS-572",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Toxicidad por sulfato de magnesio",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer toxicidad por magnesio e indicar las medidas inmediatas de seguridad.",
+    "caso": "Gestante con preeclampsia severa recibe sulfato de magnesio intravenoso. Durante la infusión presenta ausencia de reflejos patelares, frecuencia respiratoria de 9 por minuto y diuresis de 15 mL/h.",
+    "pregunta": "¿Cuál es la conducta inmediata ante la sospecha de toxicidad por magnesio?",
+    "opciones": [
+      "Aumentar la velocidad de infusión para prevenir eclampsia",
+      "Administrar una dosis adicional de sulfato de magnesio",
+      "Mantener el esquema y repetir la evaluación en seis horas",
+      "Suspender la infusión, estabilizar la ventilación y administrar gluconato de calcio según protocolo",
+      "Indicar exclusivamente un antihipertensivo oral"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La arreflexia, depresión respiratoria y oliguria sugieren toxicidad por magnesio. Se debe detener la infusión, asegurar la vía aérea y la ventilación, evaluar el estado hemodinámico y administrar gluconato de calcio como antídoto según el protocolo. La insuficiencia renal o la disminución de la diuresis aumentan el riesgo de acumulación.",
+    "perlaENARM": "Arreflexia y depresión respiratoria durante una infusión de magnesio obligan a sospechar toxicidad; el gluconato de calcio es el antídoto clásico.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 7-8.",
+      "WHO. Recommendations for Prevention and Treatment of Pre-eclampsia and Eclampsia."
+    ]
+  },
+  {
+    "id": "OBS-573",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Tratamiento de eclampsia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar la estabilización materna y el tratamiento anticonvulsivo ante una crisis eclámptica.",
+    "caso": "Puérpera de 12 horas presenta una convulsión tónico-clónica generalizada, seguida de recuperación parcial de la conciencia. Tiene presión arterial de 170/112 mmHg y no cuenta con antecedentes de epilepsia.",
+    "pregunta": "¿Qué intervención debe priorizarse durante la atención inicial?",
+    "opciones": [
+      "Realizar cesárea inmediata aunque el parto ya haya ocurrido",
+      "Solicitar tomografía antes de estabilizar la vía aérea",
+      "Proteger la vía aérea, estabilizar a la paciente y administrar sulfato de magnesio, además de tratar la hipertensión grave",
+      "Administrar únicamente un diurético",
+      "Dar el alta si la convulsión termina espontáneamente"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La eclampsia puede presentarse durante el puerperio. La atención inicial prioriza seguridad, vía aérea, respiración y circulación, tratamiento con sulfato de magnesio y control urgente de la hipertensión grave. Una vez estabilizada, deben evaluarse complicaciones y diagnósticos alternativos si la presentación es atípica.",
+    "perlaENARM": "La eclampsia es posible después del parto; estabilización, sulfato de magnesio y control de la hipertensión son prioritarios.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 8.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-574",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Convulsiones recurrentes en eclampsia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Manejar una convulsión recurrente en una paciente que ya recibe sulfato de magnesio.",
+    "caso": "Paciente con eclampsia recibe sulfato de magnesio según protocolo. Presenta una segunda convulsión generalizada pese al tratamiento inicial y continúa con compromiso del estado de conciencia.",
+    "pregunta": "¿Qué estrategia corresponde ante una recurrencia convulsiva?",
+    "opciones": [
+      "Suspender definitivamente todo tratamiento anticonvulsivo",
+      "Reevaluar vía aérea y causas reversibles, administrar tratamiento adicional con magnesio según protocolo y escalar a otro anticonvulsivo si persiste o está contraindicado",
+      "Administrar únicamente metildopa",
+      "Esperar hasta que ocurra una tercera convulsión",
+      "Administrar nifedipino como anticonvulsivo específico"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Las convulsiones recurrentes requieren reevaluación inmediata de la vía aérea y la oxigenación, revisión de la administración del magnesio y tratamiento adicional conforme al protocolo. Si las crisis persisten pese al magnesio o este está contraindicado, puede requerirse otro anticonvulsivo y atención crítica. También deben considerarse diagnósticos alternativos si el cuadro no responde.",
+    "perlaENARM": "Una crisis recurrente no se maneja solo aumentando antihipertensivos: prioriza estabilización y control anticonvulsivo.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 8.",
+      "WHO. Recommendations for Prevention and Treatment of Pre-eclampsia and Eclampsia."
+    ]
+  },
+  {
+    "id": "OBS-575",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Síndrome HELLP",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar hemólisis, elevación de enzimas hepáticas y trombocitopenia para reconocer síndrome HELLP.",
+    "caso": "Gestante de 33 semanas consulta por dolor epigástrico y náusea. Tiene plaquetas de 72,000/mm³, AST de 118 U/L, DHL de 740 U/L y bilirrubina total de 1.6 mg/dL. La presión arterial es de 148/94 mmHg.",
+    "pregunta": "¿Qué diagnóstico integra mejor la clínica y los resultados de laboratorio?",
+    "opciones": [
+      "Hiperémesis gravídica aislada",
+      "Colestasis intrahepática sin complicaciones hematológicas",
+      "Trombocitopenia gestacional benigna",
+      "Hígado graso no alcohólico sin afectación obstétrica",
+      "Síndrome HELLP"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El cuadro de dolor epigástrico, trombocitopenia, elevación de enzimas hepáticas, DHL alta y bilirrubina elevada es compatible con síndrome HELLP. La presión arterial no necesita alcanzar cifras de hipertensión grave para que exista esta complicación. Se requiere hospitalización, estabilización y valoración obstétrica urgente.",
+    "perlaENARM": "HELLP: hemólisis, elevación de enzimas hepáticas y plaquetas bajas; puede presentarse sin hipertensión extrema.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 9.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-576",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "HELLP incompleto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer una presentación incompleta de HELLP y evitar retrasar la vigilancia por ausencia de la tríada completa.",
+    "caso": "Gestante de 31 semanas con dolor en hipocondrio derecho presenta plaquetas de 92,000/mm³ y AST de 95 U/L. La DHL es de 520 U/L y la bilirrubina total es de 0.9 mg/dL. Está hipertensa y refiere malestar general progresivo.",
+    "pregunta": "¿Cuál es la consideración clínica más relevante?",
+    "opciones": [
+      "No puede existir HELLP porque todas las pruebas deben estar alteradas simultáneamente",
+      "Los hallazgos pueden corresponder a un síndrome HELLP incompleto y requieren evaluación hospitalaria urgente",
+      "La trombocitopenia siempre es fisiológica durante el embarazo",
+      "El cuadro excluye preeclampsia porque la bilirrubina es normal",
+      "Debe darse seguimiento ambulatorio sin repetir biometría hemática"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF describe HELLP incompleto cuando solo están presentes dos de los componentes de laboratorio. Aunque las definiciones y clasificaciones pueden variar, la combinación de trombocitopenia, elevación de enzimas hepáticas y síntomas sugestivos requiere evaluación hospitalaria y vigilancia seriada porque la enfermedad puede progresar.",
+    "perlaENARM": "No esperes a que todos los marcadores estén alterados para actuar ante sospecha clínica de HELLP.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 9.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-577",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "HELLP y momento del nacimiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Determinar la prioridad obstétrica en HELLP y distinguir estabilización materna de retraso injustificado del nacimiento.",
+    "caso": "Gestante de 30 semanas con síndrome HELLP confirmado presenta deterioro progresivo de las plaquetas, dolor persistente en hipocondrio derecho y elevación de transaminasas. El feto está vivo y aún no ha recibido corticoides antenatales.",
+    "pregunta": "¿Qué conducta general debe priorizarse?",
+    "opciones": [
+      "Esperar obligatoriamente 48 horas para completar maduración pulmonar aunque empeore la madre",
+      "Dar de alta si la presión arterial baja después de una dosis de antihipertensivo",
+      "Administrar corticoides como tratamiento definitivo del HELLP y mantener el embarazo hasta término",
+      "Estabilizar a la madre y proceder a la resolución del embarazo sin retrasarla por completar corticoides si existe deterioro",
+      "Realizar vigilancia fetal sin monitorizar las plaquetas"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El tratamiento definitivo del síndrome HELLP es la finalización del embarazo después de la estabilización materna. En pacientes clínicamente estables y pretérmino pueden considerarse corticoides antenatales para maduración pulmonar, pero no debe retrasarse un nacimiento indicado por deterioro materno o fetal para completar el esquema.",
+    "perlaENARM": "En HELLP, la estabilización materna y la resolución obstétrica tienen prioridad frente a completar corticoides cuando existe deterioro.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 9-10.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-578",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "HELLP y riesgo hemorrágico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Valorar el riesgo hemorrágico y preparar la atención obstétrica de una paciente con trombocitopenia grave por HELLP.",
+    "caso": "Paciente de 34 semanas con HELLP tiene plaquetas de 43,000/mm³, AST de 180 U/L y dolor epigástrico intenso. Se anticipa la necesidad de finalizar el embarazo.",
+    "pregunta": "¿Qué preparación debe formar parte del manejo inmediato?",
+    "opciones": [
+      "Evaluar coagulación, hemólisis, función hepática y riesgo hemorrágico, con disponibilidad de hemoderivados y equipo obstétrico-anestésico",
+      "Realizar anestesia neuroaxial sin revisar las plaquetas",
+      "Evitar cualquier preparación transfusional porque el HELLP no produce sangrado",
+      "Administrar anticoagulación terapéutica sin valorar coagulación",
+      "Retrasar la evaluación hasta que las plaquetas superen 100,000/mm³ sin considerar el estado materno"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La trombocitopenia grave en HELLP aumenta el riesgo de sangrado y condiciona las decisiones anestésicas y obstétricas. Deben evaluarse coagulación, hemólisis y función hepática, además de preparar recursos transfusionales según la situación. La urgencia de finalizar el embarazo se decide por la condición maternofetal, no por esperar automáticamente una cifra plaquetaria normal.",
+    "perlaENARM": "En HELLP con plaquetas muy bajas, anticipa hemorragia y coordina obstetricia, anestesia, banco de sangre y cuidados críticos.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 9.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-579",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Preeclampsia y restricción del crecimiento fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar restricción del crecimiento fetal y alteraciones Doppler en la toma de decisiones obstétricas.",
+    "caso": "Gestante de 29 semanas con preeclampsia presenta feto con peso estimado en el percentil 4 y Doppler de arteria umbilical con flujo diastólico ausente. La madre está estable y no tiene hipertensión grave persistente.",
+    "pregunta": "¿Qué elemento debe determinar la intensidad de vigilancia y el momento de finalización?",
+    "opciones": [
+      "Únicamente el grado de edema materno",
+      "La presencia o ausencia de proteinuria aislada",
+      "El número de embarazos previos, sin considerar Doppler",
+      "La necesidad de alcanzar 37 semanas en todos los casos",
+      "La integración de edad gestacional, Doppler, vigilancia fetal y evolución materna en un centro con capacidad de atención maternofetal especializada"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La restricción grave del crecimiento con flujo diastólico ausente representa compromiso placentario y exige vigilancia especializada. El momento del nacimiento depende de la evolución Doppler, la monitorización fetal, la edad gestacional y la presencia de deterioro materno. La preeclampsia y la restricción del crecimiento pueden compartir un mecanismo de disfunción placentaria.",
+    "perlaENARM": "La decisión obstétrica integra riesgos maternos y fetales; el Doppler umbilical anormal puede modificar sustancialmente la conducta.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 3 y 10.",
+      "SMFM. Consult Series: Diagnosis and Management of Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-580",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Resolución a término",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la indicación de finalización del embarazo en preeclampsia a término.",
+    "caso": "Gestante de 38 semanas presenta presión arterial de 150/96 mmHg, relación proteína/creatinina de 0.42, plaquetas de 190,000/mm³ y creatinina normal. No tiene síntomas neurológicos ni alteraciones fetales.",
+    "pregunta": "¿Qué conducta obstétrica es congruente con el diagnóstico y la edad gestacional?",
+    "opciones": [
+      "Mantener el embarazo hasta las 41 semanas si la proteinuria no aumenta",
+      "Finalizar el embarazo, seleccionando inducción o cesárea según las condiciones obstétricas",
+      "Administrar corticoides para prolongar el embarazo durante dos semanas",
+      "Iniciar inhibidor de la enzima convertidora de angiotensina y dar seguimiento domiciliario",
+      "Indicar cesárea obligatoria por el diagnóstico de preeclampsia"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La hipertensión después de las 20 semanas acompañada de proteinuria significativa es compatible con preeclampsia. A término se recomienda finalizar el embarazo; la vía de nacimiento depende de las condiciones cervicales, la presentación fetal, los antecedentes y las indicaciones obstétricas, no del diagnóstico por sí solo.",
+    "perlaENARM": "Preeclampsia a término: se recomienda el nacimiento; la cesárea no es automática.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 10.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-581",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Manejo expectante antes del término",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar candidatas a manejo expectante de preeclampsia pretérmino y reconocer sus límites de seguridad.",
+    "caso": "Gestante de 29 semanas con preeclampsia sin datos de severidad permanece estable, con pruebas de laboratorio sin deterioro y evaluación fetal tranquilizadora. El hospital dispone de cuidados intensivos neonatales y vigilancia maternofetal continua.",
+    "pregunta": "¿Qué estrategia puede considerarse bajo estas condiciones?",
+    "opciones": [
+      "Finalización inmediata obligatoria en todas las pacientes antes de 34 semanas",
+      "Alta domiciliaria sin controles por ser una enfermedad sin severidad",
+      "Manejo expectante hospitalario cuidadosamente seleccionado, con vigilancia maternofetal y criterios claros de finalización",
+      "Esperar hasta las 40 semanas independientemente de la evolución",
+      "Suspender la monitorización fetal para evitar intervenciones innecesarias"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF contempla manejo conservador entre 24 y 33.6 semanas en preeclampsia sin datos de severidad cuando existen recursos neonatales. La conducta requiere vigilancia estrecha y finalización si aparece deterioro materno o fetal. No equivale a mantener el embarazo de forma indefinida ni a dar de alta sin seguimiento.",
+    "perlaENARM": "El manejo expectante pretérmino solo es razonable en pacientes seleccionadas, estables y con capacidad de vigilancia y resolución urgente.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 10.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-582",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Indicaciones de finalización inmediata",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer deterioro materno que contraindica prolongar el embarazo para completar corticoides.",
+    "caso": "Gestante de 31 semanas con preeclampsia presenta presión arterial de 170/116 mmHg persistente pese al tratamiento inicial, cefalea intensa y escotomas progresivos. El equipo considera esperar 24-48 horas para completar maduración pulmonar.",
+    "pregunta": "¿Qué principio debe regir la decisión obstétrica?",
+    "opciones": [
+      "No retrasar la resolución indicada por deterioro materno para completar corticoides; estabilizar primero a la paciente",
+      "Esperar obligatoriamente 48 horas en toda gestación pretérmino",
+      "Evitar los antihipertensivos para no afectar la perfusión fetal",
+      "Dar de alta y repetir presión arterial al día siguiente",
+      "Esperar hasta que aparezca una convulsión para finalizar el embarazo"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La hipertensión grave refractaria y los síntomas neurológicos progresivos son señales de deterioro materno que exigen estabilización y resolución oportuna. Los corticoides antenatales son beneficiosos cuando hay tiempo y condiciones para administrarlos, pero no deben retrasar un nacimiento indicado por riesgo materno o fetal.",
+    "perlaENARM": "La maduración pulmonar es importante, pero no debe retrasar la resolución cuando la madre o el feto están en peligro.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 7 y 10.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-583",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Diagnóstico diferencial de cefalea",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer cefalea persistente y alteraciones visuales como posibles manifestaciones neurológicas de preeclampsia.",
+    "caso": "Gestante de 36 semanas con hipertensión de novo presenta cefalea intensa que no mejora con analgésicos y visión borrosa. La proteinuria aún no se ha cuantificado y la exploración neurológica no muestra déficit focal.",
+    "pregunta": "¿Cuál es la implicación clínica principal de los síntomas?",
+    "opciones": [
+      "La cefalea es fisiológica y no modifica la clasificación obstétrica",
+      "La ausencia de déficit focal descarta afectación neurológica",
+      "Es obligatorio demostrar proteinuria antes de valorar severidad",
+      "Los síntomas sugieren posible afectación neurológica y requieren evaluación urgente por preeclampsia con datos de severidad",
+      "Debe diagnosticarse migraña sin realizar estudios obstétricos"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La cefalea persistente de novo y las alteraciones visuales son síntomas de alarma en una gestante hipertensa. La evaluación de preeclampsia con datos de severidad no debe retrasarse hasta demostrar proteinuria. Es necesario valorar presión arterial, laboratorio, estado neurológico y bienestar fetal.",
+    "perlaENARM": "Cefalea persistente y síntomas visuales en una gestante hipertensa requieren evaluación urgente, aunque no exista proteinuria confirmada.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 1 y 5.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-584",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Edema pulmonar",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer edema agudo pulmonar como manifestación de severidad y priorizar estabilización respiratoria.",
+    "caso": "Puérpera de 24 horas con preeclampsia presenta disnea súbita, saturación de oxígeno de 86%, crepitantes bilaterales y presión arterial de 162/108 mmHg. No tiene antecedente de cardiopatía conocido.",
+    "pregunta": "¿Cuál es la prioridad inmediata?",
+    "opciones": [
+      "Administrar líquidos intravenosos de forma rápida para mejorar la perfusión",
+      "Indicar únicamente reposo y repetir oximetría en seis horas",
+      "Estabilizar respiración y oxigenación, tratar la hipertensión grave y evaluar edema pulmonar en un entorno monitorizado",
+      "Administrar sulfato de magnesio como único tratamiento de la disnea",
+      "Dar de alta porque el parto ya ocurrió"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El edema agudo pulmonar es una manifestación grave asociada a preeclampsia y puede aparecer en el puerperio. Se requiere estabilización respiratoria, monitorización, control de la hipertensión y evaluación de la causa. Debe evitarse la sobrecarga de líquidos y considerar diuréticos cuando estén clínicamente indicados.",
+    "perlaENARM": "La preeclampsia no termina automáticamente con el parto; disnea y desaturación posparto son una urgencia.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 1 y 11.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-585",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Preeclampsia posparto",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar hipertensión grave en el puerperio y establecer la necesidad de tratamiento urgente.",
+    "caso": "Paciente de cinco días posparto, previamente normotensa, consulta por cefalea y presión arterial de 166/112 mmHg. No tiene fiebre ni datos clínicos de infección.",
+    "pregunta": "¿Cuál es la conducta inicial indicada?",
+    "opciones": [
+      "Descartar preeclampsia porque el embarazo ya terminó",
+      "Repetir la presión arterial en una semana sin iniciar evaluación",
+      "Indicar solamente analgésicos",
+      "Evitar antihipertensivos durante la lactancia en todos los casos",
+      "Tratar urgentemente la hipertensión grave, evaluar preeclampsia posparto y considerar sulfato de magnesio según los síntomas y el riesgo convulsivo"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La preeclampsia puede aparecer por primera vez después del parto. Una presión arterial grave acompañada de cefalea requiere atención urgente, tratamiento antihipertensivo y evaluación de afectación orgánica. El sulfato de magnesio debe considerarse según la presentación clínica y el riesgo de eclampsia.",
+    "perlaENARM": "La hipertensión grave y la cefalea posparto pueden representar preeclampsia de novo; el puerperio también requiere vigilancia.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 1 y 11.",
+      "ACOG. Optimizing Postpartum Care.",
+      "ACOG. Emergent Therapy for Acute-Onset, Severe Hypertension During Pregnancy and the Postpartum Period."
+    ]
+  },
+  {
+    "id": "OBS-586",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Preeclampsia sobreagregada",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir hipertensión crónica estable de preeclampsia sobreagregada.",
+    "caso": "Mujer con hipertensión crónica controlada desde antes del embarazo llega a las 30 semanas con incremento sostenido de la presión arterial, proteinuria nueva de 600 mg en 24 horas y plaquetas que disminuyeron de 210,000 a 118,000/mm³.",
+    "pregunta": "¿Qué diagnóstico debe sospecharse?",
+    "opciones": [
+      "Hipertensión gestacional aislada",
+      "Preeclampsia sobreagregada a hipertensión crónica",
+      "Hipertensión de bata blanca sin relevancia obstétrica",
+      "Eclampsia, aunque no haya convulsiones",
+      "Trombocitopenia gestacional sin relación con la hipertensión"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La aparición de proteinuria nueva, deterioro de parámetros hematológicos y empeoramiento tensional en una paciente con hipertensión crónica sugiere preeclampsia sobreagregada. Se requiere evaluación de severidad, función renal y hepática, y vigilancia fetal. La comparación con los valores basales es esencial.",
+    "perlaENARM": "En hipertensión crónica, la proteinuria nueva o la disfunción orgánica progresiva orientan a preeclampsia sobreagregada.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 1.",
+      "ACOG. Chronic Hypertension in Pregnancy. Practice Bulletin No. 203."
+    ]
+  },
+  {
+    "id": "OBS-587",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Disfunción hepática",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar dolor epigástrico y elevación de transaminasas como posibles datos de severidad.",
+    "caso": "Gestante de 32 semanas con hipertensión de novo refiere dolor persistente en epigastrio e hipocondrio derecho. AST y ALT son superiores al doble del límite normal y las plaquetas comienzan a descender.",
+    "pregunta": "¿Qué complicación debe investigarse de forma prioritaria?",
+    "opciones": [
+      "Colelitiasis no complicada como única posibilidad",
+      "Hiperémesis gravídica del primer trimestre",
+      "Colestasis intrahepática sin evaluación hematológica",
+      "Preeclampsia con afectación hepática, incluido síndrome HELLP",
+      "Reflujo gastroesofágico fisiológico del embarazo"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La elevación de transaminasas por encima del doble del límite normal y el dolor persistente en epigastrio o hipocondrio derecho son datos de afectación hepática que pueden indicar preeclampsia con datos de severidad. La trombocitopenia obliga a investigar HELLP y otras complicaciones hepáticas obstétricas.",
+    "perlaENARM": "Dolor epigástrico o en hipocondrio derecho con transaminasas elevadas en una gestante hipertensa es una señal de alarma.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 1 y 9.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-588",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Compromiso renal y oliguria",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar oliguria y elevación de creatinina con disfunción renal en preeclampsia.",
+    "caso": "Gestante de 35 semanas con preeclampsia produce 250 mL de orina en 24 horas y presenta creatinina sérica de 1.4 mg/dL. Ha recibido líquidos intravenosos en otro centro, pero persiste oligúrica.",
+    "pregunta": "¿Qué interpretación clínica y conducta son más pertinentes?",
+    "opciones": [
+      "Considerar disfunción renal significativa, reevaluar estado hemodinámico y balance hídrico, y valorar severidad obstétrica",
+      "Aumentar líquidos de forma indiscriminada sin reevaluar",
+      "Descartar preeclampsia porque la oliguria es un hallazgo exclusivamente fisiológico",
+      "Administrar un IECA para mejorar la filtración glomerular",
+      "Esperar una semana para repetir creatinina"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La oliguria marcada y la elevación de creatinina indican posible lesión renal aguda y constituyen señales de alarma en preeclampsia. Se requiere valoración inmediata del estado circulatorio, función renal, balance hídrico y otras manifestaciones de severidad. La administración indiscriminada de líquidos puede agravar el edema pulmonar.",
+    "perlaENARM": "Oliguria en preeclampsia exige evaluar lesión renal y balance hídrico; no se resuelve automáticamente con cargas de líquidos.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 1 y 5.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-589",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Evaluación de trombocitopenia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir trombocitopenia gestacional de trombocitopenia asociada a preeclampsia o HELLP.",
+    "caso": "Gestante de 33 semanas con hipertensión de novo presenta plaquetas de 86,000/mm³, AST de 102 U/L y DHL de 680 U/L. Refiere dolor en epigastrio y malestar general.",
+    "pregunta": "¿Cuál es la interpretación que mejor integra estos datos?",
+    "opciones": [
+      "Trombocitopenia gestacional benigna sin necesidad de seguimiento",
+      "Púrpura trombocitopénica inmune confirmada exclusivamente por el recuento plaquetario",
+      "Probable síndrome HELLP, que requiere evaluación hospitalaria y manejo obstétrico urgente",
+      "Preeclampsia descartada por no existir presión sistólica de 160 mmHg",
+      "Variación fisiológica normal del tercer trimestre"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La trombocitopenia marcada junto con elevación de transaminasas, DHL alta y dolor epigástrico es altamente sugestiva de HELLP. La hipertensión no tiene que ser extrema para que aparezca esta complicación. Deben investigarse hemólisis, coagulación y deterioro maternofetal.",
+    "perlaENARM": "La trombocitopenia gestacional suele ser leve; plaquetas inferiores a 100,000/mm³ con datos hepáticos y hemolíticos obligan a descartar HELLP.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 9.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-590",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Criterios de referencia a tercer nivel",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer qué pacientes con preeclampsia requieren referencia a un centro con capacidad de atención maternofetal y neonatal especializada.",
+    "caso": "Hospital comunitario recibe a una gestante de 28 semanas con preeclampsia, sin trabajo de parto activo, que requiere vigilancia estrecha y podría necesitar nacimiento pretérmino. El centro no cuenta con cuidados intensivos neonatales.",
+    "pregunta": "¿Qué decisión es más congruente con el material de referencia?",
+    "opciones": [
+      "Mantenerla en el hospital comunitario hasta las 37 semanas sin reevaluar",
+      "Dar de alta porque la edad gestacional es menor de 30 semanas",
+      "Realizar cesárea sin estabilización ni coordinación de traslado",
+      "Referir oportunamente a tercer nivel con capacidad maternofetal y neonatal, tras estabilizar a la paciente y coordinar el traslado",
+      "Esperar a que aparezcan convulsiones para solicitar traslado"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El documento recomienda referencia a tercer nivel en pacientes con preeclampsia entre 24 y 31 semanas y en algunos embarazos de 32 a 36.6 semanas cuando se contempla retrasar la resolución para administrar corticoides. El traslado debe planearse según estabilidad materna, recursos disponibles y riesgo de nacimiento pretérmino.",
+    "perlaENARM": "La referencia temprana a un centro con capacidad neonatal puede ser determinante cuando existe riesgo de nacimiento muy pretérmino.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 11.",
+      "NOM-007-SSA2-2016, atención de la mujer durante el embarazo, parto y puerperio."
+    ]
+  },
+  {
+    "id": "OBS-591",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Diferenciación entre preeclampsia y eclampsia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar eclampsia como convulsión de nueva aparición en el contexto obstétrico y reconocer la necesidad de descartar otras causas.",
+    "caso": "Gestante de 37 semanas con hipertensión y cefalea presenta una convulsión generalizada que dura 90 segundos. Después del episodio recupera parcialmente la conciencia y no tiene antecedentes de epilepsia.",
+    "pregunta": "¿Qué diagnóstico debe tratarse de inmediato mientras se completa la evaluación diferencial?",
+    "opciones": [
+      "Eclampsia, con estabilización materna y sulfato de magnesio como tratamiento anticonvulsivo de elección",
+      "Epilepsia primaria confirmada sin necesidad de evaluar preeclampsia",
+      "Síncope vasovagal sin riesgo obstétrico",
+      "Hipoglucemia como diagnóstico definitivo sin medir glucosa",
+      "Crisis psicógena por el contexto del embarazo"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Una convulsión generalizada de nueva aparición durante el embarazo en una paciente con hipertensión obliga a tratar eclampsia como diagnóstico prioritario. Deben estabilizarse vía aérea, respiración y circulación, administrar sulfato de magnesio y controlar la hipertensión grave. La evaluación diferencial debe considerar otras causas neurológicas o metabólicas cuando la presentación lo sugiera.",
+    "perlaENARM": "En una gestante con hipertensión y convulsiones, la eclampsia es una urgencia que requiere tratamiento inmediato, sin esperar confirmación de proteinuria.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 8.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-592",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Bradicardia fetal durante eclampsia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar alteraciones transitorias de la frecuencia cardiaca fetal durante una crisis eclámptica y priorizar la estabilización materna.",
+    "caso": "Durante una convulsión eclámptica a las 34 semanas, la monitorización fetal registra bradicardia transitoria seguida de taquicardia. La madre aún se encuentra en fase posictal.",
+    "pregunta": "¿Qué enfoque inicial debe priorizar el equipo obstétrico?",
+    "opciones": [
+      "Realizar cesárea inmediata antes de tratar la convulsión",
+      "Ignorar la frecuencia fetal durante el resto del embarazo",
+      "Estabilizar a la madre, controlar la convulsión y reevaluar la frecuencia fetal tras la recuperación materna",
+      "Administrar un betabloqueador al feto",
+      "Suspender el monitoreo porque la bradicardia siempre es benigna"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La bradicardia fetal puede ocurrir transitoriamente durante una convulsión materna por hipoxemia y alteración fisiológica, seguida de taquicardia reactiva. La prioridad es estabilizar a la madre y controlar la crisis. Si persiste una frecuencia fetal anormal después de la recuperación materna, se debe valorar resolución urgente según el contexto.",
+    "perlaENARM": "Durante eclampsia, estabiliza primero a la madre; la conducta fetal depende de la persistencia de la alteración después de la recuperación materna.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 8.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-593",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Desprendimiento prematuro de placenta",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el desprendimiento prematuro de placenta como complicación de los trastornos hipertensivos.",
+    "caso": "Gestante de 35 semanas con preeclampsia presenta dolor abdominal súbito, hipertonía uterina, sangrado vaginal oscuro y alteración de la frecuencia cardiaca fetal.",
+    "pregunta": "¿Qué complicación obstétrica debe sospecharse de manera prioritaria?",
+    "opciones": [
+      "Placenta previa sin compromiso maternofetal",
+      "Desprendimiento prematuro de placenta normoinserta",
+      "Rotura uterina confirmada por la presencia de hipertensión",
+      "Corioamnionitis sin datos de infección",
+      "Trabajo de parto fisiológico sin riesgo hemorrágico"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La hipertensión y la preeclampsia aumentan el riesgo de desprendimiento prematuro de placenta. El dolor, la hipertonía, el sangrado y el compromiso fetal requieren estabilización materna, evaluación de hemorragia y coagulación, y decisión urgente sobre la vía de nacimiento.",
+    "perlaENARM": "Preeclampsia más dolor abdominal súbito, hipertonía y sangrado obliga a descartar desprendimiento placentario.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 1 y 10.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-594",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Síntomas visuales y neuroimagen",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer complicaciones neurológicas de la preeclampsia y determinar cuándo ampliar el estudio diagnóstico.",
+    "caso": "Puérpera con preeclampsia presenta cefalea intensa, alteraciones visuales y una convulsión. Tras recibir sulfato de magnesio persiste con déficit visual y confusión.",
+    "pregunta": "¿Qué conducta adicional debe considerarse por la persistencia de síntomas neurológicos?",
+    "opciones": [
+      "Suspender la evaluación porque la convulsión ya terminó",
+      "Atribuir todos los síntomas a la anestesia sin exploración",
+      "Dar de alta si la presión arterial disminuye una vez",
+      "Administrar exclusivamente un antiemético",
+      "Solicitar evaluación neurológica urgente y neuroimagen para investigar complicaciones como PRES, hemorragia intracraneal u otras causas"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La persistencia de síntomas neurológicos o un déficit focal tras una convulsión obliga a ampliar la evaluación. Entre las complicaciones que deben considerarse están el síndrome de encefalopatía posterior reversible (PRES), hemorragia intracraneal, trombosis venosa cerebral y otras causas neurológicas. La estabilización y el control tensional continúan siendo prioritarios.",
+    "perlaENARM": "Síntomas neurológicos persistentes o atípicos después de una crisis obstétrica requieren investigar complicaciones intracraneales.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 1 y 8.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-595",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Antihipertensivos y asma",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar tratamiento antihipertensivo considerando comorbilidades maternas.",
+    "caso": "Gestante de 32 semanas con hipertensión grave necesita tratamiento urgente. Tiene asma persistente con broncoespasmo reciente y utiliza broncodilatador inhalado.",
+    "pregunta": "¿Qué opción debe evitarse o utilizarse con especial precaución por su comorbilidad?",
+    "opciones": [
+      "Hidralazina intravenosa",
+      "Nifedipino oral de liberación inmediata conforme al protocolo",
+      "Labetalol, por su actividad betabloqueadora y el riesgo de broncoespasmo",
+      "Monitorización maternofetal continua",
+      "Evaluación repetida de la presión arterial"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El labetalol puede agravar el broncoespasmo por su actividad betabloqueadora y debe evitarse en pacientes con asma significativa según la situación clínica. La hidralazina intravenosa y el nifedipino oral de acción inmediata son alternativas aceptadas para hipertensión grave aguda, con monitorización y ajustes conforme al protocolo.",
+    "perlaENARM": "La elección del antihipertensivo debe considerar las comorbilidades; asma significativa puede hacer preferible una alternativa al labetalol.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 6-7.",
+      "ACOG. Emergent Therapy for Acute-Onset, Severe Hypertension During Pregnancy and the Postpartum Period."
+    ]
+  },
+  {
+    "id": "OBS-596",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Balance hídrico en preeclampsia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar la sobrecarga de líquidos en preeclampsia y comprender el riesgo de edema pulmonar.",
+    "caso": "Gestante de 34 semanas con preeclampsia severa presenta oliguria y edema periférico. El equipo propone administrar varios litros de cristaloides rápidamente para aumentar la diuresis, pese a que la saturación de oxígeno ha comenzado a disminuir.",
+    "pregunta": "¿Qué principio de manejo debe aplicarse?",
+    "opciones": [
+      "Administrar líquidos con cautela, evaluar perfusión y función renal, y evitar sobrecarga que pueda precipitar edema pulmonar",
+      "Administrar grandes volúmenes de manera sistemática hasta normalizar la diuresis",
+      "Suspender la monitorización respiratoria durante la reposición",
+      "Utilizar diuréticos de forma rutinaria en toda preeclampsia sin evaluar volumen",
+      "Ignorar la disminución de la saturación porque el edema periférico es habitual"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La preeclampsia se asocia con disfunción endotelial y alteración de la permeabilidad capilar, lo que aumenta el riesgo de edema pulmonar. La oliguria debe investigarse, pero no justifica cargas indiscriminadas de líquidos. La reposición se individualiza según estado hemodinámico, función renal, pérdidas y signos respiratorios.",
+    "perlaENARM": "En preeclampsia, oliguria no equivale automáticamente a hipovolemia; evita la sobrecarga de líquidos y vigila la respiración.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 1 y 7-8.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-597",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Interpretación de proteinuria elevada",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar utilizar la magnitud de la proteinuria como único indicador de severidad o como criterio aislado para finalizar el embarazo.",
+    "caso": "Gestante de 33 semanas con hipertensión y proteinuria de 5.8 g/24 horas permanece sin cefalea, con plaquetas normales, creatinina estable y evaluación fetal tranquilizadora. El residente propone clasificarla automáticamente como preeclampsia con datos de severidad únicamente por la cantidad de proteínas.",
+    "pregunta": "¿Qué matiz clínico debe considerarse al aplicar las recomendaciones actuales?",
+    "opciones": [
+      "La proteinuria no tiene ninguna utilidad diagnóstica",
+      "La cantidad de proteinuria por sí sola no define actualmente la severidad; deben evaluarse presión arterial, disfunción orgánica y estado maternofetal",
+      "Toda proteinuria superior a 5 g obliga a cesárea inmediata sin evaluar el resto del caso",
+      "La proteinuria elevada descarta riesgo de eclampsia",
+      "La paciente no tiene preeclampsia si no presenta edema"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF clasifica la proteinuria superior a 5 g/24 horas como dato de severidad en su esquema. Sin embargo, las recomendaciones contemporáneas no utilizan la cantidad de proteinuria de forma aislada para definir severidad ni para decidir la finalización. La conducta debe integrar presión arterial, síntomas, plaquetas, función renal y hepática, y bienestar fetal.",
+    "perlaENARM": "Distingue la clasificación histórica del PDF de las guías actuales: la magnitud de la proteinuria aislada no determina por sí sola la severidad.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 5.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222."
+    ]
+  },
+  {
+    "id": "OBS-598",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Diagnóstico diferencial de hipertensión antes de las 20 semanas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar cuándo investigar hipertensión secundaria en una gestante con hipertensión de inicio temprano.",
+    "caso": "Gestante de 15 semanas presenta presión arterial persistentemente elevada pese al manejo inicial. Tiene hipopotasemia espontánea, debilidad muscular y antecedentes de hipertensión difícil de controlar desde antes del embarazo.",
+    "pregunta": "¿Qué enfoque diagnóstico resulta pertinente además de clasificarla como hipertensa crónica?",
+    "opciones": [
+      "Diagnosticar preeclampsia con severidad exclusivamente por la edad gestacional",
+      "Atribuir la hipopotasemia al embarazo normal sin investigar",
+      "Suspender toda evaluación etiológica hasta después del parto",
+      "Investigar hipertensión secundaria, orientando los estudios por los hallazgos clínicos y seleccionando pruebas compatibles con el embarazo",
+      "Realizar una curva de tolerancia a la glucosa como único estudio de hipertensión"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La hipertensión antes de las 20 semanas suele corresponder a hipertensión crónica. La hipopotasemia y la hipertensión resistente justifican investigar causas secundarias, como trastornos endocrinos o renales, según la historia clínica. La evaluación debe individualizarse para evitar pruebas innecesarias o no apropiadas durante la gestación.",
+    "perlaENARM": "Hipertensión temprana más hipopotasemia o resistencia al tratamiento obliga a considerar una causa secundaria.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 1.",
+      "ACOG. Chronic Hypertension in Pregnancy. Practice Bulletin No. 203."
+    ]
+  },
+  {
+    "id": "OBS-599",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Seguimiento tras el parto",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Planear vigilancia posparto y reconocer el riesgo persistente de complicaciones hipertensivas.",
+    "caso": "Paciente de 30 años egresa al tercer día posparto después de preeclampsia sin datos de severidad. Tiene presión arterial de 142/92 mmHg, está asintomática y no cuenta con un plan documentado de seguimiento.",
+    "pregunta": "¿Qué recomendación debe incorporarse al egreso?",
+    "opciones": [
+      "Suspender toda vigilancia porque el nacimiento resuelve inmediatamente todos los casos",
+      "Indicar que solo debe medir la presión si presenta convulsiones",
+      "Organizar seguimiento temprano de presión arterial, educación sobre signos de alarma y ajuste del tratamiento según evolución",
+      "Prohibir toda actividad física durante un año",
+      "Evitar cualquier evaluación médica durante el puerperio"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La hipertensión puede persistir o empeorar después del nacimiento y la preeclampsia posparto puede presentarse de novo. El alta debe incluir un plan de vigilancia tensional, revisión clínica temprana, educación sobre cefalea, alteraciones visuales, disnea y dolor epigástrico, así como ajuste terapéutico según las cifras.",
+    "perlaENARM": "El parto no elimina de inmediato el riesgo hipertensivo; la vigilancia posparto y la educación sobre signos de alarma son esenciales.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, página 11.",
+      "ACOG. Optimizing Postpartum Care."
+    ]
+  },
+  {
+    "id": "OBS-600",
+    "especialidad": "Obstetricia",
+    "tema": "Trastornos hipertensivos del embarazo",
+    "subtema": "Integración diagnóstica y terapéutica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar criterios de severidad, estabilización materna, profilaxis anticonvulsiva y decisión sobre la finalización del embarazo.",
+    "caso": "Gestante de 34 semanas presenta presión arterial de 168/114 mmHg persistente, cefalea intensa, escotomas, plaquetas de 82,000/mm³, AST de 145 U/L y creatinina de 1.2 mg/dL. El feto está vivo y la monitorización muestra una frecuencia cardiaca inicialmente tranquilizadora.",
+    "pregunta": "¿Qué plan global debe priorizarse?",
+    "opciones": [
+      "Manejo ambulatorio con metildopa y revisión en una semana",
+      "Esperar a que la proteinuria supere 5 g antes de intervenir",
+      "Administrar corticoides y posponer toda intervención durante 48 horas aunque empeore la madre",
+      "Realizar cesárea inmediata sin estabilización, tratamiento antihipertensivo ni profilaxis anticonvulsiva",
+      "Hospitalizar en un entorno de alta vigilancia, tratar urgentemente la hipertensión grave, administrar sulfato de magnesio, evaluar las complicaciones orgánicas y finalizar el embarazo tras estabilización materna"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La hipertensión grave persistente, los síntomas neurológicos, la trombocitopenia y la alteración renal y hepática son compatibles con preeclampsia con datos de severidad y posible evolución hacia HELLP. Se requiere estabilización, tratamiento antihipertensivo urgente, sulfato de magnesio para prevenir convulsiones y evaluación maternofetal. A las 34 semanas, la finalización del embarazo está indicada tras la estabilización; la vía se determina por las condiciones obstétricas y la urgencia clínica.",
+    "perlaENARM": "Preeclampsia grave a partir de 34 semanas: estabiliza, controla la hipertensión, previene eclampsia y procede a la resolución sin retrasos injustificados.",
+    "bibliografia": [
+      "PDF proporcionado: 11. Trastornos Hipertensivos del Embarazo, páginas 1, 7, 9-10.",
+      "ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222.",
+      "ACOG. Emergent Therapy for Acute-Onset, Severe Hypertension During Pregnancy and the Postpartum Period."
+    ]
+  },
+   {
+    "id": "OBS-601",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Determinación de corionicidad y amnionicidad",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar embarazo bicorial biamniótico de monocorial biamniótico mediante la ecografía del primer trimestre.",
+    "caso": "Paciente de 29 años con embarazo gemelar de 12 semanas acude a ultrasonido. Se identifican dos fetos vivos, dos sacos amnióticos y una masa placentaria con una proyección triangular de tejido corial en la base de la membrana intergemelar.",
+    "pregunta": "¿Qué clasificación es la más probable según los hallazgos ecográficos descritos?",
+    "opciones": [
+      "Embarazo monocorial monoamniótico",
+      "Embarazo monocorial biamniótico",
+      "Embarazo bicorial biamniótico",
+      "Embarazo de gemelos unidos",
+      "Embarazo dicigótico confirmado únicamente por la ecografía"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El signo lambda o twin-peak corresponde a una proyección de tejido corial en la inserción de la membrana intergemelar y favorece la clasificación bicorial biamniótica. El signo de la T, con inserción de la membrana sin cuña corial, favorece monocorionicidad. La corionicidad debe establecerse preferentemente en el primer trimestre; el número aparente de masas placentarias por sí solo puede ser engañoso.",
+    "perlaENARM": "Signo lambda: bicorialidad. Signo de la T: monocorialidad. La corionicidad define buena parte del riesgo y la frecuencia de vigilancia.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 3.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy.",
+      "NICE. Twin and Triplet Pregnancy, NG137."
+    ]
+  },
+  {
+    "id": "OBS-602",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Momento de división del cigoto",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar el momento de división del embrión monocigótico con la corionicidad y amnionicidad.",
+    "caso": "En una sesión de embriología clínica se analiza un embarazo gemelar monocigótico en el que ambos fetos comparten placenta, pero cada uno se encuentra en su propio saco amniótico. No se observan membranas ausentes ni datos de unión fetal.",
+    "pregunta": "¿Qué intervalo de división embrionaria se asocia clásicamente con esta configuración?",
+    "opciones": [
+      "Entre los días 8 y 13 después de la fecundación",
+      "Entre los días 4 y 8 después de la fecundación",
+      "Después del día 13, necesariamente",
+      "Antes de la fecundación",
+      "La configuración demuestra que se originaron de dos cigotos distintos"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La división monocigótica alrededor de los días 4–8 se asocia clásicamente con embarazo monocorial biamniótico. La división más temprana suele producir una configuración bicorial biamniótica, mientras que la división más tardía puede originar embarazo monoamniótico o, si es muy tardía e incompleta, gemelos unidos. Estos intervalos son aproximaciones embriológicas, no un método para fechar la división en una paciente individual.",
+    "perlaENARM": "Monocorial biamniótico: división aproximada entre los días 4 y 8; monocorial monoamniótico: división más tardía.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 1.",
+      "Williams Obstetrics, 26.ª edición."
+    ]
+  },
+  {
+    "id": "OBS-603",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Gemelos monoamnióticos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer los riesgos propios del embarazo monocorial monoamniótico y planear vigilancia y nacimiento especializado.",
+    "caso": "Gestante de 27 semanas presenta embarazo gemelar monocorial monoamniótico confirmado por ultrasonido. Ambos fetos tienen crecimiento apropiado y no se identifica anomalía estructural. Las membranas amnióticas no separan a los fetos y los cordones presentan contacto estrecho.",
+    "pregunta": "¿Cuál es la principal complicación específica que justifica vigilancia especializada?",
+    "opciones": [
+      "Aumento inevitable de la incidencia de aneuploidía en ambos fetos",
+      "Imposibilidad absoluta de supervivencia neonatal",
+      "Desarrollo obligatorio de síndrome de transfusión feto-fetal",
+      "Compresión o entrecruzamiento de los cordones umbilicales con riesgo de compromiso fetal agudo",
+      "Ausencia de riesgo de muerte fetal después de las 28 semanas"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Los gemelos monoamnióticos comparten la cavidad amniótica y presentan riesgo de entrecruzamiento y compresión de los cordones. Requieren atención por medicina maternofetal y vigilancia individualizada. El PDF propone finalizar alrededor de las 32 semanas tras maduración pulmonar, pero la edad gestacional óptima y la estrategia de vigilancia deben seguir guías vigentes y las condiciones clínicas del centro.",
+    "perlaENARM": "Monoamniótico no significa ausencia de riesgo: el entrecruzamiento de cordones condiciona vigilancia intensiva y nacimiento planificado.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, páginas 1 y 9.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy.",
+      "NICE. Twin and Triplet Pregnancy, NG137."
+    ]
+  },
+  {
+    "id": "OBS-604",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Estimación de la edad gestacional",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Utilizar la biometría del primer trimestre para establecer la edad gestacional en embarazo gemelar.",
+    "caso": "Paciente con embarazo gemelar acude por primera vez a las 12 semanas. Las longitudes cráneo-caudales de los fetos muestran una diferencia pequeña, sin otras alteraciones ecográficas. La fecha de última menstruación es incierta.",
+    "pregunta": "¿Qué estrategia recomienda el documento para estimar la edad gestacional?",
+    "opciones": [
+      "Utilizar el feto de mayor longitud cráneo-caudal para la estimación inicial",
+      "Promediar obligatoriamente las biometrías del primer y segundo trimestre",
+      "Utilizar únicamente la fecha de última menstruación aunque sea incierta",
+      "Elegir al feto más pequeño porque siempre refleja la edad gestacional real",
+      "Esperar hasta el tercer trimestre para fechar el embarazo"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF recomienda el ultrasonido del primer trimestre para establecer edad gestacional, número de fetos y corionicidad, y señala utilizar al feto más grande para la estimación. La biometría temprana es preferible a la biometría tardía para datación, ya que el crecimiento discordante posterior puede distorsionar la estimación.",
+    "perlaENARM": "En embarazo múltiple, establece pronto la edad gestacional y la corionicidad; evita redatar el embarazo por diferencias de crecimiento tardías.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 3.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-605",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Corionicidad diagnosticada tardíamente",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar signos ecográficos para determinar la corionicidad cuando la paciente inicia control después del primer trimestre.",
+    "caso": "Gestante de 18 semanas con embarazo gemelar sin ultrasonido previo presenta dos fetos del mismo sexo y una sola masa placentaria aparente. La membrana intergemelar parece delgada, pero su inserción no se visualiza con claridad.",
+    "pregunta": "¿Qué enfoque mejora la clasificación del embarazo?",
+    "opciones": [
+      "Clasificarlo automáticamente como monocorial monoamniótico",
+      "Usar exclusivamente el sexo fetal para establecer la corionicidad",
+      "Asumir bicorialidad porque se identifican dos fetos",
+      "Considerar que una masa placentaria demuestra monocorionicidad sin excepciones",
+      "Realizar una evaluación ecográfica dirigida de inserción de membranas, signo lambda o T, número de masas placentarias y espesor de membrana, solicitando valoración especializada si persiste incertidumbre"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Cuando la paciente se presenta después de las 14 semanas, el PDF recomienda determinar la corionicidad en la primera oportunidad mediante evaluación de masas placentarias, signos lambda o T, espesor de la membrana y sexo fetal discordante cuando exista. Dos placentas pueden estar fusionadas y una sola masa aparente no confirma monocorionicidad.",
+    "perlaENARM": "Si la corionicidad es incierta, no la supongas: documenta la incertidumbre y solicita evaluación experta porque modifica la vigilancia.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 3.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy.",
+      "NICE. Twin and Triplet Pregnancy, NG137."
+    ]
+  },
+  {
+    "id": "OBS-606",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Riesgo materno de preeclampsia",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar la gestación múltiple con el aumento del riesgo de trastornos hipertensivos y planear prevención prenatal.",
+    "caso": "Mujer de 35 años con embarazo gemelar bicorial biamniótico de 12 semanas tiene antecedente de preeclampsia en un embarazo previo. Su presión arterial es normal y no presenta proteinuria.",
+    "pregunta": "¿Qué aspecto de la atención prenatal debe priorizarse desde esta consulta?",
+    "opciones": [
+      "Iniciar un inhibidor de la enzima convertidora de angiotensina como prevención",
+      "Ofrecer valoración de riesgo de preeclampsia y profilaxis con ácido acetilsalicílico a dosis baja si no hay contraindicación",
+      "Restringir toda actividad física durante el embarazo",
+      "Indicar sulfato de magnesio profiláctico desde el primer trimestre",
+      "Omitir la vigilancia tensional porque la gestación es bicorial"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El embarazo múltiple incrementa el riesgo de preeclampsia, y el antecedente personal de preeclampsia es otro factor de alto riesgo. Debe valorarse la profilaxis con aspirina a dosis baja conforme a la guía vigente y al protocolo local, idealmente iniciada al final del primer trimestre. No se recomienda usar antihipertensivos o sulfato de magnesio de forma preventiva en una paciente normotensa sin indicación.",
+    "perlaENARM": "Embarazo múltiple y antecedente de preeclampsia: evalúa profilaxis con aspirina y mantén vigilancia prenatal estrecha.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 2.",
+      "ACOG. Low-Dose Aspirin Use During Pregnancy.",
+      "USPSTF. Aspirin Use to Prevent Preeclampsia and Related Morbidity and Mortality."
+    ]
+  },
+  {
+    "id": "OBS-607",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Riesgo de prematuridad",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la prematuridad como uno de los principales determinantes de morbimortalidad en embarazo múltiple.",
+    "caso": "Gestante de 25 semanas con embarazo triple consulta para planificación prenatal. No presenta contracciones ni cambios cervicales. Pregunta por qué se requiere vigilancia más estrecha que en un embarazo único.",
+    "pregunta": "¿Qué riesgo explica en mayor medida la necesidad de planificación anticipada del nacimiento y atención neonatal?",
+    "opciones": [
+      "La aparición inevitable de diabetes tipo 1 en la madre",
+      "La ausencia de posibilidad de crecimiento fetal en embarazos triples",
+      "La imposibilidad de identificar la presentación fetal por ultrasonido",
+      "La elevada probabilidad de parto pretérmino y sus complicaciones respiratorias y neurológicas neonatales",
+      "La reducción sistemática del riesgo de hemorragia posparto"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF destaca el parto pretérmino, el bajo peso, la restricción del crecimiento y las complicaciones neonatales entre los riesgos fetales del embarazo múltiple. La vigilancia debe incluir crecimiento, anatomía, complicaciones propias de la corionicidad y planificación del nacimiento en un centro con capacidad neonatal apropiada.",
+    "perlaENARM": "La prematuridad es una de las principales fuentes de morbimortalidad en embarazos gemelares y triples.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 2.",
+      "NICE. Twin and Triplet Pregnancy, NG137.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-608",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Detección de anomalías estructurales",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la importancia de la evaluación anatómica individual de cada feto en embarazos múltiples.",
+    "caso": "Gestante de 20 semanas con gemelos monocoriales biamnióticos tiene una evaluación anatómica preliminar normal. El ultrasonografista propone omitir una valoración detallada del corazón porque ambos fetos comparten placenta.",
+    "pregunta": "¿Cuál es la recomendación prenatal más apropiada?",
+    "opciones": [
+      "Realizar evaluación anatómica detallada de ambos fetos, con especial atención a la anatomía cardiaca",
+      "Evaluar únicamente al feto de mayor tamaño",
+      "Omitir la anatomía cardiaca porque la monocorionicidad protege frente a malformaciones",
+      "Sustituir el ultrasonido anatómico por una radiografía abdominal",
+      "Realizar evaluación anatómica solo si existe discordancia de sexo"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF indica que las anomalías estructurales, especialmente cardiacas, son más frecuentes en embarazos gemelares y triples, y recomienda que su detección forme parte de la atención prenatal rutinaria. La evaluación debe documentar individualmente la anatomía de cada feto y adaptarse a la corionicidad y a los hallazgos clínicos.",
+    "perlaENARM": "En embarazo múltiple, cada feto necesita evaluación anatómica propia; no se extrapola la normalidad de uno al otro.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 5.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy.",
+      "NICE. Twin and Triplet Pregnancy, NG137."
+    ]
+  },
+  {
+    "id": "OBS-609",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Tamizaje de aneuploidías",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Explicar las limitaciones del tamizaje cromosómico en embarazo múltiple y orientar la consejería prenatal.",
+    "caso": "Pareja con embarazo gemelar bicorial biamniótico de 12 semanas solicita una prueba de tamizaje para trisomía 21. Está preocupada porque le informaron que los marcadores bioquímicos y la interpretación del resultado pueden diferir del embarazo único.",
+    "pregunta": "¿Qué elemento debe incluir la consejería antes de elegir la estrategia de tamizaje?",
+    "opciones": [
+      "Afirmar que todos los tamizajes tienen sensibilidad y especificidad idénticas a las del embarazo único",
+      "Indicar que la amniocentesis carece de riesgos en embarazo múltiple",
+      "Explicar rendimiento, falsos positivos, opciones disponibles y posibles implicaciones de una prueba invasiva",
+      "Evitar informar sobre pruebas invasivas porque la pareja no puede decidir",
+      "Confirmar aneuploidía únicamente con la edad materna"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF recomienda consejería amplia sobre probabilidad de aneuploidía, alternativas de tamizaje, falsos positivos y riesgos de pruebas invasivas y de reducción fetal selectiva. La elección debe ser informada y considerar la corionicidad, el tipo de prueba disponible y las preferencias de la paciente. El tamizaje estima riesgo; no confirma por sí mismo una aneuploidía.",
+    "perlaENARM": "Tamizaje no equivale a diagnóstico; en embarazo múltiple, la consejería debe abordar rendimiento y limitaciones específicas.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 4.",
+      "ACOG. Screening for Fetal Chromosomal Abnormalities.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-610",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Biopsia corial y amniocentesis",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir los procedimientos diagnósticos invasivos según el tejido obtenido y el momento gestacional.",
+    "caso": "Gestante de 11 semanas con embarazo gemelar y tamizaje de alto riesgo para aneuploidía solicita una prueba diagnóstica. Tras consejería genética, desea conocer la diferencia entre biopsia corial y amniocentesis.",
+    "pregunta": "¿Qué descripción distingue correctamente ambos procedimientos?",
+    "opciones": [
+      "La biopsia corial obtiene sangre fetal de la vena umbilical después de las 18 semanas",
+      "La amniocentesis obtiene vellosidades coriónicas y solo se realiza antes de las 12 semanas",
+      "Ambos procedimientos son pruebas de tamizaje no invasivas",
+      "La biopsia corial obtiene tejido placentario y la amniocentesis líquido amniótico; la elección depende de edad gestacional, indicación y experiencia",
+      "La amniocentesis excluye toda posibilidad de pérdida gestacional"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La biopsia corial obtiene tejido placentario y puede realizarse en el primer trimestre dentro de los intervalos aceptados por el centro. La amniocentesis obtiene líquido amniótico y se realiza habitualmente a partir de las 15 semanas. En gestaciones múltiples la selección de la técnica requiere asesoramiento experto para asegurar que se obtengan muestras representativas de cada feto cuando corresponda.",
+    "perlaENARM": "Biopsia corial: tejido placentario. Amniocentesis: líquido amniótico. Ambos son procedimientos diagnósticos invasivos, no simples tamizajes.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 4.",
+      "ACOG. Prenatal Genetic Diagnostic Tests.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-611",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Discordancia de crecimiento fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Calcular e interpretar la discordancia de peso fetal estimado entre gemelos.",
+    "caso": "En un ultrasonido de 28 semanas, el gemelo A tiene un peso fetal estimado de 1,400 g y el gemelo B de 1,900 g. No hay anomalías estructurales evidentes. El equipo debe cuantificar la diferencia de crecimiento para decidir la intensidad de vigilancia.",
+    "pregunta": "¿Cuál es la discordancia aproximada, utilizando como denominador el peso del feto mayor?",
+    "opciones": [
+      "10%",
+      "26%",
+      "35%",
+      "50%",
+      "73%"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La discordancia se calcula habitualmente como (peso estimado del mayor menos peso estimado del menor) dividido entre el peso estimado del mayor, multiplicado por 100. En este caso: (1,900 − 1,400)/1,900 × 100 = 26.3%. El PDF señala que diferencias aproximadas del 15–25% pueden ser clínicamente relevantes; la interpretación y el manejo deben integrar percentiles, Doppler, líquido amniótico y corionicidad.",
+    "perlaENARM": "Discordancia de peso = diferencia entre el mayor y el menor dividida entre el mayor. No la interpretes sin percentiles ni Doppler.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 5.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy.",
+      "NICE. Twin and Triplet Pregnancy, NG137."
+    ]
+  },
+  {
+    "id": "OBS-612",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Crecimiento fetal discordante y Doppler",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar discordancia biométrica y Doppler de arteria umbilical para estratificar el riesgo en gemelos monocoriales.",
+    "caso": "Gestante de 29 semanas con embarazo monocorial biamniótico presenta un gemelo con peso estimado por debajo del percentil 10 y discordancia de 28%. El Doppler de arteria umbilical del feto pequeño muestra flujo diastólico ausente intermitente.",
+    "pregunta": "¿Qué conducta debe orientar la evaluación especializada?",
+    "opciones": [
+      "Tratar la discordancia únicamente con suplementos nutricionales maternos",
+      "Esperar hasta las 37 semanas sin repetir el Doppler",
+      "Realizar evaluación seriada por medicina maternofetal, caracterizar el patrón Doppler y vigilar bienestar de ambos fetos",
+      "Indicar reposo domiciliario como único tratamiento",
+      "Considerar el Doppler irrelevante porque los fetos comparten placenta"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La restricción selectiva del crecimiento en gemelos monocoriales puede relacionarse con reparto placentario desigual, inserción anormal del cordón o distribución vascular placentaria. El patrón Doppler de la arteria umbilical contribuye a la clasificación y al pronóstico. La vigilancia y el momento del nacimiento deben individualizarse según la evolución fetal y materna.",
+    "perlaENARM": "En restricción selectiva del crecimiento, el Doppler de arteria umbilical es fundamental para estratificar riesgo; el porcentaje de discordancia no basta por sí solo.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 7.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy.",
+      "NICE. Twin and Triplet Pregnancy, NG137."
+    ]
+  },
+  {
+    "id": "OBS-613",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Síndrome de transfusión feto-fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el síndrome de transfusión feto-fetal por la discordancia del líquido amniótico en una gestación monocorial.",
+    "caso": "Embarazo gemelar monocorial biamniótico de 20 semanas. El bolsillo vertical máximo de líquido amniótico mide 1.5 cm en el saco del gemelo A y 9.2 cm en el saco del gemelo B. El gemelo A tiene vejiga poco visible y el gemelo B presenta vejiga aumentada.",
+    "pregunta": "¿Qué diagnóstico integra mejor los hallazgos?",
+    "opciones": [
+      "Síndrome de transfusión feto-fetal, con probable feto donante A y receptor B",
+      "Embarazo bicorial biamniótico no complicado",
+      "Rotura de membranas del gemelo B con oligohidramnios del receptor",
+      "Restricción de crecimiento aislada sin alteración hemodinámica",
+      "Gemelos unidos con circulación compartida"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La discordancia marcada del líquido amniótico en una gestación monocorial biamniótica, con bolsillo del donante ≤2 cm y del receptor ≥8 cm según el criterio del PDF, es característica del síndrome de transfusión feto-fetal. La vejiga poco visible del donante y la distensión vesical del receptor refuerzan la sospecha. Debe evaluarse en un centro de medicina fetal.",
+    "perlaENARM": "STFF: monocorionicidad más oligohidramnios del donante y polihidramnios del receptor; evalúa vejigas y estado cardiovascular.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 6.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy.",
+      "SMFM. Consult Series: Twin-Twin Transfusion Syndrome."
+    ]
+  },
+  {
+    "id": "OBS-614",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Fisiopatología del síndrome de transfusión feto-fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar las diferencias hemodinámicas entre el gemelo donante y el receptor en el síndrome de transfusión feto-fetal.",
+    "caso": "En un embarazo gemelar monocorial complicado por síndrome de transfusión feto-fetal, el gemelo A presenta oliguria, vejiga poco visible y oligohidramnios. El gemelo B tiene poliuria, polihidramnios y signos de sobrecarga cardiaca.",
+    "pregunta": "¿Cuál es la relación fisiopatológica que explica esta distribución de hallazgos?",
+    "opciones": [
+      "El donante recibe un exceso crónico de volumen y el receptor pierde sangre",
+      "Ambos fetos presentan necesariamente la misma volemia",
+      "El receptor desarrolla oliguria por hipovolemia y el donante poliuria por sobrecarga",
+      "Las anastomosis vasculares placentarias generan un desequilibrio neto de transfusión: el donante se hipovolemiza y el receptor desarrolla sobrecarga circulatoria",
+      "La enfermedad se produce exclusivamente por una infección viral fetal"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El síndrome de transfusión feto-fetal ocurre por un desequilibrio de flujo a través de anastomosis vasculares placentarias. El donante desarrolla hipovolemia y menor perfusión renal, con oliguria y oligohidramnios. El receptor presenta sobrecarga de volumen, poliuria, polihidramnios y riesgo de disfunción cardiaca o hidropesía.",
+    "perlaENARM": "Donante: hipovolemia, oliguria y oligohidramnios. Receptor: sobrecarga, poliuria y polihidramnios.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 6.",
+      "SMFM. Consult Series: Twin-Twin Transfusion Syndrome.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-615",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Vigilancia de síndrome de transfusión feto-fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Establecer el inicio y la periodicidad de la vigilancia ecográfica para síndrome de transfusión feto-fetal.",
+    "caso": "Gestante de 16 semanas con embarazo monocorial biamniótico asintomático acude a control. Ambos fetos tienen biometría apropiada y líquido amniótico sin discordancia en el estudio actual.",
+    "pregunta": "¿Qué estrategia de seguimiento concuerda con el enfoque del documento?",
+    "opciones": [
+      "Suspender ultrasonidos hasta el tercer trimestre si el primer estudio fue normal",
+      "Iniciar vigilancia ecográfica desde las 16 semanas y repetir aproximadamente cada dos semanas hasta las 24 semanas, con ajustes según la guía y los hallazgos",
+      "Solicitar radiografías abdominales semanales",
+      "Realizar únicamente una prueba de tolerancia a la glucosa",
+      "Programar el primer control ecográfico a las 32 semanas"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF recomienda iniciar vigilancia ecográfica a las 16 semanas para detectar STFF y repetirla quincenalmente hasta las 24 semanas. La vigilancia de gestaciones monocoriales debe continuar según los protocolos vigentes, con valoración del líquido amniótico, vejigas, crecimiento y otros signos de complicación.",
+    "perlaENARM": "La ausencia de STFF a las 16 semanas no elimina el riesgo posterior; la vigilancia seriada es esencial en monocorialidad.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 6.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy.",
+      "SMFM. Consult Series: Twin-Twin Transfusion Syndrome."
+    ]
+  },
+  {
+    "id": "OBS-616",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Tratamiento del síndrome de transfusión feto-fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar la terapia fetal de referencia para el síndrome de transfusión feto-fetal clínicamente significativo.",
+    "caso": "Embarazo monocorial biamniótico de 21 semanas presenta criterios ecográficos de síndrome de transfusión feto-fetal y signos de compromiso cardiovascular del receptor. La paciente es valorada en un centro de medicina fetal.",
+    "pregunta": "¿Qué intervención trata directamente el mecanismo placentario de la enfermedad en los casos indicados?",
+    "opciones": [
+      "Reposo materno como tratamiento definitivo",
+      "Administración rutinaria de diuréticos a la madre",
+      "Cesárea inmediata en todos los casos, sin valorar edad gestacional",
+      "Reducción selectiva sistemática de ambos fetos",
+      "Coagulación láser fetoscópica de las anastomosis vasculares placentarias"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La coagulación láser fetoscópica de las anastomosis vasculares placentarias es el tratamiento de referencia para el STFF en estadios e indicaciones apropiados. La selección depende de la edad gestacional, el estadio, la anatomía placentaria, el estado de ambos fetos y la experiencia del centro. No debe sustituirse por medidas maternas que no corrigen el mecanismo vascular.",
+    "perlaENARM": "El tratamiento causal del STFF indicado es la ablación láser fetoscópica de las anastomosis placentarias.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 6.",
+      "SMFM. Consult Series: Twin-Twin Transfusion Syndrome.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-617",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Diagnóstico diferencial del polihidramnios discordante",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar síndrome de transfusión feto-fetal de otras causas de discordancia del líquido amniótico.",
+    "caso": "En una gestación gemelar bicorial biamniótica, un feto presenta polihidramnios y el otro líquido amniótico normal-bajo. No se observan signos de insuficiencia cardiaca y cada feto tiene placenta propia.",
+    "pregunta": "¿Qué afirmación es más útil para orientar el diagnóstico diferencial?",
+    "opciones": [
+      "La discordancia de líquido por sí sola confirma STFF en cualquier embarazo gemelar",
+      "La ausencia de una placenta compartida hace menos probable el STFF clásico; deben investigarse otras causas fetales, placentarias y maternas",
+      "El polihidramnios siempre representa diabetes materna",
+      "La bicorialidad excluye todas las complicaciones de crecimiento",
+      "No se requiere evaluación anatómica del feto con polihidramnios"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El STFF clásico requiere una placenta compartida con anastomosis vasculares, por lo que es propio de gestaciones monocoriales. Ante polihidramnios discordante en una gestación bicorial deben evaluarse anomalías fetales, diabetes materna y otras causas de alteración del líquido. La corionicidad es una pieza clave del diagnóstico diferencial.",
+    "perlaENARM": "Antes de diagnosticar STFF, confirma monocorionicidad y evalúa el patrón completo de líquido amniótico y vejigas fetales.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, páginas 3 y 6.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy.",
+      "NICE. Twin and Triplet Pregnancy, NG137."
+    ]
+  },
+  {
+    "id": "OBS-618",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Muerte de un gemelo monocorial",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el riesgo neurológico del gemelo sobreviviente tras la muerte de su cogemelo en una gestación monocorial.",
+    "caso": "Gestante de 27 semanas con embarazo monocorial biamniótico presenta muerte intrauterina de uno de los gemelos. El feto sobreviviente tiene frecuencia cardiaca presente y biometría sin alteraciones evidentes en el estudio inicial.",
+    "pregunta": "¿Qué estrategia debe considerarse para valorar el riesgo del feto sobreviviente?",
+    "opciones": [
+      "Referir a medicina fetal, valorar anemia mediante Doppler de arteria cerebral media y planear seguimiento neurológico por imagen según el momento y los hallazgos",
+      "Indicar parto inmediato en todos los casos sin evaluar al sobreviviente",
+      "Dar de alta porque la muerte de un gemelo no afecta al otro",
+      "Administrar transfusión intrauterina al sobreviviente sin demostrar anemia",
+      "Evitar toda evaluación ecográfica posterior"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Tras la muerte de un gemelo monocorial, las conexiones vasculares compartidas pueden provocar hipotensión aguda, anemia y lesión neurológica en el sobreviviente. El PDF recomienda referencia a medicina fetal, Doppler de la velocidad sistólica máxima de la arteria cerebral media y seguimiento ecográfico; puede considerarse resonancia magnética cerebral fetal después de un intervalo apropiado según la evaluación especializada.",
+    "perlaENARM": "La muerte de un gemelo monocorial puede comprometer al sobreviviente por conexiones vasculares; la vigilancia no se limita a confirmar actividad cardiaca.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 8.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy.",
+      "NICE. Twin and Triplet Pregnancy, NG137."
+    ]
+  },
+  {
+    "id": "OBS-619",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Evaluación de anemia fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Utilizar la velocidad sistólica máxima de la arteria cerebral media para investigar anemia fetal después de una complicación monocorial.",
+    "caso": "Después de la muerte de un gemelo monocorial, el feto sobreviviente permanece vivo. Una semana después, el Doppler de arteria cerebral media muestra una velocidad sistólica máxima elevada para la edad gestacional.",
+    "pregunta": "¿Qué complicación debe investigarse prioritariamente?",
+    "opciones": [
+      "Hipoglucemia fetal",
+      "Macrosomía por diabetes materna",
+      "Anemia fetal, con valoración especializada para definir confirmación y tratamiento",
+      "Cierre fisiológico del ductus arterioso",
+      "Infección urinaria materna como explicación suficiente del Doppler"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La elevación de la velocidad sistólica máxima de la arteria cerebral media puede indicar anemia fetal y es relevante tras la muerte de un gemelo monocorial por el riesgo de desequilibrio hemodinámico a través de anastomosis placentarias. El hallazgo debe interpretarse con el umbral validado, la edad gestacional y el contexto clínico, y no confirma anemia de forma aislada en cualquier circunstancia.",
+    "perlaENARM": "Tras muerte de un gemelo monocorial, la arteria cerebral media ayuda a detectar anemia del sobreviviente.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 8.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-620",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Muerte fetal y coagulación materna",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar cuándo considerar evaluación hematológica materna tras la muerte fetal en embarazo múltiple.",
+    "caso": "Gestante de 31 semanas con embarazo gemelar presenta muerte intrauterina de uno de los fetos confirmada hace cinco semanas. El embarazo continúa bajo vigilancia especializada y la paciente está clínicamente estable.",
+    "pregunta": "¿Qué evaluación de laboratorio contempla el documento cuando la muerte fetal persiste durante varias semanas después de las 20 semanas?",
+    "opciones": [
+      "Únicamente hemoglobina glucosilada",
+      "Pruebas de función tiroidea como único estudio",
+      "Cultivo vaginal semanal para descartar infección",
+      "Recuento plaquetario y fibrinógeno para evaluar alteraciones de coagulación según el contexto",
+      "Ningún control hematológico es necesario en ninguna circunstancia"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF propone medir fibrinógeno y recuento plaquetario si la edad gestacional es mayor de 20 semanas y la muerte fetal ocurrió cuatro o más semanas antes. La necesidad y periodicidad de las pruebas deben individualizarse conforme a la evolución, el tiempo transcurrido, la condición materna y el protocolo institucional.",
+    "perlaENARM": "La muerte fetal retenida requiere vigilancia materna; el laboratorio se individualiza según el tiempo transcurrido y el riesgo de coagulopatía.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 8.",
+      "NICE. Twin and Triplet Pregnancy, NG137."
+    ]
+  },
+  {
+    "id": "OBS-621",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Longitud cervical",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar una longitud cervical corta como marcador de riesgo de parto pretérmino en embarazo gemelar.",
+    "caso": "Gestante de 24 semanas con embarazo gemelar bicorial biamniótico tiene longitud cervical de 21 mm medida por ultrasonido transvaginal. No presenta contracciones regulares ni ruptura de membranas.",
+    "pregunta": "¿Qué significado clínico tiene el resultado?",
+    "opciones": [
+      "Descarta el riesgo de parto pretérmino por tratarse de un embarazo gemelar",
+      "Es un marcador de mayor riesgo de parto pretérmino y requiere valoración obstétrica individualizada",
+      "Confirma trabajo de parto activo aunque no existan contracciones",
+      "Es una indicación automática de cesárea inmediata",
+      "Demuestra insuficiencia placentaria en ambos fetos"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF señala que una longitud cervical menor de 25 mm a las 24 semanas predice mayor riesgo de nacimiento espontáneo en gemelos. No equivale por sí sola a trabajo de parto ni determina automáticamente una intervención. Las estrategias preventivas deben seguir la guía vigente, pues la evidencia y las recomendaciones para progesterona, cerclaje u otras intervenciones difieren según el contexto.",
+    "perlaENARM": "Longitud cervical corta aumenta el riesgo, pero no diagnostica por sí sola trabajo de parto ni indica automáticamente cerclaje.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 8.",
+      "NICE. Twin and Triplet Pregnancy, NG137.",
+      "SMFM. Consult Series: Management of Short Cervix in Individuals Without a History of Spontaneous Preterm Birth."
+    ]
+  },
+  {
+    "id": "OBS-622",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Corticoides antenatales",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir el uso de corticoides para maduración pulmonar ante riesgo de parto pretérmino del uso profiláctico indiscriminado.",
+    "caso": "Paciente de 30 semanas con embarazo gemelar presenta contracciones regulares y cambios cervicales que sugieren riesgo elevado de parto pretérmino en los próximos días. No ha recibido corticoides antenatales.",
+    "pregunta": "¿Qué estrategia farmacológica debe considerarse para reducir complicaciones neonatales?",
+    "opciones": [
+      "Administrar corticoides de manera rutinaria cada dos semanas aunque no exista riesgo de nacimiento",
+      "Evitar corticoides porque la gestación es múltiple",
+      "Indicar únicamente sulfato de magnesio como maduración pulmonar",
+      "Esperar obligatoriamente hasta después de las 34 semanas",
+      "Administrar un curso de corticoides antenatales si cumple criterios de riesgo de parto pretérmino, conforme al protocolo y a la edad gestacional"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF recomienda corticoides ante amenaza de parto pretérmino y desaconseja su uso profiláctico sin una amenaza concreta. La decisión actual debe considerar la probabilidad de nacimiento dentro de la ventana de beneficio, la edad gestacional, los cursos previos y la guía vigente. El sulfato de magnesio para neuroprotección fetal tiene una indicación diferente y no sustituye los corticoides.",
+    "perlaENARM": "Corticoides antenatales: ante riesgo real de nacimiento pretérmino dentro de la ventana de beneficio, no como profilaxis periódica indiscriminada.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 8.",
+      "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation.",
+      "WHO. Recommendations on Antenatal Corticosteroids for Improving Preterm Birth Outcomes."
+    ]
+  },
+  {
+    "id": "OBS-623",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Embarazo de alto orden y reducción embrionaria",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar riesgos maternos y fetales en la consejería sobre embarazo de alto orden y reducción embrionaria.",
+    "caso": "Paciente de 38 años con embarazo de cinco fetos tras reproducción asistida solicita información sobre riesgos y opciones. Todos los fetos presentan actividad cardiaca y aún no se ha realizado una evaluación detallada de corionicidad.",
+    "pregunta": "¿Qué enfoque debe adoptar el equipo en la consulta de medicina maternofetal?",
+    "opciones": [
+      "Indicar reducción embrionaria sin consejería ni consentimiento informado",
+      "Explicar riesgos maternos y fetales, evaluar corionicidad y ofrecer consejería no directiva sobre opciones, incluida la reducción embrionaria cuando corresponda",
+      "Afirmar que la supervivencia de todos los fetos está garantizada",
+      "Recomendar la interrupción del embarazo como única alternativa",
+      "Omitir evaluación genética y anatómica porque se trata de un embarazo múltiple"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF describe que los embarazos de alto orden aumentan sustancialmente los riesgos de prematuridad y morbilidad materna, y aborda el dilema médico y ético de la reducción embrionaria. La consejería debe ser individualizada, no directiva y respetuosa de la autonomía, incluyendo riesgos, alternativas, preferencias reproductivas y evaluación de corionicidad.",
+    "perlaENARM": "En embarazo de alto orden, la reducción embrionaria requiere consejería especializada y consentimiento informado; no debe plantearse como decisión automática.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 7.",
+      "ACOG. Multifetal Pregnancy Reduction.",
+      "NICE. Twin and Triplet Pregnancy, NG137."
+    ]
+  },
+  {
+    "id": "OBS-624",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Feticidio selectivo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar reducción embrionaria de feticidio selectivo y reconocer la importancia de la corionicidad.",
+    "caso": "En un embarazo gemelar monocorial biamniótico se diagnostica una anomalía fetal grave en uno de los fetos. La pareja solicita asesoramiento sobre opciones para disminuir el riesgo para el feto sano.",
+    "pregunta": "¿Qué principio técnico debe guiar la referencia y el asesoramiento?",
+    "opciones": [
+      "Realizar una reducción con inyección intracardiaca de cloruro de potasio sin considerar la placenta compartida",
+      "Considerar que la corionicidad no modifica los riesgos del procedimiento",
+      "Referir a medicina fetal para discutir opciones compatibles con la circulación compartida y el riesgo para el feto sobreviviente",
+      "Afirmar que el feticidio selectivo siempre garantiza supervivencia del otro feto",
+      "Evitar toda consejería hasta el tercer trimestre"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "En embarazos monocoriales, las conexiones vasculares placentarias pueden permitir que sustancias administradas a un feto afecten al otro; por ello, los procedimientos selectivos requieren técnicas y planificación especializadas. La decisión debe considerar la anomalía, la corionicidad, la edad gestacional, los riesgos del procedimiento y las preferencias informadas de la pareja.",
+    "perlaENARM": "La circulación placentaria compartida modifica las técnicas de reducción fetal; la corionicidad debe conocerse antes de planear el procedimiento.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, páginas 4 y 7.",
+      "ACOG. Multifetal Pregnancy Reduction.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-625",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Momento del nacimiento en embarazo bicorial",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Aplicar el momento recomendado de nacimiento en embarazo gemelar bicorial no complicado.",
+    "caso": "Gestante de 36 semanas y 6 días con embarazo gemelar bicorial biamniótico, crecimiento concordante, pruebas de bienestar fetal normales y sin complicaciones maternas pregunta cuándo suele planificarse el nacimiento.",
+    "pregunta": "¿Qué recomendación coincide con el esquema presentado en el documento?",
+    "opciones": [
+      "Planificar el nacimiento alrededor de las 37 semanas, individualizando según las guías vigentes y las condiciones clínicas",
+      "Esperar de forma rutinaria hasta las 42 semanas",
+      "Finalizar obligatoriamente a las 32 semanas",
+      "Indicar cesárea inmediata solo por tratarse de gemelos bicoriales",
+      "No planificar el nacimiento porque los gemelos bicoriales tienen el mismo riesgo que un embarazo único"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF propone parto electivo desde las 37 semanas para embarazo gemelar bicorial. El momento exacto debe individualizarse conforme a las guías actuales, los factores maternos, la evolución fetal y la política local. La corionicidad bicorial no elimina el riesgo aumentado de prematuridad ni justifica prolongar indefinidamente el embarazo.",
+    "perlaENARM": "En gemelos bicoriales no complicados, el momento planificado del nacimiento suele ser anterior al de un embarazo único.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 9.",
+      "NICE. Twin and Triplet Pregnancy, NG137.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-626",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Momento del nacimiento en embarazo monocorial",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir la programación del nacimiento según corionicidad en gestaciones gemelares no complicadas.",
+    "caso": "Gestante de 35 semanas y 5 días con embarazo gemelar monocorial biamniótico no complicado presenta crecimiento concordante, líquido amniótico normal y vigilancia fetal tranquilizadora.",
+    "pregunta": "¿Qué planteamiento es más congruente con el documento y requiere confirmación con la guía local vigente?",
+    "opciones": [
+      "Prolongar rutinariamente hasta las 41 semanas",
+      "Realizar cesárea inmediata porque toda monocorionicidad contraindica el parto vaginal",
+      "Esperar hasta las 39 semanas en todos los casos sin excepción",
+      "Planificar el nacimiento alrededor de las 36 semanas, individualizando el momento y la vía según el contexto",
+      "Finalizar a las 28 semanas aunque no exista complicación"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF propone parto electivo desde las 36 semanas para gemelos monocoriales. Las guías pueden diferir ligeramente en el intervalo recomendado, por lo que debe seguirse la guía vigente y considerar las condiciones maternas y fetales. La monocorionicidad por sí sola no significa que toda paciente requiera cesárea.",
+    "perlaENARM": "La corionicidad modifica el calendario del nacimiento, pero no determina por sí sola la vía del parto.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 9.",
+      "NICE. Twin and Triplet Pregnancy, NG137.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-627",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Embarazo triple",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el momento de nacimiento propuesto para embarazo triple no complicado y la necesidad de individualización.",
+    "caso": "Gestante de 34 semanas con embarazo triple, sin trabajo de parto, con crecimiento y bienestar fetal estables, se encuentra en un centro con capacidad neonatal adecuada.",
+    "pregunta": "¿Qué estrategia de planificación concuerda con el documento?",
+    "opciones": [
+      "Esperar de forma rutinaria hasta las 40 semanas",
+      "Planificar el nacimiento alrededor de las 35 semanas según el esquema del PDF y las condiciones clínicas",
+      "Indicar que no existe riesgo adicional frente al embarazo único",
+      "Finalizar obligatoriamente a las 28 semanas",
+      "Esperar hasta que uno de los fetos presente muerte intrauterina"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF señala parto electivo desde las 35 semanas para embarazo triple, con adaptación a las condiciones maternas y fetales. Los embarazos triples presentan un riesgo alto de prematuridad y complicaciones neonatales, por lo que la programación debe realizarse en un centro con recursos apropiados. Las guías contemporáneas y la situación clínica determinan el momento exacto.",
+    "perlaENARM": "El embarazo triple requiere planificación anticipada del nacimiento; no se extrapola el calendario de un embarazo único.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, páginas 2 y 9.",
+      "NICE. Twin and Triplet Pregnancy, NG137."
+    ]
+  },
+  {
+    "id": "OBS-628",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Vía de nacimiento según presentación",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar la vía del nacimiento en embarazo gemelar según presentación del primer feto, condiciones obstétricas y experiencia del equipo.",
+    "caso": "Gestante de 37 semanas con embarazo gemelar bicorial biamniótico presenta al primer feto en presentación podálica y al segundo en presentación cefálica. No hay anomalías estructurales y ambos fetos tienen peso estimado apropiado.",
+    "pregunta": "¿Qué vía de nacimiento recomienda el esquema del documento para esta configuración?",
+    "opciones": [
+      "Parto vaginal obligatorio porque el segundo feto está cefálico",
+      "Inducción ambulatoria sin monitorización",
+      "Cesárea, ya que el primer feto no está en presentación cefálica",
+      "Esperar hasta las 41 semanas para que el primer feto cambie de presentación",
+      "Versión cefálica externa obligatoria durante el trabajo de parto"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF señala como indicación de cesárea la presentación no cefálica del primer feto. La vía de nacimiento debe definirse según presentación, pesos estimados, condiciones obstétricas y experiencia del equipo. En embarazos gemelares seleccionados con primer feto cefálico puede considerarse parto vaginal en un entorno preparado para manejar al segundo gemelo.",
+    "perlaENARM": "En la decisión sobre vía de nacimiento de gemelos, la presentación del primer feto es determinante.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 9.",
+      "NICE. Twin and Triplet Pregnancy, NG137.",
+      "ACOG. Multifetal Gestations."
+    ]
+  },
+  {
+    "id": "OBS-629",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Parto vaginal de gemelos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer las condiciones necesarias para considerar parto vaginal en embarazo gemelar a término.",
+    "caso": "Gestante de 37 semanas con embarazo gemelar bicorial biamniótico tiene ambos fetos en presentación cefálica, pesos estimados concordantes y ausencia de contraindicaciones obstétricas. Se encuentra en un hospital con obstetra experimentado y capacidad de cesárea urgente.",
+    "pregunta": "¿Qué opción de nacimiento puede ofrecerse tras consejería informada?",
+    "opciones": [
+      "Parto vaginal planificado con monitorización continua y capacidad inmediata de intervención obstétrica",
+      "Cesárea obligatoria en todos los embarazos gemelares",
+      "Parto domiciliario sin monitorización",
+      "Inducción sin comprobar presentación ni estimación de peso",
+      "Esperar hasta las 42 semanas por la concordancia fetal"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "En gemelos seleccionados, especialmente cuando el primer feto está cefálico y existe experiencia obstétrica y capacidad de intervención urgente, puede ofrecerse parto vaginal. La decisión requiere consejería, evaluación de ambos fetos y monitorización intraparto. La cesárea se reserva para indicaciones obstétricas o situaciones en las que el parto vaginal no sea apropiado.",
+    "perlaENARM": "Embarazo gemelar no significa cesárea automática: selección adecuada, presentación, experiencia y capacidad de respuesta son esenciales.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 9 y anexo de la página 11.",
+      "NICE. Twin and Triplet Pregnancy, NG137.",
+      "ACOG. Multifetal Gestations."
+    ]
+  },
+  {
+    "id": "OBS-630",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Segundo gemelo no cefálico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Valorar la presentación del segundo gemelo y la experiencia obstétrica al planear el nacimiento.",
+    "caso": "Paciente de 37 semanas con gemelos bicoriales biamnióticos tiene al primer feto cefálico y al segundo en presentación transversa. El peso estimado de ambos es de 2,500 g y 2,650 g, respectivamente. El hospital cuenta con obstetra entrenado en maniobras para el segundo gemelo y quirófano disponible.",
+    "pregunta": "¿Qué factor debe pesar de manera importante en la decisión de permitir un parto vaginal planificado?",
+    "opciones": [
+      "El sexo de los fetos",
+      "La presencia de dos placentas como garantía de parto vaginal seguro",
+      "La edad materna como único determinante",
+      "La experiencia del equipo, las condiciones obstétricas, la estimación de peso y la capacidad de conversión urgente a cesárea",
+      "La ausencia de contracciones antes del ingreso"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La presentación no cefálica del segundo gemelo no excluye necesariamente el parto vaginal si el primero está cefálico, la paciente cumple criterios de selección y existe experiencia para manejar al segundo gemelo. La decisión depende de la situación clínica, la estimación de peso, las preferencias informadas y la capacidad de intervención urgente. La política local y las guías vigentes deben orientar la conducta.",
+    "perlaENARM": "En gemelos, la presentación del primero y la experiencia del equipo son claves; el segundo gemelo puede cambiar de posición tras el nacimiento del primero.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, páginas 9 y 11.",
+      "NICE. Twin and Triplet Pregnancy, NG137.",
+      "ACOG. Multifetal Gestations."
+    ]
+  },
+  {
+    "id": "OBS-631",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Gemelos unidos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la división embrionaria tardía con gemelos unidos y planear evaluación anatómica especializada.",
+    "caso": "Ultrasonido de 18 semanas muestra gemelos con fusión torácica y continuidad aparente de estructuras cardiacas. Ambos fetos presentan actividad cardiaca y la familia solicita información pronóstica.",
+    "pregunta": "¿Qué enfoque diagnóstico es prioritario?",
+    "opciones": [
+      "Clasificar el embarazo como bicorial biamniótico sin estudios adicionales",
+      "Considerar gemelos unidos por división embrionaria incompleta tardía y realizar evaluación anatómica detallada, incluida la cardiaca, en medicina fetal",
+      "Afirmar que ambos fetos pueden separarse quirúrgicamente sin conocer la anatomía",
+      "Indicar que la fusión torácica descarta cualquier riesgo perinatal",
+      "Omitir la consejería porque no existe posibilidad de tomar decisiones prenatales"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Los gemelos unidos se asocian con división incompleta y tardía de un embrión monocigótico. La evaluación debe definir las estructuras compartidas, especialmente el corazón, el hígado y otros órganos, así como el pronóstico y las opciones de atención. La consejería debe ser multidisciplinaria, no directiva y adaptada a los hallazgos.",
+    "perlaENARM": "Gemelos unidos: división incompleta tardía; la anatomía de los órganos compartidos, especialmente el corazón, determina gran parte del pronóstico.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 1.",
+      "Williams Obstetrics, 26.ª edición.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-632",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Discordancia de sexo fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Utilizar la discordancia de sexo fetal como elemento auxiliar para establecer corionicidad.",
+    "caso": "Gestante de 19 semanas acude con ultrasonido que identifica un feto masculino y otro femenino. El informe inicial describe una sola masa placentaria aparente, pero no documenta claramente la inserción de la membrana intergemelar.",
+    "pregunta": "¿Qué inferencia puede hacerse sobre la corionicidad?",
+    "opciones": [
+      "La discordancia de sexo demuestra embarazo monocorial monoamniótico",
+      "La discordancia de sexo confirma gemelos monocigóticos",
+      "La discordancia de sexo favorece bicorialidad, habitualmente dicigoticidad, aunque debe integrarse con la ecografía y las excepciones biológicas",
+      "La discordancia de sexo excluye embarazo gemelar",
+      "Una masa placentaria aparente invalida el hallazgo de sexos discordantes"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF incluye el sexo fetal discordante como dato que puede contribuir a determinar corionicidad cuando la paciente inicia control después de las 14 semanas. Habitualmente sugiere gemelos dicigóticos bicoriales, pero la clasificación debe apoyarse en la evaluación ecográfica completa y reconocer excepciones infrecuentes.",
+    "perlaENARM": "Sexo fetal discordante suele favorecer dicigocidad y bicorialidad, pero no sustituye la evaluación ecográfica formal.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 3.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-633",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Diabetes gestacional",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer que el embarazo múltiple incrementa la carga de riesgo metabólico y requiere tamizaje prenatal apropiado.",
+    "caso": "Paciente de 34 años con embarazo triple de 24 semanas presenta obesidad pregestacional y antecedente familiar de diabetes tipo 2. No ha realizado tamizaje de diabetes gestacional.",
+    "pregunta": "¿Qué aspecto de la atención prenatal debe incorporarse?",
+    "opciones": [
+      "Omitir el tamizaje porque la gestación es múltiple",
+      "Indicar insulina a todas las pacientes con embarazo triple sin medir glucosa",
+      "Esperar hasta el puerperio para evaluar glucemia",
+      "Realizar tamizaje de diabetes gestacional conforme a la ventana y estrategia recomendadas por la guía vigente",
+      "Usar únicamente el peso fetal para diagnosticar diabetes gestacional"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF señala mayor riesgo de diabetes gestacional y otras complicaciones maternas en embarazo múltiple. El tamizaje debe realizarse conforme a las recomendaciones vigentes y a los factores de riesgo individuales. El embarazo múltiple no establece por sí mismo el diagnóstico ni justifica tratamiento farmacológico sin evaluación.",
+    "perlaENARM": "El embarazo múltiple aumenta la carga de riesgo materno; realiza el tamizaje metabólico indicado, sin diagnosticar por el número de fetos.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 2.",
+      "ACOG. Gestational Diabetes Mellitus.",
+      "NOM-007-SSA2-2016, atención de la mujer durante el embarazo, parto y puerperio."
+    ]
+  },
+  {
+    "id": "OBS-634",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Anemia materna",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Relacionar el embarazo múltiple con mayor demanda de hierro y riesgo de anemia materna.",
+    "caso": "Gestante de 28 semanas con embarazo gemelar refiere fatiga y disnea de esfuerzo. La hemoglobina es de 9.4 g/dL y la ferritina está disminuida. No presenta sangrado activo.",
+    "pregunta": "¿Qué enfoque clínico es el más adecuado para este hallazgo?",
+    "opciones": [
+      "Considerar anemia ferropénica probable, evaluar gravedad y tolerancia, e iniciar reposición de hierro según el contexto",
+      "Atribuir la anemia a hemodilución fisiológica sin estudiar el hierro",
+      "Indicar transfusión obligatoria por cualquier hemoglobina menor de 10 g/dL",
+      "Suspender los suplementos prenatales porque el embarazo es gemelar",
+      "Esperar hasta el parto para tratar la deficiencia"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El embarazo múltiple aumenta las necesidades nutricionales y el riesgo de anemia materna. La hemoglobina baja con ferritina disminuida es compatible con deficiencia de hierro. El tratamiento depende de la gravedad, la respuesta al hierro oral, la tolerancia, la edad gestacional y la necesidad de reposición intravenosa; la transfusión se reserva para indicaciones clínicas específicas.",
+    "perlaENARM": "En embarazo múltiple, la anemia requiere confirmación etiológica y tratamiento oportuno; la transfusión no se indica solo por una cifra aislada.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 2.",
+      "ACOG. Anemia in Pregnancy.",
+      "NOM-007-SSA2-2016, atención de la mujer durante el embarazo, parto y puerperio."
+    ]
+  },
+  {
+    "id": "OBS-635",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Hemorragia posparto",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar la sobredistensión uterina del embarazo múltiple con atonía uterina y hemorragia posparto.",
+    "caso": "Paciente con embarazo gemelar presenta parto vaginal de ambos recién nacidos. Inmediatamente después del alumbramiento presenta sangrado abundante y útero aumentado de tamaño, blando y mal contraído.",
+    "pregunta": "¿Qué mecanismo explica mejor el cuadro y qué prioridad terapéutica debe activarse?",
+    "opciones": [
+      "Rotura hepática espontánea como explicación única del sangrado vaginal",
+      "Coagulopatía hereditaria confirmada por el número de fetos",
+      "Atonía uterina asociada con sobredistensión, que requiere manejo inmediato de hemorragia posparto",
+      "Hemorragia fisiológica que no requiere intervención",
+      "Infección puerperal como causa inmediata universal"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La sobredistensión uterina por embarazo múltiple aumenta el riesgo de atonía uterina y hemorragia posparto. El útero blando y mal contraído orienta a atonía, pero deben evaluarse simultáneamente otras causas de hemorragia. La atención exige activar el protocolo de hemorragia posparto, administrar uterotónicos apropiados y tratar la causa sin demora.",
+    "perlaENARM": "Embarazo múltiple: sobredistensión uterina y mayor riesgo de atonía. El sangrado abundante posparto es una urgencia.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 2.",
+      "WHO. Recommendations for the Prevention and Treatment of Postpartum Haemorrhage.",
+      "NOM-007-SSA2-2016, atención de la mujer durante el embarazo, parto y puerperio."
+    ]
+  },
+  {
+    "id": "OBS-636",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Intervalo entre el nacimiento de los gemelos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la importancia de reevaluar al segundo gemelo tras el nacimiento del primero.",
+    "caso": "Durante un parto vaginal planificado de gemelos, nace el primer feto en presentación cefálica. Diez minutos después, el segundo gemelo permanece intrauterino, cambia de presentación y la frecuencia cardiaca fetal comienza a mostrar desaceleraciones recurrentes.",
+    "pregunta": "¿Qué principio debe guiar la conducta obstétrica inmediata?",
+    "opciones": [
+      "Esperar siempre más de una hora entre los nacimientos",
+      "Reevaluar presentación y bienestar del segundo gemelo y decidir la intervención oportuna según la situación fetal y la experiencia del equipo",
+      "Dar por terminado el parto porque el primer gemelo ya nació",
+      "Evitar monitorización fetal después del nacimiento del primero",
+      "Realizar maniobras externas sin valoración ecográfica ni monitorización"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Después del nacimiento del primer gemelo, el segundo puede cambiar de presentación y requiere evaluación inmediata de posición, frecuencia cardiaca y condiciones obstétricas. La decisión de continuar el parto vaginal o realizar intervención depende del estado fetal, la presentación, la experiencia del equipo y la capacidad de respuesta urgente. El anexo del PDF destaca la importancia de reevaluar al segundo gemelo y de no prolongar innecesariamente el intervalo cuando hay compromiso.",
+    "perlaENARM": "El nacimiento del primer gemelo no termina la vigilancia intraparto: reevalúa inmediatamente al segundo y actúa ante compromiso fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 11.",
+      "NICE. Twin and Triplet Pregnancy, NG137.",
+      "ACOG. Multifetal Gestations."
+    ]
+  },
+  {
+    "id": "OBS-637",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Vigilancia de crecimiento",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Aplicar biometría seriada para detectar discordancia de crecimiento en embarazo gemelar.",
+    "caso": "Gestante de 22 semanas con gemelos bicoriales biamnióticos presenta biometría normal de ambos fetos. El equipo planea el seguimiento de crecimiento y desea detectar tempranamente discordancia ponderal.",
+    "pregunta": "¿Qué estrategia de imagen corresponde al enfoque del documento?",
+    "opciones": [
+      "Calcular el peso fetal únicamente después de las 36 semanas",
+      "Usar solo la circunferencia cefálica de uno de los fetos",
+      "Evitar comparar biometrías porque los gemelos siempre crecen igual",
+      "Estimar la discordancia mediante parámetros biométricos por ultrasonido desde las 20 semanas y repetir según la corionicidad y el protocolo de vigilancia",
+      "Sustituir el ultrasonido por mediciones de altura uterina"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF señala que la discordancia de crecimiento puede reconocerse mediante parámetros biométricos por ultrasonido a partir de las 20 semanas. La periodicidad de los estudios depende de la corionicidad y de las guías vigentes. Si aparece discordancia, deben integrarse percentiles, líquido amniótico, Doppler y otros signos de compromiso.",
+    "perlaENARM": "La biometría seriada permite detectar discordancia; en monocorialidad, el seguimiento debe incluir complicaciones vasculares específicas.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 5.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy.",
+      "NICE. Twin and Triplet Pregnancy, NG137."
+    ]
+  },
+  {
+    "id": "OBS-638",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Factores de riesgo y reproducción asistida",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar factores asociados a embarazo múltiple y explicar el papel de la reproducción asistida.",
+    "caso": "Mujer de 37 años con infertilidad de varios años logra embarazo después de un tratamiento de reproducción asistida. El ultrasonido del primer trimestre identifica tres fetos vivos.",
+    "pregunta": "¿Qué explicación epidemiológica concuerda con el documento?",
+    "opciones": [
+      "La reproducción asistida puede aumentar la incidencia de embarazos múltiples, y la edad materna también forma parte de los factores asociados",
+      "El embarazo triple excluye una relación con tratamientos de fertilidad",
+      "La edad materna no tiene ninguna relación con la incidencia de embarazo múltiple",
+      "Los embarazos múltiples ocurren únicamente por herencia paterna",
+      "La obesidad elimina el riesgo de gestación múltiple"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF relaciona el aumento de la incidencia de embarazos múltiples con las técnicas de reproducción asistida y menciona como factores asociados las edades extremas, multiparidad, herencia y obesidad. La consejería debe incluir la clasificación de corionicidad, el riesgo de prematuridad y la necesidad de seguimiento maternofetal especializado.",
+    "perlaENARM": "Reproducción asistida y edad materna son factores asociados a embarazo múltiple; la corionicidad debe determinarse pronto.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, página 2.",
+      "ACOG. Multifetal Gestations.",
+      "NICE. Twin and Triplet Pregnancy, NG137."
+    ]
+  },
+  {
+    "id": "OBS-639",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Discordancia de líquido amniótico y crecimiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar discordancia de líquido amniótico y peso fetal para identificar una posible complicación placentaria en gemelos monocoriales.",
+    "caso": "Gestante de 26 semanas con embarazo monocorial biamniótico presenta diferencia de peso fetal estimado de 24%. El gemelo pequeño tiene oligohidramnios y vejiga poco visible; el gemelo mayor presenta polihidramnios. El Doppler de arteria umbilical del gemelo pequeño está alterado.",
+    "pregunta": "¿Qué problema debe priorizarse en la valoración especializada?",
+    "opciones": [
+      "Variación fisiológica sin necesidad de repetir ultrasonido",
+      "Diabetes gestacional como única explicación de todos los hallazgos",
+      "Síndrome de transfusión feto-fetal y posible restricción selectiva del crecimiento, con evaluación de Doppler y estadio de la enfermedad",
+      "Placenta previa confirmada por la diferencia de peso",
+      "Embarazo bicorial oculto por definición"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La combinación de monocorionicidad, oligohidramnios de un saco, polihidramnios del otro y vejiga poco visible en el gemelo pequeño es sugestiva de STFF. La discordancia de peso y el Doppler alterado también obligan a evaluar restricción selectiva del crecimiento. Ambas condiciones pueden coexistir y requieren valoración por medicina fetal para establecer gravedad y plan terapéutico.",
+    "perlaENARM": "En monocorialidad, discordancia de líquido y crecimiento exige diferenciar STFF, restricción selectiva y su coexistencia.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, páginas 6-7 y anexo de la página 11.",
+      "SMFM. Consult Series: Twin-Twin Transfusion Syndrome.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-640",
+    "especialidad": "Obstetricia",
+    "tema": "Embarazo múltiple",
+    "subtema": "Integración de corionicidad, crecimiento y nacimiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar corionicidad, discordancia ponderal, Doppler y edad gestacional en la planificación de la atención de embarazo gemelar complicado.",
+    "caso": "Gestante de 31 semanas con embarazo monocorial biamniótico presenta un gemelo con peso estimado por debajo del percentil 10, discordancia de 27%, flujo diastólico ausente intermitente en la arteria umbilical y líquido amniótico discordante. La madre está estable, pero la evaluación fetal muestra riesgo de deterioro.",
+    "pregunta": "¿Qué plan global responde mejor a la complejidad del caso?",
+    "opciones": [
+      "Dar seguimiento ambulatorio mensual porque la madre no tiene hipertensión",
+      "Indicar reposo domiciliario y evitar estudios Doppler adicionales",
+      "Esperar obligatoriamente hasta las 37 semanas independientemente de la evolución",
+      "Realizar cesárea inmediata sin valorar el estado materno, la evaluación fetal ni los recursos disponibles",
+      "Referir o manejar en un centro de medicina fetal, caracterizar las complicaciones placentarias con Doppler y vigilancia seriada, y decidir el momento y vía del nacimiento según la evolución maternofetal"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La combinación de monocorionicidad, restricción selectiva del crecimiento, discordancia de líquido y flujo diastólico ausente intermitente implica riesgo de deterioro fetal y requiere manejo especializado. Deben evaluarse STFF y restricción selectiva, vigilar ambos fetos y planear el nacimiento según la evolución Doppler, la edad gestacional, el bienestar fetal y la condición materna. No existe una edad gestacional única que sea segura para todos los casos complicados.",
+    "perlaENARM": "En gemelos monocoriales complicados, la decisión depende de la interacción entre circulación placentaria, crecimiento, Doppler, edad gestacional y bienestar de ambos fetos.",
+    "bibliografia": [
+      "PDF proporcionado: 12. Embarazo Múltiple, páginas 6-9 y anexo de la página 11.",
+      "ISUOG. Practice Guidelines: Role of Ultrasound in Twin Pregnancy.",
+      "SMFM. Consult Series: Twin-Twin Transfusion Syndrome.",
+      "NICE. Twin and Triplet Pregnancy, NG137."
+    ]
+  },
+  {
+    "id": "OBS-641",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Clasificación según antecedentes obstétricos",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Distinguir cesárea primaria de cesárea iterativa y reconocer la importancia del número y tipo de incisiones uterinas previas.",
+    "caso": "Paciente de 32 años, G3P2, con dos cesáreas previas, ingresa a las 38 semanas para planificación del nacimiento. Los expedientes confirman que ambas intervenciones fueron realizadas mediante incisión segmentaria transversa y no existen antecedentes de parto vaginal.",
+    "pregunta": "¿Cómo se clasifica la intervención propuesta de acuerdo con los antecedentes obstétricos?",
+    "opciones": [
+      "Cesárea primaria",
+      "Cesárea de urgencia por definición",
+      "Cesárea electiva primaria",
+      "Cesárea iterativa",
+      "Cesárea extraperitoneal"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La cesárea iterativa es aquella realizada en una paciente con antecedente de una o más cesáreas. El documento clasifica como primaria la primera cesárea y como iterativa la que se practica después de una intervención previa. Sin embargo, el antecedente de dos cesáreas no debe interpretarse aisladamente como una regla universal de imposibilidad de parto vaginal: la elegibilidad depende de las guías, el tipo de cicatriz, los antecedentes y la capacidad de respuesta del hospital.",
+    "perlaENARM": "Primera cesárea: primaria. Con antecedente de cesárea: iterativa. Para decidir la vía del nacimiento, revisa también el tipo de incisión uterina previa.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 2.",
+      "ACOG. Vaginal Birth After Cesarean Delivery.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline 45."
+    ]
+  },
+  {
+    "id": "OBS-642",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Cesárea urgente y tiempo de respuesta",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar la cesárea urgente de la electiva y priorizar la respuesta ante compromiso materno-fetal agudo.",
+    "caso": "Gestante de 39 semanas en trabajo de parto presenta bradicardia fetal persistente que no se resuelve con las medidas iniciales. La exploración revela ausencia de progresión del nacimiento y el equipo sospecha compromiso fetal agudo.",
+    "pregunta": "¿Qué característica define la clasificación de la cesárea indicada en este escenario?",
+    "opciones": [
+      "Se programa para una fecha elegida antes del inicio del trabajo de parto",
+      "Se realiza para resolver una complicación materna o fetal crítica, con prioridad determinada por la urgencia clínica",
+      "Se clasifica como primaria únicamente porque la paciente está en trabajo de parto",
+      "Solo puede realizarse después de 30 minutos de observación",
+      "Es electiva si la paciente no presenta hipertensión"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF distingue la cesárea urgente, destinada a resolver o prevenir una complicación crítica, de la electiva, programada antes del inicio del trabajo de parto por una indicación médica. La prioridad debe basarse en la situación clínica; una bradicardia fetal persistente puede requerir nacimiento inmediato. El límite de 30 minutos que aparece en el material no debe aplicarse como una espera obligatoria ni como regla universal para todas las urgencias.",
+    "perlaENARM": "La urgencia se determina por el riesgo materno-fetal, no por el horario ni por el hecho de que la cesárea sea primaria o iterativa.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 2.",
+      "NICE. Caesarean Birth, NG192.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management."
+    ]
+  },
+  {
+    "id": "OBS-643",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Incisión abdominal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Comparar las incisiones abdominales infraumbilical media y Pfannenstiel según exposición, rapidez y contexto quirúrgico.",
+    "caso": "Paciente con hemorragia obstétrica grave requiere nacimiento quirúrgico expedito. El equipo anticipa necesidad de acceso amplio y rápida entrada a la cavidad abdominal.",
+    "pregunta": "¿Qué característica de la incisión abdominal infraumbilical media explica que pueda considerarse en determinados escenarios urgentes?",
+    "opciones": [
+      "Siempre produce menos dolor que la incisión transversa",
+      "Es exclusivamente estética y no permite ampliar el campo",
+      "Evita toda posibilidad de lesión intestinal",
+      "Está indicada únicamente en cesáreas electivas sin complicaciones",
+      "Permite un acceso abdominal rápido y amplio, aunque su resultado estético suele ser menos favorable"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF describe la incisión infraumbilical media como un abordaje sencillo, rápido y con escaso sangrado, cuya desventaja principal es estética. La elección del abordaje depende de la urgencia, la anatomía, las cirugías previas y la experiencia quirúrgica. La incisión Pfannenstiel suele preferirse en muchas cesáreas programadas, pero no existe una prohibición absoluta de utilizarla en cualquier urgencia.",
+    "perlaENARM": "La incisión media facilita un acceso rápido y amplio; la Pfannenstiel ofrece ventajas estéticas y suele asociarse con menor dolor posoperatorio.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 2.",
+      "Williams Obstetrics, 26.ª edición.",
+      "NICE. Caesarean Birth, NG192."
+    ]
+  },
+  {
+    "id": "OBS-644",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Incisión uterina segmentaria transversa",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar las ventajas de la incisión uterina segmentaria transversa y reconocer sus posibles complicaciones.",
+    "caso": "Gestante de término sin placenta previa ni anomalías uterinas requiere cesárea por una indicación obstétrica. El segmento uterino inferior está adecuadamente desarrollado y accesible.",
+    "pregunta": "¿Qué tipo de incisión uterina suele preferirse en este contexto?",
+    "opciones": [
+      "Incisión segmentaria transversa tipo Kerr",
+      "Incisión corporal clásica longitudinal",
+      "Incisión fúndica longitudinal",
+      "Incisión extraperitoneal paravesical",
+      "Incisión segmentaria longitudinal tipo Beck en todos los casos"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La incisión segmentaria transversa tipo Kerr es la técnica uterina más utilizada en la cesárea habitual. Sus ventajas incluyen menor sangrado, reparación relativamente sencilla y menor riesgo de ruptura uterina en embarazos posteriores en comparación con una incisión corporal clásica. La elección definitiva depende de la anatomía, la placenta, la presentación fetal y la urgencia.",
+    "perlaENARM": "La incisión uterina tipo Kerr es la habitual cuando el segmento inferior permite un acceso seguro.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 3.",
+      "Williams Obstetrics, 26.ª edición.",
+      "ACOG. Vaginal Birth After Cesarean Delivery."
+    ]
+  },
+  {
+    "id": "OBS-645",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Incisión uterina corporal clásica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la incisión uterina corporal clásica con el riesgo de ruptura uterina y las implicaciones reproductivas futuras.",
+    "caso": "Una paciente de 30 años presenta expediente quirúrgico que documenta una cesárea previa mediante incisión longitudinal en el cuerpo uterino. Actualmente cursa un nuevo embarazo de 36 semanas y pregunta si puede intentar parto vaginal.",
+    "pregunta": "¿Qué consideración tiene mayor relevancia para planificar el nacimiento?",
+    "opciones": [
+      "La cicatriz corporal clásica no influye en la vía del nacimiento",
+      "El antecedente permite inducción rutinaria con misoprostol",
+      "La incisión clásica implica riesgo importante de ruptura uterina y generalmente contraindica la prueba de trabajo de parto",
+      "La paciente debe esperar hasta las 42 semanas para iniciar trabajo de parto espontáneo",
+      "El tipo de cicatriz solo afecta el aspecto estético abdominal"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La incisión clásica es longitudinal en el cuerpo uterino y se asocia con mayor riesgo de ruptura en una gestación posterior que la incisión segmentaria transversa. Por ello, generalmente no se ofrece prueba de trabajo de parto y se planifica cesárea antes del inicio espontáneo del trabajo de parto. El momento exacto se individualiza según el expediente, la edad gestacional y las recomendaciones vigentes.",
+    "perlaENARM": "Cicatriz uterina corporal clásica: generalmente contraindica el trabajo de parto por el riesgo de ruptura uterina.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, páginas 3 y 6.",
+      "ACOG. Vaginal Birth After Cesarean Delivery.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline 45."
+    ]
+  },
+  {
+    "id": "OBS-646",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Incisión segmentaria longitudinal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar la incisión segmentaria longitudinal de la clásica y reconocer las circunstancias que condicionan su elección.",
+    "caso": "Durante una cesárea pretérmino, el segmento uterino inferior está poco desarrollado y la extracción fetal resulta técnicamente difícil. El cirujano considera ampliar la incisión uterina longitudinalmente dentro del segmento inferior.",
+    "pregunta": "¿Qué descripción corresponde a la incisión segmentaria longitudinal tipo Beck según el material proporcionado?",
+    "opciones": [
+      "Incisión transversal exclusivamente en el fondo uterino",
+      "Incisión extraperitoneal para evitar de forma garantizada las infecciones",
+      "Incisión cutánea transversal sin apertura del miometrio",
+      "Incisión longitudinal del segmento inferior, utilizada en situaciones seleccionadas como algunos casos pretérmino o de situación transversa",
+      "Incisión clásica corporal que siempre permite un parto vaginal posterior"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF distingue la incisión segmentaria longitudinal tipo Beck de la clásica corporal: la primera se localiza en el segmento inferior, mientras que la clásica se realiza en el cuerpo uterino. El material menciona situaciones seleccionadas como pretérmino, gemelar o situación transversa, pero la elección requiere valoración anatómica y quirúrgica. La repercusión reproductiva depende de la extensión y localización real de la incisión.",
+    "perlaENARM": "No confundas tipo Beck, longitudinal en segmento inferior, con la incisión clásica corporal, que tiene mayor repercusión para embarazos futuros.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 3.",
+      "Williams Obstetrics, 26.ª edición."
+    ]
+  },
+  {
+    "id": "OBS-647",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Placenta previa y abordaje quirúrgico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Planificar el abordaje de cesárea ante placenta previa y posible espectro de placenta acreta.",
+    "caso": "Gestante de 35 semanas con placenta previa completa presenta sangrado recurrente. Tiene antecedente de dos cesáreas y ultrasonido con signos sugestivos de invasión placentaria. Se planea intervención en un centro especializado.",
+    "pregunta": "¿Qué principio debe guiar la planificación quirúrgica?",
+    "opciones": [
+      "Realizar una incisión uterina transplacentaria de rutina para acortar el procedimiento",
+      "Planificar el abordaje y la incisión uterina con base en la localización placentaria, el riesgo de acretismo y la necesidad de un equipo multidisciplinario",
+      "Intentar siempre el alumbramiento manual completo antes de disponer de sangre",
+      "Considerar que una placenta previa excluye el espectro de placenta acreta",
+      "Elegir la incisión cutánea únicamente por razones estéticas"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La placenta previa con cesáreas previas aumenta la sospecha de espectro de placenta acreta. La planificación debe incluir localización placentaria, evaluación de invasión, disponibilidad de hemoderivados, equipo multidisciplinario y estrategia para evitar incidir la placenta cuando sea posible. La incisión uterina no se determina por una regla única, sino por la anatomía y el plan quirúrgico.",
+    "perlaENARM": "Placenta previa más cesáreas previas: sospecha espectro de placenta acreta y planifica el nacimiento en un centro con recursos especializados.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, páginas 3-4.",
+      "ACOG/SMFM. Obstetric Care Consensus: Placenta Accreta Spectrum.",
+      "NICE. Caesarean Birth, NG192."
+    ]
+  },
+  {
+    "id": "OBS-648",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Indicaciones absolutas y relativas",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Clasificar las indicaciones de cesárea y evitar convertir factores relativos en indicaciones automáticas.",
+    "caso": "Paciente de 37 semanas con diabetes gestacional controlada, feto en presentación cefálica, bienestar fetal normal y estimación de peso sin macrosomía importante. No existe otra complicación obstétrica.",
+    "pregunta": "¿Cuál es el principio correcto para decidir la vía del nacimiento?",
+    "opciones": [
+      "La diabetes gestacional obliga siempre a realizar cesárea",
+      "Toda enfermedad hipertensiva del embarazo constituye una indicación absoluta de cesárea",
+      "La cesárea debe realizarse porque cualquier factor de riesgo elimina la posibilidad de parto vaginal",
+      "La clasificación del PDF debe aplicarse sin valorar gravedad ni condiciones clínicas",
+      "La diabetes gestacional por sí sola no obliga a cesárea; deben integrarse control metabólico, peso fetal estimado y otras indicaciones obstétricas"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF ubica la diabetes mellitus entre las indicaciones relativas, pero la conducta contemporánea debe individualizarse. Una diabetes controlada con presentación cefálica y sin otra contraindicación no exige automáticamente cesárea. La vía se determina con la situación materno-fetal, la estimación de peso, las condiciones obstétricas y las preferencias informadas.",
+    "perlaENARM": "No toda comorbilidad materna indica cesárea: distingue la enfermedad de la indicación obstétrica concreta.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 4.",
+      "ACOG. Gestational Diabetes Mellitus.",
+      "NICE. Caesarean Birth, NG192."
+    ]
+  },
+  {
+    "id": "OBS-649",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Prolapso de cordón umbilical",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el prolapso de cordón como urgencia obstétrica y aplicar medidas para reducir la compresión mientras se prepara el nacimiento.",
+    "caso": "Durante la ruptura artificial de membranas en una paciente con presentación fetal alta, se identifica el cordón umbilical por delante de la presentación. La frecuencia cardiaca fetal disminuye de forma sostenida.",
+    "pregunta": "¿Qué conjunto de medidas es prioritario?",
+    "opciones": [
+      "Mantener la presentación sin modificar y esperar la recuperación espontánea",
+      "Iniciar oxitocina para acelerar el descenso fetal",
+      "Aliviar la compresión del cordón mediante elevación manual de la presentación, activar la respuesta obstétrica urgente y preparar el nacimiento expedito",
+      "Realizar tactos vaginales repetidos sin avisar al equipo quirúrgico",
+      "Administrar únicamente antibióticos y observar durante una hora"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El prolapso de cordón con bradicardia fetal es una urgencia porque la compresión puede interrumpir la perfusión fetal. Debe aliviarse la compresión, solicitar ayuda y acelerar el nacimiento por la vía más rápida y segura. En muchos casos se requiere cesárea urgente, aunque la decisión depende de la dilatación, la estación y la posibilidad de un nacimiento vaginal inmediato.",
+    "perlaENARM": "Prolapso de cordón más alteración de la frecuencia cardiaca fetal: descomprime el cordón y acelera el nacimiento.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 4.",
+      "RCOG. Umbilical Cord Prolapse, Green-top Guideline 50.",
+      "NICE. Intrapartum Care."
+    ]
+  },
+  {
+    "id": "OBS-650",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Desproporción cefalopélvica y detención del trabajo de parto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar sospecha de desproporción cefalopélvica de una detención del trabajo de parto diagnosticada con criterios adecuados.",
+    "caso": "Primigesta de 40 semanas se encuentra en fase activa con dilatación de 6 cm. Tras varias horas de vigilancia, no presenta cambio cervical; sin embargo, las contracciones no han sido adecuadamente evaluadas y no se ha optimizado la dinámica uterina. La madre y el feto permanecen estables.",
+    "pregunta": "¿Qué aspecto debe revisarse antes de atribuir la falta de progresión a desproporción cefalopélvica?",
+    "opciones": [
+      "La presencia de caput es suficiente para diagnosticar desproporción en cualquier fase del parto",
+      "La falta de dilatación durante una hora obliga a cesárea",
+      "El peso fetal estimado aislado confirma incompatibilidad pélvica",
+      "La suficiencia de la actividad uterina, el tiempo con membranas rotas y dilatación adecuada, y los criterios actuales de detención de fase activa",
+      "La edad materna, sin valorar el trabajo de parto"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La detención de fase activa no debe diagnosticarse solo por una pausa breve en la dilatación. Es necesario valorar la dinámica uterina, la duración de la fase activa con membranas rotas y las condiciones clínicas. Los criterios contemporáneos suelen evitar el diagnóstico prematuro de detención antes de 6 cm y requieren tiempo suficiente con contracciones adecuadas o actividad uterina aumentada cuando está indicado.",
+    "perlaENARM": "Antes de diagnosticar detención o desproporción, verifica dilatación, tiempo, membranas y suficiencia de la dinámica uterina.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, páginas 1 y 4.",
+      "ACOG. First and Second Stage Labor Management.",
+      "NICE. Intrapartum Care."
+    ]
+  },
+  {
+    "id": "OBS-651",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Restricción del crecimiento fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que la restricción del crecimiento fetal requiere evaluación del bienestar y no constituye por sí sola una indicación universal de cesárea.",
+    "caso": "Gestante de 36 semanas presenta feto con peso estimado por debajo del percentil 3. El Doppler umbilical muestra flujo diastólico presente, la cardiotocografía es tranquilizadora y no hay contraindicación para parto vaginal.",
+    "pregunta": "¿Qué principio debe orientar la vía de nacimiento?",
+    "opciones": [
+      "La restricción del crecimiento exige cesárea en todos los casos",
+      "La vía y el momento del nacimiento deben individualizarse según Doppler, bienestar fetal, edad gestacional y condiciones obstétricas",
+      "Debe prolongarse el embarazo hasta las 42 semanas si no hay contracciones",
+      "El Doppler es innecesario cuando el peso está por debajo del percentil 3",
+      "La inducción está contraindicada en cualquier feto pequeño"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF incluye la restricción del crecimiento entre las indicaciones absolutas de cesárea, pero esta formulación no debe trasladarse como regla universal a la práctica contemporánea. La vía de nacimiento depende de la gravedad, el Doppler, la vigilancia fetal y las condiciones obstétricas. Algunos casos permiten inducción y parto vaginal monitorizado; otros requieren cesárea por compromiso fetal o alteraciones específicas.",
+    "perlaENARM": "Restricción del crecimiento no equivale automáticamente a cesárea: integra Doppler, edad gestacional y bienestar fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 4.",
+      "SMFM. Consult Series: Diagnosis and Management of Fetal Growth Restriction.",
+      "ISUOG. Practice Guidelines: Diagnosis and Management of Small-for-Gestational-Age Fetus and Fetal Growth Restriction."
+    ]
+  },
+  {
+    "id": "OBS-652",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Presentación pélvica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Individualizar la vía de nacimiento en presentación pélvica según factores fetales, maternos y experiencia obstétrica.",
+    "caso": "Gestante de 39 semanas presenta feto único en presentación pélvica franca. No hay anomalías estructurales identificadas y el peso fetal estimado es adecuado. La paciente pregunta si la cesárea es obligatoria.",
+    "pregunta": "¿Qué información debe formar parte de la decisión compartida?",
+    "opciones": [
+      "La presentación pélvica nunca modifica la vía del nacimiento",
+      "La cesárea es obligatoria sin excepción en cualquier presentación pélvica",
+      "El peso fetal no tiene ninguna importancia para la selección",
+      "La versión cefálica externa está contraindicada en todas las pacientes",
+      "La vía depende de criterios clínicos, elegibilidad para versión cefálica externa, experiencia con parto pélvico y recursos del centro"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF enumera la presentación pélvica como indicación absoluta de cesárea. Las guías contemporáneas recomiendan evaluar la versión cefálica externa cuando no existan contraindicaciones y considerar las circunstancias del caso. El parto vaginal pélvico puede ser opción en contextos seleccionados con protocolos y experiencia, aunque la cesárea planificada suele preferirse en muchos entornos.",
+    "perlaENARM": "Presentación pélvica a término: valora versión cefálica externa y consejería sobre la vía del nacimiento.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 4.",
+      "ACOG. External Cephalic Version.",
+      "NICE. Caesarean Birth, NG192."
+    ]
+  },
+  {
+    "id": "OBS-653",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Infección materna por VIH",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la carga viral materna y el tratamiento antirretroviral con la decisión sobre vía de nacimiento.",
+    "caso": "Gestante de 38 semanas con infección por VIH recibe tratamiento antirretroviral. La carga viral se encuentra suprimida en la evaluación reciente y no hay indicaciones obstétricas adicionales para cesárea.",
+    "pregunta": "¿Qué principio es más adecuado al decidir la vía de nacimiento?",
+    "opciones": [
+      "La infección por VIH obliga a cesárea en toda paciente, independientemente de la carga viral",
+      "Suspender el tratamiento antirretroviral antes del parto",
+      "Integrar carga viral, tratamiento, edad gestacional y guía vigente para decidir la vía del nacimiento",
+      "Indicar parto vaginal sin revisar la carga viral ni otros factores",
+      "Utilizar antibióticos intraparto como sustituto del tratamiento antirretroviral"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF incluye la infección materna por VIH entre las indicaciones de cesárea, pero la conducta contemporánea depende especialmente de la carga viral cercana al parto, el tratamiento y las recomendaciones nacionales vigentes. Una carga viral suprimida puede permitir parto vaginal en muchas pacientes. No se debe suspender el tratamiento antirretroviral por el parto.",
+    "perlaENARM": "VIH y vía del nacimiento: la carga viral materna y el tratamiento antirretroviral son determinantes; no generalices una cesárea obligatoria para todas.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 4.",
+      "NIH. Perinatal HIV Clinical Guidelines: Intrapartum HIV Care.",
+      "Guías nacionales vigentes para prevención de transmisión perinatal del VIH."
+    ]
+  },
+  {
+    "id": "OBS-654",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Complicaciones hemorrágicas",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar la hemorragia como complicación temprana de cesárea y priorizar el control de la fuente del sangrado.",
+    "caso": "Durante una cesárea por presentación pélvica se observa sangrado persistente después de la extracción fetal. La paciente presenta taquicardia y descenso de la presión arterial; el campo quirúrgico dificulta identificar de inmediato el origen.",
+    "pregunta": "¿Qué prioridad debe guiar el manejo inicial?",
+    "opciones": [
+      "Cuantificar y controlar el sangrado, activar el protocolo de hemorragia, reanimar y buscar la fuente de forma simultánea",
+      "Esperar el resultado de hemoglobina antes de iniciar cualquier medida",
+      "Cerrar la pared abdominal para reducir el tiempo quirúrgico sin identificar el origen",
+      "Administrar únicamente hierro oral",
+      "Considerar que la taquicardia es una respuesta fisiológica sin importancia"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El sangrado es una complicación temprana importante de la cesárea. La inestabilidad hemodinámica exige reanimación, activación del protocolo de hemorragia y búsqueda simultánea de la causa, incluyendo atonía, lesión vascular, extensión de la histerotomía o alteración de la coagulación. No debe retrasarse el tratamiento esperando resultados de laboratorio.",
+    "perlaENARM": "Hemorragia quirúrgica con inestabilidad: reanimación y control de la fuente deben ocurrir simultáneamente.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 5.",
+      "WHO. Recommendations for the Prevention and Treatment of Postpartum Haemorrhage.",
+      "ACOG. Postpartum Hemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-655",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Infección posoperatoria",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la presentación temporal de infección después de cesárea y realizar evaluación etiológica.",
+    "caso": "Paciente en el segundo día posterior a cesárea presenta fiebre de 38.8 °C, taquicardia y dolor uterino. La herida quirúrgica no muestra secreción evidente y la paciente refiere loquios con olor desagradable.",
+    "pregunta": "¿Qué diagnóstico debe considerarse prioritariamente?",
+    "opciones": [
+      "Endometriosis abdominal como complicación inmediata",
+      "Ruptura uterina durante el puerperio como diagnóstico único",
+      "Reacción fisiológica obligatoria al procedimiento quirúrgico",
+      "Endometritis puerperal, sin excluir infección de herida, urinaria u otras fuentes",
+      "Placenta previa persistente como causa de fiebre"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La fiebre puerperal acompañada de dolor uterino y loquios fétidos sugiere endometritis, una infección relacionada con el parto que puede aparecer después de cesárea. Deben evaluarse gravedad, factores de riesgo y otras fuentes infecciosas; si se sospecha infección sistémica, el tratamiento no debe retrasarse. El PDF menciona infección como complicación temprana, habitualmente dentro de las primeras 48–72 horas.",
+    "perlaENARM": "Fiebre puerperal más dolor uterino y loquios fétidos orienta a endometritis; descarta sepsis y otras fuentes.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 5.",
+      "WHO. Recommendations for Prevention and Treatment of Maternal Peripartum Infections.",
+      "Williams Obstetrics, 26.ª edición."
+    ]
+  },
+  {
+    "id": "OBS-656",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Lesión vesical intraoperatoria",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer factores de riesgo y hallazgos sugerentes de lesión vesical durante cesárea repetida.",
+    "caso": "Durante una tercera cesárea, el cirujano encuentra adherencias densas entre la vejiga y el segmento uterino inferior. Después de la disección se observa líquido claro en el campo y se sospecha una lesión vesical.",
+    "pregunta": "¿Qué conducta permite evitar que una lesión inadvertida cause complicaciones posoperatorias?",
+    "opciones": [
+      "Ignorar el hallazgo si la paciente tiene diuresis antes del cierre",
+      "Confirmar la lesión, valorar su extensión y repararla de acuerdo con la anatomía y la experiencia quirúrgica, con drenaje vesical cuando esté indicado",
+      "Cerrar la pared abdominal sin inspeccionar el campo",
+      "Indicar diuréticos y retirar la sonda de inmediato",
+      "Administrar anticoagulación como tratamiento específico de la lesión"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Las cesáreas previas y las adherencias aumentan el riesgo de lesión vesical. La sospecha requiere identificación y valoración de la extensión, reparación apropiada y manejo posoperatorio individualizado. Las lesiones complejas o cercanas a estructuras críticas pueden requerir apoyo urológico. La falta de reconocimiento puede ocasionar fuga urinaria, infección y fístula.",
+    "perlaENARM": "En cesárea repetida con adherencias, la disección vesical es un momento de riesgo; reconocer la lesión intraoperatoriamente mejora el manejo.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 5.",
+      "Williams Obstetrics, 26.ª edición.",
+      "ACOG. Cesarean Delivery: Surgical Techniques and Complications."
+    ]
+  },
+  {
+    "id": "OBS-657",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Complicaciones tardías y placenta acreta",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Explicar la asociación entre cesáreas previas, placenta previa y espectro de placenta acreta.",
+    "caso": "Paciente con tres cesáreas previas cursa embarazo de 28 semanas. El ultrasonido identifica placenta previa anterior y múltiples lagunas placentarias, con pérdida de la zona clara retroplacentaria.",
+    "pregunta": "¿Qué complicación debe investigarse y qué estrategia de atención se justifica?",
+    "opciones": [
+      "Placenta acreta descartada porque la paciente no presenta sangrado",
+      "Ruptura uterina ya confirmada por las lagunas placentarias",
+      "Endometritis puerperal antes del nacimiento",
+      "Atonía uterina como diagnóstico definitivo prenatal",
+      "Espectro de placenta acreta, con evaluación especializada y planificación multidisciplinaria del nacimiento"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Las cesáreas previas y la placenta previa aumentan el riesgo de espectro de placenta acreta. Los hallazgos ecográficos descritos justifican evaluación experta y planificación en un centro con recursos para hemorragia masiva y cirugía compleja. El PDF identifica el acretismo placentario y la placenta previa entre las complicaciones asociadas con cesáreas previas.",
+    "perlaENARM": "Placenta previa sobre cicatriz de cesárea más signos ecográficos sospechosos: evalúa espectro de placenta acreta antes del parto.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, páginas 4-5.",
+      "ACOG/SMFM. Obstetric Care Consensus: Placenta Accreta Spectrum.",
+      "NICE. Caesarean Birth, NG192."
+    ]
+  },
+  {
+    "id": "OBS-658",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Riesgo de adherencias y oclusión intestinal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar las cirugías abdominales previas con adherencias y complicaciones tardías.",
+    "caso": "Mujer de 36 años con antecedente de tres cesáreas consulta por dolor abdominal cólico, distensión, vómitos y ausencia de evacuaciones. La exploración sugiere obstrucción intestinal.",
+    "pregunta": "¿Qué antecedente aumenta la sospecha de obstrucción por adherencias?",
+    "opciones": [
+      "La ausencia de lactancia materna",
+      "La presentación cefálica de sus embarazos previos",
+      "Las intervenciones abdominales repetidas, que pueden producir adherencias y obstrucción intestinal",
+      "El antecedente de anemia ferropénica aislada",
+      "El uso de incisión cutánea Pfannenstiel como garantía de ausencia de adherencias"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Las adherencias posquirúrgicas pueden producir obstrucción intestinal meses o años después de una cesárea. El cuadro requiere evaluación urgente de gravedad, exploración física e imagen cuando esté indicada. La incisión cutánea no permite descartar adherencias intraperitoneales.",
+    "perlaENARM": "Dolor cólico, vómitos, distensión y obstipación en una paciente con cirugía abdominal previa: considera obstrucción por adherencias.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 5.",
+      "Williams Obstetrics, 26.ª edición."
+    ]
+  },
+  {
+    "id": "OBS-659",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Consejería sobre parto vaginal después de cesárea",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Comparar beneficios y riesgos de la prueba de trabajo de parto después de cesárea con la cesárea repetida planificada.",
+    "caso": "Paciente de 29 años con una cesárea previa segmentaria transversa por presentación pélvica, sin otras cirugías uterinas, cursa embarazo único de 38 semanas con feto cefálico. Solicita consejería sobre parto vaginal.",
+    "pregunta": "¿Qué argumento debe incluirse en la decisión compartida?",
+    "opciones": [
+      "Una cesárea previa segmentaria transversa no excluye por sí sola la posibilidad de prueba de trabajo de parto; deben valorarse los factores individuales y los recursos disponibles",
+      "Toda paciente con una cesárea previa debe someterse a una segunda cesárea",
+      "El parto vaginal después de cesárea elimina por completo el riesgo de ruptura uterina",
+      "La prueba de trabajo de parto puede realizarse sin monitorización fetal",
+      "El antecedente de presentación pélvica en el embarazo anterior contraindica el parto vaginal futuro"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Una cesárea previa con incisión segmentaria transversa puede permitir una prueba de trabajo de parto en pacientes seleccionadas. El éxito depende, entre otros factores, de la indicación previa, los antecedentes obstétricos, la evolución actual y la capacidad de realizar cesárea urgente. La prueba conlleva riesgo de ruptura uterina y requiere consejería y vigilancia apropiadas.",
+    "perlaENARM": "Una cesárea previa no significa automáticamente cesárea repetida: identifica el tipo de cicatriz y evalúa elegibilidad para TOLAC.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 5.",
+      "ACOG. Vaginal Birth After Cesarean Delivery.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline 45."
+    ]
+  },
+  {
+    "id": "OBS-660",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Candidatura para prueba de trabajo de parto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar los elementos clínicos e institucionales que determinan la elegibilidad para TOLAC.",
+    "caso": "Gestante de 39 semanas con una cesárea previa por presentación pélvica, incisión segmentaria transversa documentada y embarazo único cefálico desea parto vaginal. El hospital dispone de anestesia, quirófano y personal para intervención urgente.",
+    "pregunta": "¿Qué condición adicional es indispensable para una prueba de trabajo de parto segura?",
+    "opciones": [
+      "Que la paciente no reciba vigilancia fetal durante el trabajo de parto",
+      "Que se evite toda evaluación del progreso cervical",
+      "Que el trabajo de parto ocurra únicamente fuera del hospital",
+      "Que exista capacidad de monitorización continua y de cesárea urgente si aparece una complicación",
+      "Que se utilice misoprostol de forma rutinaria para iniciar las contracciones"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La selección para TOLAC integra la cicatriz uterina, la indicación de la cesárea anterior, los antecedentes obstétricos y la ausencia de contraindicaciones actuales. Es indispensable contar con monitorización fetal y capacidad de realizar cesárea urgente. Los requisitos concretos deben ajustarse a las guías contemporáneas, no solo a la lista del PDF.",
+    "perlaENARM": "TOLAC exige selección adecuada, consentimiento informado, monitorización y capacidad inmediata de respuesta quirúrgica.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 5.",
+      "ACOG. Vaginal Birth After Cesarean Delivery.",
+      "NICE. Caesarean Birth, NG192."
+    ]
+  },
+  {
+    "id": "OBS-661",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Inducción del parto después de cesárea",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar métodos de inducción compatibles con una cicatriz uterina segmentaria transversa.",
+    "caso": "Paciente de 38 semanas con una cesárea previa segmentaria transversa requiere inducción por una indicación obstétrica. El cuello uterino está desfavorable, las membranas están íntegras y no existe contraindicación para el nacimiento.",
+    "pregunta": "¿Qué principio debe guiar la selección del método de inducción?",
+    "opciones": [
+      "Utilizar misoprostol a dosis altas porque no afecta el riesgo de ruptura",
+      "Elegir el método según la cicatriz y el contexto; considerar métodos mecánicos y oxitocina con vigilancia, evitando misoprostol a término para maduración cervical tras cesárea",
+      "Indicar prostaglandinas sin revisar los antecedentes uterinos",
+      "Realizar inducción ambulatoria sin vigilancia fetal",
+      "Asumir que toda inducción después de cesárea es absolutamente imposible"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF recomienda oxitocina con cautela y monitorización electrónica y desaconseja prostaglandinas para maduración cervical en este contexto. Las guías actuales desaconsejan misoprostol para maduración cervical a término en pacientes con cesárea previa por el riesgo de ruptura uterina. Los métodos mecánicos y la oxitocina pueden considerarse en pacientes seleccionadas bajo vigilancia hospitalaria.",
+    "perlaENARM": "Cesárea previa a término: evita misoprostol para maduración cervical; individualiza métodos mecánicos y oxitocina con monitorización.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, páginas 5-6.",
+      "ACOG. Vaginal Birth After Cesarean Delivery.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline 45."
+    ]
+  },
+  {
+    "id": "OBS-662",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Contraindicaciones de TOLAC",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer antecedentes uterinos que contraindican habitualmente la prueba de trabajo de parto.",
+    "caso": "Paciente de 35 semanas tiene antecedente documentado de cesárea corporal clásica por situación transversa en un embarazo pretérmino. En el embarazo actual, el feto está cefálico y no hay otra complicación.",
+    "pregunta": "¿Qué plan de nacimiento debe discutirse prioritariamente?",
+    "opciones": [
+      "Prueba de trabajo de parto con oxitocina en dosis altas",
+      "Inducción con misoprostol si el cuello está desfavorable",
+      "Esperar el inicio espontáneo del parto en domicilio",
+      "Realizar versión cefálica externa para disminuir el riesgo de ruptura",
+      "Cesárea planificada antes del inicio del trabajo de parto, por el riesgo asociado a la cicatriz clásica"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Una incisión uterina clásica corporal se asocia con riesgo significativo de ruptura uterina durante el trabajo de parto y generalmente contraindica TOLAC. El nacimiento se programa antes del inicio espontáneo del parto, con momento individualizado. La presentación cefálica actual no modifica el riesgo estructural de la cicatriz uterina.",
+    "perlaENARM": "La cicatriz clásica, la incisión uterina en T y la ruptura uterina previa son antecedentes de alto riesgo para TOLAC.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 6.",
+      "ACOG. Vaginal Birth After Cesarean Delivery.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline 45."
+    ]
+  },
+  {
+    "id": "OBS-663",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Dos o más cesáreas previas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar el número de cesáreas previas dentro de la valoración individual de parto vaginal después de cesárea.",
+    "caso": "Paciente con dos cesáreas previas segmentarias transversas, sin parto vaginal previo, solicita TOLAC en un hospital con recursos quirúrgicos completos. No hay otras contraindicaciones obstétricas.",
+    "pregunta": "¿Qué enfoque es más consistente con una consejería basada en evidencia?",
+    "opciones": [
+      "Afirmar que toda paciente con dos cesáreas previas puede intentar parto vaginal sin evaluación",
+      "Indicar misoprostol para disminuir el riesgo de ruptura uterina",
+      "Explicar que la elegibilidad después de dos cesáreas requiere valoración individual, revisión de las cicatrices, preferencias informadas y recursos institucionales",
+      "Considerar que las incisiones previas no influyen en el riesgo",
+      "Excluir la cesárea repetida como opción"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF enumera dos o más cesáreas previas entre las contraindicaciones de inducción o prueba de trabajo de parto. Las guías contemporáneas no son idénticas en todas las circunstancias y permiten considerar TOLAC en algunas pacientes cuidadosamente seleccionadas con dos incisiones segmentarias transversas. La decisión debe individualizarse y realizarse en un entorno con capacidad de respuesta urgente.",
+    "perlaENARM": "Dos cesáreas previas requieren consejería especializada: no extrapoles automáticamente una regla única a todos los contextos.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 6.",
+      "ACOG. Vaginal Birth After Cesarean Delivery.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline 45."
+    ]
+  },
+  {
+    "id": "OBS-664",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Oxitocina durante TOLAC",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Aplicar vigilancia y titulación cuidadosa de oxitocina durante una prueba de trabajo de parto con cesárea previa.",
+    "caso": "Gestante de 39 semanas con una cesárea previa segmentaria transversa está en TOLAC. La actividad uterina es insuficiente y la dilatación progresa lentamente. El registro fetal es tranquilizador.",
+    "pregunta": "¿Qué estrategia puede considerarse si no existen contraindicaciones para continuar el trabajo de parto?",
+    "opciones": [
+      "Suspender toda monitorización porque la cicatriz ya está cicatrizada",
+      "Administrar misoprostol repetido hasta obtener contracciones intensas",
+      "Indicar oxitocina en dosis altas sin titulación",
+      "Considerar oxitocina cuidadosamente titulada con monitorización continua y vigilancia de signos de ruptura uterina",
+      "Realizar amniotomía y enviar a la paciente a domicilio"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La oxitocina puede utilizarse en pacientes seleccionadas con cesárea previa, pero requiere titulación cuidadosa y vigilancia materno-fetal. Deben detectarse alteraciones de la frecuencia cardiaca fetal, dolor persistente atípico, sangrado, pérdida de estación u otros signos de complicación. El PDF recomienda oxitocina con monitorización electrónica y no recomienda prostaglandinas para maduración cervical en este contexto.",
+    "perlaENARM": "Oxitocina en TOLAC no está prohibida de forma universal, pero requiere selección, titulación y monitorización apropiadas.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, páginas 1 y 6.",
+      "ACOG. Vaginal Birth After Cesarean Delivery.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline 45."
+    ]
+  },
+  {
+    "id": "OBS-665",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Signos de ruptura uterina",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar manifestaciones intraparto de ruptura uterina en una paciente con cicatriz previa.",
+    "caso": "Durante TOLAC, una paciente presenta bradicardia fetal súbita persistente, dolor abdominal continuo distinto al dolor de las contracciones y pérdida de estación de la presentación. La presión arterial comienza a descender.",
+    "pregunta": "¿Qué complicación debe sospecharse y qué conducta requiere?",
+    "opciones": [
+      "Ruptura uterina, que exige respuesta obstétrica inmediata y nacimiento quirúrgico urgente",
+      "Trabajo de parto normal con fase de transición",
+      "Hipoglucemia materna como diagnóstico suficiente",
+      "Corioamnionitis sin compromiso fetal",
+      "Distocia dinámica que debe tratarse aumentando oxitocina"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La bradicardia fetal persistente puede ser la primera manifestación de ruptura uterina. El dolor continuo, la pérdida de estación y la inestabilidad hemodinámica aumentan la sospecha. Se requiere activar una emergencia obstétrica, suspender uterotónicos y proceder a laparotomía y nacimiento urgente, con reanimación materna simultánea.",
+    "perlaENARM": "TOLAC más bradicardia fetal súbita, pérdida de estación o inestabilidad materna: sospecha ruptura uterina hasta demostrar lo contrario.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, páginas 5-6.",
+      "ACOG. Vaginal Birth After Cesarean Delivery.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline 45."
+    ]
+  },
+  {
+    "id": "OBS-666",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Predictores de éxito de TOLAC",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar factores clínicos asociados con menor probabilidad de parto vaginal después de cesárea.",
+    "caso": "Paciente de 41 años con obesidad, una cesárea previa por detención de dilatación y embarazo actual con peso fetal estimado de 4,100 g solicita TOLAC. No presenta contraindicación absoluta identificada.",
+    "pregunta": "¿Qué interpretación debe compartirse durante la consejería?",
+    "opciones": [
+      "La edad materna no influye en la probabilidad de éxito",
+      "La obesidad garantiza el fracaso de TOLAC",
+      "El peso fetal estimado demuestra de manera definitiva desproporción cefalopélvica",
+      "La cesárea previa por detención de dilatación elimina cualquier posibilidad de parto vaginal",
+      "La edad mayor de 40 años, la obesidad y un peso fetal estimado elevado pueden disminuir la probabilidad de éxito, sin constituir por sí solos una contraindicación universal"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF señala como factores de menor éxito la inducción, obesidad materna, edad mayor de 40 años y peso fetal mayor de 4,000 g. Estos factores modifican la probabilidad de éxito, pero no todos son contraindicaciones absolutas. La consejería debe equilibrar probabilidad de parto vaginal, riesgo de cesárea intraparto y preferencias informadas.",
+    "perlaENARM": "Los factores que reducen el éxito de TOLAC no son equivalentes a contraindicaciones absolutas; individualiza el riesgo.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 6.",
+      "ACOG. Vaginal Birth After Cesarean Delivery.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline 45."
+    ]
+  },
+  {
+    "id": "OBS-667",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Prueba de trabajo de parto y progresión cervical",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar el diagnóstico prematuro de detención del trabajo de parto en una paciente con cesárea previa.",
+    "caso": "Paciente con una cesárea previa segmentaria transversa está en TOLAC. Tiene dilatación de 5 cm, membranas rotas y contracciones regulares, pero no presenta cambios cervicales durante dos horas. La frecuencia cardiaca fetal y el estado materno son tranquilizadores.",
+    "pregunta": "¿Qué enfoque es más apropiado antes de decidir una cesárea por falta de progresión?",
+    "opciones": [
+      "Diagnosticar detención definitiva porque no hay cambio cervical durante dos horas",
+      "Evaluar el contexto clínico, la dinámica uterina y los criterios contemporáneos de fase activa antes de diagnosticar detención",
+      "Aumentar oxitocina sin evaluar el patrón de contracciones ni la cicatriz",
+      "Realizar una cesárea por el simple hecho de que la dilatación es menor de 6 cm",
+      "Suspender la monitorización fetal para facilitar la exploración"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La fase activa del trabajo de parto se considera generalmente a partir de 6 cm en las recomendaciones contemporáneas. Dos horas sin cambio a 5 cm no establecen por sí solas detención de fase activa. En TOLAC debe evaluarse cuidadosamente la dinámica uterina y el bienestar materno-fetal, evitando tanto la cesárea prematura como la prolongación insegura ante signos de complicación.",
+    "perlaENARM": "No diagnostiques detención de fase activa antes de aplicar criterios adecuados; en TOLAC añade vigilancia específica de ruptura uterina.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 5.",
+      "ACOG. First and Second Stage Labor Management.",
+      "ACOG. Vaginal Birth After Cesarean Delivery."
+    ]
+  },
+  {
+    "id": "OBS-668",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Profilaxis antibiótica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la profilaxis antibiótica perioperatoria como medida para reducir infección después de cesárea.",
+    "caso": "Paciente programada para cesárea electiva a las 39 semanas, sin alergias medicamentosas conocidas ni infección activa. El equipo prepara el procedimiento quirúrgico.",
+    "pregunta": "¿Qué medida preventiva debe incorporarse al protocolo perioperatorio?",
+    "opciones": [
+      "Administrar antibióticos solo si aparece fiebre después de la cirugía",
+      "Evitar profilaxis porque la cesárea es una cirugía limpia",
+      "Indicar un curso antibiótico prolongado a todas las pacientes durante dos semanas",
+      "Administrar profilaxis antibiótica antes de la incisión quirúrgica según el protocolo institucional",
+      "Sustituir la profilaxis por cultivo vaginal posoperatorio"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La profilaxis antibiótica antes de la incisión reduce el riesgo de infección de herida y endometritis poscesárea. La selección del fármaco, la dosis y los ajustes dependen de alergias, peso, circunstancias de la intervención y protocolo vigente. No se recomienda sustituir la profilaxis oportuna por antibióticos iniciados solo cuando aparecen síntomas.",
+    "perlaENARM": "En cesárea, la profilaxis antibiótica perioperatoria se administra antes de la incisión, salvo circunstancias clínicas específicas que requieran adaptación.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 5.",
+      "ACOG. Use of Prophylactic Antibiotics in Labor and Delivery.",
+      "WHO. WHO Recommendation on Prophylactic Antibiotics for Women Undergoing Caesarean Section."
+    ]
+  },
+  {
+    "id": "OBS-669",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Tromboembolismo venoso",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Aplicar evaluación de riesgo tromboembólico y medidas preventivas en el posoperatorio de cesárea.",
+    "caso": "Paciente de 37 años con obesidad y cesárea urgente permanece con movilidad reducida en las primeras horas del puerperio. No presenta sangrado activo ni contraindicación conocida para profilaxis mecánica.",
+    "pregunta": "¿Qué estrategia debe formar parte del plan posoperatorio?",
+    "opciones": [
+      "Mantener inmovilidad completa hasta el alta",
+      "Evitar dispositivos mecánicos porque aumentan el riesgo trombótico",
+      "Evaluar el riesgo tromboembólico, promover movilización temprana y aplicar profilaxis mecánica o farmacológica según el riesgo y las contraindicaciones",
+      "Administrar anticoagulación terapéutica a todas las pacientes sin evaluar riesgo",
+      "Utilizar únicamente aspirina como prevención universal"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La cesárea y factores como obesidad, edad materna y movilidad reducida aumentan el riesgo de tromboembolismo venoso. La prevención incluye evaluación estructurada del riesgo, movilización temprana y profilaxis mecánica o farmacológica cuando esté indicada. La decisión sobre anticoagulación debe considerar el riesgo hemorrágico y los protocolos institucionales.",
+    "perlaENARM": "Cesárea más factores de riesgo: evalúa tromboprofilaxis de forma individual; no todas las pacientes requieren anticoagulación terapéutica.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 5.",
+      "SMFM. Consult Series: Thromboembolism Prophylaxis for Cesarean Delivery.",
+      "ACOG. Prevention of Venous Thromboembolism in Gynecologic Surgery."
+    ]
+  },
+  {
+    "id": "OBS-670",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Embolia de líquido amniótico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la presentación abrupta de embolia de líquido amniótico y priorizar soporte vital multidisciplinario.",
+    "caso": "Durante una cesárea, una paciente presenta de forma súbita disnea intensa, hipotensión, hipoxemia y posteriormente sangrado difuso por los sitios de punción. No se identifica una hemorragia quirúrgica que explique inicialmente el colapso.",
+    "pregunta": "¿Qué diagnóstico debe considerarse y cuál es la prioridad inmediata?",
+    "opciones": [
+      "Embolia de líquido amniótico, con soporte cardiorrespiratorio inmediato y manejo de la coagulopatía si aparece",
+      "Anemia ferropénica aguda como causa única",
+      "Endometriosis de pared abdominal",
+      "Hipertensión gestacional sin complicaciones",
+      "Infección de herida quirúrgica como explicación del colapso súbito"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La embolia de líquido amniótico es una complicación rara y grave que puede manifestarse con colapso cardiorrespiratorio, hipoxemia y coagulopatía. Es un diagnóstico clínico de exclusión, sin prueba única confirmatoria. La prioridad es la reanimación multidisciplinaria, el soporte hemodinámico y respiratorio y el tratamiento de la coagulopatía y hemorragia asociadas.",
+    "perlaENARM": "Colapso cardiorrespiratorio periparto con coagulopatía: considera embolia de líquido amniótico y activa reanimación inmediata.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 5.",
+      "SMFM. Amniotic Fluid Embolism: Diagnosis and Management.",
+      "Williams Obstetrics, 26.ª edición."
+    ]
+  },
+  {
+    "id": "OBS-671",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Cesárea por macrosomía fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar la estimación de peso fetal y evitar indicar cesárea por macrosomía sin considerar umbrales y contexto clínico.",
+    "caso": "Gestante de 38 semanas con diabetes gestacional controlada presenta peso fetal estimado de 4,300 g. No hay otras complicaciones y la paciente desea discutir parto vaginal.",
+    "pregunta": "¿Qué elementos deben integrar la consejería sobre la vía del nacimiento?",
+    "opciones": [
+      "La estimación ecográfica confirma el peso exacto y obliga a cesárea",
+      "La diabetes elimina el riesgo de distocia de hombros",
+      "La macrosomía no tiene relación con distocia de hombros",
+      "La decisión debe considerar diabetes, umbrales de peso utilizados en guías, incertidumbre de la estimación y preferencias informadas",
+      "Todo feto con peso estimado superior a 4,000 g requiere cesárea sin excepción"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El peso fetal estimado tiene un margen de error y debe interpretarse con el contexto metabólico y obstétrico. Las guías utilizan umbrales específicos para considerar cesárea programada por macrosomía, que suelen ser mayores en pacientes con diabetes. No debe aplicarse automáticamente un único límite a todos los embarazos.",
+    "perlaENARM": "La macrosomía incrementa el riesgo de distocia de hombros, pero la indicación de cesárea depende del peso estimado, diabetes y guía vigente.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, páginas 4 y 6.",
+      "ACOG. Macrosomia.",
+      "NICE. Caesarean Birth, NG192."
+    ]
+  },
+  {
+    "id": "OBS-672",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Embarazo pretérmino y vía del nacimiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar considerar la prematuridad como indicación universal de cesárea y relacionar la vía con presentación y estado fetal.",
+    "caso": "Gestante de 30 semanas presenta trabajo de parto pretérmino. El feto está en presentación cefálica, con frecuencia cardiaca tranquilizadora y sin placenta previa ni otra contraindicación para parto vaginal.",
+    "pregunta": "¿Qué enfoque debe orientar la decisión sobre la vía del nacimiento?",
+    "opciones": [
+      "Toda gestación menor de 32 semanas requiere cesárea",
+      "La vía del nacimiento debe individualizarse según presentación, bienestar fetal, evolución del trabajo de parto y otras indicaciones obstétricas",
+      "La cesárea está contraindicada en todo nacimiento pretérmino",
+      "La edad gestacional hace innecesaria la evaluación fetal",
+      "Debe retrasarse el nacimiento aun si aparece una contraindicación materna o fetal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF menciona el embarazo pretérmino con peso menor de 1,500 g entre las indicaciones de cesárea, pero la práctica actual requiere individualización. La prematuridad por sí sola no obliga a cesárea en todos los casos. La presentación, el estado fetal, la evolución obstétrica y las condiciones maternas determinan la vía más segura.",
+    "perlaENARM": "Prematuridad no equivale automáticamente a cesárea; integra presentación, bienestar fetal y contexto obstétrico.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 4.",
+      "ACOG. Preterm Labor and Birth.",
+      "NICE. Preterm Labour and Birth, NG25."
+    ]
+  },
+  {
+    "id": "OBS-673",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Cesárea electiva y consentimiento informado",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Aplicar el consentimiento informado y la toma de decisiones compartida en la programación de cesárea.",
+    "caso": "Paciente de 31 años con embarazo de término solicita cesárea electiva por temor al dolor del parto. No existe indicación obstétrica urgente y la evaluación materno-fetal es normal.",
+    "pregunta": "¿Cuál es la conducta que respeta la autonomía y la práctica clínica basada en evidencia?",
+    "opciones": [
+      "Programar la cesárea inmediatamente sin explicar riesgos",
+      "Negar la consulta porque la paciente no tiene una indicación médica absoluta",
+      "Explicar beneficios, riesgos maternos y neonatales, alternativas analgésicas y preferencias, y documentar una decisión informada",
+      "Indicar parto vaginal obligatorio sin discutir alternativas",
+      "Afirmar que la cesárea electiva no tiene riesgos en embarazos futuros"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La decisión debe incluir información equilibrada sobre riesgos quirúrgicos, recuperación, implicaciones para embarazos futuros y alternativas disponibles, incluida la analgesia del parto. El consentimiento informado requiere una conversación comprensible y no coercitiva. Si se decide cesárea planificada sin indicación para adelantar el nacimiento, suele evitarse programarla antes de las 39 semanas, salvo circunstancias específicas.",
+    "perlaENARM": "Cesárea a petición materna: consejería no coercitiva, consentimiento informado y consideración de las consecuencias reproductivas futuras.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, páginas 1-2.",
+      "ACOG. Cesarean Delivery on Maternal Request.",
+      "NICE. Caesarean Birth, NG192."
+    ]
+  },
+  {
+    "id": "OBS-674",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Estrategias para reducir cesáreas innecesarias",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Aplicar estrategias institucionales para reducir cesáreas sin indicación clínica adecuada.",
+    "caso": "Un hospital identifica una tasa elevada de cesáreas por detención del trabajo de parto. La auditoría muestra que algunas intervenciones se realizan antes de cumplir criterios de fase activa y sin una segunda valoración obstétrica.",
+    "pregunta": "¿Qué intervención institucional está respaldada por el enfoque del documento?",
+    "opciones": [
+      "Crear un comité de revisión de indicaciones, favorecer una segunda opinión cuando sea factible y capacitar en vigilancia y manejo del trabajo de parto",
+      "Establecer una meta de cero cesáreas sin importar la condición clínica",
+      "Prohibir la monitorización fetal electrónica",
+      "Realizar inducción rutinaria a todas las pacientes sin indicación",
+      "Evitar la participación de la paciente en decisiones obstétricas"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF propone comités de vigilancia, segunda opinión, educación a pacientes y personal, capacitación en vigilancia fetal y evitar inducciones innecesarias. La reducción de cesáreas debe enfocarse en mejorar la indicación y la calidad de atención, nunca en retrasar una intervención necesaria. La auditoría debe considerar resultados maternos y neonatales además de la tasa quirúrgica.",
+    "perlaENARM": "Reducir cesáreas innecesarias requiere auditoría clínica, criterios adecuados de trabajo de parto y decisiones compartidas; no una cuota rígida.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 1.",
+      "WHO. WHO Statement on Caesarean Section Rates.",
+      "NICE. Caesarean Birth, NG192."
+    ]
+  },
+  {
+    "id": "OBS-675",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Oligohidramnios y vía del nacimiento",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir oligohidramnios como factor de riesgo de una indicación automática de cesárea.",
+    "caso": "Gestante de 38 semanas presenta oligohidramnios aislado confirmado por ultrasonido. La presentación es cefálica, el registro fetal es tranquilizador y no existe otra contraindicación para el parto vaginal.",
+    "pregunta": "¿Qué estrategia de nacimiento debe considerarse?",
+    "opciones": [
+      "Cesárea obligatoria en todos los casos de oligohidramnios",
+      "Prolongar el embarazo hasta las 42 semanas sin vigilancia",
+      "Evitar la monitorización durante el trabajo de parto",
+      "Individualizar el momento y la vía según edad gestacional, bienestar fetal y condiciones obstétricas; el oligohidramnios aislado no obliga siempre a cesárea",
+      "Administrar prostaglandinas a todas las pacientes sin valorar el cuello uterino"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF clasifica el oligohidramnios entre las indicaciones relativas de cesárea. En la práctica, la conducta depende de la edad gestacional, la causa, el bienestar fetal y otras condiciones obstétricas. Puede considerarse inducción y parto vaginal con vigilancia apropiada si no existen contraindicaciones.",
+    "perlaENARM": "Oligohidramnios puede modificar la vigilancia y el momento del nacimiento, pero no determina automáticamente la vía quirúrgica.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 4.",
+      "ACOG. Indications for Outpatient Antenatal Fetal Surveillance.",
+      "NICE. Inducing Labour, NG207."
+    ]
+  },
+  {
+    "id": "OBS-676",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Miomatosis uterina y vía del nacimiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Valorar la localización de los miomas y su relación anatómica con el canal de parto al decidir la vía del nacimiento.",
+    "caso": "Gestante de 37 semanas con mioma intramural de 5 cm en el fondo uterino presenta feto cefálico, sin obstrucción del segmento inferior y sin complicaciones materno-fetales.",
+    "pregunta": "¿Qué criterio es fundamental para decidir si el mioma justifica cesárea?",
+    "opciones": [
+      "Todo mioma de más de 3 cm obliga a cesárea",
+      "La localización del mioma, su posible obstrucción del canal de parto y las condiciones obstétricas, no únicamente su presencia",
+      "La presencia de cualquier mioma contraindica la inducción",
+      "El número de miomas es el único determinante de la vía",
+      "El peso fetal es irrelevante si existe miomatosis"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La miomatosis uterina puede asociarse con malpresentación, distocia o hemorragia, pero no todos los miomas requieren cesárea. Es importante conocer su localización, tamaño y relación con el segmento inferior y el canal de parto. La decisión debe basarse en la anatomía y el contexto clínico.",
+    "perlaENARM": "Miomatosis no equivale automáticamente a cesárea; la obstrucción del canal de parto y la anatomía son determinantes.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 4.",
+      "Williams Obstetrics, 26.ª edición.",
+      "NICE. Caesarean Birth, NG192."
+    ]
+  },
+  {
+    "id": "OBS-677",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Riesgo acumulativo de cesáreas repetidas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Explicar cómo el número de cesáreas previas influye en las complicaciones placentarias y quirúrgicas futuras.",
+    "caso": "Paciente con cuatro cesáreas previas desea un nuevo embarazo. En la consejería preconcepcional pregunta por los riesgos adicionales asociados con futuras intervenciones.",
+    "pregunta": "¿Qué conjunto de riesgos debe discutirse especialmente?",
+    "opciones": [
+      "Desaparición del riesgo de adherencias con cada cesárea",
+      "Reducción progresiva del riesgo de placenta previa",
+      "Aumento de riesgo de adherencias, lesión quirúrgica, placenta previa y espectro de placenta acreta en embarazos posteriores",
+      "Ausencia de riesgo de ruptura uterina después de cuatro cesáreas",
+      "Imposibilidad de desarrollar hemorragia obstétrica"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Las cesáreas repetidas aumentan la complejidad quirúrgica por adherencias y se asocian con mayor riesgo de placenta previa y espectro de placenta acreta en embarazos posteriores. La consejería debe considerar los planes reproductivos, los riesgos acumulativos y las alternativas disponibles. El riesgo exacto depende de antecedentes y características placentarias futuras.",
+    "perlaENARM": "A mayor número de cesáreas, mayor importancia de discutir adherencias, lesión quirúrgica y espectro de placenta acreta.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 5.",
+      "ACOG/SMFM. Obstetric Care Consensus: Placenta Accreta Spectrum.",
+      "Silver RM et al. Maternal morbidity associated with multiple repeat cesarean deliveries."
+    ]
+  },
+  {
+    "id": "OBS-678",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Cesárea y fiebre posoperatoria",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar causas de fiebre después de cesárea y reconocer signos de infección grave.",
+    "caso": "Paciente en el tercer día poscesárea presenta fiebre de 39 °C, taquicardia y dolor abdominal creciente. Tiene hipotensión leve y la herida quirúrgica está eritematosa.",
+    "pregunta": "¿Qué prioridad debe guiar el abordaje?",
+    "opciones": [
+      "Iniciar evaluación y tratamiento urgente de posible infección grave, buscar la fuente y valorar sepsis sin retrasar antibióticos cuando estén indicados",
+      "Considerar la fiebre como normal durante toda la primera semana",
+      "Indicar únicamente antipiréticos y dar de alta",
+      "Esperar 48 horas sin estudios antes de decidir tratamiento",
+      "Atribuir los síntomas exclusivamente a la anestesia"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La fiebre con taquicardia, dolor progresivo e hipotensión después de cesárea obliga a evaluar infección de herida, endometritis, infección urinaria y otras causas, con detección de sepsis. La reanimación, toma de muestras cuando no retrase la atención, antibióticos oportunos y control de la fuente deben coordinarse según gravedad.",
+    "perlaENARM": "Fiebre puerperal más datos de disfunción hemodinámica requiere evaluación urgente de sepsis y tratamiento oportuno.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, página 5.",
+      "WHO. Recommendations for Prevention and Treatment of Maternal Peripartum Infections.",
+      "SMFM. Consult Series: Sepsis During Pregnancy and the Puerperium."
+    ]
+  },
+  {
+    "id": "OBS-679",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Consentimiento y prueba de trabajo de parto",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Integrar consentimiento informado, selección clínica y capacidad de emergencia antes de iniciar TOLAC.",
+    "caso": "Paciente de 38 semanas con una cesárea previa segmentaria transversa solicita TOLAC. Comprende los riesgos, pero el hospital informa que no dispone de quirófano ni personal de anestesia durante varias horas de la noche.",
+    "pregunta": "¿Cuál es la principal limitación para iniciar la prueba en ese momento?",
+    "opciones": [
+      "La edad gestacional de 38 semanas impide todo parto vaginal",
+      "El consentimiento informado sustituye la necesidad de recursos quirúrgicos",
+      "La cicatriz segmentaria transversa contraindica siempre el parto vaginal",
+      "La ausencia de capacidad inmediata para una cesárea urgente compromete la seguridad del TOLAC",
+      "La presentación cefálica vuelve innecesaria la monitorización"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La seguridad de TOLAC depende de la selección clínica, el consentimiento informado, la monitorización y la capacidad de realizar cesárea urgente ante ruptura uterina u otra complicación. Si el centro no puede responder oportunamente, debe discutirse una alternativa segura o la referencia a un hospital con recursos apropiados.",
+    "perlaENARM": "TOLAC no depende solo de la cicatriz: la capacidad institucional de realizar cesárea urgente es esencial.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, páginas 5-6.",
+      "ACOG. Vaginal Birth After Cesarean Delivery.",
+      "NICE. Caesarean Birth, NG192."
+    ]
+  },
+  {
+    "id": "OBS-680",
+    "especialidad": "Obstetricia",
+    "tema": "Cesárea",
+    "subtema": "Integración de indicación, técnica y seguridad quirúrgica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar urgencia obstétrica, localización placentaria, tipo de incisión y prevención de complicaciones al planear una cesárea compleja.",
+    "caso": "Gestante de 34 semanas con placenta previa, dos cesáreas previas y sospecha ecográfica de espectro de placenta acreta presenta sangrado abundante y deterioro hemodinámico. Se requiere nacimiento urgente y la anatomía placentaria dificulta elegir el sitio de histerotomía.",
+    "pregunta": "¿Qué estrategia global ofrece mayor seguridad materna?",
+    "opciones": [
+      "Realizar una incisión uterina tipo Kerr atravesando la placenta sin revisar la anatomía",
+      "Demorar el nacimiento hasta completar estudios no disponibles de inmediato, aunque persista la inestabilidad",
+      "Activar el protocolo de hemorragia, reanimar, coordinar un equipo experimentado y seleccionar el abordaje e histerotomía según la anatomía y la estrategia para el espectro de placenta acreta",
+      "Intentar alumbramiento manual forzado antes de disponer de hemoderivados",
+      "Realizar una incisión cutánea Pfannenstiel por razones estéticas, independientemente de la urgencia"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La combinación de placenta previa, cesáreas previas y sospecha de placenta acreta implica alto riesgo de hemorragia masiva. Ante inestabilidad, la reanimación y la preparación quirúrgica deben realizarse en paralelo. La incisión abdominal y la histerotomía se eligen según la urgencia, la localización placentaria y el plan quirúrgico; debe evitarse la separación placentaria forzada cuando se sospecha invasión anormal. La conducta definitiva requiere un equipo con experiencia y recursos adecuados.",
+    "perlaENARM": "Placenta previa más cesáreas previas y sospecha de acreta: anticipa hemorragia, evita la extracción placentaria forzada y planifica el abordaje según la anatomía.",
+    "bibliografia": [
+      "PDF proporcionado: 13. Cesárea, páginas 2-5.",
+      "ACOG/SMFM. Obstetric Care Consensus: Placenta Accreta Spectrum.",
+      "NICE. Caesarean Birth, NG192.",
+      "WHO. Recommendations for the Prevention and Treatment of Postpartum Haemorrhage."
+    ]
   }
  ];
