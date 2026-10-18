@@ -1770,5 +1770,4 @@ window.BANCO_OBSTETRICIA = [
       "perlaENARM": "Un tamizaje de aneuploidías de bajo riesgo no descarta todas las enfermedades genéticas cuando existen anomalías estructurales fetales.",
       "bibliografia": ["ACOG. Prenatal Genetic Diagnostic Tests.", "ACOG. Microarrays and Next-Generation Sequencing Technology.", "ISUOG. Guidelines for the Diagnosis of Fetal Anomalies."]
     }
-}
 ];
