@@ -9743,5 +9743,3847 @@ window.BANCO_OBSTETRICIA = [
       "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation.",
       "ACOG. Magnesium Sulfate Before Anticipated Preterm Birth for Neuroprotection."
     ]
+  },
+  {
+    "id": "OBS-401",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Definición y clasificación",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Distinguir la ruptura prematura de membranas de la ruptura prematura de membranas pretérmino.",
+    "caso": "Gestante de 36 semanas con salida súbita de líquido transvaginal, antes de iniciar contracciones regulares. La exploración confirma líquido amniótico en vagina.",
+    "pregunta": "¿Qué diagnóstico corresponde al evento descrito?",
+    "opciones": [
+      "Trabajo de parto pretérmino con membranas íntegras",
+      "Ruptura prematura de membranas pretérmino, por ocurrir antes de las 37 semanas y antes del trabajo de parto",
+      "Ruptura de membranas durante el periodo expulsivo",
+      "Insuficiencia cervical sin ruptura de membranas",
+      "Corioamnionitis confirmada por la salida de líquido"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La RPM es la ruptura de las membranas corioamnióticas antes del inicio del trabajo de parto. Cuando ocurre antes de las 37 semanas se denomina RPMP. La presencia de líquido amniótico no demuestra por sí sola infección intraamniótica.",
+    "perlaENARM": "La palabra prematura se refiere a que la ruptura precede al trabajo de parto; pretérmino indica que ocurre antes de las 37 semanas.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 1.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-402",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Epidemiología",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Relacionar la RPMP con la carga epidemiológica del nacimiento pretérmino.",
+    "caso": "En una sesión de medicina materno-fetal se revisan los principales contribuyentes al nacimiento prematuro. Se solicita recordar las cifras epidemiológicas descritas en el material de estudio.",
+    "pregunta": "¿Cuál afirmación coincide con las cifras presentadas en el PDF?",
+    "opciones": [
+      "La RPM ocurre en menos del 1% de las gestaciones y no contribuye al nacimiento pretérmino",
+      "La RPMP representa más del 80% de todos los embarazos",
+      "La RPM ocurre exclusivamente después de las 37 semanas",
+      "La RPMP ocurre aproximadamente en 3% de los embarazos y contribuye a cerca de un tercio de los nacimientos pretérmino",
+      "La RPM es sinónimo de corioamnionitis"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF señala que la RPM ocurre en aproximadamente 10% de las gestaciones y que la RPMP se presenta en cerca de 3% de los embarazos, siendo responsable de alrededor de un tercio de los nacimientos pretérmino. Estas cifras son estimaciones epidemiológicas del material proporcionado.",
+    "perlaENARM": "La RPMP es un contribuyente importante al nacimiento pretérmino y expone al binomio a riesgos de prematuridad e infección.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 2.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-403",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Factores de riesgo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar antecedentes y condiciones asociadas con mayor riesgo de RPMP.",
+    "caso": "Paciente de 26 años con embarazo de 30 semanas y antecedente de RPMP en una gestación previa. Actualmente fuma, presenta bacteriuria documentada y tiene polihidramnios.",
+    "pregunta": "¿Qué interpretación integra mejor los antecedentes de esta paciente?",
+    "opciones": [
+      "Presenta varios factores asociados con RPMP, incluido el antecedente de recurrencia, tabaquismo, infección urinaria y distensión uterina",
+      "El antecedente de RPMP protege frente a una nueva ruptura",
+      "Solo la edad materna determina el riesgo de ruptura",
+      "El polihidramnios excluye el riesgo de ruptura prematura",
+      "La infección urinaria no figura entre los factores relacionados con RPMP"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF enumera infección urinaria, infecciones de transmisión sexual, tabaquismo, antecedente de parto pretérmino, polihidramnios, embarazo múltiple y antecedente de RPMP entre los factores asociados. La presencia de varios factores aumenta la necesidad de vigilancia, pero no permite predecir con certeza que ocurrirá una ruptura.",
+    "perlaENARM": "Antecedente de RPMP, infección y distensión uterina son datos relevantes en la evaluación del riesgo obstétrico.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 2.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-404",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Fisiopatología",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar el papel de la degradación de la matriz extracelular y la inflamación en la ruptura de membranas.",
+    "caso": "Gestante de 31 semanas con infección genital documentada presenta ruptura de membranas antes de iniciar trabajo de parto. En una revisión fisiopatológica se discute la integridad del colágeno corioamniótico.",
+    "pregunta": "¿Qué mecanismo descrito en el PDF puede contribuir directamente a la ruptura?",
+    "opciones": [
+      "Aumento aislado de la producción de líquido amniótico sin cambios de membranas",
+      "Supresión completa de las enzimas que degradan la matriz extracelular",
+      "Disminución de la presión intrauterina como causa universal",
+      "Cierre prematuro del cuello uterino por aumento de colágeno",
+      "Activación de enzimas catabólicas como colagenasas, asociada con procesos inflamatorios y fuerzas mecánicas"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El material describe activación prematura de enzimas catabólicas, como las colagenasas, y fuerzas mecánicas que favorecen la pérdida de resistencia de las membranas. Los procesos infecciosos e inflamatorios pueden participar en esta degradación, aunque la etiología es multifactorial.",
+    "perlaENARM": "La inflamación puede debilitar las membranas mediante degradación de componentes de la matriz extracelular; no toda RPMP tiene una única causa identificable.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 1.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-405",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Diagnóstico clínico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el método clínico inicial para confirmar la ruptura de membranas y evitar maniobras que incrementen el riesgo infeccioso.",
+    "caso": "Gestante de 29 semanas refiere salida abundante de líquido claro hace dos horas. Está afebril, sin contracciones regulares y con frecuencia cardiaca fetal normal.",
+    "pregunta": "¿Qué procedimiento inicial se prefiere para evaluar la sospecha de RPMP?",
+    "opciones": [
+      "Realizar tactos vaginales digitales repetidos para determinar la dilatación",
+      "Realizar especuloscopía para identificar líquido en vagina o salida a través del orificio cervical",
+      "Solicitar radiografía abdominal para visualizar las membranas",
+      "Indicar amniocentesis diagnóstica en todos los casos",
+      "Esperar a que aparezcan contracciones antes de examinarla"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF establece que el diagnóstico es principalmente clínico y que la especuloscopía permite observar líquido en vagina o su salida por el orificio cervical. Deben evitarse los tactos vaginales digitales salvo que el nacimiento sea inminente, ya que pueden incrementar el riesgo de infección y acortar la latencia.",
+    "perlaENARM": "Sospecha de RPM: historia clínica y especuloscopía estéril; evita tactos digitales innecesarios.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 3.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-406",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Nitrazina",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar la prueba de nitrazina considerando las causas de resultados falsamente positivos y negativos.",
+    "caso": "Gestante de 32 semanas con pérdida escasa de líquido presenta prueba de nitrazina azul. La paciente tuvo relaciones sexuales pocas horas antes y se observa sangre mezclada con la secreción vaginal.",
+    "pregunta": "¿Cuál es la principal limitación de interpretar este resultado de manera aislada?",
+    "opciones": [
+      "La nitrazina solo detecta glucosa y no tiene relación con el pH",
+      "El líquido amniótico tiene un pH más ácido que el vaginal",
+      "La prueba es positiva únicamente cuando existe corioamnionitis",
+      "Semen y sangre pueden elevar el pH vaginal y producir falsos positivos",
+      "Una prueba positiva excluye la necesidad de correlación clínica"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La nitrazina detecta un pH más alcalino que el habitual de la vagina. El PDF señala que el semen, la sangre, la vaginosis, Trichomonas y algunos antisépticos pueden causar falsos positivos. El resultado debe correlacionarse con la historia y la especuloscopía.",
+    "perlaENARM": "Nitrazina positiva no equivale automáticamente a RPM: sangre, semen y vaginosis pueden alcalinizar la muestra.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 3.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-407",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Cristalografía",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar el patrón microscópico característico de la cristalografía del líquido amniótico.",
+    "caso": "Una paciente con sospecha de RPMP tiene una prueba complementaria realizada a partir de una muestra del fondo de saco posterior, extendida sobre una laminilla y dejada secar. Al microscopio se observa un patrón ramificado.",
+    "pregunta": "¿Qué hallazgo apoya una cristalografía positiva?",
+    "opciones": [
+      "Cristales de oxalato con forma de sobre",
+      "Bacterias gramnegativas agrupadas",
+      "Patrón de helechos por cristalización del líquido amniótico",
+      "Eritrocitos en rouleaux",
+      "Células escamosas con pseudohifas"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La cristalografía se considera positiva cuando, después de secarse la muestra, se observa un patrón semejante a helechos. El PDF menciona sensibilidad aproximada de 88% y advierte que sangre, moco, semen y contaminación de la laminilla pueden alterar el resultado.",
+    "perlaENARM": "Cristalografía positiva: patrón en helecho; una prueba negativa no excluye por completo RPM si la muestra o la técnica son inadecuadas.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 3.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-408",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Pruebas bioquímicas",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la utilidad de las pruebas bioquímicas cuando la evaluación clínica inicial no es concluyente.",
+    "caso": "Gestante de 30 semanas refiere humedad vaginal intermitente. La especuloscopía no muestra acumulación clara de líquido y las pruebas convencionales son discordantes. Se dispone de una prueba basada en microglobulina placentaria.",
+    "pregunta": "¿En qué situación tiene mayor utilidad esta prueba?",
+    "opciones": [
+      "Como complemento diagnóstico cuando la historia y la especuloscopía no permiten confirmar o descartar con claridad la RPM",
+      "Como prueba de bienestar fetal durante el trabajo de parto",
+      "Para determinar directamente la dilatación cervical",
+      "Para diagnosticar desprendimiento prematuro de placenta",
+      "Como sustituto de toda valoración clínica y ecográfica"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF identifica la detección de microglobulina placentaria, comercializada como AmniSure, como una prueba complementaria con alto valor predictivo positivo en el contexto descrito. Debe emplearse cuando existe incertidumbre diagnóstica y no sustituye la integración clínica.",
+    "perlaENARM": "Las pruebas bioquímicas ayudan en casos dudosos; no reemplazan la historia clínica ni la valoración obstétrica completa.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 3.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-409",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Ultrasonido obstétrico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Comprender el papel complementario del ultrasonido y sus limitaciones en el diagnóstico de RPM.",
+    "caso": "Gestante de 28 semanas presenta historia convincente de salida de líquido transvaginal. La especuloscopía es poco concluyente y el ultrasonido muestra volumen de líquido amniótico dentro de límites normales.",
+    "pregunta": "¿Qué conclusión es válida respecto al ultrasonido?",
+    "opciones": [
+      "El volumen normal demuestra que las membranas están íntegras",
+      "El ultrasonido sustituye siempre las pruebas clínicas de RPM",
+      "La ausencia de oligohidramnios descarta toda ruptura previa",
+      "El ultrasonido solo es útil después de las 37 semanas",
+      "El volumen normal no descarta RPM; el estudio ayuda a evaluar líquido, presentación, edad gestacional y bienestar fetal"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF señala que el ultrasonido es auxiliar y puede mostrar oligohidramnios, pero un volumen normal no descarta la ruptura. También permite evaluar edad gestacional, presentación fetal, volumen de líquido y bienestar fetal. El oligohidramnios tiene otros diagnósticos diferenciales, como anomalías urinarias fetales o restricción grave del crecimiento.",
+    "perlaENARM": "Ultrasonido con líquido normal no excluye RPM; oligohidramnios apoya la sospecha, pero no es específico.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 3.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-410",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Diagnóstico diferencial",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar errores diagnósticos al interpretar una prueba de nitrazina en presencia de contaminantes vaginales.",
+    "caso": "Paciente de 34 semanas refiere salida de líquido. La nitrazina es positiva, pero la especuloscopía no identifica líquido que salga del cuello y la muestra contiene abundante secreción compatible con vaginosis bacteriana.",
+    "pregunta": "¿Qué explicación debe considerarse antes de establecer definitivamente el diagnóstico?",
+    "opciones": [
+      "La nitrazina positiva demuestra que existe desprendimiento placentario",
+      "La vaginosis puede alcalinizar la muestra y producir un falso positivo, por lo que se requiere integrar otros hallazgos",
+      "La vaginosis descarta toda posibilidad de RPM",
+      "La nitrazina identifica directamente bacterias en el líquido amniótico",
+      "La prueba positiva demuestra madurez pulmonar fetal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La vaginosis bacteriana puede elevar el pH vaginal y generar un resultado falsamente positivo en la prueba de nitrazina. Ante discordancia entre historia, exploración y pruebas, deben considerarse pruebas complementarias y reevaluación clínica.",
+    "perlaENARM": "Un resultado de nitrazina debe interpretarse con precaución si hay vaginosis, sangre o semen.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 3.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-411",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Prevención de infección ascendente",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar por qué deben evitarse los tactos vaginales digitales repetidos en RPMP.",
+    "caso": "Paciente de 31 semanas con RPMP confirmada permanece estable y sin trabajo de parto activo. Durante la vigilancia se propone realizar tactos vaginales digitales cada cuatro horas para valorar la dilatación.",
+    "pregunta": "¿Qué problema intenta evitar la recomendación de limitar estos tactos?",
+    "opciones": [
+      "La disminución de la frecuencia cardiaca fetal por compresión directa",
+      "La reducción de la producción de líquido amniótico por manipulación",
+      "El aumento de la latencia por cierre cervical",
+      "El incremento del riesgo de infección ascendente y la reducción del periodo de latencia",
+      "La aparición de incompatibilidad Rh"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF recomienda evitar los tactos vaginales a menos que el nacimiento sea inminente. La manipulación digital repetida puede facilitar infección ascendente y asociarse con una latencia más corta. La especuloscopía es preferible para evaluar la ruptura y obtener muestras cuando estén indicadas.",
+    "perlaENARM": "En RPMP sin trabajo de parto avanzado, limita los tactos digitales para disminuir el riesgo infeccioso.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 3.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-412",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Vigilancia de infección intraamniótica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar la taquicardia fetal como una señal de alerta que requiere integración con otros datos de infección.",
+    "caso": "Gestante de 30 semanas con RPMP en manejo expectante presenta frecuencia cardiaca fetal sostenida de 170 lpm. La temperatura materna es normal, pero refiere malestar general.",
+    "pregunta": "¿Cómo debe interpretarse este hallazgo?",
+    "opciones": [
+      "Es un dato de alerta que obliga a evaluar infección intraamniótica y otras causas de taquicardia fetal",
+      "Confirma por sí solo corioamnionitis con certeza absoluta",
+      "Descarta infección si la madre no tiene fiebre",
+      "Es un hallazgo esperado que no requiere vigilancia",
+      "Indica madurez pulmonar fetal completa"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF recomienda vigilancia cardiotocográfica y señala que la taquicardia fetal mayor de 160 lpm puede asociarse con infección intrauterina, pero no es diagnóstica por sí sola. Debe integrarse con temperatura materna, dolor uterino, características del líquido, frecuencia cardiaca materna y otros datos clínicos.",
+    "perlaENARM": "La taquicardia fetal es una señal de alerta, no un criterio aislado suficiente para confirmar corioamnionitis.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 4.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-413",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Riesgo infeccioso y latencia",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar la edad gestacional y el tiempo transcurrido desde la ruptura con el riesgo de infección.",
+    "caso": "Dos pacientes con RPMP se encuentran en manejo expectante. Una presentó ruptura hace tres horas a las 31 semanas; la otra lleva 72 horas desde la ruptura a las 27 semanas.",
+    "pregunta": "¿Qué factor aumenta de forma importante la preocupación por infección en la segunda paciente?",
+    "opciones": [
+      "El hecho de tener un embarazo único",
+      "La ausencia de contracciones regulares",
+      "La menor edad gestacional y la mayor duración de la latencia",
+      "La ausencia de hemorragia vaginal",
+      "La presentación cefálica del feto"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF señala que el riesgo de infección aumenta cuanto menor es la edad gestacional al ocurrir la RPMP y cuanto mayor es el tiempo de latencia. Esto exige vigilancia materno-fetal cuidadosa y reevaluación continua de los beneficios y riesgos del manejo expectante.",
+    "perlaENARM": "En RPMP, la latencia prolongada y la menor edad gestacional aumentan la preocupación por infección, aunque la decisión de finalizar depende del cuadro global.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 2.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-414",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Complicaciones maternas",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar las principales complicaciones infecciosas maternas de la RPMP.",
+    "caso": "Paciente con antecedente de RPMP y parto pretérmino presenta fiebre y dolor uterino después del nacimiento. Se sospecha infección puerperal.",
+    "pregunta": "¿Qué complicación materna posparto está reconocida en el material proporcionado?",
+    "opciones": [
+      "Hipertiroidismo gestacional como complicación más frecuente",
+      "Embolia de líquido amniótico en todos los casos",
+      "Diabetes mellitus tipo 1 de inicio súbito",
+      "Endometritis puerperal",
+      "Insuficiencia cervical posparto como diagnóstico infeccioso"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF identifica corioamnionitis, endometritis posparto y sepsis materna entre las complicaciones de la RPMP. La fiebre y el dolor uterino en el puerperio requieren evaluación inmediata para infección y tratamiento conforme al cuadro clínico.",
+    "perlaENARM": "Tras RPMP, vigila infección intraamniótica y endometritis puerperal; fiebre y dolor uterino no deben atribuirse automáticamente a cambios fisiológicos.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 2.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-415",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Riesgos fetales",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer las complicaciones neonatales relacionadas con la prematuridad secundaria a RPMP.",
+    "caso": "Recién nacido de 29 semanas tras RPMP prolongada presenta dificultad respiratoria y requiere soporte ventilatorio. La madre no tuvo signos clínicos claros de infección durante toda la vigilancia.",
+    "pregunta": "¿Cuál complicación se identifica en el PDF como una de las más importantes en el recién nacido pretérmino?",
+    "opciones": [
+      "Hipertensión arterial esencial neonatal",
+      "Síndrome de dificultad respiratoria",
+      "Enfermedad de Graves neonatal como consecuencia directa de la RPMP",
+      "Cáncer hematológico neonatal",
+      "Hipotiroidismo por pérdida de líquido amniótico"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF enumera síndrome de dificultad respiratoria, enterocolitis necrotizante, hemorragia intraventricular, sepsis y muerte fetal entre los riesgos fetales o neonatales asociados con RPMP. La prematuridad es un determinante central de morbilidad.",
+    "perlaENARM": "La RPMP expone al neonato tanto a complicaciones de prematuridad como a riesgos infecciosos.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 2.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-416",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Corticosteroides antenatales",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar corticosteroides antenatales en una paciente con RPMP y riesgo de nacimiento prematuro.",
+    "caso": "Gestante de 29 semanas con RPMP confirmada permanece afebril, sin dolor uterino ni datos de compromiso fetal. El equipo considera manejo expectante y no ha recibido corticosteroides durante el embarazo actual.",
+    "pregunta": "¿Qué intervención reduce complicaciones relacionadas con la inmadurez fetal?",
+    "opciones": [
+      "Administrar corticosteroides antenatales si cumple criterios de edad gestacional y riesgo de nacimiento próximo",
+      "Administrar oxitocina para inhibir las contracciones",
+      "Indicar misoprostol para mantener las membranas íntegras",
+      "Evitar corticosteroides en toda paciente con RPMP",
+      "Usar progesterona como sustituto inmediato de la maduración pulmonar"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF indica corticosteroides para maduración pulmonar en RPMP dentro de la ventana gestacional descrita, en ausencia de una condición que exija finalizar inmediatamente el embarazo. Reducen complicaciones respiratorias y otras asociadas con prematuridad. No debe retrasarse un nacimiento indicado para completar el esquema.",
+    "perlaENARM": "RPMP pretérmino sin infección y con riesgo de nacimiento: evalúa corticosteroides según edad gestacional y guía vigente.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 5.",
+      "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation."
+    ]
+  },
+  {
+    "id": "OBS-417",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Esquemas de maduración pulmonar",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Recordar los esquemas clásicos de betametasona y dexametasona para maduración pulmonar fetal.",
+    "caso": "Gestante de 30 semanas con RPMP en manejo expectante requiere corticosteroides antenatales. La unidad cuenta con betametasona y dexametasona.",
+    "pregunta": "¿Qué esquema de betametasona aparece en el PDF?",
+    "opciones": [
+      "Una dosis de 6 mg intramuscular cada semana",
+      "Tres dosis de 4 mg cada ocho horas",
+      "Dos dosis de 12 mg separadas por 24 horas",
+      "Cuatro dosis de 12 mg cada seis horas",
+      "Una dosis única de 24 mg por vía oral"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF presenta betametasona 12 mg en dos dosis separadas por 24 horas. También menciona dexametasona 6 mg en cuatro dosis cada 12 horas. La elección depende del protocolo y la disponibilidad; la indicación depende del riesgo de nacimiento y la edad gestacional.",
+    "perlaENARM": "Betametasona antenatal: 12 mg intramuscular cada 24 horas por dos dosis; dexametasona: 6 mg cada 12 horas por cuatro dosis en el esquema clásico.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 5.",
+      "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation."
+    ]
+  },
+  {
+    "id": "OBS-418",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Corticosteroides ante corioamnionitis",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar retrasar la finalización del embarazo cuando la infección intraamniótica exige intervención.",
+    "caso": "Gestante de 30 semanas con RPMP presenta fiebre, taquicardia materna, dolor uterino y taquicardia fetal sostenida. El equipo estima que el nacimiento debe ocurrir pronto, pero aún no ha completado el esquema de corticosteroides.",
+    "pregunta": "¿Qué principio debe guiar la conducta respecto a la maduración pulmonar?",
+    "opciones": [
+      "Esperar obligatoriamente siete días para alcanzar el máximo efecto",
+      "Administrar tocolíticos durante 72 horas sin valorar la infección",
+      "Posponer los antibióticos hasta completar los corticosteroides",
+      "No retrasar el tratamiento de la infección ni la finalización indicada para completar el esquema",
+      "La infección intraamniótica no modifica el manejo obstétrico"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF señala que, ante corioamnionitis, no se debe esperar la maduración pulmonar para finalizar el embarazo. La infección requiere antibióticos y decisión obstétrica oportuna. Los corticosteroides no deben utilizarse como motivo para demorar una intervención necesaria.",
+    "perlaENARM": "Una intervención antenatal beneficiosa no debe retrasar el tratamiento de infección intraamniótica ni un nacimiento indicado.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 5.",
+      "ACOG. Intraamniotic Infection.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-419",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Antibióticos de latencia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar la finalidad de los antibióticos durante el manejo expectante de RPMP.",
+    "caso": "Paciente de 28 semanas con RPMP confirmada, sin signos de infección intraamniótica y con estado fetal tranquilizador. Se decide manejo expectante en una unidad con vigilancia materno-fetal.",
+    "pregunta": "¿Cuál es el objetivo principal del esquema antibiótico de latencia?",
+    "opciones": [
+      "Inducir maduración cervical inmediata",
+      "Prevenir o tratar la infección ascendente y prolongar la latencia en pacientes seleccionadas",
+      "Sustituir la vigilancia fetal diaria",
+      "Eliminar la necesidad de corticosteroides antenatales",
+      "Evitar toda posibilidad de parto pretérmino hasta las 37 semanas"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF describe la terapia antibiótica combinada como parte del manejo conservador de RPMP para prevenir o tratar la infección ascendente, prolongar el embarazo y disminuir la morbimortalidad. El tratamiento debe ajustarse a la edad gestacional, las guías vigentes y las condiciones clínicas.",
+    "perlaENARM": "Los antibióticos de latencia buscan reducir infección y prolongar el embarazo; no garantizan llegar al término ni sustituyen la vigilancia.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 5.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-420",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Antibióticos y alergia a betalactámicos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Individualizar el esquema antibiótico de latencia según alergias, resistencias y protocolo institucional.",
+    "caso": "Gestante de 31 semanas con RPMP sin datos de infección intraamniótica tiene antecedente documentado de anafilaxia inmediata a penicilinas. Se planea manejo expectante.",
+    "pregunta": "¿Qué aspecto debe considerarse al seleccionar antibióticos de latencia?",
+    "opciones": [
+      "Administrar ampicilina pese a la anafilaxia porque nunca existe riesgo de reacción cruzada",
+      "Omitir todo tratamiento antibiótico sin revisar alternativas",
+      "Usar amoxicilina-clavulanato de rutina porque es la opción universal",
+      "Sustituir los antibióticos por tocolisis prolongada",
+      "Elegir un esquema alternativo compatible con la alergia, la evidencia y el protocolo local"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El esquema clásico del PDF incluye ampicilina y eritromicina, pero la elección debe individualizarse ante alergia inmediata a betalactámicos. Deben revisarse las alternativas recomendadas por la guía vigente y evitar la exposición a un fármaco con riesgo de reacción grave. No es adecuado omitir automáticamente la terapia sin valorar opciones.",
+    "perlaENARM": "Una alergia grave modifica el esquema antibiótico; verifica el tipo de reacción y consulta la alternativa recomendada por el protocolo vigente.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 5.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-421",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Amoxicilina-clavulanato",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer una precaución farmacológica relevante en la selección de antibióticos para RPMP.",
+    "caso": "En una sesión de revisión de casos, un médico propone amoxicilina-clavulanato como esquema rutinario de latencia para una paciente con RPMP de 29 semanas.",
+    "pregunta": "¿Qué consideración se destaca en el PDF respecto a este fármaco?",
+    "opciones": [
+      "Se prefiere siempre porque elimina el riesgo de enterocolitis necrotizante",
+      "Está indicado únicamente para maduración pulmonar",
+      "El PDF lo señala como contraindicado en este contexto por su asociación con enterocolitis necrotizante neonatal",
+      "Debe administrarse junto con metotrexato",
+      "Es un tocolítico de primera línea"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF advierte contra el uso de amoxicilina-clavulanato en el manejo antibiótico de RPMP por su asociación con enterocolitis necrotizante neonatal. En la práctica clínica, el esquema debe seleccionarse conforme a las guías actuales y al perfil de alergias y resistencias.",
+    "perlaENARM": "En RPMP, el antibiótico no se elige solo por espectro; también importa la evidencia de seguridad neonatal.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 5.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-422",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Cultivos y estreptococo del grupo B",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Integrar la obtención de cultivos y la profilaxis intraparto para estreptococo del grupo B en RPMP.",
+    "caso": "Gestante de 30 semanas con RPMP confirmada se encuentra estable y sin infección clínica. Se inicia evaluación para manejo expectante y se desconoce su estado de colonización por estreptococo del grupo B.",
+    "pregunta": "¿Qué aspecto microbiológico debe incluirse en el plan?",
+    "opciones": [
+      "No obtener muestras porque los antibióticos de latencia eliminan siempre la colonización",
+      "Realizar cultivos o pruebas indicadas para estreptococo del grupo B y planear profilaxis intraparto según resultados y protocolo",
+      "Administrar antibióticos exclusivamente después del nacimiento",
+      "Tratar de rutina todas las infecciones de transmisión sexual sin evaluación",
+      "Usar nitrazina para identificar estreptococo del grupo B"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF recomienda obtener muestras para estreptococo del grupo B y otros patógenos según el contexto. La terapia de latencia no elimina la necesidad de considerar profilaxis intraparto cuando esté indicada. La elección depende de resultados, antecedentes y protocolo institucional.",
+    "perlaENARM": "Los antibióticos de latencia y la profilaxis intraparto para estreptococo del grupo B son decisiones relacionadas, pero no intercambiables.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 5.",
+      "ACOG. Prevention of Group B Streptococcal Early-Onset Disease in Newborns."
+    ]
+  },
+  {
+    "id": "OBS-423",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Tocolisis",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar el uso rutinario de tocolíticos en RPMP y reconocer la posible excepción temporal.",
+    "caso": "Paciente de 29 semanas con RPMP confirmada, sin fiebre, sangrado, dolor uterino ni compromiso fetal. Presenta contracciones leves y todavía no ha recibido corticosteroides antenatales.",
+    "pregunta": "¿Qué principio coincide con el material proporcionado respecto a la tocolisis?",
+    "opciones": [
+      "Debe administrarse de forma profiláctica hasta las 37 semanas",
+      "Está indicada en toda paciente con RPMP, independientemente de la clínica",
+      "Sustituye los antibióticos de latencia",
+      "No se recomienda rutinariamente; puede considerarse de forma breve en situaciones seleccionadas para facilitar corticosteroides, si es seguro",
+      "Se indica aunque exista corioamnionitis y deterioro fetal"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF indica que la tocolisis no debe utilizarse de manera profiláctica ni terapéutica rutinaria en RPMP. Puede considerarse en situaciones seleccionadas para permitir el efecto de los corticosteroides, siempre que no exista infección, desprendimiento placentario u otra contraindicación y que no se retrase un nacimiento necesario.",
+    "perlaENARM": "RPMP no es indicación automática de tocolisis; cualquier uso debe ser selectivo, breve y sin contraindicaciones.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 6.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-424",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Neuroprotección fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer cuándo valorar sulfato de magnesio para neuroprotección fetal en RPMP.",
+    "caso": "Gestante de 29 semanas con RPMP presenta cambios cervicales progresivos y el equipo considera probable el nacimiento en las siguientes horas. No hay contraindicación para sulfato de magnesio.",
+    "pregunta": "¿Qué intervención debe valorarse por su beneficio neurológico neonatal?",
+    "opciones": [
+      "Sulfato de magnesio intravenoso para neuroprotección fetal conforme al protocolo institucional",
+      "Indometacina indefinida para maduración cerebral",
+      "Metotrexato para disminuir las contracciones",
+      "Oxitocina para detener el trabajo de parto",
+      "Amoxicilina-clavulanato como neuroprotector"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF señala considerar sulfato de magnesio en RPMP antes de las 32 semanas para reducir el riesgo de parálisis cerebral cuando se anticipa nacimiento prematuro. Debe utilizarse según protocolo, con vigilancia materna y sin retrasar una finalización indicada.",
+    "perlaENARM": "En nacimiento prematuro inminente antes de las 32 semanas, valora sulfato de magnesio para neuroprotección fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 6.",
+      "ACOG. Magnesium Sulfate Before Anticipated Preterm Birth for Neuroprotection."
+    ]
+  },
+  {
+    "id": "OBS-425",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Manejo según edad gestacional",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Individualizar la conducta ante RPMP de acuerdo con la edad gestacional y la estabilidad materno-fetal.",
+    "caso": "Gestante de 28 semanas con RPMP confirmada permanece afebril, sin sangrado, sin trabajo de parto avanzado y con pruebas de bienestar fetal tranquilizadoras. Se dispone de vigilancia hospitalaria y soporte neonatal.",
+    "pregunta": "¿Qué estrategia suele considerarse si no aparecen contraindicaciones al manejo expectante?",
+    "opciones": [
+      "Finalización inmediata en todos los casos, independientemente de la edad gestacional",
+      "Alta sin vigilancia porque la ausencia de fiebre descarta infección futura",
+      "Manejo expectante hospitalario con vigilancia materno-fetal, antibióticos de latencia y corticosteroides según indicación",
+      "Tocolisis continua hasta las 37 semanas como única intervención",
+      "Cerclaje cervical urgente después de la ruptura"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF favorece manejo conservador en RPMP remota del término cuando no existe corioamnionitis ni compromiso materno-fetal, porque prolongar la gestación puede reducir complicaciones de prematuridad. El plan incluye vigilancia y las intervenciones antenatales indicadas. La conducta debe individualizarse según las guías vigentes.",
+    "perlaENARM": "RPMP a las 28 semanas sin infección ni compromiso fetal puede manejarse expectantemente en un entorno hospitalario con capacidad neonatal.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, páginas 1, 5 y 6.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-426",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Corioamnionitis",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar la infección intraamniótica como contraindicación para prolongar la gestación mediante manejo expectante.",
+    "caso": "Paciente de 31 semanas con RPMP presenta temperatura de 38.5 °C, taquicardia materna, taquicardia fetal y dolor uterino. El líquido transvaginal tiene olor desagradable.",
+    "pregunta": "¿Qué conducta es prioritaria ante la sospecha clínica de infección intraamniótica?",
+    "opciones": [
+      "Mantener manejo expectante durante siete días para completar corticosteroides",
+      "Administrar tocolíticos y reevaluar al día siguiente",
+      "Indicar reposo absoluto y suspender la vigilancia fetal",
+      "Esperar un cultivo positivo antes de iniciar tratamiento",
+      "Iniciar antibióticos y proceder a la finalización del embarazo según la situación obstétrica"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Los datos descritos son altamente sugestivos de infección intraamniótica. El PDF indica antibióticos y finalización del embarazo cuando existe corioamnionitis. No debe esperarse la confirmación microbiológica ni retrasarse la atención para completar corticosteroides.",
+    "perlaENARM": "RPMP más fiebre, dolor uterino y taquicardia fetal exige evaluación y tratamiento urgente por posible infección intraamniótica.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, páginas 1 y 6.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-427",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Desprendimiento prematuro de placenta",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el compromiso materno-fetal como motivo para abandonar el manejo expectante de RPMP.",
+    "caso": "Gestante de 30 semanas con RPMP presenta dolor abdominal súbito, hipertonía uterina, sangrado vaginal y deterioro de la frecuencia cardiaca fetal.",
+    "pregunta": "¿Qué complicación debe sospecharse y cómo modifica el manejo?",
+    "opciones": [
+      "Vaginosis bacteriana sin repercusión obstétrica",
+      "Desprendimiento prematuro de placenta, que requiere estabilización y evaluación para finalizar el embarazo",
+      "Falso trabajo de parto que permite alta inmediata",
+      "Insuficiencia cervical aislada que requiere cerclaje",
+      "Maduración pulmonar completa confirmada por la clínica"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Dolor, hipertonía, sangrado y deterioro fetal hacen sospechar desprendimiento prematuro de placenta. En RPMP, el desprendimiento y el compromiso fetal son razones para abandonar el manejo expectante y actuar según la gravedad materno-fetal.",
+    "perlaENARM": "El manejo expectante de RPMP termina cuando aparece una indicación materna o fetal para el nacimiento.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 1.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-428",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "RPMP cercana al término",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que el balance entre infección y prematuridad cambia al aproximarse el término.",
+    "caso": "Paciente de 35 semanas y 2 días presenta RPMP confirmada. Está afebril, sin dolor uterino, sin sangrado y con bienestar fetal tranquilizador.",
+    "pregunta": "¿Qué aspecto del balance riesgo-beneficio debe discutirse con mayor énfasis?",
+    "opciones": [
+      "La necesidad de mantener siempre el embarazo hasta las 40 semanas",
+      "La prohibición absoluta de inducir el parto antes de las 37 semanas",
+      "La indicación obligatoria de cerclaje",
+      "El riesgo infeccioso y la conveniencia de planear el nacimiento en lugar de prolongar rutinariamente la gestación",
+      "La ausencia de cualquier riesgo neonatal después de las 34 semanas"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF clasifica las 32-36 semanas como RPMP cercana al término y señala que el riesgo infeccioso cobra mayor relevancia, por lo que no recomienda manejo conservador rutinario. La conducta debe seguir las recomendaciones contemporáneas y considerar el estado materno-fetal, la colonización por estreptococo del grupo B y las preferencias informadas.",
+    "perlaENARM": "En RPMP cercana al término, el riesgo de infección pesa más en la decisión; la edad gestacional por sí sola no elimina la necesidad de individualizar.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 1.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-429",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Finalización después de 34 semanas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el enfoque del PDF para la finalización de la gestación en RPMP después de las 34 semanas.",
+    "caso": "Gestante de 35 semanas con RPMP confirmada, sin trabajo de parto establecido y sin infección clínica. El equipo analiza la planificación del nacimiento.",
+    "pregunta": "¿Qué estrategia plantea el documento como enfoque general después de las 34 semanas?",
+    "opciones": [
+      "Planear la interrupción del embarazo, individualizando la vía y la preparación cervical",
+      "Mantener manejo expectante obligatorio hasta las 40 semanas",
+      "Administrar tocolíticos hasta que el cuello se acorte",
+      "Realizar cerclaje para impedir el nacimiento",
+      "Evitar la vigilancia materno-fetal porque el feto ya es viable"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF propone interrupción después de las 34 semanas en RPMP. En la práctica, las guías actuales permiten matices según edad gestacional exacta, estado materno-fetal, estreptococo del grupo B y preferencias informadas. Deben evaluarse las condiciones cervicales y la vía de nacimiento apropiada.",
+    "perlaENARM": "RPMP después de 34 semanas requiere planear el nacimiento; la decisión clínica debe ajustarse a la guía vigente y a las condiciones del binomio.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 6.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-430",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Maduración cervical e inducción",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la puntuación de Bishop con la selección del método de inducción tras decidir finalizar el embarazo.",
+    "caso": "Paciente de 35 semanas con RPMP tiene indicación de nacimiento. Está estable, sin infección clínica y el cuello uterino se encuentra desfavorable, con puntuación de Bishop baja.",
+    "pregunta": "¿Qué principio de inducción describe el PDF para una paciente con cuello desfavorable?",
+    "opciones": [
+      "Realizar cesárea obligatoria por tener Bishop bajo",
+      "Usar tocolíticos para aumentar la puntuación de Bishop",
+      "Mantener el embarazo hasta que el cuello madure espontáneamente, sin vigilancia",
+      "Administrar sulfato de magnesio como madurador cervical",
+      "Valorar maduración cervical con un método apropiado, como prostaglandinas según protocolo y contraindicaciones"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF indica valorar la maduración cervical con Bishop cuando se decide finalizar la gestación y describe prostaglandinas para un cuello desfavorable, mientras que con maduración adecuada contempla oxitocina. La elección específica debe seguir el protocolo vigente y las condiciones clínicas.",
+    "perlaENARM": "La puntuación de Bishop ayuda a planear la inducción; un cuello desfavorable no significa cesárea automática.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 6.",
+      "ACOG. Induction of Labor."
+    ]
+  },
+  {
+    "id": "OBS-431",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Oxitocina e inducción",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el papel de la oxitocina cuando el cuello uterino es favorable y se ha decidido finalizar el embarazo.",
+    "caso": "Paciente de 35 semanas con RPMP requiere finalización. La evaluación cervical muestra cuello favorable, sin contraindicación para el parto vaginal y con presentación cefálica.",
+    "pregunta": "¿Qué método de inducción menciona el PDF para condiciones cervicales favorables?",
+    "opciones": [
+      "Metotrexato intramuscular",
+      "Oxitocina, con monitorización materno-fetal",
+      "Cerclaje cervical",
+      "Progesterona vaginal como inductor del parto",
+      "Indometacina para estimular las contracciones"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF contempla oxitocina cuando la maduración cervical es adecuada. La inducción requiere vigilancia de la actividad uterina y de la frecuencia cardiaca fetal, además de revisar contraindicaciones obstétricas para el parto vaginal.",
+    "perlaENARM": "En RPMP con indicación de nacimiento, la condición cervical orienta la inducción; oxitocina es una opción cuando el cuello es favorable.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 6.",
+      "ACOG. Induction of Labor."
+    ]
+  },
+  {
+    "id": "OBS-432",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "RPMP entre 32 y 33 semanas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Comprender la necesidad de balancear prematuridad e infección en RPMP entre 32 y 34 semanas.",
+    "caso": "Gestante de 32 semanas y 5 días con RPMP confirmada se encuentra estable, afebril, sin contracciones avanzadas y con vigilancia fetal tranquilizadora.",
+    "pregunta": "¿Qué elementos deben integrarse antes de decidir el momento del nacimiento?",
+    "opciones": [
+      "Solo el deseo de alta hospitalaria",
+      "La presencia o ausencia de náuseas del primer trimestre",
+      "Edad gestacional, infección, bienestar fetal, trabajo de parto y recomendaciones del protocolo vigente",
+      "La longitud de las extremidades fetales como único criterio",
+      "La indicación automática de cerclaje"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF presenta un enfoque expectante antes de las 32 semanas y contempla decisiones de finalización en edades gestacionales posteriores según condiciones cervicales y clínicas. La práctica debe integrar edad gestacional, signos de infección, desprendimiento, compromiso fetal y guía institucional actualizada.",
+    "perlaENARM": "La edad gestacional orienta la estrategia, pero infección, trabajo de parto y compromiso fetal pueden cambiar inmediatamente la conducta.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, páginas 1 y 6.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-433",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "RPMP previable",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la necesidad de consejería individualizada en ruptura previable de membranas.",
+    "caso": "Paciente de 21 semanas presenta RPMP confirmada, oligohidramnios importante y ausencia de trabajo de parto. Se encuentra estable y solicita información sobre las opciones disponibles.",
+    "pregunta": "¿Qué aspecto debe priorizarse al abordar este escenario?",
+    "opciones": [
+      "Consejería individualizada sobre pronóstico materno-fetal, opciones disponibles y capacidad neonatal del centro, con decisiones compartidas",
+      "Prometer supervivencia neonatal normal con manejo expectante",
+      "Indicar tocolisis indefinida como tratamiento universal",
+      "Asegurar que la infección nunca ocurre antes de las 24 semanas",
+      "Aplicar automáticamente el protocolo de RPMP de 35 semanas"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF clasifica la RPMP previable según umbrales que pueden variar entre instituciones y plantea una conducta de interrupción. La atención contemporánea exige consejería individualizada, discusión de riesgos maternos y fetales, opciones legales y clínicas disponibles y capacidad neonatal local. No deben prometerse resultados ni ignorarse las preferencias de la paciente.",
+    "perlaENARM": "La RPMP previable requiere consejería individualizada; la viabilidad depende de edad gestacional, recursos y contexto clínico.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 1.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-434",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Cerclaje y RPMP",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Valorar el riesgo infeccioso asociado con la permanencia de un cerclaje después de la RPMP.",
+    "caso": "Gestante de 29 semanas portadora de cerclaje cervical presenta RPMP confirmada. No hay infección clínica ni trabajo de parto avanzado. El equipo discute el retiro del cerclaje.",
+    "pregunta": "¿Qué aspecto debe considerarse para decidir su manejo?",
+    "opciones": [
+      "El cerclaje debe conservarse siempre hasta las 37 semanas",
+      "El cerclaje evita la infección ascendente después de la ruptura",
+      "La presencia de cerclaje excluye el diagnóstico de RPMP",
+      "Debe valorarse el retiro frente al riesgo infeccioso y el posible beneficio de prolongar brevemente la gestación, según edad gestacional y protocolo",
+      "Debe colocarse un segundo cerclaje de inmediato"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF señala que conservar el cerclaje después de la RPMP puede aumentar la morbilidad infecciosa y recomienda valorar el manejo según edad gestacional. La evidencia y las guías no respaldan una regla universal aplicable a todos los casos; la decisión debe individualizarse.",
+    "perlaENARM": "RPMP con cerclaje: balancea riesgo infeccioso y posible beneficio de latencia; no existe una conducta automática para todos los escenarios.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 6.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-435",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Vigilancia fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar los objetivos de la vigilancia fetal durante el manejo expectante de RPMP.",
+    "caso": "Paciente de 28 semanas con RPMP permanece hospitalizada en manejo expectante. No presenta fiebre ni dolor uterino, pero existe riesgo de compresión del cordón por disminución del líquido amniótico.",
+    "pregunta": "¿Qué componentes de vigilancia son relevantes durante la hospitalización?",
+    "opciones": [
+      "Solo medir la presión arterial una vez al ingreso",
+      "Vigilar únicamente la cantidad de líquido amniótico, sin valorar al feto",
+      "Evaluar bienestar fetal y cambios clínicos maternos, además de valorar el volumen de líquido y signos de infección",
+      "Suspender toda monitorización si la paciente no tiene contracciones",
+      "Realizar tactos vaginales cada turno como método principal de vigilancia"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF recomienda vigilancia materno-fetal para detectar infección, desprendimiento placentario, trabajo de parto y compromiso fetal por compresión del cordón. La vigilancia debe adaptarse a la edad gestacional y al protocolo hospitalario, evitando tactos digitales innecesarios.",
+    "perlaENARM": "En manejo expectante de RPMP, vigila infección, desprendimiento, trabajo de parto y bienestar fetal; la ausencia de contracciones no elimina el riesgo.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, páginas 1 y 4.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-436",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Sospecha de sepsis materna",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar la estabilización y el tratamiento inmediato cuando la RPMP se complica con sospecha de sepsis materna.",
+    "caso": "Gestante de 30 semanas con RPMP presenta fiebre, taquicardia, hipotensión y alteración del estado general. La frecuencia cardiaca fetal es elevada.",
+    "pregunta": "¿Cuál debe ser la prioridad inicial del equipo clínico?",
+    "opciones": [
+      "Esperar a que se confirme el microorganismo antes de tratar",
+      "Iniciar evaluación y tratamiento urgente de sepsis, antibióticos oportunos y planificación obstétrica según estabilidad y fuente infecciosa",
+      "Administrar tocolíticos para prolongar el embarazo",
+      "Indicar alta para evitar intervenciones hospitalarias",
+      "Suspender toda monitorización fetal hasta después de la estabilización"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La hipotensión y el deterioro sistémico en una paciente con RPMP obligan a sospechar sepsis. La prioridad es la estabilización materna, la administración oportuna de antibióticos y el control de la fuente, con decisión obstétrica coordinada. No debe retrasarse el tratamiento por esperar cultivos.",
+    "perlaENARM": "La sepsis materna es una urgencia: estabilización, antibióticos tempranos y control de la fuente tienen prioridad sobre prolongar la gestación.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 2.",
+      "ACOG. Intraamniotic Infection.",
+      "SMFM. Maternal Sepsis."
+    ]
+  },
+  {
+    "id": "OBS-437",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Latencia y pronóstico neonatal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar el beneficio potencial de prolongar la gestación en RPMP remota del término cuando es seguro.",
+    "caso": "Gestante de 27 semanas con RPMP permanece estable bajo vigilancia hospitalaria. No tiene datos de infección, desprendimiento placentario ni deterioro fetal.",
+    "pregunta": "¿Cuál es el fundamento del manejo expectante en una paciente seleccionada como esta?",
+    "opciones": [
+      "Garantizar que nunca desarrollará corioamnionitis",
+      "Evitar toda necesidad de vigilancia neonatal",
+      "Demostrar que la prematuridad ya no representa un riesgo",
+      "Sustituir los corticosteroides por reposo absoluto",
+      "Ganar tiempo gestacional para reducir algunas complicaciones de prematuridad, vigilando simultáneamente riesgos infecciosos y obstétricos"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF señala que en RPMP remota del término el manejo conservador puede beneficiar al neonato al reducir complicaciones de prematuridad. Este beneficio debe balancearse con infección, desprendimiento, trabajo de parto y compromiso fetal; si aparece una contraindicación, se abandona el manejo expectante.",
+    "perlaENARM": "El manejo expectante es una estrategia condicionada por estabilidad y vigilancia, no una obligación de prolongar el embarazo a cualquier costo.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 1.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-438",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Interpretación de pruebas discordantes",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar historia clínica, especuloscopía, pruebas bioquímicas y ultrasonido cuando los resultados son discordantes.",
+    "caso": "Gestante de 30 semanas refiere pérdida de líquido desde hace 12 horas. No se observa salida activa en la especuloscopía, la nitrazina es negativa y el ultrasonido muestra oligohidramnios nuevo respecto al control previo.",
+    "pregunta": "¿Qué enfoque evita descartar erróneamente la RPMP?",
+    "opciones": [
+      "Integrar la historia, la exploración y las pruebas complementarias, considerando falsos negativos y reevaluación especializada",
+      "Descartar definitivamente RPMP por la nitrazina negativa",
+      "Diagnosticar corioamnionitis solo por el oligohidramnios",
+      "Indicar cesárea inmediata en todos los casos con oligohidramnios",
+      "Ignorar la historia porque no existe salida activa durante la consulta"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF describe falsos negativos de nitrazina cuando la pérdida de líquido es prolongada y señala que un volumen normal tampoco descarta RPM. Ante resultados discordantes, la historia clínica, la especuloscopía, pruebas complementarias y la evaluación obstétrica deben integrarse antes de decidir la conducta.",
+    "perlaENARM": "Una prueba negativa aislada no excluye RPMP cuando la sospecha clínica persiste; interpreta todas las evidencias en conjunto.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, página 3.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-439",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Vía del nacimiento",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Evitar indicar cesárea únicamente por la presencia de ruptura prematura de membranas.",
+    "caso": "Gestante de 35 semanas con RPMP tiene presentación cefálica, estado fetal tranquilizador, ausencia de placenta previa y condiciones clínicas que permiten inducción. Se ha decidido finalizar el embarazo.",
+    "pregunta": "¿Qué criterio debe orientar la elección de la vía de nacimiento?",
+    "opciones": [
+      "Toda RPMP exige cesárea para prevenir infección neonatal",
+      "La edad gestacional menor de 37 semanas excluye el parto vaginal",
+      "La vía debe individualizarse según presentación, estado materno-fetal y contraindicaciones obstétricas; la RPM por sí sola no impone cesárea",
+      "La cesárea es obligatoria si el cuello uterino está desfavorable",
+      "Debe realizarse parto instrumental en todos los casos"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La ruptura de membranas no es por sí misma una indicación de cesárea. Si no hay contraindicación al parto vaginal, puede considerarse inducción y vigilancia adecuada. La decisión depende de las condiciones obstétricas, el bienestar fetal y la evolución clínica.",
+    "perlaENARM": "RPM no equivale a cesárea: la vía del nacimiento depende de las indicaciones obstétricas habituales y del estado materno-fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, páginas 6 y 7.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-440",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura prematura de membranas",
+    "subtema": "Integración diagnóstica y terapéutica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar edad gestacional, infección, estado fetal y opciones de manejo para decidir entre vigilancia expectante y finalización.",
+    "caso": "Gestante de 29 semanas con salida de líquido transvaginal confirmada por especuloscopía. Está afebril, sin dolor uterino, sin sangrado y sin trabajo de parto avanzado. El feto presenta bienestar tranquilizador. No ha recibido corticosteroides ni antibióticos de latencia.",
+    "pregunta": "¿Qué plan inicial corresponde a una paciente seleccionada para manejo expectante?",
+    "opciones": [
+      "Alta inmediata sin vigilancia porque la paciente está afebril",
+      "Finalización inmediata en todos los casos de RPMP antes de las 34 semanas",
+      "Tocolisis continua hasta el término como única intervención",
+      "Manejo hospitalario con vigilancia materno-fetal, antibióticos de latencia y corticosteroides según indicación; valorar neuroprotección si el nacimiento se vuelve inminente",
+      "Cerclaje cervical urgente para cerrar el cuello y detener la pérdida de líquido"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "En RPMP remota del término, sin infección ni compromiso materno-fetal, puede considerarse manejo expectante hospitalario. El plan incluye vigilancia, antibióticos de latencia y corticosteroides cuando estén indicados. Si el nacimiento es inminente antes de las 32 semanas, debe valorarse sulfato de magnesio para neuroprotección. La aparición de corioamnionitis, desprendimiento, trabajo de parto avanzado o deterioro fetal cambia la conducta.",
+    "perlaENARM": "RPMP a las 29 semanas sin contraindicaciones: vigilancia y manejo expectante seleccionado; infección o compromiso materno-fetal obliga a reevaluar de inmediato.",
+    "bibliografia": [
+      "PDF proporcionado: 9. Ruptura Prematura de Membranas, páginas 1, 5 y 6.",
+      "ACOG. Prelabor Rupture of Membranes.",
+      "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation.",
+      "ACOG. Magnesium Sulfate Before Anticipated Preterm Birth for Neuroprotection."
+    ]
+  },
+  {
+    "id": "OBS-441",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Definición y clasificación",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar la infección intraamniótica clínica de la inflamación histológica de las membranas.",
+    "caso": "Gestante de 31 semanas con ruptura prematura de membranas es sometida a manejo obstétrico por nacimiento pretérmino. Después del parto, el estudio de placenta y membranas revela infiltración de leucocitos polimorfonucleares, aunque la madre nunca presentó fiebre, taquicardia ni dolor uterino.",
+    "pregunta": "¿Cómo debe clasificarse el hallazgo anatomopatológico?",
+    "opciones": [
+      "Corioamnionitis clínica confirmada exclusivamente por fiebre",
+      "Sepsis materna demostrada por histología",
+      "Inflamación histológica compatible con corioamnionitis subclínica",
+      "Endometritis puerperal necesariamente presente",
+      "Desprendimiento prematuro de placenta confirmado"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF diferencia la forma subclínica, caracterizada por infiltración leucocitaria sin manifestaciones clínicas, de la forma clínica, que presenta datos maternos o fetales. La histopatología puede demostrar inflamación aun cuando no existan signos clínicos durante el embarazo. Este hallazgo no equivale automáticamente a sepsis materna.",
+    "perlaENARM": "La inflamación histológica de las membranas puede ser subclínica; no debe confundirse con un síndrome infeccioso materno clínicamente manifiesto.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 1-3.",
+      "ACOG. Intraamniotic Infection.",
+      "Harrison's Principles of Internal Medicine."
+    ]
+  },
+  {
+    "id": "OBS-442",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Vía de infección",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar la vía ascendente como mecanismo predominante de infección intraamniótica.",
+    "caso": "Paciente de 30 semanas con ruptura prematura de membranas de evolución prolongada desarrolla fiebre, taquicardia fetal y líquido amniótico purulento. No existen datos de infección sistémica previa ni procedimientos invasivos recientes.",
+    "pregunta": "¿Cuál es el mecanismo de infección más probable?",
+    "opciones": [
+      "Diseminación hematógena obligatoria desde una bacteriemia materna",
+      "Migración ascendente de microorganismos vaginales o cervicales hacia la cavidad amniótica",
+      "Diseminación exclusiva por contigüidad desde el intestino materno",
+      "Transmisión genética de microorganismos al feto",
+      "Contaminación posterior al nacimiento como explicación de todos los hallazgos"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF identifica la vía ascendente desde vagina o cérvix como la vía más frecuente de llegada de microorganismos a la cavidad amniótica. La ruptura de membranas y la dilatación cervical facilitan la propagación. También existen vías hematógena, retrógrada y relacionadas con procedimientos invasivos.",
+    "perlaENARM": "La vía ascendente es la principal vía de infección intraamniótica; la ruptura prolongada de membranas aumenta la preocupación clínica.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 2.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-443",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Factores de riesgo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar la duración de la ruptura de membranas y los tactos vaginales repetidos con el riesgo de infección intraamniótica.",
+    "caso": "Primigesta de 32 semanas con ruptura de membranas de 22 horas ha recibido múltiples exploraciones vaginales digitales en una unidad de primer contacto. Presenta ahora fiebre y taquicardia fetal.",
+    "pregunta": "¿Qué elementos de la historia aumentan especialmente la sospecha de infección ascendente?",
+    "opciones": [
+      "La presentación cefálica y la nuliparidad como únicos factores relevantes",
+      "La edad gestacional de 32 semanas como factor suficiente para confirmar infección",
+      "La ausencia de hipertensión arterial crónica",
+      "La ausencia de sangrado vaginal durante el embarazo",
+      "La ruptura prolongada de membranas y la manipulación vaginal repetida"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF incluye la ruptura prolongada de membranas y los tactos vaginales frecuentes entre los factores asociados con corioamnionitis. Estos antecedentes elevan la sospecha, pero el diagnóstico clínico requiere integrar los signos maternos y fetales, además de descartar otras causas de fiebre.",
+    "perlaENARM": "En una paciente con membranas rotas, limita los tactos digitales innecesarios y reevalúa oportunamente los signos de infección.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 1.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-444",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Factores predisponentes",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Reconocer factores clínicos y procedimientos asociados con mayor riesgo de infección intraamniótica.",
+    "caso": "Gestante de 27 semanas con cerclaje cervical presenta salida de líquido transvaginal y posteriormente fiebre. Durante la revisión de antecedentes se documenta que fue sometida a una técnica invasiva prenatal varias semanas antes.",
+    "pregunta": "¿Qué conjunto incluye factores de riesgo mencionados en el PDF?",
+    "opciones": [
+      "Cerclaje, ruptura prolongada de membranas y procedimientos invasivos",
+      "Presentación cefálica, grupo sanguíneo O y ausencia de anemia",
+      "Vacunación materna y suplementación prenatal habitual",
+      "Embarazo único, presión arterial normal y ausencia de contracciones",
+      "Antecedente exclusivo de cesárea electiva sin trabajo de parto"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El documento incluye cerclaje, ruptura prolongada de membranas y procedimientos invasivos como amniocentesis, cordocentesis y fetoscopia entre los factores asociados. Su presencia no demuestra por sí misma infección, pero debe incorporarse a la valoración clínica.",
+    "perlaENARM": "Los factores de riesgo orientan la sospecha, pero no sustituyen los criterios clínicos ni justifican por sí solos diagnosticar corioamnionitis.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 1-2.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-445",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Microbiología",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar la microbiología de la infección intraamniótica sin atribuir causalidad a una especie de forma universal.",
+    "caso": "Durante una sesión académica se revisan cultivos de líquido amniótico de pacientes con infección intraamniótica. El material docente señala que los microorganismos genitales pueden alcanzar la cavidad amniótica por vía ascendente y presenta una distribución de agentes obtenida de una serie específica.",
+    "pregunta": "¿Qué afirmación conserva la distinción entre el contenido del PDF y la interpretación microbiológica clínica?",
+    "opciones": [
+      "La corioamnionitis es siempre monomicrobiana y causada por Candida",
+      "Estreptococo del grupo B es el único microorganismo capaz de producir infección intraamniótica",
+      "La identificación de un microorganismo en una serie local demuestra que es el agente más frecuente en todas las poblaciones",
+      "La infección puede ser polimicrobiana y la distribución de agentes debe interpretarse según la población y el método diagnóstico",
+      "Los cultivos no tienen ninguna utilidad en la investigación de infección intraamniótica"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF enumera Ureaplasma, Mycoplasma hominis, Bacteroides, estreptococo del grupo B, E. coli y Listeria, entre otros agentes, y describe la vía ascendente como predominante. Las proporciones mostradas corresponden al material docente y no deben extrapolarse automáticamente a todos los entornos. La etiología puede ser polimicrobiana.",
+    "perlaENARM": "La flora genital y los microorganismos asociados con infección intraamniótica son diversos; no extrapoles porcentajes de una serie a toda población obstétrica.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 2.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-446",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Manifestaciones clínicas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar signos maternos y fetales para sospechar infección intraamniótica.",
+    "caso": "Gestante de 38 semanas en trabajo de parto presenta temperatura de 38.6 °C, frecuencia cardiaca materna de 118 lpm, frecuencia cardiaca fetal de 175 lpm y dolor a la palpación uterina. No se dispone aún de cultivos.",
+    "pregunta": "¿Cuál es la principal preocupación diagnóstica?",
+    "opciones": [
+      "Diabetes gestacional descompensada",
+      "Placenta previa sin sangrado",
+      "Infección intraamniótica clínica",
+      "Preeclampsia sin datos de hipertensión",
+      "Embarazo ectópico no roto"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La combinación de fiebre, taquicardia materna y fetal y sensibilidad uterina es altamente sugestiva de infección intraamniótica. No es necesario esperar el resultado de un cultivo para iniciar el tratamiento cuando la sospecha clínica es suficiente. Deben evaluarse también otras causas de fiebre y taquicardia.",
+    "perlaENARM": "Fiebre materna con taquicardia fetal y dolor uterino durante el trabajo de parto obliga a evaluar infección intraamniótica de manera urgente.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 3.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-447",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Criterios clínicos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar el sobrediagnóstico de infección intraamniótica a partir de un signo aislado.",
+    "caso": "Gestante de 39 semanas recibe analgesia epidural durante el trabajo de parto. Posteriormente presenta temperatura de 38.1 °C en una medición, sin taquicardia fetal, sin dolor uterino y con líquido amniótico sin características purulentas.",
+    "pregunta": "¿Qué principio debe aplicarse antes de atribuir la fiebre a corioamnionitis?",
+    "opciones": [
+      "La fiebre durante el parto siempre demuestra infección intraamniótica",
+      "La taquicardia materna es obligatoria para descartar cualquier otra causa",
+      "La epidural excluye la posibilidad de infección",
+      "La ausencia de líquido fétido descarta definitivamente la enfermedad",
+      "Evaluar la fiebre en su contexto, buscar otros signos y considerar causas infecciosas y no infecciosas"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF advierte que los signos clínicos son inespecíficos y pueden deberse a otros procesos. La fiebre intraparto exige evaluación y clasificación clínica apropiada, considerando duración, mediciones, signos asociados y diagnósticos alternativos. No debe descartarse infección por ausencia de un solo signo ni afirmarse por una causa potencial de fiebre sin valoración.",
+    "perlaENARM": "La fiebre intraparto requiere evaluación estructurada; evita tanto el sobrediagnóstico como la omisión de infección intraamniótica.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 3.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-448",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Diagnóstico diferencial",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar infección intraamniótica de causas extrauterinas de fiebre materna.",
+    "caso": "Gestante de 34 semanas con fiebre y taquicardia materna refiere disuria y dolor lumbar. No presenta dolor uterino, secreción vaginal purulenta ni taquicardia fetal. El examen general de orina es sugestivo de infección.",
+    "pregunta": "¿Qué diagnóstico alternativo debe investigarse activamente?",
+    "opciones": [
+      "Infección de vías urinarias, incluida pielonefritis según la clínica",
+      "Embarazo molar completo",
+      "Insuficiencia cervical aislada",
+      "Placenta acreta",
+      "Tumor trofoblástico del sitio placentario"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF incluye infección urinaria e influenza entre los diagnósticos diferenciales de fiebre en una paciente embarazada, además de causas no infecciosas como tromboflebitis y desprendimiento placentario. La ausencia de signos uterinos no excluye completamente infección intraamniótica, pero obliga a investigar otras fuentes.",
+    "perlaENARM": "Ante fiebre materna, busca el foco: la infección extrauterina puede imitar algunos signos de corioamnionitis.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 3.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-449",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Biometría hemática",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar la leucocitosis gestacional con cautela en la sospecha de infección intraamniótica.",
+    "caso": "Paciente de 37 semanas en trabajo de parto presenta leucocitos de 17,000/µL después de recibir corticosteroides antenatales recientemente. Está afebril, sin taquicardia fetal ni sensibilidad uterina.",
+    "pregunta": "¿Cuál es la interpretación más prudente del hemograma?",
+    "opciones": [
+      "La leucocitosis confirma corioamnionitis con independencia de la clínica",
+      "La leucocitosis aislada no establece el diagnóstico y debe interpretarse junto con el contexto clínico",
+      "El resultado descarta infección porque no hay leucopenia",
+      "La cifra demuestra bacteriemia materna",
+      "La biometría hemática sustituye la valoración obstétrica"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF señala leucocitos mayores de 15,000/µL y desviación a la izquierda como hallazgos sospechosos, pero estos datos son inespecíficos. El trabajo de parto y los corticosteroides pueden modificar el recuento leucocitario. La decisión clínica requiere integrar temperatura, frecuencia cardiaca, exploración y otros datos.",
+    "perlaENARM": "La leucocitosis aislada no confirma infección intraamniótica, especialmente durante el trabajo de parto o después de corticosteroides.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 3.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-450",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Proteína C reactiva",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer las limitaciones de los biomarcadores inflamatorios para confirmar o excluir corioamnionitis.",
+    "caso": "Gestante de 30 semanas con amenaza de parto pretérmino presenta proteína C reactiva elevada, pero no tiene fiebre, dolor uterino ni taquicardia fetal. El equipo considera finalizar el embarazo únicamente por el biomarcador.",
+    "pregunta": "¿Qué limitación debe reconocerse antes de tomar una decisión irreversible?",
+    "opciones": [
+      "La proteína C reactiva identifica con certeza el microorganismo causal",
+      "La proteína C reactiva nunca aumenta en el embarazo",
+      "Un valor elevado demuestra siempre infección fetal invasiva",
+      "El biomarcador es inespecífico y no debe determinar por sí solo el diagnóstico ni la finalización",
+      "Una proteína C reactiva elevada excluye infección extrauterina"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF menciona elevación de proteína C reactiva en procesos inflamatorios y la considera un elemento auxiliar. Sin embargo, los biomarcadores inflamatorios no sustituyen la valoración clínica y no son suficientes por sí solos para confirmar o excluir infección intraamniótica ni para decidir el nacimiento.",
+    "perlaENARM": "La proteína C reactiva puede apoyar la evaluación inflamatoria, pero no es un criterio aislado para indicar interrupción del embarazo.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 3.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-451",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Histopatología placentaria",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el papel de la histopatología en la identificación de inflamación clínica y subclínica.",
+    "caso": "Después de un nacimiento pretérmino, el neonato presenta datos de infección. La madre permaneció afebril durante el embarazo. La placenta se envía a estudio anatomopatológico.",
+    "pregunta": "¿Qué aporta principalmente el estudio histopatológico en este contexto?",
+    "opciones": [
+      "Permite identificar inflamación de las membranas aun cuando la presentación clínica haya sido silenciosa",
+      "Garantiza la identificación de todos los microorganismos presentes",
+      "Sustituye la evaluación clínica urgente de una paciente febril durante el parto",
+      "Demuestra siempre que existió bacteriemia materna",
+      "Determina por sí solo la sensibilidad antibiótica del microorganismo"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF identifica la histopatología como referencia para detectar corioamnionitis clínica y subclínica. La inflamación puede estar presente sin que se identifiquen microorganismos, y pueden existir microorganismos sin inflamación histológica demostrable. Por ello, histología y microbiología no son equivalentes.",
+    "perlaENARM": "La histopatología caracteriza la respuesta inflamatoria; no garantiza identificar el agente ni reemplaza la atención clínica durante el embarazo.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 3.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-452",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Amniocentesis diagnóstica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar los hallazgos del líquido amniótico que pueden apoyar el diagnóstico de infección intraamniótica.",
+    "caso": "En una paciente seleccionada por sospecha de infección intraamniótica, el líquido amniótico obtenido mediante amniocentesis presenta glucosa baja, leucocitos elevados y esterasa leucocitaria positiva.",
+    "pregunta": "¿Cómo deben interpretarse estos resultados?",
+    "opciones": [
+      "Son hallazgos exclusivos de diabetes gestacional",
+      "Descartan infección si el cultivo todavía está pendiente",
+      "Apoyan la sospecha de infección o inflamación intraamniótica y deben correlacionarse con el contexto clínico",
+      "Demuestran obligatoriamente una infección por virus",
+      "Indican que no es necesario tratar una infección clínica"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF enumera incremento de leucocitos, glucosa disminuida, DHL elevada, esterasa leucocitaria e interleucina 6 elevada entre los hallazgos que pueden apoyar el diagnóstico. La interpretación depende del método y del contexto clínico; la amniocentesis no debe realizarse rutinariamente en todas las pacientes con sospecha clínica.",
+    "perlaENARM": "El líquido amniótico puede aportar evidencia microbiológica e inflamatoria, pero los resultados deben integrarse con la presentación clínica.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 4.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-453",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Interleucina 6",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el uso de marcadores inflamatorios del líquido amniótico y sus límites diagnósticos.",
+    "caso": "En un protocolo de investigación obstétrica, una paciente con amenaza de parto pretérmino es sometida a evaluación de líquido amniótico. La interleucina 6 se encuentra por encima del umbral empleado por el laboratorio.",
+    "pregunta": "¿Qué significado tiene este resultado en el marco del material proporcionado?",
+    "opciones": [
+      "Confirma de forma específica infección por estreptococo del grupo B",
+      "Demuestra infección materna de origen urinario",
+      "Descarta inflamación intraamniótica si no existe fiebre",
+      "Indica maduración pulmonar fetal completa",
+      "Apoya la presencia de respuesta inflamatoria intraamniótica, sin identificar por sí sola el microorganismo causal"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF menciona interleucina 6 mayor de 7.9 ng/mL entre los hallazgos que pueden encontrarse en el líquido amniótico con infección o inflamación. El umbral depende del método utilizado y no identifica por sí mismo el microorganismo causal ni sustituye la valoración obstétrica.",
+    "perlaENARM": "Un marcador inflamatorio elevado aporta evidencia de inflamación, pero no define por sí solo la etiología ni la conducta clínica.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 4.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-454",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Cultivo de líquido amniótico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Comprender por qué un cultivo negativo no excluye necesariamente infección intraamniótica.",
+    "caso": "Gestante con fiebre, taquicardia fetal y sensibilidad uterina tiene cultivo de líquido amniótico negativo a las 48 horas. El cuadro clínico continúa siendo sugestivo de infección.",
+    "pregunta": "¿Cuál es la principal limitación de utilizar el cultivo negativo para descartar la enfermedad?",
+    "opciones": [
+      "El cultivo siempre es positivo antes de que aparezcan los síntomas",
+      "No todos los microorganismos crecen en los medios convencionales y la infección puede localizarse en tejidos no representados por la muestra",
+      "Los cultivos solo identifican alteraciones cromosómicas",
+      "Un cultivo negativo demuestra ausencia de inflamación histológica",
+      "El cultivo negativo descarta todas las causas de fiebre obstétrica"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF advierte que el cultivo puede tardar al menos 48 horas y que un resultado negativo no excluye corioamnionitis por limitaciones de los medios de cultivo y porque la inflamación puede localizarse en decidua o corion. Ante una sospecha clínica suficiente, no debe retrasarse el tratamiento esperando el cultivo.",
+    "perlaENARM": "La clínica manda en la urgencia: un cultivo negativo no excluye infección intraamniótica ni justifica demorar antibióticos indicados.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 3-4.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-455",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Cardiotocografía",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar alteraciones cardiotocográficas como datos de alarma y no como pruebas etiológicas definitivas.",
+    "caso": "Paciente de 35 semanas con sospecha de infección intraamniótica presenta taquicardia fetal persistente y contracciones uterinas frecuentes. El trazado no muestra una variabilidad claramente normal.",
+    "pregunta": "¿Cuál es la utilidad principal de la cardiotocografía en esta situación?",
+    "opciones": [
+      "Identificar el microorganismo que invade la cavidad amniótica",
+      "Confirmar histológicamente la inflamación de las membranas",
+      "Excluir infección intraamniótica si existe variabilidad moderada",
+      "Valorar el estado fetal y detectar patrones que pueden requerir intervención obstétrica",
+      "Sustituir la evaluación de la temperatura materna"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF describe taquicardia fetal, trazado no reactivo y contracciones que no responden a tocolíticos como posibles hallazgos de la cardiotocografía. Estos datos ayudan a evaluar el estado fetal, pero no identifican por sí mismos el agente ni confirman el diagnóstico etiológico.",
+    "perlaENARM": "La cardiotocografía evalúa bienestar fetal; no es una prueba microbiológica para diagnosticar corioamnionitis.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 4.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-456",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Perfil biofísico fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la relación entre alteraciones del perfil biofísico y el riesgo de compromiso fetal.",
+    "caso": "Gestante de 31 semanas con sospecha de infección intraamniótica presenta disminución de movimientos respiratorios fetales y posteriormente pérdida de tono y movimientos fetales en la evaluación ecográfica.",
+    "pregunta": "¿Qué interpretación debe tener este deterioro progresivo?",
+    "opciones": [
+      "El perfil biofísico confirma una especie bacteriana específica",
+      "La pérdida de movimientos fetales demuestra que el embarazo debe prolongarse",
+      "El deterioro de variables del perfil biofísico incrementa la preocupación por compromiso fetal y requiere reevaluación obstétrica urgente",
+      "La ausencia de movimientos respiratorios descarta infección",
+      "Los cambios del perfil biofísico son irrelevantes en infección intraamniótica"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF relaciona el compromiso de variables del perfil biofísico con mayor correlación de infección fetal y señala que la ausencia de movimientos respiratorios puede aparecer antes que la pérdida de movimientos y tono. En la práctica, estos hallazgos deben interpretarse en el contexto de la edad gestacional y de la evaluación fetal completa.",
+    "perlaENARM": "Un perfil biofísico deteriorado es una señal de alarma fetal, pero no identifica por sí solo la causa del deterioro.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 4.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-457",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Tratamiento inicial",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar hospitalización, estabilización y antibióticos tempranos ante sospecha clínica relevante de infección intraamniótica.",
+    "caso": "Gestante de 36 semanas presenta fiebre de 39 °C, taquicardia materna, dolor uterino y taquicardia fetal. Se encuentra hemodinámicamente estable, pero el resultado del cultivo de líquido amniótico tardará varios días.",
+    "pregunta": "¿Qué plan inicial es el más congruente con el manejo descrito en el PDF?",
+    "opciones": [
+      "Hospitalización, evaluación y estabilización materna, inicio inmediato de antibióticos y planificación del nacimiento",
+      "Alta con antipiréticos y revisión en una semana",
+      "Esperar el cultivo antes de iniciar antibióticos",
+      "Administrar únicamente corticosteroides y suspender vigilancia fetal",
+      "Indicar tocolisis prolongada para completar la gestación"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF señala hospitalización ante sospecha de corioamnionitis clínica, acceso venoso, líquidos individualizados y antibióticos inmediatos. La infección clínica requiere tratamiento y planificación de la finalización del embarazo; no debe retrasarse la intervención esperando cultivos.",
+    "perlaENARM": "Ante sospecha clínica significativa de infección intraamniótica, inicia antibióticos oportunos y organiza el nacimiento sin esperar confirmación microbiológica.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 5.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-458",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Antibioticoterapia intraparto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la importancia de iniciar antibióticos durante el trabajo de parto ante infección intraamniótica.",
+    "caso": "Paciente de 38 semanas con infección intraamniótica clínica se encuentra en trabajo de parto. El equipo considera esperar al nacimiento para administrar la primera dosis de antibióticos porque planea una vigilancia neonatal estrecha.",
+    "pregunta": "¿Qué problema tiene la estrategia propuesta?",
+    "opciones": [
+      "Los antibióticos intraparto aumentan siempre el riesgo de sepsis neonatal",
+      "La terapia solo es eficaz si se administra después del alumbramiento",
+      "El tratamiento debe diferirse hasta que se conozca el cultivo placentario",
+      "La infección intraamniótica no requiere tratamiento antimicrobiano",
+      "Retrasar los antibióticos puede aumentar la exposición materno-fetal a la infección; deben iniciarse oportunamente"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF indica iniciar antibióticos inmediatamente al establecer el diagnóstico y destaca el beneficio de la administración intraparto frente a iniciarla después del nacimiento. El tratamiento antimicrobiano no sustituye la vigilancia del recién nacido, que dependerá de la exposición y de su evaluación clínica.",
+    "perlaENARM": "En infección intraamniótica clínica, los antibióticos se inician al diagnóstico; no se posponen hasta el puerperio.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 5.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-459",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Esquema antibiótico inicial",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la combinación antimicrobiana clásica descrita en el material proporcionado.",
+    "caso": "Gestante de término presenta infección intraamniótica clínica. No tiene alergias conocidas a betalactámicos y se requiere cobertura empírica mientras se organiza el nacimiento.",
+    "pregunta": "¿Qué esquema identifica el PDF como primera elección clásica?",
+    "opciones": [
+      "Metronidazol en monoterapia",
+      "Ampicilina más gentamicina por vía intravenosa",
+      "Fluconazol más aciclovir",
+      "Metotrexato más ácido folínico",
+      "Nitrofurantoína oral como tratamiento exclusivo"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF presenta ampicilina más gentamicina intravenosas como primera elección clásica. El régimen debe ajustarse a las recomendaciones institucionales vigentes, alergias, función renal, gravedad clínica y necesidad de cobertura adicional en determinados escenarios, como la cesárea.",
+    "perlaENARM": "El esquema clásico de ampicilina más gentamicina es un punto de repaso frecuente; verifica ajustes y cobertura adicional según el escenario obstétrico.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 5.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-460",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Alergia a betalactámicos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Individualizar el tratamiento antibiótico ante alergia a penicilinas y evitar seleccionar alternativas sin evaluar la reacción.",
+    "caso": "Paciente de 37 semanas con infección intraamniótica tiene antecedente de anafilaxia inmediata documentada tras recibir penicilina. Está en trabajo de parto y requiere tratamiento empírico urgente.",
+    "pregunta": "¿Qué criterio debe orientar la selección del esquema alternativo?",
+    "opciones": [
+      "Administrar ampicilina a dosis reducida para evitar toda reacción",
+      "Omitir antibióticos hasta obtener un cultivo positivo",
+      "Usar únicamente un antipirético mientras progresa el parto",
+      "Elegir cobertura empírica alternativa de acuerdo con la gravedad de la alergia, los patógenos probables y el protocolo vigente",
+      "Prescribir metotrexato como sustituto antimicrobiano"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF enumera alternativas como clindamicina, gentamicina, ceftriaxona o metronidazol, pero no todas son intercambiables ni apropiadas en todos los perfiles de alergia. En anafilaxia documentada, el régimen debe seleccionarse conforme al protocolo local y a las necesidades de cobertura, sin retrasar el tratamiento.",
+    "perlaENARM": "La alergia inmediata a penicilinas exige seleccionar un esquema alternativo con cobertura adecuada; no basta con sustituir un fármaco al azar.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 5.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-461",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Momento de la finalización",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar retrasos innecesarios del nacimiento cuando existe infección intraamniótica clínica.",
+    "caso": "Gestante de 35 semanas con fiebre, sensibilidad uterina y taquicardia fetal tiene diagnóstico clínico de infección intraamniótica. El equipo propone esperar 48 horas para completar corticosteroides antenatales.",
+    "pregunta": "¿Qué principio de manejo debe prevalecer?",
+    "opciones": [
+      "Completar corticosteroides es obligatorio antes de cualquier intervención",
+      "La infección clínica contraindica toda inducción del parto",
+      "Iniciar antibióticos y avanzar hacia el nacimiento sin retrasarlo para completar corticosteroides",
+      "Esperar hasta que el cultivo confirme el diagnóstico",
+      "Administrar tocolíticos para prolongar el embarazo al menos dos días"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF indica que la corioamnionitis clínica requiere antibióticos y finalización del embarazo. La administración de corticosteroides no debe retrasar un nacimiento indicado por infección o compromiso materno-fetal. La vía del nacimiento depende de las indicaciones obstétricas y no de la infección por sí sola.",
+    "perlaENARM": "La infección intraamniótica clínica no debe manejarse prolongando el embarazo para completar una intervención antenatal.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 5-6.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-462",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Vía del nacimiento",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir la indicación de finalizar el embarazo de la indicación específica de cesárea.",
+    "caso": "Paciente de 39 semanas con infección intraamniótica clínica presenta feto en presentación cefálica, frecuencia cardiaca fetal tranquilizadora y condiciones cervicales favorables. No existen contraindicaciones para parto vaginal.",
+    "pregunta": "¿Qué vía de nacimiento debe considerarse si no aparece una indicación obstétrica de cesárea?",
+    "opciones": [
+      "Parto vaginal mediante conducción o inducción según las condiciones clínicas",
+      "Cesárea obligatoria por el diagnóstico de infección intraamniótica",
+      "Histerectomía inmediata como tratamiento estándar",
+      "Nacimiento diferido hasta que la fiebre desaparezca por completo",
+      "Fórceps obligatorio antes de alcanzar dilatación completa"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF favorece la vía vaginal cuando es factible para reducir el riesgo de infección abdominal y señala que la cesárea debe reservarse para indicaciones obstétricas habituales. La infección intraamniótica requiere antibióticos y nacimiento, pero no impone por sí sola una cesárea.",
+    "perlaENARM": "Corioamnionitis significa tratar la infección y finalizar la gestación; no significa cesárea automática.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 6.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-463",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Cesárea y cobertura anaerobia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la necesidad de considerar cobertura antimicrobiana adicional cuando se realiza cesárea en una paciente con infección intraamniótica.",
+    "caso": "Gestante de 37 semanas con infección intraamniótica clínica requiere cesárea por una indicación obstétrica independiente. Ya recibió antibióticos intravenosos durante el trabajo de parto.",
+    "pregunta": "¿Qué consideración antimicrobiana debe incluir el plan perioperatorio?",
+    "opciones": [
+      "Suspender todos los antibióticos antes de la incisión",
+      "Utilizar exclusivamente un antifúngico",
+      "Reemplazar el tratamiento por profilaxis contra estreptococo del grupo B en monoterapia",
+      "Diferir la cirugía hasta que los cultivos sean negativos",
+      "Administrar cobertura adicional apropiada, incluida actividad contra anaerobios según el protocolo, sin omitir la profilaxis quirúrgica indicada"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF contempla cobertura contra anaerobios en algunos esquemas y señala prolongar el tratamiento cuando el nacimiento es por cesárea. Las recomendaciones contemporáneas suelen incluir una dosis adicional apropiada en el momento de la cesárea, según el régimen empleado y el protocolo. La duración posterior debe individualizarse según evolución clínica, no asumirse automáticamente como 7-10 días para todas las pacientes.",
+    "perlaENARM": "La cesárea en presencia de infección intraamniótica exige revisar cobertura perioperatoria y anaerobia; el esquema exacto depende del protocolo vigente.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 5.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-464",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Duración de antibióticos posparto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir el tratamiento intraparto de la necesidad de continuar antibióticos después del nacimiento.",
+    "caso": "Paciente con infección intraamniótica recibe antibióticos intraparto y presenta parto vaginal sin complicaciones. En el puerperio está afebril, hemodinámicamente estable y sin datos de infección persistente.",
+    "pregunta": "¿Qué principio debe guiar la duración del tratamiento después del parto?",
+    "opciones": [
+      "Todas las pacientes requieren diez días de antibióticos intravenosos sin excepción",
+      "La duración debe individualizarse; después de parto vaginal sin persistencia de infección no siempre se requieren cursos prolongados rutinarios",
+      "Los antibióticos deben suspenderse antes del nacimiento en todas las pacientes",
+      "Es obligatorio continuar tratamiento hasta que la histología sea negativa",
+      "El tratamiento debe sustituirse por corticosteroides"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF menciona una duración de 7-10 días, pero esta recomendación no debe aplicarse universalmente sin considerar la evolución. En la práctica contemporánea, la necesidad de continuar antibióticos tras el parto depende de la vía del nacimiento, la respuesta clínica, la bacteriemia y la presencia de complicaciones. El tratamiento intraparto oportuno es esencial.",
+    "perlaENARM": "No extrapoles un curso fijo de antibióticos a todas las pacientes; la evolución clínica y las complicaciones determinan la necesidad de tratamiento posparto.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 5.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-465",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Corioamnionitis subclínica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar inflamación subclínica de infección clínica y evitar la finalización automática basada solo en histología.",
+    "caso": "Gestante de 29 semanas con amenaza de parto pretérmino está afebril y no tiene dolor uterino ni taquicardia fetal. Un estudio histológico previo de membranas, disponible de una gestación anterior, había demostrado inflamación subclínica. Actualmente no hay evidencia clínica que confirme infección.",
+    "pregunta": "¿Qué principio de manejo es apropiado para evitar una intervención injustificada?",
+    "opciones": [
+      "Finalizar de inmediato cualquier embarazo con antecedente histológico remoto",
+      "Administrar antibióticos durante todo el embarazo por el antecedente aislado",
+      "Indicar cesárea preventiva independientemente de la presentación",
+      "Evaluar el cuadro actual y utilizar los hallazgos disponibles; el antecedente histológico remoto no constituye por sí solo indicación de finalización",
+      "Asumir sepsis fetal confirmada sin realizar evaluación"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF distingue la forma subclínica de la clínica y señala que la finalización inmediata no se indica automáticamente en la forma subclínica hasta disponer de evidencia que justifique la conducta. Un antecedente histológico de otra gestación no demuestra infección actual; la evaluación debe centrarse en el estado materno-fetal presente.",
+    "perlaENARM": "No confundas inflamación histológica previa con infección clínica activa en la gestación actual.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 2 y 6.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-466",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Prevención",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar medidas preventivas razonables para disminuir el riesgo de infección ascendente.",
+    "caso": "En una auditoría obstétrica se detectan tactos vaginales digitales frecuentes en pacientes con membranas rotas y demora en evaluar infecciones genitourinarias. Se propone una intervención para mejorar la seguridad materno-fetal.",
+    "pregunta": "¿Qué conjunto de medidas es congruente con el enfoque preventivo del PDF?",
+    "opciones": [
+      "Limitar tactos innecesarios, identificar y tratar infecciones pertinentes y realizar procedimientos invasivos con técnica aséptica",
+      "Realizar tactos digitales cada hora en todas las pacientes",
+      "Administrar antibióticos indiscriminadamente a todas las gestantes durante todo el embarazo",
+      "Omitir evaluación de infecciones genitourinarias si no existe fiebre",
+      "Realizar amniocentesis repetida de rutina para prevenir toda infección"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF recomienda detectar procesos infecciosos, limitar tactos vaginales y realizar técnicas invasivas con asepsia y antisepsia. Las indicaciones de profilaxis antibiótica deben seguir las guías específicas, por ejemplo, las relacionadas con ruptura prematura de membranas o estreptococo del grupo B, y no convertirse en antibióticos universales sin indicación.",
+    "perlaENARM": "Prevención: control de infecciones, tactos justificados y técnica aséptica; la profilaxis antibiótica debe tener una indicación concreta.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 1-2.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-467",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Complicaciones neonatales",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer las principales complicaciones neonatales asociadas con infección intraamniótica.",
+    "caso": "Recién nacido pretérmino de una madre con infección intraamniótica clínica desarrolla dificultad respiratoria, hipotensión y datos de respuesta inflamatoria sistémica durante las primeras horas de vida.",
+    "pregunta": "¿Qué conjunto incluye complicaciones descritas en el PDF?",
+    "opciones": [
+      "Hipertiroidismo congénito, catarata y enfermedad de Wilson",
+      "Agenesia renal bilateral como consecuencia obligatoria de la infección",
+      "Solo ictericia fisiológica sin posibilidad de complicaciones graves",
+      "Diabetes mellitus tipo 1 y enfermedad de Graves como secuelas típicas",
+      "Sepsis neonatal, dificultad respiratoria, asfixia perinatal y hemorragia intraventricular"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF enumera sepsis neonatal, síndrome de dificultad respiratoria, asfixia perinatal, hemorragia intraventricular, leucomalacia periventricular, convulsiones y muerte perinatal entre las posibles complicaciones. El riesgo individual depende de la edad gestacional, la gravedad del cuadro y la respuesta neonatal.",
+    "perlaENARM": "La infección intraamniótica se relaciona con infección neonatal y complicaciones de prematuridad; la evaluación neonatal debe ser coordinada.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 6.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-468",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Complicaciones maternas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar las complicaciones maternas graves que deben vigilarse durante el puerperio.",
+    "caso": "Paciente con infección intraamniótica clínica es sometida a cesárea por una indicación fetal. En el puerperio desarrolla fiebre persistente, dolor pélvico y deterioro hemodinámico.",
+    "pregunta": "¿Qué grupo de complicaciones debe investigarse prioritariamente?",
+    "opciones": [
+      "Hiperémesis gravídica y colestasis intrahepática como causas únicas",
+      "Endometritis, infección de herida, absceso pélvico y sepsis",
+      "Embarazo ectópico y enfermedad trofoblástica gestacional",
+      "Insuficiencia cervical y placenta previa",
+      "Diabetes gestacional como explicación suficiente de la fiebre"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF enumera endometritis puerperal, infección de herida quirúrgica, abscesos pélvicos, bacteriemia, sepsis, choque séptico y tromboflebitis pélvica séptica entre las complicaciones maternas. La fiebre persistente y el deterioro hemodinámico requieren evaluación urgente, cultivos cuando proceda, antibióticos y búsqueda del foco.",
+    "perlaENARM": "Fiebre puerperal persistente después de infección intraamniótica obliga a buscar endometritis, infección quirúrgica, absceso y sepsis.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 6.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-469",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Choque séptico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar el reconocimiento y la estabilización de la sepsis obstétrica.",
+    "caso": "Gestante de 33 semanas con sospecha de infección intraamniótica presenta presión arterial de 82/48 mmHg, taquicardia de 135 lpm, confusión y oliguria. El feto presenta taquicardia persistente.",
+    "pregunta": "¿Cuál es la prioridad inmediata del equipo?",
+    "opciones": [
+      "Completar primero todos los cultivos antes de intervenir",
+      "Indicar alta para reducir la exposición hospitalaria",
+      "Iniciar protocolo urgente de sepsis, estabilización hemodinámica, antibióticos y control de la fuente",
+      "Administrar tocolíticos y reevaluar en 24 horas",
+      "Esperar a que el perfil biofísico confirme infección"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La hipotensión, alteración del estado mental y oliguria sugieren disfunción orgánica en el contexto de posible infección. Debe iniciarse tratamiento urgente de sepsis, incluyendo estabilización hemodinámica, antibióticos oportunos y control de la fuente. La decisión obstétrica se coordina con la reanimación materna y la situación fetal.",
+    "perlaENARM": "La sepsis obstétrica es una emergencia; no retrases la reanimación ni los antibióticos por esperar confirmación microbiológica.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 5-7.",
+      "ACOG. Intraamniotic Infection.",
+      "SMFM. Maternal Sepsis."
+    ]
+  },
+  {
+    "id": "OBS-470",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Hemorragia posparto",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar la infección intraamniótica con el riesgo de atonía uterina y hemorragia posparto.",
+    "caso": "Paciente con infección intraamniótica durante el trabajo de parto presenta hemorragia abundante después del alumbramiento. El útero se encuentra aumentado de tamaño y flácido.",
+    "pregunta": "¿Qué mecanismo explica directamente el hallazgo obstétrico?",
+    "opciones": [
+      "Incompatibilidad Rh como causa de atonía uterina",
+      "Ruptura de membranas como causa de placenta previa",
+      "Hipertiroidismo como causa obligatoria de hemorragia",
+      "Atonía uterina, complicación materna descrita en asociación con infección intraamniótica",
+      "Trombocitopenia inmune confirmada solo por la exploración"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF incluye atonía uterina con hemorragia entre las complicaciones maternas de corioamnionitis. La paciente requiere manejo inmediato de hemorragia posparto y evaluación de otras causas, como trauma, tejido retenido y coagulopatía. La infección puede contribuir al riesgo, pero no excluye etiologías concomitantes.",
+    "perlaENARM": "Ante hemorragia posparto, aplica el enfoque etiológico sistemático; la infección intraamniótica puede asociarse con atonía, pero no es la única causa.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 6.",
+      "ACOG. Postpartum Hemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-471",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Referencia hospitalaria",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar cuándo se requiere referencia a un nivel hospitalario con mayor capacidad de atención obstétrica y neonatal.",
+    "caso": "Una unidad de primer nivel evalúa a una paciente de 29 semanas con fiebre, taquicardia fetal y sospecha de infección intraamniótica. La unidad no cuenta con atención obstétrica resolutiva ni cuidados intensivos neonatales.",
+    "pregunta": "¿Qué conducta de referencia coincide con el PDF?",
+    "opciones": [
+      "Referir a toda paciente sospechosa de corioamnionitis al segundo nivel, y escalar a un centro con capacidad neonatal y materna apropiada cuando sea necesario",
+      "Mantener a la paciente en primer nivel hasta que el cultivo sea positivo",
+      "Referir únicamente a pacientes de término",
+      "Evitar la referencia si la madre conserva presión arterial normal",
+      "Enviar a consulta externa después de 72 horas"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF indica referencia al segundo nivel para toda paciente sospechosa, independientemente de la edad gestacional, y referencia a tercer nivel para embarazos potencialmente viables cuando no existe UCIN o cuando la madre puede requerir cuidados intensivos. La transferencia debe coordinarse sin retrasar las intervenciones urgentes disponibles.",
+    "perlaENARM": "La sospecha de infección intraamniótica requiere atención resolutiva; la capacidad neonatal y de cuidados intensivos maternos determina la necesidad de escalamiento.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 7.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-472",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Ruptura prematura de membranas asociada",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar ruptura prematura de membranas e infección intraamniótica en una decisión obstétrica urgente.",
+    "caso": "Gestante de 30 semanas con ruptura prematura de membranas de 36 horas presenta fiebre, sensibilidad uterina y taquicardia fetal. Se encuentra en una unidad con capacidad para estabilización materna y atención neonatal.",
+    "pregunta": "¿Qué cambio debe producirse en el plan previamente expectante?",
+    "opciones": [
+      "Mantener manejo expectante hasta las 37 semanas porque el feto es pretérmino",
+      "Suspender antibióticos para evitar resistencia",
+      "Administrar tocolisis continua como única medida",
+      "Dar de alta si el líquido amniótico no es fétido",
+      "Iniciar tratamiento de infección intraamniótica y planear el nacimiento sin prolongar la gestación por prematuridad únicamente"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La aparición de fiebre, sensibilidad uterina y taquicardia fetal cambia el balance de riesgos en una paciente con RPMP. El manejo expectante deja de ser apropiado cuando existe sospecha clínica suficiente de infección intraamniótica; se requieren antibióticos y planificación del nacimiento según el estado materno-fetal.",
+    "perlaENARM": "La RPMP puede manejarse de forma expectante solo mientras no aparezcan contraindicaciones, como infección intraamniótica o deterioro fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 5-6.",
+      "PDF proporcionado: Ruptura Prematura de Membranas, páginas 1 y 6.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-473",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Interpretación de líquido amniótico purulento",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el líquido amniótico purulento o fétido como dato clínico de alarma.",
+    "caso": "Durante el trabajo de parto, una gestante presenta fiebre y taquicardia fetal. Al examinar el líquido que sale por el cuello uterino se observa material purulento y olor desagradable.",
+    "pregunta": "¿Qué importancia clínica tiene este hallazgo?",
+    "opciones": [
+      "Es un indicador específico de madurez pulmonar fetal",
+      "Apoya la sospecha de infección intraamniótica y exige evaluación y tratamiento oportunos",
+      "Confirma placenta previa",
+      "Demuestra por sí solo infección urinaria sin relación obstétrica",
+      "Descarta infección si no existe sangrado vaginal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF incluye líquido amniótico fétido o purulento entre los signos clínicos asociados con corioamnionitis. En combinación con fiebre y taquicardia fetal, refuerza la sospecha y justifica una respuesta clínica urgente. No identifica por sí mismo el microorganismo.",
+    "perlaENARM": "Líquido fétido o purulento más fiebre y taquicardia fetal es una combinación de alto riesgo de infección intraamniótica.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 3.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-474",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Diagnóstico diferencial no infeccioso",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer condiciones no infecciosas que pueden producir manifestaciones parecidas a la infección intraamniótica.",
+    "caso": "Gestante de 33 semanas con dolor abdominal, taquicardia materna y sangrado vaginal presenta un episodio de hipotensión. La temperatura es normal y no existe líquido amniótico purulento.",
+    "pregunta": "¿Qué diagnóstico obstétrico no infeccioso debe considerarse de forma prioritaria?",
+    "opciones": [
+      "Corioamnionitis confirmada por taquicardia aislada",
+      "Vaginosis bacteriana sin complicaciones",
+      "Desprendimiento prematuro de placenta",
+      "Hiperémesis gravídica",
+      "Enfermedad trofoblástica gestacional como explicación obligatoria"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF incluye el desprendimiento prematuro de placenta entre los diagnósticos diferenciales de manifestaciones que pueden confundirse con corioamnionitis. Dolor, sangrado e inestabilidad hemodinámica obligan a evaluar de inmediato desprendimiento y otras causas de hemorragia, sin asumir que todo deterioro obstétrico es infeccioso.",
+    "perlaENARM": "En una paciente con dolor, sangrado e inestabilidad, considera desprendimiento placentario además de infección; ambas condiciones pueden coexistir.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 3.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-475",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Procedimientos invasivos",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar el mecanismo por el que los procedimientos invasivos pueden aumentar el riesgo de infección intraamniótica.",
+    "caso": "Después de una amniocentesis prenatal, una paciente desarrolla fiebre y dolor uterino. Se evalúa la posibilidad de una complicación infecciosa relacionada con el procedimiento.",
+    "pregunta": "¿Qué mecanismo descrito en el PDF explica esta asociación?",
+    "opciones": [
+      "La introducción de microorganismos durante un procedimiento invasivo puede facilitar la contaminación de la cavidad amniótica",
+      "La amniocentesis induce siempre una infección viral sistémica",
+      "Todo procedimiento invasivo provoca corioamnionitis clínica",
+      "La técnica invasiva elimina la flora vaginal y produce infección por resistencia genética",
+      "La amniocentesis impide que los leucocitos alcancen las membranas"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF incluye amniocentesis, biopsia de vellosidades coriales, cordocentesis y fetoscopia entre los procedimientos que pueden asociarse con infección. La asociación no significa que la infección sea inevitable. La técnica aséptica y la selección apropiada de pacientes son fundamentales.",
+    "perlaENARM": "Un procedimiento invasivo puede facilitar inoculación microbiana, pero no toda fiebre posterior demuestra infección causada por el procedimiento.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 1-2.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-476",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Toma de decisiones ante resultados pendientes",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar que la espera de estudios complementarios retrase el tratamiento de una infección intraamniótica clínica.",
+    "caso": "Paciente de 37 semanas presenta fiebre, dolor uterino y taquicardia fetal. Se han solicitado biometría hemática, proteína C reactiva y cultivos, cuyos resultados no están disponibles.",
+    "pregunta": "¿Qué estrategia evita el retraso terapéutico potencialmente perjudicial?",
+    "opciones": [
+      "Suspender toda intervención hasta tener histopatología placentaria",
+      "Esperar 48 horas para decidir si la fiebre persiste",
+      "Indicar solo líquidos por vía oral y observación ambulatoria",
+      "Iniciar antibióticos y manejo obstétrico con base en la sospecha clínica mientras se completan los estudios pertinentes",
+      "Utilizar exclusivamente la proteína C reactiva para decidir el nacimiento"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF establece que los antibióticos deben iniciarse inmediatamente al establecer el diagnóstico y reconoce las limitaciones temporales de los cultivos. En un cuadro clínico sugestivo, los estudios complementarios apoyan la evaluación, pero no deben retrasar el tratamiento ni la planificación del nacimiento.",
+    "perlaENARM": "En una urgencia infecciosa obstétrica, solicita estudios pertinentes, pero no esperes sus resultados para iniciar el tratamiento indicado.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 3-5.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-477",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Interpretación de histología y microbiología",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir la detección de microorganismos de la demostración histológica de inflamación.",
+    "caso": "En una paciente que tuvo nacimiento pretérmino, la evaluación microbiológica de una muestra amniótica identifica un microorganismo, pero el informe histológico de membranas no muestra infiltración inflamatoria significativa.",
+    "pregunta": "¿Qué conclusión se desprende de la discordancia entre ambos estudios?",
+    "opciones": [
+      "El resultado microbiológico debe ser necesariamente falso",
+      "La ausencia de inflamación histológica excluye toda presencia de microorganismos",
+      "La discordancia es imposible y obliga a invalidar ambos estudios",
+      "El cultivo positivo demuestra siempre sepsis materna",
+      "La presencia de microorganismos y la inflamación histológica son fenómenos relacionados, pero no equivalentes"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF señala que pueden detectarse microorganismos sin inflamación histológica y que la inflamación puede estar presente sin microorganismos identificados. Los resultados deben interpretarse considerando la muestra, el método diagnóstico y el contexto clínico, sin equiparar colonización, infección invasiva y respuesta inflamatoria.",
+    "perlaENARM": "Microorganismo detectado e inflamación histológica no son sinónimos; interpreta ambos resultados en su contexto.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 3.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-478",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Integración clínica y terapéutica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar sospecha clínica, estabilidad materna, bienestar fetal y tratamiento oportuno en la infección intraamniótica.",
+    "caso": "Gestante de 32 semanas con ruptura prematura de membranas presenta fiebre de 38.7 °C, taquicardia materna, taquicardia fetal y sensibilidad uterina. La presión arterial es normal, la biometría hemática está pendiente y el cultivo no se ha tomado todavía.",
+    "pregunta": "¿Qué estrategia integra adecuadamente las prioridades clínicas?",
+    "opciones": [
+      "Esperar resultados de laboratorio para decidir si se administra tratamiento",
+      "Ingresar, evaluar y estabilizar a la madre, iniciar antibióticos y planear el nacimiento sin retrasos injustificados",
+      "Mantener manejo expectante hasta las 37 semanas",
+      "Administrar tocolíticos de forma continua para completar la gestación",
+      "Indicar cesárea obligatoria independientemente de las condiciones obstétricas"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El cuadro es altamente sugestivo de infección intraamniótica clínica. Se requiere atención hospitalaria, tratamiento antimicrobiano oportuno y planificación del nacimiento. La vía de nacimiento debe basarse en las indicaciones obstétricas, y los resultados de laboratorio no deben retrasar el tratamiento.",
+    "perlaENARM": "La infección intraamniótica clínica cambia la conducta: antibióticos tempranos y nacimiento, con vía individualizada según las condiciones obstétricas.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 3, 5 y 6.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-479",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Complicaciones puerperales y seguimiento",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer cuándo la evolución puerperal obliga a investigar persistencia o extensión de la infección.",
+    "caso": "Paciente tratada por infección intraamniótica durante el parto presenta fiebre persistente, dolor pélvico y mal estado general 48 horas después del nacimiento, a pesar del tratamiento inicial.",
+    "pregunta": "¿Qué enfoque es necesario ante esta evolución?",
+    "opciones": [
+      "Considerar la fiebre un fenómeno fisiológico obligatorio del puerperio",
+      "Dar por resuelta la infección porque ya ocurrió el nacimiento",
+      "Suspender antibióticos sin evaluar la causa de la fiebre",
+      "Reevaluar para identificar endometritis, absceso, infección quirúrgica, tromboflebitis pélvica séptica u otra fuente persistente",
+      "Solicitar únicamente una prueba de embarazo"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La fiebre persistente después del tratamiento requiere investigar infección puerperal y otras causas. El PDF enumera endometritis, infección de herida, abscesos pélvicos, tromboflebitis pélvica séptica y sepsis entre las complicaciones maternas. La evaluación debe incluir gravedad, foco infeccioso, cultivos pertinentes e imagen cuando esté indicada.",
+    "perlaENARM": "La persistencia de fiebre posparto obliga a reevaluar el foco y la respuesta al tratamiento; el nacimiento no garantiza la resolución de la infección.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, página 6.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-480",
+    "especialidad": "Obstetricia",
+    "tema": "Corioamnionitis",
+    "subtema": "Integración diagnóstica y terapéutica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Resolver un escenario complejo de infección intraamniótica mediante integración de datos clínicos, limitaciones diagnósticas y tratamiento.",
+    "caso": "Gestante de 34 semanas con ruptura prematura de membranas de 30 horas presenta temperatura de 38.4 °C, frecuencia cardiaca materna de 116 lpm, frecuencia cardiaca fetal de 172 lpm y sensibilidad uterina. La proteína C reactiva está elevada, el ultrasonido muestra oligohidramnios y el cultivo de líquido amniótico aún no tiene resultado. No presenta hipotensión ni sangrado vaginal.",
+    "pregunta": "¿Cuál es el plan que mejor integra la gravedad potencial del cuadro y las limitaciones de los estudios disponibles?",
+    "opciones": [
+      "Mantener manejo expectante hasta que el cultivo sea positivo porque la paciente no está hipotensa",
+      "Descartar infección porque el ultrasonido solo muestra oligohidramnios",
+      "Hospitalizar, iniciar antibióticos oportunamente, vigilar a madre y feto y planear el nacimiento sin esperar el cultivo",
+      "Administrar únicamente corticosteroides y posponer toda decisión obstétrica",
+      "Indicar cesárea obligatoria y suspender antibióticos después de la incisión"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La ruptura prolongada de membranas, la fiebre, la taquicardia materna y fetal y la sensibilidad uterina apoyan fuertemente la sospecha de infección intraamniótica clínica. La proteína C reactiva y el oligohidramnios son datos complementarios, no pruebas definitivas por sí solos. Deben iniciarse antibióticos, realizar evaluación materno-fetal y planear el nacimiento. La vía de nacimiento se decide por indicaciones obstétricas y no por el diagnóstico de infección aislado.",
+    "perlaENARM": "La sospecha clínica de infección intraamniótica prevalece sobre la espera del cultivo; antibióticos oportunos y nacimiento planificado son pilares del manejo.",
+    "bibliografia": [
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 3-6.",
+      "PDF proporcionado: Ruptura Prematura de Membranas, páginas 1, 3 y 6.",
+      "ACOG. Intraamniotic Infection.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-481",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Definición y técnica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Describir la amniocentesis como procedimiento invasivo de diagnóstico prenatal y reconocer sus componentes técnicos esenciales.",
+    "caso": "Una gestante de 17 semanas acepta un procedimiento invasivo para estudiar una anomalía fetal identificada durante el ultrasonido morfológico. El especialista explica que se obtendrá líquido amniótico bajo visualización ecográfica continua.",
+    "pregunta": "¿Qué descripción corresponde al procedimiento que se realizará?",
+    "opciones": [
+      "Introducción de un catéter transcervical para obtener vellosidades coriales",
+      "Biopsia directa de tejido fetal mediante endoscopia",
+      "Obtención de sangre fetal exclusivamente a través del cordón umbilical",
+      "Introducción transabdominal de una aguja hasta la cavidad amniótica para aspirar líquido que contiene células fetales",
+      "Obtención de tejido placentario mediante histeroscopia"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF define la amniocentesis como un procedimiento invasivo de diagnóstico prenatal que utiliza una aguja introducida a través de la pared abdominal y uterina hasta la cavidad amniótica bajo guía ecográfica continua. Se obtiene líquido que contiene células de origen fetal, útiles para diferentes estudios.",
+    "perlaENARM": "Amniocentesis: punción transabdominal guiada por ultrasonido y aspiración de líquido amniótico; no es una biopsia placentaria.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., diagnóstico prenatal."
+    ]
+  },
+  {
+    "id": "OBS-482",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Edad gestacional para el procedimiento",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar la edad gestacional a partir de la cual el material proporcionado describe la realización de amniocentesis.",
+    "caso": "Una paciente de 13 semanas con cribado prenatal de alto riesgo solicita amniocentesis inmediata. En la consejería se revisan las diferencias entre los procedimientos invasivos disponibles según la edad gestacional.",
+    "pregunta": "De acuerdo con el PDF, ¿a partir de qué edad gestacional se realiza la amniocentesis descrita?",
+    "opciones": [
+      "A partir de las 8 semanas",
+      "A partir de las 10 semanas",
+      "A partir de las 12 semanas",
+      "A partir de las 14 semanas",
+      "A partir de las 16 semanas"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF señala que la amniocentesis se realiza a partir de las 16 semanas de gestación. Para una paciente de 13 semanas deben revisarse la indicación, las alternativas diagnósticas disponibles en ese momento y los riesgos y beneficios de cada técnica; no debe extrapolarse automáticamente la edad gestacional de la amniocentesis a otros procedimientos.",
+    "perlaENARM": "El material proporcionado sitúa la amniocentesis a partir de las 16 semanas; diferencia este procedimiento de la biopsia de vellosidades coriales.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., diagnóstico prenatal."
+    ]
+  },
+  {
+    "id": "OBS-483",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Estudios genéticos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar el procedimiento diagnóstico prenatal invasivo que permite obtener células fetales para estudios cromosómicos.",
+    "caso": "Gestante de 18 semanas con antecedente de una hija con trisomía 21 presenta un resultado de cribado que incrementa la probabilidad de aneuploidía. Solicita una prueba diagnóstica que permita estudiar los cromosomas fetales.",
+    "pregunta": "¿Qué procedimiento permite obtener una muestra apropiada para el análisis cromosómico descrito en el PDF?",
+    "opciones": [
+      "Prueba de tolerancia oral a la glucosa",
+      "Amniocentesis con análisis genético de las células presentes en el líquido",
+      "Cardiotocografía basal",
+      "Perfil biofísico fetal",
+      "Cultivo vaginal sin obtención de muestra fetal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF incluye los antecedentes de anomalía cromosómica y el cribado de segundo trimestre de alto riesgo entre las indicaciones de amniocentesis. El líquido amniótico contiene células de origen fetal que pueden utilizarse para estudios cromosómicos. La prueba concreta y su alcance deben definirse durante la consejería genética.",
+    "perlaENARM": "La amniocentesis proporciona una muestra para diagnóstico genético; el cribado estima riesgo, pero no confirma por sí solo una aneuploidía.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., diagnóstico prenatal."
+    ]
+  },
+  {
+    "id": "OBS-484",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Indicaciones por anomalía ecográfica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer una anomalía fetal estructural como indicación para ofrecer evaluación diagnóstica prenatal.",
+    "caso": "En el ultrasonido morfológico de una gestante de 19 semanas se identifica una malformación cardiaca fetal mayor. La paciente desea conocer si existe una alteración cromosómica asociada y ha recibido consejería sobre las opciones diagnósticas.",
+    "pregunta": "¿Cuál de las siguientes opciones aparece entre las indicaciones de amniocentesis del PDF?",
+    "opciones": [
+      "Toda cefalea materna durante el segundo trimestre",
+      "Antecedente de náuseas y vómitos del primer trimestre",
+      "Anomalía fetal identificada durante el estudio morfológico",
+      "Presencia aislada de estrías abdominales",
+      "Edema maleolar sin otros hallazgos"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF enumera una anomalía fetal detectada durante el estudio morfológico entre las indicaciones de amniocentesis. La decisión debe individualizarse, explicar qué pruebas pueden realizarse en la muestra y considerar las preferencias informadas de la paciente.",
+    "perlaENARM": "Una anomalía estructural fetal puede justificar ofrecer diagnóstico genético invasivo después de consejería adecuada.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., diagnóstico prenatal."
+    ]
+  },
+  {
+    "id": "OBS-485",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Cribado prenatal de alto riesgo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar el umbral de riesgo de cribado que el material docente asocia con la indicación de amniocentesis.",
+    "caso": "Una gestante de 18 semanas recibe un resultado de cribado de segundo trimestre con riesgo estimado de aneuploidía de 1 en 180. Pregunta si el resultado es relevante para discutir pruebas diagnósticas invasivas.",
+    "pregunta": "¿Cómo se relaciona este resultado con el umbral señalado en el PDF?",
+    "opciones": [
+      "El riesgo de 1/180 es menor que el umbral y excluye toda prueba adicional",
+      "El resultado confirma por sí solo una trisomía",
+      "Solo los riesgos mayores de 1/10 justifican discutir diagnóstico prenatal",
+      "El resultado carece de utilidad porque el cribado no puede estimar riesgo",
+      "El riesgo de 1/180 supera el umbral de riesgo de al menos 1/250 que aparece en el material"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF incluye como indicación un cribado de segundo trimestre con riesgo igual o mayor que 1/250. Un riesgo de 1/180 representa una probabilidad mayor que 1/250 y puede justificar discutir una prueba diagnóstica. El umbral del material es una referencia docente y debe contrastarse con las guías actuales, el tipo de cribado y las preferencias de la paciente.",
+    "perlaENARM": "En fracciones de riesgo, 1/180 representa mayor probabilidad que 1/250; no confundas el denominador menor con menor riesgo.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., cribado y diagnóstico prenatal."
+    ]
+  },
+  {
+    "id": "OBS-486",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Antecedentes genéticos familiares",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar antecedentes familiares de anomalías cromosómicas con la evaluación de riesgo y las opciones diagnósticas prenatales.",
+    "caso": "Una pareja acude a consulta prenatal. Uno de los progenitores tiene una anomalía cromosómica documentada y la gestante se encuentra en la semana 17. La pareja desea saber si es posible estudiar el material genético fetal.",
+    "pregunta": "¿Qué elemento de la historia se considera una indicación de amniocentesis en el PDF?",
+    "opciones": [
+      "Antecedente de anomalía cromosómica en uno de los progenitores",
+      "Antecedente de rinitis alérgica en el padre",
+      "Antecedente de miopía materna aislada",
+      "Antecedente de apendicectomía sin complicaciones",
+      "Antecedente de dermatitis de contacto"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF incluye los antecedentes de anomalía cromosómica en un hijo previo o en uno de los progenitores entre las indicaciones. La prueba debe adaptarse al tipo de alteración familiar, ya que no todos los análisis cromosómicos o moleculares detectan las mismas variantes.",
+    "perlaENARM": "El diagnóstico prenatal debe dirigirse a la alteración sospechada; la prueba apropiada depende del antecedente genético específico.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., genética prenatal."
+    ]
+  },
+  {
+    "id": "OBS-487",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Antecedente de aneuploidía",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el antecedente de una gestación con anomalía cromosómica como elemento relevante en la consejería prenatal.",
+    "caso": "Una mujer con embarazo de 16 semanas tuvo una gestación anterior afectada por trisomía 18. Actualmente solicita información sobre pruebas diagnósticas que permitan evaluar los cromosomas fetales de la gestación actual.",
+    "pregunta": "¿Qué opción diagnóstica invasiva contempla el PDF para este contexto?",
+    "opciones": [
+      "Prueba de Coombs indirecta como prueba cromosómica",
+      "Amniocentesis para obtener células fetales y realizar el estudio indicado",
+      "Cultivo de orina como sustituto del cariotipo",
+      "Medición aislada de la presión arterial",
+      "Prueba sin estrés para confirmar trisomía"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El documento identifica una anomalía cromosómica en una gestación previa, especialmente trisomías, como indicación de amniocentesis. El tipo de estudio genético se elige según el antecedente, el riesgo actual y la consejería prenatal.",
+    "perlaENARM": "El antecedente de una gestación con aneuploidía justifica revisar el riesgo de recurrencia y ofrecer opciones de diagnóstico prenatal.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., diagnóstico prenatal."
+    ]
+  },
+  {
+    "id": "OBS-488",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Análisis bioquímico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir las categorías de estudios que pueden realizarse en el líquido amniótico.",
+    "caso": "En una sesión de medicina materno-fetal se explica que el líquido amniótico puede estudiarse con distintos métodos según la pregunta clínica. Una residente debe clasificar los estudios que el material docente considera posibles.",
+    "pregunta": "¿Qué conjunto de análisis se menciona en el PDF?",
+    "opciones": [
+      "Únicamente medición de glucosa materna y hemoglobina",
+      "Solo cultivos vaginales y pruebas de función tiroidea",
+      "Exclusivamente estudios de coagulación materna",
+      "Estudios cromosómicos, bioquímicos, moleculares y microbiológicos",
+      "Solo pruebas de función renal fetal sin análisis celular"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF especifica que en el líquido amniótico pueden realizarse estudios cromosómicos, bioquímicos, moleculares y microbiológicos. La selección depende de la indicación clínica y de la capacidad del laboratorio para procesar la muestra.",
+    "perlaENARM": "La amniocentesis es una vía de obtención de muestra; el análisis se selecciona según la pregunta diagnóstica.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1."
+    ]
+  },
+  {
+    "id": "OBS-489",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Diagnóstico microbiológico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar el estudio microbiológico del líquido amniótico como una de las aplicaciones descritas de la amniocentesis.",
+    "caso": "Gestante de 30 semanas con sospecha clínica de infección intraamniótica requiere valoración obstétrica urgente. El equipo discute si una muestra de líquido amniótico podría aportar información microbiológica.",
+    "pregunta": "¿Qué aplicación de la amniocentesis reconoce expresamente el PDF?",
+    "opciones": [
+      "Confirmar siempre la infección sin necesidad de valorar a la madre",
+      "Sustituir los antibióticos por una prueba invasiva",
+      "Obtener líquido para estudios microbiológicos en casos seleccionados",
+      "Determinar exclusivamente el sexo fetal",
+      "Medir directamente la presión arterial fetal"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF enumera el diagnóstico de corioamnionitis entre las indicaciones de amniocentesis y señala que el líquido puede someterse a análisis microbiológicos. En la sospecha clínica significativa de infección intraamniótica, la obtención de muestras no debe retrasar los antibióticos ni las intervenciones obstétricas indicadas.",
+    "perlaENARM": "La amniocentesis puede aportar información microbiológica, pero no debe retrasar el tratamiento de una infección intraamniótica clínica.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 3-5."
+    ]
+  },
+  {
+    "id": "OBS-490",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Madurez pulmonar fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la madurez pulmonar fetal como una indicación histórica incluida en el material y distinguirla de la práctica obstétrica contemporánea.",
+    "caso": "En una sesión de repaso, un residente encuentra en un manual de 2021-2022 la madurez pulmonar fetal como indicación de amniocentesis. Pregunta si debe solicitarse rutinariamente antes de un nacimiento médicamente indicado.",
+    "pregunta": "¿Qué interpretación integra correctamente el material docente y el enfoque contemporáneo?",
+    "opciones": [
+      "La prueba de madurez pulmonar debe realizarse antes de todo nacimiento, incluso en emergencias",
+      "El resultado permite posponer cualquier indicación obstétrica urgente",
+      "La madurez pulmonar no puede evaluarse mediante muestras de líquido amniótico en ningún contexto",
+      "La amniocentesis para madurez pulmonar es obligatoria en todas las gestantes de término",
+      "El PDF la enumera como indicación, pero no debe asumirse que sea una prueba rutinaria para decidir el momento del nacimiento"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF incluye el estudio de madurez pulmonar entre las indicaciones de amniocentesis. Sin embargo, esta referencia histórica no significa que deba realizarse de forma rutinaria antes de un nacimiento indicado por razones maternas o fetales. El momento del nacimiento se determina por el balance clínico de riesgos y beneficios.",
+    "perlaENARM": "Distingue las indicaciones históricas del manual de la práctica actual: una prueba de madurez pulmonar no debe retrasar un nacimiento médicamente indicado.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "ACOG. Medically Indicated Late-Preterm and Early-Term Deliveries."
+    ]
+  },
+  {
+    "id": "OBS-491",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Seguridad del procedimiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Explicar por qué la guía ecográfica continua forma parte de la técnica de amniocentesis.",
+    "caso": "Durante la preparación de una amniocentesis, una residente propone introducir la aguja sin visualizar en tiempo real su trayecto, argumentando que el sitio de punción ya fue marcado en una ecografía previa.",
+    "pregunta": "¿Qué componente técnico del PDF contradice esa propuesta?",
+    "opciones": [
+      "La amniocentesis debe realizarse exclusivamente por vía vaginal",
+      "El procedimiento se describe bajo guía ecográfica continua",
+      "La muestra debe obtenerse a ciegas para evitar artefactos",
+      "La aguja debe introducirse sin atravesar la pared abdominal",
+      "La visualización ecográfica solo se utiliza después de terminar la aspiración"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF describe la introducción de la aguja a través de la pared abdominal y uterina bajo guía ecográfica continua. Esta visualización permite orientar la trayectoria y seleccionar un sitio apropiado de punción, reduciendo la posibilidad de contacto con estructuras fetales o placentarias.",
+    "perlaENARM": "La amniocentesis se realiza con guía ecográfica continua; una marca previa no sustituye la visualización durante el procedimiento.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., procedimientos invasivos prenatales."
+    ]
+  },
+  {
+    "id": "OBS-492",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Células de origen fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar el contenido celular del líquido amniótico con su utilidad en el diagnóstico prenatal.",
+    "caso": "Una pareja pregunta cómo puede estudiarse el genoma fetal a partir de una muestra de líquido amniótico sin extraer directamente tejido del feto.",
+    "pregunta": "¿Qué propiedad de la muestra explica su utilidad diagnóstica?",
+    "opciones": [
+      "Contiene exclusivamente eritrocitos maternos maduros",
+      "Carece de material celular y solo permite medir electrolitos",
+      "Contiene células de origen fetal que pueden utilizarse para determinados estudios",
+      "Contiene únicamente tejido placentario sólido",
+      "Es equivalente a una muestra de sangre periférica materna para todos los análisis genéticos"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF señala que el líquido amniótico contiene células de origen fetal. Estas células pueden analizarse mediante las técnicas apropiadas para responder preguntas genéticas o cromosómicas específicas. El resultado depende de la calidad de la muestra y del método seleccionado.",
+    "perlaENARM": "La utilidad genética de la amniocentesis se relaciona con las células fetales presentes en el líquido amniótico.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1."
+    ]
+  },
+  {
+    "id": "OBS-493",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Cribado versus diagnóstico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar una prueba de cribado de un procedimiento invasivo que permite realizar pruebas diagnósticas.",
+    "caso": "Una gestante de 20 semanas tiene un resultado de cribado de aneuploidía de alto riesgo. Interpreta el informe como diagnóstico definitivo y pregunta si necesita confirmación.",
+    "pregunta": "¿Qué explicación es apropiada durante la consejería?",
+    "opciones": [
+      "El cribado estima una probabilidad; la amniocentesis puede ofrecer una muestra para pruebas diagnósticas cuando está indicada",
+      "Todo resultado de cribado de alto riesgo demuestra una trisomía",
+      "La amniocentesis no permite realizar estudios cromosómicos",
+      "El cribado y el diagnóstico invasivo son pruebas equivalentes",
+      "El resultado de cribado elimina la necesidad de consejería genética"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El cribado estima el riesgo de una anomalía, mientras que la amniocentesis permite obtener líquido con células fetales para pruebas cromosómicas o moleculares. La paciente debe recibir información sobre las limitaciones de cada prueba, los posibles resultados y las consecuencias clínicas.",
+    "perlaENARM": "Cribado no equivale a diagnóstico; un resultado de alto riesgo requiere consejería sobre las opciones confirmatorias.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., diagnóstico prenatal."
+    ]
+  },
+  {
+    "id": "OBS-494",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Elección de la prueba genética",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Individualizar el análisis de una muestra de amniocentesis según la alteración que se pretende investigar.",
+    "caso": "Gestante de 19 semanas con antecedente familiar de una enfermedad monogénica conocida acepta amniocentesis después de consejería. El equipo debe decidir qué estudio solicitar en la muestra.",
+    "pregunta": "¿Qué principio debe guiar la selección del análisis?",
+    "opciones": [
+      "Solicitar únicamente cultivo bacteriano en toda muestra",
+      "Realizar siempre cariotipo convencional aunque no responda a la pregunta clínica",
+      "Evitar pruebas moleculares porque el líquido amniótico no contiene células fetales",
+      "Elegir el estudio molecular o genético dirigido que corresponda a la enfermedad familiar, según validación y disponibilidad",
+      "Utilizar exclusivamente una prueba de glucosa materna"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF incluye estudios moleculares entre las aplicaciones posibles de la muestra de líquido amniótico. En una enfermedad monogénica conocida, el estudio debe dirigirse a la variante o región relevante, con asesoramiento genético y confirmación de que el laboratorio puede realizar la prueba.",
+    "perlaENARM": "La muestra invasiva no determina por sí sola qué análisis realizar: la prueba debe corresponder a la pregunta clínica y genética.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., genética prenatal."
+    ]
+  },
+  {
+    "id": "OBS-495",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Consejería preprocedimiento",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Integrar indicación, alternativas y consentimiento informado antes de un procedimiento invasivo prenatal.",
+    "caso": "Una paciente con cribado de alto riesgo está ansiosa y solicita una amniocentesis inmediata. No se le han explicado las posibles pruebas de laboratorio, las limitaciones de los resultados ni las alternativas disponibles.",
+    "pregunta": "¿Qué aspecto debe completarse antes de realizar el procedimiento electivo?",
+    "opciones": [
+      "Obtener consentimiento sin explicar riesgos porque el cribado es anormal",
+      "Realizar el procedimiento y explicar los resultados después",
+      "Explicar la indicación, los beneficios, los riesgos, las alternativas y el alcance de los análisis, y obtener consentimiento informado",
+      "Solicitar únicamente una biometría hemática y omitir la discusión de alternativas",
+      "Asegurar que el procedimiento descarta todas las enfermedades fetales"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Aunque el PDF se concentra en definición e indicaciones, la práctica segura de un procedimiento invasivo requiere consejería individualizada y consentimiento informado. Deben explicarse las preguntas que puede responder el estudio, las limitaciones del laboratorio, los riesgos procedimentales y las alternativas de cribado o diagnóstico.",
+    "perlaENARM": "El consentimiento informado es parte del procedimiento: aclara qué puede y qué no puede detectar el análisis solicitado.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., procedimientos invasivos prenatales."
+    ]
+  },
+  {
+    "id": "OBS-496",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Anomalía fetal y estudio cromosómico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar una opción de diagnóstico prenatal ante una anomalía estructural con posible asociación cromosómica.",
+    "caso": "En la semana 21, el ultrasonido detecta una malformación renal bilateral y otras anomalías estructurales. Los progenitores desean una evaluación genética que permita caracterizar una posible alteración cromosómica.",
+    "pregunta": "¿Cuál es la opción que se alinea con las indicaciones descritas en el documento?",
+    "opciones": [
+      "Repetir exclusivamente la medición de glucosa materna",
+      "Ofrecer amniocentesis después de consejería para realizar los estudios genéticos pertinentes",
+      "Solicitar una prueba sin estrés para diagnosticar la anomalía cromosómica",
+      "Indicar tratamiento antibiótico empírico sin datos de infección",
+      "Realizar radiografía abdominal materna como prueba confirmatoria"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF enumera las anomalías fetales detectadas en el estudio morfológico entre las indicaciones de amniocentesis. La evaluación genética debe adaptarse al fenotipo ecográfico y a la pregunta clínica, explicando qué alteraciones puede detectar el método seleccionado.",
+    "perlaENARM": "Una anomalía estructural fetal puede justificar ofrecer diagnóstico invasivo; el análisis debe ajustarse al fenotipo y a la sospecha etiológica.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., diagnóstico prenatal."
+    ]
+  },
+  {
+    "id": "OBS-497",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Limitaciones del diagnóstico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que el resultado de una prueba prenatal depende del análisis solicitado y no excluye todas las enfermedades fetales.",
+    "caso": "Una pareja recibe un resultado cromosómico normal tras amniocentesis. Pregunta si esto garantiza que el feto no tendrá ninguna enfermedad genética, metabólica o estructural.",
+    "pregunta": "¿Qué respuesta es científicamente apropiada?",
+    "opciones": [
+      "Un resultado cromosómico normal excluye todas las enfermedades monogénicas",
+      "La amniocentesis normal descarta cualquier malformación anatómica",
+      "Un cariotipo normal excluye todas las infecciones fetales",
+      "La muestra puede utilizarse para cualquier prueba sin validar el método",
+      "El alcance del resultado depende del estudio realizado; una prueba cromosómica normal no excluye todas las enfermedades"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF enumera varias categorías de análisis posibles, lo que refleja que no existe una única prueba que responda todas las preguntas diagnósticas. Un cariotipo normal no excluye todas las variantes moleculares, enfermedades metabólicas, infecciones ni malformaciones estructurales.",
+    "perlaENARM": "Un resultado normal solo reduce o descarta las alteraciones evaluadas por la prueba; no equivale a ausencia universal de enfermedad fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., diagnóstico prenatal."
+    ]
+  },
+  {
+    "id": "OBS-498",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Muestra para análisis molecular",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar la indicación clínica con el uso de pruebas moleculares en líquido amniótico.",
+    "caso": "Gestante de 18 semanas con sospecha de una enfermedad hereditaria específica acepta una amniocentesis. La pregunta clínica requiere estudiar una variante genética conocida y no solo el número de cromosomas.",
+    "pregunta": "¿Qué categoría de análisis debe considerarse para responder la pregunta clínica?",
+    "opciones": [
+      "Únicamente cardiotocografía",
+      "Medición de la frecuencia cardiaca materna",
+      "Estudio molecular dirigido a la variante sospechada",
+      "Perfil biofísico fetal",
+      "Prueba de tolerancia a la glucosa materna"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF indica que la muestra de líquido amniótico puede utilizarse para estudios moleculares. Cuando se sospecha una variante específica, el análisis debe ser técnicamente adecuado y dirigido a esa alteración, con consejería genética sobre el significado de los resultados.",
+    "perlaENARM": "La prueba molecular se elige cuando la pregunta clínica se refiere a una alteración genética específica que el método puede detectar.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., genética prenatal."
+    ]
+  },
+  {
+    "id": "OBS-499",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Estudios microbiológicos y urgencia clínica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar retrasos terapéuticos al considerar una prueba invasiva para investigar infección intraamniótica.",
+    "caso": "Gestante de 32 semanas presenta fiebre, taquicardia fetal y sensibilidad uterina. El equipo considera realizar amniocentesis para cultivo, pero el procedimiento y el procesamiento de la muestra podrían retrasar el inicio del tratamiento.",
+    "pregunta": "¿Qué principio clínico debe regir la decisión?",
+    "opciones": [
+      "La amniocentesis es obligatoria antes de administrar cualquier antibiótico",
+      "Un cultivo negativo excluye de manera absoluta la infección intraamniótica",
+      "Debe retrasarse todo tratamiento hasta disponer de una prueba microbiológica",
+      "La obtención de muestras puede considerarse en casos seleccionados, pero no debe retrasar el tratamiento de una sospecha clínica significativa",
+      "El diagnóstico de infección intraamniótica solo puede realizarse después del nacimiento"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF incluye el diagnóstico de corioamnionitis entre las indicaciones de amniocentesis. Sin embargo, ante un cuadro clínico sugestivo de infección intraamniótica, la prioridad es la evaluación y el tratamiento oportunos. La decisión de obtener líquido debe individualizarse y no retrasar antibióticos o intervenciones necesarias.",
+    "perlaENARM": "La amniocentesis puede apoyar el diagnóstico microbiológico, pero nunca debe convertirse en una barrera para tratar una urgencia infecciosa obstétrica.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 3-5."
+    ]
+  },
+  {
+    "id": "OBS-500",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Integración de indicación diagnóstica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar anomalía ecográfica, edad gestacional y selección de estudios genéticos en un escenario de diagnóstico prenatal.",
+    "caso": "Gestante de 18 semanas con antecedente de trisomía en una gestación previa presenta una anomalía estructural en el ultrasonido morfológico. Desea una prueba diagnóstica y comprende que el resultado depende del análisis que se solicite.",
+    "pregunta": "¿Qué estrategia es congruente con el material proporcionado?",
+    "opciones": [
+      "Ofrecer amniocentesis bajo guía ecográfica después de consejería y seleccionar el análisis según la sospecha clínica",
+      "Realizar una prueba de glucosa como sustituto de la evaluación cromosómica",
+      "Afirmar que la anomalía ecográfica confirma por sí sola una trisomía",
+      "Omitir la consejería porque existe un antecedente familiar",
+      "Indicar cesárea inmediata para obtener tejido fetal"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La paciente reúne dos elementos que el PDF incluye entre las indicaciones: antecedente de anomalía cromosómica en una gestación previa y anomalía fetal detectada en el estudio morfológico. La amniocentesis puede proporcionar células fetales para análisis cromosómico o molecular, según la pregunta diagnóstica y las preferencias informadas.",
+    "perlaENARM": "La decisión de realizar amniocentesis debe integrar indicación clínica, edad gestacional, consejería y selección del estudio apropiado.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., diagnóstico prenatal."
+    ]
+  },
+  {
+    "id": "OBS-501",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Historia del procedimiento",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Reconocer el antecedente histórico del procedimiento descrito en el material docente.",
+    "caso": "Durante una revisión histórica de procedimientos de diagnóstico prenatal, un residente debe identificar el año asociado en el PDF con la descripción inicial de la amniocentesis por Steele y Berg.",
+    "pregunta": "¿Qué año señala el documento?",
+    "opciones": [
+      "1946",
+      "1956",
+      "1966",
+      "1976",
+      "1986"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF señala que la amniocentesis fue descrita inicialmente en 1966 por Steele y Berg. Este dato es histórico y no modifica las indicaciones clínicas actuales ni los requisitos técnicos de seguridad.",
+    "perlaENARM": "Dato histórico del material: Steele y Berg, 1966.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1."
+    ]
+  },
+  {
+    "id": "OBS-502",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Análisis cromosómico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir el análisis cromosómico de otros estudios prenatales no invasivos.",
+    "caso": "Una gestante con riesgo elevado de aneuploidía pregunta qué análisis podría realizarse en las células fetales obtenidas mediante amniocentesis.",
+    "pregunta": "¿Cuál de los siguientes estudios corresponde a la categoría cromosómica?",
+    "opciones": [
+      "Medición de la presión arterial materna",
+      "Determinación de la glucosa plasmática materna",
+      "Cultivo de exudado vaginal",
+      "Registro cardiotocográfico",
+      "Análisis del número y la estructura de los cromosomas mediante una técnica validada"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF incluye los estudios cromosómicos entre los análisis que pueden realizarse en líquido amniótico. La técnica concreta depende de la alteración sospechada, de la resolución requerida y de la disponibilidad del laboratorio.",
+    "perlaENARM": "La amniocentesis obtiene la muestra; la técnica cromosómica determina qué alteraciones pueden identificarse.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., diagnóstico prenatal."
+    ]
+  },
+  {
+    "id": "OBS-503",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Evaluación de una prueba de cribado",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar el umbral de riesgo del material docente a una situación de cribado prenatal.",
+    "caso": "Una gestante recibe un resultado de cribado con riesgo estimado de 1 en 300. El manual utilizado en la unidad considera como indicación de amniocentesis un riesgo de segundo trimestre igual o mayor que 1 en 250.",
+    "pregunta": "¿Cómo se compara el resultado de 1/300 con el umbral especificado?",
+    "opciones": [
+      "Representa mayor riesgo que 1/250",
+      "Es exactamente equivalente a 1/250",
+      "Confirma una aneuploidía",
+      "Representa menor riesgo que 1/250 y no alcanza ese umbral específico",
+      "No puede compararse matemáticamente con 1/250"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Un riesgo de 1/300 es menor que uno de 1/250 porque la probabilidad representada por la fracción es inferior. Según el umbral concreto del PDF, 1/300 no lo alcanza. La consejería actual debe considerar el método de cribado, las guías vigentes y la posibilidad de que la paciente elija una prueba diagnóstica independientemente del riesgo calculado.",
+    "perlaENARM": "Para comparar riesgos expresados como 1/n, un denominador mayor corresponde a menor probabilidad, siempre que el numerador sea uno.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1."
+    ]
+  },
+  {
+    "id": "OBS-504",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Análisis bioquímico del líquido amniótico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer que el líquido amniótico puede someterse a análisis bioquímicos según la indicación clínica.",
+    "caso": "Un equipo de medicina materno-fetal revisa las aplicaciones de la amniocentesis. Una residente afirma que la muestra solo puede utilizarse para estudiar cromosomas y que los análisis bioquímicos no son posibles.",
+    "pregunta": "¿Qué dato del PDF corrige esa afirmación?",
+    "opciones": [
+      "El líquido amniótico permite exclusivamente cultivos bacterianos",
+      "El documento incluye estudios bioquímicos entre los análisis posibles de la muestra",
+      "La muestra no contiene sustancias solubles",
+      "El procedimiento obtiene únicamente tejido sólido",
+      "Los análisis bioquímicos solo pueden realizarse en sangre materna"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF señala explícitamente que el líquido amniótico puede utilizarse para estudios cromosómicos, bioquímicos, moleculares y microbiológicos. La indicación y la metodología deben corresponder a la pregunta clínica que se desea responder.",
+    "perlaENARM": "No limites la amniocentesis al cariotipo: el líquido puede analizarse con diferentes métodos según la indicación.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1."
+    ]
+  },
+  {
+    "id": "OBS-505",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Manejo de la información genética",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar consejería genética y selección del análisis antes de obtener una muestra invasiva prenatal.",
+    "caso": "Una pareja solicita amniocentesis porque un familiar tiene una enfermedad hereditaria, pero desconoce el nombre exacto de la enfermedad y no cuenta con informes previos. La gestante tiene 18 semanas.",
+    "pregunta": "¿Qué acción mejora la utilidad diagnóstica de la prueba?",
+    "opciones": [
+      "Obtener la muestra sin definir qué alteración se pretende estudiar",
+      "Solicitar un cultivo vaginal como sustituto de la evaluación genética",
+      "Revisar el diagnóstico familiar, obtener documentación cuando sea posible y definir la prueba con asesoría genética",
+      "Afirmar que cualquier análisis de líquido amniótico detectará todas las enfermedades hereditarias",
+      "Descartar de forma automática toda evaluación prenatal"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF incluye estudios moleculares y cromosómicos como aplicaciones posibles, pero la utilidad de cada prueba depende de la alteración investigada. Conocer el diagnóstico familiar y definir la pregunta clínica antes de la punción ayuda a seleccionar un análisis apropiado y evita expectativas irreales.",
+    "perlaENARM": "Antes de una prueba genética invasiva, define qué alteración buscas y qué método puede detectarla.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., genética prenatal."
+    ]
+  },
+  {
+    "id": "OBS-506",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Procedimientos invasivos prenatales",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar amniocentesis de otros procedimientos invasivos según el tejido o líquido que se obtiene.",
+    "caso": "Durante una sesión de procedimientos prenatales, un residente confunde la amniocentesis con la biopsia de vellosidades coriales. La paciente necesita una muestra de líquido amniótico para un estudio genético a las 18 semanas.",
+    "pregunta": "¿Qué característica distingue la amniocentesis?",
+    "opciones": [
+      "Obtiene exclusivamente tejido de las vellosidades coriales",
+      "Se realiza mediante endoscopia fetal sin punción",
+      "Extrae sangre del cordón umbilical como muestra primaria",
+      "Consiste en una biopsia de la pared uterina",
+      "Aspira líquido de la cavidad amniótica mediante una aguja bajo guía ecográfica"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La amniocentesis obtiene líquido amniótico mediante una punción transabdominal guiada por ultrasonido. La biopsia de vellosidades coriales obtiene tejido placentario y la cordocentesis obtiene sangre fetal; son procedimientos diferentes con indicaciones y perfiles de riesgo propios.",
+    "perlaENARM": "Amniocentesis = líquido amniótico; biopsia corial = tejido placentario; cordocentesis = sangre fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., procedimientos invasivos prenatales."
+    ]
+  },
+  {
+    "id": "OBS-507",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Indicación por riesgo genético",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar una evaluación diagnóstica dirigida cuando existe un riesgo genético prenatal significativo.",
+    "caso": "Una gestante de 17 semanas tiene antecedente de un hijo con una anomalía cromosómica y un cribado actual de alto riesgo. Tras consejería, desea una prueba que permita estudiar el material genético fetal.",
+    "pregunta": "¿Qué afirmación explica mejor la utilidad de la amniocentesis en este caso?",
+    "opciones": [
+      "Permite obtener líquido con células fetales para realizar el estudio genético seleccionado",
+      "Garantiza que el feto no tendrá ninguna enfermedad si el resultado es normal",
+      "Sustituye todas las pruebas de imagen prenatal",
+      "Confirma la anomalía antes de realizar cualquier análisis",
+      "Solo sirve para evaluar la función renal materna"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF incluye el antecedente de anomalía cromosómica y el cribado de alto riesgo entre las indicaciones. La amniocentesis proporciona una muestra para pruebas genéticas seleccionadas; la interpretación depende del método y no permite excluir todas las enfermedades fetales.",
+    "perlaENARM": "Un riesgo genético elevado puede justificar diagnóstico invasivo, pero el alcance de la respuesta depende del análisis realizado.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., diagnóstico prenatal."
+    ]
+  },
+  {
+    "id": "OBS-508",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Interpretación de resultados",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar conclusiones clínicas que excedan el alcance de un resultado prenatal.",
+    "caso": "Tras una amniocentesis, una pareja recibe un informe sin alteraciones en el cariotipo convencional. El ultrasonido continúa mostrando una anomalía estructural fetal importante.",
+    "pregunta": "¿Qué conducta interpretativa es adecuada?",
+    "opciones": [
+      "Cancelar todos los controles prenatales porque el cariotipo es normal",
+      "Considerar que la anomalía ecográfica debe ser un error",
+      "Afirmar que se han descartado todas las enfermedades monogénicas y metabólicas",
+      "Integrar el resultado cromosómico con el fenotipo y valorar estudios adicionales según la sospecha clínica",
+      "Repetir automáticamente el mismo cariotipo cada semana"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Un cariotipo convencional normal no excluye todas las causas genéticas o no genéticas de una anomalía estructural. La interpretación debe integrar el fenotipo ecográfico, los antecedentes y la capacidad de detección del método utilizado; pueden considerarse otros estudios dirigidos cuando estén indicados.",
+    "perlaENARM": "Un cariotipo normal no invalida una anomalía ecográfica; integra fenotipo y genotipo y selecciona estudios complementarios si procede.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., diagnóstico prenatal."
+    ]
+  },
+  {
+    "id": "OBS-509",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Uso en infección intraamniótica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la aplicación microbiológica de la amniocentesis y su papel complementario en la valoración de infección intraamniótica.",
+    "caso": "Gestante de 28 semanas con amenaza de parto pretérmino presenta hallazgos que generan sospecha de infección intraamniótica. Se discute la obtención de líquido amniótico para estudios microbiológicos.",
+    "pregunta": "¿Qué objetivo puede tener la muestra en un caso seleccionado?",
+    "opciones": [
+      "Confirmar automáticamente que el parto ocurrirá en menos de 24 horas",
+      "Obtener una muestra para estudios microbiológicos que complementen la evaluación clínica",
+      "Sustituir la evaluación de signos vitales maternos",
+      "Identificar exclusivamente anomalías cromosómicas",
+      "Descartar cualquier infección materna con un solo resultado"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF incluye el diagnóstico de corioamnionitis entre las indicaciones de amniocentesis y señala que el líquido puede analizarse microbiológicamente. La prueba es complementaria y debe utilizarse de manera seleccionada; la atención clínica urgente no debe retrasarse para obtener o procesar la muestra.",
+    "perlaENARM": "La muestra amniótica puede aportar información microbiológica, pero no sustituye la evaluación clínica ni el tratamiento oportuno.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "PDF proporcionado: 9.1 Corioamnioitis, páginas 3-5."
+    ]
+  },
+  {
+    "id": "OBS-510",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Riesgo y beneficio diagnóstico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar una decisión compartida al valorar una prueba invasiva de diagnóstico prenatal.",
+    "caso": "Gestante de 18 semanas con riesgo elevado de aneuploidía desea conocer con certeza si existe una alteración cromosómica. Está preocupada por los riesgos del procedimiento y solicita que se decida por ella.",
+    "pregunta": "¿Qué enfoque de consejería favorece una decisión informada?",
+    "opciones": [
+      "Indicar el procedimiento sin explicar riesgos ni alternativas",
+      "Rechazar cualquier prueba invasiva en todas las pacientes",
+      "Explicar beneficios, riesgos, alternativas y limitaciones, y respetar la decisión informada de la paciente",
+      "Asegurar que la amniocentesis nunca produce complicaciones",
+      "Indicar la prueba únicamente según la edad materna, sin considerar preferencias"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La amniocentesis es un procedimiento invasivo y la decisión debe basarse en la indicación clínica, el beneficio esperado, los riesgos, las alternativas y los valores de la paciente. La consejería debe ser clara y no coercitiva.",
+    "perlaENARM": "El diagnóstico prenatal invasivo requiere consentimiento informado y decisión compartida; no existe una indicación que elimine la necesidad de consejería.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., procedimientos invasivos prenatales."
+    ]
+  },
+  {
+    "id": "OBS-511",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Momento del procedimiento y pregunta clínica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar la edad gestacional con la planificación de un procedimiento invasivo prenatal.",
+    "caso": "Una paciente de 15 semanas y 5 días tiene indicación para diagnóstico prenatal invasivo. La unidad organiza la cita y debe confirmar que la edad gestacional sea compatible con la técnica que describe el material.",
+    "pregunta": "¿Qué dato debe tenerse presente al planificar la amniocentesis según el PDF?",
+    "opciones": [
+      "El procedimiento se describe a partir de las 16 semanas",
+      "Solo puede realizarse después de las 37 semanas",
+      "Debe realizarse siempre antes de las 10 semanas",
+      "La edad gestacional no modifica la planificación",
+      "Se realiza únicamente durante el trabajo de parto"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF señala que la amniocentesis se realiza a partir de las 16 semanas. En la planificación clínica real también deben considerarse la indicación, las características anatómicas, la disponibilidad del especialista y las alternativas diagnósticas pertinentes.",
+    "perlaENARM": "Comprueba edad gestacional e indicación antes de programar un procedimiento invasivo prenatal.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1."
+    ]
+  },
+  {
+    "id": "OBS-512",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Técnica guiada por ultrasonido",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la visualización ecográfica con la selección del sitio y la trayectoria de la aguja.",
+    "caso": "Durante una amniocentesis, la ecografía muestra al feto próximo al sitio inicialmente previsto para la punción. El operador debe ajustar la trayectoria para obtener la muestra sin dirigir la aguja hacia el feto.",
+    "pregunta": "¿Qué componente de la técnica permite adaptar la punción a la anatomía observada?",
+    "opciones": [
+      "La ausencia de imagen durante todo el procedimiento",
+      "La palpación abdominal sin apoyo de imagen",
+      "La introducción de la aguja por el cuello uterino",
+      "La guía ecográfica continua durante la introducción de la aguja",
+      "La confirmación del sitio de punción solo después de aspirar"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF especifica que la aguja se introduce bajo guía ecográfica continua. La visualización en tiempo real permite elegir una trayectoria apropiada de acuerdo con la localización fetal y la distribución del líquido amniótico.",
+    "perlaENARM": "La guía ecográfica continua forma parte de la técnica segura de amniocentesis.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1."
+    ]
+  },
+  {
+    "id": "OBS-513",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Interpretación del cribado de segundo trimestre",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Comparar riesgos relativos expresados como fracciones para decidir si se alcanza un umbral docente de evaluación invasiva.",
+    "caso": "El cribado de segundo trimestre de una gestante estima riesgo de aneuploidía de 1 en 200. En el material docente se considera el riesgo igual o mayor que 1 en 250 como una indicación para discutir amniocentesis.",
+    "pregunta": "¿Cómo se compara el resultado con el umbral del documento?",
+    "opciones": [
+      "El riesgo es menor que 1/250 porque 200 es menor que 250",
+      "El riesgo es mayor que 1/250 y alcanza el umbral descrito",
+      "El riesgo equivale a cero porque se expresa como fracción",
+      "El resultado confirma una trisomía sin necesidad de otra prueba",
+      "El resultado no permite estimar probabilidad"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Una probabilidad de 1/200 es mayor que 1/250, por lo que alcanza el umbral de riesgo descrito en el PDF. Esta comparación no convierte el cribado en diagnóstico; la indicación debe contrastarse con las guías vigentes y la consejería de la paciente.",
+    "perlaENARM": "En fracciones 1/n, 1/200 es mayor que 1/250: un denominador menor representa mayor probabilidad.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1."
+    ]
+  },
+  {
+    "id": "OBS-514",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Indicación por antecedentes familiares",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer cuándo un antecedente genético parental amerita asesoría y consideración de diagnóstico prenatal.",
+    "caso": "Una gestante de 17 semanas informa que su pareja tiene una anomalía cromosómica estructural documentada. No se ha realizado todavía una evaluación genética de la pareja ni se ha definido el estudio fetal.",
+    "pregunta": "¿Qué elemento debe orientar la siguiente fase de la consejería?",
+    "opciones": [
+      "Considerar irrelevante el antecedente porque el progenitor no está gestando",
+      "Solicitar una prueba de glucosa como primera prueba genética",
+      "Asumir que el feto necesariamente heredó la anomalía",
+      "Omitir toda evaluación porque no existen síntomas fetales",
+      "Caracterizar la anomalía parental y valorar el riesgo de recurrencia y las pruebas prenatales apropiadas"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF incluye anomalías cromosómicas en uno de los progenitores entre las indicaciones de amniocentesis. Antes de seleccionar una prueba fetal, es importante caracterizar la alteración familiar y estimar qué estudio puede detectarla de forma fiable.",
+    "perlaENARM": "El antecedente cromosómico parental requiere caracterización y consejería genética; no implica que el feto esté necesariamente afectado.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., genética prenatal."
+    ]
+  },
+  {
+    "id": "OBS-515",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Análisis de laboratorio",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar el análisis de laboratorio conforme a la indicación de la amniocentesis.",
+    "caso": "Una gestante se somete a amniocentesis por una anomalía ecográfica. El equipo solicita un análisis cromosómico y la familia pregunta si la misma muestra puede servir para otros estudios.",
+    "pregunta": "¿Cuál afirmación coincide con el alcance descrito en el PDF?",
+    "opciones": [
+      "La muestra puede utilizarse para distintas categorías de análisis, incluidos estudios cromosómicos, bioquímicos, moleculares o microbiológicos",
+      "Solo puede utilizarse para determinar el sexo fetal",
+      "La muestra se desecha después de medir su volumen",
+      "Los análisis microbiológicos son imposibles en líquido amniótico",
+      "La muestra solo permite pruebas de coagulación materna"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF menciona que el líquido amniótico puede someterse a estudios cromosómicos, bioquímicos, moleculares y microbiológicos. La disponibilidad de cada análisis depende de la indicación, la muestra y las capacidades del laboratorio; no todos los estudios se solicitan de forma rutinaria.",
+    "perlaENARM": "Una misma muestra puede responder preguntas distintas si se selecciona y procesa con la metodología apropiada.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1."
+    ]
+  },
+  {
+    "id": "OBS-516",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Diferenciación de procedimientos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar la muestra obtenida mediante amniocentesis de las muestras obtenidas por otros procedimientos invasivos prenatales.",
+    "caso": "En un examen de residencia se presenta una paciente de 18 semanas que requiere estudio cromosómico fetal. Un alumno propone cordocentesis, otro biopsia corial y otro amniocentesis; se pregunta qué muestra caracteriza a esta última.",
+    "pregunta": "¿Qué material se obtiene directamente mediante amniocentesis?",
+    "opciones": [
+      "Sangre materna periférica exclusivamente",
+      "Vellosidades coriales",
+      "Líquido amniótico que contiene células de origen fetal",
+      "Tejido endometrial materno",
+      "Sangre fetal obtenida del cordón umbilical"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La amniocentesis obtiene líquido amniótico, que contiene células de origen fetal. La biopsia de vellosidades coriales obtiene tejido placentario y la cordocentesis obtiene sangre fetal. La selección del procedimiento depende de la edad gestacional, la indicación y las características del estudio requerido.",
+    "perlaENARM": "Diferencia la muestra por el nombre del procedimiento: líquido amniótico, vellosidades coriales o sangre fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., procedimientos invasivos prenatales."
+    ]
+  },
+  {
+    "id": "OBS-517",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Interpretación de una anomalía fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar el hallazgo ecográfico con la selección de pruebas diagnósticas prenatales sin asumir una etiología única.",
+    "caso": "El ultrasonido morfológico de una gestante de 20 semanas detecta una anomalía del sistema nervioso central. No hay antecedente familiar conocido, pero la pareja desea evaluar posibles causas cromosómicas o genéticas.",
+    "pregunta": "¿Qué estrategia de diagnóstico prenatal se puede ofrecer según el PDF?",
+    "opciones": [
+      "Realizar una prueba de tolerancia a la glucosa como diagnóstico cromosómico",
+      "Afirmar que la anomalía es necesariamente ambiental",
+      "Descartar toda prueba genética porque no existe antecedente familiar",
+      "Ofrecer amniocentesis para obtener muestra y seleccionar el estudio genético pertinente después de consejería",
+      "Sustituir la evaluación por una medición aislada de presión arterial"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La anomalía fetal detectada en el estudio morfológico aparece como indicación de amniocentesis en el PDF. El estudio posterior debe seleccionarse de acuerdo con el fenotipo y la pregunta clínica, sin asumir que todas las anomalías estructurales tienen una causa cromosómica.",
+    "perlaENARM": "La anomalía ecográfica puede justificar diagnóstico genético, pero la etiología debe investigarse y no asumirse.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., diagnóstico prenatal."
+    ]
+  },
+  {
+    "id": "OBS-518",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Seguridad y planificación",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que la indicación diagnóstica debe equilibrarse con la seguridad técnica y el consentimiento informado.",
+    "caso": "Gestante de 18 semanas con riesgo genético elevado llega para amniocentesis. El operador identifica que no se dispone de visualización ecográfica adecuada para planificar una trayectoria segura en ese momento.",
+    "pregunta": "¿Qué principio de seguridad debe guiar la decisión del equipo?",
+    "opciones": [
+      "Proceder a ciegas porque el riesgo genético es elevado",
+      "Realizar la punción por vía vaginal sin cambiar la técnica",
+      "Omitir el consentimiento si la indicación es importante",
+      "Aspirar líquido antes de localizar el feto",
+      "Asegurar condiciones técnicas apropiadas y guía ecográfica antes de realizar la punción"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF describe la amniocentesis bajo guía ecográfica continua. Si no pueden visualizarse adecuadamente la anatomía y la trayectoria de la aguja, debe priorizarse la seguridad técnica y reconsiderarse el momento o las condiciones del procedimiento.",
+    "perlaENARM": "Una indicación diagnóstica válida no elimina los requisitos técnicos de seguridad de un procedimiento invasivo.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1."
+    ]
+  },
+  {
+    "id": "OBS-519",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Selección del procedimiento por edad gestacional",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar el umbral temporal del material docente sin confundir la amniocentesis con otras técnicas de diagnóstico prenatal.",
+    "caso": "Una gestante de 11 semanas tiene alto riesgo de aneuploidía y solicita que se le realice amniocentesis ese mismo día. Se revisan las técnicas disponibles y las edades gestacionales apropiadas para cada una.",
+    "pregunta": "¿Qué afirmación corresponde al procedimiento descrito en el PDF?",
+    "opciones": [
+      "La amniocentesis es la técnica de elección universal desde las 6 semanas",
+      "El PDF describe la amniocentesis a partir de las 16 semanas, por lo que deben discutirse alternativas adecuadas a la edad gestacional",
+      "La amniocentesis solo se realiza después del nacimiento",
+      "La edad gestacional no importa en los procedimientos invasivos",
+      "La amniocentesis se realiza exclusivamente después de la semana 37"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El material señala que la amniocentesis se realiza a partir de las 16 semanas. En una gestación de 11 semanas debe discutirse qué opciones de cribado o diagnóstico están disponibles y son apropiadas en ese momento, sin confundir amniocentesis con biopsia de vellosidades coriales.",
+    "perlaENARM": "La edad gestacional es clave para seleccionar el procedimiento invasivo prenatal; no todos los métodos se realizan en la misma ventana.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., procedimientos invasivos prenatales."
+    ]
+  },
+  {
+    "id": "OBS-520",
+    "especialidad": "Obstetricia",
+    "tema": "Amniocentesis",
+    "subtema": "Integración diagnóstica prenatal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar edad gestacional, riesgo genético, anomalía ecográfica y selección del análisis para planear una amniocentesis informada.",
+    "caso": "Gestante de 18 semanas presenta una anomalía fetal en el ultrasonido morfológico y tiene un cribado de segundo trimestre con riesgo de aneuploidía de 1 en 180. Después de recibir consejería, solicita una prueba diagnóstica que permita evaluar los cromosomas y, si procede, otras causas genéticas.",
+    "pregunta": "¿Qué plan integra las indicaciones descritas en el PDF con una selección diagnóstica racional?",
+    "opciones": [
+      "Confirmar una trisomía exclusivamente por el resultado del cribado",
+      "Realizar una prueba de glucosa y descartar evaluación genética",
+      "Ofrecer amniocentesis bajo guía ecográfica, obtener líquido con células fetales y seleccionar los estudios según la pregunta clínica",
+      "Esperar hasta el trabajo de parto para realizar la prueba",
+      "Indicar cesárea inmediata para obtener una muestra fetal"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La paciente presenta dos indicaciones del PDF: anomalía fetal en el estudio morfológico y cribado con riesgo igual o mayor que 1/250. La amniocentesis descrita a partir de las 16 semanas permite obtener líquido con células fetales para análisis cromosómicos y, según la indicación, moleculares u otros. La consejería debe explicar el alcance y las limitaciones de cada prueba.",
+    "perlaENARM": "La indicación se fortalece al integrar anomalía ecográfica y cribado de alto riesgo; el diagnóstico depende del análisis solicitado, no del cribado por sí solo.",
+    "bibliografia": [
+      "PDF proporcionado: 9.2 Amniocentesis, página 1.",
+      "Williams Obstetrics, 26.ª ed., diagnóstico prenatal."
+    ]
+  },
+   {
+    "id": "OBS-521",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Diagnóstico mediante estrategia de un paso",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar los puntos de corte de la curva de tolerancia oral a la glucosa de 75 g y distinguir el criterio diagnóstico de un paso del de dos pasos.",
+    "caso": "Gestante de 28 semanas, sin diabetes conocida, acude a una curva de tolerancia oral a la glucosa de 75 g después de ocho horas de ayuno. Los resultados son: ayuno 91 mg/dL, una hora 184 mg/dL y dos horas 149 mg/dL. No presenta síntomas de hiperglucemia.",
+    "pregunta": "De acuerdo con los criterios de un paso descritos en el documento, ¿cómo deben clasificarse estos resultados?",
+    "opciones": [
+      "Curva normal porque la glucosa en ayuno es menor de 95 mg/dL",
+      "Diabetes pregestacional confirmada por una glucosa aislada",
+      "Resultado no interpretable porque se requieren cuatro mediciones",
+      "Diabetes gestacional porque la glucosa de una hora supera 180 mg/dL",
+      "Intolerancia a la glucosa sin posibilidad de establecer diagnóstico durante el embarazo"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El documento utiliza una curva de 75 g con mediciones en ayuno, una y dos horas, y considera diagnóstica una sola cifra alterada: ayuno ≥92 mg/dL, una hora ≥180 mg/dL o dos horas ≥153 mg/dL. La glucosa de una hora es 184 mg/dL, por lo que cumple el criterio. Los puntos de corte deben aplicarse conforme al protocolo diagnóstico seleccionado.",
+    "perlaENARM": "Estrategia de un paso con 75 g: basta una cifra que alcance o supere el umbral diagnóstico. No mezcles estos criterios con los de la curva de 100 g.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 4.",
+      "IADPSG Consensus Panel. Recommendations on the Diagnosis and Classification of Hyperglycemia in Pregnancy. Diabetes Care. 2010.",
+      "American Diabetes Association. Standards of Care in Diabetes, sección de manejo de diabetes en el embarazo."
+    ]
+  },
+  {
+    "id": "OBS-522",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Estrategia diagnóstica de dos pasos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar una curva de tolerancia de 100 g mediante los criterios de Carpenter-Coustan y diferenciarla de los criterios de un paso.",
+    "caso": "Gestante de 27 semanas con tamizaje de 50 g de 162 mg/dL realiza una curva confirmatoria de 100 g. Los resultados son: ayuno 94 mg/dL, una hora 183 mg/dL, dos horas 157 mg/dL y tres horas 138 mg/dL.",
+    "pregunta": "Según los criterios de Carpenter-Coustan incluidos en el documento, ¿cuál es la conclusión diagnóstica?",
+    "opciones": [
+      "Diabetes gestacional porque dos valores alcanzan o superan los puntos de corte",
+      "Diabetes gestacional porque cualquier valor alterado basta en la curva de 100 g",
+      "Curva normal porque la glucosa en ayuno es menor de 100 mg/dL",
+      "Diabetes pregestacional porque la glucosa de una hora supera 180 mg/dL",
+      "Debe repetirse la curva porque se requieren tres valores alterados"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Los umbrales de Carpenter-Coustan que presenta el documento son 95 mg/dL en ayuno, 180 a una hora, 155 a dos horas y 140 a tres horas. La paciente presenta alteraciones a una hora y a dos horas. En la estrategia de dos pasos, el documento requiere al menos dos valores alterados para establecer diabetes gestacional.",
+    "perlaENARM": "En la curva de 100 g con Carpenter-Coustan, recuerda 95-180-155-140 mg/dL y el criterio de dos valores alterados.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 4.",
+      "Carpenter MW, Coustan DR. Criteria for screening tests for gestational diabetes. Am J Obstet Gynecol. 1982.",
+      "ACOG. Gestational Diabetes Mellitus."
+    ]
+  },
+  {
+    "id": "OBS-523",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Tamizaje con carga de 50 g",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar la conducta posterior a un tamizaje de glucosa de 50 g según el protocolo de dos pasos.",
+    "caso": "Paciente de 26 semanas, asintomática y sin diabetes conocida, recibe una carga oral de 50 g sin ayuno previo. La glucosa plasmática a la hora es de 146 mg/dL.",
+    "pregunta": "¿Qué conducta corresponde al algoritmo de dos pasos del documento?",
+    "opciones": [
+      "Descartar diabetes gestacional porque la paciente no presenta síntomas",
+      "Diagnosticar diabetes pregestacional sin estudios adicionales",
+      "Iniciar insulina inmediatamente sin confirmar el diagnóstico",
+      "Repetir el tamizaje de 50 g al término del embarazo",
+      "Realizar una curva de tolerancia oral a la glucosa con 100 g"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El documento indica que el tamizaje de 50 g no requiere ayuno y que una glucosa a la hora de 140 a 180 mg/dL conduce al segundo paso, una curva de 100 g. El resultado del tamizaje no equivale por sí solo a un diagnóstico confirmado en este rango.",
+    "perlaENARM": "En dos pasos: carga de 50 g sin ayuno; si alcanza el umbral del protocolo, se realiza la curva confirmatoria de 100 g.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 4.",
+      "ACOG. Gestational Diabetes Mellitus."
+    ]
+  },
+  {
+    "id": "OBS-524",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Hiperglucemia temprana y diabetes pregestacional",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer criterios de diabetes manifiesta detectada durante el embarazo y diferenciarla de la diabetes gestacional diagnosticada habitualmente en el segundo trimestre.",
+    "caso": "Gestante de nueve semanas acude a su primera consulta prenatal. Tiene glucosa plasmática en ayuno de 132 mg/dL y no cuenta con registros previos de diabetes. Se encuentra clínicamente estable.",
+    "pregunta": "¿Qué interpretación clínica exige este resultado?",
+    "opciones": [
+      "Es una cifra normal durante el primer trimestre",
+      "Debe esperarse hasta las 24-28 semanas para investigar cualquier hiperglucemia",
+      "Sugiere diabetes manifiesta detectada durante el embarazo y requiere confirmación diagnóstica según los criterios aplicables",
+      "Confirma exclusivamente diabetes gestacional mediante el criterio de 92 mg/dL",
+      "El resultado solo indica intolerancia posprandial"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El documento utiliza glucosa plasmática en ayuno ≥126 mg/dL como criterio de diabetes manifiesta detectada tempranamente. En ausencia de hiperglucemia inequívoca, se debe confirmar el resultado con una segunda prueba apropiada. No debe esperarse hasta el segundo trimestre para evaluar una posible diabetes preexistente.",
+    "perlaENARM": "Una glucosa en ayuno ≥126 mg/dL al inicio del embarazo obliga a evaluar diabetes manifiesta, no a posponer el estudio hasta la semana 24.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, páginas 5-6.",
+      "American Diabetes Association. Standards of Care in Diabetes, diagnóstico y clasificación de la diabetes."
+    ]
+  },
+  {
+    "id": "OBS-525",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Hemoglobina glucosilada y riesgo embrionario",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar la hiperglucemia durante la embriogénesis con el riesgo de malformaciones congénitas y establecer prioridades preconcepcionales.",
+    "caso": "Mujer con diabetes tipo 1 desea embarazo. Su HbA1c es de 9.2%, y refiere episodios de hiperglucemia frecuente. Aún no ha iniciado una evaluación preconcepcional integral.",
+    "pregunta": "¿Cuál es la prioridad para disminuir el riesgo embriofetal antes de intentar la concepción?",
+    "opciones": [
+      "Suspender todo tratamiento antidiabético durante tres meses",
+      "Optimizar el control glucémico antes de la concepción, evitando hipoglucemias y revisando las complicaciones de la diabetes",
+      "Esperar al segundo trimestre para corregir la hiperglucemia",
+      "Utilizar exclusivamente dieta una vez confirmada la gestación",
+      "Realizar una curva de 50 g antes de intentar el embarazo como sustituto de la evaluación preconcepcional"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La hiperglucemia durante la organogénesis se asocia con mayor riesgo de malformaciones congénitas. El PDF recomienda optimizar la HbA1c antes de la concepción, idealmente por debajo de 6.5% cuando puede lograrse con seguridad, evitando hipoglucemias. También debe evaluarse el daño renal, ocular y cardiovascular y revisar los medicamentos.",
+    "perlaENARM": "En diabetes pregestacional, el control glucémico antes de la concepción es fundamental porque la organogénesis ocurre antes de que muchas pacientes sepan que están embarazadas.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 1.",
+      "American Diabetes Association. Standards of Care in Diabetes, manejo de la diabetes en el embarazo."
+    ]
+  },
+  {
+    "id": "OBS-526",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Clasificación de Priscilla White",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar la clasificación de Priscilla White para estimar la gravedad de la diabetes pregestacional según edad de inicio, duración y daño vascular.",
+    "caso": "Gestante de 31 semanas con diabetes mellitus diagnosticada a los 8 años presenta retinopatía proliferativa. Su historia clínica documenta más de 20 años de evolución de la enfermedad.",
+    "pregunta": "¿Qué clase de Priscilla White corresponde a la retinopatía proliferativa descrita?",
+    "opciones": [
+      "Clase B",
+      "Clase C",
+      "Clase D exclusivamente por la edad de inicio",
+      "Clase R",
+      "Clase A1"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "En la clasificación mostrada en la página 2, la clase R corresponde a diabetes con retinopatía proliferativa o hemorragia vítrea. La clase D se relaciona con inicio temprano, larga duración, retinopatía benigna o hipertensión, mientras que R identifica la complicación ocular proliferativa.",
+    "perlaENARM": "Priscilla White: R = retinopatía proliferativa; F = nefropatía; RF = ambas. La clasificación es histórica y no sustituye la evaluación clínica actual del daño orgánico.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 2.",
+      "Williams Obstetrics, 26.ª ed., diabetes y embarazo."
+    ]
+  },
+  {
+    "id": "OBS-527",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Clasificación A1 y A2",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Distinguir las categorías A1 y A2 de diabetes gestacional según el tratamiento requerido.",
+    "caso": "Paciente de 30 semanas con diabetes gestacional alcanza las metas de glucosa mediante intervención nutricional y actividad física, sin requerir medicamentos. El expediente utiliza la clasificación de Priscilla White.",
+    "pregunta": "¿Qué categoría corresponde al tratamiento actual?",
+    "opciones": [
+      "A1",
+      "A2",
+      "B",
+      "D",
+      "R"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "En el documento, A1 corresponde a diabetes gestacional controlada con dieta y A2 a diabetes gestacional que requiere insulina. La clasificación describe el tratamiento, no la presencia de complicaciones vasculares.",
+    "perlaENARM": "En Priscilla White, A1 = control con dieta; A2 = necesidad de tratamiento farmacológico según la clasificación presentada en el PDF.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 2."
+    ]
+  },
+  {
+    "id": "OBS-528",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Tratamiento nutricional",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Establecer objetivos de la terapia nutricional y evitar la restricción energética excesiva durante el embarazo.",
+    "caso": "Gestante con diabetes gestacional recién diagnosticada propone consumir solo 1,000 kcal al día para corregir rápidamente la hiperglucemia. No presenta obesidad grave ni otra indicación para una restricción excepcional.",
+    "pregunta": "¿Qué recomendación concuerda con el enfoque nutricional del documento?",
+    "opciones": [
+      "Mantener una dieta de 800 kcal hasta normalizar la glucosa",
+      "Eliminar todos los carbohidratos de forma permanente",
+      "Suspender las colaciones y omitir el desayuno",
+      "Restringir la energía por debajo de 1,000 kcal para prevenir macrosomía",
+      "Individualizar la alimentación con apoyo especializado, evitar restricción extrema y vigilar control glucémico y ganancia de peso"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El documento recomienda terapia nutricional individualizada y menciona 1,600-1,800 kcal/día como referencia, además de advertir contra dietas menores de 1,500 kcal por su asociación con cetosis y posibles efectos adversos. Las necesidades reales dependen del estado nutricional, la actividad física y la evolución obstétrica; no debe aplicarse una cifra universal sin evaluación individual.",
+    "perlaENARM": "El tratamiento nutricional debe controlar la glucosa sin inducir cetosis, hipoglucemia ni ganancia de peso inadecuada.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 7.",
+      "American Diabetes Association. Standards of Care in Diabetes, manejo nutricional en embarazo."
+    ]
+  },
+  {
+    "id": "OBS-529",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Inicio de tratamiento farmacológico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar cuándo debe intensificarse el tratamiento después de un periodo de intervención nutricional y actividad física.",
+    "caso": "Paciente de 29 semanas con diabetes gestacional ha seguido durante dos semanas un plan nutricional individualizado y ejercicio permitido. Sus glucemias en ayuno permanecen entre 99 y 105 mg/dL y las mediciones a las dos horas posprandiales son de 128-136 mg/dL.",
+    "pregunta": "¿Qué intervención debe considerarse ante el incumplimiento persistente de las metas?",
+    "opciones": [
+      "Esperar hasta la semana 38 sin modificar el tratamiento",
+      "Considerar tratamiento farmacológico, preferentemente insulina según el contexto clínico y las guías aplicables",
+      "Suspender el automonitoreo porque las cifras solo son ligeramente elevadas",
+      "Indicar reposo absoluto como sustituto del tratamiento",
+      "Permitir hiperglucemia sostenida para evitar hipoglucemia neonatal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El documento propone considerar tratamiento farmacológico si tras dos semanas de dieta y ejercicio no se alcanzan las metas, con referencia a glucosa en ayuno menor de 95 mg/dL y a las dos horas posprandiales menor de 120 mg/dL. La insulina es el fármaco de primera elección en el documento y es una opción ampliamente recomendada cuando se necesita tratamiento farmacológico.",
+    "perlaENARM": "No prolongues indefinidamente las medidas no farmacológicas si las glucemias siguen fuera de objetivo; reevalúa y escala el tratamiento.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, páginas 7-8.",
+      "American Diabetes Association. Standards of Care in Diabetes, diabetes gestacional."
+    ]
+  },
+  {
+    "id": "OBS-530",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Insulina basal y prandial",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar el perfil de glucosa con la elección de insulina basal y prandial.",
+    "caso": "Gestante de 32 semanas con diabetes gestacional recibe insulina NPH para control basal. Sus glucemias en ayuno se encuentran en objetivo, pero persisten elevaciones después del desayuno y la cena.",
+    "pregunta": "¿Qué modificación terapéutica se alinea con el esquema descrito en el documento?",
+    "opciones": [
+      "Suspender la insulina basal porque la glucosa en ayuno es normal",
+      "Administrar únicamente insulina rápida al acostarse para corregir todas las cifras",
+      "Añadir insulina rápida dirigida a las elevaciones posprandiales y ajustar el esquema con monitorización",
+      "Cambiar automáticamente a un hipoglucemiante oral sin valorar riesgos y preferencias",
+      "Duplicar la NPH sin analizar el patrón horario de glucosa"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF presenta la NPH como insulina basal y señala que puede añadirse insulina rápida cuando la glucemia posprandial no alcanza las metas. El ajuste debe individualizarse con los registros de glucosa, la ingesta, la actividad física y el riesgo de hipoglucemia.",
+    "perlaENARM": "Glucosa en ayuno controlada con elevaciones posprandiales: evalúa la cobertura prandial, en lugar de aumentar indiscriminadamente la insulina basal.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 8.",
+      "American Diabetes Association. Standards of Care in Diabetes, tratamiento farmacológico en embarazo."
+    ]
+  },
+  {
+    "id": "OBS-531",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Metformina y embarazo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el paso placentario de metformina y explicar por qué su uso requiere consejería sobre beneficios, limitaciones y alternativas.",
+    "caso": "Gestante de 27 semanas con diabetes gestacional no alcanza las metas nutricionales. Rechaza inicialmente la insulina y pregunta por metformina. Su función renal es normal y no tiene datos de hipoxia ni enfermedad hepática.",
+    "pregunta": "¿Qué información farmacológica debe formar parte de la decisión compartida?",
+    "opciones": [
+      "La metformina no atraviesa la placenta y no llega al feto",
+      "La metformina es siempre superior a la insulina en todos los desenlaces",
+      "La metformina está contraindicada en toda gestante por insuficiencia renal inevitable",
+      "La metformina puede discutirse en determinados contextos, pero atraviesa la placenta y las guías suelen preferir insulina cuando se requiere tratamiento farmacológico",
+      "La metformina elimina la necesidad de vigilancia de la glucosa"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF señala que la metformina atraviesa la placenta. Aunque puede considerarse en determinados escenarios, las guías actuales suelen preferir insulina cuando las medidas no farmacológicas son insuficientes, porque la metformina cruza la placenta y existen incertidumbres sobre algunos resultados a largo plazo en la descendencia. La elección debe incluir consejería y preferencias informadas.",
+    "perlaENARM": "Metformina cruza la placenta; no la describas como un fármaco que permanece exclusivamente en la circulación materna.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 8.",
+      "American Diabetes Association. Standards of Care in Diabetes, tratamiento de la hiperglucemia en embarazo."
+    ]
+  },
+  {
+    "id": "OBS-532",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Contraindicaciones de metformina",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar condiciones que incrementan el riesgo de acidosis láctica y contraindican o desaconsejan metformina.",
+    "caso": "Paciente embarazada con diabetes tipo 2 presenta deterioro importante de la función renal y un cuadro de hipoxia por enfermedad aguda. El equipo considera mantener metformina.",
+    "pregunta": "¿Qué aspecto farmacológico contraindica continuar sin reevaluación el tratamiento?",
+    "opciones": [
+      "El riesgo de acumulación y acidosis láctica en presencia de deterioro renal o hipoxia",
+      "El riesgo universal de hipoglucemia grave en todas las pacientes que usan metformina",
+      "La imposibilidad de medir glucosa durante el embarazo",
+      "La contraindicación absoluta por encontrarse en el segundo trimestre",
+      "La necesidad de mantener la metformina para evitar cualquier hiperglucemia"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El documento señala deterioro renal, enfermedad hepática e hipoxia entre las condiciones que contraindican la metformina por el riesgo de acidosis láctica. La enfermedad aguda requiere revisar el estado metabólico, suspender o ajustar los medicamentos cuando corresponda y seleccionar una alternativa segura.",
+    "perlaENARM": "Metformina: evalúa función renal y condiciones de hipoxia o enfermedad grave antes de mantenerla.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 8.",
+      "Ficha técnica de metformina y recomendaciones de seguridad farmacológica."
+    ]
+  },
+  {
+    "id": "OBS-533",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Automonitoreo glucémico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diseñar un esquema de automonitoreo que permita detectar hiperglucemia en ayuno y posprandial.",
+    "caso": "Gestante de 30 semanas con diabetes gestacional inicia tratamiento nutricional. Solo mide su glucosa dos veces por semana, siempre después de la cena, y afirma que con ello puede valorar todo su control.",
+    "pregunta": "¿Qué ajuste del automonitoreo se aproxima al esquema del documento?",
+    "opciones": [
+      "Medir únicamente cuando presenta síntomas",
+      "Medir exclusivamente antes de dormir",
+      "Suspender las mediciones si no hay síntomas de hiperglucemia",
+      "Realizar una glucemia al mes y una HbA1c al final del embarazo",
+      "Medir glucosa en ayuno diariamente y realizar mediciones posprandiales en distintos horarios, ajustando la frecuencia al plan clínico"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La página 9 recomienda automonitoreo de tres a cuatro veces al día, con glucosa en ayuno diaria después de al menos ocho horas y mediciones posprandiales una o dos horas después de las comidas. El esquema debe ajustarse al tratamiento y a los objetivos individualizados.",
+    "perlaENARM": "La glucosa en ayuno y la posprandial informan patrones distintos; medir solo después de la cena puede omitir hiperglucemia matutina o de otras comidas.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 9.",
+      "American Diabetes Association. Standards of Care in Diabetes, monitorización de glucosa durante el embarazo."
+    ]
+  },
+  {
+    "id": "OBS-534",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Restricción del crecimiento fetal y vasculopatía",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar el riesgo de macrosomía del riesgo de restricción del crecimiento fetal en diabetes con daño vascular.",
+    "caso": "Gestante de 31 semanas con diabetes pregestacional de larga evolución presenta nefropatía e hipertensión. La altura uterina es menor de la esperada y la ecografía sugiere crecimiento fetal por debajo del percentil 10.",
+    "pregunta": "¿Qué estrategia de vigilancia fetal está indicada ante la sospecha de restricción del crecimiento?",
+    "opciones": [
+      "Asumir que la diabetes siempre produce macrosomía y no realizar más estudios",
+      "Solicitar ecografías seriadas y velocimetría Doppler de la arteria umbilical",
+      "Indicar restricción alimentaria materna intensa para aumentar el crecimiento fetal",
+      "Suspender toda vigilancia hasta el término",
+      "Realizar únicamente una medición aislada de glucosa posprandial"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF señala que el riesgo de restricción del crecimiento intrauterino aumenta en mujeres diabéticas con daño vascular y recomienda ecografías seriadas y Doppler de la arteria umbilical cuando se sospecha restricción. La evaluación debe integrar hipertensión, función renal y bienestar fetal.",
+    "perlaENARM": "La diabetes con vasculopatía puede asociarse con restricción del crecimiento, no solo con macrosomía.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 9.",
+      "SMFM. Consult Series: Diagnosis and management of fetal growth restriction."
+    ]
+  },
+  {
+    "id": "OBS-535",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Evaluación de comorbilidades",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar estudios para evaluar daño renal en una gestante con diabetes pregestacional.",
+    "caso": "Gestante de 24 semanas con diabetes tipo 2 previa al embarazo presenta hipertensión y edema leve. No cuenta con evaluación reciente de función renal ni cuantificación de proteinuria.",
+    "pregunta": "¿Qué evaluación aparece en el documento para estudiar la función renal y el daño asociado?",
+    "opciones": [
+      "Únicamente una prueba de tolerancia a la glucosa",
+      "Radiografía abdominal sin evaluación bioquímica",
+      "Prueba de Coombs indirecta como medida de filtración glomerular",
+      "Depuración de creatinina y cuantificación de proteínas urinarias, de acuerdo con la evaluación clínica",
+      "Cultivo vaginal como sustituto de la evaluación renal"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF recomienda evaluar la función renal, incluyendo depuración de creatinina y cuantificación de proteínas en orina de 24 horas, especialmente en diabetes pregestacional o hipertensión. En la práctica contemporánea, la selección de pruebas debe considerar la función renal, la proteinuria y el contexto obstétrico.",
+    "perlaENARM": "En diabetes pregestacional con hipertensión, busca daño renal y proteinuria; no atribuyas toda proteinuria automáticamente a preeclampsia sin contexto basal.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 9.",
+      "ADA. Standards of Care in Diabetes, enfermedad renal y embarazo."
+    ]
+  },
+  {
+    "id": "OBS-536",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Diabetes tipo 1 y función tiroidea",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la asociación entre diabetes tipo 1 y enfermedad tiroidea autoinmune y planear una evaluación dirigida.",
+    "caso": "Gestante de 10 semanas con diabetes tipo 1 desde la adolescencia nunca ha tenido evaluación tiroidea documentada. Está asintomática y solicita saber si requiere estudios adicionales.",
+    "pregunta": "¿Qué evaluación menciona el documento para este contexto?",
+    "opciones": [
+      "Determinar TSH y evaluar el estado tiroideo autoinmune según antecedentes y protocolo",
+      "Solicitar únicamente troponina I en todas las pacientes",
+      "Realizar una curva de tolerancia de 100 g para diagnosticar hipotiroidismo",
+      "Iniciar levotiroxina sin medir función tiroidea",
+      "Evitar cualquier evaluación tiroidea durante la gestación"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF recomienda evaluar la función tiroidea en mujeres con diabetes tipo 1 y menciona TSH, T4 libre y estado de anticuerpos tiroideos. La estrategia exacta depende de antecedentes, resultados previos y recomendaciones actuales para el embarazo.",
+    "perlaENARM": "La diabetes tipo 1 se asocia con autoinmunidad tiroidea; considera evaluación tiroidea, especialmente si no existe una valoración reciente.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, páginas 1 y 9.",
+      "American Diabetes Association. Standards of Care in Diabetes, enfermedades autoinmunes asociadas."
+    ]
+  },
+  {
+    "id": "OBS-537",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Evaluación oftalmológica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Planear la vigilancia de retinopatía en una paciente con diabetes pregestacional.",
+    "caso": "Paciente de 29 semanas con diabetes tipo 1 de 18 años de evolución presenta visión borrosa intermitente. No tiene evaluación oftalmológica desde antes del embarazo y desconoce si existe retinopatía.",
+    "pregunta": "¿Qué intervención debe incorporarse a la valoración de complicaciones diabéticas?",
+    "opciones": [
+      "Descartar retinopatía si la presión arterial es normal",
+      "Solicitar exclusivamente un ultrasonido obstétrico",
+      "Realizar evaluación oftalmológica con fondo de ojo dilatado según valoración especializada",
+      "Esperar un año después del parto sin evaluar los síntomas",
+      "Suspender la vigilancia porque la retinopatía no cambia durante el embarazo"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El documento recomienda examen oftalmológico con pupila dilatada para detectar retinopatía y menciona controles durante el embarazo y después del parto según el grado de afectación. La visión borrosa requiere evaluación clínica oportuna y no debe atribuirse automáticamente a cambios fisiológicos del embarazo.",
+    "perlaENARM": "La retinopatía diabética puede progresar durante el embarazo; documenta el estado basal y adapta el seguimiento a su gravedad.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 9.",
+      "American Diabetes Association. Standards of Care in Diabetes, retinopatía y embarazo."
+    ]
+  },
+  {
+    "id": "OBS-538",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Momento de finalización del embarazo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar control glucémico y comorbilidades al planear el momento del nacimiento.",
+    "caso": "Gestante de 37 semanas con diabetes gestacional bien controlada mediante dieta, crecimiento fetal apropiado y sin hipertensión, nefropatía ni otras complicaciones. Pregunta cuándo debe planearse el nacimiento.",
+    "pregunta": "¿Qué afirmación corresponde al material docente y evita convertirlo en una regla universal?",
+    "opciones": [
+      "Toda paciente con diabetes gestacional debe tener cesárea a las 37 semanas",
+      "La diabetes gestacional obliga a inducir el parto antes de las 34 semanas",
+      "El embarazo debe prolongarse siempre más allá de las 41 semanas",
+      "La vía y el momento del nacimiento no dependen del control glucémico",
+      "El documento propone planear el nacimiento después de las 38 semanas en embarazos bien controlados sin comorbilidades, individualizando según las guías vigentes"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La página 10 señala que los embarazos con buen control glucémico y sin otras comorbilidades deben finalizar con parto programado después de las 38 semanas. Esta referencia del material no debe sustituir las recomendaciones vigentes ni la individualización según tratamiento, control, crecimiento fetal y condiciones obstétricas.",
+    "perlaENARM": "La diabetes gestacional no implica automáticamente cesárea ni nacimiento prematuro; el momento depende del control, tratamiento y complicaciones.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 10.",
+      "ACOG. Medically Indicated Late-Preterm and Early-Term Deliveries.",
+      "ACOG. Gestational Diabetes Mellitus."
+    ]
+  },
+  {
+    "id": "OBS-539",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Macrosomía y vía de nacimiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Valorar la sospecha de macrosomía fetal y la posibilidad de cesárea según el peso fetal estimado y el contexto clínico.",
+    "caso": "Gestante con diabetes gestacional presenta una estimación ecográfica de peso fetal de 4,300 g a término. No hay contraindicación obstétrica para el parto vaginal y la paciente pregunta por el riesgo de distocia de hombros.",
+    "pregunta": "¿Qué aspecto debe formar parte de la consejería sobre la vía de nacimiento?",
+    "opciones": [
+      "El peso ecográfico es exacto y elimina la incertidumbre de la decisión",
+      "Debe ofrecerse consejería individualizada sobre el riesgo de distocia de hombros y considerar cesárea según el umbral y las guías aplicables",
+      "Toda sospecha de macrosomía obliga a histerectomía",
+      "La diabetes gestacional impide cualquier parto vaginal",
+      "La estimación fetal no tiene ninguna relación con la decisión obstétrica"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El documento asocia macrosomía con distocia de hombros y menciona 4,000 g como umbral de cesárea en su esquema. En la práctica clínica, las recomendaciones suelen considerar cesárea programada cuando el peso fetal estimado es ≥4,500 g en diabetes, reconociendo la imprecisión ecográfica y la necesidad de decisión compartida.",
+    "perlaENARM": "Distingue el umbral del PDF del utilizado en guías actuales: el peso fetal estimado es impreciso y la decisión debe individualizarse.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 10.",
+      "ACOG. Macrosomia."
+    ]
+  },
+  {
+    "id": "OBS-540",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Control glucémico intraparto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar vigilancia de glucosa durante el trabajo de parto según el tipo de diabetes y la administración de insulina.",
+    "caso": "Paciente con diabetes tipo 1 ingresa en trabajo de parto activo y recibe una infusión intravenosa de insulina. La glucosa inicial es de 104 mg/dL.",
+    "pregunta": "Según el esquema de monitorización del documento, ¿con qué frecuencia debe controlarse la glucosa mientras recibe la infusión?",
+    "opciones": [
+      "Una vez al día",
+      "Cada seis horas",
+      "Cada cuatro horas en todos los casos",
+      "Cada hora",
+      "Solo si aparecen síntomas de hipoglucemia"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La página 10 indica monitorización cada hora para embarazadas con diabetes tipo 1 o tipo 2 que reciben infusión de insulina. La frecuencia exacta y las metas intraparto deben seguir el protocolo institucional, con ajustes para evitar tanto hiperglucemia como hipoglucemia.",
+    "perlaENARM": "Insulina intravenosa intraparto: requiere vigilancia frecuente, habitualmente horaria, y ajustes según protocolo.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 10.",
+      "ACOG. Intrapartum Management of Diabetes."
+    ]
+  },
+  {
+    "id": "OBS-541",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Hipoglucemia neonatal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Explicar la fisiopatología de la hipoglucemia neonatal asociada a hiperglucemia materna.",
+    "caso": "Recién nacido de madre con diabetes gestacional y control glucémico irregular presenta temblor y glucosa neonatal baja poco después del nacimiento. Durante la gestación se había documentado crecimiento fetal acelerado.",
+    "pregunta": "¿Qué mecanismo explica mejor esta complicación neonatal?",
+    "opciones": [
+      "La hiperglucemia materna produce hiperinsulinismo fetal; tras interrumpirse el aporte materno de glucosa, la insulina neonatal puede causar hipoglucemia",
+      "La insulina materna atraviesa libremente la placenta y es la única causa de hipoglucemia",
+      "El páncreas fetal permanece inactivo durante el embarazo",
+      "La macrosomía excluye alteraciones metabólicas neonatales",
+      "La hipoglucemia solo ocurre cuando la madre tiene glucosa normal"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La glucosa materna atraviesa la placenta y estimula la secreción de insulina fetal. Después del nacimiento, el aporte continuo de glucosa materna cesa, mientras que la hiperinsulinemia neonatal puede persistir transitoriamente, provocando hipoglucemia. El recién nacido requiere valoración y monitorización según el protocolo neonatal.",
+    "perlaENARM": "Hiperglucemia materna → hiperinsulinismo fetal → hipoglucemia neonatal después del pinzamiento del cordón.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, páginas 1 y 10.",
+      "American Diabetes Association. Standards of Care in Diabetes, embarazo y desenlaces neonatales."
+    ]
+  },
+  {
+    "id": "OBS-542",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Reclasificación posparto",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar la prueba y el momento adecuados para detectar diabetes persistente después de diabetes gestacional.",
+    "caso": "Mujer de 33 años con diabetes gestacional controlada con dieta tuvo un parto sin complicaciones. A las ocho semanas posparto se encuentra asintomática y pregunta si puede considerarse curada sin realizar estudios.",
+    "pregunta": "¿Qué estrategia recomienda el documento para reclasificar su estado glucémico?",
+    "opciones": [
+      "No realizar estudios si la glucosa capilar es normal en una ocasión",
+      "Solicitar exclusivamente HbA1c a los cinco años",
+      "Realizar una curva de tolerancia oral de 75 g con medición a las dos horas entre las 6 y 12 semanas posparto",
+      "Repetir una carga de 50 g sin ayuno durante la lactancia como única prueba",
+      "Indicar insulina de por vida sin medir glucosa"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El documento recomienda reclasificación entre las 6 y 12 semanas posparto mediante una curva de tolerancia oral de 75 g con medición a las dos horas y criterios estándar para diabetes tipo 2. La diabetes gestacional puede resolverse tras el parto, pero persiste un riesgo elevado de diabetes futura.",
+    "perlaENARM": "Tras diabetes gestacional, realiza una CTGO de 75 g a las 6-12 semanas posparto; no des por resuelto el riesgo solo porque desaparece la hiperglucemia del embarazo.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 11.",
+      "American Diabetes Association. Standards of Care in Diabetes, atención posparto."
+    ]
+  },
+  {
+    "id": "OBS-543",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Riesgo metabólico a largo plazo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Establecer seguimiento metabólico a largo plazo después de diabetes gestacional.",
+    "caso": "Paciente de 35 años tuvo diabetes gestacional hace dos años. Su reclasificación posparto fue normal, pero presenta obesidad y antecedente familiar de diabetes tipo 2. No ha vuelto a evaluarse.",
+    "pregunta": "¿Qué estrategia de seguimiento se alinea con el documento?",
+    "opciones": [
+      "Suspender toda vigilancia porque la CTGO posparto fue normal",
+      "Realizar pruebas metabólicas a intervalos de uno a tres años y reforzar prevención mediante estilo de vida",
+      "Solicitar glucosa únicamente durante un futuro embarazo",
+      "Indicar tratamiento farmacológico permanente sin valorar el estado glucémico",
+      "Realizar una CTGO semanal durante el resto de la vida"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF recomienda tamizaje cada uno a tres años en mujeres con antecedente de diabetes gestacional y factores de riesgo. Las recomendaciones actuales también respaldan vigilancia periódica, prevención de diabetes tipo 2, control del peso y actividad física.",
+    "perlaENARM": "Una CTGO posparto normal no elimina el riesgo futuro; el antecedente de diabetes gestacional es un marcador de riesgo cardiometabólico.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 11.",
+      "American Diabetes Association. Standards of Care in Diabetes, prevención y seguimiento posparto."
+    ]
+  },
+  {
+    "id": "OBS-544",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Criterios de hospitalización",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer descontrol glucémico que requiere valoración hospitalaria y descartar urgencias metabólicas.",
+    "caso": "Gestante de 30 semanas con diabetes pregestacional presenta vómitos, dolor abdominal, respiración profunda y glucosa de 238 mg/dL. Tiene cetonas positivas y deshidratación.",
+    "pregunta": "¿Cuál es la prioridad clínica?",
+    "opciones": [
+      "Indicar únicamente dieta ambulatoria y control en dos semanas",
+      "Suspender la insulina hasta que ceda el vómito",
+      "Esperar a que la glucosa supere 400 mg/dL para valorar ingreso",
+      "Realizar solo una ecografía de crecimiento fetal y dar alta",
+      "Hospitalizar para evaluar y tratar una posible cetoacidosis diabética, sin retrasar la estabilización materna"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La combinación de vómitos, deshidratación, cetonuria y respiración profunda en una embarazada con diabetes obliga a sospechar una urgencia metabólica, incluida cetoacidosis. Esta puede presentarse con glucemias inferiores a las habituales fuera del embarazo. Se requiere evaluación urgente de electrolitos, estado ácido-base, cetonas y tratamiento hospitalario.",
+    "perlaENARM": "En el embarazo, la cetoacidosis diabética puede presentarse con glucosa no extremadamente elevada; la sospecha clínica exige atención urgente.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 12.",
+      "American Diabetes Association. Standards of Care in Diabetes, crisis hiperglucémicas."
+    ]
+  },
+  {
+    "id": "OBS-545",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Hipoglucemia materna",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer hipoglucemia significativa en el embarazo y priorizar su tratamiento y la revisión del esquema farmacológico.",
+    "caso": "Gestante de 25 semanas con diabetes tipo 1 tratada con múltiples dosis de insulina presenta sudoración, confusión y glucosa capilar de 42 mg/dL. Está consciente, pero tiene dificultad para seguir instrucciones.",
+    "pregunta": "¿Qué actuación inicial es prioritaria?",
+    "opciones": [
+      "Tratar de inmediato la hipoglucemia con glucosa según el estado de conciencia y la capacidad de deglución, y reevaluar la glucemia",
+      "Aumentar la dosis de insulina rápida",
+      "Esperar una hora para confirmar el resultado antes de intervenir",
+      "Indicar ejercicio para movilizar la glucosa",
+      "Suspender de forma permanente toda terapia de insulina"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Una glucosa de 42 mg/dL con alteración neurológica es una urgencia. Debe administrarse glucosa de forma inmediata según la capacidad de deglución y el protocolo de hipoglucemia grave, repetir la medición y revisar el régimen de insulina, la alimentación y los factores precipitantes.",
+    "perlaENARM": "La hipoglucemia con alteración neurológica se trata inmediatamente; no se retrasa el tratamiento para repetir la prueba.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 12.",
+      "American Diabetes Association. Standards of Care in Diabetes, hipoglucemia."
+    ]
+  },
+  {
+    "id": "OBS-546",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Factores de riesgo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar factores de riesgo que justifican una evaluación temprana y posterior tamizaje de diabetes gestacional.",
+    "caso": "Gestante de 24 años, con glucosa en ayuno normal en la primera consulta, tiene antecedente de síndrome de ovario poliquístico y un recién nacido previo de 4,250 g. Actualmente cursa 12 semanas.",
+    "pregunta": "¿Cómo clasifica el documento el riesgo de diabetes gestacional en esta paciente?",
+    "opciones": [
+      "Bajo riesgo porque es menor de 25 años",
+      "Bajo riesgo porque la glucosa inicial fue normal",
+      "Alto riesgo por presentar antecedentes incluidos entre los factores de riesgo",
+      "Sin riesgo porque el síndrome de ovario poliquístico no tiene relación metabólica",
+      "Riesgo nulo hasta que aparezca glucosuria"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF clasifica como alto riesgo a las pacientes con antecedente de síndrome de ovario poliquístico, alteración previa del metabolismo de la glucosa, familiares de primer grado con diabetes, macrosomía previa, obesidad severa o glucosuria. Un valor inicial normal no elimina la necesidad de tamizaje posterior cuando existen factores de riesgo.",
+    "perlaENARM": "Macrosomía previa y síndrome de ovario poliquístico son señales de riesgo metabólico aunque la glucosa inicial sea normal.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 3.",
+      "ACOG. Gestational Diabetes Mellitus."
+    ]
+  },
+  {
+    "id": "OBS-547",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Tamizaje por factores de riesgo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar el algoritmo de evaluación temprana y tamizaje de 24-28 semanas según el riesgo y la glucemia inicial.",
+    "caso": "Gestante de 10 semanas con obesidad y antecedente de diabetes gestacional tiene glucosa plasmática en ayuno de 88 mg/dL. No hay criterios de diabetes manifiesta en la evaluación inicial.",
+    "pregunta": "Según el algoritmo del documento, ¿qué estrategia corresponde si la evaluación inicial no identifica diabetes manifiesta?",
+    "opciones": [
+      "Descartar cualquier evaluación adicional porque el ayuno es menor de 92 mg/dL",
+      "Esperar hasta después del parto para repetir la glucosa",
+      "Diagnosticar diabetes gestacional por la presencia de obesidad",
+      "Realizar tamizaje de diabetes gestacional entre las 24 y 28 semanas, de acuerdo con el método seleccionado",
+      "Indicar insulina de inmediato sin registros adicionales"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El documento recomienda glucosa en ayuno temprana para detectar diabetes pregestacional y tamizaje a las 24-28 semanas cuando el resultado inicial es normal y existen factores de riesgo. El método puede ser de un paso o de dos pasos según el protocolo empleado.",
+    "perlaENARM": "Una glucosa inicial normal no excluye diabetes gestacional posterior; el periodo de tamizaje habitual es 24-28 semanas.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, páginas 3-4 y 6.",
+      "ACOG. Gestational Diabetes Mellitus."
+    ]
+  },
+  {
+    "id": "OBS-548",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Criterios de diabetes manifiesta",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar una glucemia al azar elevada acompañada de síntomas clásicos de hiperglucemia.",
+    "caso": "Gestante de 11 semanas presenta poliuria, polidipsia y pérdida de peso. La glucosa plasmática al azar es de 228 mg/dL. No tiene antecedentes documentados de diabetes.",
+    "pregunta": "¿Cuál es la interpretación diagnóstica más apropiada?",
+    "opciones": [
+      "La cifra es normal porque la paciente no está en ayuno",
+      "Cumple el criterio de diabetes manifiesta por glucosa al azar ≥200 mg/dL con síntomas clásicos",
+      "Solo puede diagnosticarse diabetes gestacional después de las 28 semanas",
+      "El diagnóstico requiere obligatoriamente una curva de 100 g",
+      "Debe considerarse hipoglucemia reactiva"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El documento utiliza glucosa al azar ≥200 mg/dL en presencia de síntomas de hiperglucemia como criterio de diabetes manifiesta. La paciente necesita evaluación y tratamiento oportunos, incluyendo valoración metabólica, búsqueda de cetosis cuando esté indicada y revisión de posibles complicaciones.",
+    "perlaENARM": "Glucosa al azar ≥200 mg/dL con síntomas clásicos puede establecer diabetes manifiesta; no es necesario esperar al tamizaje habitual de 24-28 semanas.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, páginas 5-6.",
+      "American Diabetes Association. Standards of Care in Diabetes, diagnóstico de diabetes."
+    ]
+  },
+  {
+    "id": "OBS-549",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Anticipación de complicaciones fetales",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar la hiperglucemia materna con las principales complicaciones fetales y neonatales.",
+    "caso": "Gestante con diabetes gestacional mal controlada presenta crecimiento fetal por encima del percentil 95. La familia pregunta por las complicaciones asociadas con la exposición fetal a hiperglucemia.",
+    "pregunta": "¿Qué combinación de complicaciones es fisiopatológicamente congruente?",
+    "opciones": [
+      "Únicamente hipotiroidismo congénito y microcefalia",
+      "Solo restricción del crecimiento en todos los casos",
+      "Ausencia de complicaciones si la madre no tiene síntomas",
+      "Exclusivamente anemia hemolítica fetal",
+      "Macrosomía, distocia de hombros e hipoglucemia neonatal, entre otras complicaciones"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La hiperglucemia materna estimula la secreción de insulina fetal y favorece el crecimiento excesivo. La macrosomía aumenta el riesgo de distocia de hombros y trauma obstétrico; después del nacimiento puede presentarse hipoglucemia neonatal. También pueden ocurrir otras complicaciones según el grado y el momento de la hiperglucemia.",
+    "perlaENARM": "La diabetes gestacional mal controlada se relaciona con macrosomía y complicaciones metabólicas neonatales; la prevención depende del control materno y de la planificación obstétrica.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, páginas 1 y 10.",
+      "ACOG. Gestational Diabetes Mellitus."
+    ]
+  },
+  {
+    "id": "OBS-550",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Riesgo de diabetes tipo 2",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar por qué el antecedente de diabetes gestacional exige prevención y vigilancia metabólica a largo plazo.",
+    "caso": "Paciente de 32 años con diabetes gestacional en dos embarazos tiene actualmente una glucosa en ayuno normal. Presenta sobrepeso, sedentarismo y antecedentes familiares de diabetes tipo 2.",
+    "pregunta": "¿Cuál es la principal implicación a largo plazo del antecedente obstétrico?",
+    "opciones": [
+      "Mayor riesgo futuro de diabetes tipo 2, que justifica tamizaje periódico y medidas preventivas",
+      "Protección permanente contra la diabetes tipo 2 después del parto",
+      "Necesidad obligatoria de insulina durante toda la vida",
+      "Imposibilidad de desarrollar enfermedad cardiovascular",
+      "Ausencia de riesgo si la glucosa en ayuno es normal una sola vez"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El documento destaca el mayor riesgo de desarrollar diabetes tipo 2 después de diabetes gestacional. Una evaluación normal aislada no elimina ese riesgo, especialmente si persisten sobrepeso, sedentarismo o antecedentes familiares. Se recomienda seguimiento periódico, actividad física y control del peso.",
+    "perlaENARM": "Diabetes gestacional es un marcador de riesgo metabólico futuro; la prevención y el tamizaje continúan después del puerperio.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, páginas 1 y 11.",
+      "American Diabetes Association. Standards of Care in Diabetes, prevención de diabetes tipo 2."
+    ]
+  },
+  {
+    "id": "OBS-551",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Evaluación del daño vascular",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar el daño microvascular materno con la vigilancia del crecimiento y bienestar fetal.",
+    "caso": "Gestante de 34 semanas con diabetes pregestacional de 22 años de evolución presenta nefropatía y retinopatía. El feto se encuentra en el percentil 8 de crecimiento.",
+    "pregunta": "¿Qué mecanismo y estrategia de vigilancia son más coherentes con el caso?",
+    "opciones": [
+      "La diabetes siempre aumenta el peso fetal, por lo que el percentil 8 es irrelevante",
+      "La retinopatía excluye cualquier riesgo placentario",
+      "El daño vascular puede comprometer el crecimiento; se requiere evaluación seriada y Doppler de la arteria umbilical",
+      "El control de glucosa deja de tener importancia después de las 30 semanas",
+      "La única intervención es aumentar de forma indiscriminada las calorías maternas"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El daño vascular asociado con diabetes pregestacional puede coexistir con insuficiencia placentaria y restricción del crecimiento fetal. El documento recomienda ecografías seriadas y Doppler de la arteria umbilical ante sospecha de restricción. El plan obstétrico depende de la evaluación Doppler, la edad gestacional y el estado materno-fetal.",
+    "perlaENARM": "Diabetes con vasculopatía: considera restricción del crecimiento y no asumas que todos los fetos serán macrosómicos.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, páginas 2 y 9.",
+      "SMFM. Diagnosis and management of fetal growth restriction."
+    ]
+  },
+  {
+    "id": "OBS-552",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Puerperio e insulinoterapia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar el manejo posparto de la diabetes gestacional del ajuste de insulina en diabetes pregestacional.",
+    "caso": "Mujer con diabetes tipo 1 utilizó dosis elevadas de insulina durante el tercer trimestre. Después del nacimiento presenta una reducción marcada de la glucemia y comienza a amamantar.",
+    "pregunta": "¿Qué cambio fisiológico obliga a ajustar el tratamiento tras el parto?",
+    "opciones": [
+      "La resistencia a la insulina aumenta de forma permanente en todas las pacientes",
+      "La placenta continúa produciendo las mismas hormonas después del nacimiento",
+      "La insulina debe suspenderse permanentemente en toda paciente con diabetes tipo 1",
+      "La desaparición de las hormonas placentarias reduce la resistencia a la insulina y suele requerir una reducción importante de las dosis",
+      "La lactancia elimina el riesgo de hipoglucemia"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Después del alumbramiento disminuye rápidamente la resistencia a la insulina inducida por hormonas placentarias. El documento menciona una reducción aproximada de 60-70% respecto de las dosis del tercer trimestre en diabetes pregestacional, aunque el ajuste real debe individualizarse con mediciones frecuentes, ingesta y lactancia.",
+    "perlaENARM": "Tras el parto cae la resistencia a la insulina; revisa de inmediato las dosis para evitar hipoglucemia, especialmente durante la lactancia.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 11.",
+      "American Diabetes Association. Standards of Care in Diabetes, manejo posparto."
+    ]
+  },
+  {
+    "id": "OBS-553",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Ganancia ponderal durante el embarazo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar las metas de ganancia ponderal del documento según el IMC pregestacional.",
+    "caso": "Gestante con diabetes gestacional tiene un IMC pregestacional de 33 kg/m². Su ganancia ponderal acumulada es de 11 kg a las 28 semanas y solicita orientación nutricional.",
+    "pregunta": "¿Qué aspecto de la tabla de ganancia de peso del documento es relevante para su consejería?",
+    "opciones": [
+      "Todas las pacientes deben aumentar al menos 18 kg",
+      "La tabla asigna a la categoría de obesidad una ganancia total de referencia de 5 a 9 kg",
+      "La ganancia de peso no se relaciona con el IMC pregestacional",
+      "Debe perder peso de manera rápida durante el embarazo",
+      "La diabetes gestacional obliga a restringir toda ganancia ponderal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La página 2 presenta una ganancia de 5-9 kg para obesidad, mientras que las demás categorías tienen intervalos mayores. La paciente requiere evaluación individual de la trayectoria ponderal, crecimiento fetal, ingesta y control glucémico; no debe indicarse pérdida rápida de peso durante el embarazo.",
+    "perlaENARM": "La ganancia de peso se individualiza según el IMC pregestacional; evita tanto el exceso como las restricciones extremas.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 2.",
+      "National Academy of Medicine. Weight Gain During Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-554",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Ejercicio terapéutico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar el efecto de la actividad física sobre la sensibilidad a la insulina y la glucemia durante el embarazo.",
+    "caso": "Paciente de 25 semanas con diabetes gestacional sin contraindicaciones obstétricas desea incorporar actividad física, pero teme que el ejercicio empeore la hiperglucemia.",
+    "pregunta": "¿Qué recomendación coincide con el documento?",
+    "opciones": [
+      "Evitar cualquier actividad física hasta el parto",
+      "Realizar ejercicio intenso en ayuno sin supervisión",
+      "Sustituir el tratamiento nutricional por ejercicio exclusivo",
+      "Practicar ejercicio aeróbico apropiado para el embarazo, con frecuencia y duración individualizadas, como complemento del tratamiento",
+      "Mantener reposo absoluto para reducir la demanda de glucosa"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El documento recomienda actividad física aeróbica durante periodos mínimos de 30 minutos y explica que el ejercicio puede mejorar la sensibilidad a la insulina y reducir la glucosa en ayuno y posprandial. La modalidad debe adaptarse a las condiciones obstétricas, la capacidad física y las contraindicaciones individuales.",
+    "perlaENARM": "La actividad física complementa la terapia nutricional y mejora la sensibilidad a la insulina cuando no existen contraindicaciones obstétricas.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 7.",
+      "ACOG. Physical Activity and Exercise During Pregnancy and the Postpartum Period."
+    ]
+  },
+  {
+    "id": "OBS-555",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Aspirina en diabetes pregestacional",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la diabetes pregestacional como factor de riesgo de preeclampsia y considerar profilaxis con ácido acetilsalicílico a dosis baja.",
+    "caso": "Gestante de 12 semanas con diabetes tipo 1 pregestacional acude a evaluación de riesgo obstétrico. No tiene sangrado activo ni alergia conocida a ácido acetilsalicílico.",
+    "pregunta": "¿Qué medida preventiva aparece en el documento para reducir el riesgo de preeclampsia?",
+    "opciones": [
+      "Ácido acetilsalicílico a dosis baja, si no existen contraindicaciones y conforme a la guía aplicable",
+      "Anticoagulación terapéutica con heparina en todas las pacientes",
+      "Restricción completa de sal y agua en todas las gestantes",
+      "Antibióticos profilácticos durante todo el embarazo",
+      "Suspender la vigilancia de presión arterial si la glucosa está controlada"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El documento recomienda ácido acetilsalicílico a dosis baja en mujeres con diabetes pregestacional para prevenir preeclampsia. La dosis y el momento de inicio deben seguir la guía vigente y la evaluación individual de riesgo y contraindicaciones.",
+    "perlaENARM": "La diabetes pregestacional aumenta el riesgo de preeclampsia; considera profilaxis con aspirina a dosis baja según recomendaciones obstétricas vigentes.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 1.",
+      "ACOG. Low-Dose Aspirin Use During Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-556",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Criterios de riesgo preconcepcional",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar condiciones maternas de alto riesgo que requieren optimización antes de intentar un embarazo.",
+    "caso": "Mujer con diabetes tipo 2 desea embarazo. Tiene HbA1c de 10.4%, nefropatía con creatinina de 1.6 mg/dL y retinopatía proliferativa activa.",
+    "pregunta": "¿Cuál es el objetivo prioritario antes de autorizar un plan de concepción?",
+    "opciones": [
+      "Intentar el embarazo inmediatamente porque la edad gestacional futura no puede predecirse",
+      "Suspender la evaluación renal para evitar ansiedad",
+      "Realizar únicamente un ultrasonido pélvico y proceder",
+      "Cambiar a dieta sin medir glucosa ni revisar medicamentos",
+      "Brindar consejería preconcepcional especializada y optimizar control metabólico y complicaciones antes de intentar la gestación"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La página 2 identifica HbA1c >10%, nefropatía avanzada y retinopatía proliferativa activa entre las condiciones en las que no se recomienda buscar embarazo sin optimización. La paciente necesita atención multidisciplinaria, revisión farmacológica y evaluación de riesgos maternos y fetales antes de la concepción.",
+    "perlaENARM": "Antes de la concepción, optimiza la glucemia y evalúa daño renal, ocular y cardiovascular; la hiperglucemia temprana aumenta el riesgo embrionario.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, páginas 1-2.",
+      "American Diabetes Association. Standards of Care in Diabetes, atención preconcepcional."
+    ]
+  },
+  {
+    "id": "OBS-557",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Diferenciación entre criterios NDDG y Carpenter-Coustan",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir los puntos de corte de dos sistemas de interpretación de la curva de 100 g y evitar combinarlos en un mismo diagnóstico.",
+    "caso": "Gestante de 28 semanas realiza una curva de 100 g con los siguientes valores: ayuno 103 mg/dL, una hora 187 mg/dL, dos horas 160 mg/dL y tres horas 142 mg/dL. El residente utiliza la tabla de Carpenter-Coustan, pero el expediente también incluye los umbrales NDDG.",
+    "pregunta": "¿Qué error metodológico debe evitarse al interpretar esta curva?",
+    "opciones": [
+      "Considerar la glucosa de tres horas en cualquier sistema diagnóstico",
+      "Aplicar de forma consistente un sistema de puntos de corte y no combinar selectivamente umbrales de Carpenter-Coustan y NDDG",
+      "Contabilizar el ayuno como una medición de glucosa",
+      "Registrar los resultados en el expediente",
+      "Comparar las cifras con el protocolo de laboratorio utilizado"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El documento presenta dos sistemas para la curva de 100 g: Carpenter-Coustan y NDDG, con umbrales distintos. Debe aplicarse el sistema elegido de forma consistente. Con Carpenter-Coustan, los cuatro resultados de este caso alcanzan o superan los umbrales presentados, mientras que la clasificación puede variar al aplicar NDDG.",
+    "perlaENARM": "Carpenter-Coustan y NDDG no son intercambiables cifra por cifra; identifica el sistema utilizado antes de contar valores alterados.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 4.",
+      "ACOG. Gestational Diabetes Mellitus."
+    ]
+  },
+  {
+    "id": "OBS-558",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Hipoglucemia y metas intensivas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Equilibrar el control glucémico estricto con la prevención de hipoglucemia materna.",
+    "caso": "Gestante de 33 semanas con diabetes gestacional y tratamiento con insulina tiene episodios nocturnos de sudoración y glucosa documentada de 52 mg/dL. Durante el día presenta valores posprandiales discretamente elevados.",
+    "pregunta": "¿Qué enfoque es más seguro para ajustar el tratamiento?",
+    "opciones": [
+      "Aumentar todas las dosis de insulina para corregir la hiperglucemia diurna",
+      "Aceptar las hipoglucemias porque protegen al feto de la macrosomía",
+      "Suspender permanentemente el automonitoreo",
+      "Revisar el patrón horario, la alimentación y las dosis, tratar las hipoglucemias y ajustar el esquema de forma individualizada",
+      "Indicar ayuno prolongado durante la noche"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El tratamiento busca mantener glucosa dentro de objetivos sin inducir hipoglucemia. La paciente necesita revisión de las dosis y del horario de administración, además de evaluación de ingesta y actividad. Aumentar indiscriminadamente todas las dosis puede empeorar los episodios nocturnos.",
+    "perlaENARM": "El control intensivo no significa aceptar hipoglucemias; ajusta la dosis según el patrón horario y el tratamiento que la produce.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, páginas 7-8 y 12.",
+      "American Diabetes Association. Standards of Care in Diabetes, hipoglucemia y embarazo."
+    ]
+  },
+  {
+    "id": "OBS-559",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Seguimiento después del parto",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir la reclasificación posparto de la diabetes gestacional del tamizaje periódico a largo plazo.",
+    "caso": "Mujer con antecedente de diabetes gestacional no acudió a la prueba de las 6-12 semanas posparto. Regresa ocho meses después, sin síntomas, y pregunta si aún vale la pena realizar una evaluación metabólica.",
+    "pregunta": "¿Qué recomendación es apropiada?",
+    "opciones": [
+      "No estudiar porque ya transcurrió el periodo posparto recomendado",
+      "Realizar únicamente una prueba de embarazo",
+      "Evaluar la glucosa ahora con una prueba apropiada y establecer seguimiento metabólico periódico",
+      "Indicar tratamiento farmacológico sin conocer el estado glucémico",
+      "Esperar obligatoriamente al siguiente embarazo para evaluar la glucosa"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Aunque el periodo recomendado para reclasificación es de 6-12 semanas posparto, una paciente que no acudió debe evaluarse cuando regrese. El antecedente de diabetes gestacional mantiene relevancia para el riesgo de diabetes tipo 2 y justifica seguimiento y prevención a largo plazo.",
+    "perlaENARM": "Si se perdió la ventana posparto inicial, no se pierde la indicación de evaluar el metabolismo glucémico.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, página 11.",
+      "American Diabetes Association. Standards of Care in Diabetes, atención posparto."
+    ]
+  },
+  {
+    "id": "OBS-560",
+    "especialidad": "Obstetricia",
+    "tema": "Diabetes gestacional",
+    "subtema": "Integración diagnóstica y terapéutica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar diagnóstico, tratamiento, vigilancia fetal y seguimiento posparto en una paciente con diabetes gestacional.",
+    "caso": "Gestante de 29 semanas presenta una curva de 75 g con glucosa en ayuno de 94 mg/dL, una hora de 176 mg/dL y dos horas de 158 mg/dL. Se diagnostica diabetes gestacional mediante el protocolo de un paso utilizado en la unidad. Tras dos semanas de intervención nutricional y ejercicio, mantiene ayunos de 101-106 mg/dL y glucosas a las dos horas de 126-134 mg/dL. La ecografía estima crecimiento fetal por encima del percentil 90.",
+    "pregunta": "¿Qué plan integra mejor las necesidades maternas y fetales del caso?",
+    "opciones": [
+      "Mantener el mismo plan sin cambios hasta el parto porque la paciente no tiene síntomas",
+      "Suspender el automonitoreo y decidir la vía del nacimiento únicamente por la edad materna",
+      "Indicar cesárea inmediata sin valorar edad gestacional ni estimación fetal",
+      "Esperar al puerperio para corregir la hiperglucemia",
+      "Intensificar el tratamiento glucémico, individualizar el seguimiento del crecimiento fetal y planear el nacimiento según control y factores obstétricos"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La glucosa de dos horas de 158 mg/dL supera el umbral de 153 mg/dL del método de un paso. Además, las cifras persisten fuera de las metas después de dos semanas de tratamiento no farmacológico, por lo que debe considerarse intensificación, con insulina como opción preferida en el documento. El crecimiento por encima del percentil 90 exige reevaluar el control y la vigilancia obstétrica; la vía y el momento del nacimiento deben individualizarse. Después del parto se debe planear la reclasificación metabólica.",
+    "perlaENARM": "La diabetes gestacional exige un circuito completo: diagnóstico correcto, control glucémico, evaluación del crecimiento fetal, planificación obstétrica y reclasificación posparto.",
+    "bibliografia": [
+      "PDF proporcionado: 10. Diabetes Gestacional, páginas 4, 7-11.",
+      "American Diabetes Association. Standards of Care in Diabetes, manejo de diabetes durante el embarazo.",
+      "ACOG. Gestational Diabetes Mellitus."
+    ]
   }
  ];
