@@ -6,6 +6,7 @@ const ESPECIALIDADES = [
   ["Neurología", "🧠", "EVC isquémico y hemorrágico, trombectomía, epilepsia, estado epiléptico"],
   ["Pediatría", "👶", "Urgencias, infecciones, neonatología y enfermedades pediátricas."],
   ["Ginecología", "🌸", "Sangrado uterino, patología cervical, endocrinología ginecológica, infertilidad y oncología ginecológica."],
+  ["Obstetricia", "🤰", "Control prenatal, medicina materno-fetal, trastornos hipertensivos, diabetes gestacional,emergencias obstétricas."],
   ["Cirugía", "🔪", "Abdomen agudo, trauma, perioperatorio y cirugía general."],
   ["Urgencias", "🚑", "Reanimación, choque, intoxicaciones y emergencias médicas."],
   ["Anestesiología", "💉", "Valoración perioperatoria, anestesia, vía aérea y reanimación."],
