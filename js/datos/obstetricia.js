@@ -964,12 +964,6 @@ window.BANCO_OBSTETRICIA = [
       "NICE. Antenatal Care."
     ]
   },
-  
-{
-  "bloque": 2,
-  "especialidad": "Obstetricia",
-  "temaGeneral": "Diagnóstico prenatal, evaluación fetal y tamizajes",
-  "preguntas": [
     {
       "id": "OBS-041",
       "tema": "Tamizaje prenatal",
