@@ -4870,6 +4870,4879 @@ window.BANCO_OBSTETRICIA = [
       "ACOG. Tubal Ectopic Pregnancy.",
       "Williams Obstetrics, 26.ª ed."
     ]
+  },
+[
+  {
+    "id": "OBS-201",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Diferenciación entre mola completa y parcial",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Correlacionar los hallazgos ecográficos, genéticos e histopatológicos para distinguir los tipos de mola hidatiforme.",
+    "caso": "Paciente de 22 años, G1, con sangrado transvaginal a las 11 semanas. El ultrasonido muestra una placenta engrosada con múltiples espacios quísticos y no identifica tejido embrionario. La β-hCG es de 280,000 UI/L. La histopatología reporta edema velloso difuso y proliferación trofoblástica circunferencial.",
+    "pregunta": "¿Qué combinación de hallazgos genéticos y morfológicos es la más característica de esta entidad?",
+    "opciones": [
+      "Triploidía diándrica, tejido fetal frecuente y proliferación focal",
+      "Diploidía androgenética, ausencia de tejido embrionario y proliferación trofoblástica difusa",
+      "Diploidía biparental, vellosidades normales y ausencia de proliferación",
+      "Monosomía X, invasión vascular y ausencia de vellosidades",
+      "Tetraploidía materna, proliferación limitada al estroma y tejido fetal obligatorio"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Los hallazgos son característicos de mola completa. La mayoría presenta un genoma diploide androgenético, habitualmente 46,XX, por duplicación del material genético paterno en un ovocito sin genoma materno funcional. Histológicamente existe edema velloso difuso y proliferación trofoblástica circunferencial. La mola parcial suele ser triploide y presentar alteraciones vellosas focales.",
+    "perlaENARM": "Mola completa: 46,XX androgenético con mayor frecuencia, ausencia de tejido embrionario y proliferación trofoblástica difusa. Mola parcial: frecuentemente 69,XXY o 69,XXX, con cambios vellosos focales.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 1-3.",
+      "Ngan HYS et al. Diagnosis and management of gestational trophoblastic disease: 2021 update. International Journal of Gynecology & Obstetrics. https://pubmed.ncbi.nlm.nih.gov/34669197/"
+    ]
+  },
+  {
+    "id": "OBS-202",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Mola parcial y triploidía",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar el cariotipo y los hallazgos morfológicos en una mola parcial.",
+    "caso": "Paciente de 19 años con pérdida gestacional a las 13 semanas. El estudio histopatológico identifica vellosidades de tamaño variable, edema focal, inclusiones estromales y proliferación trofoblástica focal. El estudio genético demuestra 69,XXY.",
+    "pregunta": "¿Qué mecanismo explica mejor el cariotipo observado?",
+    "opciones": [
+      "Duplicación exclusiva del genoma materno después de la fecundación",
+      "Fecundación de un ovocito sin material genético materno por un espermatozoide que duplica su genoma",
+      "Pérdida poscigótica de todos los cromosomas paternos",
+      "Fecundación de un ovocito por dos espermatozoides o mecanismo equivalente que produce triploidía diándrica",
+      "Translocación equilibrada de los cromosomas sexuales"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La mola parcial suele ser triploide y contener material genético materno y dos contribuciones haploides paternas. La fecundación dispérmica es un mecanismo habitual. El cariotipo 69,XXY, junto con las alteraciones vellosas y la proliferación trofoblástica focal, apoya el diagnóstico.",
+    "perlaENARM": "La triploidía diándrica orienta a mola parcial; la triploidía digínica no debe clasificarse automáticamente como mola sin correlación histopatológica.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 1 y 3.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021."
+    ]
+  },
+  {
+    "id": "OBS-203",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Interpretación de p57",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Utilizar la inmunohistoquímica de p57 para apoyar la diferenciación entre mola completa y otras gestaciones.",
+    "caso": "Una muestra de evacuación uterina presenta vellosidades hidrópicas y proliferación trofoblástica. La inmunohistoquímica revela ausencia de expresión de p57 en el citotrofoblasto velloso y en el estroma velloso; la decidua muestra tinción positiva como control interno.",
+    "pregunta": "¿Qué interpretación integra mejor el resultado inmunohistoquímico?",
+    "opciones": [
+      "Favorece mola completa androgenética, que debe correlacionarse con la morfología y, si es necesario, el genotipo",
+      "Confirma mola parcial triploide en todos los casos",
+      "Demuestra metástasis hematógenas",
+      "Confirma tumor trofoblástico del sitio placentario",
+      "Descarta una alteración genética de origen parental"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "p57 es un marcador cuya expresión depende del origen parental del material genético. En la mola completa androgenética clásica suele estar ausente en las células vellosas por falta de contribución genética materna. La tinción positiva de los controles internos confirma que la técnica funcionó. p57 no distingue por sí sola una mola parcial de una gestación no molar, porque ambas suelen conservar su expresión.",
+    "perlaENARM": "p57 negativo en vellosidades con controles internos positivos favorece mola completa; p57 conservado no confirma por sí solo mola parcial.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 1-4.",
+      "Ngan HYS et al. Diagnosis and management of gestational trophoblastic disease: 2021 update."
+    ]
+  },
+  {
+    "id": "OBS-204",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Limitaciones del ultrasonido",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Reconocer que la ecografía puede ser no concluyente en la mola parcial y que el diagnóstico requiere correlación histopatológica.",
+    "caso": "Paciente de 26 años con aborto incompleto a las 10 semanas. La ecografía muestra material heterogéneo intracavitario, sin patrón clásico de tormenta de nieve. El tejido evacuado presenta vellosidades con edema focal e inclusiones estromales.",
+    "pregunta": "¿Qué elemento resulta fundamental para confirmar la naturaleza de la lesión?",
+    "opciones": [
+      "La presencia obligatoria de quistes tecaluteínicos",
+      "Una β-hCG superior a 500,000 UI/L",
+      "La confirmación de metástasis pulmonares",
+      "El tamaño uterino mayor de 20 semanas",
+      "El estudio histopatológico, con pruebas complementarias si la morfología no es concluyente"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El ultrasonido puede no detectar el patrón típico de mola, especialmente en embarazos tempranos y molas parciales. El estudio histopatológico del tejido evacuado permite reconocer las alteraciones vellosas. La inmunohistoquímica y los estudios genéticos pueden ayudar en casos difíciles.",
+    "perlaENARM": "La ausencia de una imagen clásica de tormenta de nieve no excluye una mola, especialmente la parcial.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 4.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021."
+    ]
+  },
+  {
+    "id": "OBS-205",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Manifestaciones clínicas de mola completa",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar las manifestaciones clínicas con la producción excesiva de β-hCG.",
+    "caso": "Paciente de 41 años con amenorrea, vómitos intensos, sangrado vaginal y útero mayor al esperado para la edad gestacional. La β-hCG es de 450,000 UI/L y el ultrasonido muestra proliferación placentaria quística sin embrión identificable.",
+    "pregunta": "¿Cuál de los siguientes mecanismos explica mejor la asociación entre la concentración hormonal y los síntomas sistémicos?",
+    "opciones": [
+      "Producción de progesterona exclusivamente por las vellosidades avasculares",
+      "Secreción excesiva de β-hCG por proliferación trofoblástica, con estimulación ovárica y posible actividad tirotrópica",
+      "Supresión completa de la función ovárica por pérdida de estrógenos",
+      "Liberación de insulina por el tejido trofoblástico",
+      "Producción de TSH por el embrión ausente"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La proliferación trofoblástica excesiva produce concentraciones muy elevadas de β-hCG. Esto se relaciona con hiperémesis, quistes tecaluteínicos y, en algunos casos, tirotoxicosis por estimulación del receptor de TSH. La hemorragia uterina es otra manifestación frecuente.",
+    "perlaENARM": "Mola con hiperémesis intensa, útero aumentado y β-hCG muy elevada: investiga también tirotoxicosis y complicaciones hemorrágicas.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 2-4.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-206",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Preeclampsia de presentación temprana",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar la preeclampsia antes de las 20 semanas como una presentación atípica que obliga a buscar causas asociadas.",
+    "caso": "Paciente de 14 semanas con presión arterial de 165/110 mmHg, proteinuria, vómitos persistentes y sangrado transvaginal. El ultrasonido evidencia tejido placentario marcadamente heterogéneo y la β-hCG está muy elevada.",
+    "pregunta": "¿Qué diagnóstico obstétrico debe investigarse de forma prioritaria junto con la estabilización materna?",
+    "opciones": [
+      "Hipertensión gestacional fisiológica",
+      "Diabetes gestacional aislada",
+      "Placenta previa como explicación de todos los hallazgos",
+      "Enfermedad trofoblástica gestacional",
+      "Preeclampsia habitual de término"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La preeclampsia antes de las 20 semanas es inusual y debe motivar la búsqueda de causas como enfermedad trofoblástica gestacional y síndrome antifosfolípido, entre otras. La paciente requiere estabilización y evaluación urgente de la hipertensión grave, además de confirmar el diagnóstico gestacional.",
+    "perlaENARM": "Hipertensión con datos de preeclampsia antes de las 20 semanas: no la atribuyas a una gestación normal; investiga una causa subyacente.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 2.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-207",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Riesgo de enfermedad persistente",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Comparar el riesgo de neoplasia trofoblástica gestacional posterior a mola completa y parcial.",
+    "caso": "Durante la consejería posterior a una evacuación, una paciente pregunta por qué debe continuar el seguimiento de β-hCG si la mayor parte de las molas se resuelve después del procedimiento.",
+    "pregunta": "¿Qué explicación refleja mejor las diferencias de riesgo entre ambos tipos de mola?",
+    "opciones": [
+      "La mola parcial presenta mayor riesgo de neoplasia que la completa en todos los estudios",
+      "La mola completa nunca desarrolla enfermedad persistente",
+      "La mola completa tiene mayor riesgo de progresión a neoplasia trofoblástica que la parcial, aunque ambas requieren seguimiento",
+      "El riesgo es idéntico y no depende de la histología",
+      "El seguimiento solo es necesario cuando hay metástasis demostradas"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El riesgo de neoplasia trofoblástica gestacional posterior es mayor después de una mola completa que después de una mola parcial. El artículo de actualización de 2021 estima progresión aproximada de 15-20% para mola completa y 0.5-5% para mola parcial. Las cifras varían entre series y poblaciones; el seguimiento hormonal permite identificar la progresión.",
+    "perlaENARM": "Mola completa: riesgo de neoplasia persistente mayor que la parcial; la histología no sustituye el seguimiento de β-hCG.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 3 y 10.",
+      "Ngan HYS et al. Diagnosis and management of gestational trophoblastic disease: 2021 update. https://pubmed.ncbi.nlm.nih.gov/34669197/"
+    ]
+  },
+  {
+    "id": "OBS-208",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Factores de riesgo epidemiológicos",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Identificar los antecedentes que aumentan la probabilidad de una nueva gestación molar.",
+    "caso": "Paciente de 39 años con antecedente de mola completa hace tres años consulta por amenorrea y sangrado del primer trimestre. La ecografía muestra una placenta con múltiples espacios quísticos.",
+    "pregunta": "¿Qué antecedente incrementa de manera importante la sospecha clínica de una nueva mola?",
+    "opciones": [
+      "Antecedente de mola hidatiforme",
+      "Antecedente de parto vaginal sin complicaciones",
+      "Uso previo de hierro oral",
+      "Antecedente aislado de vaginosis bacteriana",
+      "Antecedente de vacunación contra influenza"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El antecedente de una gestación molar aumenta el riesgo de recurrencia, y la edad materna en los extremos reproductivos también se asocia con mayor riesgo. La sospecha clínica requiere confirmación mediante evaluación ecográfica y estudio del tejido cuando esté disponible.",
+    "perlaENARM": "Antecedente de mola más sangrado temprano y cambios placentarios quísticos: eleva la sospecha y justifica una evaluación dirigida.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 2.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021."
+    ]
+  },
+  {
+    "id": "OBS-209",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Quistes tecaluteínicos",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar la formación de quistes tecaluteínicos en presencia de concentraciones elevadas de β-hCG.",
+    "caso": "Paciente con mola completa presenta dolor pélvico leve y ovarios aumentados de tamaño con múltiples quistes bilaterales. La β-hCG es de 390,000 UI/L. No tiene datos de abdomen agudo ni signos de torsión anexial.",
+    "pregunta": "¿Cuál es el mecanismo fisiopatológico más probable de las lesiones ováricas?",
+    "opciones": [
+      "Metástasis ováricas obligatorias de coriocarcinoma",
+      "Infección bacteriana bilateral",
+      "Invasión directa de los ovarios por vellosidades en todos los casos",
+      "Estimulación ovárica por concentraciones muy elevadas de β-hCG",
+      "Insuficiencia ovárica primaria"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Los quistes tecaluteínicos se relacionan con la estimulación de los ovarios por concentraciones elevadas de β-hCG. Suelen disminuir al resolverse la enfermedad. El manejo habitualmente es conservador si no existen complicaciones; dolor súbito e intenso requiere descartar torsión o ruptura.",
+    "perlaENARM": "Quistes tecaluteínicos bilaterales con β-hCG muy elevada apoyan la sospecha de mola, pero no son patognomónicos.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 2-4.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-210",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Mola invasora",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir la mola invasora de la mola confinada a la cavidad uterina mediante la evidencia de invasión miometrial.",
+    "caso": "Tras la evacuación de una mola completa, una paciente mantiene β-hCG elevada. El ultrasonido Doppler identifica una lesión uterina hipervascular con imágenes quísticas que penetran el miometrio. No se han documentado metástasis a distancia.",
+    "pregunta": "¿Qué entidad explica mejor el patrón de invasión descrito?",
+    "opciones": [
+      "Mola parcial no complicada",
+      "Mola invasora",
+      "Aborto completo",
+      "Embarazo intrauterino viable",
+      "Tumor ovárico productor de estrógenos"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La mola invasora se caracteriza por invasión local del miometrio y puede persistir después de la evacuación. El Doppler puede mostrar vascularidad aumentada y apoyar la sospecha, pero no establece por sí solo el diagnóstico histológico. La paciente necesita valoración especializada y evaluación de extensión.",
+    "perlaENARM": "Mola previa más β-hCG persistente y lesión miometrial hipervascular: sospecha mola invasora y evita procedimientos uterinos repetidos sin planificación.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 1 y 8.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021."
+    ]
+  },
+  {
+    "id": "OBS-211",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Evacuación de mola hidatiforme",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar el método de evacuación habitual en una paciente con mola que desea conservar la fertilidad.",
+    "caso": "Paciente de 25 años con mola completa confirmada por ultrasonido, sangrado moderado y deseo de fertilidad futura. Está hemodinámicamente estable y no presenta datos de perforación uterina ni enfermedad metastásica conocida.",
+    "pregunta": "¿Qué técnica suele preferirse para la evacuación inicial?",
+    "opciones": [
+      "Inducción prolongada del trabajo de parto como primera elección",
+      "Histerectomía radical en todas las pacientes",
+      "Radioterapia pélvica",
+      "Quimioterapia antes de evacuar cualquier mola",
+      "Aspiración uterina por vacío, con preparación para hemorragia y seguimiento posterior"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La aspiración uterina por vacío es el método habitual para evacuar una mola cuando se desea conservar la fertilidad. El procedimiento debe realizarse con preparación para hemorragia y envío del tejido a histopatología. La vigilancia posterior con β-hCG es obligatoria, ya que la evacuación no elimina por completo el riesgo de enfermedad persistente.",
+    "perlaENARM": "Mola y deseo reproductivo: aspiración uterina por vacío, estudio histopatológico y seguimiento seriado de β-hCG.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 6.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-212",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Histerectomía y preservación ovárica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la histerectomía como alternativa seleccionada en pacientes con paridad satisfecha sin asumir que elimina el riesgo de neoplasia.",
+    "caso": "Paciente de 46 años con paridad satisfecha, diagnóstico de mola hidatiforme y estabilidad hemodinámica. Después de discutir opciones, prefiere un tratamiento definitivo uterino y no existen datos que sugieran metástasis.",
+    "pregunta": "¿Cuál de las siguientes afirmaciones debe formar parte de la consejería?",
+    "opciones": [
+      "La histerectomía elimina la necesidad de medir β-hCG",
+      "La histerectomía garantiza que nunca habrá enfermedad metastásica",
+      "Puede considerarse histerectomía en una paciente seleccionada, pero el seguimiento de β-hCG continúa siendo necesario",
+      "La histerectomía está contraindicada en toda paciente con mola",
+      "Debe realizarse ooforectomía bilateral de rutina"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La histerectomía puede considerarse en pacientes seleccionadas con paridad satisfecha, pero no elimina por completo la posibilidad de neoplasia trofoblástica persistente ni trata enfermedad metastásica. Los ovarios no necesitan retirarse de forma rutinaria por el diagnóstico de mola. El plan debe individualizarse y mantener seguimiento hormonal.",
+    "perlaENARM": "La histerectomía no sustituye la vigilancia de β-hCG y no implica ooforectomía bilateral automática.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 6.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021."
+    ]
+  },
+  {
+    "id": "OBS-213",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Mola e inmunoglobulina anti-D",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Identificar la necesidad de evaluar la profilaxis anti-D en pacientes Rh negativas sometidas a evacuación molar.",
+    "caso": "Paciente RhD negativa no sensibilizada con diagnóstico de mola hidatiforme que será evacuada por aspiración. Se encuentra estable y no presenta complicaciones hemorrágicas mayores.",
+    "pregunta": "¿Qué aspecto debe incorporarse al plan perioperatorio?",
+    "opciones": [
+      "Valorar y administrar inmunoglobulina anti-D conforme a la recomendación vigente aplicable al evento gestacional",
+      "Administrar anti-D solamente si aparece una metástasis pulmonar",
+      "Evitar toda evaluación del grupo sanguíneo",
+      "Indicar transfusión profiláctica de eritrocitos Rh positivos",
+      "Administrar metotrexato para prevenir aloinmunización"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF recomienda inmunoglobulina anti-D después de la evacuación en pacientes Rh negativas. La indicación concreta debe verificarse con la guía local vigente y las circunstancias clínicas. La profilaxis anti-D previene la aloinmunización, pero no trata la proliferación trofoblástica.",
+    "perlaENARM": "En la evaluación de una mola, documenta grupo y Rh; la profilaxis inmunohematológica es distinta del tratamiento de la enfermedad trofoblástica.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 5-6.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-214",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Estudios preoperatorios",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar estudios iniciales que permiten evaluar complicaciones y preparar una evacuación molar segura.",
+    "caso": "Paciente de 37 años con sospecha de mola completa, hemorragia vaginal y útero aumentado de tamaño. La frecuencia cardiaca es de 112 lpm y la hemoglobina inicial está pendiente.",
+    "pregunta": "¿Qué grupo de estudios resulta más pertinente para la evaluación inicial?",
+    "opciones": [
+      "Únicamente perfil lipídico y electrocardiograma de esfuerzo",
+      "Solo cultivo vaginal y prueba de Papanicolaou",
+      "Biopsia hepática y punción lumbar sistemáticas",
+      "Biometría hemática, grupo y Rh, pruebas de coagulación y función renal y hepática según el cuadro clínico",
+      "Ningún estudio hasta que la β-hCG sea indetectable"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF incluye biometría hemática, tiempos de coagulación, función renal y hepática, grupo y Rh y evaluación torácica. En la práctica, el estudio se individualiza según estabilidad, riesgo hemorrágico y sospecha de extensión. La prioridad inmediata es estabilizar a la paciente y preparar el control de la hemorragia.",
+    "perlaENARM": "Mola con sangrado: evalúa anemia, grupo/Rh y capacidad de coagulación; adapta los estudios de extensión al contexto clínico.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 5.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-215",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Hemorragia durante la evacuación",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar la estabilización hemodinámica y la preparación para hemorragia en una paciente con mola sintomática.",
+    "caso": "Paciente con mola completa y sangrado abundante desarrolla hipotensión, taquicardia y palidez antes de la evacuación. El útero corresponde aproximadamente a 18 semanas.",
+    "pregunta": "¿Qué principio debe guiar el manejo inmediato?",
+    "opciones": [
+      "Esperar a que la β-hCG descienda espontáneamente",
+      "Iniciar quimioterapia combinada antes de atender la inestabilidad",
+      "Dar egreso para repetir el ultrasonido en una semana",
+      "Evitar accesos venosos para no estimular la circulación trofoblástica",
+      "Reanimar, preparar hemoderivados según necesidad y controlar la fuente hemorrágica en un entorno preparado"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La hemorragia con inestabilidad es una urgencia obstétrica. Debe iniciarse reanimación, establecer accesos venosos, evaluar la necesidad de transfusión y proceder al control de la fuente según la condición clínica. La evacuación requiere equipo experimentado y preparación para complicaciones.",
+    "perlaENARM": "La prioridad ante mola con choque hemorrágico es reanimación y control de la hemorragia, no completar primero la estadificación oncológica.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 6.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-216",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Seguimiento de β-hCG después de mola",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar los criterios bioquímicos actuales para identificar una posible neoplasia trofoblástica gestacional posmolar.",
+    "caso": "Después de la evacuación de una mola completa, la β-hCG sérica es de 6,200 UI/L el día 1, 6,150 el día 7, 6,240 el día 14 y 6,180 el día 21. No existe embarazo nuevo y todas las mediciones se realizaron con el mismo método.",
+    "pregunta": "¿Qué conclusión merece mayor atención clínica?",
+    "opciones": [
+      "La tendencia demuestra remisión completa porque los valores fluctúan",
+      "La meseta durante cuatro mediciones en al menos tres semanas cumple un criterio bioquímico clásico de neoplasia trofoblástica posmolar y requiere evaluación especializada",
+      "Toda fluctuación menor de 20% confirma embarazo ectópico",
+      "Debe esperarse obligatoriamente un año antes de repetir la β-hCG",
+      "La ausencia de sangrado excluye enfermedad persistente"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Los criterios FIGO clásicos incluyen una meseta de β-hCG durante cuatro mediciones a lo largo de al menos tres semanas, con cambios pequeños entre mediciones. La tendencia descrita cumple el patrón de meseta. Se debe confirmar la situación clínica, descartar causas alternativas y completar la evaluación de extensión antes de decidir el tratamiento.",
+    "perlaENARM": "Meseta: cuatro valores en al menos tres semanas. Ascenso: incremento superior al 10% en tres mediciones semanales durante al menos dos semanas. Ambos patrones requieren evaluación especializada.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 8-9.",
+      "Ngan HYS et al. Diagnosis and management of gestational trophoblastic disease: 2021 update. https://pmc.ncbi.nlm.nih.gov/articles/9298230/"
+    ]
+  },
+  {
+    "id": "OBS-217",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Ascenso de β-hCG",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar un ascenso sostenido de β-hCG como posible evidencia de neoplasia trofoblástica posmolar.",
+    "caso": "Tras una evacuación molar, la β-hCG es de 1,000 UI/L el día 1, 1,180 el día 7 y 1,390 el día 14. La paciente utiliza anticoncepción y la ecografía no identifica una nueva gestación intrauterina.",
+    "pregunta": "¿Qué interpretación debe guiar la evaluación posterior?",
+    "opciones": [
+      "El ascenso es esperado en toda paciente después de evacuar una mola",
+      "La evolución confirma una mola parcial y descarta neoplasia",
+      "La elevación sostenida cumple el patrón clásico de ascenso superior al 10% en mediciones semanales consecutivas y requiere estudio por neoplasia trofoblástica",
+      "Solo debe repetirse la prueba al año",
+      "El valor absoluto es demasiado bajo para que exista enfermedad trofoblástica"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Un ascenso superior al 10% en tres mediciones semanales consecutivas durante al menos dos semanas constituye un criterio clásico de neoplasia trofoblástica gestacional posmolar. La evaluación debe confirmar la tendencia, descartar embarazo nuevo y otras causas de β-hCG elevada, y establecer la extensión de la enfermedad.",
+    "perlaENARM": "Una β-hCG ascendente después de una mola no debe atribuirse a una recuperación normal; la tendencia seriada es clave.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 9.",
+      "FIGO. Diagnosis and management of gestational trophoblastic disease: 2021 update."
+    ]
+  },
+  {
+    "id": "OBS-218",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "β-hCG persistentemente baja",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar el diagnóstico erróneo de neoplasia trofoblástica por una β-hCG baja persistente de origen incierto.",
+    "caso": "Una paciente tratada por mola presenta β-hCG sérica de 9-13 UI/L durante seis semanas, sin una tendencia clara y sin síntomas. El ultrasonido no muestra una lesión uterina evidente. Antes de iniciar quimioterapia se revisa la validez de los resultados.",
+    "pregunta": "¿Qué estrategia permite reducir el riesgo de tratar una elevación falsamente positiva?",
+    "opciones": [
+      "Repetir la prueba con otro ensayo y considerar β-hCG urinaria, además de descartar embarazo y otras causas",
+      "Iniciar EMA-CO de inmediato por cualquier valor detectable",
+      "Realizar histerectomía sin confirmar la persistencia",
+      "Asumir metástasis cerebral por la concentración baja",
+      "Suspender todos los controles porque el valor es menor de 20 UI/L"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La β-hCG persistentemente baja puede deberse a enfermedad residual, embarazo, producción hipofisaria o interferencia analítica, entre otras causas. La repetición con un ensayo diferente y la comparación con una prueba urinaria pueden ayudar a identificar interferencias. No debe iniciarse quimioterapia únicamente por un valor bajo aislado sin confirmar su origen.",
+    "perlaENARM": "Antes de administrar quimioterapia por β-hCG baja persistente, confirma el resultado y descarta embarazo nuevo e interferencia analítica.",
+    "bibliografia": [
+      "Ngan HYS et al. Diagnosis and management of gestational trophoblastic disease: 2021 update. https://pmc.ncbi.nlm.nih.gov/articles/9298230/",
+      "ACOG. Management of Positive Human Chorionic Gonadotropin Test Results in Nonpregnant Patients Without Gynecologic Malignancy. Clinical Consensus, 2026. https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2026/02/management-of-positive-human-chorionic-gonadotropin-test-results-in-nonpregnant-patients-without-gynecologic-malignancy"
+    ]
+  },
+  {
+    "id": "OBS-219",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Seguimiento tras mola parcial",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar el seguimiento actual después de mola parcial del esquema prolongado descrito en materiales históricos.",
+    "caso": "Paciente de 24 años con mola parcial confirmada por histopatología. La β-hCG se normaliza después de la evacuación y la paciente pregunta si debe continuar controles durante un año completo.",
+    "pregunta": "¿Qué recomendación refleja mejor la evidencia contemporánea?",
+    "opciones": [
+      "Administrar quimioterapia a todas las pacientes con mola parcial",
+      "Realizar mediciones semanales indefinidamente",
+      "Mantener β-hCG mensual de por vida",
+      "Individualizar el seguimiento según el protocolo vigente; muchas recomendaciones actuales concluyen la vigilancia tras una prueba confirmatoria normal alrededor de un mes después de la primera normalización",
+      "Suspender todo seguimiento inmediatamente después de la evacuación, sin medir β-hCG"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El documento propone un seguimiento prolongado con controles semanales, mensuales y bimensuales, pero las recomendaciones contemporáneas acortan la vigilancia en la mayoría de las pacientes con mola parcial cuando la β-hCG se normaliza. Una recomendación publicada por FIGO sugiere una medición confirmatoria un mes después de la primera normalización. Debe seguirse el protocolo especializado aplicable.",
+    "perlaENARM": "No memorices el esquema histórico de un año como universal: el seguimiento depende del tipo de mola y de cuándo se normaliza la β-hCG.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 6.",
+      "Ngan HYS et al. Diagnosis and management of gestational trophoblastic disease: 2021 update. https://pmc.ncbi.nlm.nih.gov/articles/9298230/",
+      "Diagnosis and management of gestational trophoblastic disease: 2025 update. https://pmc.ncbi.nlm.nih.gov/articles/PMC12411817/"
+    ]
+  },
+  {
+    "id": "OBS-220",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Seguimiento después de mola completa",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer que la duración del seguimiento hormonal depende del tipo de mola y de la velocidad de normalización de β-hCG.",
+    "caso": "Paciente con mola completa evacuada y β-hCG que se normaliza a las cuatro semanas. Se encuentra asintomática y tiene acceso a seguimiento especializado.",
+    "pregunta": "¿Qué estrategia es coherente con las recomendaciones contemporáneas descritas en la literatura?",
+    "opciones": [
+      "Suspender el seguimiento en cuanto la β-hCG sea indetectable una sola vez",
+      "Mantener vigilancia mensual durante seis meses después de la normalización, según el protocolo aplicable",
+      "Realizar quimioterapia preventiva en todas las pacientes",
+      "Medir β-hCG únicamente si aparece hemorragia",
+      "Repetir la β-hCG cada cinco años"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Después de una mola completa, las recomendaciones actuales suelen mantener vigilancia mensual durante un periodo definido tras la normalización de β-hCG, con duración ajustada al tiempo que tardó en normalizarse y al protocolo utilizado. La vigilancia permite detectar neoplasia posmolar, cuyo riesgo es mayor después de una mola completa que de una parcial.",
+    "perlaENARM": "Mola completa: requiere un periodo de vigilancia más prolongado que la mola parcial en muchas recomendaciones contemporáneas.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 6.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021.",
+      "Diagnosis and management of gestational trophoblastic disease: 2025 update. https://pmc.ncbi.nlm.nih.gov/articles/PMC12411817/"
+    ]
+  },
+  {
+    "id": "OBS-221",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Anticoncepción durante seguimiento",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Explicar por qué se recomienda evitar un embarazo durante el seguimiento hormonal posmolar.",
+    "caso": "Paciente de 27 años, tres semanas después de la evacuación de una mola completa, tiene β-hCG todavía detectable y desea intentar un nuevo embarazo de inmediato.",
+    "pregunta": "¿Cuál es el principal argumento para posponer la concepción hasta concluir la vigilancia indicada?",
+    "opciones": [
+      "La ovulación no puede ocurrir después de una mola",
+      "Un embarazo posterior causa obligatoriamente coriocarcinoma",
+      "La gestación nueva siempre provoca metástasis",
+      "Los anticonceptivos hormonales están contraindicados durante todo el seguimiento",
+      "La β-hCG del embarazo nuevo dificultaría diferenciar una gestación normal de enfermedad persistente o recurrente"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El seguimiento utiliza β-hCG seriada para detectar persistencia o recurrencia. Una nueva gestación eleva fisiológicamente la hormona y dificulta su interpretación. La anticoncepción hormonal se considera segura durante el seguimiento posmolar en las recomendaciones contemporáneas; el momento de intentar embarazo depende del tipo de mola y del protocolo.",
+    "perlaENARM": "La anticoncepción durante la vigilancia permite interpretar la β-hCG; no significa que el antecedente de mola contraindique futuros embarazos.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 6.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021."
+    ]
+  },
+  {
+    "id": "OBS-222",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Coriocarcinoma gestacional",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar el coriocarcinoma gestacional de las lesiones molares por sus características histológicas y comportamiento metastásico.",
+    "caso": "Paciente con antecedente de embarazo a término cuatro meses antes presenta sangrado uterino persistente y tos con hemoptisis. La β-hCG está muy elevada. La biopsia de una lesión demuestra proliferación trofoblástica maligna con necrosis y hemorragia, sin vellosidades coriales.",
+    "pregunta": "¿Cuál es el diagnóstico más probable?",
+    "opciones": [
+      "Mola parcial confinada a la cavidad uterina",
+      "Aborto retenido sin enfermedad residual",
+      "Coriocarcinoma gestacional",
+      "Mola invasora con vellosidades hidrópicas conservadas",
+      "Tumor ovárico benigno"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El coriocarcinoma gestacional es una neoplasia maligna trofoblástica que se caracteriza histológicamente por proliferación de citotrofoblasto y sincitiotrofoblasto sin vellosidades coriales. Puede aparecer después de una mola, aborto, embarazo ectópico o embarazo a término, y tiene tendencia a diseminarse por vía hematógena.",
+    "perlaENARM": "Coriocarcinoma: tumor trofoblástico maligno sin vellosidades; puede aparecer después de cualquier tipo de embarazo.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 1 y 9.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021."
+    ]
+  },
+  {
+    "id": "OBS-223",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Metástasis pulmonares",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la diseminación pulmonar como presentación frecuente de neoplasia trofoblástica gestacional.",
+    "caso": "Paciente con β-hCG persistentemente elevada tras evacuación molar presenta disnea y hemoptisis. La radiografía de tórax revela múltiples nódulos pulmonares bilaterales.",
+    "pregunta": "¿Qué interpretación clínica debe guiar la evaluación?",
+    "opciones": [
+      "Debe sospecharse neoplasia trofoblástica gestacional metastásica y completarse la estadificación",
+      "Los nódulos descartan una neoplasia trofoblástica",
+      "La β-hCG es irrelevante si hay síntomas respiratorios",
+      "El cuadro confirma tuberculosis sin necesidad de otros estudios",
+      "La evacuación uterina previa excluye metástasis posteriores"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El pulmón es el sitio metastásico más frecuente de la neoplasia trofoblástica gestacional. La combinación de β-hCG persistente y nódulos pulmonares requiere evaluación urgente y estadificación. El tratamiento depende de la clasificación FIGO y de la puntuación pronóstica.",
+    "perlaENARM": "Metástasis pulmonar es la localización clásica de la neoplasia trofoblástica; la hemoptisis después de una mola es un dato de alarma.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 2 y 9.",
+      "Ngan HYS et al. Diagnosis and management of gestational trophoblastic disease: 2021 update."
+    ]
+  },
+  {
+    "id": "OBS-224",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Tumor trofoblástico del sitio placentario",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar el tumor trofoblástico del sitio placentario del coriocarcinoma mediante el tipo celular y el perfil de β-hCG.",
+    "caso": "Una mujer de 35 años presenta sangrado uterino persistente ocho meses después de un embarazo a término. La β-hCG está moderadamente elevada. La histopatología identifica proliferación de trofoblasto intermedio sin vellosidades coriales y la inmunohistoquímica muestra expresión de lactógeno placentario humano.",
+    "pregunta": "¿Qué diagnóstico explica mejor los hallazgos?",
+    "opciones": [
+      "Mola parcial",
+      "Mola completa",
+      "Coriocarcinoma clásico con abundante secreción de β-hCG",
+      "Tumor trofoblástico del sitio placentario",
+      "Aborto incompleto"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El tumor trofoblástico del sitio placentario deriva del trofoblasto intermedio, no contiene vellosidades coriales y suele producir lactógeno placentario humano con concentraciones de β-hCG relativamente menores que las del coriocarcinoma. Es menos sensible a quimioterapia y con frecuencia requiere valoración quirúrgica especializada.",
+    "perlaENARM": "Tumor del sitio placentario: trofoblasto intermedio, hPL detectable y β-hCG a veces relativamente baja; la cirugía tiene un papel importante.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 1.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021."
+    ]
+  },
+  {
+    "id": "OBS-225",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Neoplasia trofoblástica de bajo riesgo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar la estrategia general de tratamiento para neoplasia trofoblástica gestacional de bajo riesgo.",
+    "caso": "Paciente con neoplasia trofoblástica gestacional posmolar confirmada. La estadificación y puntuación FIGO/OMS indican enfermedad de bajo riesgo, sin metástasis cerebrales o hepáticas y con deseo de preservar la fertilidad.",
+    "pregunta": "¿Qué estrategia terapéutica suele utilizarse inicialmente?",
+    "opciones": [
+      "Radioterapia pélvica como tratamiento universal",
+      "Quimioterapia con un solo agente, como metotrexato o actinomicina D, con vigilancia de β-hCG",
+      "Histerectomía radical en todas las pacientes",
+      "Observación sin controles hormonales",
+      "EMA-CO obligatorio en todos los casos de bajo riesgo"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La neoplasia trofoblástica gestacional de bajo riesgo suele tratarse con quimioterapia de un solo agente, como metotrexato o actinomicina D. La elección depende de la puntuación, el protocolo, las contraindicaciones y la experiencia del centro. La respuesta se monitoriza con β-hCG seriada.",
+    "perlaENARM": "Bajo riesgo FIGO/OMS: monoterapia habitual; alto riesgo: generalmente requiere quimioterapia combinada.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 9.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021."
+    ]
+  },
+  {
+    "id": "OBS-226",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Neoplasia trofoblástica de alto riesgo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer los escenarios en que la neoplasia trofoblástica gestacional requiere quimioterapia combinada.",
+    "caso": "Paciente con neoplasia trofoblástica gestacional presenta β-hCG de 250,000 UI/L, metástasis hepáticas y cerebrales y fracaso a un esquema previo. La puntuación FIGO/OMS corresponde a enfermedad de alto riesgo.",
+    "pregunta": "¿Qué esquema combinado se utiliza clásicamente en este contexto?",
+    "opciones": [
+      "Hierro y ácido fólico",
+      "Metotrexato en dosis única sin seguimiento",
+      "EMA-CO, bajo supervisión de un equipo experto",
+      "Progesterona como monoterapia",
+      "Inmunoglobulina anti-D"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "EMA-CO combina etopósido, metotrexato, actinomicina D, ciclofosfamida y vincristina. Es un esquema clásico para neoplasia trofoblástica gestacional de alto riesgo. La enfermedad con gran carga tumoral o metástasis cerebrales y hepáticas requiere tratamiento en un centro especializado y puede necesitar medidas complementarias.",
+    "perlaENARM": "EMA-CO es un esquema clásico de enfermedad trofoblástica de alto riesgo; no es el esquema inicial universal para bajo riesgo.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 9.",
+      "Ngan HYS et al. Diagnosis and management of gestational trophoblastic disease: 2021 update."
+    ]
+  },
+  {
+    "id": "OBS-227",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Puntuación pronóstica FIGO/OMS",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar factores que modifican el pronóstico y la selección de tratamiento de la neoplasia trofoblástica gestacional.",
+    "caso": "Paciente con neoplasia trofoblástica gestacional presenta intervalo prolongado desde el embarazo antecedente, β-hCG superior a 100,000 UI/L, metástasis hepáticas y antecedente de quimioterapia fallida.",
+    "pregunta": "¿Qué afirmación integra mejor la importancia de estos hallazgos?",
+    "opciones": [
+      "Son factores de mal pronóstico que deben incorporarse a la puntuación FIGO/OMS y a la selección terapéutica",
+      "Demuestran que la enfermedad es de bajo riesgo",
+      "La puntuación FIGO/OMS solo se utiliza para molas sin neoplasia",
+      "La β-hCG no contribuye a la estratificación",
+      "Las metástasis hepáticas no modifican el pronóstico"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La puntuación FIGO/OMS incorpora edad, tipo de embarazo antecedente, intervalo, concentración de β-hCG, tamaño tumoral, número y sitio de metástasis y quimioterapia previa. Las metástasis hepáticas o cerebrales, la β-hCG muy elevada y el fracaso a tratamiento previo son factores desfavorables.",
+    "perlaENARM": "La elección entre monoterapia y tratamiento combinado depende de la estadificación y la puntuación pronóstica completa, no de una cifra aislada.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 9.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021."
+    ]
+  },
+  {
+    "id": "OBS-228",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Quimioterapia profiláctica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir la quimioterapia profiláctica de la quimioterapia indicada por neoplasia trofoblástica confirmada.",
+    "caso": "Paciente con mola completa evacuada y factores clínicos asociados a mayor riesgo de neoplasia posmolar. Está estable, puede acudir a controles y la β-hCG muestra descenso progresivo sin cumplir criterios de neoplasia.",
+    "pregunta": "¿Cuál es la interpretación más consistente con la práctica contemporánea?",
+    "opciones": [
+      "Toda mola completa exige EMA-CO preventivo",
+      "La quimioterapia profiláctica reemplaza la vigilancia hormonal",
+      "La presencia de factores de riesgo obliga siempre a histerectomía",
+      "La quimioterapia profiláctica puede considerarse en circunstancias seleccionadas, pero no se recomienda universalmente y no sustituye el seguimiento",
+      "La quimioterapia solo se administra cuando la β-hCG ya es indetectable"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF propone actinomicina D profiláctica en pacientes de alto riesgo. Sin embargo, la quimioterapia profiláctica no es universal: debe individualizarse según riesgo, posibilidad de seguimiento, toxicidad y recomendaciones del centro experto. Si se establece neoplasia trofoblástica, el tratamiento se selecciona conforme a la estadificación.",
+    "perlaENARM": "No confundas alto riesgo de progresión con diagnóstico confirmado de neoplasia; la quimioterapia profiláctica no sustituye el seguimiento de β-hCG.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 7.",
+      "Ngan HYS et al. Diagnosis and management of gestational trophoblastic disease: 2021 update."
+    ]
+  },
+  {
+    "id": "OBS-229",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Resistencia a metotrexato",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la resistencia bioquímica a monoterapia y la necesidad de ajustar el tratamiento.",
+    "caso": "Paciente con neoplasia trofoblástica de bajo riesgo recibe metotrexato con esquema protocolizado. Después de una respuesta inicial, la β-hCG presenta meseta y luego aumenta en mediciones confirmadas. La paciente no tiene toxicidad que obligue a suspender el fármaco.",
+    "pregunta": "¿Qué estrategia debe evaluarse con el equipo especializado?",
+    "opciones": [
+      "Mantener indefinidamente la misma pauta sin revisar la respuesta",
+      "Suspender la vigilancia porque la paciente está asintomática",
+      "Reevaluar la tendencia y considerar cambiar a otro agente o escalar tratamiento según la clasificación y el protocolo",
+      "Indicar anti-D como tratamiento de la resistencia",
+      "Declarar remisión por la disminución inicial de β-hCG"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Una meseta o elevación confirmada durante la quimioterapia puede indicar resistencia. Deben revisarse la tendencia hormonal, la administración del esquema, la toxicidad y la extensión de la enfermedad. En bajo riesgo puede considerarse cambiar a otro agente; los casos resistentes pueden requerir una estrategia diferente según la evaluación especializada.",
+    "perlaENARM": "La β-hCG es un biomarcador de respuesta: una meseta o ascenso confirmado durante tratamiento exige reevaluación.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 8-9.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021."
+    ]
+  },
+  {
+    "id": "OBS-230",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Tumor trofoblástico del sitio placentario y tratamiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar el origen histológico del tumor trofoblástico del sitio placentario con su menor quimiosensibilidad.",
+    "caso": "Paciente de 37 años con sangrado uterino persistente después de una gestación. La biopsia confirma tumor trofoblástico del sitio placentario localizado en el útero, sin evidencia de metástasis en la evaluación inicial.",
+    "pregunta": "¿Qué modalidad suele ocupar un lugar central en el manejo de la enfermedad localizada?",
+    "opciones": [
+      "Antibióticos de amplio espectro como monoterapia",
+      "Observación sin seguimiento hormonal",
+      "Metotrexato en dosis única como tratamiento universal",
+      "Radioterapia cerebral preventiva",
+      "Tratamiento quirúrgico, con frecuencia histerectomía, tras evaluación especializada"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El tumor trofoblástico del sitio placentario y el tumor trofoblástico epitelioide son menos sensibles a la quimioterapia que el coriocarcinoma. La histerectomía suele ser el tratamiento principal de la enfermedad localizada. La preservación de fertilidad solo se considera en casos seleccionados y requiere un equipo experto.",
+    "perlaENARM": "Tumor del sitio placentario: menor quimiosensibilidad que el coriocarcinoma; la cirugía suele ser central en enfermedad localizada.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 1.",
+      "Ngan HYS et al. Diagnosis and management of gestational trophoblastic disease: 2021 update."
+    ]
+  },
+  {
+    "id": "OBS-231",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Coexistencia de mola y feto viable",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Individualizar la conducta ante un embarazo con feto potencialmente viable y componente molar coexistente.",
+    "caso": "Embarazo gemelar con un feto de crecimiento acorde y placenta aparentemente normal, además de una masa placentaria quística compatible con mola completa. La paciente está estable y desea continuar el embarazo si los riesgos son aceptables.",
+    "pregunta": "¿Qué enfoque es más apropiado para la toma de decisiones?",
+    "opciones": [
+      "Interrupción obligatoria en todos los casos sin valoración adicional",
+      "Asesoramiento multidisciplinario sobre riesgos maternos y fetales, viabilidad y vigilancia, con decisión compartida",
+      "Quimioterapia durante el embarazo como prevención universal",
+      "Asumir que la placenta normal elimina el riesgo materno",
+      "Histerectomía inmediata en todas las pacientes"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La coexistencia de una gestación normal y una mola es infrecuente y compleja. En casos seleccionados puede considerarse la continuación, pero existe riesgo de hemorragia, preeclampsia temprana, hipertiroidismo, pérdida gestacional y neoplasia trofoblástica. La decisión debe individualizarse en un centro de referencia.",
+    "perlaENARM": "Feto viable más mola no implica automáticamente interrupción ni continuación segura: requiere consejería especializada y vigilancia estrecha.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 2 y 5.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-232",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Estudio del cariotipo fetal en embarazo coexistente",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Comprender el papel de la evaluación genética en embarazos con feto potencialmente normal y componente molar.",
+    "caso": "En un embarazo gemelar se identifica un feto con anatomía inicialmente normal y un segundo componente placentario con cambios quísticos sugestivos de mola. La paciente desea conocer el pronóstico antes de decidir si continúa el embarazo.",
+    "pregunta": "¿Qué utilidad tiene la evaluación genética fetal en este contexto?",
+    "opciones": [
+      "Confirma por sí sola la ausencia de riesgo materno",
+      "Sustituye toda evaluación ecográfica seriada",
+      "Elimina la necesidad de vigilar β-hCG después del embarazo",
+      "Puede contribuir a la evaluación del feto, pero debe integrarse con ultrasonido, evolución clínica y asesoramiento especializado",
+      "Demuestra que la mola es necesariamente parcial"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La evaluación genética puede contribuir a caracterizar el estado cromosómico del feto potencialmente viable, pero no elimina los riesgos asociados con la coexistencia de una mola. La interpretación debe integrar el tipo de embarazo, la anatomía fetal, la evolución materna y la valoración multidisciplinaria.",
+    "perlaENARM": "El cariotipo fetal no sustituye la valoración materna ni determina por sí solo la conducta en un embarazo con componente molar.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 5.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-233",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Diagnóstico diferencial de lesión uterina hipervascular",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar procedimientos uterinos no planificados en una lesión hipervascular asociada con posible enfermedad trofoblástica.",
+    "caso": "Paciente con antecedente de evacuación molar presenta sangrado uterino y una lesión miometrial intensamente vascular en Doppler. La β-hCG continúa elevada y la imagen muestra espacios anecoicos dentro de la lesión.",
+    "pregunta": "¿Qué consideración es fundamental antes de realizar un nuevo legrado?",
+    "opciones": [
+      "Planear la evaluación de enfermedad trofoblástica persistente y del riesgo hemorrágico con un equipo experto antes de instrumentar el útero",
+      "Realizar legrado a ciegas en todos los casos",
+      "Descartar enfermedad trofoblástica porque la lesión es vascular",
+      "Administrar anti-D como tratamiento de la lesión",
+      "Indicar embarazo inmediato para observar la evolución"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Una lesión uterina hipervascular después de una mola puede corresponder a enfermedad trofoblástica persistente o a otras alteraciones vasculares. La instrumentación no planificada puede provocar hemorragia grave. Se requiere integrar β-hCG, Doppler, estado clínico y evaluación especializada antes de decidir un procedimiento.",
+    "perlaENARM": "Lesión uterina hipervascular y β-hCG persistente: no realices un legrado a ciegas sin evaluar el riesgo hemorrágico y la posibilidad de neoplasia.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 4 y 8.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021."
+    ]
+  },
+  {
+    "id": "OBS-234",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Metástasis cerebrales",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer los síntomas neurológicos como señales de posible enfermedad trofoblástica metastásica.",
+    "caso": "Paciente con β-hCG persistentemente elevada tras una mola presenta cefalea intensa de inicio reciente y una crisis convulsiva. Se encuentra en evaluación por posible neoplasia trofoblástica gestacional.",
+    "pregunta": "¿Qué conducta es prioritaria?",
+    "opciones": [
+      "Esperar un mes para repetir la β-hCG",
+      "Atribuir la cefalea a estrés sin estudios",
+      "Administrar únicamente hierro oral",
+      "Solicitar solo una prueba urinaria de embarazo",
+      "Estabilizar la crisis y realizar evaluación neurológica urgente, incluida neuroimagen por posible metástasis"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La neoplasia trofoblástica gestacional puede metastatizar al sistema nervioso central. Una crisis convulsiva o cefalea intensa exige estabilización y evaluación urgente. La demostración de metástasis cerebral modifica la estratificación de riesgo y el plan terapéutico.",
+    "perlaENARM": "Síntomas neurológicos nuevos en una paciente con β-hCG persistente tras mola son una urgencia: descarta metástasis cerebral.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 2 y 9.",
+      "Ngan HYS et al. Diagnosis and management of gestational trophoblastic disease: 2021 update."
+    ]
+  },
+  {
+    "id": "OBS-235",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Hemoptisis después de embarazo no molar",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que la neoplasia trofoblástica puede aparecer después de un embarazo no molar.",
+    "caso": "Mujer de 30 años tuvo un parto a término hace cinco meses. Consulta por hemoptisis y sangrado uterino irregular. La β-hCG sérica es positiva y la tomografía identifica múltiples nódulos pulmonares.",
+    "pregunta": "¿Qué diagnóstico debe incluirse de manera prioritaria en el diagnóstico diferencial?",
+    "opciones": [
+      "Mola parcial exclusivamente",
+      "Coriocarcinoma gestacional posterior a embarazo no molar",
+      "Mola completa confinada a la cavidad uterina",
+      "Tumor benigno del miometrio como explicación suficiente de todos los hallazgos",
+      "Embarazo normal de término sin complicaciones"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La neoplasia trofoblástica gestacional puede aparecer después de un embarazo a término, aborto o embarazo ectópico, además de después de una mola. La combinación de β-hCG positiva, sangrado uterino y nódulos pulmonares requiere evaluación urgente. El antecedente de una gestación aparentemente normal no excluye la enfermedad.",
+    "perlaENARM": "No exijas antecedente de mola para sospechar coriocarcinoma: puede aparecer después de cualquier tipo de embarazo.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 1 y 9.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021."
+    ]
+  },
+  {
+    "id": "OBS-236",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Embarazo nuevo durante seguimiento",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar una nueva gestación de la persistencia de enfermedad trofoblástica durante la vigilancia.",
+    "caso": "Paciente en seguimiento después de una mola parcial presenta aumento de β-hCG luego de mantener relaciones sexuales sin anticoncepción. No tiene sangrado y la concentración hormonal había sido indetectable en una medición previa.",
+    "pregunta": "¿Qué debe investigarse antes de atribuir el ascenso a neoplasia persistente?",
+    "opciones": [
+      "Metástasis cerebral en todas las pacientes",
+      "Resistencia a EMA-CO aunque nunca recibió quimioterapia",
+      "Embarazo nuevo, mediante historia clínica, pruebas hormonales y ultrasonido según el contexto",
+      "Torsión ovárica como explicación de la β-hCG",
+      "Hipotiroidismo como causa habitual de β-hCG ascendente"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Una nueva gestación puede elevar fisiológicamente la β-hCG y simular enfermedad persistente o recurrente. Debe evaluarse la posibilidad de embarazo nuevo antes de clasificar la tendencia como neoplasia. Si se descarta una nueva gestación y la hormona permanece elevada, se continúa el estudio especializado.",
+    "perlaENARM": "Ante β-hCG ascendente durante vigilancia posmolar, descarta primero embarazo nuevo y confirma la tendencia antes de tratar.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 6.",
+      "Ngan HYS et al. International Journal of Gynecology & Obstetrics. 2021."
+    ]
+  },
+  {
+    "id": "OBS-237",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Persistencia de β-hCG después de quimioterapia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar la β-hCG como marcador de respuesta y vigilancia después del tratamiento de neoplasia trofoblástica.",
+    "caso": "Paciente con neoplasia trofoblástica de bajo riesgo finaliza quimioterapia y alcanza β-hCG indetectable en una medición. Desea suspender las consultas y embarazarse inmediatamente.",
+    "pregunta": "¿Qué recomendación es más adecuada?",
+    "opciones": [
+      "Suspender todo seguimiento tras una única prueba negativa",
+      "Realizar histerectomía obligatoria aunque exista respuesta completa",
+      "Indicar embarazo inmediato para comprobar curación",
+      "Continuar vigilancia hormonal durante el periodo recomendado y posponer la concepción conforme al protocolo posterior a quimioterapia",
+      "Mantener quimioterapia indefinidamente a pesar de la respuesta"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Después de tratar neoplasia trofoblástica, se requiere vigilancia de β-hCG por el riesgo de recaída. Las recomendaciones suelen incluir controles mensuales durante al menos 12 meses después del tratamiento y anticoncepción durante ese periodo. El plan definitivo debe individualizarse con el centro especializado.",
+    "perlaENARM": "Tras quimioterapia por neoplasia trofoblástica, la normalización de β-hCG no significa alta inmediata; continúa el seguimiento indicado.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 8-9.",
+      "Ngan HYS et al. Diagnosis and management of gestational trophoblastic disease: 2021 update."
+    ]
+  },
+  {
+    "id": "OBS-238",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Anemia secundaria a sangrado molar",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Reconocer y tratar las complicaciones hematológicas del sangrado asociado con mola.",
+    "caso": "Paciente con mola completa y sangrado uterino de varias semanas presenta palidez, taquicardia y hemoglobina de 7.2 g/dL. No hay datos de metástasis en la evaluación inicial.",
+    "pregunta": "¿Qué elemento debe priorizarse en el plan inmediato?",
+    "opciones": [
+      "Estabilización clínica y evaluación de la necesidad de soporte hematológico antes o durante el control de la hemorragia",
+      "Esperar a que la β-hCG se normalice para corregir la anemia",
+      "Iniciar quimioterapia combinada sin confirmar la estabilidad",
+      "Dar egreso sin tratamiento porque el sangrado es típico de la mola",
+      "Evitar la determinación del grupo sanguíneo"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El sangrado uterino asociado con mola puede producir anemia significativa. La conducta depende de los síntomas, la estabilidad hemodinámica, la pérdida sanguínea y las comorbilidades. Deben prepararse las medidas de soporte necesarias y realizar la evacuación en un entorno apropiado.",
+    "perlaENARM": "La hemorragia molar puede ser grave: evalúa biometría hemática, grupo/Rh y necesidad de soporte antes o durante la evacuación.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 5-6.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-239",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Diagnóstico diferencial de β-hCG elevada",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar la clínica, la ecografía y la histopatología sin atribuir toda elevación de β-hCG a una mola.",
+    "caso": "Paciente de 29 años con dolor pélvico, amenorrea y β-hCG positiva. La ecografía no identifica una gestación intrauterina y muestra una masa anexial con líquido libre. No se observa una placenta quística.",
+    "pregunta": "¿Qué diagnóstico requiere valoración prioritaria por el riesgo de deterioro agudo?",
+    "opciones": [
+      "Mola completa confirmada por ausencia de saco intrauterino",
+      "Tumor del sitio placentario confirmado por dolor",
+      "Embarazo ectópico, con evaluación inmediata de estabilidad y posibilidad de ruptura",
+      "Mola parcial confirmada por líquido libre",
+      "Coriocarcinoma confirmado exclusivamente por una β-hCG positiva"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La ausencia de una gestación intrauterina con β-hCG positiva y una masa anexial obliga a valorar embarazo ectópico. La estabilidad hemodinámica, el dolor, la exploración y el líquido libre determinan la urgencia. La β-hCG aislada no establece el diagnóstico de mola ni excluye una gestación ectópica.",
+    "perlaENARM": "No confundas una β-hCG positiva sin gestación intrauterina con mola: el embarazo ectópico debe descartarse según clínica y ecografía.",
+    "bibliografia": [
+      "Williams Obstetrics, 26.ª ed., diagnóstico diferencial del embarazo temprano.",
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, p. 4."
+    ]
+  },
+  {
+    "id": "OBS-240",
+    "especialidad": "Obstetricia",
+    "tema": "Enfermedad trofoblástica gestacional",
+    "subtema": "Integración diagnóstica, estadificación y tratamiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar histopatología, tendencia de β-hCG, evaluación de metástasis y estratificación FIGO/OMS para planificar el tratamiento.",
+    "caso": "Paciente de 32 años con mola completa confirmada por histopatología. Después de la evacuación, la β-hCG presenta meseta durante cuatro mediciones semanales y la tomografía identifica nódulos pulmonares. La paciente está estable y desea preservar la fertilidad.",
+    "pregunta": "¿Qué plan reúne los componentes esenciales para manejar este escenario?",
+    "opciones": [
+      "Dar de alta porque la mola ya fue evacuada",
+      "Confirmar la tendencia hormonal, completar estadificación FIGO/OMS y seleccionar tratamiento según riesgo, con seguimiento de β-hCG",
+      "Realizar una segunda aspiración uterina sin evaluación de extensión",
+      "Indicar histerectomía radical obligatoria en toda paciente con nódulos pulmonares",
+      "Recomendar embarazo inmediato para observar la evolución hormonal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La meseta de β-hCG y los nódulos pulmonares sugieren neoplasia trofoblástica gestacional posmolar con posible diseminación. Se debe confirmar la tendencia, descartar causas alternativas, completar la estadificación y elegir tratamiento según el grupo de riesgo. La preservación de la fertilidad puede ser posible, pero requiere manejo especializado y vigilancia estricta.",
+    "perlaENARM": "Integra cuatro pasos: confirmar β-hCG, estadificar, tratar según riesgo y vigilar la respuesta. La evacuación molar no elimina la posibilidad de neoplasia persistente.",
+    "bibliografia": [
+      "PDF proporcionado: Enfermedad Trofoblástica Gestacional, pp. 6-9.",
+      "Ngan HYS et al. Diagnosis and management of gestational trophoblastic disease: 2021 update. https://pubmed.ncbi.nlm.nih.gov/34669197/",
+      "Diagnosis and management of gestational trophoblastic disease: 2025 update. https://pmc.ncbi.nlm.nih.gov/articles/PMC12411817/"
+    ]
+  },
+   {
+    "id": "OBS-241",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Definición y diagnóstico diferencial",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir la amenaza de aborto de otras formas de pérdida gestacional mediante la evaluación cervical y la clínica.",
+    "caso": "Mujer de 26 años, embarazo de 9 semanas por fecha de última menstruación, presenta manchado transvaginal escaso y cólico leve. La ecografía confirma embarazo intrauterino con actividad cardiaca. A la exploración, el cuello uterino está cerrado, sin tejido en el canal cervical.",
+    "pregunta": "¿Qué diagnóstico integra mejor los hallazgos actuales?",
+    "opciones": [
+      "Aborto incompleto",
+      "Aborto inevitable",
+      "Amenaza de aborto",
+      "Aborto séptico",
+      "Aborto completo"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La amenaza de aborto se caracteriza por sangrado durante una gestación potencialmente viable, con cuello uterino cerrado y sin evidencia de expulsión de productos gestacionales. La actividad cardiaca embrionaria confirma viabilidad en el momento de la evaluación, aunque no garantiza el desenlace posterior.",
+    "perlaENARM": "Sangrado del primer trimestre más cuello cerrado y embarazo intrauterino viable orienta a amenaza de aborto; la dilatación cervical o la expulsión de tejido modifican el diagnóstico.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 1-3.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. Obstetrics & Gynecology. 2018."
+    ]
+  },
+  {
+    "id": "OBS-242",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Evaluación inicial y estabilidad hemodinámica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Priorizar la estabilización materna frente a la clasificación de la pérdida gestacional en pacientes con hemorragia importante.",
+    "caso": "Paciente de 10 semanas con sangrado transvaginal abundante, dolor abdominal intenso, frecuencia cardiaca de 128 lpm, presión arterial de 82/48 mmHg y palidez. Aún no se dispone de ecografía.",
+    "pregunta": "¿Cuál debe ser la prioridad inmediata en la atención?",
+    "opciones": [
+      "Iniciar estabilización hemodinámica, obtener accesos venosos y activar la atención urgente de hemorragia",
+      "Solicitar progesterona sérica antes de cualquier intervención",
+      "Realizar una ecografía ambulatoria y reevaluar en 14 días",
+      "Indicar reposo domiciliario y ácido fólico",
+      "Esperar el resultado de β-hCG cuantitativa para decidir si requiere atención urgente"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La hipotensión, taquicardia y hemorragia abundante sugieren choque hemorrágico. La estabilización materna tiene prioridad sobre la confirmación ecográfica o la clasificación definitiva del aborto. Se requiere evaluación obstétrica urgente, acceso vascular, estudios de laboratorio y hemoderivados según la respuesta clínica.",
+    "perlaENARM": "En hemorragia obstétrica con inestabilidad, primero se estabiliza a la paciente; nunca se retrasa la reanimación por esperar β-hCG o ultrasonido.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 2 y 5.",
+      "IMSS/CENETEC. Guía de Práctica Clínica: Diagnóstico y tratamiento inicial de las emergencias obstétricas."
+    ]
+  },
+  {
+    "id": "OBS-243",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Viabilidad ecográfica y longitud cráneo-caudal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar criterios ecográficos conservadores para evitar diagnosticar erróneamente una pérdida gestacional.",
+    "caso": "Mujer de 31 años con sangrado escaso. La ecografía transvaginal identifica un embarazo intrauterino con embrión de longitud cráneo-caudal de 5.4 mm, sin actividad cardiaca visible. La paciente está estable y desea continuar la gestación si existe posibilidad de viabilidad.",
+    "pregunta": "¿Qué conducta diagnóstica minimiza el riesgo de una intervención sobre una gestación potencialmente viable?",
+    "opciones": [
+      "Diagnosticar pérdida gestacional por la ausencia de actividad cardiaca en cualquier embrión visible",
+      "Indicar evacuación uterina inmediata",
+      "Diagnosticar aborto inevitable por la presencia de sangrado",
+      "Confirmar pérdida gestacional exclusivamente con una β-hCG aislada",
+      "Considerar viabilidad incierta y repetir la ecografía transvaginal después del intervalo recomendado"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Una longitud cráneo-caudal menor de 7 mm sin actividad cardiaca no confirma por sí sola una pérdida gestacional. Se recomienda repetir la ecografía transvaginal, habitualmente después de al menos 7 días, según el protocolo y la valoración clínica. El material proporcionado propone un intervalo mínimo de 14 días en su esquema, lo que también evita una conclusión prematura.",
+    "perlaENARM": "Longitud cráneo-caudal menor de 7 mm sin latido: viabilidad incierta, no pérdida confirmada. El umbral de 7 mm o más sin actividad cardiaca requiere evaluación diagnóstica cuidadosa.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 3 y 6.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management."
+    ]
+  },
+  {
+    "id": "OBS-244",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Criterios ecográficos de pérdida gestacional",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer un criterio ecográfico de alta especificidad para diagnosticar pérdida gestacional temprana.",
+    "caso": "Paciente de 34 años con sangrado transvaginal. La ecografía transvaginal muestra un saco gestacional intrauterino con diámetro medio de 27 mm, sin embrión. No presenta inestabilidad ni signos de infección.",
+    "pregunta": "¿Qué significado tiene este hallazgo ecográfico si la medición es técnicamente adecuada?",
+    "opciones": [
+      "Confirma embarazo ectópico",
+      "Es compatible exclusivamente con amenaza de aborto",
+      "Demuestra embarazo molar completo",
+      "Cumple un criterio ecográfico diagnóstico de pérdida gestacional temprana",
+      "Obliga a diagnosticar una gestación viable de edad menor a la calculada"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Un diámetro medio del saco gestacional de 25 mm o más sin embrión es un criterio ecográfico diagnóstico de pérdida gestacional temprana en las recomendaciones ampliamente utilizadas. Deben verificarse la calidad de la imagen y las mediciones antes de adoptar decisiones irreversibles.",
+    "perlaENARM": "Saco gestacional vacío con diámetro medio de 25 mm o más: criterio diagnóstico de pérdida gestacional; no debe confundirse con los hallazgos solamente sospechosos.",
+    "bibliografia": [
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "Preisler J, et al. Defining safe criteria to diagnose miscarriage: prospective observational multicentre study. BMJ. 2015.",
+      "PDF proporcionado: Amenaza de Aborto, página 6."
+    ]
+  },
+  {
+    "id": "OBS-245",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Interpretación de β-hCG seriada",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Comprender las limitaciones de la β-hCG para determinar por sí sola la viabilidad gestacional.",
+    "caso": "Paciente de 7 semanas por fecha de última menstruación, con sangrado leve y estabilidad hemodinámica. La β-hCG aumenta menos de lo esperado en dos determinaciones separadas por 48 horas. La ecografía muestra una imagen intrauterina cuya viabilidad aún no puede establecerse.",
+    "pregunta": "¿Cómo debe interpretarse el comportamiento hormonal?",
+    "opciones": [
+      "Confirma de manera definitiva un aborto completo",
+      "Demuestra embarazo ectópico, aunque exista una imagen intrauterina",
+      "Obliga a indicar metotrexato sin más estudios",
+      "Descarta una gestación viable si la concentración no se duplica exactamente cada 48 horas",
+      "Aumenta la sospecha de una gestación anormal y requiere integración con ecografía y seguimiento clínico"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Una elevación subóptima de β-hCG puede asociarse con gestación no viable o ectópica, pero no establece por sí sola el diagnóstico. La velocidad de ascenso depende de la concentración inicial y de otros factores. La interpretación debe combinar la evolución clínica, las concentraciones seriadas y la ecografía.",
+    "perlaENARM": "La β-hCG refleja actividad trofoblástica, no directamente el desarrollo embrionario; una curva anormal orienta, pero no sustituye los criterios ecográficos.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 3.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management."
+    ]
+  },
+  {
+    "id": "OBS-246",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Embarazo de localización desconocida",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar el diagnóstico prematuro de embarazo ectópico cuando la ecografía no localiza la gestación.",
+    "caso": "Mujer de 28 años con prueba de embarazo positiva y sangrado leve. Está estable, sin dolor unilateral ni signos peritoneales. La ecografía transvaginal no identifica saco gestacional intrauterino ni masa anexial concluyente.",
+    "pregunta": "¿Cuál es el enfoque más seguro mientras se determina la localización del embarazo?",
+    "opciones": [
+      "Diagnosticar amenaza de aborto confirmada sin necesidad de controles",
+      "Considerar embarazo de localización desconocida y programar seguimiento con β-hCG seriada y ecografía según evolución",
+      "Administrar metotrexato en todos los casos con útero vacío",
+      "Realizar histerectomía para prevenir hemorragia",
+      "Descartar embarazo ectópico porque no existe dolor abdominal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Una prueba positiva sin gestación localizada en la ecografía se clasifica inicialmente como embarazo de localización desconocida. Puede corresponder a una gestación intrauterina muy temprana, una pérdida gestacional o un embarazo ectópico. Se requiere seguimiento estructurado y educación sobre signos de alarma.",
+    "perlaENARM": "Útero vacío con prueba positiva no equivale automáticamente a embarazo ectópico; la localización debe aclararse y la estabilidad materna vigilarse.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 3 y 6.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management.",
+      "ACOG. Practice Bulletin No. 193: Tubal Ectopic Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-247",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Pronóstico ecográfico y frecuencia cardiaca embrionaria",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar marcadores ecográficos de mal pronóstico de criterios definitivos de pérdida gestacional.",
+    "caso": "Paciente de 8 semanas con sangrado escaso. La ecografía confirma gestación intrauterina con actividad cardiaca de 105 lpm. No hay dilatación cervical ni signos de desprendimiento extenso.",
+    "pregunta": "¿Qué conclusión debe comunicarse sobre la frecuencia cardiaca observada?",
+    "opciones": [
+      "La frecuencia cardiaca confirma que el embarazo continuará hasta término",
+      "La frecuencia cardiaca indica de manera definitiva una aneuploidía",
+      "El hallazgo puede asociarse con mayor riesgo de pérdida, pero no diagnostica por sí solo una gestación no viable",
+      "Es indicación absoluta de evacuación uterina",
+      "Descarta la necesidad de seguimiento si el sangrado persiste"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La bradicardia embrionaria puede asociarse con mayor riesgo de pérdida gestacional, especialmente cuando se interpreta de acuerdo con la edad gestacional. Sin embargo, un marcador pronóstico no equivale a un criterio diagnóstico de muerte embrionaria. Deben valorarse la datación, la evolución y los hallazgos ecográficos posteriores.",
+    "perlaENARM": "La bradicardia fetal temprana es un factor pronóstico, no una prueba definitiva de aborto; evita intervenciones irreversibles basadas solo en este dato.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 4.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-248",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Hematoma subcoriónico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar el hematoma subcoriónico como hallazgo asociado al pronóstico sin sobreestimar su valor diagnóstico.",
+    "caso": "Mujer de 30 años, embarazo de 9 semanas con sangrado escaso. La ecografía demuestra embrión con actividad cardiaca y colección hemática subcoriónica pequeña. El cuello uterino permanece cerrado.",
+    "pregunta": "¿Qué afirmación describe mejor el significado clínico del hematoma?",
+    "opciones": [
+      "Puede asociarse con riesgo de pérdida gestacional, pero debe interpretarse junto con la clínica y el resto de la ecografía",
+      "Confirma inevitablemente un aborto en evolución",
+      "Es diagnóstico de embarazo ectópico",
+      "Demuestra infección intraamniótica",
+      "Es indicación universal de hospitalización y reposo absoluto prolongado"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El hematoma subcoriónico es un hallazgo que puede relacionarse con mayor riesgo de pérdida gestacional, aunque el riesgo depende de diversos factores clínicos y ecográficos. No demuestra por sí mismo inviabilidad ni justifica automáticamente reposo absoluto o ingreso hospitalario.",
+    "perlaENARM": "Hematoma subcoriónico con embrión viable: informar el riesgo de forma individualizada; no convertir una asociación pronóstica en diagnóstico definitivo.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 4.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-249",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Diagnóstico diferencial del sangrado",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar causas cervicales del sangrado durante el embarazo temprano mediante exploración dirigida.",
+    "caso": "Paciente de 25 años, embarazo de 11 semanas, presenta manchado después de relaciones sexuales. No tiene dolor ni fiebre; la ecografía muestra embarazo intrauterino viable. En la exploración con espéculo se observa cuello uterino friable con sangrado al contacto.",
+    "pregunta": "¿Qué elemento resulta más útil para orientar el origen del sangrado?",
+    "opciones": [
+      "La concentración aislada de progesterona",
+      "El antecedente de náusea matutina",
+      "El volumen uterino estimado por palpación",
+      "La evaluación cervical con espéculo y estudio dirigido de la lesión",
+      "La repetición inmediata de β-hCG cada seis horas"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La exploración con espéculo permite identificar ectropión, pólipos, cervicitis u otras lesiones que pueden explicar el sangrado. Confirmar una gestación viable no excluye que el origen de la hemorragia sea cervicovaginal. Los estudios adicionales se seleccionan de acuerdo con los hallazgos.",
+    "perlaENARM": "El sangrado en una embarazada no siempre proviene de la cavidad uterina; la inspección cervicovaginal forma parte de la evaluación clínica.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 3.",
+      "Williams Obstetrics. 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-250",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Manejo ambulatorio y signos de alarma",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Establecer medidas de seguridad y seguimiento en una paciente con amenaza de aborto y estabilidad clínica.",
+    "caso": "Paciente de 27 años con embarazo intrauterino viable de 8 semanas, sangrado escaso, cuello cerrado, signos vitales normales y dolor mínimo. Vive cerca del hospital y comprende las indicaciones.",
+    "pregunta": "¿Qué recomendación debe incluir el plan ambulatorio?",
+    "opciones": [
+      "Reposo absoluto durante el resto del embarazo",
+      "Evitar toda actividad física durante varios meses como tratamiento probado",
+      "Suspender el seguimiento prenatal hasta que desaparezca cualquier molestia",
+      "Iniciar antibióticos profilácticos aunque no existan datos de infección",
+      "Explicar signos de alarma y regresar si aumenta el sangrado, aparece dolor intenso, fiebre, mareo o síncope"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "En una paciente estable con gestación viable, el manejo puede ser ambulatorio si existe seguimiento y acceso a atención urgente. Es fundamental explicar los signos de alarma. El reposo absoluto no ha demostrado prevenir de forma fiable la pérdida gestacional y puede ocasionar efectos adversos por inmovilidad.",
+    "perlaENARM": "La seguridad del manejo ambulatorio depende de la estabilidad, la evaluación diagnóstica y las instrucciones claras para regresar ante deterioro.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 4-5.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-251",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Progesterona y antecedente de pérdida gestacional",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar a las pacientes con sangrado temprano que podrían beneficiarse de progesterona según evidencia clínica actual.",
+    "caso": "Mujer de 32 años, embarazo intrauterino confirmado por ecografía, sangrado transvaginal leve y antecedente de dos pérdidas gestacionales tempranas. Está estable y no presenta dilatación cervical.",
+    "pregunta": "Con base en la recomendación NICE vigente sobre progesterona en el sangrado temprano, ¿qué opción terapéutica puede ofrecerse?",
+    "opciones": [
+      "17-hidroxiprogesterona intramuscular a todas las embarazadas con sangrado",
+      "Progesterona micronizada vaginal, 400 mg dos veces al día; si se confirma actividad cardiaca, continuar hasta completar 16 semanas",
+      "Progesterona oral a cualquier dosis, independientemente de la localización gestacional",
+      "Gonadotropina coriónica humana como tratamiento hormonal universal",
+      "No considerar progesterona bajo ninguna circunstancia, aunque exista antecedente de aborto"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "NICE recomienda ofrecer progesterona micronizada vaginal 400 mg dos veces al día en pacientes con sangrado temprano, embarazo intrauterino confirmado por ecografía y antecedente de aborto. Si se confirma actividad cardiaca, recomienda continuar hasta las 16 semanas completas. La recomendación no debe extrapolarse a cualquier formulación o a embarazos de localización desconocida; deben considerarse las guías y protocolos aplicables en México.",
+    "perlaENARM": "La combinación de sangrado actual, embarazo intrauterino ecográficamente confirmado y antecedente de pérdida gestacional identifica el grupo al que NICE recomienda progesterona vaginal.",
+    "bibliografia": [
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management. Actualización del 17 de junio de 2026.",
+      "Coomarasamy A, et al. A Randomized Trial of Progesterone in Women with Bleeding in Early Pregnancy. N Engl J Med. 2019.",
+      "PDF proporcionado: Amenaza de Aborto, página 4."
+    ]
+  },
+  {
+    "id": "OBS-252",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Progesterona en pacientes sin pérdidas previas",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Evitar la prescripción indiscriminada de progesterona en el sangrado del primer trimestre.",
+    "caso": "Paciente de 24 años con primer embarazo, sangrado escaso a las 7 semanas y embrión con actividad cardiaca confirmada. No tiene antecedentes de abortos previos, insuficiencia lútea diagnosticada ni otras complicaciones.",
+    "pregunta": "¿Qué interpretación se ajusta mejor a la evidencia utilizada por NICE para este escenario?",
+    "opciones": [
+      "Debe administrarse 17-hidroxiprogesterona porque el sangrado confirma déficit hormonal",
+      "La gonadotropina coriónica es superior a cualquier otra intervención",
+      "El sangrado aislado obliga a prescribir progesterona vaginal hasta la semana 20",
+      "No existe evidencia suficiente de beneficio para indicar progesterona rutinariamente solo por sangrado cuando no hay antecedente de aborto",
+      "Debe indicarse progesterona intramuscular de manera indefinida"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "NICE no recomienda progesterona rutinaria para todas las pacientes con sangrado temprano. El beneficio observado se concentra en mujeres con sangrado durante la gestación actual y antecedente de pérdida gestacional, con embarazo intrauterino confirmado. La indicación debe basarse en el contexto clínico y la guía utilizada.",
+    "perlaENARM": "No generalizar el beneficio de progesterona a todas las pacientes con amenaza de aborto: el antecedente de pérdida gestacional modifica la selección.",
+    "bibliografia": [
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management.",
+      "Coomarasamy A, et al. N Engl J Med. 2019.",
+      "PDF proporcionado: Amenaza de Aborto, página 4."
+    ]
+  },
+  {
+    "id": "OBS-253",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Reposo y actividad física",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir las recomendaciones tradicionales del material de estudio de las intervenciones respaldadas por evidencia.",
+    "caso": "Una paciente de 29 años con amenaza de aborto y embarazo viable pregunta si debe permanecer en cama durante dos semanas para evitar la pérdida. Está estable, con sangrado mínimo y cuello cerrado.",
+    "pregunta": "¿Cuál es la respuesta basada en la evidencia clínica contemporánea?",
+    "opciones": [
+      "El reposo absoluto prolongado ha demostrado reducir de forma concluyente las pérdidas gestacionales",
+      "La inmovilidad completa es obligatoria hasta el segundo trimestre",
+      "No hay evidencia sólida de que el reposo absoluto prevenga el aborto; se individualizan las actividades y se explican signos de alarma",
+      "El reposo sustituye la evaluación ecográfica de viabilidad",
+      "Debe indicarse hospitalización a todas las pacientes con sangrado leve"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF menciona reposo absoluto breve como recomendación tradicional, pero la evidencia disponible no demuestra de forma convincente que el reposo en cama prevenga la pérdida gestacional. La conducta se centra en la evaluación clínica, la información a la paciente y el seguimiento apropiado.",
+    "perlaENARM": "Distingue una recomendación histórica de una intervención demostrada: reposo absoluto no es tratamiento universal basado en evidencia para prevenir el aborto.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 4.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-254",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Etiología de la pérdida gestacional temprana",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar las anomalías cromosómicas embrionarias con la etiología de las pérdidas gestacionales tempranas.",
+    "caso": "Pareja consulta después de una pérdida gestacional del primer trimestre. La paciente tiene 37 años y no presenta antecedentes de enfermedad autoinmune, diabetes descontrolada ni anomalías uterinas conocidas.",
+    "pregunta": "¿Cuál es una de las causas más frecuentes de pérdida gestacional temprana?",
+    "opciones": [
+      "Anomalías cromosómicas embrionarias",
+      "Insuficiencia cervical como causa universal de pérdidas del primer trimestre",
+      "Infección bacteriana en todos los casos",
+      "Deficiencia de ácido fólico como causa predominante de todos los abortos",
+      "Incompatibilidad ABO materno-fetal como explicación habitual"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Las anomalías cromosómicas embrionarias explican una proporción importante de las pérdidas gestacionales tempranas, alrededor de la mitad según el material proporcionado. La edad materna avanzada aumenta la probabilidad de aneuploidía. No obstante, no todas las pérdidas se deben a alteraciones cromosómicas.",
+    "perlaENARM": "La causa más frecuente de pérdida temprana es cromosómica; la edad materna avanzada incrementa el riesgo de aneuploidía.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 1-2.",
+      "Williams Obstetrics. 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-255",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Factores de riesgo maternos",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Reconocer factores epidemiológicos asociados con pérdida gestacional sin atribuir causalidad automática.",
+    "caso": "Mujer de 39 años, embarazo de 8 semanas, consulta por sangrado escaso. Tiene antecedentes de una pérdida gestacional temprana y la ecografía confirma embarazo intrauterino con actividad cardiaca.",
+    "pregunta": "¿Qué combinación aumenta el riesgo basal de pérdida gestacional temprana?",
+    "opciones": [
+      "Edad materna menor de 20 años y ausencia de antecedentes obstétricos",
+      "Embarazo intrauterino confirmado y actividad cardiaca presente, como factores de riesgo por sí mismos",
+      "Uso de ácido fólico en dosis recomendadas y ausencia de tabaquismo",
+      "Edad materna avanzada y antecedente de pérdida gestacional",
+      "Ausencia de dolor y cuello uterino cerrado como factores de riesgo principales"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La edad materna avanzada y el antecedente de pérdida gestacional se asocian con un mayor riesgo de una nueva pérdida. Sin embargo, la actividad cardiaca embrionaria es un dato favorable para la viabilidad actual y la estimación pronóstica debe individualizarse.",
+    "perlaENARM": "Edad materna avanzada y antecedente de aborto son factores de riesgo; no determinan por sí solos el desenlace del embarazo actual.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 2.",
+      "Williams Obstetrics. 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-256",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Enfermedades endocrinas y riesgo gestacional",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar comorbilidades endocrinas que requieren valoración y control durante el embarazo.",
+    "caso": "Paciente de 33 años con embarazo de 9 semanas, manchado escaso y antecedente de hipotiroidismo tratado de forma irregular. La ecografía muestra actividad cardiaca embrionaria y el cuello está cerrado.",
+    "pregunta": "¿Qué intervención sobre la comorbilidad es relevante para el cuidado obstétrico?",
+    "opciones": [
+      "Suspender de inmediato toda hormona tiroidea para reducir el sangrado",
+      "Evaluar TSH y T4 libre y optimizar el tratamiento tiroideo de acuerdo con metas gestacionales",
+      "Administrar antibióticos de amplio espectro aunque no haya infección",
+      "Indicar histerectomía profiláctica por riesgo endocrino",
+      "Tratar con progesterona sin evaluar la función tiroidea"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El hipotiroidismo no controlado se asocia con resultados obstétricos adversos y requiere evaluación bioquímica y ajuste del tratamiento. La presencia de sangrado no demuestra que la alteración tiroidea sea la causa directa del episodio, por lo que deben atenderse ambos aspectos sin asumir causalidad.",
+    "perlaENARM": "Ante enfermedad tiroidea en el embarazo, verifica el control bioquímico y ajusta el tratamiento; no atribuyas automáticamente todo sangrado a la endocrinopatía.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 2.",
+      "American Thyroid Association. Guidelines for the Diagnosis and Management of Thyroid Disease During Pregnancy and the Postpartum."
+    ]
+  },
+  {
+    "id": "OBS-257",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Diabetes y pérdida gestacional",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Integrar el control metabólico preconcepcional y gestacional con la prevención de complicaciones obstétricas.",
+    "caso": "Paciente de 35 años con diabetes pregestacional, hemoglobina glucosilada de 10.2% antes del embarazo y sangrado leve a las 8 semanas. La ecografía confirma embarazo intrauterino con actividad cardiaca.",
+    "pregunta": "¿Qué aspecto debe priorizarse dentro del abordaje integral después de descartar una urgencia hemorrágica?",
+    "opciones": [
+      "Suspender todo tratamiento antidiabético sin sustituirlo",
+      "Indicar reposo absoluto como única intervención para reducir el riesgo",
+      "Administrar antibióticos preventivos a pesar de no haber infección",
+      "Asegurar que el sangrado desaparezca antes de medir glucosa nuevamente",
+      "Optimizar el control glucémico y mantener seguimiento obstétrico estrecho, individualizando el tratamiento"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La hiperglucemia pregestacional importante se relaciona con mayor riesgo de complicaciones materno-fetales, incluidas algunas pérdidas gestacionales. Debe optimizarse el control glucémico con un plan seguro para el embarazo, sin asumir que el control metabólico resolverá necesariamente el sangrado actual.",
+    "perlaENARM": "Diabetes pregestacional mal controlada: optimización glucémica y seguimiento especializado; el sangrado exige además su propia evaluación diagnóstica.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 2.",
+      "American Diabetes Association. Standards of Care in Diabetes: Management of Diabetes in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-258",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Consumo de sustancias y factores ambientales",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Identificar exposiciones modificables que deben abordarse durante la atención prenatal temprana.",
+    "caso": "Mujer de 30 años con sangrado leve a las 7 semanas, embarazo intrauterino viable y cuello cerrado. Refiere fumar diariamente y consumir alcohol los fines de semana.",
+    "pregunta": "¿Qué intervención preventiva es más apropiada?",
+    "opciones": [
+      "Aconsejar suspensión del tabaco y alcohol, ofrecer apoyo para abandonar el consumo y continuar el seguimiento obstétrico",
+      "Indicar que el consumo ocasional de alcohol es seguro durante el embarazo",
+      "Sustituir el tabaco por vapeo sin evaluación adicional",
+      "Prescribir sedantes para evitar que la paciente vuelva a consumir",
+      "Afirmar que la pérdida gestacional es inevitable por las exposiciones descritas"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El tabaquismo y el alcohol son exposiciones modificables asociadas con resultados adversos del embarazo. Debe ofrecerse consejería no estigmatizante y apoyo para suspenderlos. Estas exposiciones no permiten predecir con certeza que la gestación terminará en pérdida.",
+    "perlaENARM": "Los factores de riesgo modificables deben abordarse sin culpabilizar a la paciente ni presentar asociaciones epidemiológicas como certezas individuales.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 2.",
+      "ACOG. Tobacco and Nicotine Cessation During Pregnancy.",
+      "CDC. Alcohol Use During Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-259",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Anomalías uterinas",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar las alteraciones anatómicas uterinas con antecedentes obstétricos y seleccionar su evaluación posterior.",
+    "caso": "Paciente de 32 años con dos pérdidas gestacionales previas y diagnóstico conocido de útero septado. Actualmente presenta sangrado leve a las 8 semanas; la ecografía muestra embarazo intrauterino con actividad cardiaca.",
+    "pregunta": "¿Cuál es la interpretación clínica más razonable de su antecedente anatómico?",
+    "opciones": [
+      "El útero septado demuestra que el embarazo actual no es viable",
+      "La anomalía uterina elimina la posibilidad de una gestación intrauterina normal",
+      "La alteración anatómica puede contribuir al riesgo reproductivo, pero no diagnostica la causa del sangrado actual ni la inviabilidad",
+      "La única conducta aceptable es la evacuación uterina inmediata",
+      "El antecedente descarta causas cromosómicas de pérdidas previas"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Las anomalías müllerianas se asocian con determinados resultados reproductivos adversos, pero no establecen por sí mismas la viabilidad de una gestación concreta. El episodio actual debe evaluarse por separado y el antecedente puede justificar valoración especializada del historial reproductivo.",
+    "perlaENARM": "Una anomalía uterina es un factor predisponente, no un criterio diagnóstico de pérdida gestacional actual.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 2.",
+      "ASRM. Practice Committee guidance on uterine septum and reproductive outcomes."
+    ]
+  },
+  {
+    "id": "OBS-260",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Miomas uterinos",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Valorar la relevancia clínica de los leiomiomas según su localización y la presentación obstétrica.",
+    "caso": "Mujer de 35 años con embarazo de 10 semanas, sangrado escaso y actividad cardiaca embrionaria. La ecografía muestra un mioma submucoso que deforma parcialmente la cavidad uterina, sin datos de desprendimiento.",
+    "pregunta": "¿Qué interpretación del mioma es la más apropiada?",
+    "opciones": [
+      "Todos los miomas producen aborto inevitable",
+      "Su localización y relación con la cavidad pueden influir en el riesgo obstétrico, pero no confirman que sea la causa del sangrado",
+      "La presencia de un mioma descarta embarazo intrauterino viable",
+      "El mioma demuestra una infección uterina subclínica",
+      "Se requiere histerectomía urgente en toda gestante con mioma submucoso"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El efecto de un leiomioma sobre el embarazo depende de su tamaño, localización y distorsión de la cavidad. Un mioma submucoso puede asociarse con alteraciones reproductivas, pero el sangrado actual requiere evaluación clínica y ecográfica independiente.",
+    "perlaENARM": "En leiomiomas, la localización importa; evita atribuir causalidad automática o indicar cirugía urgente solo por su presencia.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 2.",
+      "Williams Obstetrics. 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-261",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Isoinmunización Rh",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la necesidad de determinar el grupo sanguíneo y valorar la profilaxis anti-D según la edad gestacional y las recomendaciones locales.",
+    "caso": "Paciente Rh negativa, sin anticuerpos anti-D conocidos, consulta por sangrado a las 10 semanas. Está estable y la ecografía confirma embarazo intrauterino viable. Pregunta si necesita una intervención específica por su grupo sanguíneo.",
+    "pregunta": "¿Cuál es la conducta más apropiada?",
+    "opciones": [
+      "Ignorar el Rh porque el embarazo todavía no alcanza las 20 semanas",
+      "Administrar inmunoglobulina anti-D a todas las pacientes sin considerar edad gestacional ni protocolo",
+      "Realizar transfusión sanguínea profiláctica",
+      "Confirmar grupo y estado de sensibilización y aplicar la recomendación anti-D vigente para sangrado temprano según guía y protocolo local",
+      "Administrar metotrexato para evitar la sensibilización"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "En una paciente Rh negativa con sangrado, debe documentarse el grupo sanguíneo y el estado de sensibilización y revisarse la recomendación vigente de profilaxis anti-D. Las guías difieren en el manejo de eventos antes de las 12 semanas; por ello, no debe asumirse una indicación universal sin atender el contexto y el protocolo local.",
+    "perlaENARM": "Rh negativo con sangrado: conoce la guía aplicable y la edad gestacional; las recomendaciones de anti-D en el primer trimestre no son idénticas entre organizaciones.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 5.",
+      "ACOG. Clinical Practice Update on Rh D immune globulin administration after pregnancy loss in pregnancies less than 12 weeks.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management."
+    ]
+  },
+  {
+    "id": "OBS-262",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Hemograma y cuantificación de la hemorragia",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar estudios de laboratorio de acuerdo con la intensidad del sangrado y la condición hemodinámica.",
+    "caso": "Paciente de 9 semanas con sangrado transvaginal moderado persistente, palidez y taquicardia leve. La ecografía confirma gestación intrauterina, pero todavía no se ha cuantificado la pérdida sanguínea ni se conoce la hemoglobina.",
+    "pregunta": "¿Qué estudio es especialmente útil para evaluar el impacto hematológico del sangrado?",
+    "opciones": [
+      "Hemograma completo, con evaluación adicional y pruebas de compatibilidad si la magnitud del sangrado lo justifica",
+      "Concentración de amilasa sérica como único estudio",
+      "Dímero D para confirmar amenaza de aborto",
+      "Perfil hormonal tiroideo como primera prueba de cuantificación de hemorragia",
+      "Cariotipo embrionario urgente como sustituto de la valoración hematológica"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El hemograma permite evaluar hemoglobina, hematocrito y plaquetas, aunque los valores iniciales pueden no reflejar de inmediato toda la pérdida aguda. Si existe hemorragia importante o deterioro clínico, se agregan pruebas de coagulación, grupo sanguíneo y compatibilidad según el escenario.",
+    "perlaENARM": "La intensidad del sangrado y el estado hemodinámico determinan los estudios; una hemoglobina inicial normal no excluye hemorragia aguda significativa.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 3 y 5.",
+      "IMSS/CENETEC. Guía de Práctica Clínica: Diagnóstico y tratamiento inicial de las emergencias obstétricas."
+    ]
+  },
+  {
+    "id": "OBS-263",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Diagnóstico diferencial con aborto incompleto",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar amenaza de aborto y aborto incompleto a partir del sangrado, el estado cervical y la presencia de tejido retenido.",
+    "caso": "Mujer de 27 años con embarazo de 10 semanas presenta sangrado abundante y cólicos. El cuello uterino está dilatado y la ecografía identifica material heterogéneo intrauterino compatible con productos gestacionales retenidos.",
+    "pregunta": "¿Cuál es el diagnóstico que mejor corresponde al cuadro?",
+    "opciones": [
+      "Amenaza de aborto",
+      "Embarazo anembrionado sin datos adicionales",
+      "Aborto completo",
+      "Embarazo ectópico confirmado",
+      "Aborto incompleto"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El aborto incompleto se caracteriza por expulsión parcial de los productos gestacionales, con tejido retenido y habitualmente sangrado y dolor. La dilatación cervical y el material intrauterino apoyan este diagnóstico. Deben evaluarse la estabilidad, la hemorragia y los signos de infección para definir el manejo.",
+    "perlaENARM": "Cuello dilatado y productos retenidos con sangrado: orienta a aborto incompleto, no a amenaza de aborto.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 1, 3 y 5.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-264",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Diagnóstico diferencial con aborto inevitable",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar la importancia de la dilatación cervical en la clasificación clínica de la pérdida gestacional.",
+    "caso": "Paciente de 11 semanas presenta sangrado progresivo y cólicos intensos. En la exploración se documenta dilatación cervical, sin expulsión completa del contenido uterino. La ecografía muestra gestación intrauterina en proceso de expulsión.",
+    "pregunta": "¿Qué diagnóstico clínico es más probable?",
+    "opciones": [
+      "Amenaza de aborto",
+      "Aborto inevitable",
+      "Aborto completo",
+      "Embarazo molar",
+      "Hemorragia cervical aislada"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El aborto inevitable se caracteriza por sangrado y dilatación cervical con evolución hacia la expulsión gestacional, antes de que se complete el proceso. Se distingue de la amenaza de aborto por la ausencia de dilatación cervical en esta última.",
+    "perlaENARM": "La dilatación cervical es un dato clave para diferenciar amenaza de aborto de una pérdida gestacional en evolución.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 1 y 3.",
+      "Williams Obstetrics. 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-265",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Diagnóstico diferencial con aborto séptico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer signos sistémicos de infección que requieren tratamiento urgente y no corresponden a una amenaza de aborto no complicada.",
+    "caso": "Paciente de 10 semanas con sangrado vaginal, dolor pélvico, temperatura de 39 °C, taquicardia, secreción vaginal fétida y dolor uterino a la palpación.",
+    "pregunta": "¿Qué complicación debe sospecharse y tratarse de manera urgente?",
+    "opciones": [
+      "Amenaza de aborto no complicada",
+      "Hematoma subcoriónico pequeño",
+      "Aborto séptico o infección obstétrica asociada a pérdida gestacional",
+      "Cambios cervicales fisiológicos del embarazo",
+      "Hiperémesis gravídica aislada"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La fiebre, el dolor uterino, la secreción fétida y la taquicardia hacen sospechar infección obstétrica grave. Se requiere estabilización, evaluación urgente, antibióticos de amplio espectro y control del foco cuando esté indicado. No debe manejarse como amenaza de aborto simple.",
+    "perlaENARM": "Fiebre más dolor uterino y secreción fétida en contexto de sangrado gestacional obliga a descartar infección y sepsis obstétrica.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 2.",
+      "IMSS/CENETEC. Guía de Práctica Clínica: Diagnóstico y tratamiento inicial de las emergencias obstétricas."
+    ]
+  },
+  {
+    "id": "OBS-266",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Saco vitelino anormal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir hallazgos ecográficos pronósticos de criterios definitivos de inviabilidad gestacional.",
+    "caso": "Ecografía transvaginal de una gestante de 7 semanas con sangrado leve muestra saco gestacional intrauterino, embrión pequeño con actividad cardiaca y saco vitelino irregular. No existe dilatación cervical.",
+    "pregunta": "¿Qué implicación tiene el saco vitelino irregular?",
+    "opciones": [
+      "Es un marcador asociado con mayor riesgo de evolución adversa, pero no confirma por sí solo pérdida gestacional",
+      "Confirma una gestación ectópica",
+      "Es indicación automática de evacuación uterina",
+      "Demuestra que el embarazo es molar",
+      "Descarta cualquier riesgo de aborto si hay actividad cardiaca"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La forma y la ecogenicidad anormales del saco vitelino se han asociado con peor pronóstico en algunas series. Sin embargo, el hallazgo es pronóstico y no diagnóstico; debe integrarse con la actividad cardiaca, las medidas embrionarias y la evolución clínica.",
+    "perlaENARM": "Un saco vitelino irregular aumenta la sospecha de evolución desfavorable, pero no autoriza a diagnosticar pérdida gestacional sin criterios establecidos.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 4.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-267",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Diferencia entre saco gestacional y longitud cráneo-caudal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Elegir la medición ecográfica apropiada según se visualice o no el embrión.",
+    "caso": "Paciente de 8 semanas con sangrado leve. En la ecografía transvaginal se identifica un saco gestacional intrauterino, pero no se visualiza polo embrionario. El diámetro medio del saco es de 18 mm.",
+    "pregunta": "¿Qué medición debe utilizarse para valorar el hallazgo y cuál es su significado?",
+    "opciones": [
+      "Medir exclusivamente el diámetro de la vesícula vitelina y diagnosticar aborto si es irregular",
+      "Utilizar la frecuencia cardiaca materna como sustituto de la evaluación embrionaria",
+      "Medir la longitud cráneo-caudal aunque no se observe embrión",
+      "Repetir β-hCG una sola vez y declarar pérdida si no se duplica",
+      "Valorar el diámetro medio del saco; con 18 mm sin embrión el hallazgo no cumple por sí solo el umbral diagnóstico de 25 mm"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Cuando no se visualiza embrión, se mide el diámetro medio del saco gestacional. Un saco de 18 mm sin embrión es un hallazgo de viabilidad incierta, no un criterio definitivo de pérdida. Debe repetirse la ecografía en el intervalo recomendado y considerar la presencia de saco vitelino y estudios previos.",
+    "perlaENARM": "Si hay embrión, valorar longitud cráneo-caudal; si no hay embrión, medir diámetro medio del saco gestacional.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 3 y 6.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management."
+    ]
+  },
+  {
+    "id": "OBS-268",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Intervalo entre ecografías",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar intervalos de seguimiento ecográfico seguros en una gestación intrauterina de viabilidad incierta.",
+    "caso": "En la primera ecografía de una paciente con sangrado se observa un saco gestacional con saco vitelino, pero sin embrión. La paciente está estable y no presenta signos de infección ni hemorragia importante.",
+    "pregunta": "¿Qué principio debe guiar el momento de repetir la ecografía para establecer viabilidad?",
+    "opciones": [
+      "Repetirla a las dos horas, porque cualquier cambio es diagnóstico",
+      "Realizar una nueva ecografía en un intervalo apropiado, al menos 7 días en muchos protocolos y más tiempo cuando el criterio inicial lo requiera",
+      "Esperar obligatoriamente hasta el tercer trimestre",
+      "Evitar cualquier ecografía adicional y decidir con una β-hCG aislada",
+      "Indicar evacuación uterina antes de repetir la evaluación"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El intervalo de repetición depende del hallazgo inicial y del protocolo. NICE recomienda al menos 7 días en determinados escenarios de viabilidad incierta; los criterios temporales más conservadores pueden exigir 11 días después de visualizar saco vitelino o 14 días después de un saco sin saco vitelino para diagnosticar pérdida con seguridad. El PDF proporcionado propone repetir a los 14 días.",
+    "perlaENARM": "No todos los embarazos de viabilidad incierta se resuelven con una ecografía inmediata; el intervalo debe corresponder al criterio diagnóstico utilizado.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 3 y 6.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-269",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Saco gestacional y zona discriminatoria de β-hCG",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar utilizar una concentración aislada de β-hCG como único criterio para intervenir en una gestación no localizada.",
+    "caso": "Paciente estable con prueba de embarazo positiva, β-hCG de 3,800 mUI/ml y ausencia de saco gestacional intrauterino en ecografía transvaginal. No se observa masa anexial concluyente ni líquido libre significativo.",
+    "pregunta": "¿Cuál es la interpretación más segura de la ausencia de saco intrauterino?",
+    "opciones": [
+      "Confirma de forma absoluta un embarazo ectópico y obliga a administrar metotrexato",
+      "Descarta embarazo si no hay dolor",
+      "Confirma aborto completo sin necesidad de seguimiento",
+      "Aumenta la sospecha de gestación anormal, pero exige integrar la clínica, repetir β-hCG y realizar seguimiento ecográfico antes de una intervención irreversible si la paciente permanece estable",
+      "Demuestra embarazo molar completo"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La ausencia de saco intrauterino con β-hCG por encima de una zona discriminatoria aumenta la sospecha de embarazo ectópico o pérdida gestacional, pero no debe utilizarse de forma aislada para establecer diagnóstico definitivo. La decisión debe considerar la calidad de la ecografía, la evolución hormonal y el estado clínico, manteniendo vigilancia estrecha.",
+    "perlaENARM": "La zona discriminatoria orienta la evaluación, pero una sola β-hCG y un útero vacío no justifican automáticamente metotrexato en una paciente estable.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 3.",
+      "ACOG. Practice Bulletin No. 193: Tubal Ectopic Pregnancy.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management."
+    ]
+  },
+  {
+    "id": "OBS-270",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Fisiología de β-hCG",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar la producción de gonadotropina coriónica con la actividad trofoblástica y reconocer sus límites como marcador de viabilidad.",
+    "caso": "Una paciente pregunta por qué su médico solicita β-hCG cuantitativa seriada cuando el embrión todavía es demasiado pequeño para establecer viabilidad por ecografía.",
+    "pregunta": "¿Qué propiedad fisiológica explica la utilidad de la prueba?",
+    "opciones": [
+      "La β-hCG es secretada principalmente por el trofoblasto y su evolución puede aportar información sobre la progresión gestacional",
+      "La β-hCG mide directamente la actividad eléctrica del corazón embrionario",
+      "La β-hCG identifica por sí sola todas las anomalías cromosómicas",
+      "La β-hCG solo aparece después de la semana 20",
+      "La β-hCG determina con certeza la localización anatómica del embarazo"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La β-hCG es producida por el tejido trofoblástico y puede detectarse en sangre materna poco después de la implantación. Su evolución seriada ayuda a evaluar embarazos tempranos, pero no identifica por sí sola la localización ni confirma de forma definitiva la viabilidad embrionaria.",
+    "perlaENARM": "β-hCG: marcador de actividad trofoblástica, no medición directa del desarrollo embrionario ni localizador anatómico.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 3.",
+      "Williams Obstetrics. 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-271",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Embarazo viable con sangrado persistente",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Definir la reevaluación apropiada cuando persiste el sangrado a pesar de una evaluación inicial tranquilizadora.",
+    "caso": "Mujer de 28 años con embarazo intrauterino viable de 9 semanas y cuello cerrado. Tras varios días de sangrado leve, no presenta fiebre ni dolor intenso, pero el sangrado persiste durante dos semanas.",
+    "pregunta": "¿Qué recomendación de seguimiento coincide con NICE para esta situación?",
+    "opciones": [
+      "Suspender toda atención prenatal hasta la semana 20",
+      "Administrar antibióticos empíricos de forma rutinaria",
+      "Realizar histerectomía por sangrado persistente",
+      "Afirmar que el sangrado persistente demuestra muerte embrionaria",
+      "Solicitar nueva valoración clínica, porque el sangrado persistente más allá de 14 días requiere reevaluación"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "NICE aconseja reevaluar a la paciente si el sangrado empeora o persiste más de 14 días. Si el sangrado se detiene y la gestación sigue siendo viable, puede continuar el control prenatal habitual. La persistencia no demuestra por sí sola una pérdida gestacional, por lo que deben reconsiderarse la evolución y los diagnósticos diferenciales.",
+    "perlaENARM": "Sangrado persistente por más de 14 días: reevaluar; no equivale automáticamente a aborto confirmado.",
+    "bibliografia": [
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management.",
+      "PDF proporcionado: Amenaza de Aborto, páginas 4-5."
+    ]
+  },
+  {
+    "id": "OBS-272",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Pérdida gestacional y consejería",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Ofrecer información pronóstica basada en evidencia sin atribuir culpa a la paciente.",
+    "caso": "Paciente de 29 años con sangrado escaso a las 8 semanas, embarazo intrauterino con actividad cardiaca y cuello cerrado. Está angustiada y pregunta si caminar para acudir al trabajo provocó el sangrado.",
+    "pregunta": "¿Cuál es la respuesta más apropiada durante la consejería?",
+    "opciones": [
+      "Confirmar que toda actividad cotidiana causa pérdida gestacional",
+      "Explicar que el sangrado temprano tiene múltiples causas y que la actividad cotidiana habitual no permite atribuirle automáticamente la responsabilidad del episodio",
+      "Afirmar que el sangrado demuestra falta de cuidados prenatales",
+      "Recomendar evitar cualquier movimiento hasta el parto",
+      "Indicar que la actividad cardiaca elimina cualquier riesgo posterior"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El sangrado temprano es frecuente y puede tener múltiples causas. Muchas pérdidas gestacionales tempranas se relacionan con alteraciones embrionarias que no dependen de acciones habituales de la paciente. La consejería debe ser empática, evitar culpabilizar y explicar tanto el pronóstico como los signos de alarma.",
+    "perlaENARM": "La consejería debe reducir la culpa injustificada y comunicar incertidumbre pronóstica de forma clara y compasiva.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 1-2.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-273",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Ácido fólico y prevención prenatal",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Distinguir la suplementación preventiva con ácido fólico de un tratamiento específico para detener el sangrado gestacional.",
+    "caso": "Paciente de 26 años con embarazo de 7 semanas y amenaza de aborto pregunta si el ácido fólico detendrá el sangrado y evitará por sí mismo una pérdida gestacional.",
+    "pregunta": "¿Qué explicación es correcta?",
+    "opciones": [
+      "El ácido fólico es un uterotónico que detiene la hemorragia",
+      "El ácido fólico confirma la viabilidad del embarazo",
+      "El ácido fólico elimina el riesgo asociado con anomalías cromosómicas",
+      "El ácido fólico forma parte de la prevención prenatal de defectos del tubo neural, pero no es un tratamiento hemostático específico de la amenaza de aborto",
+      "El ácido fólico sustituye la ecografía y el seguimiento clínico"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La suplementación con ácido fólico es una medida preventiva importante antes de la concepción y durante el embarazo temprano, especialmente para reducir defectos del tubo neural. No existe fundamento para presentarla como una intervención que detenga directamente el sangrado o garantice la continuidad de una gestación.",
+    "perlaENARM": "Ácido fólico: prevención de defectos del tubo neural; no es un tratamiento específico para detener la amenaza de aborto.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 4.",
+      "CDC. Folic Acid: Recommendations and Benefits.",
+      "Williams Obstetrics. 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-274",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Uso de sedantes",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Evitar tratamientos sintomáticos sin beneficio demostrado para la viabilidad gestacional.",
+    "caso": "Una paciente estable con amenaza de aborto recibe la recomendación de tomar un sedante para reducir la ansiedad y evitar que el embarazo se pierda. No presenta indicación psiquiátrica ni otra razón médica para recibirlo.",
+    "pregunta": "¿Qué principio debe guiar la revisión de esta indicación?",
+    "opciones": [
+      "Todo sedante reduce de manera demostrada la incidencia de aborto",
+      "El sedante debe administrarse a todas las pacientes con sangrado",
+      "Debe revisarse la indicación y evitar prescribir sedantes como tratamiento para prevenir la pérdida gestacional sin una justificación clínica específica",
+      "La sedación permite omitir el seguimiento ecográfico",
+      "El sedante sustituye la valoración de hemorragia y dolor"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El material proporcionado enumera sedantes entre las medidas de tratamiento tradicionales, pero no aporta evidencia que demuestre que prevengan la pérdida gestacional. Los medicamentos deben prescribirse por una indicación definida, valorando riesgos, beneficios y seguridad durante el embarazo.",
+    "perlaENARM": "No confundir medidas históricas o sintomáticas con intervenciones que hayan demostrado mejorar la tasa de nacidos vivos.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 4.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-275",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Edad gestacional y definición clínica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer las diferencias entre definiciones operativas de amenaza de aborto y pérdida gestacional según la edad gestacional.",
+    "caso": "En una sesión clínica, dos médicos discuten si el sangrado de una gestante de 21 semanas con cuello cerrado debe clasificarse con el mismo término utilizado para el sangrado del primer trimestre.",
+    "pregunta": "¿Qué consideración conceptual es importante al clasificar el caso?",
+    "opciones": [
+      "El sangrado siempre se denomina amenaza de aborto, independientemente de la edad gestacional y del contexto",
+      "La edad gestacional y la definición adoptada por la guía deben especificarse, porque los límites operativos pueden variar entre documentos",
+      "La presencia de sangrado confirma pérdida fetal a cualquier edad",
+      "El cuello cerrado descarta cualquier complicación obstétrica",
+      "La clasificación depende exclusivamente de la concentración de β-hCG"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF señala diferencias entre la definición de la GPC de 2020, que utiliza el límite de 22 semanas, y una versión de 2015 que utiliza 20 semanas. La terminología debe interpretarse de acuerdo con la definición institucional y la edad gestacional, sin retrasar la evaluación de otros diagnósticos relevantes.",
+    "perlaENARM": "En reactivos de definición, verifica el límite de edad gestacional especificado por la guía; los documentos pueden utilizar umbrales distintos.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 1.",
+      "Guías de Práctica Clínica mexicanas citadas en el material proporcionado."
+    ]
+  },
+  {
+    "id": "OBS-276",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Referencia a segundo nivel",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer cuándo una paciente requiere evaluación obstétrica de mayor complejidad.",
+    "caso": "Mujer de 23 años con prueba de embarazo positiva, dolor lumbopélvico y sangrado transvaginal. En la unidad de primer nivel no se dispone de ecografía ni de capacidad para descartar embarazo ectópico. Sus signos vitales son estables.",
+    "pregunta": "¿Cuál es la disposición asistencial más apropiada?",
+    "opciones": [
+      "Referir para evaluación obstétrica y diagnóstico, con prioridad según la intensidad de los síntomas y las condiciones clínicas",
+      "Dar de alta sin instrucciones porque los signos vitales son normales",
+      "Diagnosticar amenaza de aborto sin confirmar localización gestacional",
+      "Iniciar tratamiento hormonal sin pruebas ni seguimiento",
+      "Esperar una semana antes de buscar la localización del embarazo"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El sangrado y el dolor en una paciente con embarazo posible requieren confirmar la localización y valorar la viabilidad, además de descartar embarazo ectópico. Si el primer nivel no cuenta con recursos para esa evaluación, se justifica la referencia; cualquier deterioro clínico exige atención urgente.",
+    "perlaENARM": "Embarazo posible más dolor y sangrado sin capacidad para confirmar localización: referir para completar la evaluación y descartar ectópico.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 5-6.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management."
+    ]
+  },
+  {
+    "id": "OBS-277",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Toxoplasmosis y etiología infecciosa",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar atribuir el sangrado gestacional a una infección sin evidencia clínica y seleccionar pruebas dirigidas.",
+    "caso": "Paciente de 9 semanas con sangrado escaso y embarazo intrauterino viable. Está afebril, sin síntomas sistémicos ni hallazgos clínicos de infección. Pregunta si necesita pruebas para toxoplasmosis porque leyó que las infecciones pueden asociarse con pérdida gestacional.",
+    "pregunta": "¿Qué estrategia diagnóstica es más adecuada?",
+    "opciones": [
+      "Solicitar de forma obligatoria todas las pruebas infecciosas posibles a toda paciente con sangrado",
+      "Administrar tratamiento antiparasitario empírico antes de obtener una historia clínica",
+      "Afirmar que el sangrado demuestra infección por Toxoplasma gondii",
+      "No investigar jamás infecciones durante el embarazo",
+      "Realizar una evaluación dirigida por antecedentes, exposición, síntomas y recomendaciones de tamizaje, sin atribuir el sangrado a infección de forma automática"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Las infecciones pueden tener relevancia obstétrica en escenarios específicos, pero el sangrado aislado no demuestra una etiología infecciosa. La historia clínica y los factores epidemiológicos deben orientar los estudios. El material enumera varias infecciones como posibles factores asociados, pero no establece que todas deban buscarse indiscriminadamente en cada paciente.",
+    "perlaENARM": "La presencia de un factor etiológico en una lista no justifica pruebas universales ni tratamiento empírico en ausencia de indicación clínica.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 2.",
+      "CDC. Clinical Care of Toxoplasmosis.",
+      "Williams Obstetrics. 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-278",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Aneuploidía y edad materna",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la edad materna con la probabilidad de aneuploidía sin convertirla en un diagnóstico individual.",
+    "caso": "Paciente de 41 años con sangrado leve a las 8 semanas. La ecografía confirma embrión con actividad cardiaca y medidas concordantes con la edad gestacional. La paciente pregunta si su edad significa que necesariamente existe una alteración cromosómica.",
+    "pregunta": "¿Cuál es la explicación más precisa?",
+    "opciones": [
+      "La edad materna avanzada excluye un embarazo cromosómicamente normal",
+      "La actividad cardiaca elimina por completo el riesgo de aneuploidía",
+      "La edad materna avanzada aumenta la probabilidad de aneuploidía, pero no permite diagnosticarla sin pruebas específicas",
+      "El sangrado confirma una trisomía autosómica",
+      "La edad materna solo afecta el riesgo después de la semana 30"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El riesgo de aneuploidía aumenta con la edad materna, pero la mayoría de los factores de riesgo modifican probabilidades y no constituyen diagnósticos individuales. La evaluación genética prenatal debe ofrecerse de acuerdo con las preferencias informadas y las recomendaciones vigentes.",
+    "perlaENARM": "Edad materna avanzada: aumenta el riesgo de aneuploidía, pero la confirmación requiere pruebas de tamizaje o diagnóstico apropiadas.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 1-2.",
+      "ACOG. Screening for Fetal Chromosomal Abnormalities."
+    ]
+  },
+  {
+    "id": "OBS-279",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Integración clínica y seguimiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar evolución clínica, cuello uterino y hallazgos ecográficos para definir vigilancia en una gestación de viabilidad incierta.",
+    "caso": "Paciente de 30 años con sangrado intermitente a las 7 semanas. Está hemodinámicamente estable, con cuello cerrado. La primera ecografía muestra saco gestacional intrauterino con saco vitelino, pero sin embrión visible. La β-hCG es positiva y no hay signos de infección.",
+    "pregunta": "¿Qué estrategia permite aclarar la viabilidad sin exponer a la paciente a una intervención prematura?",
+    "opciones": [
+      "Diagnosticar aborto completo por la ausencia de embrión en una sola ecografía",
+      "Administrar metotrexato pese a la localización intrauterina documentada",
+      "Realizar evacuación uterina inmediata por el antecedente de sangrado",
+      "Mantener vigilancia clínica, repetir ecografía en el intervalo adecuado y utilizar β-hCG seriada como información complementaria",
+      "Descartar pérdida gestacional de forma definitiva porque el cuello está cerrado"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La presencia de saco vitelino sin embrión en una primera ecografía puede corresponder a una gestación demasiado temprana o a una pérdida gestacional. En una paciente estable, se debe repetir la ecografía en el intervalo apropiado y utilizar la evolución clínica y hormonal como datos complementarios, evitando procedimientos irreversibles hasta confirmar el diagnóstico.",
+    "perlaENARM": "Viabilidad incierta con estabilidad materna: seguimiento estructurado y criterios diagnósticos conservadores antes de intervenir.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, páginas 3 y 6.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management."
+    ]
+  },
+  {
+    "id": "OBS-280",
+    "especialidad": "Obstetricia",
+    "tema": "Amenaza de aborto",
+    "subtema": "Toma de decisiones basada en evidencia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir el contenido de una fuente educativa tradicional de las recomendaciones contemporáneas y aplicar una decisión clínica individualizada.",
+    "caso": "En una revisión académica, un residente lee en el material ENARM que el tratamiento hormonal de la amenaza de aborto incluye gonadotropina coriónica antes de las 12 semanas y 17-hidroxiprogesterona después de ese límite. Una paciente con sangrado leve y embarazo intrauterino viable solicita que se le prescriba uno de esos fármacos.",
+    "pregunta": "¿Cuál es la conducta académica y clínica más rigurosa?",
+    "opciones": [
+      "Aplicar ambas pautas automáticamente porque aparecen en el material educativo",
+      "Revisar la evidencia y las guías actuales, evaluar los antecedentes de la paciente y evitar extrapolar esas pautas como tratamiento universal",
+      "Prescribir gonadotropina coriónica a toda paciente con sangrado temprano",
+      "Indicar 17-hidroxiprogesterona sin considerar edad gestacional ni antecedentes",
+      "Suspender la vigilancia porque el tratamiento hormonal elimina el riesgo de pérdida"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El material proporcionado presenta un esquema hormonal tradicional, pero esa mención no demuestra que sea eficaz ni que esté recomendado de forma universal. Las recomendaciones contemporáneas deben revisarse según el fármaco, la población estudiada y la guía aplicable. NICE, por ejemplo, recomienda progesterona micronizada vaginal en pacientes con sangrado temprano, embarazo intrauterino confirmado y antecedente de aborto, no el uso indiscriminado de cualquier progestágeno o gonadotropina.",
+    "perlaENARM": "Para preguntas de evidencia, diferencia lo que dice el material fuente de lo que recomiendan las guías actuales; no todos los esquemas históricos mantienen respaldo clínico.",
+    "bibliografia": [
+      "PDF proporcionado: Amenaza de Aborto, página 4.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management.",
+      "Coomarasamy A, et al. A Randomized Trial of Progesterone in Women with Bleeding in Early Pregnancy. N Engl J Med. 2019."
+    ]
+  },
+  {
+    "id": "OBS-281",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Definición y clasificación clínica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Clasificar la pérdida gestacional mediante la relación entre expulsión de tejido, estado cervical y hallazgos ecográficos.",
+    "caso": "Paciente de 28 años, embarazo de 10 semanas, acude por cólicos y sangrado transvaginal. Refiere haber expulsado tejido durante las últimas horas, pero continúa con hemorragia moderada. La exploración muestra cuello uterino dilatado y la ecografía identifica material heterogéneo intracavitario.",
+    "pregunta": "¿Qué clasificación clínica corresponde mejor al cuadro?",
+    "opciones": [
+      "Amenaza de aborto",
+      "Aborto completo",
+      "Aborto diferido",
+      "Aborto incompleto",
+      "Aborto recurrente"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El aborto incompleto ocurre cuando se expulsa una parte de los productos gestacionales, pero persiste tejido en la cavidad uterina. El sangrado, los cólicos, la dilatación cervical y el material intracavitario apoyan el diagnóstico. La estabilidad hemodinámica y la intensidad de la hemorragia determinan la urgencia del manejo.",
+    "perlaENARM": "Expulsión parcial más restos intrauterinos orienta a aborto incompleto; una cavidad vacía después de la expulsión completa apoya aborto completo.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, páginas 1-2.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. Obstetrics & Gynecology. 2018."
+    ]
+  },
+  {
+    "id": "OBS-282",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Aborto diferido",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar la muerte embrionaria o fetal retenida de los procesos de expulsión gestacional en curso.",
+    "caso": "Mujer de 33 años, embarazo de 9 semanas, acude a control por disminución de náuseas. Niega sangrado y dolor. La ecografía transvaginal confirma un embrión que cumple criterios diagnósticos de pérdida gestacional, sin expulsión de productos y con cuello uterino cerrado.",
+    "pregunta": "¿Qué entidad describe mejor esta presentación?",
+    "opciones": [
+      "Aborto diferido o pérdida gestacional retenida",
+      "Aborto incompleto",
+      "Aborto en evolución",
+      "Aborto séptico",
+      "Aborto completo"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El aborto diferido se caracteriza por muerte embrionaria o fetal sin expulsión espontánea inmediata de los productos gestacionales. Puede cursar con pocos síntomas y cuello cerrado. Antes de confirmar la pérdida deben cumplirse criterios ecográficos validados, evitando decisiones basadas exclusivamente en una estimación incierta de la edad gestacional.",
+    "perlaENARM": "Muerte embrionaria confirmada, ausencia de expulsión y cuello cerrado: aborto diferido; no equivale a aborto incompleto.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 1.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management."
+    ]
+  },
+  {
+    "id": "OBS-283",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Aborto completo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Integrar la evolución clínica y la ecografía para distinguir aborto completo de tejido retenido.",
+    "caso": "Paciente de 25 años, embarazo de 8 semanas, refiere expulsión espontánea de tejido seguida de disminución marcada del sangrado y desaparición de los cólicos. Está afebril, estable y la ecografía transvaginal no muestra saco gestacional ni hallazgos que sugieran productos retenidos.",
+    "pregunta": "¿Cuál es la clasificación más probable?",
+    "opciones": [
+      "Aborto en evolución",
+      "Aborto diferido",
+      "Aborto séptico",
+      "Aborto incompleto",
+      "Aborto completo"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La expulsión completa de los productos gestacionales, la mejoría clínica y la ausencia de hallazgos sugestivos de tejido retenido son compatibles con aborto completo. Si persisten sangrado, dolor o concentraciones hormonales anormales, debe reconsiderarse el diagnóstico y descartarse embarazo ectópico u otras complicaciones.",
+    "perlaENARM": "La desaparición del saco gestacional y la mejoría clínica apoyan aborto completo, pero los síntomas persistentes obligan a reevaluar.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, páginas 1-3.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-284",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Aborto en evolución",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la pérdida gestacional en curso mediante los cambios cervicales y la actividad uterina.",
+    "caso": "Mujer de 30 años con embarazo de 11 semanas presenta sangrado persistente y cólicos rítmicos. A la exploración se documentan borramiento y dilatación cervical; todavía no ha ocurrido la expulsión completa de los productos gestacionales.",
+    "pregunta": "¿Qué forma clínica de pérdida gestacional corresponde a la descripción del caso?",
+    "opciones": [
+      "Amenaza de aborto",
+      "Aborto en evolución",
+      "Aborto completo",
+      "Aborto diferido",
+      "Embarazo de localización desconocida"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El aborto en evolución se caracteriza por sangrado persistente, actividad uterina y modificaciones cervicales que indican progresión hacia la expulsión. Se diferencia de la amenaza de aborto, en la que el cuello permanece cerrado, y del aborto incompleto, donde ya ocurrió expulsión parcial.",
+    "perlaENARM": "Sangrado más actividad uterina y dilatación cervical orienta a pérdida gestacional en evolución.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, páginas 1-2.",
+      "Williams Obstetrics. 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-285",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Aborto inevitable",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir la pérdida gestacional inevitable de la amenaza de aborto y reconocer la relevancia de la ruptura de membranas.",
+    "caso": "Paciente de 10 semanas presenta hemorragia vaginal intensa y salida de líquido compatible con ruptura de membranas. La evaluación inicial no documenta actividad uterina reconocible y el cuello no presenta modificaciones claras. La ecografía y la exploración confirman un proceso gestacional no susceptible de continuar.",
+    "pregunta": "Según la clasificación clínica tradicional utilizada en el material proporcionado, ¿qué entidad se describe?",
+    "opciones": [
+      "Aborto completo",
+      "Amenaza de aborto",
+      "Aborto diferido",
+      "Aborto inminente o inevitable",
+      "Aborto recurrente"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El material distingue el aborto inminente o inevitable por hemorragia intensa y ruptura de membranas, sin que necesariamente se identifiquen todavía cambios cervicales o actividad uterina. En la práctica contemporánea, la clasificación debe integrarse con la evaluación ecográfica, el estado cervical y la situación clínica; el sangrado por sí solo no demuestra inviabilidad.",
+    "perlaENARM": "La amenaza de aborto requiere cuello cerrado y una gestación potencialmente viable; la clasificación de inevitable exige valorar el contexto completo.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, páginas 1-2.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-286",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Ecografía transvaginal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar criterios ecográficos de alta especificidad antes de diagnosticar pérdida gestacional temprana.",
+    "caso": "Paciente de 29 años con sangrado escaso. La ecografía transvaginal muestra un embrión con longitud cráneo-caudal de 6 mm, sin actividad cardiaca. La paciente permanece estable y desea evitar una intervención hasta tener certeza diagnóstica.",
+    "pregunta": "¿Cuál es la conducta diagnóstica más segura?",
+    "opciones": [
+      "Diagnosticar pérdida gestacional por la ausencia de latido en cualquier embrión visible",
+      "Realizar evacuación uterina inmediata por el sangrado",
+      "Considerar viabilidad incierta y repetir la ecografía en un intervalo apropiado",
+      "Administrar metotrexato de forma empírica",
+      "Confirmar el diagnóstico con una sola concentración de progesterona"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La ausencia de actividad cardiaca con longitud cráneo-caudal menor de 7 mm no confirma por sí sola una pérdida gestacional. Se recomienda repetir la ecografía transvaginal, habitualmente después de al menos 7 días según el contexto y el protocolo. Los criterios conservadores disminuyen el riesgo de interrumpir una gestación potencialmente viable.",
+    "perlaENARM": "Embrión menor de 7 mm sin actividad cardiaca: viabilidad incierta; no debe diagnosticarse pérdida definitiva con ese hallazgo aislado.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 3.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "Preisler J, et al. Defining safe criteria to diagnose miscarriage. BMJ. 2015."
+    ]
+  },
+  {
+    "id": "OBS-287",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Criterios ecográficos definitivos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar el umbral ecográfico del diámetro medio del saco gestacional que permite diagnosticar pérdida gestacional.",
+    "caso": "Paciente de 31 años con prueba de embarazo positiva y sangrado leve. La ecografía transvaginal técnicamente adecuada muestra un saco gestacional intrauterino con diámetro medio de 26 mm, sin embrión visible.",
+    "pregunta": "¿Qué conclusión está respaldada por los criterios ecográficos de alta especificidad?",
+    "opciones": [
+      "El hallazgo cumple un criterio diagnóstico de pérdida gestacional temprana",
+      "El resultado confirma embarazo ectópico",
+      "La paciente tiene necesariamente una mola completa",
+      "El diagnóstico es amenaza de aborto con viabilidad confirmada",
+      "Se requiere observar hasta el segundo trimestre antes de interpretar la imagen"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Un diámetro medio del saco gestacional de 25 mm o más sin embrión cumple un criterio ecográfico diagnóstico de pérdida gestacional temprana, siempre que la medición y la calidad de la imagen sean adecuadas. Antes de una intervención irreversible debe verificarse el hallazgo y documentarse la evaluación correspondiente.",
+    "perlaENARM": "Saco gestacional con diámetro medio de 25 mm o más sin embrión: criterio diagnóstico de pérdida gestacional temprana.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 3.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "Preisler J, et al. BMJ. 2015."
+    ]
+  },
+  {
+    "id": "OBS-288",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Etiología cromosómica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar las anomalías cromosómicas embrionarias con la etiología de la pérdida gestacional temprana.",
+    "caso": "Pareja consulta después de una pérdida gestacional espontánea a las 9 semanas. La paciente tiene 39 años y no presenta antecedentes conocidos de enfermedad autoinmune, alteraciones uterinas o diabetes descontrolada. Pregunta por la causa más frecuente de este tipo de pérdida.",
+    "pregunta": "¿Qué mecanismo explica una proporción importante de las pérdidas tempranas?",
+    "opciones": [
+      "Insuficiencia cervical como mecanismo predominante del primer trimestre",
+      "Infección bacteriana en todos los casos",
+      "Deficiencia universal de progesterona",
+      "Aneuploidías y otras anomalías cromosómicas embrionarias",
+      "Incompatibilidad ABO como causa predominante"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Las anomalías cromosómicas embrionarias explican aproximadamente la mitad de las pérdidas gestacionales tempranas en distintas series. Muchas ocurren de manera esporádica por errores de meiosis, no disyunción u otros mecanismos. La edad materna avanzada aumenta el riesgo de aneuploidía, aunque no permite establecer la causa de una pérdida individual sin estudios específicos.",
+    "perlaENARM": "Las anomalías cromosómicas son una causa principal de aborto temprano; la edad materna modifica el riesgo de aneuploidía.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, páginas 1-2.",
+      "Williams Obstetrics. 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-289",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Manejo expectante",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar el manejo expectante de acuerdo con la estabilidad clínica, el diagnóstico y las preferencias de la paciente.",
+    "caso": "Paciente de 27 años con pérdida gestacional temprana confirmada, saco gestacional intacto, cuello cerrado y signos vitales normales. No tiene fiebre, anemia significativa ni hemorragia importante. Prefiere evitar medicamentos y procedimientos si es seguro.",
+    "pregunta": "¿Qué alternativa puede ofrecerse después de discutir riesgos, beneficios y seguimiento?",
+    "opciones": [
+      "Evacuación quirúrgica obligatoria en todos los casos",
+      "Manejo expectante con instrucciones claras de alarma y seguimiento clínico",
+      "Metotrexato como primera línea para toda pérdida intrauterina",
+      "Antibióticos de amplio espectro aunque no haya datos de infección",
+      "Suspender toda vigilancia hasta que aparezca fiebre o dolor intenso"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El manejo expectante es una opción para pacientes clínicamente estables con pérdida gestacional confirmada que prefieren esperar la expulsión espontánea. Puede tardar días o semanas y no siempre logra resolución completa. Deben explicarse las alternativas, el control y los signos de alarma, así como las circunstancias que requieren cambiar la estrategia.",
+    "perlaENARM": "La elección entre manejo expectante, médico y quirúrgico depende de la estabilidad clínica, las contraindicaciones, las preferencias y la posibilidad de seguimiento.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 6.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management."
+    ]
+  },
+  {
+    "id": "OBS-290",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Manejo médico con misoprostol",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el papel del misoprostol en el tratamiento médico de la pérdida gestacional temprana confirmada.",
+    "caso": "Mujer de 30 años con pérdida gestacional temprana confirmada por ecografía, clínicamente estable y sin signos de infección. Desea manejo médico, comprende que puede presentar cólicos y sangrado y dispone de acceso a urgencias.",
+    "pregunta": "¿Cuál es el fundamento farmacológico del misoprostol en este escenario?",
+    "opciones": [
+      "Bloquear la síntesis de progesterona mediante antagonismo directo de sus receptores",
+      "Inhibir de manera irreversible la producción de gonadotropina coriónica",
+      "Provocar relajación uterina sostenida para impedir las contracciones",
+      "Eliminar selectivamente las anomalías cromosómicas embrionarias",
+      "Actuar como análogo de prostaglandina E1 y favorecer las contracciones uterinas y la expulsión del contenido"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El misoprostol es un análogo de prostaglandina E1 que induce contracciones uterinas y favorece la evacuación del contenido uterino. Puede producir dolor, sangrado, náusea, vómito, diarrea y fiebre transitoria. La pauta debe seleccionarse según el tipo de pérdida, la edad gestacional, las guías aplicables y la disponibilidad de seguimiento.",
+    "perlaENARM": "Misoprostol: análogo de prostaglandina E1; su efecto uterotónico explica la expulsión y los cólicos asociados.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 4.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "WHO. Abortion care guideline. 2022."
+    ]
+  },
+  {
+    "id": "OBS-291",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Mifepristona y misoprostol",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Explicar la función complementaria de la mifepristona y el misoprostol en el manejo médico de la pérdida gestacional temprana.",
+    "caso": "Paciente con pérdida gestacional temprana confirmada solicita información sobre la combinación de mifepristona y misoprostol. No presenta contraindicaciones clínicas y desea conocer por qué se utilizan ambos fármacos.",
+    "pregunta": "¿Qué mecanismo explica la utilidad de la combinación?",
+    "opciones": [
+      "La mifepristona estimula receptores de progesterona y bloquea las contracciones inducidas por misoprostol",
+      "Ambos fármacos actúan exclusivamente como analgésicos",
+      "La mifepristona antagoniza los receptores de progesterona y el misoprostol favorece las contracciones y la expulsión",
+      "El misoprostol inhibe las contracciones y la mifepristona aumenta la síntesis de progesterona",
+      "La combinación destruye selectivamente tejido cromosómicamente anormal sin afectar el útero"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La mifepristona es un antagonista de los receptores de progesterona que facilita el proceso de evacuación; el misoprostol induce contracciones uterinas. En pacientes elegibles, la combinación suele ser más eficaz que el misoprostol solo para determinados tipos de pérdida gestacional temprana. La pauta exacta depende del protocolo vigente.",
+    "perlaENARM": "Mifepristona: antagonismo de progesterona. Misoprostol: análogo de prostaglandina E1 con efecto uterotónico.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 4.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "WHO. Abortion care guideline. 2022."
+    ]
+  },
+  {
+    "id": "OBS-292",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Efectos adversos del misoprostol",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar efectos adversos esperados del tratamiento médico de signos de complicación que requieren atención urgente.",
+    "caso": "Paciente tratada con misoprostol por pérdida gestacional temprana presenta cólicos, sangrado mayor que una menstruación, náusea y diarrea. Está consciente, sin disnea ni síncope, y refiere que el sangrado ha comenzado a disminuir.",
+    "pregunta": "¿Cuál de las siguientes manifestaciones puede corresponder a un efecto adverso farmacológico esperado?",
+    "opciones": [
+      "Náusea y diarrea transitorias asociadas con el tratamiento",
+      "Hipotensión persistente con alteración del estado mental",
+      "Dolor abdominal progresivo con defensa involuntaria",
+      "Sangrado que empapa apósitos repetidamente acompañado de síncope",
+      "Fiebre persistente con secreción vaginal fétida y dolor uterino"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El misoprostol puede causar cólicos, sangrado, náusea, vómito, diarrea y fiebre transitoria. La intensidad y evolución de los síntomas son relevantes. La inestabilidad hemodinámica, el dolor progresivo, la hemorragia excesiva o los signos de infección requieren evaluación urgente y no deben atribuirse sin más al medicamento.",
+    "perlaENARM": "Diarrea y cólicos pueden ser efectos del misoprostol; síncope, choque, dolor progresivo o fiebre persistente obligan a descartar complicaciones.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 4.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-293",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Hemorragia posterior al tratamiento médico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar hemorragia excesiva después del uso de misoprostol y priorizar la evaluación urgente.",
+    "caso": "Paciente que recibió misoprostol por pérdida gestacional temprana refiere empapar dos apósitos grandes por hora durante dos horas consecutivas. Presenta mareo al ponerse de pie y palidez.",
+    "pregunta": "¿Qué conducta debe priorizarse?",
+    "opciones": [
+      "Indicar que el sangrado es normal y no requiere vigilancia",
+      "Esperar siete días antes de solicitar valoración",
+      "Administrar otra dosis de misoprostol sin reevaluación",
+      "Suspender toda atención hasta que el sangrado cese espontáneamente",
+      "Realizar evaluación urgente de hemorragia, estado hemodinámico y necesidad de tratamiento adicional"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El sangrado que empapa apósitos de forma repetida, especialmente con mareo y palidez, puede representar hemorragia significativa. Se requiere evaluación inmediata de signos vitales, cuantificación clínica, acceso vascular y estudios de laboratorio según gravedad. Puede ser necesario tratamiento médico adicional o evacuación uterina.",
+    "perlaENARM": "Sangrado excesivo acompañado de síntomas de hipovolemia no es una situación para observación domiciliaria.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 4.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "WHO. Abortion care guideline. 2022."
+    ]
+  },
+  {
+    "id": "OBS-294",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Seguimiento posterior al manejo médico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Planificar la confirmación de resolución después del tratamiento médico de una pérdida gestacional.",
+    "caso": "Paciente clínicamente estable recibió misoprostol por pérdida gestacional temprana. El sangrado ha disminuido y ya no tiene dolor intenso ni fiebre. Desea saber cómo confirmar que la evacuación fue completa.",
+    "pregunta": "¿Qué estrategia de seguimiento es razonable?",
+    "opciones": [
+      "No realizar seguimiento aunque persistan síntomas",
+      "Programar evaluación clínica y, según el protocolo y la evolución, ecografía de control aproximadamente entre 7 y 14 días después del inicio del tratamiento",
+      "Solicitar una tomografía computarizada a todas las pacientes",
+      "Realizar legrado obligatorio al día siguiente en todas las pacientes",
+      "Utilizar exclusivamente la temperatura corporal para confirmar la evacuación"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF propone una ecografía de control entre 7 y 14 días después de iniciar el tratamiento. En la práctica, la confirmación puede realizarse mediante seguimiento clínico, prueba hormonal o ecografía según el método utilizado, la disponibilidad y los síntomas. El sangrado persistente, la fiebre o el dolor progresivo requieren evaluación anticipada.",
+    "perlaENARM": "El seguimiento posterior al misoprostol confirma resolución y permite detectar tejido retenido o complicaciones; no todas las pacientes necesitan el mismo método.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 4.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management."
+    ]
+  },
+  {
+    "id": "OBS-295",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Manejo quirúrgico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer las indicaciones clínicas que favorecen la evacuación quirúrgica en una pérdida gestacional.",
+    "caso": "Paciente de 10 semanas con pérdida gestacional confirmada presenta hemorragia persistente, taquicardia y descenso de hemoglobina. La ecografía muestra tejido retenido. No hay tiempo clínico para esperar la expulsión espontánea.",
+    "pregunta": "¿Qué modalidad terapéutica debe considerarse prioritariamente después de iniciar la estabilización?",
+    "opciones": [
+      "Manejo expectante durante varias semanas",
+      "Progesterona vaginal para mantener la gestación",
+      "Seguimiento ecográfico sin tratamiento a pesar del deterioro",
+      "Evacuación uterina quirúrgica según las condiciones anatómicas y la experiencia disponible",
+      "Antibióticos profilácticos como único tratamiento de la hemorragia"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La hemorragia persistente con repercusión hemodinámica y tejido retenido constituye una indicación para manejo urgente, frecuentemente mediante evacuación quirúrgica. La reanimación y el tratamiento definitivo deben realizarse de forma coordinada. La elección de aspiración u otra técnica depende de la edad gestacional, la anatomía, el estado cervical y los recursos disponibles.",
+    "perlaENARM": "La inestabilidad o hemorragia importante desplaza la preferencia por manejo expectante y exige control urgente del sangrado.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 5.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-296",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "AMEU y evacuación uterina",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la aspiración manual endouterina como técnica de evacuación en pérdidas gestacionales seleccionadas.",
+    "caso": "Paciente de 9 semanas con aborto incompleto confirmado, sangrado persistente y necesidad de evacuación uterina. Se encuentra estable, la altura uterina es compatible con gestación temprana y el cuello presenta dilatación mínima.",
+    "pregunta": "¿Qué técnica se ajusta al escenario descrito en el material proporcionado?",
+    "opciones": [
+      "Aspiración manual endouterina, si la evaluación anatómica y las condiciones clínicas permiten su realización",
+      "Histerectomía como procedimiento inicial de rutina",
+      "Laparotomía para extraer el contenido uterino",
+      "Cerclaje cervical para detener la expulsión",
+      "Metotrexato como sustituto de toda evacuación uterina"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La aspiración manual endouterina es una técnica de evacuación utilizada en pérdidas gestacionales tempranas seleccionadas. El PDF menciona como referencias una altura uterina menor de 11 cm y dilatación cervical menor de 1 cm, aunque la selección real también depende del diagnóstico, los recursos, la experiencia del operador y el estado clínico.",
+    "perlaENARM": "AMEU es una opción de evacuación temprana; las dimensiones uterinas orientan, pero no sustituyen la valoración integral.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 5.",
+      "WHO. Abortion care guideline. 2022.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-297",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Complicaciones de la evacuación uterina",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar las complicaciones relacionadas con procedimientos de evacuación uterina y sus consecuencias reproductivas.",
+    "caso": "Paciente sometida a legrado uterino instrumentado por pérdida gestacional presenta amenorrea persistente después del procedimiento. La prueba de embarazo es negativa y no hay datos de infección activa. La evaluación posterior sugiere adherencias intrauterinas.",
+    "pregunta": "¿Qué complicación explica mejor la alteración menstrual?",
+    "opciones": [
+      "Insuficiencia ovárica aguda como complicación universal del legrado",
+      "Embarazo ectópico persistente",
+      "Síndrome de Asherman por formación de adherencias intrauterinas",
+      "Preeclampsia de inicio temprano",
+      "Síndrome de hiperestimulación ovárica"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El síndrome de Asherman consiste en adherencias intrauterinas que pueden aparecer después de instrumentación uterina y causar hipomenorrea, amenorrea o infertilidad. La sospecha se establece por la historia clínica y puede requerir evaluación de la cavidad uterina, frecuentemente mediante histeroscopia.",
+    "perlaENARM": "Amenorrea o alteración menstrual después de instrumentación uterina: considerar adherencias intrauterinas y síndrome de Asherman.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 5.",
+      "AAGL/ESGE. Practice guidelines on intrauterine adhesions."
+    ]
+  },
+  {
+    "id": "OBS-298",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Profilaxis antibiótica perioperatoria",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir la profilaxis antibiótica antes de una evacuación quirúrgica del tratamiento de una infección establecida.",
+    "caso": "Paciente sin fiebre ni signos de infección se someterá a aspiración uterina por pérdida gestacional temprana. No tiene alergias medicamentosas conocidas ni antecedentes de infección activa.",
+    "pregunta": "¿Cuál es el principio preventivo respaldado por guías para este procedimiento?",
+    "opciones": [
+      "Administrar antibióticos durante un mes a todas las pacientes",
+      "Omitir siempre la profilaxis porque el procedimiento es breve",
+      "Usar exclusivamente antifúngicos antes de la aspiración",
+      "Administrar tratamiento para sepsis aunque no existan datos infecciosos",
+      "Ofrecer profilaxis antibiótica perioperatoria según el protocolo vigente"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La profilaxis antibiótica perioperatoria reduce el riesgo de infección después de la evacuación quirúrgica de una pérdida gestacional. El fármaco y el momento de administración deben ajustarse a la guía vigente, las alergias y las circunstancias clínicas. Si existe infección establecida, la profilaxis no sustituye el tratamiento terapéutico.",
+    "perlaENARM": "Profilaxis antibiótica para evacuación quirúrgica y antibióticos de amplio espectro para aborto séptico son indicaciones distintas.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 5.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "WHO. Abortion care guideline. 2022."
+    ]
+  },
+  {
+    "id": "OBS-299",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Aborto séptico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el aborto séptico como urgencia obstétrica que requiere antibióticos, estabilización y control del foco.",
+    "caso": "Paciente de 11 semanas con antecedente de manipulación uterina no segura presenta fiebre de 39 °C, taquicardia, hipotensión, dolor uterino y secreción vaginal fétida. Se encuentra confusa y con lactato elevado.",
+    "pregunta": "¿Qué estrategia terapéutica integra los componentes esenciales del manejo inicial?",
+    "opciones": [
+      "Esperar los cultivos antes de administrar cualquier antibiótico",
+      "Estabilización y manejo de sepsis, antibióticos intravenosos de amplio espectro y evaluación urgente para control del foco",
+      "Indicar solamente analgésicos y reposo domiciliario",
+      "Administrar progesterona para detener la hemorragia",
+      "Posponer el control del foco hasta que la fiebre desaparezca espontáneamente"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El aborto séptico es una emergencia. Se requiere reanimación, antibióticos intravenosos de amplio espectro sin retrasos innecesarios y control del foco mediante evacuación uterina cuando esté indicada, con vigilancia estrecha y manejo de disfunción orgánica. Los cultivos son útiles, pero no deben retrasar el tratamiento de una sepsis probable.",
+    "perlaENARM": "Aborto séptico: antibióticos tempranos, estabilización y control del foco; no esperar resultados microbiológicos para tratar una sepsis probable.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, páginas 3, 5 y 8.",
+      "WHO. Abortion care guideline. 2022.",
+      "Surviving Sepsis Campaign. International Guidelines for Management of Sepsis and Septic Shock."
+    ]
+  },
+  {
+    "id": "OBS-300",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Aborto séptico por Clostridium perfringens",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la hemólisis y la presencia de gas intramiometrial con una infección clostridial grave.",
+    "caso": "Paciente con antecedente de aborto complicado desarrolla deterioro rápido, fiebre, hipotensión, anemia hemolítica y hemoglobinuria. La imagen muestra gas en la pared uterina y el laboratorio microbiológico informa bacilos grampositivos grandes.",
+    "pregunta": "¿Qué microorganismo debe sospecharse especialmente ante esta combinación?",
+    "opciones": [
+      "Treponema pallidum",
+      "Chlamydia trachomatis",
+      "Toxoplasma gondii",
+      "Clostridium perfringens",
+      "Candida albicans"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Clostridium perfringens puede producir infección invasiva con formación de gas y hemólisis intravascular grave. El cuadro requiere intervención urgente, antibióticos apropiados, control del foco y valoración multidisciplinaria por el riesgo de choque y falla orgánica.",
+    "perlaENARM": "Hemólisis intravascular más gas intramiometrial después de aborto: sospechar infección clostridial grave.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 3.",
+      "Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases."
+    ]
+  },
+  {
+    "id": "OBS-301",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Estadificación del aborto séptico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar la extensión anatómica de una infección asociada a aborto según la clasificación del material proporcionado.",
+    "caso": "Paciente con aborto séptico presenta infección que afecta endometrio y miometrio, sin evidencia clínica o radiológica de extensión anexial ni peritonitis generalizada.",
+    "pregunta": "Según la clasificación anatómica de tres estadios incluida en el PDF, ¿qué estadio corresponde?",
+    "opciones": [
+      "Estadio 1",
+      "Estadio 2",
+      "Estadio 3",
+      "Estadio 4",
+      "No puede clasificarse porque no existe hemorragia"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF clasifica el estadio 1 como afectación de endometrio y miometrio, el estadio 2 como extensión a anexos y el estadio 3 como peritonitis generalizada. Esta clasificación didáctica no reemplaza la valoración contemporánea de sepsis, choque y disfunción orgánica.",
+    "perlaENARM": "En el esquema del PDF: estadio 1, endometrio y miometrio; estadio 2, anexos; estadio 3, peritonitis generalizada.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 3.",
+      "Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases."
+    ]
+  },
+  {
+    "id": "OBS-302",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Aborto séptico y evacuación uterina",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar el retraso del control del foco en una infección uterina grave.",
+    "caso": "Paciente con aborto séptico recibe antibióticos intravenosos y reanimación inicial. La ecografía identifica productos retenidos y persisten fiebre, dolor uterino y deterioro hemodinámico.",
+    "pregunta": "¿Qué principio debe guiar el momento del control del foco?",
+    "opciones": [
+      "Esperar 72 horas para comprobar si los antibióticos eliminan los restos",
+      "Realizar la evacuación solo después de obtener todos los resultados microbiológicos",
+      "Evitar la evacuación en cualquier paciente con sospecha de sepsis",
+      "Dar de alta cuando la temperatura descienda temporalmente",
+      "Proceder a control urgente del foco mediante evacuación uterina cuando esté indicada, con soporte y antibióticos"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "En el aborto séptico con productos retenidos, el control del foco es un componente esencial del tratamiento. Debe coordinarse con la estabilización y la antibioticoterapia, sin retrasos innecesarios. La técnica se selecciona según la edad gestacional, la anatomía y las condiciones clínicas.",
+    "perlaENARM": "La sepsis obstétrica requiere tratamiento antimicrobiano y control oportuno del foco; los antibióticos solos pueden ser insuficientes si persiste tejido infectado.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, páginas 5 y 8.",
+      "WHO. Abortion care guideline. 2022.",
+      "Surviving Sepsis Campaign. International Guidelines for Management of Sepsis and Septic Shock."
+    ]
+  },
+  {
+    "id": "OBS-303",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Isoinmunización Rh y pérdida gestacional",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Individualizar la profilaxis anti-D después de una pérdida gestacional de acuerdo con la edad gestacional y las recomendaciones vigentes.",
+    "caso": "Paciente Rh negativa, sin sensibilización conocida, presenta pérdida gestacional temprana confirmada y será sometida a evacuación uterina. El equipo debe planificar la atención posterior al procedimiento.",
+    "pregunta": "¿Qué aspecto debe revisarse para prevenir aloinmunización Rh cuando corresponda?",
+    "opciones": [
+      "Administrar inmunoglobulina anti-D a todas las pacientes independientemente de su grupo sanguíneo",
+      "Ignorar el Rh porque se trata de una pérdida temprana",
+      "Revisar la edad gestacional, el tipo de evento y la guía vigente para decidir la profilaxis anti-D",
+      "Administrar metotrexato para prevenir la sensibilización",
+      "Realizar transfusión sanguínea profiláctica en todas las pacientes Rh negativas"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF recomienda anti-D en pacientes Rh negativas después de la evacuación. Sin embargo, las recomendaciones actuales varían según la edad gestacional y el tipo de pérdida o procedimiento. Debe verificarse el protocolo aplicable, el estado de sensibilización y la situación clínica antes de decidir la profilaxis.",
+    "perlaENARM": "Rh negativo no sensibilizado: valorar anti-D según edad gestacional, tipo de evento y guía vigente; no aplicar un esquema universal sin contexto.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 4.",
+      "ACOG. Clinical Practice Update on Rh D immune globulin administration after pregnancy loss in pregnancies less than 12 weeks.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management."
+    ]
+  },
+  {
+    "id": "OBS-304",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Aborto recurrente",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la definición contemporánea de pérdida gestacional recurrente y diferenciarla de la definición histórica.",
+    "caso": "Paciente de 32 años consulta después de dos pérdidas gestacionales espontáneas consecutivas antes de las 10 semanas. No tiene hijos vivos y pregunta si necesita evaluación especializada.",
+    "pregunta": "¿Cuál es la afirmación más adecuada sobre la clasificación y el estudio?",
+    "opciones": [
+      "Solo se considera recurrente después de cinco pérdidas",
+      "Dos pérdidas pueden justificar evaluación de pérdida gestacional recurrente, según la guía aplicada",
+      "Las dos pérdidas deben haber ocurrido después de las 20 semanas",
+      "No se debe investigar hasta que ocurra una pérdida adicional en todos los casos",
+      "El diagnóstico exige que ambas pérdidas hayan sido ectópicas"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF define aborto recurrente como dos o más pérdidas espontáneas consecutivas o alternas. Diversas guías contemporáneas permiten iniciar evaluación después de dos pérdidas, aunque las definiciones y el alcance del estudio varían. La evaluación debe individualizarse y no asumir una única causa común.",
+    "perlaENARM": "Dos pérdidas gestacionales pueden justificar estudio de recurrencia; especifica siempre la definición utilizada por la guía.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, páginas 1 y 7.",
+      "ASRM. Evaluation and treatment of recurrent pregnancy loss.",
+      "ESHRE. Guideline on recurrent pregnancy loss."
+    ]
+  },
+  {
+    "id": "OBS-305",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Estudio genético de la pareja",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar la evaluación genética parental cuando existen antecedentes que sugieren una alteración cromosómica estructural.",
+    "caso": "Pareja con tres pérdidas gestacionales tempranas. La paciente tuvo su segunda pérdida a edad reproductiva joven y ambos miembros de la pareja refieren varios familiares con abortos recurrentes. No se dispone de estudio genético de los productos gestacionales.",
+    "pregunta": "¿Qué estudio contempla el material proporcionado cuando se sospecha una alteración cromosómica parental?",
+    "opciones": [
+      "Concentración sérica de progesterona de ambos miembros como prueba definitiva",
+      "Biopsia endometrial como único estudio genético",
+      "Histerosalpingografía para identificar translocaciones",
+      "Cariotipo de ambos progenitores, acompañado de consejería genética según los resultados",
+      "Cultivo vaginal como método de detección de translocaciones"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Una proporción pequeña de parejas con pérdidas recurrentes presenta alteraciones cromosómicas estructurales, como translocaciones balanceadas. El PDF propone cariotipo de ambos padres en escenarios con factores de riesgo de anomalía cromosómica. Las guías contemporáneas recomiendan individualizar el estudio genético y considerar también el análisis de productos gestacionales cuando esté disponible y sea apropiado.",
+    "perlaENARM": "Ante pérdidas recurrentes y sospecha de anomalía estructural, el cariotipo parental y la consejería genética pueden modificar la evaluación reproductiva.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 7.",
+      "ASRM. Evaluation and treatment of recurrent pregnancy loss.",
+      "ESHRE. Guideline on recurrent pregnancy loss."
+    ]
+  },
+  {
+    "id": "OBS-306",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Malformaciones uterinas y recurrencia",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar estudios de imagen para evaluar anomalías uterinas en pacientes con pérdidas gestacionales recurrentes.",
+    "caso": "Mujer de 30 años con tres pérdidas gestacionales, dos de ellas después de las 12 semanas. La exploración no revela alteraciones cervicales evidentes y no se ha realizado evaluación anatómica de la cavidad uterina.",
+    "pregunta": "¿Qué estudio inicial menciona el PDF para investigar malformaciones uterinas en este contexto?",
+    "opciones": [
+      "Ultrasonido pélvico bidimensional",
+      "Radiografía simple de abdomen",
+      "Tomografía computarizada de pelvis como prueba universal",
+      "Biopsia endometrial obligatoria antes de cualquier imagen",
+      "Histerosalpingografía como único estudio recomendado para todas las pacientes"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF señala el ultrasonido pélvico bidimensional como primera elección para estudiar malformaciones uterinas en pérdidas recurrentes. En la práctica, la selección puede incluir ecografía transvaginal tridimensional, sonohisterografía u otras técnicas según los hallazgos y la disponibilidad.",
+    "perlaENARM": "Pérdidas recurrentes, especialmente con pérdidas más tardías: evaluar anatomía uterina; la técnica de imagen se selecciona según el contexto.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 7.",
+      "ASRM. Evaluation and treatment of recurrent pregnancy loss.",
+      "ESHRE. Guideline on recurrent pregnancy loss."
+    ]
+  },
+  {
+    "id": "OBS-307",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Insuficiencia cervical",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir la insuficiencia cervical de las pérdidas tempranas asociadas a anomalías cromosómicas.",
+    "caso": "Paciente de 29 años refiere tres pérdidas del segundo trimestre, precedidas por dilatación cervical poco dolorosa y expulsión fetal rápida. No recuerda contracciones intensas antes de la dilatación y no hay antecedentes de infección documentada.",
+    "pregunta": "¿Qué entidad debe investigarse de manera prioritaria?",
+    "opciones": [
+      "Aneuploidía como explicación demostrada de todas las pérdidas",
+      "Embarazo ectópico recurrente",
+      "Insuficiencia cervical",
+      "Síndrome de hiperestimulación ovárica",
+      "Preeclampsia recurrente"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Las pérdidas del segundo trimestre asociadas con dilatación cervical poco dolorosa sugieren insuficiencia cervical. El antecedente obstétrico es central para la evaluación y puede orientar la prevención en una gestación posterior, incluida la consideración de cerclaje en pacientes seleccionadas.",
+    "perlaENARM": "Pérdidas del segundo trimestre con dilatación cervical indolora: sospechar insuficiencia cervical y revisar indicaciones de cerclaje.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 7.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-308",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Diabetes y pérdidas recurrentes",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar el control metabólico con el riesgo de pérdida gestacional y evitar estudios de tamizaje indiscriminados.",
+    "caso": "Paciente con diabetes mellitus tipo 1 y pérdidas gestacionales previas presenta hemoglobina glucosilada elevada antes de intentar un nuevo embarazo. No existen datos de infección ni enfermedad tiroidea conocida.",
+    "pregunta": "¿Qué intervención tiene mayor relevancia para disminuir riesgos metabólicos modificables antes de una nueva gestación?",
+    "opciones": [
+      "Administrar antibióticos de amplio espectro durante todo el embarazo",
+      "Indicar reposo absoluto desde la prueba de embarazo positiva",
+      "Solicitar histerectomía profiláctica",
+      "Suspender insulina durante la búsqueda del embarazo",
+      "Optimizar el control glucémico antes de la concepción y mantener seguimiento especializado"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La diabetes mal controlada se asocia con mayor riesgo de pérdida gestacional y malformaciones fetales. Optimizar la glucemia antes de la concepción y durante el embarazo es una intervención importante. El PDF señala que no debe solicitarse tamizaje rutinario de diabetes a todas las pacientes con aborto recurrente, pero sí controlar rigurosamente una diabetes ya conocida.",
+    "perlaENARM": "Diabetes conocida y mal controlada: optimizar antes de la concepción; no confundir tratamiento de una enfermedad establecida con tamizaje universal.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, páginas 2 y 7.",
+      "American Diabetes Association. Standards of Care in Diabetes: Management of Diabetes in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-309",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Síndrome antifosfolípido",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer cuándo investigar síndrome antifosfolípido en pacientes con pérdida gestacional recurrente.",
+    "caso": "Mujer de 34 años con tres pérdidas gestacionales tempranas y antecedente personal de trombosis venosa profunda. No tiene diagnóstico previo de enfermedad autoinmune y desea una nueva gestación.",
+    "pregunta": "¿Qué evaluación etiológica resulta especialmente relevante?",
+    "opciones": [
+      "Cultivo vaginal como prueba confirmatoria del síndrome",
+      "Evaluación inmunológica dirigida para síndrome antifosfolípido, con pruebas apropiadas y confirmación temporal según los criterios diagnósticos",
+      "Cariotipo fetal de un embarazo futuro como único estudio",
+      "Prueba de tolerancia a la glucosa como única evaluación",
+      "Histerosalpingografía como prueba de trombofilia"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Las pérdidas gestacionales recurrentes junto con antecedente de trombosis justifican investigar síndrome antifosfolípido. La evaluación incluye anticoagulante lúpico, anticardiolipina y anticuerpos anti-β2-glicoproteína I, interpretados en el contexto clínico y con persistencia de positividad según los criterios establecidos. Un resultado aislado no confirma por sí mismo el síndrome.",
+    "perlaENARM": "Pérdidas gestacionales y trombosis: considerar síndrome antifosfolípido y confirmar la persistencia de anticuerpos en el intervalo requerido.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, páginas 2 y 8.",
+      "EULAR recommendations for the management of antiphospholipid syndrome in adults.",
+      "ASRM. Evaluation and treatment of recurrent pregnancy loss."
+    ]
+  },
+  {
+    "id": "OBS-310",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Tratamiento del síndrome antifosfolípido obstétrico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar el esquema antitrombótico utilizado en pacientes seleccionadas con síndrome antifosfolípido obstétrico.",
+    "caso": "Paciente con pérdidas gestacionales recurrentes cumple criterios clínicos y de laboratorio para síndrome antifosfolípido obstétrico. No tiene hemorragia activa ni contraindicaciones para tratamiento antitrombótico y planea un nuevo embarazo.",
+    "pregunta": "¿Qué estrategia se utiliza habitualmente en pacientes seleccionadas con síndrome antifosfolípido obstétrico?",
+    "opciones": [
+      "Warfarina durante toda la gestación como primera elección universal",
+      "Metotrexato semanal para prevenir pérdidas",
+      "Antibióticos profilácticos hasta el parto",
+      "Ácido acetilsalicílico a dosis baja más heparina, de acuerdo con la indicación y la guía aplicable",
+      "Ningún seguimiento porque los anticuerpos desaparecen siempre"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "En pacientes seleccionadas con síndrome antifosfolípido obstétrico, la combinación de ácido acetilsalicílico a dosis baja y heparina puede mejorar los resultados gestacionales. La elección de dosis, tipo de heparina y momento de inicio depende de los criterios diagnósticos, el riesgo trombótico y la guía especializada. No debe extrapolarse a toda paciente con pérdida gestacional sin diagnóstico de síndrome antifosfolípido.",
+    "perlaENARM": "AAS a dosis baja más heparina es una estrategia para pacientes seleccionadas con síndrome antifosfolípido obstétrico, no para todas las pérdidas recurrentes.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 8.",
+      "EULAR recommendations for the management of antiphospholipid syndrome in adults.",
+      "ASRM. Evaluation and treatment of recurrent pregnancy loss."
+    ]
+  },
+  {
+    "id": "OBS-311",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Estudios infecciosos en pérdidas recurrentes",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Evitar paneles infecciosos indiscriminados en la evaluación de pérdida gestacional recurrente.",
+    "caso": "Paciente de 31 años con dos pérdidas gestacionales tempranas, sin fiebre, secreción anormal, síntomas urinarios ni exposición infecciosa específica. Solicita un panel amplio de serologías y cultivos porque teme que una infección no detectada sea la causa.",
+    "pregunta": "¿Qué enfoque diagnóstico es más congruente con una evaluación basada en evidencia?",
+    "opciones": [
+      "Solicitar pruebas dirigidas por la historia clínica y los factores de riesgo, evitando atribuir todas las pérdidas a infección sin evidencia",
+      "Prescribir antibióticos empíricos durante seis meses",
+      "Realizar pruebas para todos los microorganismos disponibles a todas las pacientes",
+      "Afirmar que toda pérdida temprana es secundaria a una infección genital",
+      "Omitir la evaluación clínica porque no hay fiebre"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El material enumera diversas infecciones como factores potenciales, pero no establece que deban realizarse paneles infecciosos universales en toda pérdida recurrente. La evaluación debe ser dirigida por síntomas, antecedentes y recomendaciones vigentes, evitando tratamientos empíricos sin indicación.",
+    "perlaENARM": "No todo aborto es infeccioso; solicita pruebas dirigidas por la sospecha clínica y evita antibióticos empíricos sin diagnóstico.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, páginas 2 y 7-8.",
+      "ASRM. Evaluation and treatment of recurrent pregnancy loss.",
+      "ESHRE. Guideline on recurrent pregnancy loss."
+    ]
+  },
+  {
+    "id": "OBS-312",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Progesterona y pronóstico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar la progesterona sérica como marcador pronóstico sin convertirla en una prueba aislada de diagnóstico definitivo.",
+    "caso": "Paciente con sangrado temprano y embarazo de localización aún no determinada presenta progesterona sérica baja. Está estable y no tiene dolor intenso. Se plantea utilizar el resultado como única base para indicar evacuación uterina.",
+    "pregunta": "¿Cuál es la interpretación más rigurosa de la progesterona baja?",
+    "opciones": [
+      "Confirma embarazo ectópico",
+      "Demuestra una aneuploidía específica",
+      "Confirma por sí sola aborto completo",
+      "Establece que la evacuación uterina es obligatoria",
+      "Puede asociarse con menor probabilidad de viabilidad, pero no determina por sí sola la localización ni justifica una intervención irreversible"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Una concentración baja de progesterona puede asociarse con una gestación no viable, pero no diferencia de forma fiable un embarazo ectópico de una pérdida intrauterina ni confirma por sí sola el diagnóstico. Debe integrarse con la clínica, la β-hCG seriada y la ecografía.",
+    "perlaENARM": "La progesterona puede aportar información pronóstica, pero no localiza la gestación ni sustituye los criterios diagnósticos ecográficos.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 6.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-313",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Diagnóstico diferencial del sangrado",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar causas cervicovaginales del sangrado que pueden simular una pérdida gestacional.",
+    "caso": "Paciente de 27 años, embarazo de 9 semanas con actividad cardiaca embrionaria confirmada, presenta manchado después de relaciones sexuales. No tiene dolor abdominal ni fiebre. La exploración con espéculo muestra una lesión cervical friable que sangra al contacto.",
+    "pregunta": "¿Qué mecanismo puede explicar el sangrado sin demostrar pérdida gestacional?",
+    "opciones": [
+      "Aborto diferido confirmado por la presencia de sangrado",
+      "Embarazo ectópico a pesar de la gestación intrauterina documentada",
+      "Sangrado de origen cervicovaginal, como friabilidad, ectropión, pólipo o cervicitis",
+      "Aneuploidía demostrada por la exploración cervical",
+      "Aborto completo con productos retenidos"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El sangrado del primer trimestre no siempre procede de la cavidad uterina. Las alteraciones cervicales, la friabilidad, los pólipos, el trauma y las infecciones cervicovaginales pueden producir manchado. La evaluación debe identificar la fuente y mantener vigilancia obstétrica según los hallazgos.",
+    "perlaENARM": "Embarazo viable más sangrado poscoital: examinar el cuello uterino y no atribuir automáticamente el sangrado a pérdida gestacional.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 3.",
+      "Williams Obstetrics. 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-314",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Hemorragia subcoriónica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir el hematoma subcoriónico de la pérdida gestacional confirmada.",
+    "caso": "Mujer de 29 años con sangrado escaso a las 8 semanas. La ecografía transvaginal muestra embrión con actividad cardiaca y colección hemática subcoriónica pequeña. El cuello uterino está cerrado y la paciente permanece estable.",
+    "pregunta": "¿Qué interpretación del hallazgo es adecuada?",
+    "opciones": [
+      "Confirma inevitablemente aborto completo",
+      "Puede asociarse con mayor riesgo de pérdida, pero no confirma por sí mismo inviabilidad",
+      "Demuestra infección uterina invasiva",
+      "Es diagnóstico de embarazo ectópico",
+      "Obliga a realizar evacuación uterina inmediata"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El hematoma subcoriónico puede asociarse con un riesgo aumentado de pérdida gestacional, dependiendo de características clínicas y ecográficas. Sin embargo, la actividad cardiaca y el resto de la evaluación deben considerarse en conjunto. No es un criterio diagnóstico de inviabilidad ni una indicación automática de cirugía.",
+    "perlaENARM": "Hematoma subcoriónico es un hallazgo pronóstico; no equivale a aborto confirmado.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 3.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-315",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Edad materna y riesgo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar el efecto de la edad materna sobre la probabilidad de pérdida gestacional sin convertirlo en un diagnóstico individual.",
+    "caso": "Paciente de 42 años con antecedente de una pérdida temprana consulta durante un nuevo embarazo de 7 semanas. La ecografía identifica gestación intrauterina con actividad cardiaca. La paciente teme que su edad haga inevitable otra pérdida.",
+    "pregunta": "¿Qué información pronóstica debe comunicarse?",
+    "opciones": [
+      "La edad avanzada confirma que el embarazo presenta una anomalía cromosómica",
+      "La actividad cardiaca elimina completamente el riesgo de pérdida",
+      "La edad materna no tiene ninguna relación con la probabilidad de aborto",
+      "La edad avanzada incrementa el riesgo de aneuploidía y pérdida, pero no determina el desenlace individual",
+      "Una pérdida previa implica que todos los embarazos posteriores terminarán en aborto"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El riesgo de pérdida gestacional y aneuploidía aumenta con la edad materna, especialmente a partir de los 40 años. No obstante, la edad y un antecedente aislado no permiten predecir con certeza el desenlace de una gestación individual. La consejería debe integrar la ecografía, los antecedentes y las opciones de tamizaje prenatal.",
+    "perlaENARM": "La edad materna modifica el riesgo, pero no establece por sí sola el diagnóstico ni el desenlace de la gestación.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 2.",
+      "Williams Obstetrics. 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-316",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Complicaciones hemodinámicas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar el tratamiento de la hemorragia y el choque en una paciente con pérdida gestacional.",
+    "caso": "Paciente con aborto incompleto presenta hemorragia vaginal abundante, presión arterial de 78/46 mmHg, frecuencia cardiaca de 136 lpm, piel fría y alteración del estado mental. La ecografía identifica restos intracavitarios.",
+    "pregunta": "¿Qué intervención debe encabezar el manejo inmediato?",
+    "opciones": [
+      "Reanimación hemodinámica inmediata y control urgente de la hemorragia, coordinando la evacuación cuando esté indicada",
+      "Esperar el resultado del cariotipo de los productos gestacionales",
+      "Iniciar únicamente suplementos de hierro por vía oral",
+      "Indicar manejo expectante domiciliario",
+      "Realizar una ecografía de control en dos semanas antes de intervenir"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La hipotensión, taquicardia y alteración del estado mental indican choque hemorrágico hasta demostrar lo contrario. La atención requiere reanimación, accesos vasculares, estudios y hemoderivados según la respuesta clínica, además de control urgente de la fuente de sangrado. La evaluación diagnóstica no debe retrasar la estabilización.",
+    "perlaENARM": "En choque por hemorragia obstétrica, estabilización y control de la fuente son prioritarios; no esperar estudios etiológicos no urgentes.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, páginas 5 y 8.",
+      "IMSS/CENETEC. Guías de Práctica Clínica para emergencias obstétricas.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-317",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Acompañamiento psicológico",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Integrar el apoyo emocional y la detección de síntomas psicológicos en la atención posterior a una pérdida gestacional.",
+    "caso": "Paciente de 34 años recibió manejo por pérdida gestacional temprana. En la consulta de seguimiento refiere culpa intensa, insomnio, aislamiento y dificultad para realizar sus actividades cotidianas. Su pareja también expresa malestar importante.",
+    "pregunta": "¿Qué componente debe incorporarse al plan de atención?",
+    "opciones": [
+      "Evitar hablar de la pérdida para prevenir mayor sufrimiento",
+      "Afirmar que los síntomas emocionales siempre desaparecen sin apoyo",
+      "Ofrecer escucha, evaluación de síntomas psicológicos y acceso a apoyo profesional, incluyendo a la pareja cuando sea apropiado",
+      "Suspender el seguimiento médico porque la pérdida ya se resolvió",
+      "Prescribir sedantes de forma automática sin valorar síntomas ni riesgos"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La pérdida gestacional puede acompañarse de duelo, ansiedad, depresión y culpa. La atención debe ser empática, reconocer las necesidades individuales y ofrecer seguimiento y apoyo psicológico cuando se requiera. El PDF enfatiza que el apoyo también puede extenderse a la pareja y familiares que lo necesiten.",
+    "perlaENARM": "La atención integral después de una pérdida gestacional incluye salud física, información clara y evaluación del bienestar psicológico.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 6.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018."
+    ]
+  },
+  {
+    "id": "OBS-318",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Criterios de referencia",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer signos clínicos que requieren referencia urgente después de una pérdida gestacional.",
+    "caso": "Paciente atendida inicialmente por aborto incompleto regresa con fiebre de 38.8 °C, dolor abdominal progresivo, flujo vaginal fétido, taquicardia y presión arterial descendente. Refiere manipulación uterina previa fuera de un entorno médico.",
+    "pregunta": "¿Qué decisión asistencial se justifica por la combinación de hallazgos?",
+    "opciones": [
+      "Cita de control rutinaria en un mes",
+      "Referencia urgente para evaluación de infección grave, sepsis y posible tejido retenido",
+      "Manejo exclusivamente ambulatorio con analgésicos",
+      "Suspender el seguimiento porque el sangrado es frecuente después de un aborto",
+      "Indicar únicamente ácido fólico"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Fiebre, dolor progresivo, secreción fétida, taquicardia e hipotensión sugieren infección obstétrica grave y posible sepsis. La paciente requiere evaluación urgente, reanimación, antibióticos intravenosos y valoración del control del foco. El antecedente de manipulación uterina aumenta la preocupación clínica.",
+    "perlaENARM": "Fiebre, dolor uterino, secreción fétida y compromiso hemodinámico después de un aborto requieren atención urgente por posible sepsis.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, página 8.",
+      "WHO. Abortion care guideline. 2022.",
+      "Surviving Sepsis Campaign. International Guidelines for Management of Sepsis and Septic Shock."
+    ]
+  },
+  {
+    "id": "OBS-319",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Elección del tratamiento y preferencias de la paciente",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar estabilidad clínica, preferencias informadas y disponibilidad de seguimiento al elegir entre manejo expectante, médico y quirúrgico.",
+    "caso": "Paciente de 26 años con pérdida gestacional temprana confirmada, sin fiebre, hemorragia importante ni anemia sintomática. Comprende las opciones terapéuticas y prefiere evitar cirugía, pero desea una resolución más predecible que la espera espontánea.",
+    "pregunta": "¿Qué opción se ajusta mejor a sus preferencias después de revisar contraindicaciones y protocolo local?",
+    "opciones": [
+      "Cirugía obligatoria, aunque no existan indicaciones clínicas y la paciente rechace el procedimiento",
+      "Manejo expectante sin explicar la duración ni los signos de alarma",
+      "Antibióticos de amplio espectro como tratamiento de la pérdida gestacional no infectada",
+      "Manejo médico con el esquema apropiado y seguimiento para confirmar resolución",
+      "Suspender todo seguimiento después de administrar la primera dosis"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "En pacientes estables con pérdida gestacional confirmada, el manejo médico es una alternativa al manejo expectante y quirúrgico. Deben discutirse eficacia, tiempo esperado, dolor, sangrado, efectos adversos, contraindicaciones y seguimiento. La elección compartida respeta las preferencias sin comprometer la seguridad clínica.",
+    "perlaENARM": "En una pérdida gestacional estable, el manejo médico es una alternativa válida; la hemorragia, la infección o la inestabilidad modifican la prioridad terapéutica.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, páginas 4-6.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management."
+    ]
+  },
+  {
+    "id": "OBS-320",
+    "especialidad": "Obstetricia",
+    "tema": "Aborto espontáneo",
+    "subtema": "Integración diagnóstica y terapéutica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar diagnóstico ecográfico, estabilidad hemodinámica y elección terapéutica individualizada en una pérdida gestacional temprana.",
+    "caso": "Paciente de 32 años con embarazo de 9 semanas presenta sangrado moderado y cólicos. La ecografía transvaginal confirma pérdida gestacional temprana mediante criterios diagnósticos válidos. Está hemodinámicamente estable, sin fiebre, sin datos de infección ni anemia significativa. Desea evitar cirugía y puede acudir a seguimiento.",
+    "pregunta": "¿Qué plan integra adecuadamente el diagnóstico confirmado y las preferencias de la paciente?",
+    "opciones": [
+      "Ofrecer manejo médico o expectante tras explicar riesgos, beneficios, signos de alarma y seguimiento, respetando su preferencia informada",
+      "Administrar metotrexato porque cualquier pérdida temprana es un embarazo ectópico",
+      "Indicar histerectomía para evitar recurrencias",
+      "Realizar legrado urgente de manera obligatoria aunque no existan indicaciones clínicas",
+      "Dar de alta sin instrucciones porque la estabilidad garantiza expulsión completa"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Una pérdida gestacional temprana confirmada en una paciente estable puede manejarse de forma expectante, médica o quirúrgica, según la situación clínica, las preferencias, las contraindicaciones y los recursos disponibles. Si se elige manejo médico o expectante, debe existir un plan de seguimiento y educación sobre hemorragia excesiva, fiebre, dolor progresivo y otros signos de alarma.",
+    "perlaENARM": "Diagnóstico confirmado más estabilidad permite decisión compartida entre manejo expectante, médico y quirúrgico; la hemorragia o infección cambia la prioridad.",
+    "bibliografia": [
+      "PDF proporcionado: Aborto Espontáneo, páginas 4-6.",
+      "ACOG. Practice Bulletin No. 200: Early Pregnancy Loss. 2018.",
+      "NICE. NG126: Ectopic pregnancy and miscarriage: diagnosis and initial management."
+    ]
+  },
+  {
+    "id": "OBS-321",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Definición y fisiopatología",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la presentación clínica característica de la insuficiencia cervical y distinguirla del trabajo de parto pretérmino.",
+    "caso": "Paciente de 29 años, G4P1A2, con dos pérdidas gestacionales previas a las 19 y 21 semanas. En ambas ocasiones presentó presión pélvica leve, dilatación cervical progresiva y expulsión fetal sin contracciones dolorosas intensas. En el embarazo actual se encuentra asintomática a las 16 semanas.",
+    "pregunta": "¿Qué mecanismo fisiopatológico explica mejor los antecedentes obstétricos?",
+    "opciones": [
+      "Insuficiencia placentaria crónica con restricción del crecimiento fetal",
+      "Activación uterina primaria con contracciones dolorosas que preceden a toda modificación cervical",
+      "Desprendimiento prematuro de placenta como causa obligatoria de las pérdidas",
+      "Debilidad funcional cervical que permite dilatación progresiva con escasa actividad uterina dolorosa",
+      "Infección intraamniótica demostrada por el patrón de pérdidas"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La insuficiencia cervical se caracteriza por incapacidad del cuello uterino para mantener la gestación, con dilatación progresiva que puede ser indolora durante el segundo trimestre. La historia de pérdidas tardías con escasas contracciones es sugestiva, aunque deben revisarse otras causas de pérdida gestacional y parto pretérmino.",
+    "perlaENARM": "Dilatación cervical indolora y pérdidas recurrentes del segundo trimestre orientan a insuficiencia cervical; no equivale a trabajo de parto pretérmino con dinámica uterina establecida.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Insuficiencia Cervical (Cerclaje), página 1.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-322",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Manifestaciones clínicas",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar los síntomas y hallazgos que sugieren insuficiencia cervical en una paciente embarazada.",
+    "caso": "Mujer de 31 años, embarazo de 20 semanas, refiere presión vaginal y aumento del flujo mucoso, sin fiebre ni dolor significativo. La exploración revela borramiento cervical y dilatación de 2 cm; no se documenta actividad uterina regular.",
+    "pregunta": "¿Qué diagnóstico debe considerarse prioritariamente?",
+    "opciones": [
+      "Insuficiencia cervical con dilatación prematura",
+      "Preeclampsia de inicio temprano",
+      "Desprendimiento placentario crónico confirmado",
+      "Embarazo ectópico cervical",
+      "Rotura uterina completa"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La presión vaginal, el borramiento y la dilatación cervical sin contracciones regulares pueden indicar insuficiencia cervical. Se requiere valoración obstétrica urgente para confirmar edad gestacional, estado de las membranas, viabilidad fetal, infección y presencia de dinámica uterina antes de decidir cualquier intervención.",
+    "perlaENARM": "La insuficiencia cervical puede manifestarse con presión pélvica o flujo mucoso y poca sintomatología dolorosa; la ausencia de dolor no garantiza ausencia de riesgo.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 1.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-323",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Evaluación de la longitud cervical",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar el método de medición de longitud cervical más apropiado para estimar el riesgo de parto pretérmino.",
+    "caso": "Paciente de 26 años con antecedente de conización cervical por lesión intraepitelial de alto grado acude a control a las 18 semanas. Está asintomática y el equipo desea evaluar la longitud cervical debido a su antecedente.",
+    "pregunta": "¿Qué estudio permite medir con mayor precisión la longitud cervical en este contexto?",
+    "opciones": [
+      "Radiografía simple de pelvis",
+      "Tacto vaginal como único método cuantitativo",
+      "Resonancia magnética obstétrica de rutina",
+      "Histerosalpingografía durante el embarazo",
+      "Ultrasonido transvaginal con visualización del orificio cervical interno, externo y canal endocervical"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El ultrasonido transvaginal es el método de elección para medir la longitud cervical cuando existe indicación clínica. Permite identificar ambos orificios cervicales y medir la distancia entre ellos. El PDF destaca su utilidad en mujeres con factores de riesgo, como procedimientos excisionales cervicales previos.",
+    "perlaENARM": "Longitud cervical: ultrasonido transvaginal; mide la distancia entre los orificios interno y externo.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 2.",
+      "SMFM. Consult Series: The Role of Cervical Length Screening."
+    ]
+  },
+  {
+    "id": "OBS-324",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Tamizaje de longitud cervical",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir la evaluación cervical dirigida por factores de riesgo del tamizaje universal no recomendado en determinados protocolos.",
+    "caso": "Gestante de 24 años, embarazo único de 19 semanas, sin antecedentes de parto pretérmino, pérdidas del segundo trimestre, cirugía cervical ni anomalías uterinas. Solicita ultrasonidos transvaginales semanales exclusivamente para medir la longitud cervical.",
+    "pregunta": "Según el documento proporcionado, ¿qué orientación sobre la medición de longitud cervical corresponde?",
+    "opciones": [
+      "Realizarla semanalmente en todas las gestantes hasta el parto",
+      "No indicar medición seriada rutinaria en una paciente de bajo riesgo sin otra indicación clínica",
+      "Sustituirla por una radiografía pélvica",
+      "Indicar cerclaje profiláctico sin medir el cuello uterino",
+      "Realizar tactos vaginales diarios para calcular la longitud cervical"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF señala que la guía citada no recomienda medir de rutina la longitud cervical en mujeres de bajo riesgo por el bajo valor predictivo positivo y la sensibilidad limitada en ese contexto. Esto no excluye la evaluación ecográfica cuando exista una indicación clínica o un protocolo de tamizaje específico.",
+    "perlaENARM": "La evaluación cervical debe contextualizarse según antecedentes y guía aplicable; no toda gestante necesita mediciones seriadas por riesgo de insuficiencia cervical.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 2.",
+      "SMFM. Consult Series: The Role of Cervical Length Screening."
+    ]
+  },
+  {
+    "id": "OBS-325",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Cerclaje indicado por antecedentes",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer los antecedentes obstétricos que sustentan la consideración de cerclaje indicado por historia clínica.",
+    "caso": "Paciente de 30 años, embarazo único de 12 semanas, con antecedente de tres partos pretérmino espontáneos. Los expedientes documentan que en los embarazos previos la dilatación cervical precedió al trabajo de parto evidente. Actualmente no presenta sangrado, contracciones ni datos de infección.",
+    "pregunta": "¿Qué estrategia corresponde discutir con medicina materno-fetal?",
+    "opciones": [
+      "Evitar toda vigilancia porque los partos previos no modifican el riesgo",
+      "Indicar cesárea inmediata para prevenir otra pérdida",
+      "Considerar cerclaje indicado por antecedentes tras confirmar la historia y excluir contraindicaciones",
+      "Administrar antibióticos durante toda la gestación como sustituto del cerclaje",
+      "Realizar cerclaje exclusivamente después de las 37 semanas"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF contempla el cerclaje indicado por historia clínica en mujeres con tres o más partos pretérmino, mientras que las recomendaciones contemporáneas individualizan la indicación según las características de las pérdidas, la historia cervical y las guías vigentes. La intervención debe planificarse en una etapa apropiada y después de excluir contraindicaciones.",
+    "perlaENARM": "El antecedente obstétrico puede justificar cerclaje profiláctico; debe documentarse el patrón de las pérdidas y no basarse únicamente en el número de embarazos.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 3.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency.",
+      "FIGO. Good practice recommendations on cervical cerclage."
+    ]
+  },
+  {
+    "id": "OBS-326",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Cerclaje indicado por ultrasonido",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar los antecedentes obstétricos y el umbral de longitud cervical para valorar cerclaje antes de las 24 semanas.",
+    "caso": "Gestante de 28 años, embarazo único de 20 semanas, con antecedente de parto espontáneo a las 29 semanas. En ultrasonidos transvaginales seriados se documenta longitud cervical de 21 mm, sin contracciones, sangrado ni ruptura de membranas.",
+    "pregunta": "¿Qué estrategia debe valorarse con base en el antecedente y la longitud cervical?",
+    "opciones": [
+      "Considerar cerclaje indicado por ultrasonido antes de las 24 semanas, tras confirmar criterios y excluir contraindicaciones",
+      "Esperar hasta la semana 37 para reevaluar la longitud cervical",
+      "Realizar histerectomía preventiva",
+      "Indicar cerclaje únicamente cuando exista ruptura de membranas",
+      "Descartar insuficiencia cervical porque la longitud es mayor de 10 mm"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El documento describe como indicación la combinación de embarazo único, antecedente de pérdida del segundo trimestre o parto pretérmino espontáneo y longitud cervical menor de 25 mm detectada por ultrasonido transvaginal seriado entre las semanas 16 y 21.6, con cerclaje antes de las 24 semanas. La decisión final requiere revisar los criterios completos y la guía vigente.",
+    "perlaENARM": "Antecedente de parto pretérmino espontáneo más longitud cervical menor de 25 mm antes de las 24 semanas puede sustentar cerclaje en pacientes seleccionadas.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 3.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency.",
+      "SMFM. Consult Series: The Role of Cervical Length Screening."
+    ]
+  },
+  {
+    "id": "OBS-327",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Cuello corto sin antecedentes obstétricos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar la indicación indiscriminada de cerclaje en gestantes sin antecedentes de parto pretérmino o pérdidas del segundo trimestre.",
+    "caso": "Paciente de 27 años, primigesta, embarazo único de 23 semanas. Está asintomática y el ultrasonido transvaginal muestra longitud cervical de 14 mm. No tiene antecedentes de pérdidas gestacionales, parto pretérmino ni cirugía cervical.",
+    "pregunta": "¿Qué alternativa debe considerarse según la evidencia y el contexto descrito?",
+    "opciones": [
+      "Cerclaje obligatorio por cualquier longitud menor de 25 mm",
+      "Cesárea inmediata para evitar parto pretérmino",
+      "Reposo absoluto como intervención única demostrada",
+      "Valorar progesterona vaginal y seguimiento especializado, sin asumir que el cerclaje aporta beneficio en este perfil",
+      "Administrar antibióticos profilácticos durante el resto del embarazo"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "En una gestación única sin antecedente de parto pretérmino, un cuello corto requiere valoración según la longitud, la edad gestacional y las guías vigentes. La progesterona vaginal suele ser una intervención relevante para un cuello corto en pacientes seleccionadas; el cerclaje no debe indicarse automáticamente solo por una longitud reducida en ausencia de otros criterios.",
+    "perlaENARM": "Cuello corto aislado en embarazo único sin antecedentes: no equivale automáticamente a indicación de cerclaje.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 3.",
+      "SMFM. Consult Series: The Role of Cervical Length Screening.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-328",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Cerclaje de emergencia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la presentación clínica que puede justificar la evaluación para cerclaje de rescate.",
+    "caso": "Paciente de 25 años, embarazo único de 19 semanas, sin dolor ni contracciones regulares. La exploración con espéculo muestra dilatación cervical de 2 cm y membranas amnióticas protruyendo hacia la vagina. Está afebril y no presenta sangrado.",
+    "pregunta": "¿Qué intervención puede valorarse si la evaluación descarta contraindicaciones?",
+    "opciones": [
+      "Cerclaje profiláctico por historia clínica exclusivamente",
+      "Cerclaje de emergencia o rescate después de evaluar infección, membranas, viabilidad y dinámica uterina",
+      "Retiro de cerclaje porque ya existe dilatación cervical",
+      "Inducción inmediata del parto sin valoración adicional",
+      "Esperar obligatoriamente hasta las 37 semanas"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La dilatación cervical prematura con membranas expuestas puede motivar la consideración de un cerclaje de rescate en pacientes cuidadosamente seleccionadas. Antes de realizarlo deben excluirse trabajo de parto activo, infección intraamniótica, sangrado significativo, ruptura de membranas y otras situaciones en las que prolongar la gestación pueda ser contraproducente.",
+    "perlaENARM": "Membranas protruyentes con dilatación y sin contracciones puede ser una indicación de rescate, pero la selección depende de excluir contraindicaciones.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, páginas 1, 3 y 6.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency.",
+      "FIGO. Good practice recommendations on cervical cerclage."
+    ]
+  },
+  {
+    "id": "OBS-329",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Contraindicaciones del cerclaje",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar una contraindicación clínica mayor para la colocación de cerclaje cervical.",
+    "caso": "Gestante de 22 semanas con dilatación cervical de 3 cm y membranas visibles. Presenta fiebre, taquicardia materna, dolor uterino a la palpación y secreción vaginal fétida. Se plantea cerclaje de emergencia.",
+    "pregunta": "¿Qué hallazgo contraindica la colocación rutinaria del cerclaje en este momento?",
+    "opciones": [
+      "Edad gestacional de 22 semanas por sí sola",
+      "Antecedente de una pérdida temprana aislada",
+      "Cuello uterino con longitud de 25 mm en una ecografía previa",
+      "Embarazo único",
+      "Sospecha clínica de infección intraamniótica"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La sospecha de corioamnionitis o infección intraamniótica constituye una contraindicación importante para el cerclaje, porque la intervención puede prolongar una gestación en un contexto infeccioso peligroso. Se requiere evaluación urgente y manejo obstétrico dirigido a la infección y al estado materno-fetal.",
+    "perlaENARM": "Fiebre, dolor uterino y secreción fétida con dilatación cervical: descartar infección intraamniótica antes de considerar un cerclaje.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 4.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-330",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Trabajo de parto pretérmino y cerclaje",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir la insuficiencia cervical sin actividad uterina del trabajo de parto pretérmino activo antes de una intervención.",
+    "caso": "Paciente de 21 semanas con antecedente de pérdidas tardías presenta contracciones regulares cada tres minutos, dolor abdominal y cambios cervicales progresivos. La familia solicita cerclaje debido a la historia obstétrica.",
+    "pregunta": "¿Qué aspecto impide considerar el cerclaje como una intervención rutinaria en este escenario?",
+    "opciones": [
+      "La presencia de trabajo de parto pretérmino activo",
+      "El antecedente de pérdidas gestacionales del segundo trimestre",
+      "La edad materna de 29 años",
+      "La existencia de embarazo único",
+      "La ausencia de cirugía cervical previa"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El trabajo de parto pretérmino activo es una contraindicación para el cerclaje de rutina. La indicación no se establece solo por los antecedentes, sino por la situación clínica actual. Debe evaluarse el estado materno-fetal, las membranas y la causa de la dinámica uterina.",
+    "perlaENARM": "El cerclaje está dirigido a pacientes seleccionadas con insuficiencia cervical; no es un tratamiento del trabajo de parto pretérmino activo.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 4.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-331",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Ruptura prematura de membranas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la ruptura prematura de membranas como contraindicación para colocar un cerclaje de rutina.",
+    "caso": "Paciente de 20 semanas con cuello uterino dilatado y antecedente de pérdidas del segundo trimestre presenta salida persistente de líquido transvaginal. La evaluación confirma ruptura prematura de membranas y no hay evidencia de trabajo de parto establecido.",
+    "pregunta": "¿Cuál es la conducta respecto a colocar un nuevo cerclaje?",
+    "opciones": [
+      "Colocar cerclaje de rescate de inmediato para sellar la ruptura",
+      "Realizar cerclaje solo porque existe antecedente de pérdida tardía",
+      "No colocar cerclaje de rutina; evaluar y manejar la ruptura de membranas conforme a edad gestacional y situación materno-fetal",
+      "Realizar cerclaje y posponer la evaluación de infección",
+      "Indicar cerclaje exclusivamente si la paciente presenta fiebre"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La ruptura prematura de membranas figura entre las contraindicaciones del cerclaje en el material proporcionado. La atención debe centrarse en confirmar el diagnóstico, evaluar infección, edad gestacional, viabilidad y riesgos maternos y fetales, y establecer un plan individualizado.",
+    "perlaENARM": "Ruptura prematura de membranas no es una indicación para colocar cerclaje de rescate de rutina.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 4.",
+      "ACOG. Prelabor Rupture of Membranes.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-332",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Técnicas quirúrgicas",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar las técnicas habituales de cerclaje transvaginal y sus características generales.",
+    "caso": "Paciente con indicación confirmada de cerclaje requiere un procedimiento transvaginal. El equipo analiza las técnicas de McDonald y Shirodkar, así como la vía de abordaje más utilizada.",
+    "pregunta": "¿Qué afirmación coincide con el documento proporcionado?",
+    "opciones": [
+      "El abordaje abdominal es obligatorio para todas las pacientes",
+      "La técnica de Shirodkar es siempre superior y elimina el riesgo de parto pretérmino",
+      "La técnica de McDonald solo puede realizarse después de las 37 semanas",
+      "El abordaje vaginal es la primera elección general y McDonald y Shirodkar muestran efectividad similar en el material citado",
+      "El cerclaje no requiere sutura cervical"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF señala el abordaje vaginal como primera elección por su asociación con menor estancia hospitalaria, menor tiempo quirúrgico y menor morbilidad materna. Describe las técnicas de McDonald y Shirodkar como opciones con efectividad similar. La selección depende de la anatomía cervical y la experiencia del equipo.",
+    "perlaENARM": "McDonald y Shirodkar son técnicas de cerclaje transvaginal; la elección depende de la anatomía y del criterio del especialista.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 4.",
+      "Williams Obstetrics, 26.ª ed.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-333",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Retiro del cerclaje",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el momento habitual de retiro del cerclaje transvaginal y las circunstancias que requieren reevaluación anticipada.",
+    "caso": "Gestante de 36 semanas y 6 días con cerclaje transvaginal de McDonald, sin contracciones, sangrado ni ruptura de membranas. El embarazo evoluciona sin otras complicaciones.",
+    "pregunta": "¿Qué planificación coincide con el documento proporcionado?",
+    "opciones": [
+      "Mantenerlo indefinidamente después del parto",
+      "Programar el retiro alrededor de las 37 semanas si no ocurre antes una indicación de retiro",
+      "Retirarlo obligatoriamente a las 20 semanas",
+      "Retirarlo únicamente después de confirmar madurez pulmonar por amniocentesis",
+      "Esperar hasta las 42 semanas en todas las pacientes"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF recomienda retirar el cerclaje transvaginal alrededor de las 37 semanas, siempre que no haya una razón para retirarlo antes. Si aparece trabajo de parto o se presenta ruptura de membranas, se necesita valoración inmediata para evitar complicaciones cervicales e infecciosas.",
+    "perlaENARM": "El cerclaje transvaginal suele retirarse alrededor de las 36-37 semanas; la dinámica uterina o la ruptura de membranas requieren reevaluación anticipada.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 4.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-334",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Cerclaje y embarazo múltiple",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar la indicación indiscriminada de cerclaje en embarazos múltiples y reconocer la necesidad de individualización.",
+    "caso": "Paciente de 32 años con embarazo gemelar bicorial biamniótico de 21 semanas presenta longitud cervical de 18 mm. No tiene antecedente de pérdidas del segundo trimestre ni dilatación cervical al examen.",
+    "pregunta": "¿Qué principio de manejo debe tenerse presente al valorar el cerclaje?",
+    "opciones": [
+      "Todo embarazo gemelar requiere cerclaje antes de las 24 semanas",
+      "La longitud cervical carece de relevancia en embarazos múltiples",
+      "Debe colocarse cerclaje únicamente por la edad materna",
+      "La cesárea inmediata es el tratamiento de elección",
+      "El cerclaje no debe indicarse de manera rutinaria solo por embarazo múltiple y cuello corto; se requiere valoración especializada según el contexto"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF indica que no se recomienda cerclaje en el embarazo múltiple. Las guías contemporáneas requieren una valoración cuidadosa porque la evidencia no respalda su uso rutinario en todas las gestaciones múltiples con cuello corto. La dilatación cervical y otros hallazgos pueden modificar la discusión clínica, por lo que debe individualizarse la conducta.",
+    "perlaENARM": "Embarazo múltiple más cuello corto no equivale automáticamente a cerclaje; evita extrapolar los criterios del embarazo único.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 4.",
+      "SMFM. Consult Series: The Role of Cervical Length Screening.",
+      "FIGO. Good practice recommendations on cervical cerclage."
+    ]
+  },
+  {
+    "id": "OBS-335",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Longitud cervical y antecedente de cirugía",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar los procedimientos cervicales previos con la evaluación del riesgo de parto pretérmino.",
+    "caso": "Paciente de 34 años, embarazo de 17 semanas, con antecedente de conización cervical profunda. No presenta síntomas. Se revisa el expediente para decidir si requiere vigilancia cervical dirigida.",
+    "pregunta": "¿Qué dato justifica considerar la medición transvaginal de la longitud cervical?",
+    "opciones": [
+      "El antecedente de tratamiento excisional cervical por displasia",
+      "La presencia de náuseas del primer trimestre",
+      "El antecedente de una infección urinaria no complicada años antes",
+      "El grupo sanguíneo materno",
+      "La ausencia de actividad cardiaca embrionaria en un embarazo previo ya resuelto"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El documento identifica el tratamiento excisional cervical previo como factor de riesgo que puede justificar evaluación de la longitud cervical mediante ultrasonido transvaginal. La vigilancia debe ajustarse a la profundidad del procedimiento, los antecedentes obstétricos y las recomendaciones aplicables.",
+    "perlaENARM": "La conización y otros procedimientos excisionales cervicales son antecedentes relevantes al estimar riesgo de cuello corto o parto pretérmino.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 2.",
+      "SMFM. Consult Series: The Role of Cervical Length Screening."
+    ]
+  },
+  {
+    "id": "OBS-336",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Dilatación cervical avanzada",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que la dilatación cervical avanzada reduce la probabilidad de éxito del cerclaje de rescate.",
+    "caso": "Gestante de 22 semanas, asintomática, con dilatación cervical de 5 cm y membranas prolapsadas por debajo del orificio cervical externo. No se ha identificado todavía infección, pero la valoración anatómica muestra protrusión extensa de las membranas.",
+    "pregunta": "¿Qué factor modifica de manera importante la probabilidad de éxito de un cerclaje de rescate?",
+    "opciones": [
+      "La edad materna menor de 30 años",
+      "La ausencia de antecedentes de cesárea",
+      "La dilatación avanzada y el prolapso marcado de las membranas",
+      "La presencia de embarazo único",
+      "La disponibilidad de ultrasonido transvaginal"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF señala que la dilatación cervical mayor de 4 cm y el prolapso de las membranas por debajo del orificio cervical externo se asocian con una elevada posibilidad de falla del cerclaje. La decisión requiere valoración individualizada por medicina materno-fetal y revisión de contraindicaciones.",
+    "perlaENARM": "Cerclaje de rescate con dilatación avanzada o membranas muy prolapsadas tiene mayor probabilidad de fracaso y exige selección cuidadosa.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 3.",
+      "FIGO. Good practice recommendations on cervical cerclage.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-337",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Referencia a tercer nivel",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Determinar cuándo la complejidad de un cerclaje requiere referencia a un centro especializado.",
+    "caso": "Paciente de 28 años con antecedente de cerclaje transvaginal fallido y pérdida gestacional posterior. En el embarazo actual, el equipo local considera que podría requerir un cerclaje por vía abdominal.",
+    "pregunta": "¿Qué nivel de atención recomienda el documento para evaluar esta situación?",
+    "opciones": [
+      "Seguimiento exclusivo en consulta general sin valoración obstétrica especializada",
+      "Atención domiciliaria hasta el tercer trimestre",
+      "Referencia directa a rehabilitación física",
+      "Referencia a tercer nivel para valoración del cerclaje abdominal o de una nueva colocación compleja",
+      "No realizar ninguna referencia porque ya existe un antecedente de cerclaje"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF recomienda referencia a tercer nivel para pacientes que requieren cerclaje de emergencia, una segunda colocación por falla del anterior o un abordaje abdominal. Estos casos requieren evaluación especializada de la anatomía cervical, los antecedentes y las alternativas quirúrgicas.",
+    "perlaENARM": "Cerclaje de emergencia, falla previa o posible abordaje abdominal: referencia a un centro con experiencia en medicina materno-fetal.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 4.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-338",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Diferenciación con trabajo de parto pretérmino",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar dinámica uterina, cambios cervicales y antecedentes para diferenciar insuficiencia cervical de trabajo de parto pretérmino.",
+    "caso": "Paciente de 27 años con antecedente de pérdida a las 20 semanas llega a las 22 semanas por presión pélvica. El cuello está dilatado 1 cm, pero la monitorización no documenta contracciones regulares y no hay fiebre ni sangrado.",
+    "pregunta": "¿Qué diagnóstico clínico debe considerarse con mayor atención?",
+    "opciones": [
+      "Trabajo de parto pretérmino establecido, confirmado solo por la presión pélvica",
+      "Insuficiencia cervical, que requiere evaluación de membranas y exclusión de infección",
+      "Preeclampsia grave",
+      "Desprendimiento placentario confirmado",
+      "Rotura uterina completa"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La dilatación cervical con poca actividad uterina dolorosa, junto con una pérdida previa del segundo trimestre, es sugestiva de insuficiencia cervical. No obstante, deben descartarse infección, ruptura de membranas y otras causas de dilatación. La ausencia de contracciones regulares no excluye otras complicaciones obstétricas.",
+    "perlaENARM": "La dilatación cervical indolora favorece insuficiencia cervical; el diagnóstico requiere excluir causas alternativas y valorar las membranas.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 1.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-339",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Cerclaje y sangrado vaginal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el sangrado vaginal activo como una contraindicación importante para el cerclaje de rutina.",
+    "caso": "Gestante de 21 semanas con antecedente de pérdida del segundo trimestre presenta acortamiento cervical y sangrado vaginal rojo persistente. La paciente está estable, pero aún no se ha determinado el origen de la hemorragia.",
+    "pregunta": "¿Qué debe hacerse antes de decidir una intervención cervical?",
+    "opciones": [
+      "Colocar cerclaje sin evaluar la causa del sangrado",
+      "Indicar cerclaje únicamente porque el embarazo es único",
+      "Administrar tocolíticos sin evaluar placenta ni estado materno-fetal",
+      "Posponer toda valoración hasta la semana 37",
+      "Investigar la causa del sangrado y evitar cerclaje de rutina mientras exista hemorragia activa"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El sangrado vaginal activo figura entre las contraindicaciones del cerclaje en el documento. Antes de una intervención deben evaluarse la causa de la hemorragia, la localización placentaria, el estado de las membranas y el bienestar materno-fetal.",
+    "perlaENARM": "No colocar cerclaje de rutina con sangrado vaginal activo sin aclarar su causa y valorar la seguridad de la intervención.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 4.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-340",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Cerclaje y viabilidad fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar el estado fetal y la edad gestacional en la evaluación de la indicación de cerclaje.",
+    "caso": "Paciente de 22 semanas con dilatación cervical y membranas expuestas. La evaluación obstétrica confirma muerte fetal intrauterina. La familia solicita cerclaje para prolongar la gestación.",
+    "pregunta": "¿Cuál es la consideración clínica fundamental?",
+    "opciones": [
+      "El cerclaje está indicado porque toda dilatación cervical debe cerrarse",
+      "La muerte fetal no modifica la elección del procedimiento",
+      "El cerclaje de rutina no está indicado ante óbito; debe establecerse un plan obstétrico acorde con el diagnóstico y la situación materna",
+      "El cerclaje debe mantenerse hasta las 37 semanas en todos los casos",
+      "La colocación de cerclaje elimina el riesgo infeccioso"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El óbito fetal figura entre las contraindicaciones del cerclaje en el material proporcionado. La conducta debe centrarse en la atención materna y en un plan obstétrico apropiado, considerando edad gestacional, causa del óbito, estado de las membranas y riesgos asociados.",
+    "perlaENARM": "La indicación de cerclaje depende de la posibilidad de prolongar una gestación viable y de que no existan contraindicaciones materno-fetales.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 4.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-341",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Longitud cervical y prevención",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar la longitud cervical en relación con el antecedente de parto pretérmino y distinguir las estrategias preventivas.",
+    "caso": "Paciente de 29 años, embarazo único de 19 semanas, con antecedente de parto espontáneo a las 31 semanas. La longitud cervical por ultrasonido transvaginal es de 19 mm. No presenta contracciones ni ruptura de membranas.",
+    "pregunta": "¿Qué estrategia preventiva debe discutirse considerando la combinación de factores?",
+    "opciones": [
+      "Valoración especializada para cerclaje antes de las 24 semanas y discusión de las alternativas preventivas recomendadas",
+      "Suspender vigilancia porque el cuello todavía mide más de 10 mm",
+      "Indicar cesárea inmediata",
+      "Administrar antibióticos prolongados como prevención universal",
+      "Esperar a que exista dilatación completa para intervenir"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La combinación de antecedente de parto pretérmino espontáneo y longitud cervical menor de 25 mm antes de las 24 semanas puede sustentar la consideración de cerclaje en pacientes seleccionadas. La prevención debe individualizarse según la historia obstétrica, la edad gestacional y las recomendaciones actuales.",
+    "perlaENARM": "No interpretes la longitud cervical de forma aislada: el antecedente obstétrico modifica la selección para cerclaje.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 3.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency.",
+      "SMFM. Consult Series: The Role of Cervical Length Screening."
+    ]
+  },
+  {
+    "id": "OBS-342",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Cerclaje por exploración física",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar el cerclaje por exploración física del cerclaje indicado por antecedentes o por acortamiento ecográfico.",
+    "caso": "Gestante de 23 semanas con antecedente de una pérdida del segundo trimestre presenta dilatación cervical de 2 cm y membranas visibles en el orificio externo. Está afebril, sin sangrado ni contracciones regulares. La longitud cervical ya no puede valorarse de forma fiable por la dilatación.",
+    "pregunta": "¿Cómo se clasifica la modalidad de cerclaje que podría considerarse si no hay contraindicaciones?",
+    "opciones": [
+      "Cerclaje exclusivamente por longitud cervical",
+      "Cerclaje abdominal obligatorio",
+      "Cerclaje profiláctico realizado en el primer trimestre",
+      "Cerclaje indicado por exploración física o de rescate",
+      "Retiro de cerclaje previamente colocado"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El cerclaje por exploración física se considera cuando existe dilatación cervical prematura con membranas expuestas, en pacientes seleccionadas y después de excluir infección, trabajo de parto y ruptura de membranas. Se diferencia del cerclaje profiláctico basado en antecedentes y del indicado por acortamiento cervical en una paciente asintomática.",
+    "perlaENARM": "Antecedentes, ultrasonido y exploración física corresponden a modalidades distintas de cerclaje; la dilatación con membranas expuestas orienta al de rescate.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, páginas 1 y 3.",
+      "FIGO. Good practice recommendations on cervical cerclage."
+    ]
+  },
+  {
+    "id": "OBS-343",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Cerclaje antes de las 24 semanas",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la ventana gestacional descrita para cerclaje indicado por ultrasonido.",
+    "caso": "Paciente de 30 años con embarazo único y antecedente de pérdida espontánea a las 22 semanas. En el seguimiento actual se documenta longitud cervical de 22 mm a las 21 semanas y no existen contraindicaciones.",
+    "pregunta": "Según el esquema del PDF, ¿qué elemento temporal es relevante al planear el cerclaje indicado por ultrasonido?",
+    "opciones": [
+      "Debe realizarse exclusivamente después de las 37 semanas",
+      "Debe retrasarse hasta que se rompan las membranas",
+      "No puede realizarse antes de las 30 semanas",
+      "Solo puede colocarse durante el trabajo de parto",
+      "Debe valorarse su colocación antes de las 24 semanas cuando se cumplen los criterios"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF describe la colocación de cerclaje antes de las 24 semanas cuando existe antecedente compatible y longitud cervical menor de 25 mm detectada en el intervalo especificado. La ventana exacta y la elegibilidad deben verificarse con la guía vigente y el equipo tratante.",
+    "perlaENARM": "La edad gestacional es parte de la indicación: el cerclaje por ultrasonido se valora en pacientes seleccionadas antes de las 24 semanas.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 3.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-344",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Cerclaje abdominal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer escenarios de falla del cerclaje vaginal que justifican valoración para un abordaje abdominal especializado.",
+    "caso": "Paciente con antecedente de cerclaje transvaginal técnicamente adecuado y posterior pérdida gestacional del segundo trimestre. La evaluación preconcepcional identifica antecedentes que hacen considerar una nueva estrategia quirúrgica.",
+    "pregunta": "¿Qué decisión de referencia es congruente con el material proporcionado?",
+    "opciones": [
+      "Realizar todos los controles en primer nivel sin revisión de la historia quirúrgica",
+      "Referir a tercer nivel para evaluar la indicación de cerclaje abdominal y las alternativas",
+      "Indicar cerclaje transvaginal repetido sin valorar la falla previa",
+      "Descartar toda intervención porque un cerclaje previo fracasó",
+      "Indicar reposo absoluto como sustituto de la valoración especializada"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF incluye entre los criterios de referencia a tercer nivel la necesidad de cerclaje por vía abdominal o una nueva colocación tras falla previa. La elección requiere revisar la anatomía cervical, la técnica previa, las causas de la pérdida y los riesgos de la cirugía.",
+    "perlaENARM": "La falla previa del cerclaje requiere revisión especializada; no implica automáticamente repetir la misma técnica ni descartar toda intervención.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 4.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency.",
+      "FIGO. Good practice recommendations on cervical cerclage."
+    ]
+  },
+  {
+    "id": "OBS-345",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Ultrasonido transvaginal y anatomía cervical",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar los puntos anatómicos utilizados para medir la longitud cervical mediante ultrasonido transvaginal.",
+    "caso": "Durante una ecografía de segundo trimestre se observa el canal endocervical completo y ambos orificios cervicales. El residente debe documentar la medición de longitud cervical de forma reproducible.",
+    "pregunta": "¿Qué distancia define la longitud cervical ecográfica?",
+    "opciones": [
+      "La distancia entre el fondo uterino y la placenta",
+      "La distancia entre la sínfisis del pubis y el fondo uterino",
+      "La distancia entre el orificio cervical interno y el orificio cervical externo",
+      "El diámetro transversal del saco gestacional",
+      "La distancia entre el borde placentario y el ovario"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La longitud cervical corresponde a la distancia entre el orificio cervical interno y el externo, evaluada mediante ultrasonido transvaginal. La técnica debe permitir visualizar el canal endocervical y obtener una medición adecuada para la interpretación clínica.",
+    "perlaENARM": "La longitud cervical se mide entre los orificios interno y externo; no debe confundirse con la dilatación cervical.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 2.",
+      "SMFM. Consult Series: The Role of Cervical Length Screening."
+    ]
+  },
+  {
+    "id": "OBS-346",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Diferenciación entre acortamiento y dilatación",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir el acortamiento cervical detectado por ultrasonido de la dilatación cervical evidente en la exploración física.",
+    "caso": "Gestante de 20 semanas con antecedente de parto pretérmino tiene longitud cervical de 18 mm en ultrasonido transvaginal, pero el cuello permanece cerrado en la exploración y no presenta contracciones.",
+    "pregunta": "¿Qué característica define mejor el hallazgo actual?",
+    "opciones": [
+      "Acortamiento cervical ecográfico sin dilatación cervical demostrada",
+      "Aborto completo",
+      "Trabajo de parto pretérmino establecido por definición",
+      "Ruptura prematura de membranas confirmada",
+      "Corioamnionitis demostrada"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Una longitud cervical reducida por ultrasonido no equivale necesariamente a dilatación clínica ni a trabajo de parto establecido. La interpretación depende de los antecedentes, la edad gestacional, los síntomas y los criterios de la guía aplicable. En esta paciente, el antecedente de parto pretérmino aumenta la relevancia del hallazgo.",
+    "perlaENARM": "Acortamiento ecográfico y dilatación al examen son hallazgos relacionados, pero no intercambiables.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, páginas 1-3.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-347",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Evaluación previa al cerclaje",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar la evaluación de infección, membranas y actividad uterina antes de una intervención cervical.",
+    "caso": "Paciente de 22 semanas con dilatación cervical de 2 cm y membranas visibles es referida para posible cerclaje de rescate. Está hemodinámicamente estable, pero refiere incremento reciente del flujo vaginal y malestar inespecífico.",
+    "pregunta": "¿Qué evaluación resulta esencial antes de decidir la colocación?",
+    "opciones": [
+      "Proceder inmediatamente porque la estabilidad hemodinámica excluye contraindicaciones",
+      "Realizar únicamente un hemograma y omitir la exploración obstétrica",
+      "Indicar cerclaje sin revisar las membranas",
+      "Evaluar actividad uterina, integridad de membranas y evidencia clínica de infección antes de decidir",
+      "Esperar hasta el término sin realizar valoración adicional"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Antes de un cerclaje de rescate deben evaluarse la dinámica uterina, la ruptura de membranas, la presencia de infección y el estado materno-fetal. La estabilidad hemodinámica no excluye infección intraamniótica ni otras contraindicaciones.",
+    "perlaENARM": "Antes del cerclaje de rescate, descarta trabajo de parto activo, infección intraamniótica y ruptura de membranas.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, páginas 3-4.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-348",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Prolapso de membranas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el prolapso de membranas como un hallazgo que exige valoración urgente y selección cuidadosa para cerclaje.",
+    "caso": "Gestante de 21 semanas acude por sensación de peso vaginal. La exploración con espéculo muestra membranas protruyendo por el orificio cervical externo. No se identifican contracciones regulares, fiebre ni sangrado.",
+    "pregunta": "¿Qué clasificación de cerclaje corresponde a la modalidad que podría evaluarse?",
+    "opciones": [
+      "Cerclaje indicado por ultrasonido de rutina en paciente asintomática con cuello cerrado",
+      "Cerclaje de emergencia o rescate indicado por exploración física",
+      "Cerclaje abdominal obligatorio en toda gestante",
+      "Retiro de cerclaje por inicio de trabajo de parto",
+      "Cerclaje posparto"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La protrusión de membranas con dilatación cervical puede motivar la consideración de cerclaje de rescate. La decisión exige confirmar edad gestacional y viabilidad, evaluar membranas y descartar infección, trabajo de parto y otras contraindicaciones.",
+    "perlaENARM": "Membranas que protruyen por el orificio externo orientan a cerclaje de rescate solo si la paciente cumple criterios y no hay contraindicaciones.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, páginas 1, 3 y 6.",
+      "FIGO. Good practice recommendations on cervical cerclage."
+    ]
+  },
+  {
+    "id": "OBS-349",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Técnica de McDonald",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el objetivo mecánico del cerclaje cervical y su aplicación transvaginal.",
+    "caso": "Durante una sesión quirúrgica, el residente observa la colocación de una sutura alrededor del cuello uterino para reducir el riesgo de dilatación prematura. El cirujano explica que se trata de una técnica transvaginal habitual.",
+    "pregunta": "¿Cuál es el objetivo mecánico principal del cerclaje?",
+    "opciones": [
+      "Cerrar de manera permanente la cavidad uterina",
+      "Bloquear el flujo sanguíneo de las arterias uterinas",
+      "Eliminar la actividad contráctil del miometrio",
+      "Prevenir todas las causas de parto pretérmino",
+      "Reforzar el cuello uterino mediante una sutura para ayudar a mantenerlo cerrado"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El cerclaje consiste en colocar una sutura alrededor del cuello uterino para reforzar su capacidad de permanecer cerrado durante la gestación. No corrige todas las causas de parto pretérmino y no sustituye la evaluación de infección, contracciones o ruptura de membranas.",
+    "perlaENARM": "El cerclaje proporciona soporte mecánico cervical; no es un tocolítico ni una prevención universal del parto pretérmino.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 1.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-350",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Retiro anticipado del cerclaje",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar situaciones que requieren reevaluar el retiro del cerclaje antes de la edad gestacional habitual.",
+    "caso": "Paciente de 30 semanas con cerclaje transvaginal presenta ruptura prematura de membranas. Está bajo evaluación obstétrica y no se ha definido todavía si existe infección o trabajo de parto.",
+    "pregunta": "¿Qué principio debe guiar la conducta respecto al cerclaje?",
+    "opciones": [
+      "Mantenerlo obligatoriamente hasta las 37 semanas en todas las circunstancias",
+      "Retirarlo solo después del nacimiento, sin considerar el estado clínico",
+      "Reevaluar de inmediato la permanencia o retiro según ruptura de membranas, infección, dinámica uterina y plan obstétrico",
+      "Apretar la sutura para impedir la salida de líquido",
+      "Ignorar la ruptura de membranas si no hay contracciones"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF indica que el retiro antes de las 37 semanas puede estar indicado en caso de ruptura prematura de membranas o signos de presión uterina. Las recomendaciones contemporáneas individualizan la decisión, considerando la edad gestacional, el riesgo de infección, la presencia de trabajo de parto y los objetivos obstétricos.",
+    "perlaENARM": "Ruptura de membranas con cerclaje in situ exige reevaluación inmediata; no se debe mantener o retirar automáticamente sin valorar el contexto.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 4.",
+      "ACOG. Prelabor Rupture of Membranes.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-351",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Progesterona vaginal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el papel de la progesterona vaginal en la prevención del parto pretérmino en pacientes seleccionadas con cuello corto.",
+    "caso": "Primigesta de 28 años con embarazo único de 22 semanas presenta longitud cervical de 14 mm por ultrasonido transvaginal. No tiene antecedentes de parto pretérmino, dilatación cervical, sangrado ni ruptura de membranas.",
+    "pregunta": "¿Qué intervención preventiva debe valorarse de acuerdo con las recomendaciones actuales para pacientes seleccionadas?",
+    "opciones": [
+      "Progesterona vaginal y seguimiento obstétrico individualizado",
+      "Cerclaje obligatorio en todas las pacientes con longitud menor de 25 mm",
+      "Metotrexato para reducir el riesgo de parto pretérmino",
+      "Antibióticos intravenosos durante el resto del embarazo",
+      "Inducción del parto inmediata"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "En una gestación única sin antecedente de parto pretérmino, la progesterona vaginal es una intervención importante para valorar cuando se documenta cuello corto, especialmente con longitudes de 20 mm o menos antes de las 24 semanas. La indicación y el seguimiento deben ajustarse a las recomendaciones vigentes. El cerclaje no es automático por el hallazgo aislado.",
+    "perlaENARM": "Embarazo único sin antecedente de parto pretérmino y cuello corto: valorar progesterona vaginal; no indicar cerclaje indiscriminadamente.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 3.",
+      "SMFM. Consult Series: The Role of Cervical Length Screening.",
+      "ACOG. Prevention of Preterm Birth."
+    ]
+  },
+  {
+    "id": "OBS-352",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Historia obstétrica y selección de cerclaje",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar el patrón temporal de las pérdidas gestacionales para diferenciar insuficiencia cervical de otras etiologías.",
+    "caso": "Paciente de 35 años con dos pérdidas gestacionales: una a las 8 semanas asociada a anomalía cromosómica documentada y otra a las 20 semanas precedida por dilatación cervical indolora. Actualmente cursa embarazo de 13 semanas.",
+    "pregunta": "¿Qué elemento de la historia tiene mayor relevancia para valorar insuficiencia cervical?",
+    "opciones": [
+      "La edad materna como único criterio de cerclaje",
+      "La pérdida temprana con anomalía cromosómica como prueba de insuficiencia cervical",
+      "El antecedente de cualquier aborto, independientemente de su edad gestacional",
+      "La pérdida del segundo trimestre precedida por dilatación cervical indolora",
+      "La necesidad de cerclaje por tener dos pérdidas de etiología diferente"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La pérdida temprana asociada a anomalía cromosómica no establece insuficiencia cervical. La pérdida del segundo trimestre precedida por dilatación indolora es el antecedente más sugestivo del trastorno. La indicación profiláctica debe determinarse tras revisar los detalles de la historia obstétrica y las recomendaciones aplicables.",
+    "perlaENARM": "No todas las pérdidas gestacionales tienen el mismo mecanismo; la cronología y la forma de presentación orientan la etiología.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 1.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-353",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Cerclaje por antecedentes y evidencia contemporánea",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir los criterios didácticos del PDF de la selección individualizada recomendada por guías contemporáneas.",
+    "caso": "Paciente con una pérdida del segundo trimestre, aparentemente indolora, consulta a las 11 semanas. El resumen de alta anterior no documenta claramente la presencia de contracciones, infección o ruptura de membranas.",
+    "pregunta": "¿Qué información debe obtenerse antes de definir un cerclaje indicado por historia clínica?",
+    "opciones": [
+      "Solo el grupo sanguíneo de la paciente",
+      "El expediente obstétrico detallado para determinar si la pérdida fue compatible con insuficiencia cervical y revisar contraindicaciones",
+      "Únicamente la edad paterna",
+      "El resultado de una radiografía de tórax",
+      "El número de consultas prenatales, sin revisar el evento previo"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Una pérdida del segundo trimestre puede tener causas diversas. Para determinar si sustenta cerclaje por antecedentes, deben revisarse la edad gestacional, la secuencia de síntomas, la dilatación cervical, la actividad uterina, la integridad de las membranas y la posible infección. Las guías contemporáneas individualizan la indicación.",
+    "perlaENARM": "Una historia obstétrica precisa evita indicar cerclaje por pérdidas que no corresponden al patrón de insuficiencia cervical.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, páginas 1 y 3.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency.",
+      "FIGO. Good practice recommendations on cervical cerclage."
+    ]
+  },
+  {
+    "id": "OBS-354",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Falla del cerclaje",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que la persistencia del riesgo de parto pretérmino después de un cerclaje requiere reevaluación etiológica.",
+    "caso": "Paciente con cerclaje transvaginal previo presenta parto pretérmino espontáneo a pesar del procedimiento. En una nueva gestación solicita repetir el mismo cerclaje sin evaluación adicional.",
+    "pregunta": "¿Qué estrategia permite una planificación más segura de la nueva gestación?",
+    "opciones": [
+      "Repetir el cerclaje sin revisar el expediente previo",
+      "Descartar cualquier intervención preventiva futura",
+      "Revisar la indicación original, la técnica, la edad gestacional del fracaso y posibles causas asociadas antes de elegir la estrategia",
+      "Indicar antibióticos durante todo el embarazo como sustituto de la evaluación",
+      "Afirmar que el cerclaje previo descarta insuficiencia cervical"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El fracaso de un cerclaje no establece por sí mismo que la técnica fuera incorrecta ni descarta insuficiencia cervical. Deben revisarse la indicación inicial, la técnica, la presencia de infección, ruptura de membranas, dinámica uterina y otros factores de parto pretérmino. Puede requerirse valoración especializada para elegir otra estrategia.",
+    "perlaENARM": "Después de una falla del cerclaje, reevalúa la etiología y la técnica; no repitas automáticamente el procedimiento.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 4.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency.",
+      "FIGO. Good practice recommendations on cervical cerclage."
+    ]
+  },
+  {
+    "id": "OBS-355",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Compromiso fetal y cerclaje",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar el compromiso del estado fetal como un factor que modifica la pertinencia de un cerclaje.",
+    "caso": "Gestante de 22 semanas con cuello uterino dilatado y membranas expuestas presenta hallazgos persistentes de compromiso fetal grave en la evaluación obstétrica. No hay contracciones regulares y se solicita valoración para cerclaje de rescate.",
+    "pregunta": "¿Qué principio debe orientar la decisión?",
+    "opciones": [
+      "Colocar cerclaje sin valorar el estado fetal",
+      "Considerar que la ausencia de contracciones garantiza beneficio",
+      "Realizar cerclaje en toda paciente con dilatación, independientemente del contexto",
+      "Ignorar los hallazgos fetales porque la indicación es exclusivamente cervical",
+      "Evaluar el estado fetal y la pertinencia de prolongar la gestación antes de decidir una intervención"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF incluye el compromiso de la oxigenación fetal entre las contraindicaciones del cerclaje. La decisión requiere una evaluación integral materno-fetal y considerar si la intervención tiene un beneficio razonable sin aumentar riesgos. La indicación no depende exclusivamente del estado del cuello uterino.",
+    "perlaENARM": "La decisión de cerclaje requiere evaluar el cuello, las membranas, la infección, la dinámica uterina y la situación fetal.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 4.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-356",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Preparación preoperatoria",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Integrar la evaluación clínica y obstétrica antes de realizar un cerclaje.",
+    "caso": "Paciente de 29 años con indicación probable de cerclaje por antecedentes acude a valoración preoperatoria a las 13 semanas. No tiene síntomas, pero el expediente no documenta la evaluación actual de la gestación ni el estado cervical.",
+    "pregunta": "¿Qué principio debe preceder a la programación del procedimiento?",
+    "opciones": [
+      "Confirmar edad gestacional y viabilidad, revisar antecedentes y descartar contraindicaciones clínicas",
+      "Realizar el procedimiento sin revisar la historia obstétrica",
+      "Esperar a que aparezca sangrado para confirmar la indicación",
+      "Indicar cerclaje únicamente según la edad materna",
+      "Solicitar tomografía pélvica como estudio universal"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La selección para cerclaje requiere verificar la indicación, la edad gestacional, el estado de la gestación y la ausencia de contraindicaciones. La evaluación debe individualizarse según el tipo de cerclaje previsto y las condiciones clínicas.",
+    "perlaENARM": "Antes del cerclaje, confirma la indicación y descarta condiciones en las que prolongar el embarazo pueda ser perjudicial.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, páginas 3-4.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-357",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Referencia desde primer nivel",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar el momento adecuado para referir a una paciente con historia sugestiva de insuficiencia cervical.",
+    "caso": "Paciente de 26 años con antecedente de pérdida indolora a las 19 semanas acude a consulta preconcepcional y posteriormente confirma un nuevo embarazo de 8 semanas. Está asintomática y no presenta sangrado.",
+    "pregunta": "Según el esquema de referencia del PDF, ¿qué acción asistencial resulta apropiada?",
+    "opciones": [
+      "Esperar hasta la semana 37 para evaluar el riesgo",
+      "Referir a segundo nivel de atención de forma temprana para evaluar el riesgo y planificar seguimiento",
+      "Indicar cerclaje en primer nivel sin evaluación especializada",
+      "No registrar el antecedente porque solo ocurrió una pérdida",
+      "Esperar hasta que exista dilatación cervical avanzada"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF recomienda referir a segundo nivel a pacientes con factores de riesgo para parto pretérmino o historia sugestiva de insuficiencia cervical, preferentemente antes de las 12 semanas. La referencia temprana permite revisar la historia, establecer un plan de vigilancia y decidir si existe indicación de cerclaje.",
+    "perlaENARM": "Historia sugestiva de insuficiencia cervical: referencia temprana, idealmente antes de las 12 semanas según el documento.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 4.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-358",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Diferencial de dilatación cervical",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer causas alternativas de dilatación cervical prematura antes de indicar cerclaje.",
+    "caso": "Gestante de 21 semanas presenta dilatación cervical de 2 cm y presión pélvica. No refiere dolor intenso, pero tiene fiebre de 38.5 °C y sensibilidad uterina. La historia previa incluye una pérdida del segundo trimestre.",
+    "pregunta": "¿Cuál es el principal motivo para no atribuir el cuadro únicamente a insuficiencia cervical?",
+    "opciones": [
+      "La edad gestacional es incompatible con insuficiencia cervical",
+      "La presión pélvica excluye un problema cervical",
+      "El antecedente de pérdida tardía descarta infección",
+      "La fiebre y la sensibilidad uterina obligan a investigar infección intraamniótica antes de plantear cerclaje",
+      "La dilatación cervical solo puede ocurrir durante el parto a término"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Aunque la historia puede sugerir insuficiencia cervical, la fiebre y la sensibilidad uterina son signos de alarma de posible infección intraamniótica. Esta condición modifica la conducta y constituye una contraindicación importante para el cerclaje. La etiología de la dilatación debe evaluarse integralmente.",
+    "perlaENARM": "No atribuyas toda dilatación indolora a insuficiencia cervical: fiebre y sensibilidad uterina obligan a descartar infección.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, páginas 1 y 4.",
+      "ACOG. Intraamniotic Infection.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency."
+    ]
+  },
+  {
+    "id": "OBS-359",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Integración de antecedentes y ultrasonido",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Resolver un escenario de riesgo cervical integrando antecedentes obstétricos, longitud cervical y edad gestacional.",
+    "caso": "Paciente de 33 años, embarazo único de 18 semanas, con antecedente de pérdida espontánea a las 20 semanas precedida por dilatación cervical indolora. La longitud cervical transvaginal actual es de 23 mm. No presenta contracciones, sangrado ni ruptura de membranas.",
+    "pregunta": "¿Qué estrategia debe discutirse prioritariamente con el equipo de medicina materno-fetal?",
+    "opciones": [
+      "Descartar toda intervención porque el cuello mide más de 20 mm",
+      "Esperar hasta la semana 37 sin seguimiento cervical",
+      "Valorar cerclaje indicado por ultrasonido antes de las 24 semanas, tras confirmar los criterios clínicos y excluir contraindicaciones",
+      "Realizar inducción del parto para prevenir una pérdida posterior",
+      "Administrar antibióticos como tratamiento de la longitud cervical reducida"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La paciente presenta una historia sugestiva de insuficiencia cervical y una longitud menor de 25 mm dentro del intervalo gestacional descrito en el PDF. Estos datos sustentan la valoración especializada para cerclaje antes de las 24 semanas, sin omitir la revisión de los criterios y las contraindicaciones.",
+    "perlaENARM": "Antecedente compatible más longitud cervical menor de 25 mm en el segundo trimestre puede modificar la conducta preventiva.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, página 3.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency.",
+      "FIGO. Good practice recommendations on cervical cerclage."
+    ]
+  },
+  {
+    "id": "OBS-360",
+    "especialidad": "Obstetricia",
+    "tema": "Insuficiencia cervical",
+    "subtema": "Integración diagnóstica y terapéutica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar la presentación clínica, la longitud cervical, la edad gestacional y las contraindicaciones para seleccionar una estrategia de prevención del parto pretérmino.",
+    "caso": "Paciente de 30 años, embarazo único de 20 semanas, con antecedente de pérdida espontánea a las 19 semanas después de dilatación cervical indolora. La longitud cervical transvaginal actual es de 18 mm. Está afebril, sin contracciones regulares, sangrado ni ruptura de membranas.",
+    "pregunta": "¿Qué estrategia integra mejor los antecedentes y los hallazgos actuales?",
+    "opciones": [
+      "Indicar cerclaje de forma automática sin revisar contraindicaciones",
+      "Descartar insuficiencia cervical porque no hay dolor",
+      "Esperar a que ocurra otra pérdida antes de ofrecer prevención",
+      "Indicar cesárea inmediata a las 20 semanas",
+      "Realizar valoración especializada para cerclaje antes de las 24 semanas y discutir las alternativas preventivas pertinentes"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El antecedente de pérdida del segundo trimestre con dilatación indolora, junto con longitud cervical de 18 mm a las 20 semanas, plantea un riesgo importante de insuficiencia cervical. El cerclaje puede ser una opción en pacientes seleccionadas si se cumplen los criterios y no existen contraindicaciones. La decisión debe incorporar la evaluación clínica, las preferencias informadas y las guías vigentes.",
+    "perlaENARM": "El manejo del riesgo cervical integra historia obstétrica, medición transvaginal, edad gestacional y exclusión de infección, trabajo de parto y ruptura de membranas.",
+    "bibliografia": [
+      "PDF proporcionado: Insuficiencia Cervical, páginas 1-4.",
+      "ACOG. Cerclage for the Management of Cervical Insufficiency.",
+      "SMFM. Consult Series: The Role of Cervical Length Screening.",
+      "FIGO. Good practice recommendations on cervical cerclage."
+    ]
+  },
+  {
+    "id": "OBS-361",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Definición y clasificación",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Aplicar la definición cronológica de parto pretérmino y distinguir sus categorías según la edad gestacional.",
+    "caso": "Gestante de 32 años con embarazo de 35 semanas y 4 días presenta contracciones regulares y cambios cervicales progresivos. Se confirma el nacimiento antes de completar las 37 semanas.",
+    "pregunta": "¿En qué categoría se clasifica este nacimiento según el material proporcionado?",
+    "opciones": [
+      "Parto a término temprano",
+      "Parto pretérmino muy temprano",
+      "Parto pretérmino temprano",
+      "Parto pretérmino tardío",
+      "Aborto del segundo trimestre"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF define parto pretérmino como el nacimiento antes de las 37 semanas o 259 días desde la fecha de última menstruación. Clasifica el parto pretérmino muy temprano entre 20.0 y 23.6 semanas, temprano entre 24.0 y 33.6 semanas y tardío entre 34.0 y 36.6 semanas. A las 35 semanas y 4 días corresponde a parto pretérmino tardío.",
+    "perlaENARM": "Antes de las 37 semanas es parto pretérmino; de 34.0 a 36.6 semanas se clasifica como pretérmino tardío en el esquema del PDF.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 1.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-362",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Etiología",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar el parto pretérmino espontáneo del indicado por una complicación materna o fetal.",
+    "caso": "Paciente de 31 semanas con preeclampsia con datos de severidad y deterioro progresivo de la función renal. No presenta contracciones regulares ni modificaciones cervicales; el equipo decide finalizar la gestación por riesgo materno.",
+    "pregunta": "¿Cómo se clasifica la causa del nacimiento anticipado?",
+    "opciones": [
+      "Parto pretérmino espontáneo idiopático",
+      "Parto pretérmino iatrogénico o médicamente indicado",
+      "Parto pretérmino asociado obligatoriamente a ruptura de membranas",
+      "Insuficiencia cervical aislada",
+      "Aborto espontáneo por incompetencia cervical"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El parto pretérmino indicado ocurre cuando una condición materna o fetal obliga a finalizar el embarazo antes del término. El PDF menciona preeclampsia, restricción del crecimiento y compromiso fetal entre las causas. No debe confundirse con el inicio espontáneo del trabajo de parto.",
+    "perlaENARM": "Nacimiento antes de 37 semanas por indicación médica no equivale a trabajo de parto pretérmino espontáneo.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 1.",
+      "ACOG. Medically Indicated Late-Preterm and Early-Term Deliveries."
+    ]
+  },
+  {
+    "id": "OBS-363",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Factores de riesgo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Estratificar el riesgo de recurrencia de parto pretérmino a partir de los antecedentes obstétricos.",
+    "caso": "Mujer de 27 años con embarazo único de 15 semanas. En su gestación previa tuvo un parto espontáneo a las 30 semanas. Actualmente está asintomática y no tiene sangrado.",
+    "pregunta": "¿Qué antecedente modifica de manera importante la vigilancia del embarazo actual?",
+    "opciones": [
+      "La ausencia de náuseas durante el primer trimestre",
+      "El grupo sanguíneo materno",
+      "El antecedente de parto pretérmino espontáneo, que la coloca en un grupo de mayor riesgo de recurrencia",
+      "La edad gestacional actual, que excluye riesgo hasta la semana 24",
+      "La ausencia de contracciones en la consulta"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El antecedente de parto pretérmino espontáneo es uno de los factores de riesgo más relevantes para recurrencia. El PDF lo clasifica como factor de alto riesgo y recomienda evaluación dirigida, incluyendo medición transvaginal de longitud cervical en la ventana gestacional apropiada.",
+    "perlaENARM": "Un parto pretérmino espontáneo previo modifica el riesgo y justifica vigilancia dirigida; la ausencia de síntomas hoy no elimina ese antecedente.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, páginas 2-3.",
+      "ACOG. Prediction and Prevention of Spontaneous Preterm Birth."
+    ]
+  },
+  {
+    "id": "OBS-364",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Longitud cervical en pacientes de alto riesgo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar el método y momento de evaluación cervical en una gestante con antecedente de parto pretérmino.",
+    "caso": "Paciente de 29 años con antecedente de parto espontáneo a las 29 semanas acude a las 19 semanas de su embarazo actual. No tiene contracciones ni pérdida de líquido. Se desea estimar el riesgo de recurrencia.",
+    "pregunta": "¿Qué evaluación resulta más útil para identificar acortamiento cervical en esta paciente?",
+    "opciones": [
+      "Medición de longitud cervical por ultrasonido transvaginal",
+      "Radiografía de pelvis",
+      "Tacto vaginal semanal como único método de cribado",
+      "Amniocentesis para medir madurez pulmonar fetal",
+      "Prueba de tolerancia oral a la glucosa"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF recomienda medir la longitud cervical mediante ultrasonido transvaginal en mujeres con antecedentes de parto pretérmino y otros factores de riesgo, con énfasis en el segundo trimestre. La medición permite estratificar el riesgo y valorar intervenciones preventivas según la longitud y la historia obstétrica.",
+    "perlaENARM": "Antecedente de parto pretérmino: la longitud cervical transvaginal ayuda a dirigir la prevención; no se sustituye por radiografía ni tactos seriados indiscriminados.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, páginas 2-3.",
+      "SMFM. The Role of Cervical Length Screening for Preterm Birth Prevention."
+    ]
+  },
+  {
+    "id": "OBS-365",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Prevención con progesterona",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar a la paciente con embarazo único y cuello corto que puede beneficiarse de progesterona vaginal.",
+    "caso": "Primigesta de 26 años, embarazo único de 21 semanas, asintomática, con longitud cervical transvaginal de 17 mm. No tiene antecedentes de parto pretérmino ni dilatación cervical.",
+    "pregunta": "¿Qué estrategia preventiva debe considerarse conforme a las recomendaciones contemporáneas para cuello corto en embarazo único?",
+    "opciones": [
+      "Cerclaje obligatorio en toda paciente con longitud cervical menor de 25 mm",
+      "Reposo absoluto hasta el término",
+      "Tocolíticos profilácticos durante el resto de la gestación",
+      "Progesterona vaginal, tras confirmar la medición y revisar las recomendaciones aplicables",
+      "Antibióticos sistémicos sin evidencia de infección"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "En embarazos únicos sin antecedente de parto pretérmino, una longitud cervical corta, especialmente de 20 mm o menos antes de las 24 semanas, es una indicación para considerar progesterona vaginal según recomendaciones contemporáneas. El cerclaje no se indica automáticamente por el acortamiento aislado en una paciente sin antecedentes y sin dilatación.",
+    "perlaENARM": "Embarazo único, asintomático y cuello de 20 mm o menos antes de las 24 semanas: valorar progesterona vaginal; no indicar cerclaje de forma automática.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 3.",
+      "SMFM. Consult Series: Short Cervix in Individuals Without a History of Spontaneous Preterm Birth.",
+      "ACOG. Prediction and Prevention of Spontaneous Preterm Birth."
+    ]
+  },
+  {
+    "id": "OBS-366",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Reposo y prevención",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Evitar intervenciones preventivas sin beneficio demostrado para prevenir el parto pretérmino.",
+    "caso": "Gestante de 25 semanas con antecedente de parto pretérmino previo y cuello uterino corto solicita incapacidad para permanecer en reposo absoluto durante el resto del embarazo. No presenta dinámica uterina.",
+    "pregunta": "¿Qué recomendación es más consistente con la evidencia contemporánea?",
+    "opciones": [
+      "El reposo absoluto previene de forma demostrada el parto pretérmino en todas las pacientes",
+      "Indicar inmovilización estricta y profilaxis farmacológica universal",
+      "Evitar recomendar reposo estricto rutinario, por ausencia de beneficio demostrado y posibles daños asociados",
+      "Suspender toda actividad cotidiana sin individualizar el riesgo",
+      "Reemplazar la vigilancia cervical por reposo en cama"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF señala poca eficacia del reposo y menciona que las medidas generales como reposo, monitoreo de contracciones y modificación de actividad no han demostrado de manera consistente prevenir el parto pretérmino. Las recomendaciones contemporáneas desaconsejan el reposo estricto rutinario debido a falta de beneficio y riesgos como tromboembolismo y desacondicionamiento.",
+    "perlaENARM": "El reposo absoluto no es una estrategia universal probada para prevenir el parto pretérmino y puede ocasionar daño.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, páginas 3 y 6.",
+      "ACOG. Prediction and Prevention of Spontaneous Preterm Birth."
+    ]
+  },
+  {
+    "id": "OBS-367",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Diagnóstico clínico de amenaza",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar frecuencia de contracciones y cambios cervicales para reconocer amenaza de parto pretérmino.",
+    "caso": "Gestante de 29 semanas acude por dolor lumbar y contracciones. Se documentan cuatro contracciones en 20 minutos, membranas íntegras, dilatación cervical de 2 cm y borramiento de 40%. No hay sangrado ni fiebre.",
+    "pregunta": "¿Cómo debe interpretarse el cuadro según los criterios clínicos del PDF?",
+    "opciones": [
+      "Amenaza de parto pretérmino, por dinámica uterina asociada con modificación cervical",
+      "Trabajo de parto a término",
+      "Falso trabajo de parto descartado por completo",
+      "Ruptura prematura de membranas confirmada",
+      "Insuficiencia cervical crónica sin necesidad de valorar la dinámica uterina"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF describe amenaza de parto pretérmino con contracciones uterinas frecuentes asociadas con dilatación cervical de hasta 3 cm, borramiento de hasta 50% o acortamiento cervical. El diagnóstico debe integrar la evaluación clínica y, cuando sea pertinente, la longitud cervical o fibronectina fetal.",
+    "perlaENARM": "La dinámica uterina aislada no basta: el diagnóstico de amenaza integra contracciones y datos cervicales.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 4.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-368",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Trabajo de parto pretérmino establecido",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer los hallazgos que aumentan la probabilidad de nacimiento inminente.",
+    "caso": "Paciente de 30 semanas presenta contracciones regulares, dilatación cervical de 4 cm y borramiento de 90%. Las membranas permanecen íntegras y el feto presenta frecuencia cardiaca normal.",
+    "pregunta": "¿Qué hallazgo clínico tiene mayor peso para establecer trabajo de parto pretérmino y estimar nacimiento próximo?",
+    "opciones": [
+      "La edad materna de 30 años",
+      "La ausencia de ruptura de membranas",
+      "La frecuencia cardiaca fetal normal",
+      "La dilatación de 4 cm con borramiento de 90% y contracciones regulares",
+      "La ausencia de fiebre"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF define trabajo de parto pretérmino mediante contracciones frecuentes junto con dilatación mayor de 3 cm o borramiento mayor de 80%. La dilatación avanzada y el borramiento importante son predictores de nacimiento en las siguientes horas o días, aunque la evolución individual puede variar.",
+    "perlaENARM": "Contracciones regulares más dilatación mayor de 3 cm o borramiento mayor de 80% sugieren trabajo de parto pretérmino establecido.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 5.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-369",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Fibronectina fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar el valor predictivo negativo de la fibronectina fetal en una paciente con síntomas de parto pretérmino.",
+    "caso": "Gestante de 29 semanas con contracciones irregulares, membranas íntegras y cambios cervicales no concluyentes. La fibronectina fetal resulta negativa y la longitud cervical es de 27 mm.",
+    "pregunta": "¿Qué característica de la prueba ayuda más a orientar el riesgo de nacimiento inminente?",
+    "opciones": [
+      "Una prueba negativa confirma infección intraamniótica",
+      "El valor predictivo negativo elevado reduce la probabilidad de parto en los próximos días en pacientes seleccionadas",
+      "La prueba negativa obliga a realizar cesárea",
+      "La fibronectina mide directamente la dilatación cervical",
+      "Una prueba negativa excluye cualquier posibilidad de parto pretérmino durante el resto del embarazo"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF describe un valor predictivo negativo cercano al 95% para nacimiento en las dos semanas siguientes, aunque el rendimiento depende de la población y del contexto clínico. Una prueba negativa puede apoyar una conducta menos intervencionista en pacientes seleccionadas, pero no elimina el riesgo futuro ni sustituye la evaluación clínica.",
+    "perlaENARM": "La fibronectina fetal negativa es especialmente útil para reducir la probabilidad de parto inminente; no garantiza que no ocurrirá parto pretérmino después.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 4.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-370",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Longitud cervical y riesgo a siete días",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Utilizar la longitud cervical para estimar el riesgo de nacimiento a corto plazo en una paciente sintomática.",
+    "caso": "Gestante de 31 semanas presenta contracciones ocasionales. La evaluación muestra membranas íntegras, sin cambios cervicales progresivos y longitud cervical transvaginal de 34 mm. La frecuencia cardiaca fetal es tranquilizadora.",
+    "pregunta": "¿Qué interpretación respalda el dato ecográfico según el esquema del PDF?",
+    "opciones": [
+      "La longitud cervical confirma nacimiento en menos de 24 horas",
+      "El hallazgo obliga a realizar cerclaje de rescate",
+      "La longitud cervical mayor de 30 mm hace menos probable el trabajo de parto pretérmino inminente en este contexto",
+      "El resultado confirma ruptura prematura de membranas",
+      "La longitud cervical carece de utilidad en toda paciente sintomática"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF señala que, cuando la actividad uterina no es franca y existe duda sobre los cambios cervicales, una longitud cervical mayor de 30 mm puede ayudar a excluir el diagnóstico de parto pretérmino inminente y evitar hospitalización innecesaria. La decisión debe considerar el estado materno-fetal y otros factores clínicos.",
+    "perlaENARM": "En pacientes seleccionadas con síntomas dudosos, un cuello mayor de 30 mm disminuye la probabilidad de nacimiento inminente.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, páginas 4-5.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-371",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Longitud cervical de alto riesgo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el elevado riesgo de nacimiento próximo asociado con acortamiento cervical extremo.",
+    "caso": "Paciente de 28 semanas presenta contracciones regulares y dolor lumbar. La longitud cervical transvaginal es de 4 mm; el cuello está dilatado 2 cm y el borramiento es de 60%. No hay datos de infección ni ruptura de membranas.",
+    "pregunta": "¿Qué dato indica el mayor riesgo de nacimiento en los próximos siete días según la tabla del PDF?",
+    "opciones": [
+      "La longitud cervical de 4 mm, asociada en la tabla con una probabilidad elevada de nacimiento a siete días",
+      "La ausencia de fiebre",
+      "La edad materna menor de 30 años",
+      "La presencia de membranas íntegras, que elimina el riesgo",
+      "El dolor lumbar como dato aislado"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La tabla del PDF asocia longitudes cervicales de 5 a 1 mm con una probabilidad estimada de nacimiento a siete días de 91.7% en la población estudiada. Estas cifras no deben extrapolarse sin considerar el contexto clínico, pero ilustran que el acortamiento extremo en una paciente sintomática representa alto riesgo.",
+    "perlaENARM": "Una longitud cervical extremadamente corta en una paciente sintomática indica riesgo elevado de nacimiento próximo y requiere evaluación obstétrica urgente.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 5.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-372",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Evaluación inicial",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Priorizar la evaluación inicial de una gestante con contracciones y posible parto pretérmino.",
+    "caso": "Paciente de 30 semanas llega a urgencias por contracciones y secreción vaginal rosada. Se desconoce si las membranas están íntegras y no existe una valoración reciente de la localización placentaria.",
+    "pregunta": "¿Qué evaluación clínica forma parte del abordaje inicial descrito en el PDF?",
+    "opciones": [
+      "Realizar tactos vaginales repetidos sin evaluar la placenta",
+      "Iniciar tocolisis sin confirmar la edad gestacional ni revisar contraindicaciones",
+      "Solicitar tomografía computarizada de pelvis",
+      "Evaluar con espéculo el sangrado y el estado de las membranas, y obtener muestras cuando estén indicadas",
+      "Indicar reposo en casa sin valorar el riesgo"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF recomienda una exploración con espéculo para evaluar presencia y cantidad de sangrado, estado de las membranas y toma de muestras cervicales para fibronectina fetal cuando sea pertinente. También debe valorarse la causa del sangrado y el estado materno-fetal antes de decidir la conducta.",
+    "perlaENARM": "Ante contracciones con sangrado o sospecha de ruptura de membranas, evalúa sangrado, membranas y bienestar fetal antes de intervenir.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 4.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-373",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Tocolisis y objetivos terapéuticos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que el objetivo principal de la tocolisis es ganar tiempo para intervenciones perinatales, no impedir indefinidamente el parto.",
+    "caso": "Gestante de 29 semanas con trabajo de parto pretérmino, membranas íntegras y estado fetal tranquilizador. No presenta hemorragia, infección ni contraindicación materna para tocolíticos. Aún no recibe corticosteroides antenatales.",
+    "pregunta": "¿Cuál es el objetivo principal de una tocolisis de corta duración?",
+    "opciones": [
+      "Garantizar que el embarazo llegue a las 40 semanas",
+      "Evitar de manera permanente toda contracción uterina",
+      "Sustituir los corticosteroides antenatales",
+      "Prevenir todas las causas de morbilidad neonatal sin otras intervenciones",
+      "Retrasar el nacimiento el tiempo suficiente para administrar corticosteroides y facilitar el traslado a un centro adecuado"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF establece que el objetivo de la tocolisis es ganar aproximadamente 48 horas para administrar corticosteroides antenatales y permitir la referencia a una unidad de mayor capacidad. No se recomienda usar tocolíticos de forma prolongada para mantener indefinidamente la gestación.",
+    "perlaENARM": "La tocolisis es una estrategia temporal para facilitar intervenciones que mejoran el pronóstico neonatal, no un tratamiento definitivo del parto pretérmino.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 7.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-374",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Selección de tocolítico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar un tocolítico de uso habitual en una paciente con parto pretérmino y sin contraindicaciones.",
+    "caso": "Paciente de 30 semanas con contracciones y cambios cervicales progresivos. No hay infección intraamniótica, desprendimiento placentario ni compromiso fetal. Se busca una ventana de 48 horas para completar la maduración pulmonar.",
+    "pregunta": "¿Qué fármacos menciona el PDF como opciones de primera elección para tocolisis?",
+    "opciones": [
+      "Oxitocina y misoprostol",
+      "Nifedipino o atosibán, según disponibilidad y contraindicaciones",
+      "Metotrexato y ácido folínico",
+      "Carboprost y ergometrina",
+      "Warfarina y heparina"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF identifica nifedipino o atosibán como opciones de primera elección para tocolisis de corta duración. La selección debe individualizarse según las contraindicaciones, disponibilidad y condiciones maternas. Los tocolíticos no deben retrasar un nacimiento indicado por una urgencia materna o fetal.",
+    "perlaENARM": "Nifedipino o atosibán pueden utilizarse para una tocolisis breve; el objetivo es completar intervenciones antenatales útiles.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 7.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-375",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Contraindicaciones de tocolisis",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar una contraindicación obstétrica mayor para retrasar el nacimiento mediante tocolíticos.",
+    "caso": "Gestante de 31 semanas con contracciones y sangrado abundante. Presenta dolor uterino persistente, hipertonía y deterioro del estado fetal. La ecografía y la clínica sugieren desprendimiento prematuro de placenta normoinserta.",
+    "pregunta": "¿Qué conducta farmacológica debe evitarse ante este escenario?",
+    "opciones": [
+      "Monitorización materno-fetal continua",
+      "Evaluación de hemorragia y preparación para la atención obstétrica urgente",
+      "Tocolisis para prolongar 48 horas el embarazo pese al desprendimiento y compromiso fetal",
+      "Estabilización hemodinámica materna",
+      "Valoración inmediata por el equipo obstétrico"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El desprendimiento prematuro de placenta con hemorragia o compromiso materno-fetal es una contraindicación para retrasar el nacimiento con tocolisis. La prioridad es estabilizar a la paciente y decidir la finalización del embarazo de acuerdo con la situación clínica.",
+    "perlaENARM": "No retrases un nacimiento necesario por desprendimiento placentario o deterioro materno-fetal para completar corticosteroides.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 7.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-376",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Corticosteroides antenatales",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar los criterios de administración de corticosteroides para maduración pulmonar fetal.",
+    "caso": "Paciente de 28 semanas con trabajo de parto pretérmino establecido, dilatación de 4 cm y alta probabilidad de nacimiento en los próximos días. No presenta corioamnionitis y nunca ha recibido corticosteroides antenatales.",
+    "pregunta": "¿Qué esquema de betametasona se describe en el PDF para maduración pulmonar?",
+    "opciones": [
+      "Betametasona 12 mg intramuscular, dos dosis separadas por 24 horas",
+      "Betametasona 2 mg oral cada 6 horas durante una semana",
+      "Betametasona 24 mg en una sola dosis intravenosa",
+      "Betametasona 6 mg intramuscular cada 6 horas durante 24 horas",
+      "Betametasona exclusivamente después del nacimiento"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF describe betametasona 12 mg en dos dosis separadas por 24 horas. Los corticosteroides antenatales reducen complicaciones asociadas con prematuridad cuando existe riesgo de nacimiento dentro de una ventana apropiada. No debe retrasarse un nacimiento médicamente indicado para completar el esquema.",
+    "perlaENARM": "Betametasona antenatal: 12 mg intramuscular cada 24 horas por dos dosis; administrar cuando exista riesgo real de nacimiento prematuro en la ventana indicada.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 8.",
+      "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation."
+    ]
+  },
+  {
+    "id": "OBS-377",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Alternativa de corticosteroides",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el esquema de dexametasona antenatal utilizado para maduración pulmonar fetal.",
+    "caso": "Gestante de 30 semanas con riesgo de parto en los siguientes días requiere corticosteroides antenatales. En la unidad se dispone de dexametasona y no de betametasona.",
+    "pregunta": "¿Qué esquema de dexametasona señala el documento proporcionado?",
+    "opciones": [
+      "Una dosis oral de 40 mg",
+      "Dos dosis intramusculares de 12 mg separadas por 24 horas",
+      "Seis dosis intravenosas de 2 mg cada 4 horas",
+      "Cuatro dosis de 6 mg separadas por 12 horas",
+      "Una dosis de 6 mg semanal hasta las 37 semanas"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF presenta dexametasona en cuatro dosis de 6 mg cada 12 horas como alternativa para maduración pulmonar. El esquema debe administrarse conforme al protocolo local y a la evaluación de la probabilidad de nacimiento prematuro.",
+    "perlaENARM": "Dexametasona antenatal: cuatro dosis de 6 mg cada 12 horas en el esquema clásico.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 8.",
+      "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation."
+    ]
+  },
+  {
+    "id": "OBS-378",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Corticosteroides en prematuridad tardía",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer los criterios generales para considerar corticosteroides antenatales en el periodo pretérmino tardío.",
+    "caso": "Paciente de 35 semanas y 2 días presenta riesgo elevado de nacimiento en los próximos cinco días por indicación obstétrica. No ha recibido corticosteroides antenatales en el embarazo actual y no hay datos de infección intraamniótica.",
+    "pregunta": "¿Qué consideración se desprende de las recomendaciones para el periodo pretérmino tardío?",
+    "opciones": [
+      "Los corticosteroides están contraindicados en todas las gestaciones después de las 34 semanas",
+      "Deben administrarse a toda gestante de 35 semanas, aunque no exista riesgo de nacimiento",
+      "Se debe retrasar cualquier nacimiento indicado hasta completar el esquema, sin excepciones",
+      "La edad gestacional excluye la necesidad de evaluar riesgos y beneficios",
+      "Puede considerarse un curso antenatal en pacientes seleccionadas con alto riesgo de nacimiento próximo y sin tratamiento previo, conforme a la guía aplicable"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF contempla corticosteroides entre 34 y 36.6 semanas cuando se prevé nacimiento en los siguientes siete días y no hubo tratamiento antenatal previo. La evidencia contemporánea recomienda selección cuidadosa por los beneficios respiratorios y el riesgo de hipoglucemia neonatal. No debe retrasarse una finalización indicada por una urgencia materna o fetal.",
+    "perlaENARM": "En prematuridad tardía, los corticosteroides no son universales: requieren riesgo de nacimiento próximo y selección según criterios de la guía.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 8.",
+      "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation.",
+      "SMFM. Implementation of the Use of Antenatal Corticosteroids in the Late Preterm Birth Period."
+    ]
+  },
+  {
+    "id": "OBS-379",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Corticosteroides y corioamnionitis",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar retrasos peligrosos en la atención de infección intraamniótica para completar corticosteroides.",
+    "caso": "Gestante de 29 semanas con contracciones, fiebre, taquicardia materna y fetal, dolor uterino y líquido amniótico fétido. Se sospecha infección intraamniótica y el equipo considera esperar 48 horas para completar la maduración pulmonar.",
+    "pregunta": "¿Qué principio debe prevalecer en la toma de decisiones?",
+    "opciones": [
+      "La tocolisis es obligatoria en toda gestación menor de 34 semanas",
+      "No debe retrasarse la atención obstétrica indicada por infección para completar corticosteroides",
+      "La infección intraamniótica se trata únicamente con progesterona",
+      "Debe posponerse el tratamiento antibiótico hasta finalizar el esquema de corticosteroides",
+      "La fiebre no modifica el riesgo de la prolongación del embarazo"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La infección intraamniótica constituye una contraindicación importante para tocolisis y cambia la prioridad del manejo. Los corticosteroides pueden tener beneficios en prematuridad, pero no justifican retrasar el tratamiento de la infección ni una finalización indicada por la situación materno-fetal.",
+    "perlaENARM": "No retrases antibióticos ni la finalización indicada por corioamnionitis para completar corticosteroides o tocolisis.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, páginas 7-8.",
+      "ACOG. Intraamniotic Infection.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-380",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Neuroprotección fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar la indicación de sulfato de magnesio para neuroprotección fetal ante nacimiento prematuro inminente.",
+    "caso": "Paciente de 29 semanas con trabajo de parto pretérmino establecido y dilatación cervical de 5 cm. Se estima que el nacimiento ocurrirá en las siguientes horas. No presenta insuficiencia renal conocida ni otras contraindicaciones al sulfato de magnesio.",
+    "pregunta": "¿Qué intervención puede ofrecerse para disminuir el riesgo de parálisis cerebral en el recién nacido?",
+    "opciones": [
+      "Sulfato de magnesio intravenoso para neuroprotección fetal, conforme al protocolo institucional",
+      "Indometacina como neuroprotector neonatal de primera elección",
+      "Metotrexato intramuscular",
+      "Progesterona vaginal como medida de efecto inmediato",
+      "Oxitocina para detener las contracciones"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF señala sulfato de magnesio intravenoso para neuroprotección fetal cuando se prevé nacimiento prematuro antes de las 32 semanas. El objetivo es reducir el riesgo de parálisis cerebral y alteraciones motoras. El esquema y la monitorización deben seguir el protocolo institucional.",
+    "perlaENARM": "Sulfato de magnesio antes de las 32 semanas cuando el nacimiento prematuro es inminente: considerar neuroprotección fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 8.",
+      "ACOG. Magnesium Sulfate Before Anticipated Preterm Birth for Neuroprotection."
+    ]
+  },
+  {
+    "id": "OBS-381",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Indicación de sulfato de magnesio",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir la neuroprotección fetal del uso de sulfato de magnesio para otras indicaciones obstétricas.",
+    "caso": "Gestante de 30 semanas con preeclampsia con datos de severidad requiere finalización del embarazo en las próximas horas. No tiene trabajo de parto espontáneo, pero el nacimiento prematuro es inminente.",
+    "pregunta": "¿Cuál es la consideración correcta sobre el sulfato de magnesio en este escenario?",
+    "opciones": [
+      "Está indicado exclusivamente si existen contracciones regulares",
+      "Solo puede administrarse después del nacimiento",
+      "Puede estar indicado para neuroprotección fetal ante nacimiento prematuro inminente, además de valorarse su indicación materna por preeclampsia",
+      "Debe evitarse siempre que exista hipertensión",
+      "Sustituye la necesidad de controlar la preeclampsia y planear el nacimiento"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El sulfato de magnesio puede tener dos indicaciones distintas: profilaxis de convulsiones maternas en preeclampsia con datos de severidad y neuroprotección fetal cuando se anticipa nacimiento prematuro en la ventana recomendada. La dosis, monitorización y duración dependen de la indicación específica y del protocolo institucional.",
+    "perlaENARM": "Distingue neuroprotección fetal de profilaxis anticonvulsiva materna: el mismo fármaco puede tener indicaciones diferentes.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 8.",
+      "ACOG. Gestational Hypertension and Preeclampsia.",
+      "ACOG. Magnesium Sulfate Before Anticipated Preterm Birth for Neuroprotection."
+    ]
+  },
+  {
+    "id": "OBS-382",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Indometacina como tocolítico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer las limitaciones gestacionales de la indometacina como tocolítico.",
+    "caso": "Paciente de 34 semanas con contracciones y cambios cervicales progresivos requiere valoración para tocolisis. Un integrante del equipo propone indometacina por su efecto inhibidor de prostaglandinas.",
+    "pregunta": "¿Qué consideración farmacológica es importante antes de aceptar esa propuesta?",
+    "opciones": [
+      "La indometacina es obligatoria después de las 34 semanas",
+      "La indometacina carece de efectos fetales relevantes en cualquier edad gestacional",
+      "La indometacina debe administrarse hasta el término para prevenir recurrencias",
+      "La indometacina no requiere valoración de edad gestacional",
+      "La indometacina suele limitarse a edades gestacionales más tempranas por riesgos fetales, y el PDF la señala como contraindicada después de las 33 semanas"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF señala la indometacina como contraindicada después de las 33 semanas. Su uso como tocolítico se limita por riesgos fetales dependientes de la edad gestacional, incluyendo constricción del conducto arterioso y alteraciones del líquido amniótico. La elección del fármaco debe individualizarse.",
+    "perlaENARM": "La indometacina no es una opción universal; la edad gestacional y los riesgos fetales limitan su uso.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 7.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-383",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Tocolisis en preeclampsia grave",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer una contraindicación materna para tocolisis cuando la finalización del embarazo es prioritaria.",
+    "caso": "Gestante de 31 semanas con preeclampsia con datos de severidad presenta deterioro de la función hepática y síntomas neurológicos. Tiene contracciones uterinas y cambios cervicales.",
+    "pregunta": "¿Por qué no debe priorizarse una tocolisis rutinaria para ganar 48 horas?",
+    "opciones": [
+      "Porque la edad gestacional es mayor de 20 semanas",
+      "Porque la tocolisis no puede utilizarse en ningún embarazo único",
+      "Porque los corticosteroides están contraindicados en toda hipertensión",
+      "Porque la condición materna grave puede requerir finalización y la tocolisis no debe retrasar una intervención necesaria",
+      "Porque la presencia de contracciones elimina el riesgo de eclampsia"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La preeclampsia con datos de severidad y deterioro materno puede exigir la finalización del embarazo. La tocolisis está contraindicada cuando prolongar la gestación resulta peligroso para la madre o el feto. La prioridad es estabilización, tratamiento de la enfermedad hipertensiva y decisión obstétrica oportuna.",
+    "perlaENARM": "La tocolisis nunca debe retrasar la finalización indicada por deterioro materno grave.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 7.",
+      "ACOG. Gestational Hypertension and Preeclampsia."
+    ]
+  },
+  {
+    "id": "OBS-384",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Infección urinaria asociada",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la necesidad de identificar y tratar infección urinaria en una paciente con síntomas de parto pretérmino.",
+    "caso": "Gestante de 30 semanas acude por contracciones y disuria. El examen general de orina muestra piuria y nitritos positivos. No presenta fiebre, dolor lumbar ni inestabilidad hemodinámica.",
+    "pregunta": "¿Qué componente del manejo debe incorporarse?",
+    "opciones": [
+      "Ignorar el resultado porque la infección urinaria no afecta el embarazo",
+      "Indicar metotrexato para detener las contracciones",
+      "Tratar la infección urinaria con un antibiótico apropiado según cultivo, sensibilidad y resistencia local",
+      "Administrar antibióticos intravenosos durante todo el embarazo sin reevaluación",
+      "Evitar tomar cultivo de orina en una paciente embarazada"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF recomienda realizar examen general de orina en la evaluación de síntomas de parto pretérmino y tratar la infección urinaria cuando se documenta. La selección antibiótica debe considerar el tipo de infección, cultivo cuando corresponda, sensibilidad, alergias y resistencia local; los síntomas de parto requieren evaluación obstétrica paralela.",
+    "perlaENARM": "Ante síntomas de parto pretérmino, busca y trata infección urinaria cuando esté presente; el antibiótico se elige según el cuadro y la sensibilidad.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 6.",
+      "ACOG. Urinary Tract Infections in Pregnant Individuals."
+    ]
+  },
+  {
+    "id": "OBS-385",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Ruptura prematura de membranas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar parto pretérmino espontáneo con membranas íntegras de nacimiento asociado a ruptura prematura de membranas.",
+    "caso": "Paciente de 32 semanas refiere salida súbita de líquido transvaginal seguida de contracciones. La exploración confirma ruptura de membranas y el cuello presenta cambios progresivos.",
+    "pregunta": "¿Qué componente etiológico está presente en este caso?",
+    "opciones": [
+      "Parto pretérmino asociado a ruptura prematura de membranas",
+      "Parto pretérmino iatrogénico por preeclampsia",
+      "Insuficiencia cervical aislada sin relación con las membranas",
+      "Parto a término temprano",
+      "Falso trabajo de parto sin riesgo obstétrico"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF clasifica el parto pretérmino asociado a ruptura prematura de membranas como una categoría etiológica diferenciada. La ruptura modifica la evaluación de infección, el manejo de antibióticos, la vigilancia materno-fetal y la indicación de intervenciones como corticosteroides, según edad gestacional y condiciones clínicas.",
+    "perlaENARM": "La ruptura de membranas antes del trabajo de parto cambia el abordaje: evalúa infección, edad gestacional y bienestar materno-fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, páginas 1 y 8.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-386",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Corticosteroides y ruptura de membranas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Determinar cuándo los corticosteroides antenatales pueden formar parte del manejo de ruptura prematura de membranas.",
+    "caso": "Gestante de 29 semanas presenta ruptura prematura de membranas confirmada. No tiene fiebre, dolor uterino ni datos clínicos de infección intraamniótica. El estado fetal es tranquilizador.",
+    "pregunta": "¿Qué intervención antenatal puede considerarse si existe riesgo de nacimiento prematuro dentro de la ventana apropiada?",
+    "opciones": [
+      "Tocolisis indefinida hasta las 37 semanas",
+      "Cerclaje cervical de emergencia",
+      "Evitar corticosteroides por el solo hecho de existir ruptura de membranas",
+      "Corticosteroides antenatales para maduración pulmonar, siempre que se cumplan los criterios clínicos",
+      "Metotrexato para retrasar el nacimiento"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF contempla corticosteroides antenatales en ruptura prematura de membranas sin datos de corioamnionitis, cuando existe riesgo de nacimiento prematuro. La decisión debe considerar edad gestacional, tratamiento previo y situación clínica. La presencia de infección o deterioro materno-fetal cambia las prioridades.",
+    "perlaENARM": "Ruptura de membranas no excluye automáticamente corticosteroides; la infección intraamniótica sí modifica sustancialmente la conducta.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 8.",
+      "ACOG. Prelabor Rupture of Membranes.",
+      "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation."
+    ]
+  },
+  {
+    "id": "OBS-387",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Tocolisis y ruptura de membranas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Individualizar la tocolisis ante ruptura prematura de membranas y evitar su uso cuando existe contraindicación.",
+    "caso": "Paciente de 30 semanas con ruptura prematura de membranas, contracciones ocasionales y sin infección clínica. Se solicita decidir si debe recibir tocolíticos para prolongar la gestación.",
+    "pregunta": "¿Qué principio es más apropiado para este escenario?",
+    "opciones": [
+      "La tocolisis es obligatoria en todas las pacientes con ruptura de membranas",
+      "La tocolisis está prohibida en cualquier paciente con ruptura de membranas, sin excepción ni valoración",
+      "La tocolisis puede individualizarse en situaciones seleccionadas, pero no debe retrasar el parto si hay infección o compromiso materno-fetal",
+      "Debe mantenerse tocolisis continua hasta las 37 semanas",
+      "La ruptura de membranas obliga a administrar oxitocina inmediatamente en todos los casos"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF clasifica la ruptura prematura de membranas como contraindicación relativa para tocolisis, a diferencia de condiciones como corioamnionitis o desprendimiento placentario, que constituyen contraindicaciones mayores. La evidencia contemporánea exige individualizar la decisión y no retrasar un nacimiento indicado por infección o deterioro materno-fetal.",
+    "perlaENARM": "En ruptura prematura de membranas, la tocolisis no es automática; infección, sangrado y estado fetal determinan si prolongar el embarazo es seguro.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 7.",
+      "ACOG. Prelabor Rupture of Membranes."
+    ]
+  },
+  {
+    "id": "OBS-388",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Fibronectina fetal y longitud cervical intermedia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar un resultado positivo de fibronectina fetal con una longitud cervical intermedia sin asumir certeza de parto inminente.",
+    "caso": "Gestante de 30 semanas con contracciones leves, membranas íntegras y longitud cervical de 25 mm. La fibronectina fetal es positiva. No hay dilatación progresiva ni compromiso fetal.",
+    "pregunta": "¿Cómo debe interpretarse la combinación de pruebas?",
+    "opciones": [
+      "Confirma que el nacimiento ocurrirá en las siguientes dos horas",
+      "Debe integrarse con la clínica porque una fibronectina positiva aumenta la sospecha, pero su valor predictivo positivo es limitado",
+      "Descarta cualquier posibilidad de parto pretérmino",
+      "Demuestra infección intraamniótica",
+      "Obliga a realizar cesárea inmediata independientemente de la evolución"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La fibronectina fetal positiva indica mayor riesgo de parto pretérmino, pero no confirma por sí sola el nacimiento inminente. El PDF reporta un valor predictivo positivo de aproximadamente 40-50% para nacimiento a dos semanas y destaca que la longitud cervical y la evaluación clínica deben integrarse en la decisión.",
+    "perlaENARM": "Fibronectina positiva no equivale a parto inminente confirmado; su interpretación depende de la longitud cervical y del cuadro clínico.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, páginas 4-5.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-389",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Seguimiento tras evaluación de bajo riesgo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer las condiciones clínicas que pueden permitir manejo ambulatorio después de una evaluación de bajo riesgo.",
+    "caso": "Gestante de 31 semanas consulta por contracciones que ceden durante la observación. Tiene membranas íntegras, fibronectina fetal negativa, longitud cervical de 28 mm, sin cambios cervicales y bienestar fetal normal.",
+    "pregunta": "¿Qué estrategia es razonable tras completar la evaluación y confirmar que no existen otros factores de alarma?",
+    "opciones": [
+      "Hospitalización prolongada obligatoria hasta el término",
+      "Tocolisis continua durante varias semanas",
+      "Cerclaje cervical de urgencia",
+      "Alta con indicaciones de alarma y seguimiento obstétrico, si el equipo confirma bajo riesgo",
+      "Inducción del parto para prevenir complicaciones"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La combinación de síntomas resueltos, ausencia de cambios cervicales, membranas íntegras y pruebas que reducen la probabilidad de nacimiento próximo puede apoyar el manejo ambulatorio en pacientes seleccionadas. La decisión requiere estabilidad materno-fetal, instrucciones claras de retorno y seguimiento accesible.",
+    "perlaENARM": "No toda paciente con contracciones requiere hospitalización prolongada; integra evolución, longitud cervical, pruebas y condiciones de seguridad para el alta.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, páginas 4-5.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-390",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Antibióticos en ausencia de infección",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar la administración indiscriminada de antibióticos para prevenir el parto pretérmino en pacientes con membranas íntegras y sin infección.",
+    "caso": "Gestante de 29 semanas presenta contracciones y modificaciones cervicales leves. Tiene membranas íntegras, está afebril y no presenta síntomas urinarios ni evidencia de infección. Un miembro del equipo propone antibióticos de amplio espectro para evitar el parto.",
+    "pregunta": "¿Qué principio debe orientar la indicación de antibióticos?",
+    "opciones": [
+      "Administrarlos de rutina a toda paciente con contracciones",
+      "Usarlos solo cuando exista una indicación específica, como infección documentada o profilaxis intraparto indicada",
+      "Mantenerlos hasta el término aunque no exista infección",
+      "Usarlos como sustituto de corticosteroides antenatales",
+      "Administrarlos para corregir directamente la longitud cervical"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El uso de antibióticos debe responder a una indicación clínica definida. En pacientes con trabajo de parto pretérmino y membranas íntegras, sin infección, los antibióticos no se utilizan de forma rutinaria únicamente para prolongar el embarazo. Deben tratarse las infecciones documentadas y aplicar profilaxis intraparto cuando esté indicada.",
+    "perlaENARM": "Antibióticos no son tocolíticos: no se indican de rutina para detener el parto pretérmino con membranas íntegras y sin infección.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, páginas 6-8.",
+      "ACOG. Preterm Labor and Birth.",
+      "ACOG. Prevention of Group B Streptococcal Early-Onset Disease in Newborns."
+    ]
+  },
+  {
+    "id": "OBS-391",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Vía del nacimiento",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Evitar la indicación automática de cesárea por el solo hecho de que el nacimiento sea pretérmino.",
+    "caso": "Gestante de 32 semanas con trabajo de parto pretérmino establecido, feto en presentación cefálica, estado fetal tranquilizador y ausencia de contraindicaciones para el parto vaginal.",
+    "pregunta": "¿Qué criterio debe determinar la vía de nacimiento?",
+    "opciones": [
+      "Realizar cesárea en toda gestación menor de 34 semanas",
+      "Indicar cesárea únicamente porque existe dilatación de 4 cm",
+      "Individualizar la vía vaginal o cesárea según presentación, estado materno-fetal y otras indicaciones obstétricas",
+      "Realizar parto instrumental de forma obligatoria",
+      "Retrasar el nacimiento hasta las 37 semanas independientemente de la evolución"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF señala que la vía del nacimiento debe individualizarse según riesgos y beneficios. La prematuridad por sí sola no impone cesárea; deben considerarse presentación fetal, estado materno-fetal, evolución del trabajo de parto y otras indicaciones obstétricas.",
+    "perlaENARM": "Parto pretérmino no significa cesárea automática: la vía depende de la situación obstétrica y fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 9.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-392",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Pinzamiento tardío del cordón",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer los beneficios del pinzamiento tardío del cordón umbilical en neonatos pretérmino cuando las condiciones lo permiten.",
+    "caso": "Nace un recién nacido de 31 semanas. Está vigoroso y el equipo neonatal confirma que es posible realizar la estabilización inicial junto a la madre sin retrasar una intervención urgente.",
+    "pregunta": "¿Qué estrategia describe el PDF para el pinzamiento del cordón en neonatos pretérmino?",
+    "opciones": [
+      "Pinzamiento inmediato obligatorio en todos los recién nacidos prematuros",
+      "Esperar 10 minutos en todos los casos",
+      "Evitar el pinzamiento tardío porque incrementa universalmente la hemorragia intraventricular",
+      "Mantener el cordón intacto hasta el alumbramiento placentario en cualquier situación",
+      "Considerar pinzamiento tardío durante aproximadamente 30-60 segundos cuando la situación neonatal y materna lo permita"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF recomienda pinzamiento tardío del cordón durante 30-60 segundos en neonatos pretérmino y señala beneficios hematológicos y hemodinámicos frente al pinzamiento temprano. La práctica debe ajustarse a la condición del recién nacido, la madre y el protocolo de reanimación neonatal.",
+    "perlaENARM": "El pinzamiento tardío puede beneficiar al prematuro, pero la decisión depende de la condición clínica y de la posibilidad de estabilización segura.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 9.",
+      "ACOG. Delayed Umbilical Cord Clamping After Birth."
+    ]
+  },
+  {
+    "id": "OBS-393",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Embarazo múltiple",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la gestación múltiple como factor de alto riesgo para parto pretérmino y planear vigilancia especializada.",
+    "caso": "Paciente de 30 años con embarazo gemelar de 20 semanas, sin síntomas y con longitud cervical de 23 mm. No presenta contracciones ni ruptura de membranas.",
+    "pregunta": "¿Qué elemento de estratificación de riesgo es prioritario?",
+    "opciones": [
+      "El embarazo gemelar aumenta el riesgo de parto pretérmino y justifica seguimiento especializado",
+      "La gestación gemelar excluye la posibilidad de parto pretérmino espontáneo",
+      "Una longitud cervical de 23 mm garantiza nacimiento a término",
+      "La ausencia de contracciones elimina la necesidad de seguimiento",
+      "La gestación múltiple se clasifica como riesgo bajo en todos los protocolos"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF identifica la gestación gemelar o múltiple como factor de alto riesgo. La longitud cervical contribuye a la evaluación, pero las intervenciones preventivas deben individualizarse porque la evidencia y las recomendaciones para embarazos múltiples difieren de las de gestación única.",
+    "perlaENARM": "El embarazo múltiple eleva el riesgo basal de parto pretérmino; evita extrapolar automáticamente todas las estrategias del embarazo único.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 2.",
+      "SMFM. Short Cervix in Twin Gestations.",
+      "ACOG. Multifetal Gestations."
+    ]
+  },
+  {
+    "id": "OBS-394",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Malformaciones uterinas",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar las anomalías müllerianas con el riesgo de parto pretérmino y la necesidad de referencia.",
+    "caso": "Paciente de 24 años con embarazo de 18 semanas y antecedente de útero bicorne confirmado por imagen previa. No tiene contracciones ni sangrado y acude a consulta de primer nivel.",
+    "pregunta": "¿Qué estrategia de seguimiento concuerda con el esquema de referencia del PDF?",
+    "opciones": [
+      "Alta definitiva del control prenatal por ausencia de síntomas",
+      "Referencia para atención obstétrica especializada y evaluación del riesgo de parto pretérmino",
+      "Cerclaje automático sin medición cervical ni valoración obstétrica",
+      "Inducción del parto a las 18 semanas",
+      "Tocolisis profiláctica hasta el término"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Las anomalías müllerianas aparecen entre los factores de riesgo de parto pretérmino del PDF y se incluyen entre las condiciones que ameritan referencia a tercer nivel. La conducta depende de la anatomía uterina, la historia obstétrica y los hallazgos actuales; no todas las pacientes requieren cerclaje.",
+    "perlaENARM": "Una anomalía uterina aumenta la necesidad de vigilancia individualizada, pero no constituye por sí sola indicación automática de cerclaje.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, páginas 2 y 9.",
+      "ACOG. Prediction and Prevention of Spontaneous Preterm Birth."
+    ]
+  },
+  {
+    "id": "OBS-395",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Amenaza de parto pretérmino y fibronectina",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar pruebas complementarias en una paciente sintomática con probabilidad incierta de nacimiento prematuro.",
+    "caso": "Gestante de 30 semanas presenta contracciones leves y regulares, pero el tacto no muestra cambios claros. Las membranas están íntegras, no existe sangrado y el bienestar fetal es normal.",
+    "pregunta": "¿Qué herramientas menciona el PDF para apoyar la estimación del riesgo de parto pretérmino?",
+    "opciones": [
+      "Amniocentesis rutinaria para madurez pulmonar en toda paciente sintomática",
+      "Radiografía de pelvis y tomografía abdominal",
+      "Prueba de tolerancia a la glucosa como marcador de parto inminente",
+      "Medición de longitud cervical por ultrasonido transvaginal o fibronectina fetal, según disponibilidad y contexto",
+      "Doppler de arterias renales maternas como único estudio"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF recomienda medir la longitud cervical o realizar fibronectina fetal en pacientes sintomáticas cuando la evaluación clínica no establece con claridad el riesgo. Ambas pruebas deben interpretarse dentro del contexto clínico y no sustituyen la evaluación de membranas, dinámica uterina y estado materno-fetal.",
+    "perlaENARM": "Ante amenaza de parto pretérmino con diagnóstico incierto, longitud cervical y fibronectina pueden ayudar a estratificar el riesgo.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, páginas 4-5.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-396",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Riesgo de nacimiento inminente",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar los hallazgos clínicos que predicen nacimiento en las siguientes horas o días.",
+    "caso": "Gestante de 28 semanas presenta contracciones frecuentes, sangrado transvaginal y cambios cervicales progresivos. El examen muestra dilatación de 4 cm y borramiento de 90%.",
+    "pregunta": "¿Qué combinación de datos se asocia con mayor riesgo de nacimiento próximo?",
+    "opciones": [
+      "Dilatación avanzada, borramiento importante, sangrado y contracciones regulares",
+      "Ausencia de fiebre y frecuencia cardiaca fetal normal exclusivamente",
+      "Edad materna menor de 30 años y embarazo único",
+      "Ausencia de ruptura de membranas como factor protector absoluto",
+      "Presión arterial normal sin evaluación cervical"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF identifica dilatación inicial mayor de 3 cm, borramiento mayor de 80%, sangrado vaginal y ruptura prematura de membranas como predictores de nacimiento en las siguientes 24 horas a siete días. La combinación descrita requiere atención obstétrica urgente y preparación para prematuridad.",
+    "perlaENARM": "Dilatación mayor de 3 cm y borramiento mayor de 80% son hallazgos de alto riesgo en una paciente con contracciones regulares.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 5.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-397",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Derivación a tercer nivel",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer cuándo la complejidad obstétrica requiere referencia a un centro con capacidad de atención materna y neonatal especializada.",
+    "caso": "Gestante de 30 semanas con cuello corto y antecedente de parto pretérmino espontáneo consulta en una unidad sin cuidados intensivos neonatales. Presenta contracciones y cambios cervicales incipientes.",
+    "pregunta": "¿Qué objetivo tiene la referencia a una unidad de tercer nivel cuando el traslado es clínicamente seguro?",
+    "opciones": [
+      "Evitar toda evaluación neonatal porque aún no existe nacimiento",
+      "Posponer indefinidamente el tratamiento obstétrico",
+      "Facilitar atención materna y neonatal especializada, incluyendo intervenciones antenatales cuando estén indicadas",
+      "Realizar cesárea automática por el traslado",
+      "Sustituir la vigilancia fetal por reposo en cama"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF recomienda referencia a tercer nivel en embarazos con cuello corto y antecedentes de parto pretérmino. En una paciente con riesgo de nacimiento prematuro, la referencia permite acceso a obstetricia especializada y soporte neonatal apropiado. El traslado no debe retrasar la estabilización ni una intervención urgente.",
+    "perlaENARM": "El traslado a tercer nivel busca optimizar la atención materno-neonatal; no debe retrasar la estabilización o el nacimiento cuando exista una urgencia.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 9.",
+      "ACOG. Levels of Maternal Care.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-398",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Manejo de contracciones sin cambios cervicales",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar el diagnóstico de trabajo de parto pretérmino establecido cuando no hay evidencia suficiente de progresión cervical.",
+    "caso": "Paciente de 29 semanas refiere contracciones esporádicas. Durante cuatro horas de observación no hay progresión cervical; la longitud cervical es de 33 mm, las membranas están íntegras y la fibronectina fetal es negativa.",
+    "pregunta": "¿Qué dato apoya más la ausencia de trabajo de parto pretérmino inminente en este momento?",
+    "opciones": [
+      "La presencia de cualquier contracción demuestra trabajo de parto establecido",
+      "La longitud cervical de 33 mm, la prueba negativa y la ausencia de cambios cervicales progresivos",
+      "La edad gestacional menor de 37 semanas por sí sola",
+      "La necesidad de tocolisis prolongada hasta el término",
+      "La ausencia de fiebre como único criterio diagnóstico"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La combinación de longitud cervical relativamente larga, fibronectina fetal negativa y ausencia de progresión cervical reduce la probabilidad de nacimiento inminente en una paciente seleccionada. Debe confirmarse estabilidad materno-fetal y ofrecer instrucciones de retorno si aparecen síntomas de alarma.",
+    "perlaENARM": "Las contracciones sin progresión cervical no bastan para diagnosticar trabajo de parto pretérmino establecido.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, páginas 4-5.",
+      "ACOG. Preterm Labor and Birth."
+    ]
+  },
+  {
+    "id": "OBS-399",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Integración de maduración pulmonar y neuroprotección",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar los objetivos y las indicaciones de corticosteroides antenatales y sulfato de magnesio en prematuridad.",
+    "caso": "Gestante de 29 semanas con parto pretérmino establecido y nacimiento probable en las próximas horas. No ha recibido corticosteroides antenatales y no tiene contraindicaciones para sulfato de magnesio. La unidad cuenta con cuidados intensivos neonatales.",
+    "pregunta": "¿Qué combinación de intervenciones puede considerarse según las indicaciones correspondientes?",
+    "opciones": [
+      "Solo progesterona vaginal, porque tiene efecto inmediato sobre el nacimiento",
+      "Tocolisis indefinida y suspensión de la vigilancia fetal",
+      "Antibióticos de amplio espectro aunque no exista infección ni otra indicación",
+      "Corticosteroides antenatales para maduración pulmonar y sulfato de magnesio para neuroprotección fetal, sin retrasar un nacimiento indicado",
+      "Metotrexato para inhibir la actividad uterina"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Los corticosteroides antenatales buscan reducir complicaciones de prematuridad, particularmente respiratorias. El sulfato de magnesio puede ofrecer neuroprotección fetal cuando el nacimiento es inminente antes de las 32 semanas, según protocolo. Ambas intervenciones tienen objetivos distintos y no justifican retrasar una finalización necesaria.",
+    "perlaENARM": "Corticosteroides: maduración pulmonar; sulfato de magnesio: neuroprotección fetal en prematuridad inminente dentro de la ventana indicada.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, página 8.",
+      "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation.",
+      "ACOG. Magnesium Sulfate Before Anticipated Preterm Birth for Neuroprotection."
+    ]
+  },
+  {
+    "id": "OBS-400",
+    "especialidad": "Obstetricia",
+    "tema": "Parto pretérmino",
+    "subtema": "Integración diagnóstica y terapéutica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar edad gestacional, progresión cervical, estado de las membranas y contraindicaciones para elegir un plan de manejo seguro.",
+    "caso": "Paciente de 30 semanas presenta contracciones regulares, dilatación cervical de 4 cm y borramiento de 85%. Las membranas están íntegras, no hay sangrado ni fiebre, el estado fetal es tranquilizador y no existen contraindicaciones maternas para tocolisis. No ha recibido corticosteroides antenatales y el hospital de origen no cuenta con cuidados intensivos neonatales.",
+    "pregunta": "¿Qué plan integra mejor las prioridades clínicas de este caso?",
+    "opciones": [
+      "Alta domiciliaria porque las membranas están íntegras",
+      "Reposo absoluto como único tratamiento hasta las 37 semanas",
+      "Evaluación obstétrica urgente, corticosteroides antenatales, consideración de tocolisis breve si es segura y referencia a una unidad con capacidad neonatal adecuada",
+      "Administración de antibióticos sin buscar infección y sin monitorización fetal",
+      "Retrasar toda intervención hasta obtener una fibronectina fetal, aunque el trabajo de parto esté establecido"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La dilatación mayor de 3 cm y el borramiento mayor de 80% con contracciones regulares son compatibles con trabajo de parto pretérmino establecido. Debe prepararse la atención neonatal, administrar corticosteroides cuando estén indicados y considerar tocolisis breve para facilitar intervenciones y traslado si no hay contraindicaciones. No debe retrasarse el manejo urgente por pruebas que no cambiarían la conducta.",
+    "perlaENARM": "En trabajo de parto pretérmino establecido, prioriza preparación neonatal, corticosteroides, neuroprotección cuando corresponda y traslado seguro; la tocolisis es selectiva y temporal.",
+    "bibliografia": [
+      "PDF proporcionado: 8. Parto Pretérmino, páginas 5, 7-9.",
+      "ACOG. Preterm Labor and Birth.",
+      "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation.",
+      "ACOG. Magnesium Sulfate Before Anticipated Preterm Birth for Neuroprotection."
+    ]
   }
-
  ];
