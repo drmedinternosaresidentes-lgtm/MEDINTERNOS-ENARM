@@ -1960,803 +1960,976 @@ window.BANCO_OBSTETRICIA = [
   },
   {
     "id": "OBS-081",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Muy alta",
-    "pregunta": "Una paciente de 29 años, G2P1, acude a las 10 semanas de gestación. Tiene antecedente de un hijo con mielomeningocele y no ha recibido suplementación preconcepcional. ¿Qué intervención nutricional debe priorizarse para disminuir el riesgo de recurrencia de defectos del tubo neural?",
-    "opciones": {
-      "1": "Ácido fólico 400 microgramos al día, iniciado exclusivamente después de la semana 20",
-      "2": "Ácido fólico 5 mg al día, idealmente iniciado antes de la concepción",
-      "3": "Vitamina A en forma de retinol a dosis de 5 mg al día",
-      "4": "Vitamina C a dosis altas durante todo el embarazo",
-      "5": "Hierro elemental como única intervención preventiva"
-    },
+    "subtema": "Prevención de defectos del tubo neural",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar la suplementación con ácido fólico en pacientes con antecedente de defectos del tubo neural.",
+    "caso": "Una paciente de 29 años, G2P1, acude a las 10 semanas de gestación. Tiene antecedente de un hijo con mielomeningocele y no recibió suplementación preconcepcional.",
+    "pregunta": "¿Qué intervención nutricional debe priorizarse para disminuir el riesgo de recurrencia de defectos del tubo neural?",
+    "opciones": [
+      "Ácido fólico 400 microgramos al día, iniciado exclusivamente después de la semana 20",
+      "Ácido fólico 5 mg al día, idealmente iniciado antes de la concepción",
+      "Vitamina A en forma de retinol a dosis altas",
+      "Vitamina C a dosis altas durante todo el embarazo",
+      "Hierro elemental como única intervención preventiva"
+    ],
     "respuestaCorrecta": 2,
-    "explicacion": "El PDF diferencia la suplementación estándar de ácido fólico, de 400 microgramos al día, de la dosis alta de 5 mg al día indicada en situaciones de mayor riesgo, entre ellas el antecedente de un hijo con defecto del tubo neural. La prevención es más eficaz cuando se inicia antes de la concepción; no debe esperarse al segundo trimestre.",
-    "perlaENARM": "Antecedente de embarazo afectado por defecto del tubo neural: recordar ácido fólico a dosis alta antes de la concepción. No confundir la dosis preventiva habitual con la indicada en pacientes de alto riesgo.",
+    "explicacion": "El antecedente de un embarazo afectado por un defecto del tubo neural identifica una situación de alto riesgo en la que se recomienda ácido fólico a dosis elevada, habitualmente 4 a 5 mg diarios según la guía aplicable. La suplementación debe comenzar antes de la concepción y mantenerse durante el periodo indicado. A las 10 semanas, la paciente debe recibir valoración y orientación sin demora.",
+    "perlaENARM": "Antecedente de defecto del tubo neural: recordar ácido fólico a dosis alta antes de la concepción. No confundir la dosis habitual de prevención con la indicada en pacientes de alto riesgo.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 4.",
-      "Williams Obstetrics, capítulo de atención prenatal y prevención de anomalías congénitas."
+      "PDF proporcionado: 2. Control Prenatal, p. 4.",
+      "Williams Obstetrics, 26.ª ed., atención prenatal y prevención de anomalías congénitas.",
+      "USPSTF. Folic Acid Supplementation to Prevent Neural Tube Defects."
     ]
   },
   {
     "id": "OBS-082",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Muy alta",
-    "pregunta": "Una embarazada de 12 semanas tiene fecha de última menstruación incierta y ciclos irregulares. Se requiere establecer con la mayor precisión posible la edad gestacional para planificar el tamizaje prenatal. ¿Qué método debe priorizarse?",
-    "opciones": {
-      "1": "Medición de la altura uterina",
-      "2": "Estimación basada exclusivamente en la fecha de concepción referida por la paciente",
-      "3": "Biometría fetal del tercer trimestre",
-      "4": "Ultrasonido del primer trimestre con medición de longitud cráneo-caudal",
-      "5": "Determinación aislada de gonadotropina coriónica humana"
-    },
+    "subtema": "Datación ecográfica del embarazo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Elegir el método más preciso para establecer la edad gestacional cuando la fecha de última menstruación no es confiable.",
+    "caso": "Una gestante de 12 semanas tiene fecha de última menstruación incierta y ciclos irregulares. Se requiere establecer con precisión la edad gestacional para planificar el tamizaje prenatal.",
+    "pregunta": "¿Qué método debe priorizarse para determinar la edad gestacional?",
+    "opciones": [
+      "Medición aislada de la altura uterina",
+      "Estimación basada exclusivamente en la fecha de concepción referida",
+      "Biometría fetal del tercer trimestre",
+      "Ultrasonido del primer trimestre con medición de longitud cráneo-caudal",
+      "Determinación aislada de gonadotropina coriónica humana"
+    ],
     "respuestaCorrecta": 4,
-    "explicacion": "El documento señala que la longitud cráneo-caudal durante el primer trimestre es el método ecográfico más exacto para establecer o confirmar la edad gestacional, especialmente cuando la fecha de última menstruación no es confiable. La biometría del tercer trimestre tiene un margen de error considerablemente mayor.",
-    "perlaENARM": "La longitud cráneo-caudal es la referencia ecográfica temprana para datación; la biometría tardía se afecta por la variabilidad del crecimiento fetal.",
+    "explicacion": "La longitud cráneo-caudal durante el primer trimestre es el parámetro ecográfico más preciso para establecer o confirmar la edad gestacional. Su precisión es superior a la de las mediciones biométricas del tercer trimestre, cuando la variabilidad individual del crecimiento fetal es mayor.",
+    "perlaENARM": "La longitud cráneo-caudal es la referencia ecográfica temprana para datación; la biometría tardía tiene mayor margen de error.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 14.",
-      "ACOG. Methods for Estimating the Due Date."
+      "PDF proporcionado: 2. Control Prenatal, p. 14.",
+      "ACOG. Methods for Estimating the Due Date.",
+      "Williams Obstetrics, 26.ª ed., evaluación de la edad gestacional."
     ]
   },
   {
     "id": "OBS-083",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Muy alta",
-    "pregunta": "Una gestante de 28 semanas, RhD negativa, tiene prueba de antiglobulina indirecta negativa y no presenta antecedentes de aloinmunización. ¿Cuál es la estrategia preventiva habitual que debe revisarse durante su atención prenatal?",
-    "opciones": {
-      "1": "Administrar inmunoglobulina anti-D únicamente después del parto, sin considerar otros momentos",
-      "2": "Administrar inmunoglobulina anti-D solamente si el recién nacido desarrolla ictericia",
-      "3": "Administrar inmunoglobulina anti-D prenatal según el esquema indicado y repetir la evaluación según antecedentes y eventos sensibilizantes",
-      "4": "Evitar inmunoglobulina anti-D porque una prueba indirecta negativa descarta cualquier riesgo futuro",
-      "5": "Administrar inmunoglobulina anti-D solamente si la madre tiene anemia"
-    },
+    "subtema": "Aloinmunización RhD",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar la estrategia preventiva en pacientes RhD negativas no sensibilizadas.",
+    "caso": "Una gestante de 28 semanas es RhD negativa, tiene prueba de antiglobulina indirecta negativa y no presenta antecedentes de aloinmunización.",
+    "pregunta": "¿Cuál es la estrategia preventiva habitual que debe revisarse durante su atención prenatal?",
+    "opciones": [
+      "Administrar inmunoglobulina anti-D únicamente después del parto",
+      "Administrar inmunoglobulina anti-D solo si el recién nacido desarrolla ictericia",
+      "Administrar inmunoglobulina anti-D prenatal según el esquema indicado y valorar eventos sensibilizantes",
+      "Evitar inmunoglobulina anti-D porque una prueba indirecta negativa descarta cualquier riesgo futuro",
+      "Administrar inmunoglobulina anti-D solamente si la madre tiene anemia"
+    ],
     "respuestaCorrecta": 3,
-    "explicacion": "En una paciente RhD negativa no sensibilizada, la profilaxis anti-D busca evitar la aloinmunización. El PDF contempla la aplicación alrededor de las 28 semanas y la profilaxis posparto dentro de las primeras 72 horas cuando está indicada. Los eventos potencialmente sensibilizantes también requieren valoración específica. El esquema exacto debe ajustarse a la guía y al protocolo local vigente.",
-    "perlaENARM": "Una prueba de antiglobulina indirecta negativa significa que no se detectan anticuerpos en ese momento; no elimina la posibilidad de sensibilización posterior.",
+    "explicacion": "En pacientes RhD negativas no sensibilizadas, la profilaxis anti-D busca prevenir la formación de anticuerpos maternos contra eritrocitos fetales RhD positivos. Se utiliza profilaxis prenatal según el esquema vigente y profilaxis posparto cuando está indicada, habitualmente dentro de las primeras 72 horas. También deben valorarse los eventos potencialmente sensibilizantes.",
+    "perlaENARM": "Una prueba de antiglobulina indirecta negativa indica que no se detectan anticuerpos en ese momento; no elimina la posibilidad de sensibilización posterior.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 7 y 16.",
-      "ACOG. Prevention of Rh D Alloimmunization."
+      "PDF proporcionado: 2. Control Prenatal, pp. 7 y 16.",
+      "ACOG. Prevention of Rh D Alloimmunization.",
+      "Williams Obstetrics, 26.ª ed., aloinmunización eritrocitaria."
     ]
   },
   {
     "id": "OBS-084",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Muy alta",
-    "pregunta": "Una embarazada de 25 semanas presenta presión arterial de 150/96 mmHg en dos mediciones y no tiene síntomas neurológicos. ¿Qué hallazgo adicional debe buscarse de manera dirigida para evaluar un posible trastorno hipertensivo del embarazo?",
-    "opciones": {
-      "1": "Proteinuria y datos de disfunción orgánica materna",
-      "2": "Únicamente glucosuria en una tira reactiva",
-      "3": "Concentración sérica de vitamina C",
-      "4": "Prueba de Coombs directa materna",
-      "5": "Longitud cráneo-caudal fetal"
-    },
+    "subtema": "Evaluación de los trastornos hipertensivos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer los hallazgos necesarios para evaluar preeclampsia en una paciente con hipertensión gestacional.",
+    "caso": "Una embarazada de 25 semanas presenta presión arterial de 150/96 mmHg en dos mediciones y no tiene síntomas neurológicos.",
+    "pregunta": "¿Qué hallazgo adicional debe buscarse de manera dirigida para evaluar un posible trastorno hipertensivo del embarazo?",
+    "opciones": [
+      "Proteinuria y datos de disfunción orgánica materna",
+      "Únicamente glucosuria en una tira reactiva",
+      "Concentración sérica de vitamina C",
+      "Prueba de antiglobulina directa materna",
+      "Longitud cráneo-caudal fetal"
+    ],
     "respuestaCorrecta": 1,
-    "explicacion": "Ante hipertensión durante el embarazo, la evaluación debe investigar proteinuria y manifestaciones de daño orgánico que permitan clasificar el trastorno hipertensivo. La ausencia de cefalea o alteraciones visuales no excluye preeclampsia. El PDF menciona la evaluación de proteinuria en pacientes con hipertensión o riesgo elevado.",
-    "perlaENARM": "La preeclampsia puede diagnosticarse en presencia de hipertensión y disfunción orgánica aun sin proteinuria; no se debe utilizar su ausencia para descartarla.",
+    "explicacion": "Ante hipertensión durante el embarazo se debe investigar proteinuria y datos de disfunción orgánica, como alteraciones hematológicas, renales, hepáticas, pulmonares o neurológicas. La ausencia de cefalea o alteraciones visuales no excluye preeclampsia. El diagnóstico y la clasificación requieren integrar los hallazgos clínicos y de laboratorio.",
+    "perlaENARM": "La preeclampsia puede diagnosticarse en presencia de hipertensión y disfunción orgánica aun sin proteinuria.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 11.",
-      "ACOG. Gestational Hypertension and Preeclampsia."
+      "PDF proporcionado: 2. Control Prenatal, p. 11.",
+      "ACOG. Gestational Hypertension and Preeclampsia.",
+      "Williams Obstetrics, 26.ª ed., trastornos hipertensivos del embarazo."
     ]
   },
   {
     "id": "OBS-085",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Muy alta",
-    "pregunta": "Una paciente de 27 semanas tiene prueba de tamizaje para diabetes gestacional pendiente. En la estrategia de un paso descrita en el material, se realiza una curva oral con 75 g. ¿Qué combinación de resultados corresponde a los puntos de corte que aparecen en el PDF?",
-    "opciones": {
-      "1": "Ayuno 105, 1 hora 190 y 2 horas 165 mg/dL",
-      "2": "Ayuno 95, 1 hora 180, 2 horas 155 y 3 horas 140 mg/dL",
-      "3": "Ayuno 126 mg/dL como único criterio de diabetes gestacional en cualquier estrategia",
-      "4": "Ayuno 92, 1 hora 180 y 2 horas 153 mg/dL",
-      "5": "Ayuno 110, 1 hora 200 y 2 horas 180 mg/dL"
-    },
+    "subtema": "Diagnóstico de diabetes gestacional",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar los puntos de corte de la curva oral de tolerancia a la glucosa de 75 g.",
+    "caso": "Una paciente de 27 semanas tiene pendiente el tamizaje de diabetes gestacional. Se decide utilizar una curva oral de tolerancia a la glucosa con 75 g.",
+    "pregunta": "¿Qué combinación corresponde a los puntos de corte de la estrategia de un paso descrita en el material?",
+    "opciones": [
+      "Ayuno 105, una hora 190 y dos horas 165 mg/dL",
+      "Ayuno 95, una hora 180, dos horas 155 y tres horas 140 mg/dL",
+      "Ayuno 126 mg/dL como único criterio de diabetes gestacional",
+      "Ayuno 92, una hora 180 y dos horas 153 mg/dL",
+      "Ayuno 110, una hora 200 y dos horas 180 mg/dL"
+    ],
     "respuestaCorrecta": 4,
-    "explicacion": "El PDF describe la estrategia de un paso con 75 g y los puntos de corte de 92 mg/dL en ayuno, 180 mg/dL a una hora y 153 mg/dL a las dos horas; indica que un valor alterado puede establecer el diagnóstico bajo ese esquema. Los criterios dependen del protocolo adoptado y no deben mezclarse con los de otras estrategias.",
-    "perlaENARM": "No mezclar los criterios de 75 g en un paso con los de 100 g en tres horas. Identifica primero el protocolo utilizado.",
+    "explicacion": "La estrategia de un paso con 75 g utiliza los puntos de corte de 92 mg/dL en ayuno, 180 mg/dL a una hora y 153 mg/dL a las dos horas. En el esquema IADPSG, basta un valor igual o superior al punto de corte para establecer el diagnóstico. No deben mezclarse estos valores con los criterios de la prueba de 100 g y tres horas.",
+    "perlaENARM": "Primero identifica si la curva es de 75 g o de 100 g: los puntos de corte y el número de valores alterados requeridos son diferentes.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 10 y 17.",
-      "American Diabetes Association. Standards of Care in Diabetes, sección sobre diabetes en el embarazo."
+      "PDF proporcionado: 2. Control Prenatal, pp. 10 y 17.",
+      "American Diabetes Association. Standards of Care in Diabetes, sección sobre diabetes en el embarazo.",
+      "IADPSG. Recommendations on the Diagnosis and Classification of Hyperglycemia in Pregnancy."
     ]
   },
   {
     "id": "OBS-086",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Muy alta",
-    "pregunta": "Una paciente de 31 semanas, con hipertensión gestacional en evaluación, presenta tira reactiva urinaria con proteinuria 1+. ¿Cuál es la interpretación más apropiada de este resultado?",
-    "opciones": {
-      "1": "Confirma por sí sola preeclampsia con criterios de gravedad",
-      "2": "Descarta proteinuria clínicamente relevante",
-      "3": "Debe interpretarse en el contexto clínico y, cuando corresponda, confirmarse con un método cuantitativo validado",
-      "4": "Establece diabetes gestacional",
-      "5": "Indica sensibilización materna contra eritrocitos fetales"
-    },
+    "subtema": "Interpretación de proteinuria",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar correctamente la proteinuria semicuantitativa en una paciente con hipertensión durante el embarazo.",
+    "caso": "Una gestante de 31 semanas con hipertensión en evaluación presenta proteinuria 1+ en una tira reactiva urinaria.",
+    "pregunta": "¿Cuál es la interpretación más apropiada de este resultado?",
+    "opciones": [
+      "Confirma por sí solo preeclampsia con criterios de gravedad",
+      "Descarta proteinuria clínicamente relevante",
+      "Debe interpretarse en el contexto clínico y, cuando corresponda, confirmarse con un método cuantitativo validado",
+      "Establece diabetes gestacional",
+      "Indica sensibilización materna contra eritrocitos fetales"
+    ],
     "respuestaCorrecta": 3,
-    "explicacion": "La tira reactiva es una prueba semicuantitativa y puede presentar resultados falsos positivos o negativos. El documento recomienda confirmar resultados positivos mediante cuantificación, aunque en la práctica actual pueden utilizarse la relación proteína/creatinina u otros métodos validados, de acuerdo con el contexto y la guía local.",
-    "perlaENARM": "Proteinuria 1+ en tira reactiva no equivale automáticamente a un diagnóstico definitivo ni determina por sí sola la gravedad de la preeclampsia.",
+    "explicacion": "La tira reactiva es semicuantitativa y puede presentar resultados falsos positivos o negativos. Cuando se necesita documentar proteinuria, pueden utilizarse métodos cuantitativos validados, como la relación proteína/creatinina urinaria o la cuantificación en orina de 24 horas. La gravedad de la preeclampsia no se determina únicamente por el grado de proteinuria.",
+    "perlaENARM": "Proteinuria 1+ no confirma por sí sola preeclampsia grave ni permite establecer la gravedad del trastorno.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 11.",
-      "ACOG. Gestational Hypertension and Preeclampsia."
+      "PDF proporcionado: 2. Control Prenatal, p. 11.",
+      "ACOG. Gestational Hypertension and Preeclampsia.",
+      "Williams Obstetrics, 26.ª ed., preeclampsia."
     ]
   },
   {
     "id": "OBS-087",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Muy alta",
-    "pregunta": "Una gestante de 9 semanas refiere sangrado vaginal escaso y dolor pélvico unilateral. Aún no se ha confirmado la localización del embarazo. ¿Cuál es la conducta más importante dentro del abordaje inicial?",
-    "opciones": {
-      "1": "Esperar hasta la semana 18 para realizar ultrasonido estructural",
-      "2": "Indicar hierro oral y continuar las consultas mensuales sin estudios adicionales",
-      "3": "Aplicar inmunoglobulina anti-D a todas las pacientes independientemente de su grupo sanguíneo y contexto",
-      "4": "Estimar la edad gestacional solo con la altura uterina",
-      "5": "Evaluar de manera prioritaria la estabilidad hemodinámica y descartar embarazo ectópico mediante valoración clínica, ultrasonido y estudios indicados"
-    },
+    "subtema": "Sangrado del primer trimestre",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar la evaluación del embarazo ectópico ante dolor pélvico y sangrado temprano.",
+    "caso": "Una gestante de 9 semanas refiere sangrado vaginal escaso y dolor pélvico unilateral. Aún no se ha confirmado la localización del embarazo.",
+    "pregunta": "¿Cuál es la conducta más importante dentro del abordaje inicial?",
+    "opciones": [
+      "Esperar hasta la semana 18 para realizar ultrasonido estructural",
+      "Indicar hierro oral y continuar consultas mensuales sin estudios adicionales",
+      "Aplicar inmunoglobulina anti-D a todas las pacientes sin considerar grupo sanguíneo ni contexto",
+      "Estimar la edad gestacional exclusivamente con la altura uterina",
+      "Evaluar la estabilidad hemodinámica y descartar embarazo ectópico mediante valoración clínica y estudios indicados"
+    ],
     "respuestaCorrecta": 5,
-    "explicacion": "El sangrado del primer trimestre acompañado de dolor unilateral obliga a considerar embarazo ectópico y otras causas de hemorragia temprana. El PDF incluye la sospecha de embarazo ectópico y la hemorragia del primer trimestre entre los motivos de referencia. La prioridad clínica es identificar inestabilidad y evitar retrasos diagnósticos.",
-    "perlaENARM": "Sangrado más dolor unilateral en el primer trimestre: descartar embarazo ectópico; la estabilidad hemodinámica determina la urgencia del manejo.",
+    "explicacion": "El sangrado del primer trimestre acompañado de dolor unilateral obliga a considerar embarazo ectópico. La prioridad es evaluar la estabilidad hemodinámica y, según la situación clínica, realizar ultrasonido transvaginal y determinaciones seriadas de hCG. Si existe inestabilidad, se requiere atención urgente sin retrasar el tratamiento por estudios innecesarios.",
+    "perlaENARM": "Sangrado más dolor unilateral en el primer trimestre: descartar embarazo ectópico. La estabilidad hemodinámica determina la urgencia del manejo.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 1 y 15.",
-      "ACOG. Tubal Ectopic Pregnancy."
+      "PDF proporcionado: 2. Control Prenatal, pp. 1 y 15.",
+      "ACOG. Tubal Ectopic Pregnancy.",
+      "Williams Obstetrics, 26.ª ed., embarazo ectópico."
     ]
   },
   {
     "id": "OBS-088",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Muy alta",
-    "pregunta": "Una embarazada de 34 semanas presenta fiebre, disuria y dolor en región lumbar. En su primera consulta prenatal no se documentó urocultivo. ¿Qué principio del control prenatal explica la importancia de investigar y tratar las infecciones urinarias durante la gestación?",
-    "opciones": {
-      "1": "La bacteriuria durante el embarazo nunca progresa a infección sintomática",
-      "2": "Los cambios fisiológicos urinarios favorecen la estasis y aumentan el riesgo de infección ascendente",
-      "3": "La infección urinaria solo es relevante durante el puerperio",
-      "4": "El examen general de orina sustituye siempre al cultivo para confirmar bacteriuria asintomática",
-      "5": "El tratamiento de infecciones urinarias está contraindicado durante el embarazo"
-    },
+    "subtema": "Infección urinaria durante el embarazo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar los cambios fisiológicos urinarios del embarazo con el riesgo de infección ascendente.",
+    "caso": "Una gestante de 34 semanas presenta fiebre, disuria y dolor lumbar. En la primera consulta prenatal no se documentó urocultivo.",
+    "pregunta": "¿Qué principio fisiopatológico explica la importancia de investigar y tratar las infecciones urinarias durante la gestación?",
+    "opciones": [
+      "La bacteriuria durante el embarazo nunca progresa a infección sintomática",
+      "La dilatación urinaria y la disminución del peristaltismo ureteral favorecen la estasis y la infección ascendente",
+      "La infección urinaria solo es relevante durante el puerperio",
+      "El examen general de orina sustituye siempre al cultivo para confirmar bacteriuria asintomática",
+      "El tratamiento de las infecciones urinarias está contraindicado durante el embarazo"
+    ],
     "respuestaCorrecta": 2,
-    "explicacion": "El material describe dilatación del sistema colector y disminución del peristaltismo ureteral durante el embarazo, cambios que favorecen la estasis urinaria. Fiebre, disuria y dolor lumbar requieren evaluación inmediata por posible pielonefritis. El urocultivo es fundamental para identificar el microorganismo y orientar el tratamiento.",
-    "perlaENARM": "La bacteriuria asintomática debe detectarse mediante cultivo en el control prenatal; fiebre y dolor lumbar hacen pensar en infección urinaria alta.",
+    "explicacion": "La progesterona y los cambios anatómicos de la gestación favorecen la dilatación de las vías urinarias y la estasis. Fiebre y dolor lumbar hacen sospechar pielonefritis y requieren evaluación pronta, urocultivo y tratamiento apropiado. La bacteriuria asintomática debe investigarse y tratarse durante el embarazo conforme a las recomendaciones vigentes.",
+    "perlaENARM": "Bacteriuria asintomática: detectar mediante urocultivo. Fiebre y dolor lumbar: sospechar infección urinaria alta.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 12.",
-      "ACOG. Urinary Tract Infections in Pregnant Individuals."
+      "PDF proporcionado: 2. Control Prenatal, p. 12.",
+      "ACOG. Urinary Tract Infections in Pregnant Individuals.",
+      "Williams Obstetrics, 26.ª ed., complicaciones infecciosas del embarazo."
     ]
   },
   {
     "id": "OBS-089",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Muy alta",
-    "pregunta": "Una gestante de 11 semanas acude por primera vez al control prenatal. Está asintomática, pero desconoce su estado serológico frente al VIH y la sífilis. ¿Cuál es la estrategia más congruente con el objetivo preventivo del control prenatal?",
-    "opciones": {
-      "1": "Solicitar las pruebas de tamizaje correspondientes en la consulta inicial y asegurar seguimiento de los resultados",
-      "2": "Diferir ambos estudios hasta después del nacimiento",
-      "3": "Solicitar pruebas únicamente si desarrolla fiebre",
-      "4": "Sustituir ambas pruebas por una biometría hemática",
-      "5": "Indicar tratamiento empírico para ambas infecciones sin realizar evaluación diagnóstica"
-    },
+    "subtema": "Tamizaje de infecciones transmisibles",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la importancia del tamizaje temprano de VIH y sífilis en el embarazo.",
+    "caso": "Una gestante de 11 semanas acude por primera vez al control prenatal. Está asintomática, pero desconoce su estado serológico frente al VIH y la sífilis.",
+    "pregunta": "¿Cuál es la estrategia más congruente con el objetivo preventivo del control prenatal?",
+    "opciones": [
+      "Solicitar las pruebas de tamizaje correspondientes en la consulta inicial y asegurar seguimiento de los resultados",
+      "Diferir ambos estudios hasta después del nacimiento",
+      "Solicitar pruebas únicamente si desarrolla fiebre",
+      "Sustituir ambas pruebas por una biometría hemática",
+      "Indicar tratamiento empírico para ambas infecciones sin realizar evaluación diagnóstica"
+    ],
     "respuestaCorrecta": 1,
-    "explicacion": "El control prenatal incluye tamizaje temprano para infecciones con posibilidad de transmisión vertical. El PDF contempla prueba de VIH y pruebas para sífilis en la primera consulta. Un resultado reactivo exige confirmación y manejo conforme al algoritmo vigente, además de intervenciones para reducir la transmisión maternoinfantil.",
-    "perlaENARM": "El tamizaje temprano permite tratar oportunamente infecciones transmisibles al feto o recién nacido; no debe posponerse hasta el parto.",
+    "explicacion": "El control prenatal incluye tamizaje temprano para infecciones con riesgo de transmisión vertical. Los resultados reactivos deben seguir los algoritmos diagnósticos correspondientes y conducir a tratamiento oportuno y medidas para reducir la transmisión maternoinfantil. La repetición del tamizaje depende de la guía, los factores de riesgo y el contexto epidemiológico.",
+    "perlaENARM": "El tamizaje temprano de VIH y sífilis permite intervenir antes del nacimiento y reducir la transmisión maternoinfantil.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 2, 10 y 12.",
-      "OMS. Recomendaciones para la prevención de la transmisión maternoinfantil del VIH y el manejo de la sífilis en el embarazo."
+      "PDF proporcionado: 2. Control Prenatal, pp. 2, 10 y 12.",
+      "OMS. Recomendaciones para la prevención de la transmisión maternoinfantil del VIH.",
+      "CDC. STI Treatment Guidelines: Syphilis During Pregnancy."
     ]
   },
   {
     "id": "OBS-090",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Muy alta",
-    "pregunta": "Una paciente con embarazo de 30 semanas refiere disminución marcada de los movimientos fetales respecto a su patrón habitual. ¿Qué recomendación es más apropiada?",
-    "opciones": {
-      "1": "Esperar hasta la consulta programada del siguiente mes",
-      "2": "Considerar el hallazgo normal si la madre no tiene dolor",
-      "3": "Indicar únicamente suplementos vitamínicos y reevaluar en una semana",
-      "4": "Solicitar valoración obstétrica pronta para evaluar el bienestar fetal",
-      "5": "Afirmar muerte fetal sin confirmar la actividad cardiaca"
-    },
+    "subtema": "Disminución de movimientos fetales",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la disminución de movimientos fetales como síntoma que requiere valoración obstétrica.",
+    "caso": "Una paciente de 30 semanas refiere una disminución marcada de los movimientos fetales respecto a su patrón habitual.",
+    "pregunta": "¿Qué recomendación es más apropiada?",
+    "opciones": [
+      "Esperar hasta la consulta programada del siguiente mes",
+      "Considerar el hallazgo normal si la madre no tiene dolor",
+      "Indicar únicamente suplementos vitamínicos y reevaluar en una semana",
+      "Solicitar valoración obstétrica pronta para evaluar el bienestar fetal",
+      "Afirmar muerte fetal sin confirmar la actividad cardiaca"
+    ],
     "respuestaCorrecta": 4,
-    "explicacion": "La disminución de movimientos fetales es un síntoma de alarma que requiere evaluación obstétrica. El PDF lo incluye entre los signos que ameritan atención inmediata. La valoración puede requerir confirmación de actividad cardiaca fetal y pruebas adicionales según edad gestacional y riesgo clínico.",
-    "perlaENARM": "La reducción de movimientos fetales no debe minimizarse ni diagnosticarse como muerte fetal sin confirmación objetiva.",
+    "explicacion": "La reducción de movimientos fetales respecto al patrón habitual requiere valoración obstétrica. La evaluación puede incluir confirmación de la actividad cardiaca y pruebas de bienestar fetal, según la edad gestacional y los factores de riesgo. No debe retrasarse la atención hasta la siguiente consulta programada.",
+    "perlaENARM": "Disminución de movimientos fetales: valorar bienestar fetal; no minimizar el síntoma ni diagnosticar muerte fetal sin confirmación.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 1.",
-      "ACOG. Indications for Outpatient Antenatal Fetal Surveillance."
+      "PDF proporcionado: 2. Control Prenatal, p. 1.",
+      "ACOG. Indications for Outpatient Antenatal Fetal Surveillance.",
+      "Williams Obstetrics, 26.ª ed., vigilancia fetal."
     ]
   },
   {
     "id": "OBS-091",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Alta",
-    "pregunta": "Una paciente de 24 semanas acude a consulta prenatal. ¿Qué estudio ecográfico corresponde al periodo de gestación señalado en el material para evaluar la anatomía fetal?",
-    "opciones": {
-      "1": "Ultrasonido estructural entre las semanas 18 y 22",
-      "2": "Ultrasonido estructural exclusivamente después de la semana 36",
-      "3": "Ultrasonido del primer trimestre con longitud cráneo-caudal",
-      "4": "Ultrasonido de crecimiento reservado únicamente para el puerperio",
-      "5": "Ningún ultrasonido puede realizarse durante el segundo trimestre"
-    },
+    "subtema": "Ultrasonido estructural",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar la ventana habitual para la evaluación anatómica fetal.",
+    "caso": "Una paciente de 24 semanas acude a consulta prenatal y pregunta qué estudio ecográfico se realiza habitualmente para evaluar la anatomía fetal.",
+    "pregunta": "¿En qué intervalo se recomienda habitualmente el ultrasonido estructural?",
+    "opciones": [
+      "Entre las semanas 18 y 22",
+      "Exclusivamente después de la semana 36",
+      "Solo durante el primer trimestre",
+      "Únicamente durante el puerperio",
+      "No se recomienda ultrasonido durante el segundo trimestre"
+    ],
     "respuestaCorrecta": 1,
-    "explicacion": "El documento sitúa el ultrasonido estructural o anatómico en las semanas 18 a 22. Esta ventana permite examinar la anatomía fetal y detectar muchas anomalías estructurales, aunque la sensibilidad depende de la anomalía, la calidad técnica y las condiciones maternas.",
-    "perlaENARM": "Memoriza la secuencia del material: primer trimestre para datación y tamizaje temprano, semanas 18–22 para anatomía y evaluación posterior según indicación y protocolo.",
+    "explicacion": "El ultrasonido anatómico se realiza habitualmente entre las semanas 18 y 22. Esta ventana permite examinar la anatomía fetal y detectar muchas anomalías estructurales, aunque la sensibilidad depende del tipo de anomalía, la calidad técnica y las condiciones maternas.",
+    "perlaENARM": "Ultrasonido estructural: semanas 18–22, según el material proporcionado.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 2 y 3.",
+      "PDF proporcionado: 2. Control Prenatal, pp. 2 y 3.",
       "ISUOG. Practice Guidelines for the Routine Mid-trimester Fetal Ultrasound Scan."
     ]
   },
   {
     "id": "OBS-092",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Alta",
-    "pregunta": "Una gestante de 26 semanas presenta altura uterina de 22 cm, sin datos de trabajo de parto. ¿Qué interpretación clínica es más prudente?",
-    "opciones": {
-      "1": "La medición confirma por sí sola una malformación fetal",
-      "2": "La altura uterina permite determinar con exactitud el peso fetal",
-      "3": "La discrepancia debe contextualizarse y motivar evaluación del crecimiento y de factores que alteran la medición",
-      "4": "La diferencia demuestra necesariamente oligohidramnios",
-      "5": "La altura uterina deja de tener utilidad después de la semana 20"
-    },
+    "subtema": "Altura uterina y crecimiento fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar una discrepancia entre altura uterina y edad gestacional.",
+    "caso": "Una gestante de 26 semanas presenta una altura uterina de 22 cm, sin datos de trabajo de parto.",
+    "pregunta": "¿Cuál es la interpretación clínica más prudente?",
+    "opciones": [
+      "La medición confirma por sí sola una malformación fetal",
+      "La altura uterina permite determinar con exactitud el peso fetal",
+      "La discrepancia debe contextualizarse y puede motivar evaluación del crecimiento y de factores que alteran la medición",
+      "La diferencia demuestra necesariamente oligohidramnios",
+      "La altura uterina deja de tener utilidad después de la semana 20"
+    ],
     "respuestaCorrecta": 3,
-    "explicacion": "La medición seriada de la altura uterina ayuda a detectar discrepancias del crecimiento, pero no establece por sí sola una etiología. La obesidad, los miomas, la posición fetal y el volumen de líquido amniótico pueden afectar la medición; si la discrepancia es clínicamente relevante, se considera evaluación ecográfica.",
-    "perlaENARM": "Una altura uterina discordante es una señal para investigar, no un diagnóstico etiológico definitivo.",
+    "explicacion": "La medición seriada de la altura uterina ayuda a detectar discrepancias del crecimiento, pero no establece por sí sola una etiología. La obesidad, los miomas, la posición fetal, la edad gestacional y el volumen de líquido amniótico pueden influir en la medición. Cuando la discrepancia es relevante, se considera evaluación ecográfica.",
+    "perlaENARM": "La altura uterina discordante es una señal para investigar, no un diagnóstico etiológico definitivo.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 13 y 18.",
-      "WHO. Recommendations on Antenatal Care for a Positive Pregnancy Experience."
+      "PDF proporcionado: 2. Control Prenatal, pp. 13 y 18.",
+      "OMS. WHO Recommendations on Antenatal Care for a Positive Pregnancy Experience."
     ]
   },
   {
     "id": "OBS-093",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Alta",
-    "pregunta": "Una paciente de 19 semanas pregunta qué hallazgo ecográfico orienta a una gestación gemelar monocorial. ¿Cuál es la asociación clásica descrita en el material?",
-    "opciones": {
-      "1": "Signo de lambda",
-      "2": "Signo de T",
-      "3": "Longitud cráneo-caudal aumentada de ambos fetos",
-      "4": "Ausencia de saco vitelino",
-      "5": "Diámetro biparietal discordante como único criterio"
-    },
+    "subtema": "Corionicidad en embarazo gemelar",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar los signos ecográficos clásicos de corionicidad en el embarazo gemelar.",
+    "caso": "Una paciente de 19 semanas tiene un embarazo gemelar y se revisa el ultrasonido para determinar la corionicidad.",
+    "pregunta": "¿Qué signo ecográfico orienta clásicamente a una gestación monocorial?",
+    "opciones": [
+      "Signo de lambda",
+      "Signo de T",
+      "Longitud cráneo-caudal aumentada de ambos fetos",
+      "Ausencia de saco vitelino",
+      "Diámetro biparietal discordante como único criterio"
+    ],
     "respuestaCorrecta": 2,
-    "explicacion": "El PDF relaciona el signo de T con una gestación monocorial y el signo de lambda con una gestación bicorial. La determinación temprana de corionicidad es relevante para establecer el seguimiento y la vigilancia de complicaciones específicas de los embarazos múltiples.",
-    "perlaENARM": "Signo de T: orienta a monocorionicidad; signo de lambda: orienta a bicorionicidad. La valoración temprana mejora la clasificación.",
+    "explicacion": "El signo de T se asocia clásicamente con una gestación monocorial diamniótica, mientras que el signo de lambda o pico gemelar orienta a una gestación bicorial. La determinación temprana de corionicidad permite planificar la vigilancia y detectar complicaciones propias del embarazo múltiple.",
+    "perlaENARM": "Signo de T: monocorionicidad; signo de lambda: bicorionicidad. La evaluación temprana de corionicidad modifica el seguimiento.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 14.",
+      "PDF proporcionado: 2. Control Prenatal, p. 14.",
       "ISUOG. Practice Guidelines on the Role of Ultrasound in Twin Pregnancy."
     ]
   },
   {
     "id": "OBS-094",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Alta",
-    "pregunta": "Una embarazada de 30 semanas pregunta si debe recibir vacuna contra influenza durante la temporada correspondiente. No tiene contraindicaciones específicas. ¿Cuál es la recomendación general?",
-    "opciones": {
-      "1": "Evitar toda vacunación hasta seis meses después del parto",
-      "2": "Aplicar exclusivamente vacunas vivas atenuadas",
-      "3": "Administrar la vacuna intranasal viva atenuada porque produce mayor protección fetal",
-      "4": "Vacunar únicamente si desarrolla influenza confirmada",
-      "5": "Ofrecer vacuna inactivada contra influenza conforme a las recomendaciones vigentes"
-    },
+    "subtema": "Vacunación contra influenza",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar la vacuna contra influenza apropiada durante el embarazo.",
+    "caso": "Una embarazada de 30 semanas acude durante la temporada de influenza. No tiene contraindicaciones específicas para la vacunación.",
+    "pregunta": "¿Cuál es la recomendación general más apropiada?",
+    "opciones": [
+      "Evitar toda vacunación hasta seis meses después del parto",
+      "Aplicar exclusivamente vacunas vivas atenuadas",
+      "Administrar la vacuna intranasal viva atenuada para aumentar la protección fetal",
+      "Vacunar únicamente si desarrolla influenza confirmada",
+      "Ofrecer vacuna inactivada contra influenza conforme a las recomendaciones vigentes"
+    ],
     "respuestaCorrecta": 5,
-    "explicacion": "El material señala que el embarazo no contraindica la vacunación y contempla la vacuna inactivada contra influenza. La gestación aumenta el riesgo de complicaciones por influenza, por lo que la inmunización estacional es una intervención preventiva importante. Las vacunas vivas atenuadas, como la vacuna intranasal contra influenza, deben evitarse durante el embarazo.",
-    "perlaENARM": "Influenza inactivada: indicada durante el embarazo según recomendaciones vigentes; vacuna viva atenuada: evitar durante la gestación.",
+    "explicacion": "La vacunación contra influenza con una formulación inactivada se recomienda durante el embarazo conforme a las indicaciones vigentes. La gestación aumenta el riesgo de complicaciones por influenza. Las vacunas vivas atenuadas, incluida la formulación intranasal contra influenza, deben evitarse durante el embarazo.",
+    "perlaENARM": "Influenza inactivada: puede administrarse durante el embarazo; vacuna viva atenuada intranasal: evitar durante la gestación.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 6.",
+      "PDF proporcionado: 2. Control Prenatal, p. 6.",
       "CDC. Guidelines for Vaccinating Pregnant Women."
     ]
   },
   {
     "id": "OBS-095",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Alta",
-    "pregunta": "Una paciente de 32 semanas no tiene antecedente de vacunación contra tosferina durante esta gestación. ¿Qué vacuna debe considerarse para proteger también al recién nacido durante sus primeros meses de vida?",
-    "opciones": {
-      "1": "Vacuna triple viral viva atenuada",
-      "2": "Vacuna contra varicela",
-      "3": "Vacuna intranasal viva contra influenza",
-      "4": "Vacuna Tdpa, conforme a la ventana recomendada en el calendario vigente",
-      "5": "Vacuna contra sarampión como única estrategia de prevención de tosferina"
-    },
+    "subtema": "Vacunación con Tdpa",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar el papel de la vacunación materna con Tdpa en la prevención de tosferina neonatal.",
+    "caso": "Una paciente de 32 semanas no tiene antecedente de vacunación contra tosferina durante la gestación actual.",
+    "pregunta": "¿Qué vacuna debe considerarse para favorecer la protección del recién nacido durante sus primeros meses de vida?",
+    "opciones": [
+      "Vacuna triple viral viva atenuada",
+      "Vacuna contra varicela",
+      "Vacuna intranasal viva contra influenza",
+      "Vacuna Tdpa, conforme a la ventana recomendada en el calendario vigente",
+      "Vacuna contra sarampión como única estrategia preventiva de tosferina"
+    ],
     "respuestaCorrecta": 4,
-    "explicacion": "La vacuna Tdpa durante el embarazo favorece la transferencia transplacentaria de anticuerpos contra tosferina al recién nacido. El PDF indica su aplicación después de las 20 semanas, pero el momento exacto debe seguir la recomendación vigente del país y la temporada o protocolo aplicable.",
-    "perlaENARM": "Tdpa durante cada embarazo, en la ventana recomendada por la guía vigente, busca proteger al lactante antes de completar su esquema primario.",
+    "explicacion": "La vacuna Tdpa durante el embarazo favorece la transferencia transplacentaria de anticuerpos contra Bordetella pertussis. La vacunación se recomienda durante cada embarazo en la ventana establecida por la guía nacional vigente, con el objetivo de proteger al lactante antes de que complete su esquema primario.",
+    "perlaENARM": "Tdpa en cada embarazo: busca proteger al lactante mediante anticuerpos maternos transferidos por vía transplacentaria.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 6.",
-      "CDC. Tdap Vaccination for Pregnant Women."
+      "PDF proporcionado: 2. Control Prenatal, p. 6.",
+      "CDC. Tdap Vaccination for Pregnant Women.",
+      "Williams Obstetrics, 26.ª ed., inmunización durante el embarazo."
     ]
   },
   {
     "id": "OBS-096",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Alta",
-    "pregunta": "Una embarazada de 15 semanas tiene antecedente de hipertensión crónica y un embarazo previo complicado por preeclampsia. ¿Qué intervención preventiva debe valorarse tempranamente?",
-    "opciones": {
-      "1": "Suspender toda vigilancia de presión arterial hasta el tercer trimestre",
-      "2": "Indicar aspirina a dosis baja cuando esté indicada por su perfil de riesgo y conforme a la guía aplicable",
-      "3": "Administrar vitamina A en dosis altas",
-      "4": "Indicar reposo absoluto como única medida preventiva",
-      "5": "Esperar a que aparezca proteinuria para iniciar cualquier prevención"
-    },
+    "subtema": "Prevención de preeclampsia",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar candidatas a profilaxis con ácido acetilsalicílico a dosis baja.",
+    "caso": "Una paciente de 15 semanas tiene hipertensión crónica y antecedente de preeclampsia en un embarazo previo.",
+    "pregunta": "¿Qué intervención preventiva debe valorarse tempranamente?",
+    "opciones": [
+      "Suspender la vigilancia de presión arterial hasta el tercer trimestre",
+      "Indicar ácido acetilsalicílico a dosis baja cuando esté indicado por su perfil de riesgo",
+      "Administrar vitamina A en dosis altas",
+      "Indicar reposo absoluto como única medida preventiva",
+      "Esperar a que aparezca proteinuria para iniciar cualquier intervención"
+    ],
     "respuestaCorrecta": 2,
-    "explicacion": "El PDF describe aspirina a dosis baja como profilaxis en pacientes con factores de riesgo para preeclampsia. Las recomendaciones internacionales suelen favorecer el inicio temprano, después de identificar un riesgo elevado, y mantienen la vigilancia clínica durante todo el embarazo. La dosis y el momento de suspensión deben seguir la guía aplicable.",
-    "perlaENARM": "La prevención de preeclampsia se decide por factores de riesgo; no es necesario esperar a que aparezca hipertensión o proteinuria.",
+    "explicacion": "La hipertensión crónica y el antecedente de preeclampsia son factores de alto riesgo. En pacientes elegibles, el ácido acetilsalicílico a dosis baja reduce el riesgo de preeclampsia y se recomienda iniciarlo tempranamente, habitualmente entre las semanas 12 y 28, de preferencia antes de la semana 16, conforme a la guía aplicable.",
+    "perlaENARM": "La profilaxis con ácido acetilsalicílico se decide por los factores de riesgo; no se debe esperar a que aparezca hipertensión nueva o proteinuria.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 11.",
-      "ACOG. Low-Dose Aspirin Use During Pregnancy."
+      "PDF proporcionado: 2. Control Prenatal, p. 11.",
+      "ACOG. Low-Dose Aspirin Use During Pregnancy.",
+      "USPSTF. Aspirin Use to Prevent Preeclampsia and Related Morbidity and Mortality."
     ]
   },
   {
     "id": "OBS-097",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Alta",
-    "pregunta": "Una paciente de 10 semanas tiene diabetes mellitus tipo 2 conocida antes del embarazo. ¿Cómo debe clasificarse esta condición respecto a la diabetes gestacional?",
-    "opciones": {
-      "1": "Diabetes gestacional confirmada exclusivamente por tener embarazo",
-      "2": "Hiperglucemia fisiológica sin necesidad de evaluación",
-      "3": "Diabetes pregestacional, que requiere vigilancia y manejo específico desde el inicio",
-      "4": "Diabetes gestacional que solo puede diagnosticarse después de la semana 32",
-      "5": "Diabetes neonatal"
-    },
+    "subtema": "Diabetes pregestacional",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar diabetes pregestacional de diabetes gestacional.",
+    "caso": "Una paciente de 10 semanas tiene diabetes mellitus tipo 2 diagnosticada varios años antes del embarazo.",
+    "pregunta": "¿Cómo debe clasificarse esta condición respecto a la diabetes gestacional?",
+    "opciones": [
+      "Diabetes gestacional confirmada exclusivamente por estar embarazada",
+      "Hiperglucemia fisiológica sin necesidad de evaluación",
+      "Diabetes pregestacional que requiere vigilancia y manejo específico desde el inicio",
+      "Diabetes gestacional que solo puede diagnosticarse después de la semana 32",
+      "Diabetes neonatal"
+    ],
     "respuestaCorrecta": 3,
-    "explicacion": "La diabetes mellitus conocida antes del embarazo es diabetes pregestacional. El documento también señala que la primera consulta debe evaluar tempranamente a quienes pudieran tener diabetes tipo 2 no diagnosticada. La diabetes pregestacional requiere planificación y control metabólico específico desde etapas tempranas.",
-    "perlaENARM": "Distingue diabetes pregestacional de diabetes gestacional: la primera ya existía antes del embarazo; la segunda se reconoce durante la gestación según criterios diagnósticos.",
+    "explicacion": "La diabetes mellitus diagnosticada antes de la concepción se clasifica como diabetes pregestacional. Requiere evaluación y control metabólico desde el inicio, además de vigilancia de complicaciones maternas y fetales. La diabetes gestacional se identifica durante el embarazo en pacientes sin diagnóstico previo, conforme a los criterios aplicables.",
+    "perlaENARM": "Diabetes pregestacional: existe antes del embarazo. Diabetes gestacional: se diagnostica durante la gestación según los criterios vigentes.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 10.",
-      "American Diabetes Association. Standards of Care in Diabetes."
+      "PDF proporcionado: 2. Control Prenatal, p. 10.",
+      "American Diabetes Association. Standards of Care in Diabetes, sección sobre diabetes en el embarazo.",
+      "Williams Obstetrics, 26.ª ed., diabetes mellitus y embarazo."
     ]
   },
   {
     "id": "OBS-098",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Alta",
-    "pregunta": "Una embarazada de 20 semanas tiene antecedente de bacteriuria asintomática en una gestación previa. Actualmente no presenta disuria ni fiebre. ¿Cuál es el estudio que permite investigar bacteriuria asintomática durante el control prenatal?",
-    "opciones": {
-      "1": "Urocultivo",
-      "2": "Radiografía simple de abdomen",
-      "3": "Prueba de Coombs indirecta",
-      "4": "Prueba de tolerancia a la glucosa",
-      "5": "Ultrasonido estructural como sustituto del estudio urinario"
-    },
+    "subtema": "Tamizaje de bacteriuria asintomática",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar el estudio microbiológico para detectar bacteriuria asintomática durante el embarazo.",
+    "caso": "Una embarazada de 20 semanas tiene antecedente de bacteriuria asintomática en una gestación previa. Actualmente no presenta disuria ni fiebre.",
+    "pregunta": "¿Qué estudio permite investigar bacteriuria asintomática durante el control prenatal?",
+    "opciones": [
+      "Urocultivo",
+      "Radiografía simple de abdomen",
+      "Prueba de antiglobulina indirecta",
+      "Prueba de tolerancia a la glucosa",
+      "Ultrasonido estructural como sustituto del estudio urinario"
+    ],
     "respuestaCorrecta": 1,
-    "explicacion": "El urocultivo permite detectar bacteriuria asintomática y orientar el tratamiento con base en el microorganismo y su sensibilidad. El PDF incluye el urocultivo en la evaluación inicial y advierte que la tira reactiva no es adecuada para sustituir el tamizaje microbiológico.",
-    "perlaENARM": "Bacteriuria asintomática en el embarazo: el urocultivo es el estudio clave; no depender exclusivamente de la tira reactiva.",
+    "explicacion": "El urocultivo permite detectar bacteriuria asintomática e identificar el microorganismo para orientar el tratamiento. La tira reactiva y el examen general de orina pueden aportar información complementaria, pero no sustituyen al cultivo para el diagnóstico microbiológico.",
+    "perlaENARM": "Bacteriuria asintomática durante el embarazo: el urocultivo es el estudio clave.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 2 y 12.",
+      "PDF proporcionado: 2. Control Prenatal, pp. 2 y 12.",
       "ACOG. Urinary Tract Infections in Pregnant Individuals."
     ]
   },
   {
     "id": "OBS-099",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Alta",
-    "pregunta": "Una paciente de 22 semanas presenta anemia en la biometría hemática. ¿Cuál es el punto de corte de hemoglobina que aparece en el material para identificar anemia durante el embarazo?",
-    "opciones": {
-      "1": "Menor de 14 g/dL",
-      "2": "Menor de 13 g/dL en cualquier trimestre",
-      "3": "Menor de 12.5 g/dL exclusivamente en el primer trimestre",
-      "4": "Menor de 10 g/dL en cualquier trimestre como único umbral posible",
-      "5": "Menor de 11 g/dL"
-    },
+    "subtema": "Anemia durante el embarazo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el punto de corte de hemoglobina empleado en el material para identificar anemia gestacional.",
+    "caso": "Una paciente de 22 semanas presenta anemia en la biometría hemática y pregunta cuál es el valor de hemoglobina utilizado como punto de corte general en su material de estudio.",
+    "pregunta": "¿Qué valor corresponde al punto de corte señalado en el documento?",
+    "opciones": [
+      "Menor de 14 g/dL",
+      "Menor de 13 g/dL en cualquier trimestre",
+      "Menor de 12.5 g/dL exclusivamente en el primer trimestre",
+      "Menor de 10 g/dL en cualquier trimestre como único umbral posible",
+      "Menor de 11 g/dL"
+    ],
     "respuestaCorrecta": 5,
-    "explicacion": "El PDF presenta como punto de corte general una hemoglobina menor de 11 g/dL y describe suplementación preventiva con hierro. La interpretación clínica completa debe considerar el trimestre, los índices eritrocitarios, la ferritina cuando esté indicada y los criterios diagnósticos de la guía vigente.",
-    "perlaENARM": "En preguntas basadas en el material, recuerda el punto de corte señalado de Hb menor de 11 g/dL; verifica los criterios específicos por trimestre cuando la pregunta los aporte.",
+    "explicacion": "El material presenta hemoglobina menor de 11 g/dL como punto de corte general. La interpretación clínica debe considerar el trimestre, los índices eritrocitarios, la ferritina cuando esté indicada y los criterios diagnósticos adoptados por la guía aplicable.",
+    "perlaENARM": "Para preguntas basadas en este material, recuerda Hb menor de 11 g/dL; en la práctica, considera los puntos de corte específicos por trimestre.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 5.",
+      "PDF proporcionado: 2. Control Prenatal, p. 5.",
       "OMS. Guideline on Use of Ferritin Concentrations to Assess Iron Status."
     ]
   },
   {
     "id": "OBS-100",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Alta",
-    "pregunta": "Una gestante de bajo riesgo pregunta si debe abandonar el ejercicio habitual. No tiene sangrado, amenaza de parto pretérmino ni otra contraindicación obstétrica. ¿Cuál es la recomendación general más apropiada?",
-    "opciones": {
-      "1": "Suspender toda actividad física hasta el puerperio",
-      "2": "Realizar ejercicio intenso diario sin valorar síntomas",
-      "3": "Mantener únicamente reposo en cama",
-      "4": "Promover actividad física regular de intensidad apropiada, adaptada a su condición y a las recomendaciones obstétricas",
-      "5": "Sustituir el ejercicio por suplementos de vitamina A"
-    },
+    "subtema": "Actividad física durante el embarazo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Establecer recomendaciones generales de actividad física en el embarazo de bajo riesgo.",
+    "caso": "Una gestante de bajo riesgo pregunta si debe abandonar el ejercicio habitual. No tiene sangrado, amenaza de parto pretérmino ni otra contraindicación obstétrica identificada.",
+    "pregunta": "¿Cuál es la recomendación general más apropiada?",
+    "opciones": [
+      "Suspender toda actividad física hasta el puerperio",
+      "Realizar ejercicio intenso diario sin valorar síntomas",
+      "Mantener únicamente reposo en cama",
+      "Promover actividad física regular de intensidad apropiada y adaptada a su condición",
+      "Sustituir el ejercicio por suplementos de vitamina A"
+    ],
     "respuestaCorrecta": 4,
-    "explicacion": "El documento considera beneficioso el ejercicio regular en embarazos de bajo riesgo y menciona actividades de bajo impacto. La intensidad debe adaptarse a la condición de la paciente, y la aparición de síntomas o contraindicaciones obliga a reevaluar la actividad.",
+    "explicacion": "En embarazos sin contraindicaciones, la actividad física regular ofrece beneficios maternos y debe adaptarse a la condición clínica y al nivel previo de actividad. No se recomienda el reposo absoluto rutinario. La aparición de síntomas o de una contraindicación obstétrica requiere reevaluación.",
     "perlaENARM": "El embarazo de bajo riesgo no implica prohibición general de ejercicio; individualiza la actividad y reconoce las contraindicaciones.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 5.",
+      "PDF proporcionado: 2. Control Prenatal, p. 5.",
       "ACOG. Physical Activity and Exercise During Pregnancy and the Postpartum Period."
     ]
   },
   {
     "id": "OBS-101",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Media",
-    "pregunta": "Una mujer con ciclos regulares de 28 días proporciona una fecha de última menstruación confiable. ¿Qué método tradicional se utiliza para estimar la fecha probable de parto?",
-    "opciones": {
-      "1": "Regla de Naegele",
-      "2": "Índice de Bishop",
-      "3": "Escala de Edimburgo",
-      "4": "Puntuación de Apgar",
-      "5": "Clasificación de Child-Pugh"
-    },
+    "subtema": "Regla de Naegele",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Aplicar la regla de Naegele para estimar la fecha probable de parto.",
+    "caso": "Una mujer con ciclos regulares de 28 días proporciona una fecha de última menstruación confiable y solicita estimar su fecha probable de parto.",
+    "pregunta": "¿Qué método tradicional puede utilizarse para realizar esta estimación?",
+    "opciones": [
+      "Regla de Naegele",
+      "Índice de Bishop",
+      "Escala de Edimburgo",
+      "Puntuación de Apgar",
+      "Clasificación de Child-Pugh"
+    ],
     "respuestaCorrecta": 1,
-    "explicacion": "La regla de Naegele estima la fecha probable de parto a partir de la fecha de última menstruación, sumando siete días, restando tres meses y añadiendo un año. Es más útil cuando la FUM es confiable y los ciclos son regulares.",
+    "explicacion": "La regla de Naegele estima la fecha probable de parto a partir de la fecha de última menstruación: se suman siete días, se restan tres meses y se añade un año. Es más útil cuando la fecha es confiable y los ciclos son regulares.",
     "perlaENARM": "Naegele: FUM + 7 días − 3 meses + 1 año. Si la FUM no es confiable, prioriza la datación ecográfica temprana.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 13.",
+      "PDF proporcionado: 2. Control Prenatal, p. 13.",
       "ACOG. Methods for Estimating the Due Date."
     ]
   },
   {
     "id": "OBS-102",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Media",
-    "pregunta": "Una paciente acude a su primera consulta prenatal a las 9 semanas. ¿Cuál de los siguientes conjuntos de estudios está contemplado en la evaluación inicial descrita por el documento?",
-    "opciones": {
-      "1": "Únicamente ultrasonido de crecimiento y perfil biofísico fetal",
-      "2": "Biometría hemática, grupo y Rh, evaluación urinaria, glucosa y tamizaje infeccioso indicado",
-      "3": "Solo una prueba de tolerancia a la glucosa de 100 g",
-      "4": "Amniocentesis y cordocentesis de rutina",
-      "5": "Pruebas de coagulación y tomografía computarizada para todas las pacientes"
-    },
+    "subtema": "Estudios de la primera consulta",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Reconocer los componentes habituales de la evaluación prenatal inicial.",
+    "caso": "Una paciente acude a su primera consulta prenatal a las 9 semanas, sin estudios previos documentados.",
+    "pregunta": "¿Cuál de los siguientes conjuntos de estudios corresponde a la evaluación inicial descrita en el material?",
+    "opciones": [
+      "Únicamente ultrasonido de crecimiento y perfil biofísico fetal",
+      "Biometría hemática, grupo y Rh, evaluación urinaria, glucosa y tamizaje infeccioso indicado",
+      "Solo una prueba de tolerancia a la glucosa de 100 g",
+      "Amniocentesis y cordocentesis de rutina",
+      "Pruebas de coagulación y tomografía computarizada para todas las pacientes"
+    ],
     "respuestaCorrecta": 2,
-    "explicacion": "El PDF incluye biometría hemática, grupo sanguíneo y Rh, glucosa, examen general de orina, urocultivo y pruebas de tamizaje infeccioso, entre otros estudios según contexto. La selección final depende de antecedentes, factores de riesgo y guías locales.",
-    "perlaENARM": "La consulta inicial integra evaluación clínica, edad gestacional, factores de riesgo y estudios basales; no se limita al ultrasonido.",
+    "explicacion": "La evaluación inicial integra historia clínica, factores de riesgo, edad gestacional y estudios basales. El material incluye biometría hemática, grupo sanguíneo y Rh, evaluación urinaria, glucosa y pruebas de tamizaje infeccioso. La selección final depende de los antecedentes, la situación clínica y las recomendaciones locales.",
+    "perlaENARM": "La consulta inicial no se limita al ultrasonido: incluye valoración clínica, estratificación de riesgo y estudios basales.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 2 y 10.",
+      "PDF proporcionado: 2. Control Prenatal, pp. 2 y 10.",
       "NOM-007-SSA2-2016, atención de la mujer durante el embarazo, parto y puerperio, y de la persona recién nacida."
     ]
   },
   {
     "id": "OBS-103",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Media",
-    "pregunta": "Una embarazada de 21 semanas pregunta cuándo suele realizarse el ultrasonido anatómico fetal. ¿Qué intervalo debe recordar para el examen?",
-    "opciones": {
-      "1": "Semanas 4 a 6",
-      "2": "Semanas 8 a 10",
-      "3": "Semanas 18 a 22",
-      "4": "Semanas 34 a 37 exclusivamente",
-      "5": "Después de la semana 42"
-    },
+    "subtema": "Ventana del ultrasonido anatómico",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Recordar el intervalo recomendado para el ultrasonido anatómico fetal.",
+    "caso": "Una embarazada de 21 semanas pregunta cuándo suele realizarse el ultrasonido anatómico fetal.",
+    "pregunta": "¿Qué intervalo debe recordar para el examen?",
+    "opciones": [
+      "Semanas 4 a 6",
+      "Semanas 8 a 10",
+      "Semanas 18 a 22",
+      "Semanas 34 a 37 exclusivamente",
+      "Después de la semana 42"
+    ],
     "respuestaCorrecta": 3,
-    "explicacion": "El PDF sitúa el ultrasonido estructural entre las semanas 18 y 22. La ventana facilita la evaluación anatómica fetal y la identificación de muchas malformaciones.",
-    "perlaENARM": "Ultrasonido anatómico: 18–22 semanas, de acuerdo con el documento proporcionado.",
+    "explicacion": "El material sitúa el ultrasonido estructural entre las semanas 18 y 22. Esta ventana facilita la evaluación anatómica fetal y la identificación de muchas malformaciones estructurales.",
+    "perlaENARM": "Ultrasonido anatómico: semanas 18–22, de acuerdo con el documento proporcionado.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 2 y 3.",
+      "PDF proporcionado: 2. Control Prenatal, pp. 2 y 3.",
       "ISUOG. Practice Guidelines for the Routine Mid-trimester Fetal Ultrasound Scan."
     ]
   },
   {
     "id": "OBS-104",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Media",
-    "pregunta": "Una paciente RhD negativa tiene una prueba de antiglobulina indirecta positiva durante el control prenatal. ¿Cuál es la interpretación inicial correcta?",
-    "opciones": {
-      "1": "La paciente es necesariamente RhD positiva",
-      "2": "El resultado descarta anticuerpos eritrocitarios",
-      "3": "La prueba demuestra diabetes gestacional",
-      "4": "Debe evaluarse la especificidad del anticuerpo y determinar si existe aloinmunización clínicamente significativa",
-      "5": "El resultado confirma una infección urinaria"
-    },
+    "subtema": "Prueba de antiglobulina indirecta",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Interpretar una prueba de antiglobulina indirecta positiva en una paciente RhD negativa.",
+    "caso": "Una paciente RhD negativa presenta una prueba de antiglobulina indirecta positiva durante el control prenatal.",
+    "pregunta": "¿Cuál es la interpretación inicial correcta?",
+    "opciones": [
+      "La paciente es necesariamente RhD positiva",
+      "El resultado descarta anticuerpos eritrocitarios",
+      "La prueba demuestra diabetes gestacional",
+      "Debe evaluarse la especificidad del anticuerpo y determinar si existe aloinmunización clínicamente significativa",
+      "El resultado confirma una infección urinaria"
+    ],
     "respuestaCorrecta": 4,
-    "explicacion": "Una prueba de antiglobulina indirecta positiva indica presencia de anticuerpos eritrocitarios detectables, pero es necesario identificar su especificidad y relevancia clínica. La conducta no equivale automáticamente a administrar profilaxis anti-D a una paciente ya sensibilizada frente al antígeno correspondiente.",
-    "perlaENARM": "Distingue profilaxis anti-D en la paciente no sensibilizada de la evaluación y vigilancia de una paciente con anticuerpos detectables.",
+    "explicacion": "Una prueba de antiglobulina indirecta positiva indica anticuerpos eritrocitarios detectables. Se debe identificar su especificidad y relevancia clínica para establecer la vigilancia necesaria. La profilaxis anti-D se utiliza para prevenir sensibilización en pacientes no sensibilizadas; no sustituye la evaluación de una aloinmunización ya establecida.",
+    "perlaENARM": "Distingue la profilaxis anti-D en la paciente no sensibilizada de la evaluación y vigilancia de una paciente con anticuerpos detectables.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 7 y 16.",
+      "PDF proporcionado: 2. Control Prenatal, pp. 7 y 16.",
       "ACOG. Prevention of Rh D Alloimmunization."
     ]
   },
   {
     "id": "OBS-105",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Media",
-    "pregunta": "Una embarazada de 30 semanas pregunta qué consumo de alcohol es seguro para el desarrollo fetal. ¿Qué consejo coincide con el mensaje preventivo del documento?",
-    "opciones": {
-      "1": "Solo es seguro consumir alcohol durante el tercer trimestre",
-      "2": "El vino es inocuo si se consume con alimentos",
-      "3": "Una bebida diaria previene la anemia fetal",
-      "4": "El alcohol puede consumirse si se acompaña de ácido fólico",
-      "5": "Se recomienda evitar el alcohol durante el embarazo porque no se ha establecido una dosis segura"
-    },
+    "subtema": "Consumo de alcohol durante el embarazo",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Proporcionar consejería preventiva sobre el consumo de alcohol durante la gestación.",
+    "caso": "Una embarazada de 30 semanas pregunta qué cantidad de alcohol puede consumir sin poner en riesgo el desarrollo fetal.",
+    "pregunta": "¿Qué consejo coincide con el mensaje preventivo del documento?",
+    "opciones": [
+      "Solo es seguro consumir alcohol durante el tercer trimestre",
+      "El vino es inocuo si se consume con alimentos",
+      "Una bebida diaria previene la anemia fetal",
+      "El alcohol puede consumirse si se acompaña de ácido fólico",
+      "Se recomienda evitar el alcohol durante el embarazo porque no se ha establecido una dosis segura"
+    ],
     "respuestaCorrecta": 5,
-    "explicacion": "El documento señala que el consumo de alcohol es perjudicial y que no existe una dosis considerada segura durante el embarazo. La consejería prenatal debe promover abstinencia y ofrecer apoyo cuando exista consumo problemático.",
+    "explicacion": "No se ha establecido una cantidad ni un momento del embarazo en los que el consumo de alcohol sea seguro para el feto. La consejería prenatal debe recomendar abstinencia y ofrecer apoyo no estigmatizante cuando exista consumo problemático.",
     "perlaENARM": "Alcohol durante el embarazo: no se ha establecido un umbral seguro; recomendar abstinencia.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 4.",
+      "PDF proporcionado: 2. Control Prenatal, p. 4.",
       "CDC. About Alcohol Use During Pregnancy."
     ]
   },
   {
     "id": "OBS-106",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Media",
-    "pregunta": "Una paciente de 27 semanas pregunta por qué debe limitar la ingesta de cafeína. ¿Cuál es el consejo que aparece en el material proporcionado?",
-    "opciones": {
-      "1": "Consumir al menos 600 mg diarios",
-      "2": "Evitar toda ingesta de agua si consume café",
-      "3": "Reducir la cafeína a menos de aproximadamente 200 mg al día, considerando todas las fuentes",
-      "4": "Sustituir el café por bebidas energéticas sin límite",
-      "5": "Duplicar la ingesta de cafeína para mejorar la perfusión placentaria"
-    },
+    "subtema": "Consumo de cafeína",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Identificar la recomendación general para limitar la cafeína durante el embarazo.",
+    "caso": "Una paciente de 27 semanas consume café diariamente y pregunta cuál es el límite aproximado de cafeína recomendado durante la gestación.",
+    "pregunta": "¿Cuál es el consejo más apropiado?",
+    "opciones": [
+      "Consumir al menos 600 mg diarios",
+      "Evitar toda ingesta de agua si consume café",
+      "Limitar la cafeína a aproximadamente 200 mg al día, considerando todas las fuentes",
+      "Sustituir el café por bebidas energéticas sin límite",
+      "Duplicar la ingesta de cafeína para mejorar la perfusión placentaria"
+    ],
     "respuestaCorrecta": 3,
-    "explicacion": "El documento recomienda limitar la cafeína a menos de aproximadamente 182 mg diarios. En la práctica, las guías suelen aconsejar un límite cercano a 200 mg al día, contabilizando café, té, refrescos, chocolate y bebidas energéticas.",
-    "perlaENARM": "Cuenta la cafeína de todas las fuentes, no solo la del café. Evita recomendar bebidas energéticas durante la gestación.",
+    "explicacion": "El material recomienda limitar la cafeína durante la gestación. Las recomendaciones habituales utilizan un límite cercano a 200 mg al día, contabilizando café, té, refrescos, chocolate y otras fuentes. Las bebidas energéticas no son una alternativa recomendable para un consumo ilimitado.",
+    "perlaENARM": "Cuenta la cafeína de todas las fuentes, no solo la del café; evita recomendar bebidas energéticas durante la gestación.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 4.",
+      "PDF proporcionado: 2. Control Prenatal, p. 4.",
       "ACOG. Moderate Caffeine Consumption During Pregnancy."
     ]
   },
   {
     "id": "OBS-107",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Media",
-    "pregunta": "Una paciente de 16 semanas refiere antecedente de tabaquismo y pregunta si debe continuar fumando menos cigarrillos al día. ¿Cuál es la intervención prenatal prioritaria?",
-    "opciones": {
-      "1": "Recomendar cese completo del tabaco y ofrecer apoyo para lograrlo",
-      "2": "Sugerir cambiar a tabaco sin humo como alternativa inocua",
-      "3": "Aconsejar fumar únicamente por la noche",
-      "4": "Suspender el control prenatal hasta que abandone el hábito",
-      "5": "Indicar vitamina A en dosis altas para neutralizar los efectos del tabaco"
-    },
+    "subtema": "Tabaquismo durante el embarazo",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Reconocer la intervención prenatal prioritaria frente al consumo de tabaco.",
+    "caso": "Una paciente de 16 semanas refiere tabaquismo y pregunta si puede continuar fumando una cantidad menor de cigarrillos al día.",
+    "pregunta": "¿Cuál es la intervención prenatal prioritaria?",
+    "opciones": [
+      "Recomendar cese completo del tabaco y ofrecer apoyo para lograrlo",
+      "Sugerir cambiar a tabaco sin humo como alternativa inocua",
+      "Aconsejar fumar únicamente por la noche",
+      "Suspender el control prenatal hasta que abandone el hábito",
+      "Indicar vitamina A en dosis altas para neutralizar los efectos del tabaco"
+    ],
     "respuestaCorrecta": 1,
-    "explicacion": "La consejería prenatal incluye evitar tabaco y otras sustancias nocivas. Reducir el consumo puede ser un paso hacia el abandono, pero el objetivo debe ser el cese completo y el acceso a apoyo apropiado.",
-    "perlaENARM": "El tabaco durante la gestación se asocia con resultados adversos; ofrece intervención para abandono sin culpabilizar a la paciente.",
+    "explicacion": "El consumo de tabaco durante la gestación se asocia con resultados obstétricos y perinatales adversos. La intervención debe orientarse al abandono completo, con consejería y apoyo apropiado, evitando culpabilizar a la paciente o sustituir el cigarrillo por productos de tabaco considerados supuestamente inocuos.",
+    "perlaENARM": "El objetivo es abandonar el tabaco por completo; ofrece apoyo sin culpabilizar a la paciente.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 4 y 19.",
+      "PDF proporcionado: 2. Control Prenatal, pp. 4 y 19.",
       "ACOG. Tobacco and Nicotine Cessation During Pregnancy."
     ]
   },
   {
     "id": "OBS-108",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Media",
-    "pregunta": "Una paciente de 29 semanas con IMC pregestacional de 32 kg/m² pregunta cuánto peso debería ganar durante el embarazo. Según la tabla del material, ¿cuál es el intervalo orientativo para obesidad?",
-    "opciones": {
-      "1": "12 a 18 kg",
-      "2": "11 a 16.5 kg",
-      "3": "7 a 11.5 kg",
-      "4": "5 a 9 kg",
-      "5": "20 a 25 kg"
-    },
+    "subtema": "Ganancia ponderal gestacional",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Relacionar el IMC pregestacional con la ganancia de peso recomendada.",
+    "caso": "Una paciente de 29 semanas tiene un IMC pregestacional de 32 kg/m² y cursa un embarazo único sin complicaciones.",
+    "pregunta": "Según la tabla del material, ¿cuál es el intervalo orientativo de ganancia total de peso para obesidad?",
+    "opciones": [
+      "12 a 18 kg",
+      "11 a 16.5 kg",
+      "7 a 11.5 kg",
+      "5 a 9 kg",
+      "20 a 25 kg"
+    ],
     "respuestaCorrecta": 4,
-    "explicacion": "La tabla del PDF indica una ganancia total de 5 a 9 kg para pacientes con obesidad. La recomendación debe individualizarse de acuerdo con el IMC pregestacional, embarazo único o múltiple, trayectoria de ganancia de peso y situación clínica.",
-    "perlaENARM": "En embarazo único, la ganancia recomendada depende del IMC previo a la gestación; no se utiliza el mismo intervalo para todas las pacientes.",
+    "explicacion": "La tabla del material indica una ganancia total de 5 a 9 kg para pacientes con obesidad en un embarazo único. La recomendación debe contextualizarse según el IMC pregestacional, la trayectoria de ganancia ponderal y la situación clínica materno-fetal.",
+    "perlaENARM": "La ganancia de peso recomendada depende del IMC pregestacional; no se utiliza el mismo intervalo para todas las pacientes.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 16.",
+      "PDF proporcionado: 2. Control Prenatal, p. 16.",
       "National Academy of Medicine. Weight Gain During Pregnancy."
     ]
   },
   {
     "id": "OBS-109",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Media",
-    "pregunta": "Una paciente de 30 semanas con ingesta dietética baja de calcio pregunta si necesita suplementación. ¿Qué principio debe orientar la decisión?",
-    "opciones": {
-      "1": "El calcio está contraindicado en todas las embarazadas",
-      "2": "La suplementación puede considerarse cuando la ingesta dietética es insuficiente, de acuerdo con las recomendaciones vigentes",
-      "3": "Debe administrarse exclusivamente después del parto",
-      "4": "El calcio reemplaza al ácido fólico",
-      "5": "La suplementación se indica solo ante incompatibilidad Rh"
-    },
+    "subtema": "Suplementación con calcio",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Reconocer cuándo debe considerarse la suplementación con calcio durante la gestación.",
+    "caso": "Una embarazada de 30 semanas refiere una ingesta dietética baja de calcio y pregunta si necesita suplementación.",
+    "pregunta": "¿Qué principio debe orientar la decisión?",
+    "opciones": [
+      "El calcio está contraindicado en todas las embarazadas",
+      "La suplementación puede considerarse cuando la ingesta dietética es insuficiente, de acuerdo con las recomendaciones vigentes",
+      "Debe administrarse exclusivamente después del parto",
+      "El calcio reemplaza al ácido fólico",
+      "La suplementación se indica solo ante incompatibilidad Rh"
+    ],
     "respuestaCorrecta": 2,
-    "explicacion": "El documento recomienda considerar calcio en pacientes con baja ingesta dietética. La indicación y dosis deben ajustarse a las recomendaciones clínicas aplicables y a la ingesta total, en especial cuando se busca reducir el riesgo de trastornos hipertensivos en poblaciones con bajo consumo de calcio.",
-    "perlaENARM": "Valora la ingesta dietética antes de suplementar; la suplementación con calcio es especialmente relevante en poblaciones con consumo bajo.",
+    "explicacion": "El material recomienda considerar calcio cuando la ingesta dietética es baja. La indicación y la dosis deben ajustarse a la ingesta total y a las recomendaciones aplicables. La suplementación es especialmente relevante en poblaciones con bajo consumo de calcio para la prevención de preeclampsia.",
+    "perlaENARM": "Valora la ingesta dietética antes de suplementar; el calcio es especialmente relevante en poblaciones con consumo bajo.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 5.",
+      "PDF proporcionado: 2. Control Prenatal, p. 5.",
       "OMS. Calcium Supplementation During Pregnancy for the Prevention of Pre-eclampsia."
     ]
   },
   {
     "id": "OBS-110",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Media",
-    "pregunta": "Una embarazada de 35 semanas presenta cefalea intensa, visión borrosa y edema facial de aparición reciente. ¿Cuál es la recomendación más apropiada?",
-    "opciones": {
-      "1": "Esperar a la consulta del siguiente mes",
-      "2": "Considerar los síntomas cambios fisiológicos inevitables",
-      "3": "Indicar únicamente mayor consumo de agua",
-      "4": "Suspender el control prenatal de manera indefinida",
-      "5": "Solicitar evaluación obstétrica inmediata por posible trastorno hipertensivo grave"
-    },
+    "subtema": "Signos de alarma de preeclampsia",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Reconocer síntomas de alarma que requieren evaluación obstétrica inmediata.",
+    "caso": "Una embarazada de 35 semanas presenta cefalea intensa, visión borrosa y edema facial de aparición reciente.",
+    "pregunta": "¿Cuál es la recomendación más apropiada?",
+    "opciones": [
+      "Esperar a la consulta del siguiente mes",
+      "Considerar los síntomas cambios fisiológicos inevitables",
+      "Indicar únicamente mayor consumo de agua",
+      "Suspender el control prenatal de manera indefinida",
+      "Solicitar evaluación obstétrica inmediata por posible trastorno hipertensivo grave"
+    ],
     "respuestaCorrecta": 5,
-    "explicacion": "La cefalea intensa y las alteraciones visuales son signos de alarma, especialmente en la segunda mitad del embarazo. Deben evaluarse de inmediato la presión arterial, los síntomas de gravedad y los estudios necesarios para descartar preeclampsia u otra urgencia.",
-    "perlaENARM": "Cefalea intensa y síntomas visuales en una embarazada: no tranquilizar sin evaluar presión arterial y datos de gravedad.",
+    "explicacion": "La cefalea intensa y las alteraciones visuales durante la segunda mitad del embarazo son síntomas de alarma. Se debe evaluar de inmediato la presión arterial, los datos de disfunción orgánica y la necesidad de manejo hospitalario. El edema aislado no establece el diagnóstico, pero el conjunto clínico exige valoración urgente.",
+    "perlaENARM": "Cefalea intensa y síntomas visuales en una embarazada: evaluar de inmediato presión arterial y datos de gravedad.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 1 y 11.",
+      "PDF proporcionado: 2. Control Prenatal, pp. 1 y 11.",
       "ACOG. Gestational Hypertension and Preeclampsia."
     ]
   },
   {
     "id": "OBS-111",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Baja",
+    "subtema": "Objetivos del control prenatal",
+    "dificultad": "baja",
+    "objetivoAprendizaje": "Identificar el propósito central de la atención prenatal.",
+    "caso": "Durante una sesión de preparación para el examen de residencia se solicita definir el objetivo principal del control prenatal.",
     "pregunta": "¿Cuál es el propósito principal del control prenatal?",
-    "opciones": {
-      "1": "Garantizar que todos los partos sean por cesárea",
-      "2": "Evitar cualquier ultrasonido durante la gestación",
-      "3": "Vigilar la evolución del embarazo, identificar riesgos y prevenir complicaciones",
-      "4": "Indicar medicamentos a todas las embarazadas sin valoración",
-      "5": "Realizar exclusivamente la medición del peso materno"
-    },
+    "opciones": [
+      "Garantizar que todos los partos sean por cesárea",
+      "Evitar cualquier ultrasonido durante la gestación",
+      "Vigilar la evolución del embarazo, identificar riesgos y prevenir complicaciones",
+      "Indicar medicamentos a todas las embarazadas sin valoración",
+      "Realizar exclusivamente la medición del peso materno"
+    ],
     "respuestaCorrecta": 3,
-    "explicacion": "El documento define el control prenatal como un conjunto de acciones destinadas a vigilar la evolución del embarazo, detectar riesgos tempranamente, prevenir complicaciones y preparar para el parto y la maternidad.",
+    "explicacion": "El control prenatal reúne acciones destinadas a vigilar la evolución del embarazo, detectar riesgos tempranamente, prevenir complicaciones y preparar a la paciente para el parto y la maternidad. Su contenido se adapta al riesgo y a las necesidades individuales.",
     "perlaENARM": "El control prenatal integra prevención, detección temprana, manejo de riesgos y preparación para el nacimiento.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 1.",
+      "PDF proporcionado: 2. Control Prenatal, p. 1.",
       "NOM-007-SSA2-2016."
     ]
   },
   {
     "id": "OBS-112",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Baja",
-    "pregunta": "¿Qué vitamina se recomienda de manera rutinaria para prevenir defectos del tubo neural, idealmente desde antes de la concepción?",
-    "opciones": {
-      "1": "Vitamina A en forma de retinol a dosis altas",
-      "2": "Vitamina E en dosis farmacológicas",
-      "3": "Vitamina C en dosis altas",
-      "4": "Ácido fólico",
-      "5": "Vitamina K en todas las pacientes durante toda la gestación"
-    },
+    "subtema": "Ácido fólico",
+    "dificultad": "baja",
+    "objetivoAprendizaje": "Identificar la vitamina utilizada para prevenir defectos del tubo neural.",
+    "caso": "Una mujer que planea embarazarse solicita orientación sobre la suplementación que reduce el riesgo de defectos del tubo neural.",
+    "pregunta": "¿Qué vitamina se recomienda de manera rutinaria, idealmente desde antes de la concepción?",
+    "opciones": [
+      "Vitamina A en forma de retinol a dosis altas",
+      "Vitamina E en dosis farmacológicas",
+      "Vitamina C en dosis altas",
+      "Ácido fólico",
+      "Vitamina K en todas las pacientes durante toda la gestación"
+    ],
     "respuestaCorrecta": 4,
-    "explicacion": "El PDF destaca el ácido fólico como medida preventiva de defectos del tubo neural. La dosis habitual y la dosis alta para situaciones de riesgo son distintas y deben elegirse de acuerdo con los antecedentes de la paciente y la recomendación aplicable.",
+    "explicacion": "El ácido fólico reduce el riesgo de defectos del tubo neural cuando se inicia antes de la concepción y se mantiene durante el periodo periconcepcional recomendado. La dosis depende de si se trata de prevención habitual o de una paciente con factores de alto riesgo.",
     "perlaENARM": "Ácido fólico antes de la concepción: intervención preventiva esencial contra defectos del tubo neural.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 4.",
+      "PDF proporcionado: 2. Control Prenatal, p. 4.",
       "USPSTF. Folic Acid Supplementation to Prevent Neural Tube Defects."
     ]
   },
   {
     "id": "OBS-113",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Baja",
-    "pregunta": "¿Cuál es el estudio de laboratorio que identifica el grupo sanguíneo y el factor Rh durante la evaluación prenatal inicial?",
-    "opciones": {
-      "1": "Determinación de grupo ABO y Rh",
-      "2": "Prueba de tolerancia oral a la glucosa",
-      "3": "Perfil biofísico fetal",
-      "4": "Cultivo cervicovaginal en todas las pacientes",
-      "5": "Electrocardiograma fetal"
-    },
+    "subtema": "Grupo sanguíneo y factor Rh",
+    "dificultad": "baja",
+    "objetivoAprendizaje": "Reconocer el estudio inicial que permite identificar el grupo ABO y el factor Rh maternos.",
+    "caso": "Una paciente de 8 semanas acude a su primera consulta prenatal y no conoce su grupo sanguíneo ni su factor Rh.",
+    "pregunta": "¿Qué estudio debe solicitarse para identificar estos datos?",
+    "opciones": [
+      "Determinación de grupo ABO y Rh",
+      "Prueba de tolerancia oral a la glucosa",
+      "Perfil biofísico fetal",
+      "Cultivo cervicovaginal en todas las pacientes",
+      "Electrocardiograma fetal"
+    ],
     "respuestaCorrecta": 1,
-    "explicacion": "El grupo ABO y el factor Rh se determinan durante la evaluación inicial. Si la paciente es RhD negativa, debe evaluarse el riesgo de aloinmunización y seguir el protocolo correspondiente.",
+    "explicacion": "La determinación del grupo ABO y del factor Rh forma parte de la evaluación prenatal inicial. Si la paciente es RhD negativa, debe evaluarse la presencia de anticuerpos eritrocitarios y planificar la prevención y vigilancia conforme al protocolo aplicable.",
     "perlaENARM": "Grupo y Rh en la primera consulta: permite planificar la prevención y vigilancia de la aloinmunización.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 2 y 7.",
+      "PDF proporcionado: 2. Control Prenatal, pp. 2 y 7.",
       "NOM-007-SSA2-2016."
     ]
   },
   {
     "id": "OBS-114",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Baja",
-    "pregunta": "¿En qué intervalo se recomienda habitualmente el tamizaje de diabetes gestacional en una paciente sin diabetes conocida antes del embarazo?",
-    "opciones": {
-      "1": "Semanas 4 a 6 exclusivamente",
-      "2": "Entre las semanas 24 y 28",
-      "3": "Después de las 42 semanas",
-      "4": "Únicamente durante el puerperio",
-      "5": "En el momento del parto como único estudio"
-    },
+    "subtema": "Tamizaje de diabetes gestacional",
+    "dificultad": "baja",
+    "objetivoAprendizaje": "Recordar el intervalo habitual de tamizaje de diabetes gestacional.",
+    "caso": "Una paciente sin diabetes conocida antes del embarazo acude a consulta a las 20 semanas y pregunta cuándo se realiza habitualmente el tamizaje de diabetes gestacional.",
+    "pregunta": "¿En qué intervalo se recomienda habitualmente el tamizaje?",
+    "opciones": [
+      "Semanas 4 a 6 exclusivamente",
+      "Entre las semanas 24 y 28",
+      "Después de las 42 semanas",
+      "Únicamente durante el puerperio",
+      "En el momento del parto como único estudio"
+    ],
     "respuestaCorrecta": 2,
-    "explicacion": "El PDF sitúa la curva de tolerancia a la glucosa entre las semanas 24 y 28 en pacientes de riesgo moderado y en pacientes de alto riesgo con evaluación inicial normal. La detección temprana de diabetes preexistente puede realizarse desde la primera consulta.",
+    "explicacion": "El tamizaje habitual de diabetes gestacional se realiza entre las semanas 24 y 28 en pacientes sin diabetes conocida. Cuando existen factores de riesgo, puede ser necesario investigar diabetes preexistente desde la primera consulta prenatal.",
     "perlaENARM": "Tamizaje habitual de diabetes gestacional: 24–28 semanas; valorar diabetes preexistente desde el inicio cuando corresponda.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 10.",
+      "PDF proporcionado: 2. Control Prenatal, p. 10.",
       "American Diabetes Association. Standards of Care in Diabetes."
     ]
   },
   {
     "id": "OBS-115",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Baja",
-    "pregunta": "¿Cuál de las siguientes vacunas está contraindicada durante el embarazo por ser una vacuna viva atenuada?",
-    "opciones": {
-      "1": "Vacuna inactivada contra influenza",
-      "2": "Vacuna contra hepatitis B cuando está indicada",
-      "3": "Vacuna triple viral contra sarampión, rubéola y parotiditis",
-      "4": "Vacuna Tdpa",
-      "5": "Vacuna antitetánica inactivada"
-    },
+    "subtema": "Vacunas vivas atenuadas",
+    "dificultad": "baja",
+    "objetivoAprendizaje": "Identificar una vacuna viva atenuada que debe evitarse durante el embarazo.",
+    "caso": "Una embarazada revisa su cartilla de vacunación y pregunta cuál de las vacunas habituales debe evitarse durante la gestación por tratarse de una vacuna viva atenuada.",
+    "pregunta": "¿Cuál de las siguientes vacunas está contraindicada durante el embarazo?",
+    "opciones": [
+      "Vacuna inactivada contra influenza",
+      "Vacuna contra hepatitis B cuando está indicada",
+      "Vacuna triple viral contra sarampión, rubéola y parotiditis",
+      "Vacuna Tdpa",
+      "Vacuna antitetánica inactivada"
+    ],
     "respuestaCorrecta": 3,
-    "explicacion": "La vacuna triple viral es una vacuna viva atenuada y se evita durante el embarazo. Las vacunas inactivadas indicadas no deben excluirse de manera automática por la gestación.",
+    "explicacion": "La vacuna triple viral es una vacuna viva atenuada y se evita durante el embarazo. También se evitan otras vacunas vivas, como la de varicela. Las vacunas inactivadas indicadas no deben excluirse automáticamente por la gestación.",
     "perlaENARM": "Evitar vacunas vivas atenuadas como triple viral y varicela durante el embarazo; planificar su aplicación fuera de la gestación cuando corresponda.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 6.",
+      "PDF proporcionado: 2. Control Prenatal, p. 6.",
       "CDC. Guidelines for Vaccinating Pregnant Women."
     ]
   },
   {
     "id": "OBS-116",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Baja",
-    "pregunta": "Una paciente de 18 semanas pregunta qué signo ecográfico temprano se utiliza para estimar la edad gestacional con mayor precisión en el primer trimestre. ¿Cuál es la respuesta correcta?",
-    "opciones": {
-      "1": "Altura uterina",
-      "2": "Índice de líquido amniótico",
-      "3": "Longitud del pie fetal",
-      "4": "Circunferencia abdominal aislada",
-      "5": "Longitud cráneo-caudal"
-    },
+    "subtema": "Longitud cráneo-caudal",
+    "dificultad": "baja",
+    "objetivoAprendizaje": "Identificar el parámetro ecográfico utilizado para la datación temprana del embarazo.",
+    "caso": "Una paciente con fecha de última menstruación incierta se realiza un ultrasonido durante el primer trimestre para establecer la edad gestacional.",
+    "pregunta": "¿Qué medición ecográfica ofrece la mayor precisión para la datación temprana?",
+    "opciones": [
+      "Altura uterina",
+      "Índice de líquido amniótico",
+      "Longitud del pie fetal",
+      "Circunferencia abdominal aislada",
+      "Longitud cráneo-caudal"
+    ],
     "respuestaCorrecta": 5,
-    "explicacion": "La longitud cráneo-caudal es la medición ecográfica de elección para la datación temprana del embarazo. Su precisión disminuye conforme avanza la gestación y se utilizan otras variables biométricas.",
+    "explicacion": "La longitud cráneo-caudal es la medición ecográfica de elección para la datación temprana del embarazo. Conforme avanza la gestación, se utilizan otras variables biométricas y aumenta la variabilidad para estimar la edad gestacional.",
     "perlaENARM": "Primer trimestre: longitud cráneo-caudal para datación; el ultrasonido tardío es menos preciso para establecer edad gestacional.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 14.",
+      "PDF proporcionado: 2. Control Prenatal, p. 14.",
       "ACOG. Methods for Estimating the Due Date."
     ]
   },
   {
     "id": "OBS-117",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Baja",
-    "pregunta": "¿Qué estudio microbiológico se utiliza para detectar bacteriuria asintomática en el embarazo?",
-    "opciones": {
-      "1": "Urocultivo",
-      "2": "Prueba de antiglobulina indirecta",
-      "3": "Citología cervical",
-      "4": "Prueba rápida de VIH",
-      "5": "Ultrasonido de arterias uterinas"
-    },
+    "subtema": "Diagnóstico de bacteriuria asintomática",
+    "dificultad": "baja",
+    "objetivoAprendizaje": "Reconocer el estudio de elección para detectar bacteriuria asintomática.",
+    "caso": "Una embarazada asintomática acude a su consulta prenatal y se solicita investigar bacteriuria asintomática.",
+    "pregunta": "¿Qué estudio microbiológico se utiliza para detectar esta condición?",
+    "opciones": [
+      "Urocultivo",
+      "Prueba de antiglobulina indirecta",
+      "Citología cervical",
+      "Prueba rápida de VIH",
+      "Ultrasonido de arterias uterinas"
+    ],
     "respuestaCorrecta": 1,
-    "explicacion": "El urocultivo permite identificar bacteriuria asintomática y seleccionar el tratamiento adecuado. El examen general de orina puede aportar información complementaria, pero no reemplaza al cultivo para establecer el diagnóstico microbiológico.",
+    "explicacion": "El urocultivo permite identificar bacteriuria asintomática y orientar el tratamiento. El examen general de orina puede aportar información complementaria, pero no sustituye al cultivo para establecer el diagnóstico microbiológico.",
     "perlaENARM": "Bacteriuria asintomática: urocultivo, incluso cuando no existen síntomas urinarios.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 2 y 12.",
+      "PDF proporcionado: 2. Control Prenatal, pp. 2 y 12.",
       "ACOG. Urinary Tract Infections in Pregnant Individuals."
     ]
   },
   {
     "id": "OBS-118",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Baja",
-    "pregunta": "¿Cuál de los siguientes síntomas es un signo de alarma que requiere evaluación inmediata durante el embarazo?",
-    "opciones": {
-      "1": "Aumento mamario gradual sin dolor",
-      "2": "Somnolencia leve después de comer",
-      "3": "Pigmentación cutánea sin otros síntomas",
-      "4": "Convulsiones",
-      "5": "Aumento progresivo del tamaño abdominal"
-    },
+    "subtema": "Signos de alarma obstétrica",
+    "dificultad": "baja",
+    "objetivoAprendizaje": "Identificar un signo de alarma que requiere atención inmediata durante el embarazo.",
+    "caso": "Durante una consulta de control prenatal se pregunta a una paciente qué manifestaciones deben motivar atención médica inmediata.",
+    "pregunta": "¿Cuál de los siguientes síntomas constituye un signo de alarma?",
+    "opciones": [
+      "Aumento mamario gradual sin dolor",
+      "Somnolencia leve después de comer",
+      "Pigmentación cutánea sin otros síntomas",
+      "Convulsiones",
+      "Aumento progresivo del tamaño abdominal"
+    ],
     "respuestaCorrecta": 4,
-    "explicacion": "El PDF incluye las convulsiones entre los signos de alarma que requieren atención inmediata. En una embarazada deben considerarse causas potencialmente graves, incluida la eclampsia, sin retrasar la estabilización y evaluación urgente.",
+    "explicacion": "Las convulsiones durante el embarazo constituyen una emergencia obstétrica. Deben considerarse causas graves, incluida la eclampsia según el contexto, y priorizar la estabilización materna y la evaluación urgente.",
     "perlaENARM": "Convulsiones durante el embarazo: emergencia obstétrica; considerar eclampsia según el contexto clínico.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 1.",
+      "PDF proporcionado: 2. Control Prenatal, p. 1.",
       "ACOG. Gestational Hypertension and Preeclampsia."
     ]
   },
   {
     "id": "OBS-119",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Baja",
-    "pregunta": "¿Cuál es el objetivo de la evaluación de factores de riesgo durante la primera consulta prenatal?",
-    "opciones": {
-      "1": "Decidir automáticamente una cesárea para toda paciente",
-      "2": "Identificar condiciones que requieran vigilancia adicional, intervenciones preventivas o referencia",
-      "3": "Eliminar la necesidad de consultas posteriores",
-      "4": "Sustituir la historia clínica por un ultrasonido",
-      "5": "Indicar reposo absoluto en todas las embarazadas"
-    },
+    "subtema": "Estratificación de riesgo obstétrico",
+    "dificultad": "baja",
+    "objetivoAprendizaje": "Explicar cómo la identificación temprana de factores de riesgo modifica el seguimiento prenatal.",
+    "caso": "Una paciente acude a su primera consulta prenatal y se revisan sus antecedentes médicos, obstétricos y familiares.",
+    "pregunta": "¿Cuál es el objetivo de evaluar los factores de riesgo durante esta consulta?",
+    "opciones": [
+      "Decidir automáticamente una cesárea para toda paciente",
+      "Identificar condiciones que requieran vigilancia adicional, intervenciones preventivas o referencia",
+      "Eliminar la necesidad de consultas posteriores",
+      "Sustituir la historia clínica por un ultrasonido",
+      "Indicar reposo absoluto en todas las embarazadas"
+    ],
     "respuestaCorrecta": 2,
-    "explicacion": "La evaluación inicial identifica comorbilidades, antecedentes obstétricos y factores que pueden modificar el seguimiento. El PDF incluye criterios de referencia según trimestre y nivel de atención.",
+    "explicacion": "La evaluación inicial permite identificar comorbilidades, antecedentes obstétricos y factores que pueden modificar la vigilancia o el nivel de atención. La estratificación de riesgo orienta las intervenciones preventivas y la referencia cuando se necesita atención especializada.",
     "perlaENARM": "La estratificación de riesgo determina la intensidad de vigilancia y la necesidad de referencia; no todas las gestaciones requieren el mismo plan.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, páginas 1, 2 y 15.",
+      "PDF proporcionado: 2. Control Prenatal, pp. 1, 2 y 15.",
       "NOM-007-SSA2-2016."
     ]
   },
   {
     "id": "OBS-120",
+    "especialidad": "Obstetricia",
     "tema": "Control prenatal",
-    "dificultad": "Baja",
-    "pregunta": "Según la clasificación de edad gestacional incluida en el material, ¿qué intervalo corresponde al término temprano?",
-    "opciones": {
-      "1": "34.0 a 36.6 semanas",
-      "2": "42 semanas o más",
-      "3": "39.0 a 40.6 semanas",
-      "4": "41.0 a 41.6 semanas",
-      "5": "37.0 a 38.6 semanas"
-    },
+    "subtema": "Clasificación de la edad gestacional al término",
+    "dificultad": "baja",
+    "objetivoAprendizaje": "Diferenciar término temprano, término completo, término tardío y postérmino.",
+    "caso": "Durante una revisión de la clasificación obstétrica, un residente debe identificar el intervalo correspondiente al término temprano.",
+    "pregunta": "Según la clasificación incluida en el material, ¿qué intervalo corresponde al término temprano?",
+    "opciones": [
+      "34.0 a 36.6 semanas",
+      "42 semanas o más",
+      "39.0 a 40.6 semanas",
+      "41.0 a 41.6 semanas",
+      "37.0 a 38.6 semanas"
+    ],
     "respuestaCorrecta": 5,
-    "explicacion": "El PDF clasifica el término temprano entre 37.0 y 38.6 semanas; el término completo entre 39.0 y 40.6; el término tardío entre 41.0 y 41.6; y el postérmino desde las 42 semanas. Esta clasificación ayuda a interpretar decisiones sobre el momento del nacimiento.",
+    "explicacion": "El material clasifica el término temprano entre 37+0 y 38+6 semanas; el término completo entre 39+0 y 40+6; el término tardío entre 41+0 y 41+6; y el postérmino desde 42+0 semanas. Esta clasificación ayuda a interpretar decisiones sobre el momento del nacimiento.",
     "perlaENARM": "Término temprano: 37+0 a 38+6; término completo: 39+0 a 40+6; término tardío: 41+0 a 41+6; postérmino: desde 42+0.",
     "bibliografia": [
-      "PDF proporcionado: 2. Control Prenatal, página 18.",
+      "PDF proporcionado: 2. Control Prenatal, p. 18.",
       "ACOG. Definition of Term Pregnancy."
     ]
   }
-    
-];
+  
+ ];
