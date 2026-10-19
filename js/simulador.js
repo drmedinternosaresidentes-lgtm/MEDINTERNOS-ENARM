@@ -161,10 +161,12 @@ this.orden = orden;
     this.startedAt = new Date().toISOString();
 
     let pool = especialidad === "General"
-        ? [...BANCO_PREGUNTAS]
-        : BANCO_PREGUNTAS.filter(
-            q => q.especialidad === especialidad
-        );
+  ? [...BANCO_PREGUNTAS]
+  : BANCO_PREGUNTAS.filter(q =>
+      especialidad === "Cirugía"
+        ? ["Cirugía", "Cirugía General"].includes(q.especialidad)
+        : q.especialidad === especialidad
+    );
 
     if (!pool.length) {
 
