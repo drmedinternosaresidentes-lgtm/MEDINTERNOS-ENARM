@@ -181,11 +181,26 @@ this.orden = orden;
 
 
     const seleccionadas = pool.slice(0, cantidad);
-    const distribucion = this.distribuirRespuestas(
-      seleccionadas.length
-    );
 
-    this.preguntas = seleccionadas.map((pregunta, indicePregunta) => {
+const seleccionadasNormalizadas = seleccionadas.map((pregunta) => {
+  if (
+    especialidad === "Obstetricia" ||
+    pregunta.especialidad === "Obstetricia"
+  ) {
+    return {
+      ...pregunta,
+      respuestaCorrecta: pregunta.respuestaCorrecta - 1
+    };
+  }
+
+  return pregunta;
+});
+
+const distribucion = this.distribuirRespuestas(
+  seleccionadasNormalizadas.length
+);
+
+this.preguntas = seleccionadasNormalizadas.map((pregunta, indicePregunta) => {
       if (
         !Array.isArray(pregunta.opciones) ||
         pregunta.opciones.length !== 5 ||
