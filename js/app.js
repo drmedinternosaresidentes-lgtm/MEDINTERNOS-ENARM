@@ -106,9 +106,12 @@ function renderInicio() {
 }
 
 function specialtyCard(name, icon, desc) {
-  const count = BANCO_PREGUNTAS.filter(
-    q => q.especialidad === name
-  ).length;
+ const count = BANCO_PREGUNTAS.filter(
+  q => name === "Cirugía"
+    ? q.especialidad === "Cirugía General" ||
+      q.especialidad === "Cirugía"
+    : q.especialidad === name
+).length;
 
   const disponible = count > 0;
 
