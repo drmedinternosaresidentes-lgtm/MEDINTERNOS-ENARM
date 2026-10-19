@@ -1,4 +1,4 @@
-window.BANCO_ENDOCRINOLOGIA = [
+window.BANCO_CIRUGIA = [
 
   {
     "id": "CIRUGIA - 001",
