@@ -22991,5 +22991,486 @@ window.BANCO_OBSTETRICIA = [
       "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management.",
       "Williams Obstetrics, 26.ª ed."
     ]
+  },
+  {
+    "id": "OBS-941",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Estrecho superior de la pelvis",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar los diámetros del estrecho superior con el mecanismo de entrada de la presentación cefálica.",
+    "caso": "Primigesta de 25 años en valoración obstétrica a término. En una sesión de anatomía clínica se revisa que la cabeza fetal debe atravesar el estrecho superior para iniciar el encajamiento. Se describe una pelvis con promontorio sacro prominente y se solicita identificar el diámetro obstétrico relevante para el paso de la cabeza.",
+    "pregunta": "¿Qué diámetro del estrecho superior se extiende desde el promontorio sacro hasta el punto más posterior de la cara interna de la sínfisis del pubis?",
+    "opciones": [
+      "Diámetro transverso interespinoso",
+      "Diámetro longitudinal subsacropúbico",
+      "Diámetro conjugado obstétrico",
+      "Diámetro biisquiático",
+      "Diámetro oblicuo del estrecho inferior"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El conjugado obstétrico es el diámetro anteroposterior funcionalmente importante del estrecho superior, descrito en el material como de aproximadamente 11.5 cm. Su relación con el promontorio y la cara posterior del pubis permite comprender por qué una prominencia sacra o una reducción de este espacio puede dificultar el paso de la presentación cefálica. No debe confundirse con el conjugado diagonal, que se estima mediante exploración vaginal.",
+    "perlaENARM": "Estrecho superior: conjugado obstétrico de aproximadamente 11.5 cm en el material proporcionado; es fundamental para el paso de la cabeza fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, página 1.",
+      "Williams Obstetrics, 26.ª ed., capítulos de anatomía pélvica y mecanismo del parto."
+    ]
+  },
+  {
+    "id": "OBS-942",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Estrecho inferior de la pelvis",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar las características anatómicas del estrecho inferior y explicar la contribución de la movilidad coccígea durante el parto.",
+    "caso": "Durante una sesión de simulación obstétrica se analiza el descenso de una presentación cefálica. Se identifica que el estrecho inferior tiene forma romboidal, está limitado lateralmente por las tuberosidades isquiáticas y que el cóccix puede desplazarse posteriormente durante el expulsivo.",
+    "pregunta": "¿Qué característica anatómica explica el aumento potencial del diámetro anteroposterior del estrecho inferior durante el parto?",
+    "opciones": [
+      "La movilidad posterior del cóccix",
+      "El desplazamiento del promontorio sacro hacia delante",
+      "La separación permanente de las espinas ciáticas",
+      "La ampliación del conjugado obstétrico por relajación de la sínfisis",
+      "La desaparición de las tuberosidades isquiáticas"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El estrecho inferior es el plano pélvico con mayor capacidad de modificación funcional descrita en el documento. La retropulsión del cóccix puede incrementar el diámetro anteroposterior subsacropúbico durante el expulsivo. Esto no significa que todos los diámetros pélvicos se amplíen de manera equivalente ni que la movilidad coccígea garantice un parto vaginal.",
+    "perlaENARM": "El cóccix puede desplazarse hacia atrás y aumentar el espacio anteroposterior del estrecho inferior.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, página 1.",
+      "Williams Obstetrics, 26.ª ed., anatomía de la pelvis y parto vaginal."
+    ]
+  },
+  {
+    "id": "OBS-943",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Tipos de pelvis",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar los tipos morfológicos de pelvis mediante sus características anatómicas y sus implicaciones potenciales para el parto.",
+    "caso": "En una discusión académica se presenta una pelvis con estrecho superior redondeado, paredes laterales relativamente rectas, sacro con curvatura conservada, espinas ciáticas poco prominentes y ángulo subpúbico amplio. Se pregunta qué patrón morfológico describe mejor esta configuración.",
+    "pregunta": "¿Qué tipo de pelvis corresponde a la descripción?",
+    "opciones": [
+      "Androide",
+      "Platipeloide",
+      "Antropoide",
+      "Ginecoide",
+      "Pelvis con estrecho superior exclusivamente longitudinal"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La pelvis ginecoide se caracteriza clásicamente por una entrada más redondeada, paredes laterales relativamente rectas, espinas ciáticas poco prominentes y ángulo subpúbico amplio. Se considera una configuración favorable para el parto vaginal, pero la morfología pélvica aislada no predice con certeza el resultado obstétrico. La evolución del trabajo de parto, la posición fetal y la relación entre el tamaño fetal y la pelvis también son determinantes.",
+    "perlaENARM": "Ginecoide: configuración clásicamente favorable para el parto vaginal; la morfología aislada no diagnostica desproporción cefalopélvica.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, página 2.",
+      "Williams Obstetrics, 26.ª ed., mecanismo del parto y anatomía pélvica."
+    ]
+  },
+  {
+    "id": "OBS-944",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Pelvis androide y rotación interna",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la morfología androide con las dificultades potenciales del encajamiento y la rotación de la presentación cefálica.",
+    "caso": "Gestante de 39 semanas se encuentra en trabajo de parto. En una revisión anatómica previa se describió una pelvis con estrecho superior en forma de corazón, paredes laterales convergentes, espinas ciáticas prominentes y ángulo subpúbico reducido. Durante el parto se observa una presentación cefálica que permanece en variedad occipitoposterior.",
+    "pregunta": "¿Qué configuración pélvica se asocia clásicamente con mayor dificultad para el encajamiento y la rotación interna en esta situación?",
+    "opciones": [
+      "Pelvis ginecoide",
+      "Pelvis androide",
+      "Pelvis exclusivamente mixta con diámetros normales",
+      "Pelvis ginecoide con ángulo subpúbico amplio",
+      "Pelvis sin relevancia mecánica para el descenso fetal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La pelvis androide presenta una entrada en forma de corazón, espinas ciáticas prominentes y paredes laterales convergentes. Esta configuración puede dificultar el encajamiento y la rotación interna, especialmente cuando la cabeza persiste en una variedad occipitoposterior. Sin embargo, el diagnóstico de distocia no debe basarse exclusivamente en la forma pélvica; requiere valorar la evolución del parto y el descenso fetal.",
+    "perlaENARM": "Androide: entrada en forma de corazón, espinas ciáticas prominentes y potencial dificultad para la rotación interna.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, página 2.",
+      "Williams Obstetrics, 26.ª ed., distocia y mecanismo del parto."
+    ]
+  },
+  {
+    "id": "OBS-945",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Pelvis platipeloide",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la configuración platipeloide y vincularla con los mecanismos de entrada, rotación y expulsión fetal.",
+    "caso": "En una evaluación de anatomía obstétrica se describe una pelvis con estrecho superior aplanado, diámetro transverso relativamente amplio y diámetro anteroposterior reducido. Se discute cómo esta forma puede modificar la entrada y la rotación de la presentación cefálica.",
+    "pregunta": "¿Qué tipo de pelvis se describe y qué dificultad se asocia clásicamente con ella?",
+    "opciones": [
+      "Ginecoide; dificultad exclusiva por espinas ciáticas prominentes",
+      "Androide; entrada circular y rotación siempre normal",
+      "Antropoide; diámetro transverso mayor que el anteroposterior en todos los casos",
+      "Ginecoide; estrecho superior con forma de corazón",
+      "Platipeloide; puede dificultar el encajamiento y la rotación interna"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La pelvis platipeloide presenta una entrada aplanada, con predominio relativo del diámetro transverso y reducción del anteroposterior. El material señala que puede dificultar la rotación interna y el periodo expulsivo. La repercusión real depende de la adaptación de la cabeza fetal, la posición, la dinámica uterina y la evolución del trabajo de parto.",
+    "perlaENARM": "Platipeloide: estrecho superior aplanado y diámetro anteroposterior relativamente reducido.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, página 2.",
+      "Williams Obstetrics, 26.ª ed., anatomía pélvica y mecanismo del parto."
+    ]
+  },
+  {
+    "id": "OBS-946",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Primer plano de Hodge",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Localizar anatómicamente el primer plano de Hodge y relacionarlo con la ausencia de encajamiento.",
+    "caso": "Primigesta de 38 semanas acude en fase latente. En la exploración, la cabeza fetal permanece alta y móvil por encima del estrecho superior. El equipo docente solicita identificar el plano anatómico que pasa por el promontorio sacro y el borde superior de la sínfisis del pubis.",
+    "pregunta": "¿Qué plano de Hodge corresponde a estos límites y qué indica la posición de la cabeza en él?",
+    "opciones": [
+      "Segundo plano; cabeza profundamente encajada",
+      "Tercer plano; presentación en estación +2",
+      "Primer plano; la cabeza todavía no está encajada",
+      "Cuarto plano; presentación en el estrecho inferior",
+      "Tercer plano; presentación en estación 0"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El primer plano de Hodge se extiende desde el promontorio sacro hasta el borde superior de la sínfisis del pubis y corresponde anatómicamente al estrecho superior. Si la presentación permanece en este plano, no se considera encajada. El encajamiento se relaciona clásicamente con el paso del diámetro biparietal por el estrecho superior, por lo que debe integrarse con la exploración clínica.",
+    "perlaENARM": "Primer plano de Hodge: promontorio a borde superior de la sínfisis; presentación alta, no encajada.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, páginas 3–4.",
+      "Williams Obstetrics, 26.ª ed., encajamiento y descenso fetal."
+    ]
+  },
+  {
+    "id": "OBS-947",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Segundo plano de Hodge",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir el segundo plano de Hodge del primero y del plano interespinoso mediante sus referencias anatómicas.",
+    "caso": "Gestante de 39 semanas en trabajo de parto. La exploración muestra que la presentación ha descendido desde el estrecho superior, pero todavía no alcanza el nivel de las espinas ciáticas. El examinador describe una línea paralela al primer plano, trazada entre la cara anterior de la segunda vértebra sacra y el borde inferior de la sínfisis del pubis.",
+    "pregunta": "¿Qué plano de Hodge corresponde a la descripción anatómica?",
+    "opciones": [
+      "Primer plano",
+      "Segundo plano",
+      "Tercer plano",
+      "Cuarto plano",
+      "Plano del estrecho inferior sin equivalencia con Hodge"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El segundo plano de Hodge es paralelo al primero y se describe en el documento desde la segunda vértebra sacra hasta el borde inferior de la sínfisis del pubis. En el esquema del material se asocia con una presentación fija, aunque las equivalencias con estaciones clínicas deben entenderse como aproximadas. La valoración moderna del descenso se expresa habitualmente mediante estaciones de DeLee respecto a las espinas ciáticas.",
+    "perlaENARM": "Segundo plano de Hodge: línea paralela al primero, desde S2 hacia el borde inferior de la sínfisis del pubis.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, páginas 3–4.",
+      "Williams Obstetrics, 26.ª ed., evaluación del descenso fetal."
+    ]
+  },
+  {
+    "id": "OBS-948",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Tercer plano de Hodge y encajamiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar el plano interespinoso como referencia anatómica del encajamiento y relacionarlo con la estación cero de DeLee.",
+    "caso": "Gestante de 40 semanas en fase activa. Durante la exploración vaginal, el punto óseo de referencia de la presentación cefálica se encuentra a la altura de ambas espinas ciáticas. El equipo debe documentar el nivel del descenso y relacionarlo con los planos de Hodge.",
+    "pregunta": "¿Qué descripción corresponde al hallazgo?",
+    "opciones": [
+      "Primer plano de Hodge; presentación móvil",
+      "Segundo plano de Hodge; estación +4",
+      "Cuarto plano de Hodge; presentación por encima del estrecho superior",
+      "Tercer plano de Hodge; referencia clásica de encajamiento y estación 0 de DeLee",
+      "Primer plano de Hodge; estación −5"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El tercer plano de Hodge pasa por el nivel de las espinas ciáticas y se utiliza como referencia clásica para el encajamiento. En las estaciones de DeLee, el nivel de las espinas ciáticas corresponde a estación 0; por encima se utilizan valores negativos y por debajo, positivos. La estación describe el descenso de la presentación, pero no sustituye la evaluación de posición, actitud, moldeamiento y progreso del parto.",
+    "perlaENARM": "Espinas ciáticas = estación 0 de DeLee y referencia anatómica del tercer plano de Hodge.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, páginas 3–5.",
+      "Williams Obstetrics, 26.ª ed., evaluación clínica del trabajo de parto."
+    ]
+  },
+  {
+    "id": "OBS-949",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Cuarto plano de Hodge y expulsivo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar el cuarto plano de Hodge con el descenso avanzado de la presentación fetal.",
+    "caso": "Multípara de 29 años con dilatación completa y deseo de pujar. En la exploración, la presentación cefálica se encuentra profundamente descendida, próxima al estrecho inferior y al nacimiento. Se solicita identificar el plano de Hodge asociado con este nivel anatómico.",
+    "pregunta": "¿Cuál es el plano que corresponde al descenso descrito en el material de estudio?",
+    "opciones": [
+      "Cuarto plano de Hodge",
+      "Primer plano de Hodge",
+      "Segundo plano de Hodge",
+      "Tercer plano de Hodge",
+      "Plano del estrecho superior"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El cuarto plano de Hodge se describe como una línea paralela a las anteriores que pasa por la región del vértice del sacro, próxima al estrecho inferior. En el documento representa una presentación profundamente encajada y cercana al nacimiento. En la práctica, la decisión sobre el expulsivo o una intervención instrumental requiere comprobar la posición, la estación, la dilatación completa y las condiciones de seguridad.",
+    "perlaENARM": "Cuarto plano de Hodge: descenso profundo, próximo al estrecho inferior; correlacionar siempre con la estación clínica.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, páginas 3–5.",
+      "Williams Obstetrics, 26.ª ed., segundo periodo del trabajo de parto."
+    ]
+  },
+  {
+    "id": "OBS-950",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Estaciones de DeLee",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Aplicar la convención de estaciones de DeLee para expresar el descenso de la presentación cefálica.",
+    "caso": "Durante la valoración de una gestante en trabajo de parto, el examinador identifica que el punto óseo de referencia de la cabeza fetal está 2 cm por encima de las espinas ciáticas. Se necesita documentar el descenso de forma estandarizada.",
+    "pregunta": "¿Qué estación de DeLee corresponde al hallazgo?",
+    "opciones": [
+      "Estación +2",
+      "Estación 0",
+      "Estación −2",
+      "Estación +4",
+      "Estación −5"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "En la escala de DeLee, las espinas ciáticas corresponden a estación 0. Las estaciones por encima de ellas se expresan con valores negativos y las que se encuentran por debajo con valores positivos. Por tanto, una presentación situada 2 cm por encima de las espinas corresponde a estación −2. La estación debe documentarse junto con la posición y la variedad de presentación cuando sea posible.",
+    "perlaENARM": "DeLee: por encima de las espinas ciáticas = estaciones negativas; a su nivel = 0; por debajo = positivas.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, páginas 4–5.",
+      "Williams Obstetrics, 26.ª ed., evaluación del progreso del parto."
+    ]
+  },
+  {
+    "id": "OBS-951",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Primera maniobra de Leopold",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la finalidad de la primera maniobra de Leopold mediante las características palpatorias de los polos fetales.",
+    "caso": "Gestante de 35 semanas acude a consulta prenatal. El examinador palpa el fondo uterino con ambas manos y encuentra una estructura blanda, amplia e irregular, que no presenta la consistencia firme y la forma redondeada de la cabeza fetal.",
+    "pregunta": "¿Qué estructura es más probable que ocupe el fondo uterino y qué dato de estática fetal aporta esta maniobra?",
+    "opciones": [
+      "Dorso fetal; determina exclusivamente la posición",
+      "Cabeza fetal; confirma por sí sola el encajamiento",
+      "Espalda fetal; establece la actitud de la cabeza",
+      "Polo pélvico; orienta a presentación cefálica",
+      "Polo pélvico; ayuda a identificar la presentación fetal como cefálica o pélvica"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La primera maniobra de Leopold explora el fondo uterino para identificar qué polo fetal lo ocupa. Las nalgas suelen palparse como una masa más blanda, amplia e irregular, mientras que la cabeza es más redonda, firme y regular. Si el polo pélvico está en el fondo, la presentación que se encuentra hacia el canal del parto suele ser cefálica, aunque la conclusión debe integrarse con las demás maniobras y, cuando sea necesario, con ultrasonido.",
+    "perlaENARM": "Primera maniobra: identifica el polo fetal que ocupa el fondo uterino y contribuye a establecer la presentación.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, páginas 6–7.",
+      "Williams Obstetrics, 26.ª ed., exploración obstétrica."
+    ]
+  },
+  {
+    "id": "OBS-952",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Segunda maniobra de Leopold",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Determinar la posición del dorso fetal mediante la segunda maniobra de Leopold.",
+    "caso": "En una consulta a las 36 semanas, el examinador coloca ambas manos en los lados del abdomen materno y palpa una superficie lisa, firme y continua en el lado izquierdo. En el lado derecho identifica pequeñas prominencias móviles compatibles con las extremidades fetales.",
+    "pregunta": "¿Qué información proporciona principalmente la segunda maniobra de Leopold?",
+    "opciones": [
+      "El grado de dilatación cervical",
+      "La posición del dorso fetal y su orientación hacia uno de los lados maternos",
+      "La estación exacta de DeLee",
+      "El grado de borramiento cervical",
+      "La variedad de posición occipital con certeza absoluta"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La segunda maniobra de Leopold permite localizar el dorso fetal y diferenciarlo de las extremidades. Una superficie lisa, firme y continua suele corresponder al dorso, mientras que las partes pequeñas e irregulares corresponden a brazos y piernas. Este hallazgo contribuye a determinar la posición fetal, pero no establece por sí solo la estación ni la variedad occipital exacta.",
+    "perlaENARM": "Segunda maniobra: localiza el dorso fetal y orienta sobre la posición.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, páginas 6–7.",
+      "Williams Obstetrics, 26.ª ed., exploración obstétrica."
+    ]
+  },
+  {
+    "id": "OBS-953",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Tercera maniobra de Leopold",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar la tercera maniobra de Leopold de la primera y utilizarla para valorar el polo inferior y su movilidad.",
+    "caso": "Gestante de 37 semanas. El examinador coloca una mano inmediatamente por encima de la sínfisis del pubis y sujeta suavemente el polo fetal inferior entre los dedos y el pulgar. Identifica una estructura firme, redondeada y móvil, que puede desplazarse ligeramente sobre la entrada pélvica.",
+    "pregunta": "¿Qué aporta principalmente esta maniobra a la exploración obstétrica?",
+    "opciones": [
+      "Confirma el tipo de pelvis ósea por palpación abdominal",
+      "Determina el grado de borramiento del cuello uterino",
+      "Establece la frecuencia cardiaca fetal basal",
+      "Identifica el polo fetal inferior, confirma la presentación y orienta sobre su encajamiento o movilidad",
+      "Determina con exactitud la variedad de posición occipital"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La tercera maniobra de Leopold, también llamada maniobra de Pawlik en algunas descripciones, explora el polo fetal situado sobre la entrada pélvica. La forma y movilidad del polo ayudan a confirmar la presentación y a valorar si permanece móvil o está más fijo. No sustituye la exploración vaginal para determinar la estación de DeLee ni permite definir con precisión todos los aspectos de la posición fetal.",
+    "perlaENARM": "Tercera maniobra: polo inferior, presentación y movilidad; la estación precisa se evalúa clínicamente con otras referencias.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, páginas 6–7.",
+      "Williams Obstetrics, 26.ª ed., exploración obstétrica."
+    ]
+  },
+  {
+    "id": "OBS-954",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Cuarta maniobra de Leopold",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Utilizar la cuarta maniobra de Leopold para evaluar la actitud de la cabeza fetal y el grado de descenso.",
+    "caso": "Gestante de 38 semanas con presentación cefálica. El examinador se coloca mirando hacia los pies de la paciente y palpa el polo inferior uterino con ambas manos. Encuentra que la prominencia cefálica se identifica en el lado opuesto al dorso fetal y que la cabeza parece flexionada.",
+    "pregunta": "¿Qué aspecto de la estática fetal evalúa principalmente esta maniobra?",
+    "opciones": [
+      "La relación entre el eje longitudinal fetal y el materno",
+      "El polo que ocupa el fondo uterino exclusivamente",
+      "La actitud de la cabeza fetal y el grado de encajamiento o descenso",
+      "La frecuencia de las contracciones uterinas",
+      "La posición exacta de la placenta"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La cuarta maniobra de Leopold se realiza con el examinador orientado hacia los pies maternos. Permite valorar el descenso de la presentación y la actitud cefálica, especialmente el grado de flexión o extensión. La prominencia cefálica y su relación con el dorso aportan información sobre la actitud, pero la evaluación debe integrarse con la exploración vaginal y la evolución del parto.",
+    "perlaENARM": "Cuarta maniobra: examinador hacia los pies; evalúa actitud cefálica y descenso de la presentación.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, páginas 6–7.",
+      "Williams Obstetrics, 26.ª ed., exploración obstétrica."
+    ]
+  },
+  {
+    "id": "OBS-955",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Situación fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir situación longitudinal, transversa y oblicua a partir de la relación entre los ejes fetales y maternos.",
+    "caso": "Gestante de 34 semanas con ultrasonido que muestra el eje longitudinal del feto formando un ángulo aproximado de 45 grados respecto al eje longitudinal materno. En una segunda exploración, la posición fetal cambia espontáneamente.",
+    "pregunta": "¿Cómo se denomina esta relación espacial y qué característica suele tener al final del embarazo?",
+    "opciones": [
+      "Situación longitudinal; los ejes coinciden exactamente",
+      "Situación transversa; el eje fetal es perpendicular al materno",
+      "Presentación cefálica; el polo inferior es necesariamente la cabeza",
+      "Actitud fetal; describe la flexión de las extremidades",
+      "Situación oblicua; puede ser transitoria y evolucionar a longitudinal o transversa"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La situación fetal describe la relación entre el eje longitudinal fetal y el eje materno. En la situación longitudinal ambos ejes son aproximadamente paralelos; en la transversa son perpendiculares, y en la oblicua forman un ángulo intermedio. La situación oblicua suele ser inestable y puede cambiar a longitudinal o transversa. Si persiste una situación transversa al término, debe planificarse el nacimiento considerando sus riesgos y el contexto clínico.",
+    "perlaENARM": "Situación no es presentación: la situación describe los ejes fetomaternos; la presentación identifica el polo más próximo al canal del parto.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, página 8.",
+      "Williams Obstetrics, 26.ª ed., presentación y situación fetal."
+    ]
+  },
+  {
+    "id": "OBS-956",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Situación transversa y presentación",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar una situación transversa con la presentación de hombro y sus implicaciones obstétricas.",
+    "caso": "Gestante de 39 semanas con membranas íntegras. Las maniobras abdominales y el ultrasonido muestran que el eje longitudinal fetal está perpendicular al materno y que el hombro fetal se encuentra próximo a la entrada pélvica. No hay trabajo de parto establecido.",
+    "pregunta": "¿Cómo se denomina la presentación y qué implicación tiene si persiste al término?",
+    "opciones": [
+      "Presentación de hombro asociada con situación transversa; generalmente impide un parto vaginal espontáneo seguro si persiste",
+      "Presentación de vértice en situación longitudinal",
+      "Presentación de cara con mentón anterior",
+      "Presentación pélvica franca que permite asumir un parto vaginal sin evaluación",
+      "Presentación de sincipucio, que siempre se resuelve espontáneamente"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "En una situación transversa, el hombro puede ser la parte fetal más próxima al canal del parto y constituir la presentación. Si persiste al término, el parto vaginal de un feto único viable no suele ser posible de forma segura y generalmente se planifica cesárea, salvo circunstancias excepcionales como un segundo gemelo o situaciones clínicas específicas. La conducta debe definirse con evaluación obstétrica completa.",
+    "perlaENARM": "Situación transversa persistente al término en feto único: presentación de hombro y habitualmente indicación de cesárea.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, páginas 8–9.",
+      "Williams Obstetrics, 26.ª ed., malpresentaciones fetales."
+    ]
+  },
+  {
+    "id": "OBS-957",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Presentación cefálica y actitud fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar el grado de flexión o extensión cefálica con el punto fetal que se presenta al canal del parto.",
+    "caso": "Gestante de 40 semanas en trabajo de parto. El tacto vaginal identifica la cara fetal y el mentón como punto de referencia. El ultrasonido confirma hiperextensión marcada de la cabeza. La dilatación progresa, pero la valoración de la posición del mentón es fundamental para decidir la vía del nacimiento.",
+    "pregunta": "¿Qué presentación se ha identificado y qué elemento determina de manera importante su posibilidad de parto vaginal?",
+    "opciones": [
+      "Presentación de vértice; depende exclusivamente del peso fetal",
+      "Presentación de sincipucio; la posición del occipucio es el punto de referencia principal",
+      "Presentación de frente; el mentón es siempre el punto toconómico",
+      "Presentación de cara; la posición del mentón y su orientación son determinantes para la vía del parto",
+      "Presentación pélvica completa; el sacro define la posición"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La presentación de cara se produce por hiperextensión de la cabeza fetal y se identifica por la cara como parte presentada, con el mentón como punto toconómico. La posibilidad de parto vaginal depende especialmente de la posición del mentón y de la evolución clínica; una posición mentoposterior persistente generalmente impide el parto vaginal porque la cabeza no puede completar los mecanismos necesarios de flexión y descenso. La decisión requiere evaluación obstétrica individualizada.",
+    "perlaENARM": "Cara: hiperextensión cefálica y mentón como punto toconómico; la posición del mentón condiciona la vía del parto.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, páginas 9 y 11.",
+      "Williams Obstetrics, 26.ª ed., malpresentaciones y distocias."
+    ]
+  },
+  {
+    "id": "OBS-958",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Presentación de frente",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar la presentación de frente de la presentación de cara y comprender la repercusión del diámetro cefálico presentado.",
+    "caso": "Gestante de 39 semanas en trabajo de parto. En la exploración se palpan la frente y la raíz nasal, pero no se identifican claramente la boca ni el mentón como estructuras presentadas. El ultrasonido confirma una deflexión parcial de la cabeza fetal, sin flexión completa ni hiperextensión marcada.",
+    "pregunta": "¿Qué presentación debe sospecharse y cuál es su principal dificultad mecánica si persiste?",
+    "opciones": [
+      "Vértice; el diámetro suboccipitobregmático es siempre el presentado",
+      "Frente; presenta un diámetro cefálico grande que puede impedir el parto vaginal si persiste",
+      "Cara; el mentón es la estructura palpada en todos los casos",
+      "Sincipucio; la presentación siempre requiere cesárea inmediata",
+      "Pélvica franca; el sacro es el punto toconómico"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La presentación de frente representa una deflexión parcial entre la presentación de vértice y la de cara. Si persiste, puede presentar un diámetro cefálico grande que dificulta el encajamiento y el paso por la pelvis. Algunas presentaciones de frente son transitorias y pueden convertirse en vértice o cara; la persistencia y la evolución del trabajo de parto determinan la conducta obstétrica.",
+    "perlaENARM": "Frente persistente: presentación con diámetro cefálico desfavorable y alta probabilidad de distocia; diferenciarla de cara y vértice.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, página 9.",
+      "Williams Obstetrics, 26.ª ed., malpresentaciones cefálicas."
+    ]
+  },
+  {
+    "id": "OBS-959",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Punto toconómico y variedad de posición",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar el punto toconómico correcto para describir la posición fetal según la presentación.",
+    "caso": "En una evaluación obstétrica se comparan tres presentaciones: vértice, cara y pélvica. El equipo debe estandarizar la descripción de la variedad de posición y evitar utilizar el mismo punto de referencia anatómico para todas.",
+    "pregunta": "¿Qué correspondencia entre presentación y punto toconómico es correcta?",
+    "opciones": [
+      "Vértice: mentón; cara: sacro; pélvica: occipucio",
+      "Vértice: sacro; cara: occipucio; pélvica: mentón",
+      "Vértice: occipucio; cara: mentón; pélvica: sacro",
+      "Vértice: frente; cara: fontanela posterior; pélvica: mentón",
+      "Vértice: hombro; cara: sacro; pélvica: bregma"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El punto toconómico es la referencia anatómica utilizada para establecer la posición y variedad de posición. En la presentación de vértice se utiliza el occipucio; en la presentación de cara, el mentón; y en la presentación pélvica, el sacro. La descripción estandarizada permite comunicar con precisión la orientación de la presentación y planificar el manejo durante el trabajo de parto.",
+    "perlaENARM": "Puntos toconómicos: occipucio en vértice, mentón en cara y sacro en presentación pélvica.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, páginas 10–11.",
+      "Williams Obstetrics, 26.ª ed., estática y presentación fetal."
+    ]
+  },
+  {
+    "id": "OBS-960",
+    "especialidad": "Obstetricia",
+    "tema": "Elementos de tocología",
+    "subtema": "Integración de estática fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar situación, presentación, actitud y posición fetal para construir una descripción obstétrica coherente.",
+    "caso": "Gestante de 38 semanas. El ultrasonido muestra que el eje longitudinal fetal es paralelo al materno. La cabeza se encuentra hacia la pelvis, está flexionada con el mentón próximo al tórax y el occipucio se orienta hacia el lado izquierdo y la región anterior de la pelvis materna.",
+    "pregunta": "¿Cuál es la descripción integrada de la estática fetal?",
+    "opciones": [
+      "Situación transversa, presentación de hombro y actitud indiferente",
+      "Situación oblicua, presentación pélvica y posición sacroizquierda",
+      "Situación longitudinal, presentación de cara y mentón posterior",
+      "Situación longitudinal, presentación pélvica franca y posición sacroanterior",
+      "Situación longitudinal, presentación cefálica de vértice, actitud flexionada y posición occipitoizquierda anterior"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La situación longitudinal se define por la orientación aproximadamente paralela de los ejes fetal y materno. El polo cefálico hacia la pelvis corresponde a presentación cefálica; la flexión con el mentón próximo al tórax es la actitud habitual de vértice. El occipucio orientado hacia la izquierda y anterior corresponde a una posición occipitoizquierda anterior. Cada componente describe una relación distinta y debe documentarse por separado.",
+    "perlaENARM": "Situación = relación de ejes; presentación = polo hacia el canal; actitud = postura fetal; posición = orientación del punto toconómico respecto a la pelvis materna.",
+    "bibliografia": [
+      "PDF proporcionado: 25. Elementos de Tocología, páginas 8–11.",
+      "Williams Obstetrics, 26.ª ed., estática fetal y mecanismo del parto."
+    ]
   }
+  
  ];
