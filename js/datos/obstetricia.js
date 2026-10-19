@@ -19505,5 +19505,3491 @@ window.BANCO_OBSTETRICIA = [
       "RCOG. Placenta Praevia and Placenta Accreta Spectrum: Diagnosis and Management, Green-top Guideline No. 27a, 2026.",
       "ACOG. Placenta Accreta Spectrum."
     ]
+  },
+{
+    "id": "OBS-801",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Fisiopatología de la invasión placentaria anormal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar la alteración de la interfaz endometrio-miometrio con la adherencia placentaria anormal y sus consecuencias hemorrágicas.",
+    "caso": "Paciente de 36 años, G4P2, con dos cesáreas previas, presenta placenta anterior de implantación baja. Durante la valoración ecográfica se identifican irregularidad de la interfaz uteroplacentaria y lagunas intraplacentarias. El equipo explica que el problema no consiste en una alteración primaria de la función endocrina placentaria, sino en la implantación sobre una zona uterina cicatricial.",
+    "pregunta": "¿Qué mecanismo fisiopatológico explica mejor esta complicación?",
+    "opciones": [
+      "Deficiencia primaria de progesterona que impide la maduración del sincitiotrofoblasto",
+      "Hipercontractilidad miometrial que produce separación prematura de una placenta normalmente implantada",
+      "Defecto de la decidualización en la interfaz endometrio-miometrio que permite anclaje trofoblástico anormalmente profundo",
+      "Insuficiencia de las arterias espirales que provoca exclusivamente infartos placentarios superficiales",
+      "Alteración aislada de la coagulación materna que transforma una placenta normal en invasiva"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La hipótesis fisiopatológica predominante del espectro de placenta acreta (PAS) es la alteración de la interfaz endometrio-miometrio, frecuentemente en zonas cicatriciales, con decidualización defectuosa y anclaje anormal de las vellosidades placentarias. Esto dificulta la separación normal de la placenta y aumenta el riesgo de hemorragia grave. El PDF, página 1, describe la invasión más allá del plano normal de Nitabuch.",
+    "perlaENARM": "El PAS es un trastorno de implantación e invasión placentaria anormal, no una insuficiencia primaria de la función placentaria.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, página 1.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. Obstet Gynecol. 2018.",
+      "Harrison. Principios de Medicina Interna, 19.ª ed., como referencia general de fisiopatología."
+    ]
+  },
+  {
+    "id": "OBS-802",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Clasificación anatómica del PAS",
+    "dificultad": "media",
+    "objetivoAprendizaje": "Distinguir placenta acreta, increta y percreta mediante la profundidad de invasión tisular.",
+    "caso": "Durante una cesárea programada se identifica una placenta firmemente adherida. La evaluación anatómica posterior demuestra vellosidades placentarias que penetran el miometrio y alcanzan la superficie serosa uterina, sin evidencia documentada de invasión de vejiga u otros órganos.",
+    "pregunta": "¿Qué categoría anatómica corresponde a la descripción?",
+    "opciones": [
+      "Placenta acreta, limitada a adherencia anormal sobre el miometrio",
+      "Placenta increta, caracterizada por penetración miometrial sin alcanzar la serosa",
+      "Placenta membranácea, con tejido placentario delgado alrededor del saco gestacional",
+      "Placenta extracorial, con borde placentario no completamente cubierto por membranas",
+      "Placenta percreta, por extensión de la invasión hasta la serosa uterina"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "En la clasificación anatómica clásica, la placenta acreta presenta adherencia anormal al miometrio, la increta penetra el miometrio y la percreta atraviesa todo su espesor hasta la serosa, pudiendo extenderse a órganos vecinos. La descripción corresponde a percreta. La clasificación histopatológica debe interpretarse junto con los hallazgos quirúrgicos y de imagen.",
+    "perlaENARM": "Acreta: adherencia; increta: invasión del miometrio; percreta: atraviesa el miometrio y alcanza la serosa, con posible extensión extrauterina.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, página 1.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018."
+    ]
+  },
+  {
+    "id": "OBS-803",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Estratificación del riesgo por cesáreas previas",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Integrar el número de cesáreas previas y la localización placentaria para estimar la probabilidad clínica de PAS.",
+    "caso": "Paciente de 34 años con cuatro cesáreas previas presenta placenta previa anterior en la ecografía de las 24 semanas. No tiene sangrado y permanece hemodinámicamente estable. En la consejería se discute que la combinación de cicatriz uterina y placenta previa cambia de manera importante su perfil de riesgo.",
+    "pregunta": "¿Qué dato epidemiológico del material proporcionado ilustra mejor el riesgo de PAS en este contexto?",
+    "opciones": [
+      "La placenta previa elimina el riesgo relacionado con las cesáreas anteriores",
+      "El riesgo permanece por debajo de 1% incluso cuando coexisten placenta previa y múltiples cesáreas",
+      "La ausencia de hemorragia en el segundo trimestre descarta invasión placentaria",
+      "El PDF reporta un riesgo superior a 60% con más de cuatro cesáreas previas cuando existe placenta previa",
+      "El número de cesáreas no modifica la probabilidad de invasión placentaria"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF, página 2, señala que el riesgo de PAS aumenta notablemente cuando coexisten placenta previa y cesáreas previas; menciona cifras superiores a 60% con más de cuatro cesáreas. Estas cifras dependen de las poblaciones estudiadas y no deben extrapolarse como una probabilidad universal para cualquier paciente. La combinación obliga a realizar evaluación especializada.",
+    "perlaENARM": "Placenta previa anterior sobre cicatriz de cesárea, especialmente con varias cesáreas previas, es una combinación de alto riesgo para PAS.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, página 2.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018."
+    ]
+  },
+  {
+    "id": "OBS-804",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "PAS sin placenta previa",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Evitar descartar PAS por ausencia de placenta previa e integrar los antecedentes de cirugía uterina.",
+    "caso": "Gestante de 32 años con antecedente de miomectomía y legrado uterino. La placenta se encuentra en la pared posterior, alejada del orificio cervical interno. En una ecografía realizada por personal no especializado no se describen signos concluyentes de invasión, pero persiste una interfaz miometrial irregular en la región de una cicatriz quirúrgica.",
+    "pregunta": "¿Qué conducta diagnóstica está mejor sustentada?",
+    "opciones": [
+      "Descartar PAS porque no existe placenta previa",
+      "Revisar los factores de riesgo y solicitar valoración ecográfica dirigida por un equipo con experiencia en PAS",
+      "Indicar extracción manual placentaria profiláctica al nacimiento",
+      "Considerar el antecedente de miomectomía irrelevante si la placenta es posterior",
+      "Solicitar resonancia magnética como estudio inicial obligatorio en toda paciente con cirugía uterina"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La placenta previa y la cesárea previa son factores de riesgo importantes, pero no son requisitos indispensables para PAS. Otras intervenciones uterinas, como legrado y miomectomía, también pueden alterar la interfaz endometrio-miometrio. La evaluación por personal experto es prioritaria; la resonancia se reserva para situaciones seleccionadas cuando la ecografía no resuelve la duda o se requiere valorar extensión.",
+    "perlaENARM": "Una ecografía sin signos concluyentes no excluye PAS si la sospecha clínica es relevante; el riesgo no se limita a pacientes con placenta previa.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, páginas 2 y 5.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018.",
+      "RCOG. Green-top Guideline No. 27a: Placenta Praevia and Placenta Accreta Spectrum. 2026."
+    ]
+  },
+  {
+    "id": "OBS-805",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Tamizaje y diagnóstico prenatal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar la modalidad inicial de imagen en una paciente con riesgo clínico de PAS.",
+    "caso": "Paciente de 30 años, G3P2, con dos cesáreas previas, acude a ultrasonido de segundo trimestre. La placenta es anterior y de inserción baja. Se requiere establecer si existen signos de invasión anormal antes de que se presenten hemorragia o trabajo de parto.",
+    "pregunta": "¿Cuál es el estudio inicial de elección para evaluar la sospecha de PAS?",
+    "opciones": [
+      "Tomografía computarizada pélvica con contraste como primera línea",
+      "Radiografía simple de abdomen para delimitar la placenta",
+      "Resonancia magnética obligatoria antes de realizar cualquier ultrasonido dirigido",
+      "Amniocentesis para confirmar la invasión de vellosidades al miometrio",
+      "Ultrasonido obstétrico dirigido, con evaluación de la interfaz uteroplacentaria y Doppler por personal experimentado"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El ultrasonido obstétrico dirigido es la modalidad inicial de elección. Debe integrar antecedentes, localización placentaria y signos como lagunas placentarias, pérdida de la zona clara retroplacentaria, adelgazamiento miometrial, vasos puente y alteraciones de la interfaz uterovesical. El PDF, página 3, señala el ultrasonido Doppler como primera elección. La resonancia puede complementar casos seleccionados, pero no sustituye al ultrasonido como estudio inicial.",
+    "perlaENARM": "Ante placenta previa o baja sobre cicatriz uterina, solicitar ultrasonido dirigido para PAS; la calidad depende de la experiencia del operador.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, página 3.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018.",
+      "RCOG. Green-top Guideline No. 27a. 2026."
+    ]
+  },
+  {
+    "id": "OBS-806",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Signos ecográficos y limitaciones diagnósticas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar los hallazgos ecográficos en conjunto con el riesgo clínico sin utilizar un signo aislado para confirmar o excluir PAS.",
+    "caso": "Gestante de 35 años con placenta previa y tres cesáreas previas. En ultrasonido se observan lagunas placentarias irregulares y pérdida parcial de la zona clara retroplacentaria, pero no hay evidencia inequívoca de invasión vesical. Un residente concluye que el diagnóstico está descartado porque no se identifica extensión hacia la vejiga.",
+    "pregunta": "¿Qué principio debe guiar la interpretación del estudio?",
+    "opciones": [
+      "La ausencia de invasión vesical visible excluye todas las formas de PAS",
+      "Las lagunas placentarias aisladas confirman histológicamente una placenta percreta",
+      "Los hallazgos ecográficos deben integrarse con los factores clínicos; ningún signo aislado ni la ausencia de uno específico excluye PAS",
+      "La resonancia magnética debe reemplazar siempre al ultrasonido Doppler",
+      "El diagnóstico solo puede sospecharse después del alumbramiento"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El diagnóstico prenatal se basa en la integración del riesgo clínico y múltiples signos de imagen. Las lagunas y la pérdida de la zona clara retroplacentaria son hallazgos relevantes, pero no confirman por sí solos la profundidad de invasión. La ausencia de signos de invasión vesical tampoco descarta formas menos extensas de PAS. La confirmación histopatológica puede obtenerse cuando existe tejido disponible, pero no debe esperarse para planificar una atención segura.",
+    "perlaENARM": "No se debe excluir PAS por ausencia de un signo ecográfico aislado; la sospecha clínica conserva valor diagnóstico.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, página 3.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018.",
+      "RCOG. Green-top Guideline No. 27a. 2026."
+    ]
+  },
+  {
+    "id": "OBS-807",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Indicación de resonancia magnética",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el papel complementario de la resonancia magnética en la evaluación de PAS.",
+    "caso": "Paciente con placenta anterior previa y antecedentes de dos cesáreas. El ultrasonido dirigido sugiere PAS, pero la extensión lateral y la posible afectación de estructuras pélvicas no pueden delimitarse adecuadamente por la ventana acústica disponible. La paciente está estable y no presenta sangrado activo.",
+    "pregunta": "¿Qué utilidad puede aportar la resonancia magnética en este escenario?",
+    "opciones": [
+      "Complementar la evaluación cuando el ultrasonido es no concluyente o se necesita delimitar la extensión en áreas difíciles de valorar",
+      "Sustituir obligatoriamente todos los ultrasonidos previos y posteriores",
+      "Confirmar por sí sola la histología exacta de acreta, increta o percreta en todos los casos",
+      "Determinar con certeza que no habrá hemorragia durante la cirugía",
+      "Evitar la referencia a un centro especializado si la paciente permanece estable"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La resonancia magnética puede utilizarse como estudio complementario cuando el ultrasonido no es concluyente o cuando se necesita valorar la extensión de la invasión y regiones de difícil evaluación. No reemplaza universalmente al ultrasonido ni garantiza una clasificación histológica definitiva. El PDF, página 3, limita su indicación a situaciones seleccionadas.",
+    "perlaENARM": "En PAS, el ultrasonido es primera línea; la resonancia se reserva para dudas diagnósticas o planificación anatómica seleccionada.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, página 3.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018."
+    ]
+  },
+  {
+    "id": "OBS-808",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Diagnóstico intraparto no anticipado",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar los hallazgos intraparto que sugieren PAS y prevenir una hemorragia catastrófica por extracción placentaria forzada.",
+    "caso": "Durante una cesárea urgente en un hospital sin equipo especializado, nace un recién nacido vivo. La placenta no se separa con las maniobras habituales; al aplicar tracción moderada aparece sangrado abundante y no se identifica un plano de clivaje. La paciente inicialmente mantiene presión arterial estable.",
+    "pregunta": "¿Qué acción inmediata reduce el riesgo de agravar la hemorragia por PAS?",
+    "opciones": [
+      "Aumentar la tracción del cordón hasta obtener el alumbramiento completo",
+      "Realizar curetaje uterino para desprender las vellosidades adheridas",
+      "Administrar uterotónicos repetidos con el objetivo de forzar la separación",
+      "Suspender los intentos de extracción, activar el protocolo hemorrágico y movilizar apoyo quirúrgico y anestésico especializado",
+      "Esperar otros 60 minutos sin modificar el plan quirúrgico"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La falta de plano de separación y la hemorragia intensa con la tracción son señales de alarma para PAS. Deben suspenderse los intentos de desprendimiento, alertar al equipo de anestesia, asegurar accesos vasculares, solicitar hemoderivados y movilizar personal con experiencia. La estrategia definitiva depende de la situación clínica y de los recursos disponibles, pero la extracción forzada puede desencadenar hemorragia masiva.",
+    "perlaENARM": "Placenta que no se separa + ausencia de plano + sangrado con tracción = sospechar PAS y no insistir en la extracción manual.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, página 3.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018."
+    ]
+  },
+  {
+    "id": "OBS-809",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Planeación del nacimiento y nivel de atención",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Priorizar la referencia prenatal a un centro con capacidad multidisciplinaria y transfusión masiva.",
+    "caso": "Gestante de 33 semanas con alta sospecha de PAS, placenta previa anterior y tres cesáreas previas. Está estable, sin sangrado reciente. El hospital de origen cuenta con banco de sangre limitado, pero no dispone de cirujanos pélvicos con experiencia en histerectomía compleja ni de cuidados críticos obstétricos.",
+    "pregunta": "¿Qué decisión organizativa ofrece la mayor oportunidad de reducir complicaciones maternas?",
+    "opciones": [
+      "Mantener el control exclusivo en el hospital de origen hasta iniciar el trabajo de parto",
+      "Planear el nacimiento en un centro de alta especialidad con equipo multidisciplinario, anestesia experimentada y capacidad de transfusión masiva",
+      "Indicar parto vaginal para evitar la morbilidad de la cirugía",
+      "Realizar una cesárea inmediata sin coordinación previa, aunque la paciente esté estable",
+      "Posponer la referencia hasta que se confirme histológicamente la invasión"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El diagnóstico prenatal permite organizar un nacimiento programado antes de que aparezcan trabajo de parto o hemorragia. Se recomienda atención en un centro con experiencia en PAS, equipo multidisciplinario, recursos anestésicos, banco de sangre con protocolo de transfusión masiva y disponibilidad de cirugía pélvica compleja. No es necesario esperar confirmación histológica para referir y planificar.",
+    "perlaENARM": "La referencia temprana por sospecha de PAS es una intervención de seguridad; no debe retrasarse hasta el sangrado o la confirmación histológica.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, páginas 4-5.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018.",
+      "RCOG. Green-top Guideline No. 27a. 2026."
+    ]
+  },
+  {
+    "id": "OBS-810",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Momento de nacimiento en PAS estable",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Balancear el riesgo de nacimiento no programado y hemorragia frente a la morbilidad neonatal por prematuridad tardía.",
+    "caso": "Paciente de 31 años con PAS altamente probable por imagen, sin sangrado, contracciones, ruptura de membranas ni compromiso fetal. Se encuentra en seguimiento por un centro especializado. El equipo debe acordar el momento del nacimiento considerando que las recomendaciones varían según síntomas, riesgo de parto prematuro y guía utilizada.",
+    "pregunta": "¿Cuál es el principio más adecuado para establecer la fecha de nacimiento?",
+    "opciones": [
+      "Esperar siempre hasta las 39 semanas para reducir la morbilidad neonatal",
+      "Programar a las 30 semanas en todas las pacientes, independientemente de su estado clínico",
+      "Indicar nacimiento inmediato en cuanto el ultrasonido sugiera PAS, aunque no existan complicaciones",
+      "Utilizar una fecha fija de 36 semanas sin considerar sangrado ni otros factores",
+      "Individualizar la programación en el centro especializado; ACOG propone habitualmente 34+0 a 35+6 semanas en pacientes estables, mientras RCOG 2026 contempla 35+0 a 36+6 en ausencia de factores de parto prematuro o sangrado"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El nacimiento programado busca evitar una cesárea de emergencia por hemorragia o trabajo de parto, equilibrando ese riesgo con la prematuridad neonatal. ACOG-SMFM propone generalmente 34+0 a 35+6 semanas en pacientes estables; la guía RCOG 2026 contempla 35+0 a 36+6 semanas cuando no existen factores de riesgo de parto prematuro ni sangrado antenatal. La decisión debe individualizarse según síntomas, antecedentes, anatomía y recursos del centro.",
+    "perlaENARM": "No memorices una sola semana como regla universal para PAS: identifica la guía utilizada y distingue paciente estable de paciente con sangrado, trabajo de parto o compromiso materno-fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, página 4.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018.",
+      "RCOG. Green-top Guideline No. 27a: Placenta Praevia and Placenta Accreta Spectrum. 2026."
+    ]
+  },
+  {
+    "id": "OBS-811",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Corticosteroides antenatales",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Aplicar los criterios de corticosteroides antenatales cuando se anticipa nacimiento pretérmino por PAS.",
+    "caso": "Gestante de 34 semanas con PAS sospechado, sin hemorragia activa, cuyo nacimiento quirúrgico está programado antes de las 37 semanas. No ha recibido previamente un esquema de corticosteroides en este embarazo y no existe una indicación de nacimiento inmediato.",
+    "pregunta": "¿Qué aspecto debe incorporarse a la planificación perinatal?",
+    "opciones": [
+      "Administrar corticosteroides únicamente si existe madurez pulmonar confirmada por amniocentesis",
+      "Evitar corticosteroides porque el PAS contraindica su uso",
+      "Valorar corticosteroides antenatales conforme a la edad gestacional, probabilidad de nacimiento dentro del intervalo indicado y recomendaciones vigentes, sin retrasar una intervención urgente",
+      "Esperar obligatoriamente hasta las 37 semanas para poder administrarlos",
+      "Administrar corticosteroides después de la cesárea para prevenir hemorragia materna"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Cuando se anticipa un nacimiento antes de las 37 semanas, debe valorarse la indicación de corticosteroides según la edad gestacional, la probabilidad de nacimiento en el periodo previsto y los criterios de la guía aplicable. No se debe retrasar una intervención necesaria por hemorragia, trabajo de parto u otra urgencia materno-fetal. Los corticosteroides favorecen la maduración fetal; no tratan la invasión placentaria.",
+    "perlaENARM": "Los corticosteroides se indican por el riesgo de nacimiento pretérmino, no como tratamiento del PAS; nunca deben retrasar una intervención urgente.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, página 4.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018.",
+      "RCOG. Green-top Guideline No. 27a. 2026."
+    ]
+  },
+  {
+    "id": "OBS-812",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Técnica quirúrgica y placenta in situ",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Explicar por qué la histerectomía obstétrica por PAS se realiza evitando la extracción placentaria.",
+    "caso": "Paciente con PAS extenso, placenta previa anterior y probable invasión miometrial profunda. Se ha planificado cesárea-histerectomía. En la sesión preoperatoria, un integrante del equipo propone intentar primero el alumbramiento manual para disminuir el volumen uterino antes de la histerectomía.",
+    "pregunta": "¿Qué modificación del plan es fundamental para disminuir el riesgo de hemorragia masiva?",
+    "opciones": [
+      "Realizar la cesárea evitando atravesar la placenta cuando sea posible, dejarla in situ y proceder a la histerectomía planificada",
+      "Desprender la placenta en fragmentos y completar la extracción con curetaje",
+      "Aplicar tracción sostenida del cordón hasta identificar el plano de separación",
+      "Realizar masaje uterino vigoroso antes de intentar el alumbramiento manual",
+      "Administrar oxitocina en dosis crecientes para conseguir la separación de las vellosidades"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La estrategia generalmente aceptada para PAS extenso es la cesárea seguida de histerectomía, dejando la placenta in situ. Los intentos de desprendimiento forzado pueden abrir vasos de gran calibre y provocar hemorragia potencialmente mortal. La incisión uterina debe planearse para evitar atravesar la placenta, usando la información de imagen disponible.",
+    "perlaENARM": "En PAS confirmado o altamente probable, la placenta se deja in situ durante la cesárea-histerectomía; no se intenta el alumbramiento manual rutinario.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, páginas 4-5.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018."
+    ]
+  },
+  {
+    "id": "OBS-813",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Planeación de la incisión uterina",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Utilizar la localización placentaria para planear el acceso uterino y evitar la transección placentaria.",
+    "caso": "Gestante con placenta previa anterior y signos de PAS en el segmento uterino inferior. El nacimiento se realizará mediante cesárea programada con histerectomía. La ecografía muestra que la placenta ocupa gran parte del sitio donde habitualmente se realiza la histerotomía transversa baja.",
+    "pregunta": "¿Qué medida preoperatoria es prioritaria para reducir complicaciones durante la entrada al útero?",
+    "opciones": [
+      "Realizar sistemáticamente una histerotomía transversa baja sin revisar la imagen",
+      "Intentar separar parcialmente la placenta antes de abrir el útero",
+      "Utilizar siempre una incisión uterina corporal longitudinal, independientemente de la anatomía",
+      "Revisar la cartografía placentaria y planear una histerotomía que evite atravesar la placenta, según la anatomía y experiencia quirúrgica",
+      "Diferir la decisión sobre la incisión hasta que aparezca sangrado intraoperatorio"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La planificación de la incisión uterina es esencial en PAS, sobre todo cuando la placenta anterior ocupa el segmento inferior. La elección debe individualizarse con base en la ecografía, la extensión sospechada, la anatomía y la estrategia quirúrgica. El objetivo es evitar la transección placentaria y la hemorragia asociada, no imponer un tipo único de incisión a todas las pacientes.",
+    "perlaENARM": "En PAS anterior, la localización placentaria debe orientar la histerotomía para evitar atravesar la placenta.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, página 5.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018."
+    ]
+  },
+  {
+    "id": "OBS-814",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Hemorragia obstétrica y preparación transfusional",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Organizar la preparación hemostática y transfusional para una cirugía con alto riesgo de hemorragia masiva.",
+    "caso": "Paciente con PAS y probable invasión profunda será sometida a cesárea-histerectomía en un centro de referencia. Presenta hemoglobina de 8.7 g/dL y ferritina baja, sin sangrado activo. La cirugía está programada dentro de dos semanas y el equipo considera que la pérdida sanguínea podría ser importante.",
+    "pregunta": "¿Cuál es la estrategia preoperatoria más integral?",
+    "opciones": [
+      "Esperar a que aparezca hemorragia para solicitar pruebas cruzadas",
+      "Optimizar la anemia si el tiempo y la situación clínica lo permiten, coordinar banco de sangre y anestesia, disponer de hemoderivados y establecer un plan de transfusión masiva",
+      "Indicar hierro oral como única intervención y no informar al banco de sangre",
+      "Cancelar toda preparación transfusional porque la paciente está estable",
+      "Transfundir obligatoriamente un número fijo de concentrados eritrocitarios a toda paciente con PAS, independientemente de la hemoglobina y el contexto"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PAS se asocia con hemorragia grave y necesidad de transfusión. La preparación incluye corregir anemia cuando sea posible, valorar la urgencia y el tiempo disponible, coordinar con anestesiología y banco de sangre, contar con hemoderivados y disponer de un protocolo de transfusión masiva. No existe un número fijo de unidades que deba administrarse de manera universal antes de la cirugía.",
+    "perlaENARM": "En PAS, la preparación para hemorragia masiva comienza antes de la incisión; la estabilidad inicial no elimina el riesgo quirúrgico.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, páginas 4-5.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018."
+    ]
+  },
+  {
+    "id": "OBS-815",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Manejo conservador y preservación uterina",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar las condiciones mínimas para considerar estrategias conservadoras y reconocer la incertidumbre de su evidencia.",
+    "caso": "Paciente de 29 años con PAS focal sospechado desea preservar la fertilidad. Está hemodinámicamente estable y fue referida a un hospital de tercer nivel con experiencia en cirugía obstétrica compleja. Después de recibir información sobre hemorragia, infección, reintervención e histerectomía diferida, pregunta si existe una alternativa a la histerectomía inmediata.",
+    "pregunta": "¿Qué planteamiento refleja mejor la evidencia disponible?",
+    "opciones": [
+      "La preservación uterina es el estándar universal y tiene eficacia demostrada por ensayos aleatorizados",
+      "La paciente puede elegir extracción manual en cualquier hospital si firma un consentimiento",
+      "El deseo reproductivo elimina la indicación de histerectomía incluso ante hemorragia incontrolable",
+      "El tratamiento conservador garantiza ausencia de infección y de cirugía posterior",
+      "Puede discutirse una estrategia conservadora solo en casos seleccionados, con equipo experto, estabilidad, consentimiento informado y explicación de la evidencia limitada y los riesgos"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La histerectomía continúa siendo el tratamiento habitual para PAS extenso. La preservación uterina o el manejo expectante pueden discutirse en casos cuidadosamente seleccionados, considerando extensión, estabilidad, deseo reproductivo, experiencia del centro y capacidad de seguimiento. La evidencia es principalmente observacional y existen riesgos de hemorragia, infección, sepsis y cirugía diferida; no puede garantizarse el éxito.",
+    "perlaENARM": "El deseo de fertilidad permite discutir alternativas, pero no convierte el manejo conservador en una opción universal ni elimina la posibilidad de histerectomía.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, página 4.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018."
+    ]
+  },
+  {
+    "id": "OBS-816",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Manejo expectante con placenta in situ",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer las complicaciones potenciales del manejo expectante y la necesidad de vigilancia prolongada.",
+    "caso": "En un centro especializado, una paciente seleccionada con PAS se somete a una estrategia individualizada de preservación uterina, dejando la placenta in situ. Durante el seguimiento ambulatorio desarrolla fiebre, dolor pélvico progresivo y secreción vaginal fétida. La paciente pregunta si estos síntomas pueden atribuirse a la involución normal de la placenta retenida.",
+    "pregunta": "¿Qué complicación debe investigarse prioritariamente?",
+    "opciones": [
+      "Infección uterina asociada a placenta retenida, con riesgo de sepsis y necesidad de intervención",
+      "Involución placentaria fisiológica que nunca requiere evaluación",
+      "Hipertiroidismo gestacional como explicación principal del cuadro febril",
+      "Insuficiencia cervical sin relación con los síntomas sistémicos",
+      "Preeclampsia sin datos de hipertensión ni daño orgánico"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El manejo expectante con placenta in situ requiere seguimiento estrecho porque puede complicarse con infección, sepsis, hemorragia, necrosis uterina, fístulas, tromboembolismo y necesidad de histerectomía diferida. Fiebre, dolor y secreción maloliente no deben atribuirse a involución normal; requieren evaluación urgente y tratamiento según la gravedad.",
+    "perlaENARM": "Placenta retenida deliberadamente en PAS no significa seguimiento pasivo: fiebre, dolor o sangrado obligan a descartar complicaciones graves.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, página 4.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018."
+    ]
+  },
+  {
+    "id": "OBS-817",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Sospecha de percreta e invasión vesical",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar sospecha de invasión extrauterina en la planificación quirúrgica y la selección del equipo multidisciplinario.",
+    "caso": "Gestante con placenta previa anterior, tres cesáreas previas y ultrasonido que muestra vasos puente, pérdida de la interfaz uterovesical e irregularidad marcada de la pared vesical. La resonancia sugiere extensión hacia estructuras vecinas. No presenta hematuria ni sangrado vaginal.",
+    "pregunta": "¿Qué implicación clínica tienen estos hallazgos para la preparación del nacimiento?",
+    "opciones": [
+      "La ausencia de hematuria descarta invasión vesical y permite una cesárea convencional",
+      "La sospecha de extensión extrauterina obliga a realizar parto vaginal para evitar la cirugía",
+      "Debe planificarse el procedimiento en un centro especializado con cirujanos pélvicos y participación de urología según la extensión sospechada",
+      "La resonancia elimina la necesidad de preparar hemoderivados",
+      "La presencia de vasos puente confirma que no existe invasión miometrial"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Los signos de alteración uterovesical y vasos puente pueden sugerir PAS extenso y posible invasión de órganos vecinos. La ausencia de hematuria no excluye afectación vesical. Estos hallazgos requieren planificación multidisciplinaria, disponibilidad de recursos para hemorragia y valoración de especialistas pertinentes, como urología, según la anatomía sospechada.",
+    "perlaENARM": "La sospecha de percreta cambia la planeación quirúrgica; la ausencia de hematuria no descarta compromiso vesical.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, páginas 3 y 5.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018."
+    ]
+  },
+  {
+    "id": "OBS-818",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Complicaciones de la cirugía",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Anticipar complicaciones posoperatorias asociadas a hemorragia masiva y cirugía pélvica compleja por PAS.",
+    "caso": "Paciente sometida a cesárea-histerectomía por PAS extenso presenta pérdida sanguínea importante y requiere transfusión. En el posoperatorio inmediato desarrolla oliguria persistente y elevación progresiva de creatinina. La presión arterial se ha mantenido limítrofe durante el procedimiento.",
+    "pregunta": "¿Cuál es la complicación que debe evaluarse de manera prioritaria?",
+    "opciones": [
+      "Diabetes mellitus tipo 1 de inicio posparto",
+      "Colestasis intrahepática del embarazo persistente como causa única de oliguria",
+      "Incompetencia cervical posquirúrgica",
+      "Lesión renal aguda relacionada con hipoperfusión, hemorragia o posible lesión urológica",
+      "Hipertiroidismo como consecuencia directa de la histerectomía"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La cirugía por PAS puede complicarse con lesión renal aguda por hipoperfusión hemorrágica, así como con lesión ureteral o vesical, coagulación intravascular diseminada, infección y otras complicaciones críticas. La oliguria persistente con creatinina ascendente requiere evaluación hemodinámica, revisión de la pérdida sanguínea y transfusión, balance hídrico y valoración de lesión urológica según el contexto.",
+    "perlaENARM": "Después de una cirugía por PAS, oliguria y creatinina en ascenso obligan a considerar hipoperfusión y lesión urológica, no solo deshidratación.",
+    "bibliografia": [
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018.",
+      "PDF proporcionado: 18. Acretismo Placentario, páginas 4-5."
+    ]
+  },
+  {
+    "id": "OBS-819",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Confirmación histopatológica y decisiones clínicas",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar confirmación histopatológica de diagnóstico prenatal y evitar retrasar decisiones de seguridad obstétrica.",
+    "caso": "Paciente con múltiples cesáreas y placenta previa presenta signos ecográficos altamente sugestivos de PAS. Un integrante del equipo propone posponer la referencia y la planificación quirúrgica hasta contar con confirmación histopatológica, la cual solo podría obtenerse después del nacimiento y del análisis del tejido.",
+    "pregunta": "¿Cuál es la respuesta más fundamentada desde el punto de vista diagnóstico y de seguridad?",
+    "opciones": [
+      "Esperar la histopatología es obligatorio antes de iniciar cualquier planificación",
+      "El diagnóstico prenatal puede sustentarse en factores de riesgo e imagen; la confirmación histopatológica no debe retrasar la referencia ni la preparación quirúrgica",
+      "Solo la resonancia magnética puede confirmar PAS antes del nacimiento",
+      "La sospecha ecográfica no tiene valor si la paciente no presenta hemorragia",
+      "La ausencia de biopsia placentaria previa descarta la enfermedad"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La histopatología puede confirmar la profundidad de invasión cuando se dispone del tejido, pero la toma de decisiones clínicas debe basarse en el riesgo y los hallazgos prenatales. Esperar la confirmación después del nacimiento puede impedir una preparación adecuada y aumentar la probabilidad de una emergencia hemorrágica. El objetivo es anticipar el riesgo y organizar una atención segura.",
+    "perlaENARM": "En PAS, el diagnóstico clínico-prenatal es suficiente para activar referencia y planeación; no se espera la histopatología para prevenir una emergencia.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, páginas 3 y 5.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018."
+    ]
+  },
+  {
+    "id": "OBS-820",
+    "especialidad": "Obstetricia",
+    "tema": "Acretismo placentario",
+    "subtema": "Integración diagnóstica, quirúrgica y perinatal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar factores de riesgo, hallazgos de imagen, planeación del nacimiento y prevención de hemorragia en un caso complejo de PAS.",
+    "caso": "Gestante de 37 años, G6P4, con cuatro cesáreas previas, placenta previa anterior y ultrasonido dirigido que muestra lagunas numerosas, pérdida de la zona clara retroplacentaria y vasos puente. La resonancia sugiere posible extensión hasta la serosa, sin delimitar con certeza la relación con la vejiga. Se encuentra en un centro de segundo nivel, estable y sin sangrado actual.",
+    "pregunta": "¿Qué plan de atención integra mejor los riesgos maternos y la incertidumbre anatómica?",
+    "opciones": [
+      "Continuar el control local y esperar el trabajo de parto porque la paciente está estable",
+      "Programar parto vaginal con extracción manual placentaria y disponibilidad de uterotónicos",
+      "Realizar una cesárea rutinaria en el hospital actual y solicitar ayuda solo si aparece hemorragia",
+      "Descartar PAS porque la resonancia no confirma invasión vesical y diferir la referencia",
+      "Referir a un centro experto para completar la planeación anatómica y multidisciplinaria, preparar hemoderivados y programar el nacimiento evitando la manipulación placentaria"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La combinación de placenta previa anterior, múltiples cesáreas y signos ecográficos de invasión confiere una alta sospecha de PAS. La resonancia puede ayudar a valorar extensión, pero su falta de confirmación de invasión vesical no excluye PAS. La conducta más segura es la referencia prenatal a un centro con experiencia, planeación quirúrgica individualizada, disponibilidad de hemoderivados y un equipo multidisciplinario. En los casos extensos, la estrategia generalmente aceptada es cesárea-histerectomía con placenta in situ.",
+    "perlaENARM": "El caso clásico de alto riesgo integra placenta previa, cicatrices uterinas múltiples y signos ecográficos de invasión; la ausencia de hemorragia no reduce la necesidad de planificación especializada.",
+    "bibliografia": [
+      "PDF proporcionado: 18. Acretismo Placentario, páginas 2-5.",
+      "ACOG-SMFM. Obstetric Care Consensus No. 7: Placenta Accreta Spectrum. 2018.",
+      "RCOG. Green-top Guideline No. 27a: Placenta Praevia and Placenta Accreta Spectrum. 2026."
+    ]
+  },
+  {
+    "id": "OBS-821",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Fisiopatología y repercusión fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar cómo el desprendimiento placentario produce hemorragia, hipertonía uterina e hipoxia fetal.",
+    "caso": "Gestante de 35 semanas con hipertensión crónica presenta dolor abdominal súbito, sangrado vaginal oscuro y contracciones uterinas frecuentes. El útero permanece hipertónico entre contracciones y la cardiotocografía muestra desaceleraciones tardías recurrentes.",
+    "pregunta": "¿Qué mecanismo fisiopatológico explica la asociación entre hipertonía uterina y deterioro fetal?",
+    "opciones": [
+      "La vasodilatación uterina compensadora aumenta el flujo placentario y provoca desaceleraciones reflejas",
+      "La separación placentaria reduce el intercambio maternofetal y la contracción uterina sostenida compromete adicionalmente la perfusión uteroplacentaria",
+      "La hemorragia vaginal induce directamente una anemia fetal por pérdida de sangre fetal a través del cuello uterino",
+      "La activación del sistema renina-angiotensina fetal provoca contracciones uterinas generalizadas sin alterar la placenta",
+      "La disminución de prostaglandinas produce contracciones sostenidas y mejora la oxigenación fetal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "En el DPPNI, la separación de una placenta normalmente implantada interrumpe la superficie de intercambio y puede producir hemorragia retroplacentaria. La hipertonía y la actividad uterina excesiva pueden disminuir todavía más la perfusión uteroplacentaria, lo que favorece hipoxia fetal. La hipertensión materna es un factor de riesgo relevante. El cuadro exige evaluación y estabilización maternofetal urgente.",
+    "perlaENARM": "Dolor uterino, hipertonía y alteraciones de la frecuencia cardiaca fetal sugieren DPPNI; la magnitud del sangrado vaginal no refleja necesariamente la extensión del desprendimiento.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), página 1.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-822",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Hemorragia oculta",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el DPPNI con sangrado oculto y estimar la gravedad mediante la condición clínica materna y fetal.",
+    "caso": "Paciente de 32 semanas consulta por dolor abdominal continuo y disminución de movimientos fetales. No presenta sangrado vaginal. La frecuencia cardiaca materna es de 124 lpm, la presión arterial de 92/58 mmHg y el útero está doloroso e hipertónico. La cardiotocografía muestra bradicardia fetal persistente.",
+    "pregunta": "¿Qué explica mejor la discordancia entre la gravedad clínica y la ausencia de sangrado visible?",
+    "opciones": [
+      "La ausencia de sangrado vaginal descarta hemorragia obstétrica significativa",
+      "El cuadro corresponde necesariamente a placenta previa, porque el DPPNI siempre produce sangrado externo",
+      "La bradicardia fetal aislada confirma una malformación cardiaca como causa del dolor",
+      "La sangre puede quedar retenida detrás de la placenta, de modo que la hemorragia visible subestima la pérdida sanguínea real",
+      "El sangrado oculto solo ocurre durante el puerperio y no en el embarazo"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El DPPNI puede presentar hemorragia externa, oculta o mixta. La sangre retenida en el espacio retroplacentario puede causar hipovolemia materna y compromiso fetal sin sangrado vaginal evidente. La taquicardia, hipotensión, dolor, hipertonía y bradicardia fetal obligan a tratarlo como una emergencia obstétrica. No debe retrasarse la estabilización para obtener confirmación por imagen.",
+    "perlaENARM": "En DPPNI, la cantidad de sangre observada por vagina puede ser mucho menor que la pérdida real; la condición hemodinámica orienta la gravedad.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), página 2.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage.",
+      "ACOG. Obstetric hemorrhage and maternal emergency guidance."
+    ]
+  },
+  {
+    "id": "OBS-823",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Diagnóstico diferencial de hemorragia del tercer trimestre",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar DPPNI de placenta previa mediante la integración del dolor, el tono uterino y la presentación clínica.",
+    "caso": "Gestante de 34 semanas presenta hemorragia vaginal oscura, dolor abdominal intenso y útero sensible a la palpación, con contracciones frecuentes. La paciente tiene hipertensión gestacional. No se dispone todavía de ultrasonido y el estado fetal requiere evaluación inmediata.",
+    "pregunta": "¿Qué diagnóstico debe encabezar la sospecha clínica?",
+    "opciones": [
+      "Desprendimiento prematuro de placenta normoinserta",
+      "Placenta previa sin complicaciones",
+      "Vasa previa con ruptura de membranas como explicación obligatoria",
+      "Cervicitis hemorrágica aislada",
+      "Rotura de quiste ovárico como causa más probable de todos los hallazgos"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El dolor abdominal, la sensibilidad e hipertonía uterinas y la asociación con hipertensión favorecen DPPNI. La placenta previa suele producir sangrado indoloro con útero blando, aunque la presentación clínica puede variar. Debe evaluarse la estabilidad materna y fetal y descartarse placenta previa mediante imagen antes de realizar exploración vaginal digital.",
+    "perlaENARM": "Hemorragia dolorosa con útero hipertónico orienta a DPPNI; hemorragia indolora con útero blando orienta a placenta previa.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), páginas 1-2.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-824",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Valor diagnóstico del ultrasonido",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar un ultrasonido negativo sin excluir un DPPNI clínicamente probable.",
+    "caso": "Paciente de 30 semanas con hipertensión y dolor uterino persistente presenta sangrado vaginal escaso. El ultrasonido no identifica un hematoma retroplacentario evidente, pero persisten la sensibilidad uterina y las contracciones frecuentes. El equipo considera esperar una segunda ecografía antes de iniciar la atención de urgencia.",
+    "pregunta": "¿Qué principio debe guiar la conducta diagnóstica?",
+    "opciones": [
+      "Un ultrasonido sin hematoma descarta por completo el DPPNI",
+      "Debe esperarse una resonancia magnética antes de monitorizar al feto",
+      "El diagnóstico es principalmente clínico y una ecografía negativa no excluye el desprendimiento",
+      "La cantidad escasa de sangrado demuestra que no existe compromiso placentario",
+      "El diagnóstico solo puede establecerse mediante histopatología después del parto"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El diagnóstico de DPPNI es principalmente clínico. La ecografía puede identificar hematomas retroplacentarios, marginales u otras colecciones, pero su sensibilidad es limitada y un estudio normal no descarta la enfermedad. Ante sospecha clínica deben evaluarse la estabilidad materna, el estado fetal, la hemorragia y los parámetros hematológicos sin retrasar intervenciones necesarias.",
+    "perlaENARM": "La ecografía puede apoyar el diagnóstico de DPPNI, pero no debe utilizarse para descartarlo cuando la clínica es sugestiva.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), página 2.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-825",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Evaluación inicial y reanimación materna",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar la estabilización hemodinámica y la evaluación simultánea maternofetal en DPPNI grave.",
+    "caso": "Gestante de 36 semanas presenta dolor abdominal, sangrado abundante y alteración del estado de conciencia. Tiene presión arterial de 78/42 mmHg, frecuencia cardiaca de 138 lpm y bradicardia fetal sostenida. El personal propone realizar primero un ultrasonido detallado para estimar el porcentaje de desprendimiento.",
+    "pregunta": "¿Qué intervención debe priorizar el equipo mientras organiza la resolución obstétrica urgente?",
+    "opciones": [
+      "Realizar primero una resonancia magnética para definir la localización del hematoma",
+      "Administrar únicamente analgésicos y observar la respuesta uterina",
+      "Esperar los resultados de laboratorio completos antes de iniciar reanimación",
+      "Solicitar una prueba sin estrés de 40 minutos antes de tomar decisiones",
+      "Activar la respuesta a hemorragia obstétrica, iniciar reanimación materna, obtener accesos venosos de gran calibre y preparar la resolución urgente"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La hipotensión, taquicardia, alteración del estado mental y bradicardia fetal indican una emergencia con compromiso maternofetal. La reanimación y la preparación para el nacimiento deben realizarse de manera simultánea; no se debe retrasar el tratamiento por estudios de imagen. Se requieren accesos venosos adecuados, muestras para biometría hemática, coagulación, fibrinógeno y pruebas cruzadas, además de disponibilidad de hemoderivados.",
+    "perlaENARM": "En DPPNI con choque y compromiso fetal, la reanimación materna y la resolución urgente prevalecen sobre la confirmación ecográfica.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), página 3.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage.",
+      "ACOG. Obstetric hemorrhage guidance."
+    ]
+  },
+  {
+    "id": "OBS-826",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Coagulación intravascular diseminada",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la coagulopatía de consumo asociada a DPPNI e interpretar el fibrinógeno durante una hemorragia obstétrica.",
+    "caso": "Paciente de 35 semanas con DPPNI extenso presenta sangrado persistente por sitios de venopunción. El laboratorio reporta plaquetas de 78,000/µL, prolongación de TP y TTPa, fibrinógeno de 110 mg/dL y dímero D elevado. La paciente se encuentra taquicárdica y con perfusión periférica deficiente.",
+    "pregunta": "¿Qué complicación explica mejor el patrón clínico y de laboratorio?",
+    "opciones": [
+      "Trombocitopenia gestacional aislada sin repercusión hemorrágica",
+      "Coagulación intravascular diseminada por activación sistémica de la coagulación y consumo de factores",
+      "Púrpura trombocitopénica inmune como única explicación del TP prolongado y fibrinógeno bajo",
+      "Hemofilia A adquirida sin alteraciones de otros parámetros hemostáticos",
+      "Síndrome antifosfolípido sin relación con la hemorragia aguda"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El DPPNI grave puede desencadenar coagulación intravascular diseminada (CID), con consumo de plaquetas y factores de coagulación, prolongación de tiempos y descenso del fibrinógeno. Un fibrinógeno de 110 mg/dL es marcadamente bajo en el contexto obstétrico, donde las concentraciones suelen estar elevadas durante el embarazo. Se requiere manejo inmediato de la hemorragia y reposición hemostática guiada por la situación clínica y los resultados disponibles.",
+    "perlaENARM": "En hemorragia obstétrica, un fibrinógeno muy bajo es un marcador de gravedad; el DPPNI es una causa importante de CID asociada al embarazo.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), páginas 1-2.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage.",
+      "FIGO recommendations on the management of postpartum hemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-827",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Interpretación del fibrinógeno",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar un fibrinógeno aparentemente cercano al rango no gestacional en el contexto de una hemorragia obstétrica grave.",
+    "caso": "Gestante de 37 semanas con DPPNI, sangrado continuo y taquicardia materna tiene fibrinógeno de 190 mg/dL, plaquetas de 135,000/µL y TP inicialmente normal. Un integrante del equipo considera que el fibrinógeno no es preocupante porque supera 150 mg/dL.",
+    "pregunta": "¿Qué interpretación es más útil para estimar el riesgo hemorrágico?",
+    "opciones": [
+      "El valor excluye una coagulopatía relevante durante el embarazo",
+      "El fibrinógeno no tiene utilidad en el DPPNI y debe ignorarse",
+      "Solo las plaquetas permiten estimar la gravedad de la hemorragia",
+      "El fibrinógeno está reducido respecto de lo esperado en el embarazo y puede señalar consumo hemostático en evolución",
+      "El fibrinógeno de 190 mg/dL confirma una trombosis venosa profunda"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Durante el embarazo, el fibrinógeno suele encontrarse elevado. Por ello, una concentración de 190 mg/dL en una paciente con hemorragia por DPPNI es preocupante y puede reflejar consumo de factores o una coagulopatía en evolución. La interpretación debe integrar el sangrado, la hemodinamia, las plaquetas y los tiempos de coagulación, con mediciones seriadas cuando estén disponibles.",
+    "perlaENARM": "No interpretes el fibrinógeno obstétrico como si fuera una paciente no embarazada: una caída importante puede anticipar hemorragia grave.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), página 3.",
+      "FIGO recommendations on the management of postpartum hemorrhage.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-828",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Vía del nacimiento con feto vivo y compromiso fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar la vía del nacimiento en DPPNI grave según el estado fetal, la condición materna y la posibilidad de parto vaginal inmediato.",
+    "caso": "Gestante de 35 semanas con DPPNI presenta bradicardia fetal persistente. La madre está hipotensa pese al inicio de la reanimación y el cuello uterino se encuentra dilatado 3 cm, con presentación cefálica alta. No se prevé un nacimiento vaginal inminente.",
+    "pregunta": "¿Qué estrategia de resolución ofrece la mayor probabilidad de limitar el tiempo hasta el nacimiento?",
+    "opciones": [
+      "Preparar cesárea urgente mientras continúa la reanimación materna y se organiza el soporte transfusional",
+      "Esperar la dilatación completa porque el parto vaginal siempre es más seguro en el DPPNI",
+      "Administrar tocolíticos para disminuir la hipertonía antes de decidir la vía",
+      "Observar durante dos horas para confirmar que la bradicardia sea persistente",
+      "Indicar inducción prolongada sin considerar la condición fetal"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Cuando existe compromiso fetal persistente y el parto vaginal no es inminente, la cesárea urgente suele ser la vía de resolución más rápida, mientras se estabiliza a la madre. La vía del nacimiento depende de la condición materna, el estado fetal, la edad gestacional y la posibilidad de parto vaginal expedito. La reanimación materna y la preparación quirúrgica deben ocurrir simultáneamente.",
+    "perlaENARM": "DPPNI con feto vivo y bradicardia persistente: si el parto vaginal no es inminente, suele requerirse cesárea urgente.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), página 3.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-829",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Feto muerto y estabilidad materna",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir cuándo el parto vaginal puede ser preferible a la cesárea en DPPNI con muerte fetal.",
+    "caso": "Paciente de 34 semanas con DPPNI extenso presenta muerte fetal confirmada. Tras la evaluación inicial, permanece hemodinámicamente estable, sin coagulopatía significativa y con cuello uterino parcialmente favorable. Se discute si la cesárea es obligatoria por el desprendimiento placentario.",
+    "pregunta": "¿Qué vía de nacimiento debe considerarse si no aparece otra indicación obstétrica de cirugía?",
+    "opciones": [
+      "Cesárea obligatoria por el solo hecho de existir muerte fetal",
+      "Histerectomía inmediata para evitar cualquier posibilidad de hemorragia",
+      "Parto vaginal mediante inducción o conducción apropiada, con vigilancia estrecha materna y hemostática",
+      "Mantener el embarazo hasta el inicio espontáneo del trabajo de parto",
+      "Extracción instrumental del feto sin valorar la dilatación cervical"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "En el DPPNI con muerte fetal, si la madre está estable y no hay otra indicación para cesárea, suele preferirse el parto vaginal, con vigilancia estrecha de hemorragia y coagulopatía. La cesárea puede aumentar la morbilidad materna sin beneficio fetal en este escenario. Si la madre se deteriora o aparece una indicación quirúrgica específica, la estrategia debe reevaluarse.",
+    "perlaENARM": "DPPNI con muerte fetal y madre estable: generalmente se favorece el parto vaginal, vigilando de cerca la evolución hemodinámica y la coagulación.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), página 3.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-830",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Útero de Couvelaire",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el útero de Couvelaire y evitar indicar histerectomía de manera automática por su presencia.",
+    "caso": "Durante una cesárea por DPPNI grave se observa sangre infiltrada en el miometrio, que adquiere un aspecto violáceo. Tras la extracción fetal, el útero responde a las maniobras habituales y no existe hemorragia incontrolable. Un integrante del equipo solicita histerectomía inmediata por el aspecto macroscópico del órgano.",
+    "pregunta": "¿Qué consideración quirúrgica es fundamental?",
+    "opciones": [
+      "El aspecto violáceo demuestra necrosis uterina irreversible en todos los casos",
+      "La infiltración miometrial obliga siempre a histerectomía, aunque exista buena contracción y hemostasia",
+      "Debe evitarse evaluar la contractilidad porque puede desprender más placenta",
+      "La presencia de sangre en el miometrio excluye una coagulopatía sistémica",
+      "El útero de Couvelaire no es por sí solo indicación de histerectomía; la decisión depende de la hemorragia y de la respuesta uterina"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El útero de Couvelaire corresponde a infiltración de sangre en el miometrio asociada a DPPNI. Su aspecto puede ser llamativo, pero no obliga automáticamente a histerectomía. La conducta depende de la capacidad de contracción uterina, la hemorragia persistente, el estado hemodinámico y la respuesta a las medidas de control. La coagulopatía debe evaluarse y tratarse en paralelo.",
+    "perlaENARM": "Útero de Couvelaire no equivale a histerectomía obligatoria; la indicación depende del control hemorrágico y la condición materna.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), páginas 2-3.",
+      "Williams Obstetrics, 26.ª ed.",
+      "FIGO recommendations on the management of postpartum hemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-831",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Factores de riesgo y prevención",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar factores de riesgo modificables y no modificables asociados con DPPNI.",
+    "caso": "Paciente de 38 años con antecedente de preeclampsia en un embarazo previo presenta hipertensión crónica y consumo actual de tabaco. Consulta a las 28 semanas para control prenatal y pregunta qué factores de su historia se relacionan con mayor riesgo de desprendimiento placentario.",
+    "pregunta": "¿Qué combinación de antecedentes tiene una asociación reconocida con DPPNI?",
+    "opciones": [
+      "Hipertensión, enfermedad vascular y tabaquismo",
+      "Miopía, rinitis alérgica y antecedente de apendicectomía",
+      "Hipotiroidismo subclínico aislado y uso previo de lentes de contacto",
+      "Vacunación completa y suplementación con ácido fólico",
+      "Grupo sanguíneo O positivo y antecedente de infección urinaria no complicada"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La hipertensión es uno de los factores de riesgo más importantes para DPPNI. También se asocian la enfermedad vascular, preeclampsia, tabaquismo, consumo de cocaína, traumatismo y algunos antecedentes obstétricos. La identificación de estos factores permite mejorar el control prenatal y reforzar la prevención de exposiciones modificables, aunque no elimina por completo el riesgo.",
+    "perlaENARM": "La hipertensión materna es un factor clásico de DPPNI; tabaco, cocaína, traumatismo y enfermedad vascular también elevan el riesgo.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), página 1.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-832",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "DPPNI asociado a traumatismo",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el riesgo de DPPNI después de un traumatismo abdominal y la necesidad de vigilancia maternofetal.",
+    "caso": "Gestante de 29 semanas sufre una colisión automovilística con impacto abdominal. Refiere dolor uterino y contracciones irregulares, pero no presenta sangrado vaginal. Sus signos vitales iniciales son normales y la evaluación ecográfica no muestra un hematoma evidente.",
+    "pregunta": "¿Qué conducta es más segura después de la evaluación y estabilización inicial?",
+    "opciones": [
+      "Dar de alta inmediata porque no existe sangrado ni hematoma ecográfico",
+      "Indicar cesárea inmediata en toda paciente embarazada que sufra un traumatismo",
+      "Solicitar solo una radiografía abdominal y omitir la evaluación fetal",
+      "Mantener observación y monitorización maternofetal según edad gestacional, síntomas y mecanismo del trauma, reevaluando signos de DPPNI",
+      "Administrar tocolíticos de manera automática para evitar cualquier contracción"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El traumatismo abdominal puede desencadenar DPPNI aun sin sangrado vaginal ni hallazgos ecográficos iniciales. La conducta depende de la gravedad del trauma, los síntomas, la edad gestacional y la evolución maternofetal. El dolor uterino y las contracciones justifican observación y monitorización, con reevaluación si aparecen sangrado, hipertonía o alteraciones fetales.",
+    "perlaENARM": "Después de un traumatismo abdominal, la ausencia de sangrado o de hematoma en el ultrasonido no descarta DPPNI.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), página 1.",
+      "ACOG. Trauma during pregnancy: clinical considerations.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-833",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Hallazgos ecográficos y localización del hematoma",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer los principales patrones ecográficos descritos en DPPNI y sus limitaciones pronósticas.",
+    "caso": "Gestante de 31 semanas con dolor uterino y sangrado escaso se encuentra estable. El ultrasonido muestra una colección compatible con hematoma adyacente a la placenta y una zona de colección situada entre la placenta y el líquido amniótico. No hay datos actuales de compromiso fetal.",
+    "pregunta": "¿Cuál es la interpretación más adecuada de la utilidad de estos hallazgos?",
+    "opciones": [
+      "Los hematomas visibles excluyen cualquier posibilidad de progresión clínica",
+      "Los hallazgos pueden apoyar el diagnóstico de DPPNI, pero deben integrarse con la evolución clínica y la vigilancia maternofetal",
+      "Una colección entre placenta y líquido amniótico confirma placenta previa",
+      "El ultrasonido determina con precisión el volumen total de sangre perdida en todos los casos",
+      "La ausencia de compromiso fetal inicial descarta la necesidad de seguimiento"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF, página 2, describe hematoma retroplacentario, marginal, subcoriónico y colecciones entre la placenta y el líquido amniótico como hallazgos que pueden observarse en DPPNI. Estos datos ayudan al diagnóstico, pero el ultrasonido no mide de forma confiable toda la pérdida sanguínea ni sustituye la vigilancia clínica. La progresión depende del cuadro materno, la actividad uterina y el estado fetal.",
+    "perlaENARM": "El hematoma ecográfico apoya DPPNI, pero la ausencia o tamaño aparente de la colección no predicen por sí solos toda la gravedad.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), página 2.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-834",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Compromiso fetal y monitorización",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar el patrón cardiotocográfico con el cuadro clínico para reconocer deterioro fetal asociado a DPPNI.",
+    "caso": "Paciente de 33 semanas con sospecha de DPPNI presenta contracciones frecuentes y dolor uterino. La cardiotocografía muestra desaceleraciones tardías recurrentes y variabilidad mínima persistente, a pesar de corregir la hipotensión materna y colocarla en posición lateral.",
+    "pregunta": "¿Qué significado clínico tiene la persistencia de estas alteraciones?",
+    "opciones": [
+      "Demuestra que el feto está dormido y que la monitorización puede suspenderse",
+      "Es un patrón tranquilizador si el sangrado vaginal es escaso",
+      "Confirma por sí solo una malformación congénita cardiaca",
+      "Permite continuar la observación durante varias horas sin reevaluación",
+      "Sugiere compromiso de la oxigenación fetal y requiere reevaluación inmediata para decidir la resolución según el contexto obstétrico"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Las desaceleraciones tardías recurrentes y la variabilidad mínima persistente son hallazgos preocupantes cuando se acompañan de DPPNI y actividad uterina anormal. Después de corregir causas maternas reversibles, la persistencia del patrón exige evaluación urgente y decisión sobre el nacimiento según la edad gestacional, la condición materna y la posibilidad de parto vaginal inmediato.",
+    "perlaENARM": "En DPPNI, la cardiotocografía persistentemente patológica puede ser la señal más rápida de deterioro fetal, incluso si el sangrado externo es escaso.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), página 2.",
+      "ACOG. Intrapartum fetal heart rate monitoring: nomenclature and management.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-835",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "DPPNI leve y manejo expectante",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar criterios clínicos para considerar vigilancia hospitalaria o manejo expectante en un DPPNI limitado.",
+    "caso": "Gestante de 30 semanas presenta un episodio de sangrado escaso y dolor uterino leve. Tras la valoración inicial permanece estable, sin contracciones persistentes, con cardiotocografía tranquilizadora y laboratorios sin alteraciones. La ecografía muestra una pequeña colección compatible con hematoma placentario.",
+    "pregunta": "¿Qué estrategia de manejo puede considerarse si la evaluación completa no identifica deterioro materno ni fetal?",
+    "opciones": [
+      "Vigilancia clínica y maternofetal estrecha, con reevaluación y decisión individualizada sobre hospitalización y continuidad del embarazo",
+      "Cesárea inmediata en todas las pacientes con cualquier hematoma visible",
+      "Alta sin instrucciones de alarma porque un hematoma pequeño no progresa",
+      "Administrar anticoagulación terapéutica para impedir la extensión del hematoma",
+      "Inducir el parto sin considerar la edad gestacional ni la evolución"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "En casos seleccionados de DPPNI limitado, con madre estable, estado fetal tranquilizador y sin progresión clínica, puede considerarse vigilancia estrecha y manejo expectante individualizado. La decisión depende de la edad gestacional, persistencia de sangrado o contracciones, laboratorio y capacidad de seguimiento. La paciente requiere instrucciones claras de alarma y reevaluación inmediata si empeora.",
+    "perlaENARM": "El manejo expectante solo es razonable cuando la condición materna y fetal permanece estable y existe vigilancia adecuada; no se decide por el tamaño del hematoma aislado.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), páginas 1-2.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage.",
+      "ACOG. Medically Indicated Late-Preterm and Early-Term Deliveries, Committee Opinion No. 818."
+    ]
+  },
+  {
+    "id": "OBS-836",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "DPPNI cercano al término",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Individualizar la resolución del embarazo cercano al término cuando existe DPPNI y riesgo de progresión.",
+    "caso": "Paciente de 37 semanas con episodio de sangrado vaginal oscuro y dolor uterino moderado. Está estable, pero persisten contracciones frecuentes y existe sospecha clínica de DPPNI. El trazado fetal es actualmente tranquilizador y el cuello uterino se encuentra parcialmente favorable.",
+    "pregunta": "¿Qué aspecto debe orientar la decisión sobre el nacimiento?",
+    "opciones": [
+      "Esperar obligatoriamente hasta las 40 semanas si el primer trazado es tranquilizador",
+      "Indicar tocolisis prolongada para evitar el nacimiento a término",
+      "Ignorar la sospecha de DPPNI si el ultrasonido no identifica hematoma",
+      "Valorar la resolución del embarazo según la persistencia del desprendimiento, el estado maternofetal y la posibilidad de parto vaginal expedito",
+      "Realizar histerectomía profiláctica antes del nacimiento"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Cerca del término, la continuidad del embarazo debe evaluarse cuidadosamente ante sospecha de DPPNI. La decisión depende de la persistencia de los síntomas, el sangrado, la actividad uterina, el estado fetal y la evolución materna. No debe posponerse un nacimiento indicado por razones médicas solo para alcanzar una semana gestacional predeterminada. La vía del nacimiento se individualiza.",
+    "perlaENARM": "En DPPNI cercano al término, la estabilidad inicial no justifica ignorar síntomas persistentes; la decisión de nacimiento depende del cuadro completo.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), páginas 1 y 3.",
+      "ACOG. Medically Indicated Late-Preterm and Early-Term Deliveries, Committee Opinion No. 818.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-837",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Insuficiencia renal aguda",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la hemorragia grave por DPPNI con hipoperfusión renal y lesión renal aguda.",
+    "caso": "Paciente intervenida por DPPNI grave presenta pérdida sanguínea importante, hipotensión prolongada y oliguria persistente en las primeras horas posoperatorias. La creatinina aumenta respecto del valor basal y no existe evidencia inicial de obstrucción urinaria.",
+    "pregunta": "¿Cuál es el mecanismo más probable de la lesión renal en este contexto?",
+    "opciones": [
+      "Glomerulonefritis primaria desencadenada de forma obligatoria por cualquier DPPNI",
+      "Hipoperfusión renal por choque hemorrágico, con riesgo de lesión tubular aguda si la perfusión no se restaura",
+      "Diabetes insípida gestacional como explicación principal de la oliguria",
+      "Obstrucción ureteral bilateral como complicación inevitable de la cesárea",
+      "Aumento fisiológico de creatinina en el puerperio sin relevancia clínica"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La hemorragia y el choque pueden reducir la perfusión renal y causar lesión renal aguda prerrenal o evolucionar a lesión tubular isquémica. La evaluación incluye estado hemodinámico, pérdidas, respuesta a la reanimación, diuresis y tendencias de creatinina, además de descartar otras causas como lesión urológica. El manejo requiere corregir la causa y monitorizar la función renal.",
+    "perlaENARM": "Tras DPPNI con hemorragia masiva, oliguria y creatinina ascendente sugieren lesión renal aguda por hipoperfusión hasta demostrar otra causa.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), página 2.",
+      "KDIGO Clinical Practice Guideline for Acute Kidney Injury.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-838",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Amniotomía y conducción del parto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Comprender que la amniotomía puede formar parte de una estrategia seleccionada, pero no sustituye la estabilización ni la decisión de la vía del nacimiento.",
+    "caso": "Paciente de 36 semanas con DPPNI y muerte fetal confirmada permanece hemodinámicamente estable. El cuello uterino está dilatado 5 cm y las membranas están íntegras. No hay placenta previa y el equipo considera conducir el parto vaginal bajo vigilancia estrecha.",
+    "pregunta": "¿Qué papel puede tener la amniotomía en este escenario?",
+    "opciones": [
+      "Es obligatoria en toda paciente con DPPNI, incluso antes de evaluar la estabilidad materna",
+      "Está contraindicada de manera absoluta cuando existe muerte fetal",
+      "Puede considerarse dentro de una estrategia de conducción del parto en pacientes seleccionadas, sin reemplazar la vigilancia hemorrágica ni la reevaluación clínica",
+      "Garantiza que la CID no aparecerá durante el trabajo de parto",
+      "Permite evitar los controles de coagulación si el sangrado externo disminuye"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF, página 3, menciona la amniotomía como parte del manejo del DPPNI. En la práctica, su utilización depende de la situación obstétrica, la presentación, la dilatación, la estabilidad y el plan de nacimiento. No sustituye la evaluación de hemorragia, el control de la coagulación ni la reevaluación de la madre. La inducción o conducción debe individualizarse.",
+    "perlaENARM": "La amniotomía puede formar parte del manejo seleccionado del DPPNI, pero no es una maniobra universal ni sustituye el control de la hemorragia.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), página 3.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-839",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Preparación de laboratorio y transfusión",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar estudios iniciales que permiten evaluar anemia, coagulopatía y necesidad de hemoderivados en DPPNI.",
+    "caso": "Gestante de 33 semanas con sangrado vaginal, dolor uterino e hipertonía es trasladada a urgencias. Se encuentra taquicárdica y el equipo sospecha un desprendimiento moderado a grave. Se preparan dos accesos venosos de gran calibre y se activa el protocolo institucional de hemorragia obstétrica.",
+    "pregunta": "¿Qué conjunto de estudios es prioritario obtener sin retrasar la reanimación?",
+    "opciones": [
+      "Biometría hemática, grupo y pruebas cruzadas, TP/TTPa y fibrinógeno",
+      "Perfil lipídico, hemoglobina glucosilada y pruebas de función tiroidea",
+      "Marcadores tumorales y citología cervical",
+      "Prueba de tolerancia oral a la glucosa y examen general de orina como estudios únicos",
+      "Densitometría ósea y perfil de vitamina D"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La biometría hemática ayuda a evaluar anemia y plaquetas; el grupo sanguíneo y las pruebas cruzadas permiten preparar transfusión; TP, TTPa y fibrinógeno orientan la coagulopatía. Según la gravedad, se requieren controles seriados y coordinación con el banco de sangre. La toma de muestras no debe retrasar la reanimación ni la resolución urgente cuando estén indicadas.",
+    "perlaENARM": "En DPPNI grave, solicitar BH, pruebas de coagulación, fibrinógeno y pruebas cruzadas; el laboratorio inicial puede ser normal y deteriorarse después.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), página 3.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage.",
+      "FIGO recommendations on the management of postpartum hemorrhage."
+    ]
+  },
+  {
+    "id": "OBS-840",
+    "especialidad": "Obstetricia",
+    "tema": "Desprendimiento prematuro de placenta normoinserta",
+    "subtema": "Integración diagnóstica y terapéutica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar factores de riesgo, presentación clínica, pruebas de laboratorio y estado fetal para decidir el manejo del DPPNI grave.",
+    "caso": "Gestante de 36 semanas con preeclampsia presenta dolor abdominal intenso, sangrado vaginal oscuro y útero hipertónico. Tiene frecuencia cardiaca de 132 lpm, presión arterial de 88/54 mmHg, fibrinógeno de 125 mg/dL y alteraciones fetales persistentes en la cardiotocografía. El ultrasonido muestra una colección retroplacentaria.",
+    "pregunta": "¿Qué plan de atención integra mejor la urgencia materna, el riesgo de coagulopatía y el compromiso fetal?",
+    "opciones": [
+      "Observar hasta que el hematoma desaparezca ecográficamente y repetir laboratorio al día siguiente",
+      "Indicar tocolisis para reducir las contracciones y diferir el nacimiento hasta término",
+      "Realizar resonancia magnética antes de iniciar cualquier tratamiento",
+      "Activar el protocolo de hemorragia obstétrica, iniciar reanimación y soporte hemostático, y proceder a resolución urgente según la condición maternofetal",
+      "Dar de alta si el sangrado vaginal disminuye después de la exploración"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El cuadro es compatible con DPPNI grave con choque, hipofibrinogenemia y compromiso fetal. Requiere reanimación inmediata, disponibilidad de hemoderivados, evaluación y corrección de la coagulopatía, monitorización maternofetal y resolución urgente. La vía del nacimiento depende de la condición materna, el estado fetal y la posibilidad de parto vaginal inmediato; no debe retrasarse por estudios de imagen adicionales.",
+    "perlaENARM": "DPPNI con choque, fibrinógeno muy bajo y alteración fetal persistente es una emergencia: reanimación, soporte hemostático y nacimiento urgente coordinados.",
+    "bibliografia": [
+      "PDF proporcionado: 19. DPPNI (Abruptio Placentae), páginas 1-3.",
+      "RCOG. Green-top Guideline No. 63: Antepartum Haemorrhage.",
+      "FIGO recommendations on the management of postpartum hemorrhage.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-841",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Fisiopatología y repercusión fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar por qué la ruptura de vasos fetales desprotegidos puede causar deterioro fetal rápido aun con pérdida sanguínea materna mínima.",
+    "caso": "Gestante de 37 semanas sin diagnóstico prenatal de vasa previa presenta ruptura espontánea de membranas y sangrado vaginal rojo brillante. En pocos minutos, la frecuencia cardiaca fetal disminuye a 70 lpm. La madre permanece normotensa, con frecuencia cardiaca normal y sin dolor uterino importante.",
+    "pregunta": "¿Qué mecanismo explica mejor la rápida descompensación fetal con estabilidad hemodinámica materna?",
+    "opciones": [
+      "Desprendimiento de una placenta normalmente implantada con hemorragia predominantemente materna",
+      "Vasoconstricción uterina aislada que reduce transitoriamente el flujo sanguíneo materno",
+      "Compresión del cordón umbilical sin pérdida sanguínea fetal",
+      "Ruptura de vasos fetales que recorren las membranas, con pérdida aguda de volumen circulante fetal",
+      "Hemorragia digestiva fetal secundaria a hipoxia intrauterina"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "En la vasa previa, vasos fetales desprotegidos transcurren por las membranas cerca del orificio cervical interno. La ruptura de membranas puede lesionar estos vasos y provocar hemorragia fetal aguda, anemia, hipovolemia y bradicardia. La pérdida puede ser pequeña en términos absolutos, pero crítica para el volumen circulante fetal. La estabilidad materna no descarta una emergencia fetal.",
+    "perlaENARM": "Sangrado coincidente con ruptura de membranas y bradicardia fetal súbita, con madre estable, obliga a sospechar ruptura de vasa previa.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, página 1.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "RCOG. Green-top Guideline No. 27b: Vasa Praevia."
+    ]
+  },
+  {
+    "id": "OBS-842",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Inserción velamentosa del cordón",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar la inserción velamentosa del cordón con la exposición de vasos fetales y el riesgo de vasa previa.",
+    "caso": "En el ultrasonido morfológico de una gestante de 22 semanas se observa que el cordón umbilical no se inserta directamente en el disco placentario, sino en las membranas. Desde ese punto, los vasos fetales recorren las membranas antes de alcanzar el tejido placentario. Algunos vasos parecen aproximarse al segmento uterino inferior.",
+    "pregunta": "¿Qué característica anatómica aumenta el riesgo de hemorragia fetal durante la ruptura de membranas?",
+    "opciones": [
+      "Los vasos fetales carecen de la protección habitual de la gelatina de Wharton y pueden recorrer las membranas cerca del cuello uterino",
+      "La inserción velamentosa produce necesariamente insuficiencia placentaria grave en todos los embarazos",
+      "La sangre de estos vasos procede exclusivamente de la circulación materna",
+      "La inserción anormal impide que la placenta intercambie oxígeno durante todo el embarazo",
+      "Los vasos velamentosos permanecen siempre confinados al fondo uterino"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "En la inserción velamentosa, los vasos umbilicales se ramifican por las membranas antes de alcanzar la placenta y carecen de la protección habitual que ofrece la gelatina de Wharton. Si estos vasos cruzan cerca del orificio cervical interno, pueden constituir una vasa previa y quedar expuestos a lesión durante la amniorrexis o el trabajo de parto. La inserción velamentosa es un factor anatómico de riesgo, pero no significa que todas las pacientes presenten vasa previa.",
+    "perlaENARM": "Inserción velamentosa no equivale automáticamente a vasa previa: debe determinarse la trayectoria de los vasos respecto al orificio cervical interno.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, página 1.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-843",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Diagnóstico prenatal con Doppler",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Seleccionar la técnica de imagen que permite identificar vasos fetales que cruzan el segmento uterino inferior.",
+    "caso": "Paciente de 25 semanas con placenta bilobulada acude a ultrasonido. Se identifican estructuras vasculares lineales en las membranas, próximas al orificio cervical interno. El estudio abdominal no permite definir con certeza su trayecto ni su relación con el cuello uterino.",
+    "pregunta": "¿Qué estudio permite mejorar la caracterización diagnóstica de la sospecha?",
+    "opciones": [
+      "Radiografía simple de pelvis",
+      "Tomografía computarizada con contraste",
+      "Amniocentesis para cuantificar eritrocitos fetales",
+      "Resonancia magnética como estudio inicial obligatorio en todas las pacientes",
+      "Ultrasonido transvaginal complementado con Doppler color y, cuando sea necesario, Doppler espectral"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El ultrasonido transvaginal con Doppler permite visualizar la relación de los vasos con el orificio cervical interno y establecer si se trata de vasos fetales que recorren las membranas. El Doppler espectral puede ayudar a confirmar el origen fetal mediante la identificación de una frecuencia de flujo concordante con la frecuencia cardiaca fetal. El PDF, página 1, recomienda combinar ultrasonido abdominal y endovaginal con Doppler.",
+    "perlaENARM": "La combinación de ultrasonido transvaginal y Doppler es fundamental para confirmar vasa previa y distinguir vasos fetales de otras estructuras.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, página 1.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "RCOG. Green-top Guideline No. 27b: Vasa Praevia."
+    ]
+  },
+  {
+    "id": "OBS-844",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Criterio ecográfico de localización",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Aplicar el criterio de proximidad de los vasos fetales al orificio cervical interno descrito en el material de estudio.",
+    "caso": "En una gestante de 28 semanas, el Doppler transvaginal identifica vasos fetales que cruzan las membranas a 1.4 cm del orificio cervical interno. No hay sangrado ni contracciones. El informe preliminar describe inserción velamentosa del cordón y recomienda evaluación obstétrica especializada.",
+    "pregunta": "De acuerdo con el criterio de la GPC 2019 reproducido en el PDF, ¿cómo debe clasificarse este hallazgo?",
+    "opciones": [
+      "Como un hallazgo normal, porque los vasos no cruzan directamente el centro del orificio",
+      "Como vasa previa, porque los vasos fetales se encuentran a menos de 2 cm del orificio cervical interno",
+      "Como placenta previa, porque todo vaso cercano al cuello implica tejido placentario sobre el orificio",
+      "Como desprendimiento placentario, aunque no exista hematoma ni sangrado",
+      "Como inserción normal del cordón, sin necesidad de seguimiento"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF, página 1, recoge el criterio de la GPC mexicana de 2019 según el cual la presencia de vasos fetales a menos de 2 cm del orificio cervical interno establece el diagnóstico de vasa previa. La valoración clínica actual debe considerar también la trayectoria vascular, la técnica de imagen y el protocolo de referencia empleado.",
+    "perlaENARM": "Para esta serie, el umbral que reproduce el material mexicano de 2019 es menos de 2 cm entre los vasos fetales y el orificio cervical interno.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, página 1; criterio atribuido a GPC 2019.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa."
+    ]
+  },
+  {
+    "id": "OBS-845",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Factores de riesgo y tamizaje dirigido",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer las condiciones placentarias y de inserción del cordón que justifican una evaluación dirigida para vasa previa.",
+    "caso": "Gestante de 27 semanas con embarazo gemelar presenta placenta bilobulada. El ultrasonido inicial no documentó de forma clara la inserción del cordón ni la trayectoria de los vasos que conectan ambos lóbulos placentarios. No ha presentado sangrado ni ruptura de membranas.",
+    "pregunta": "¿Qué aspecto debe priorizarse en la evaluación ecográfica complementaria?",
+    "opciones": [
+      "Medir únicamente la longitud femoral de ambos fetos",
+      "Descartar vasa previa porque no hay sangrado vaginal",
+      "Evaluar la inserción del cordón y la trayectoria de los vasos entre los lóbulos placentarios respecto al orificio cervical interno mediante Doppler",
+      "Solicitar cesárea inmediata sin completar la valoración anatómica",
+      "Confirmar madurez pulmonar mediante amniocentesis"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La placenta bilobulada, la placenta succenturiata, la inserción velamentosa y el embarazo múltiple se asocian con mayor riesgo de vasa previa. En una placenta bilobulada, vasos que conectan los lóbulos pueden recorrer las membranas cerca del cuello uterino. La evaluación debe documentar la inserción del cordón y el trayecto vascular, preferentemente con ultrasonido transvaginal y Doppler.",
+    "perlaENARM": "Placenta bilobulada o succenturiata e inserción velamentosa son señales para estudiar la trayectoria de los vasos fetales.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, páginas 1 y 3.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-846",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Confirmación en el tercer trimestre",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar por qué se recomienda reevaluar la persistencia de vasa previa antes de decidir hospitalización y nacimiento programado.",
+    "caso": "Paciente de 24 semanas presenta vasos fetales a 1.5 cm del orificio cervical interno en el Doppler transvaginal. Está asintomática y el embarazo continúa sin complicaciones. El equipo planea reevaluar la localización vascular durante el tercer trimestre antes de definir la conducta definitiva.",
+    "pregunta": "¿Cuál es el objetivo principal de repetir el ultrasonido entre las 30 y 34 semanas según el material proporcionado?",
+    "opciones": [
+      "Confirmar si la vasa previa persiste y evitar intervenciones innecesarias cuando los vasos dejan de estar en una localización de riesgo",
+      "Demostrar que la inserción del cordón se normaliza en todos los embarazos",
+      "Determinar la edad gestacional exacta a partir del flujo Doppler",
+      "Excluir cualquier posibilidad de ruptura de membranas",
+      "Sustituir la evaluación del crecimiento fetal y la vigilancia obstétrica habitual"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF, página 1, recomienda confirmar la persistencia de vasa previa mediante ultrasonido entre las 30 y 34 semanas para evitar hospitalizaciones innecesarias. Algunos casos diagnosticados a mitad del embarazo dejan de cumplir los criterios de localización de riesgo conforme progresa la gestación. La reevaluación debe comprobar la relación de los vasos con el orificio cervical interno antes de decidir el plan final.",
+    "perlaENARM": "Un diagnóstico ecográfico de vasa previa en el segundo trimestre requiere reevaluación posterior para confirmar persistencia y orientar la planificación obstétrica.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, páginas 1 y 3.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa."
+    ]
+  },
+  {
+    "id": "OBS-847",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Diagnóstico diferencial de sangrado tras amniorrexis",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar la ruptura de vasa previa del DPPNI y otras causas de hemorragia intraparto a partir de la cronología y la repercusión fetal.",
+    "caso": "Gestante de 36 semanas inicia trabajo de parto sin diagnóstico prenatal de vasa previa. Tras la ruptura espontánea de membranas presenta sangrado vaginal súbito y bradicardia fetal profunda. El útero está blando entre contracciones, la madre permanece estable y no existe dolor abdominal persistente.",
+    "pregunta": "¿Qué diagnóstico explica mejor la secuencia temporal y la respuesta fetal?",
+    "opciones": [
+      "Desprendimiento prematuro de placenta normoinserta con hemorragia materna oculta",
+      "Rotura uterina completa con hemoperitoneo materno",
+      "Placenta previa no complicada, sin compromiso fetal",
+      "Ruptura de vasa previa con hemorragia de origen fetal",
+      "Trabajo de parto fisiológico con desaceleración transitoria sin relación con el sangrado"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La aparición de sangrado inmediatamente después de la ruptura de membranas, junto con bradicardia fetal súbita y estabilidad materna, es altamente sugestiva de ruptura de vasa previa. En el DPPNI suele haber dolor o hipertonía uterina, aunque la presentación puede variar. La sospecha de hemorragia fetal exige resolución urgente, sin retrasarla para completar estudios confirmatorios.",
+    "perlaENARM": "La cronología importa: sangrado inmediatamente después de la amniorrexis y bradicardia fetal marcada deben hacer sospechar ruptura de vasa previa.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, página 1.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "RCOG. Green-top Guideline No. 27b: Vasa Praevia."
+    ]
+  },
+  {
+    "id": "OBS-848",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Ruptura de vasa previa y cesárea de urgencia",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la indicación de resolución inmediata cuando se sospecha ruptura de vasa previa con compromiso fetal.",
+    "caso": "Paciente de 35 semanas con diagnóstico prenatal de vasa previa presenta ruptura prematura de membranas y sangrado vaginal. La frecuencia cardiaca fetal cae de 145 a 65 lpm y no se recupera tras las medidas iniciales de evaluación. La presión arterial materna es normal.",
+    "pregunta": "¿Qué intervención obstétrica debe organizarse sin demora?",
+    "opciones": [
+      "Inducción con oxitocina para acelerar el parto vaginal",
+      "Observación durante 30 minutos para cuantificar la pérdida sanguínea",
+      "Cesárea urgente mientras se coordina la atención neonatal para posible anemia e hipovolemia fetal",
+      "Repetición del ultrasonido Doppler antes de tomar cualquier decisión",
+      "Administración de tocolíticos para recuperar la frecuencia cardiaca fetal"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La ruptura de vasa previa con bradicardia persistente es una emergencia obstétrica. Se requiere cesárea urgente y preparación del equipo neonatal para valorar y tratar anemia, hipovolemia y necesidad de reanimación o transfusión neonatal. La estabilidad hemodinámica materna no reduce la urgencia porque la sangre perdida puede proceder del feto.",
+    "perlaENARM": "Vasa previa rota con bradicardia fetal persistente: cesárea urgente y preparación neonatal; no se espera confirmación adicional por imagen.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, página 2.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "RCOG. Green-top Guideline No. 27b: Vasa Praevia."
+    ]
+  },
+  {
+    "id": "OBS-849",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Hospitalización antenatal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Individualizar la hospitalización antenatal considerando riesgo de parto prematuro, distancia al hospital y capacidad de respuesta de urgencias.",
+    "caso": "Gestante de 31 semanas con vasa previa persistente confirmada por Doppler está asintomática. No tiene contracciones ni acortamiento cervical, vive a 15 minutos de un hospital con quirófano disponible permanentemente y cuenta con transporte confiable. Otra paciente con el mismo diagnóstico vive a tres horas del hospital y ha presentado contracciones recurrentes.",
+    "pregunta": "¿Qué principio debe orientar la decisión sobre hospitalización?",
+    "opciones": [
+      "Hospitalizar obligatoriamente a todas las pacientes desde el momento del diagnóstico, sin considerar el contexto",
+      "Individualizar según síntomas, riesgo de parto prematuro, longitud cervical, acceso rápido al hospital y capacidad de vigilancia",
+      "Dar de alta a ambas pacientes porque la ausencia de sangrado elimina el riesgo",
+      "Esperar hasta que se rompan las membranas para ingresar a cualquiera de las dos",
+      "Indicar reposo absoluto como sustituto de la valoración del riesgo"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El PDF, página 2, propone hospitalización entre las 30 y 34 semanas en pacientes con diagnóstico confirmado, mientras que la práctica clínica requiere individualizar la decisión. Los síntomas, la longitud cervical, los antecedentes de parto prematuro, la distancia al hospital y la posibilidad de una cesárea urgente influyen en el balance entre hospitalización y vigilancia ambulatoria. Una paciente con contracciones recurrentes y acceso limitado a urgencias presenta un perfil distinto de una paciente asintomática con acceso rápido.",
+    "perlaENARM": "La hospitalización por vasa previa busca reducir el riesgo de que una ruptura de membranas ocurra lejos de atención urgente; su necesidad se individualiza.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, páginas 2-3.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "RCOG. Green-top Guideline No. 27b: Vasa Praevia."
+    ]
+  },
+  {
+    "id": "OBS-850",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Momento de la cesárea programada",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Balancear el riesgo de ruptura de membranas y hemorragia fetal frente a la morbilidad neonatal por nacimiento pretérmino.",
+    "caso": "Gestante de 34 semanas con vasa previa persistente confirmada, sin sangrado, contracciones ni ruptura de membranas. El cuello uterino no está acortado y la evaluación fetal es tranquilizadora. El equipo analiza el momento de una cesárea programada y debe justificar la fecha con base en el riesgo individual y la guía utilizada.",
+    "pregunta": "¿Cuál es el principio central para establecer la fecha de nacimiento?",
+    "opciones": [
+      "Esperar siempre hasta las 39 semanas para disminuir toda morbilidad neonatal",
+      "Realizar cesárea inmediata en cuanto se confirma el diagnóstico, independientemente de la edad gestacional",
+      "Permitir trabajo de parto espontáneo porque los vasos fetales están contenidos en las membranas",
+      "Individualizar la fecha de cesárea dentro del intervalo recomendado por la guía aplicable, considerando síntomas, riesgo de parto prematuro y acceso a atención urgente",
+      "Programar el nacimiento exclusivamente según la estimación ecográfica del peso fetal"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El PDF propone cesárea programada entre las 34 y 36 semanas si la vasa previa persiste en el tercer trimestre y no hay datos de alarma. Las recomendaciones profesionales varían en el intervalo óptimo y enfatizan la individualización, tomando en cuenta el riesgo de ruptura espontánea de membranas, el antecedente de síntomas, el cuello uterino, el acceso hospitalario y la morbilidad asociada a la prematuridad. No se recomienda planear el parto vaginal cuando persiste vasa previa.",
+    "perlaENARM": "La vasa previa persistente requiere cesárea antes de que el trabajo de parto o la ruptura de membranas expongan los vasos fetales; la semana exacta se individualiza.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, página 2.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "RCOG. Green-top Guideline No. 27b: Vasa Praevia."
+    ]
+  },
+  {
+    "id": "OBS-851",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Corticosteroides antenatales",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Integrar el riesgo de nacimiento pretérmino al decidir el uso de corticosteroides antenatales en vasa previa.",
+    "caso": "Paciente de 31 semanas con vasa previa persistente está hospitalizada por contracciones recurrentes. El equipo considera que podría requerir nacimiento en los próximos días, aunque actualmente no presenta sangrado ni ruptura de membranas. No ha recibido corticosteroides antenatales en este embarazo.",
+    "pregunta": "¿Qué aspecto debe considerarse respecto a la maduración pulmonar fetal?",
+    "opciones": [
+      "Administrar corticosteroides según la edad gestacional y la probabilidad real de nacimiento pretérmino dentro del intervalo recomendado, sin retrasar una cesárea urgente",
+      "Administrarlos de forma obligatoria a toda paciente con vasa previa, incluso cuando el nacimiento no sea probable en semanas",
+      "Evitar corticosteroides porque aumentan directamente el riesgo de ruptura de los vasos fetales",
+      "Esperar a que ocurra la ruptura de membranas antes de considerar su administración",
+      "Usarlos como tratamiento para cerrar los vasos velamentosos"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Los corticosteroides antenatales deben considerarse de acuerdo con la edad gestacional, la probabilidad de nacimiento pretérmino en el periodo previsto y las recomendaciones vigentes. El PDF propone maduración pulmonar entre las 28 y 32 semanas, pero el uso debe individualizarse y no convertirse en una intervención automática si el parto no es probable en el intervalo adecuado. Nunca debe retrasarse una cesárea urgente por completar el esquema.",
+    "perlaENARM": "Los corticosteroides preparan al feto para un posible nacimiento pretérmino; no previenen la ruptura de vasa previa ni deben retrasar una emergencia.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, página 2.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "ACOG. Antenatal Corticosteroid Therapy for Fetal Maturation."
+    ]
+  },
+  {
+    "id": "OBS-852",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Vasa previa y ruptura prematura de membranas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la ruptura de membranas como un evento de alto riesgo en una paciente con vasa previa persistente.",
+    "caso": "Gestante de 33 semanas con diagnóstico confirmado de vasa previa refiere salida súbita de líquido claro por vagina. No presenta sangrado y la frecuencia cardiaca fetal se mantiene inicialmente en 140 lpm. La paciente pregunta si puede esperar a que comiencen las contracciones porque todavía no tiene dolor.",
+    "pregunta": "¿Qué conducta obstétrica debe organizarse?",
+    "opciones": [
+      "Esperar trabajo de parto espontáneo mientras el trazado fetal permanezca normal",
+      "Indicar inducción con oxitocina para reducir el tiempo hasta el parto vaginal",
+      "Dar de alta si no hay sangrado vaginal",
+      "Realizar tacto vaginal repetido para determinar el grado de dilatación antes de avisar al equipo quirúrgico",
+      "Activar la valoración obstétrica urgente y preparar cesárea por la ruptura de membranas en presencia de vasa previa"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La ruptura de membranas puede lesionar los vasos fetales expuestos en las membranas y provocar hemorragia fetal incluso si el sangrado todavía no es visible. En una paciente con vasa previa persistente, la ruptura de membranas o el inicio del trabajo de parto requieren resolución urgente mediante cesárea. La ausencia de dolor o sangrado inicial no hace seguro esperar.",
+    "perlaENARM": "En vasa previa confirmada, ruptura de membranas o trabajo de parto son indicaciones de cesárea urgente, aunque la frecuencia cardiaca fetal inicialmente sea normal.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, página 2.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "RCOG. Green-top Guideline No. 27b: Vasa Praevia."
+    ]
+  },
+  {
+    "id": "OBS-853",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Monitorización fetal durante vigilancia antenatal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el papel y las limitaciones de la vigilancia fetal en una paciente con vasa previa persistente.",
+    "caso": "Paciente de 32 semanas con vasa previa confirmada permanece hospitalizada. La cardiotocografía intermitente es tranquilizadora y no presenta contracciones. El equipo considera que una monitorización normal elimina la posibilidad de hemorragia fetal posterior.",
+    "pregunta": "¿Qué limitación de la vigilancia fetal debe explicarse?",
+    "opciones": [
+      "Una cardiotocografía normal demuestra que los vasos fetales están protegidos por la gelatina de Wharton",
+      "La monitorización fetal normal no elimina el riesgo de ruptura posterior de los vasos; la prevención depende del plan de nacimiento y de responder rápidamente ante síntomas",
+      "La vigilancia fetal está contraindicada en toda paciente con vasa previa",
+      "La ausencia de desaceleraciones permite planear un parto vaginal sin restricciones",
+      "La cardiotocografía permite medir de manera directa el volumen sanguíneo fetal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La cardiotocografía ayuda a identificar compromiso fetal en el momento del registro, pero no predice de manera fiable una futura ruptura de los vasos. La estrategia de prevención depende de confirmar la persistencia de vasa previa, valorar los factores de riesgo de parto prematuro, planear una cesárea y actuar de inmediato ante ruptura de membranas, sangrado o alteraciones de la frecuencia cardiaca fetal.",
+    "perlaENARM": "Una prueba fetal tranquilizadora es una fotografía del momento, no una garantía de que los vasos no se romperán después.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, páginas 2-3.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "RCOG. Green-top Guideline No. 27b: Vasa Praevia."
+    ]
+  },
+  {
+    "id": "OBS-854",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Diagnóstico diferencial de vasos cercanos al cuello",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar vasos fetales de otras estructuras vasculares maternas mediante ultrasonido y Doppler.",
+    "caso": "Durante un ultrasonido transvaginal se identifica una estructura tubular con flujo cerca del orificio cervical interno. La paciente tiene una placenta posterior y no hay sangrado. El examinador debe distinguir entre vasos fetales en las membranas y una estructura vascular materna cercana al cuello.",
+    "pregunta": "¿Qué característica del Doppler ayuda a establecer el origen fetal del vaso?",
+    "opciones": [
+      "El vaso siempre presenta flujo venoso lento y sin pulsatilidad",
+      "La ausencia de placenta anterior confirma el origen fetal",
+      "La visualización de cualquier flujo cerca del cuello demuestra vasa previa",
+      "La concordancia de la frecuencia del flujo con la frecuencia cardiaca fetal en el Doppler espectral apoya el origen fetal",
+      "La presencia de flujo descarta una anomalía de inserción del cordón"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El Doppler color permite visualizar la trayectoria del vaso y el Doppler espectral puede ayudar a determinar si el patrón de flujo es concordante con la frecuencia cardiaca fetal. Esto contribuye a distinguir vasos fetales de vasos maternos cercanos al cuello. La interpretación debe integrar la anatomía placentaria, la inserción del cordón y la relación con el orificio cervical interno.",
+    "perlaENARM": "Para confirmar que un vaso cercano al orificio cervical es fetal, integra su trayecto anatómico y el patrón de flujo Doppler con la frecuencia cardiaca fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, página 1.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-855",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Compromiso fetal y hemorragia aguda",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar la pérdida sanguínea fetal aguda con la necesidad de coordinación inmediata entre obstetricia y neonatología.",
+    "caso": "Durante una cesárea urgente por sospecha de ruptura de vasa previa, se obtiene un recién nacido pálido, hipotónico y con frecuencia cardiaca de 80 lpm. La pérdida sanguínea visible fue importante inmediatamente después de la ruptura de membranas, pero la madre no presentó signos de choque.",
+    "pregunta": "¿Qué complicación neonatal debe sospecharse y anticiparse en la reanimación?",
+    "opciones": [
+      "Hipervolemia fetal por transfusión maternofetal",
+      "Policitemia neonatal secundaria a hipoxia crónica",
+      "Anemia e hipovolemia agudas por pérdida de sangre fetal",
+      "Hiperbilirrubinemia fisiológica como causa de la bradicardia inmediata",
+      "Hipocalcemia aislada como explicación de toda la presentación"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La ruptura de vasa previa puede provocar pérdida aguda de sangre fetal, con anemia, hipovolemia, palidez, hipotensión y bradicardia. La atención debe coordinar la reanimación neonatal, la evaluación de la perfusión y hemoglobina, y la reposición de volumen o transfusión cuando esté indicada. La ausencia de choque materno es compatible con una pérdida predominantemente fetal.",
+    "perlaENARM": "En ruptura de vasa previa, la hemorragia puede ser fetal y potencialmente mortal sin producir inestabilidad hemodinámica materna.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, página 1.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "Neonatal Resuscitation Program (NRP), American Academy of Pediatrics."
+    ]
+  },
+  {
+    "id": "OBS-856",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Persistencia o resolución ecográfica",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Evitar mantener el diagnóstico de vasa previa de forma automática sin reevaluar la localización de los vasos en el tercer trimestre.",
+    "caso": "En la ecografía de las 21 semanas se identifican vasos fetales a 1.6 cm del orificio cervical interno. A las 32 semanas, un ultrasonido transvaginal realizado por personal experto muestra que los vasos ahora se encuentran claramente más alejados del orificio, sin cruzar la región cervical. La paciente permanece asintomática.",
+    "pregunta": "¿Qué debe hacerse antes de cancelar el plan obstétrico específico para vasa previa?",
+    "opciones": [
+      "Revisar la calidad del estudio y documentar la nueva trayectoria vascular con Doppler, integrando el resultado con el protocolo diagnóstico local",
+      "Cancelar de inmediato toda vigilancia obstétrica sin revisar las imágenes",
+      "Indicar cesárea urgente solo porque el diagnóstico existió en el segundo trimestre",
+      "Realizar amniotomía para comprobar si existe hemorragia",
+      "Considerar que el hallazgo no puede cambiar durante el embarazo y mantener la clasificación inicial sin reevaluación"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Algunos casos identificados en el segundo trimestre dejan de cumplir los criterios de localización de riesgo en el tercer trimestre. Antes de modificar la conducta, debe confirmarse con imagen adecuada la trayectoria de los vasos respecto al orificio cervical interno y documentarse la resolución según el criterio empleado. El material recomienda repetir el ultrasonido entre las 30 y 34 semanas para confirmar persistencia.",
+    "perlaENARM": "La vasa previa diagnosticada a mitad del embarazo debe reevaluarse; no se debe asumir persistencia ni resolución sin documentación ecográfica.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, páginas 1 y 3.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa."
+    ]
+  },
+  {
+    "id": "OBS-857",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Vasa previa y placenta bilobulada",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar el trayecto de vasos que conectan lóbulos placentarios como mecanismo de vasa previa.",
+    "caso": "Gestante de 29 semanas presenta una placenta con dos lóbulos separados por membranas. El Doppler identifica vasos que conectan ambos lóbulos y cruzan el segmento uterino inferior, próximos al orificio cervical interno. La inserción principal del cordón parece normal.",
+    "pregunta": "¿Qué mecanismo anatómico explica el riesgo en esta paciente?",
+    "opciones": [
+      "La placenta bilobulada siempre produce placenta previa total",
+      "Los vasos conectores son necesariamente arterias maternas y no pueden sangrar durante el parto",
+      "La inserción central del cordón excluye la posibilidad de vasa previa",
+      "El riesgo deriva exclusivamente de una alteración de la coagulación fetal",
+      "Los vasos que conectan los lóbulos pueden recorrer las membranas sin protección y quedar expuestos a ruptura cerca del cuello"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "En una placenta bilobulada o con lóbulo succenturiado, vasos fetales pueden conectar las porciones placentarias a través de las membranas. Si estos vasos cruzan cerca del orificio cervical interno, existe riesgo de vasa previa, incluso si la inserción principal del cordón no parece velamentosa. La trayectoria vascular, y no solo el punto de inserción del cordón, debe evaluarse.",
+    "perlaENARM": "La vasa previa puede deberse a vasos que conectan lóbulos placentarios; no todos los casos se explican por inserción velamentosa.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, páginas 1 y 3.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-858",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Diferenciación respecto a placenta previa",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir vasa previa de placenta previa a partir de la anatomía de la placenta y de los vasos que cruzan el cuello uterino.",
+    "caso": "Gestante de 32 semanas presenta vasos fetales que cruzan el segmento inferior a 1.2 cm del orificio cervical interno. El tejido placentario, en cambio, se encuentra a más de 3 cm del orificio. No hay sangrado ni contracciones.",
+    "pregunta": "¿Cuál es la distinción anatómica fundamental entre ambas entidades en este caso?",
+    "opciones": [
+      "La vasa previa se define por tejido placentario que cubre el orificio cervical, mientras la placenta previa se define por vasos fetales en membranas",
+      "Ambas entidades son equivalentes y siempre se presentan juntas",
+      "En la vasa previa, vasos fetales desprotegidos se encuentran próximos al orificio cervical; en la placenta previa, el tejido placentario se aproxima o cubre dicho orificio",
+      "La placenta previa solo existe si hay sangrado, mientras la vasa previa requiere dolor uterino",
+      "La vasa previa se diagnostica por hipertonía uterina y la placenta previa por bradicardia fetal"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La vasa previa es una condición vascular: vasos fetales recorren las membranas cerca del orificio cervical interno. La placenta previa es una condición de localización del tejido placentario sobre el orificio cervical interno o en relación con él, según la clasificación utilizada. Ambas pueden coexistir, pero una no implica necesariamente la otra.",
+    "perlaENARM": "Vasa previa: vasos fetales sobre o cerca del orificio cervical; placenta previa: tejido placentario que cubre o se aproxima al orificio.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, página 1.",
+      "RCOG. Green-top Guideline No. 27b: Vasa Praevia.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa."
+    ]
+  },
+  {
+    "id": "OBS-859",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Ruptura de membranas durante el trabajo de parto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar la sospecha de vasa previa no diagnosticada con la respuesta fetal inmediata durante el trabajo de parto.",
+    "caso": "Gestante de 38 semanas ingresa en trabajo de parto avanzado. Tras amniotomía artificial aparece sangre en el líquido amniótico y el monitor registra bradicardia fetal prolongada. La madre no presenta hipotensión ni dolor abdominal persistente. No existe un diagnóstico prenatal de vasa previa.",
+    "pregunta": "¿Qué interpretación debe incorporarse de inmediato al diagnóstico diferencial de la emergencia?",
+    "opciones": [
+      "La hemorragia es materna hasta demostrar lo contrario y puede esperarse a cuantificarla antes de intervenir",
+      "La sangre en el líquido amniótico descarta ruptura de vasos fetales",
+      "El útero blando excluye cualquier emergencia placentaria",
+      "Debe sospecharse ruptura de vasa previa y organizarse una cesárea urgente si el nacimiento vaginal no es inminente",
+      "La ausencia de hipotensión materna permite continuar el trabajo de parto sin cambios"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El sangrado inmediatamente después de la amniotomía acompañado de bradicardia fetal prolongada es altamente sugestivo de ruptura de vasos fetales, incluida vasa previa. La estabilidad materna no descarta pérdida sanguínea fetal. Debe organizarse la resolución urgente, habitualmente mediante cesárea, y alertar al equipo neonatal para una posible reanimación por anemia e hipovolemia.",
+    "perlaENARM": "Sangrado tras amniotomía más bradicardia fetal prolongada: sospecha ruptura de vasa previa y no retrases la resolución por pruebas confirmatorias.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, páginas 1-2.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "RCOG. Green-top Guideline No. 27b: Vasa Praevia."
+    ]
+  },
+  {
+    "id": "OBS-860",
+    "especialidad": "Obstetricia",
+    "tema": "Vasa previa",
+    "subtema": "Integración diagnóstica y terapéutica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar factores anatómicos de riesgo, confirmación Doppler, vigilancia antenatal y planificación de la cesárea para prevenir hemorragia fetal.",
+    "caso": "Gestante de 30 semanas con embarazo gemelar presenta placenta bilobulada e inserción velamentosa del cordón de uno de los fetos. El ultrasonido transvaginal con Doppler demuestra vasos fetales a 1.3 cm del orificio cervical interno. No hay sangrado ni contracciones, pero la paciente vive a dos horas del hospital de referencia.",
+    "pregunta": "¿Qué plan integra mejor la prevención de una ruptura vascular y la planificación del nacimiento?",
+    "opciones": [
+      "Permitir parto vaginal porque el Doppler fetal es normal y la paciente no tiene sangrado",
+      "Confirmar y documentar la persistencia con ultrasonido en el tercer trimestre, individualizar la hospitalización según riesgo y acceso a urgencias, y programar cesárea antes del trabajo de parto o ruptura de membranas",
+      "Esperar hasta el término sin reevaluar los vasos porque la inserción velamentosa no modifica el manejo",
+      "Indicar amniotomía programada para comprobar si los vasos sangran antes de la cesárea",
+      "Realizar histerectomía preventiva para eliminar el riesgo de hemorragia fetal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La placenta bilobulada, el embarazo gemelar y la inserción velamentosa aumentan la sospecha de vasa previa. El Doppler muestra vasos fetales a menos de 2 cm del orificio cervical interno, cumpliendo el criterio reproducido en el PDF. Debe confirmarse la persistencia durante el tercer trimestre, planearse la atención en un centro con capacidad de cesárea urgente y neonatología, individualizar la hospitalización y programar el nacimiento por cesárea antes del trabajo de parto o la ruptura de membranas.",
+    "perlaENARM": "La prevención de la ruptura de vasa previa se basa en el diagnóstico prenatal, la reevaluación ecográfica, el acceso oportuno a cirugía y la cesárea programada.",
+    "bibliografia": [
+      "PDF proporcionado: 20. Vasa Previa, páginas 1-3.",
+      "SMFM Consult Series No. 37: Diagnosis and Management of Vasa Previa.",
+      "RCOG. Green-top Guideline No. 27b: Vasa Praevia."
+    ]
+  },
+   {
+    "id": "OBS-861",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Fisiopatología y clasificación de la lesión",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar la ruptura uterina completa de la dehiscencia de cicatriz y relacionarlas con el riesgo maternofetal.",
+    "caso": "Gestante de 38 semanas con antecedente de cesárea presenta dolor abdominal súbito durante el trabajo de parto, bradicardia fetal sostenida e hipotensión materna. En la laparotomía se identifica una solución de continuidad de todo el espesor de la pared uterina, con comunicación hacia la cavidad peritoneal y hemoperitoneo.",
+    "pregunta": "¿Qué entidad describe la lesión encontrada durante la cirugía?",
+    "opciones": [
+      "Dehiscencia de cicatriz uterina sin compromiso de la serosa",
+      "Rotura de vasos cervicales por traumatismo del canal del parto",
+      "Atonía uterina posparto sin lesión anatómica",
+      "Ruptura uterina completa con comunicación hacia la cavidad peritoneal",
+      "Desprendimiento prematuro de placenta normoinserta sin lesión miometrial"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La ruptura uterina completa implica la interrupción de todo el espesor de la pared uterina, incluida la serosa, y puede permitir la extrusión fetal o placentaria hacia la cavidad peritoneal. La dehiscencia, en cambio, es una separación incompleta de la cicatriz, con serosa conservada en muchos casos y sin comunicación completa con la cavidad abdominal. La ruptura completa puede causar hemorragia masiva y compromiso fetal agudo.",
+    "perlaENARM": "Ruptura completa: defecto de todo el espesor uterino y posible hemoperitoneo; dehiscencia: separación incompleta que puede ser asintomática.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, páginas 1-2.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-862",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Tipo de cicatriz uterina previa",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Estratificar el riesgo de ruptura uterina según el tipo de incisión uterina de una cesárea previa.",
+    "caso": "Paciente de 34 años, embarazada de 37 semanas, desea intentar parto vaginal después de una cesárea. Al revisar el expediente se encuentra que la intervención anterior se realizó a las 27 semanas por presentación transversa y que la nota quirúrgica documenta una incisión corporal clásica. La paciente se encuentra sin contracciones.",
+    "pregunta": "¿Qué elemento del antecedente modifica de manera decisiva la elegibilidad para un trabajo de parto después de cesárea?",
+    "opciones": [
+      "El tipo de incisión uterina corporal clásica, que confiere mayor riesgo de ruptura y generalmente contraindica el trabajo de parto planificado",
+      "La edad materna de 34 años, que por sí sola obliga a realizar cesárea",
+      "La presentación transversa del embarazo previo, independientemente de la incisión",
+      "La ausencia de contracciones a las 37 semanas, que demuestra una cicatriz íntegra",
+      "El antecedente de una sola cesárea, que garantiza riesgo mínimo cualquiera que haya sido la incisión"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El tipo de incisión uterina es fundamental para valorar la posibilidad de trabajo de parto después de cesárea. Una incisión corporal clásica atraviesa el segmento uterino superior, sometido a mayor tensión durante el trabajo de parto, y se asocia con mayor riesgo de ruptura que una incisión transversa baja tipo Kerr. En general, una cicatriz clásica contraindica el trabajo de parto planificado, incluso si la paciente solo tiene una cesárea previa.",
+    "perlaENARM": "No basta con contar las cesáreas: es indispensable conocer el tipo de incisión uterina. La cicatriz clásica contraindica generalmente el trabajo de parto planificado.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 1.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline No. 45."
+    ]
+  },
+  {
+    "id": "OBS-863",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Trabajo de parto después de cesárea",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer las condiciones necesarias para ofrecer un trabajo de parto después de una cesárea previa.",
+    "caso": "Gestante de 39 semanas con una cesárea previa por presentación pélvica tiene una incisión transversa baja documentada, sin otras cirugías uterinas. El embarazo actual es único, cefálico y sin contraindicaciones obstétricas para parto vaginal. La paciente desea evitar una nueva cesárea.",
+    "pregunta": "¿Qué requisito asistencial debe garantizarse para ofrecer un intento de parto vaginal después de cesárea?",
+    "opciones": [
+      "Administrar prostaglandinas de rutina antes de iniciar cualquier vigilancia",
+      "Programar el parto en una unidad sin quirófano porque el riesgo de ruptura es bajo",
+      "Evitar la monitorización fetal continua para facilitar la movilidad materna",
+      "Esperar a que aparezca dolor cicatricial antes de solicitar valoración quirúrgica",
+      "Contar con vigilancia intraparto adecuada y capacidad de realizar cesárea urgente si aparece una complicación"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Una paciente seleccionada con incisión transversa baja puede ser candidata a trabajo de parto después de cesárea, siempre que se realice una valoración individualizada y exista capacidad de respuesta ante una urgencia. La vigilancia de la frecuencia cardiaca fetal es esencial, porque las alteraciones fetales pueden ser la primera manifestación de ruptura uterina. Debe existir acceso oportuno a cesárea y recursos de reanimación materna y neonatal.",
+    "perlaENARM": "El trabajo de parto después de cesárea requiere selección apropiada, monitorización intraparto y capacidad de cesárea urgente.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 1.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline No. 45."
+    ]
+  },
+  {
+    "id": "OBS-864",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Signos clínicos durante el trabajo de parto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar la combinación de alteraciones fetales y signos maternos que obliga a sospechar ruptura uterina.",
+    "caso": "Durante un trabajo de parto después de cesárea, una paciente presenta desaceleraciones fetales profundas seguidas de bradicardia sostenida. Minutos después refiere dolor abdominal súbito, desaparece la dinámica uterina efectiva y la presentación fetal, previamente encajada, se palpa más alta. La presión arterial comienza a descender.",
+    "pregunta": "¿Qué complicación debe considerarse como diagnóstico prioritario?",
+    "opciones": [
+      "Corioamnionitis sin compromiso fetal agudo",
+      "Ruptura uterina con posible extrusión o desplazamiento fetal hacia la cavidad abdominal",
+      "Distocia de hombros antes del nacimiento de la cabeza",
+      "Atonía uterina posparto en una paciente que aún no ha parido",
+      "Preeclampsia sin datos de hipertensión"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La bradicardia fetal, el dolor súbito, la pérdida de la dinámica uterina efectiva, el ascenso de la presentación y la inestabilidad materna son signos sugestivos de ruptura uterina. Ningún signo aislado es obligatorio y la presentación puede ser variable. La sospecha clínica en una paciente con cicatriz uterina requiere activar la respuesta quirúrgica inmediata.",
+    "perlaENARM": "Durante el trabajo de parto después de cesárea, la bradicardia fetal persistente puede ser la primera manifestación de ruptura uterina.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 2.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline No. 45."
+    ]
+  },
+  {
+    "id": "OBS-865",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Conducta ante sospecha de ruptura completa",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Priorizar la resolución quirúrgica ante una sospecha clínica de ruptura uterina con compromiso maternofetal.",
+    "caso": "Gestante de 38 semanas con cesárea previa presenta bradicardia fetal persistente, dolor abdominal intenso e hipotensión durante el trabajo de parto. El ultrasonido a pie de cama no logra demostrar con claridad un defecto de la pared uterina. El equipo considera esperar una imagen de mayor resolución antes de intervenir.",
+    "pregunta": "¿Qué conducta disminuye el riesgo de muerte materna y fetal en este escenario?",
+    "opciones": [
+      "Esperar una resonancia magnética para confirmar el defecto anatómico",
+      "Administrar tocolíticos y observar la recuperación de la frecuencia cardiaca fetal",
+      "Realizar una prueba de trabajo de parto más prolongada para confirmar la distocia",
+      "Activar la respuesta de emergencia, iniciar reanimación materna y proceder a laparotomía con nacimiento inmediato",
+      "Solicitar únicamente una biometría hemática antes de tomar decisiones"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La ruptura uterina es un diagnóstico principalmente clínico en la emergencia. La inestabilidad materna y el compromiso fetal sostenido requieren reanimación y resolución quirúrgica inmediata. La imagen no debe retrasar la intervención cuando la sospecha es alta. Durante la cirugía se controla la hemorragia, se extrae al feto y se valora la reparación uterina o la necesidad de histerectomía.",
+    "perlaENARM": "Ante sospecha alta de ruptura uterina, no se espera confirmación por imagen: laparotomía y nacimiento inmediato.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 2.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-866",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Uso de oxitocina",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la hiperestimulación uterina con el riesgo de ruptura durante el trabajo de parto después de cesárea.",
+    "caso": "Paciente con una cesárea transversa baja previa se encuentra en trabajo de parto espontáneo. Por progresión lenta se inicia oxitocina, que se incrementa rápidamente. Posteriormente presenta seis contracciones en diez minutos, dolor persistente entre contracciones y desaceleraciones fetales recurrentes.",
+    "pregunta": "¿Qué problema asociado al manejo uterotónico requiere atención inmediata?",
+    "opciones": [
+      "La taquisistolia uterina con alteraciones fetales, que obliga a suspender o reducir la oxitocina y evaluar urgentemente una posible complicación de la cicatriz",
+      "La ausencia de contracciones, que indica que debe aumentarse la oxitocina",
+      "La progresión lenta, que demuestra que la cicatriz uterina está intacta",
+      "La frecuencia de contracciones, que carece de importancia durante el trabajo de parto después de cesárea",
+      "La necesidad de administrar prostaglandinas de rutina para contrarrestar la oxitocina"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La oxitocina puede utilizarse en casos seleccionados durante el trabajo de parto después de cesárea, pero requiere titulación cuidadosa y vigilancia. La taquisistolia, el dolor persistente y las alteraciones fetales obligan a intervenir de inmediato, suspender o reducir el uterotónico según la situación y valorar ruptura uterina. Si existe sospecha de ruptura, la evaluación no debe limitarse a corregir la dinámica uterina: puede requerirse resolución quirúrgica urgente.",
+    "perlaENARM": "En una cicatriz uterina previa, la taquisistolia inducida por oxitocina y el deterioro fetal requieren respuesta inmediata; no se debe seguir aumentando el uterotónico.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 1.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring."
+    ]
+  },
+  {
+    "id": "OBS-867",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Prostaglandinas para inducción del parto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la relevancia del método de inducción en pacientes con cicatriz uterina previa.",
+    "caso": "Gestante de 40 semanas con una cesárea transversa baja previa requiere valoración para inducción por indicación obstétrica. El cuello uterino está desfavorable y un integrante del equipo propone iniciar misoprostol a dosis habituales para inducción en útero sin cicatriz.",
+    "pregunta": "¿Qué consideración debe modificar el plan de inducción?",
+    "opciones": [
+      "El misoprostol es el método preferido de inducción en toda paciente con cesárea previa",
+      "El antecedente de cesárea elimina la posibilidad de cualquier forma de inducción, independientemente del contexto",
+      "La cicatriz uterina exige valorar métodos alternativos y evitar el misoprostol para inducción del parto a término en este contexto por el riesgo de ruptura",
+      "El estado cervical no tiene relevancia al elegir el método de inducción",
+      "La oxitocina y las prostaglandinas presentan idéntico perfil de riesgo en todos los escenarios"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La inducción del parto en una paciente con cesárea previa requiere valorar la indicación, el tipo de cicatriz, el estado cervical y el método utilizado. El misoprostol no se recomienda para la inducción del parto a término en pacientes con cesárea previa debido al mayor riesgo de ruptura uterina. La elección de métodos mecánicos u otras estrategias debe individualizarse conforme a la guía y a los recursos disponibles.",
+    "perlaENARM": "El misoprostol para inducción a término generalmente se evita en pacientes con cesárea previa por el riesgo de ruptura uterina.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 1.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline No. 45."
+    ]
+  },
+  {
+    "id": "OBS-868",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Dehiscencia de cicatriz uterina",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir una dehiscencia de cicatriz uterina incidental de una ruptura completa sintomática.",
+    "caso": "Durante una cesárea repetida programada, una paciente asintomática presenta una zona de separación de la cicatriz transversa baja, con serosa aparentemente íntegra y sin hemoperitoneo. El feto mantiene frecuencia cardiaca normal y la paciente permanece hemodinámicamente estable.",
+    "pregunta": "¿Qué hallazgo favorece el diagnóstico de dehiscencia en lugar de ruptura uterina completa?",
+    "opciones": [
+      "La presencia de hemoperitoneo abundante con extrusión fetal",
+      "La pérdida de continuidad de todas las capas uterinas y choque materno",
+      "La bradicardia fetal persistente acompañada de colapso hemodinámico",
+      "El sangrado intraabdominal con comunicación completa hacia la cavidad peritoneal",
+      "La separación localizada de la cicatriz con serosa conservada y ausencia de comunicación completa con la cavidad abdominal"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La dehiscencia suele corresponder a una separación incompleta de la cicatriz uterina con serosa conservada y puede ser un hallazgo incidental. La ruptura completa compromete todo el espesor de la pared y puede provocar hemorragia, hemoperitoneo y compromiso fetal. La clasificación final debe basarse en la evaluación anatómica intraoperatoria.",
+    "perlaENARM": "Serosa conservada y separación incompleta favorecen dehiscencia; ruptura de todo el espesor con comunicación peritoneal corresponde a ruptura completa.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, páginas 1-2.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-869",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Manifestaciones fetales",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar las alteraciones de la frecuencia cardiaca fetal como manifestación temprana de ruptura uterina.",
+    "caso": "Paciente en trabajo de parto después de cesárea transversa baja presenta una desaceleración prolongada que evoluciona a bradicardia. La presión arterial materna todavía es normal y no existe sangrado vaginal visible. La dinámica uterina disminuye súbitamente.",
+    "pregunta": "¿Qué razonamiento clínico es fundamental para evitar retrasos diagnósticos?",
+    "opciones": [
+      "Descartar ruptura porque todavía no existe hipotensión materna",
+      "Considerar que el trazado fetal solo refleja compresión del cordón y no requiere evaluación adicional",
+      "Reconocer que la alteración fetal puede preceder al sangrado visible y a la inestabilidad materna, por lo que debe evaluarse urgentemente la posibilidad de ruptura",
+      "Esperar a que aparezca dolor localizado en la cicatriz para iniciar la valoración",
+      "Administrar oxitocina para recuperar la dinámica uterina sin investigar la bradicardia"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La bradicardia fetal y otras alteraciones del trazado pueden ser manifestaciones tempranas de ruptura uterina. La ausencia de hipotensión o sangrado vaginal no la descarta, porque la hemorragia puede ser inicialmente oculta. La evaluación debe ser inmediata y considerar otros datos como dolor súbito, cambio en la presentación fetal y alteración de la dinámica uterina.",
+    "perlaENARM": "La bradicardia fetal durante un trabajo de parto con cicatriz uterina previa es una señal de alarma; no esperes a que aparezca choque materno.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 2.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline No. 45."
+    ]
+  },
+  {
+    "id": "OBS-870",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Tratamiento quirúrgico y reparación uterina",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir las circunstancias en las que la reparación uterina puede ser viable de aquellas que requieren histerectomía.",
+    "caso": "Paciente de 36 semanas es sometida a laparotomía por ruptura uterina. Después de extraer al feto se identifica un desgarro de bordes definidos, con tejido viable y sangrado controlable. La paciente responde a la reanimación y no presenta coagulopatía grave.",
+    "pregunta": "¿Qué factor permite considerar reparación uterina en lugar de histerectomía inmediata?",
+    "opciones": [
+      "La presencia de infección intraamniótica grave y tejido uterino necrótico",
+      "La estabilidad tras la reanimación, la posibilidad de controlar la hemorragia y la viabilidad anatómica del tejido para una reparación segura",
+      "La existencia de una ruptura extensa que compromete vasos pélvicos y no permite control hemostático",
+      "La hemorragia persistente pese a las maniobras de control",
+      "La inestabilidad hemodinámica refractaria que impide una reparación segura"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La reparación uterina puede considerarse cuando la lesión es técnicamente reparable, el tejido es viable y la hemorragia puede controlarse. La decisión también depende de la extensión de la lesión, el estado hemodinámico, la coagulopatía y el deseo reproductivo, sin comprometer la seguridad materna. La histerectomía está indicada cuando no se logra controlar la hemorragia o la reparación no es segura o factible.",
+    "perlaENARM": "La histerectomía no es automática en toda ruptura uterina; se decide según extensión, viabilidad del tejido y control hemorrágico.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 2.",
+      "Williams Obstetrics, 26.ª ed.",
+      "ACOG. Obstetric hemorrhage guidance."
+    ]
+  },
+  {
+    "id": "OBS-871",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Indicación de histerectomía obstétrica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer las situaciones en las que la histerectomía constituye una medida de control definitivo de la hemorragia por ruptura uterina.",
+    "caso": "Durante una laparotomía por ruptura uterina completa, la paciente desarrolla hemorragia masiva. El desgarro es extenso, compromete vasos uterinos y se prolonga hacia el segmento lateral. A pesar de la reparación inicial y las medidas hemostáticas, persiste sangrado importante y la paciente requiere transfusión masiva.",
+    "pregunta": "¿Qué intervención definitiva debe considerarse ante la imposibilidad de controlar la hemorragia con una reparación segura?",
+    "opciones": [
+      "Cerrar el abdomen y continuar vigilancia, aunque persista el sangrado",
+      "Administrar uterotónicos como única medida pese a la ruptura anatómica extensa",
+      "Diferir la cirugía hasta normalizar por completo todos los parámetros de coagulación",
+      "Realizar histerectomía obstétrica para controlar la hemorragia cuando la reparación no es factible o ha fracasado",
+      "Retirar los accesos venosos para disminuir la pérdida sanguínea"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La ruptura extensa con hemorragia persistente y ausencia de una reparación segura puede requerir histerectomía obstétrica como medida definitiva. La prioridad es preservar la vida materna mediante control hemorrágico, reanimación y corrección de la coagulopatía. El procedimiento se individualiza según la extensión anatómica y la experiencia quirúrgica disponible.",
+    "perlaENARM": "En ruptura uterina, la histerectomía se considera cuando la lesión no puede repararse de forma segura o persiste hemorragia incontrolable.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 2.",
+      "Williams Obstetrics, 26.ª ed.",
+      "ACOG. Obstetric hemorrhage guidance."
+    ]
+  },
+  {
+    "id": "OBS-872",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Sobredistensión uterina",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer condiciones de sobredistensión uterina que pueden contribuir al riesgo de ruptura.",
+    "caso": "Gestante de 35 semanas con embarazo gemelar y polihidramnios presenta trabajo de parto con actividad uterina intensa. Tiene antecedente de cirugía uterina por miomectomía que penetró la cavidad endometrial. Comienza con dolor abdominal persistente y cambios en el trazado fetal.",
+    "pregunta": "¿Qué combinación incrementa la preocupación por ruptura uterina?",
+    "opciones": [
+      "Sobredistensión uterina y cicatriz de cirugía uterina previa",
+      "Embarazo gemelar con pared uterina sin antecedentes quirúrgicos, sin síntomas y con trazado normal, como prueba de ruptura establecida",
+      "Polihidramnios aislado como confirmación diagnóstica de ruptura",
+      "Edad gestacional de 35 semanas sin ningún otro factor clínico",
+      "Antecedente de infección urinaria no complicada sin actividad uterina"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La sobredistensión por embarazo múltiple o polihidramnios puede aumentar la tensión de la pared uterina. La cirugía uterina previa, especialmente cuando compromete el miometrio, agrega riesgo de ruptura. Los síntomas nuevos y las alteraciones fetales obligan a una evaluación urgente; los factores de riesgo por sí solos no establecen el diagnóstico.",
+    "perlaENARM": "La sobredistensión uterina y una cicatriz miometrial previa son factores que aumentan la sospecha de ruptura cuando aparecen síntomas compatibles.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 1.",
+      "Williams Obstetrics, 26.ª ed.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205."
+    ]
+  },
+  {
+    "id": "OBS-873",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Maniobras obstétricas y prevención",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar intervenciones intraparto que pueden incrementar el riesgo de lesión uterina y evitar maniobras perjudiciales.",
+    "caso": "En una unidad obstétrica, una paciente con trabajo de parto prolongado presenta detención del descenso fetal. Un miembro del equipo propone aplicar presión fúndica intensa para acelerar el nacimiento. La paciente tiene antecedente de cesárea y se encuentra bajo vigilancia cardiotocográfica.",
+    "pregunta": "¿Qué principio de seguridad obstétrica debe orientar la decisión?",
+    "opciones": [
+      "La presión fúndica intensa es obligatoria en toda detención del descenso",
+      "La maniobra de Kristeller reduce de manera comprobada el riesgo de ruptura uterina",
+      "La cicatriz uterina previa permite aplicar cualquier maniobra si la frecuencia cardiaca fetal es normal",
+      "El trabajo de parto prolongado debe tratarse siempre con dosis crecientes de oxitocina sin reevaluar la causa",
+      "Evitar maniobras de presión fúndica no recomendadas y reevaluar la causa de la detención, la dinámica uterina y la seguridad maternofetal"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El PDF identifica la maniobra de Kristeller, el trabajo de parto prolongado y el exceso de uterotónicos entre los factores asociados con ruptura uterina. Ante detención del descenso debe evaluarse la posición fetal, la proporcionalidad, la dinámica uterina y el estado maternofetal, en lugar de recurrir a presión fúndica intensa o aumentar uterotónicos sin reevaluación.",
+    "perlaENARM": "Ante detención del trabajo de parto, identifica la causa y evita maniobras de presión fúndica no recomendadas, especialmente en pacientes con cicatriz uterina.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 1.",
+      "WHO recommendations: Intrapartum care for a positive childbirth experience.",
+      "ACOG. First and Second Stage Labor Management."
+    ]
+  },
+  {
+    "id": "OBS-874",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Ruptura espontánea antes del trabajo de parto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que la ruptura uterina puede ocurrir antes del trabajo de parto en pacientes con cicatrices de alto riesgo.",
+    "caso": "Paciente de 32 semanas con antecedente de cesárea corporal clásica consulta por dolor abdominal súbito e intenso mientras se encuentra en reposo. Presenta palidez, taquicardia y dolor abdominal difuso, sin contracciones regulares ni sangrado vaginal importante. La frecuencia cardiaca fetal muestra bradicardia.",
+    "pregunta": "¿Qué consideración diagnóstica es fundamental en esta presentación?",
+    "opciones": [
+      "La ruptura uterina es imposible antes del inicio del trabajo de parto",
+      "La ausencia de contracciones regulares descarta una complicación de la cicatriz",
+      "La ruptura uterina puede presentarse antes del trabajo de parto, particularmente en pacientes con cicatrices de alto riesgo, y requiere evaluación quirúrgica urgente",
+      "El cuadro debe atribuirse a dolor musculoesquelético porque no hay sangrado abundante",
+      "La edad gestacional de 32 semanas excluye una ruptura uterina"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La ruptura uterina puede ocurrir durante el embarazo avanzado o durante el trabajo de parto. Una cicatriz corporal clásica implica mayor riesgo que una incisión transversa baja. El dolor súbito, la inestabilidad materna y la bradicardia fetal constituyen una emergencia aunque no existan contracciones regulares ni sangrado vaginal abundante.",
+    "perlaENARM": "Una cicatriz uterina clásica y dolor súbito con deterioro fetal obligan a considerar ruptura incluso antes del trabajo de parto.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 1.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-875",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Diagnóstico diferencial del dolor abdominal intraparto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar ruptura uterina de DPPNI y otras emergencias mediante la integración de dinámica uterina, estado fetal y antecedentes.",
+    "caso": "Gestante de 37 semanas con cesárea previa presenta dolor abdominal súbito durante el trabajo de parto. La frecuencia cardiaca fetal muestra bradicardia, las contracciones disminuyen de manera abrupta y la presentación fetal asciende. No se identifica sangrado vaginal abundante.",
+    "pregunta": "¿Qué conjunto de hallazgos favorece más la sospecha de ruptura uterina frente a un DPPNI típico?",
+    "opciones": [
+      "Hipertonía uterina persistente y dolor continuo sin cambios en la presentación fetal",
+      "Bradicardia fetal, pérdida de la dinámica uterina efectiva y ascenso de la presentación en una paciente con cicatriz uterina",
+      "Sangrado oscuro con contracciones frecuentes y sensibilidad uterina aislada",
+      "Sangrado indoloro con útero blando y frecuencia cardiaca fetal normal",
+      "Prurito generalizado y elevación de ácidos biliares"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Aunque existe superposición clínica, la ruptura uterina puede asociarse con bradicardia fetal, cese súbito de contracciones, pérdida de la estación fetal y dolor agudo en una paciente con cicatriz. El DPPNI suele acompañarse de dolor, hipertonía y sangrado, aunque también puede presentar hemorragia oculta. La sospecha de ruptura requiere intervención urgente.",
+    "perlaENARM": "En una paciente con cesárea previa, la combinación de bradicardia, pérdida de la dinámica y ascenso de la presentación es altamente preocupante para ruptura uterina.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 2.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline No. 45."
+    ]
+  },
+  {
+    "id": "OBS-876",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Hemorragia oculta y choque",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que la hemorragia intraperitoneal puede causar choque sin sangrado vaginal abundante.",
+    "caso": "Paciente en trabajo de parto después de cesárea presenta taquicardia progresiva, hipotensión, dolor abdominal difuso y deterioro de la frecuencia cardiaca fetal. El sangrado vaginal es escaso. La exploración revela distensión abdominal y dolor a la movilización.",
+    "pregunta": "¿Qué mecanismo explica mejor el choque con sangrado vaginal mínimo?",
+    "opciones": [
+      "La pérdida sanguínea necesariamente se limita al canal vaginal",
+      "El sangrado vaginal escaso excluye una hemorragia obstétrica grave",
+      "La hipervolemia fisiológica del embarazo causa hipotensión en el trabajo de parto",
+      "La hemorragia puede acumularse en la cavidad peritoneal a través de una ruptura uterina, sin exteriorizarse en gran cantidad",
+      "La ruptura uterina siempre produce sangrado externo masivo antes de generar choque"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La ruptura uterina puede provocar hemoperitoneo y pérdida sanguínea oculta, por lo que el sangrado vaginal puede ser escaso pese a la gravedad del choque. La taquicardia, hipotensión, dolor abdominal y deterioro fetal requieren reanimación y resolución quirúrgica urgente. La cantidad de sangre visible no debe utilizarse para descartar hemorragia interna.",
+    "perlaENARM": "Choque con dolor abdominal y sangrado vaginal escaso durante trabajo de parto en paciente con cicatriz uterina: sospecha hemoperitoneo por ruptura.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, páginas 1-2.",
+      "ACOG. Obstetric hemorrhage guidance.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-877",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Diagnóstico quirúrgico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer el papel de la laparotomía como método de confirmación y tratamiento de la ruptura uterina aguda.",
+    "caso": "Paciente con sospecha clínica elevada de ruptura uterina presenta bradicardia fetal persistente y signos de hemorragia interna. El ultrasonido a pie de cama no muestra de forma concluyente la solución de continuidad miometrial, pero la condición clínica empeora.",
+    "pregunta": "¿Qué estudio o intervención permite confirmar la lesión y tratarla de manera simultánea?",
+    "opciones": [
+      "Laparotomía urgente, que permite identificar la ruptura, extraer al feto y controlar la hemorragia",
+      "Resonancia magnética pélvica antes de cualquier intervención",
+      "Radiografía simple de abdomen para demostrar la solución de continuidad",
+      "Histeroscopia diagnóstica durante el trabajo de parto",
+      "Biopsia endometrial para demostrar la extensión del defecto"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El PDF, página 2, señala la laparotomía como método de confirmación y la laparotomía con cesárea inmediata como tratamiento de primera elección. En una emergencia con sospecha clínica elevada, la cirugía permite confirmar el diagnóstico, realizar el nacimiento y controlar la hemorragia. No debe retrasarse por estudios de imagen que no cambiarían la necesidad de intervención.",
+    "perlaENARM": "La ruptura uterina aguda se confirma habitualmente en la cirugía; la laparotomía es diagnóstica y terapéutica.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 2.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-878",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Prevención durante la inducción y conducción",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar medidas de prevención de ruptura uterina durante la inducción o conducción del trabajo de parto en una paciente con cicatriz uterina.",
+    "caso": "Gestante de 39 semanas con una cesárea transversa baja previa inicia trabajo de parto bajo vigilancia hospitalaria. La progresión cervical se enlentece y la actividad uterina disminuye. El equipo considera aumentar rápidamente la oxitocina sin revisar la posición fetal ni la evolución de la dilatación.",
+    "pregunta": "¿Qué estrategia reduce el riesgo de una intervención uterotónica insegura?",
+    "opciones": [
+      "Incrementar la oxitocina hasta producir contracciones continuas",
+      "Añadir misoprostol a la oxitocina para acelerar la dilatación",
+      "Evitar toda evaluación cervical durante el trabajo de parto después de cesárea",
+      "Mantener la inducción aunque aparezcan alteraciones fetales, porque la cicatriz es transversa baja",
+      "Reevaluar la causa de la progresión lenta, vigilar la frecuencia fetal y utilizar uterotónicos con criterios y titulación prudente cuando estén indicados"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La prevención requiere selección adecuada de candidatas, revisión del tipo de cicatriz, vigilancia fetal y manejo cuidadoso de la inducción o conducción. La progresión lenta debe llevar a reevaluar posición, presentación, proporcionalidad y actividad uterina antes de aumentar dosis. El exceso de oxitocina y ciertos métodos de inducción pueden aumentar el riesgo de taquisistolia y ruptura.",
+    "perlaENARM": "Ante progreso lento en trabajo de parto después de cesárea, reevaluar antes de aumentar oxitocina y evitar métodos contraindicados para la cicatriz uterina.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 1.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline No. 45."
+    ]
+  },
+  {
+    "id": "OBS-879",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Pronóstico maternofetal y respuesta multidisciplinaria",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar la respuesta obstétrica, anestésica, quirúrgica y neonatal en una emergencia por ruptura uterina.",
+    "caso": "Una paciente con ruptura uterina completa es trasladada al quirófano con hipotensión, bradicardia fetal y sospecha de hemoperitoneo. El hospital cuenta con banco de sangre, anestesiología, cirugía obstétrica y equipo neonatal, pero todavía no se han activado formalmente los protocolos de emergencia.",
+    "pregunta": "¿Qué organización asistencial debe establecerse de inmediato?",
+    "opciones": [
+      "Esperar a que el cirujano confirme la lesión antes de avisar a anestesiología y neonatología",
+      "Activar simultáneamente los equipos obstétrico, anestésico, transfusional y neonatal mientras se realiza la intervención urgente",
+      "Priorizar la documentación clínica antes de iniciar la reanimación",
+      "Solicitar valoración ambulatoria de hematología después de estabilizar al feto",
+      "Diferir el banco de sangre hasta conocer el valor posoperatorio de hemoglobina"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La ruptura uterina puede producir hemorragia masiva, hipoxia fetal y necesidad de reanimación neonatal. La respuesta debe ser multidisciplinaria y simultánea: control quirúrgico de la fuente, reanimación materna, disponibilidad de hemoderivados, anestesia y preparación neonatal. La coordinación temprana disminuye los retrasos críticos.",
+    "perlaENARM": "La ruptura uterina es una emergencia tiempo-dependiente: activa cirugía, anestesia, transfusión y neonatología en paralelo.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, página 2.",
+      "ACOG. Obstetric hemorrhage guidance.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-880",
+    "especialidad": "Obstetricia",
+    "tema": "Ruptura uterina",
+    "subtema": "Integración diagnóstica y terapéutica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar tipo de cicatriz, dinámica uterina, signos maternos y estado fetal para diagnosticar y tratar una ruptura uterina.",
+    "caso": "Gestante de 37 semanas con antecedente de cesárea corporal clásica se presenta en trabajo de parto en una unidad sin quirófano inmediato. Después de recibir oxitocina en otro centro desarrolla dolor abdominal súbito, bradicardia fetal persistente, desaparición de las contracciones efectivas e hipotensión. El sangrado vaginal es escaso y no hay tiempo para completar estudios de imagen.",
+    "pregunta": "¿Qué estrategia de manejo ofrece la mayor oportunidad de controlar la emergencia?",
+    "opciones": [
+      "Observar la evolución durante una hora porque el sangrado visible es mínimo",
+      "Suspender la oxitocina y esperar que se normalice la frecuencia cardiaca fetal antes de referir",
+      "Activar traslado inmediato con reanimación y coordinación quirúrgica urgente al centro con capacidad de laparotomía, sin retrasar la atención por estudios confirmatorios",
+      "Administrar prostaglandinas para restablecer las contracciones y facilitar el nacimiento vaginal",
+      "Solicitar resonancia magnética para confirmar la ruptura antes de iniciar cualquier traslado"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El antecedente de cicatriz corporal clásica, la exposición a oxitocina, el dolor súbito, la bradicardia fetal, la pérdida de la dinámica y la hipotensión constituyen una sospecha muy alta de ruptura uterina. Se requiere reanimación, suspensión de uterotónicos, activación del sistema de emergencia y resolución quirúrgica inmediata en un centro con capacidad adecuada. La ausencia de sangrado externo abundante y la falta de confirmación por imagen no justifican retrasar la intervención.",
+    "perlaENARM": "Cicatriz clásica más dolor súbito, bradicardia fetal y choque durante el trabajo de parto: sospecha ruptura uterina y prioriza cirugía urgente.",
+    "bibliografia": [
+      "PDF proporcionado: 21. Ruptura Uterina, páginas 1-2.",
+      "ACOG. Vaginal Birth After Cesarean Delivery. Practice Bulletin No. 205.",
+      "RCOG. Birth After Previous Caesarean Birth, Green-top Guideline No. 45."
+    ]
+  },
+  {
+    "id": "OBS-881",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Fisiopatología de la enfermedad hemolítica fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar el mecanismo inmunológico mediante el cual los anticuerpos maternos IgG producen anemia fetal y enfermedad hemolítica.",
+    "caso": "Gestante de 30 semanas, Rh negativo, con antecedente de transfusión sanguínea y prueba de antiglobulina indirecta positiva para anti-D. El ultrasonido muestra cardiomegalia fetal incipiente y aumento de la velocidad sistólica máxima de la arteria cerebral media. No existe evidencia de hemorragia fetomaterna aguda.",
+    "pregunta": "¿Qué mecanismo inmunopatológico explica el deterioro fetal?",
+    "opciones": [
+      "Activación exclusiva del complemento materno sin transferencia placentaria de anticuerpos",
+      "Destrucción de eritrocitos fetales por anticuerpos IgM que atraviesan libremente la placenta",
+      "Supresión medular fetal por anticuerpos IgA dirigidos contra precursores eritroides",
+      "Hemólisis fetal causada por anticuerpos IgG maternos que atraviesan la placenta y reconocen antígenos eritrocitarios fetales",
+      "Secuestro de eritrocitos fetales exclusivamente en el bazo materno"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La aloinmunización ocurre cuando la madre desarrolla anticuerpos contra antígenos eritrocitarios fetales heredados del padre. Los anticuerpos IgG, incluidos los anti-D, atraviesan la placenta y se unen a los eritrocitos fetales, favoreciendo su destrucción y ocasionando anemia. La anemia grave puede producir aumento del gasto cardiaco, insuficiencia cardiaca de alto gasto e hidrops fetal. El antecedente de transfusión también puede sensibilizar a una mujer Rh negativo.",
+    "perlaENARM": "La enfermedad hemolítica fetal por anti-D está mediada por IgG materna transplacentaria; la anemia grave puede evolucionar a hidrops fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 1.",
+      "ACOG. The Rh Factor: How It Can Affect Your Pregnancy.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-882",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Tamizaje con prueba de antiglobulina indirecta",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar la prueba de antiglobulina indirecta en la evaluación inicial de una gestante Rh negativo.",
+    "caso": "Gestante de 11 semanas, grupo O Rh negativo, sin antecedentes obstétricos conocidos, acude a control prenatal. Su pareja es Rh positivo y no se dispone de información sobre el genotipo RHD paterno. La paciente nunca ha recibido inmunoglobulina anti-D y no refiere transfusiones.",
+    "pregunta": "¿Qué estudio inmunohematológico debe formar parte de la evaluación inicial?",
+    "opciones": [
+      "Prueba de antiglobulina directa materna como único estudio para detectar anticuerpos circulantes",
+      "Prueba de antiglobulina indirecta o tamizaje de anticuerpos eritrocitarios irregulares",
+      "Prueba de Kleihauer-Betke como sustituto universal del tamizaje de anticuerpos",
+      "Determinación de hemoglobina fetal materna como prueba de sensibilización",
+      "Coombs directo fetal, aunque no exista indicación para obtener una muestra fetal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La prueba de antiglobulina indirecta detecta anticuerpos maternos circulantes dirigidos contra antígenos eritrocitarios. En una paciente Rh negativo, permite identificar sensibilización previa y orientar la necesidad de profilaxis o vigilancia fetal. Si el resultado es positivo, se requiere identificar la especificidad del anticuerpo y valorar su relevancia clínica. El Coombs directo se utiliza para detectar inmunoglobulinas o complemento unidos a eritrocitos, por ejemplo en el recién nacido.",
+    "perlaENARM": "Coombs indirecto: anticuerpos circulantes en suero materno. Coombs directo: inmunoglobulinas o complemento unidos a eritrocitos.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 1.",
+      "ACOG. The Rh Factor: How It Can Affect Your Pregnancy.",
+      "British Society for Haematology. Guideline for the Investigation and Management of Red Cell Antibodies in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-883",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Profilaxis antenatal con inmunoglobulina anti-D",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Aplicar la profilaxis antenatal anti-D en una gestante Rh negativo no sensibilizada.",
+    "caso": "Gestante de 28 semanas, Rh negativo, con prueba de antiglobulina indirecta negativa. El embarazo evoluciona normalmente y no hay antecedentes de transfusión ni eventos sensibilizantes recientes. Se desconoce el Rh fetal.",
+    "pregunta": "¿Qué intervención preventiva corresponde de acuerdo con el esquema antenatal habitual?",
+    "opciones": [
+      "Administrar inmunoglobulina anti-D únicamente después del nacimiento",
+      "No administrar profilaxis porque la prueba de antiglobulina indirecta es negativa",
+      "Administrar inmunoglobulina anti-D a las 28 semanas conforme al esquema local, manteniendo la valoración de eventos sensibilizantes",
+      "Iniciar tratamiento con corticoides para prevenir la formación de anti-D",
+      "Administrar anti-D solo si el ultrasonido demuestra anemia fetal"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "El PDF, página 2, señala la inmunoglobulina anti-D a las 28 semanas como profilaxis antenatal para la gestante Rh negativo no sensibilizada. La profilaxis reduce la probabilidad de que la madre desarrolle anti-D después de exponerse a eritrocitos fetales Rh positivo. La pauta exacta y la dosis deben ajustarse al protocolo local. También debe valorarse la profilaxis después de eventos potencialmente sensibilizantes, según la edad gestacional y la guía aplicable.",
+    "perlaENARM": "La profilaxis anti-D se indica en la gestante Rh negativo no sensibilizada; no es tratamiento de una aloinmunización anti-D ya establecida.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 2.",
+      "ACOG. The Rh Factor: How It Can Affect Your Pregnancy.",
+      "British Society for Haematology. Guideline for the Investigation and Management of Red Cell Antibodies in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-884",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Profilaxis posparto",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Determinar la necesidad de profilaxis anti-D posparto según el Rh neonatal y la sensibilización materna.",
+    "caso": "Puérpera de 29 años, Rh negativo, con tamizaje de anticuerpos negativo durante el embarazo y profilaxis antenatal documentada. Nace un recién nacido Rh positivo. La prueba de antiglobulina directa neonatal es negativa y la madre se encuentra estable.",
+    "pregunta": "¿Qué medida disminuye el riesgo de sensibilización materna para embarazos futuros?",
+    "opciones": [
+      "Administrar inmunoglobulina anti-D a la madre dentro de las primeras 72 horas posparto, ajustando la dosis si la evaluación de hemorragia fetomaterna lo requiere",
+      "Suspender toda profilaxis porque el Coombs directo neonatal es negativo",
+      "Administrar anti-D al recién nacido para eliminar sus eritrocitos Rh positivos",
+      "Esperar hasta el siguiente embarazo para repetir el tamizaje materno",
+      "Administrar inmunoglobulina anti-D exclusivamente si el recién nacido desarrolla ictericia"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "En una madre Rh negativo no sensibilizada cuyo recién nacido es Rh positivo, se recomienda profilaxis posparto con inmunoglobulina anti-D, idealmente dentro de las primeras 72 horas. El Coombs directo neonatal negativo no elimina la indicación, porque la profilaxis busca prevenir la sensibilización materna. La cuantificación de hemorragia fetomaterna puede ser necesaria para determinar si se requiere una dosis adicional.",
+    "perlaENARM": "Madre Rh negativo no sensibilizada más recién nacido Rh positivo: anti-D posparto dentro de 72 horas; el Coombs directo neonatal negativo no la contraindica.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 2.",
+      "ACOG. The Rh Factor: How It Can Affect Your Pregnancy.",
+      "British Society for Haematology. Guideline for the Investigation and Management of Red Cell Antibodies in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-885",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Paciente previamente sensibilizada",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar la profilaxis anti-D de la vigilancia de una gestante que ya presenta sensibilización inmunológica.",
+    "caso": "Gestante de 26 semanas, Rh negativo, con antecedente de un recién nacido que requirió transfusión por enfermedad hemolítica. El tamizaje actual identifica anti-D inmune confirmado por el laboratorio. La paciente pregunta si una dosis de inmunoglobulina anti-D puede eliminar los anticuerpos detectados.",
+    "pregunta": "¿Qué explicación y estrategia de seguimiento corresponden a esta situación?",
+    "opciones": [
+      "La anti-D profiláctica elimina de inmediato todos los anticuerpos anti-D ya formados",
+      "La profilaxis debe repetirse semanalmente hasta que el Coombs indirecto sea negativo",
+      "La presencia de anti-D inmune obliga a finalizar el embarazo de inmediato, independientemente de la evaluación fetal",
+      "La profilaxis anti-D no trata la sensibilización establecida; debe evaluarse el riesgo fetal y vigilar la posible anemia",
+      "No se requiere seguimiento porque los anticuerpos maternos no atraviesan la placenta"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La inmunoglobulina anti-D es preventiva y no revierte una sensibilización anti-D inmune ya establecida. En estas pacientes se identifica y cuantifica el anticuerpo según el método del laboratorio, se determina el riesgo de que el feto exprese el antígeno correspondiente y se establece vigilancia de anemia fetal. La conducta depende de los antecedentes obstétricos, la concentración o título del anticuerpo y los hallazgos fetales.",
+    "perlaENARM": "Anti-D profiláctica previene la sensibilización; no es tratamiento para una madre que ya tiene anti-D inmune.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, páginas 1-2.",
+      "ACOG. The Rh Factor: How It Can Affect Your Pregnancy.",
+      "British Society for Haematology. Guideline for the Investigation and Management of Red Cell Antibodies in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-886",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Interpretación del Coombs indirecto positivo",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar un tamizaje positivo sin asumir automáticamente que existe enfermedad hemolítica fetal grave.",
+    "caso": "Gestante de 24 semanas, Rh negativo, presenta prueba de antiglobulina indirecta positiva. El informe preliminar no especifica el anticuerpo y la paciente recibió inmunoglobulina anti-D tres semanas antes por un episodio de sangrado vaginal. El ultrasonido fetal no muestra alteraciones.",
+    "pregunta": "¿Qué dato debe aclararse antes de atribuir el resultado a sensibilización anti-D inmune?",
+    "opciones": [
+      "La edad materna, que determina por sí sola si el anticuerpo es inmune",
+      "La presencia de anticuerpos pasivos tras la profilaxis, mediante revisión del antecedente y caracterización serológica con el laboratorio",
+      "La necesidad de realizar una cesárea inmediata en todas las pacientes con Coombs indirecto positivo",
+      "La posibilidad de que el Coombs indirecto mida directamente la hemoglobina fetal",
+      "La ausencia de alteraciones ecográficas, que descarta toda relevancia del resultado"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Un tamizaje positivo debe seguirse de identificación del anticuerpo y correlación con los antecedentes. La inmunoglobulina anti-D administrada recientemente puede producir una positividad pasiva detectable durante un tiempo, por lo que el resultado no demuestra por sí solo sensibilización anti-D inmune. El laboratorio y el equipo obstétrico deben integrar la historia de profilaxis, resultados previos y evolución serológica.",
+    "perlaENARM": "Un Coombs indirecto positivo después de anti-D reciente puede representar anticuerpo pasivo; no debe etiquetarse automáticamente como sensibilización inmune.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 1.",
+      "British Society for Haematology. Guideline for the Investigation and Management of Red Cell Antibodies in Pregnancy.",
+      "ACOG. The Rh Factor: How It Can Affect Your Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-887",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Determinación del riesgo fetal según antígeno",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar el estado antigénico fetal con el riesgo de enfermedad hemolítica en una madre sensibilizada.",
+    "caso": "Gestante Rh negativo con anti-D inmune confirmado tiene un feto cuyo genotipo RHD, obtenido mediante una prueba validada de ADN fetal libre circulante, se informa como RHD negativo. No se detectan otros anticuerpos eritrocitarios clínicamente significativos.",
+    "pregunta": "¿Qué implicación tiene este resultado para la enfermedad fetal mediada específicamente por anti-D?",
+    "opciones": [
+      "El feto desarrollará necesariamente anemia porque la madre tiene anti-D",
+      "El resultado confirma hidrops fetal subclínico",
+      "El feto está en riesgo máximo porque el genotipo paterno es desconocido",
+      "Debe administrarse una transfusión intrauterina profiláctica a las 28 semanas",
+      "El riesgo de enfermedad hemolítica por anti-D es esencialmente inexistente si se confirma que el feto carece del antígeno D"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Los anticuerpos anti-D solo pueden causar enfermedad hemolítica por ese mecanismo si los eritrocitos fetales expresan el antígeno D. Si una prueba validada confirma que el feto es RHD negativo, no se espera enfermedad mediada por anti-D. Esto no excluye enfermedad por otros anticuerpos maternos ni sustituye la interpretación del resultado según la validación y disponibilidad de la prueba utilizada.",
+    "perlaENARM": "El riesgo de enfermedad hemolítica depende de que el feto exprese el antígeno contra el que está dirigido el anticuerpo materno.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 1.",
+      "British Society for Haematology. Guideline for the Investigation and Management of Red Cell Antibodies in Pregnancy.",
+      "ACOG. The Rh Factor: How It Can Affect Your Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-888",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Evaluación de anemia fetal mediante Doppler",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el Doppler de la arteria cerebral media como herramienta no invasiva para detectar anemia fetal significativa.",
+    "caso": "Gestante de 29 semanas con anti-D inmune y antecedente de un hijo con enfermedad hemolítica acude a vigilancia especializada. El ultrasonido muestra crecimiento fetal acorde con la edad gestacional, pero la velocidad sistólica máxima de la arteria cerebral media alcanza 1.58 múltiplos de la mediana para la edad gestacional.",
+    "pregunta": "¿Qué interpretación clínica debe darse a este resultado?",
+    "opciones": [
+      "El Doppler demuestra ausencia de anemia y permite suspender toda vigilancia",
+      "El resultado confirma por sí solo hidrops fetal irreversible",
+      "El valor es sugestivo de anemia fetal significativa y requiere valoración especializada para confirmar gravedad y definir intervención",
+      "La velocidad de la arteria cerebral media solo evalúa insuficiencia placentaria materna",
+      "El hallazgo obliga a administrar inmunoglobulina anti-D para normalizar el flujo cerebral"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "En embarazos con riesgo de anemia fetal por aloinmunización, la velocidad sistólica máxima de la arteria cerebral media es una herramienta no invasiva. Un valor superior a 1.5 MoM se asocia con riesgo de anemia fetal moderada o grave y requiere evaluación por medicina materno-fetal para decidir la necesidad de muestreo fetal o transfusión intrauterina, según el contexto. El resultado no equivale por sí solo a hidrops ni determina automáticamente el nacimiento.",
+    "perlaENARM": "En aloinmunización, una velocidad sistólica máxima de la arteria cerebral media mayor de 1.5 MoM alerta sobre anemia fetal moderada o grave.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 1.",
+      "SMFM Clinical Guideline: The Fetus at Risk for Anemia—Diagnosis and Management.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-889",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Hidrops fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la anemia fetal grave con insuficiencia cardiaca de alto gasto e hidrops fetal.",
+    "caso": "Gestante de 31 semanas con aloinmunización anti-D presenta ultrasonido con ascitis fetal, edema cutáneo generalizado y derrame pleural. La evaluación Doppler previa había mostrado aumento progresivo de la velocidad sistólica máxima de la arteria cerebral media.",
+    "pregunta": "¿Qué mecanismo fisiopatológico explica mejor la aparición de hidrops?",
+    "opciones": [
+      "Anemia fetal grave que aumenta el gasto cardiaco y puede culminar en insuficiencia cardiaca de alto gasto y acumulación de líquido en compartimentos fetales",
+      "Hipertensión arterial materna aislada que provoca ascitis fetal sin repercusión hemodinámica",
+      "Aumento fisiológico de la producción de eritrocitos que eleva la viscosidad sanguínea fetal",
+      "Disminución aislada del volumen plasmático fetal sin relación con la anemia",
+      "Respuesta renal fetal normal a la inmunoglobulina anti-D"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La hemólisis inmunitaria puede producir anemia fetal progresiva. Para mantener el aporte de oxígeno, el feto aumenta el gasto cardiaco; cuando la anemia es grave, puede aparecer insuficiencia cardiaca de alto gasto, alteraciones de la presión oncótica y acumulación de líquido en múltiples compartimentos, manifestándose como hidrops. Es una complicación grave que requiere evaluación urgente en un centro especializado.",
+    "perlaENARM": "La anemia fetal grave por aloinmunización puede progresar a insuficiencia cardiaca de alto gasto e hidrops fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 1.",
+      "SMFM Clinical Guideline: The Fetus at Risk for Anemia—Diagnosis and Management.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-890",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Antecedente obstétrico de enfermedad hemolítica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Incorporar el antecedente de un embarazo afectado en la estratificación de riesgo y el inicio de la vigilancia fetal.",
+    "caso": "Gestante de 19 semanas, Rh negativo, con anti-D inmune confirmado. Su embarazo anterior terminó con hidrops fetal y necesidad de transfusión intrauterina. En el embarazo actual todavía no se observan alteraciones estructurales ni signos de hidrops.",
+    "pregunta": "¿Qué elemento debe pesar de manera especial en la planificación de la vigilancia actual?",
+    "opciones": [
+      "La ausencia actual de hidrops permite iniciar vigilancia solo después de las 36 semanas",
+      "El antecedente de enfermedad fetal grave exige valoración temprana por medicina materno-fetal y vigilancia dirigida de anemia, sin esperar a que reaparezca el hidrops",
+      "El embarazo previo afectado elimina el riesgo porque el sistema inmunitario materno ya alcanzó su respuesta máxima",
+      "Debe repetirse la profilaxis anti-D para revertir los anticuerpos inmune",
+      "La vigilancia debe limitarse al crecimiento fetal porque el Doppler no sirve para detectar anemia"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Un antecedente de enfermedad hemolítica fetal grave, hidrops o transfusión intrauterina identifica un embarazo de alto riesgo. La vigilancia debe planearse tempranamente con medicina materno-fetal, integrando la especificidad del anticuerpo, la edad gestacional en que se afectó el embarazo previo y el Doppler de la arteria cerebral media. No debe esperarse la aparición de hidrops para iniciar la evaluación especializada.",
+    "perlaENARM": "Un embarazo previo afectado gravemente por aloinmunización aumenta la preocupación en la gestación actual y justifica vigilancia especializada temprana.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 1.",
+      "SMFM Clinical Guideline: The Fetus at Risk for Anemia—Diagnosis and Management.",
+      "British Society for Haematology. Guideline for the Investigation and Management of Red Cell Antibodies in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-891",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Hemorragia fetomaterna y eventos sensibilizantes",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Reconocer la necesidad de profilaxis anti-D tras un evento potencialmente sensibilizante en una gestante no sensibilizada.",
+    "caso": "Gestante de 27 semanas, Rh negativo y con tamizaje de anticuerpos negativo, presenta traumatismo abdominal por accidente automovilístico. El ultrasonido muestra feto vivo y placenta sin desprendimiento evidente. No ha recibido anti-D durante las últimas semanas.",
+    "pregunta": "¿Qué aspecto de la prevención inmunohematológica debe incorporarse al manejo?",
+    "opciones": [
+      "No administrar anti-D porque el ultrasonido fetal es tranquilizador",
+      "Esperar al parto para decidir si existió exposición de eritrocitos fetales",
+      "Administrar anti-D únicamente si el Coombs directo neonatal resulta positivo",
+      "Evaluar la indicación de inmunoglobulina anti-D por el evento sensibilizante y determinar si se requiere cuantificar hemorragia fetomaterna para ajustar la dosis",
+      "Administrar anti-D solo si la madre desarrolla anemia"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El traumatismo abdominal puede favorecer hemorragia fetomaterna y exposición de la madre Rh negativo a eritrocitos fetales Rh positivo. Si la madre no está sensibilizada, debe valorarse profilaxis anti-D de acuerdo con la edad gestacional y el protocolo local. La cuantificación de hemorragia fetomaterna puede ser necesaria para ajustar la dosis, especialmente cuando se sospecha una exposición importante.",
+    "perlaENARM": "La profilaxis anti-D no se limita a las 28 semanas y al posparto: también se valora después de eventos potencialmente sensibilizantes.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 2.",
+      "ACOG. The Rh Factor: How It Can Affect Your Pregnancy.",
+      "British Society for Haematology. Guideline for the Investigation and Management of Red Cell Antibodies in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-892",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Rh materno y paterno",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar la combinación del Rh materno y paterno sin asumir el estado antigénico fetal únicamente a partir del fenotipo paterno.",
+    "caso": "Gestante Rh negativo con tamizaje de anticuerpos negativo tiene una pareja Rh positivo. No se dispone de genotipo paterno ni de determinación del Rh fetal. La paciente pregunta si la positividad Rh de su pareja significa que el feto necesariamente será Rh positivo.",
+    "pregunta": "¿Qué explicación genética es adecuada?",
+    "opciones": [
+      "Todos los fetos de un padre Rh positivo son necesariamente Rh positivos",
+      "El Rh materno negativo significa que el feto será Rh negativo independientemente del padre",
+      "La condición Rh positiva paterna permite sospechar incompatibilidad potencial, pero el estado fetal depende de la herencia de RHD y puede aclararse con pruebas disponibles y validadas",
+      "La incompatibilidad Rh solo ocurre cuando ambos progenitores son Rh negativos",
+      "El Coombs indirecto negativo demuestra que el feto es Rh negativo"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Una madre Rh negativo y una pareja Rh positivo pueden tener un feto Rh positivo o Rh negativo, según la herencia del antígeno RHD. El fenotipo paterno por sí solo no siempre permite definir el Rh fetal, ya que el padre puede ser heterocigoto. El Coombs indirecto evalúa anticuerpos maternos y no determina el genotipo fetal.",
+    "perlaENARM": "Madre Rh negativo y padre Rh positivo implican posibilidad de incompatibilidad; el Coombs indirecto evalúa sensibilización, no el Rh fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 1.",
+      "ACOG. The Rh Factor: How It Can Affect Your Pregnancy.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-893",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Anticuerpos distintos de anti-D",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer que otros anticuerpos eritrocitarios además del anti-D pueden producir enfermedad hemolítica fetal.",
+    "caso": "Gestante de 32 semanas con grupo Rh positivo presenta tamizaje de anticuerpos eritrocitarios positivo para anti-c clínicamente significativo. No tiene anti-D detectable. El feto no muestra hidrops, pero la paciente considera que su Rh positivo elimina todo riesgo de enfermedad hemolítica.",
+    "pregunta": "¿Cuál es la consideración clínica fundamental?",
+    "opciones": [
+      "El Rh positivo materno elimina la posibilidad de cualquier enfermedad hemolítica fetal",
+      "Solo los anticuerpos anti-D pueden atravesar la placenta",
+      "El anti-c es un anticuerpo sin relevancia clínica durante el embarazo",
+      "La profilaxis anti-D elimina el anti-c y sustituye la vigilancia fetal",
+      "Los anticuerpos eritrocitarios distintos de anti-D también pueden causar enfermedad hemolítica y requieren evaluación según su especificidad y riesgo"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La enfermedad hemolítica fetal puede ser causada por anticuerpos contra diversos antígenos eritrocitarios, incluidos anti-c y otros anticuerpos clínicamente significativos. El Rh positivo materno no excluye este riesgo. La conducta depende de la especificidad, concentración o título cuando sea aplicable, antecedentes obstétricos y evaluación fetal. La inmunoglobulina anti-D previene la sensibilización anti-D, pero no trata ni previene la formación de otros anticuerpos.",
+    "perlaENARM": "La enfermedad hemolítica fetal no es exclusiva del anti-D; otros anticuerpos eritrocitarios pueden requerir vigilancia especializada.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 1.",
+      "British Society for Haematology. Guideline for the Investigation and Management of Red Cell Antibodies in Pregnancy.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-894",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Transfusión intrauterina",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar el papel de la transfusión intrauterina en el tratamiento de anemia fetal grave por aloinmunización.",
+    "caso": "Gestante de 28 semanas con anti-D inmune presenta velocidad sistólica máxima de la arteria cerebral media persistentemente superior a 1.5 MoM. La evaluación por medicina materno-fetal confirma alta sospecha de anemia fetal grave y no existen condiciones que justifiquen el nacimiento inmediato por otra causa.",
+    "pregunta": "¿Qué tratamiento puede considerarse en un centro con experiencia cuando se confirma anemia fetal grave a esta edad gestacional?",
+    "opciones": [
+      "Transfusión intrauterina de eritrocitos compatibles, preparada y realizada por un equipo especializado según la evaluación fetal",
+      "Administrar inmunoglobulina anti-D a la madre como tratamiento de la anemia ya establecida",
+      "Esperar obligatoriamente hasta las 37 semanas sin vigilancia adicional",
+      "Administrar hierro oral a la madre como tratamiento suficiente para corregir la anemia fetal inmunitaria",
+      "Realizar amniotomía para acelerar el parto vaginal sin valorar la condición fetal"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "En anemia fetal grave por aloinmunización, la transfusión intrauterina puede corregir la anemia y prolongar la gestación cuando el nacimiento prematuro supone un riesgo mayor y existen recursos especializados. La indicación depende de la edad gestacional, la gravedad de la anemia, los antecedentes y la evaluación del equipo de medicina materno-fetal. La profilaxis anti-D no trata una enfermedad hemolítica ya establecida.",
+    "perlaENARM": "La transfusión intrauterina es una opción terapéutica para anemia fetal grave seleccionada; requiere un centro especializado y planificación individualizada.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 1.",
+      "SMFM Clinical Guideline: The Fetus at Risk for Anemia—Diagnosis and Management.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-895",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Interpretación de Coombs directo neonatal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Diferenciar el valor diagnóstico del Coombs directo neonatal de la necesidad de profilaxis materna posparto.",
+    "caso": "Nace un recién nacido Rh positivo de una madre Rh negativo no sensibilizada. La madre recibió profilaxis antenatal, y la prueba de antiglobulina directa neonatal resulta negativa. El equipo considera omitir la inmunoglobulina anti-D posparto porque no se detectaron anticuerpos unidos a los eritrocitos del neonato.",
+    "pregunta": "¿Qué argumento corrige esa decisión?",
+    "opciones": [
+      "La profilaxis solo se indica cuando el recién nacido tiene Coombs directo positivo",
+      "El Coombs directo negativo confirma que la madre ya está sensibilizada",
+      "La inmunoglobulina anti-D debe administrarse directamente al recién nacido",
+      "La profilaxis posparto depende de la condición Rh materna, la sensibilización y el Rh neonatal; un Coombs directo negativo no elimina la indicación",
+      "La profilaxis posparto está contraindicada cuando se administró anti-D antenatal"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El objetivo de la profilaxis posparto es evitar que la madre Rh negativo no sensibilizada desarrolle anticuerpos anti-D después de la exposición a eritrocitos fetales. La prueba de antiglobulina directa neonatal evalúa anticuerpos o complemento unidos a los eritrocitos del recién nacido y no sustituye la valoración de profilaxis materna. Si el recién nacido es Rh positivo, la anti-D materna suele estar indicada dentro de las primeras 72 horas, de acuerdo con el protocolo local.",
+    "perlaENARM": "Coombs directo neonatal negativo no equivale a ausencia de riesgo de sensibilización materna; la indicación de anti-D se basa en el estado materno y Rh neonatal.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 2.",
+      "ACOG. The Rh Factor: How It Can Affect Your Pregnancy.",
+      "British Society for Haematology. Guideline for the Investigation and Management of Red Cell Antibodies in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-896",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Fenotipo D débil y profilaxis",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar decisiones automáticas de profilaxis basadas únicamente en un resultado serológico de D débil.",
+    "caso": "Gestante con resultado inicial de Rh negativo presenta discrepancia en la tipificación D entre dos laboratorios. El segundo informa reactividad débil para el antígeno D. El tamizaje de anticuerpos es negativo y la paciente requiere definir su elegibilidad para profilaxis anti-D.",
+    "pregunta": "¿Qué enfoque permite evitar tanto la profilaxis innecesaria como la omisión de una profilaxis indicada?",
+    "opciones": [
+      "Clasificar a todas las pacientes con D débil como Rh positivo sin estudios adicionales",
+      "Administrar anti-D a toda paciente con cualquier resultado de D débil, sin considerar el genotipo",
+      "Solicitar valoración por el laboratorio de referencia y considerar genotipificación RHD, porque algunos tipos de D débil pueden manejarse como Rh positivo y otros requieren precauciones de Rh negativo",
+      "Concluir que la discrepancia serológica demuestra sensibilización anti-D",
+      "Omitir cualquier seguimiento porque el Coombs indirecto es negativo"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Las variantes de D débil no deben manejarse de forma uniforme. Algunos genotipos, como ciertos tipos de weak D, pueden considerarse Rh positivo para fines transfusionales y obstétricos; otras variantes, incluidos algunos D parciales, pueden implicar riesgo de aloanticuerpos anti-D. La resolución de la discrepancia mediante evaluación inmunohematológica y genotipificación cuando esté disponible ayuda a decidir la profilaxis. El resultado negativo del tamizaje no resuelve por sí solo la clasificación del antígeno.",
+    "perlaENARM": "D débil no significa automáticamente que se deba omitir anti-D: la interpretación depende del tipo de variante RHD y del protocolo de referencia.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 1.",
+      "AABB. Standards and guidance on RHD genotyping in pregnant patients with serologic weak D phenotypes.",
+      "British Society for Haematology. Guideline for the Investigation and Management of Red Cell Antibodies in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-897",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Títulos de anticuerpos y riesgo fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar la concentración o título de anticuerpos con antecedentes obstétricos y vigilancia fetal, sin utilizar un valor aislado como predictor absoluto.",
+    "caso": "Gestante de 25 semanas con anti-D inmune presenta un aumento del título respecto a la determinación previa. No tiene antecedente de embarazo afectado, pero el laboratorio informa que el resultado se aproxima al umbral crítico utilizado por el centro. El ultrasonido aún no muestra hidrops.",
+    "pregunta": "¿Qué estrategia de vigilancia integra mejor el resultado serológico con el riesgo fetal?",
+    "opciones": [
+      "Ignorar el título porque la ausencia de hidrops excluye anemia",
+      "Integrar la tendencia serológica, el umbral crítico validado por el laboratorio, los antecedentes y la valoración fetal con Doppler de arteria cerebral media cuando esté indicado",
+      "Indicar cesárea inmediata por cualquier incremento del título",
+      "Repetir anti-D profiláctica para reducir el título de anticuerpos inmune",
+      "Usar el título materno como medida directa de la hemoglobina fetal y evitar el ultrasonido"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El riesgo fetal no debe inferirse de un título aislado sin considerar la especificidad del anticuerpo, el método del laboratorio, la tendencia y los antecedentes de enfermedad hemolítica. Al alcanzar el umbral crítico definido por el laboratorio o cuando existe un embarazo previo gravemente afectado, se requiere vigilancia especializada, habitualmente con Doppler de la arteria cerebral media según el riesgo. La ausencia de hidrops no descarta anemia fetal significativa.",
+    "perlaENARM": "El título de anticuerpos estratifica riesgo, pero no mide directamente la hemoglobina fetal; la vigilancia debe integrar antecedentes y Doppler.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 1.",
+      "SMFM Clinical Guideline: The Fetus at Risk for Anemia—Diagnosis and Management.",
+      "British Society for Haematology. Guideline for the Investigation and Management of Red Cell Antibodies in Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-898",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Profilaxis y hemorragia fetomaterna",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Comprender la función de las pruebas de hemorragia fetomaterna para ajustar la profilaxis anti-D.",
+    "caso": "Puérpera Rh negativo, no sensibilizada, tiene un recién nacido Rh positivo después de un parto complicado por desprendimiento placentario y hemorragia abundante. Se administra la dosis habitual de anti-D, pero el equipo sospecha que la exposición a eritrocitos fetales pudo ser mayor de lo habitual.",
+    "pregunta": "¿Qué evaluación puede ser útil para decidir si se necesita una dosis adicional de inmunoglobulina anti-D?",
+    "opciones": [
+      "Medición de la bilirrubina materna como estimación directa de eritrocitos fetales en sangre materna",
+      "Prueba de antiglobulina directa materna como cuantificación de hemorragia fetomaterna",
+      "Determinación del grupo ABO materno como único dato para calcular la exposición",
+      "Cuantificación de hemorragia fetomaterna mediante una prueba validada, como Kleihauer-Betke o citometría de flujo, según disponibilidad y protocolo",
+      "Ultrasonido abdominal materno para contar los eritrocitos fetales circulantes"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Cuando se sospecha hemorragia fetomaterna importante, las pruebas cuantitativas pueden ayudar a estimar el volumen de eritrocitos fetales en la circulación materna y determinar si la dosis estándar de anti-D es suficiente. Entre las opciones se encuentran la prueba de Kleihauer-Betke y la citometría de flujo, según la disponibilidad y el protocolo local. La finalidad es prevenir la sensibilización en una madre no sensibilizada.",
+    "perlaENARM": "Si se sospecha hemorragia fetomaterna grande, la cuantificación ayuda a ajustar la dosis de anti-D; la dosis estándar puede no ser suficiente en todos los casos.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, página 2.",
+      "British Society for Haematology. Guideline for the Investigation and Management of Red Cell Antibodies in Pregnancy.",
+      "ACOG. The Rh Factor: How It Can Affect Your Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-899",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Diferenciación entre prevención y tratamiento fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir la profilaxis materna de las intervenciones terapéuticas destinadas a tratar anemia fetal establecida.",
+    "caso": "Gestante de 30 semanas con anti-D inmune confirmado presenta Doppler de arteria cerebral media sugestivo de anemia fetal moderada a grave. Un integrante del equipo propone administrar una dosis adicional de inmunoglobulina anti-D a la madre y reevaluar en una semana, sin valoración por medicina materno-fetal.",
+    "pregunta": "¿Qué problema existe con esa propuesta?",
+    "opciones": [
+      "La inmunoglobulina anti-D es profiláctica y no trata la anemia fetal establecida; se requiere evaluación especializada para decidir vigilancia intensificada, confirmación diagnóstica o tratamiento fetal",
+      "La anti-D adicional corrige directamente la hemoglobina fetal en pocas horas",
+      "El Doppler de la arteria cerebral media carece de utilidad en pacientes con anti-D",
+      "La anemia fetal por aloinmunización siempre se resuelve espontáneamente después de las 30 semanas",
+      "La única opción terapéutica es la administración materna de hierro oral"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La inmunoglobulina anti-D previene la sensibilización, pero no elimina los anticuerpos inmunes ya formados ni corrige una anemia fetal establecida. Un Doppler sugestivo de anemia moderada o grave requiere valoración especializada para confirmar la gravedad y definir si se necesita muestreo fetal, transfusión intrauterina o nacimiento según la edad gestacional y las condiciones clínicas. No debe sustituirse esa evaluación por profilaxis adicional.",
+    "perlaENARM": "No confundas prevención de sensibilización con tratamiento de anemia fetal: la anti-D profiláctica no revierte la enfermedad hemolítica ya establecida.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, páginas 1-2.",
+      "SMFM Clinical Guideline: The Fetus at Risk for Anemia—Diagnosis and Management.",
+      "ACOG. The Rh Factor: How It Can Affect Your Pregnancy."
+    ]
+  },
+  {
+    "id": "OBS-900",
+    "especialidad": "Obstetricia",
+    "tema": "Aloinmunización materna",
+    "subtema": "Integración diagnóstica y prevención de enfermedad hemolítica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar grupo Rh materno, tamizaje de anticuerpos, profilaxis y evaluación fetal para prevenir y detectar enfermedad hemolítica.",
+    "caso": "Gestante de 28 semanas, Rh negativo, con tamizaje de anticuerpos negativo y pareja Rh positivo. No tiene antecedentes de transfusión ni de recién nacido afectado. Recibió profilaxis anti-D en una gestación previa, pero no en la actual. El feto tiene crecimiento adecuado y no hay signos ecográficos de anemia.",
+    "pregunta": "¿Qué plan preventivo y de seguimiento corresponde en ausencia de sensibilización demostrada?",
+    "opciones": [
+      "Considerarla sensibilizada por haber recibido anti-D en un embarazo previo y suspender toda profilaxis",
+      "Administrar transfusión intrauterina preventiva porque la pareja es Rh positivo",
+      "Ofrecer profilaxis anti-D antenatal según el protocolo vigente, documentar eventos sensibilizantes y planear la evaluación del Rh neonatal para decidir la profilaxis posparto",
+      "No repetir ninguna prueba inmunohematológica hasta después del parto",
+      "Administrar anti-D únicamente si aparece hidrops fetal"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La paciente Rh negativo con tamizaje negativo no tiene sensibilización demostrada y puede beneficiarse de profilaxis anti-D. El PDF, página 2, señala la administración a las 28 semanas y una dosis posparto dentro de las primeras 72 horas si el recién nacido es Rh positivo. La práctica clínica también contempla profilaxis tras eventos sensibilizantes y la evaluación de hemorragia fetomaterna cuando esté indicada. Si el recién nacido es Rh negativo, no se requiere profilaxis posparto por incompatibilidad D.",
+    "perlaENARM": "La prevención de enfermedad hemolítica requiere identificar a la madre Rh negativo no sensibilizada, administrar profilaxis cuando corresponde y definir el Rh neonatal tras el nacimiento.",
+    "bibliografia": [
+      "PDF proporcionado: 22. Aloinmunización Materna, páginas 1-2.",
+      "ACOG. The Rh Factor: How It Can Affect Your Pregnancy.",
+      "British Society for Haematology. Guideline for the Investigation and Management of Red Cell Antibodies in Pregnancy."
+    ]
+  },
+   {
+    "id": "OBS-901",
+    "especialidad": "Obstetricia",
+    "tema": "Polihidramnios",
+    "subtema": "Definición y criterios ecográficos",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Aplicar los criterios ecográficos actuales para identificar polihidramnios y distinguirlos de los valores de referencia del material de estudio.",
+    "caso": "Gestante de 30 semanas con diabetes gestacional presenta crecimiento fetal en percentil 85. En el ultrasonido se registra un índice de líquido amniótico de 27 cm y un bolsillo vertical máximo de 9 cm. No se identifican anomalías estructurales en el estudio inicial.",
+    "pregunta": "¿Cómo debe clasificarse el volumen de líquido amniótico con los criterios ecográficos habituales?",
+    "opciones": [
+      "Líquido amniótico normal porque el ILA es inferior a 30 cm",
+      "Oligohidramnios leve por el antecedente de diabetes",
+      "Polihidramnios, de grado leve por el ILA y el bolsillo vertical máximo",
+      "Polihidramnios grave, porque todo ILA mayor de 25 cm indica gravedad",
+      "No puede establecerse alteración del líquido amniótico sin amniocentesis"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Un ILA de 27 cm y un bolsillo vertical máximo de 9 cm cumplen criterios habituales de polihidramnios. En la clasificación ecográfica común, el polihidramnios leve corresponde aproximadamente a ILA de 25 a 29.9 cm o bolsillo vertical máximo de 8 a 11 cm; los umbrales pueden variar ligeramente según la guía. El documento, página 2, utiliza categorías por ILA, con polihidramnios leve entre 25 y 29.9 cm. Debe investigarse la causa, incluida diabetes materna y anomalías fetales.",
+    "perlaENARM": "Polihidramnios: ILA aproximadamente ≥24–25 cm o bolsillo vertical máximo ≥8 cm. La gravedad se determina por la magnitud de la acumulación y el contexto clínico.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, páginas 1-2.",
+      "SMFM Consult Series #46. Evaluation and Management of Polyhydramnios.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-902",
+    "especialidad": "Obstetricia",
+    "tema": "Polihidramnios",
+    "subtema": "Fisiopatología y diabetes materna",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Explicar la asociación entre hiperglucemia materna, diuresis fetal y aumento del líquido amniótico.",
+    "caso": "Gestante de 32 semanas con diabetes gestacional presenta polihidramnios moderado y crecimiento fetal por encima del percentil 90. El estudio anatómico no muestra obstrucción digestiva ni anomalías del sistema nervioso central. Los registros de glucosa revelan hiperglucemia posprandial persistente.",
+    "pregunta": "¿Qué mecanismo explica mejor el exceso de líquido amniótico en este contexto?",
+    "opciones": [
+      "La hiperglucemia fetal favorece diuresis osmótica y aumento de la producción de orina fetal",
+      "La diabetes inhibe por completo la producción de orina fetal y causa acumulación de líquido",
+      "La hiperglucemia materna produce siempre una ruptura microscópica de las membranas",
+      "La diabetes reduce la deglución fetal por lesión directa del esófago en todos los casos",
+      "El exceso de líquido se origina exclusivamente por disminución de la absorción materna, sin participación fetal"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "En la diabetes materna, la glucosa atraviesa la placenta y puede elevar la glucemia fetal. La hiperglucemia fetal favorece diuresis osmótica, aumenta la producción de orina y contribuye al polihidramnios. La asociación no excluye otras etiologías: deben revisarse el control glucémico, la anatomía fetal y otros hallazgos clínicos.",
+    "perlaENARM": "Diabetes materna → hiperglucemia fetal → diuresis fetal aumentada → polihidramnios.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, página 1.",
+      "SMFM Consult Series #46. Evaluation and Management of Polyhydramnios.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-903",
+    "especialidad": "Obstetricia",
+    "tema": "Polihidramnios",
+    "subtema": "Anomalías de la deglución fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar las alteraciones de la deglución fetal con el desarrollo de polihidramnios y reconocer hallazgos sugestivos de obstrucción digestiva.",
+    "caso": "Gestante de 31 semanas presenta polihidramnios progresivo. En el ultrasonido se observa una cámara gástrica persistentemente pequeña y una anomalía sospechosa del tubo digestivo proximal. El crecimiento fetal es adecuado y el tamizaje de diabetes es normal.",
+    "pregunta": "¿Qué mecanismo fisiopatológico debe considerarse prioritariamente?",
+    "opciones": [
+      "Aumento de la reabsorción renal fetal como causa exclusiva del polihidramnios",
+      "Disminución de la producción de orina fetal por insuficiencia renal",
+      "Pérdida de líquido por ruptura prematura de membranas",
+      "Obstrucción digestiva proximal que dificulta la deglución y recirculación normal del líquido amniótico",
+      "Reducción fisiológica del líquido amniótico en el tercer trimestre"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El feto contribuye a la regulación del líquido amniótico mediante la deglución y la producción de orina. Las obstrucciones digestivas proximales, como la atresia esofágica o duodenal, pueden disminuir la deglución efectiva y favorecer acumulación de líquido. Una cámara gástrica pequeña es un dato sugestivo, aunque no confirma por sí sola una malformación; se requiere evaluación anatómica dirigida.",
+    "perlaENARM": "Polihidramnios con cámara gástrica pequeña o anomalía digestiva sugiere alteración de la deglución fetal.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, página 1.",
+      "SMFM Consult Series #46. Evaluation and Management of Polyhydramnios.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-904",
+    "especialidad": "Obstetricia",
+    "tema": "Polihidramnios",
+    "subtema": "Abordaje etiológico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Establecer una evaluación etiológica dirigida en el polihidramnios sin atribuirlo automáticamente a una sola causa.",
+    "caso": "Gestante de 29 semanas con polihidramnios de aparición reciente tiene glucosa materna dentro de objetivos y un ultrasonido anatómico previo sin anomalías. No presenta fiebre ni datos clínicos de infección. El feto tiene crecimiento adecuado y no hay hidrops.",
+    "pregunta": "¿Qué enfoque permite evaluar el hallazgo de forma más completa?",
+    "opciones": [
+      "Indicar amniocentesis evacuadora en todos los casos, sin estudiar la causa",
+      "Repetir únicamente la biometría hemática materna y dar por concluido el estudio",
+      "Realizar cesárea inmediata por el solo diagnóstico de polihidramnios",
+      "Atribuirlo a una variante fisiológica y suspender el seguimiento",
+      "Revisar la anatomía fetal, evaluar diabetes y considerar otras causas según antecedentes, gravedad y hallazgos clínicos"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El estudio del polihidramnios debe individualizarse según la gravedad y los hallazgos asociados. Entre las causas relevantes se encuentran diabetes materna, anomalías fetales que alteran la deglución, condiciones asociadas con anemia fetal o hidrops y, en casos seleccionados, infecciones u otras enfermedades. Un estudio anatómico previo normal no elimina todas las posibilidades, particularmente si el polihidramnios aparece o progresa posteriormente.",
+    "perlaENARM": "El polihidramnios es un hallazgo, no un diagnóstico etiológico: la evaluación se dirige por la gravedad y los datos maternofetales.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, páginas 1-2.",
+      "SMFM Consult Series #46. Evaluation and Management of Polyhydramnios.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-905",
+    "especialidad": "Obstetricia",
+    "tema": "Polihidramnios",
+    "subtema": "Polihidramnios grave y síntomas maternos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Seleccionar medidas terapéuticas para polihidramnios grave sintomático y reconocer las indicaciones de reducción del líquido.",
+    "caso": "Gestante de 30 semanas presenta polihidramnios grave, disnea en reposo, dolor por distensión abdominal y limitación importante para dormir. El ultrasonido no identifica una causa corregible inmediata. No hay trabajo de parto ni compromiso fetal agudo.",
+    "pregunta": "¿Qué intervención puede considerarse para aliviar los síntomas maternos cuando el polihidramnios es grave?",
+    "opciones": [
+      "Inducir el parto de inmediato en toda paciente con disnea, independientemente de la edad gestacional",
+      "Realizar amnioreducción bajo guía ecográfica en un centro con experiencia, valorando beneficios y riesgos",
+      "Administrar diuréticos maternos de rutina para reducir directamente la producción fetal de orina",
+      "Indicar reposo absoluto como tratamiento definitivo de la acumulación de líquido",
+      "Realizar amniotomía sin control para evacuar rápidamente todo el líquido"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La amnioreducción puede considerarse en polihidramnios grave cuando existe disnea o malestar materno importante. Debe realizarse bajo guía ecográfica y por un equipo con experiencia, considerando riesgos como desprendimiento placentario, rotura de membranas, infección y parto pretérmino. No se recomienda realizarla únicamente para normalizar un valor ecográfico en una paciente asintomática.",
+    "perlaENARM": "La amnioreducción se reserva principalmente para polihidramnios grave con síntomas maternos importantes; no es una intervención rutinaria para todos los casos.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, página 2.",
+      "SMFM Consult Series #46. Evaluation and Management of Polyhydramnios.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-906",
+    "especialidad": "Obstetricia",
+    "tema": "Polihidramnios",
+    "subtema": "Riesgos de la amnioreducción",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer las complicaciones potenciales de una reducción rápida del líquido amniótico.",
+    "caso": "Paciente con polihidramnios sintomático es sometida a amnioreducción. Durante el procedimiento se extrae líquido a velocidad elevada y, poco después, presenta dolor abdominal súbito y sangrado vaginal. La frecuencia cardiaca fetal muestra desaceleraciones.",
+    "pregunta": "¿Qué complicación obstétrica debe descartarse de manera urgente?",
+    "opciones": [
+      "Diabetes gestacional de inicio agudo",
+      "Agenesia renal fetal como complicación inmediata del procedimiento",
+      "Embarazo ectópico abdominal",
+      "Desprendimiento prematuro de placenta normoinserta asociado temporalmente al procedimiento",
+      "Preeclampsia sin hipertensión ni proteinuria"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El documento, página 2, advierte que una extracción rápida de líquido puede producir desprendimiento prematuro de placenta. El dolor súbito, sangrado y deterioro del trazado fetal exigen evaluación urgente de esta complicación, además de otras causas de compromiso fetal y materno. La amnioreducción debe planearse y realizarse bajo guía ecográfica, evitando cambios bruscos y manteniendo vigilancia clínica.",
+    "perlaENARM": "Después de una amnioreducción, dolor y sangrado obligan a descartar DPPNI y otras complicaciones obstétricas agudas.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, página 2.",
+      "SMFM Consult Series #46. Evaluation and Management of Polyhydramnios.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-907",
+    "especialidad": "Obstetricia",
+    "tema": "Polihidramnios",
+    "subtema": "Riesgo intraparto",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Anticipar las complicaciones intraparto asociadas con la sobredistensión uterina por polihidramnios.",
+    "caso": "Gestante de 37 semanas con polihidramnios grave inicia trabajo de parto espontáneo. La presentación fetal permanece alta y móvil pese a contracciones regulares. Durante la ruptura espontánea de membranas ocurre una salida abundante y rápida de líquido, seguida de bradicardia fetal.",
+    "pregunta": "¿Qué complicación debe buscarse de inmediato tras la ruptura de membranas?",
+    "opciones": [
+      "Prolapso del cordón umbilical",
+      "Aloinmunización anti-D de aparición inmediata",
+      "Agenesia renal fetal",
+      "Diabetes insípida materna",
+      "Atresia duodenal adquirida durante el trabajo de parto"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El polihidramnios produce sobredistensión uterina y puede mantener la presentación fetal alta. Tras la ruptura de membranas, la salida rápida de líquido puede favorecer el prolapso del cordón, especialmente si la presentación no está encajada. La bradicardia fetal posterior a la ruptura obliga a evaluar de inmediato prolapso del cordón y otras causas de compromiso fetal agudo.",
+    "perlaENARM": "Polihidramnios más presentación alta y ruptura de membranas: riesgo de prolapso del cordón umbilical.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, páginas 1-2.",
+      "SMFM Consult Series #46. Evaluation and Management of Polyhydramnios.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-908",
+    "especialidad": "Obstetricia",
+    "tema": "Polihidramnios",
+    "subtema": "Momento y vía del nacimiento",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Evitar la indicación automática de nacimiento prematuro o cesárea por polihidramnios aislado.",
+    "caso": "Gestante de 38 semanas con polihidramnios leve idiopático, sin disnea, diabetes, anomalías fetales ni alteraciones del crecimiento. El feto está en presentación cefálica y la paciente desea parto vaginal.",
+    "pregunta": "¿Qué principio debe orientar la planificación del nacimiento?",
+    "opciones": [
+      "Realizar cesárea electiva obligatoria por el aumento del líquido",
+      "Finalizar el embarazo a las 34 semanas en todos los casos de polihidramnios",
+      "Individualizar el momento y la vía del nacimiento según la gravedad, etiología y condiciones obstétricas, sin imponer cesárea solo por polihidramnios leve idiopático",
+      "Prohibir el trabajo de parto espontáneo en cualquier paciente con líquido amniótico aumentado",
+      "Indicar amnioreducción antes del nacimiento aunque no haya síntomas"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "En el polihidramnios leve idiopático no se recomienda cesárea ni nacimiento prematuro únicamente por el hallazgo. La planificación debe considerar presentación fetal, bienestar, etiología, gravedad y factores obstétricos habituales. En casos moderados o graves puede requerirse mayor vigilancia y atención en una unidad con recursos adecuados, pero la conducta se individualiza.",
+    "perlaENARM": "El polihidramnios leve idiopático no constituye por sí solo indicación de cesárea ni de nacimiento prematuro.",
+    "bibliografia": [
+      "SMFM Consult Series #46. Evaluation and Management of Polyhydramnios.",
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, páginas 1-2.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-909",
+    "especialidad": "Obstetricia",
+    "tema": "Oligohidramnios",
+    "subtema": "Criterios ecográficos",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir oligohidramnios de un volumen normal mediante el bolsillo vertical máximo y el índice de líquido amniótico.",
+    "caso": "Gestante de 36 semanas acude por disminución subjetiva de movimientos fetales. El ultrasonido muestra un bolsillo vertical máximo de 1.6 cm y un índice de líquido amniótico de 4.7 cm. La frecuencia cardiaca fetal basal es normal.",
+    "pregunta": "¿Qué conclusión ecográfica corresponde a los datos obtenidos?",
+    "opciones": [
+      "Volumen normal porque el ILA es superior a 2 cm",
+      "Polihidramnios leve por el bolsillo vertical máximo",
+      "Líquido amniótico normal para el tercer trimestre",
+      "Oligohidramnios, porque el bolsillo vertical máximo es menor de 2 cm y el ILA es menor o igual a 5 cm",
+      "El líquido amniótico no puede evaluarse después de las 32 semanas"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El oligohidramnios se identifica habitualmente con un bolsillo vertical máximo menor de 2 cm o un ILA de 5 cm o menos. En este caso, ambos parámetros están reducidos. La evaluación debe continuar con la búsqueda de ruptura de membranas, alteraciones renales fetales, restricción del crecimiento y otros factores, además de valorar el bienestar fetal.",
+    "perlaENARM": "Oligohidramnios: bolsillo vertical máximo menor de 2 cm o ILA ≤5 cm, según el método utilizado.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, páginas 2-3.",
+      "ACOG. Indications for Outpatient Antenatal Fetal Surveillance.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-910",
+    "especialidad": "Obstetricia",
+    "tema": "Oligohidramnios",
+    "subtema": "Ruptura prematura de membranas",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar la historia clínica y la exploración para investigar una posible ruptura de membranas en presencia de oligohidramnios.",
+    "caso": "Gestante de 30 semanas consulta por salida intermitente de líquido claro desde hace 12 horas. El ultrasonido revela oligohidramnios y crecimiento fetal acorde con la edad gestacional. La paciente está afebril y no presenta contracciones.",
+    "pregunta": "¿Qué enfoque diagnóstico permite investigar de forma apropiada una ruptura prematura de membranas?",
+    "opciones": [
+      "Realizar tactos vaginales digitales repetidos para comprobar si continúa saliendo líquido",
+      "Descartar ruptura porque no hay fiebre ni contracciones",
+      "Indicar cesárea inmediata basándose únicamente en el volumen de líquido",
+      "Diagnosticar agenesia renal fetal sin realizar evaluación anatómica",
+      "Realizar evaluación con espéculo estéril y pruebas complementarias apropiadas, evitando tactos digitales innecesarios"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La salida de líquido y el oligohidramnios hacen sospechar ruptura prematura de membranas. La evaluación suele incluir espéculo estéril para observar acumulación o salida de líquido, con pruebas adicionales si el diagnóstico es incierto. Los tactos vaginales digitales deben evitarse cuando no son necesarios, porque pueden aumentar el riesgo de infección y acortar el periodo de latencia. La ausencia de fiebre o contracciones no excluye la ruptura.",
+    "perlaENARM": "Sospecha de ruptura de membranas: espéculo estéril y pruebas dirigidas; evita tactos digitales repetidos si no existe indicación de nacimiento inminente.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, página 3.",
+      "ACOG. Prelabor Rupture of Membranes.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-911",
+    "especialidad": "Obstetricia",
+    "tema": "Oligohidramnios",
+    "subtema": "Malformaciones renales fetales",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar el oligohidramnios precoz con alteraciones de la producción urinaria fetal y sus consecuencias pulmonares.",
+    "caso": "En el ultrasonido de las 19 semanas se observa oligohidramnios grave, ausencia de visualización de ambos riñones y vejiga persistentemente no visible durante la exploración. No hay evidencia de ruptura de membranas.",
+    "pregunta": "¿Qué mecanismo explica el riesgo de hipoplasia pulmonar en este escenario?",
+    "opciones": [
+      "Exceso de deglución fetal que reduce la expansión pulmonar",
+      "Disminución marcada de la producción de orina fetal, con pérdida prolongada del líquido amniótico necesario para el desarrollo pulmonar",
+      "Hiperglucemia materna que causa poliuria fetal intensa",
+      "Aumento del líquido amniótico por obstrucción esofágica",
+      "Maduración pulmonar acelerada por compresión torácica"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "En la segunda mitad del embarazo, la orina fetal es una fuente importante de líquido amniótico. La agenesia renal bilateral puede ocasionar oligohidramnios grave y precoz, limitando la expansión pulmonar y favoreciendo hipoplasia pulmonar. La combinación de ausencia renal bilateral, vejiga no visible y oligohidramnios intenso hace necesario confirmar el diagnóstico y ofrecer asesoramiento especializado.",
+    "perlaENARM": "Oligohidramnios precoz grave por agenesia renal bilateral se asocia con secuencia de Potter e hipoplasia pulmonar.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, páginas 3-4.",
+      "Williams Obstetrics, 26.ª ed.",
+      "ISUOG Practice Guidelines: Sonographic examination of the fetal central nervous system and urinary tract."
+    ]
+  },
+  {
+    "id": "OBS-912",
+    "especialidad": "Obstetricia",
+    "tema": "Oligohidramnios",
+    "subtema": "Restricción del crecimiento fetal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Explicar la asociación entre insuficiencia placentaria, redistribución hemodinámica fetal y oligohidramnios.",
+    "caso": "Gestante de 34 semanas presenta feto con peso estimado en percentil 4, oligohidramnios y Doppler de arteria umbilical con resistencia elevada. No refiere pérdida de líquido vaginal y la evaluación anatómica renal es normal.",
+    "pregunta": "¿Qué mecanismo integra mejor los hallazgos?",
+    "opciones": [
+      "La hiperglucemia fetal aumenta la producción de orina y reduce el líquido amniótico",
+      "Una obstrucción digestiva proximal provoca simultáneamente resistencia elevada en la arteria umbilical",
+      "La insuficiencia placentaria puede reducir la perfusión renal fetal y la producción de orina, contribuyendo al oligohidramnios",
+      "El oligohidramnios confirma por sí solo una ruptura de membranas",
+      "La resistencia elevada de la arteria umbilical es un hallazgo normal en toda gestación de 34 semanas"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La insuficiencia placentaria puede ocasionar restricción del crecimiento y redistribución del flujo sanguíneo fetal para priorizar órganos vitales. La reducción de perfusión renal puede disminuir la producción de orina fetal y contribuir al oligohidramnios. La combinación exige evaluación del bienestar fetal, Doppler y planificación del seguimiento y del nacimiento según la gravedad.",
+    "perlaENARM": "Restricción del crecimiento más oligohidramnios y Doppler umbilical anormal sugieren insuficiencia placentaria.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, página 3.",
+      "SMFM Consult Series #52. Diagnosis and Management of Fetal Growth Restriction.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-913",
+    "especialidad": "Obstetricia",
+    "tema": "Oligohidramnios",
+    "subtema": "Secuencia de Potter",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar la secuencia de Potter del síndrome de Potter y reconocer las consecuencias del oligohidramnios grave precoz.",
+    "caso": "Feto con oligohidramnios grave desde el segundo trimestre presenta facies aplanada, extremidades en flexión y pulmones hipoplásicos. La evaluación anatómica confirma agenesia renal bilateral.",
+    "pregunta": "¿Qué término describe de manera más específica la asociación etiológica y fenotípica encontrada?",
+    "opciones": [
+      "Síndrome de Potter por agenesia renal bilateral, con manifestaciones de la secuencia de Potter",
+      "Secuencia de bandas amnióticas por ruptura de membranas",
+      "Síndrome de transfusión feto-fetal",
+      "Hidrops fetal secundario a anemia inmunitaria",
+      "Síndrome de aspiración de meconio prenatal"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El documento, página 3, diferencia la secuencia de Potter —conjunto de alteraciones derivadas del oligohidramnios grave precoz— del síndrome de Potter asociado específicamente con agenesia renal. La falta prolongada de líquido puede causar compresión fetal, facies característica, extremidades en flexión e hipoplasia pulmonar. El pronóstico depende de la causa y de la gravedad, especialmente de la función renal y pulmonar.",
+    "perlaENARM": "Secuencia de Potter: consecuencias fenotípicas del oligohidramnios grave precoz; síndrome de Potter: asociación clásica con agenesia renal.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, página 3.",
+      "Williams Obstetrics, 26.ª ed.",
+      "Textbook of Fetal Abnormalities, 3.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-914",
+    "especialidad": "Obstetricia",
+    "tema": "Oligohidramnios",
+    "subtema": "Compresión del cordón y vigilancia fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar el volumen reducido de líquido amniótico con la compresión del cordón y las alteraciones de la frecuencia cardiaca fetal.",
+    "caso": "Gestante de 37 semanas con oligohidramnios presenta desaceleraciones variables recurrentes durante el trabajo de parto. No hay fiebre ni sangrado vaginal, y la presentación fetal está cefálica.",
+    "pregunta": "¿Qué mecanismo explica las desaceleraciones variables recurrentes en este contexto?",
+    "opciones": [
+      "Hemólisis fetal por incompatibilidad Rh",
+      "Aumento de la producción de orina fetal",
+      "Obstrucción esofágica fetal",
+      "Compresión del cordón umbilical por disminución del efecto amortiguador del líquido amniótico",
+      "Hiperglucemia materna aislada sin efecto fetal"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El líquido amniótico amortigua la presión sobre el cordón umbilical. Cuando su volumen es reducido, aumenta la posibilidad de compresión del cordón, que puede manifestarse como desaceleraciones variables durante el trabajo de parto. La conducta depende del patrón cardiotocográfico completo y del contexto clínico; si el trazado se deteriora, se requieren medidas de reanimación intrauterina y valoración de la necesidad de nacimiento.",
+    "perlaENARM": "Oligohidramnios aumenta el riesgo de compresión del cordón y desaceleraciones variables intraparto.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, página 4.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-915",
+    "especialidad": "Obstetricia",
+    "tema": "Oligohidramnios",
+    "subtema": "Oligohidramnios aislado a término",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Planificar el manejo del oligohidramnios aislado a término con base en el bienestar fetal y la edad gestacional.",
+    "caso": "Gestante de 37 semanas y 2 días tiene un bolsillo vertical máximo de 1.5 cm. La prueba sin estrés es reactiva, el crecimiento fetal es adecuado, la anatomía renal es normal y no hay datos de ruptura de membranas ni hipertensión.",
+    "pregunta": "¿Qué aspecto debe guiar la planificación obstétrica a partir de este diagnóstico?",
+    "opciones": [
+      "Esperar obligatoriamente hasta las 42 semanas si la prueba sin estrés es reactiva",
+      "Indicar reposo absoluto como tratamiento para aumentar el líquido",
+      "Ignorar el hallazgo porque el crecimiento fetal es normal",
+      "Realizar amnioreducción para aumentar el volumen del líquido amniótico",
+      "Valorar el nacimiento según la edad gestacional, el bienestar fetal y la guía aplicable, sin retrasarlo indefinidamente por una prueba reactiva"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El oligohidramnios a término requiere evaluación de la causa, confirmación del hallazgo y valoración del bienestar fetal. En oligohidramnios aislado persistente, las recomendaciones suelen favorecer considerar el nacimiento durante el intervalo de término temprano, según edad gestacional, método de medición y guía utilizada. Una prueba sin estrés reactiva es tranquilizadora en ese momento, pero no elimina el diagnóstico ni todos los riesgos posteriores.",
+    "perlaENARM": "Una prueba sin estrés reactiva no invalida el diagnóstico de oligohidramnios; la edad gestacional y el contexto determinan la conducta.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, páginas 3-4.",
+      "ACOG. Indications for Outpatient Antenatal Fetal Surveillance.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-916",
+    "especialidad": "Obstetricia",
+    "tema": "Oligohidramnios",
+    "subtema": "Amnioinfusión",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir el uso de amnioinfusión intraparto del manejo rutinario del oligohidramnios durante el embarazo.",
+    "caso": "Gestante de 38 semanas con oligohidramnios se encuentra en trabajo de parto. El trazado fetal presenta desaceleraciones variables recurrentes que persisten a pesar de cambios de posición y otras medidas iniciales. No hay prolapso de cordón ni desprendimiento placentario.",
+    "pregunta": "¿En qué situación puede considerarse la amnioinfusión?",
+    "opciones": [
+      "Como tratamiento universal para cualquier oligohidramnios detectado durante el embarazo",
+      "Como medida intraparto seleccionada para aliviar desaceleraciones variables recurrentes asociadas con compresión del cordón, conforme al protocolo y al contexto clínico",
+      "Como sustituto de la evaluación fetal cuando existe bradicardia sostenida",
+      "Para corregir una agenesia renal fetal",
+      "Como profilaxis rutinaria de infección en toda ruptura de membranas"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La amnioinfusión puede considerarse durante el trabajo de parto en casos seleccionados de desaceleraciones variables recurrentes relacionadas con compresión del cordón. No es un tratamiento universal del oligohidramnios antenatal ni corrige la causa subyacente de una baja producción urinaria fetal. La decisión debe integrar el trazado cardiotocográfico, las contraindicaciones y los recursos disponibles.",
+    "perlaENARM": "La amnioinfusión puede aliviar la compresión del cordón en escenarios intraparto seleccionados; no es una terapia universal del oligohidramnios antenatal.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, página 3.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-917",
+    "especialidad": "Obstetricia",
+    "tema": "Oligohidramnios",
+    "subtema": "Interpretación del volumen de líquido en el tercer trimestre",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Evitar el sobrediagnóstico de oligohidramnios mediante una interpretación contextual de la medición ecográfica.",
+    "caso": "Gestante de 40 semanas, sin pérdida de líquido ni enfermedades maternas, presenta ILA de 7 cm y bolsillo vertical máximo de 2.4 cm. El crecimiento fetal es adecuado y la prueba sin estrés es reactiva. El informe automatizado etiqueta el resultado como oligohidramnios utilizando un punto de corte de ILA menor de 8 cm.",
+    "pregunta": "¿Qué consideración evita clasificar erróneamente el volumen de líquido amniótico?",
+    "opciones": [
+      "Todo ILA menor de 8 cm demuestra oligohidramnios grave",
+      "La edad gestacional no influye en la interpretación del líquido amniótico",
+      "El ILA y el bolsillo vertical máximo tienen umbrales diferentes; un bolsillo mayor de 2 cm no cumple el criterio habitual de oligohidramnios por bolsillo, por lo que debe revisarse el método y el contexto",
+      "La prueba sin estrés reactiva convierte cualquier volumen en normal",
+      "El volumen debe confirmarse siempre mediante amniocentesis"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Los criterios ecográficos dependen del método empleado. El oligohidramnios se define habitualmente con ILA de 5 cm o menos o bolsillo vertical máximo menor de 2 cm. Un ILA de 7 cm no cumple el umbral habitual de ILA para oligohidramnios, y un bolsillo de 2.4 cm tampoco cumple el criterio de bolsillo bajo. Debe revisarse la medición y evitar utilizar umbrales no equivalentes como si fueran intercambiables.",
+    "perlaENARM": "No confundas ILA menor de 8 cm con el umbral habitual de oligohidramnios: los criterios más utilizados son ILA ≤5 cm o bolsillo vertical máximo <2 cm.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, páginas 2-3.",
+      "ACOG. Indications for Outpatient Antenatal Fetal Surveillance.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-918",
+    "especialidad": "Obstetricia",
+    "tema": "Polihidramnios y oligohidramnios",
+    "subtema": "Regulación fisiológica del líquido amniótico",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Integrar la producción y eliminación del líquido amniótico para explicar los mecanismos de los trastornos de volumen.",
+    "caso": "En una sesión clínica se comparan dos casos: un feto con obstrucción digestiva proximal y polihidramnios, y otro con agenesia renal bilateral y oligohidramnios grave. Un residente sostiene que ambos trastornos se deben exclusivamente a alteraciones de las membranas amnióticas.",
+    "pregunta": "¿Qué explicación fisiológica integra mejor ambos casos?",
+    "opciones": [
+      "El volumen depende exclusivamente de la secreción materna y no de la función fetal",
+      "La deglución fetal solo interviene en la regulación del líquido después del nacimiento",
+      "La orina fetal carece de importancia en el segundo y tercer trimestre",
+      "El volumen depende del equilibrio entre fuentes como la orina fetal y procesos de eliminación como la deglución y la absorción intramembranosa",
+      "Las anomalías digestivas y renales no modifican el volumen de líquido amniótico"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El volumen de líquido amniótico depende de un equilibrio dinámico entre producción y eliminación. La orina fetal constituye una fuente importante en la segunda mitad de la gestación, mientras que la deglución fetal y la absorción intramembranosa participan en su eliminación. Una obstrucción digestiva puede disminuir la deglución y producir polihidramnios; una alteración renal grave puede reducir la producción urinaria y causar oligohidramnios.",
+    "perlaENARM": "Polihidramnios: puede existir menor deglución o mayor producción de orina. Oligohidramnios: puede haber menor producción urinaria o pérdida de líquido por ruptura de membranas.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, páginas 1 y 3.",
+      "Williams Obstetrics, 26.ª ed.",
+      "SMFM Consult Series #46. Evaluation and Management of Polyhydramnios."
+    ]
+  },
+  {
+    "id": "OBS-919",
+    "especialidad": "Obstetricia",
+    "tema": "Polihidramnios",
+    "subtema": "Complicaciones maternas y fetales",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Anticipar las complicaciones obstétricas relacionadas con la sobredistensión uterina y el exceso de líquido amniótico.",
+    "caso": "Gestante de 35 semanas con polihidramnios grave presenta disnea, edema de miembros inferiores y distensión uterina marcada. En la evaluación se documenta presentación fetal inestable. No hay trabajo de parto activo y la placenta no presenta alteraciones evidentes.",
+    "pregunta": "¿Qué conjunto de riesgos debe incluirse en la vigilancia y planificación del nacimiento?",
+    "opciones": [
+      "Solo hipoglucemia neonatal, sin riesgos obstétricos adicionales",
+      "Prolapso del cordón tras ruptura de membranas, presentación anómala y mayor riesgo de atonía y hemorragia posparto",
+      "Agenesia renal materna y obstrucción ureteral aguda como complicaciones características",
+      "Disminución obligatoria de la frecuencia cardiaca fetal sin relación con el trabajo de parto",
+      "Ausencia de riesgo materno porque el polihidramnios aumenta el espacio intrauterino"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La sobredistensión uterina se asocia con presentación fetal inestable, mayor riesgo de prolapso del cordón después de la ruptura de membranas y atonía uterina con hemorragia posparto. La disnea y el dolor por distensión pueden justificar intervención en casos graves. La planificación del nacimiento debe considerar la etiología, la presentación fetal y la disponibilidad de recursos para responder a complicaciones.",
+    "perlaENARM": "Polihidramnios grave: anticipa presentación anómala, prolapso del cordón y hemorragia posparto por atonía uterina.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, páginas 1-2.",
+      "SMFM Consult Series #46. Evaluation and Management of Polyhydramnios.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-920",
+    "especialidad": "Obstetricia",
+    "tema": "Polihidramnios y oligohidramnios",
+    "subtema": "Integración diagnóstica y pronóstico",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar el volumen de líquido amniótico con la edad gestacional, la etiología y las repercusiones fetales para estimar el riesgo perinatal.",
+    "caso": "En una consulta de medicina materno-fetal se evalúan dos gestantes. La primera presenta polihidramnios leve a las 35 semanas, diabetes controlada y anatomía fetal normal. La segunda presenta oligohidramnios grave desde las 19 semanas, agenesia renal bilateral e hipoplasia pulmonar. Ambas familias solicitan una explicación comparativa del pronóstico.",
+    "pregunta": "¿Qué principio explica mejor la diferencia pronóstica entre ambos escenarios?",
+    "opciones": [
+      "El polihidramnios siempre tiene peor pronóstico que cualquier oligohidramnios",
+      "El pronóstico depende únicamente del sexo fetal y no de la etiología",
+      "El volumen del líquido carece de relevancia si el crecimiento fetal es normal",
+      "Todo polihidramnios leve requiere nacimiento inmediato y toda forma de oligohidramnios se resuelve espontáneamente",
+      "El pronóstico depende de la causa, la gravedad y el momento de aparición; el oligohidramnios grave y precoz puede comprometer el desarrollo pulmonar"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El pronóstico no depende únicamente de que el volumen esté aumentado o disminuido. El polihidramnios leve con diabetes controlada y anatomía normal puede tener una evolución favorable con vigilancia apropiada. En cambio, el oligohidramnios grave y precoz por agenesia renal bilateral puede causar hipoplasia pulmonar y complicaciones incompatibles con la supervivencia. La etiología y la edad gestacional de inicio son determinantes para el asesoramiento familiar.",
+    "perlaENARM": "El oligohidramnios grave y precoz tiene peor pronóstico cuando compromete el desarrollo pulmonar; la etiología y la edad gestacional son esenciales para estimarlo.",
+    "bibliografia": [
+      "PDF proporcionado: 23. Polihidramnios - Oligohidramnios, páginas 1-4.",
+      "SMFM Consult Series #46. Evaluation and Management of Polyhydramnios.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-921",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Línea de base de la frecuencia cardiaca fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar la línea de base fetal normal y distinguir taquicardia o bradicardia persistentes de cambios transitorios.",
+    "caso": "Gestante de 39 semanas en trabajo de parto espontáneo, afebril, sin administración de oxitocina. Durante un registro de 20 minutos, la frecuencia cardiaca fetal permanece alrededor de 145 lpm, con variabilidad moderada, aceleraciones presentes y sin desaceleraciones recurrentes.",
+    "pregunta": "¿Cómo se clasifica la línea de base de la frecuencia cardiaca fetal?",
+    "opciones": [
+      "Bradicardia fetal por encontrarse por debajo de 160 lpm",
+      "Taquicardia fetal compensada",
+      "Patrón sinusoidal",
+      "Línea de base normal, compatible con los demás hallazgos tranquilizadores descritos",
+      "Registro patológico por ausencia de variabilidad"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La línea de base fetal normal durante el trabajo de parto se encuentra habitualmente entre 110 y 160 lpm, calculada en un intervalo de 10 minutos excluyendo aceleraciones, desaceleraciones y periodos de variabilidad marcada. Una línea de base de 145 lpm, acompañada de variabilidad moderada y aceleraciones, es tranquilizadora en este contexto. El PDF, página 1, utiliza un intervalo de 120–160 lpm; para interpretación clínica actual suele utilizarse 110–160 lpm.",
+    "perlaENARM": "Línea de base normal: 110–160 lpm. Taquicardia: >160 lpm; bradicardia: <110 lpm cuando persiste al menos 10 minutos.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 1.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-922",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Taquicardia fetal y fiebre materna",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Relacionar la taquicardia fetal con factores maternos y reconocer cuándo debe investigarse infección intraamniótica.",
+    "caso": "Gestante de 40 semanas en trabajo de parto presenta temperatura de 39 °C, frecuencia cardiaca materna de 118 lpm y frecuencia cardiaca fetal basal de 175 lpm durante 15 minutos. La variabilidad es moderada y no se observan desaceleraciones tardías recurrentes. Se documenta dolor uterino y líquido amniótico de olor desagradable.",
+    "pregunta": "¿Qué explicación clínica debe priorizarse al integrar los hallazgos maternos y fetales?",
+    "opciones": [
+      "Taquicardia fetal fisiológica por movimientos fetales, sin necesidad de estudiar a la madre",
+      "Bradicardia fetal secundaria a hipoglucemia",
+      "Patrón sinusoidal característico de anemia fetal grave",
+      "Desaceleraciones variables por compresión del cordón",
+      "Taquicardia fetal asociada con fiebre materna y sospecha de infección intraamniótica"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La taquicardia fetal sostenida puede relacionarse con fiebre materna, infección intraamniótica, medicamentos, deshidratación u otras causas. La fiebre elevada, el dolor uterino y el líquido de olor desagradable aumentan la sospecha de infección intraamniótica y requieren evaluación y tratamiento materno oportunos. La taquicardia aislada no demuestra por sí misma hipoxia fetal, pero debe interpretarse junto con variabilidad, desaceleraciones y contexto clínico.",
+    "perlaENARM": "Taquicardia fetal más fiebre materna obliga a investigar infección; el patrón cardiotocográfico debe interpretarse junto con el estado materno.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 1.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management.",
+      "ACOG. Intraamniotic Infection."
+    ]
+  },
+  {
+    "id": "OBS-923",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Variabilidad moderada",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar la variabilidad de la frecuencia cardiaca fetal como indicador indirecto de integridad neurológica y oxigenación actual.",
+    "caso": "Gestante de 38 semanas con analgesia epidural presenta registro cardiotocográfico con línea de base de 135 lpm, variabilidad de 8–15 lpm, aceleraciones ocasionales y ausencia de desaceleraciones tardías. Las contracciones son regulares y la presión arterial materna permanece estable.",
+    "pregunta": "¿Qué significado tiene la variabilidad descrita?",
+    "opciones": [
+      "Variabilidad moderada, generalmente tranquilizadora en ausencia de otros datos preocupantes",
+      "Variabilidad ausente que demuestra acidosis metabólica",
+      "Patrón sinusoidal sugestivo de anemia fetal grave",
+      "Variabilidad saltatoria por encima de 25 lpm",
+      "Bradicardia fetal sostenida"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La variabilidad moderada se define habitualmente por una amplitud de 6 a 25 lpm. Sugiere integridad del sistema nervioso autónomo fetal y hace menos probable una acidemia metabólica significativa en ese momento, aunque no excluye por completo compromiso fetal. El PDF, página 2, presenta un intervalo normal diferente; para la interpretación actual se utiliza habitualmente la clasificación estandarizada de variabilidad ausente, mínima, moderada o marcada.",
+    "perlaENARM": "Variabilidad moderada: 6–25 lpm. Es un dato tranquilizador importante, pero debe integrarse con la línea de base y las desaceleraciones.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 2.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-924",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Variabilidad mínima y factores farmacológicos",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Diferenciar las causas potencialmente reversibles de variabilidad mínima de los patrones que sugieren compromiso fetal persistente.",
+    "caso": "Gestante de 37 semanas recibe opioide intravenoso para analgesia durante la fase latente. El registro muestra línea de base de 125 lpm y variabilidad mínima durante 25 minutos, sin desaceleraciones recurrentes. La madre está normotensa, afebril y refiere movimientos fetales antes de la administración del fármaco.",
+    "pregunta": "¿Qué dato clínico ayuda a contextualizar la variabilidad mínima observada?",
+    "opciones": [
+      "La variabilidad mínima confirma por sí sola acidosis fetal grave",
+      "El registro exige cesárea inmediata independientemente de su evolución",
+      "La exposición reciente a un opioide puede reducir transitoriamente la variabilidad; deben reevaluarse el patrón completo y su persistencia",
+      "La línea de base de 125 lpm corresponde a taquicardia fetal",
+      "La variabilidad no tiene relación con el estado conductual fetal ni con medicamentos"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "La variabilidad mínima puede aparecer durante el sueño fetal y después de ciertos fármacos depresores del sistema nervioso central, incluidos opioides. Sin embargo, no debe atribuirse automáticamente al medicamento: se debe revisar la duración, la presencia de aceleraciones, las desaceleraciones, los factores maternos y la evolución del trazado. La variabilidad mínima persistente asociada con otros hallazgos anormales aumenta la preocupación por compromiso fetal.",
+    "perlaENARM": "Variabilidad mínima no equivale automáticamente a acidemia: considera sueño fetal, medicamentos y evolución del registro antes de concluir, sin retrasar la respuesta si aparecen signos de deterioro.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 2.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-925",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Patrón sinusoidal",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer el patrón sinusoidal verdadero y asociarlo con causas de anemia fetal grave.",
+    "caso": "Gestante de 32 semanas con antecedente de aloinmunización eritrocitaria presenta registro con oscilaciones regulares y uniformes de la frecuencia cardiaca fetal, aproximadamente 3 ciclos por minuto, sin variabilidad normal superpuesta ni aceleraciones. El patrón persiste durante 25 minutos.",
+    "pregunta": "¿Qué condición fetal debe considerarse con especial urgencia?",
+    "opciones": [
+      "Sueño fetal fisiológico",
+      "Compresión cefálica durante el descenso por el canal del parto",
+      "Taquicardia fetal aislada por fiebre materna",
+      "Anemia fetal grave, entre otras causas asociadas con un patrón sinusoidal verdadero",
+      "Registro normal por la regularidad de las oscilaciones"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "El patrón sinusoidal verdadero se caracteriza por oscilaciones regulares, suaves y repetitivas, con ausencia de la variabilidad normal y de aceleraciones. Se asocia clásicamente con anemia fetal grave, incluida la relacionada con aloinmunización, aunque existen otros diagnósticos diferenciales. Un patrón persistente requiere evaluación urgente y manejo especializado; no debe confundirse con una variabilidad ondulante normal.",
+    "perlaENARM": "Patrón sinusoidal verdadero y persistente: asociación clásica con anemia fetal grave y señal de alarma.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 2.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-926",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Aceleraciones fetales",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Aplicar los criterios de aceleración de la frecuencia cardiaca fetal según la edad gestacional.",
+    "caso": "Gestante de 30 semanas se somete a una prueba sin estrés por disminución subjetiva de movimientos fetales. Durante 20 minutos aparecen dos aceleraciones de 12 lpm por encima de la línea de base, con duración de 15 segundos cada una. La variabilidad es moderada y no existen desaceleraciones.",
+    "pregunta": "¿Cómo deben interpretarse las aceleraciones con respecto al criterio habitual para esta edad gestacional?",
+    "opciones": [
+      "Son aceleraciones de criterio 15 × 15, porque toda gestación requiere incremento de 15 lpm",
+      "Pueden cumplir el criterio de 10 × 10 utilizado antes de las 32 semanas",
+      "Son desaceleraciones tardías por durar 15 segundos",
+      "Demuestran patrón sinusoidal",
+      "Son patológicas por ocurrir antes de las 32 semanas"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Antes de las 32 semanas se utiliza habitualmente el criterio de aceleración de al menos 10 lpm sobre la línea de base durante al menos 10 segundos. A partir de las 32 semanas se utiliza generalmente el criterio 15 × 15. Dos aceleraciones que cumplen el umbral correspondiente, en el periodo de evaluación establecido, apoyan una prueba reactiva; la interpretación final depende del registro completo y del protocolo clínico.",
+    "perlaENARM": "Aceleraciones: criterio habitual 15 × 15 desde las 32 semanas y 10 × 10 antes de las 32 semanas.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 2.",
+      "ACOG. Antenatal Fetal Surveillance.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-927",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Desaceleraciones precoces",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Distinguir las desaceleraciones precoces asociadas con compresión cefálica de los patrones que sugieren insuficiencia uteroplacentaria.",
+    "caso": "Gestante de 40 semanas en fase activa presenta desaceleraciones graduales de la frecuencia cardiaca fetal que comienzan y alcanzan su nadir aproximadamente al mismo tiempo que cada contracción. La recuperación ocurre antes de terminar la contracción. La variabilidad permanece moderada y la dilatación progresa.",
+    "pregunta": "¿Qué mecanismo explica mejor este patrón?",
+    "opciones": [
+      "Insuficiencia uteroplacentaria con hipoxemia fetal progresiva",
+      "Compresión del cordón umbilical con descensos abruptos e impredecibles",
+      "Anemia fetal grave con oscilaciones sinusoidales",
+      "Efecto directo de la fiebre materna sobre la línea de base",
+      "Compresión de la cabeza fetal con respuesta vagal, compatible con desaceleraciones precoces"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "Las desaceleraciones precoces suelen ser graduales y simétricas, con una relación temporal estrecha entre la contracción y el descenso de la frecuencia cardiaca. Se relacionan con compresión cefálica y estimulación vagal durante el trabajo de parto. Cuando la variabilidad es moderada y no hay otros hallazgos preocupantes, habitualmente no requieren intervención específica más allá de la vigilancia clínica.",
+    "perlaENARM": "Desaceleración precoz: gradual, sincronizada con la contracción y asociada clásicamente con compresión cefálica.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 2.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-928",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Desaceleraciones tardías",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Identificar las desaceleraciones tardías recurrentes y relacionarlas con disminución del intercambio uteroplacentario.",
+    "caso": "Gestante de 38 semanas con preeclampsia grave recibe oxitocina por inducción del parto. En seis de las últimas ocho contracciones, la frecuencia cardiaca fetal comienza a descender después del inicio de la contracción y alcanza su nadir después del acmé. La variabilidad disminuye de moderada a mínima.",
+    "pregunta": "¿Qué mecanismo y nivel de preocupación clínica corresponden a este patrón?",
+    "opciones": [
+      "Compresión cefálica fisiológica, sin repercusión sobre el intercambio gaseoso",
+      "Respuesta vagal aislada sin relación con la contracción",
+      "Posible insuficiencia del intercambio uteroplacentario, con mayor preocupación por hipoxemia y acidemia si el patrón persiste",
+      "Aceleraciones transitorias que indican reactividad fetal normal",
+      "Patrón sinusoidal que confirma anemia fetal por aloinmunización"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Las desaceleraciones tardías comienzan después del inicio de la contracción y alcanzan su nadir después del acmé. Cuando son recurrentes, pueden reflejar intercambio uteroplacentario insuficiente. La preeclampsia grave y la administración de oxitocina aumentan la preocupación por perfusión placentaria reducida o taquisistolia. La conducta incluye corregir causas reversibles, reevaluar el patrón y determinar la necesidad de nacimiento si persiste el compromiso.",
+    "perlaENARM": "Desaceleraciones tardías recurrentes, especialmente con variabilidad mínima, requieren evaluación inmediata y corrección de causas reversibles.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, páginas 2-3.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-929",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Desaceleraciones variables",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Relacionar la morfología de las desaceleraciones variables con la compresión del cordón umbilical.",
+    "caso": "Durante el trabajo de parto, el registro muestra descensos abruptos de la frecuencia cardiaca fetal de 30–40 lpm, con duración y relación temporal variables respecto a las contracciones. La variabilidad entre desaceleraciones permanece moderada y la recuperación es rápida.",
+    "pregunta": "¿Cuál es el mecanismo más probable de estas desaceleraciones?",
+    "opciones": [
+      "Compresión del cordón umbilical",
+      "Compresión cefálica uniforme con sincronía constante respecto a cada contracción",
+      "Anemia fetal grave con patrón sinusoidal",
+      "Taquicardia materna transmitida al registro fetal",
+      "Insuficiencia placentaria manifestada exclusivamente por desaceleraciones tardías"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Las desaceleraciones variables son abruptas y presentan relación variable con las contracciones. Su mecanismo clásico es la compresión del cordón umbilical, que puede modificar la presión vascular y activar respuestas autonómicas fetales. Su importancia depende de la frecuencia, duración, profundidad, recuperación, variabilidad basal y otros factores clínicos; no todas requieren finalizar el embarazo de inmediato.",
+    "perlaENARM": "Variables: descensos abruptos, de morfología y relación temporal variables; considera compresión del cordón.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 2.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-930",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Reanimación intrauterina ante desaceleraciones",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar medidas iniciales de reanimación intrauterina ante un patrón fetal no tranquilizador relacionado con oxitocina.",
+    "caso": "Gestante de 39 semanas recibe oxitocina para conducción del trabajo de parto. Presenta seis contracciones en 10 minutos y desaceleraciones tardías recurrentes. La presión arterial materna es de 90/55 mmHg después de analgesia epidural y la variabilidad fetal es moderada.",
+    "pregunta": "¿Qué combinación de medidas iniciales aborda las causas potencialmente reversibles del patrón?",
+    "opciones": [
+      "Aumentar la oxitocina para acortar el trabajo de parto y observar",
+      "Administrar oxígeno de rutina aunque la saturación materna sea normal y mantener la oxitocina",
+      "Realizar amniotomía obligatoria sin modificar la dinámica uterina",
+      "Suspender la oxitocina, colocar a la madre en posición lateral y corregir la hipotensión con medidas apropiadas, reevaluando el trazado",
+      "Esperar una hora sin intervención porque la variabilidad aún es moderada"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La taquisistolia y la hipotensión materna pueden disminuir la perfusión uteroplacentaria y contribuir a desaceleraciones tardías. Las medidas iniciales incluyen suspender o reducir uterotónicos, colocar a la paciente en posición lateral y tratar la hipotensión con medidas apropiadas, como cristaloides y vasopresores cuando estén indicados. Debe reevaluarse el patrón con prontitud y escalar la conducta si no mejora. No se recomienda oxígeno materno rutinario cuando no existe hipoxemia.",
+    "perlaENARM": "Ante desaceleraciones con oxitocina y taquisistolia: suspende el uterotónico, cambia la posición materna y corrige las causas reversibles.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 3.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management.",
+      "ACOG. Oxygen Supplementation in the Setting of Category II or III Fetal Heart Tracings."
+    ]
+  },
+  {
+    "id": "OBS-931",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Taquisistolia uterina",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer la taquisistolia y su relación con la reducción del tiempo de recuperación uteroplacentaria entre contracciones.",
+    "caso": "Gestante de 41 semanas en inducción con oxitocina presenta seis contracciones en 10 minutos, promediadas durante 30 minutos. Aparecen desaceleraciones fetales repetidas, aunque la línea de base se mantiene en 150 lpm.",
+    "pregunta": "¿Qué problema de la dinámica uterina se identifica y por qué puede comprometer al feto?",
+    "opciones": [
+      "Actividad uterina normal, porque la línea de base fetal no supera 160 lpm",
+      "Taquisistolia uterina, que reduce el intervalo de recuperación entre contracciones y puede comprometer el intercambio uteroplacentario",
+      "Hipodinamia uterina con insuficiencia de contracciones",
+      "Desaceleraciones precoces fisiológicas demostradas por la frecuencia de contracciones",
+      "Patrón sinusoidal secundario a anemia fetal"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La taquisistolia se define habitualmente como más de cinco contracciones en 10 minutos, promediadas durante 30 minutos. Puede reducir el tiempo disponible para la recuperación de la perfusión uteroplacentaria, especialmente si se acompaña de desaceleraciones. Deben revisarse los uterotónicos, la respuesta fetal y las condiciones maternas, y reducir o suspender oxitocina cuando corresponda.",
+    "perlaENARM": "Taquisistolia: más de cinco contracciones en 10 minutos, promediadas durante 30 minutos; importa especialmente si se acompaña de alteraciones fetales.",
+    "bibliografia": [
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management.",
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 3.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-932",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Categoría III y nacimiento urgente",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Reconocer un patrón cardiotocográfico de categoría III y diferenciarlo de una categoría II que requiere evaluación y medidas correctivas.",
+    "caso": "Gestante de 37 semanas en trabajo de parto presenta variabilidad ausente acompañada de desaceleraciones tardías recurrentes durante varias contracciones. Se han suspendido los uterotónicos y corregido la hipotensión materna, pero el patrón no mejora. El cuello uterino está dilatado 4 cm y la presentación se encuentra alta.",
+    "pregunta": "¿Qué conducta corresponde si persiste este patrón pese a las medidas iniciales?",
+    "opciones": [
+      "Continuar la inducción sin vigilancia adicional porque la línea de base permanece en 140 lpm",
+      "Esperar hasta la dilatación completa para decidir si existe compromiso fetal",
+      "Administrar oxígeno materno como única intervención y mantener observación indefinida",
+      "Clasificarlo como categoría I por la ausencia de taquicardia",
+      "Preparar el nacimiento urgente por la vía más expedita y segura, dada la persistencia de un patrón de categoría III"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "La variabilidad ausente acompañada de desaceleraciones tardías recurrentes, desaceleraciones variables recurrentes o bradicardia sostenida cumple criterios de categoría III. Si persiste después de corregir causas reversibles, requiere evaluación inmediata y nacimiento urgente por la vía más expedita y segura. Con dilatación incompleta y presentación alta, el parto vaginal no parece inminente, por lo que puede ser necesaria una cesárea urgente.",
+    "perlaENARM": "Categoría III persistente pese a medidas correctivas: requiere resolución urgente; la vía depende de la posibilidad real de nacimiento vaginal inmediato.",
+    "bibliografia": [
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management.",
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 3.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-933",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Prueba sin estrés anteparto",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Interpretar la reactividad de una prueba sin estrés según la edad gestacional y la presencia de aceleraciones.",
+    "caso": "Gestante de 34 semanas con hipertensión gestacional controlada se somete a una prueba sin estrés. En 20 minutos presenta dos aceleraciones de al menos 15 lpm por encima de la línea de base, cada una con duración de 15 segundos, variabilidad moderada y ausencia de desaceleraciones recurrentes.",
+    "pregunta": "¿Cómo se clasifica habitualmente la prueba?",
+    "opciones": [
+      "Reactiva, porque cumple el criterio de dos aceleraciones 15 × 15 en el periodo de evaluación",
+      "No reactiva porque cualquier aceleración antes de las 37 semanas es insuficiente",
+      "Patológica por la presencia de variabilidad moderada",
+      "Positiva para prueba de tolerancia a contracciones",
+      "Sinusoidal por la presencia de aceleraciones"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "A partir de las 32 semanas, una prueba sin estrés suele considerarse reactiva cuando aparecen al menos dos aceleraciones de 15 lpm o más sobre la línea de base, con duración de al menos 15 segundos, durante el periodo de evaluación establecido. La variabilidad moderada y la ausencia de desaceleraciones recurrentes son hallazgos adicionales tranquilizadores. La indicación de vigilancia y su frecuencia dependen de la condición materna y de las guías aplicables.",
+    "perlaENARM": "Prueba sin estrés reactiva después de 32 semanas: habitualmente, al menos dos aceleraciones de 15 × 15 en 20 minutos.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, páginas 1 y 4.",
+      "ACOG. Antenatal Fetal Surveillance.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-934",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Prueba sin estrés no reactiva",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Evitar interpretar una prueba sin estrés no reactiva inicial como diagnóstico definitivo de hipoxia fetal.",
+    "caso": "Gestante de 30 semanas refiere disminución subjetiva de movimientos fetales. Durante los primeros 20 minutos de la prueba sin estrés no se observan dos aceleraciones que cumplan el criterio de 10 × 10. La variabilidad es moderada, la línea de base es normal y no hay desaceleraciones.",
+    "pregunta": "¿Qué consideración debe guiar la interpretación de este registro inicial?",
+    "opciones": [
+      "La ausencia de aceleraciones durante 20 minutos confirma acidemia fetal grave",
+      "La prueba debe considerarse positiva para tolerancia a contracciones",
+      "La variabilidad moderada excluye cualquier necesidad de evaluación adicional",
+      "A esta edad gestacional puede existir menor reactividad; se debe ampliar la evaluación según protocolo antes de concluir compromiso fetal",
+      "El resultado obliga a cesárea inmediata sin considerar otros hallazgos"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "Una prueba sin estrés no reactiva significa que no se alcanzaron los criterios de aceleración durante el periodo inicial, pero no confirma por sí sola hipoxia o acidemia. La edad gestacional, el sueño fetal, medicamentos y el contexto clínico influyen en la reactividad. Según el protocolo, puede prolongarse el registro y utilizarse evaluación adicional, como perfil biofísico, sin retrasar la intervención si aparecen otros datos de compromiso fetal.",
+    "perlaENARM": "No reactiva no equivale automáticamente a hipoxia: integra edad gestacional, duración de la prueba y pruebas complementarias.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, páginas 1 y 4.",
+      "ACOG. Antenatal Fetal Surveillance.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-935",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Prueba de tolerancia a las contracciones",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar la prueba de tolerancia a las contracciones a partir de las desaceleraciones tardías y la frecuencia de la dinámica uterina.",
+    "caso": "Gestante de alto riesgo se somete a prueba de tolerancia a las contracciones con estimulación controlada. Se obtienen tres contracciones en 10 minutos. En seis de las diez contracciones evaluadas aparecen desaceleraciones tardías reproducibles.",
+    "pregunta": "¿Cómo debe interpretarse el resultado según los criterios clínicos habitualmente utilizados?",
+    "opciones": [
+      "Negativo, porque las desaceleraciones tardías son esperables durante las contracciones",
+      "Positivo, por la presencia de desaceleraciones tardías en al menos la mitad de las contracciones evaluadas",
+      "No interpretable porque se necesitan diez contracciones en cada periodo de 10 minutos",
+      "Reactivo, equivalente a una prueba sin estrés normal",
+      "Normal, siempre que la línea de base sea inferior a 160 lpm"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La prueba de tolerancia a las contracciones evalúa la respuesta de la frecuencia cardiaca fetal durante una dinámica uterina adecuada. Se considera positiva cuando aparecen desaceleraciones tardías en al menos el 50% de las contracciones evaluadas, según los criterios clásicos. El PDF, página 3, presenta un umbral de más del 30%; este difiere de los criterios habitualmente utilizados en la interpretación clínica actual. La prueba debe interpretarse junto con la calidad del registro y la situación obstétrica.",
+    "perlaENARM": "Prueba de tolerancia a las contracciones positiva: desaceleraciones tardías en ≥50% de las contracciones, con dinámica adecuada, según criterios clásicos.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 3.",
+      "ACOG. Antepartum Fetal Surveillance.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-936",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Prueba de tolerancia a las contracciones negativa",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Distinguir una prueba de tolerancia a las contracciones negativa de una prueba no concluyente o positiva.",
+    "caso": "Gestante de 36 semanas con antecedente de restricción del crecimiento fetal realiza prueba de tolerancia a las contracciones. Se obtienen tres contracciones en 10 minutos, con línea de base normal, variabilidad conservada y ausencia de desaceleraciones tardías o variables significativas.",
+    "pregunta": "¿Qué conclusión corresponde a los hallazgos de la prueba?",
+    "opciones": [
+      "Positiva, porque cualquier contracción implica estrés fetal",
+      "Dudosa, porque no se observan desaceleraciones tardías",
+      "Negativa, porque no se identifican desaceleraciones tardías significativas con una dinámica adecuada",
+      "Patológica, porque la ausencia de desaceleraciones indica desconexión neurológica",
+      "No reactiva, como sinónimo de prueba sin estrés no reactiva"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Una prueba de tolerancia a las contracciones negativa se caracteriza clásicamente por ausencia de desaceleraciones tardías y ausencia de desaceleraciones variables significativas durante una dinámica adecuada. No es equivalente a una prueba sin estrés no reactiva. El resultado debe integrarse con la condición materna, la edad gestacional y otros estudios de vigilancia fetal.",
+    "perlaENARM": "Prueba de tolerancia a las contracciones negativa: dinámica adecuada sin desaceleraciones tardías significativas.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 3.",
+      "ACOG. Antepartum Fetal Surveillance.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-937",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Perfil biofísico fetal",
+    "dificultad": "alta",
+    "objetivoAprendizaje": "Identificar los componentes del perfil biofísico y su utilidad en la vigilancia anteparto.",
+    "caso": "Gestante de 34 semanas con restricción del crecimiento fetal requiere una evaluación complementaria después de una prueba sin estrés no reactiva. El equipo propone valorar movimientos corporales, movimientos respiratorios, tono fetal, volumen de líquido amniótico y reactividad cardiotocográfica.",
+    "pregunta": "¿Qué estudio integra estos componentes?",
+    "opciones": [
+      "Prueba de tolerancia a las contracciones exclusivamente",
+      "Doppler de arteria umbilical como única prueba",
+      "Prueba de antiglobulina indirecta",
+      "Amniocentesis diagnóstica",
+      "Perfil biofísico fetal"
+    ],
+    "respuestaCorrecta": 5,
+    "explicacion": "El perfil biofísico combina la evaluación cardiotocográfica con parámetros ecográficos, incluidos movimientos corporales, movimientos respiratorios, tono fetal y volumen de líquido amniótico. El perfil biofísico modificado utiliza habitualmente la prueba sin estrés y la valoración del líquido amniótico. La interpretación del resultado y la conducta dependen de la puntuación, edad gestacional, indicación clínica y otros estudios, como Doppler cuando existe restricción del crecimiento.",
+    "perlaENARM": "Perfil biofísico clásico: prueba sin estrés más cuatro parámetros ecográficos: movimientos, respiración, tono y líquido amniótico.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 4.",
+      "ACOG. Antenatal Fetal Surveillance.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-938",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Perfil biofísico modificado",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Interpretar el perfil biofísico modificado y reconocer la importancia de valorar tanto la reactividad como el volumen de líquido amniótico.",
+    "caso": "Gestante de 35 semanas con hipertensión crónica presenta una prueba sin estrés reactiva. El bolsillo vertical máximo mide 1.4 cm. El equipo considera normal el perfil biofísico modificado porque la reactividad cardiotocográfica está conservada.",
+    "pregunta": "¿Qué aspecto invalida la conclusión de que el perfil modificado es normal?",
+    "opciones": [
+      "El bolsillo vertical máximo reducido constituye un hallazgo anormal, aunque la prueba sin estrés sea reactiva",
+      "La prueba sin estrés reactiva excluye cualquier alteración del líquido amniótico",
+      "El perfil biofísico modificado no incluye evaluación del líquido amniótico",
+      "El líquido amniótico solo debe evaluarse después del nacimiento",
+      "La hipertensión crónica convierte automáticamente el registro en categoría III"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El perfil biofísico modificado integra la prueba sin estrés y la evaluación del líquido amniótico. Un bolsillo vertical máximo de 1.4 cm cumple el criterio habitual de oligohidramnios y representa un resultado anormal que requiere evaluación clínica. Una prueba sin estrés reactiva no elimina el riesgo asociado con un volumen reducido de líquido ni sustituye la investigación de la causa.",
+    "perlaENARM": "Perfil biofísico modificado: prueba sin estrés más líquido amniótico; cualquiera de los componentes anormales requiere valoración.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 4.",
+      "ACOG. Antenatal Fetal Surveillance.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
+  },
+  {
+    "id": "OBS-939",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Uso de oxígeno materno",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Aplicar medidas de reanimación intrauterina basadas en la evidencia y evitar el uso rutinario de oxígeno materno sin hipoxemia.",
+    "caso": "Gestante de 39 semanas presenta desaceleraciones tardías recurrentes durante la administración de oxitocina. La saturación materna de oxígeno es de 98% al aire ambiente, la presión arterial es normal y no hay enfermedad respiratoria. Un integrante del equipo propone administrar oxígeno facial como intervención inicial universal.",
+    "pregunta": "¿Qué principio de manejo debe aplicarse?",
+    "opciones": [
+      "El oxígeno facial es obligatorio en cualquier registro de categoría II",
+      "La oxigenoterapia materna debe utilizarse siempre antes de suspender oxitocina",
+      "La saturación materna normal demuestra que el feto no puede estar comprometido",
+      "No se recomienda oxígeno materno de rutina en ausencia de hipoxemia; deben priorizarse la corrección de causas reversibles y la reevaluación fetal",
+      "El oxígeno reemplaza la evaluación de la dinámica uterina y la presión arterial"
+    ],
+    "respuestaCorrecta": 4,
+    "explicacion": "La evidencia y las recomendaciones actuales no apoyan el uso rutinario de oxígeno suplementario para corregir patrones cardiotocográficos anormales en pacientes normoxémicas. Deben priorizarse las medidas dirigidas a causas reversibles, como suspender oxitocina cuando existe taquisistolia, modificar la posición materna y corregir hipotensión. El oxígeno se utiliza cuando existe una indicación materna, como hipoxemia, y no debe retrasar el nacimiento si persiste un patrón grave.",
+    "perlaENARM": "No administrar oxígeno materno rutinario si la paciente está normoxémica solo por un trazado fetal anormal.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 3.",
+      "ACOG. Oxygen Supplementation in the Setting of Category II or III Fetal Heart Tracings.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management."
+    ]
+  },
+  {
+    "id": "OBS-940",
+    "especialidad": "Obstetricia",
+    "tema": "Registro cardiotocográfico",
+    "subtema": "Integración de trazado y situación obstétrica",
+    "dificultad": "muy alta",
+    "objetivoAprendizaje": "Integrar la clasificación cardiotocográfica, la respuesta a medidas correctivas y la posibilidad de nacimiento vaginal para decidir la urgencia de intervención.",
+    "caso": "Gestante de 40 semanas con dilatación completa y presentación cefálica en estación +3 presenta bradicardia fetal sostenida de 80 lpm durante cinco minutos. La variabilidad no puede evaluarse adecuadamente y el patrón no mejora con cambios de posición ni con la suspensión de oxitocina. El equipo obstétrico está preparado para una extracción vaginal instrumental si se cumplen los requisitos clínicos.",
+    "pregunta": "¿Qué principio debe guiar la elección de la vía de nacimiento?",
+    "opciones": [
+      "Esperar 30 minutos para determinar si la bradicardia se convierte en una desaceleración variable",
+      "La bradicardia sostenida exige respuesta inmediata y nacimiento urgente por la vía más rápida y segura; si el parto vaginal instrumental es factible sin demora y se cumplen sus requisitos, puede ser una opción",
+      "Realizar siempre cesárea, aunque el nacimiento vaginal sea inminente y seguro",
+      "Continuar la oxitocina para acelerar el descenso fetal",
+      "Considerar el registro normal porque la dilatación está completa"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La bradicardia sostenida exige evaluación y respuesta inmediata, especialmente si no mejora con medidas iniciales. La decisión sobre la vía de nacimiento depende de la estación fetal, la posición, la dilatación, la experiencia del equipo y el tiempo previsto hasta el nacimiento. Si la presentación está baja y se cumplen los requisitos de seguridad para una extracción vaginal instrumental, esta puede permitir una resolución más rápida que una cesárea; si no es factible, debe realizarse la alternativa más expedita y segura.",
+    "perlaENARM": "Ante bradicardia fetal sostenida, no retrases la resolución: la vía depende de qué opción permita un nacimiento más rápido y seguro en las condiciones reales.",
+    "bibliografia": [
+      "PDF proporcionado: 24. Registro Cardiotocográfico, página 3.",
+      "ACOG. Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management.",
+      "Williams Obstetrics, 26.ª ed."
+    ]
   }
  ];
