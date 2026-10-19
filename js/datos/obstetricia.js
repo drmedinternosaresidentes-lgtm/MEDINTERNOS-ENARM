@@ -1,6 +1,6 @@
 window.BANCO_OBSTETRICIA = [
 
-  {
+   {
     "id": "OBS-001",
     "especialidad": "Obstetricia",
     "tema": "Fisiología del embarazo",
@@ -16,7 +16,7 @@ window.BANCO_OBSTETRICIA = [
       "Reducción progresiva del volumen plasmático desde el segundo trimestre",
       "Disminución obligatoria de la frecuencia cardiaca materna"
     ],
-    "respuestaCorrecta": 2,
+    "respuestaCorrecta": 3,
     "explicacion": "Durante el embarazo aumentan el volumen plasmático, el volumen sistólico y el gasto cardiaco, mientras que la resistencia vascular sistémica disminuye. La frecuencia cardiaca suele elevarse moderadamente. Estos cambios permiten satisfacer las demandas metabólicas maternas y fetoplacentarias.",
     "perlaENARM": "Embarazo normal: aumento del volumen plasmático y del gasto cardiaco, con disminución de la resistencia vascular sistémica.",
     "bibliografia": [
@@ -40,7 +40,7 @@ window.BANCO_OBSTETRICIA = [
       "Retención de dióxido de carbono por disminución del volumen corriente",
       "Insuficiencia respiratoria hipoxémica propia del segundo trimestre"
     ],
-    "respuestaCorrecta": 0,
+    "respuestaCorrecta": 1,
     "explicacion": "La progesterona estimula el centro respiratorio y aumenta la ventilación minuto, principalmente mediante el volumen corriente. Esto reduce la PaCO2 y genera una alcalosis respiratoria leve con compensación renal. La disnea fisiológica puede aparecer durante el embarazo, pero los síntomas intensos, la hipoxemia o el dolor torácico requieren investigar enfermedad.",
     "perlaENARM": "La PaCO2 normal durante el embarazo es menor que en una persona no gestante; una PaCO2 de 40 mmHg puede ser inapropiadamente alta en una gestante enferma.",
     "bibliografia": [
@@ -48,7 +48,7 @@ window.BANCO_OBSTETRICIA = [
       "Bates SM et al. Physiologic changes in pregnancy. Literatura de fisiología materna."
     ]
   },
-  {
+   {
     "id": "OBS-003",
     "especialidad": "Obstetricia",
     "tema": "Control prenatal",
@@ -64,7 +64,7 @@ window.BANCO_OBSTETRICIA = [
       "17 de octubre de 2027",
       "24 de octubre de 2027"
     ],
-    "respuestaCorrecta": 3,
+    "respuestaCorrecta": 4,
     "explicacion": "La regla de Naegele consiste en sumar siete días al primer día de la última menstruación, restar tres meses y agregar un año. Para una FUM del 10 de enero de 2027, la fecha estimada es el 17 de octubre de 2027. La regla supone ciclos regulares y una duración habitual de la fase folicular.",
     "perlaENARM": "La edad gestacional se cuenta desde el primer día de la última menstruación, aproximadamente dos semanas antes de la fecundación en un ciclo típico.",
     "bibliografia": [
@@ -88,7 +88,7 @@ window.BANCO_OBSTETRICIA = [
       "Longitud femoral",
       "Volumen de líquido amniótico"
     ],
-    "respuestaCorrecta": 1,
+    "respuestaCorrecta": 2,
     "explicacion": "La longitud cráneo-caudal es el parámetro ecográfico de elección para estimar la edad gestacional durante el primer trimestre. Es más precisa que las mediciones biométricas utilizadas en etapas posteriores y resulta especialmente útil cuando la fecha menstrual es incierta.",
     "perlaENARM": "Primer trimestre: la longitud cráneo-caudal es el parámetro de referencia para la datación ecográfica.",
     "bibliografia": [
@@ -112,7 +112,7 @@ window.BANCO_OBSTETRICIA = [
       "El resultado debe interpretarse como normal sin considerar la gestación",
       "La creatinina suele disminuir durante el embarazo; un valor de 1.0 mg/dL puede ser anormal y amerita evaluación contextual"
     ],
-    "respuestaCorrecta": 4,
+    "respuestaCorrecta": 5,
     "explicacion": "El flujo plasmático renal y la filtración glomerular aumentan durante el embarazo, por lo que la creatinina sérica suele disminuir. Un valor aparentemente normal según intervalos de población no gestante puede representar alteración renal en una embarazada. Debe confirmarse el resultado e investigar presión arterial, proteinuria, medicamentos y función renal previa.",
     "perlaENARM": "No aplicar sin ajustes los intervalos de creatinina de adultos no gestantes: la creatinina fisiológica del embarazo suele ser menor.",
     "bibliografia": [
@@ -136,7 +136,7 @@ window.BANCO_OBSTETRICIA = [
       "Aumento de la concentración de hemoglobina por contracción plasmática",
       "Supresión medular causada necesariamente por progesterona"
     ],
-    "respuestaCorrecta": 0,
+    "respuestaCorrecta": 1,
     "explicacion": "El volumen plasmático aumenta más que la masa eritrocitaria durante el embarazo, generando hemodilución. Sin embargo, una hemoglobina de 10.8 g/dL debe interpretarse con los umbrales de anemia correspondientes al trimestre y la guía utilizada; también es necesario valorar deficiencia de hierro y otras etiologías cuando proceda.",
     "perlaENARM": "La hemodilución es fisiológica, pero no debe utilizarse para atribuir automáticamente toda anemia gestacional a un fenómeno normal.",
     "bibliografia": [
@@ -160,7 +160,7 @@ window.BANCO_OBSTETRICIA = [
       "Cistoscopia diagnóstica",
       "Repetir la tira reactiva mensualmente como sustituto del cultivo"
     ],
-    "respuestaCorrecta": 1,
+    "respuestaCorrecta": 2,
     "explicacion": "La bacteriuria asintomática durante el embarazo se identifica mediante urocultivo. La ausencia de síntomas y una tira reactiva negativa no excluyen de forma confiable bacteriuria significativa. El momento del tamizaje y la necesidad de repetirlo dependen de la guía clínica y del riesgo individual.",
     "perlaENARM": "El urocultivo, no la tira reactiva aislada, es el método de referencia para el tamizaje de bacteriuria asintomática en el embarazo.",
     "bibliografia": [
@@ -184,7 +184,7 @@ window.BANCO_OBSTETRICIA = [
       "Determinar la vía del nacimiento en todas las gestantes",
       "Sustituir la evaluación clínica de fiebre intraparto"
     ],
-    "respuestaCorrecta": 2,
+    "respuestaCorrecta": 3,
     "explicacion": "El tamizaje rectovaginal en la ventana recomendada permite identificar colonización por estreptococo del grupo B y determinar la necesidad de profilaxis intraparto, según el resultado y los factores de riesgo. La colonización no equivale a infección materna invasiva y no determina por sí sola la vía del nacimiento.",
     "perlaENARM": "El objetivo del tamizaje de estreptococo B es prevenir enfermedad neonatal de inicio temprano mediante profilaxis intraparto indicada.",
     "bibliografia": [
@@ -208,7 +208,7 @@ window.BANCO_OBSTETRICIA = [
       "Solicitar únicamente carga viral sin prueba diagnóstica inicial",
       "Omitir el tamizaje si la paciente niega factores de riesgo"
     ],
-    "respuestaCorrecta": 0,
+    "respuestaCorrecta": 1,
     "explicacion": "El tamizaje de VIH se ofrece de manera rutinaria al inicio de la atención prenatal, independientemente de que la paciente identifique factores de riesgo. El diagnóstico temprano permite iniciar tratamiento antirretroviral y reducir la transmisión perinatal. La prueba inicial reactiva requiere completar el algoritmo confirmatorio.",
     "perlaENARM": "El tamizaje prenatal de VIH no debe limitarse a pacientes que refieren factores de riesgo.",
     "bibliografia": [
@@ -232,7 +232,7 @@ window.BANCO_OBSTETRICIA = [
       "Realizar tamizaje serológico prenatal y completar pruebas confirmatorias e intervención terapéutica si corresponde",
       "Administrar antibióticos empíricos a todas las gestantes sin efectuar pruebas"
     ],
-    "respuestaCorrecta": 3,
+    "respuestaCorrecta": 4,
     "explicacion": "La sífilis materna puede ser asintomática y causar complicaciones fetales graves. El tamizaje serológico prenatal es esencial; los resultados reactivos deben interpretarse mediante algoritmos treponémicos y no treponémicos, con tratamiento oportuno y evaluación de la pareja según corresponda.",
     "perlaENARM": "La ausencia de síntomas no excluye sífilis materna. El diagnóstico y tratamiento oportunos son fundamentales para prevenir sífilis congénita.",
     "bibliografia": [
@@ -240,7 +240,7 @@ window.BANCO_OBSTETRICIA = [
       "WHO. WHO Guidelines for the Treatment of Treponema pallidum."
     ]
   },
-  {
+   {
     "id": "OBS-011",
     "especialidad": "Obstetricia",
     "tema": "Control prenatal",
@@ -256,7 +256,7 @@ window.BANCO_OBSTETRICIA = [
       "Administrar inmunoglobulina anti-D diariamente hasta el parto",
       "Sustituir la profilaxis por transfusión materna de eritrocitos Rh positivos"
     ],
-    "respuestaCorrecta": 1,
+    "respuestaCorrecta": 2,
     "explicacion": "La inmunoglobulina anti-D previene la sensibilización de una gestante Rh negativa no sensibilizada cuando existe riesgo de exposición a eritrocitos fetales Rh positivos. La profilaxis prenatal y la posterior a eventos sensibilizantes se ajustan al protocolo. Si ya existen anticuerpos anti-D inmunes, la profilaxis no revierte la sensibilización establecida.",
     "perlaENARM": "Anti-D es prevención de la sensibilización, no tratamiento de la aloinmunización ya establecida.",
     "bibliografia": [
@@ -280,7 +280,7 @@ window.BANCO_OBSTETRICIA = [
       "La ferritina baja indica reservas de hierro disminuidas y apoya deficiencia de hierro aun sin anemia franca",
       "La ferritina baja es un cambio fisiológico sin relevancia clínica durante el embarazo"
     ],
-    "respuestaCorrecta": 3,
+    "respuestaCorrecta": 4,
     "explicacion": "Una ferritina de 8 ng/mL indica reservas de hierro disminuidas. La deficiencia de hierro puede existir antes de que aparezca anemia franca. Debe evaluarse la ingesta, adherencia a suplementos, pérdidas y otros factores, e iniciar reposición según las recomendaciones aplicables.",
     "perlaENARM": "La ferritina es útil para identificar deficiencia de hierro; una hemoglobina todavía normal no descarta agotamiento de reservas.",
     "bibliografia": [
@@ -304,7 +304,7 @@ window.BANCO_OBSTETRICIA = [
       "No puede utilizarse en el primer trimestre",
       "Evalúa de forma definitiva todas las enfermedades monogénicas y malformaciones estructurales"
     ],
-    "respuestaCorrecta": 0,
+    "respuestaCorrecta": 1,
     "explicacion": "El ADN fetal libre circulante tiene alto rendimiento para el tamizaje de trisomías comunes, pero no es una prueba diagnóstica definitiva. Un resultado positivo debe confirmarse mediante diagnóstico prenatal invasivo, según la situación y el asesoramiento genético. Un resultado negativo tampoco excluye todas las anomalías cromosómicas, genéticas o estructurales.",
     "perlaENARM": "ADN fetal libre: tamizaje, no diagnóstico definitivo. Un resultado positivo requiere ofrecer confirmación diagnóstica.",
     "bibliografia": [
@@ -328,7 +328,7 @@ window.BANCO_OBSTETRICIA = [
       "Amniocentesis obligatoria antes de las 10 semanas",
       "Repetición indefinida del tamizaje sérico sin ofrecer diagnóstico"
     ],
-    "respuestaCorrecta": 2,
+    "respuestaCorrecta": 3,
     "explicacion": "El muestreo de vellosidades coriónicas puede realizarse habitualmente entre las 10 y 13 semanas, según la técnica y la experiencia del centro. Proporciona material para estudios genéticos diagnósticos. Debe explicarse el riesgo procedimental y que ciertos hallazgos, como mosaicismo confinado a placenta, pueden requerir evaluación adicional.",
     "perlaENARM": "Vellosidades coriónicas: diagnóstico invasivo temprano; amniocentesis: habitualmente desde las 15 semanas.",
     "bibliografia": [
@@ -352,7 +352,7 @@ window.BANCO_OBSTETRICIA = [
       "Evaluar diabetes manifiesta según criterios diagnósticos, confirmando el resultado cuando sea necesario en ausencia de hiperglucemia inequívoca",
       "Iniciar insulina sin completar la evaluación diagnóstica"
     ],
-    "respuestaCorrecta": 3,
+    "respuestaCorrecta": 4,
     "explicacion": "Una glucosa en ayuno de 132 mg/dL supera el umbral habitual de diabetes manifiesta, pero en una paciente asintomática suele requerirse confirmación con una segunda prueba anormal, salvo circunstancias clínicas que hagan inequívoco el diagnóstico. Detectar diabetes preexistente es importante por sus riesgos maternofetales y porque el manejo difiere del tamizaje habitual de diabetes gestacional.",
     "perlaENARM": "La diabetes manifiesta detectada al inicio del embarazo no debe confundirse con el tamizaje habitual de diabetes gestacional entre las semanas 24 y 28.",
     "bibliografia": [
@@ -376,7 +376,7 @@ window.BANCO_OBSTETRICIA = [
       "Administrar ácido fólico únicamente si aparece anemia",
       "Utilizar dosis altas reservadas para riesgo elevado en todas las mujeres sin excepción"
     ],
-    "respuestaCorrecta": 1,
+    "respuestaCorrecta": 2,
     "explicacion": "El tubo neural se cierra muy temprano, con frecuencia antes de que se confirme clínicamente el embarazo. La suplementación preconcepcional con ácido fólico reduce el riesgo de defectos del tubo neural. La dosis habitual de riesgo promedio difiere de las dosis altas utilizadas en pacientes con antecedentes o factores específicos de riesgo.",
     "perlaENARM": "El ácido fólico debe iniciarse antes de la concepción porque el cierre del tubo neural ocurre en las primeras semanas.",
     "bibliografia": [
@@ -400,7 +400,7 @@ window.BANCO_OBSTETRICIA = [
       "Repetir exclusivamente la translucencia nucal cada semana",
       "Ofrecer consejería genética, discutir diagnóstico prenatal invasivo y planificar evaluación anatómica fetal detallada, incluida evaluación cardiaca según indicación"
     ],
-    "respuestaCorrecta": 4,
+    "respuestaCorrecta": 5,
     "explicacion": "La translucencia nucal marcadamente aumentada se asocia con mayor riesgo de anomalías cromosómicas, síndromes genéticos y cardiopatías congénitas. Un ADN fetal libre de bajo riesgo reduce la probabilidad de las aneuploidías evaluadas, pero no excluye otras alteraciones. Se debe ofrecer consejería, discutir pruebas diagnósticas y realizar evaluación anatómica detallada.",
     "perlaENARM": "Un tamizaje cromosómico negativo no anula la relevancia de una translucencia nucal aumentada.",
     "bibliografia": [
@@ -424,7 +424,7 @@ window.BANCO_OBSTETRICIA = [
       "Administrar vacuna viva contra tosferina",
       "Sustituir Tdap por antibióticos profilácticos durante todo el tercer trimestre"
     ],
-    "respuestaCorrecta": 2,
+    "respuestaCorrecta": 3,
     "explicacion": "La vacunación Tdap durante cada embarazo favorece la transferencia transplacentaria de anticuerpos y protege al recién nacido durante los primeros meses de vida. En diversas recomendaciones se aplica entre las semanas 27 y 36, preferentemente al inicio de esa ventana. La pauta exacta debe ajustarse al programa nacional vigente.",
     "perlaENARM": "La Tdap se recomienda durante cada embarazo porque los anticuerpos maternos disminuyen con el tiempo y la protección neonatal depende de su transferencia reciente.",
     "bibliografia": [
@@ -448,7 +448,7 @@ window.BANCO_OBSTETRICIA = [
       "Ofrecer consejería genética y discutir primero la prueba dirigida a la variante familiar en la paciente, seguida de opciones reproductivas o prenatales según el resultado",
       "Indicar cesárea electiva para evitar la transmisión genética"
     ],
-    "respuestaCorrecta": 3,
+    "respuestaCorrecta": 4,
     "explicacion": "En una enfermedad autosómica dominante, un familiar de primer grado de una persona afectada puede tener una probabilidad significativa de portar la variante, pero el riesgo fetal depende de si la madre la heredó. La consejería y la prueba dirigida a la variante familiar permiten aclarar el riesgo y orientar las opciones diagnósticas prenatales.",
     "perlaENARM": "Cuando existe una variante patogénica familiar conocida, una prueba molecular dirigida suele ser más informativa que un tamizaje inespecífico.",
     "bibliografia": [
@@ -473,7 +473,7 @@ window.BANCO_OBSTETRICIA = [
       "Acidosis mixta que demuestra choque oculto",
       "Gasometría incompatible con un embarazo normal en cualquier circunstancia"
     ],
-    "respuestaCorrecta": 1,
+    "respuestaCorrecta": 2,
     "explicacion": "La progesterona incrementa la ventilación y reduce la PaCO2. Los riñones compensan mediante mayor excreción de bicarbonato, por lo que el pH puede permanecer en el límite alto de la normalidad. La interpretación debe integrar el estado clínico, la oxigenación y los demás datos; la fisiología no debe utilizarse para descartar una enfermedad cuando existen signos de alarma.",
     "perlaENARM": "La gestación normal produce una alcalosis respiratoria leve compensada; una PaCO2 aparentemente normal para una persona no gestante puede ser anormalmente elevada en una embarazada con dificultad respiratoria.",
     "bibliografia": [
@@ -481,7 +481,7 @@ window.BANCO_OBSTETRICIA = [
       "CTO. Manual de Ginecología y Obstetricia. 14.ª ed., fisiología materna."
     ]
   },
-  {
+ {
     "id": "OBS-021",
     "especialidad": "Obstetricia",
     "tema": "Control prenatal",
@@ -497,7 +497,7 @@ window.BANCO_OBSTETRICIA = [
       "Embarazo gemelar con corionicidad imposible de evaluar en el primer trimestre",
       "Embarazo múltiple con placenta previa obligatoria"
     ],
-    "respuestaCorrecta": 2,
+    "respuestaCorrecta": 3,
     "explicacion": "El signo lambda, también llamado signo delta, en la inserción de la membrana intergemelar favorece una gestación dicorial biamniótica. La evaluación temprana de corionicidad es esencial porque determina el riesgo de complicaciones placentarias y la frecuencia de vigilancia. Una aparente masa placentaria única no excluye dicorionicidad.",
     "perlaENARM": "Signo lambda: favorece dicorionicidad; signo T: favorece monocorionicidad biamniótica. La corionicidad debe establecerse tempranamente.",
     "bibliografia": [
@@ -521,7 +521,7 @@ window.BANCO_OBSTETRICIA = [
       "Realizar únicamente una radiografía abdominal materna",
       "Sustituir la ecografía anatómica por una medición aislada de translucencia nucal"
     ],
-    "respuestaCorrecta": 0,
+    "respuestaCorrecta": 1,
     "explicacion": "La ecografía anatómica del segundo trimestre permite evaluar estructuras fetales y detectar muchas anomalías que no se identifican mediante el tamizaje cromosómico. Un resultado de bajo riesgo en ADN fetal libre o tamizaje sérico no excluye defectos estructurales ni todas las enfermedades genéticas.",
     "perlaENARM": "El tamizaje cromosómico y la ecografía anatómica son complementarios; uno no sustituye al otro.",
     "bibliografia": [
@@ -545,7 +545,7 @@ window.BANCO_OBSTETRICIA = [
       "Administrar fluoroquinolona de manera automática sin revisar susceptibilidad ni seguridad",
       "Realizar nefrectomía profiláctica"
     ],
-    "respuestaCorrecta": 2,
+    "respuestaCorrecta": 3,
     "explicacion": "La bacteriuria asintomática significativa durante el embarazo debe tratarse porque se asocia con mayor riesgo de pielonefritis y complicaciones obstétricas. El antibiótico se elige según el antibiograma, la edad gestacional, las alergias y las recomendaciones locales. La necesidad de cultivo de control depende de la guía y del contexto.",
     "perlaENARM": "En el embarazo, la bacteriuria asintomática significativa se trata incluso en ausencia de síntomas.",
     "bibliografia": [
@@ -569,7 +569,7 @@ window.BANCO_OBSTETRICIA = [
       "Antígeno de superficie de hepatitis B (HBsAg), con evaluación adicional si resulta positivo",
       "No realizar pruebas si no hay ictericia"
     ],
-    "respuestaCorrecta": 3,
+    "respuestaCorrecta": 4,
     "explicacion": "El tamizaje prenatal con HBsAg permite identificar infección materna por hepatitis B, incluso en pacientes asintomáticas. Si el resultado es positivo, se requiere evaluación adicional de replicación viral y planificación de prevención de transmisión perinatal, incluida la inmunoprofilaxis neonatal según el protocolo.",
     "perlaENARM": "La infección materna por hepatitis B puede ser asintomática; identificarla durante el embarazo permite organizar la prevención neonatal.",
     "bibliografia": [
@@ -593,7 +593,7 @@ window.BANCO_OBSTETRICIA = [
       "Desaparición de la secreción de cortisol durante el embarazo",
       "Disminución progresiva de las necesidades energéticas fetales"
     ],
-    "respuestaCorrecta": 1,
+    "respuestaCorrecta": 2,
     "explicacion": "En la segunda mitad del embarazo aumenta la resistencia materna a la insulina, mediada por hormonas placentarias y cambios metabólicos. Esto favorece disponibilidad de glucosa para el feto. Cuando la compensación pancreática materna es insuficiente, aparece diabetes gestacional.",
     "perlaENARM": "La diabetes gestacional surge cuando la compensación de las células beta no logra contrarrestar la resistencia fisiológica a la insulina del embarazo.",
     "bibliografia": [
@@ -617,7 +617,7 @@ window.BANCO_OBSTETRICIA = [
       "Indicar inmunoglobulina anti-D para prevenir varicela fetal",
       "No administrar la vacuna viva durante el embarazo y planificar vacunación posparto, además de valorar profilaxis si ocurre una exposición relevante"
     ],
-    "respuestaCorrecta": 4,
+    "respuestaCorrecta": 5,
     "explicacion": "La vacuna contra varicela es una vacuna viva atenuada y está contraindicada durante el embarazo. Las pacientes susceptibles deben recibir vacunación posparto. Si ocurre exposición significativa durante la gestación, la evaluación para profilaxis posexposición depende del tiempo transcurrido, del estado inmunitario y de las recomendaciones vigentes.",
     "perlaENARM": "Varicela: vacuna viva contraindicada durante el embarazo; la inmunización de una paciente susceptible se planifica después del parto.",
     "bibliografia": [
@@ -641,7 +641,7 @@ window.BANCO_OBSTETRICIA = [
       "Administrar corticoides para confirmar la anomalía genética",
       "Evitar todo diagnóstico prenatal porque una anomalía ecográfica ya define el cariotipo"
     ],
-    "respuestaCorrecta": 0,
+    "respuestaCorrecta": 1,
     "explicacion": "La amniocentesis se realiza habitualmente a partir de las 15 semanas y permite obtener células fetales para pruebas cromosómicas o moleculares según la indicación. Una anomalía estructural puede justificar ofrecer diagnóstico invasivo, pero la decisión debe incluir consejería genética y explicación de qué pruebas responden a la pregunta clínica.",
     "perlaENARM": "La amniocentesis es una prueba diagnóstica; la prueba genética específica debe seleccionarse según la anomalía y la sospecha clínica.",
     "bibliografia": [
@@ -665,7 +665,7 @@ window.BANCO_OBSTETRICIA = [
       "Indicar reposo absoluto como intervención preventiva principal",
       "Administrar sulfato de magnesio durante todo el embarazo"
     ],
-    "respuestaCorrecta": 2,
+    "respuestaCorrecta": 3,
     "explicacion": "La hipertensión crónica es un factor de alto riesgo para preeclampsia. La obesidad, la edad materna avanzada y la nuliparidad añaden riesgo. Se debe individualizar el control prenatal y valorar ácido acetilsalicílico a dosis baja en la ventana recomendada, además de mantener el control de la hipertensión y la evaluación de complicaciones.",
     "perlaENARM": "La hipertensión crónica constituye un factor de alto riesgo para preeclampsia; la prevención se inicia antes de que aparezcan manifestaciones clínicas.",
     "bibliografia": [
@@ -689,7 +689,7 @@ window.BANCO_OBSTETRICIA = [
       "Debe administrarse metotrexato a todas las pacientes con ecografía inicial negativa",
       "La ecografía transvaginal carece de utilidad en el primer trimestre"
     ],
-    "respuestaCorrecta": 1,
+    "respuestaCorrecta": 2,
     "explicacion": "La ausencia de saco intrauterino con una concentración de hCG determinada no establece por sí sola embarazo ectópico ni pérdida gestacional. En pacientes estables, la evaluación debe integrar síntomas, hCG seriada, ecografía y seguimiento. Si aparecen inestabilidad, dolor intenso o signos de hemoperitoneo, se requiere valoración urgente.",
     "perlaENARM": "No diagnosticar ni tratar automáticamente un embarazo ectópico a partir de una sola hCG y una ecografía sin saco.",
     "bibliografia": [
@@ -713,7 +713,7 @@ window.BANCO_OBSTETRICIA = [
       "Prescribir la dosis habitual de riesgo promedio sin valorar el antecedente",
       "Indicar un esquema de ácido fólico de dosis alta antes de la concepción y durante el periodo recomendado, según guía local"
     ],
-    "respuestaCorrecta": 4,
+    "respuestaCorrecta": 5,
     "explicacion": "El antecedente de un embarazo afectado por defecto del tubo neural aumenta el riesgo de recurrencia. Se recomienda una dosis alta de ácido fólico antes de la concepción y durante las primeras semanas, conforme a la guía local. La dosis y duración deben individualizarse, considerando también medicamentos y otras condiciones que modifiquen el riesgo.",
     "perlaENARM": "La dosis alta de ácido fólico se reserva para situaciones de riesgo elevado, como un embarazo previo afectado por defecto del tubo neural.",
     "bibliografia": [
@@ -721,7 +721,7 @@ window.BANCO_OBSTETRICIA = [
       "ACOG. Neural Tube Defects."
     ]
   },
-  {
+   {
     "id": "OBS-031",
     "especialidad": "Obstetricia",
     "tema": "Diagnóstico prenatal",
@@ -737,7 +737,7 @@ window.BANCO_OBSTETRICIA = [
       "La edad gestacional deja de ser relevante después de las 24 semanas",
       "Debe cambiarse la fecha probable de parto a partir de cualquier medición aislada del tercer trimestre"
     ],
-    "respuestaCorrecta": 0,
+    "respuestaCorrecta": 1,
     "explicacion": "Una edad gestacional incierta dificulta distinguir un embarazo mal datado de un feto con restricción del crecimiento. La biometría del tercer trimestre es menos precisa para datación que la ecografía temprana. Redatar un embarazo por un feto pequeño puede ocultar una restricción patológica y retrasar vigilancia o intervención.",
     "perlaENARM": "No redatar automáticamente un embarazo tardío a partir de biometría pequeña; primero considerar restricción del crecimiento y revisar toda la información disponible.",
     "bibliografia": [
@@ -762,7 +762,7 @@ window.BANCO_OBSTETRICIA = [
       "Descartar enfermedad hereditaria porque la paciente no tiene síntomas",
       "Indicar hierro intravenoso de manera automática antes de esclarecer la etiología"
     ],
-    "respuestaCorrecta": 2,
+    "respuestaCorrecta": 3,
     "explicacion": "La microcitosis marcada con ferritina normal y recuento eritrocitario relativamente elevado puede sugerir talasemia u otra hemoglobinopatía, aunque deben considerarse otras causas. Es importante establecer el diagnóstico porque la suplementación indiscriminada con hierro puede ser innecesaria y la identificación de una hemoglobinopatía puede justificar evaluación de la pareja y asesoramiento genético.",
     "perlaENARM": "Microcitosis desproporcionada con reservas de hierro conservadas debe hacer considerar talasemia u otra hemoglobinopatía.",
     "bibliografia": [
@@ -786,7 +786,7 @@ window.BANCO_OBSTETRICIA = [
       "Es un marcador aislado que, tras un tamizaje cromosómico de bajo riesgo y una evaluación anatómica normal, generalmente no requiere evaluación adicional por aneuploidía",
       "Obliga a repetir ADN fetal libre circulante cada semana"
     ],
-    "respuestaCorrecta": 3,
+    "respuestaCorrecta": 4,
     "explicacion": "Un foco ecogénico intracardiaco aislado en un feto sin anomalías estructurales y con tamizaje cromosómico de bajo riesgo suele considerarse una variante sin repercusión clínica importante. No confirma una cardiopatía ni una aneuploidía. La interpretación cambia si existen otros marcadores, malformaciones o un riesgo previo elevado.",
     "perlaENARM": "Los marcadores ecográficos aislados deben interpretarse junto con el tamizaje previo; no todos justifican pruebas invasivas adicionales.",
     "bibliografia": [
@@ -810,7 +810,7 @@ window.BANCO_OBSTETRICIA = [
       "Esperar a que presente COVID-19 para generar inmunidad",
       "Sustituir la vacunación por antibióticos profilácticos"
     ],
-    "respuestaCorrecta": 1,
+    "respuestaCorrecta": 2,
     "explicacion": "El embarazo aumenta el riesgo de enfermedad grave por COVID-19. La vacunación se recomienda conforme a las políticas y recomendaciones vigentes, que pueden actualizarse con las formulaciones disponibles, el historial vacunal y los factores de riesgo. La consejería debe ser individualizada y no debe basarse en la falsa premisa de que todas las vacunas están contraindicadas durante la gestación.",
     "perlaENARM": "El embarazo no es por sí mismo una contraindicación para la vacunación contra COVID-19; revisar recomendaciones nacionales actualizadas.",
     "bibliografia": [
@@ -834,7 +834,7 @@ window.BANCO_OBSTETRICIA = [
       "Suspender el control prenatal hasta que mejore el ánimo",
       "Indicar hospitalización psiquiátrica automática en toda paciente con tristeza"
     ],
-    "respuestaCorrecta": 2,
+    "respuestaCorrecta": 3,
     "explicacion": "Los síntomas persistentes pueden corresponder a depresión perinatal y requieren tamizaje validado, evaluación clínica y valoración de riesgo suicida. El plan debe individualizarse e incluir psicoterapia, tratamiento farmacológico cuando esté indicado y seguimiento. La detección temprana mejora la posibilidad de intervención oportuna.",
     "perlaENARM": "El tamizaje no sustituye la evaluación diagnóstica. Siempre debe valorarse seguridad materna cuando existen síntomas depresivos.",
     "bibliografia": [
@@ -858,7 +858,7 @@ window.BANCO_OBSTETRICIA = [
       "Debe administrarse metimazol para reducir la TSH",
       "Interpretar la TSH con intervalos gestacionales y guía aplicable; no diagnosticar automáticamente hipotiroidismo manifiesto con T4 libre normal y este resultado aislado"
     ],
-    "respuestaCorrecta": 4,
+    "respuestaCorrecta": 5,
     "explicacion": "La interpretación de TSH en el embarazo depende de los intervalos de referencia gestacionales y del contexto clínico. Una TSH de 3.7 mUI/L con T4 libre normal y anticuerpos negativos no demuestra hipotiroidismo manifiesto por sí sola. Las recomendaciones de tratamiento del hipotiroidismo subclínico varían según los valores, anticuerpos, antecedentes y guía utilizada.",
     "perlaENARM": "No utilizar un umbral universal de TSH sin considerar trimestre, intervalo de referencia y estado de T4 libre.",
     "bibliografia": [
@@ -882,7 +882,7 @@ window.BANCO_OBSTETRICIA = [
       "Sustituir el calcio por anticoagulación terapéutica",
       "Indicar restricción completa de lácteos y vegetales"
     ],
-    "respuestaCorrecta": 0,
+    "respuestaCorrecta": 1,
     "explicacion": "En poblaciones con ingesta baja de calcio, la suplementación puede reducir el riesgo de preeclampsia y se contempla en recomendaciones de la OMS. La dosis depende de la guía y de la ingesta basal; no debe confundirse con tratamiento intravenoso ni con una indicación universal idéntica para todas las pacientes.",
     "perlaENARM": "La suplementación de calcio para prevención de preeclampsia tiene especial relevancia en poblaciones con ingesta dietética baja.",
     "bibliografia": [
@@ -906,7 +906,7 @@ window.BANCO_OBSTETRICIA = [
       "Repetir únicamente el tamizaje de aneuploidías",
       "Administrar tratamiento farmacológico materno para eliminar la variante"
     ],
-    "respuestaCorrecta": 1,
+    "respuestaCorrecta": 2,
     "explicacion": "En una enfermedad autosómica recesiva, el riesgo de un feto afectado depende de que ambos progenitores porten variantes patogénicas relevantes. La evaluación de la pareja permite precisar el riesgo y orientar el asesoramiento reproductivo. Si ambos son portadores, pueden discutirse pruebas diagnósticas prenatales según la enfermedad y las preferencias de la familia.",
     "perlaENARM": "Un progenitor portador de una enfermedad autosómica recesiva no implica que el feto esté afectado; es fundamental conocer el estado de portador de la pareja.",
     "bibliografia": [
@@ -930,7 +930,7 @@ window.BANCO_OBSTETRICIA = [
       "Fomentar actividad física moderada adaptada a su condición y preferencias, con evaluación de contraindicaciones y signos de alarma",
       "Limitar toda actividad a ejercicios realizados en cama"
     ],
-    "respuestaCorrecta": 3,
+    "respuestaCorrecta": 4,
     "explicacion": "En embarazos sin contraindicaciones, la actividad física moderada suele ser segura y beneficiosa. Debe adaptarse al nivel previo, evitar actividades con alto riesgo de trauma y suspenderse ante signos de alarma. El reposo absoluto no es una medida preventiva universal y puede tener efectos adversos.",
     "perlaENARM": "El embarazo normal no requiere reposo absoluto; la actividad física debe individualizarse según condiciones maternas y obstétricas.",
     "bibliografia": [
@@ -954,7 +954,7 @@ window.BANCO_OBSTETRICIA = [
       "Realizar únicamente una ecografía y posponer la evaluación clínica hasta la semana 20",
       "Revisar y cambiar el antihipertensivo a una alternativa compatible, establecer datación, solicitar estudios prenatales iniciales y planificar prevención y vigilancia según riesgo"
     ],
-    "respuestaCorrecta": 4,
+    "respuestaCorrecta": 5,
     "explicacion": "La primera consulta debe integrar datación, antecedentes, evaluación clínica, laboratorios prenatales y estratificación de riesgo. El losartán debe suspenderse y sustituirse por un antihipertensivo compatible con el embarazo bajo supervisión clínica. También debe revisarse inmunidad, vacunación, prevención de preeclampsia y necesidad de seguimiento especializado por hipertensión crónica.",
     "perlaENARM": "La primera consulta prenatal es una oportunidad crítica para corregir medicamentos fetotóxicos, establecer edad gestacional y prevenir complicaciones.",
     "bibliografia": [
