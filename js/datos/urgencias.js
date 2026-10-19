@@ -1,4 +1,4 @@
-window.BANCO_NEUROLOGIA = [
+window.BANCO_URGENCIAS = [
 
   {
     "id": "URGENCIAS - 001",
