@@ -415,10 +415,12 @@ async function iniciarConfigurado() {
   error.textContent = "";
 
   const disponibles = especialidad === "General"
-    ? BANCO_PREGUNTAS.length
-    : BANCO_PREGUNTAS.filter(q =>
-        q.especialidad === especialidad
-      ).length;
+  ? BANCO_PREGUNTAS.length
+  : BANCO_PREGUNTAS.filter(q =>
+      especialidad === "Cirugía"
+        ? ["Cirugía", "Cirugía General"].includes(q.especialidad)
+        : q.especialidad === especialidad
+    ).length;
 
   if (!disponibles) {
     error.textContent =
