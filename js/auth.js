@@ -911,6 +911,7 @@ window.tokenDispositivoAutorizado = token;
 
                 if (data !== true) {
                     window.tokenDispositivoAutorizado = null;
+                    sessionStorage.removeItem("tokenDispositivoAutorizado");
 
                     await window.supabaseClient.auth.signOut();
 
@@ -937,35 +938,73 @@ window.tokenDispositivoAutorizado = token;
         verificarDispositivoAutorizado();
 
 
-        async function comprobarSesion() {
+        
+async function comprobarSesion() {
+    try {
+        const { data, error } =
+            await window.supabaseClient.auth.getSession();
 
-            try {
+        if (error) throw error;
 
-                const { data, error } =
-                    await window.supabaseClient.auth.getSession();
+        const session = data.session;
 
-                if (error) {
-                    throw error;
-                }
-
-                actualizarUsuario(
-                    data.session
-                        ? data.session.user
-                        : null
-                );
-
-            } catch (error) {
-
-                console.error(
-                    "Error comprobando sesión:",
-                    error
-                );
-
-            }
-
+        if (!session) {
+            window.tokenDispositivoAutorizado = null;
+            sessionStorage.removeItem("tokenDispositivoAutorizado");
+            actualizarUsuario(null);
+            return;
         }
 
-        window.supabaseClient.auth.onAuthStateChange(
+        const token =
+            sessionStorage.getItem("tokenDispositivoAutorizado");
+
+        // Una sesión restaurada sin token de dispositivo
+        // no debe considerarse autorizada.
+        if (!token) {
+            window.tokenDispositivoAutorizado = null;
+            actualizarUsuario(null);
+
+            await window.supabaseClient.auth.signOut();
+
+            abrirLogin();
+            mensaje(
+                "Tu sesión no tiene una autorización de dispositivo válida. Inicia sesión nuevamente.",
+                "error"
+            );
+            return;
+        }
+
+        const { data: autorizado, error: errorVerificacion } =
+            await window.supabaseClient.rpc(
+                "is_current_device_authorized",
+                { p_token: token }
+            );
+
+        if (errorVerificacion) throw errorVerificacion;
+
+        if (autorizado !== true) {
+            window.tokenDispositivoAutorizado = null;
+            sessionStorage.removeItem("tokenDispositivoAutorizado");
+            actualizarUsuario(null);
+
+            await window.supabaseClient.auth.signOut();
+
+            abrirLogin();
+            mensaje(
+                "Esta cuenta inició sesión en otro dispositivo. Vuelve a iniciar sesión para continuar.",
+                "error"
+            );
+            return;
+        }
+
+        window.tokenDispositivoAutorizado = token;
+        actualizarUsuario(session.user);
+
+    } catch (error) {
+        console.error("Error comprobando sesión:", error);
+    }
+}
+
             function (_event, session) {
 
                 actualizarUsuario(
