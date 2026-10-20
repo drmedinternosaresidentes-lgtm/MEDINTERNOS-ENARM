@@ -1005,14 +1005,15 @@ async function comprobarSesion() {
     }
 }
 
-            function (_event, session) {
-
-                actualizarUsuario(
-                    session ? session.user : null
-                );
-
-            }
+            
+window.supabaseClient.auth.onAuthStateChange(
+    (_event, session) => {
+        actualizarUsuario(
+            session ? session.user : null
         );
+    }
+);
+
 
         // ----------------------------------------------------
         // TRADUCCIÓN DE ERRORES
