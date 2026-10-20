@@ -1,4 +1,4 @@
-window.BANCO_GINECOLOGIA = [
+window.BANCO_ANESTESIOLOGIA = [
   {
     "id": "ANESTESIOLOGIA - 001",
     "especialidad": "Anestesiología",
