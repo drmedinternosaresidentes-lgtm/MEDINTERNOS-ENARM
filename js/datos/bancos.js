@@ -9,7 +9,8 @@ const BANCO_PREGUNTAS = [
   ...window.BANCO_GINECOLOGIA,
   ...window.BANCO_OBSTETRICIA,
   ...window.BANCO_CIRUGIA,
-  ...window.BANCO_URGENCIAS
+  ...window.BANCO_URGENCIAS,
+  ...window.BANCO_ANESTESIOLOGIA
   
 ];
 
